@@ -1,0 +1,89 @@
+# Pack-a-Punch Docker Compose
+# Orchestration for training and inference services
+
+services:
+  # Inference service (main)
+  classifier:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.serve
+    image: pack-a-punch:serve
+    container_name: pap-classifier
+    ports:
+      - "8080:8080"
+    volumes:
+      # Mount models directory (persistent)
+      - ../src/models:/app/src/models:ro
+    environment:
+      - PAP_INFERENCE__NUM_SESSIONS=2
+      - PAP_INFERENCE__BATCH_SIZE=64
+      - PAP_INFERENCE__DEVICE=cuda
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [ gpu ]
+    restart: unless-stopped
+    healthcheck:
+      test: [ "CMD", "python", "-c", "import httpx; httpx.get('http://localhost:8080/health').raise_for_status()" ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+
+  # Training service (on-demand)
+  trainer:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.train
+    image: pack-a-punch:train
+    container_name: pap-trainer
+    volumes:
+      # Mount data directory (read-write)
+      - ../src/data:/app/src/data:rw
+      # Mount models directory (write output)
+      - ../src/models:/app/src/models:rw
+    environment:
+      - PAP_TRAINING__BATCH_SIZE=32
+      - PAP_TRAINING__FP16=true
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [ gpu ]
+    profiles:
+      - training # Only start with: docker-compose --profile training up
+
+  # Distillation with LM Studio (requires network access)
+  distiller:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.train
+    image: pack-a-punch:train
+    container_name: pap-distiller
+    volumes:
+      - ../src/data:/app/src/data:rw
+      - ../src/models:/app/src/models:rw
+    environment:
+      - PAP_DISTILLATION__TEACHER_URL=http://host.docker.internal:1234/v1/chat/completions
+      - PAP_DISTILLATION__MAX_SAMPLES=10000
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    command: [ "--data-source", "distillation", "--export-onnx" ]
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [ gpu ]
+    profiles:
+      - distillation # Only start with: docker-compose --profile distillation up
+
+networks:
+  default:
+    name: pack-a-punch-network

@@ -1,0 +1,62 @@
+# Pack-a-Punch Inference Dockerfile
+# Optimized for production serving
+
+FROM nvidia/cuda:12.1-runtime-ubuntu22.04
+
+# Prevent interactive prompts
+ENV DEBIAN_FRONTEND=noninteractive
+ENV PYTHONUNBUFFERED=1
+
+# Install Python (minimal)
+RUN apt-get update && apt-get install -y \
+    python3.11 \
+    python3.11-venv \
+    python3-pip \
+    && rm -rf /var/lib/apt/lists/* \
+    && apt-get clean
+
+# Set Python aliases
+RUN ln -sf /usr/bin/python3.11 /usr/bin/python && \
+    ln -sf /usr/bin/pip3 /usr/bin/pip
+
+# Create non-root user
+RUN useradd -m -u 1000 appuser
+
+# Create app directory
+WORKDIR /app
+
+# Copy requirements (inference subset)
+COPY requirements.txt .
+
+# Install only inference dependencies
+RUN pip install --no-cache-dir \
+    onnxruntime-gpu>=1.16.0 \
+    transformers>=4.36.0 \
+    tokenizers>=0.15.0 \
+    fastapi>=0.108.0 \
+    uvicorn[standard]>=0.25.0 \
+    pydantic>=2.5.0 \
+    pydantic-settings>=2.1.0 \
+    loguru>=0.7.0 \
+    numpy>=1.24.0
+
+# Copy source code
+COPY --chown=appuser:appuser src/ ./src/
+COPY --chown=appuser:appuser scripts/ ./scripts/
+
+# Create models directory (will be mounted)
+RUN mkdir -p src/models && chown appuser:appuser src/models
+
+# Switch to non-root user
+USER appuser
+
+# Expose port
+EXPOSE 8080
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=10s --start-period=10s --retries=3 \
+    CMD python -c "import httpx; httpx.get('http://localhost:8080/health').raise_for_status()" || exit 1
+
+# Run server
+ENTRYPOINT ["python", "scripts/serve.py"]
+CMD ["--host", "0.0.0.0", "--port", "8080"]

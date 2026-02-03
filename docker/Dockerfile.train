@@ -1,0 +1,39 @@
+# Pack-a-Punch Training Dockerfile
+# For fine-tuning ModernBERT on GPU
+
+FROM nvidia/cuda:12.1-devel-ubuntu22.04
+
+# Prevent interactive prompts
+ENV DEBIAN_FRONTEND=noninteractive
+ENV PYTHONUNBUFFERED=1
+
+# Install Python
+RUN apt-get update && apt-get install -y \
+    python3.11 \
+    python3.11-venv \
+    python3-pip \
+    git \
+    && rm -rf /var/lib/apt/lists/*
+
+# Set Python aliases
+RUN ln -sf /usr/bin/python3.11 /usr/bin/python && \
+    ln -sf /usr/bin/pip3 /usr/bin/pip
+
+# Create app directory
+WORKDIR /app
+
+# Copy requirements first for caching
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy source code
+COPY src/ ./src/
+COPY scripts/ ./scripts/
+COPY pyproject.toml .
+
+# Create data and models directories
+RUN mkdir -p src/data src/models
+
+# Set entrypoint
+ENTRYPOINT ["python", "scripts/train.py"]
+CMD ["--data-source", "auto", "--export-onnx"]

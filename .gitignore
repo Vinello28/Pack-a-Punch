@@ -1,0 +1,48 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Models (large files)
+src/models/*.onnx
+src/models/*.bin
+src/models/*.safetensors
+!src/models/.gitkeep
+
+# Data (user-specific)
+src/data/*.jsonl
+src/data/*.json
+src/data/ai/
+src/data/non_ai/
+src/data/unlabeled/
+!src/data/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
