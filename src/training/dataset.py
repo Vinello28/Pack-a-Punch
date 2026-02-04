@@ -74,8 +74,8 @@ def load_dataset_from_txt(
     
     Args:
         data_dir: Base data directory (default: settings.data_dir)
-        ai_subdir: Subdirectory name for AI-generated texts
-        non_ai_subdir: Subdirectory name for human-written texts
+        ai_subdir: Subdirectory name for texts about AI
+        non_ai_subdir: Subdirectory name for texts about other topics
         
     Returns:
         Tuple of (texts, labels) where label 1 = AI, 0 = NON_AI

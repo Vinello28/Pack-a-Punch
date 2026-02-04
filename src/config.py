@@ -45,7 +45,7 @@ class DistillationConfig(BaseModel):
     batch_size: int = 10
     confidence_threshold: float = 0.8
     max_samples: int = 10000
-    system_prompt: str = """Sei un classificatore di testi. Devi determinare se il testo seguente è stato generato da un'intelligenza artificiale (AI) o scritto da un umano (NON_AI).
+    system_prompt: str = """Sei un classificatore di testi. Devi determinare se il testo seguente parla di intelligenza artificiale (AI) o di altri argomenti (NON_AI).
 
 Rispondi SOLO con un JSON nel formato: {"label": "AI" o "NON_AI", "confidence": 0.0-1.0}"""
 
