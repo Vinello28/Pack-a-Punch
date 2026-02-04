@@ -46,8 +46,9 @@ services:
       # Mount models directory (write output)
       - ../src/models:/app/src/models:rw
     environment:
-      - PAP_TRAINING__BATCH_SIZE=32
+      - PAP_TRAINING__BATCH_SIZE=8
       - PAP_TRAINING__FP16=true
+      - PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
     deploy:
       resources:
         reservations:

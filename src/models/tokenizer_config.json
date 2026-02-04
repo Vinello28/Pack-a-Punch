@@ -1,0 +1,24 @@
+{
+  "backend": "tokenizers",
+  "clean_up_tokenization_spaces": true,
+  "cls_token": "[CLS]",
+  "is_local": false,
+  "mask_token": "[MASK]",
+  "model_input_names": [
+    "input_ids",
+    "attention_mask"
+  ],
+  "model_max_length": 1000000000000000019884624838656,
+  "model_specific_special_tokens": {},
+  "pad_token": "[PAD]",
+  "sep_token": "[SEP]",
+  "special_tokens": {
+    "cls_token": "[CLS]",
+    "mask_token": "[MASK]",
+    "pad_token": "[PAD]",
+    "sep_token": "[SEP]",
+    "unk_token": "[UNK]"
+  },
+  "tokenizer_class": "TokenizersBackend",
+  "unk_token": "[UNK]"
+}
