@@ -64,8 +64,8 @@ class ClassifyRequest(BaseModel):
     texts: list[str] = Field(
         ...,
         min_length=1,
-        max_length=100,
-        description="List of texts to classify (max 100)",
+        max_length=512,  # Increased from 100 to allow larger batches
+        description="List of texts to classify",
     )
 
 
