@@ -2,7 +2,7 @@
 # Orchestration for training and inference services
 
 services:
-  # Inference service (main)
+  # Inference service (main - ONNX backend)
   classifier:
     build:
       context: ..
@@ -18,6 +18,7 @@ services:
       - PAP_INFERENCE__NUM_SESSIONS=2
       - PAP_INFERENCE__BATCH_SIZE=64
       - PAP_INFERENCE__DEVICE=cuda
+      - INFERENCE_BACKEND=onnx
     deploy:
       resources:
         reservations:
@@ -32,6 +33,32 @@ services:
       timeout: 10s
       retries: 3
       start_period: 30s
+
+  # Inference service (PyTorch backend - for comparison)
+  classifier-pytorch:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.serve
+    image: pack-a-punch:serve
+    container_name: pap-classifier-pytorch
+    ports:
+      - "8081:8080"
+    volumes:
+      - ../src/models:/app/src/models:ro
+      - ../src/inference:/app/src/inference:ro # Mount code for quick changes
+    environment:
+      - PAP_INFERENCE__BATCH_SIZE=64
+      - PAP_INFERENCE__DEVICE=cuda
+      - INFERENCE_BACKEND=pytorch
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [ gpu ]
+    profiles:
+      - pytorch # Only start with: docker compose --profile pytorch up
 
   # Training service (on-demand)
   trainer:

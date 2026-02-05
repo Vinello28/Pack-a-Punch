@@ -16,9 +16,10 @@ env/
 *.swo
 
 # Models (large files)
-src/models/*.onnx
-src/models/*.bin
-src/models/*.safetensors
+#src/models/*.onnx
+#src/models/*.bin
+src/models/
+src/models/*.json   
 !src/models/.gitkeep
 
 # Data (user-specific)

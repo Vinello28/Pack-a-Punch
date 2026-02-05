@@ -113,11 +113,31 @@ python scripts/train.py \
 ```
 
 ### Benchmarking
-To test the inference performance on your hardware:
+
+Test inference performance comparing ONNX Runtime vs PyTorch backends:
 
 ```bash
-python scripts/benchmark.py --url http://localhost:8080 --num-samples 2000 --batch-size 64 --concurrent-requests 10
+# Start PyTorch backend (porta 8081)
+docker compose -f docker/docker-compose.yml --profile pytorch up classifier-pytorch
+
+# Start ONNX backend (porta 8080)
+docker compose -f docker/docker-compose.yml up classifier
 ```
+
+Run benchmarks:
+
+```bash
+# ONNX Runtime benchmark (default, optimized)
+python scripts/benchmark.py --url http://localhost:8080 --num-samples 10000 --batch-size 64 --concurrent-requests 10
+
+# PyTorch CUDA benchmark
+python scripts/benchmark.py --url http://localhost:8081 --num-samples 10000 --batch-size 64 --concurrent-requests 10
+
+# Pure serial latency (no concurrent overhead)
+python scripts/benchmark.py --url http://localhost:8081 --num-samples 10000 --batch-size 64 --concurrent-requests 1
+```
+
+> **Note**: `--concurrent-requests` simulates multiple HTTP clients. Requests are queued and processed sequentially on GPU.
 
 ---
 
