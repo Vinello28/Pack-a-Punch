@@ -1,20 +1,33 @@
 # 🥊 Pack-a-Punch
 
-> **ModernBERT Binary Classification System**  
+![copertina](public/images/rdm1.png)
+
+> **Italian BERT Binary Classification System**  
 > *High-performance AI text detection optimized for Italian language.*
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
-[![ONNX Runtime](https://img.shields.io/badge/ONNX%20Runtime-GPU-orange)](https://onnxruntime.ai/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.109%2B-green)](https://fastapi.tiangolo.com/)
-[![License](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE.md)
-[![Docker](https://img.shields.io/badge/Docker-Enabled-blue)](https://www.docker.com/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/downloads/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![ONNX Runtime](https://img.shields.io/badge/ONNX_Runtime-005CED?style=for-the-badge&logo=onnx&logoColor=white)](https://onnxruntime.ai/)
+[![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/)
+[![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)](https://developer.nvidia.com/cuda-toolkit)
+[![Metal](https://img.shields.io/badge/Metal-666666?style=for-the-badge&logo=apple&logoColor=white)](https://developer.apple.com/metal/)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)](https://docs.pydantic.dev/)
+[![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)](https://docs.pytest.org/)
+[![Fedora](https://img.shields.io/badge/Fedora-51A2DA?style=for-the-badge&logo=fedora&logoColor=white)](https://getfedora.org/)
+[![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://www.microsoft.com/windows)
+[![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)](https://www.apple.com/macos/)
+[![License](https://img.shields.io/badge/License-MIT-44CC11?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE.md)
 
-**Pack-a-Punch** is a robust binary classification system designed to distinguish between **AI-generated** and **Human-written** text. Built on top of `Italian-ModernBERT`, it leverages **ONNX Runtime** with CUDA acceleration for ultra-low latency inference, making it suitable for high-throughput production environments.
+**Pack-a-Punch** is a robust binary classification system designed to distinguish between **AI-generated** and **Human-written** text. Built on top of `dbmdz/bert-base-italian-xxl-cased`, it leverages **ONNX Runtime** with CUDA acceleration for ultra-low latency inference, making it suitable for high-throughput production environments.
+
+> 🍎 **Apple Users**: Please switch to the `apple-branch` for optimizations specific to macOS and Apple Silicon (M1/M2/M3) devices.
 
 ## ✨ Key Features
 
 - **🚀 High Performance**: Optimized ONNX Runtime inference pipeline delivering ~110 req/sec on consumer GPUs.
-- **🇮🇹 Italian Optimized**: Fine-tuned on `DeepMount00/Italian-ModernBERT-base` for superior understanding of Italian context.
+- **🇮🇹 Italian Optimized**: Fine-tuned on `dbmdz/bert-base-italian-xxl-cased` for superior understanding of Italian context.
 - **🧠 Knowledge Distillation**: Built-in pipeline to distill knowledge from large LLMs (via LM Studio) into a compact, efficient classifier.
 - **🐳 Production Ready**: Fully containerized with Docker and NVIDIA Container Toolkit support.
 - **⚙️ Type-Safe Config**: Robust configuration management using `pydantic-settings` with environment variable overrides.
