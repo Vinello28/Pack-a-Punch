@@ -14,8 +14,13 @@ services:
     volumes:
       # Mount models directory (persistent)
       - ../src/models:/app/src/models:ro
+      # Mount config directory
+      - ../config:/app/config:ro
+      # Mount source for hot-reload
+      - ../src/inference:/app/src/inference:ro
+      - ../src/training:/app/src/training:ro
     environment:
-      - PAP_INFERENCE__NUM_SESSIONS=2
+      - PAP_INFERENCE__NUM_SESSIONS=1
       - PAP_INFERENCE__BATCH_SIZE=64
       - PAP_INFERENCE__DEVICE=cuda
       - INFERENCE_BACKEND=onnx
@@ -46,6 +51,7 @@ services:
     volumes:
       - ../src/models:/app/src/models:ro
       - ../src/inference:/app/src/inference:ro # Mount code for quick changes
+      - ../config:/app/config:ro
     environment:
       - PAP_INFERENCE__BATCH_SIZE=64
       - PAP_INFERENCE__DEVICE=cuda
@@ -72,6 +78,8 @@ services:
       - ../src/data:/app/src/data:rw
       # Mount models directory (write output)
       - ../src/models:/app/src/models:rw
+      # Mount config directory
+      - ../config:/app/config:ro
     environment:
       - PAP_TRAINING__BATCH_SIZE=8
       - PAP_TRAINING__FP16=true
@@ -96,6 +104,7 @@ services:
     volumes:
       - ../src/data:/app/src/data:rw
       - ../src/models:/app/src/models:rw
+      - ../config:/app/config:ro
     environment:
       - PAP_DISTILLATION__TEACHER_URL=http://host.docker.internal:1234/v1/chat/completions
       - PAP_DISTILLATION__MAX_SAMPLES=10000

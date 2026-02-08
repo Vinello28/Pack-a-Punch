@@ -1,5 +1,5 @@
 # Pack-a-Punch Training Dockerfile
-# For fine-tuning ModernBERT on GPU
+# For fine-tuning BERT on GPU
 
 FROM nvidia/cuda:12.4.0-devel-ubuntu22.04
 
@@ -32,6 +32,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy source code
 COPY src/ ./src/
 COPY scripts/ ./scripts/
+COPY config/ ./config/
 COPY pyproject.toml .
 
 # Create data and models directories
@@ -39,4 +40,4 @@ RUN mkdir -p src/data src/models
 
 # Set entrypoint
 ENTRYPOINT ["python", "scripts/train.py"]
-CMD ["--data-source", "auto", "--export-onnx"]
+CMD ["--data-source", "auto", "--export-optimum"]

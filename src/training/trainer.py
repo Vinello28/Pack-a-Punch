@@ -1,5 +1,5 @@
 """
-Fine-tuning trainer for ModernBERT text classification.
+Fine-tuning trainer for BERT text classification.
 """
 
 from pathlib import Path

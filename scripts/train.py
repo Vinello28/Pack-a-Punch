@@ -21,6 +21,7 @@ from src.config import settings
 from src.training.trainer import Trainer
 from src.training.distillation import run_distillation
 from src.training.export_onnx import export_to_onnx
+from src.training.export_optimum import export_with_optimum
 
 
 def parse_args():
@@ -65,7 +66,13 @@ def parse_args():
     parser.add_argument(
         "--export-onnx",
         action="store_true",
-        help="Export to ONNX after training",
+        help="Export to ONNX after training (standard method)",
+    )
+    
+    parser.add_argument(
+        "--export-optimum",
+        action="store_true",
+        help="Export to ONNX using Optimum with kernel fusion (recommended for GPU)",
     )
     
     parser.add_argument(
@@ -122,8 +129,16 @@ def main():
         return 1
     
     # Export ONNX
-    if args.export_onnx:
-        logger.info("Exporting to ONNX...")
+    if args.export_optimum:
+        logger.info("Exporting to ONNX with Optimum (kernel fusion)...")
+        try:
+            onnx_path = export_with_optimum(model_path=model_path, fp16=args.fp16)
+            logger.info(f"Optimized ONNX model saved to: {onnx_path}")
+        except Exception as e:
+            logger.error(f"Optimum export failed: {e}")
+            return 1
+    elif args.export_onnx:
+        logger.info("Exporting to ONNX (standard method)...")
         try:
             onnx_path = export_to_onnx(model_path=model_path, fp16=args.fp16)
             logger.info(f"ONNX model saved to: {onnx_path}")

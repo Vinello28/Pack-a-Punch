@@ -10,6 +10,7 @@ pydantic-settings
 # ONNX Runtime (GPU)
 onnxruntime-gpu
 onnx
+optimum[onnxruntime-gpu]
 
 # API Server
 fastapi
@@ -28,6 +29,7 @@ httpx
 numpy
 tqdm
 loguru
+pyyaml
 
 # Testing
 pytest

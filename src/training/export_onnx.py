@@ -59,6 +59,7 @@ def export_to_onnx(
     dynamic_axes = {
         "input_ids": {0: "batch_size", 1: "sequence_length"},
         "attention_mask": {0: "batch_size", 1: "sequence_length"},
+        "token_type_ids": {0: "batch_size", 1: "sequence_length"},
         "logits": {0: "batch_size"},
     }
     
@@ -66,9 +67,9 @@ def export_to_onnx(
     logger.info(f"Exporting to ONNX: {output_path}")
     torch.onnx.export(
         model,
-        (dummy_input["input_ids"], dummy_input["attention_mask"]),
+        (dummy_input["input_ids"], dummy_input["attention_mask"], dummy_input["token_type_ids"]),
         str(output_path),
-        input_names=["input_ids", "attention_mask"],
+        input_names=["input_ids", "attention_mask", "token_type_ids"],
         output_names=["logits"],
         dynamic_axes=dynamic_axes,
         opset_version=opset_version,
@@ -94,13 +95,13 @@ def _optimize_onnx(model_path: Path, fp16: bool = True) -> Path:
     
     logger.info("Applying ONNX optimizations...")
     
-    # Optimize
-    opt_options = FusionOptions("bert")
+    # Optimize using architecture from config
+    opt_options = FusionOptions(settings.model.architecture.model_type)
     optimized_model = optimizer.optimize_model(
         str(model_path),
-        model_type="bert",
-        num_heads=12,  # ModernBERT-base
-        hidden_size=768,
+        model_type=settings.model.architecture.model_type,
+        num_heads=settings.model.architecture.num_heads,
+        hidden_size=settings.model.architecture.hidden_size,
         optimization_options=opt_options,
     )
     

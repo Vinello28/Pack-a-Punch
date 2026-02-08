@@ -110,7 +110,7 @@ class InferenceEngine:
                         {
                             "device_id": 0,
                             "arena_extend_strategy": "kNextPowerOfTwo",
-                            "gpu_mem_limit": 2 * 1024 * 1024 * 1024,  # 2GB per session
+                            "gpu_mem_limit": 6 * 1024 * 1024 * 1024,  # 6GB per session
                             "cudnn_conv_algo_search": "EXHAUSTIVE",
                             "do_copy_in_default_stream": True,
                         },
@@ -141,10 +141,16 @@ class InferenceEngine:
             return_tensors="np",
         )
         
-        return {
+        result = {
             "input_ids": encodings["input_ids"].astype(np.int64),
             "attention_mask": encodings["attention_mask"].astype(np.int64),
         }
+        
+        # Add token_type_ids if present (required for standard BERT models)
+        if "token_type_ids" in encodings:
+            result["token_type_ids"] = encodings["token_type_ids"].astype(np.int64)
+        
+        return result
     
     def _run_session(
         self,
@@ -237,7 +243,8 @@ class InferenceEngine:
     def warmup(self, num_iterations: int = 3):
         """Warmup sessions with dummy data."""
         logger.info("Warming up inference engine...")
-        dummy_texts = ["Testo di prova per warmup"] * self.batch_size
+        warmup_batch = min(8, self.batch_size)  # Small batch for warmup
+        dummy_texts = ["Testo di prova per warmup"] * warmup_batch
         
         for i in range(num_iterations):
             for session in self.sessions:

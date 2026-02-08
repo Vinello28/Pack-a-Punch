@@ -1,0 +1,61 @@
+# Pack-a-Punch Model Configuration
+# This file centralizes all model-related parameters for easy customization.
+
+model:
+  # Model identifier (HuggingFace Hub)
+  name: "dbmdz/bert-base-italian-xxl-cased"
+  
+  # Maximum sequence length in tokens
+  max_length: 512
+  
+  # Number of classification labels
+  num_labels: 2
+  
+  # Label mapping (id -> name)
+  label_map:
+    0: "NON_AI"
+    1: "AI"
+  
+  # Model architecture (used for ONNX optimization)
+  architecture:
+    num_heads: 12
+    hidden_size: 768
+    model_type: "bert"
+
+training:
+  batch_size: 32
+  learning_rate: 2.0e-5
+  num_epochs: 3
+  warmup_ratio: 0.1
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+  fp16: true
+  save_steps: 500
+  eval_steps: 100
+  early_stopping_patience: 3
+
+inference:
+  batch_size: 64
+  num_sessions: 2
+  max_queue_size: 1000
+  batch_timeout_ms: 50
+  use_fp16: true
+  device: "cuda"
+
+server:
+  host: "0.0.0.0"
+  port: 8080
+  max_batch_size: 100
+  workers: 1
+  timeout: 60
+
+distillation:
+  teacher_url: "http://localhost:1234/v1/chat/completions"
+  teacher_model: "local-model"
+  batch_size: 10
+  confidence_threshold: 0.8
+  max_samples: 10000
+  system_prompt: |
+    Sei un classificatore di testi. Devi determinare se il testo seguente parla di intelligenza artificiale (AI) o di altri argomenti (NON_AI).
+    
+    Rispondi SOLO con un JSON nel formato: {"label": "AI" o "NON_AI", "confidence": 0.0-1.0}
