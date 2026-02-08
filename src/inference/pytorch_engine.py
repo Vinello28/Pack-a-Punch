@@ -188,9 +188,11 @@ class PyTorchInferenceEngine:
         for i in range(num_iterations):
             self.predict_batch(dummy_texts)
         
-        # Sync CUDA
+        # Sync device
         if self.device == "cuda":
             torch.cuda.synchronize()
+        elif self.device == "mps":
+            torch.mps.synchronize()
         
         logger.info("Warmup complete")
     
@@ -208,6 +210,8 @@ class PyTorchInferenceEngine:
             stats["cuda_device"] = torch.cuda.get_device_name(0)
             stats["cuda_memory_allocated_mb"] = torch.cuda.memory_allocated() / (1024 * 1024)
             stats["cuda_memory_reserved_mb"] = torch.cuda.memory_reserved() / (1024 * 1024)
+        elif self.device == "mps":
+            stats["mps_is_available"] = torch.backends.mps.is_available()
         
         return stats
 

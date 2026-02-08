@@ -23,7 +23,7 @@ model:
     model_type: "bert"
 
 training:
-  batch_size: 32
+  batch_size: 16
   learning_rate: 2.0e-5
   num_epochs: 3
   warmup_ratio: 0.1
@@ -40,7 +40,7 @@ inference:
   max_queue_size: 1000
   batch_timeout_ms: 50
   use_fp16: true
-  device: "cuda"
+  device: "mps"
 
 server:
   host: "0.0.0.0"

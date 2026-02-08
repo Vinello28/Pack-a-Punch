@@ -8,9 +8,9 @@ pydantic
 pydantic-settings
 
 # ONNX Runtime (GPU)
-onnxruntime-gpu
+onnxruntime-silicon
 onnx
-optimum[onnxruntime-gpu]
+optimum[onnxruntime-silicon]
 
 # API Server
 fastapi

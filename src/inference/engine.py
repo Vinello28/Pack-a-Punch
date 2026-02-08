@@ -117,6 +117,9 @@ class InferenceEngine:
                     ),
                     "CPUExecutionProvider",
                 ]
+            elif self.device == "mps":
+                # Use CoreML for macOS acceleration if available, otherwise fallback to CPU
+                providers = ["CoreMLExecutionProvider", "CPUExecutionProvider"]
             else:
                 providers = ["CPUExecutionProvider"]
             

@@ -81,7 +81,7 @@ class InferenceConfig(BaseModel):
     max_queue_size: int = _inference_cfg["max_queue_size"]
     batch_timeout_ms: int = _inference_cfg["batch_timeout_ms"]
     use_fp16: bool = _inference_cfg["use_fp16"]
-    device: Literal["cuda", "cpu"] = _inference_cfg["device"]
+    device: Literal["cuda", "cpu", "mps"] = _inference_cfg["device"]
 
 
 class ServerConfig(BaseModel):

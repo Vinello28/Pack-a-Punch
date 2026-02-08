@@ -49,8 +49,18 @@ class Trainer:
         self.early_stopping_patience = early_stopping_patience
         self.eval_split = eval_split
         
-        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        # Device selection: cuda > mps > cpu
+        if torch.cuda.is_available():
+            self.device = torch.device("cuda")
+        elif torch.backends.mps.is_available():
+            self.device = torch.device("mps")
+        else:
+            self.device = torch.device("cpu")
+            
         logger.info(f"Using device: {self.device}")
+        
+        # FP16 support: CUDA or MPS (via autocast)
+        self.fp16 = fp16 and (self.device.type == "cuda" or self.device.type == "mps")
         
         # Initialize model and tokenizer
         logger.info(f"Loading model: {self.model_name}")
@@ -61,8 +71,9 @@ class Trainer:
         ).to(self.device)
         
         if self.fp16:
-            self.scaler = torch.amp.GradScaler('cuda')
-            logger.info("Using mixed precision (FP16)")
+            # GradScaler handles device automatically in newer torch versions
+            self.scaler = torch.amp.GradScaler(self.device.type if self.device.type == "cuda" else "cpu")
+            logger.info(f"Using mixed precision (FP16) on {self.device}")
     
     def _prepare_data(
         self,
@@ -92,7 +103,7 @@ class Trainer:
             batch_size=self.batch_size,
             shuffle=True,
             num_workers=0,
-            pin_memory=True,
+            pin_memory=self.device.type == "cuda",
         )
         
         eval_loader = DataLoader(
@@ -100,7 +111,7 @@ class Trainer:
             batch_size=self.batch_size * 2,
             shuffle=False,
             num_workers=0,
-            pin_memory=True,
+            pin_memory=self.device.type == "cuda",
         )
         
         logger.info(f"Train size: {train_size}, Eval size: {eval_size}")
@@ -199,7 +210,7 @@ class Trainer:
                 optimizer.zero_grad()
                 
                 if self.fp16:
-                    with torch.amp.autocast('cuda'):
+                    with torch.amp.autocast(self.device.type):
                         outputs = self.model(
                             input_ids=input_ids,
                             attention_mask=attention_mask,
