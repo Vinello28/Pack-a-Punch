@@ -25,14 +25,17 @@ model:
 training:
   batch_size: 32
   learning_rate: 2.0e-5
-  num_epochs: 3
+  num_epochs: 4
   warmup_ratio: 0.1
   weight_decay: 0.01
   max_grad_norm: 1.0
   fp16: true
   save_steps: 500
   eval_steps: 100
-  early_stopping_patience: 3
+  early_stopping_patience: 7
+  # K-Fold Cross Validation
+  kfold_enabled: true
+  kfold_splits: 5
 
 inference:
   batch_size: 64

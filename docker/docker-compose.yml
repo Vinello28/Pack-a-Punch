@@ -80,6 +80,9 @@ services:
       - ../src/models:/app/src/models:rw
       # Mount config directory
       - ../config:/app/config:ro
+      # Mount source code for development (so changes apply without rebuild)
+      - ../src:/app/src:ro
+      - ../scripts:/app/scripts:ro
     environment:
       - PAP_TRAINING__BATCH_SIZE=8
       - PAP_TRAINING__FP16=true

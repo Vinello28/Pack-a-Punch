@@ -89,6 +89,20 @@ def parse_args():
         help="Output directory for model",
     )
     
+    parser.add_argument(
+        "--kfold",
+        action="store_true",
+        default=settings.training.kfold_enabled,
+        help="Use Stratified K-Fold Cross Validation instead of simple split",
+    )
+    
+    parser.add_argument(
+        "--kfold-splits",
+        type=int,
+        default=settings.training.kfold_splits,
+        help="Number of folds for K-Fold CV (default: 5)",
+    )
+    
     return parser.parse_args()
 
 
@@ -122,7 +136,14 @@ def main():
     )
     
     try:
-        model_path = trainer.train(data_source=args.data_source)
+        if args.kfold:
+            logger.info(f"Using {args.kfold_splits}-Fold Stratified Cross Validation")
+            model_path = trainer.train_kfold(
+                n_splits=args.kfold_splits,
+                data_source=args.data_source,
+            )
+        else:
+            model_path = trainer.train(data_source=args.data_source)
         logger.info(f"Training complete. Model saved to: {model_path}")
     except Exception as e:
         logger.error(f"Training failed: {e}")

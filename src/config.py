@@ -62,6 +62,8 @@ class TrainingConfig(BaseModel):
     save_steps: int = _training_cfg["save_steps"]
     eval_steps: int = _training_cfg["eval_steps"]
     early_stopping_patience: int = _training_cfg["early_stopping_patience"]
+    kfold_enabled: bool = _training_cfg.get("kfold_enabled", False)
+    kfold_splits: int = _training_cfg.get("kfold_splits", 5)
 
 
 class DistillationConfig(BaseModel):

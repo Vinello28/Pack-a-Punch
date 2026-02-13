@@ -59,6 +59,7 @@ def load_dataset_from_txt(
     data_dir: Optional[Path] = None,
     ai_subdir: str = "ai",
     non_ai_subdir: str = "non_ai",
+    in_domain_only: bool = True,
 ) -> tuple[list[str], list[int]]:
     """
     Load dataset from TXT files organized in label directories.
@@ -66,16 +67,17 @@ def load_dataset_from_txt(
     Expected structure:
     data_dir/
     ├── ai/
-    │   ├── file1.txt
-    │   └── file2.txt
+    │   ├── tbc_0.txt
+    │   └── tbc_1.txt
     └── non_ai/
-        ├── file3.txt
-        └── file4.txt
+        ├── tbc_2.txt
+        └── tbc_3.txt
     
     Args:
         data_dir: Base data directory (default: settings.data_dir)
         ai_subdir: Subdirectory name for texts about AI
         non_ai_subdir: Subdirectory name for texts about other topics
+        in_domain_only: If True, only load tbc_* files (verified in-domain data)
         
     Returns:
         Tuple of (texts, labels) where label 1 = AI, 0 = NON_AI
@@ -86,10 +88,14 @@ def load_dataset_from_txt(
     texts = []
     labels = []
     
+    glob_pattern = "tbc_*.txt" if in_domain_only else "*.txt"
+    if in_domain_only:
+        logger.info("In-domain mode: loading only tbc_* files")
+    
     # Load AI texts (label = 1)
     ai_dir = data_dir / ai_subdir
     if ai_dir.exists():
-        for txt_file in ai_dir.glob("*.txt"):
+        for txt_file in sorted(ai_dir.glob(glob_pattern)):
             content = txt_file.read_text(encoding="utf-8").strip()
             if content:
                 texts.append(content)
@@ -101,7 +107,7 @@ def load_dataset_from_txt(
     # Load NON_AI texts (label = 0)
     non_ai_dir = data_dir / non_ai_subdir
     if non_ai_dir.exists():
-        for txt_file in non_ai_dir.glob("*.txt"):
+        for txt_file in sorted(non_ai_dir.glob(glob_pattern)):
             content = txt_file.read_text(encoding="utf-8").strip()
             if content:
                 texts.append(content)
