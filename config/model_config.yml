@@ -38,7 +38,7 @@ training:
   kfold_splits: 5
 
 inference:
-  batch_size: 64
+  batch_size: 256
   num_sessions: 2
   max_queue_size: 1000
   batch_timeout_ms: 50
@@ -48,7 +48,7 @@ inference:
 server:
   host: "0.0.0.0"
   port: 8080
-  max_batch_size: 100
+  max_batch_size: 256
   workers: 1
   timeout: 60
 
