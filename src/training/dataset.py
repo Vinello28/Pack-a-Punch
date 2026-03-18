@@ -59,7 +59,7 @@ def load_dataset_from_txt(
     data_dir: Optional[Path] = None,
     ai_subdir: str = "ai",
     non_ai_subdir: str = "non_ai",
-    in_domain_only: bool = True,
+    in_domain_only: bool = False,
 ) -> tuple[list[str], list[int]]:
     """
     Load dataset from TXT files organized in label directories.
