@@ -73,6 +73,8 @@ services:
       dockerfile: docker/Dockerfile.train
     image: pack-a-punch:train
     container_name: pap-trainer
+    security_opt:
+      - seccomp:unconfined
     volumes:
       # Mount data directory (read-write)
       - ../src/data:/app/src/data:rw
@@ -87,6 +89,10 @@ services:
       - PAP_TRAINING__BATCH_SIZE=16
       - PAP_TRAINING__FP16=true
       - PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+      - OPENBLAS_NUM_THREADS=24
+      - OMP_NUM_THREADS=24
+      - MKL_NUM_THREADS=24
+    ipc: host
     deploy:
       resources:
         reservations:
