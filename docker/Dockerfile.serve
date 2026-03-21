@@ -10,11 +10,15 @@ ENV PYTHONUNBUFFERED=1
 # Default to ONNX backend (set to "pytorch" for PyTorch)
 ENV INFERENCE_BACKEND=onnx
 
+# Correction for DGX old servers
+RUN rm -f /etc/apt/apt.conf.d/docker-clean
+
 # Install Python and build tools (gcc + Python headers needed for torch.compile/Triton)
 RUN apt-get update && apt-get install -y \
     python3.11 \
     python3.11-venv \
     python3.11-dev \
+    python3-pip \
     curl \
     build-essential \
     && rm -rf /var/lib/apt/lists/* \
@@ -38,9 +42,11 @@ COPY requirements.txt .
 # Install inference dependencies
 # PyTorch with CUDA 12.4 for pytorch backend
 # ONNX Runtime for onnx backend
-RUN pip install --no-cache-dir \
+RUN python3 -m pip install --no-cache-dir \
+    --progress-bar off --default-timeout=1000 \
     torch --index-url https://download.pytorch.org/whl/cu124 \
     && pip install --no-cache-dir \
+    --progress-bar off --default-timeout=1000 \
     onnxruntime-gpu>=1.16.0 \
     transformers>=4.36.0 \
     tokenizers>=0.15.0 \
