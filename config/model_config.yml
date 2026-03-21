@@ -3,7 +3,9 @@
 
 model:
   # Model identifier (HuggingFace Hub)
-  name: "dbmdz/bert-base-italian-xxl-cased"
+  name: "dbmdz/bert-base-italian-xxl-cased"                                 
+
+  # "dbmdz/bert-base-italian-xxl-cased"
   
   # Maximum sequence length in tokens
   max_length: 512
