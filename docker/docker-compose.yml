@@ -30,7 +30,6 @@ services:
           devices:
             - driver: nvidia
               device_ids: ['5']
-              count: 1
               capabilities: [ gpu ]
     restart: unless-stopped
     healthcheck:
@@ -62,7 +61,7 @@ services:
         reservations:
           devices:
             - driver: nvidia
-              count: 1
+              device_ids: ['5']
               capabilities: [ gpu ]
     profiles:
       - pytorch # Only start with: docker compose --profile pytorch up
@@ -85,7 +84,7 @@ services:
       - ../src:/app/src:ro
       - ../scripts:/app/scripts:ro
     environment:
-      - PAP_TRAINING__BATCH_SIZE=8
+      - PAP_TRAINING__BATCH_SIZE=16
       - PAP_TRAINING__FP16=true
       - PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
     deploy:
@@ -93,7 +92,7 @@ services:
         reservations:
           devices:
             - driver: nvidia
-              count: 1
+              device_ids: ['5']
               capabilities: [ gpu ]
     profiles:
       - training # Only start with: docker-compose --profile training up
@@ -120,7 +119,7 @@ services:
         reservations:
           devices:
             - driver: nvidia
-              count: 1
+              device_ids: ['5']
               capabilities: [ gpu ]
     profiles:
       - distillation # Only start with: docker-compose --profile distillation up
