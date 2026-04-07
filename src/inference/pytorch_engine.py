@@ -49,6 +49,7 @@ class PyTorchInferenceEngine:
         self.model = AutoModelForSequenceClassification.from_pretrained(
             self.model_path,
             torch_dtype=torch.float16 if fp16 else torch.float32,
+            attn_implementation="eager",
         )
         self.tokenizer = AutoTokenizer.from_pretrained(self.model_path)
         

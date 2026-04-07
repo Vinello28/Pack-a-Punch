@@ -40,7 +40,9 @@ def export_to_onnx(
         output_path = model_path / f"model{suffix}"
     
     logger.info(f"Loading model from {model_path}")
-    model = AutoModelForSequenceClassification.from_pretrained(model_path)
+    model = AutoModelForSequenceClassification.from_pretrained(
+        model_path, attn_implementation="eager"
+    )
     tokenizer = AutoTokenizer.from_pretrained(model_path)
     
     model.eval()
@@ -59,17 +61,24 @@ def export_to_onnx(
     dynamic_axes = {
         "input_ids": {0: "batch_size", 1: "sequence_length"},
         "attention_mask": {0: "batch_size", 1: "sequence_length"},
-        "token_type_ids": {0: "batch_size", 1: "sequence_length"},
         "logits": {0: "batch_size"},
     }
-    
+
+    # Build input tuple from tokenizer output (ModernBERT has no token_type_ids)
+    input_tensors = (dummy_input["input_ids"], dummy_input["attention_mask"])
+    input_names = ["input_ids", "attention_mask"]
+    if "token_type_ids" in dummy_input:
+        input_tensors = (*input_tensors, dummy_input["token_type_ids"])
+        input_names.append("token_type_ids")
+        dynamic_axes["token_type_ids"] = {0: "batch_size", 1: "sequence_length"}
+
     # Export
     logger.info(f"Exporting to ONNX: {output_path}")
     torch.onnx.export(
         model,
-        (dummy_input["input_ids"], dummy_input["attention_mask"], dummy_input["token_type_ids"]),
+        input_tensors,
         str(output_path),
-        input_names=["input_ids", "attention_mask", "token_type_ids"],
+        input_names=input_names,
         output_names=["logits"],
         dynamic_axes=dynamic_axes,
         opset_version=opset_version,
@@ -96,10 +105,14 @@ def _optimize_onnx(model_path: Path, fp16: bool = True) -> Path:
     logger.info("Applying ONNX optimizations...")
     
     # Optimize using architecture from config
-    opt_options = FusionOptions(settings.model.architecture.model_type)
+    # ModernBERT is not recognized by ORT optimizer; fall back to "bert"
+    ort_model_type = settings.model.architecture.model_type
+    if ort_model_type == "modernbert":
+        ort_model_type = "bert"
+    opt_options = FusionOptions(ort_model_type)
     optimized_model = optimizer.optimize_model(
         str(model_path),
-        model_type=settings.model.architecture.model_type,
+        model_type=ort_model_type,
         num_heads=settings.model.architecture.num_heads,
         hidden_size=settings.model.architecture.hidden_size,
         optimization_options=opt_options,

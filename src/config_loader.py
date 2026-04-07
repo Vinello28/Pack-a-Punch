@@ -60,14 +60,23 @@ def get_model_config(config: Optional[dict] = None) -> dict[str, Any]:
         config = load_yaml_config()
     
     defaults = {
-        "name": "dbmdz/bert-base-italian-xxl-cased",
-        "max_length": 512,
-        "num_labels": 2,
-        "label_map": {0: "NON_AI", 1: "AI"},
+        "name": "answerdotai/ModernBERT-base",
+        "max_length": 3072,
+        "num_labels": 8,
+        "label_map": {
+            0: "AI Research",
+            1: "Autonomous Driving",
+            2: "Data Science",
+            3: "Defense & Aerospace",
+            4: "Enterprise AI",
+            5: "Healthcare AI",
+            6: "Robotics, UAV, Industry",
+            7: "Virtual Assistants",
+        },
         "architecture": {
             "num_heads": 12,
             "hidden_size": 768,
-            "model_type": "bert",
+            "model_type": "modernbert",
         },
     }
     
@@ -157,9 +166,15 @@ def get_distillation_config(config: Optional[dict] = None) -> dict[str, Any]:
         "batch_size": 10,
         "confidence_threshold": 0.8,
         "max_samples": 10000,
-        "system_prompt": """Sei un classificatore di testi. Devi determinare se il testo seguente parla di intelligenza artificiale (AI) o di altri argomenti (NON_AI).
-
-Rispondi SOLO con un JSON nel formato: {"label": "AI" o "NON_AI", "confidence": 0.0-1.0}""",
+        "system_prompt": (
+            "Sei un classificatore di testi. Devi determinare in quale settore di applicazione "
+            "dell'intelligenza artificiale rientra il testo seguente.\n\n"
+            'Le categorie possibili sono: "AI Research", "Autonomous Driving", "Data Science", '
+            '"Defense & Aerospace", "Enterprise AI", "Healthcare AI", '
+            '"Robotics, UAV, Industry", "Virtual Assistants".\n\n'
+            'Rispondi SOLO con un JSON nel formato: {"label": "<una delle categorie>", '
+            '"confidence": 0.0-1.0}'
+        ),
     }
     
     return {**defaults, **config.get("distillation", {})}

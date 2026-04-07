@@ -2,11 +2,13 @@
 Dataset loading utilities for text classification.
 
 Supports:
-1. TXT files organized in label directories (data/ai/, data/non_ai/)
-2. JSONL files with {"text": "...", "label": 0|1} format
+1. TXT files organized in label directories (one subdirectory per class)
+2. JSONL files with {"text": "...", "label": 0|1|...} format
 """
 
 import json
+import re
+from collections import Counter
 from pathlib import Path
 from typing import Optional
 
@@ -18,6 +20,25 @@ from loguru import logger
 from src.config import settings
 
 
+def _slugify(name: str) -> str:
+    """Convert a label name to a directory slug (lowercase, underscores)."""
+    slug = name.lower()
+    slug = slug.replace("&", "").replace(",", "")
+    slug = re.sub(r"[^a-z0-9]+", "_", slug)
+    slug = slug.strip("_")
+    return re.sub(r"_+", "_", slug)
+
+
+def _build_slug_to_id() -> dict[str, int]:
+    """Build mapping from directory slug to label index."""
+    return {_slugify(name): idx for idx, name in settings.model.label_map.items()}
+
+
+def _build_name_to_id() -> dict[str, int]:
+    """Build mapping from label name to label index (case-insensitive)."""
+    return {name.lower(): idx for idx, name in settings.model.label_map.items()}
+
+
 class TextClassificationDataset(Dataset):
     """PyTorch Dataset for text classification."""
     
@@ -26,7 +47,7 @@ class TextClassificationDataset(Dataset):
         texts: list[str],
         labels: list[int],
         tokenizer: PreTrainedTokenizer,
-        max_length: int = 512,
+        max_length: int = 3072,
     ):
         self.texts = texts
         self.labels = labels
@@ -57,69 +78,54 @@ class TextClassificationDataset(Dataset):
 
 def load_dataset_from_txt(
     data_dir: Optional[Path] = None,
-    ai_subdir: str = "ai",
-    non_ai_subdir: str = "non_ai",
     in_domain_only: bool = False,
 ) -> tuple[list[str], list[int]]:
     """
     Load dataset from TXT files organized in label directories.
-    
-    Expected structure:
-    data_dir/
-    ├── ai/
-    │   ├── tbc_0.txt
-    │   └── tbc_1.txt
-    └── non_ai/
-        ├── tbc_2.txt
-        └── tbc_3.txt
-    
+
+    Each subdirectory name is matched against the slugified label names
+    from settings.model.label_map.
+
     Args:
         data_dir: Base data directory (default: settings.data_dir)
-        ai_subdir: Subdirectory name for texts about AI
-        non_ai_subdir: Subdirectory name for texts about other topics
         in_domain_only: If True, only load tbc_* files (verified in-domain data)
-        
+
     Returns:
-        Tuple of (texts, labels) where label 1 = AI, 0 = NON_AI
+        Tuple of (texts, labels)
     """
     if data_dir is None:
         data_dir = settings.data_dir
-    
+
+    slug_to_id = _build_slug_to_id()
     texts = []
     labels = []
-    
+
     glob_pattern = "tbc_*.txt" if in_domain_only else "*.txt"
     if in_domain_only:
         logger.info("In-domain mode: loading only tbc_* files")
-    
-    # Load AI texts (label = 1)
-    ai_dir = data_dir / ai_subdir
-    if ai_dir.exists():
-        for txt_file in sorted(ai_dir.glob(glob_pattern)):
+
+    for subdir in sorted(data_dir.iterdir()):
+        if not subdir.is_dir():
+            continue
+        label_id = slug_to_id.get(subdir.name)
+        if label_id is None:
+            continue
+        count = 0
+        for txt_file in sorted(subdir.glob(glob_pattern)):
             content = txt_file.read_text(encoding="utf-8").strip()
             if content:
                 texts.append(content)
-                labels.append(1)
-        logger.info(f"Loaded {len([l for l in labels if l == 1])} AI samples from {ai_dir}")
-    else:
-        logger.warning(f"AI directory not found: {ai_dir}")
-    
-    # Load NON_AI texts (label = 0)
-    non_ai_dir = data_dir / non_ai_subdir
-    if non_ai_dir.exists():
-        for txt_file in sorted(non_ai_dir.glob(glob_pattern)):
-            content = txt_file.read_text(encoding="utf-8").strip()
-            if content:
-                texts.append(content)
-                labels.append(0)
-        logger.info(f"Loaded {len([l for l in labels if l == 0])} NON_AI samples from {non_ai_dir}")
-    else:
-        logger.warning(f"NON_AI directory not found: {non_ai_dir}")
-    
+                labels.append(label_id)
+                count += 1
+        label_name = settings.model.label_map[label_id]
+        logger.info(f"Loaded {count} '{label_name}' samples from {subdir}")
+
     if not texts:
         raise ValueError(f"No training data found in {data_dir}")
-    
-    logger.info(f"Total dataset size: {len(texts)} samples")
+
+    dist = Counter(labels)
+    dist_str = ", ".join(f"{settings.model.label_map[k]}: {v}" for k, v in sorted(dist.items()))
+    logger.info(f"Total dataset size: {len(texts)} samples ({dist_str})")
     return texts, labels
 
 
@@ -163,13 +169,19 @@ def load_dataset_from_jsonl(
                     logger.warning(f"Empty text at line {line_num}, skipping")
                     continue
                     
-                if label not in (0, 1):
-                    # Try to convert string labels
-                    if isinstance(label, str):
-                        label = 1 if label.upper() == "AI" else 0
-                    else:
-                        logger.warning(f"Invalid label at line {line_num}: {label}")
+                valid_ids = set(range(settings.model.num_labels))
+                if isinstance(label, int) and label in valid_ids:
+                    pass  # already a valid integer label
+                elif isinstance(label, str):
+                    name_to_id = _build_name_to_id()
+                    resolved = name_to_id.get(label.lower())
+                    if resolved is None:
+                        logger.warning(f"Unknown label at line {line_num}: {label}")
                         continue
+                    label = resolved
+                else:
+                    logger.warning(f"Invalid label at line {line_num}: {label}")
+                    continue
                 
                 texts.append(text)
                 labels.append(label)
@@ -179,7 +191,9 @@ def load_dataset_from_jsonl(
                 continue
     
     logger.info(f"Loaded {len(texts)} samples from {file_path}")
-    logger.info(f"Label distribution: AI={sum(labels)}, NON_AI={len(labels) - sum(labels)}")
+    dist = Counter(labels)
+    dist_str = ", ".join(f"{settings.model.label_map[k]}: {v}" for k, v in sorted(dist.items()))
+    logger.info(f"Label distribution: {dist_str}")
     
     return texts, labels
 
@@ -219,11 +233,18 @@ def load_dataset(
         logger.info("Auto-detected: train.jsonl")
         return load_dataset_from_jsonl(data_dir / "train.jsonl")
     
-    if (data_dir / "ai").exists() or (data_dir / "non_ai").exists():
+    # Check if any subdirectory matches a label slug
+    slug_to_id = _build_slug_to_id()
+    has_label_dirs = any(
+        subdir.is_dir() and subdir.name in slug_to_id
+        for subdir in data_dir.iterdir()
+        if subdir.is_dir()
+    )
+    if has_label_dirs:
         logger.info("Auto-detected: TXT directories")
         return load_dataset_from_txt(data_dir)
-    
+
     raise ValueError(
         f"No dataset found in {data_dir}. "
-        "Expected: train.jsonl, distilled.jsonl, or ai/non_ai directories"
+        "Expected: train.jsonl, distilled.jsonl, or label subdirectories"
     )

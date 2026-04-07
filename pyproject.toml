@@ -1,7 +1,7 @@
 [project]
 name = "pack-a-punch"
 version = "0.1.0"
-description = "Binary classification system using Italian ModernBERT"
+description = "Multi-class AI sector classification system using ModernBERT"
 readme = "README.md"
 requires-python = ">=3.10"
 license = {file = "LICENSE.md"}

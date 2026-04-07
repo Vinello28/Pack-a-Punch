@@ -65,7 +65,7 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(
     title="Pack-a-Punch Classifier",
-    description="Binary text classification API (AI/NON_AI)",
+    description="Multi-class text classification API",
     version="0.1.0",
     lifespan=lifespan,
 )
@@ -84,7 +84,7 @@ class ClassifyRequest(BaseModel):
 
 class Prediction(BaseModel):
     """Single prediction result."""
-    label: str = Field(..., description="Predicted label (AI or NON_AI)")
+    label: str = Field(..., description="Predicted label")
     confidence: float = Field(..., ge=0.0, le=1.0, description="Confidence score")
 
 
@@ -110,9 +110,9 @@ class MetricsResponse(BaseModel):
 @app.post("/classify", response_model=ClassifyResponse)
 async def classify(request: ClassifyRequest) -> ClassifyResponse:
     """
-    Classify texts as AI-generated or human-written.
-    
-    Accepts up to 100 texts per request. Uses dynamic batching
+    Classify texts by AI application sector.
+
+    Accepts up to 512 texts per request. Uses dynamic batching
     for optimal throughput.
     """
     if _batcher is None:

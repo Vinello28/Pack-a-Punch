@@ -3,6 +3,7 @@ Fine-tuning trainer for BERT text classification.
 Supports both simple train/eval split and Stratified K-Fold Cross Validation.
 """
 
+from collections import Counter
 from pathlib import Path
 from typing import Optional
 import copy
@@ -70,6 +71,7 @@ class Trainer:
         self.model = AutoModelForSequenceClassification.from_pretrained(
             self.model_name,
             num_labels=settings.model.num_labels,
+            attn_implementation="eager",
         ).to(self.device)
         
         if self.fp16:
@@ -167,9 +169,9 @@ class Trainer:
         metrics = {
             "loss": total_loss / len(eval_loader),
             "accuracy": accuracy_score(all_labels, all_preds),
-            "f1": f1_score(all_labels, all_preds, average="binary"),
-            "precision": precision_score(all_labels, all_preds, average="binary"),
-            "recall": recall_score(all_labels, all_preds, average="binary"),
+            "f1": f1_score(all_labels, all_preds, average="weighted", zero_division=0),
+            "precision": precision_score(all_labels, all_preds, average="weighted", zero_division=0),
+            "recall": recall_score(all_labels, all_preds, average="weighted", zero_division=0),
         }
         
         return metrics
@@ -345,7 +347,9 @@ class Trainer:
         
         logger.info("=" * 60)
         logger.info(f"Starting {n_splits}-Fold Stratified Cross Validation")
-        logger.info(f"Total samples: {len(texts)} (AI: {sum(labels)}, NON_AI: {len(labels) - sum(labels)})")
+        dist = Counter(labels)
+        dist_str = ", ".join(f"{settings.model.label_map[k]}: {v}" for k, v in sorted(dist.items()))
+        logger.info(f"Total samples: {len(texts)} ({dist_str})")
         logger.info("=" * 60)
         
         texts_arr = np.array(texts)
@@ -362,13 +366,13 @@ class Trainer:
             val_texts = texts_arr[val_indices].tolist()
             val_labels = labels_arr[val_indices].tolist()
             
-            train_ai = sum(train_labels)
-            val_ai = sum(val_labels)
+            train_dist = Counter(train_labels)
+            val_dist = Counter(val_labels)
+            train_str = ", ".join(f"{settings.model.label_map[k]}: {v}" for k, v in sorted(train_dist.items()))
+            val_str = ", ".join(f"{settings.model.label_map[k]}: {v}" for k, v in sorted(val_dist.items()))
             logger.info(
-                f"{fold_label} - Train: {len(train_texts)} "
-                f"(AI: {train_ai}, NON_AI: {len(train_texts) - train_ai}) | "
-                f"Val: {len(val_texts)} "
-                f"(AI: {val_ai}, NON_AI: {len(val_texts) - val_ai})"
+                f"{fold_label} - Train: {len(train_texts)} ({train_str}) | "
+                f"Val: {len(val_texts)} ({val_str})"
             )
             
             # Reinitialize model for each fold (fresh pretrained weights)
@@ -423,7 +427,7 @@ class Trainer:
             json.dump({
                 "n_splits": n_splits,
                 "total_samples": len(texts),
-                "label_distribution": {"AI": int(sum(labels)), "NON_AI": int(len(labels) - sum(labels))},
+                "label_distribution": {settings.model.label_map[k]: int(v) for k, v in Counter(labels).items()},
                 "metrics": cv_results,
                 "fold_details": all_fold_metrics,
             }, f, indent=2)

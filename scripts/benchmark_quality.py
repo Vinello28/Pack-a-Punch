@@ -2,23 +2,33 @@
 """
 Benchmark Quality Script
 
-Measures classification quality (F1, ROC-AUC, Accuracy) using a labeled test set.
-Iterates through 'ai' and 'non_ai' directories, sends requests to the inference API,
+Measures classification quality (F1, Accuracy, Precision, Recall) using a labeled test set.
+Iterates through class subdirectories, sends requests to the inference API,
 and computes metrics comparing predictions against ground truth.
 """
 
 import sys
 import argparse
 import asyncio
-import json
 import httpx
 from pathlib import Path
-from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score, roc_auc_score, classification_report, confusion_matrix
+from sklearn.metrics import (
+    accuracy_score,
+    f1_score,
+    precision_score,
+    recall_score,
+    classification_report,
+    confusion_matrix,
+)
 from loguru import logger
 from tqdm import tqdm
 
-# Add project root to path to import src if needed (though we use API here)
+# Add project root to path
 sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from src.config import settings
+from src.training.dataset import _slugify
+
 
 async def classify_batch(client: httpx.AsyncClient, url: str, texts: list[str]) -> list[dict]:
     try:
@@ -29,43 +39,47 @@ async def classify_batch(client: httpx.AsyncClient, url: str, texts: list[str]) 
         logger.error(f"Request failed: {e}")
         return []
 
-async def run_benchmark(test_dir_ai: Path, test_dir_non_ai: Path, url: str, batch_size: int = 10):
-    # 1. Load Data
-    samples = []
-    
-    # Load AI samples
-    logger.info(f"Loading AI samples from {test_dir_ai}...")
-    ai_files = list(test_dir_ai.glob("*.txt"))
-    for p in ai_files:
-        try:
-            text = p.read_text(encoding="utf-8").strip()
-            if text:
-                samples.append({"text": text, "true_label": 1, "filename": p.name}) # 1 = AI
-        except Exception as e:
-            logger.warning(f"Could not read {p}: {e}")
 
-    # Load Non-AI samples
-    logger.info(f"Loading Non-AI samples from {test_dir_non_ai}...")
-    non_ai_files = list(test_dir_non_ai.glob("*.txt"))
-    for p in non_ai_files:
-        try:
-            text = p.read_text(encoding="utf-8").strip()
-            if text:
-                samples.append({"text": text, "true_label": 0, "filename": p.name}) # 0 = Non-AI
-        except Exception as e:
-            logger.warning(f"Could not read {p}: {e}")
-            
+async def run_benchmark(test_dir: Path, url: str, batch_size: int = 10):
+    # Build mapping from label name to index
+    name_to_id = {name: idx for idx, name in settings.model.label_map.items()}
+    slug_to_id = {_slugify(name): idx for idx, name in settings.model.label_map.items()}
+
+    # 1. Load Data from class subdirectories
+    samples = []
+
+    for subdir in sorted(test_dir.iterdir()):
+        if not subdir.is_dir():
+            continue
+        label_id = slug_to_id.get(subdir.name)
+        if label_id is None:
+            continue
+        label_name = settings.model.label_map[label_id]
+        count = 0
+        for p in sorted(subdir.glob("*.txt")):
+            try:
+                text = p.read_text(encoding="utf-8").strip()
+                if text:
+                    samples.append({"text": text, "true_label": label_id, "filename": p.name})
+                    count += 1
+            except Exception as e:
+                logger.warning(f"Could not read {p}: {e}")
+        logger.info(f"Loaded {count} '{label_name}' samples from {subdir}")
+
     if not samples:
         logger.error("No samples found!")
         sys.exit(1)
-        
-    logger.info(f"Total samples: {len(samples)} (AI: {len(ai_files)}, Non-AI: {len(non_ai_files)})")
+
+    from collections import Counter
+
+    dist = Counter(s["true_label"] for s in samples)
+    dist_str = ", ".join(f"{settings.model.label_map[k]}: {v}" for k, v in sorted(dist.items()))
+    logger.info(f"Total samples: {len(samples)} ({dist_str})")
 
     # 2. Run Inference
     y_true = []
     y_pred = []
-    y_scores = [] # Probability of being AI (class 1)
-    
+
     async with httpx.AsyncClient(timeout=30.0) as client:
         # Check health
         try:
@@ -79,102 +93,78 @@ async def run_benchmark(test_dir_ai: Path, test_dir_non_ai: Path, url: str, batc
 
         # Process in batches
         all_texts = [s["text"] for s in samples]
-        # Chunking
-        chunks = [all_texts[i:i + batch_size] for i in range(0, len(all_texts), batch_size)]
-        
+        chunks = [all_texts[i : i + batch_size] for i in range(0, len(all_texts), batch_size)]
+
         results = []
         for chunk in tqdm(chunks, desc="Classifying"):
             batch_predictions = await classify_batch(client, url, chunk)
             if not batch_predictions:
-                logger.error("Failed to get predictions for a batch. Skipping...")
-                # Fill with dummy/error or just skip? 
-                # Ideally we fail or retry, but for simplicity let's skip metrics for these or append None
-                # If we skip, arrays mismatch. We must append something or filter samples.
-                # Here we assume robustness or just fail.
-                # Let's append default "Non-AI" 0.0 confidence to avoid crashing, but log it.
+                logger.error("Failed to get predictions for a batch. Using fallback.")
+                first_label = settings.model.label_map[0]
                 for _ in chunk:
-                    results.append({"label": "NON_AI", "confidence": 0.0})
+                    results.append({"label": first_label, "confidence": 0.0})
             else:
                 results.extend(batch_predictions)
-    
+
     # 3. Process Results
     for i, sample in enumerate(samples):
         if i >= len(results):
             break
-            
+
         pred = results[i]
         true_label = sample["true_label"]
-        
-        pred_label_str = pred["label"] # "AI" or "NON_AI"
-        confidence = pred["confidence"]
-        
-        # Map predicted string to int
-        if pred_label_str == "AI":
-            pred_label = 1
-            score = confidence
-        else:
-            pred_label = 0
-            score = 1.0 - confidence # Probability of AI is 1 - prob(Non_AI)
-            
+
+        pred_label_str = pred["label"]
+        pred_label = name_to_id.get(pred_label_str, 0)
+
         y_true.append(true_label)
         y_pred.append(pred_label)
-        y_scores.append(score)
 
     # 4. Calculate Metrics
-    acc = accuracy_score(y_true, y_pred)
-    prec = precision_score(y_true, y_pred, pos_label=1)
-    rec = recall_score(y_true, y_pred, pos_label=1) # Sensitivity / TPR
-    f1 = f1_score(y_true, y_pred, pos_label=1)
-    
-    try:
-        auc = roc_auc_score(y_true, y_scores)
-    except Exception:
-        auc = 0.0
-        logger.warning("Could not calculate ROC-AUC (maybe only one class present?)")
+    target_names = [settings.model.label_map[i] for i in range(settings.model.num_labels)]
 
-    print("\n" + "="*60)
+    acc = accuracy_score(y_true, y_pred)
+    prec = precision_score(y_true, y_pred, average="weighted", zero_division=0)
+    rec = recall_score(y_true, y_pred, average="weighted", zero_division=0)
+    f1 = f1_score(y_true, y_pred, average="weighted", zero_division=0)
+
+    print("\n" + "=" * 60)
     print("BENCHMARK RESULTS")
-    print("="*60)
+    print("=" * 60)
     print(f"Total Samples: {len(y_true)}")
     print(f"Accuracy:      {acc:.4f}")
     print(f"Precision:     {prec:.4f}")
     print(f"Recall:        {rec:.4f}")
     print(f"F1-Score:      {f1:.4f}")
-    print(f"ROC-AUC:       {auc:.4f}")
     print("-" * 60)
     print("Confusion Matrix:")
     print(confusion_matrix(y_true, y_pred))
     print("-" * 60)
     print("Classification Report:")
-    print(classification_report(y_true, y_pred, target_names=["NON_AI", "AI"]))
-    print("="*60)
+    print(classification_report(y_true, y_pred, target_names=target_names, zero_division=0))
+    print("=" * 60)
+
 
 def main():
     parser = argparse.ArgumentParser(description="Benchmark Accuracy/Quality")
     parser.add_argument("--url", default="http://localhost:8080", help="Inference API URL")
-    parser.add_argument("--data-ai", default="src/data/Test/ai", help="Path to AI test directory")
-    parser.add_argument("--data-non-ai", default="src/data/Test/non_ai", help="Path to Non-AI test directory")
-    
+    parser.add_argument(
+        "--test-dir", default="src/data/Test", help="Path to test data directory"
+    )
+
     args = parser.parse_args()
-    
-    # Resolve paths relative to inference-service if needed, or absolute
+
     base_dir = Path(__file__).parent.parent
-    path_ai = Path(args.data_ai)
-    if not path_ai.is_absolute():
-        path_ai = base_dir / path_ai
-        
-    path_non_ai = Path(args.data_non_ai)
-    if not path_non_ai.is_absolute():
-        path_non_ai = base_dir / path_non_ai
+    test_dir = Path(args.test_dir)
+    if not test_dir.is_absolute():
+        test_dir = base_dir / test_dir
 
-    if not path_ai.exists():
-        logger.error(f"Directory not found: {path_ai}")
-        return
-    if not path_non_ai.exists():
-        logger.error(f"Directory not found: {path_non_ai}")
+    if not test_dir.exists():
+        logger.error(f"Directory not found: {test_dir}")
         return
 
-    asyncio.run(run_benchmark(path_ai, path_non_ai, args.url))
+    asyncio.run(run_benchmark(test_dir, args.url))
+
 
 if __name__ == "__main__":
     main()

@@ -34,6 +34,7 @@ class DistillationPipeline:
         self.max_samples = max_samples
         self.batch_size = batch_size
         self.system_prompt = settings.distillation.system_prompt
+        self._name_to_id = {name: idx for idx, name in settings.model.label_map.items()}
         
     async def _query_teacher(
         self,
@@ -72,9 +73,14 @@ class DistillationPipeline:
             label = parsed.get("label", "").upper()
             confidence = float(parsed.get("confidence", 0.0))
             
-            if label in ("AI", "NON_AI") and 0.0 <= confidence <= 1.0:
+            label_id = self._name_to_id.get(label) if label else None
+            if label_id is None:
+                # Try case-insensitive match
+                label_lower = {k.lower(): v for k, v in self._name_to_id.items()}
+                label_id = label_lower.get(label.lower()) if label else None
+            if label_id is not None and 0.0 <= confidence <= 1.0:
                 return {
-                    "label": 1 if label == "AI" else 0,
+                    "label": label_id,
                     "confidence": confidence,
                 }
                 
@@ -182,11 +188,13 @@ class DistillationPipeline:
                 f.write(json.dumps(item, ensure_ascii=False) + "\n")
         
         logger.info(f"Saved {len(labeled_data)} labeled samples to {output_path}")
-        logger.info(
-            f"Label distribution: "
-            f"AI={sum(1 for _, r in labeled_data if r['label'] == 1)}, "
-            f"NON_AI={sum(1 for _, r in labeled_data if r['label'] == 0)}"
+        from collections import Counter
+
+        dist = Counter(r["label"] for _, r in labeled_data)
+        dist_str = ", ".join(
+            f"{settings.model.label_map.get(k, k)}: {v}" for k, v in sorted(dist.items())
         )
+        logger.info(f"Label distribution: {dist_str}")
         
         return output_path
 

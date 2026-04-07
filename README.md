@@ -2,8 +2,8 @@
 
 ![copertina](public/images/rdm1.png)
 
-> **Italian BERT Binary Classification System**  
-> *High-performance AI text detection optimized for Italian language.*
+> **Italian ModernBERT Multi-Class Classification System**  
+> *Identifies AI application sectors in Italian text with high accuracy.*
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/downloads/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
@@ -20,14 +20,14 @@
 [![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)](https://www.apple.com/macos/)
 [![License](https://img.shields.io/badge/License-MIT-44CC11?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE.md)
 
-**Pack-a-Punch** is a robust binary classification system designed to distinguish between **AI-generated** and **Human-written** text. Built on top of `dbmdz/bert-base-italian-xxl-cased`, it leverages **ONNX Runtime** with CUDA acceleration for ultra-low latency inference, making it suitable for high-throughput production environments.
+**Pack-a-Punch** is a multi-class classification system that identifies the **AI application sector** of Italian texts. Built on `answerdotai/ModernBERT-base` (8 classes: AI Research, Autonomous Driving, Data Science, Defense & Aerospace, Enterprise AI, Healthcare AI, Robotics/UAV/Industry, Virtual Assistants), it leverages **ONNX Runtime** with CUDA acceleration for ultra-low latency inference, making it suitable for high-throughput production environments.
 
 > 🍎 **Apple Users**: Please switch to the `apple-branch` for optimizations specific to macOS and Apple Silicon (M1/M2/M3) devices.
 
 ## ✨ Key Features
 
 - **🚀 High Performance**: Optimized ONNX Runtime inference pipeline delivering ~110 req/sec on consumer GPUs.
-- **🇮🇹 Italian Optimized**: Fine-tuned on `dbmdz/bert-base-italian-xxl-cased` for superior understanding of Italian context.
+- **🇮🇹 Italian Optimized**: Fine-tuned on `answerdotai/ModernBERT-base` (eager mode, no Triton) for superior understanding of Italian context and 3x larger token context (3072 vs 512).
 - **🧠 Knowledge Distillation**: Built-in pipeline to distill knowledge from large LLMs (via LM Studio) into a compact, efficient classifier.
 - **🐳 Production Ready**: Fully containerized with Docker and NVIDIA Container Toolkit support.
 - **⚙️ Type-Safe Config**: Robust configuration management using `pydantic-settings` with environment variable overrides.
@@ -103,9 +103,15 @@ The application is configured via `src/config.py`. You can override any setting 
 Pack-a-Punch supports multiple training modes.
 
 ### Option 1: Dataset Training
-Place your labeled txt files in the data directory:
-- `src/data/ai/*.txt`
-- `src/data/non_ai/*.txt`
+Place your labeled txt files in the data directory (one subdirectory per class):
+- `src/data/ai_research/*.txt`
+- `src/data/autonomous_driving/*.txt`
+- `src/data/data_science/*.txt`
+- `src/data/defense_aerospace/*.txt`
+- `src/data/enterprise_ai/*.txt`
+- `src/data/healthcare_ai/*.txt`
+- `src/data/robotics_uav_industry/*.txt`
+- `src/data/virtual_assistants/*.txt`
 
 Then run the training script:
 
