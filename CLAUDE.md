@@ -69,9 +69,16 @@ CLI entrypoints: `train.py`, `serve.py`, `benchmark.py`, `benchmark_quality.py`,
 ### Docker
 `docker/docker-compose.yml` defines four services: `classifier` (ONNX), `classifier-pytorch`, `trainer`, and `distiller`. Non-default services require `--profile` flags (`pytorch`, `training`, `distillation`). All GPU services require NVIDIA Container Toolkit.
 
+#### DGX-A100 Compatibility
+Docker Compose config is optimized for DGX-A100 with DGX OS (Ubuntu 20.04):
+- **GPU pinning**: `device_ids: ['5']` — restrict all containers to GPU 5 (modify as needed)
+- **Resource limits**: `cpus: 32`, `shm_size: '4g'` — prevent resource exhaustion and PyTorch DataLoader crashes
+- **Requirements**: `docker compose` (v2 plugin) for `device_ids` support; if using old docker-compose v1, upgrade via `pip3 install docker-compose>=1.29`
+
 ## Key Details
 
 - **Apple Silicon**: use the `apple-branch` git branch for macOS/Metal optimizations
+- **GPU ID**: currently pinned to GPU 5 in `docker-compose.yml`. To change, edit `device_ids: ['5']` in all four services
 - **Formatting**: Black with 100-char line length; Ruff for linting (rules: E, F, I, N, W, UP; E501 ignored)
 - **Testing**: pytest with `asyncio_mode = "auto"`; test paths under `tests/`
 - **Training data**: plain `.txt` files in `src/data/<class_slug>/` directories (e.g. `ai_research/`, `data_science/`); test split in `src/data/Test/`

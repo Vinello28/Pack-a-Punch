@@ -1,5 +1,6 @@
 # Pack-a-Punch Docker Compose
 # Orchestration for training and inference services
+# DGX-A100 compatible: GPU 5, 32 vCPUs
 
 services:
   # Inference service (main - ONNX backend)
@@ -29,8 +30,10 @@ services:
         reservations:
           devices:
             - driver: nvidia
-              count: 1
+              device_ids: ['5']
               capabilities: [ gpu ]
+    cpus: 32
+    shm_size: '4g'
     restart: unless-stopped
     healthcheck:
       test: [ "CMD", "python", "-c", "import httpx; httpx.get('http://localhost:8080/health').raise_for_status()" ]
@@ -61,8 +64,10 @@ services:
         reservations:
           devices:
             - driver: nvidia
-              count: 1
+              device_ids: ['5']
               capabilities: [ gpu ]
+    cpus: 32
+    shm_size: '4g'
     profiles:
       - pytorch # Only start with: docker compose --profile pytorch up
 
@@ -92,8 +97,10 @@ services:
         reservations:
           devices:
             - driver: nvidia
-              count: 1
+              device_ids: ['5']
               capabilities: [ gpu ]
+    cpus: 32
+    shm_size: '4g'
     profiles:
       - training # Only start with: docker-compose --profile training up
 
@@ -119,8 +126,10 @@ services:
         reservations:
           devices:
             - driver: nvidia
-              count: 1
+              device_ids: ['5']
               capabilities: [ gpu ]
+    cpus: 32
+    shm_size: '4g'
     profiles:
       - distillation # Only start with: docker-compose --profile distillation up
 
