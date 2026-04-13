@@ -1,0 +1,1 @@
+Progetto di logistica intramurale con flotta di AMR (Autonomous Mobile Robots) coordinati tramite digital twin per l'ottimizzazione dei flussi di magazzino.

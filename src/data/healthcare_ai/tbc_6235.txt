@@ -1,0 +1,1 @@
+In questo progetto  si propone di utilizzare l'IA generativa per sviluppare prodotti scalabili per migliorare il processo di ricerca e sviluppo e la definizione di programmi di medicina personalizzata nei tumori rari. L'obiettivo finale è lo sviluppo di gemelli digitali per migliorare il processo decisionale clinico e accelerare la sperimentazione clinica.

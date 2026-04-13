@@ -1,0 +1,1 @@
+Il progetto prevede lo sviluppo di procedure di AI che permettono di aggiornare in tempo reale qualsiasi variazione sulle tecnologie disponibili sul loro sito e-commerce; individuare le richieste delle sole vendite a quelle di progetti ad-hoc; e infine smistare correttamente le richieste ai commerciali di riferimento

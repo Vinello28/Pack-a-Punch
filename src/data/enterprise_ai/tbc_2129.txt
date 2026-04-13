@@ -1,0 +1,1 @@
+Piattaforma di chatbot in grado di automatizzare i processi aziendali di Customer Service tramite AI.

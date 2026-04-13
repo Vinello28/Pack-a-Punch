@@ -1,0 +1,1 @@
+sviluppo di una piattaforma basata su hardware sensorizzato e su un software di AI proprietario che consente di produrre biomolecole su larga scala tramite bioreattori.

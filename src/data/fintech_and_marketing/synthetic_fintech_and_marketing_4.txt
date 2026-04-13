@@ -1,0 +1,1 @@
+Soluzione di sentiment analysis sui social media per il monitoraggio in tempo reale della reputazione del brand tramite modelli NLP pre-addestrati su testi italiani.

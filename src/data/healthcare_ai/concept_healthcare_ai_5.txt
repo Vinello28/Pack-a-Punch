@@ -1,0 +1,1 @@
+La patologia digitale utilizza scanner per digitalizzare i preparati istologici e algoritmi di deep learning per assistere i patologi nella diagnosi di tumori e altre patologie.

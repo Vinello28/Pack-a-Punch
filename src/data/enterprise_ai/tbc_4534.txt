@@ -1,0 +1,1 @@
+Piattaforma software completa in grado di esaminare online flussi dati da apparati di sicurezza e network di frontiera  per identificare - mediante l’utilizzo di un pool di AI - possibili threat verso infrastrutture ICT e di attuare predizioni su possibili futuri analoghi attacchi.

@@ -1,0 +1,1 @@
+Programma di ricerca interdisciplinare in fluidodinamica computazionale che utilizza physics-informed neural networks per la risoluzione di equazioni di Navier-Stokes.

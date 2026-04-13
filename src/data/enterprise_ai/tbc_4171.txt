@@ -1,0 +1,1 @@
+Piattaforma di bug bounty  che aiuta le organizzazioni a proteggersi dalle minacce informatiche. Attraverso una rete globale di hacker  facilita la scoperta e la risoluzione delle vulnerabilità prima che i malintenzionati le sfruttino

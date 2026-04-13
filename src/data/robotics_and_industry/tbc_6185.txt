@@ -1,0 +1,1 @@
+L'idea è quella di testare la capacità di navigazione del prototipo di Vires in un ambiente reale.

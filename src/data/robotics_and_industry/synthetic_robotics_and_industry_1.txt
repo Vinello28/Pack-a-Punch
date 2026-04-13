@@ -1,0 +1,1 @@
+Implementazione di robot collaborativi (cobot) per l'assemblaggio di componenti elettronici con integrazione in linea di produzione smart factory.

@@ -1,0 +1,1 @@
+Questo progetto sviluppa uno strumento software di deep learning per la scoperta di farmaci  migliorando i protocolli di screening per identificare piccole molecole sintetizzabili che hanno come target le proteine

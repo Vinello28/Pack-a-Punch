@@ -1,0 +1,1 @@
+Per il progetto di Wise Robotics sono state richieste attività di Cloud Computing  nello specifico per Virtual machine per la migrazione del Database Server  per il Web Server e per il Database Back Up.

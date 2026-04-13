@@ -1,0 +1,1 @@
+Il Deep Learning utilizza reti neurali artificiali con strati multipli per modellare astrazioni di alto livello nei dati, applicabile a immagini, testo, audio e dati tabulari.

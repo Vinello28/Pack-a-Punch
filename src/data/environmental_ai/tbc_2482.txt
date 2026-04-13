@@ -1,0 +1,1 @@
+Il progetto si incentra sulla adozione delle tecnologie di comunicazione di ultima generazione (5G  NB-IoT  LTE e/o wireless) per il controllo da remoto del drone-robot. Dotato di una telecamera di sorveglianza intelligente  il Robot potrà interagire con l’ambiente circostante e attivare in maniera automatica la modalità di investigazione

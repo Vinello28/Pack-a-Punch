@@ -1,0 +1,1 @@
+Il progetto consiste a) nell'automatizzare per quanto possibile la gestione delle locazioni immobiliari utilizzando tecnologie di intelligenza artificiale; b) nel trattare la parte gestionale non automatizzabile attraverso un portale web dedicato.

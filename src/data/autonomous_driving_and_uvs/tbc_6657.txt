@@ -1,0 +1,1 @@
+sviluppo di una piattaforma brevettata per la gestione intelligente di sciami di drone collaborativi in grado di sostituire la ricarica e gestire le batterie di alimentazione del drone in modo completamente automatico, il carico utile frazionabile per l'esecuzione di missioni specifiche e il coordinamento di sciami di drone in modalità collaborativa.

@@ -1,0 +1,1 @@
+Ricerca per sistema di ottimizzazione di menù e prezzi basato su algoritmi di intelligenza aumentata predisposto per prevedere la domanda futura  identificare quali sono le sinergie fra diversi prodotti di uno stesso carrello e creare varianti dinamiche.

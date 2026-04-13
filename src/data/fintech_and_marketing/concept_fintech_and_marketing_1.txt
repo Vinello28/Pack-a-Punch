@@ -1,0 +1,1 @@
+La fraud detection in ambito finanziario impiega algoritmi di anomaly detection e graph neural networks per identificare transazioni sospette in tempo reale sui circuiti di pagamento.

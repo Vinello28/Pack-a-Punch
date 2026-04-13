@@ -1,0 +1,1 @@
+L’obiettivo del progetto è quello di riuscire ad utilizzare celle robotiche per la stampa additiva nella produzione di oggetti materiali a matrice plastica  così da ridurre drasticamente gli scarti di lavorazione e minimizzare gli sprechi.

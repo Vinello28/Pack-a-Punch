@@ -1,0 +1,1 @@
+Sviluppo di un software che  installato su un simulatore di guida o una vettura reale  è in grado di analizzare e definire lo stile di guida del conducente e di generare indicatori per migliorarlo.

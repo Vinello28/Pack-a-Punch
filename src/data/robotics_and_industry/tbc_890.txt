@@ -1,0 +1,1 @@
+Una piattaforma che  eroga il Servizio di riconoscimento automatico degli asset Stradali presenti nei video generati dai mezzi circolanti utilizzando algoritmi di Object Detection con Intelligenza Artificiale per creare

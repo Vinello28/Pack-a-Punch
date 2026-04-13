@@ -1,0 +1,1 @@
+Sviluppo di un super assistente virtuale con AI in grado di comprendere le richieste ed elaborare le risposte in linguaggio naturale estraendo le informazioni dal database SAM la piattaforma già testata.

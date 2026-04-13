@@ -1,0 +1,1 @@
+Interfaccia di programmazione per Robot Collaborativi  tramite AI. Il progetto prevede la definizione delle specifiche di tale interfaccia e test  sperimentazione  demo su prototipi industriali

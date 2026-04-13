@@ -1,0 +1,1 @@
+Cura Vocale. Un assistente virtuale per pazienti cronici basato sull'adozione dei piani di cura  la raccolta di dati clinici veicolati al paziente attraverso interfacce conversazionali.

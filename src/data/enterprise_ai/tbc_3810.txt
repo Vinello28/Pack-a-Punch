@@ -1,0 +1,1 @@
+Realizzazione di un sistema cloud sfruttando nuove tecnologie hw e sw finalizzato alla digitalizzazione dei processi educativi e al miglioramento della qualità degli ambienti di apprendimento (con AI e ML).

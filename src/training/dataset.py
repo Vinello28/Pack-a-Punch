@@ -4,8 +4,10 @@ Dataset loading utilities for text classification.
 Supports:
 1. TXT files organized in label directories (one subdirectory per class)
 2. JSONL files with {"text": "...", "label": 0|1|...} format
+3. CSV files with "Descrizione" and "Label" columns
 """
 
+import csv
 import json
 import re
 from collections import Counter
@@ -198,17 +200,73 @@ def load_dataset_from_jsonl(
     return texts, labels
 
 
+def load_dataset_from_csv(
+    file_path: Path,
+) -> tuple[list[str], list[int]]:
+    """
+    Load dataset from a CSV file with "Descrizione" and "Label" columns.
+
+    Rows whose label does not match any entry in settings.model.label_map
+    are skipped with a warning (handles malformed/noisy rows).
+
+    Args:
+        file_path: Path to the CSV file.
+
+    Returns:
+        Tuple of (texts, labels)
+    """
+    if not file_path.exists():
+        raise FileNotFoundError(f"CSV file not found: {file_path}")
+
+    name_to_id = _build_name_to_id()
+    texts = []
+    labels = []
+    skipped = 0
+
+    with open(file_path, "r", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row_num, row in enumerate(reader, 2):  # row 1 is header
+            text = (row.get("Descrizione") or "").strip()
+            label_str = (row.get("Label") or "").strip()
+
+            if not text:
+                logger.warning(f"Empty text at row {row_num}, skipping")
+                skipped += 1
+                continue
+
+            label_id = name_to_id.get(label_str.lower())
+            if label_id is None:
+                skipped += 1
+                continue
+
+            texts.append(text)
+            labels.append(label_id)
+
+    if skipped:
+        logger.warning(f"Skipped {skipped} rows with empty text or unrecognised labels")
+
+    if not texts:
+        raise ValueError(f"No valid samples found in {file_path}")
+
+    dist = Counter(labels)
+    dist_str = ", ".join(f"{settings.model.label_map[k]}: {v}" for k, v in sorted(dist.items()))
+    logger.info(f"Loaded {len(texts)} samples from {file_path} ({dist_str})")
+    return texts, labels
+
+
 def load_dataset(
     source: str = "auto",
     data_dir: Optional[Path] = None,
+    csv_path: Optional[Path] = None,
 ) -> tuple[list[str], list[int]]:
     """
     Auto-detect and load dataset from available sources.
-    
+
     Args:
-        source: One of "auto", "txt", "jsonl", "distilled"
+        source: One of "auto", "txt", "jsonl", "distilled", "csv"
         data_dir: Base data directory
-        
+        csv_path: Path to CSV file (required when source="csv")
+
     Returns:
         Tuple of (texts, labels)
     """
@@ -217,10 +275,15 @@ def load_dataset(
     
     if source == "txt":
         return load_dataset_from_txt(data_dir)
-    
+
+    if source == "csv":
+        if csv_path is None:
+            raise ValueError("csv_path is required when source='csv'")
+        return load_dataset_from_csv(csv_path)
+
     if source == "jsonl":
         return load_dataset_from_jsonl(data_dir / "train.jsonl")
-    
+
     if source == "distilled":
         return load_dataset_from_jsonl(data_dir / "distilled.jsonl")
     

@@ -1,0 +1,1 @@
+Piattaforma di scheduling e pianificazione automatizzata basata su algoritmi di ottimizzazione per migliorare l'allocazione delle risorse organizzative.

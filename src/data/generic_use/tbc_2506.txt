@@ -1,0 +1,1 @@
+Applicazione in grado di riconoscere i contenuti presenti in una foto trasformandoli in informazioni

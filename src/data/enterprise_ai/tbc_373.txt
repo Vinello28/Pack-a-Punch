@@ -1,0 +1,1 @@
+La piattaforma tecnologica di GeoRadio consiste in un database di punti di interesse continuamente aggiornato  un algoritmo residente nelle app che si evolve con i dati di utilizzo dell’utente e un server che permette agli inserzionisti di veicolare promozioni e offerte profilati senza necessità di interazione con il device.

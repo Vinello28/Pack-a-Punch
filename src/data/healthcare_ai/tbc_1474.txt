@@ -1,0 +1,1 @@
+Integrazione all'interno del dispositivo LOOKY che si occupa di assistenza domiciliare agli anziani (gestione della terapia farmacologica e rilevamento cadute) della funzione di predittibilità delle cadute

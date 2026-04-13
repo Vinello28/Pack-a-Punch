@@ -1,0 +1,1 @@
+Hiswarm è un sistema avanzato progettato per registrare e analizzare filmati ad alta velocità dei bagni di fusione. Il progetto sfrutta l'illuminazione laser  le telecamere ad alta velocità  l'edge computing e l'IA per fornire agli utenti finali una comprensione dettagliata dei loro processi di saldatura laser.

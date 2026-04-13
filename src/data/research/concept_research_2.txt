@@ -1,0 +1,1 @@
+La bioinformatica computazionale applica reti neurali e modelli di linguaggio a sequenze proteiche e genomiche per predire strutture, funzioni e interazioni molecolari.

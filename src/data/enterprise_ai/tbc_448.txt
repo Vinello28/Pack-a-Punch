@@ -1,0 +1,1 @@
+Il progetto prevede la migrazione in cloud dell'attuale Content Management Software  la sua conseguente implementazione ed aggiornamento  anche per gli usi necessari ad avviare attività avanzate di analisi dei dati (Big Data Analytics) e di conseguente analisi ai fini predittivi e di valutazione con modelli di intelligenza artificiale (AI e Machine Learning)

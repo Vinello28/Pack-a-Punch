@@ -1,0 +1,1 @@
+Il progetto AITO propone un sistema integrato per la gestione di pazienti oncologici attraverso dispositivi di assistenza remota ( Telecare ) e telemedicina. Il progetto si propone inoltre di utilizzare  tecniche di Intelligenza Artificiale per la analisi dei dati relativi alla gestione domestica del malato oncologico

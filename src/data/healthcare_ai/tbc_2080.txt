@@ -1,0 +1,1 @@
+Sviluppo di un sistema che consenta al personale medico e paramedico - attraverso semplici comandi sia gestuali/tattili che vocali - di potenziare l'attenzione ai dettagli visuali che si possono individuare nei supporti di diagnostica per immagini

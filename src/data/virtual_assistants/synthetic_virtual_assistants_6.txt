@@ -1,0 +1,1 @@
+Agente conversazionale per e-commerce con funzionalita di product recommendation, gestione ordini e assistenza post-vendita in tempo reale.

@@ -1,0 +1,1 @@
+Tutor virtuale per piattaforme di e-learning con capacita di adattamento al livello dello studente e generazione di esercizi personalizzati.

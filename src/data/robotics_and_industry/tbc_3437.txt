@@ -1,0 +1,1 @@
+soluzione che utilizza algoritmi di deep learning Computer Vision per identificare anomalie nei processi di checkout

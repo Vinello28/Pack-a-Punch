@@ -1,0 +1,1 @@
+Il progetto ha come obiettivo quello di sviluppare un’isola robotizzata ad auto apprendimento rapido per spruzzo del poliuretano (IsoRobo).

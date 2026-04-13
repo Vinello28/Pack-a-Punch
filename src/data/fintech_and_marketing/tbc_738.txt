@@ -1,0 +1,1 @@
+Implementazione di una piattaforma di Machine Learning e Artificial Intelligence  in grado di analizzare il contesto e i profili comportamentali degli utenti nel tempo  al fine di veicolare  micro polizze assicurative sui dispositi mobile.

@@ -1,0 +1,1 @@
+Il progetto ha come obiettivo Il progetto vuole combinare una serie di strumenti per lo sviluppo di tecniche di manipolazione robotica. In particolare  si tratta di un simulatore 3D realistico  un’interfaccia per la realtà virtuale ed una piattaforma web per esperimenti e benchmarks

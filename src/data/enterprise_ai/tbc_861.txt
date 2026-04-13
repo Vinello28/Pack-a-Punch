@@ -1,0 +1,1 @@
+Realizzazione di un software che permetta la digitalizzazione e la messa in sicurezza tramite sistemi di crittografia dei dati relativi ai clienti e in automatico permetta di smistare le richieste di vendita immobiliare rispetto alle richieste di acquisto  utilizzando un algoritmo di smistamento ponderato sulle caratteristiche di domanda e offerta.

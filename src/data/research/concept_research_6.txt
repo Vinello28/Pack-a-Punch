@@ -1,0 +1,1 @@
+Le simulazioni Monte Carlo potenziate da reti neurali accelerano i calcoli stocastici in fisica delle particelle e finanza computazionale, mantenendo l'accuratezza statistica richiesta.

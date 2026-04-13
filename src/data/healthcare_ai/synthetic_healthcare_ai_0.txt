@@ -1,0 +1,1 @@
+Sviluppo di un sistema esperto basato su reti neurali per il supporto alla diagnosi radiologica, con analisi automatica di immagini TAC e MRI.

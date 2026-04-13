@@ -1,0 +1,1 @@
+Il progetto ha come obiettivo Progettazione parametrica di motori green per propulsione spaziale che utilizza algoritmi di Intelligenza Artificiale e modelli surrogati.

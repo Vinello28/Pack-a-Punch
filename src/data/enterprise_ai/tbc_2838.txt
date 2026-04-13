@@ -1,0 +1,1 @@
+Realizzazione di una piattaforma Legal Tech a supporto degli operatori legali per l’analisi predittiva delle sentenze.

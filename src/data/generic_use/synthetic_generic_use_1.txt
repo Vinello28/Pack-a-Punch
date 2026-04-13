@@ -1,0 +1,1 @@
+Piattaforma di analisi dei dati con AI per la generazione automatica di report e dashboard, accessibile tramite interfaccia low-code per utenti non tecnici.

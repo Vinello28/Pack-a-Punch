@@ -1,0 +1,1 @@
+WiseTown Ecosystem ha come obiettivo principale lo sviluppo di un motore di analisi dati avanzata che sia in grado di rappresentare ed interpretare il comportamento di un sistema di complesse relazioni tra tutte le dimensioni Smart della città (mobilità  ambiente  sicurezza  persone e governance)

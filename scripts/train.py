@@ -30,9 +30,16 @@ def parse_args():
     parser.add_argument(
         "--data-source",
         type=str,
-        choices=["auto", "txt", "jsonl", "distillation"],
+        choices=["auto", "txt", "jsonl", "csv", "distillation"],
         default="auto",
         help="Data source for training",
+    )
+
+    parser.add_argument(
+        "--csv-path",
+        type=Path,
+        default=Path("public/multiclass2_augmented.csv"),
+        help="Path to CSV training file (used when --data-source csv)",
     )
     
     parser.add_argument(
@@ -141,9 +148,13 @@ def main():
             model_path = trainer.train_kfold(
                 n_splits=args.kfold_splits,
                 data_source=args.data_source,
+                csv_path=args.csv_path,
             )
         else:
-            model_path = trainer.train(data_source=args.data_source)
+            model_path = trainer.train(
+                data_source=args.data_source,
+                csv_path=args.csv_path,
+            )
         logger.info(f"Training complete. Model saved to: {model_path}")
     except Exception as e:
         logger.error(f"Training failed: {e}")

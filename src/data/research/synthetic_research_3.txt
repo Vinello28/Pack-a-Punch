@@ -1,0 +1,1 @@
+Progetto scientifico di climatologia computazionale che sfrutta simulazioni Monte Carlo e modelli di surrogato per la previsione di eventi climatici estremi.

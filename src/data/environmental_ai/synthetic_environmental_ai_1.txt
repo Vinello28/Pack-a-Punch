@@ -1,0 +1,1 @@
+Progetto di prevenzione incendi boschivi tramite analisi di immagini satellitari multispettrali e algoritmi di anomaly detection per allerta precoce.

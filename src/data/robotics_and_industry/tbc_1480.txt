@@ -1,0 +1,1 @@
+Sviluppo di algorimti per il riconoscimento automatico di targhe e classi veicolari da flussi video mediante l'uso di reti neurali ottimizzate per sistemi embedded.

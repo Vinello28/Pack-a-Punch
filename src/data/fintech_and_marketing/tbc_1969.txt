@@ -1,0 +1,1 @@
+Sviluppo di tre modelli di Machine Learning per l'early detection dei fenomeni di Pump and Dump test dei modelli in Backtrader e valutazione granulare performance e comportamenti tramite piattaforma Clearbox AI Messa in produzione su architettura AWS con moduli di monitoraggio e riallineamento

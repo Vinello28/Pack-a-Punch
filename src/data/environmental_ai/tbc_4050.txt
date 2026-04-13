@@ -1,0 +1,1 @@
+Il progetto mira a creare un sistema integrato di monitoraggio urbano basato su Remote Sensing Satellitare  AI  Open Data e GenAI  da integrare con il Gemello Digitale di Bologna. Fornirà dati in tempo reale sulla resilienza climatica e coinvolgerà la cittadinanza con postazioni multimediali.

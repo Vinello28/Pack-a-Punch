@@ -1,0 +1,1 @@
+Mylia ha raggiunto  in collaborazione con il Made  l’obiettivo di digitalizzare il servizio e creare una web app  al fine di erogare il servizio Aheda verso i Clienti e raccogliere nuovi dati per sperimentare il learning system sottostante. Il prossimo obiettivo da raggiungere è quello di estendere questo mvp di web app anche alla ricerca dei percorsi di gruppo.

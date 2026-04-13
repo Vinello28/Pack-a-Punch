@@ -1,0 +1,1 @@
+Progetto di ricerca in fisica delle particelle che utilizza reti neurali per l'analisi dei dati del rivelatore, condotto presso laboratori INFN.

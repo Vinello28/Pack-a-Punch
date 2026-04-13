@@ -1,0 +1,1 @@
+Creazione di un software CRM per la gestione centralizzata delle informazioni sui clienti  che grazie ad un coordinamento dei processi aziendali con elevate caratteristiche di integrazione e di conversione dei dati a disposizione  permette all’ intelligenza artificiale implementata di organizzare e razionalizzare i dati.

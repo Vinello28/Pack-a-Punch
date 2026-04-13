@@ -1,0 +1,1 @@
+Il progetto si propone di realizzare una nuova interfaccia per la gestione delle sessioni  che sia più chiara e permetta il funzionamento del servizio senza operatore remoto; la automazione e semplificazione  dell'inserimento dati dei concorrenti; la realizzazione di un interfaccia per la gestione autonoma degli allenamenti delle squadre agonistiche;

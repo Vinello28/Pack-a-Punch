@@ -1,0 +1,1 @@
+I sistemi di raccomandazione enterprise utilizzano tecniche di collaborative filtering e content-based filtering per suggerire prodotti, servizi o azioni ai clienti o ai decisori aziendali.

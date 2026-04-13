@@ -1,0 +1,1 @@
+Sviluppo di un sistema di people management per la formazione basato sull'intelligenza artificiale.

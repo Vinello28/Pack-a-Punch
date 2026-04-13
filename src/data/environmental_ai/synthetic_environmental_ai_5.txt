@@ -1,0 +1,1 @@
+Sistema intelligente per la gestione dei rifiuti urbani basato su AI che ottimizza i percorsi di raccolta e prevede i volumi di conferimento per area.

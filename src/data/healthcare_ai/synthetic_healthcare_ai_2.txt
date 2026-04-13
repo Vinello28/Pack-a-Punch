@@ -1,0 +1,1 @@
+Piattaforma di drug discovery basata su deep learning per l'identificazione di nuovi composti farmacologici attivi tramite analisi di strutture molecolari.

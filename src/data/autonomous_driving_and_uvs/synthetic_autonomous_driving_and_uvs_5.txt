@@ -1,0 +1,1 @@
+Sviluppo di un sistema di atterraggio autonomo di precisione per droni su piattaforme mobili, basato su visione artificiale e algoritmi di tracking in tempo reale.

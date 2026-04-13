@@ -1,0 +1,1 @@
+I sistemi cyber-fisici (CPS) integrano componenti computazionali con processi fisici industriali, consentendo il controllo in tempo reale e l'adattamento autonomo della produzione.

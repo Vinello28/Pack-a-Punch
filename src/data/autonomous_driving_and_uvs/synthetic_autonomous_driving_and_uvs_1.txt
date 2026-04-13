@@ -1,0 +1,1 @@
+Progetto di drone multirotore per consegne last-mile in aree metropolitane, dotato di sistemi di obstacle avoidance e navigazione GPS RTK ad alta precisione.

@@ -1,0 +1,1 @@
+DEXTER mira a sviluppare un sistema robotico collaborativo riconfigurabile.

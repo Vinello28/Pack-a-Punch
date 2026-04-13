@@ -1,0 +1,1 @@
+Il progetto ha come obiettivo ANTIDOTE promuove una visione integrata di “explainable AI”  in cui le caratteristiche di basso livello dei processi di deep learning sono combinate con schemi comunicativi di alto livello  propri della capacità di argomentazione umana

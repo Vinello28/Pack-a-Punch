@@ -1,0 +1,1 @@
+I chatbot conversazionali basati su AI utilizzano modelli di comprensione del linguaggio naturale (NLU) per interpretare le richieste degli utenti e generare risposte pertinenti e contestuali.

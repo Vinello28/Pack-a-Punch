@@ -1,0 +1,1 @@
+Il progetto ALTEA è volto all’implementazione di un ASSISTENTE DIGITALE DENOMINATO ALTEA (Assistente Virtuale di supporto allo studente durante tutte le fasi del suo processo di apprendimento)  fruibile a mezzo browser e alla sua integrazione nella WEB APPLICATION DI E-LEARNING WAUNIVERSITY

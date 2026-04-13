@@ -1,0 +1,1 @@
+L'obiettivo di questo servizio è quello di supportare HUMAIN nella progettazione e realizzazione di un assistente virtuale potenziato dalle tecnologie di Intelligenza Artificiale (AI) e LLM (Large Language Models) nella navigazione interna.

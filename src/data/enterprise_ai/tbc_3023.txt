@@ -1,0 +1,1 @@
+Definizione ed implementazione di un sistema di IA (Intelligenza Artificiale) in grado di efficientare il processo di frigoconservazione

@@ -1,0 +1,1 @@
+Scheda elettronica digitale PoC per eseguire la funzione di beamforming per applicazioni radar basate su algoritmi AI. Caso d'uso: cancellazione segnale di rumore (sterzo null).

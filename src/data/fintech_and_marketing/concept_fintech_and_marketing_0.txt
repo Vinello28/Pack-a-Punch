@@ -1,0 +1,1 @@
+Il credit scoring con AI utilizza modelli di gradient boosting e reti neurali per valutare il rischio creditizio di un richiedente, integrando dati tradizionali e alternativi.

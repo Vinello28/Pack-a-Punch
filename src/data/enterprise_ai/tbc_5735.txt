@@ -1,0 +1,1 @@
+Sviluppo di una piattaforma che favorisce l’incontro tra professionisti del fitness  utenti e spazi fisici domotizzati  attraverso un algoritmo proprietario di matching.

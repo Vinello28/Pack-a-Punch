@@ -1,0 +1,1 @@
+Sistema di triage automatizzato per il pronto soccorso basato su NLP e machine learning per la classificazione della gravita dei pazienti.

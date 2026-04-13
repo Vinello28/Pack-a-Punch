@@ -1,0 +1,1 @@
+Sistema di trading algoritmico basato su transformer per la previsione di serie temporali finanziarie con gestione automatizzata del rischio.

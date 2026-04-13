@@ -1,0 +1,1 @@
+Il progetto prevede lo sviluppo di un nuovo sistema di posizionamento automatico del paziente sulla poltrona del riunito oftalmico. Il brevetto prevede l'utilizzo di un algoritmo che movimenta il paziente rispetto alla tavola porta strumenti in modo tale da garantire il comfort del paziente durante la visita oftalmica

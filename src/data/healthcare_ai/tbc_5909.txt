@@ -1,0 +1,1 @@
+Servizio di TBI AI - Feasibility Study AI. Sviluppo di un algoritmo che consenta il monitoraggio di processi di stampa 3D di dispositivi medici e la variazione in tempo reale dei parametri di stampa per la correzione di eventuali errori.

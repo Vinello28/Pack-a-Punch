@@ -1,0 +1,1 @@
+Sviluppo di una piattaforma web (  Piattaforma 7D ) che integri dati c.d.  alternativi (ufficiali anagrafici  statistico-territoriali  open e web) con tecnologie basate sull'intelligenza artificiale.

@@ -1,0 +1,1 @@
+piattaforma chatbot che fornisce un servizio di operatori virtuali Conversational Agent in grado di elaborare in tempo reale tutte le richieste degli utenti in chat e interagire con loro in modo dinamico e versatile su un numero particolarmente elevato di argomenti come un operatore umano.

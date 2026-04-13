@@ -1,0 +1,1 @@
+Sviluppo e installazione di un sistema di monitoragdio ed acquisizione dati in impianto di riciclo meccanico di rifiuti di materiali compositi. Lo scopo del progetto è quello di trasformare in macchine intelligenti l'attuale linea di triturazione  macinazione e separazione di varie frazioni attraverso senzorizzazione e machine learning

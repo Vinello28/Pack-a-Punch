@@ -1,0 +1,1 @@
+La presente proposta progettuale mira a realizzare un'infrastruttura di QFL (Quantum Federated Learning) per l’addestramento di modelli di Intelligenza Artificiale (AI) utilizzando dati raccolti a partire da diverse compagnie energetiche e riferiti ai consumi elettrici del proprio bacino di utenti

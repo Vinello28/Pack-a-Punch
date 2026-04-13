@@ -1,0 +1,1 @@
+Sviluppo logiche di controllo e algoritmi BMS (Battery Management System) avanzato con integrazione contenuti predittivi e auto-adattativi

@@ -1,0 +1,1 @@
+Piattaforma di News Intelligence che usa l’AI sui dati del Web e dei social per l’analisi delle news

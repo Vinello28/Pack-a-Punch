@@ -1,0 +1,1 @@
+Le Physics-Informed Neural Networks (PINN) integrano le leggi fisiche nel processo di addestramento delle reti neurali per risolvere equazioni differenziali con applicazioni in fluidodinamica e meccanica.

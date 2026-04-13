@@ -1,0 +1,1 @@
+L'obiettivo del progetto BRAINE è quello di promuovere lo sviluppo del paradigma Edge Computing su sistemi hardware e software a basso consumo energetico basati sull'intelligenza artificiale che supportano la sicurezza dei dati e la privacy.

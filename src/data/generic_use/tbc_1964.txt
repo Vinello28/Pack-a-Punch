@@ -1,0 +1,1 @@
+Sviluppo e il rilascio di un Videogioco  denominato Health Wings il cui scopo principale è quello di sensibilizzare le persone a prendersi cura della propria salute  attraverso un semplice gioco quotidiano. Un edugame in 2D  nel settore “health” e “Training and Education”.

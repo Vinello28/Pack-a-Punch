@@ -1,0 +1,1 @@
+Il progetto ha come obiettivo Sviluppo di nuovi sottosistemi HW e SW per una piattaforma che consentirà  in modo più efficiente degli approcci attuali  l'esecuzione di applicazioni di intelligenza artificiale (a) in tempo reale  (b) con un budget energetico inferiore  (c) con livelli di integrità della sicurezza appropriati per l'applicazione e (d) in modo altamente sicuro;

@@ -1,0 +1,1 @@
+Il progetto mira a integrare l'AI con gli agenti di contrasto per migliorare la diagnostica per immagini in radiologia

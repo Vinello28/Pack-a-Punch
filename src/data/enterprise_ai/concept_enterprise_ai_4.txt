@@ -1,0 +1,1 @@
+Il digital twin aziendale e una replica virtuale di un processo o sistema fisico che utilizza dati in tempo reale e modelli AI per simulare, prevedere e ottimizzare le operazioni.

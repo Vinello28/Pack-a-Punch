@@ -1,0 +1,1 @@
+Il progetto SimulAV è una soluzione di simulazione che consente l'aggiunta di diversi sistemi e componenti utili per la guida autonoma e veicoli collegati in modo rapido e con facili adattamenti ai diversi livelli dello stack di guida autonomo.

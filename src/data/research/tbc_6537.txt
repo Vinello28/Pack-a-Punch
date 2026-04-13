@@ -1,0 +1,1 @@
+Progetto finalizzato alla creazione di software basato su algoritmi matematici che simulano il ragionamento induttivo imparando dai dati e generando modelli predittivi

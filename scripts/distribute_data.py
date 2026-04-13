@@ -1,81 +1,94 @@
-import pandas as pd
+"""
+Distribute labeled data from CSV into per-class TXT directories.
+
+Reads public/multiclass2_augmented.csv and writes one .txt file per row
+into src/data/<class_slug>/, where the slug is derived from the label name
+using the same _slugify function that the dataset loader uses.
+"""
+
 import os
-import uuid
+import sys
+from collections import Counter
+
+import pandas as pd
+
+# Allow imports from project root
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+
+from src.config import settings
+
+
+def _slugify(name: str) -> str:
+    """Convert a label name to a directory slug (lowercase, underscores)."""
+    import re
+
+    slug = name.lower()
+    slug = slug.replace("&", "").replace(",", "")
+    slug = re.sub(r"[^a-z0-9]+", "_", slug)
+    slug = slug.strip("_")
+    return re.sub(r"_+", "_", slug)
+
 
 def distribute_data():
-    # Paths
-    excel_path = "src/data/tbc_classificata.xlsx"
+    csv_path = "public/multiclass2_augmented.csv"
     base_data_path = "src/data"
 
-    # Verify input file exists
-    if not os.path.exists(excel_path):
-        print(f"Error: {excel_path} not found.")
+    if not os.path.exists(csv_path):
+        print(f"Error: {csv_path} not found.")
         return
 
-    # Read Excel file
     try:
-        df = pd.read_excel(excel_path)
+        df = pd.read_csv(csv_path)
     except Exception as e:
-        print(f"Error reading Excel file: {e}")
+        print(f"Error reading CSV file: {e}")
         return
 
-    # Check columns
     required_columns = ["Descrizione", "Label"]
     if not all(col in df.columns for col in required_columns):
-        print(f"Error: Missing columns. Expected {required_columns}, found {df.columns}")
+        print(f"Error: Missing columns. Expected {required_columns}, found {list(df.columns)}")
         return
 
-    # Counters
-    counts = {"ai": 0, "non_ai": 0, "skipped": 0}
+    # Build label -> slug mapping from config
+    name_to_slug = {name: _slugify(name) for name in settings.model.label_map.values()}
+    # Also build case-insensitive lookup
+    name_lower_to_slug = {name.lower(): slug for name, slug in name_to_slug.items()}
 
-    # Iterate rows
+    counts = Counter()
+    skipped = 0
+
     for index, row in df.iterrows():
-        description = row["Descrizione"]
-        label = row["Label"]
+        description = str(row["Descrizione"]).strip()
+        label = str(row["Label"]).strip()
 
-        # Normalize label just in case
-        if isinstance(label, str):
-            label = label.lower().strip()
-        
-        # Check if valid label
-        target_dir = None
-        if label == "ai":
-            target_dir = os.path.join(base_data_path, "ai")
-        elif label == "non_ai":
-            target_dir = os.path.join(base_data_path, "non_ai")
-        else:
-            # Handle variations if necessary or skip
-            # Check for possible variations
-            normalized_label = label.lower().strip()
-            if normalized_label == "ai":
-                target_dir = os.path.join(base_data_path, "ai")
-            elif normalized_label == "non_ai" or normalized_label == "non-ai":
-                target_dir = os.path.join(base_data_path, "non_ai")
-            else:
-                print(f"Warning: Unknown label '{label}' at row {index}. Skipping.")
-                counts["skipped"] = counts.get("skipped", 0) + 1
-                continue
+        if not description or description == "nan":
+            skipped += 1
+            continue
 
-        # Ensure directory exists
+        slug = name_lower_to_slug.get(label.lower())
+        if slug is None:
+            print(f"Warning: Unknown label '{label}' at row {index}. Skipping.")
+            skipped += 1
+            continue
+
+        target_dir = os.path.join(base_data_path, slug)
         os.makedirs(target_dir, exist_ok=True)
 
-        # Create filename
-        # Use a deterministic name based on row index to avoid duplicates if run again
         filename = f"tbc_{index}.txt"
         filepath = os.path.join(target_dir, filename)
 
-        # Write to file
         try:
             with open(filepath, "w", encoding="utf-8") as f:
-                f.write(str(description))
-            counts[label] += 1
+                f.write(description)
+            counts[slug] += 1
         except Exception as e:
             print(f"Error writing file {filepath}: {e}")
 
     print("Distribution complete:")
-    print(f"  AI files created: {counts['ai']}")
-    print(f"  Non-AI files created: {counts['non_ai']}")
-    print(f"  Skipped rows: {counts['skipped']}")
+    for slug in sorted(counts):
+        print(f"  {slug}: {counts[slug]} files")
+    print(f"  Skipped rows: {skipped}")
+    print(f"  Total: {sum(counts.values())} files")
+
 
 if __name__ == "__main__":
     distribute_data()

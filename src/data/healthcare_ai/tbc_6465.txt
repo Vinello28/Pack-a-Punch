@@ -1,0 +1,1 @@
+Questo progetto innovativo fonde le tecnologie LIDAR e NIRI per rivoluzionare l'endoscopia creando mappe 3D dettagliate del corpo  migliorando le capacità diagnostiche  consentendo l'individuazione precoce di anomalie e sfruttando l'intelligenza artificiale per migliorare la precisione e ridurre l'errore umano nella diagnosi.

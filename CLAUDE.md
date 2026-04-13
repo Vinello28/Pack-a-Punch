@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Pack-a-Punch is a multi-class classifier that identifies the AI application sector of Italian texts. It fine-tunes `answerdotai/ModernBERT-base` (8 classes) and serves predictions via a FastAPI server backed by ONNX Runtime with CUDA acceleration.
+Pack-a-Punch is a multi-class classifier that identifies the AI application sector of Italian texts. It fine-tunes `answerdotai/ModernBERT-base` (9 classes) and serves predictions via a FastAPI server backed by ONNX Runtime with CUDA acceleration.
 
 ## Common Commands
 
@@ -14,6 +14,9 @@ pip install -r requirements.txt
 
 # Train from labeled .txt files (src/data/<class_slug>/*.txt)
 python scripts/train.py --data-source txt
+
+# Train from CSV file
+python scripts/train.py --data-source csv --csv-path public/multiclass2_augmented.csv
 
 # Train with K-Fold cross validation
 python scripts/train.py --data-source txt --kfold --kfold-splits 5
@@ -53,7 +56,7 @@ All settings originate in `config/model_config.yml`, are loaded by `src/config_l
 
 ### Training pipeline (`src/training/`)
 - `trainer.py` — main Trainer class; supports both simple train/eval split and stratified K-Fold CV
-- `dataset.py` — loads data from `.txt` directories, `.jsonl` files, or distilled output
+- `dataset.py` — loads data from `.txt` directories, `.jsonl`, `.csv` files, or distilled output
 - `distillation.py` — queries a teacher LLM (OpenAI-compatible API) to generate labeled training data
 - `export_onnx.py` / `export_optimum.py` — two paths to convert PyTorch model to ONNX
 
@@ -67,7 +70,7 @@ All settings originate in `config/model_config.yml`, are loaded by `src/config_l
 CLI entrypoints: `train.py`, `serve.py`, `benchmark.py`, `benchmark_quality.py`, `distribute_data.py`, `generate_synthetic.py`, `generate_concepts.py`, `generate_expanded_dataset.py`. All add project root to `sys.path` manually.
 
 ### Docker
-`docker/docker-compose.yml` defines four services: `classifier` (ONNX), `classifier-pytorch`, `trainer`, and `distiller`. Non-default services require `--profile` flags (`pytorch`, `training`, `distillation`). All GPU services require NVIDIA Container Toolkit.
+`docker/docker-compose.yml` defines three main services: `classifier` (ONNX, port 8080), `classifier-pytorch` (PyTorch backend, port 8081), and `trainer`. Non-default services require `--profile` flags (`pytorch` for PyTorch backend, `training` for training service). All GPU services require NVIDIA Container Toolkit.
 
 #### DGX-A100 Compatibility
 Docker Compose config is optimized for DGX-A100 with DGX OS (Ubuntu 20.04):
@@ -78,12 +81,12 @@ Docker Compose config is optimized for DGX-A100 with DGX OS (Ubuntu 20.04):
 ## Key Details
 
 - **Apple Silicon**: use the `apple-branch` git branch for macOS/Metal optimizations
-- **GPU ID**: currently pinned to GPU 5 in `docker-compose.yml`. To change, edit `device_ids: ['5']` in all four services
+- **GPU ID**: currently pinned to GPU 5 in `docker-compose.yml`. To change, edit `device_ids: ['5']` in the `deploy` section of each service
 - **Formatting**: Black with 100-char line length; Ruff for linting (rules: E, F, I, N, W, UP; E501 ignored)
 - **Testing**: pytest with `asyncio_mode = "auto"`; test paths under `tests/`
 - **Training data**: plain `.txt` files in `src/data/<class_slug>/` directories (e.g. `ai_research/`, `data_science/`); test split in `src/data/Test/`
 - **Model artifacts**: saved to `src/models/` (`.pt` and `.onnx` files)
-- **Base model**: `answerdotai/ModernBERT-base` (eager mode, no Triton), max sequence length 3072, 8 labels
+- **Base model**: `answerdotai/ModernBERT-base` (eager mode, no Triton), max sequence length 3072, 9 labels
 
 ## Workflow Orchestration
 ### 1. Plan Node Default

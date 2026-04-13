@@ -1,0 +1,1 @@
+La guida autonoma di livello 4 consente al veicolo di operare senza intervento umano in condizioni operative definite, utilizzando sensori LiDAR, radar e telecamere per percepire l'ambiente circostante.

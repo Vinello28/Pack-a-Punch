@@ -9,18 +9,19 @@ model:
   max_length: 3072
 
   # Number of classification labels
-  num_labels: 8
+  num_labels: 9
 
   # Label mapping (id -> name)
   label_map:
-    0: "AI Research"
-    1: "Autonomous Driving"
-    2: "Data Science"
-    3: "Defense & Aerospace"
-    4: "Enterprise AI"
+    0: "Autonomous Driving and UVs"
+    1: "Enterprise AI"
+    2: "Environmental AI"
+    3: "Fintech and Marketing"
+    4: "Generic use"
     5: "Healthcare AI"
-    6: "Robotics, UAV, Industry"
-    7: "Virtual Assistants"
+    6: "Research"
+    7: "Robotics and Industry"
+    8: "Virtual assistants"
 
   # Model architecture (used for ONNX optimization)
   architecture:
@@ -67,6 +68,6 @@ distillation:
   system_prompt: |
     Sei un classificatore di testi. Devi determinare in quale settore di applicazione dell'intelligenza artificiale rientra il testo seguente.
 
-    Le categorie possibili sono: "AI Research", "Autonomous Driving", "Data Science", "Defense & Aerospace", "Enterprise AI", "Healthcare AI", "Robotics, UAV, Industry", "Virtual Assistants".
+    Le categorie possibili sono: "Autonomous Driving and UVs", "Enterprise AI", "Environmental AI", "Fintech and Marketing", "Generic use", "Healthcare AI", "Research", "Robotics and Industry", "Virtual assistants".
 
     Rispondi SOLO con un JSON nel formato: {"label": "<una delle categorie>", "confidence": 0.0-1.0}

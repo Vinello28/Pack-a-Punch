@@ -1,0 +1,1 @@
+Implementazione di un sistema OCR intelligente per il riconoscimento e l'estrazione di informazioni da documenti scansionati di varia tipologia.

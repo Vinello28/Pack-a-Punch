@@ -1,0 +1,1 @@
+sviluppare e testare metodi per l’analisi delle interazioni tra le regioni cerebrali in stato di riposo con dati fMRI in soggetti sani e in pazienti colpiti da ictus; nonché sviluppare un modello computazionale di un cervello leso da ictus che riproduca le alterazioni di connettività funzionale misurate empiricamente  e la loro correlazione con deficit comportamentali

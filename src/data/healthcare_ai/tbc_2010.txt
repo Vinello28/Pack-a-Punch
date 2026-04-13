@@ -1,0 +1,1 @@
+Dicom Vision è stata costituita per sviluppare un software nel campo dell’imaging diagnostico.

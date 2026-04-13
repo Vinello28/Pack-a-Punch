@@ -1,0 +1,1 @@
+Sviluppo di un front end web per configurare in maniera parametrica e semplice  agenti digitali in grado di eseguire funzionalità specifiche (ad esempio: supportare la vendita di prodotti/servizi via chat tramite interazione in linguaggio naturale  utilizzando algoritmi dedicati).

@@ -1,0 +1,1 @@
+Il progetto 'AI SOLDER CONTROL' prevede l'introduzione di un sistema intelligente per l'ispezione delle saldature a stagno.

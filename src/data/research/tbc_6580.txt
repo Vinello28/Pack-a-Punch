@@ -1,0 +1,1 @@
+L'obiettivo è quello di mettere in pratica i concetti di intelligenza artificiale dal Classical Machine Learning al Deep Learning per consentire agli studenti di realizzare applicazioni utilizzando librerie e framework esistenti.

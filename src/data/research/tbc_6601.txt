@@ -1,0 +1,1 @@
+Il progetto mira ad integrare strumenti di elaborazione interattiva e di prototipazione rapida nel campo dell'intelligenza artificiale con strumenti per definire ed eseguire flussi di lavoro su architetture eterogenee che vanno dal Cloud all'HPC attraverso tecniche di annotazione del codice e compilazione source-to-source.

@@ -1,0 +1,1 @@
+NOVASKILL  ricerca e sviluppo per la validazione di un software di smart matching per il mercato del lavoro  che utilizza algoritmi di AI/ML capaci di svolgere analisi predittive sulle performance dei candidati e sui bisogni delle organizzazioni.

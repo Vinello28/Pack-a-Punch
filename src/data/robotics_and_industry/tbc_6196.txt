@@ -1,0 +1,1 @@
+sviluppo di una soluzione tecnologica innovativa per il monitoraggio ottimizzato dei prodotti di pasticceria contenuti nei conservatori professionali  tramite un sistema basato su videocamere esterne posizionate a filo delle porte e un modello di deep learning per l’identificazione automatica del cibo in ingresso e in uscita.

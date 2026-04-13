@@ -1,0 +1,1 @@
+un sistema riconoscimento dell’utente tramite validazione binaria che consta di due momenti: analisi della digitazione di una parola chiave fornita dal sistema; analisi dei movimenti eseguiti con il dispositivo di puntamento per completare una interazione suggerita dal sistema

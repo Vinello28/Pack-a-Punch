@@ -1,0 +1,1 @@
+Il progetto sviluppa un dispositivo indossabile per misurare in tempo reale il carico biomeccanico e fornire feedback ai lavoratori sui rischi. Basato su AI e digital twin  il sistema usa sensori e vibrotatto per prevenire azioni pericolose e favorire comportamenti sicuri nel tempo.

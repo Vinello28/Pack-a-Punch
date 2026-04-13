@@ -1,0 +1,1 @@
+Developing a highly innovative data glove which translates sign language to speech acting as a Human to Machine Interface (H.I.M) giving the deaf community a voice.

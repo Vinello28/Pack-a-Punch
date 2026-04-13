@@ -1,0 +1,1 @@
+Studio di chimica computazionale che impiega modelli generativi per la scoperta di nuovi materiali con proprieta specifiche per applicazioni energetiche.

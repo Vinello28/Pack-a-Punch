@@ -1,0 +1,1 @@
+Progetto di telemedicina con monitoraggio remoto dei parametri vitali tramite dispositivi wearable e algoritmi di predizione del rischio clinico.

@@ -1,0 +1,1 @@
+Il progetto I-TERAPI si concentra sullo sviluppo di tecnologie di apprendimento automatico per prevedere e ottimizzare in modo prescrittivo i processi di isolamento  filtrazione  purificazione ed essiccazione degli API

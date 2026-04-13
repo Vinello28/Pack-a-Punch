@@ -1,0 +1,1 @@
+IOT2DO-IT: Un sistema di automazione basato sull’analisi di “Big Sensor Data”

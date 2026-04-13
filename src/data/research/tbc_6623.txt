@@ -1,0 +1,1 @@
+NEUROKIT2E mira a fornire un quadro open source indipendente volto a svolgere compiti di intelligenza artificiale (IA) sul bordo della rete con l'obiettivo di sostenere una comunità internazionale di utenti e un'ampia varietà di settori applicativi

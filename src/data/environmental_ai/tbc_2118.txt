@@ -1,0 +1,1 @@
+Sviluppo di una piattaforma per l'analisi del comportamento della folla  con finalità di sicurezza e di valutazione del rischio.

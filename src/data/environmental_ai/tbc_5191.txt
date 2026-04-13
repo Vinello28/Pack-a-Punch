@@ -1,0 +1,1 @@
+Il progetto mira a sviluppare un dispositivo per rilevare VOC  inquinanti e patogeni in aria a concentrazioni ultra-basse  usando sensori nano-plasmonici  QCM e algoritmi AI. Il sistema attiverà contromisure come sanificazione a microonde o ultrasuoni  migliorando la qualità dell’aria indoor.

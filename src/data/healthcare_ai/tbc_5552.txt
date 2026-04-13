@@ -1,0 +1,1 @@
+Il progetto consiste nello sviluppo di un tool per la riabilitazione dei disturbi dell'apprendimento e del linguaggio che comprende una plancia  una board IoT  36 carte taggate (con 108 tipi di stimoli in forme diverse - giocattoli  immagini o parole scritte) e un'app.

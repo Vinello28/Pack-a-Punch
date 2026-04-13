@@ -1,0 +1,1 @@
+La previsione di eventi meteorologici estremi con AI sfrutta modelli di forecasting basati su reti neurali per fornire allerte precoci su alluvioni, frane e ondate di calore.

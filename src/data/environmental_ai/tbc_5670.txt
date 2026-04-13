@@ -1,0 +1,1 @@
+Il progetto realizza una piattaforma distribuita che offre agli utenti la possibilità di contribuire con fotografie al monitoraggio di un bene culturale diffuso  che vengono analizzate da strumenti di Intelligenza artificiale allo scopo di fornire supporto alle decisioni nella gestione.

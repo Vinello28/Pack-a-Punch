@@ -1,0 +1,1 @@
+Il progetto si propone di integrare le seguenti tecnologie per migliorare la sicurezza degli utenti della strada vulnerabili  come ciclisti e pedoni: C-V2X; Visione stereoscopica (stereo camera orientata verso il retro della bici); Reti neurali; Geolocalizzazione tramite smartphone. Il sistema è pensato per poter funzionare anche nel caso “depotenziato”: per esempio un pedone.

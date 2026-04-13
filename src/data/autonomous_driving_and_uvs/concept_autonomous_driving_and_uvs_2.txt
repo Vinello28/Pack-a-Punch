@@ -1,0 +1,1 @@
+La fusione sensoriale combina dati provenienti da LiDAR, radar, telecamere e GPS per creare una rappresentazione robusta e ridondante dell'ambiente, essenziale per la sicurezza dei veicoli autonomi.

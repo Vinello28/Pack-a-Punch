@@ -1,0 +1,1 @@
+Acquisizione  elaborazione ed analisi predittiva su dati di vendita dello storico.

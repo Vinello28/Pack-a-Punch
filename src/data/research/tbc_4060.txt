@@ -1,0 +1,1 @@
+Gli strumenti per l’orchestrazione di risorse computazionali sono una delle tecnologie abilitanti fondamentali per le scienze computazionali (e-science). La rappresentazione di task dipendenti da relazioni data producer/consumer trovano solidità teorica nei Directed Acyclic Graph (DAG) ed implementazione tecnologica nei motori per la gestione dei workflow scientifici.

@@ -1,0 +1,1 @@
+Realizzazione della versione 2.0 del software di gestione cliente della customer base con algoritmo previsionale del churn (predittore delle disdette) basato su piattaforma microsoft ed in parte in linguaggio PHP

@@ -1,0 +1,1 @@
+L'impresa intende creare un sito dedicato all'e-commerce  attivando 3 sistemi di pagamento  calcolo automatico delle spese di spedizione in base al peso degli articoli  più un pannello per la gestione autonoma degli articoli.

@@ -1,0 +1,1 @@
+L ‘obiettivo del progetto è quello di realizzare un sistema di pre-screenning intelligente basato su architetture bigdata per il controllo dei passeggeri del trasporto aereo con la finalità di aumentare i livelli di sicurezza anti-terrorismo. Il sistema si baserà su ciò che è noto come un Passenger Name Record  spesso abbreviato in PNR.

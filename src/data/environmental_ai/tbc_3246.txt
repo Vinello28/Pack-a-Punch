@@ -1,0 +1,1 @@
+Progetto  QML4EU - Quantum Machine Learning in Energy & Utilities: time series forecasting and grid optimization   finanziato nell'ambito del bando a cascata sul CN HPC  Spoke 10

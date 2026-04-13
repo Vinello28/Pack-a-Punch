@@ -1,0 +1,1 @@
+Sviluppo di una piattaforma all'interno della quale integrare l'intelligenza artificiale con il riconoscimento vocale e il supporto di sintesi vocale per facilitare l'uso dei contenuti per gli utenti

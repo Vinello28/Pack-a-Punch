@@ -1,0 +1,1 @@
+installazione un robot navetta in magazzino che sarà programmato per spostarsi fra gli scaffali durante la preparazione degli ordini sulla base dei dati dell¿ordine cliente inseriti nel programma gestionale in modo da agevolare la ricerca del materiale e il trasporto dello stesso aumentando l¿efficienza del processo di magazzino.

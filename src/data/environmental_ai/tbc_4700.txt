@@ -1,0 +1,1 @@
+Lo scopo principale di questa fase della collaborazione è quello di analizzare la qualità dei dati forniti da AISPOT  per creare un dataset di alta qualità da utilizzare per la valutazione di tecniche più recenti di object detection

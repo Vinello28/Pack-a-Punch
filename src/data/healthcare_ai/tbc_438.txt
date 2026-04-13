@@ -1,0 +1,1 @@
+Sviluppo di un progetto software che permette il riconoscimento facciale automatico degli utenti tramite la corrispondenza tra i caratteri biometrici risultanti da una foto della persona ed il suo documento d'identità.

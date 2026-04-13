@@ -1,0 +1,1 @@
+Il progetto ha come obiettivo Definizione di un setup sperimentale per la manipolazione robotica di oggetti (rigidi e deformabili) nello svolgimento di una azione. Condivisione di modelli e metriche  affiancata alla raccolta dati per lo sviluppo comunitario di un dataset a larga scala; l

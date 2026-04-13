@@ -1,0 +1,1 @@
+L'obiettivo finale consiste nella definizione di un Proof Of Concept per la realizzazione di un sistema che sfrutti le potenzialità dell'AI nel supporto alla progettazione dei quadri elettrici.

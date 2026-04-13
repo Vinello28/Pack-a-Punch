@@ -1,0 +1,1 @@
+Investigazione scientifica in astrofisica con modelli di deep learning per l'analisi automatica di survey astronomici e la classificazione di galassie.

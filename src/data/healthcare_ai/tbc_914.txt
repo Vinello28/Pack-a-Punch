@@ -1,0 +1,1 @@
+Con il presente progetto i proponenti intendono realizzare una piattaforma tecnologica che possa supportare la diagnosi precoce e non invasiva di malattie neurodegenerative; la piattaforma  realizzata con un’architettura di tipo web service  farà uso di modelli matematici di supporto alle decisioni e di dati generati da misure di laboratorio.

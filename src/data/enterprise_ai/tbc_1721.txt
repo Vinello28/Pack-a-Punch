@@ -1,0 +1,1 @@
+supporto per lo sviluppo di logiche e viste di analisi dei dati relativi al sistema di raccolta dei PFU da implementare nella piattaforma PFU24 e supporto per lo sviluppo di algoritmi previsionali relativi ai dati di riempimento di sistemi per la raccolta  di rifiuti urbani e speciali.

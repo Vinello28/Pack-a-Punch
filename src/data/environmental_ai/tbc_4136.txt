@@ -1,0 +1,1 @@
+Il progetto STEMS (Smart Traffic & Environmental Monitoring System) risponde alla necessità di gestione del traffico urbano e di sostenibilità ambientale promossa dal Comune di Ravenna. La soluzione fornisce monitoraggio in tempo reale e analisi predittiva per garantire una mobilità sicura  fluida e sostenibile  contribuendo agli obiettivi di neutralità climatica.

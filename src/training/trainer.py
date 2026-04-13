@@ -287,20 +287,22 @@ class Trainer:
         texts: Optional[list[str]] = None,
         labels: Optional[list[int]] = None,
         data_source: str = "auto",
+        csv_path: Optional[Path] = None,
     ) -> Path:
         """
         Run training loop with simple train/eval split.
-        
+
         Args:
             texts: Training texts (or load from data_source)
             labels: Training labels
-            data_source: One of "auto", "txt", "jsonl", "distilled"
-            
+            data_source: One of "auto", "txt", "jsonl", "distilled", "csv"
+            csv_path: Path to CSV file (required when data_source="csv")
+
         Returns:
             Path to saved model
         """
         if texts is None or labels is None:
-            texts, labels = load_dataset(source=data_source)
+            texts, labels = load_dataset(source=data_source, csv_path=csv_path)
         
         train_loader, eval_loader = self._prepare_data(texts, labels)
         
@@ -318,28 +320,30 @@ class Trainer:
         texts: Optional[list[str]] = None,
         labels: Optional[list[int]] = None,
         data_source: str = "auto",
+        csv_path: Optional[Path] = None,
     ) -> Path:
         """
         Run Stratified K-Fold Cross Validation training.
-        
+
         For each fold:
         1. Reinitialize model from pretrained weights
         2. Train on K-1 folds
         3. Evaluate on held-out fold
-        
+
         After all folds, retrain on ALL data and save the final model.
-        
+
         Args:
             n_splits: Number of folds (default: 5)
             texts: Training texts (or load from data_source)
             labels: Training labels
-            data_source: One of "auto", "txt", "jsonl", "distilled"
-            
+            data_source: One of "auto", "txt", "jsonl", "distilled", "csv"
+            csv_path: Path to CSV file (required when data_source="csv")
+
         Returns:
             Path to saved model
         """
         if texts is None or labels is None:
-            texts, labels = load_dataset(source=data_source)
+            texts, labels = load_dataset(source=data_source, csv_path=csv_path)
         
         skf = StratifiedKFold(n_splits=n_splits, shuffle=True, random_state=42)
         

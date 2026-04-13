@@ -1,0 +1,1 @@
+Il monitoraggio ambientale con AI utilizza reti di sensori IoT e algoritmi di machine learning per rilevare in tempo reale variazioni nei parametri di qualita dell'aria, acqua e suolo.

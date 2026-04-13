@@ -1,0 +1,1 @@
+Il calcolo ad alte prestazioni (HPC) potenziato da AI combina simulazioni su supercomputer con modelli di surrogato per accelerare le ricerche in fisica, climatologia e ingegneria.

@@ -1,0 +1,1 @@
+Progettazione e sviluppo di un sistema robotico di movimentazione di stampe serigrafiche e sviluppo di un algoritmo di riconoscimento automatico dei difetti tramite computer vision.

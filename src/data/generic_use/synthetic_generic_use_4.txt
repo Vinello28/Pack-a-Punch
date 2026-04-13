@@ -1,0 +1,1 @@
+Sistema di traduzione automatica multilingue basato su modelli linguistici di grandi dimensioni per supportare la comunicazione internazionale dell'organizzazione.

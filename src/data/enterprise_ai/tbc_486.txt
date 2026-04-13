@@ -1,0 +1,1 @@
+Costruzione di una piattaforma web per consentire ai clienti di conoscere le ultime tendenze della moda e di prendere gli appuntamenti in maniera autonoma. Lo scopo è che  dando più prestigio al servizio  gli stessi clienti possano coinvolgere nuovi contatti.

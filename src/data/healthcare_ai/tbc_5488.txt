@@ -1,0 +1,1 @@
+GenoGra sviluppa soluzioni software per l'analisi genomica  per fini diagnostici e di ricerca. Gli algoritmi e i metodi proprietari forniscono una rappresentazione innovativa dei dati genomici attraverso l’analisi di grafi genomic

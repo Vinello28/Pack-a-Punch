@@ -1,0 +1,1 @@
+Il knowledge graph aziendale organizza la conoscenza dell'organizzazione in un grafo di entita e relazioni, interrogabile tramite AI per supporto decisionale e gestione della conoscenza.

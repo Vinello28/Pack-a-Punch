@@ -1,0 +1,1 @@
+Sviluppo di una piattaforma che consente la contestualizzazione spaziotemporale dei dati e delle informazioni in essa archiviati  per poi dare vita in maniera totalmente automatizzata ad infografiche di grande impatto visivo  basate sul filtraggio ed incrocio dei contenuti

@@ -1,0 +1,1 @@
+lo sviluppo di modelli computazionali  aventi come input la caratterizzazione molecolare (genomica epigenomica metabolomica) del tumore del paziente  per riprodurre in silico un “paziente virtuale” che riproduca il più esattamente possibile la biologia del sistema  così da poter fare accurate predizioni sulla risposta del paziente al trattamento farmacologico

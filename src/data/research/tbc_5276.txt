@@ -1,0 +1,1 @@
+NEUROKIT2E mira a fornire un framework open-source indipendente mirato all’esecuzione di task di intelligenza artificiale (IA) sull’edge del network  con l’intento di supportare una comunità internazionale di utenti e un'ampia varietà di domini applicativi

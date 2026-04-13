@@ -1,0 +1,1 @@
+Realizzazione di un telescopio robotico per il monitoraggio dell'attività solare.

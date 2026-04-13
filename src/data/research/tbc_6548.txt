@@ -1,0 +1,1 @@
+L'obiettivo di questa ricerca è quello di sviluppare un programma computazionale che consenta agli utenti di concepire un nuovo tipo di packaging ecosostenibile in particolare nel settore dell'imballaggio per elettrodomestici che sono grandi consumatori di polistirene EPS (PolyStyrene ampliato).

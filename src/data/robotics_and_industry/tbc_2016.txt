@@ -1,0 +1,1 @@
+Studio di algoritmi per la manipolazione e presa di oggetti in ambiente altamente non strutturato; inoltre  si propone di sviluppare un sistema standard e riproducibile per il benchmarking di algoritmi di presa di oggetti

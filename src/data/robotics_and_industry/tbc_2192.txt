@@ -1,0 +1,1 @@
+Il progetto si propone di porre le basi per un controllo integrale delle attività produttive tramite la raccolta automatica dei dati  la quale è strutturata nelle seguenti fasi: disegno di un architettura informativa; implementazione di un sistema di raccolta dati automatico e in tempo reale; soluzione pilota di un sistema di manutenzione intelligente.

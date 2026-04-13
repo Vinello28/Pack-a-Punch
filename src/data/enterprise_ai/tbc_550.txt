@@ -1,0 +1,1 @@
+Realizzazione di una piattaforma in grado di proteggere algoritmi proprietari condivisi in rete

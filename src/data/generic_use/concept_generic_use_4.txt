@@ -1,0 +1,1 @@
+L'AutoML automatizza il processo di selezione, configurazione e ottimizzazione dei modelli di machine learning, rendendo l'AI accessibile anche a utenti senza competenze specialistiche.

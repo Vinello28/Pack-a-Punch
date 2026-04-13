@@ -1,0 +1,1 @@
+Il progetto proposto mira a ammodernare l'agricoltura di precisione attraverso lo sviluppo di un  Data Logger Virtuale  in grado di operare senza soluzione di continuità tra il cloud e l'edge.

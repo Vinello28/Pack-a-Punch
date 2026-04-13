@@ -1,0 +1,1 @@
+Il progetto prevede di innovare il processo di sviluppo prodotto tramite l'utilizzo delle concetto di digital twin e dei relativi modelli di virtualizzazione per testare la UX (User Experience) sui nuovi prodotti. A tal fine il progetto prevede l'utilizzo della CAVE (Cave Augmented Virtual Enviroment)

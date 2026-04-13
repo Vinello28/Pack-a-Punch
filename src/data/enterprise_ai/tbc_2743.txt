@@ -1,0 +1,1 @@
+L’obiettivo è quello di realizzare un prodotto pilota che sia in grado di tracciare più processi produttivi  sfruttando un motore Blockchain

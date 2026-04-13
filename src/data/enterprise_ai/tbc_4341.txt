@@ -1,0 +1,1 @@
+Il TMP-AI mira a creare un sistema di tour museali dinamici e interattivi  in grado di adattarsi in  tempo reale agli interessi del visitatore. Attraverso algoritmi di machine learning  l'app TMP-AI  analizza le preferenze e i comportamenti dei visitatori per generare itinerari personalizzati che  guidano l'utente attraverso collezioni e mostre in linea con i suoi interessi.

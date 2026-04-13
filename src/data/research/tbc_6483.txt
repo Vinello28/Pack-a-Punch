@@ -1,0 +1,1 @@
+Realizzazione di una soluzione in grado di supportare una ricerca di contenuti basata sulla conoscenza della piattaforma Eutekne basata sulla comprensione delle richieste fatte all'utente in linguaggio naturale e quando non possibile sullo sviluppo di un dialogo con l'utente finalizzato alla tempestiva identificazione della richiesta.

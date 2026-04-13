@@ -1,0 +1,1 @@
+Progetto di ricerca e sviluppo per il generatore di dati sintetici INTUITE.AI

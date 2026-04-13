@@ -1,0 +1,1 @@
+Sistema di monitoraggio della qualita dell'aria basato su reti di sensori IoT e modelli di deep learning per la previsione dei livelli di inquinamento in aree urbane.

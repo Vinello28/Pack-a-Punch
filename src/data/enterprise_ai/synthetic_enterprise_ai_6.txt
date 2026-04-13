@@ -1,0 +1,1 @@
+Implementazione di un sistema di process mining con AI per identificare e ottimizzare i colli di bottiglia nei workflow aziendali del settore telecomunicazioni.

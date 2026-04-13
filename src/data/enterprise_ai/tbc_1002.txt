@@ -1,0 +1,1 @@
+Lisia è una piattaforma digitale avanzata che si basa su algoritmi di Intelligenza Artificiale e modelli su spazio vettoriale (vector space model) in grado di velocizzare ed efficientare la ricerca legale.

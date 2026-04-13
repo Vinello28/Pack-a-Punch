@@ -1,0 +1,1 @@
+Piattaforma di rilevamento frodi in tempo reale per transazioni bancarie che utilizza autoencoders e graph neural networks per identificare pattern sospetti.

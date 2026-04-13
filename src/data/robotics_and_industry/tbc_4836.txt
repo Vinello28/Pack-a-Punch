@@ -1,0 +1,1 @@
+Sviluppo e integrazione di una soluzione tecnologica (robotica e informatica) e di processo finalizzata ad automatizzare in modo sicuro la gestione dei Container Refrigerati (Reefer)  garantendo anche la sicurezza dell’infrastruttura e dei relativi dati  in ambito logistico-portuale

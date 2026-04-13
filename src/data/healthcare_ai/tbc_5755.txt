@@ -1,0 +1,1 @@
+Servizio di TBI AI - Feasibility Study AI. Sviluppo di un algoritmo che consenta la creazione automatica di un file g-code per la stampa 3D di dispositivi medici personalizzati.

@@ -1,0 +1,1 @@
+Implementazione di un sistema indossabile per il monitoraggio automatico di 3 parametri biologici (EEG  ECG e pulsossimetria) i cui dati acquisiti verranno inviati real-time ad un centro di monitoraggio considerando il paziente connesso ad una piattaforma e-Health di assistenza automatica.

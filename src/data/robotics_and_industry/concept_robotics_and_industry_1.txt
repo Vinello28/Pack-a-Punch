@@ -1,0 +1,1 @@
+Il digital twin industriale e una replica virtuale di un impianto produttivo che utilizza dati IoT in tempo reale per simulare, monitorare e ottimizzare i processi di produzione.

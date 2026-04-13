@@ -1,0 +1,1 @@
+Il riconoscimento vocale (Speech-to-Text) trasforma il parlato in testo utilizzando modelli di deep learning, abilitando l'interazione vocale con assistenti virtuali in lingua italiana.

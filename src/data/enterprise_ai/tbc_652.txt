@@ -1,0 +1,1 @@
+Sviluppo di un algoritmo di analisi e estrazione parametri fornisca una stima automatica del valore di mercato di un determinato immobile e  sviluppo dei moduli tecnologici e dei web services necessari per l’implementazione del nuovo servizio.

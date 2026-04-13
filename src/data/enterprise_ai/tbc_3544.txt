@@ -1,0 +1,1 @@
+SIGMUND punta all’ottimizzazione delle soluzioni attualmente presenti attraverso l’introduzione di Virtual Machine  la messa in opera di un Database Server connesso ad un Application Server per la gestione dei sistemi di automation workflow

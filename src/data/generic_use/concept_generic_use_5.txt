@@ -1,0 +1,1 @@
+I modelli linguistici di grandi dimensioni (LLM) sono reti neurali addestrate su vasti corpus testuali, capaci di generare testo coerente, rispondere a domande e svolgere compiti linguistici complessi.

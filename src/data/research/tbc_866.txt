@@ -1,0 +1,1 @@
+L obiettivo del progetto 3D-DL è quello di sviluppare sistemi capaci di implementare l'analisi della scena tramite dati 3D e al contempo verificare le possibilità delle camere 3D di ultima generazione nell'applicazione di algoritmi di deep learning ai dati 3D

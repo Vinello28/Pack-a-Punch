@@ -1,0 +1,1 @@
+sviluppo di una piattaforma SaaS  basata su algoritmi di AI di analisi predittiva che analizzano ed elaborano i dati raccolti e messi a disposizione dai principali istituti finanziari per la creazione e lo sviluppo di apposite gamification  con l’obiettivo di impartire nozioni di educazione finanziaria.

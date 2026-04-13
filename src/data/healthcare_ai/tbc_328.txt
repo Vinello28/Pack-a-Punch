@@ -1,0 +1,1 @@
+TLMS750 -   Chronic Patient Monitoring    Monitoraggio dei pazienti cronici mediante sistemi di telemedicina e analisi dei dati clinici basati su deep learning

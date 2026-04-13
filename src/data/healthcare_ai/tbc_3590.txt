@@ -1,0 +1,1 @@
+BOOST sviluppa un modulo per Liberness® che fornisce terapia cognitivo-comportamentale digitale ai pazienti con obesità (BMI 30-45) tramite IA. Il sistema migliora l'aderenza terapeutica  offre supporto motivazionale e monitoraggio farmacologico  integrandosi con i sistemi sanitari e il Fascicolo Sanitario Elettronico.

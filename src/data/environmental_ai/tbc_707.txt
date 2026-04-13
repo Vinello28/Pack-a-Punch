@@ -1,0 +1,1 @@
+Il progetto intende sviluppare una piattaforma di Activity Tracking  composta da un sensore “wearable” ed un’applicazione smartphone  e di integrarla ad attrezzatura sportiva utilizzata in ambiente montano.

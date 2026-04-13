@@ -1,0 +1,1 @@
+Il progetto ha come obiettivo Sviluppo di algoritmi di apprendimento automatico per sistemi idrodinamici completi e di strumenti di realtà aumentata e virtuale per visualizzare il risultato dei modelli idrologici per facilitarne l'uso da parte dei diversi soggetti interessati

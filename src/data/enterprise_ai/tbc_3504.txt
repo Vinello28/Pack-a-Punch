@@ -1,0 +1,1 @@
+Implementazione del modello di IA analizzato all'interno dell'applicazione in forma di un prototipo in grado di elaborare le informazioni del sistema

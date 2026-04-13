@@ -1,0 +1,1 @@
+Pytia Analytics ha creato un algoritmo che rileva dai social il “sentiment” relativo a stock quotate e trasformare questo sentiment  insieme all’esame dei dati storici  in segnali che possono essere sfruttati per prendere decisioni di trading in grado di battere il benchmark.

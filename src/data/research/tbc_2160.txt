@@ -1,0 +1,1 @@
+Il progetto [SCIBA] prevede lo sviluppo di un sistema innovativo di ricerca bibliografica editoriale di carattere archeologico su base cartografica  con funzione di ricerca semantica correlata e sviluppo di knowledge graph in base a singoli elementi caratterizzanti e cronologici.

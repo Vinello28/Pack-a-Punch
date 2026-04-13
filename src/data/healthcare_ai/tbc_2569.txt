@@ -1,0 +1,1 @@
+L’idea che sta alla base del presente progetto è quella di sfruttare una piattaforma di storage per il Machine Learning. Nasce dall’esigenza di individuare un modo intelligente per archiviare i dati necessari per l’allenamento degli algoritmi di intelligenza artificiale applicati al mondo della salute.

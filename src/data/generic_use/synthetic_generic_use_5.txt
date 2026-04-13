@@ -1,0 +1,1 @@
+Sviluppo di una soluzione di AI generativa per la creazione automatizzata di contenuti testuali a supporto della produttivita aziendale.

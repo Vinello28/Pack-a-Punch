@@ -1,0 +1,1 @@
+Il progetto ha come obiettivo COHERENT studierà un nuovo quadro per coordinare le spiegazioni provenienti ai diversi livelli di un'architettura robotica in compiti di collaborazione con l'uomo.

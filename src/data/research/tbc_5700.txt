@@ -1,0 +1,1 @@
+Il progetto ICARVS sviluppa un sistema di controllo d’assetto e orbita (AOCS) assistito da AI per missioni in orbite molto basse (VLEO). Il sistema apprende dalle condizioni operative in tempo reale  adattandosi a ambienti variabili e dimostrando la fattibilità di missioni spaziali intelligenti.

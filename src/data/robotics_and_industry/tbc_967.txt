@@ -1,0 +1,1 @@
+Il progetto prevede la messa in opera di due workstation ad alte prestazioni capaci di elaborazione di modelli 3D e Machine Learning con visualizzazione grafica avanzata multischermo e relativo sistema di archiviazione dati con sistema in raid.

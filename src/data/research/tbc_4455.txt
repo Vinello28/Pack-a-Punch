@@ -1,0 +1,1 @@
+La mappatura della connettività neuronale con risoluzione del singolo assone resta una delle grandi sfide tecnologiche per le neuroscienze contemporanee. L'obiettivo di questo progetto è di realizzare un'applicazione software per il tracing automatico e su larga scala delle fibre assonali  basata principalmente su intelligenza artificiale.

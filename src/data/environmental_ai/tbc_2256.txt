@@ -1,0 +1,1 @@
+Il progetto Agrimet si pone come obiettivo la realizzazione di un sistema integrato di acquisizione ed elaborazione  di rilievi:  · Aerei  eseguiti con droni radiocomandati.  · Terrestri o di prossimità tramite un robot automatico da realizzare  · Da network di stazioni meteo nei campi agricoli  · Da dati resi disponibili su piattaforme online (satelliti  ecc.

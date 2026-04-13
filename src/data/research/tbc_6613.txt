@@ -1,0 +1,1 @@
+L'obiettivo del progetto è quello di sviluppare un modello che utilizzi un'euristica basata sulla popolazione per individuare una serie di soluzioni che si avvicinino alla soluzione ottimale e accettabile in modo da dare al decisore l'opportunità di scegliere la soluzione più adatta al contesto del progetto e ai suoi obiettivi.

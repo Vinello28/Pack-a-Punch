@@ -1,0 +1,1 @@
+L'obiettivo dell'attività proposta è quello di mettere in pratica i concetti di Intelligenza Artificiale dal Machine Learning Classico al Deep Learning per consentire agli studenti di realizzare applicazioni utilizzando librerie e framework esistenti

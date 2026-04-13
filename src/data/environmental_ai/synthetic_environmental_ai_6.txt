@@ -1,0 +1,1 @@
+Monitoraggio delle emissioni di gas serra tramite sensori distribuiti e modelli di machine learning per il supporto alle politiche di decarbonizzazione.

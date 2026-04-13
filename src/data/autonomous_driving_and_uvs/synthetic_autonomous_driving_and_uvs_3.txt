@@ -1,0 +1,1 @@
+Realizzazione di un veicolo agricolo autonomo per precision farming, equipaggiato con sensori multispettrali e capacita di pianificazione del percorso su terreno irregolare.

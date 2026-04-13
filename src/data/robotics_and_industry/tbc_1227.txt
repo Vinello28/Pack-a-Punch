@@ -1,0 +1,1 @@
+Programmazione di software specifici con intelligenza artificiale(machine learning) dedicati al controllo dimensionale e qualità attraverso l'utilizzo di telecamere per la visione artificiale.

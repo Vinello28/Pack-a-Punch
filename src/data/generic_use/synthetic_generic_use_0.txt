@@ -1,0 +1,1 @@
+Sviluppo di un sistema di classificazione automatica di documenti basato su modelli di machine learning supervisionato per la digitalizzazione degli archivi aziendali.

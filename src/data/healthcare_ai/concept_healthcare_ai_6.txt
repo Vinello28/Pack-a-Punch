@@ -1,0 +1,1 @@
+L'analisi predittiva delle epidemie utilizza modelli epidemiologici potenziati da machine learning per prevedere la diffusione di malattie infettive e supportare le politiche sanitarie.

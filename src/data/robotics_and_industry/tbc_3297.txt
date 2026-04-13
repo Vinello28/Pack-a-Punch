@@ -1,0 +1,1 @@
+Sviluppo di  una cella robotica prototipale che permetta il trattamento di rifiuti di natura estremamente eterogenea attraverso algoritmi di autoapprendimento che elaborino immagini del rifiuto per guidare un robot  nelle attività di smontaggio

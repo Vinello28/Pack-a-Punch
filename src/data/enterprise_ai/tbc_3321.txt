@@ -1,0 +1,1 @@
+Consolidamento di un’agenzia immobiliare specializzata in servizi di consulenza legata alla compravendita immobiliare  attraverso lo sviluppo di un innovativo software in grado di determinare  grazie anche ad uno specifico algoritmo  il valore di un immobile tramite l’utilizzo di molteplici parametri.

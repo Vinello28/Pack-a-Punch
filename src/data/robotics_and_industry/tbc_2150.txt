@@ -1,0 +1,1 @@
+algoritmi di computer vision per effettuare il tracking dei mezzi di servizio  attraverso l'impianto di telecamere già presente nelle strutture fieristiche

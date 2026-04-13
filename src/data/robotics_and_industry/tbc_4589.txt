@@ -1,0 +1,1 @@
+Studio di fattibilità per l'integrazione di un sistema di navigazione adattivo e semantico basato su ROS2 sul robot MecGeos

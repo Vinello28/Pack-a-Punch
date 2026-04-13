@@ -1,0 +1,1 @@
+Il progetto ha come obiettivo Portare sul mercato un sistema indossabile di riabilitazione a casa per i sopravvissuti da un ictus. Il sistema si basa su scarpe intelligenti integrate con sensori che forniscono feedback ai pazienti. I dati raccolti vengono processati da algoritmo IA per valutare lo schema della camminata durante le attività quotidiane

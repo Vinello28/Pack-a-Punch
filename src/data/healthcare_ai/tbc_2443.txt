@@ -1,0 +1,1 @@
+Piattaforma tecnologica che consente il collegamento tra pazienti e professionisti sanitari  prevedendo in futuro l'attivazione di algoritmi di Advanced Analytics e Machine Learning oltre che l'integrazione con operatori terzi (SSN e ospedali).

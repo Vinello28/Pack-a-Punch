@@ -1,0 +1,1 @@
+Il progetto mira a sviluppare ARI  sistemi robotici basati su AI  per migliorare produttività e adozione dei robot nell’industria. Si studieranno controlli in tempo reale  pianificazione  interfacce AI e sicurezza  affrontando anche rischi di abuso e impatti sociali.

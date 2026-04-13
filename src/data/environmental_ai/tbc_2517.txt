@@ -1,0 +1,1 @@
+Monitoraggio real time e previsione flussi turistici in Vda con sensori  machine learning e big data

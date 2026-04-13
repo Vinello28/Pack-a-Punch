@@ -1,0 +1,1 @@
+Sviluppo e ricerca software e hardware per creare un sistema gestionale che automatizzi e renda disponibili tutte le informazioni di consegna quali la georeferenziazione e sviluppo di un algoritmo di ETA (Estimated Time of Arrival)
