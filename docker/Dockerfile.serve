@@ -42,7 +42,7 @@ COPY requirements.txt .
 # Install inference dependencies
 # PyTorch with CUDA 12.4 for pytorch backend
 # ONNX Runtime for onnx backend
-RUN python3 -m pip install --no-cache-dir \
+RUN python -m pip install --no-cache-dir \
     --progress-bar off --default-timeout=1000 \
     torch --index-url https://download.pytorch.org/whl/cu124 \
     && pip install --no-cache-dir \

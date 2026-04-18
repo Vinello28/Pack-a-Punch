@@ -46,6 +46,8 @@ services:
       dockerfile: docker/Dockerfile.serve
     image: pack-a-punch:serve
     container_name: pap-classifier-pytorch
+    security-opt:
+      - seccomp:unconfined
     ports:
       - "8081:8080"
     volumes:
@@ -56,6 +58,10 @@ services:
       - PAP_INFERENCE__BATCH_SIZE=64
       - PAP_INFERENCE__DEVICE=cuda
       - INFERENCE_BACKEND=pytorch
+      - OPENBLAS_NUM_THREADS=24
+      - OMP_NUM_THREADS=24
+      - MKL_NUM_THREADS=24
+    ipc: host
     deploy:
       resources:
         reservations:
