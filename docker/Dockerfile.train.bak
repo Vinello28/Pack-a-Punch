@@ -7,7 +7,7 @@ FROM nvidia/cuda:12.4.0-devel-ubuntu22.04
 ENV DEBIAN_FRONTEND=noninteractive
 ENV PYTHONUNBUFFERED=1
 
-# Compatibility fix for older DGX apt setup
+# Correction for old DGX server
 RUN rm -f /etc/apt/apt.conf.d/docker-clean
 
 # Install Python
@@ -32,8 +32,7 @@ WORKDIR /app
 # Copy requirements first for caching
 COPY requirements.txt .
 RUN python -m pip install --no-cache-dir --progress-bar off --upgrade pip setuptools wheel
-RUN python -m pip install --no-cache-dir --progress-bar off --default-timeout=1000 \
-    torch --index-url https://download.pytorch.org/whl/cu124
+RUN python -m pip install --no-cache-dir --progress-bar off --default-timeout=1000 torch --index-url https://download.pytorch.org/whl/cu124
 RUN python -m pip install --no-cache-dir --progress-bar off --default-timeout=1000 -r requirements.txt
 
 # Copy source code

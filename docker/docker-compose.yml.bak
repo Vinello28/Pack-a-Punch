@@ -1,6 +1,5 @@
 # Pack-a-Punch Docker Compose
 # Orchestration for training and inference services
-# DGX-A100 compatible: GPU 5, 32 vCPUs
 
 services:
   # Inference service (main - ONNX backend)
@@ -10,8 +9,6 @@ services:
       dockerfile: docker/Dockerfile.serve
     image: pack-a-punch:serve
     container_name: pap-classifier
-    security_opt:
-      - seccomp:unconfined
     ports:
       - "8080:8080"
     volumes:
@@ -27,10 +24,6 @@ services:
       - PAP_INFERENCE__BATCH_SIZE=64
       - PAP_INFERENCE__DEVICE=cuda
       - INFERENCE_BACKEND=onnx
-      - OPENBLAS_NUM_THREADS=24
-      - OMP_NUM_THREADS=24
-      - MKL_NUM_THREADS=24
-    ipc: host
     deploy:
       resources:
         reservations:
@@ -38,8 +31,6 @@ services:
             - driver: nvidia
               device_ids: ['5']
               capabilities: [ gpu ]
-    cpus: 32
-    shm_size: '4g'
     restart: unless-stopped
     healthcheck:
       test: [ "CMD", "python", "-c", "import httpx; httpx.get('http://localhost:8080/health').raise_for_status()" ]
@@ -55,7 +46,7 @@ services:
       dockerfile: docker/Dockerfile.serve
     image: pack-a-punch:serve
     container_name: pap-classifier-pytorch
-    security_opt:
+    security-opt:
       - seccomp:unconfined
     ports:
       - "8081:8080"
@@ -78,8 +69,6 @@ services:
             - driver: nvidia
               device_ids: ['5']
               capabilities: [ gpu ]
-    cpus: 32
-    shm_size: '4g'
     profiles:
       - pytorch # Only start with: docker compose --profile pytorch up
 
@@ -103,7 +92,7 @@ services:
       - ../src:/app/src:ro
       - ../scripts:/app/scripts:ro
     environment:
-      - PAP_TRAINING__BATCH_SIZE=8
+      - PAP_TRAINING__BATCH_SIZE=16
       - PAP_TRAINING__FP16=true
       - PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
       - OPENBLAS_NUM_THREADS=24
@@ -117,11 +106,35 @@ services:
             - driver: nvidia
               device_ids: ['5']
               capabilities: [ gpu ]
-    cpus: 32
-    shm_size: '4g'
     profiles:
       - training # Only start with: docker-compose --profile training up
 
+  # Distillation with LM Studio (requires network access)
+  distiller:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.train
+    image: pack-a-punch:train
+    container_name: pap-distiller
+    volumes:
+      - ../src/data:/app/src/data:rw
+      - ../src/models:/app/src/models:rw
+      - ../config:/app/config:ro
+    environment:
+      - PAP_DISTILLATION__TEACHER_URL=http://host.docker.internal:1234/v1/chat/completions
+      - PAP_DISTILLATION__MAX_SAMPLES=10000
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    command: [ "--data-source", "distillation", "--export-onnx" ]
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              device_ids: ['5']
+              capabilities: [ gpu ]
+    profiles:
+      - distillation # Only start with: docker-compose --profile distillation up
 
 networks:
   default:
