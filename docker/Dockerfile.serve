@@ -8,7 +8,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 ENV PYTHONUNBUFFERED=1
 
 # Default to ONNX backend (set to "pytorch" for PyTorch)
-ENV INFERENCE_BACKEND=onnx
+ENV INFERENCE_BACKEND=pytorch
 
 # Correction for DGX old servers
 RUN rm -f /etc/apt/apt.conf.d/docker-clean
@@ -45,13 +45,13 @@ COPY requirements.txt .
 RUN python -m pip install --no-cache-dir \
     --progress-bar off --default-timeout=1000 \
     torch --index-url https://download.pytorch.org/whl/cu124 \
-    && pip install --no-cache-dir \
+    && python -m pip install --no-cache-dir \
     --progress-bar off --default-timeout=1000 \
     onnxruntime-gpu>=1.16.0 \
     transformers>=4.36.0 \
     tokenizers>=0.15.0 \
     fastapi>=0.108.0 \
-    uvicorn[standard]>=0.25.0 \
+    "uvicorn[standard]>=0.25.0" \
     pydantic>=2.5.0 \
     pydantic-settings>=2.1.0 \
     loguru>=0.7.0 \
