@@ -1,0 +1,16 @@
+the world health organization (who) reported 1.25 million deaths yearly due
+to road traffic accidents worldwide and the number has been continuously
+increasing over the last few years. nearly fifth of these accidents are caused
+by distracted drivers. existing work of distracted driver detection is
+concerned with a small set of distractions (mostly, cell phone usage).
+unreliable ad-hoc methods are often used.in this paper, we present the first
+publicly available dataset for driver distraction identification with more
+distraction postures than existing alternatives. in addition, we propose a
+reliable deep learning-based solution that achieves a 90% accuracy. the system
+consists of a genetically-weighted ensemble of convolutional neural networks,
+we show that a weighted ensemble of classifiers using a genetic algorithm
+yields in a better classification confidence. we also study the effect of
+different visual elements in distraction detection by means of face and hand
+localizations, and skin segmentation. finally, we present a thinned version of
+our ensemble that could achieve 84.64% classification accuracy and operate in a
+real-time environment.

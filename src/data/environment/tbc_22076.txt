@@ -1,0 +1,21 @@
+this article analyzes the role of finnish regulation in achieving the
+broadband penetration goals defined by the national regulatory authority. it is
+well known that in the absence of regulatory mitigation the population density
+has a positive effect on broadband diffusion. hence, we measure the effect of
+the population density on the determinants of broadband diffusion throughout
+the postal codes of finland via geographically weighted regression. we suggest
+that the main determinants of broadband diffusion and the population density
+follow a spatial pattern that is either concentric with a weak/medium/strong
+strength or non-concentric convex/concave. based on 10 patterns, we argue that
+the finnish spectrum policy encouraged mobile network operators to satisfy
+ambitious universal service obligations without the need for a universal
+service fund. spectrum auctions facilitated infrastructure-based competition
+via equitable spectrum allocation and coverage obligation delivery via low-fee
+licenses. however, state subsidies for fiber deployment did not attract
+investment from nationwide operators due to mobile preference. these subsidies
+encouraged demand-driven investment, leading to the emergence of fiber consumer
+cooperatives. to explain this emergence, we show that when population density
+decreases, the level of mobile service quality decreases and community
+commitment increases. hence, we recommend regulators implementing market-driven
+strategies for 5g to stimulate local investment. for example, by allocating the
+3.5 ghz and higher bands partly through local light licensing.

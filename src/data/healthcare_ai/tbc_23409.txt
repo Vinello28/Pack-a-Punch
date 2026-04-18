@@ -1,0 +1,18 @@
+meaningful facial parts can convey key cues for both facial action unit
+detection and expression prediction. textured 3d face scan can provide both
+detailed 3d geometric shape and 2d texture appearance cues of the face which
+are beneficial for facial expression recognition (fer). however, accurate
+facial parts extraction as well as their fusion are challenging tasks. in this
+paper, a novel system for 3d fer is designed based on accurate facial parts
+extraction and deep feature fusion of facial parts. in particular, each
+textured 3d face scan is firstly represented as a 2d texture map and a depth
+map with one-to-one dense correspondence. then, the facial parts of both
+texture map and depth map are extracted using a novel 4-stage process consists
+of facial landmark localization, facial rotation correction, facial resizing,
+facial parts bounding box extraction and post-processing procedures. finally,
+deep fusion convolutional neural networks (cnns) features of all facial parts
+are learned from both texture maps and depth maps, respectively and nonlinear
+svms are used for expression prediction. experiments are conducted on the
+bu-3dfe database, demonstrating the effectiveness of combing different facial
+parts, texture and depth cues and reporting the state-of-the-art results in
+comparison with all existing methods under the same setting.

@@ -1,0 +1,14 @@
+deep learning has been widely applied and brought breakthroughs in speech
+recognition, computer vision, and many other domains. the involved deep neural
+network architectures and computational issues have been well studied in
+machine learning. but there lacks a theoretical foundation for understanding
+the approximation or generalization ability of deep learning methods generated
+by the network architectures such as deep convolutional neural networks having
+convolutional structures. here we show that a deep convolutional neural network
+(cnn) is universal, meaning that it can be used to approximate any continuous
+function to an arbitrary accuracy when the depth of the neural network is large
+enough. this answers an open question in learning theory. our quantitative
+estimate, given tightly in terms of the number of free parameters to be
+computed, verifies the efficiency of deep cnns in dealing with large
+dimensional data. our study also demonstrates the role of convolutions in deep
+cnns.

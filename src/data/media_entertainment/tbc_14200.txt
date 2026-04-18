@@ -1,0 +1,14 @@
+parametric generative deep models are state-of-the-art for photo and
+non-photo realistic image stylization. however, learning complicated image
+representations requires compute-intense models parametrized by a huge number
+of weights, which in turn requires large datasets to make learning successful.
+non-parametric exemplar-based generation is a technique that works well to
+reproduce style from small datasets, but is also compute-intensive. these
+aspects are a drawback for the practice of digital ai artists: typically one
+wants to use a small set of stylization images, and needs a fast flexible model
+in order to experiment with it. with this motivation, our work has these
+contributions: (i) a novel stylization method called fully adversarial mosaics
+(famos) that combines the strengths of both parametric and non-parametric
+approaches; (ii) multiple ablations and image examples that analyze the method
+and show its capabilities; (iii) source code that will empower artists and
+machine learning researchers to use and modify famos.

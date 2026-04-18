@@ -1,0 +1,23 @@
+machine learning has become a critical component of modern data-driven online
+services. typically, the training phase of machine learning techniques requires
+to process large-scale datasets which may contain private and sensitive
+information of customers. this imposes significant security risks since modern
+online services rely on cloud computing to store and process the sensitive
+data. in the untrusted computing infrastructure, security is becoming a
+paramount concern since the customers need to trust the thirdparty cloud
+provider. unfortunately, this trust has been violated multiple times in the
+past. to overcome the potential security risks in the cloud, we answer the
+following research question: how to enable secure executions of machine
+learning computations in the untrusted infrastructure? to achieve this goal, we
+propose a hardware-assisted approach based on trusted execution environments
+(tees), specifically intel sgx, to enable secure execution of the machine
+learning computations over the private and sensitive datasets. more
+specifically, we propose a generic and secure machine learning framework based
+on tensorflow, which enables secure execution of existing applications on the
+commodity untrusted infrastructure. in particular, we have built our system
+called tensorscone from ground-up by integrating tensorflow with scone, a
+shielded execution framework based on intel sgx. the main challenge of this
+work is to overcome the architectural limitations of intel sgx in the context
+of building a secure tensorflow system. our evaluation shows that we achieve
+reasonable performance overheads while providing strong security properties
+with low tcb.

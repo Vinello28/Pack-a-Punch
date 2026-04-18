@@ -1,0 +1,12 @@
+removing blur caused by camera shake in images has always been a challenging
+problem in computer vision literature due to its ill-posed nature. motion blur
+caused due to the relative motion between the camera and the object in 3d space
+induces a spatially varying blurring effect over the entire image. in this
+paper, we propose a novel deep filter based on generative adversarial network
+(gan) architecture integrated with global skip connection and dense
+architecture in order to tackle this problem. our model, while bypassing the
+process of blur kernel estimation, significantly reduces the test time which is
+necessary for practical applications. the experiments on the benchmark datasets
+prove the effectiveness of the proposed method which outperforms the
+state-of-the-art blind deblurring algorithms both quantitatively and
+qualitatively.

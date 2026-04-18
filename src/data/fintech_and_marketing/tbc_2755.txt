@@ -1,0 +1,12 @@
+we investigate the trading behavior of finnish individual investors trading
+the stocks selected to compute the omxh25 index in 2003 by tracking the
+individual daily investment decisions. we verify that the set of investors is a
+highly heterogeneous system under many aspects. we introduce a correlation
+based method that is able to detect a hierarchical structure of the trading
+profiles of heterogeneous individual investors. we verify that the detected
+hierarchical structure is highly overlapping with the cluster structure
+obtained with the approach of statistically validated networks when an
+appropriate threshold of the hierarchical trees is used. we also show that the
+combination of the correlation based method and of the statistically validated
+method provides a way to expand the information about the clusters of investors
+with similar trading profiles in a robust and reliable way.

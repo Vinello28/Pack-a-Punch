@@ -1,0 +1,10 @@
+in this paper, reinforcement learning is applied to the problem of optimizing
+market making. a multi-agent reinforcement learning framework is used to
+optimally place limit orders that lead to successful trades. the framework
+consists of two agents. the macro-agent optimizes on making the decision to
+buy, sell, or hold an asset. the micro-agent optimizes on placing limit orders
+within the limit order book. for the context of this paper, the proposed
+framework is applied and studied on the bitcoin cryptocurrency market. the goal
+of this paper is to show that reinforcement learning is a viable strategy that
+can be applied to complex problems (with complex environments) such as market
+making.

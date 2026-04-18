@@ -1,0 +1,16 @@
+single image super resolution (sisr) is a well-researched problem with broad
+commercial relevance. however, most of the sisr literature focuses on
+small-size images under 500px, whereas business needs can mandate the
+generation of very high resolution images. at expedia group, we were tasked
+with generating images of at least 2000px for display on the website, four
+times greater than the sizes typically reported in the literature. this
+requirement poses a challenge that state-of-the-art models, validated on small
+images, have not been proven to handle. in this paper, we investigate solutions
+to the problem of generating high-quality images for large-scale super
+resolution in a commercial setting. we find that training a generative
+adversarial network (gan) with attention from scratch using a large-scale
+lodging image data set generates images with high psnr and ssim scores. we
+describe a novel attentional sisr model for large-scale images, a-srgan, that
+uses a flexible self attention layer to enable processing of large-scale
+images. we also describe a distributed algorithm which speeds up training by
+around a factor of five.

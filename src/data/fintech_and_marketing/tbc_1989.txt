@@ -1,0 +1,13 @@
+learning data representations that reflect the customers' creditworthiness
+can improve marketing campaigns, customer relationship management, data and
+process management or the credit risk assessment in retail banks. in this
+research, we adopt the variational autoencoder (vae), which has the ability to
+learn latent representations that contain useful information. we show that it
+is possible to steer the latent representations in the latent space of the vae
+using the weight of evidence and forming a specific grouping of the data that
+reflects the customers' creditworthiness. our proposed method learns a latent
+representation of the data, which shows a well-defied clustering structure
+capturing the customers' creditworthiness. these clusters are well suited for
+the aforementioned banks' activities. further, our methodology generalizes to
+new customers, captures high-dimensional and complex financial data, and scales
+to large data sets.

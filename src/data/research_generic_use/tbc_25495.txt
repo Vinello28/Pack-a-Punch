@@ -1,0 +1,20 @@
+science, technology, engineering, and math (stem) fields play growing roles
+in national and international economies by driving innovation and generating
+high salary jobs. yet, the us is lagging behind other highly industrialized
+nations in terms of stem education and training. furthermore, many economic
+forecasts predict a rising shortage of domestic stem-trained professions in the
+us for years to come. one potential solution to this deficit is to decrease the
+rates at which students leave stem-related fields in higher education, as
+currently over half of all students intending to graduate with a stem degree
+eventually attrite. however, little quantitative research at scale has looked
+at causes of stem attrition, let alone the use of machine learning to examine
+how well this phenomenon can be predicted. in this paper, we detail our efforts
+to model and predict dropout from stem fields using one of the largest known
+datasets used for research on students at a traditional campus setting. our
+results suggest that attrition from stem fields can be accurately predicted
+with data that is routinely collected at universities using only information on
+students' first academic year. we also propose a method to model student stem
+intentions for each academic term to better understand the timing of stem
+attrition events. we believe these results show great promise in using machine
+learning to improve stem retention in traditional and non-traditional campus
+settings.

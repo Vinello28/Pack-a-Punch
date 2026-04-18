@@ -1,0 +1,8 @@
+we propose a method for constructing artificial intelligence (ai) of mahjong,
+which is a multiplayer imperfect information game. since the size of the game
+tree is huge, constructing an expert-level ai player of mahjong is challenging.
+we define multiple markov decision processes (mdps) as abstractions of mahjong
+to construct effective search trees. we also introduce two methods of inferring
+state values of the original mahjong using these mdps. we evaluated the
+effectiveness of our method using gameplays vis-\`{a}-vis the current strongest
+ai player.

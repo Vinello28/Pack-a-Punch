@@ -1,0 +1,6 @@
+electronic word-of-mouth (ewom) has become an important resource for the
+analysis of marketing research. in this study, in order to analyze user needs
+for consumer game software, we focus on tweet data. and we proposed topic
+extraction method using entropy-based feature selection based feature
+expansion. we also applied it to the classification of the data extracted from
+tweet data by using svm. as a result, we achieved a 0.63 f-measure.

@@ -1,0 +1,14 @@
+unsupervised object discovery in images involves uncovering recurring
+patterns that define objects and discriminates them against the background.
+this is more challenging than image clustering as the size and the location of
+the objects are not known: this adds additional degrees of freedom and
+increases the problem complexity. in this work, we propose stampnet, a novel
+autoencoding neural network that localizes shapes (objects) over a simple
+background in images and categorizes them simultaneously. stampnet consists of
+a discrete latent space that is used to categorize objects and to determine the
+location of the objects. the object categories are formed during the training,
+resulting in the discovery of a fixed set of objects. we present a set of
+experiments that demonstrate that stampnet is able to localize and cluster
+multiple overlapping shapes with varying complexity including the digits from
+the mnist dataset. we also present an application of stampnet in the
+localization of pedestrians in overhead depth-maps.

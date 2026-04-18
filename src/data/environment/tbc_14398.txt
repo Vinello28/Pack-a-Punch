@@ -1,0 +1,24 @@
+sustainability of the global environment is dependent on the accurate land
+cover information over large areas. even with the increased number of satellite
+systems and sensors acquiring data with improved spectral, spatial, radiometric
+and temporal characteristics and the new data distribution policy, most
+existing land cover datasets were derived from a pixel-based single-date
+multi-spectral remotely sensed image with low accuracy. to improve the
+accuracy, the bottleneck is how to develop an accurate and effective image
+classification technique. by incorporating and utilizing the complete
+multi-spectral, multi-temporal and spatial information in remote sensing images
+and considering their inherit spatial and sequential interdependence, we
+propose a new patch-based rnn (pb-rnn) system tailored for multi-temporal
+remote sensing data. the system is designed by incorporating distinctive
+characteristics in multi-temporal remote sensing data. in particular, it uses
+multi-temporal-spectral-spatial samples and deals with pixels contaminated by
+clouds/shadow present in the multi-temporal data series. using a florida
+everglades ecosystem study site covering an area of 771 square kilo-meters, the
+proposed pb-rnn system has achieved a significant improvement in the
+classification accuracy over pixel-based rnn system, pixel-based single-imagery
+nn system, pixel-based multi-images nn system, patch-based single-imagery nn
+system and patch-based multi-images nn system. for example, the proposed system
+achieves 97.21% classification accuracy while a pixel-based single-imagery nn
+system achieves 64.74%. by utilizing methods like the proposed pb-rnn one, we
+believe that much more accurate land cover datasets can be produced over large
+areas efficiently.

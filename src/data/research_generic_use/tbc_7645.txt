@@ -1,0 +1,20 @@
+recommender systems help users find relevant items of interest, for example
+on e-commerce or media streaming sites. most academic research is concerned
+with approaches that personalize the recommendations according to long-term
+user profiles. in many real-world applications, however, such long-term
+profiles often do not exist and recommendations therefore have to be made
+solely based on the observed behavior of a user during an ongoing session.
+given the high practical relevance of the problem, an increased interest in
+this problem can be observed in recent years, leading to a number of proposals
+for session-based recommendation algorithms that typically aim to predict the
+user's immediate next actions. in this work, we present the results of an
+in-depth performance comparison of a number of such algorithms, using a variety
+of datasets and evaluation measures. our comparison includes the most recent
+approaches based on recurrent neural networks like gru4rec, factorized markov
+model approaches such as fism or fossil, as well as simpler methods based,
+e.g., on nearest neighbor schemes. our experiments reveal that algorithms of
+this latter class, despite their sometimes almost trivial nature, often perform
+equally well or significantly better than today's more complex approaches based
+on deep neural networks. our results therefore suggest that there is
+substantial room for improvement regarding the development of more
+sophisticated session-based recommendation algorithms.

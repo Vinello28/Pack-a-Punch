@@ -1,0 +1,9 @@
+we present convolutional neural networks for the tasks of keypoint (pose)
+prediction and action classification of people in unconstrained images. our
+approach involves training an r-cnn detector with loss functions depending on
+the task being tackled. we evaluate our method on the challenging pascal voc
+dataset and compare it to previous leading approaches. our method gives
+state-of-the-art results for keypoint and action prediction. additionally, we
+introduce a new dataset for action detection, the task of simultaneously
+localizing people and classifying their actions, and present results using our
+approach.

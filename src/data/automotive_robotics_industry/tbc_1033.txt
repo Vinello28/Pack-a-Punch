@@ -1,0 +1,14 @@
+in the canadian's lumber industry, simulators are used to predict the lumbers
+resulting from the sawing of a log at a given sawmill. giving a log or several
+logs' 3d scans as input, simulators perform a real-time job to predict the
+lumbers. these simulators, however, tend to be slow at processing large volume
+of wood. we thus explore an alternative approximation techniques based on the
+iterative closest point (icp) algorithm to identify the already processed log
+to which an unseen log resembles the most. the main benefit of the icp approach
+is that it can easily handle 3d scans with a variable number of points. we
+compare this icp-based nearest neighbor predictor, to predictors built using
+machine learning algorithms such as the k-nearest-neighbor (knn) and random
+forest (rf). the implemented icp-based predictor enabled us to identify key
+points in using the 3d scans directly for distance calculation. the long-term
+goal of this ongoing research is to integrated icp distance calculations and
+machine learning.

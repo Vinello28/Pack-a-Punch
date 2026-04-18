@@ -1,0 +1,14 @@
+the computational demands of computer vision tasks based on state-of-the-art
+convolutional neural network (cnn) image classification far exceed the energy
+budgets of mobile devices. this paper proposes fixynn, which consists of a
+fixed-weight feature extractor that generates ubiquitous cnn features, and a
+conventional programmable cnn accelerator which processes a dataset-specific
+cnn. image classification models for fixynn are trained end-to-end via transfer
+learning, with the common feature extractor representing the transfered part,
+and the programmable part being learnt on the target dataset. experimental
+results demonstrate fixynn hardware can achieve very high energy efficiencies
+up to 26.6 tops/w ($4.81 \times$ better than iso-area programmable
+accelerator). over a suite of six datasets we trained models via transfer
+learning with an accuracy loss of $<1\%$ resulting in up to 11.2 tops/w -
+nearly $2 \times$ more efficient than a conventional programmable cnn
+accelerator of the same area.

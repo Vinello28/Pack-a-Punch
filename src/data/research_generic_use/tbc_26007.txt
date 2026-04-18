@@ -1,0 +1,23 @@
+flood of information is produced in a daily basis through the global internet
+usage arising from the on-line interactive communications among users. while
+this situation contributes significantly to the quality of human life,
+unfortunately it involves enormous dangers, since on-line texts with high
+toxicity can cause personal attacks, on-line harassment and bullying behaviors.
+this has triggered both industrial and research community in the last few years
+while there are several tries to identify an efficient model for on-line toxic
+comment prediction. however, these steps are still in their infancy and new
+approaches and frameworks are required. on parallel, the data explosion that
+appears constantly, makes the construction of new machine learning
+computational tools for managing this information, an imperative need.
+thankfully advances in hardware, cloud computing and big data management allow
+the development of deep learning approaches appearing very promising
+performance so far. for text classification in particular the use of
+convolutional neural networks (cnn) have recently been proposed approaching
+text analytics in a modern manner emphasizing in the structure of words in a
+document. in this work, we employ this approach to discover toxic comments in a
+large pool of documents provided by a current kaggle's competition regarding
+wikipedia's talk page edits. to justify this decision we choose to compare cnns
+against the traditional bag-of-words approach for text analysis combined with a
+selection of algorithms proven to be very effective in text classification. the
+reported results provide enough evidence that cnn enhance toxic comment
+classification reinforcing research interest towards this direction.

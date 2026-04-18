@@ -1,0 +1,18 @@
+background there is an increasing awareness that diet-related inflammation may have an impact on the stroke.
+herein, our goal was to decipher the association of dietary inflammatory index (dii) with stroke in the us general
+population.
+methods we collected the cross-sectional data of 44,019 participants of the national health and nutrition
+examination survey (nhanes) 1999–2018. the association of dii with stroke was estimated using weighted
+multivariate logistic regression, with its nonlinearity being examined by restricted cubic spline (rcs) regression. the
+least absolute shrinkage and selection operator (lasso) regression was applied for identifying key stroke-related
+dietary factors, which was then included in the establishment of a risk prediction nomogram model, with the receiver
+operating characteristic (roc) curve being built to evaluate its discriminatory power for stroke.
+results after confounder adjustment, the adjusted odds ratios (ors) with 95% confidence intervals (cis) for stroke
+across higher dii quartiles were 1.19 (0.94–1.54), 1.46 (1.16–1.84), and 1.87 (1.53–2.29) compared to the lowest quartile,
+respectively. the rcs curve showed a nonlinear and positive association between dii and stroke. the nomogram
+model based on key dietary factors identified by lasso regression displayed a considerable predicative value for
+stroke, with an area under the curve (auc) of 79.8% (78.2–80.1%).
+conclusions our study determined a nonlinear and positive association between dii and stroke in the us general
+population. given the intrinsic limitations of cross-sectional study design, it is necessary to conduct more research to
+ensure the causality of such association.
+keywords nhanes, dii, stroke, cross-sectional study, lasso

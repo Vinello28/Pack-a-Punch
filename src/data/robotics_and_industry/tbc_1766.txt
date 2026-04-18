@@ -1,1 +1,0 @@
-Sviluppo di un algoritmo di BMS integrando intelligenza artificiale e capacità di adattamento alle condizioni di contorno  destinato alla gestione dei Pacchi Batteria  aumentandone autonomia e durata  anche in termini di assistenza e manutenzione

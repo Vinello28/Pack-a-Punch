@@ -1,0 +1,15 @@
+we describe a new approach that improves the training of generative
+adversarial nets (gans) for synthesizing diverse images from a text input. our
+approach is based on the conditional version of gans and expands on previous
+work leveraging an auxiliary task in the discriminator. our generated images
+are not limited to certain classes and do not suffer from mode collapse while
+semantically matching the text input. a key to our training methods is how to
+form positive and negative training examples with respect to the class label of
+a given image. instead of selecting random training examples, we perform
+negative sampling based on the semantic distance from a positive example in the
+class. we evaluate our approach using the oxford-102 flower dataset, adopting
+the inception score and multi-scale structural similarity index (ms-ssim)
+metrics to assess discriminability and diversity of the generated images. the
+empirical results indicate greater diversity in the generated images,
+especially when we gradually select more negative training examples closer to a
+positive example in the semantic space.

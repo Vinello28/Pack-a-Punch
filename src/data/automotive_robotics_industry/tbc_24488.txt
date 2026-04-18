@@ -1,0 +1,17 @@
+consider an assistive system that guides visually impaired users through
+speech and haptic feedback to their destination. existing robotic and
+ubiquitous navigation technologies (e.g., portable, ground, or wearable
+systems) often operate in a generic, user-agnostic manner. however, to minimize
+confusion and navigation errors, our real-world analysis reveals a crucial need
+to adapt the instructional guidance across different end-users with diverse
+mobility skills. to address this practical issue in scalable system design, we
+propose a novel model-based reinforcement learning framework for personalizing
+the system-user interaction experience. when incrementally adapting the system
+to new users, we propose to use a weighted experts model for addressing
+data-efficiency limitations in transfer learning with deep models. a real-world
+dataset of navigation by blind users is used to show that the proposed approach
+allows for (1) more accurate long-term human behavior prediction (up to 20
+seconds into the future) through improved reasoning over personal mobility
+characteristics, interaction with surrounding obstacles, and the current
+navigation goal, and (2) quick adaptation at the onset of learning, when data
+is limited.

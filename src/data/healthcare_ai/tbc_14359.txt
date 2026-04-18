@@ -1,0 +1,18 @@
+a variety of methods existing for generating synthetic electronic health
+records (ehrs), but they are not capable of generating unstructured text, like
+emergency department (ed) chief complaints, history of present illness or
+progress notes. here, we use the encoder-decoder model, a deep learning
+algorithm that features in many contemporary machine translation systems, to
+generate synthetic chief complaints from discrete variables in ehrs, like age
+group, gender, and discharge diagnosis. after being trained end-to-end on
+authentic records, the model can generate realistic chief complaint text that
+preserves much of the epidemiological information in the original data. as a
+side effect of the model's optimization goal, these synthetic chief complaints
+are also free of relatively uncommon abbreviation and misspellings, and they
+include none of the personally-identifiable information (pii) that was in the
+training data, suggesting it may be used to support the de-identification of
+text in ehrs. when combined with algorithms like generative adversarial
+networks (gans), our model could be used to generate fully-synthetic ehrs,
+facilitating data sharing between healthcare providers and researchers and
+improving our ability to develop machine learning methods tailored to the
+information in healthcare data.

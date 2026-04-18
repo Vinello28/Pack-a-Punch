@@ -1,0 +1,20 @@
+the classification of anomalies or sudden changes in power networks versus
+normal abrupt changes or switching actions is essential to take appropriate
+maintenance actions that guarantee the quality of power delivery. this issue
+has increased in importance and has become more complicated with the
+proliferation of volatile resources that introduce variability, uncertainty,
+and intermittency in circuit behavior that can be observed as variations in
+voltage and current phasors. this makes diagnostics applications more
+challenging. this paper proposes using quotient gradient system (qgs) to train
+two-stage partially recurrent neural network to improve anomaly classification
+rate in power distribution networks using high-fidelity data from micro-phasor
+measurement units (pmus). qgs is a systematic approach to finding solutions of
+constraint satisfaction problems. we transform the pmus data from the power
+network into a constraint satisfaction problem and use qgs to train a neural
+network by solving the resulting optimization problem. simulation results show
+that the proposed supervised classification method can reliably distinguish
+between different anomalies in power distribution networks. comparison with
+other neural network classifiers shows that qgs trained networks provide
+significantly better classification. sensitivity analysis is performed
+concerning the number of pmus, reporting rates, noise level and early versus
+late data stream fusion frameworks.

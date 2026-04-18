@@ -1,0 +1,20 @@
+automatic facial expression classification (fer) from videos is a critical
+problem for the development of intelligent human-computer interaction systems.
+still, it is a challenging problem that involves capturing high-dimensional
+spatio-temporal patterns describing the variation of one's appearance over
+time. such representation undergoes great variability of the facial morphology
+and environmental factors as well as head pose variations. in this paper, we
+use conditional random forests to capture low-level expression transition
+patterns. more specifically, heterogeneous derivative features (e.g. feature
+point movements or texture variations) are evaluated upon pairs of images. when
+testing on a video frame, pairs are created between this current frame and
+previous ones and predictions for each previous frame are used to draw trees
+from pairwise conditional random forests (pcrf) whose pairwise outputs are
+averaged over time to produce robust estimates. moreover, pcrf collections can
+also be conditioned on head pose estimation for multi-view dynamic fer. as
+such, our approach appears as a natural extension of random forests for
+learning spatio-temporal patterns, potentially from multiple viewpoints.
+experiments on popular datasets show that our method leads to significant
+improvements over standard random forests as well as state-of-the-art
+approaches on several scenarios, including a novel multi-view video corpus
+generated from a publicly available database.

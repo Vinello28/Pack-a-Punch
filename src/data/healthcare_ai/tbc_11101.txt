@@ -1,0 +1,13 @@
+melanoma classification is a serious stage to identify the skin disease. it
+is considered a challenging process due to the intra-class discrepancy of
+melanomas, skin lesions low contrast, and the artifacts in the dermoscopy
+images, including noise, existence of hair, air bubbles, and the similarity
+between melanoma and non-melanoma cases. to solve these problems, we propose a
+novel multiple convolution neural network model (mcnn) to classify different
+seven disease types in dermoscopic images, where several models were trained
+separately using an additive sample learning strategy. the mcnn model is
+trained and tested using the training and validation sets from the
+international skin imaging collaboration (isic 2018), respectively. the
+receiver operating characteristic (roc) curve is used to evaluate the
+performance of the proposed method. the values of auc (the area under the roc
+curve) were used to evaluate the performance of the mcnn.

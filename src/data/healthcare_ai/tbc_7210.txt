@@ -1,0 +1,13 @@
+early detection of cancer is crucial for treatment and overall patient
+survival. in the upper aerodigestive tract (uadt) the gold standard for
+identification of malignant tissue is an invasive biopsy. recently,
+non-invasive imaging techniques such as confocal laser microscopy and optical
+coherence tomography (oct) have been used for tissue assessment. in particular,
+in a recent study experts classified lesions in the uadt with respect to their
+invasiveness using oct images only. as the results were promising, automatic
+classification of lesions might be feasible which could assist experts in their
+decision making. therefore, we address the problem of automatic lesion
+classification from oct images. this task is very challenging as the available
+dataset is extremely small and the data quality is limited. however, as similar
+issues are typical in many clinical scenarios we study to what extent deep
+learning approaches can still be trained and used for decision support.

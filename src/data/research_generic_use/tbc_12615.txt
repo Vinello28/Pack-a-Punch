@@ -1,0 +1,14 @@
+we investigate a densely packed, non-random arrangement of forty-six
+chromosomes (46,xy) in human nuclei. here, we model systems-level chromosomal
+crosstalk by unifying intrinsic parameters (chromosomal length and number of
+genes) across all pairs of chromosomes in the genome to derive an extrinsic
+parameter called effective gene density. the hierarchical clustering and
+underlying degeneracy in the effective gene density space reveal systems-level
+constraints for spatial arrangement of clusters of chromosomes that were
+previously unknown. our findings corroborate experimental data on spatial
+chromosomal arrangement in human nuclei, from fibroblast and lymphocyte cell
+lines, thereby establishing that human genome constrains chromosomal
+arrangement. we propose that this unified theory, which requires no additional
+experimental input, may be extended to other eukaryotic species with annotated
+genomes to infer their constrained self-organized spatial arrangement of
+chromosomes.

@@ -1,0 +1,17 @@
+integration of artificial intelligence (ai) techniques in wireless infrastructure, real-time
+collection, and processing of end-user devices is now in high demand. it is now
+superlative to use ai to detect and predict pandemics of a colossal nature. the
+coronavirus disease 2019 (covid-19) pandemic, which originated in wuhan china,
+has had disastrous effects on the global community and has overburdened advanced
+healthcare systems throughout the world. globally; over 4,063,525 confirmed cases
+and 282,244 deaths have been recorded as of 11th may 2020, according to the
+european centre for disease prevention and control agency. however, the current rapid
+and exponential rise in the number of patients has necessitated efficient and quick
+prediction of the possible outcome of an infected patient for appropriate treatment using
+ai techniques. this paper proposes a fine-tuned random forest model boosted by the
+adaboost algorithm. the model uses the covid-19 patient’s geographical, travel, health,
+and demographic data to predict the severity of the case and the possible outcome,
+recovery, or death. the model has an accuracy of 94% and a f1 score of 0.86 on the
+dataset used. the data analysis reveals a positive correlation between patients’ gender
+and deaths, and also indicates that the majority of patients are aged between 20 and
+70 years.

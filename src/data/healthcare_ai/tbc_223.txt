@@ -1,0 +1,13 @@
+health related social media mining is a valuable apparatus for the early
+recognition of the diverse antagonistic medicinal conditions. mostly, the
+existing methods are based on machine learning with knowledge-based learning.
+this working note presents the recurrent neural network (rnn) and long
+short-term memory (lstm) based embedding for automatic health text
+classification in the social media mining. for each task, two systems are built
+and that classify the tweet at the tweet level. rnn and lstm are used for
+extracting features and non-linear activation function at the last layer
+facilitates to distinguish the tweets of different categories. the experiments
+are conducted on 2nd social media mining for health applications shared task at
+amia 2017. the experiment results are considerable; however the proposed method
+is appropriate for the health text classification. this is primarily due to the
+reason that, it doesn't rely on any feature engineering mechanisms.

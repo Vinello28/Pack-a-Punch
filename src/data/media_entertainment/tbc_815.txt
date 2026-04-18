@@ -1,0 +1,10 @@
+in this work, we draw attention to a connection between skill-based models of
+game outcomes and gaussian process classification models. the gaussian process
+perspective enables a) a principled way of dealing with uncertainty and b) rich
+models, specified through kernel functions. using this connection, we tackle
+the problem of predicting outcomes of football matches between national teams.
+we develop a player kernel that relates any two football matches through the
+players lined up on the field. this makes it possible to share knowledge gained
+from observing matches between clubs (available in large quantities) and
+matches between national teams (available only in limited quantities). we
+evaluate our approach on the euro 2008, 2012 and 2016 final tournaments.

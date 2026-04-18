@@ -1,0 +1,11 @@
+spoken language understanding is one of the key factors in a dialogue system,
+and a context in a conversation plays an important role to understand the
+current utterance. in this work, we demonstrate the importance of context
+within the dialogue for neural network models through an online web interface
+live demo. we developed two different neural models: a model that does not use
+context and a context-based model. the no-context model classifies dialogue
+acts at an utterance-level whereas the context-based model takes some preceding
+utterances into account. we make these trained neural models available as a
+live demo called discourse-wizard using a modular server architecture. the live
+demo provides an easy to use interface for conversational analysis and for
+discovering deep discourse structures in a conversation.

@@ -1,1 +1,0 @@
-L'intent recognition classifica l'intenzione dell'utente a partire dal testo della sua richiesta, utilizzando modelli di NLP per instradare la conversazione verso il flusso di dialogo appropriato.

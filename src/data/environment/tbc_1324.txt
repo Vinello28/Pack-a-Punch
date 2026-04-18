@@ -1,0 +1,16 @@
+sunspots, as seen in white light or continuum images, are associated with
+regions of high magnetic activity on the sun, visible on magnetogram images.
+their complexity is correlated with explosive solar activity and so classifying
+these active regions is useful for predicting future solar activity. current
+classification of sunspot groups is visually based and suffers from bias.
+supervised learning methods can reduce human bias but fail to optimally
+capitalize on the information present in sunspot images. this paper uses two
+image modalities (continuum and magnetogram) to characterize the spatial and
+modal interactions of sunspot and magnetic active region images and presents a
+new approach to cluster the images. specifically, in the framework of image
+patch analysis, we estimate the number of intrinsic parameters required to
+describe the spatial and modal dependencies, the correlation between the two
+modalities and the corresponding spatial patterns, and examine the phenomena at
+different scales within the images. to do this, we use linear and nonlinear
+intrinsic dimension estimators, canonical correlation analysis, and
+multiresolution analysis of intrinsic dimension.

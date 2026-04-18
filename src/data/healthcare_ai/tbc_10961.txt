@@ -1,0 +1,16 @@
+recently deep neural networks have been widely and successfully applied in
+computer vision tasks and attracted growing interests in medical imaging. one
+barrier for the application of deep neural networks to medical imaging is the
+need of large amounts of prior training pairs, which is not always feasible in
+clinical practice. in this work we propose a personalized representation
+learning framework where no prior training pairs are needed, but only the
+patient's own prior images. the representation is expressed using a deep neural
+network with the patient's prior images as network input. we then applied this
+novel image representation to inverse problems in medical imaging in which the
+original inverse problem was formulated as a constraint optimization problem
+and solved using the alternating direction method of multipliers (admm)
+algorithm. anatomically guided brain positron emission tomography (pet) image
+reconstruction and image denoising were employed as examples to demonstrate the
+effectiveness of the proposed framework. quantification results based on
+simulation and real datasets show that the proposed personalized representation
+framework outperform other widely adopted methods.

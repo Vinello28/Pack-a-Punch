@@ -1,0 +1,14 @@
+in online internet advertising, machine learning models are widely used to
+compute the likelihood of a user engaging with product related advertisements.
+however, the performance of traditional machine learning models is often
+impacted due to variations in user and advertiser behavior. for example, search
+engine traffic for florists usually tends to peak around valentine's day,
+mother's day, etc. to overcome, this challenge, in this manuscript we propose
+three models which are able to incorporate the effects arising due to
+variations in product demand. the proposed models are a combination of product
+demand features, specialized data sampling methodologies and ensemble
+techniques. we demonstrate the performance of our proposed models on datasets
+obtained from a real-world setting. our results show that the proposed models
+more accurately predict the outcome of users interactions with product related
+advertisements while simultaneously being robust to fluctuations in user and
+advertiser behaviors.

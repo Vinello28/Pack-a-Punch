@@ -1,0 +1,14 @@
+drowsiness can put lives of many drivers and workers in danger. it is
+important to design practical and easy-to-deploy real-world systems to detect
+the onset of drowsiness.in this paper, we address early drowsiness detection,
+which can provide early alerts and offer subjects ample time to react. we
+present a large and public real-life dataset of 60 subjects, with video
+segments labeled as alert, low vigilant, or drowsy. this dataset consists of
+around 30 hours of video, with contents ranging from subtle signs of drowsiness
+to more obvious ones. we also benchmark a temporal model for our dataset, which
+has low computational and storage demands. the core of our proposed method is a
+hierarchical multiscale long short-term memory (hm-lstm) network, that is fed
+by detected blink features in sequence. our experiments demonstrate the
+relationship between the sequential blink features and drowsiness. in the
+experimental results, our baseline method produces higher accuracy than human
+judgment.

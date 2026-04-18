@@ -1,0 +1,26 @@
+advanced travel information and warning, if provided accurately, can help
+road users avoid traffic congestion through dynamic route planning and behavior
+change. it also enables traffic control centres mitigate the impact of
+congestion by activating intelligent transport system (its) proactively. deep
+learning has become increasingly popular in recent years, following a surge of
+innovative gpu technology, high-resolution, big datasets and thriving machine
+learning algorithms. however, there are few examples exploiting this emerging
+technology to develop applications for traffic prediction. this is largely due
+to the difficulty in capturing random, seasonal, non-linear, and
+spatio-temporal correlated nature of traffic data. in this paper, we propose a
+data-driven modelling approach with a novel hierarchical d-clstm-t deep
+learning model for short-term traffic speed prediction, a framework combined
+with convolutional neural network (cnn) and long short-term memory (lstm)
+models. a deep cnn model is employed to learn the spatio-temporal traffic
+patterns of the input graphs, which are then fed into a deep lstm model for
+sequence learning. to capture traffic seasonal variations, time of the day and
+day of the week indicators are fused with trained features. the model is
+trained end-to-end to predict travel speed in 15 to 90 minutes in the future.
+we compare the model performance against other baseline models including cnn,
+lgbm, lstm, and traditional speed-flow curves. experiment results show that the
+d-clstm-t outperforms other models considerably. model tests show that speed
+upstream also responds sensibly to a sudden accident occurring downstream. our
+d-clstm-t model framework is also highly scalable for future extension such as
+for network-wide traffic prediction, which can also be improved by including
+additional features such as weather, long term seasonality and accident
+information.

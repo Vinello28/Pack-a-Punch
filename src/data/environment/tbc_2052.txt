@@ -1,0 +1,18 @@
+occupant behavior (ob) and in particular window openings need to be
+considered in building performance simulation (bps), in order to realistically
+model the indoor climate and energy consumption for heating ventilation and air
+conditioning (hvac). however, the proposed ob window opening models are often
+biased towards the over-represented class where windows remained closed. in
+addition, they require tuning for each occupant which can not be efficiently
+scaled to the increased number of occupants. this paper presents a window
+opening model for commercial buildings using deep learning methods. the model
+is trained using data from occupants from an office building in germany. in
+total the model is evaluated using almost 20 mio. data points from 3
+independent buildings, located in aachen, frankfurt and philadelphia.
+eventually, the results of 3100 core hours of model development are summarized,
+which makes this study the largest of its kind in window states modeling.
+additionally, the practical potential of the proposed model was tested by
+incorporating it in the modelica-based thermal building simulation. the
+resulting evaluation accuracy and f1 scores on the office buildings ranged
+between 86-89 % and 0.53-0.65 respectively. the performance dropped around 15 %
+points in case of sparse input data, while the f1 score remained high.

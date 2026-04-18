@@ -1,0 +1,25 @@
+this paper attempt to study the effectiveness of text representation schemes
+on two tasks namely: user aggression and fact detection from the social media
+contents. in user aggression detection, the aim is to identify the level of
+aggression from the contents generated in the social media and written in the
+english, devanagari hindi and romanized hindi. aggression levels are
+categorized into three predefined classes namely: `non-aggressive`, `overtly
+aggressive`, and `covertly aggressive`. during the disaster-related incident,
+social media like, twitter is flooded with millions of posts. in such emergency
+situations, identification of factual posts is important for organizations
+involved in the relief operation. we anticipated this problem as a combination
+of classification and ranking problem. this paper presents a comparison of
+various text representation scheme based on bow techniques, distributed
+word/sentence representation, transfer learning on classifiers. weighted $f_1$
+score is used as a primary evaluation metric. results show that text
+representation using bow performs better than word embedding on machine
+learning classifiers. while pre-trained word embedding techniques perform
+better on classifiers based on deep neural net. recent transfer learning model
+like elmo, ulmfit are fine-tuned for the aggression classification task.
+however, results are not at par with pre-trained word embedding model. overall,
+word embedding using fasttext produce best weighted $f_1$-score than word2vec
+and glove. results are further improved using pre-trained vector model.
+statistical significance tests are employed to ensure the significance of the
+classification results. in the case of lexically different test dataset, other
+than training dataset, deep neural models are more robust and perform
+substantially better than machine learning classifiers.

@@ -1,1 +1,0 @@
-Il progetto mira a sviluppare strumenti software innovativi che integrino i metodi di apprendimento automatico e la teoria dei sistemi di controllo per costruire modelli grigi che combinano le conoscenze basate sulla fisica con l'apprendimento basato sui dati e (semi) procedure di taratura automatica per sistemi di controllo avanzati basati sul controllo predittivo (MPC).

@@ -1,1 +1,0 @@
-Sistema di monitoraggio continuo dei pazienti cronici tramite biosensori e modelli predittivi per la prevenzione delle riacutizzazioni.

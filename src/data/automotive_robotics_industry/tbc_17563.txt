@@ -1,0 +1,20 @@
+in order for cooperative robots ("co-robots") to respond to human behaviors
+accurately and efficiently in human-robot collaboration, interpretation of
+human actions, awareness of new situations, and appropriate decision making are
+all crucial abilities for co-robots. for this purpose, the human behaviors
+should be interpreted by co-robots in the same manner as human peers. to
+address this issue, a novel interpretability indicator is introduced so that
+robot actions are appropriate to the current human behaviors. in addition, the
+complete consideration of all potential situations of a robot's environment is
+nearly impossible in real-world applications, making it difficult for the
+co-robot to act appropriately and safely in new scenarios. this is true even
+when the pretrained model is highly accurate in a known situation. for
+effective and safe teaming with humans, we introduce a new generalizability
+indicator that allows a co-robot to self-reflect and reason about when an
+observation falls outside the co-robot's learned model. based on topic modeling
+and two novel indicators, we propose a new self-reflective risk-aware
+artificial cognitive (srac) model. the co-robots are able to consider action
+risks and identify new situations so that better decisions can be made.
+experiments both using real-world datasets and on physical robots suggest that
+our srac model significantly outperforms the traditional methodology and
+enables better decision making in response to human activities.

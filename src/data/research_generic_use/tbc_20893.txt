@@ -1,0 +1,7 @@
+social media is a rich source of rumours and corresponding community
+reactions. rumours reflect different characteristics, some shared and some
+individual. we formulate the problem of classifying tweet level judgements of
+rumours as a supervised learning task. both supervised and unsupervised domain
+adaptation are considered, in which tweets from a rumour are classified on the
+basis of other annotated rumours. we demonstrate how multi-task learning helps
+achieve good results on rumours from the 2011 england riots.

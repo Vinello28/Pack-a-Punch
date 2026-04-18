@@ -1,0 +1,17 @@
+total knee arthroplasty (tka) is a commonly performed surgical procedure to
+mitigate knee pain and improve functions for people with knee arthritis. the
+procedure is complicated due to the different surgical tools used in the stages
+of surgery. the recognition of surgical tools in real-time can be a solution to
+simplify surgical procedures for the surgeon. also, the presence and movement
+of tools in surgery are crucial information for the recognition of the
+operational phase and to identify the surgical workflow. therefore, this
+research proposes the development of a real-time system for the recognition of
+surgical tools during surgery using a convolutional neural network (cnn).
+surgeons wearing smart glasses can see essential information about tools during
+surgery that may reduce the complication of the procedures. to evaluate the
+performance of the proposed method, we calculated and compared the mean average
+precision (map) with state-of-the-art methods which are fast r-cnn and
+deformable part models (dpm). we achieved 87.6% map which is better in
+comparison to the existing methods. with the additional improvements of our
+proposed method, it can be a future point of reference, also the baseline for
+operational phase recognition.

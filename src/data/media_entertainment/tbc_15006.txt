@@ -1,0 +1,12 @@
+isolating the voice of a specific person while filtering out other voices or
+background noises is challenging when video is shot in noisy environments. we
+propose audio-visual methods to isolate the voice of a single speaker and
+eliminate unrelated sounds. first, face motions captured in the video are used
+to estimate the speaker's voice, by passing the silent video frames through a
+video-to-speech neural network-based model. then the speech predictions are
+applied as a filter on the noisy input audio. this approach avoids using
+mixtures of sounds in the learning process, as the number of such possible
+mixtures is huge, and would inevitably bias the trained model. we evaluate our
+method on two audio-visual datasets, grid and tcd-timit, and show that our
+method attains significant sdr and pesq improvements over the raw
+video-to-speech predictions, and a well-known audio-only method.

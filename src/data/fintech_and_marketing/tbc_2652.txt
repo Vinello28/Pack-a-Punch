@@ -1,0 +1,13 @@
+online leading has disrupted the traditional consumer banking sector with
+more effective loan processing. risk prediction and monitoring is critical for
+the success of the business model. traditional credit score models fall short
+in applying big data technology in building risk model. in this manuscript,
+data with various format and size were collected from public website,
+third-parties and assembled with client's loan application information data.
+ensemble machine learning models, random forest model and xgboost model, were
+built and trained with the historical transaction data and subsequently tested
+with separate data. xgboost model shows higher k-s value, suggesting better
+classification capability in this task. top 10 important features from the two
+models suggest external data such as zhimascore, multi-platform stacking loans
+information, and social network information are important factors in predicting
+loan default probability.

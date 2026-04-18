@@ -1,0 +1,20 @@
+we present an approach for fully automatic urinary bladder segmentation in ct
+images with artificial neural networks in this study. automatic medical image
+analysis has become an invaluable tool in the different treatment stages of
+diseases. especially medical image segmentation plays a vital role, since
+segmentation is often the initial step in an image analysis pipeline. since
+deep neural networks have made a large impact on the field of image processing
+in the past years, we use two different deep learning architectures to segment
+the urinary bladder. both of these architectures are based on pre-trained
+classification networks that are adapted to perform semantic segmentation.
+since deep neural networks require a large amount of training data,
+specifically images and corresponding ground truth labels, we furthermore
+propose a method to generate such a suitable training data set from positron
+emission tomography/computed tomography image data. this is done by applying
+thresholding to the positron emission tomography data for obtaining a ground
+truth and by utilizing data augmentation to enlarge the dataset. in this study,
+we discuss the influence of data augmentation on the segmentation results, and
+compare and evaluate the proposed architectures in terms of qualitative and
+quantitative segmentation performance. the results presented in this study
+allow concluding that deep neural networks can be considered a promising
+approach to segment the urinary bladder in ct images.

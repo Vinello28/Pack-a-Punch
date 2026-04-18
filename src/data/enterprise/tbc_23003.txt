@@ -1,0 +1,15 @@
+this paper analyzes airbnb listings in the city of san francisco to better
+understand how different attributes such as bedrooms, location, house type
+amongst others can be used to accurately predict the price of a new listing
+that optimal in terms of the host's profitability yet affordable to their
+guests. this model is intended to be helpful to the internal pricing tools that
+airbnb provides to its hosts. furthermore, additional analysis is performed to
+ascertain the likelihood of a listings availability for potential guests to
+consider while making a booking. the analysis begins with exploring and
+examining the data to make necessary transformations that can be conducive for
+a better understanding of the problem at large while helping us make
+hypothesis. moving further, machine learning models are built that are
+intuitive to use to validate the hypothesis on pricing and availability and run
+experiments in that context to arrive at a viable solution. the paper then
+concludes with a discussion on the business implications, associated risks and
+future scope.

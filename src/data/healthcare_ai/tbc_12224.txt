@@ -1,0 +1,12 @@
+we have applied a little-known data transformation to subsets of the
+surveillance, epidemiology, and end results (seer) publically available data of
+the national cancer institute (nci) to make it suitable input to standard
+machine learning classifiers. this transformation properly treats the
+right-censored data in the seer data and the resulting random forest and
+multi-layer perceptron models predict full survival curves. treating the 6, 12,
+and 60 months points of the resulting survival curves as 3 binary classifiers,
+the 18 resulting classifiers have auc values ranging from .765 to .885. further
+evidence that the models have generalized well from the training data is
+provided by the extremely high levels of agreement between the random forest
+and neural network models predictions on the 6, 12, and 60 month binary
+classifiers.

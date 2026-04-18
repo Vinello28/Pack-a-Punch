@@ -1,0 +1,15 @@
+object tracking is a hot topic in computer vision. thanks to the booming of
+the very high resolution (vhr) remote sensing techniques, it is now possible to
+track targets of interests in satellite videos. however, since the targets in
+the satellite videos are usually too small compared with the entire image, and
+too similar with the background, most state-of-the-art algorithms failed to
+track the target in satellite videos with a satisfactory accuracy. due to the
+fact that optical flow shows the great potential to detect even the slight
+movement of the targets, we proposed a multi-frame optical flow tracker (moft)
+for object tracking in satellite videos. the lucas-kanade optical flow method
+was fused with the hsv color system and integral image to track the targets in
+the satellite videos, while multi-frame difference method was utilized in the
+optical flow tracker for a better interpretation. the experiments with three
+vhr remote sensing satellite video datasets indicate that compared with
+state-of-the-art object tracking algorithms, the proposed method can track the
+target more accurately.

@@ -1,0 +1,24 @@
+high throughput biomedical measurements normally capture multiple overlaid
+biologically relevant signals and often also signals representing different
+types of technical artefacts like e.g. batch effects. signal identification and
+decomposition are accordingly main objectives in statistical biomedical
+modeling and data analysis. existing methods, aimed at signal reconstruction
+and deconvolution, in general, are either supervised, contain parameters that
+need to be estimated or present other types of ad hoc features. we here
+introduce submatrix selection singularvalue decomposition (smssvd), a
+parameter-free unsupervised signal decomposition and dimension reduction
+method, designed to reduce noise, adaptively for each low-rank-signal in a
+given data matrix, and represent the signals in the data in a way that enable
+unbiased exploratory analysis and reconstruction of multiple overlaid signals,
+including identifying groups of variables that drive different signals.
+  the submatrix selection singular value decomposition (smssvd) method produces
+a denoised signal decomposition from a given data matrix. the smssvd method
+guarantees orthogonality between signal components in a straightforward manner
+and it is designed to make automation possible. we illustrate smssvd by
+applying it to several real and synthetic datasets and compare its performance
+to golden standard methods like pca (principal component analysis) and spc
+(sparse principal components, using lasso constraints). the smssvd is
+computationally efficient and despite being a parameter-free method, in
+general, outperforms existing statistical learning methods.
+  a julia implementation of smssvd is openly available on github
+(https://github.com/rasmushenningsson/smssvd.jl).

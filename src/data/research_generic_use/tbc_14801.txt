@@ -1,0 +1,17 @@
+we present a full-stack optimization framework for accelerating inference of
+cnns (convolutional neural networks) and validate the approach with
+field-programmable gate arrays (fpga) implementations. by jointly optimizing
+cnn models, computing architectures, and hardware implementations, our
+full-stack approach achieves unprecedented performance in the trade-off space
+characterized by inference latency, energy efficiency, hardware utilization and
+inference accuracy. as a validation vehicle, we have implemented a 170mhz fpga
+inference chip achieving 2.28ms latency for the imagenet benchmark. the
+achieved latency is among the lowest reported in the literature while achieving
+comparable accuracy. however, our chip shines in that it has 9x higher energy
+efficiency compared to other implementations achieving comparable latency. a
+highlight of our full-stack approach which attributes to the achieved high
+energy efficiency is an efficient selector-accumulator (sac) architecture for
+implementing the multiplier-accumulator (mac) operation present in any digital
+cnn hardware. for instance, compared to a fpga implementation for a traditional
+8-bit mac, sac substantially reduces required hardware resources (4.85x fewer
+look-up tables) and power consumption (2.48x).

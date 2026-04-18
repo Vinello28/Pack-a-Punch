@@ -1,0 +1,14 @@
+we introduce a method to infer lead-lag networks of agents' actions in
+complex systems. these networks open the way to both microscopic and
+macroscopic states prediction in such systems. we apply this method to
+trader-resolved data in the foreign exchange market. we show that these
+networks are remarkably persistent, which explains why and how order flow
+prediction is possible from trader-resolved data. in addition, if traders'
+actions depend on past prices, the evolution of the average price paid by
+traders may also be predictable. using random forests, we verify that the
+predictability of both the sign of order flow and the direction of average
+transaction price is strong for retail investors at an hourly time scale, which
+is of great relevance to brokers and order matching engines. finally, we argue
+that the existence of trader lead-lag networks explains in a self-referential
+way why a given trader becomes active, which is in line with the fact that most
+trading activity has an endogenous origin.

@@ -1,0 +1,8 @@
+various machine learning methods for writer independent recognition of
+malayalam handwritten district names are discussed in this paper. data
+collected from 56 different writers are used for the experiments. the proposed
+work can be used for the recognition of district in the address written in
+malayalam. different methods for dimensionality reduction are discussed.
+features consider for the recognition are histogram of oriented gradient
+descriptor, number of black pixels in the upper half and lower half, length of
+image. classifiers used in this work are neural network, svm and randomforest.

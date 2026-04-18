@@ -1,0 +1,17 @@
+can we predict the winner of miss universe after watching how they stride
+down the catwalk during the evening gown competition? fashion gurus say they
+can! in our work, we study this question from the perspective of computer
+vision. in particular, we want to understand whether existing computer vision
+approaches can be used to automatically extract the qualities exhibited by the
+miss universe winners during their catwalk. this study can pave the way towards
+new vision-based applications for the fashion industry. to this end, we propose
+a novel video dataset, called the miss universe dataset, comprising 10 years of
+the evening gown competition selected between 1996-2010. we further propose two
+ranking-related problems: (1) miss universe listwise ranking and (2) miss
+universe pairwise ranking. in addition, we also develop an approach that
+simultaneously addresses the two proposed problems. to describe the videos we
+employ the recently proposed stacked fisher vectors in conjunction with robust
+local spatio-temporal features. from our evaluation we found that although the
+addressed problems are extremely challenging, the proposed system is able to
+rank the winner in the top 3 best predicted scores for 5 out of 10 miss
+universe competitions.

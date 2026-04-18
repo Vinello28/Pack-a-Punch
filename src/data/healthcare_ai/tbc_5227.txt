@@ -1,0 +1,20 @@
+in this report we propose a classification technique for skin lesion images
+as a part of our submission for isic 2018 challenge in skin lesion analysis
+towards melanoma detection. our data was extracted from the isic 2018: skin
+lesion analysis towards melanoma detection grand challenge datasets. the
+features are extracted through a convolutional neural network, in our case
+resnet50 and then using these features we train a deepforest, having cascading
+layers, to classify our skin lesion images. we know that convolutional neural
+networks are a state-of-the-art technique in representation learning for
+images, with the convolutional filters learning to detect features from images
+through backpropagation. these features are then usually fed to a classifier
+like a softmax layer or other such classifiers for classification tasks. in our
+case we do not use the traditional backpropagation method and train a softmax
+layer for classification. instead, we use deep forest, a novel decision tree
+ensemble approach with performance highly competitive to deep neural networks
+in a broad range of tasks. thus we use a resnet50 to extract the features from
+skin lesion images and then use the deep forest to classify these images. this
+method has been used because deep forest has been found to be hugely efficient
+in areas where there are only small-scale training data available. also as the
+deep forest network decides its complexity by itself, it also caters to the
+problem of dataset imbalance we faced in this problem.

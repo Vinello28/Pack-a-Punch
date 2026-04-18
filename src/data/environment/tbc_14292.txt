@@ -1,0 +1,14 @@
+knowledge discovery from gps trajectory data is an important topic in several
+scientific areas, including data mining, human behavior analysis, and user
+modeling. this paper proposes a task that assigns personalized visited-pois.
+its goal is to estimate fine-grained and pre-defined locations (i.e., points of
+interest (poi)) that are actually visited by users and assign visited-location
+information to the corresponding span of their (personal) gps trajectories. we
+also introduce a novel algorithm to solve this assignment task. first, we
+exhaustively extract stay-points as candidates for significant locations using
+a variant of a conventional stay-point extraction method. then we select
+significant locations and simultaneously assign visited-pois to them by
+considering various aspects, which we formulate in integer linear programming.
+experimental results conducted on an actual user dataset show that our method
+achieves higher accuracy in the visited-poi assignment task than the various
+cascaded procedures of conventional methods.

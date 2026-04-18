@@ -62,16 +62,15 @@ def get_model_config(config: Optional[dict] = None) -> dict[str, Any]:
     defaults = {
         "name": "answerdotai/ModernBERT-base",
         "max_length": 3072,
-        "num_labels": 8,
+        "num_labels": 7,
         "label_map": {
-            0: "AI Research",
-            1: "Autonomous Driving",
-            2: "Data Science",
-            3: "Defense & Aerospace",
-            4: "Enterprise AI",
-            5: "Healthcare AI",
-            6: "Robotics, UAV, Industry",
-            7: "Virtual Assistants",
+            0: "Media & Entertainment",
+            1: "Enterprise",
+            2: "Environment",
+            3: "Fintech and Marketing",
+            4: "Healthcare AI",
+            5: "Research & Generic use",
+            6: "Automotive, Robotics, Industry",
         },
         "architecture": {
             "num_heads": 12,
@@ -169,9 +168,9 @@ def get_distillation_config(config: Optional[dict] = None) -> dict[str, Any]:
         "system_prompt": (
             "Sei un classificatore di testi. Devi determinare in quale settore di applicazione "
             "dell'intelligenza artificiale rientra il testo seguente.\n\n"
-            'Le categorie possibili sono: "AI Research", "Autonomous Driving", "Data Science", '
-            '"Defense & Aerospace", "Enterprise AI", "Healthcare AI", '
-            '"Robotics, UAV, Industry", "Virtual Assistants".\n\n'
+            'Le categorie possibili sono: "Media & Entertainment", "Enterprise", '
+            '"Environment", "Fintech and Marketing", "Healthcare AI", '
+            '"Research & Generic use", "Automotive, Robotics, Industry".\n\n'
             'Rispondi SOLO con un JSON nel formato: {"label": "<una delle categorie>", '
             '"confidence": 0.0-1.0}'
         ),

@@ -1,0 +1,20 @@
+large scale studies of group differences in healthy controls and patients and
+screenings for early stage disease prevention programs require processing and
+analysis of extensive multisubject datasets. complexity of the task increases
+even further when segmenting structural mri of the brain into an atlas with
+more than 50 regions. current automatic approaches are time-consuming and
+hardly scalable; they often involve many error prone intermediate steps and
+don't utilize other available modalities. to alleviate these problems, we
+propose a feedforward fully convolutional neural network trained on the output
+produced by the state of the art models. incredible speed due to available
+powerful gpus neural network makes this analysis much easier and faster (from
+$>10$ hours to a minute). the proposed model is more than two orders of
+magnitudes faster than the state of the art and yet as accurate. we have
+evaluated the network's performance by comparing it with the state of the art
+in the task of differentiating region volumes of healthy controls and patients
+with schizophrenia on a dataset with 311 subjects. this comparison provides a
+strong evidence that speed did not harm the accuracy. the overall quality may
+also be increased by utilizing multi-modal datasets (not an easy task for other
+models) by simple adding more modalities as an input. our model will be useful
+in large-scale studies as well as in clinical care solutions, where it can
+significantly reduce delay between the patient screening and the result.

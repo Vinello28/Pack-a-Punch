@@ -1,1 +1,0 @@
-Il progetto ha come obiettivo Un’ampia caratterizzazione del microambiente tumorale nel mesotelioma maligno della pleura  mediante un approccio di intelligenza artificiale e deep learning  validato da modelli sperimentali in vitro ed in vivo.

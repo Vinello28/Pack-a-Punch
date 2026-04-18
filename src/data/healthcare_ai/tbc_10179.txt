@@ -1,0 +1,25 @@
+there are at least two categories of errors in radiology screening that can
+lead to suboptimal diagnostic decisions and interventions:(i)human fallibility
+and (ii)complexity of visual search. computer aided diagnostic (cad) tools are
+developed to help radiologists to compensate for some of these errors. however,
+despite their significant improvements over conventional screening strategies,
+most cad systems do not go beyond their use as second opinion tools due to
+producing a high number of false positives, which human interpreters need to
+correct. in parallel with efforts in computerized analysis of radiology scans,
+several researchers have examined behaviors of radiologists while screening
+medical images to better understand how and why they miss tumors, how they
+interact with the information in an image, and how they search for unknown
+pathology in the images. eye-tracking tools have been instrumental in exploring
+answers to these fundamental questions. in this paper, we aim to develop a
+paradigm shift cad system, called collaborative cad (c-cad), that unifies both
+of the above mentioned research lines: cad and eye-tracking. we design an
+eye-tracking interface providing radiologists with a real radiology reading
+room experience. then, we propose a novel algorithm that unifies eye-tracking
+data and a cad system. specifically, we present a new graph based clustering
+and sparsification algorithm to transform eye-tracking data (gaze) into a
+signal model to interpret gaze patterns quantitatively and qualitatively. the
+proposed c-cad collaborates with radiologists via eye-tracking technology and
+helps them to improve diagnostic decisions. the c-cad learns radiologists'
+search efficiency by processing their gaze patterns. to do this, the c-cad uses
+a deep learning algorithm in a newly designed multi-task learning platform to
+segment and diagnose cancers simultaneously.

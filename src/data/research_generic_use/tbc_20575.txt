@@ -1,0 +1,14 @@
+we consider the problem of efficiently constructing cheap and novel round
+trip flight itineraries by combining legs from different airlines. we analyse
+the factors that contribute towards the price of such itineraries and find that
+many result from the combination of just 30% of airlines and that the closer
+the departure of such itineraries is to the user's search date the more likely
+they are to be cheaper than the tickets from one airline. we use these insights
+to formulate the problem as a trade-off between the recall of cheap itinerary
+constructions and the costs associated with building them.
+  we propose a supervised learning solution with location embeddings which
+achieves an auc=80.48, a substantial improvement over simpler baselines. we
+discuss various practical considerations for dealing with the staleness and the
+stability of the model and present the design of the machine learning pipeline.
+finally, we present an analysis of the model's performance in production and
+its impact on skyscanner's users.

@@ -1,0 +1,18 @@
+3d reconstruction is a technique used in computer vision which has a wide
+range of applications in areas like object recognition, city modelling, virtual
+reality, physical simulations, video games and special effects. previously, to
+perform a 3d reconstruction, specialized hardwares were required. such systems
+were often very expensive and was only available for industrial or research
+purpose. with the rise of the availability of high-quality low cost 3d sensors,
+it is now possible to design inexpensive complete 3d scanning systems. the
+objective of this work was to design an acquisition and processing system that
+can perform 3d scanning and reconstruction of objects seamlessly. in addition,
+the goal of this work also included making the 3d scanning process fully
+automated by building and integrating a turntable alongside the software. this
+means the user can perform a full 3d scan only by a press of a few buttons from
+our dedicated graphical user interface. three main steps were followed to go
+from acquisition of point clouds to the finished reconstructed 3d model. first,
+our system acquires point cloud data of a person/object using inexpensive
+camera sensor. second, align and convert the acquired point cloud data into a
+watertight mesh of good quality. third, export the reconstructed model to a 3d
+printer to obtain a proper 3d print of the model.

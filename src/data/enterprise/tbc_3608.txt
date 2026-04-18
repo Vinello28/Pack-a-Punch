@@ -1,0 +1,22 @@
+we present an ensemble approach for categorizing search query entities in the
+recruitment domain. understanding the types of entities expressed in a search
+query (company, skill, job title, etc.) enables more intelligent information
+retrieval based upon those entities compared to a traditional keyword-based
+search. because search queries are typically very short, leveraging a
+traditional bag-of-words model to identify entity types would be inappropriate
+due to the lack of contextual information. our approach instead combines clues
+from different sources of varying complexity in order to collect real-world
+knowledge about query entities. we employ distributional semantic
+representations of query entities through two models: 1) contextual vectors
+generated from encyclopedic corpora like wikipedia, and 2) high dimensional
+word embedding vectors generated from millions of job postings using word2vec.
+additionally, our approach utilizes both entity linguistic properties obtained
+from wordnet and ontological properties extracted from dbpedia. we evaluate our
+approach on a data set created at careerbuilder; the largest job board in the
+us. the data set contains entities extracted from millions of job
+seekers/recruiters search queries, job postings, and resume documents. after
+constructing the distributional vectors of search entities, we use supervised
+machine learning to infer search entity types. empirical results show that our
+approach outperforms the state-of-the-art word2vec distributional semantics
+model trained on wikipedia. moreover, we achieve micro-averaged f 1 score of
+97% using the proposed distributional representations ensemble.

@@ -1,1 +1,0 @@
-L'azienda recentemente si è dedicata allo sviluppo di applicazioni di intelligenza artificiale (deep learning). Per velocizzare lo sviluppo di queste applicazioni è necessario un adeguato strumento basato su schede di elaborazione parallela di ultima generazione.

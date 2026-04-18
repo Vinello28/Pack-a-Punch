@@ -1,0 +1,8 @@
+in response to the constant increase in population and tourism worldwide,
+there is a need for the development of cross-language market research tools
+that are more cost and time effective than surveys or interviews. focusing on
+the chinese tourism boom and the hotel industry in japan, we extracted the most
+influential keywords in emotional judgement from chinese online reviews of
+japanese hotels in the portal site ctrip. using an entropy based mathematical
+model and a machine learning algorithm, we determined the words that most
+closely represent the demands and emotions of this customer base.

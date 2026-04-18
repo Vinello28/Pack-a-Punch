@@ -1,1 +1,0 @@
-Attivita di ricerca in neuroscienze computazionali mediante reti neurali per la modellazione dei processi cognitivi e l'analisi di segnali EEG.

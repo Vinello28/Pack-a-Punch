@@ -1,0 +1,26 @@
+data assimilation plays a key role in large-scale atmospheric weather
+forecasting, where the state of the physical system is estimated from model
+outputs and observations, and is then used as initial condition to produce
+accurate future forecasts. the ensemble kalman filter (enkf) provides a
+practical implementation of the statistical solution of the data assimilation
+problem and has gained wide popularity as. this success can be attributed to
+its simple formulation and ease of implementation. enkf is a monte-carlo
+algorithm that solves the data assimilation problem by sampling the probability
+distributions involved in bayes theorem. because of this, all flavors of enkf
+are fundamentally prone to sampling errors when the ensemble size is small. in
+typical weather forecasting applications, the model state space has dimension
+$10^{9}-10^{12}$, while the ensemble size typically ranges between $30-100$
+members. sampling errors manifest themselves as long-range spurious
+correlations and have been shown to cause filter divergence. to alleviate this
+effect covariance localization dampens spurious correlations between state
+variables located at a large distance in the physical space, via an empirical
+distance-dependent function. the quality of the resulting analysis and forecast
+is greatly influenced by the choice of the localization function parameters,
+e.g., the radius of influence. the localization radius is generally tuned
+empirically to yield desirable results.this work, proposes two adaptive
+algorithms for covariance localization in the enkf framework, both based on a
+machine learning approach. the first algorithm adapts the localization radius
+in time, while the second algorithm tunes the localization radius in both time
+and space. numerical experiments carried out with the lorenz-96 model, and a
+quasi-geostrophic model, reveal the potential of the proposed machine learning
+approaches.

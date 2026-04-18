@@ -1,0 +1,9 @@
+this paper investigates the processing of frequency modulated-continuos wave
+(fm-cw) radar signals for vehicle classification. in the last years deep
+learning has gained interest in several scientific fields and signal processing
+is not one exception. in this work we address the recognition of the vehicle
+category using a convolutional neural network (cnn) applied to range doppler
+signature. the developed system first transforms the 1-dimensional signal into
+a 3-dimensional signal that is subsequently used as input to the cnn. when
+using the trained model to predict the vehicle category we obtain good
+performance.

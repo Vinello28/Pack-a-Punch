@@ -1,0 +1,16 @@
+when robots operate in unknown environments small errors in postions can lead
+to large variations in the contact forces, especially with typical
+high-impedance designs. this can potentially damage the surroundings and/or the
+robot. series elastic actuators (seas) are a popular way to reduce the output
+impedance of a robotic arm to improve control authority over the force exerted
+on the environment. however this increased control over forces with lower
+impedance comes at the cost of lower positioning precision and bandwidth. this
+article examines the use of an iteratively-learned feedforward command to
+improve position tracking when using seas. over each iteration, the output
+responses of the system to the quantized inputs are used to estimate a
+linearized local system models. these estimated models are obtained using a
+complex-valued gaussian process regression (cgpr) technique and then, used to
+generate a new feedforward input command based on the previous iteration's
+error. this article illustrates this iterative machine learning (iml) technique
+for a two degree of freedom (2-dof) robotic arm, and demonstrates successful
+convergence of the iml approach to reduce the tracking error.

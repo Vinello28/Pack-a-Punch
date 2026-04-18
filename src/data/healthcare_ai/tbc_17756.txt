@@ -1,0 +1,25 @@
+convolutional neural networks (cnn) for medical imaging are constrained by
+the number of annotated data required in the training stage. usually, manual
+annotation is considered to be the "gold standard". however, medical imaging
+datasets that include expert manual segmentation are scarce as this step is
+time-consuming, and therefore expensive. moreover, single-rater manual
+annotation is most often used in data-driven approaches making the network
+optimal with respect to only that single expert. in this work, we propose a cnn
+for brain extraction in magnetic resonance (mr) imaging, that is fully trained
+with what we refer to as silver standard masks. our method consists of 1)
+developing a dataset with "silver standard" masks as input, and implementing
+both 2) a tri-planar method using parallel 2d u-net-based cnns (referred to as
+consnet) and 3) an auto-context implementation of consnet. the term consnet
+refers to our integrated approach, i.e., training with silver standard masks
+and using a 2d u-net-based architecture. our results showed that we
+outperformed (i.e., larger dice coefficients) the current state-of-the-art ss
+methods. our use of silver standard masks reduced the cost of manual
+annotation, decreased inter-intra-rater variability, and avoided cnn
+segmentation super-specialization towards one specific manual annotation
+guideline that can occur when gold standard masks are used. moreover, the usage
+of silver standard masks greatly enlarges the volume of input annotated data
+because we can relatively easily generate labels for unlabeled data. in
+addition, our method has the advantage that, once trained, it takes only a few
+seconds to process a typical brain image volume using modern hardware, such as
+a high-end graphics processing unit. in contrast, many of the other competitive
+methods have processing times in the order of minutes.

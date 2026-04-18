@@ -1,0 +1,18 @@
+food diary applications represent a tantalizing market. such applications,
+based on image food recognition, opened to new challenges for computer vision
+and pattern recognition algorithms. recent works in the field are focusing
+either on hand-crafted representations or on learning these by exploiting deep
+neural networks. despite the success of such a last family of works, these
+generally exploit off-the shelf deep architectures to classify food dishes.
+thus, the architectures are not cast to the specific problem. we believe that
+better results can be obtained if the deep architecture is defined with respect
+to an analysis of the food composition. following such an intuition, this work
+introduces a new deep scheme that is designed to handle the food structure.
+specifically, inspired by the recent success of residual deep network, we
+exploit such a learning scheme and introduce a slice convolution block to
+capture the vertical food layers. outputs of the deep residual blocks are
+combined with the sliced convolution to produce the classification score for
+specific food categories. to evaluate our proposed architecture we have
+conducted experimental results on three benchmark datasets. results demonstrate
+that our solution shows better performance with respect to existing approaches
+(e.g., a top-1 accuracy of 90.27% on the food-101 challenging dataset).

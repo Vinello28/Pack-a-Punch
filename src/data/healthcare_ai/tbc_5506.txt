@@ -1,0 +1,12 @@
+we develop a multi-task convolutional neural network (cnn) to classify
+multiple diagnoses from 12-lead electrocardiograms (ecgs) using a dataset
+comprised of over 40,000 ecgs, with labels derived from cardiologist clinical
+interpretations. since many clinically important classes can occur in low
+frequencies, approaches are needed to improve performance on rare classes. we
+compare the performance of several single-class classifiers on rare classes to
+a multi-headed classifier across all available classes. we demonstrate that the
+addition of common classes can significantly improve cnn performance on rarer
+classes when compared to a model trained on the rarer class in isolation. using
+this method, we develop a model with high performance as measured by f1 score
+on multiple clinically relevant classes compared against the gold-standard
+cardiologist interpretation.

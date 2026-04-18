@@ -1,0 +1,11 @@
+anonymization of medical images is necessary for protecting the identity of
+the test subjects, and is therefore an essential step in data sharing. however,
+recent developments in deep learning may raise the bar on the amount of
+distortion that needs to be applied to guarantee anonymity. to test such
+possibilities, we have applied the novel cyclegan unsupervised image-to-image
+translation framework on sagittal slices of t1 mr images, in order to
+reconstruct facial features from anonymized data. we applied the cyclegan
+framework on both face-blurred and face-removed images. our results show that
+face blurring may not provide adequate protection against malicious attempts at
+identifying the subjects, while face removal provides more robust
+anonymization, but is still partially reversible.

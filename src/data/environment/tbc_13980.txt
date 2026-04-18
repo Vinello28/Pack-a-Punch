@@ -1,0 +1,20 @@
+the uncertainty in the power supply due to fluctuating renewable energy
+sources (res) has severe (financial and other) implications for energy market
+players. in this paper, we present a device-level demand response (dr) scheme
+that captures the atomic (all available) flexibilities in energy demand and
+provides the largest possible solution space to generate demand/supply
+schedules that minimize market imbalances. we evaluate the effectiveness and
+feasibility of widely used forecasting models for device-level flexibility
+analysis. in a typical device-level flexibility forecast, a market player is
+more concerned with the \textit{utility} that the demand flexibility brings to
+the market, rather than the intrinsic forecast accuracy. in this regard, we
+provide comprehensive predictive modeling and scheduling of demand flexibility
+from household appliances to demonstrate the (financial and otherwise)
+viability of introducing flexibility-based dr in the danish/nordic market.
+further, we investigate the correlation between the potential utility and the
+accuracy of the demand forecast model. furthermore, we perform a number of
+experiments to determine the data granularity that provides the best financial
+reward to market players for adopting the proposed dr scheme. a cost-benefit
+analysis of forecast results shows that even with somewhat low forecast
+accuracy, market players can achieve regulation cost savings of 54% of the
+theoretically optimal.

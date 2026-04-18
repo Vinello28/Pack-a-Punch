@@ -1,0 +1,5 @@
+we present an improved analysis of mini-batched stochastic dual coordinate
+ascent for regularized empirical loss minimization (i.e. svm and svm-type
+objectives). our analysis allows for flexible sampling schemes, including where
+data is distribute across machines, and combines a dependence on the smoothness
+of the loss and/or the data spread (measured through the spectral norm).

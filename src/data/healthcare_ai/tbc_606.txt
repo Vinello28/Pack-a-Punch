@@ -1,0 +1,11 @@
+we report our effort to identify the sensitive information, subset of data
+items listed by hipaa (health insurance portability and accountability), from
+medical text using the recent advances in natural language processing and
+machine learning techniques. we represent the words with high dimensional
+continuous vectors learned by a variant of word2vec called continous bag of
+words (cbow). we feed the word vectors into a simple neural network with a long
+short-term memory (lstm) architecture. without any attempts to extract manually
+crafted features and considering that our medical dataset is too small to be
+fed into neural network, we obtained promising results. the results thrilled us
+to think about the larger scale of the project with precise parameter tuning
+and other possible improvements.

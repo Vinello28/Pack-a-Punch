@@ -1,1 +1,0 @@
-Realizzazione di una piattaforma con Machine Learning per supportare le decisioni operative nel sett

@@ -104,10 +104,12 @@ def _optimize_onnx(model_path: Path, fp16: bool = True) -> Path:
     
     logger.info("Applying ONNX optimizations...")
     
-    # Optimize using architecture from config
-    # ModernBERT is not recognized by ORT optimizer; fall back to "bert"
+    # Optimize using architecture from config.
+    # ORT optimizer only supports a short list of model_types; BERT-family
+    # architectures (ModernBERT, XLM-RoBERTa) share BERT's attention pattern
+    # and can safely fall back to "bert" for fusion purposes.
     ort_model_type = settings.model.architecture.model_type
-    if ort_model_type == "modernbert":
+    if ort_model_type in ("modernbert", "xlm-roberta", "roberta"):
         ort_model_type = "bert"
     opt_options = FusionOptions(ort_model_type)
     optimized_model = optimizer.optimize_model(

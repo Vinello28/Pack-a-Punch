@@ -1,0 +1,11 @@
+volatility prediction--an essential concept in financial markets--has
+recently been addressed using sentiment analysis methods. we investigate the
+sentiment of annual disclosures of companies in stock markets to forecast
+volatility. we specifically explore the use of recent information retrieval
+(ir) term weighting models that are effectively extended by related terms using
+word embeddings. in parallel to textual information, factual market data have
+been widely used as the mainstream approach to forecast market risk. we
+therefore study different fusion methods to combine text and market data
+resources. our word embedding-based approach significantly outperforms
+state-of-the-art methods. in addition, we investigate the characteristics of
+the reports of the companies in different financial sectors.

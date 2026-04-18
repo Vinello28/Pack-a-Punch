@@ -1,0 +1,13 @@
+each day billions of photographs are uploaded to photo-sharing services and
+social media platforms. these images are packed with information about how
+people live around the world. in this paper we exploit this rich trove of data
+to understand fashion and style trends worldwide. we present a framework for
+visual discovery at scale, analyzing clothing and fashion across millions of
+images of people around the world and spanning several years. we introduce a
+large-scale dataset of photos of people annotated with clothing attributes, and
+use this dataset to train attribute classifiers via deep learning. we also
+present a method for discovering visually consistent style clusters that
+capture useful visual correlations in this massive dataset. using these tools,
+we analyze millions of photos to derive visual insight, producing a
+first-of-its-kind analysis of global and per-city fashion choices and
+spatio-temporal trends.

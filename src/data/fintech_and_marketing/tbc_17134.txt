@@ -1,0 +1,15 @@
+since the advent of online real estate database companies like zillow, trulia
+and redfin, the problem of automatic estimation of market values for houses has
+received considerable attention. several real estate websites provide such
+estimates using a proprietary formula. although these estimates are often close
+to the actual sale prices, in some cases they are highly inaccurate. one of the
+key factors that affects the value of a house is its interior and exterior
+appearance, which is not considered in calculating automatic value estimates.
+in this paper, we evaluate the impact of visual characteristics of a house on
+its market value. using deep convolutional neural networks on a large dataset
+of photos of home interiors and exteriors, we develop a method for estimating
+the luxury level of real estate photos. we also develop a novel framework for
+automated value assessment using the above photos in addition to home
+characteristics including size, offered price and number of bedrooms. finally,
+by applying our proposed method for price estimation to a new dataset of real
+estate photos and metadata, we show that it outperforms zillow's estimates.

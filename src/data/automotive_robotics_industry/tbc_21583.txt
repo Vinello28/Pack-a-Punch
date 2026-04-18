@@ -1,0 +1,12 @@
+we present a novel deep neural network architecture for representing robot
+experiences in an episodic-like memory which facilitates encoding, recalling,
+and predicting action experiences. our proposed unsupervised deep episodic
+memory model 1) encodes observed actions in a latent vector space and, based on
+this latent encoding, 2) infers most similar episodes previously experienced,
+3) reconstructs original episodes, and 4) predicts future frames in an
+end-to-end fashion. results show that conceptually similar actions are mapped
+into the same region of the latent vector space. based on these results, we
+introduce an action matching and retrieval mechanism, benchmark its performance
+on two large-scale action datasets, 20bn-something-something and activitynet
+and evaluate its generalization capability in a real-world scenario on a
+humanoid robot.

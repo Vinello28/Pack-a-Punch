@@ -1,0 +1,1 @@
+enabling clinicians and researchers to directly interact with global genomic data resources by removing technological barriers is vital for medical genomics. askbeacon enables large language models to be applied to securely shared cohorts via the ga4gh beacon protocol. by simply "asking" beacon, actionable insights can be gained, analyzed and made publication-ready.

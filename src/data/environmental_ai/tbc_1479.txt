@@ -1,1 +1,0 @@
-Realizzazione di un'intelligenza artificiale on-board su drone  per il monitoraggio ambientale e la valutazione dei rischi relativi alle infrastrutture ferroviarie e al territorio circostante.

@@ -1,0 +1,12 @@
+in imitation learning, behavior learning is generally done using the features
+extracted from the demonstration data. recent deep learning algorithms enable
+the development of machine learning methods that can get high dimensional data
+as an input. in this work, we use imitation learning to teach the robot to
+dribble the ball to the goal. we use b-human robot software to collect
+demonstration data and a deep convolutional network to represent the policies.
+we use top and bottom camera images of the robot as input and speed commands as
+outputs. the cnn policy learns the mapping between the series of images and
+speed commands. in 3d realistic robotics simulator experiments, we show that
+the robot is able to learn to search the ball and dribble the ball, but it
+struggles to align to the goal. the best-proposed policy model learns to score
+4 goals out of 20 test episodes.

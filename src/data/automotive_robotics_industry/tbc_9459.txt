@@ -1,0 +1,11 @@
+reliable collision avoidance is one of the main requirements for autonomous
+driving. hence, it is important to correctly estimate the states of an unknown
+number of static and dynamic objects in real-time. here, data association is a
+major challenge for every multi-target tracker. we propose a novel multi-target
+tracker called greedy dirichlet process filter (gdpf) based on the
+non-parametric bayesian model called dirichlet processes and the fast posterior
+computation algorithm sequential updating and greedy search (sugs). by adding a
+temporal dependence we get a real-time capable tracking framework without the
+need of a previous clustering or data association step. real-world tests show
+that gdpf outperforms other multi-target tracker in terms of accuracy and
+stability.

@@ -1,0 +1,10 @@
+this paper proposed a method for stock prediction. in terms of feature
+extraction, we extract the features of stock-related news besides stock prices.
+we first select some seed words based on experience which are the symbols of
+good news and bad news. then we propose an optimization method and calculate
+the positive polar of all words. after that, we construct the features of news
+based on the positive polar of their words. in consideration of sequential
+stock prices and continuous news effects, we propose a recurrent neural network
+model to help predict stock prices. compared to svm classifier with price
+features, we find our proposed method has an over 5% improvement on stock
+prediction accuracy in experiments.

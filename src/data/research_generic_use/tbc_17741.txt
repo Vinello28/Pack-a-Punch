@@ -1,0 +1,19 @@
+structure plays a key role in learning performance. in centralized
+computational systems, hyperparameter optimization and regularization
+techniques such as dropout are computational means to enhance learning
+performance by adjusting the deep hierarchical structure. however, in
+decentralized deep learning by the internet of things, the structure is an
+actual network of autonomous interconnected devices such as smart phones that
+interact via complex network protocols. self-adaptation of the learning
+structure is a challenge. uncertainties such as network latency, node and link
+failures or even bottlenecks by limited processing capacity and energy
+availability can signif- icantly downgrade learning performance. network
+self-organization and self-management is complex, while it requires additional
+computational and network resources that hinder the feasibility of
+decentralized deep learning. in contrast, this paper introduces a self-adaptive
+learning approach based on holarchic learning structures for exploring,
+mitigating and boosting learning performance in distributed environments with
+uncertainties. a large-scale performance analysis with 864000 experiments fed
+with synthetic and real-world data from smart grid and smart city pilot
+projects confirm the cost-effectiveness of holarchic structures for
+decentralized deep learning.

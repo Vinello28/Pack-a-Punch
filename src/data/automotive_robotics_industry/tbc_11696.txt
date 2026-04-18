@@ -1,0 +1,12 @@
+we participated in the robocup 2018 competition in montreal with our newly
+developed boldbot based on the darwin-op and mostly self-printed custom parts.
+this paper is about the lessons learnt from that competition and further
+developments for the robocup 2019 competition. firstly, we briefly introduce
+the team along with an overview of past achievements. we then present a simple,
+standalone 2d simulator we use for simplifying the entry for new members with
+making basic robocup concepts quickly accessible. we describe our approach for
+semantic-segmentation for our vision used in the 2018 competition, which
+replaced the lookup-table (lut) implementation we had before. we also discuss
+the extra structural support we plan to add to the printed parts of the boldbot
+and our transition to ros 2 as our new middleware. lastly, we will present a
+collection of open-source contributions of our team.

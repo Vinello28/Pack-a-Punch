@@ -1,0 +1,21 @@
+in industrial large-scale search systems, such as taobao.com search for
+commodities, the quality of the ranking result is getting continually improved
+by introducing more factors from complex procedures, e.g., deep neural networks
+for extracting image factors. meanwhile, the increasing of the factors demands
+more computation resource and raises the system response latency. it has been
+observed that a search instance usually requires only a small set of effective
+factors, instead of all factors. therefore, removing ineffective factors
+significantly improves the system efficiency. this paper studies the
+\emph{contextual factor selection} (cfs), which selects only a subset of
+effective factors for every search instance, for a well balance between the
+search quality and the response latency. we inject cfs into the search engine
+ranking score to accelerate the engine, considering both ranking effectiveness
+and efficiency. the learning of the cfs model involves a combinatorial
+optimization, which is transformed as a sequential decision-making problem.
+solving the problem by reinforcement learning, we propose the rankcfs, which
+has been assessed in an off-line environment as well as a real-world on-line
+environment (taobao.com). the empirical results show that, the proposed cfs
+approach outperforms several existing supervised/unsupervised methods for
+feature selection in the off-line environment, and also achieves significant
+real-world performance improvement, in term of service latency, in daily test
+as well as singles' day shopping festival in $2017$.

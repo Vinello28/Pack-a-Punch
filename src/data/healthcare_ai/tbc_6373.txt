@@ -1,0 +1,8 @@
+baseline injury categorization is important to traumatic brain injury (tbi)
+research and treatment. current categorization is dominated by symptom-based
+scores that insufficiently capture injury heterogeneity. in this work, we apply
+unsupervised clustering to identify novel tbi phenotypes. our approach uses a
+generalized low-rank model (glrm) model for feature selection in a procedure
+analogous to wrapper methods. the resulting clusters reveal four novel tbi
+phenotypes with distinct feature profiles and that correlate to 90-day
+functional and cognitive status.

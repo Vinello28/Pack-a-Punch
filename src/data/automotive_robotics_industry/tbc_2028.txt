@@ -1,0 +1,10 @@
+influence diagrams are decision theoretic extensions of bayesian networks.
+they are applied to diverse decision problems. in this paper we apply influence
+diagrams to the optimization of a vehicle speed profile. we present results of
+computational experiments in which an influence diagram was used to optimize
+the speed profile of a formula 1 race car at the silverstone f1 circuit. the
+computed lap time and speed profiles correspond well to those achieved by test
+pilots. an extended version of our model that considers a more complex
+optimization function and diverse traffic constraints is currently being tested
+onboard a testing car by a major car manufacturer. this paper opens doors for
+new applications of influence diagrams.

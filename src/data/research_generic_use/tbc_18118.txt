@@ -1,0 +1,13 @@
+in this paper we introduce an ensemble method for convolutional neural
+network (cnn), called "virtual branching," which can be implemented with nearly
+no additional parameters and computation on top of standard cnns. we propose
+our method in the context of person re-identification (re-id). our cnn model
+consists of shared bottom layers, followed by "virtual" branches, where neurons
+from a block of regular convolutional and fully-connected layers are
+partitioned into multiple sets. each virtual branch is trained with different
+data to specialize in different aspects, e.g., a specific body region or pose
+orientation. in this way, robust ensemble representations are obtained against
+human body misalignment, deformations, or variations in viewing angles, at
+nearly no any additional cost. the proposed method achieves competitive
+performance on multiple person re-id benchmark datasets, including market-1501,
+cuhk03, and dukemtmc-reid.

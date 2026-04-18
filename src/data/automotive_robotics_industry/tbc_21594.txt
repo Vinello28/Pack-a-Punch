@@ -1,0 +1,14 @@
+we introduce the drow detector, a deep learning based detector for 2d range
+data. laser scanners are lighting invariant, provide accurate range data, and
+typically cover a large field of view, making them interesting sensors for
+robotics applications. so far, research on detection in laser range data has
+been dominated by hand-crafted features and boosted classifiers, potentially
+losing performance due to suboptimal design choices. we propose a convolutional
+neural network (cnn) based detector for this task. we show how to effectively
+apply cnns for detection in 2d range data, and propose a depth preprocessing
+step and voting scheme that significantly improve cnn performance. we
+demonstrate our approach on wheelchairs and walkers, obtaining state of the art
+detection results. apart from the training data, none of our design choices
+limits the detector to these two classes, though. we provide a ros node for our
+detector and release our dataset containing 464k laser scans, out of which 24k
+were annotated.

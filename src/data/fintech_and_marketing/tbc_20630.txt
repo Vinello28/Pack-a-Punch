@@ -1,0 +1,18 @@
+the investment on the stock market is prone to be affected by the internet.
+for the purpose of improving the prediction accuracy, we propose a multi-task
+stock prediction model that not only considers the stock correlations but also
+supports multi-source data fusion. our proposed model first utilizes tensor to
+integrate the multi-sourced data, including financial web news, investors'
+sentiments extracted from the social network and some quantitative data on
+stocks. in this way, the intrinsic relationships among different information
+sources can be captured, and meanwhile, multi-sourced information can be
+complemented to solve the data sparsity problem. secondly, we propose an
+improved sub-mode coordinate algorithm (smc). smc is based on the stock
+similarity, aiming to reduce the variance of their subspace in each dimension
+produced by the tensor decomposition. the algorithm is able to improve the
+quality of the input features, and thus improves the prediction accuracy. and
+the paper utilizes the long short-term memory (lstm) neural network model to
+predict the stock fluctuation trends. finally, the experiments on 78 a-share
+stocks in csi 100 and thirteen popular hk stocks in the year 2015 and 2016 are
+conducted. the results demonstrate the improvement on the prediction accuracy
+and the effectiveness of the proposed model.

@@ -1,0 +1,10 @@
+we develop a novel algorithm to predict the occurrence of major abdominal
+surgery within 5 years following crohn's disease diagnosis using a panel of 29
+baseline covariates from the swedish population registers. we model
+pseudo-observations based on the aalen-johansen estimator of the cause-specific
+cumulative incidence with an ensemble of modern machine learning approaches.
+pseudo-observation pre-processing easily extends all existing or new machine
+learning procedures to right-censored event history data. we propose
+pseudo-observation based estimators for the area under the time varying roc
+curve, for optimizing the ensemble, and the predictiveness curve, for
+evaluating and summarizing predictive performance.

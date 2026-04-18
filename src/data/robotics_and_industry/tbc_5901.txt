@@ -1,1 +1,0 @@
-Il cuore del progetto che si presenta è lo sviluppo del cronoprogramma automatico  una soluzione che consente di monitorare in tempo reale l’avanzamento dei lavori nei cantieri e adattarne le attività di conseguenza  sfruttando immagini raccolte da telecamere IP connesse a internet e collegate al software di SnapAll.

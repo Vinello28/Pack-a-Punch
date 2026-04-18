@@ -1,0 +1,14 @@
+we present an approach that exploits hierarchical recurrent neural networks
+(rnns) to tackle the video captioning problem, i.e., generating one or multiple
+sentences to describe a realistic video. our hierarchical framework contains a
+sentence generator and a paragraph generator. the sentence generator produces
+one simple short sentence that describes a specific short video interval. it
+exploits both temporal- and spatial-attention mechanisms to selectively focus
+on visual elements during generation. the paragraph generator captures the
+inter-sentence dependency by taking as input the sentential embedding produced
+by the sentence generator, combining it with the paragraph history, and
+outputting the new initial state for the sentence generator. we evaluate our
+approach on two large-scale benchmark datasets: youtubeclips and
+tacos-multilevel. the experiments demonstrate that our approach significantly
+outperforms the current state-of-the-art methods with bleu@4 scores 0.499 and
+0.305 respectively.

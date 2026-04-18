@@ -1,0 +1,13 @@
+the riots in stockholm in may 2013 were an event that reverberated in the
+world media for its dimension of violence that had spread through the swedish
+capital. in this study we have investigated the role of social media in
+creating media phenomena via text mining and natural language processing. we
+have focused on two channels of communication for our analysis: twitter and
+poloniainfo.se (forum of polish community in sweden). our preliminary results
+show some hot topics driving discussion related mostly to swedish police and
+swedish politics by counting word usage. typical features for media
+intervention are presented. we have built networks of most popular phrases,
+clustered by categories (geography, media institution, etc.). sentiment
+analysis shows negative connotation with police. the aim of this preliminary
+exploratory quantitative study was to generate questions and hypotheses, which
+we could carefully follow by deeper more qualitative methods.

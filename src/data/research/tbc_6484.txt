@@ -1,1 +1,0 @@
-L'azienda si è recentemente dedicata allo sviluppo di applicazioni di intelligenza artificiale (apprendimento profondo). Per accelerare lo sviluppo di queste applicazioni è necessario uno strumento appropriato basato su schede di elaborazione parallela di ultima generazione.

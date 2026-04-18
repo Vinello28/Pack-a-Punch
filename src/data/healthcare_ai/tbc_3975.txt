@@ -1,0 +1,10 @@
+in this paper, a method to detect environmental hazards related to a fall
+risk using a mobile vision system is proposed. first-person perspective videos
+are proposed to provide objective evidence on cause and circumstances of
+perturbed balance during activities of daily living, targeted to seniors. a
+classification problem was defined with 12 total classes of potential fall
+risks, including slope changes (e.g., stairs, curbs, ramps) and surfaces (e.g.,
+gravel, grass, concrete). data was collected using a chest-mounted gopro
+camera. we developed a convolutional neural network for automatic feature
+extraction, reduction, and classification of frames. initial results, with a
+mean square error of 8%, are promising.

@@ -1,0 +1,11 @@
+recently there has been significant research on power generation,
+distribution and transmission efficiency especially in the case of renewable
+resources. the main objective is reduction of energy losses and this requires
+improvements on data acquisition and analysis. in this paper we address these
+concerns by using consumers' electrical smart meter readings to estimate
+network loading and this information can then be used for better capacity
+planning. we compare deep neural network (dnn) methods with traditional methods
+for load forecasting. our results indicate that dnn methods outperform most
+traditional methods. this comes at the cost of additional computational
+complexity but this can be addressed with the use of cloud resources. we also
+illustrate how these results can be used to better support dynamic pricing.

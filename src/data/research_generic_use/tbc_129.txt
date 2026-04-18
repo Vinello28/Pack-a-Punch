@@ -1,0 +1,15 @@
+superquadrics provide a compact representation of common shapes and have been
+used both for object/surface modelling in computer graphics and as object-part
+representation in computer vision and robotics. superquadrics refer to a family
+of shapes: here we deal with the superellipsoids and superparaboloids. due to
+the strong non-linearities involved in the equations, uniform or
+close-to-uniform sampling is not attainable through a naive approach of direct
+sampling from the parametric formulation. this is specially true for more
+`cubic' superquadrics (with shape parameters close to $0.1$). we extend a
+previous solution of 2d close-to-uniform uniform sampling of superellipses to
+the superellipsoid (3d) case and derive our own for the superparaboloid.
+additionally, we are able to provide normals for each sampled point. to the
+best of our knowledge, this is the first complete approach for close-to-uniform
+sampling of superellipsoids and superparaboloids in one single framework. we
+present derivations, pseudocode and qualitative and quantitative results using
+our code, which is available online.

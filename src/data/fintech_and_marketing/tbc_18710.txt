@@ -1,0 +1,13 @@
+numerals that contain much information in financial documents are crucial for
+financial decision making. they play different roles in financial analysis
+processes. this paper is aimed at understanding the meanings of numerals in
+financial tweets for fine-grained crowd-based forecasting. we propose a
+taxonomy that classifies the numerals in financial tweets into 7 categories,
+and further extend some of these categories into several subcategories. neural
+network-based models with word and character-level encoders are proposed for
+7-way classification and 17-way classification. we perform backtest to confirm
+the effectiveness of the numeric opinions made by the crowd. this work is the
+first attempt to understand numerals in financial social media data, and we
+provide the first comparison of fine-grained opinion of individual investors
+and analysts based on their forecast price. the numeral corpus used in our
+experiments, called finnum 1.0 , is available for research purposes.

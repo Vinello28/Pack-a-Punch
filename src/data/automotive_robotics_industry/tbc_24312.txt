@@ -1,0 +1,18 @@
+precise near-ground trajectory control is difficult for multi-rotor drones,
+due to the complex aerodynamic effects caused by interactions between
+multi-rotor airflow and the environment. conventional control methods often
+fail to properly account for these complex effects and fall short in
+accomplishing smooth landing. in this paper, we present a novel
+deep-learning-based robust nonlinear controller (neural lander) that improves
+control performance of a quadrotor during landing. our approach combines a
+nominal dynamics model with a deep neural network (dnn) that learns high-order
+interactions. we apply spectral normalization (sn) to constrain the lipschitz
+constant of the dnn. leveraging this lipschitz property, we design a nonlinear
+feedback linearization controller using the learned model and prove system
+stability with disturbance rejection. to the best of our knowledge, this is the
+first dnn-based nonlinear feedback controller with stability guarantees that
+can utilize arbitrarily large neural nets. experimental results demonstrate
+that the proposed controller significantly outperforms a baseline nonlinear
+tracking controller in both landing and cross-table trajectory tracking cases.
+we also empirically show that the dnn generalizes well to unseen data outside
+the training domain.

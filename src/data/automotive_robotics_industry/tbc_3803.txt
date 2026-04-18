@@ -1,0 +1,19 @@
+nowadays, more and more sensors are equipped on robots to increase robustness
+and autonomous ability. we have seen various sensor suites equipped on
+different platforms, such as stereo cameras on ground vehicles, a monocular
+camera with an imu (inertial measurement unit) on mobile phones, and stereo
+cameras with an imu on aerial robots. although many algorithms for state
+estimation have been proposed in the past, they are usually applied to a single
+sensor or a specific sensor suite. few of them can be employed with multiple
+sensor choices. in this paper, we proposed a general optimization-based
+framework for odometry estimation, which supports multiple sensor sets. every
+sensor is treated as a general factor in our framework. factors which share
+common state variables are summed together to build the optimization problem.
+we further demonstrate the generality with visual and inertial sensors, which
+form three sensor suites (stereo cameras, a monocular camera with an imu, and
+stereo cameras with an imu). we validate the performance of our system on
+public datasets and through real-world experiments with multiple sensors.
+results are compared against other state-of-the-art algorithms. we highlight
+that our system is a general framework, which can easily fuse various sensors
+in a pose graph optimization. our implementations are open
+source\footnote{https://github.com/hkust-aerial-robotics/vins-fusion}.

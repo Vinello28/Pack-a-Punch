@@ -1,0 +1,14 @@
+the impact of social media and its growing association with the sharing of
+ideas and propagation of messages remains vital in everyday communication.
+twitter is one effective platform for the dissemination of news and stories
+about recent events happening around the world. it has a continually growing
+database currently adopted by over 300 million users. in this paper we propose
+a novel grid-based approach employing supervised multinomial naive bayes while
+extracting geographic entities from relevant user descriptions metadata which
+gives a spatial indication of the user location. to the best of our knowledge
+our approach is the first to make location inference from tweets using
+geo-enriched grid-based classification. our approach performs better than
+existing baselines achieving more than 57% accuracy at city-level granularity.
+in addition we present a novel framework for content-based estimation of user
+locations by specifying levels of granularity required in pre-defined location
+grids.

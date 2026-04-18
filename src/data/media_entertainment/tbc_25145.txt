@@ -1,0 +1,10 @@
+we present our approach for computer-aided social media text authorship
+attribution based on recent advances in short text authorship verification. we
+use various natural language techniques to create word-level and
+character-level models that act as hidden layers to simulate a simple neural
+network. the choice of word-level and character-level models in each layer was
+informed through validation performance. the output layer of our system uses an
+unweighted majority vote vector to arrive at a conclusion. we also considered
+writing bias in social media posts while collecting our training dataset to
+increase system robustness. our system achieved a precision, recall, and
+f-measure of 0.82, 0.926 and 0.869 respectively.

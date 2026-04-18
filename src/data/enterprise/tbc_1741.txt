@@ -1,0 +1,15 @@
+in artificial intelligence (ai) mediated workforce management systems (e.g.,
+crowdsourcing), long-term success depends on workers accomplishing tasks
+productively and resting well. this dual objective can be summarized by the
+concept of productive laziness. existing scheduling approaches mostly focus on
+efficiency but overlook worker wellbeing through proper rest. in order to
+enable workforce management systems to follow the ieee ethically aligned design
+guidelines to prioritize worker wellbeing, we propose a distributed
+computational productive laziness (cpl) approach in this paper. it
+intelligently recommends personalized work-rest schedules based on local data
+concerning a worker's capabilities and situational factors to incorporate
+opportunistic resting and achieve superlinear collective productivity without
+the need for explicit coordination messages. extensive experiments based on a
+real-world dataset of over 5,000 workers demonstrate that cpl enables workers
+to spend 70% of the effort to complete 90% of the tasks on average, providing
+more ethically aligned scheduling than existing approaches.

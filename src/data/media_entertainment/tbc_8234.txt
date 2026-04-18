@@ -1,0 +1,11 @@
+we present an end-to-end method for transforming audio from one style to
+another. for the case of speech, by conditioning on speaker identities, we can
+train a single model to transform words spoken by multiple people into multiple
+target voices. for the case of music, we can specify musical instruments and
+achieve the same result. architecturally, our method is a fully-differentiable
+sequence-to-sequence model based on convolutional and hierarchical recurrent
+neural networks. it is designed to capture long-term acoustic dependencies,
+requires minimal post-processing, and produces realistic audio transforms.
+ablation studies confirm that our model can separate speaker and instrument
+properties from acoustic content at different receptive fields. empirically,
+our method achieves competitive performance on community-standard datasets.

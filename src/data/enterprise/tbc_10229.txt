@@ -1,0 +1,19 @@
+in spoken dialogue systems, we aim to deploy artificial intelligence to build
+automated dialogue agents that can converse with humans. a part of this effort
+is the policy optimisation task, which attempts to find a policy describing how
+to respond to humans, in the form of a function taking the current state of the
+dialogue and returning the response of the system. in this paper, we
+investigate deep reinforcement learning approaches to solve this problem.
+particular attention is given to actor-critic methods, off-policy reinforcement
+learning with experience replay, and various methods aimed at reducing the bias
+and variance of estimators. when combined, these methods result in the
+previously proposed acer algorithm that gave competitive results in gaming
+environments. these environments however are fully observable and have a
+relatively small action set so in this paper we examine the application of acer
+to dialogue policy optimisation. we show that this method beats the current
+state-of-the-art in deep learning approaches for spoken dialogue systems. this
+not only leads to a more sample efficient algorithm that can train faster, but
+also allows us to apply the algorithm in more difficult environments than
+before. we thus experiment with learning in a very large action space, which
+has two orders of magnitude more actions than previously considered. we find
+that acer trains significantly faster than the current state-of-the-art.

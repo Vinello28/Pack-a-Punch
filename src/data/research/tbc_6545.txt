@@ -1,1 +1,0 @@
-Il progetto mira a sviluppare algoritmi per l'interpretazione dei metodi AI. Modelli di AI sfruttabili saranno studiati su un insieme di usi multidisciplinari-casi in fisica delle alte energie in medicina e neuroscienze

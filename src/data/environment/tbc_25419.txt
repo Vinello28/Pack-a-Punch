@@ -1,0 +1,14 @@
+automated segmentation of individual leaves of a plant in an image is a
+prerequisite to measure more complex phenotypic traits in high-throughput
+phenotyping. applying state-of-the-art machine learning approaches to tackle
+leaf instance segmentation requires a large amount of manually annotated
+training data. currently, the benchmark datasets for leaf segmentation contain
+only a few hundred labeled training images. in this paper, we propose a
+framework for leaf instance segmentation by augmenting real plant datasets with
+generated synthetic images of plants inspired by domain randomisation. we train
+a state-of-the-art deep learning segmentation architecture (mask-rcnn) with a
+combination of real and synthetic images of arabidopsis plants. our proposed
+approach achieves 90% leaf segmentation score on the a1 test set outperforming
+the-state-of-the-art approaches for the cvppp leaf segmentation challenge
+(lsc). our approach also achieves 81% mean performance over all five test
+datasets.

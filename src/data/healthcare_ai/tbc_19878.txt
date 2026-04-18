@@ -1,0 +1,25 @@
+segmentation is a fundamental task for extracting semantically meaningful
+regions from an image. the goal of segmentation algorithms is to accurately
+assign object labels to each image location. however, image-noise, shortcomings
+of algorithms, and image ambiguities cause uncertainty in label assignment.
+estimating the uncertainty in label assignment is important in multiple
+application domains, such as segmenting tumors from medical images for
+radiation treatment planning. one way to estimate these uncertainties is
+through the computation of posteriors of bayesian models, which is
+computationally prohibitive for many practical applications. on the other hand,
+most computationally efficient methods fail to estimate label uncertainty. we
+therefore propose in this paper the active mean fields (amf) approach, a
+technique based on bayesian modeling that uses a mean-field approximation to
+efficiently compute a segmentation and its corresponding uncertainty. based on
+a variational formulation, the resulting convex model combines any
+label-likelihood measure with a prior on the length of the segmentation
+boundary. a specific implementation of that model is the chan-vese segmentation
+model (cv), in which the binary segmentation task is defined by a gaussian
+likelihood and a prior regularizing the length of the segmentation boundary.
+furthermore, the euler-lagrange equations derived from the amf model are
+equivalent to those of the popular rudin-osher-fatemi (rof) model for image
+denoising. solutions to the amf model can thus be implemented by directly
+utilizing highly-efficient rof solvers on log-likelihood ratio fields. we
+qualitatively assess the approach on synthetic data as well as on real natural
+and medical images. for a quantitative evaluation, we apply our approach to the
+icgbench dataset.

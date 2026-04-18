@@ -1,0 +1,12 @@
+convolutional neural network (cnn) offers significant accuracy in image
+detection. to implement image detection using cnn in the internet of things
+(iot) devices, a streaming hardware accelerator is proposed. the proposed
+accelerator optimizes the energy efficiency by avoiding unnecessary data
+movement. with unique filter decomposition technique, the accelerator can
+support arbitrary convolution window size. in addition, max pooling function
+can be computed in parallel with convolution by using separate pooling unit,
+thus achieving throughput improvement. a prototype accelerator was implemented
+in tsmc 65nm technology with a core size of 5mm2. the accelerator can support
+major cnns and achieve 152gops peak throughput and 434gops/w energy efficiency
+at 350mw, making it a promising hardware accelerator for intelligent iot
+devices.

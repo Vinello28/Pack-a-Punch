@@ -1,0 +1,13 @@
+in this paper we propose a fully automatic 2-stage cascaded approach for
+segmentation of liver and its tumors in ct (computed tomography) images using
+densely connected fully convolutional neural network (densenet). we
+independently train liver and tumor segmentation models and cascade them for a
+combined segmentation of the liver and its tumor. the first stage involves
+segmentation of liver and the second stage uses the first stage's segmentation
+results for localization of liver and henceforth tumor segmentations inside
+liver region. the liver model was trained on the down-sampled axial slices
+$(256 \times 256)$, whereas for the tumor model no down-sampling of slices was
+done, but instead it was trained on the ct axial slices windowed at three
+different hounsfield (hu) levels. on the test set our model achieved a global
+dice score of 0.923 and 0.625 on liver and tumor respectively. the computed
+tumor burden had an rmse of 0.044.

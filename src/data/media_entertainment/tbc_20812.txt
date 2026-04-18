@@ -1,0 +1,18 @@
+there currently exists a wide range of techniques to model and evolve
+artificial players for games. existing techniques range from black box neural
+networks to entirely hand-designed solutions. in this paper, we demonstrate the
+feasibility of a genetic programming framework using human controller input to
+derive meaningful artificial players which can, later on, be optimised by hand.
+the current state of the art in game character design relies heavily on human
+designers to manually create and edit scripts and rules for game characters. to
+address this manual editing bottleneck, current computational intelligence
+techniques approach the issue with fully autonomous character generators,
+replacing most of the design process using black box solutions such as neural
+networks or the like. our gp approach to this problem creates character
+controllers which can be further authored and developed by a designer it also
+offers designers to included their play style without the need to use a
+programming language. this keeps the designer in the loop while reducing
+repetitive manual labour. our system also provides insights into how players
+express themselves in games and into deriving appropriate models for
+representing those insights. we present our framework, supporting findings and
+open challenges.

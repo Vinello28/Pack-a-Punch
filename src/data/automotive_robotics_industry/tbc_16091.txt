@@ -1,0 +1,21 @@
+we introduce an approach for the real-time (2hz) creation of a dense map and
+alignment of a moving robotic agent within that map by rendering using a
+graphics processing unit (gpu). this is done by recasting the scan alignment
+part of the dense mapping process as a rendering task. alignment errors are
+computed from rendering the scene, comparing with range data from the sensors,
+and minimized by an optimizer. the proposed approach takes advantage of the
+advances in rendering techniques for computer graphics and gpu hardware to
+accelerate the algorithm. moreover, it allows one to exploit information not
+used in classic dense mapping algorithms such as iterative closest point (icp)
+by rendering interfaces between the free space, occupied space and the unknown.
+the proposed approach leverages directly the rendering capabilities of the gpu,
+in contrast to other gpu-based approaches that deploy the gpu as a general
+purpose parallel computation platform.
+  we argue that the proposed concept is a general consequence of treating
+perception problems as inverse problems of rendering. many perception problems
+can be recast into a form where much of the computation is replaced by render
+operations. this is not only efficient since rendering is fast, but also
+simpler to implement and will naturally benefit from future advancements in gpu
+speed and rendering techniques. furthermore, this general concept can go beyond
+addressing perception problems and can be used for other problem domains such
+as path planning.

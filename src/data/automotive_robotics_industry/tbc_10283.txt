@@ -1,0 +1,13 @@
+in this work we tackle the problem of child engagement estimation while
+children freely interact with a robot in their room. we propose a deep-based
+multi-view solution that takes advantage of recent developments in human pose
+detection. we extract the child's pose from different rgb-d cameras placed
+elegantly in the room, fuse the results and feed them to a deep neural network
+trained for classifying engagement levels. the deep network contains a
+recurrent layer, in order to exploit the rich temporal information contained in
+the pose data. the resulting method outperforms a number of baseline
+classifiers, and provides a promising tool for better automatic understanding
+of a child's attitude, interest and attention while cooperating with a robot.
+the goal is to integrate this model in next generation social robots as an
+attention monitoring tool during various cri tasks both for typically developed
+(td) children and children affected by autism (asd).

@@ -1,0 +1,19 @@
+in e-commerce portals, generating answers for product-related questions has
+become a crucial task. in this paper, we propose the task of product-aware
+answer generation, which tends to generate an accurate and complete answer from
+large-scale unlabeled e-commerce reviews and product attributes. unlike
+existing question-answering problems, answer generation in e-commerce confronts
+three main challenges: (1) reviews are informal and noisy; (2) joint modeling
+of reviews and key-value product attributes is challenging; (3) traditional
+methods easily generate meaningless answers. to tackle above challenges, we
+propose an adversarial learning based model, named paag, which is composed of
+three components: a question-aware review representation module, a key-value
+memory network encoding attributes, and a recurrent neural network as a
+sequence generator. specifically, we employ a convolutional discriminator to
+distinguish whether our generated answer matches the facts. to extract the
+salience part of reviews, an attention-based review reader is proposed to
+capture the most relevant words given the question. conducted on a large-scale
+real-world e-commerce dataset, our extensive experiments verify the
+effectiveness of each module in our proposed model. moreover, our experiments
+show that our model achieves the state-of-the-art performance in terms of both
+automatic metrics and human evaluations.

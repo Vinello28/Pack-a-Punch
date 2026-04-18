@@ -1,0 +1,11 @@
+we present the use of the fitted q iteration in algorithmic trading. we show
+that the fitted q iteration helps alleviate the dimension problem that the
+basic q-learning algorithm faces in application to trading. furthermore, we
+introduce a procedure including model fitting and data simulation to enrich
+training data as the lack of data is often a problem in realistic application.
+we experiment our method on both simulated environment that permits arbitrage
+opportunity and real-world environment by using prices of 450 stocks. in the
+former environment, the method performs well, implying that our method works in
+theory. to perform well in the real-world environment, the agents trained might
+require more training (iteration) and more meaningful variables with predictive
+value.

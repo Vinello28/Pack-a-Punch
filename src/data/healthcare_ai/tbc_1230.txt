@@ -1,0 +1,19 @@
+this paper presents a novel autonomous quality metric to quantify the
+rehabilitations progress of subjects with knee/hip operations. the presented
+method supports digital analysis of human gait patterns using smartphones. the
+algorithm related to the autonomous metric utilizes calibrated acceleration,
+gyroscope and magnetometer signals from seven inertial measurement unit
+attached on the lower body in order to classify and generate the grading system
+values. the developed android application connects the seven inertial
+measurement units via bluetooth and performs the data acquisition and
+processing in real-time. in total nine features per acceleration direction and
+lower body joint angle are calculated and extracted in real-time to achieve a
+fast feedback to the user. we compare the classification accuracy and
+quantification capabilities of linear discriminant analysis, principal
+component analysis and naive bayes algorithms. the presented system is able to
+classify patients and control subjects with an accuracy of up to 100\%. the
+outcomes can be saved on the device or transmitted to treating physicians for
+later control of the subject's improvements and the efficiency of physiotherapy
+treatments in motor rehabilitation. the proposed autonomous quality metric
+solution bears great potential to be used and deployed to support digital
+healthcare and therapy.

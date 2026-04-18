@@ -1,0 +1,19 @@
+most recently, tensor-svd is implemented on multi-view self-representation
+clustering and has achieved the promising results in many real-world
+applications such as face clustering, scene clustering and generic object
+clustering. however, tensor-svd based multi-view self-representation clustering
+is proposed originally to solve the clustering problem in the multiple linear
+subspaces, leading to unsatisfactory results when dealing with the case of
+non-linear subspaces. to handle data clustering from the non-linear subspaces,
+a kernelization method is designed by mapping the data from the original input
+space to a new feature space in which the transformed data can be clustered by
+a multiple linear clustering method. in this paper, we make an optimization
+model for the kernelized multi-view self-representation clustering problem. we
+also develop a new efficient algorithm based on the alternation direction
+method and infer a closed-form solution. since all the subproblems can be
+solved exactly, the proposed optimization algorithm is guaranteed to obtain the
+optimal solution. in particular, the original tensor-based multi-view
+self-representation clustering problem is a special case of our approach and
+can be solved by our algorithm. experimental results on several popular
+real-world clustering datasets demonstrate that our approach achieves the
+state-of-the-art performance.

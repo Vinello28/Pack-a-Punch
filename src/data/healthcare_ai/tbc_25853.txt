@@ -1,0 +1,25 @@
+ultrasound diagnosis is routinely used in obstetrics and gynecology for fetal
+biometry, and owing to its time-consuming process, there has been a great
+demand for automatic estimation. however, the automated analysis of ultrasound
+images is complicated because they are patient-specific, operator-dependent,
+and machine-specific. among various types of fetal biometry, the accurate
+estimation of abdominal circumference (ac) is especially difficult to perform
+automatically because the abdomen has low contrast against surroundings,
+non-uniform contrast, and irregular shape compared to other parameters.we
+propose a method for the automatic estimation of the fetal ac from 2d
+ultrasound data through a specially designed convolutional neural network
+(cnn), which takes account of doctors' decision process, anatomical structure,
+and the characteristics of the ultrasound image. the proposed method uses cnn
+to classify ultrasound images (stomach bubble, amniotic fluid, and umbilical
+vein) and hough transformation for measuring ac. we test the proposed method
+using clinical ultrasound data acquired from 56 pregnant women. experimental
+results show that, with relatively small training samples, the proposed cnn
+provides sufficient classification results for ac estimation through the hough
+transformation. the proposed method automatically estimates ac from ultrasound
+images. the method is quantitatively evaluated, and shows stable performance in
+most cases and even for ultrasound images deteriorated by shadowing artifacts.
+as a result of experiments for our acceptance check, the accuracies are 0.809
+and 0.771 with the expert 1 and expert 2, respectively, while the accuracy
+between the two experts is 0.905. however, for cases of oversized fetus, when
+the amniotic fluid is not observed or the abdominal area is distorted, it could
+not correctly estimate ac.

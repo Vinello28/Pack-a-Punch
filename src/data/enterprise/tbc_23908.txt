@@ -1,0 +1,8 @@
+in conveyor belt sushi restaurants, billing is a burdened job because one has
+to manually count the number of dishes and identify the color of them to
+calculate the price. in a busy situation, there can be a mistake that customers
+are overcharged or under-charged. to deal with this problem, we developed a
+method that automatically identifies the color of dishes and calculate the
+total price using real images. our method consists of ellipse fitting and
+convol-utional neural network. it achieves ellipse detection precision 85% and
+recall 96% and classification accuracy 92%.

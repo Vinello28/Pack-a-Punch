@@ -1,0 +1,14 @@
+enterprises operate large data lakes using hadoop and spark frameworks that
+(1) run a plethora of tools to automate powerful data
+preparation/transformation pipelines, (2) run on shared, large clusters to (3)
+perform many different analytics tasks ranging from model preparation,
+building, evaluation, and tuning for both machine learning and deep learning.
+developing machine/deep learning models on data in such shared environments is
+challenging. apache systemml provides a unified framework for implementing
+machine learning and deep learning algorithms in a variety of shared deployment
+scenarios. systemml's novel compilation approach automatically generates
+runtime execution plans for machine/deep learning algorithms that are composed
+of single-node and distributed runtime operations depending on data and cluster
+characteristics such as data size, data sparsity, cluster size, and memory
+configurations, while still exploiting the capabilities of the underlying big
+data frameworks.

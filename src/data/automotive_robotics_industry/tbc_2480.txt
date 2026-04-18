@@ -1,0 +1,14 @@
+the detection of vehicles in aerial images is widely applied in many
+applications. comparing with object detection in the ground view images,
+vehicle detection in aerial images remains a challenging problem because of
+small vehicle size, monotone appearance and the complex background. in this
+paper, we propose a novel double focal loss convolutional neural network
+framework (dfl-cnn). in the proposed framework, the skip connection is used in
+the cnn structure to enhance the feature learning. also, the focal loss
+function is used to substitute for conventional cross entropy loss function in
+both of the region proposed network and the final classifier. we further
+introduce the first large-scale vehicle detection dataset itcvd with ground
+truth annotations for all the vehicles in the scene. we demonstrate the
+performance of our model on the existing benchmark dlr 3k dataset as well as
+the itcvd dataset. the experimental results show that our dfl-cnn outperforms
+the baselines on vehicle detection.

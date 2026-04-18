@@ -1,0 +1,24 @@
+objective: anemia is a frequent comorbidity in hemodialysis patients that can
+be successfully treated by administering erythropoiesis-stimulating agents
+(esas). esas dosing is currently based on clinical protocols that often do not
+account for the high inter- and intra-individual variability in the patient's
+response. as a result, the hemoglobin level of some patients oscillates around
+the target range, which is associated with multiple risks and side-effects.
+this work proposes a methodology based on reinforcement learning (rl) to
+optimize esa therapy.
+  methods: rl is a data-driven approach for solving sequential decision-making
+problems that are formulated as markov decision processes (mdps). computing
+optimal drug administration strategies for chronic diseases is a sequential
+decision-making problem in which the goal is to find the best sequence of drug
+doses. mdps are particularly suitable for modeling these problems due to their
+ability to capture the uncertainty associated with the outcome of the treatment
+and the stochastic nature of the underlying process. the rl algorithm employed
+in the proposed methodology is fitted q iteration, which stands out for its
+ability to make an efficient use of data.
+  results: the experiments reported here are based on a computational model
+that describes the effect of esas on the hemoglobin level. the performance of
+the proposed method is evaluated and compared with the well-known q-learning
+algorithm and with a standard protocol. simulation results show that the
+performance of q-learning is substantially lower than fqi and the protocol.
+  conclusion: although prospective validation is required, promising results
+demonstrate the potential of rl to become an alternative to current protocols.

@@ -1,1 +1,0 @@
-Il Machine Learning e una branca dell'intelligenza artificiale che consente ai sistemi di apprendere dai dati e migliorare le proprie prestazioni senza essere programmati esplicitamente per ogni compito.

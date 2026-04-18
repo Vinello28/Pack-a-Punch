@@ -1,0 +1,21 @@
+state of the art deep learning models have made steady progress in the fields
+of computer vision and natural language processing, at the expense of growing
+model sizes and computational complexity. deploying these models on low power
+and mobile devices poses a challenge due to their limited compute capabilities
+and strict energy budgets. one solution that has generated significant research
+interest is deploying highly quantized models that operate on low precision
+inputs and weights less than eight bits, trading off accuracy for performance.
+these models have a significantly reduced memory footprint (up to 32x
+reduction) and can replace multiply-accumulates with bitwise operations during
+compute intensive convolution and fully connected layers.
+  most deep learning frameworks rely on highly engineered linear algebra
+libraries such as atlas or intel's mkl to implement efficient deep learning
+operators. to date, none of the popular deep learning directly support low
+precision operators, partly due to a lack of optimized low precision libraries.
+in this paper we introduce a work flow to quickly generate high performance low
+precision deep learning operators for arbitrary precision that target multiple
+cpu architectures and include optimizations such as memory tiling and
+vectorization. we present an extensive case study on low power arm cortex-a53
+cpu, and show how we can generate 1-bit, 2-bit convolutions with speedups up to
+16x over an optimized 16-bit integer baseline and 2.3x better than handwritten
+implementations.

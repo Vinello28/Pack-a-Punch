@@ -1,1 +1,0 @@
-Prototipare algoritmi in grado di formulare  automaticamente e correttamente prodotti cosmaceutici (cosmetici e integratori alimentari in particolare) a partire da specifiche funzionali di alto livello

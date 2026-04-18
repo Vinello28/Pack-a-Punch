@@ -1,0 +1,14 @@
+protein secondary structure prediction is an important problem in
+bioinformatics. inspired by the recent successes of deep neural networks, in
+this paper, we propose an end-to-end deep network that predicts protein
+secondary structures from integrated local and global contextual features. our
+deep architecture leverages convolutional neural networks with different kernel
+sizes to extract multiscale local contextual features. in addition, considering
+long-range dependencies existing in amino acid sequences, we set up a
+bidirectional neural network consisting of gated recurrent unit to capture
+global contextual features. furthermore, multi-task learning is utilized to
+predict secondary structure labels and amino-acid solvent accessibility
+simultaneously. our proposed deep network demonstrates its effectiveness by
+achieving state-of-the-art performance, i.e., 69.7% q8 accuracy on the public
+benchmark cb513, 76.9% q8 accuracy on casp10 and 73.1% q8 accuracy on casp11.
+our model and results are publicly available.

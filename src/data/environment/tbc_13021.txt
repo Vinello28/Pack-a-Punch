@@ -1,0 +1,8 @@
+mobile big data contains vast statistical features in various dimensions,
+including spatial, temporal, and the underlying social domain. understanding
+and exploiting the features of mobile data from a social network perspective
+will be extremely beneficial to wireless networks, from planning, operation,
+and maintenance to optimization and marketing. in this paper, we categorize and
+analyze the big data collected from real wireless cellular networks. then, we
+study the social characteristics of mobile big data and highlight several
+research directions for mobile big data in the social computing areas.

@@ -1,0 +1,14 @@
+one of the most crucial issues in data mining is to model human behaviour in
+order to provide personalisation, adaptation and recommendation. this usually
+involves implicit or explicit knowledge, either by observing user interactions,
+or by asking users directly. but these sources of information are always
+subject to the volatility of human decisions, making utilised data uncertain to
+a particular extent. in this contribution, we elaborate on the impact of this
+human uncertainty when it comes to comparative assessments of different data
+mining approaches. in particular, we reveal two problems: (1) biasing effects
+on various metrics of model-based prediction and (2) the propagation of
+uncertainty and its thus induced error probabilities for algorithm rankings.
+for this purpose, we introduce a probabilistic view and prove the existence of
+those problems mathematically, as well as provide possible solution strategies.
+we exemplify our theory mainly in the context of recommender systems along with
+the metric rmse as a prominent example of precision quality measures.

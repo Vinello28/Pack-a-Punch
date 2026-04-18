@@ -1,0 +1,13 @@
+semantic 3d mapping can be used for many applications such as robot
+navigation and virtual interaction. in recent years, there has been great
+progress in semantic segmentation and geometric 3d mapping. however, it is
+still challenging to combine these two tasks for accurate and large-scale
+semantic mapping from images. in the paper, we propose an incremental and
+(near) real-time semantic mapping system. a 3d scrolling occupancy grid map is
+built to represent the world, which is memory and computationally efficient and
+bounded for large scale environments. we utilize the cnn segmentation as prior
+prediction and further optimize 3d grid labels through a novel crf model.
+superpixels are utilized to enforce smoothness and form robust p n high order
+potential. an efficient mean field inference is developed for the graph
+optimization. we evaluate our system on the kitti dataset and improve the
+segmentation accuracy by 10% over existing systems.

@@ -1,0 +1,15 @@
+chest x-rays is one of the most commonly available and affordable
+radiological examinations in clinical practice. while detecting thoracic
+diseases on chest x-rays is still a challenging task for machine intelligence,
+due to 1) the highly varied appearance of lesion areas on x-rays from patients
+of different thoracic disease and 2) the shortage of accurate pixel-level
+annotations by radiologists for model training. existing machine learning
+methods are unable to deal with the challenge that thoracic diseases usually
+happen in localized disease-specific areas. in this article, we propose a
+weakly supervised deep learning framework equipped with squeeze-and-excitation
+blocks, multi-map transfer, and max-min pooling for classifying thoracic
+diseases as well as localizing suspicious lesion regions. the comprehensive
+experiments and discussions are performed on the chestx-ray14 dataset. both
+numerical and visual results have demonstrated the effectiveness of the
+proposed model and its better performance against the state-of-the-art
+pipelines.

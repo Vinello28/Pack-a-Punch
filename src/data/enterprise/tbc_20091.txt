@@ -1,0 +1,10 @@
+to predict the employee attrition beforehand and to enable management to take
+individualized preventive action. using ensemble classification modeling
+techniques and linear regression. model could predict over 91% accurate
+employee prediction, lead-time in separation and individual reasons causing
+attrition. prior intimation of employee attrition enables manager to take
+preventive actions to retain employee or to manage the business consequences of
+attrition. once deployed this will model can help in downtrend employee
+attrition, will help manager to manage team more effectively. model does not
+cover the natural calamities, and unforeseen events occurring at an individual
+level like accident, death etc.

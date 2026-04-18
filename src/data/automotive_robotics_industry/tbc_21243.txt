@@ -1,0 +1,19 @@
+new vision sensors, such as the dynamic and active-pixel vision sensor
+(davis), incorporate a conventional global-shutter camera and an event-based
+sensor in the same pixel array. these sensors have great potential for
+high-speed robotics and computer vision because they allow us to combine the
+benefits of conventional cameras with those of event-based sensors: low
+latency, high temporal resolution, and very high dynamic range. however, new
+algorithms are required to exploit the sensor characteristics and cope with its
+unconventional output, which consists of a stream of asynchronous brightness
+changes (called "events") and synchronous grayscale frames. for this purpose,
+we present and release a collection of datasets captured with a davis in a
+variety of synthetic and real environments, which we hope will motivate
+research on new algorithms for high-speed and high-dynamic-range robotics and
+computer-vision applications. in addition to global-shutter intensity images
+and asynchronous events, we provide inertial measurements and ground-truth
+camera poses from a motion-capture system. the latter allows comparing the pose
+accuracy of ego-motion estimation algorithms quantitatively. all the data are
+released both as standard text files and binary files (i.e., rosbag). this
+paper provides an overview of the available data and describes a simulator that
+we release open-source to create synthetic event-camera data.

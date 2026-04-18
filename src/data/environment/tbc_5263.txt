@@ -1,0 +1,13 @@
+we propose a new order preserving bilinear framework that exploits
+low-resolution video for person detection in a multi-modal setting using deep
+neural networks. in this setting cameras are strategically placed such that
+less robust sensors, e.g. geophones that monitor seismic activity, are located
+within the field of views (fovs) of cameras. the primary challenge is being
+able to leverage sufficient information from videos where there are less than
+40 pixels on targets, while also taking advantage of less discriminative
+information from other modalities, e.g. seismic. unlike state-of-the-art
+methods, our bilinear framework retains spatio-temporal order when computing
+the vector outer products between pairs of features. despite the high
+dimensionality of these outer products, we demonstrate that our order
+preserving bilinear framework yields better performance than recent orderless
+bilinear models and alternative fusion methods.

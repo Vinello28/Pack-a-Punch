@@ -1,0 +1,10 @@
+the telecommunications industry is highly competitive, which means that the
+mobile providers need a business intelligence model that can be used to achieve
+an optimal level of churners, as well as a minimal level of cost in marketing
+activities. machine learning applications can be used to provide guidance on
+marketing strategies. furthermore, data mining techniques can be used in the
+process of customer segmentation. the purpose of this paper is to provide a
+detailed analysis of the c.5 algorithm, within naive bayesian modelling for the
+task of segmenting telecommunication customers behavioural profiling according
+to their billing and socio-demographic aspects. results have been
+experimentally implemented.

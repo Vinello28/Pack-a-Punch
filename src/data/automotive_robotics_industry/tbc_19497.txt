@@ -1,0 +1,11 @@
+we use reinforcement learning (rl) to learn dexterous in-hand manipulation
+policies which can perform vision-based object reorientation on a physical
+shadow dexterous hand. the training is performed in a simulated environment in
+which we randomize many of the physical properties of the system like friction
+coefficients and an object's appearance. our policies transfer to the physical
+robot despite being trained entirely in simulation. our method does not rely on
+any human demonstrations, but many behaviors found in human manipulation emerge
+naturally, including finger gaiting, multi-finger coordination, and the
+controlled use of gravity. our results were obtained using the same distributed
+rl system that was used to train openai five. we also include a video of our
+results: https://youtu.be/jwsbznhgflm

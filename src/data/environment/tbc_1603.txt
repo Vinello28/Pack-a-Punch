@@ -1,0 +1,23 @@
+the internet of things (iot) is made up of billions of physical devices connected to the internet via networks
+that perform tasks independently with less human intervention.
+such brilliant automation of mundane tasks requires a considerable amount of user data in digital format, which, in turn,
+makes iot networks an open source of personally identifiable
+information data for malicious attackers to steal, manipulate, and
+perform nefarious activities. a huge interest has been developed
+over the past years in applying machine learning (ml)-assisted
+approaches in the iot security space. however, the assumption
+in many current works is that big training data are widely available and transferable to the main server because data are born
+at the edge and are generated continuously by iot devices. this
+is to say that classic ml works on the legacy set of entire data
+located on a central server, which makes it the least preferred
+option for domains with privacy concerns on user data. to
+address this issue, we propose the federated-learning (fl)-based
+anomaly detection approach to proactively recognize intrusion in
+iot networks using decentralized on-device data. our approach
+uses federated training rounds on gated recurrent units (grus)
+models and keeps the data intact on local iot devices by sharing
+only the learned weights with the central server of fl. also, the
+approach’s ensembler part aggregates the updates from multiple
+sources to optimize the global ml model’s accuracy. our experimental results demonstrate that our approach outperforms the
+classic/centralized machine learning (non-fl) versions in securing the privacy of user data and provides an optimal accuracy
+rate in attack detection

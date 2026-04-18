@@ -1,0 +1,9 @@
+in this paper, we use the house price data ranging from january 2004 to
+october 2016 to predict the average house price of november and december in
+2016 for each district in beijing, shanghai, guangzhou and shenzhen. we apply
+autoregressive integrated moving average model to generate the baseline while
+lstm networks to build prediction model. these algorithms are compared in terms
+of mean squared error. the result shows that the lstm model has excellent
+properties with respect to predict time series. also, stateful lstm networks
+and stack lstm networks are employed to further study the improvement of
+accuracy of the house prediction model.

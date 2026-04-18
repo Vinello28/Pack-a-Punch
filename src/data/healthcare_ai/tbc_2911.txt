@@ -1,0 +1,19 @@
+abnormal activity recognition requires detection of occurrence of anomalous
+events that suffer from a severe imbalance in data. in a video, normal is used
+to describe activities that conform to usual events while the irregular events
+which do not conform to the normal are referred to as abnormal. it is far more
+common to observe normal data than to obtain abnormal data in visual
+surveillance. in this paper, we propose an approach where we can obtain
+abnormal data by transforming normal data. this is a challenging task that is
+solved through a multi-stage pipeline approach. we utilize a number of
+techniques from unsupervised segmentation in order to synthesize new samples of
+data that are transformed from an existing set of normal examples. further,
+this synthesis approach has useful applications as a data augmentation
+technique. an incrementally trained bayesian convolutional neural network (cnn)
+is used to carefully select the set of abnormal samples that can be added.
+finally through this synthesis approach we obtain a comparable set of abnormal
+samples that can be used for training the cnn for the classification of normal
+vs abnormal samples. we show that this method generalizes to multiple settings
+by evaluating it on two real world datasets and achieves improved performance
+over other probabilistic techniques that have been used in the past for this
+task.

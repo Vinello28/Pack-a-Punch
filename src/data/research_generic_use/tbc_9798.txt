@@ -1,0 +1,12 @@
+we explore linguistic and behavioral features of dogmatism in social media
+and construct statistical models that can identify dogmatic comments. our model
+is based on a corpus of reddit posts, collected across a diverse set of
+conversational topics and annotated via paid crowdsourcing. we operationalize
+key aspects of dogmatism described by existing psychology theories (such as
+over-confidence), finding they have predictive power. we also find evidence for
+new signals of dogmatism, such as the tendency of dogmatic posts to refrain
+from signaling cognitive processes. when we use our predictive model to analyze
+millions of other reddit posts, we find evidence that suggests dogmatism is a
+deeper personality trait, present for dogmatic users across many different
+domains, and that users who engage on dogmatic comments tend to show increases
+in dogmatic posts themselves.

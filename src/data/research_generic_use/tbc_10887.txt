@@ -1,0 +1,11 @@
+we address the problem of maintaining high voltage power transmission
+networks in security at all time, namely anticipating exceeding of thermal
+limit for eventual single line disconnection (whatever its cause may be) by
+running slow, but accurate, physical grid simulators. new conceptual frameworks
+are calling for a probabilistic risk-based security criterion. however, these
+approaches suffer from high requirements in terms of tractability. here, we
+propose a new method to assess the risk. this method uses both machine learning
+techniques (artificial neural networks) and more standard simulators based on
+physical laws. more specifically we train neural networks to estimate the
+overall dangerousness of a grid state. a classical benchmark problem (manpower
+118 buses test case) is used to show the strengths of the proposed method.

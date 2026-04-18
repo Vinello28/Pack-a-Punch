@@ -1,0 +1,18 @@
+the heat transfer performance of plate fin heat sink (pfhs) has been
+investigated experimentally and extensively. commonly, the objective function
+of the pfhs design is based on the responses of simulations. compared with
+existing studies, the purpose of this study is to transfer from analysis-based
+model to image-based one for heat sink designs. compared with the popular
+objective function based on maximum, mean, variance values etc., more
+information should be involved in image-based and thus a more objective model
+should be constructed. it means that the sequential optimization should be
+based on images instead of responses and more reasonable solutions should be
+obtained. therefore, an image-based reconstruction model of a heat transfer
+process for a 3d-pfhs is established. unlike image recognition, such procedure
+cannot be implemented by existing recognition algorithms (e.g. convolutional
+neural network) directly. therefore, a reconstructive neural network (reconnn),
+integrated supervised learning and unsupervised learning techniques, is
+suggested and improved to achieve higher accuracy. according to the
+experimental results, the heat transfer process can be observed more detailed
+and clearly, and the reconstructed results are meaningful for the further
+optimizations.

@@ -1,1 +1,0 @@
-Il dialogue management gestisce il flusso della conversazione tra utente e assistente virtuale, mantenendo il contesto attraverso piu turni e guidando l'interazione verso la risoluzione del problema.

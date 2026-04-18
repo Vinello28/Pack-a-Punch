@@ -1,0 +1,6 @@
+in this paper, we describe a methodology to infer bullish or bearish
+sentiment towards companies/brands. more specifically, our approach leverages
+affective lexica and word embeddings in combination with convolutional neural
+networks to infer the sentiment of financial news headlines towards a target
+company. such architecture was used and evaluated in the context of the semeval
+2017 challenge (task 5, subtask 2), in which it obtained the best performance.

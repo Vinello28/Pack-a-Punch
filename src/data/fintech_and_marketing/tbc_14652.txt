@@ -1,0 +1,14 @@
+feature extraction from financial data is one of the most important problems
+in market prediction domain for which many approaches have been suggested.
+among other modern tools, convolutional neural networks (cnn) have recently
+been applied for automatic feature selection and market prediction. however, in
+experiments reported so far, less attention has been paid to the correlation
+among different markets as a possible source of information for extracting
+features. in this paper, we suggest a cnn-based framework with specially
+designed cnns, that can be applied on a collection of data from a variety of
+sources, including different markets, in order to extract features for
+predicting the future of those markets. the suggested framework has been
+applied for predicting the next day's direction of movement for the indices of
+s&p 500, nasdaq, dji, nyse, and russell markets based on various sets of
+initial features. the evaluations show a significant improvement in
+prediction's performance compared to the state of the art baseline algorithms.

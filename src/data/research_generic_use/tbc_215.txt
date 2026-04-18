@@ -1,0 +1,19 @@
+due to the popularity of smart mobile phones and context-aware technology,
+various contextual data relevant to users' diverse activities with mobile
+phones is available around us. this enables the study on mobile phone data and
+context-awareness in computing, for the purpose of building data-driven
+intelligent mobile applications, not only on a single device but also in a
+distributed environment for the benefit of end users. based on the availability
+of mobile phone data, and the usefulness of data-driven applications, in this
+paper, we discuss about mobile data science that involves in collecting the
+mobile phone data from various sources and building data-driven models using
+machine learning techniques, in order to make dynamic decisions intelligently
+in various day-to-day situations of the users. for this, we first discuss the
+fundamental concepts and the potentiality of mobile data science to build
+intelligent applications. we also highlight the key elements and explain
+various key modules involving in the process of mobile data science. this
+article is the first in the field to draw a big picture, and thinking about
+mobile data science, and it's potentiality in developing various data-driven
+intelligent mobile applications. we believe this study will help both the
+researchers and application developers for building smart data-driven mobile
+applications, to assist the end mobile phone users in their daily activities.

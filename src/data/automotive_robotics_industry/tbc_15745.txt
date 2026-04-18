@@ -1,0 +1,14 @@
+we present our approach for robotic perception in cluttered scenes that led
+to winning the recent amazon robotics challenge (arc) 2017. next to small
+objects with shiny and transparent surfaces, the biggest challenge of the 2017
+competition was the introduction of unseen categories. in contrast to
+traditional approaches which require large collections of annotated data and
+many hours of training, the task here was to obtain a robust perception
+pipeline with only few minutes of data acquisition and training time. to that
+end, we present two strategies that we explored. one is a deep metric learning
+approach that works in three separate steps: semantic-agnostic boundary
+detection, patch classification and pixel-wise voting. the other is a
+fully-supervised semantic segmentation approach with efficient dataset
+collection. we conduct an extensive analysis of the two methods on our arc 2017
+dataset. interestingly, only few examples of each class are sufficient to
+fine-tune even very deep convolutional neural networks for this specific task.

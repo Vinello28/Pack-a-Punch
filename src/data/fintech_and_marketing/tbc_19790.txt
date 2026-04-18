@@ -1,0 +1,13 @@
+anomaly detection for smart contracts can effectively prevent hidden security risks such as financial
+fraud, illegal financing, and money laundering. ethereum is currently the largest platform for smart
+contracts, and anomaly detection is imminent. however, the data related to smart contracts is huge
+and contains complex objects and relationships. it is impossible to extract high-order attributes and
+low efficiency using traditional methods. the key to reduce fraud is extracting features from complex
+smart contracts and effectively identifying abnormal contracts. therefore, this paper constructs a
+heterogeneous graph transformer networks (s_hgtns) suitable for smart contract anomaly detection
+to detect financial fraud on the ethereum platform. for feature representation, this paper first extracts
+the features to construct a heterogeneous information network (hin) for smart contract, and uses the
+relationship matrix obtained from the meta-path learned in the transformer network as the input of
+the convolution network, and finally uses the node embedding for classification tasks. the classification
+results show that this model performs better than the traditional model and the standard deviation is
+small, which proves the effectiveness and stability of the model.

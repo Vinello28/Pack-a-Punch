@@ -1,0 +1,19 @@
+the heart sound signals (phonocardiogram - pcg) enable the earliest
+monitoring to detect a potential cardiovascular pathology and have recently
+become a crucial tool as a diagnostic test in outpatient monitoring to assess
+heart hemodynamic status. the need for an automated and accurate anomaly
+detection method for pcg has thus become imminent. to determine the
+state-of-the-art pcg classification algorithm, 48 international teams competed
+in the physionet (cinc) challenge at 2016 over the largest benchmark dataset
+with 3126 records with the classification outputs, normal (n), abnormal (a) and
+unsure - too noisy (u). in this study, our aim is to push this frontier
+further; however, we focus deliberately on the anomaly detection problem while
+assuming a reasonably high signal-to-noise ratio (snr) on the records. by using
+1d convolutional neural networks trained with a novel data purification
+approach, we aim to achieve the highest detection performance and a real-time
+processing ability with significantly lower delay and computational complexity.
+the experimental results over the high-quality subset of the same benchmark
+dataset shows that the proposed approach achieves both objectives. furthermore,
+our findings reveal the fact that further improvements indeed require a
+personalized (patient-specific) approach to avoid major drawbacks of a global
+pcg classification approach.

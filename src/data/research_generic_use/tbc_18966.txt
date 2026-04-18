@@ -1,0 +1,23 @@
+multi-emotion sentiment classification is a natural language processing (nlp)
+problem with valuable use cases on real-world data. we demonstrate that
+large-scale unsupervised language modeling combined with finetuning offers a
+practical solution to this task on difficult datasets, including those with
+label class imbalance and domain-specific context. by training an
+attention-based transformer network (vaswani et al. 2017) on 40gb of text
+(amazon reviews) (mcauley et al. 2015) and fine-tuning on the training set, our
+model achieves a 0.69 f1 score on the semeval task 1:e-c multi-dimensional
+emotion classification problem (mohammad et al. 2018), based on the plutchik
+wheel of emotions (plutchik 1979). these results are competitive with state of
+the art models, including strong f1 scores on difficult (emotion) categories
+such as fear (0.73), disgust (0.77) and anger (0.78), as well as competitive
+results on rare categories such as anticipation (0.42) and surprise (0.37).
+furthermore, we demonstrate our application on a real world text classification
+task. we create a narrowly collected text dataset of real tweets on several
+topics, and show that our finetuned model outperforms general purpose
+commercially available apis for sentiment and multidimensional emotion
+classification on this dataset by a significant margin. we also perform a
+variety of additional studies, investigating properties of deep learning
+architectures, datasets and algorithms for achieving practical multidimensional
+sentiment classification. overall, we find that unsupervised language modeling
+and finetuning is a simple framework for achieving high quality results on
+real-world sentiment classification.

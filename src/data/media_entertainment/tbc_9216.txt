@@ -1,0 +1,22 @@
+neural style transfer based on convolutional neural networks (cnn) aims to
+synthesize a new image that retains the high-level structure of a content
+image, rendered in the low-level texture of a style image. this is achieved by
+constraining the new image to have high-level cnn features similar to the
+content image, and lower-level cnn features similar to the style image. however
+in the traditional optimization objective, low-level features of the content
+image are absent, and the low-level features of the style image dominate the
+low-level detail structures of the new image. hence in the synthesized image,
+many details of the content image are lost, and a lot of inconsistent and
+unpleasing artifacts appear. as a remedy, we propose to steer image synthesis
+with a novel loss function: the laplacian loss. the laplacian matrix
+("laplacian" in short), produced by a laplacian operator, is widely used in
+computer vision to detect edges and contours. the laplacian loss measures the
+difference of the laplacians, and correspondingly the difference of the detail
+structures, between the content image and a new image. it is flexible and
+compatible with the traditional style transfer constraints. by incorporating
+the laplacian loss, we obtain a new optimization objective for neural style
+transfer named lapstyle. minimizing this objective will produce a stylized
+image that better preserves the detail structures of the content image and
+eliminates the artifacts. experiments show that lapstyle produces more
+appealing stylized images with less artifacts, without compromising their
+"stylishness".

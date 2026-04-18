@@ -1,1 +1,0 @@
-sviluppo di una soluzione tecnologica che riduca le allucinazioni LLM migliorando l'accuratezza e l'affidabilità delle risposte generative e rispondendo alle crescenti esigenze etiche dell'IA.

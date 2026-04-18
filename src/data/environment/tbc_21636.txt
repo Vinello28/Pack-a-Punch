@@ -1,0 +1,11 @@
+air travel is one of the fastest growing modes of transportation, however,
+the effects of aircraft noise on populations surrounding airports is hindering
+its growth. in an effort to study and ultimately mitigate the impact that this
+noise has, many airports continuously monitor the aircraft noise in their
+surrounding communities. noise monitoring and analysis is complicated by the
+fact that aircraft are not the only source of noise. in this work, we show that
+a convolutional neural network is well-suited for the task of identifying noise
+events which are not caused by aircraft. our system achieves an accuracy of
+0.970 when trained on 900 manually labeled noise events. our training data and
+a tensorflow implementation of our model are available at
+https://github.com/neheller/aircraftnoise.

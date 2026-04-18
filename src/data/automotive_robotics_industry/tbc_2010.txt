@@ -1,0 +1,15 @@
+the autonomous car technology promises to replace human drivers with safer
+driving systems. but although autonomous cars can become safer than human
+drivers this is a long process that is going to be refined over time. before
+these vehicles are deployed on urban roads a minimum safety level must be
+assured. since the autonomous car technology is still under development there
+is no standard methodology to evaluate such systems. it is important to
+completely understand the technology that is being developed to design
+efficient means to evaluate it. in this paper we assume safety-critical systems
+reliability as a safety measure. we model an autonomous road vehicle as an
+intelligent agent and we approach its evaluation from an artificial
+intelligence perspective. our focus is the evaluation of perception and
+decision making systems and also to propose a systematic method to evaluate
+their integration in the vehicle. we identify critical aspects of the data
+dependency from the artificial intelligence state of the art models and we also
+propose procedures to reproduce them.

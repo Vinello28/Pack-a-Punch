@@ -1,0 +1,13 @@
+inpatient care is a large share of total health care spending, making
+analysis of inpatient utilization patterns an important part of understanding
+what drives health care spending growth. common features of inpatient
+utilization measures include zero inflation, over-dispersion, and skewness, all
+of which complicate statistical modeling. mixture modeling is a popular
+approach that can accommodate these features of health care utilization data.
+in this work, we add a nonparametric clustering component to such models. our
+fully bayesian model framework allows for an unknown number of mixing
+components, so that the data determine the number of mixture components. when
+we apply the modeling framework to data on hospital lengths of stay for
+patients with lung cancer, we find distinct subgroups of patients with
+differences in means and variances of hospital days, health and treatment
+covariates, and relationships between covariates and length of stay.

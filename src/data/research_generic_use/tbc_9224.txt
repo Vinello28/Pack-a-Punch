@@ -1,0 +1,14 @@
+the prominent inequality of wealth and income is a huge concern especially in
+the united states. the likelihood of diminishing poverty is one valid reason to
+reduce the world's surging level of economic inequality. the principle of
+universal moral equality ensures sustainable development and improve the
+economic stability of a nation. governments in different countries have been
+trying their best to address this problem and provide an optimal solution. this
+study aims to show the usage of machine learning and data mining techniques in
+providing a solution to the income equality problem. the uci adult dataset has
+been used for the purpose. classification has been done to predict whether a
+person's yearly income in us falls in the income category of either greater
+than 50k dollars or less equal to 50k dollars category based on a certain set
+of attributes. the gradient boosting classifier model was deployed which
+clocked the highest accuracy of 88.16%, eventually breaking the benchmark
+accuracy of existing works.

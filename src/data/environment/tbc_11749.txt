@@ -1,0 +1,11 @@
+subjective well-being(swb), which refers to how people experience the quality
+of their lives, is of great use to public policy-makers as well as economic,
+sociological research, etc. traditionally, the measurement of swb relies on
+time-consuming and costly self-report questionnaires. nowadays, people are
+motivated to share their experiences and feelings on social media, so we
+propose to sense swb from the vast user generated data on social media. by
+utilizing 1785 users' social media data with swb labels, we train machine
+learning models that are able to "sense" individual swb from users' social
+media. our model, which attains the state-by-art prediction accuracy, can then
+be used to identify swb of large population of social media users in time with
+very low cost.

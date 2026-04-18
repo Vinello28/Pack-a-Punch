@@ -1,0 +1,19 @@
+advanced driver assistance systems (adas) have made driving safer over the
+last decade. they prepare vehicles for unsafe road conditions and alert drivers
+if they perform a dangerous maneuver. however, many accidents are unavoidable
+because by the time drivers are alerted, it is already too late. anticipating
+maneuvers beforehand can alert drivers before they perform the maneuver and
+also give adas more time to avoid or prepare for the danger.
+  in this work we propose a vehicular sensor-rich platform and learning
+algorithms for maneuver anticipation. for this purpose we equip a car with
+cameras, global positioning system (gps), and a computing device to capture the
+driving context from both inside and outside of the car. in order to anticipate
+maneuvers, we propose a sensory-fusion deep learning architecture which jointly
+learns to anticipate and fuse multiple sensory streams. our architecture
+consists of recurrent neural networks (rnns) that use long short-term memory
+(lstm) units to capture long temporal dependencies. we propose a novel training
+procedure which allows the network to predict the future given only a partial
+temporal context. we introduce a diverse data set with 1180 miles of natural
+freeway and city driving, and show that we can anticipate maneuvers 3.5 seconds
+before they occur in real-time with a precision and recall of 90.5\% and 87.4\%
+respectively.

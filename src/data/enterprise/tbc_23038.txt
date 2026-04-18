@@ -1,0 +1,15 @@
+predictive process monitoring is concerned with the analysis of events
+produced during the execution of a business process in order to predict as
+early as possible the final outcome of an ongoing case. traditionally,
+predictive process monitoring methods are optimized with respect to accuracy.
+however, in environments where users make decisions and take actions in
+response to the predictions they receive, it is equally important to optimize
+the stability of the successive predictions made for each case. to this end,
+this paper defines a notion of temporal stability for binary classification
+tasks in predictive process monitoring and evaluates existing methods with
+respect to both temporal stability and accuracy. we find that methods based on
+xgboost and lstm neural networks exhibit the highest temporal stability. we
+then show that temporal stability can be enhanced by hyperparameter-optimizing
+random forests and xgboost classifiers with respect to inter-run stability.
+finally, we show that time series smoothing techniques can further enhance
+temporal stability at the expense of slightly lower accuracy.

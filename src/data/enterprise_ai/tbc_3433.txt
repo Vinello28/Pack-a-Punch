@@ -1,1 +1,0 @@
-Il progetto DOTS è volto allo sviluppo di una nuova soluzione integrata per la programmazione ottimale del trasporto ospedaliero  per il suo monitoraggio e la sua riprogrammazione in tempo reale  basata su modelli matematici avanzati e sull applicazione dell intelligenza artificiale.

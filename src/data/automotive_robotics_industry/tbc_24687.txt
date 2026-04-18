@@ -1,0 +1,16 @@
+driver inattention assessment has become a very active field in intelligent
+transportation systems. based on active sensor kinect and computer vision
+tools, we have built an efficient module for detecting driver distraction and
+recognizing the type of distraction. based on color and depth map data from the
+kinect, our system is composed of four sub-modules. we call them eye behavior
+(detecting gaze and blinking), arm position (is the right arm up, down, right
+of forward), head orientation, and facial expressions. each module produces
+relevant information for assessing driver inattention. they are merged together
+later on using two different classification strategies: adaboost classifier and
+hidden markov model. evaluation is done using a driving simulator and 8 drivers
+of different gender, age and nationality for a total of more than 8 hours of
+recording. qualitative and quantitative results show strong and accurate
+detection and recognition capacity (85% accuracy for the type of distraction
+and 90% for distraction detection). moreover, each module is obtained
+independently and could be used for other types of inference, such as fatigue
+detection, and could be implemented for real cars systems.

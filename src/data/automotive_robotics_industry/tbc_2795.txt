@@ -1,0 +1,18 @@
+in building intelligent transportation systems such as taxi or rideshare
+services, accurate prediction of travel time and distance is crucial for
+customer experience and resource management. using the nyc taxi dataset, which
+contains taxi trips data collected from gps-enabled taxis [23], this paper
+investigates the use of deep neural networks to jointly predict taxi trip time
+and distance. we propose a model, called st-nn (spatio-temporal neural
+network), which first predicts the travel distance between an origin and a
+destination gps coordinate, then combines this prediction with the time of day
+to predict the travel time. the beauty of st-nn is that it uses only the raw
+trips data without requiring further feature engineering and provides a joint
+estimate of travel time and distance. we compare the performance of st-nn to
+that of state-of-the-art travel time estimation methods, and we observe that
+the proposed approach generalizes better than state-of-the-art methods. we show
+that st-nn approach significantly reduces the mean absolute error for both
+predicted travel time and distance, about 17% for travel time prediction. we
+also observe that the proposed approach is more robust to outliers present in
+the dataset by testing the performance of st-nn on the datasets with and
+without outliers.

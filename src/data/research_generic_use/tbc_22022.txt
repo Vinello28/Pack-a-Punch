@@ -1,0 +1,17 @@
+in data science and machine learning, hierarchical parametric models, such as
+mixture models, are often used. they contain two kinds of variables: observable
+variables, which represent the parts of the data that can be directly measured,
+and latent variables, which represent the underlying processes that generate
+the data. although there has been an increase in research on the estimation
+accuracy for observable variables, the theoretical analysis of estimating
+latent variables has not been thoroughly investigated. in a previous study, we
+determined the accuracy of a bayes estimation for the joint probability of the
+latent variables in a dataset, and we proved that the bayes method is
+asymptotically more accurate than the maximum-likelihood method. however, the
+accuracy of the bayes estimation for a single latent variable remains unknown.
+in the present paper, we derive the asymptotic expansions of the error
+functions, which are defined by the kullback-leibler divergence, for two types
+of single-variable estimations when the statistical regularity is satisfied.
+our results indicate that the accuracies of the bayes and maximum-likelihood
+methods are asymptotically equivalent and clarify that the bayes method is only
+advantageous for multivariable estimations.

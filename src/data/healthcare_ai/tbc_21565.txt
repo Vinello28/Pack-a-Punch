@@ -1,0 +1,14 @@
+in histopathological image analysis, feature extraction for classification is
+a challenging task due to the diversity of histology features suitable for each
+problem as well as presence of rich geometrical structure. in this paper, we
+propose an automatic feature discovery framework for extracting discriminative
+class-specific features and present a low-complexity method for classification
+and disease grading in histopathology. essentially, our discriminative
+feature-oriented dictionary learning (dfdl) method learns class-specific
+features which are suitable for representing samples from the same class while
+are poorly capable of representing samples from other classes. experiments on
+three challenging real-world image databases: 1) histopathological images of
+intraductal breast lesions, 2) mammalian lung images provided by the animal
+diagnostics lab (adl) at pennsylvania state university, and 3) brain tumor
+images from the cancer genome atlas (tcga) database, show the significance of
+dfdl model in a variety problems over state-of-the-art methods

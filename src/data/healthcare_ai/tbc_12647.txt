@@ -1,0 +1,17 @@
+segmentation of the levator hiatus in ultrasound allows to extract biometrics
+which are of importance for pelvic floor disorder assessment. in this work, we
+present a fully automatic method using a convolutional neural network (cnn) to
+outline the levator hiatus in a 2d image extracted from a 3d ultrasound volume.
+in particular, our method uses a recently developed scaled exponential linear
+unit (selu) as a nonlinear self-normalising activation function, which for the
+first time has been applied in medical imaging with cnn. selu has important
+advantages such as being parameter-free and mini-batch independent, which may
+help to overcome memory constraints during training. a dataset with 91 images
+from 35 patients during valsalva, contraction and rest, all labelled by three
+operators, is used for training and evaluation in a leave-one-patient-out
+cross-validation. results show a median dice similarity coefficient of 0.90
+with an interquartile range of 0.08, with equivalent performance to the three
+operators (with a williams' index of 1.03), and outperforming a u-net
+architecture without the need for batch normalisation. we conclude that the
+proposed fully automatic method achieved equivalent accuracy in segmenting the
+pelvic floor levator hiatus compared to a previous semi-automatic approach.

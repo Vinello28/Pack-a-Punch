@@ -1,0 +1,5 @@
+we describe a system based on deep learning that generates drum patterns in
+the electronic dance music domain. experimental results reveal that generated
+patterns can be employed to produce musically sound and creative transitions
+between different genres, and that the process of generation is of interest to
+practitioners in the field.

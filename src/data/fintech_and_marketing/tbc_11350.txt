@@ -1,0 +1,15 @@
+technical trading rules and linear regressive models are often used by
+practitioners to find trends in financial data. however, these models are
+unsuited to find non-linearly separable patterns. we propose a decision tree
+forecasting model that has the flexibility to capture arbitrary patterns. to
+illustrate, we construct a binary markov process with a deterministic component
+that cannot be predicted with an autoregressive process. a simulation study
+confirms the robustness of the trees and limitation of the autoregressive
+model. finally, adjusting for multiple testing, we show that some tree based
+strategies achieve trading performance significant at the 99% confidence level
+on the s&p 500 over the past 20 years. the best strategy breaks even with the
+buy-and-hold strategy at 21 bps in transaction costs per round trip. a
+four-factor regression analysis shows significant intercept and correlation
+with the market. the return anomalies are strongest during the bursts of the
+dotcom bubble, financial crisis, and european debt crisis. the correlation of
+the return signs during these periods confirms the theoretical model.

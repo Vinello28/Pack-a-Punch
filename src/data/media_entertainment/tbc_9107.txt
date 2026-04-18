@@ -1,0 +1,24 @@
+separating a singing voice from its music accompaniment remains an important
+challenge in the field of music information retrieval. we present a unique
+neural network approach inspired by a technique that has revolutionized the
+field of vision: pixel-wise image classification, which we combine with cross
+entropy loss and pretraining of the cnn as an autoencoder on singing voice
+spectrograms. the pixel-wise classification technique directly estimates the
+sound source label for each time-frequency (t-f) bin in our spectrogram image,
+thus eliminating common pre- and postprocessing tasks. the proposed network is
+trained by using the ideal binary mask (ibm) as the target output label. the
+ibm identifies the dominant sound source in each t-f bin of the magnitude
+spectrogram of a mixture signal, by considering each t-f bin as a pixel with a
+multi-label (for each sound source). cross entropy is used as the training
+objective, so as to minimize the average probability error between the target
+and predicted label for each pixel. by treating the singing voice separation
+problem as a pixel-wise classification task, we additionally eliminate one of
+the commonly used, yet not easy to comprehend, postprocessing steps: the wiener
+filter postprocessing.
+  the proposed cnn outperforms the first runner up in the music information
+retrieval evaluation exchange (mirex) 2016 and the winner of mirex 2014 with a
+gain of 2.2702 ~ 5.9563 db global normalized source to distortion ratio (gnsdr)
+when applied to the ikala dataset. an experiment with the dsd100 dataset on the
+full-tracks song evaluation task also shows that our model is able to compete
+with cutting-edge singing voice separation systems which use multi-channel
+modeling, data augmentation, and model blending.

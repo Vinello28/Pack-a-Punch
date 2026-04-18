@@ -1,0 +1,13 @@
+spatial big data have the "velocity," "volume," and "variety" of big data
+sources and additional geographic information about the record. digital data
+sources, such as medical claims, mobile phone call data records, and geo-tagged
+tweets, have entered infectious disease epidemiology as novel sources of data
+to complement traditional infectious disease surveillance. in this work, we
+provide examples of how spatial big data have been used thus far in
+epidemiological analyses and describe opportunities for these sources to
+improve public health coordination and disease mitigation strategies. in
+addition, we consider the technical, practical, and ethical challenges with the
+use of spatial big data in infectious disease surveillance and inference.
+finally, we discuss the implications of the rising use of spatial big data in
+epidemiology to health risk communications, across-scale public health
+coordination, and public health policy recommendation.

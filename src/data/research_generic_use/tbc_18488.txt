@@ -1,0 +1,17 @@
+opinion phrase extraction is one of the key tasks in fine-grained sentiment
+analysis. while opinion expressions could be generic subjective expressions,
+aspect specific opinion expressions contain both the aspect as well as the
+opinion expression within the original sentence context. in this work, we
+formulate the task as an instance of token-level sequence labeling. when
+multiple aspects are present in a sentence, detection of opinion phrase
+boundary becomes difficult and label of each word depend not only upon the
+surrounding words but also with the concerned aspect. we propose a neural
+network architecture with bidirectional lstm (bi-lstm) and a novel attention
+mechanism. bi-lstm layer learns the various sequential pattern among the words
+without requiring any hand-crafted features. the attention mechanism captures
+the importance of context words on a particular aspect opinion expression when
+multiple aspects are present in a sentence via location and content based
+memory. a conditional random field (crf) model is incorporated in the final
+layer to explicitly model the dependencies among the output labels.
+experimental results on hotel dataset from tripadvisor.com showed that our
+approach outperformed several state-of-the-art baselines.

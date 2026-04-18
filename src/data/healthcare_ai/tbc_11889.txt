@@ -1,0 +1,11 @@
+nuclear magnetic resonance (nmr) spectroscopy is one of the leading
+techniques for protein studies. the method features a number of properties,
+allowing to explain macromolecular interactions mechanistically and resolve
+structures with atomic resolution. however, due to laborious data analysis, a
+full potential of nmr spectroscopy remains unexploited. here we present an
+approach aiming at automation of two major bottlenecks in the analysis
+pipeline, namely, peak picking and chemical shift assignment. our approach
+combines deep learning, non-parametric models and combinatorial optimization,
+and is able to detect signals of interest in a multidimensional nmr data with
+high accuracy and match them with atoms in medium-length protein sequences,
+which is a preliminary step to solve protein spatial structure.

@@ -1,0 +1,15 @@
+kernel methods have recently attracted resurgent interest, showing
+performance competitive with deep neural networks in tasks such as speech
+recognition. the random fourier features map is a technique commonly used to
+scale up kernel machines, but employing the randomized feature map means that
+$o(\epsilon^{-2})$ samples are required to achieve an approximation error of at
+most $\epsilon$. we investigate some alternative schemes for constructing
+feature maps that are deterministic, rather than random, by approximating the
+kernel in the frequency domain using gaussian quadrature. we show that
+deterministic feature maps can be constructed, for any $\gamma > 0$, to achieve
+error $\epsilon$ with $o(e^{e^\gamma} + \epsilon^{-1/\gamma})$ samples as
+$\epsilon$ goes to 0. our method works particularly well with sparse anova
+kernels, which are inspired by the convolutional layer of cnns. we validate our
+methods on datasets in different domains, such as mnist and timit, showing that
+deterministic features are faster to generate and achieve accuracy comparable
+to the state-of-the-art kernel methods based on random fourier features.

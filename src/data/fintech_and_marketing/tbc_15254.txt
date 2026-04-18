@@ -1,0 +1,15 @@
+financial markets are notoriously complex environments, presenting vast
+amounts of noisy, yet potentially informative data. we consider the problem of
+forecasting financial time series from a wide range of information sources
+using online gaussian processes with automatic relevance determination (ard)
+kernels. we measure the performance gain, quantified in terms of normalised
+root mean square error (nrmse), median absolute deviation (mad) and pearson
+correlation, from fusing each of four separate data domains: time series
+technicals, sentiment analysis, options market data and broker recommendations.
+we show evidence that ard kernels produce meaningful feature rankings that help
+retain salient inputs and reduce input dimensionality, providing a framework
+for sifting through financial complexity. we measure the performance gain from
+fusing each domain's heterogeneous data streams into a single probabilistic
+model. in particular our findings highlight the critical value of options data
+in mapping out the curvature of price space and inspire an intuitive, novel
+direction for research in financial prediction.

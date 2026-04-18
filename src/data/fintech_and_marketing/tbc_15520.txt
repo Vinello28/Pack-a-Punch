@@ -1,0 +1,13 @@
+much of modern practice in financial forecasting relies on technicals, an
+umbrella term for several heuristics applying visual pattern recognition to
+price charts. despite its ubiquity in financial media, the reliability of its
+signals remains a contentious and highly subjective form of 'domain knowledge'.
+we investigate the predictive value of patterns in financial time series,
+applying machine learning and signal processing techniques to 22 years of us
+equity data. by reframing technical analysis as a poorly specified, arbitrarily
+preset feature-extractive layer in a deep neural network, we show that better
+convolutional filters can be learned directly from the data, and provide visual
+representations of the features being identified. we find that an ensemble of
+shallow, thresholded cnns optimised over different resolutions achieves
+state-of-the-art performance on this domain, outperforming technical methods
+while retaining some of their interpretability.

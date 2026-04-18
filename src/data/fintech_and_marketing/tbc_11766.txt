@@ -1,0 +1,20 @@
+actuarial risk assessments might be unduly perceived as a neutral way to
+counteract implicit bias and increase the fairness of decisions made at almost
+every juncture of the criminal justice system, from pretrial release to
+sentencing, parole and probation. in recent times these assessments have come
+under increased scrutiny, as critics claim that the statistical techniques
+underlying them might reproduce existing patterns of discrimination and
+historical biases that are reflected in the data. much of this debate is
+centered around competing notions of fairness and predictive accuracy, resting
+on the contested use of variables that act as "proxies" for characteristics
+legally protected against discrimination, such as race and gender. we argue
+that a core ethical debate surrounding the use of regression in risk
+assessments is not simply one of bias or accuracy. rather, it's one of purpose.
+if machine learning is operationalized merely in the service of predicting
+individual future crime, then it becomes difficult to break cycles of
+criminalization that are driven by the iatrogenic effects of the criminal
+justice system itself. we posit that machine learning should not be used for
+prediction, but rather to surface covariates that are fed into a causal model
+for understanding the social, structural and psychological drivers of crime. we
+propose an alternative application of machine learning and causal inference
+away from predicting risk scores to risk mitigation.

@@ -1,0 +1,13 @@
+this paper considers a process for the creation and subsequent firing of
+sequences of neuronal patterns, as might be found in the human brain. the scale
+is one of larger patterns emerging from an ensemble mass, possibly through some
+type of energy equation and a reduction procedure. the links between the
+patterns can be formed naturally, as a residual effect of the pattern creation
+itself. this paper follows-on closely from the earlier research, including two
+earlier papers in the series and uses the ideas of entropy and cohesion. with a
+small addition, it is possible to show how the inter-pattern links can be
+determined. a compact grid form of an earlier counting mechanism is also
+demonstrated and may be a new clustering technique. it is possible to explain
+how a very basic repeating structure can form the arbitrary patterns and
+activation sequences between them, and a key question of how nodes synchronise
+may even be answerable.

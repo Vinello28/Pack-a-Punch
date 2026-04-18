@@ -1,0 +1,23 @@
+performing arts organizations aim to enrich their communities through the
+arts. to do this, they strive to match their performance offerings to the taste
+of those communities. success relies on understanding audience preference and
+predicting their behavior. similar to most e-commerce or digital entertainment
+firms, arts presenters need to recommend the right performance to the right
+customer at the right time. as part of the michigan data science team (mdst),
+we partnered with the university musical society (ums), a non-profit performing
+arts presenter housed in the university of michigan, ann arbor. we are
+providing ums with analysis and business intelligence, utilizing historical
+individual-level sales data. we built a recommendation system based on
+collaborative filtering, gaining insights into the artistic preferences of
+customers, along with the similarities between performances. to better
+understand audience behavior, we used statistical methods from customer-base
+analysis. we characterized customer heterogeneity via segmentation, and we
+modeled customer cohorts to understand and predict ticket purchasing patterns.
+finally, we combined statistical modeling with natural language processing
+(nlp) to explore the impact of wording in program descriptions. these ongoing
+efforts provide a platform to launch targeted marketing campaigns, helping ums
+carry out its mission by allocating its resources more efficiently. celebrating
+its 138th season, ums is a 2014 recipient of the national medal of arts, and it
+continues to enrich communities by connecting world-renowned artists with
+diverse audiences, especially students in their formative years. we aim to
+contribute to that mission through data science and customer analytics.

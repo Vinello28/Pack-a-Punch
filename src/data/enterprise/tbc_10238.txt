@@ -1,0 +1,12 @@
+in this paper, we develop a grid-interactive multi-zone building controller
+based on a deep reinforcement learning (rl) approach. the controller is
+designed to facilitate building operation during normal conditions and demand
+response events, while ensuring occupants comfort and energy efficiency. we
+leverage a continuous action space rl formulation, and devise a two-stage
+global-local rl training framework. in the first stage, a global fast policy
+search is performed using a gradient-free rl algorithm. in the second stage, a
+local fine-tuning is conducted using a policy gradient method. in contrast to
+the state-of-the-art model predictive control (mpc) approach, the proposed rl
+controller does not require complex computation during real-time operation and
+can adapt to non-linear building models. we illustrate the controller
+performance numerically using a five-zone commercial building.

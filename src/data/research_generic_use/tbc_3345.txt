@@ -1,0 +1,12 @@
+encoding images as a series of high-level constructs, such as brush strokes
+or discrete shapes, can often be key to both human and machine understanding.
+in many cases, however, data is only available in pixel form. we present a
+method for generating images directly in a high-level domain (e.g. brush
+strokes), without the need for real pairwise data. specifically, we train a
+"canvas" network to imitate the mapping of high-level constructs to pixels,
+followed by a high-level "drawing" network which is optimized through this
+mapping towards solving a desired image recreation or translation task. we
+successfully discover sequential vector representations of symbols, large
+sketches, and 3d objects, utilizing only pixel data. we display applications of
+our method in image segmentation, and present several ablation studies
+comparing various configurations.

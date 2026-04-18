@@ -1,0 +1,9 @@
+in recent years, data posted about real estate on the internet is currently
+increasing. in this study, in order to analyze user needs for real estate, we
+focus on "mansion community" which is a japanese bulletin board system
+(hereinafter referred to as bbs) about japanese real estate. in our study,
+extraction of keywords is performed based on the calculation of the entropy
+value of each word, and we used them as features in a machine learning
+classifier to analyze 6 million posts at "mansion community". as a result, we
+achieved a 0.69 f-measure and found that the customers are particularly
+concerned about the facility of apartment, access, and price of an apartment.

@@ -1,0 +1,17 @@
+in the era of internet of things (iot) technologies the potential for privacy
+invasion is becoming a major concern especially in regards to healthcare data
+and ambient assisted living (aal) environments. systems that offer aal
+technologies make extensive use of personal data in order to provide services
+that are context-aware and personalized. this makes privacy preservation a very
+important issue especially since the users are not always aware of the privacy
+risks they could face. a lot of progress has been made in the deep learning
+field, however, there has been lack of research on privacy preservation of
+sensitive personal data with the use of deep learning. in this paper we focus
+on a long short term memory (lstm) encoder-decoder, which is a principal
+component of deep learning, and propose a new encoding technique that allows
+the creation of different aal data views, depending on the access level of the
+end user and the information they require access to. the efficiency and
+effectiveness of the proposed method are demonstrated with experiments on a
+simulated aal dataset. qualitatively, we show that the proposed model learns
+privacy operations such as disclosure, deletion and generalization and can
+perform encoding and decoding of the data with almost perfect recovery.

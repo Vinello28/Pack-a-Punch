@@ -1,0 +1,20 @@
+similar and indeterminate defect detection of solar cell surface with
+heterogeneous texture and complex background is a challenge of solar cell
+manufacturing. the traditional manufacturing process relies on human eye
+detection which requires a large number of workers without a stable and good
+detection effect. in order to solve the problem, a visual defect detection
+method based on multi-spectral deep convolutional neural network (cnn) is
+designed in this paper. firstly, a selected cnn model is established. by
+adjusting the depth and width of the model, the influence of model depth and
+kernel size on the recognition result is evaluated. the optimal cnn model
+structure is selected. secondly, the light spectrum features of solar cell
+color image are analyzed. it is found that a variety of defects exhibited
+different distinguishable characteristics in different spectral bands. thus, a
+multi-spectral cnn model is constructed to enhance the discrimination ability
+of the model to distinguish between complex texture background features and
+defect features. finally, some experimental results and k-fold cross validation
+show that the multi-spectral deep cnn model can effectively detect the solar
+cell surface defects with higher accuracy and greater adaptability. the
+accuracy of defect recognition reaches 94.30%. applying such an algorithm can
+increase the efficiency of solar cell manufacturing and make the manufacturing
+process smarter.

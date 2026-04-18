@@ -1,1 +1,0 @@
-Piattaforma AI per la gestione sostenibile delle risorse idriche che integra dati da stazioni meteo e sensori di portata per ottimizzare la distribuzione dell'acqua.

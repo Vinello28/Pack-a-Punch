@@ -1,0 +1,5 @@
+in recent years cryptocurrency trading has captured the attention of
+practitioners and academics. the volume of the exchange with standard
+currencies has known a dramatic increasing of late. this paper addresses to the
+need of models describing a bitcoin-us dollar exchange dynamic and their use to
+evaluate european option having bitcoin as underlying asset.

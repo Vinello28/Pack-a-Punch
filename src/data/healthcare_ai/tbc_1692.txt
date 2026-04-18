@@ -1,0 +1,16 @@
+skin cancer is one of the major types of cancers with an increasing incidence
+over the past decades. accurately diagnosing skin lesions to discriminate
+between benign and malignant skin lesions is crucial to ensure appropriate
+patient treatment. while there are many computerised methods for skin lesion
+classification, convolutional neural networks (cnns) have been shown to be
+superior over classical methods. in this work, we propose a fully automatic
+computerised method for skin lesion classification which employs optimised deep
+features from a number of well-established cnns and from different abstraction
+levels. we use three pre-trained deep models, namely alexnet, vgg16 and
+resnet-18, as deep feature generators. the extracted features then are used to
+train support vector machine classifiers. in the final stage, the classifier
+outputs are fused to obtain a classification. evaluated on the 150 validation
+images from the isic 2017 classification challenge, the proposed method is
+shown to achieve very good classification performance, yielding an area under
+receiver operating characteristic curve of 83.83% for melanoma classification
+and of 97.55% for seborrheic keratosis classification.

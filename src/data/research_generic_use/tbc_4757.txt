@@ -1,0 +1,17 @@
+most of current person re-identification (reid) methods neglect a
+spatial-temporal constraint. given a query image, conventional methods compute
+the feature distances between the query image and all the gallery images and
+return a similarity ranked table. when the gallery database is very large in
+practice, these approaches fail to obtain a good performance due to appearance
+ambiguity across different camera views. in this paper, we propose a novel
+two-stream spatial-temporal person reid (st-reid) framework that mines both
+visual semantic information and spatial-temporal information. to this end, a
+joint similarity metric with logistic smoothing (ls) is introduced to integrate
+two kinds of heterogeneous information into a unified framework. to approximate
+a complex spatial-temporal probability distribution, we develop a fast
+histogram-parzen (hp) method. with the help of the spatial-temporal constraint,
+the st-reid model eliminates lots of irrelevant images and thus narrows the
+gallery database. without bells and whistles, our st-reid method achieves
+rank-1 accuracy of 98.1\% on market-1501 and 94.4\% on dukemtmc-reid, improving
+from the baselines 91.2\% and 83.8\%, respectively, outperforming all previous
+state-of-the-art methods by a large margin.

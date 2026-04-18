@@ -1,0 +1,16 @@
+diacritization of arabic text is both an interesting and a challenging
+problem at the same time with various applications ranging from speech
+synthesis to helping students learning the arabic language. like many other
+tasks or problems in arabic language processing, the weak efforts invested into
+this problem and the lack of available (open-source) resources hinder the
+progress towards solving this problem. this work provides a critical review for
+the currently existing systems, measures and resources for arabic text
+diacritization. moreover, it introduces a much-needed free-for-all cleaned
+dataset that can be easily used to benchmark any work on arabic diacritization.
+extracted from the tashkeela corpus, the dataset consists of 55k lines
+containing about 2.3m words. after constructing the dataset, existing tools and
+systems are tested on it. the results of the experiments show that the neural
+shakkala system significantly outperforms traditional rule-based approaches and
+other closed-source tools with a diacritic error rate (der) of 2.88% compared
+with 13.78%, which the best der for the non-neural approach (obtained by the
+mishkal tool).

@@ -1,0 +1,11 @@
+we propose a tool-use model that can detect the features of tools, target
+objects, and actions from the provided effects of object manipulation. we
+construct a model that enables robots to manipulate objects with tools, using
+infant learning as a concept. to realize this, we train sensory-motor data
+recorded during a tool-use task performed by a robot with deep learning.
+experiments include four factors: (1) tools, (2) objects, (3) actions, and (4)
+effects, which the model considers simultaneously. for evaluation, the robot
+generates predicted images and motions given information of the effects of
+using unknown tools and objects. we confirm that the robot is capable of
+detecting features of tools, objects, and actions by learning the effects and
+executing the task.

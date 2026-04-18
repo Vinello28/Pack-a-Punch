@@ -1,0 +1,19 @@
+solar power becomes one of the most promising renewable energy resources in
+recent years. however, the weather is continuously changing, and this causes a
+discontinuity of energy generation. pv power forecasting is a suitable solution
+to handle sudden disjointedness on energy generation by providing fast
+dispatching to grid electricity. these methods present a key insight into
+matchmaking grid electricity and photovoltaic plants. bootstrap aggregation
+ensemble method(bagging) is classified as one of the most useful machine
+learning models which are applicable to supervised learning regression tasks.
+following this regard, this paper proposes a state-of-art method based on
+bagging and this method works perfectly for pv power forecasting. the latter
+had powerful capabilities of tracking the behavior of stochastic problems with
+good accuracy with the aid of feature importance information. this approach
+comes to optimize bias/variance using feature weighting vector. thus, this
+paper is devoted to present various feature importance techniques for
+photovoltaic forecasting parameters. this technique consists of improving the
+aforementioned ensemble model via contributing the knowledge expertise obtained
+from features analysis to be directly transformed into the ensemble model. the
+proposed model is tested on pv power prediction. therefore, the benchmarked
+technique shows an improvement in accuracy in terms of rmse to 5%.

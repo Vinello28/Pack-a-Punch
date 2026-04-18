@@ -1,0 +1,11 @@
+the growing trend in the number and severity of auto insurance claims creates a need
+for new methods to efficiently handle these claims. machine learning (ml) is one of the methods
+that solves this problem. as car insurers aim to improve their customer service, these companies
+have started adopting and applying ml to enhance the interpretation and comprehension of their
+data for efficiency, thus improving their customer service through a better understanding of their
+needs. this study considers how automotive insurance providers incorporate machinery learning in
+their company, and explores how ml models can apply to insurance big data. we utilize various ml
+methods, such as logistic regression, xgboost, random forest, decision trees, naïve bayes, and k-nn,
+to predict claim occurrence. furthermore, we evaluate and compare these models’ performances.
+the results showed that rf is better than other methods with the accuracy, kappa, and auc values
+of 0.8677, 0.7117, and 0.840, respectively.

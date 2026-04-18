@@ -1,0 +1,22 @@
+new remote sensing sensors now acquire high spatial and spectral satellite
+image time series (sits) of the world. these series of images are a key
+component of classification systems that aim at obtaining up-to-date and
+accurate land cover maps of the earth's surfaces. more specifically, the
+combination of the temporal, spectral and spatial resolutions of new sits makes
+possible to monitor vegetation dynamics. although traditional classification
+algorithms, such as random forest (rf), have been successfully applied for sits
+classification, these algorithms do not make the most of the temporal domain.
+conversely, some approaches that take into account the temporal dimension have
+recently been tested, especially recurrent neural networks (rnns). this paper
+proposes an exhaustive study of another deep learning approaches, namely
+temporal convolutional neural networks (tempcnns) where convolutions are
+applied in the temporal dimension. the goal is to quantitatively and
+qualitatively evaluate the contribution of tempcnns for sits classification.
+this paper proposes a set of experiments performed on one million time series
+extracted from 46 formosat-2 images. the experimental results show that
+tempcnns are more accurate than rf and rnns, that are the current state of the
+art for sits classification. we also highlight some differences with results
+obtained in computer vision, e.g. about pooling layers. moreover, we provide
+some general guidelines on the network architecture, common regularization
+mechanisms, and hyper-parameter values such as batch size. finally, we assess
+the visual quality of the land cover maps produced by tempcnns.

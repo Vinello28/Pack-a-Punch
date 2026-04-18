@@ -1,0 +1,21 @@
+implementing large-scale deep neural networks with high computational
+complexity on low-cost iot devices may inevitably be constrained by limited
+computation resource, making the devices hard to respond in real-time. this
+disjunction makes the state-of-art deep learning algorithms, i.e. cnn
+(convolutional neural networks), incompatible with iot world. we present a
+low-bit (range from 8-bit to 1-bit) scheme with our local quantization region
+algorithm. we use models in caffe model zoo as our example tasks to evaluate
+the effect of our low precision data representation scheme. with the available
+of local quantization region, we find implementations on top of those schemes
+could greatly retain the model accuracy, besides the reduction of computational
+complexity. for example, our 8-bit scheme has no drops on top-1 and top-5
+accuracy with 2x speedup on intel edison iot platform. implementations based on
+our 4-bit, 2-bit or 1-bit scheme are also applicable to iot devices with
+advances of low computational complexity. for example, the drop on our task is
+only 0.7% when using 2-bit scheme, a scheme which could largely save
+transistors. making low-bit scheme usable here opens a new door for further
+optimization on commodity iot controller, i.e. extra speed-up could be achieved
+by replacing multiply-accumulate operations with the proposed table look-up
+operations. the whole study offers a new approach to relief the challenge of
+bring advanced deep learning algorithm to resource constrained low-cost iot
+device.

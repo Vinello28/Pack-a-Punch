@@ -1,0 +1,13 @@
+we present a scheme for online, unsupervised state discovery and detection
+from streaming, multi-featured, asynchronous data in high-frequency financial
+markets. online feature correlations are computed using an unbiased, lossless
+fourier estimator. a high-speed maximum likelihood clustering algorithm is then
+used to find the feature cluster configuration which best explains the
+structure in the correlation matrix. we conjecture that this feature
+configuration is a candidate descriptor for the temporal state of the system.
+using a simple cluster configuration similarity metric, we are able to
+enumerate the state space based on prevailing feature configurations. the
+proposed state representation removes the need for human-driven data
+pre-processing for state attribute specification, allowing a learning agent to
+find structure in streaming data, discern changes in the system, enumerate its
+perceived state space and learn suitable action-selection policies.

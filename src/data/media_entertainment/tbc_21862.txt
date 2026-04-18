@@ -1,0 +1,20 @@
+machine-learning excels in many areas with well-defined goals. however, a
+clear goal is usually not available in art forms, such as photography. the
+success of a photograph is measured by its aesthetic value, a very subjective
+concept. this adds to the challenge for a machine learning approach.
+  we introduce creatism, a deep-learning system for artistic content creation.
+in our system, we break down aesthetics into multiple aspects, each can be
+learned individually from a shared dataset of professional examples. each
+aspect corresponds to an image operation that can be optimized efficiently. a
+novel editing tool, dramatic mask, is introduced as one operation that improves
+dramatic lighting for a photo. our training does not require a dataset with
+before/after image pairs, or any additional labels to indicate different
+aspects in aesthetics.
+  using our system, we mimic the workflow of a landscape photographer, from
+framing for the best composition to carrying out various post-processing
+operations. the environment for our virtual photographer is simulated by a
+collection of panorama images from google street view. we design a
+"turing-test"-like experiment to objectively measure quality of its creations,
+where professional photographers rate a mixture of photographs from different
+sources blindly. experiments show that a portion of our robot's creation can be
+confused with professional work.

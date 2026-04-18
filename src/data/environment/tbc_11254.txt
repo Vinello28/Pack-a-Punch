@@ -1,0 +1,14 @@
+demand response (dr) for residential and small commercial buildings is
+estimated to account for as much as 65% of the total energy savings potential
+of dr, and previous work shows that a fully automated energy management system
+(ems) is a necessary prerequisite to dr in these areas. in this paper, we
+propose a novel ems formulation for dr problems in these sectors. specifically,
+we formulate a fully automated ems's rescheduling problem as a reinforcement
+learning (rl) problem, and argue that this rl problem can be approximately
+solved by decomposing it over device clusters. compared with existing
+formulations, our new formulation (1) does not require explicitly modeling the
+user's dissatisfaction on job rescheduling, (2) enables the ems to
+self-initiate jobs, (3) allows the user to initiate more flexible requests and
+(4) has a computational complexity linear in the number of devices. we also
+demonstrate the simulation results of applying q-learning, one of the most
+popular and classical rl algorithms, to a representative example.

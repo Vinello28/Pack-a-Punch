@@ -1,0 +1,17 @@
+vision and touch are two of the important sensing modalities for humans and
+they offer complementary information for sensing the environment. robots could
+also benefit from such multi-modal sensing ability. in this paper, addressing
+for the first time (to the best of our knowledge) texture recognition from
+tactile images and vision, we propose a new fusion method named deep maximum
+covariance analysis (dmca) to learn a joint latent space for sharing features
+through vision and tactile sensing. the features of camera images and tactile
+data acquired from a gelsight sensor are learned by deep neural networks. but
+the learned features are of a high dimensionality and are redundant due to the
+differences between the two sensing modalities, which deteriorates the
+perception performance. to address this, the learned features are paired using
+maximum covariance analysis. results of the algorithm on a newly collected
+dataset of paired visual and tactile data relating to cloth textures show that
+a good recognition performance of greater than 90\% can be achieved by using
+the proposed dmca framework. in addition, we find that the perception
+performance of either vision or tactile sensing can be improved by employing
+the shared representation space, compared to learning from unimodal data.

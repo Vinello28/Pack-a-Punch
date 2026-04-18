@@ -1,0 +1,8 @@
+we showcase how quantile regression (qr) can be applied to forecast financial
+returns using limit order books (lobs), the canonical data source of
+high-frequency financial time-series. we develop a deep learning architecture
+that simultaneously models the return quantiles for both buy and sell
+positions. we test our model over millions of lob updates across multiple
+different instruments on the london stock exchange. our results suggest that
+the proposed network not only delivers excellent performance but also provides
+improved prediction robustness by combining quantile estimates.

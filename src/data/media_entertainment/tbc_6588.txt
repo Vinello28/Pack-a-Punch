@@ -1,0 +1,14 @@
+a model for hit song prediction can be used in the pop music industry to
+identify emerging trends and potential artists or songs before they are
+marketed to the public. while most previous work formulates hit song prediction
+as a regression or classification problem, we present in this paper a
+convolutional neural network (cnn) model that treats it as a ranking problem.
+specifically, we use a commercial dataset with daily play-counts to train a
+multi-objective siamese cnn model with euclidean loss and pairwise ranking loss
+to learn from audio the relative ranking relations among songs. besides, we
+devise a number of pair sampling methods according to some empirical
+observation of the data. our experiment shows that the proposed model with a
+sampling method called a/b sampling leads to much higher accuracy in hit song
+prediction than the baseline regression model. moreover, we can further improve
+the accuracy by using a neural attention mechanism to extract the highlights of
+songs and by using a separate cnn model to offer high-level features of songs.

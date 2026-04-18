@@ -1,0 +1,1 @@
+a set of six algorithmic solutions is presented for resolving vaccine production and supply chain bottlenecks. a different set of algorithmic solutions is presented for forecasting risks during a disease x event.

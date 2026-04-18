@@ -1,0 +1,13 @@
+this paper proposes a framework based on deep convolutional neural networks
+(cnns) for automatic heart sound classification using short-segments of
+individual heart beats. we design a 1d-cnn that directly learns features from
+raw heart-sound signals, and a 2d-cnn that takes inputs of two- dimensional
+time-frequency feature maps based on mel-frequency cepstral coefficients
+(mfcc). we further develop a time-frequency cnn ensemble (tf-ecnn) combining
+the 1d-cnn and 2d-cnn based on score-level fusion of the class probabilities.
+on the large physionet cinc challenge 2016 database, the proposed cnn models
+outperformed traditional classifiers based on support vector machine and hidden
+markov models with various hand-crafted time- and frequency-domain features.
+best classification scores with 89.22% accuracy and 89.94% sensitivity were
+achieved by the ecnn, and 91.55% specificity and 88.82% modified accuracy by
+the 2d-cnn alone on the test set.

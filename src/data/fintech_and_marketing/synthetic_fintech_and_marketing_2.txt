@@ -1,1 +1,0 @@
-Progetto di segmentazione avanzata della clientela per una compagnia assicurativa mediante algoritmi di clustering e modelli predittivi del customer lifetime value.

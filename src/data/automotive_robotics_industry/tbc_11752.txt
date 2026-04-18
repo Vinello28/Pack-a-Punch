@@ -1,0 +1,9 @@
+we consider a novel approach to high-level robot task execution for a robot
+assistive task. in this work we explore the problem of learning to predict the
+next subtask by introducing a deep model for both sequencing goals and for
+visually evaluating the state of a task. we show that deep learning for
+monitoring robot tasks execution very well supports the interconnection between
+task-level planning and robot operations. these solutions can also cope with
+the natural non-determinism of the execution monitor. we show that a deep
+execution monitor leverages robot performance. we measure the improvement
+taking into account some robot helping tasks performed at a warehouse.

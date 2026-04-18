@@ -1,0 +1,10 @@
+in this research, computerized maintenance management will be investigated.
+the rise of maintenance cost forced the research community to look for more
+effective ways to schedule maintenance operations. using computerized models to
+come up with optimal maintenance policy has led to better equipment utilization
+and lower costs. this research adopts condition-based maintenance model where
+the maintenance decision is generated based on equipment conditions. artificial
+neural network technique is proposed to capture and analyze equipment condition
+signals which lead to higher level of knowledge gathering. this knowledge is
+used to accurately estimate equipment failure time. based on these estimations,
+an optimal maintenance management policy can be achieved.

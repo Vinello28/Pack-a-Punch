@@ -1,0 +1,20 @@
+diagnosis and risk stratification of cancer and many other diseases require
+the detection of genomic breakpoints as a prerequisite of calling copy number
+alterations (cna). this, however, is still challenging and requires
+time-consuming manual curation. as deep-learning methods outperformed classical
+state-of-the-art algorithms in various domains and have also been successfully
+applied to life science problems including medicine and biology, we here
+propose deep snp, a novel deep neural network to learn from genomic data.
+specifically, we used a manually curated dataset from 12 genomic single
+nucleotide polymorphism array (snpa) profiles as truth-set and aimed at
+predicting the presence or absence of genomic breakpoints, an indicator of
+structural chromosomal variations, in windows of 40,000 probes. we compare our
+results with well-known neural network models as well as rawcopy though this
+tool is designed to predict breakpoints and in addition genomic segments with
+high sensitivity. we show, that deep snp is capable of successfully predicting
+the presence or absence of a breakpoint in large genomic windows and
+outperforms state-of-the-art neural network models. qualitative examples
+suggest that integration of a localization unit may enable breakpoint detection
+and prediction of genomic segments, even if the breakpoint coordinates were not
+provided for network training. these results warrant further evaluation of
+deepsnp for breakpoint localization and subsequent calling of genomic segments.

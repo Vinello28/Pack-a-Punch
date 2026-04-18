@@ -1,0 +1,12 @@
+a large number of sensors deployed in recent years in various setups and
+their data is readily available in dedicated databases or in the cloud. of
+particular interest is real-time data processing and 3d visualization in
+web-based user interfaces that facilitate spatial information understanding and
+sharing, hence helping the decision making process for all the parties
+involved. in this research, we provide a prototype system for near real-time,
+continuous x3d-based visualization of processed sensor data for two significant
+applications: thermal monitoring for residential/commercial buildings and
+nitrogen cycle monitoring in water beds for aquaponics systems. as sensors are
+sparsely placed, in each application, where they collect data for large periods
+(of up to one year), we employ a finite differences method and a neural
+networks model to approximate data distribution in the entire volume.

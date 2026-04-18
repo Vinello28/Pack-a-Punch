@@ -1,0 +1,17 @@
+the advent of web 2.0 has led to an increase in the amount of sentimental
+content available in the web. such content is often found in social media web
+sites in the form of movie or product reviews, user comments, testimonials,
+messages in discussion forums etc. timely discovery of the sentimental or
+opinionated web content has a number of advantages, the most important of all
+being monetization. understanding of the sentiments of human masses towards
+different entities and products enables better services for contextual
+advertisements, recommendation systems and analysis of market trends. the focus
+of our project is sentiment focussed web crawling framework to facilitate the
+quick discovery of sentimental contents of movie reviews and hotel reviews and
+analysis of the same. we use statistical methods to capture elements of
+subjective style and the sentence polarity. the paper elaborately discusses two
+supervised machine learning algorithms: k-nearest neighbour(k-nn) and naive
+bayes and compares their overall accuracy, precisions as well as recall values.
+it was seen that in case of movie reviews naive bayes gave far better results
+than k-nn but for hotel reviews these algorithms gave lesser, almost same
+accuracies.

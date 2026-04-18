@@ -1,0 +1,15 @@
+embeddings of medical concepts such as medication, procedure and diagnosis
+codes in electronic medical records (emrs) are central to healthcare analytics.
+previous work on medical concept embedding takes medical concepts and emrs as
+words and documents respectively. nevertheless, such models miss out the
+temporal nature of emr data. on the one hand, two consecutive medical concepts
+do not indicate they are temporally close, but the correlations between them
+can be revealed by the time gap. on the other hand, the temporal scopes of
+medical concepts often vary greatly (e.g., \textit{common cold} and
+\textit{diabetes}). in this paper, we propose to incorporate the temporal
+information to embed medical codes. based on the continuous bag-of-words model,
+we employ the attention mechanism to learn a "soft" time-aware context window
+for each medical concept. experiments on public and proprietary datasets
+through clustering and nearest neighbour search tasks demonstrate the
+effectiveness of our model, showing that it outperforms five state-of-the-art
+baselines.

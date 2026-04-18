@@ -1,0 +1,17 @@
+graph edit distance (ged) is a powerful and flexible graph matching paradigm
+that can be used to address different tasks in structural pattern recognition,
+machine learning, and data mining. in this paper, some new binary linear
+programming formulations for computing the exact ged between two graphs are
+proposed. a major strength of the formulations lies in their genericity since
+the ged can be computed between directed or undirected fully attributed graphs
+(i.e. with attributes on both vertices and edges). moreover, a relaxation of
+the domain constraints in the formulations provides efficient lower bound
+approximations of the ged. a complete experimental study comparing the proposed
+formulations with 4 state-of-the-art algorithms for exact and approximate graph
+edit distances is provided. by considering both the quality of the proposed
+solution and the efficiency of the algorithms as performance criteria, the
+results show that none of the compared methods dominates the others in the
+pareto sense. as a consequence, faced to a given real-world problem, a
+trade-off between quality and efficiency has to be chosen w.r.t. the
+application constraints. in this context, this paper provides a guide that can
+be used to choose the appropriate method.

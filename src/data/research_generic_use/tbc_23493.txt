@@ -1,0 +1,11 @@
+we introduce the neural collaborative subspace clustering, a neural model
+that discovers clusters of data points drawn from a union of low-dimensional
+subspaces. in contrast to previous attempts, our model runs without the aid of
+spectral clustering. this makes our algorithm one of the kinds that can
+gracefully scale to large datasets. at its heart, our neural model benefits
+from a classifier which determines whether a pair of points lies on the same
+subspace or not. essential to our model is the construction of two affinity
+matrices, one from the classifier and the other from a notion of subspace
+self-expressiveness, to supervise training in a collaborative scheme. we
+thoroughly assess and contrast the performance of our model against various
+state-of-the-art clustering algorithms including deep subspace-based ones.

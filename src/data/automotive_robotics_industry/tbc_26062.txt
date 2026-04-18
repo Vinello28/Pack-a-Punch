@@ -1,0 +1,14 @@
+current state-of-the-art action detection systems are tailored for offline
+batch-processing applications. however, for online applications like
+human-robot interaction, current systems fall short, either because they only
+detect one action per video, or because they assume that the entire video is
+available ahead of time. in this work, we introduce a real-time and online
+joint-labelling and association algorithm for action detection that can
+incrementally construct space-time action tubes on the most challenging action
+videos in which different action categories occur concurrently. in contrast to
+previous methods, we solve the detection-window association and action
+labelling problems jointly in a single pass. we demonstrate superior online
+association accuracy and speed (2.2ms per frame) as compared to the current
+state-of-the-art offline systems. we further demonstrate that the entire action
+detection pipeline can easily be made to work effectively in real-time using
+our action tube construction algorithm.

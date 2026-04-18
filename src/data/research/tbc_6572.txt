@@ -1,1 +1,0 @@
-Proporre un'architettura per le caratteristiche previste con particolare attenzione agli aspetti legati all'intelligenza artificiale e al cloud computing

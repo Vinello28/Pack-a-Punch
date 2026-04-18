@@ -1,0 +1,22 @@
+intelligent transportation systems (itss) will be a major component of
+tomorrow's smart cities. however, realizing the true potential of itss requires
+ultra-low latency and reliable data analytics solutions that can combine, in
+real-time, a heterogeneous mix of data stemming from the its network and its
+environment. such data analytics capabilities cannot be provided by
+conventional cloud-centric data processing techniques whose communication and
+computing latency can be high. instead, edge-centric solutions that are
+tailored to the unique its environment must be developed. in this paper, an
+edge analytics architecture for itss is introduced in which data is processed
+at the vehicle or roadside smart sensor level in order to overcome the its
+latency and reliability challenges. with a higher capability of passengers'
+mobile devices and intra-vehicle processors, such a distributed edge computing
+architecture can leverage deep learning techniques for reliable mobile sensing
+in itss. in this context, the its mobile edge analytics challenges pertaining
+to heterogeneous data, autonomous control, vehicular platoon control, and
+cyber-physical security are investigated. then, different deep learning
+solutions for such challenges are proposed. the proposed deep learning
+solutions will enable its edge analytics by endowing the its devices with
+powerful computer vision and signal processing functions. preliminary results
+show that the proposed edge analytics architecture, coupled with the power of
+deep learning algorithms, can provide a reliable, secure, and truly smart
+transportation environment.

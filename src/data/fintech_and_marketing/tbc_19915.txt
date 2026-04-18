@@ -1,0 +1,19 @@
+with the rapid growth of online fashion market, demand for effective fashion
+recommendation systems has never been greater. in fashion recommendation, the
+ability to find items that goes well with a few other items based on style is
+more important than picking a single item based on the user's entire purchase
+history. since the same user may have purchased dress suits in one month and
+casual denims in another, it is impossible to learn the latent style features
+of those items using only the user ratings. if we were able to represent the
+style features of fashion items in a reasonable way, we will be able to
+recommend new items that conform to some small subset of pre-purchased items
+that make up a coherent style set. we propose style2vec, a vector
+representation model for fashion items. based on the intuition of
+distributional semantics used in word embeddings, style2vec learns the
+representation of a fashion item using other items in matching outfits as
+context. two different convolutional neural networks are trained to maximize
+the probability of item co-occurrences. for evaluation, a fashion analogy test
+is conducted to show that the resulting representation connotes diverse fashion
+related semantics like shapes, colors, patterns and even latent styles. we also
+perform style classification using style2vec features and show that our method
+outperforms other baselines.

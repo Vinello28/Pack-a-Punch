@@ -1,0 +1,22 @@
+phone sensors could be useful in assessing changes in gait that occur with
+alcohol consumption. this study determined (1) feasibility of collecting
+gait-related data during drinking occasions in the natural environment, and (2)
+how gait-related features measured by phone sensors relate to estimated blood
+alcohol concentration (ebac). ten young adult heavy drinkers were prompted to
+complete a 5-step gait task every hour from 8pm to 12am over four consecutive
+weekends. we collected 3-xis accelerometer, gyroscope, and magnetometer data
+from phone sensors, and computed 24 gait-related features using a sliding
+window technique. ebac levels were calculated at each time point based on
+ecological momentary assessment (ema) of alcohol use. we used an artificial
+neural network model to analyze associations between sensor features and ebacs
+in training (70% of the data) and validation and test (30% of the data)
+datasets. we analyzed 128 data points where both ebac and gait-related sensor
+data was captured, either when not drinking (n=60), while ebac was ascending
+(n=55) or ebac was descending (n=13). 21 data points were captured at times
+when the ebac was greater than the legal limit (0.08 mg/dl). using a bayesian
+regularized neural network, gait-related phone sensor features showed a high
+correlation with ebac (pearson's r > 0.9), and >95% of estimated ebac would
+fall between -0.012 and +0.012 of actual ebac. it is feasible to collect
+gait-related data from smartphone sensors during drinking occasions in the
+natural environment. sensor-based features can be used to infer gait changes
+associated with elevated blood alcohol content.

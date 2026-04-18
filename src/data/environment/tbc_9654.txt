@@ -1,0 +1,17 @@
+the helioseismic and magnetic imager (hmi) provides continuum images and
+magnetograms with a cadence better than one per minute. it has been
+continuously observing the sun 24 hours a day for the past 7 years. the obvious
+trade-off between full disk observations and spatial resolution makes hmi not
+enough to analyze the smallest-scale events in the solar atmosphere. our aim is
+to develop a new method to enhance hmi data, simultaneously deconvolving and
+super-resolving images and magnetograms. the resulting images will mimic
+observations with a diffraction-limited telescope twice the diameter of hmi.
+our method, which we call enhance, is based on two deep fully convolutional
+neural networks that input patches of hmi observations and output deconvolved
+and super-resolved data. the neural networks are trained on synthetic data
+obtained from simulations of the emergence of solar active regions. we have
+obtained deconvolved and supper-resolved hmi images. to solve this ill-defined
+problem with infinite solutions we have used a neural network approach to add
+prior information from the simulations. we test enhance against hinode data
+that has been degraded to a 28 cm diameter telescope showing very good
+consistency. the code is open source.

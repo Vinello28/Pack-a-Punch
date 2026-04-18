@@ -1,0 +1,8 @@
+the relation between ecological conditions and geomorphological factors is
+considered the basis for species distribution in romania. in this context, the
+location of each species within parts of the mountain slopes is difficult on a
+medium to brad scale level. the paper presents methodology to combine
+vegetation data, obtained from ikonos satellite images, and digital elevation
+model obtained from digitized topographic maps. the study area is a northern
+slope of the stanisoarei mountains with a gradient of species from beech mixed
+and coniferous stands.

@@ -1,0 +1,12 @@
+we present milabot: a deep reinforcement learning chatbot developed by the
+montreal institute for learning algorithms (mila) for the amazon alexa prize
+competition. milabot is capable of conversing with humans on popular small talk
+topics through both speech and text. the system consists of an ensemble of
+natural language generation and retrieval models, including neural network and
+template-based models. by applying reinforcement learning to crowdsourced data
+and real-world user interactions, the system has been trained to select an
+appropriate response from the models in its ensemble. the system has been
+evaluated through a/b testing with real-world users, where it performed
+significantly better than other systems. the results highlight the potential of
+coupling ensemble systems with deep reinforcement learning as a fruitful path
+for developing real-world, open-domain conversational agents.

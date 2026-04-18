@@ -1,0 +1,10 @@
+in this paper, we study different discrete data clustering methods, which use
+the model-based clustering (mbc) framework with the multinomial distribution.
+our study comprises several relevant issues, such as initialization, model
+estimation and model selection. additionally, we propose a novel mbc method by
+efficiently combining the partitional and hierarchical clustering techniques.
+we conduct experiments on both synthetic and real data and evaluate the methods
+using accuracy, stability and computation time. our study identifies
+appropriate strategies to be used for discrete data analysis with the mbc
+methods. moreover, our proposed method is very competitive w.r.t. clustering
+accuracy and better w.r.t. stability and computation time.

@@ -1,0 +1,17 @@
+the training of medical image analysis systems using machine learning
+approaches follows a common script: collect and annotate a large dataset, train
+the classifier on the training set, and test it on a hold-out test set. this
+process bears no direct resemblance with radiologist training, which is based
+on solving a series of tasks of increasing difficulty, where each task involves
+the use of significantly smaller datasets than those used in machine learning.
+in this paper, we propose a novel training approach inspired by how
+radiologists are trained. in particular, we explore the use of meta-training
+that models a classifier based on a series of tasks. tasks are selected using
+teacher-student curriculum learning, where each task consists of simple
+classification problems containing small training sets. we hypothesize that our
+proposed meta-training approach can be used to pre-train medical image analysis
+models. this hypothesis is tested on the automatic breast screening
+classification from dce-mri trained with weakly labeled datasets. the
+classification performance achieved by our approach is shown to be the best in
+the field for that application, compared to state of art baseline approaches:
+densenet, multiple instance learning and multi-task learning.

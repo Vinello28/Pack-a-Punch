@@ -1,0 +1,17 @@
+the goal of the internet of things (iot) is to transform any thing around us,
+such as a trash can or a street light, into a smart thing. a smart thing has
+the ability of sensing, processing, communicating and/or actuating. in order to
+achieve the goal of a smart iot application, such as minimizing waste
+transportation costs or reducing energy consumption, the smart things in the
+application scenario must cooperate with each other without a centralized
+control. inspired by known approaches to design swarm of cooperative and
+autonomous robots, we modeled our smart things based on the embodied cognition
+concept. each smart thing is a physical agent with a body composed of a
+microcontroller, sensors and actuators, and a brain that is represented by an
+artificial neural network. this type of agent is commonly called an embodied
+agent. the behavior of these embodied agents is autonomously configured through
+an evolutionary algorithm that is triggered according to the application
+performance. to illustrate, we have designed three homogeneous prototypes for
+smart street lights based on an evolved network. this application has shown
+that the proposed approach results in a feasible way of modeling decentralized
+smart things with self-developed and cooperative capabilities.

@@ -1,0 +1,12 @@
+the use of irony and sarcasm in social media allows us to study them at scale
+for the first time. however, their diversity has made it difficult to construct
+a high-quality corpus of sarcasm in dialogue. here, we describe the process of
+creating a large- scale, highly-diverse corpus of online debate forums
+dialogue, and our novel methods for operationalizing classes of sarcasm in the
+form of rhetorical questions and hyperbole. we show that we can use
+lexico-syntactic cues to reliably retrieve sarcastic utterances with high
+accuracy. to demonstrate the properties and quality of our corpus, we conduct
+supervised learning experiments with simple features, and show that we achieve
+both higher precision and f than previous work on sarcasm in debate forums
+dialogue. we apply a weakly-supervised linguistic pattern learner and
+qualitatively analyze the linguistic differences in each class.

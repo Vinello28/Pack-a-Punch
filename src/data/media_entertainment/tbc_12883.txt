@@ -1,0 +1,14 @@
+with the recent substantial growth of media such as youtube, a considerable
+number of instructional videos covering a wide variety of tasks are available
+online. therefore, online instructional videos have become a rich resource for
+humans to learn everyday skills. in order to improve the effectiveness of the
+learning with instructional video, observation and evaluation of the activity
+are required. however, it is difficult to observe and evaluate every activity
+steps by expert. in this study, a novel deep learning framework which targets
+human activity evaluation for learning from instructional video has been
+proposed. in order to deal with the inherent variability of activities, we
+propose to model activity as a structured process. first, action units are
+encoded from dense trajectories with lstm network. the variable-length action
+unit features are then evaluated by a siamese lstm network. by the comparative
+experiments on public dataset, the effectiveness of the proposed method has
+been demonstrated.

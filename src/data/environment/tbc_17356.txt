@@ -1,0 +1,18 @@
+techniques for leaf-cutting ant control have been investigated in literature
+due to the importance of the damage they cause to agriculture. the
+effectiveness of different forms of control is explored in researches aimed at
+identifying the balance between pest control efficiency and environmental
+damage caused by the treatments applied. plantations with large territorial
+extensions, which can be contiguous or not, are usually subdivided into local
+administration that collects data to determine the frequencies of areas size
+occupied by ant nests. the purpose of this work is to build a relationship of
+similarities among different geographical regions using the frequency data of
+nests size occurrence by applying information bottleneck (ib) method and
+principal component analysis (pca). ib allows simultaneous clustering of each
+region with the ant nest size distribution, while pca is used to reduce the
+variable dimensionalities into a three-dimensional representation of the
+results. the approach was applied to data of leaf-cutting ants atta spp.
+(hymenoptera: formicidae) in cultivated eucalyptus spp forests in sao paulo,
+brazil. the results suggest information acquired by the method can help
+coordinate pest management, such as the allocation of baits, material and
+personnel.

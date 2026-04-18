@@ -1,0 +1,25 @@
+recent advancements in the area of computer vision with state-of-art neural
+networks has given a boost to optical character recognition (ocr) accuracies.
+however, extracting characters/text alone is often insufficient for relevant
+information extraction as documents also have a visual structure that is not
+captured by ocr. extracting information from tables, charts, footnotes, boxes,
+headings and retrieving the corresponding structured representation for the
+document remains a challenge and finds application in a large number of
+real-world use cases. in this paper, we propose a novel enterprise based
+end-to-end framework called deepreader which facilitates information extraction
+from document images via identification of visual entities and populating a
+meta relational model across different entities in the document image. the
+model schema allows for an easy to understand abstraction of the entities
+detected by the deep vision models and the relationships between them.
+deepreader has a suite of state-of-the-art vision algorithms which are applied
+to recognize handwritten and printed text, eliminate noisy effects, identify
+the type of documents and detect visual entities like tables, lines and boxes.
+deep reader maps the extracted entities into a rich relational schema so as to
+capture all the relevant relationships between entities (words, textboxes,
+lines etc) detected in the document. relevant information and fields can then
+be extracted from the document by writing sql queries on top of the
+relationship tables. a natural language based interface is added on top of the
+relationship schema so that a non-technical user, specifying the queries in
+natural language, can fetch the information with minimal effort. in this paper,
+we also demonstrate many different capabilities of deep reader and report
+results on a real-world use case.

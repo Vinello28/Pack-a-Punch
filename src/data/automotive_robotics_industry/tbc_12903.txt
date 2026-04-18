@@ -1,0 +1,20 @@
+autonomous learning of robotic skills can allow general-purpose robots to
+learn wide behavioral repertoires without requiring extensive manual
+engineering. however, robotic skill learning methods typically make one of
+several trade-offs to enable practical real-world learning, such as requiring
+manually designed policy or value function representations, initialization from
+human-provided demonstrations, instrumentation of the training environment, or
+extremely long training times. in this paper, we propose a new reinforcement
+learning algorithm for learning manipulation skills that can train
+general-purpose neural network policies with minimal human engineering, while
+still allowing for fast, efficient learning in stochastic environments. our
+approach builds on the guided policy search (gps) algorithm, which transforms
+the reinforcement learning problem into supervised learning from a
+computational teacher (without human demonstrations). in contrast to prior gps
+methods, which require a consistent set of initial states to which the system
+must be reset after each episode, our approach can handle randomized initial
+states, allowing it to be used in environments where deterministic resets are
+impossible. we compare our method to existing policy search techniques in
+simulation, showing that it can train high-dimensional neural network policies
+with the same sample efficiency as prior gps methods, and present real-world
+results on a pr2 robotic manipulator.

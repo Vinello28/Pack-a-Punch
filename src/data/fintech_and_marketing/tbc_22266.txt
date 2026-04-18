@@ -1,0 +1,14 @@
+we predict credit applications with off-the-shelf, interchangeable black-box
+classifiers and we explain single predictions with counterfactual explanations.
+counterfactual explanations expose the minimal changes required on the input
+data to obtain a different result e.g., approved vs rejected application.
+despite their effectiveness, counterfactuals are mainly designed for changing
+an undesired outcome of a prediction i.e. loan rejected. counterfactuals,
+however, can be difficult to interpret, especially when a high number of
+features are involved in the explanation. our contribution is two-fold: i) we
+propose positive counterfactuals, i.e. we adapt counterfactual explanations to
+also explain accepted loan applications, and ii) we propose two weighting
+strategies to generate more interpretable counterfactuals. experiments on the
+heloc loan applications dataset show that our contribution outperforms the
+baseline counterfactual generation strategy, by leading to smaller and hence
+more interpretable counterfactuals.

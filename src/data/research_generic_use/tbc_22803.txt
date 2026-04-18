@@ -1,0 +1,13 @@
+smartphones and portable devices have become ubiquitous and part of
+everyone's life. due to the fact of its portability, these devices are perfect
+to record individuals' traces and life-logging generating vast amounts of data
+at low costs. these data is emerging as a new source for studies in human
+mobility patterns raising the number of research projects and techniques aiming
+to analyze and retrieve useful information from it. the aim of this paper is to
+explore gps raw data from different individuals in a community and apply data
+mining algorithms to identify meaningful places in a region and describe user's
+profiles and its similarities. we evaluate the proposed method with a
+real-world dataset. the experimental results show that the steps performed to
+identify points of interest (pois) and further the similarity between the users
+are quite satisfactory serving as a supplement for urban planning and social
+networks.

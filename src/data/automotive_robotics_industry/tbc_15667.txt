@@ -1,0 +1,9 @@
+predicting trajectories of pedestrians is quintessential for autonomous
+robots which share the same environment with humans. in order to effectively
+and safely interact with humans, trajectory prediction needs to be both precise
+and computationally efficient. in this work, we propose a convolutional neural
+network (cnn) based human trajectory prediction approach. unlike more recent
+lstm-based moles which attend sequentially to each frame, our model supports
+increased parallelism and effective temporal representation. the proposed
+compact cnn model is faster than the current approaches yet still yields
+competitive results.

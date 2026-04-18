@@ -1,0 +1,23 @@
+despite the rapid progress of the techniques for image classification, video
+annotation has remained a challenging task. automated video annotation would be
+a breakthrough technology, enabling users to search within the videos.
+recently, google introduced the cloud video intelligence api for video
+analysis. as per the website, the system can be used to "separate signal from
+noise, by retrieving relevant information at the video, shot or per frame"
+level. a demonstration website has been also launched, which allows anyone to
+select a video for annotation. the api then detects the video labels (objects
+within the video) as well as shot labels (description of the video events over
+time). in this paper, we examine the usability of the google's cloud video
+intelligence api in adversarial environments. in particular, we investigate
+whether an adversary can subtly manipulate a video in such a way that the api
+will return only the adversary-desired labels. for this, we select an image,
+which is different from the video content, and insert it, periodically and at a
+very low rate, into the video. we found that if we insert one image every two
+seconds, the api is deceived into annotating the video as if it only contained
+the inserted image. note that the modification to the video is hardly
+noticeable as, for instance, for a typical frame rate of 25, we insert only one
+image per 50 video frames. we also found that, by inserting one image per
+second, all the shot labels returned by the api are related to the inserted
+image. we perform the experiments on the sample videos provided by the api
+demonstration website and show that our attack is successful with different
+videos and images.

@@ -1,1 +1,0 @@
-Sistema di controllo qualita visivo in linea basato su deep learning e telecamere industriali per il rilevamento di difetti nel settore ceramico.

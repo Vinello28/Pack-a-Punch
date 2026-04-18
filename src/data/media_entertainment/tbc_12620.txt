@@ -1,0 +1,18 @@
+in the last decade, video blogs (vlogs) have become an extremely popular
+method through which people express sentiment. the ubiquitousness of these
+videos has increased the importance of multimodal fusion models, which
+incorporate video and audio features with traditional text features for
+automatic sentiment detection. multimodal fusion offers a unique opportunity to
+build models that learn from the full depth of expression available to human
+viewers. in the detection of sentiment in these videos, acoustic and video
+features provide clarity to otherwise ambiguous transcripts. in this paper, we
+present a multimodal fusion model that exclusively uses high-level video and
+audio features to analyze spoken sentences for sentiment. we discard
+traditional transcription features in order to minimize human intervention and
+to maximize the deployability of our model on at-scale real-world data. we
+select high-level features for our model that have been successful in nonaffect
+domains in order to test their generalizability in the sentiment detection
+domain. we train and test our model on the newly released cmu multimodal
+opinion sentiment and emotion intensity (cmumosei) dataset, obtaining an f1
+score of 0.8049 on the validation set and an f1 score of 0.6325 on the held-out
+challenge test set.

@@ -1,0 +1,16 @@
+speech-based natural language question-answering interfaces to enterprise
+systems are gaining a lot of attention. general-purpose speech engines can be
+integrated with nlp systems to provide such interfaces. usually,
+general-purpose speech engines are trained on large `general' corpus. however,
+when such engines are used for specific domains, they may not recognize
+domain-specific words well, and may produce erroneous output. further, the
+accent and the environmental conditions in which the speaker speaks a sentence
+may induce the speech engine to inaccurately recognize certain words. the
+subsequent natural language question-answering does not produce the requisite
+results as the question does not accurately represent what the speaker
+intended. thus, the speech engine's output may need to be adapted for a domain
+before further natural language processing is carried out. we present two
+mechanisms for such an adaptation, one based on evolutionary development and
+the other based on machine learning, and show how we can repair the
+speech-output to make the subsequent natural language question-answering
+better.

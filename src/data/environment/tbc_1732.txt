@@ -1,0 +1,23 @@
+annual average daily traffic (aadt) is an important parameter used in traffic
+engineering analysis. departments of transportation (dots) continually collect
+traffic count using both permanent count stations (i.e., automatic traffic
+recorders or atrs) and temporary short-term count stations. in south carolina,
+87% of the atrs are located on interstates and arterial highways. for most
+secondary highways (i.e., collectors and local roads), aadt is estimated based
+on short-term counts. this paper develops aadt estimation models for different
+roadway functional classes with two machine learning techniques: artificial
+neural network (ann) and support vector regression (svr). the models aim to
+predict aadt from short-term counts. the results are first compared against
+each other to identify the best model. then, the results of the best model are
+compared against a regression method and factor-based method. the comparison
+reveals the superiority of svr for aadt estimation for different roadway
+functional classes over all other methods. among all developed models for
+different functional roadway classes, the svr-based model shows a minimum root
+mean square error (rmse) of 0.22 and a mean absolute percentage error (mape) of
+11.3% for the interstate/expressway functional class. this model also shows a
+higher r-squared value compared to the traditional factor-based model and
+regression model. svr models are validated for each roadway functional class
+using the 2016 atr data and selected short-term count data collected by the
+south carolina department of transportation (scdot). the validation results
+show that the svr-based aadt estimation models can be used by the scdot as a
+reliable option to predict aadt from the short-term counts.

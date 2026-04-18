@@ -1,0 +1,19 @@
+internet traffic classification has become more important with rapid growth
+of current internet network and online applications. there have been numerous
+studies on this topic which have led to many different approaches. most of
+these approaches use predefined features extracted by an expert in order to
+classify network traffic. in contrast, in this study, we propose a \emph{deep
+learning} based approach which integrates both feature extraction and
+classification phases into one system. our proposed scheme, called "deep
+packet," can handle both \emph{traffic characterization} in which the network
+traffic is categorized into major classes (\eg, ftp and p2p) and application
+identification in which end-user applications (\eg, bittorrent and skype)
+identification is desired. contrary to most of the current methods, deep packet
+can identify encrypted traffic and also distinguishes between vpn and non-vpn
+network traffic. after an initial pre-processing phase on data, packets are fed
+into deep packet framework that embeds stacked autoencoder and convolution
+neural network in order to classify network traffic. deep packet with cnn as
+its classification model achieved recall of $0.98$ in application
+identification task and $0.94$ in traffic categorization task. to the best of
+our knowledge, deep packet outperforms all of the proposed classification
+methods on unb iscx vpn-nonvpn dataset.

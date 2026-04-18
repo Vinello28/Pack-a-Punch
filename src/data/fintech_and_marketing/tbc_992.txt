@@ -1,0 +1,11 @@
+in this work, we propose a straightforward method to derive elliptic curve
+digital signature algorithm (ecdsa) key pairs from embeddings created using
+deep learning and metric learning approaches. we also show that these keys
+allows the derivation of cryptocurrencies (such as bitcoin) addresses that can
+be used to transfer and receive funds, allowing novel blockchain-based
+applications that can be used to transfer funds or data directly to domains
+such as image, text, sound or any other domain where deep learning can extract
+high-quality embeddings; providing thus a novel integration between the
+properties of the blockchain-based technologies such as trust minimization and
+decentralization together with the high-quality learned representations from
+deep learning techniques.

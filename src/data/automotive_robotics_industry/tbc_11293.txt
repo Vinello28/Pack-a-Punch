@@ -1,0 +1,17 @@
+in aircraft industry, market needs evolve quickly in a high competitiveness
+context. this requires adapting a given aircraft model in minimum time
+considering for example an increase of range or the number of passengers (cf
+a330 neo family). the computation of loads and stress to resize the airframe is
+on the critical path of this aircraft variant definition: this is a consuming
+and costly process, one of the reason being the high dimen-sionality and the
+large amount of data. this is why airbus has invested since a couple of years
+in big data approaches (statistic methods up to machine learning) to improve
+the speed, the data value extraction and the responsiveness of this process.
+this paper presents recent advances in this work made in cooperation between
+airbus, enac and institut de math{\'e}-matiques de toulouse in the framework of
+a proof of value sprint project. it compares the influence of three dimensional
+reduction techniques (pca, polynomial fitting, combined) on the extrapolation
+capabilities of regression trees based algorithms for loads prediction. it
+shows that adaboost with random forest offers promising results in average in
+terms of accuracy and computational time to estimate loads on which a pca is
+applied only on the outputs.

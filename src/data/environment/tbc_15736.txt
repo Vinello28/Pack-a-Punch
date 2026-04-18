@@ -1,0 +1,23 @@
+environmental audio tagging aims to predict only the presence or absence of
+certain acoustic events in the interested acoustic scene. in this paper we make
+contributions to audio tagging in two parts, respectively, acoustic modeling
+and feature learning. we propose to use a shrinking deep neural network (dnn)
+framework incorporating unsupervised feature learning to handle the multi-label
+classification task. for the acoustic modeling, a large set of contextual
+frames of the chunk are fed into the dnn to perform a multi-label
+classification for the expected tags, considering that only chunk (or
+utterance) level rather than frame-level labels are available. dropout and
+background noise aware training are also adopted to improve the generalization
+capability of the dnns. for the unsupervised feature learning, we propose to
+use a symmetric or asymmetric deep de-noising auto-encoder (sdae or adae) to
+generate new data-driven features from the mel-filter banks (mfbs) features.
+the new features, which are smoothed against background noise and more compact
+with contextual information, can further improve the performance of the dnn
+baseline. compared with the standard gaussian mixture model (gmm) baseline of
+the dcase 2016 audio tagging challenge, our proposed method obtains a
+significant equal error rate (eer) reduction from 0.21 to 0.13 on the
+development set. the proposed adae system can get a relative 6.7% eer reduction
+compared with the strong dnn baseline on the development set. finally, the
+results also show that our approach obtains the state-of-the-art performance
+with 0.15 eer on the evaluation set of the dcase 2016 audio tagging task while
+eer of the first prize of this challenge is 0.17.

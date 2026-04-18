@@ -1,0 +1,9 @@
+this paper reviews the current development of artificial intelligence (ai)
+techniques for the application area of robot communication. the study of the
+control and operation of multiple robots collaboratively toward a common goal
+is fast growing. communication among members of a robot team and even including
+humans is becoming essential in many real-world applications. the survey
+focuses on the ai techniques for robot communication to enhance the
+communication capability of the multi-robot team, making more complex
+activities, taking an appreciated decision, taking coordinated action, and
+performing their tasks efficiently.

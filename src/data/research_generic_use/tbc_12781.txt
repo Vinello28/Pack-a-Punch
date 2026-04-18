@@ -1,0 +1,17 @@
+predictive coding, once used in only a small fraction of legal and business
+matters, is now widely deployed to quickly cull through increasingly vast
+amounts of data and reduce the need for costly and inefficient human document
+review. previously, the sole front-end input used to create a predictive model
+was the exemplar documents (training data) chosen by subject-matter experts.
+many predictive coding tools require users to rely on static preprocessing
+parameters and a single machine learning algorithm to develop the predictive
+model. little research has been published discussing the impact preprocessing
+parameters and learning algorithms have on the effectiveness of the technology.
+a deeper dive into the generation of a predictive model shows that the settings
+and algorithm can have a strong effect on the accuracy and efficacy of a
+predictive coding tool. understanding how these input parameters affect the
+output will empower legal teams with the information they need to implement
+predictive coding as efficiently and effectively as possible. this paper
+outlines different preprocessing parameters and algorithms as applied to
+multiple real-world data sets to understand the influence of various
+approaches.

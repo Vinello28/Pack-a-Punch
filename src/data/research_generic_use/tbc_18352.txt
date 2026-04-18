@@ -1,0 +1,14 @@
+in the past, acoustic scene classification systems have been based on hand
+crafting audio features that are input to a classifier. nowadays, the common
+trend is to adopt data driven techniques, e.g., deep learning, where audio
+representations are learned from data. in this paper, we propose a system that
+consists of a simple fusion of two methods of the aforementioned types: a deep
+learning approach where log-scaled mel-spectrograms are input to a
+convolutional neural network, and a feature engineering approach, where a
+collection of hand-crafted features is input to a gradient boosting machine. we
+first show that both methods provide complementary information to some extent.
+then, we use a simple late fusion strategy to combine both methods. we report
+classification accuracy of each method individually and the combined system on
+the tut acoustic scenes 2017 dataset. the proposed fused system outperforms
+each of the individual methods and attains a classification accuracy of 72.8%
+on the evaluation set, improving the baseline system by 11.8%.

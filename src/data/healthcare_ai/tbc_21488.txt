@@ -1,0 +1,18 @@
+medical image segmentation is an important step in medical image analysis.
+with the rapid development of convolutional neural network in image processing,
+deep learning has been used for medical image segmentation, such as optic disc
+segmentation, blood vessel detection, lung segmentation, cell segmentation,
+etc. previously, u-net based approaches have been proposed. however, the
+consecutive pooling and strided convolutional operations lead to the loss of
+some spatial information. in this paper, we propose a context encoder network
+(referred to as ce-net) to capture more high-level information and preserve
+spatial information for 2d medical image segmentation. ce-net mainly contains
+three major components: a feature encoder module, a context extractor and a
+feature decoder module. we use pretrained resnet block as the fixed feature
+extractor. the context extractor module is formed by a newly proposed dense
+atrous convolution (dac) block and residual multi-kernel pooling (rmp) block.
+we applied the proposed ce-net to different 2d medical image segmentation
+tasks. comprehensive results show that the proposed method outperforms the
+original u-net method and other state-of-the-art methods for optic disc
+segmentation, vessel detection, lung segmentation, cell contour segmentation
+and retinal optical coherence tomography layer segmentation.

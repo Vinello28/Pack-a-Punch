@@ -1,0 +1,22 @@
+the use of robo-readers to analyze news texts is an emerging technology trend
+in computational finance. in recent research, a substantial effort has been
+invested to develop sophisticated financial polarity-lexicons that can be used
+to investigate how financial sentiments relate to future company performance.
+however, based on experience from other fields, where sentiment analysis is
+commonly applied, it is well-known that the overall semantic orientation of a
+sentence may differ from the prior polarity of individual words. the objective
+of this article is to investigate how semantic orientations can be better
+detected in financial and economic news by accommodating the overall
+phrase-structure information and domain-specific use of language. our three
+main contributions are: (1) establishment of a human-annotated finance
+phrase-bank, which can be used as benchmark for training and evaluating
+alternative models; (2) presentation of a technique to enhance financial
+lexicons with attributes that help to identify expected direction of events
+that affect overall sentiment; (3) development of a linearized phrase-structure
+model for detecting contextual semantic orientations in financial and economic
+news texts. the relevance of the newly added lexicon features and the benefit
+of using the proposed learning-algorithm are demonstrated in a comparative
+study against previously used general sentiment models as well as the popular
+word frequency models used in recent financial studies. the proposed framework
+is parsimonious and avoids the explosion in feature-space caused by the use of
+conventional n-gram features.

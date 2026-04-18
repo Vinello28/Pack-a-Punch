@@ -1,0 +1,21 @@
+online advertising is a huge, rapidly growing advertising market in today's
+world. one common form of online advertising is using image ads. a decision is
+made (often in real time) every time a user sees an ad, and the advertiser is
+eager to determine the best ad to display. consequently, many algorithms have
+been developed that calculate the optimal ad to show to the current user at the
+present time. typically, these algorithms focus on variations of the ad,
+optimizing among different properties such as background color, image size, or
+set of images. however, there is a more fundamental layer. our study looks at
+new qualities of ads that can be determined before an ad is shown (rather than
+online optimization) and defines which ads are most likely to be successful.
+  we present a set of novel algorithms that utilize deep-learning image
+processing, machine learning, and graph theory to investigate online
+advertising and to construct prediction models which can foresee an image ad's
+success. we evaluated our algorithms on a dataset with over 260,000 ad images,
+as well as a smaller dataset specifically related to the automotive industry,
+and we succeeded in constructing regression models for ad image click rate
+prediction. the obtained results emphasize the great potential of using
+deep-learning algorithms to effectively and efficiently analyze image ads and
+to create better and more innovative online ads. moreover, the algorithms
+presented in this paper can help predict ad success and can be applied to
+analyze other large-scale image corpora.

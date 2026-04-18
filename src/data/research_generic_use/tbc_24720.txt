@@ -1,0 +1,12 @@
+one-hot encoding is a labelling system that embeds classes as standard basis
+vectors in a label space. despite seeing near-universal use in supervised
+categorical classification tasks, the scheme is problematic in its geometric
+implication that, as all classes are equally distant, all classes are equally
+different. this is inconsistent with most, if not all, real-world tasks due to
+the prevalence of ancestral and convergent relationships generating a varying
+degree of morphological similarity across classes. we address this issue by
+introducing curvature to the label-space using a metric tensor as a
+self-regulating method that better represents these relationships as a bolt-on,
+learning-algorithm agnostic solution. we propose both general constraints and
+specific statistical parameterizations of the metric and identify a direction
+for future research using autoencoder-based parameterizations.

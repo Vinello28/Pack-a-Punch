@@ -1,0 +1,15 @@
+energy disaggregation in a non-intrusive way estimates appliance level
+electricity consumption from a single meter that measures the whole house
+electricity demand. recently, with the ongoing increment of energy data, there
+are many data-driven deep learning architectures being applied to solve the
+non-intrusive energy disaggregation problem. however, most proposed methods try
+to estimate the on-off state or the power consumption of appliance, which need
+not only large amount of parameters, but also hyper-parameter optimization
+prior to training and even preprocessing of energy data for a specified
+appliance. in this paper, instead of estimating on-off state or power
+consumption, we adapt a neural network to estimate the operational state change
+of appliance. our proposed solution is more feasible across various appliances
+and lower complexity comparing to previous methods. the simulated experiments
+in the low sample rate dataset redd show the competitive performance of the
+designed method, with respect to other two benchmark methods, hidden markov
+model-based and graph signal processing-based approaches.

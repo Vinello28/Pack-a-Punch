@@ -1,0 +1,6 @@
+news-driven stock prediction investigates the correlation between news events and stock price movements.
+previous work has considered effective ways for representing news events and their sequences, but rarely exploited the representation of underlying equity states.
+we address this issue by making use of a recurrent neural network to represent an equity state transition sequence, integrating news representation using contextualized embeddings as inputs to the state transition mechanism.
+thanks to the separation of news and equity representations, our model can accommodate additional input factors.
+we design a novel random noise factor for modeling influencing factors beyond news events, and a future event factor to address the delay of news information (e.g., insider trading).
+results show that the proposed model outperforms strong baselines in the literature.

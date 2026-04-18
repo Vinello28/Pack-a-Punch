@@ -1,0 +1,15 @@
+predictive models that are developed in a regulated industry or a regulated
+application, like determination of credit worthiness, must be interpretable and
+rational (e.g., meaningful improvements in basic credit behavior must result in
+improved credit worthiness scores). machine learning technologies provide very
+good performance with minimal analyst intervention, making them well suited to
+a high volume analytic environment, but the majority are black box tools that
+provide very limited insight or interpretability into key drivers of model
+performance or predicted model output values. this paper presents a methodology
+that blends one of the most popular predictive statistical modeling methods for
+binary classification with a core model enhancement strategy found in machine
+learning. the resulting prediction methodology provides solid performance, from
+minimal analyst effort, while providing the interpretability and rationality
+required in regulated industries, as well as in other environments where
+interpretation of model parameters is required (e.g. businesses that require
+interpretation of models, to take action on them).

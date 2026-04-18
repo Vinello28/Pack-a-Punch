@@ -1,0 +1,18 @@
+advertisements (ads) often contain strong affective content to capture viewer
+attention and convey an effective message to the audience. however, most
+computational affect recognition (ar) approaches examine ads via the text
+modality, and only limited work has been devoted to decoding ad emotions from
+audiovisual or user cues. this work (1) compiles an affective ad dataset
+capable of evoking coherent emotions across users; (2) explores the efficacy of
+content-centric convolutional neural network (cnn) features for ar vis-\~a-vis
+handcrafted audio-visual descriptors; (3) examines user-centric ad ar from
+electroencephalogram (eeg) responses acquired during ad-viewing, and (4)
+demonstrates how better affect predictions facilitate effective computational
+advertising as determined by a study involving 18 users. experiments reveal
+that (a) cnn features outperform audiovisual descriptors for content-centric
+ar; (b) eeg features are able to encode ad-induced emotions better than
+content-based features; (c) multi-task learning performs best among a slew of
+classification algorithms to achieve optimal ar, and (d) pursuant to (b), eeg
+features also enable optimized ad insertion onto streamed video, as compared to
+content-based or manual insertion techniques in terms of ad memorability and
+overall user experience.

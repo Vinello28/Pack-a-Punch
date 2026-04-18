@@ -1,0 +1,10 @@
+labelling of user's utterances to understanding his attends which called
+dialogue act (da) classification, it is considered the key player for dialogue
+language understanding layer in automatic dialogue systems. in this paper, we
+proposed a novel approach to user's utterances labeling for egyptian
+spontaneous dialogues and instant messages using machine learning (ml) approach
+without relying on any special lexicons, cues, or rules. due to the lack of
+egyptian dialect dialogue corpus, the system evaluated by multi-genre corpus
+includes 4725 utterances for three domains, which are collected and annotated
+manually from egyptian call-centers. the system achieves f1 scores of 70. 36%
+overall domains.

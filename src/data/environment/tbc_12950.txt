@@ -1,0 +1,16 @@
+considering the grid manager's point of view, needs in terms of prediction of
+intermittent energy like the photovoltaic resource can be distinguished
+according to the considered horizon: following days (d+1, d+2 and d+3), next
+day by hourly step (h+24), next hour (h+1) and next few minutes (m+5 e.g.).
+through this work, we have identified methodologies using time series models
+for the prediction horizon of global radiation and photovoltaic power. what we
+present here is a comparison of different predictors developed and tested to
+propose a hierarchy. for horizons d+1 and h+1, without advanced ad hoc time
+series pre-processing (stationarity) we find it is not easy to differentiate
+between autoregressive moving average (arma) and multilayer perceptron (mlp).
+however we observed that using exogenous variables improves significantly the
+results for mlp . we have shown that the mlp were more adapted for horizons
+h+24 and m+5. in summary, our results are complementary and improve the
+existing prediction techniques with innovative tools: stationarity, numerical
+weather prediction combination, mlp and arma hybridization, multivariate
+analysis, time index, etc.

@@ -1,0 +1,19 @@
+urban informatics explore data science methods to address different urban
+issues intensively based on data. the large variety and quantity of data
+available should be explored but this brings important challenges. for
+instance, although there are powerful computer vision methods that may be
+explored, they may require large annotated datasets. in this work we propose a
+novel approach to automatically creating an object recognition system with
+minimal manual annotation. the basic idea behind the method is to use large
+input datasets using available online cameras on large cities. a off-the-shelf
+weak classifier is used to detect an initial set of urban elements of interest
+(e.g. cars, pedestrians, bikes, etc.). such initial dataset undergoes a quality
+control procedure and it is subsequently used to fine tune a strong classifier.
+quality control and comparative performance assessment are used as part of the
+pipeline. we evaluate the method for detecting cars based on monitoring
+cameras. experimental results using real data show that despite losing
+generality, the final detector provides better detection rates tailored to the
+selected cameras. the programmed robot gathered 770 video hours from 24 online
+city cameras (\~300gb), which has been fed to the proposed system. our approach
+has shown that the method nearly doubled the recall (93\%) with respect to
+state-of-the-art methods using off-the-shelf algorithms.

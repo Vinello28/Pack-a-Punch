@@ -1,0 +1,17 @@
+tree-like structures such as retinal images are widely studied in
+computer-aided diagnosis systems for large-scale screening programs. despite
+several segmentation and tracking methods proposed in the literature, there
+still exist several limitations specifically when two or more curvilinear
+structures cross or bifurcate, or in the presence of interrupted lines or
+highly curved blood vessels. in this paper, we propose a novel approach based
+on multi-orientation scores augmented with a contextual affinity matrix, which
+both are inspired by the geometry of the primary visual cortex (v1) and their
+contextual connections. the connectivity is described with a five-dimensional
+kernel obtained as the fundamental solution of the fokker-planck equation
+modelling the cortical connectivity in the lifted space of positions,
+orientations, curvatures and intensity. it is further used in a self-tuning
+spectral clustering step to identify the main perceptual units in the stimuli.
+the proposed method has been validated on several easy and challenging
+structures in a set of artificial images and actual retinal patches. supported
+by quantitative and qualitative results, the method is capable of overcoming
+the limitations of current state-of-the-art techniques.

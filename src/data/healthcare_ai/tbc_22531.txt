@@ -1,0 +1,20 @@
+segmentation of the developing fetal brain is an important step in
+quantitative analyses. however, manual segmentation is a very time-consuming
+task which is prone to error and must be completed by highly specialized
+indi-viduals. super-resolution reconstruction of fetal mri has become standard
+for processing such data as it improves image quality and resolution. however,
+dif-ferent pipelines result in slightly different outputs, further complicating
+the gen-eralization of segmentation methods aiming to segment super-resolution
+data. therefore, we propose using transfer learning with noisy multi-class
+labels to automatically segment high resolution fetal brain mris using a single
+set of seg-mentations created with one reconstruction method and tested for
+generalizability across other reconstruction methods. our results show that the
+network can auto-matically segment fetal brain reconstructions into 7 different
+tissue types, regard-less of reconstruction method used. transfer learning
+offers some advantages when compared to training without pre-initialized
+weights, but the network trained on clean labels had more accurate
+segmentations overall. no additional manual segmentations were required.
+therefore, the proposed network has the potential to eliminate the need for
+manual segmentations needed in quantitative analyses of the fetal brain
+independent of reconstruction method used, offering an unbiased way to quantify
+normal and pathological neurodevelopment.

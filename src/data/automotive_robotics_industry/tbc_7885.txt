@@ -1,0 +1,25 @@
+deep neural networks (dnns) have been widely applied in many autonomous
+systems such as autonomous driving. recently, dnn testing has been intensively
+studied to automatically generate adversarial examples, which inject
+small-magnitude perturbations into inputs to test dnns under extreme
+situations. while existing testing techniques prove to be effective, they
+mostly focus on generating digital adversarial perturbations (particularly for
+autonomous driving), e.g., changing image pixels, which may never happen in
+physical world. there is a critical missing piece in the literature on
+autonomous driving testing: understanding and exploiting both digital and
+physical adversarial perturbation generation for impacting steering decisions.
+in this paper, we present deepbillboard, a systematic physical-world testing
+approach targeting at a common and practical driving scenario: drive-by
+billboards. deepbillboard is capable of generating a robust and resilient
+printable adversarial billboard, which works under dynamic changing driving
+conditions including viewing angle, distance, and lighting. the objective is to
+maximize the possibility, degree, and duration of the steering-angle errors of
+an autonomous vehicle driving by the generated adversarial billboard. we have
+extensively evaluated the efficacy and robustness of deepbillboard through
+conducting both digital and physical-world experiments. results show that
+deepbillboard is effective for various steering models and scenes. furthermore,
+deepbillboard is sufficiently robust and resilient for generating
+physical-world adversarial billboard tests for real-world driving under various
+weather conditions. to the best of our knowledge, this is the first study
+demonstrating the possibility of generating realistic and continuous
+physical-world tests for practical autonomous driving systems.

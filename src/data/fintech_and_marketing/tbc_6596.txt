@@ -1,0 +1,23 @@
+sponsored search is an indispensable business model and a major revenue
+contributor of almost all the search engines. from the advertisers' side,
+participating in ranking the search results by paying for the sponsored search
+advertisement to attract more awareness and purchase facilitates their
+commercial goal. from the users' side, presenting personalized advertisement
+reflecting their propensity would make their online search experience more
+satisfactory. sponsored search platforms rank the advertisements by a ranking
+function to determine the list of advertisements to show and the charging price
+for the advertisers. hence, it is crucial to find a good ranking function which
+can simultaneously satisfy the platform, the users and the advertisers.
+moreover, advertisements showing positions under different queries from
+different users may associate with advertisement candidates of different bid
+price distributions and click probability distributions, which requires the
+ranking functions to be optimized adaptively to the traffic characteristics. in
+this work, we proposed a generic framework to optimize the ranking functions by
+deep reinforcement learning methods. the framework is composed of two parts: an
+offline learning part which initializes the ranking functions by learning from
+a simulated advertising environment, allowing adequate exploration of the
+ranking function parameter space without hurting the performance of the
+commercial platform. an online learning part which further optimizes the
+ranking functions by adapting to the online data distribution. experimental
+results on a large-scale sponsored search platform confirm the effectiveness of
+the proposed method.

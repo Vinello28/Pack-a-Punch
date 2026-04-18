@@ -1,0 +1,9 @@
+the automatic generation of game tutorials is a challenging ai problem. while
+it is possible to generate annotations and instructions that explain to the
+player how the game is played, this paper focuses on generating a gameplay
+experience that introduces the player to a game mechanic. it evolves small
+levels for the mario ai framework that can only be beaten by an agent that
+knows how to perform specific actions in the game. it uses variations of a
+perfect a* agent that are limited in various ways, such as not being able to
+jump high or see enemies, to test how failing to do certain actions can stop
+the player from beating the level.

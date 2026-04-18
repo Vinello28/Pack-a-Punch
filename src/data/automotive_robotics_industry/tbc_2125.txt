@@ -1,0 +1,21 @@
+road traffic state estimation is an essential component
+of intelligent transportation systems (itss). however,
+road traffic state data collected by traffic detectors are often
+incomplete, which can cause problems across a variety of
+transportation applications, such as traffic state prediction and
+pattern recognition. we present ga-gan (graph aggregate
+generative adversarial network), consisting of graph sample and
+aggregate (graphsage) and a generative adversarial network
+(gan), to impute missing road traffic state data. instead of
+using the original road network structure, which presents the
+spatial information to process a graph operation, we reconstruct
+the road network according to the correlation coefficients of
+road historical data. we utilize graphsage to aggregate the
+temporal-spatial information from the neighbors of each road
+in the reconstructed road network. gan is used to generate
+complete traffic state data from the extracted temporal-spatial
+information to achieve traffic state data imputation. to illustrate
+the efficient performance of the model, experiments are
+conducted on traffic data collected from california and seattle,
+washington, showing that the proposed model outperforms stateof-the-art
+methods.

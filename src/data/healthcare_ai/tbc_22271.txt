@@ -1,0 +1,14 @@
+insufficient training data and severe class imbalance are often limiting
+factors when developing machine learning models for the classification of rare
+diseases. in this work, we address the problem of classifying bone lesions from
+x-ray images by increasing the small number of positive samples in the training
+set. we propose a generative data augmentation approach based on a
+cycle-consistent generative adversarial network that synthesizes bone lesions
+on images without pathology. we pose the generative task as an image-patch
+translation problem that we optimize specifically for distinct bones (humerus,
+tibia, femur). in experimental results, we confirm that the described method
+mitigates the class imbalance problem in the binary classification task of bone
+lesion detection. we show that the augmented training sets enable the training
+of superior classifiers achieving better performance on a held-out test set.
+additionally, we demonstrate the feasibility of transfer learning and apply a
+generative model that was trained on one body part to another.

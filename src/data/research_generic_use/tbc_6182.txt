@@ -1,0 +1,13 @@
+video object removal is a challenging task in video processing that often
+requires massive human efforts. given the mask of the foreground object in each
+frame, the goal is to complete (inpaint) the object region and generate a video
+without the target object. while recently deep learning based methods have
+achieved great success on the image inpainting task, they often lead to
+inconsistent results between frames when applied to videos. in this work, we
+propose a novel learning-based video object removal network (vornet) to solve
+the video object removal task in a spatio-temporally consistent manner, by
+combining the optical flow warping and image-based inpainting model.
+experiments are done on our synthesized video object removal (svor) dataset
+based on the youtube-vos video segmentation dataset, and both the objective and
+subjective evaluation demonstrate that our vornet generates more spatially and
+temporally consistent videos compared with existing methods.

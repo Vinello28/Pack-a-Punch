@@ -1,0 +1,5 @@
+this paper describes recent development and test implementation of a
+continuous time recurrent neural network that has been configured to predict
+rates of change in securities. it presents outcomes in the context of popular
+technical analysis indicators and highlights the potential impact of continuous
+predictive capability on securities market trading operations.

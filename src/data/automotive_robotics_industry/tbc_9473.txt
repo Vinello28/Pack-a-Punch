@@ -1,0 +1,15 @@
+an approach for mapping an electric vehicle ev driver s travel time
+constraints and risk taking behavior to real time routing in a probabilistic
+time-dependent or stochastic network is proposed in this paper. the proposed
+approach is based on a heuristic algorithm that finds the shortest path
+according to the driver s preferences. accounting for en route delays and
+alternate routes, the ev routing problem in stochastic networks is shown to
+exhibit other than the first in first out fifo property i.e. the traveling time
+for those who depart earlier may not sooner of those who depart later or wait
+en route in the charging stations. the proposed approach provides ev drivers
+the option to manage their trip and reach the destination on time, while by
+taking advantage of the non fifo characteristics of the traffic network, charge
+their cars en route. the proposed routing algorithm is tested on a given
+stochastic transportation network. the best routes based on the driver s
+preferences are identified while accounting for the best-planned delays at the
+charging stations or en-route.

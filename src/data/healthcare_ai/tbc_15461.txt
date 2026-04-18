@@ -1,0 +1,15 @@
+biomedical named entity recognition (ner) is a fundamental task in text
+mining of medical documents and has many applications. deep learning based
+approaches to this task have been gaining increasing attention in recent years
+as their parameters can be learned end-to-end without the need for
+hand-engineered features. however, these approaches rely on high-quality
+labeled data, which is expensive to obtain. to address this issue, we
+investigate how to use unlabeled text data to improve the performance of ner
+models. specifically, we train a bidirectional language model (bilm) on
+unlabeled data and transfer its weights to "pretrain" an ner model with the
+same architecture as the bilm, which results in a better parameter
+initialization of the ner model. we evaluate our approach on four benchmark
+datasets for biomedical ner and show that it leads to a substantial improvement
+in the f1 scores compared with the state-of-the-art approaches. we also show
+that bilm weight transfer leads to a faster model training and the pretrained
+model requires fewer training examples to achieve a particular f1 score.

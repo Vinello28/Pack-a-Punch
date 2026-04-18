@@ -1,0 +1,13 @@
+learning to act in unstructured environments, such as cluttered piles of
+objects, poses a substantial challenge for manipulation robots. we present a
+novel neural network-based approach that separates unknown objects in clutter
+by selecting favourable push actions. our network is trained from data
+collected through autonomous interaction of a pr2 robot with randomly organized
+tabletop scenes. the model is designed to propose meaningful push actions based
+on over-segmented rgb-d images. we evaluate our approach by singulating up to 8
+unknown objects in clutter. we demonstrate that our method enables the robot to
+perform the task with a high success rate and a low number of required push
+actions. our results based on real-world experiments show that our network is
+able to generalize to novel objects of various sizes and shapes, as well as to
+arbitrary object configurations. videos of our experiments can be viewed at
+http://robotpush.cs.uni-freiburg.de

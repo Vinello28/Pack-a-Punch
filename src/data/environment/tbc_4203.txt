@@ -1,0 +1,19 @@
+currently, agriculture has incorporated more and
+more technologies to optimize production, reducing waste and
+environmental impacts of this activity. precision agriculture
+aims to maximize efficiency and agricultural productivity while
+reducing the use of chemicals. this work proposes an automatic
+approach based on supervised learning and image processing
+methods for crop line detection in frontal images obtained by a
+ground camera. along with this, data augmentation techniques
+are applied to increase the reference method from the literature
+ability of the algorithm. the proposed method uses a semantic
+segmentation architecture based on deeplabv3+ architecture to
+segment the region of interest, and the canny edge technique is
+applied to locate the image edges. finally, the probabilistic hough
+transform is applied to identify the segments from the identified
+boundaries. the proposed method is evaluated and compared
+with a variation of a reference method from the literature
+algorithm, where our method presented higher performance,
+achieving an overall accuracy of 84.1%, even on images with
+high weed presence and crop line gaps.

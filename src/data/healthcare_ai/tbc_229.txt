@@ -1,0 +1,11 @@
+in this work we explored building automatic speech recognition models for
+transcribing doctor patient conversation. we collected a large scale dataset of
+clinical conversations ($14,000$ hr), designed the task to represent the real
+word scenario, and explored several alignment approaches to iteratively improve
+data quality. we explored both ctc and las systems for building speech
+recognition models. the las was more resilient to noisy data and ctc required
+more data clean up. a detailed analysis is provided for understanding the
+performance for clinical tasks. our analysis showed the speech recognition
+models performed well on important medical utterances, while errors occurred in
+causal conversations. overall we believe the resulting models can provide
+reasonable quality in practice.

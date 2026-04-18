@@ -1,0 +1,25 @@
+in a self-driving car, objection detection, object classification, lane
+detection and object tracking are considered to be the crucial modules. in
+recent times, using the real time video one wants to narrate the scene captured
+by the camera fitted in our vehicle. to effectively implement this task, deep
+learning techniques and automatic video annotation tools are widely used. in
+the present paper, we compare the various techniques that are available for
+each module and choose the best algorithm among them by using appropriate
+metrics. for object detection, yolo and retinanet-50 are considered and the
+best one is chosen based on mean average precision (map). for object
+classification, we consider vgg-19 and resnet-50 and select the best algorithm
+based on low error rate and good accuracy. for lane detection, udacity's
+'finding lane line' and deep learning based lanenet algorithms are compared and
+the best one that can accurately identify the given lane is chosen for
+implementation. as far as object tracking is concerned, we compare udacity's
+'object detection and tracking' algorithm and deep learning based deep sort
+algorithm. based on the accuracy of tracking the same object in many frames and
+predicting the movement of objects, the best algorithm is chosen. our automatic
+video annotation tool is found to be 83% accurate when compared with a human
+annotator. we considered a video with 530 frames each of resolution 1035 x 1800
+pixels. at an average each frame had about 15 objects. our annotation tool
+consumed 43 minutes in a cpu based system and 2.58 minutes in a mid-level gpu
+based system to process all four modules. but the same video took nearly 3060
+minutes for one human annotator to narrate the scene in the given video. thus
+we claim that our proposed automatic video annotation tool is reasonably fast
+(about 1200 times in a gpu system) and accurate.

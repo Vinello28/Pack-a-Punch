@@ -1,0 +1,10 @@
+radar and optical satellite image time series (sits) are sources of
+information that are commonly employed to monitor earth surfaces for tasks
+related to ecology, agriculture, mobility, land management planning and land
+cover monitoring. many studies have been conducted using one of the two
+sources, but how to smartly combine the complementary information provided by
+radar and optical sits is still an open challenge. in this context, we propose
+a new neural architecture for the combination of sentinel-1 (s1) and sentinel-2
+(s2) imagery at object level, applied to a real-world land cover classification
+task. experiments carried out on the reunion island, a overseas department of
+france in the indian ocean, demonstrate the significance of our proposal.

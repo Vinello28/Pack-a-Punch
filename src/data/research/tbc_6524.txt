@@ -1,1 +1,0 @@
-Il progetto mira a sviluppare risultati fondamentali nel campo dell'Intelligenza Artificiale distribuita e spiegata. Indagherà sull'interazione di singoli modelli di IA locali di singoli utenti in un ecosistema su larga scala distribuito e umano-centrico.

@@ -1,0 +1,16 @@
+3d hand pose estimation from single depth image is an important and
+challenging problem for human-computer interaction. recently deep convolutional
+networks (convnet) with sophisticated design have been employed to address it,
+but the improvement over traditional random forest based methods is not so
+apparent. to exploit the good practice and promote the performance for hand
+pose estimation, we propose a tree-structured region ensemble network (ren) for
+directly 3d coordinate regression. it first partitions the last convolution
+outputs of convnet into several grid regions. the results from separate
+fully-connected (fc) regressors on each regions are then integrated by another
+fc layer to perform the estimation. by exploitation of several training
+strategies including data augmentation and smooth $l_1$ loss, proposed ren can
+significantly improve the performance of convnet to localize hand joints. the
+experimental results demonstrate that our approach achieves the best
+performance among state-of-the-art algorithms on three public hand pose
+datasets. we also experiment our methods on fingertip detection and human pose
+datasets and obtain state-of-the-art accuracy.

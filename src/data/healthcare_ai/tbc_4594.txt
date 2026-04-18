@@ -1,0 +1,16 @@
+in this work, we propose an ensemble of classifiers to distinguish between
+various degrees of abnormalities of the heart using phonocardiogram (pcg)
+signals acquired using digital stethoscopes in a clinical setting, for the
+interspeech 2018 computational paralinguistics (compare) heart beats
+subchallenge. our primary classification framework constitutes a convolutional
+neural network with 1d-cnn time-convolution (tconv) layers, which uses features
+transferred from a model trained on the 2016 physionet heart sound database. we
+also employ a representation learning (rl) approach to generate features in an
+unsupervised manner using deep recurrent autoencoders and use support vector
+machine (svm) and linear discriminant analysis (lda) classifiers. finally, we
+utilize an svm classifier on a high-dimensional segment-level feature extracted
+using various functionals on short-term acoustic features, i.e., low-level
+descriptors (lld). an ensemble of the three different approaches provides a
+relative improvement of 11.13% compared to our best single sub-system in terms
+of the unweighted average recall (uar) performance metric on the evaluation
+dataset.

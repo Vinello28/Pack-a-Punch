@@ -1,0 +1,12 @@
+we introduce a novel latent vector space model that jointly learns the latent
+representations of words, e-commerce products and a mapping between the two
+without the need for explicit annotations. the power of the model lies in its
+ability to directly model the discriminative relation between products and a
+particular word. we compare our method to existing latent vector space models
+(lsi, lda and word2vec) and evaluate it as a feature in a learning to rank
+setting. our latent vector space model achieves its enhanced performance as it
+learns better product representations. furthermore, the mapping from words to
+products and the representations of words benefit directly from the errors
+propagated back from the product representations during parameter estimation.
+we provide an in-depth analysis of the performance of our model and analyze the
+structure of the learned representations.

@@ -1,0 +1,22 @@
+effective and accurate diagnosis of alzheimer's disease (ad) or mild
+cognitive impairment (mci) can be critical for early treatment and thus has
+attracted more and more attention nowadays. since first introduced, machine
+learning methods have been gaining increasing popularity for ad related
+research. among the various identified biomarkers, magnetic resonance imaging
+(mri) are widely used for the prediction of ad or mci. however, before a
+machine learning algorithm can be applied, image features need to be extracted
+to represent the mri images. while good representations can be pivotal to the
+classification performance, almost all the previous studies typically rely on
+human labelling to find the regions of interest (roi) which may be correlated
+to ad, such as hippocampus, amygdala, precuneus, etc. this procedure requires
+domain knowledge and is costly and tedious.
+  instead of relying on extraction of roi features, it is more promising to
+remove manual roi labelling from the pipeline and directly work on the raw mri
+images. in other words, we can let the machine learning methods to figure out
+these informative and discriminative image structures for ad classification. in
+this work, we propose to learn deep convolutional image features using
+unsupervised and supervised learning. deep learning has emerged as a powerful
+tool in the machine learning community and has been successfully applied to
+various tasks. we thus propose to exploit deep features of mri images based on
+a pre-trained large convolutional neural network (cnn) for ad and mci
+classification, which spares the effort of manual roi annotation process.

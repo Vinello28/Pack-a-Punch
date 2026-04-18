@@ -1,0 +1,16 @@
+imbalance problems in object detection are one of the key
+issues that affect the performance greatly. our focus in this work is to
+address an imbalance problem arising from defect detection in industrial inspections, including the different number of defect and non-defect
+dataset, the gap of distribution among defect classes, and various sizes
+of defects. to this end, we adopt the anomaly detection method that is
+to identify unusual patterns to address such challenging problems. especially generative adversarial network (gan) and autoencoder-based
+approaches have shown to be effective in this field. in this work, 1) we
+propose a novel gan-based anomaly detection model which consists of
+an autoencoder as the generator and two separate discriminators for
+each of normal and anomaly input; and 2) we also explore a way to effectively optimize our model by proposing new loss functions: patch loss and
+anomaly adversarial loss, and further combining them to jointly train
+the model. in our experiment, we evaluate our model on conventional
+benchmark datasets such as mnist, fashion mnist, cifar 10/100
+data as well as on real-world industrial dataset – smartphone case defects. finally, experimental results demonstrate the effectiveness of our
+approach by showing the results of outperforming the current state-ofthe-art approaches in terms of the average area under the roc curve
+(auroc).

@@ -1,0 +1,12 @@
+sequence labeling is a widely used method for named entity recognition and
+information extraction from unstructured natural language data. in clinical
+domain one major application of sequence labeling involves extraction of
+medical entities such as medication, indication, and side-effects from
+electronic health record narratives. sequence labeling in this domain, presents
+its own set of challenges and objectives. in this work we experimented with
+various crf based structured learning models with recurrent neural networks. we
+extend the previously studied lstm-crf models with explicit modeling of
+pairwise potentials. we also propose an approximate version of skip-chain crf
+inference with rnn potentials. we use these methodologies for structured
+prediction in order to improve the exact phrase detection of various medical
+entities.

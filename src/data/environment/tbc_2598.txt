@@ -1,0 +1,23 @@
+mosquitoes are vectors of many human diseases. in particular, aedes \ae gypti
+(linnaeus) is the main vector for chikungunya, dengue, and zika viruses in
+latin america and it represents a global threat. public health policies that
+aim at combating this vector require dependable and timely information, which
+is usually expensive to obtain with field campaigns. for this reason, several
+efforts have been done to use remote sensing due to its reduced cost. the
+present work includes the temporal modeling of the oviposition activity
+(measured weekly on 50 ovitraps in a north argentinean city) of aedes \ae gypti
+(linnaeus), based on time series of data extracted from operational earth
+observation satellite images. we use are ndvi, ndwi, lst night, lst day and
+trmm-gpm rain from 2012 to 2016 as predictive variables. in contrast to
+previous works which use linear models, we employ machine learning techniques
+using completely accessible open source toolkits. these models have the
+advantages of being non-parametric and capable of describing nonlinear
+relationships between variables. specifically, in addition to two linear
+approaches, we assess a support vector machine, an artificial neural networks,
+a k-nearest neighbors and a decision tree regressor. considerations are made on
+parameter tuning and the validation and training approach. the results are
+compared to linear models used in previous works with similar data sets for
+generating temporal predictive models. these new tools perform better than
+linear approaches, in particular nearest neighbor regression (knnr) performs
+the best. these results provide better alternatives to be implemented
+operatively on the argentine geospatial risk system that is running since 2012.

@@ -1,0 +1,15 @@
+a data-driven approach called cann (calibration neural network) is proposed
+to calibrate financial asset price models using an artificial neural network
+(ann). determining optimal values of the model parameters is formulated as
+training hidden neurons within a machine learning framework, based on available
+financial option prices. the framework consists of two parts: a forward pass in
+which we train the weights of the ann off-line, valuing options under many
+different asset model parameter settings; and a backward pass, in which we
+evaluate the trained ann-solver on-line, aiming to find the weights of the
+neurons in the input layer. the rapid on-line learning of implied volatility by
+anns, in combination with the use of an adapted parallel global optimization
+method, tackles the computation bottleneck and provides a fast and reliable
+technique for calibrating model parameters while avoiding, as much as possible,
+getting stuck in local minima. numerical experiments confirm that this
+machine-learning framework can be employed to calibrate parameters of
+high-dimensional stochastic volatility models efficiently and accurately.

@@ -1,0 +1,14 @@
+in this paper, we develop a method to detect vacant parking spaces in an
+environment with unclear segments and contours with the help of matlab image
+processing capabilities. due to the anomalies present in the parking spaces,
+such as uneven illumination, distorted slot lines and overlapping of cars. the
+present-day conventional algorithms have difficulties processing the image for
+accurate results. the algorithm proposed uses a combination of image
+pre-processing and false contour detection techniques to improve the detection
+efficiency. the proposed method also eliminates the need to employ individual
+sensors to detect a car, instead uses real-time static images to consider a
+group of slots together, instead of the usual single slot method. this greatly
+decreases the expenses required to design an efficient parking system. we
+compare the performance of our algorithm to that of other techniques. these
+comparisons show that the proposed algorithm can detect the vacancies in the
+parking spots while ignoring the false data and other distortions.

@@ -1,0 +1,16 @@
+the urine sediment analysis of particles in microscopic images can assist
+physicians in evaluating patients with renal and urinary tract diseases. manual
+urine sediment examination is labor-intensive, subjective and time-consuming,
+and the traditional automatic algorithms often extract the hand-crafted
+features for recognition. instead of using the hand-crafted features, in this
+paper, we exploit cnn to learn features in an end-to-end manner to recognize
+the urine particles. we treat the urine particles recognition as object
+detection and exploit two state-of-the-art cnn-based object detection methods,
+faster r-cnn and ssd, as well as their variants for urine particles
+recognition. we further investigate different factors involving these cnn-based
+object detection methods for urine particles recognition. we comprehensively
+evaluate these methods on a dataset consisting of 5,376 annotated images
+corresponding to 7 categories of urine particles, i.e., erythrocyte, leukocyte,
+epithelial cell, crystal, cast, mycete, epithelial nuclei, and obtain a best
+map (mean average precision) of 84.1% while taking only 72 ms per image on a
+nvidia titan x gpu.

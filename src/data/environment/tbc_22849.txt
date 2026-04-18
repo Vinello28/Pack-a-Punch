@@ -1,0 +1,7 @@
+as societal awareness of climate change grows, corporate climate policy engagements are attracting attention.
+we propose a dataset to estimate corporate climate policy engagement from various pdf-formatted documents.
+our dataset comes from lobbymap (a platform operated by global think tank influencemap) that provides engagement categories and stances on the documents.
+to convert the lobbymap data into the structured dataset, we developed a pipeline using text extraction and ocr.
+our contributions are: (i) building an nlp dataset including 10k documents on corporate climate policy engagement. (ii) analyzing the properties and challenges of the dataset. (iii) providing experiments for the dataset using pre-trained language models.
+the results show that while longformer outperforms baselines and other pre-trained models, there is still room for significant improvement.
+we hope our work begins to bridge research on nlp and climate change.submission number: 161

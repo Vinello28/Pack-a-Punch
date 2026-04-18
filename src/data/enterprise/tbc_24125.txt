@@ -1,0 +1,12 @@
+we use decision trees to build a helpdesk agent reference network to
+facilitate the on-the-job advising of junior or less experienced staff on how
+to better address telecommunication customer fault reports. such reports
+generate field measurements and remote measurements which, when coupled with
+location data and client attributes, and fused with organization-level
+statistics, can produce models of how support should be provided. beyond
+decision support, these models can help identify staff who can act as advisors,
+based on the quality, consistency and predictability of dealing with complex
+troubleshooting reports. advisor staff models are then used to guide less
+experienced staff in their decision making; thus, we advocate the deployment of
+a simple mechanism which exploits the availability of staff with a sound track
+record at the helpdesk to act as dormant tutors.

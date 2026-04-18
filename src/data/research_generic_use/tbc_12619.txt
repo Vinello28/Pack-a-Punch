@@ -1,0 +1,18 @@
+while significant progress has been made in the image captioning task, video
+description is still in its infancy due to the complex nature of video data.
+generating multi-sentence descriptions for long videos is even more
+challenging. among the main issues are the fluency and coherence of the
+generated descriptions, and their relevance to the video. recently,
+reinforcement and adversarial learning based methods have been explored to
+improve the image captioning models; however, both types of methods suffer from
+a number of issues, e.g. poor readability and high redundancy for rl and
+stability issues for gans. in this work, we instead propose to apply
+adversarial techniques during inference, designing a discriminator which
+encourages better multi-sentence video description. in addition, we find that a
+multi-discriminator "hybrid" design, where each discriminator targets one
+aspect of a description, leads to the best results. specifically, we decouple
+the discriminator to evaluate on three criteria: 1) visual relevance to the
+video, 2) language diversity and fluency, and 3) coherence across sentences.
+our approach results in more accurate, diverse, and coherent multi-sentence
+video descriptions, as shown by automatic as well as human evaluation on the
+popular activitynet captions dataset.

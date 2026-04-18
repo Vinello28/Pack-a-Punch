@@ -1,0 +1,16 @@
+traditional load analysis is facing challenges with the new electricity usage
+patterns due to demand response as well as increasing deployment of distributed
+generations, including photovoltaics (pv), electric vehicles (ev), and energy
+storage systems (ess). at the transmission system, despite of irregular load
+behaviors at different areas, highly aggregated load shapes still share similar
+characteristics. load clustering is to discover such intrinsic patterns and
+provide useful information to other load applications, such as load forecasting
+and load modeling. this paper proposes an efficient submodular load clustering
+method for transmission-level load areas. robust principal component analysis
+(r-pca) firstly decomposes the annual load profiles into low-rank components
+and sparse components to extract key features. a novel submodular cluster
+center selection technique is then applied to determine the optimal cluster
+centers through constructed similarity graph. following the selection results,
+load areas are efficiently assigned to different clusters for further load
+analysis and applications. numerical results obtained from pjm load demonstrate
+the effectiveness of the proposed approach.

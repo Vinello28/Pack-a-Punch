@@ -1,0 +1,14 @@
+the emergence of mobile games has caused a paradigm shift in the video-game
+industry. game developers now have at their disposal a plethora of information
+on their players, and thus can take advantage of reliable models that can
+accurately predict player behavior and scale to huge datasets. churn
+prediction, a challenge common to a variety of sectors, is particularly
+relevant for the mobile game industry, as player retention is crucial for the
+successful monetization of a game. in this article, we present an approach to
+predicting game abandon based on survival ensembles. our method provides
+accurate predictions on both the level at which each player will leave the game
+and their accumulated playtime until that moment. further, it is robust to
+different data distributions and applicable to a wide range of response
+variables, while also allowing for efficient parallelization of the algorithm.
+this makes our model well suited to perform real-time analyses of churners,
+even for games with millions of daily active users.

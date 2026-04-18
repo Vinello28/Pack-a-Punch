@@ -1,0 +1,17 @@
+millimeter wave (mmwave) is a key technology to support high data rate
+demands for 5g applications. highly directional transmissions are crucial at
+these frequencies to compensate for high isotropic pathloss. this reliance on
+di- rectional beamforming, however, makes the cell discovery (cell search)
+challenging since both base station (gnb) and user equipment (ue) jointly
+perform a search over angular space to locate potential beams to initiate
+communication. in the cell discovery phase, sequential beam sweeping is
+performed through the angular coverage region in order to transmit
+synchronization signals. the sweeping pattern can either be a linear rotation
+or a hopping pattern that makes use of additional information. this paper
+proposes beam sweeping pattern prediction, based on the dynamic distribution of
+user traffic, using a form of recurrent neural networks (rnns) called gated
+recurrent unit (gru). the spatial distribution of users is inferred from data
+in call detail records (cdrs) of the cellular network. results show that the
+users spatial distribution and their approximate location (direction) can be
+accurately predicted based on cdrs data using gru, which is then used to
+calculate the sweeping pattern in the angular domain during cell search.

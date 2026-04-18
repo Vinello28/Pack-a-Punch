@@ -1,0 +1,23 @@
+targeted socioeconomic policies require an accurate understanding of a
+country's demographic makeup. to that end, the united states spends more than 1
+billion dollars a year gathering census data such as race, gender, education,
+occupation and unemployment rates. compared to the traditional method of
+collecting surveys across many years which is costly and labor intensive,
+data-driven, machine learning driven approaches are cheaper and faster--with
+the potential ability to detect trends in close to real time. in this work, we
+leverage the ubiquity of google street view images and develop a computer
+vision pipeline to predict income, per capita carbon emission, crime rates and
+other city attributes from a single source of publicly available visual data.
+we first detect cars in 50 million images across 200 of the largest us cities
+and train a model to predict demographic attributes using the detected cars. to
+facilitate our work, we have collected the largest and most challenging
+fine-grained dataset reported to date consisting of over 2600 classes of cars
+comprised of images from google street view and other web sources, classified
+by car experts to account for even the most subtle of visual differences. we
+use this data to construct the largest scale fine-grained detection system
+reported to date. our prediction results correlate well with ground truth
+income data (r=0.82), massachusetts department of vehicle registration, and
+sources investigating crime rates, income segregation, per capita carbon
+emission, and other market research. finally, we learn interesting
+relationships between cars and neighborhoods allowing us to perform the first
+large scale sociological analysis of cities using computer vision techniques.

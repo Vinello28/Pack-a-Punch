@@ -1,0 +1,20 @@
+information about the spatio-temporal pattern of electricity energy carried
+by evs, instead of evs themselves, is crucial for evs to establish more
+effective and intelligent interactions with the smart grid. in this paper, we
+propose a framework for predicting the amount of the electricity energy stored
+by a large number of evs aggregated within different city-scale regions, based
+on spatio-temporal pattern of the electricity energy. the spatial pattern is
+modeled via using a neural network based spatial predictor, while the temporal
+pattern is captured via using a linear-chain conditional random field (crf)
+based temporal predictor. two predictors are fed with spatial and temporal
+features respectively, which are extracted based on real trajectories data
+recorded in beijing. furthermore, we combine both predictors to build the
+spatio-temporal predictor, by using an optimal combination coefficient which
+minimizes the normalized mean square error (nmse) of the predictions. the
+prediction performance is evaluated based on extensive experiments covering
+both spatial and temporal predictions, and the improvement achieved by the
+combined spatio-temporal predictor. the experiment results show that the nmse
+of the spatio-temporal predictor is maintained below 0.1 for all investigate
+regions of beijing. we further visualize the prediction and discuss the
+potential benefits can be brought to smart grid scheduling and ev charging by
+utilizing the proposed framework.

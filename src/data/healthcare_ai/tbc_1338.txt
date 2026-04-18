@@ -1,1 +1,0 @@
-Piattaforma di Big Data Analysis e Machine learning per la progettazione di farmaci in campo oncologico attraverso l'uso dei network d'interazione tra molecole biologiche

@@ -1,0 +1,18 @@
+it has been shown recently that deep convolutional generative adversarial
+networks (gans) can learn to generate music in the form of piano-rolls, which
+represent music by binary-valued time-pitch matrices. however, existing models
+can only generate real-valued piano-rolls and require further post-processing,
+such as hard thresholding (ht) or bernoulli sampling (bs), to obtain the final
+binary-valued results. in this paper, we study whether we can have a
+convolutional gan model that directly creates binary-valued piano-rolls by
+using binary neurons. specifically, we propose to append to the generator an
+additional refiner network, which uses binary neurons at the output layer. the
+whole network is trained in two stages. firstly, the generator and the
+discriminator are pretrained. then, the refiner network is trained along with
+the discriminator to learn to binarize the real-valued piano-rolls the
+pretrained generator creates. experimental results show that using binary
+neurons instead of ht or bs indeed leads to better results in a number of
+objective measures. moreover, deterministic binary neurons perform better than
+stochastic ones in both objective measures and a subjective test. the source
+code, training data and audio examples of the generated results can be found at
+https://salu133445.github.io/bmusegan/ .

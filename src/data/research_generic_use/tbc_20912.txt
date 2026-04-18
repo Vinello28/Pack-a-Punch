@@ -1,0 +1,14 @@
+the eye fixation patterns of human observers are a fundamental indicator of
+the aspects of an image to which humans attend. thus, manipulating fixation
+patterns to guide human attention is an exciting challenge in digital image
+processing. here, we present a new model for manipulating images to change the
+distribution of human fixations in a controlled fashion. we use the
+state-of-the-art model for fixation prediction to train a convolutional neural
+network to transform images so that they satisfy a given fixation distribution.
+for network training, we carefully design a loss function to achieve a
+perceptual effect while preserving naturalness of the transformed images.
+finally, we evaluate the success of our model by measuring human fixations for
+a set of manipulated images. on our test images we can in-/decrease the
+probability to fixate on selected objects on average by 43/22% but show that
+the effectiveness of the model depends on the semantic content of the
+manipulated images.

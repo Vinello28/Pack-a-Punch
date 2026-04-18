@@ -1,0 +1,15 @@
+as an intuitive way of expression emotion, the animated graphical interchange
+format (gif) images have been widely used on social media. most previous
+studies on automated gif emotion recognition fail to effectively utilize gif's
+unique properties, and this potentially limits the recognition performance. in
+this study, we demonstrate the importance of human related information in gifs
+and conduct human-centered gif emotion recognition with a proposed keypoint
+attended visual attention network (kavan). the framework consists of a facial
+attention module and a hierarchical segment temporal module. the facial
+attention module exploits the strong relationship between gif contents and
+human characters, and extracts frame-level visual feature with a focus on human
+faces. the hierarchical segment lstm (hs-lstm) module is then proposed to
+better learn global gif representations. our proposed framework outperforms the
+state-of-the-art on the mit gifgif dataset. furthermore, the facial attention
+module provides reliable facial region mask predictions, which improves the
+model's interpretability.

@@ -1,0 +1,17 @@
+employers actively look for talents having not only specific hard skills but
+also various soft skills. to analyze the soft skill demands on the job market,
+it is important to be able to detect soft skill phrases from job advertisements
+automatically. however, a naive matching of soft skill phrases can lead to
+false positive matches when a soft skill phrase, such as friendly, is used to
+describe a company, a team, or another entity, rather than a desired candidate.
+  in this paper, we propose a phrase-matching-based approach which
+differentiates between soft skill phrases referring to a candidate vs.
+something else. the disambiguation is formulated as a binary text
+classification problem where the prediction is made for the potential soft
+skill based on the context where it occurs. to inform the model about the soft
+skill for which the prediction is made, we develop several approaches,
+including soft skill masking and soft skill tagging.
+  we compare several neural network based approaches, including cnn, lstm and
+hierarchical attention model. the proposed tagging-based input representation
+using lstm achieved the highest recall of 83.92% on the job dataset when fixing
+a precision to 95%.

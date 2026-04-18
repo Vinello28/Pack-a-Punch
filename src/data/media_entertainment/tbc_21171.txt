@@ -1,0 +1,7 @@
+music tag words that describe music audio by text have different levels of
+abstraction. taking this issue into account, we propose a music classification
+approach that aggregates multi-level and multi-scale features using pre-trained
+feature extractors. in particular, the feature extractors are trained in
+sample-level deep convolutional neural networks using raw waveforms. we show
+that this approach achieves state-of-the-art results on several music
+classification datasets.

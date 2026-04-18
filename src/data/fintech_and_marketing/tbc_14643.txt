@@ -1,0 +1,10 @@
+customer temporal behavioral data was represented as images in order to
+perform churn prediction by leveraging deep learning architectures prominent in
+image classification. supervised learning was performed on labeled data of over
+6 million customers using deep convolutional neural networks, which achieved an
+auc of 0.743 on the test dataset using no more than 12 temporal features for
+each customer. unsupervised learning was conducted using autoencoders to better
+understand the reasons for customer churn. images that maximally activate the
+hidden units of an autoencoder trained with churned customers reveal ample
+opportunities for action to be taken to prevent churn among strong data, no
+voice users.

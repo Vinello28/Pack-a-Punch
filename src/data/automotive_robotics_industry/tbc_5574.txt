@@ -1,0 +1,13 @@
+smartphone usage while driving is unanimously considered to be a really
+dangerous habit due to strong correlation with road accidents. in this paper,
+the problem of detecting whether the driver is using the phone during a trip is
+addressed. to do this, high-frequency data from the triaxial inertial
+measurement unit (imu) integrated in almost all modern phone is processed
+without relying on external inputs so as to provide a self-contained approach.
+by resorting to a frequency-domain analysis, it is possible to extract from the
+raw signals the useful information needed to detect when the driver is using
+the phone, without being affected by the effects that vehicle motion has on the
+same signals. the selected features are used to train a support vector machine
+(svm) algorithm. the performance of the proposed approach are analyzed and
+tested on experimental data collected during mixed naturalistic driving
+scenarios, proving the effectiveness of the proposed approach.

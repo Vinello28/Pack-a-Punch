@@ -1,0 +1,12 @@
+scene understanding and object recognition is a difficult to achieve yet
+crucial skill for robots. recently, convolutional neural networks (cnn), have
+shown success in this task. however, there is still a gap between their
+performance on image datasets and real-world robotics scenarios. we present a
+novel paradigm for incrementally improving a robot's visual perception through
+active human interaction. in this paradigm, the user introduces novel objects
+to the robot by means of pointing and voice commands. given this information,
+the robot visually explores the object and adds images from it to re-train the
+perception module. our base perception module is based on recent development in
+object detection and recognition using deep learning. our method leverages
+state of the art cnns from off-line batch learning, human guidance, robot
+exploration and incremental on-line learning.

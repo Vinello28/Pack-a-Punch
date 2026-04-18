@@ -1,0 +1,9 @@
+the wealth of social big data (sbd) represents a unique opportunity for
+organisations to obtain the excessive use of such data abundance to increase
+their revenues. hence, there is an imperative need to capture, load, store,
+process, analyse, transform, interpret, and visualise such manifold social
+datasets to develop meaningful insights that are specific to an application
+domain. this paper lays the theoretical background by introducing the
+state-of-the-art literature review of the research topic. this is associated
+with a critical evaluation of the current approaches, and fortified with
+certain recommendations indicated to bridge the research gap.

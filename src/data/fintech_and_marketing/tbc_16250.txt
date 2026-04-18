@@ -1,0 +1,12 @@
+the marvel of markets lies in the fact that dispersed information is
+instantaneously processed and used to adjust the price of goods, services and
+assets. financial markets are particularly efficient when it comes to
+processing information; such information is typically embedded in textual news
+that is then interpreted by investors. quite recently, researchers have started
+to automatically determine news sentiment in order to explain stock price
+movements. interestingly, this so-called news sentiment works fairly well in
+explaining stock returns. in this paper, we design trading strategies that
+utilize textual news in order to obtain profits on the basis of novel
+information entering the market. we thus propose approaches for automated
+decision-making based on supervised and reinforcement learning. altogether, we
+demonstrate how news-based data can be incorporated into an investment system.

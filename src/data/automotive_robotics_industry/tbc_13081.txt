@@ -1,0 +1,14 @@
+recently, the market on deep learning including not only software but also
+hardware is developing rapidly. big data is collected through iot devices and
+the industry world will analyze them to improve their manufacturing process.
+deep learning has the hierarchical network architecture to represent the
+complicated features of input patterns. although deep learning can show the
+high capability of classification, prediction, and so on, the implementation on
+gpu devices are required. we may meet the trade-off between the higher
+precision by deep learning and the higher cost with gpu devices. we can success
+the knowledge extraction from the trained deep learning with high
+classification capability. the knowledge that can realize faster inference of
+pre-trained deep network is extracted as if-then rules from the network signal
+flow given input data. some experiment results with benchmark tests for time
+series data sets showed the effectiveness of our proposed method related to the
+computational speed.

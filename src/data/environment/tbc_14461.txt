@@ -1,0 +1,15 @@
+the energy output of photovoltaic (pv) power plants depends on the
+environment and thus fluctuates over time. as a result, pv power can cause
+instability in the power grid, in particular when increasingly used. limiting
+the rate of change of the power output is a common way to mitigate these
+fluctuations, often with the help of large batteries. a reactive controller
+that uses these batteries to compensate ramps works in practice, but causes
+stress on the battery due to a high energy throughput. in this paper, we
+present a deep learning approach that uses images of the sky to compensate
+power fluctuations predictively and reduces battery stress. in particular, we
+show that the optimal control policy can be computed using information that is
+only available in hindsight. based on this, we use imitation learning to train
+a neural network that approximates this hindsight-optimal policy, but uses only
+currently available sky images and sensor data. we evaluate our method on a
+large dataset of measurements and images from a real power plant and show that
+the trained policy reduces stress on the battery.

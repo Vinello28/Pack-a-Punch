@@ -1,0 +1,22 @@
+biometrics have a long-held hope of replacing passwords by establishing a
+non-repudiated identity and providing authentication with convenience.
+convenience drives consumers toward biometrics-based access management
+solutions. unlike passwords, biometrics cannot be script-injected; however,
+biometric data is considered highly sensitive due to its personal nature and
+unique association with users. biometrics differ from passwords in that
+compromised passwords may be reset. compromised biometrics offer no such
+relief. a compromised biometric offers unlimited risk in privacy (anyone can
+view the biometric) and authentication (anyone may use the biometric).
+standards such as the biometric open protocol standard (bops) (ieee 2410-2016)
+provide a detailed mechanism to authenticate biometrics based on pre-enrolled
+devices and a previous identity by storing the biometric in encrypted form.
+this paper describes a biometric-agnostic approach that addresses the privacy
+concerns of biometrics through the implementation of bops. specifically, two
+novel concepts are introduced. first, a biometric is applied to a neural
+network to create a feature vector. this neural network alone can be used for
+one-to-one matching (authentication), but would require a search in linear time
+for the one-to-many case (identity lookup). the classifying algorithm described
+in this paper addresses this concern by producing normalized floating-point
+values for each feature vector. this allows authentication lookup to occur in
+up to polynomial time, allowing for search in encrypted biometric databases
+with speed, accuracy and privacy.

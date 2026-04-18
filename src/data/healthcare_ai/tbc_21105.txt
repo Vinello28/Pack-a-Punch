@@ -1,0 +1,10 @@
+osteoporosis can be identified by looking at 2d x-ray images of the bone. the
+high degree of similarity between images of a healthy bone and a diseased one
+makes classification a challenge. a good bone texture characterization
+technique is essential for identifying osteoporosis cases. standard texture
+feature extraction techniques like local binary pattern (lbp), gray level
+co-occurrence matrix (glcm) have been used for this purpose. in this paper, we
+draw a comparison between deep features extracted from convolution neural
+network against these traditional features. our results show that deep features
+have more discriminative power as classifiers trained on them always outperform
+the ones trained on traditional features.

@@ -1,0 +1,18 @@
+common users have changed from mere consumers to active producers of
+multimedia data content. video editing plays an important role in this
+scenario, calling for simple segmentation tools that can handle fast-moving and
+deformable video objects with possible occlusions, color similarities with the
+background, among other challenges. we present an interactive video
+segmentation method, named fomtrace, which addresses the problem in an
+effective and efficient way. from a user-provided object mask in a first frame,
+the method performs semi-automatic video segmentation on a spatiotemporal
+superpixel-graph, and then estimates a fuzzy object model (fom), which refines
+segmentation of the second frame by constraining delineation on a pixel-graph
+within a region where the object's boundary is expected to be. the user can
+correct/accept the refined object mask in the second frame, which is then
+similarly used to improve the spatiotemporal video segmentation of the
+remaining frames. both steps are repeated alternately, within interactive
+response times, until the segmentation refinement of the final frame is
+accepted by the user. extensive experiments demonstrate fomtrace's ability for
+tracing objects in comparison with state-of-the-art approaches for interactive
+video segmentation, supervised, and unsupervised object tracking.

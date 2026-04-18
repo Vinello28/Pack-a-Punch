@@ -1,0 +1,21 @@
+histogram of oriented gradients (hog) features
+are the underlying representation in automotive computer vision
+applications such as collision avoidance and lane keeping. in these
+applications, we have observed that hog feature computation
+is often a slow and energy-intensive component of the overall
+pipeline. in this paper, we focus on reducing both the time
+taken and the energy used for computing felzenszwalb hog
+features. we achieve our results though a combination of reduced
+precision, simd parallelism, algorithmic changes, and outer-loop
+parallelism. in particular, we address a bottleneck in histogram
+accumulation by phrasing the problem as a gather instead of
+the (traditional) scatter. additionally, we explore the tradeoffs
+of using l1 instead of l2 norms to compute gradients, which
+enables smaller operands and more simd parallelism. overall,
+we are able to compute multiresolution hog pyramids at 70fps
+for 640x480 images on a multicore cpu. this is a 3.6x speedup
+over the best known hog implementation and a 29x speedup
+over the popular voc-release5 hog code. this is also a 3.6x -
+22x reduction in energy per frame compared to previous hog
+implementations. our open-source implementation is available
+for download.

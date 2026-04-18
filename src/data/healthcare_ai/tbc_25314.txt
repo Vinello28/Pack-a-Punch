@@ -1,0 +1,14 @@
+medical imaging is widely used in clinical practice for diagnosis and
+treatment. report-writing can be error-prone for unexperienced physicians, and
+time- consuming and tedious for experienced physicians. to address these
+issues, we study the automatic generation of medical imaging reports. this task
+presents several challenges. first, a complete report contains multiple
+heterogeneous forms of information, including findings and tags. second,
+abnormal regions in medical images are difficult to identify. third, the re-
+ports are typically long, containing multiple sentences. to cope with these
+challenges, we (1) build a multi-task learning framework which jointly performs
+the pre- diction of tags and the generation of para- graphs, (2) propose a
+co-attention mechanism to localize regions containing abnormalities and
+generate narrations for them, (3) develop a hierarchical lstm model to generate
+long paragraphs. we demonstrate the effectiveness of the proposed methods on
+two publicly available datasets.

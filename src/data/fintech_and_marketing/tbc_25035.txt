@@ -1,0 +1,15 @@
+the goal of online display advertising is to entice users to "convert" (i.e.,
+take a pre-defined action such as making a purchase) after clicking on the ad.
+an important measure of the value of an ad is the probability of conversion.
+the focus of this paper is the development of a computationally efficient,
+accurate, and precise estimator of conversion probability. the challenges
+associated with this estimation problem are the delays in observing conversions
+and the size of the data set (both number of observations and number of
+predictors). two models have previously been considered as a basis for
+estimation: a logistic regression model and a joint model for observed
+conversion statuses and delay times. fitting the former is simple, but ignoring
+the delays in conversion leads to an under-estimate of conversion probability.
+on the other hand, the latter is less biased but computationally expensive to
+fit. our proposed estimator is a compromise between these two estimators. we
+apply our results to a data set from criteo, a commerce marketing company that
+personalizes online display advertisements for users.

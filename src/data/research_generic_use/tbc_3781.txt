@@ -1,0 +1,20 @@
+for intelligent robotics applications, extending 3d mapping to 3d semantic
+mapping enables robots to, not only localize themselves with respect to the
+scene's geometrical features but also simultaneously understand the higher
+level meaning of the scene contexts. most previous methods focus on geometric
+3d reconstruction and scene understanding independently notwithstanding the
+fact that joint estimation can boost the accuracy of the semantic mapping. in
+this paper, a dense rgb-d semantic mapping system with a pixel-voxel network is
+proposed, which can perform dense 3d mapping while simultaneously recognizing
+and semantically labelling each point in the 3d map. the proposed pixel-voxel
+network obtains global context information by using pixelnet to exploit the rgb
+image and meanwhile, preserves accurate local shape information by using
+voxelnet to exploit the corresponding 3d point cloud. unlike the existing
+architecture that fuses score maps from different models with equal weights, we
+proposed a softmax weighted fusion stack that adaptively learns the varying
+contributions of pixelnet and voxelnet, and fuses the score maps of the two
+models according to their respective confidence levels. the proposed
+pixel-voxel network achieves the state-of-the-art semantic segmentation
+performance on the sun rgb-d benchmark dataset. the runtime of the proposed
+system can be boosted to 11-12hz, enabling near to real-time performance using
+an i7 8-cores pc with titan x gpu.

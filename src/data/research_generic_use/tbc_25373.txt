@@ -1,0 +1,18 @@
+conventional automatic speech recognition (asr) typically performs
+multi-level pattern recognition tasks that map the acoustic speech waveform
+into a hierarchy of speech units. but, it is widely known that information loss
+in the earlier stage can propagate through the later stages. after the
+resurgence of deep learning, interest has emerged in the possibility of
+developing a purely end-to-end asr system from the raw waveform to the
+transcription without any predefined alignments and hand-engineered models.
+however, the successful attempts in end-to-end architecture still used
+spectral-based features, while the successful attempts in using raw waveform
+were still based on the hybrid deep neural network - hidden markov model
+(dnn-hmm) framework. in this paper, we construct the first end-to-end
+attention-based encoder-decoder model to process directly from raw speech
+waveform to the text transcription. we called the model as "attention-based
+wav2text". to assist the training process of the end-to-end model, we propose
+to utilize a feature transfer learning. experimental results also reveal that
+the proposed attention-based wav2text model directly with raw waveform could
+achieve a better result in comparison with the attentional encoder-decoder
+model trained on standard front-end filterbank features.

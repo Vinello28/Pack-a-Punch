@@ -1,0 +1,13 @@
+in this paper, we present an accurate approach to estimate vehicles' pose and
+shape from off-board multiview images. the images are taken by monocular
+cameras and have small overlaps. we utilize state-of-the-art convolutional
+neural networks (cnns) to extract vehicles' semantic keypoints and introduce a
+cross projection optimization (cpo) method to estimate the 3d pose. during the
+iterative cpo process, an adaptive shape adjustment method named hierarchical
+wireframe constraint (hwc) is implemented to estimate the shape. our approach
+is evaluated under both simulated and real-world scenes for performance
+verification. it's shown that our algorithm outperforms other existing
+monocular and stereo methods for vehicles' pose and shape estimation. this
+approach provides a new and robust solution for off-board visual vehicle
+localization and tracking, which can be applied to massive surveillance camera
+networks for intelligent transportation.

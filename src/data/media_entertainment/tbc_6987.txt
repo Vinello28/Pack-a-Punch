@@ -1,0 +1,9 @@
+a model of music needs to have the ability to recall past details and have a
+clear, coherent understanding of musical structure. detailed in the paper is a
+deep reinforcement learning architecture that predicts and generates polyphonic
+music aligned with musical rules. the probabilistic model presented is a
+bi-axial lstm trained with a pseudo-kernel reminiscent of a convolutional
+kernel. to encourage exploration and impose greater global coherence on the
+generated music, a deep reinforcement learning approach dqn is adopted. when
+analyzed quantitatively and qualitatively, this approach performs well in
+composing polyphonic music.

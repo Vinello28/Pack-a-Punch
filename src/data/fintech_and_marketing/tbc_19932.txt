@@ -1,0 +1,10 @@
+in the area of online communication, commerce and transactions, analyzing
+sentiment polarity of texts written in various natural languages has become
+crucial. while there have been a lot of contributions in resources and studies
+for the english language, "smaller" languages like czech have not received much
+attention. in this survey, we explore the effectiveness of many existing
+machine learning algorithms for sentiment analysis of czech facebook posts and
+product reviews. we report the sets of optimal parameter values for each
+algorithm and the scores in both datasets. we finally observe that support
+vector machines are the best classifier and efforts to increase performance
+even more with bagging, boosting or voting ensemble schemes fail to do so.

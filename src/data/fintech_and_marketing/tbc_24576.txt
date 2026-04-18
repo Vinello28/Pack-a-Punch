@@ -1,0 +1,23 @@
+cloud infrastructures are being increasingly utilized in critical
+infrastructures such as banking/finance, transportation and utility management.
+sophistication and resources used in recent security breaches including those
+on critical infrastructures show that attackers are no longer limited by
+monetary/computational constraints. in fact, they may be aided by entities with
+large financial and human resources. hence there is urgent need to develop
+predictive approaches for cyber defense to strengthen cloud infrastructures
+specifically utilized by critical infrastructures. extensive research has been
+done in the past on applying techniques such as game theory, machine learning
+and bayesian networks among others for the predictive defense of critical
+infrastructures. however a major drawback of these approaches is that they do
+not incorporate probabilistic human behavior which limits their predictive
+ability. in this paper, a stochastic approach is proposed to predict less
+secure states in critical cloud systems which might lead to potential security
+breaches. these less-secure states are deemed as `risky' states in our
+approach. markov decision process (mdp) is used to accurately incorporate user
+behavior(s) as well as operational behavior of the cloud infrastructure through
+a set of features. the developed reward/cost mechanism is then used to select
+appropriate `actions' to identify risky states at future time steps by learning
+an optimal policy. experimental results show that the proposed framework
+performs well in identifying future `risky' states. through this work we
+demonstrate the effectiveness of using probabilistic modeling (mdp) to
+predictively secure critical cloud infrastructures.

@@ -1,0 +1,12 @@
+this paper proposes a novel adaptive algorithm for the automated short-term
+trading of financial instrument. the algorithm adopts a semantic sentiment
+analysis technique to inspect the twitter posts and to use them to predict the
+behaviour of the stock market. indeed, the algorithm is specifically developed
+to take advantage of both the sentiment and the past values of a certain
+financial instrument in order to choose the best investment decision. this
+allows the algorithm to ensure the maximization of the obtainable profits by
+trading on the stock market. we have conducted an investment simulation and
+compared the performance of our proposed with a well-known benchmark (djtato
+index) and the optimal results, in which an investor knows in advance the
+future price of a product. the result shows that our approach outperforms the
+benchmark and achieves the performance score close to the optimal result.

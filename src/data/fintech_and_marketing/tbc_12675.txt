@@ -1,0 +1,6 @@
+we use machine learning for designing a medium frequency trading strategy for
+a portfolio of 5 year and 10 year us treasury note futures. we formulate this
+as a classification problem where we predict the weekly direction of movement
+of the portfolio using features extracted from a deep belief network trained on
+technical indicators of the portfolio constituents. the experimentation shows
+that the resulting pipeline is effective in making a profitable trade.

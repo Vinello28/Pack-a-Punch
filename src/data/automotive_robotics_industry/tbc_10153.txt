@@ -1,0 +1,13 @@
+previous works for pcb defect detection based on image difference and image
+processing techniques have already achieved promising performance. however,
+they sometimes fall short because of the unaccounted defect patterns or
+over-sensitivity about some hyper-parameters. in this work, we design a deep
+model that accurately detects pcb defects from an input pair of a detect-free
+template and a defective tested image. a novel group pyramid pooling module is
+proposed to efficiently extract features of a large range of resolutions, which
+are merged by group to predict pcb defect of corresponding scales. to train the
+deep model, a dataset is established, namely deeppcb, which contains 1,500
+image pairs with annotations including positions of 6 common types of pcb
+defects. experiment results validate the effectiveness and efficiency of the
+proposed model by achieving $98.6\%$ map @ 62 fps on deeppcb dataset. this
+dataset is now available at: https://github.com/tangsanli5201/deeppcb.

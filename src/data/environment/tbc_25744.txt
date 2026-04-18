@@ -1,0 +1,11 @@
+the detection of faults in solar panels is essential for generating increased amounts of renewable green energy.
+solar panels degrade over time due to physical damage, dust, or other faults. numerous studies have been
+conducted to detect and monitor solar panel faults in real-time. this research examines the deployment of
+deep learning models for identifying these faults. in this research, we propose a novel deep learning model
+combining the inceptionv3-net with u-net architecture. the proposed architecture applies the inceptionv3
+base with imagenet weights, enhanced by convolutional layers, squeeze-and-excitation (se) blocks, residual
+connections, and global average pooling. the model includes two dense layers with leakyrelu and batch
+normalization, ending with a soft-max output layer. incorporating image segmentation into deep learning
+models significantly improves the precision and test accuracy of identifying issues in solar panels. the proposed
+model achieves exceptional performance, having a validation accuracy of 98.34%, a test accuracy of 94.35%
+with an f1 score of 0.94, a precision of 0.94, and a recall of 0.94.

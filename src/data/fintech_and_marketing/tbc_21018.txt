@@ -1,0 +1,15 @@
+predicting the prices of stocks at any stock market remains a quest for many
+investors and researchers. those who trade at the stock market tend to use
+technical, fundamental or time series analysis in their predictions. these
+methods usually guide on trends and not the exact likely prices. it is for this
+reason that artificial intelligence systems, such as artificial neural network,
+that is feedforward multi-layer perceptron with error backpropagation, can be
+used for such predictions. a difficulty in neural network application is the
+determination of suitable network parameters. a previous research by the author
+already determined the network parameters as 5:21:21:1 with 80% training data
+or 4-year of training data as a good enough model for stock prediction. this
+model has been put to the test in predicting selected shanghai stock exchange
+stocks in the future period of 21-sep-2016 to 11-oct-2016, about one week after
+the publication of these predictions. the research aims at confirming that
+simple neural network systems can be quite powerful in typical stock market
+predictions.

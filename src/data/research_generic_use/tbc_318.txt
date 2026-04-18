@@ -1,0 +1,9 @@
+task selection in micro-task markets can be supported by recommender systems
+to help individuals to find appropriate tasks. previous work showed that for
+the selection process of a micro-task the semantic aspects, such as the
+required action and the comprehensibility, are rated more important than
+factual aspects, such as the payment or the required completion time. this work
+gives a foundation to create such similarity measures. therefore, we show that
+an automatic classification based on task descriptions is possible.
+additionally, we propose similarity measures to cluster micro-tasks according
+to semantic aspects.

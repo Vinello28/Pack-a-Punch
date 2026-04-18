@@ -1,0 +1,14 @@
+exploiting capacity of sewer system using decentralized control is a cost
+effective mean of minimizing the overflow. given the size of the real sewer
+system, exploiting all the installed control structures in the sewer pipes can
+be challenging. this paper presents a divide and conquer solution to implement
+decentralized control measures based on unsupervised learning algorithms. a
+sewer system is first divided into a number of subcatchments. a series of
+natural and built factors that have the impact on sewer system performance is
+then collected. clustering algorithms are then applied to grouping
+subcatchments with similar hydraulic hydrologic characteristics. following
+which, principal component analysis is performed to interpret the main features
+of sub-catchment groups and identify priority control locations. overflows
+under different control scenarios are compared based on the hydraulic model.
+simulation results indicate that priority control applied to the most suitable
+cluster could bring the most profitable result.

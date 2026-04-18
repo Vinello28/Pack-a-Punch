@@ -1,0 +1,1 @@
+we present theaitre, a starting project aimed at automatic generation of theatre play scripts. this paper reviews related work and drafts an approach we intend to follow. we plan to adopt generative neural language models and hierarchical generation approaches, supported by summarization and machine translation methods, and complemented with a human-in-the-loop approach.

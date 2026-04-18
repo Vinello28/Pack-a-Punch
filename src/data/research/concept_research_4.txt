@@ -1,1 +1,0 @@
-L'active learning per la ricerca scientifica ottimizza la progettazione degli esperimenti selezionando i campioni piu informativi da analizzare, riducendo costi e tempi sperimentali.

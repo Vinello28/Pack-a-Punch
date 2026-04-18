@@ -1,0 +1,16 @@
+to optimize fruit production, a portion of the flowers and fruitlets of apple
+trees must be removed early in the growing season. the proportion to be removed
+is determined by the bloom intensity, i.e., the number of flowers present in
+the orchard. several automated computer vision systems have been proposed to
+estimate bloom intensity, but their overall performance is still far from
+satisfactory even in relatively controlled environments. with the goal of
+devising a technique for flower identification which is robust to clutter and
+to changes in illumination, this paper presents a method in which a pre-trained
+convolutional neural network is fine-tuned to become specially sensitive to
+flowers. experimental results on a challenging dataset demonstrate that our
+method significantly outperforms three approaches that represent the state of
+the art in flower detection, with recall and precision rates higher than
+$90\%$. moreover, a performance assessment on three additional datasets
+previously unseen by the network, which consist of different flower species and
+were acquired under different conditions, reveals that the proposed method
+highly surpasses baseline approaches in terms of generalization capability.

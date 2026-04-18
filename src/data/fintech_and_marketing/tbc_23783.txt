@@ -1,0 +1,5 @@
+in this paper, we present a software package for the data mining of twitter
+microblogs for the purpose of using them for the stock market analysis. the
+package is written in r langauge using apropriate r packages. the model of
+tweets has been considered. we have also compared stock market charts with
+frequent sets of keywords in twitter microblogs messages.

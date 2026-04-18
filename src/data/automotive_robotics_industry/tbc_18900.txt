@@ -1,0 +1,16 @@
+we present a benchmark suite for visual perception. the benchmark is based on
+more than 250k high-resolution video frames, all annotated with ground-truth
+data for both low-level and high-level vision tasks, including optical flow,
+semantic instance segmentation, object detection and tracking, object-level 3d
+scene layout, and visual odometry. ground-truth data for all tasks is available
+for every frame. the data was collected while driving, riding, and walking a
+total of 184 kilometers in diverse ambient conditions in a realistic virtual
+world. to create the benchmark, we have developed a new approach to collecting
+ground-truth data from simulated worlds without access to their source code or
+content. we conduct statistical analyses that show that the composition of the
+scenes in the benchmark closely matches the composition of corresponding
+physical environments. the realism of the collected data is further validated
+via perceptual experiments. we analyze the performance of state-of-the-art
+methods for multiple tasks, providing reference baselines and highlighting
+challenges for future research. the supplementary video can be viewed at
+https://youtu.be/t9oybwv923y

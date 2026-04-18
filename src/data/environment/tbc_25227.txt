@@ -1,0 +1,20 @@
+the ever accelerating process of urbanization urges more and more population
+into the swelling cities. while city residents are enjoying an entertaining
+life supported by advanced informatics techniques like 5g and cloud computing,
+the same technologies have also gradually deprived their sleep, which is
+crucial for their wellness. therefore, sleep monitoring has drawn significant
+attention from both research and industry communities. in this article, we
+first review the sleep monitoring issue and point out three essential
+properties of an ideal sleep healthcare system, i.e., realtime guarding,
+fine-grained logging, and cost-effectiveness. based on the analysis, we present
+sleepguardian, a radio frequence (rf) based sleep healthcare system leveraging
+signal processing, edge computing and machine learning.sleepguardian offers an
+offline sleep logging service and an online abnormality warning service. the
+offline service provides a fine-grained sleep log like timing and regularity of
+bed time, onset of sleep and night time awakenings. the online service keeps
+guarding the subject for any abnormal behaviors during sleep like intensive
+body twitches and a sudden seizure attack. once an abnormality happens,it will
+automatically warn the designated contacts like a nearby emergency room or a
+closeby relative.we prototype sleepguardian with low-cost wifi devices and
+evaluate it in real scenarios. experimental results demonstrate that
+sleepguardian is very effective.

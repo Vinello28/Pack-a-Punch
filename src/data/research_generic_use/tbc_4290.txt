@@ -1,0 +1,16 @@
+risk prediction is central to both clinical medicine and public health. while
+many machine learning models have been developed to predict mortality, they are
+rarely applied in the clinical literature, where classification tasks typically
+rely on logistic regression. one reason for this is that existing machine
+learning models often seek to optimize predictions by incorporating features
+that are not present in the databases readily available to providers and policy
+makers, limiting generalizability and implementation. here we tested a number
+of machine learning classifiers for prediction of six-month mortality in a
+population of elderly medicare beneficiaries, using an administrative claims
+database of the kind available to the majority of health care payers and
+providers. we show that machine learning classifiers substantially outperform
+current widely-used methods of risk prediction but only when used with an
+improved feature set incorporating insights from clinical medicine, developed
+for this study. our work has applications to supporting patient and provider
+decision making at the end of life, as well as population health-oriented
+efforts to identify patients at high risk of poor outcomes.

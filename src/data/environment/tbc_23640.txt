@@ -1,0 +1,15 @@
+the role of social media, in particular microblogging platforms such as
+twitter, as a conduit for actionable and tactical information during disasters
+is increasingly acknowledged. however, time-critical analysis of big crisis
+data on social media streams brings challenges to machine learning techniques,
+especially the ones that use supervised learning. the scarcity of labeled data,
+particularly in the early hours of a crisis, delays the machine learning
+process. the current state-of-the-art classification methods require a
+significant amount of labeled data specific to a particular event for training
+plus a lot of feature engineering to achieve best results. in this work, we
+introduce neural network based classification methods for binary and
+multi-class tweet classification task. we show that neural network based models
+do not require any feature engineering and perform better than state-of-the-art
+methods. in the early hours of a disaster when no labeled data is available,
+our proposed method makes the best use of the out-of-event data and achieves
+good results.

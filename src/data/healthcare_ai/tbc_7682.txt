@@ -1,0 +1,24 @@
+due to advances in sensors, growing large and complex medical image data have
+the ability to visualize the pathological change in the cellular or even the
+molecular level or anatomical changes in tissues and organs. as a consequence,
+the medical images have the potential to enhance diagnosis of disease,
+prediction of clinical outcomes, characterization of disease progression,
+management of health care and development of treatments, but also pose great
+methodological and computational challenges for representation and selection of
+features in image cluster analysis. to address these challenges, we first
+extend one dimensional functional principal component analysis to the two
+dimensional functional principle component analyses (2dfpca) to fully capture
+space variation of image signals. image signals contain a large number of
+redundant and irrelevant features which provide no additional or no useful
+information for cluster analysis. widely used methods for removing redundant
+and irrelevant features are sparse clustering algorithms using a lasso-type
+penalty to select the features. however, the accuracy of clustering using a
+lasso-type penalty depends on how to select penalty parameters and a threshold
+for selecting features. in practice, they are difficult to determine. recently,
+randomized algorithms have received a great deal of attention in big data
+analysis. this paper presents a randomized algorithm for accurate feature
+selection in image cluster analysis. the proposed method is applied to ovarian
+and kidney cancer histology image data from the tcga database. the results
+demonstrate that the randomized feature selection method coupled with
+functional principal component analysis substantially outperforms the current
+sparse clustering algorithms in image cluster analysis.

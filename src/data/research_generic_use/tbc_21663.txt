@@ -1,0 +1,21 @@
+mispronunciation detection is an essential component of the computer-assisted
+pronunciation training (capt) systems. state-of-the-art mispronunciation
+detection models use deep neural networks (dnn) for acoustic modeling, and a
+goodness of pronunciation (gop) based algorithm for pronunciation scoring.
+  however, gop based scoring models have two major limitations: i.e., (i) they
+depend on forced alignment which splits the speech into phonetic segments and
+independently use them for scoring, which neglects the transitions between
+phonemes within the segment;
+  (ii) they only focus on phonetic segments, which fails to consider the
+context effects across phonemes (such as liaison, omission, incomplete plosive
+sound, etc.).
+  in this work, we propose the context-aware goodness of pronunciation (cagop)
+scoring model. particularly, two factors namely the transition factor and the
+duration factor are injected into cagop scoring.
+  the transition factor identifies the transitions between phonemes and applies
+them to weight the frame-wise gop. moreover, a self-attention based phonetic
+duration modeling is proposed to introduce the duration factor into the scoring
+model.
+  the proposed scoring model significantly outperforms baselines, achieving 20%
+and 12% relative improvement over the gop model on the phoneme-level and
+sentence-level mispronunciation detection respectively.

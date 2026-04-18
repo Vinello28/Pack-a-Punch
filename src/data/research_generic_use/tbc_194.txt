@@ -1,0 +1,17 @@
+deep learning has become popular, and numerous cloud-based services are
+provided to help customers develop and deploy deep learning applications.
+meanwhile, various attack techniques have also been discovered to stealthily
+compromise the model's integrity. when a cloud customer deploys a deep learning
+model in the cloud and serves it to end-users, it is important for him to be
+able to verify that the deployed model has not been tampered with, and the
+model's integrity is protected.
+  we propose a new low-cost and self-served methodology for customers to verify
+that the model deployed in the cloud is intact, while having only black-box
+access (e.g., via apis) to the deployed model. customers can detect arbitrary
+changes to their deep learning models. specifically, we define
+\texttt{sensitive-sample} fingerprints, which are a small set of transformed
+inputs that make the model outputs sensitive to the model's parameters. even
+small weight changes can be clearly reflected in the model outputs, and
+observed by the customer. our experiments on different types of model integrity
+attacks show that we can detect model integrity breaches with high accuracy
+($>$99\%) and low overhead ($<$10 black-box model accesses).

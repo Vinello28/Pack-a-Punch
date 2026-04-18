@@ -1,7 +1,7 @@
 """
 Distribute labeled data from CSV into per-class TXT directories.
 
-Reads public/multiclass2_augmented.csv and writes one .txt file per row
+Reads public/modernbert_final.csv and writes one .txt file per row
 into src/data/<class_slug>/, where the slug is derived from the label name
 using the same _slugify function that the dataset loader uses.
 """
@@ -30,7 +30,7 @@ def _slugify(name: str) -> str:
 
 
 def distribute_data():
-    csv_path = "public/multiclass2_augmented.csv"
+    csv_path = "public/modernbert_final.csv"
     base_data_path = "src/data"
 
     if not os.path.exists(csv_path):
@@ -43,7 +43,8 @@ def distribute_data():
         print(f"Error reading CSV file: {e}")
         return
 
-    required_columns = ["Descrizione", "Label"]
+    text_col = "description" if "description" in df.columns else "Descrizione"
+    required_columns = [text_col, "Label"]
     if not all(col in df.columns for col in required_columns):
         print(f"Error: Missing columns. Expected {required_columns}, found {list(df.columns)}")
         return
@@ -57,7 +58,7 @@ def distribute_data():
     skipped = 0
 
     for index, row in df.iterrows():
-        description = str(row["Descrizione"]).strip()
+        description = str(row[text_col]).strip()
         label = str(row["Label"]).strip()
 
         if not description or description == "nan":

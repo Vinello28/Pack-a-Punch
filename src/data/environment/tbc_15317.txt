@@ -1,0 +1,13 @@
+the proliferation of iot devices which can be more easily compromised than
+desktop computers has led to an increase in the occurrence of iot based botnet
+attacks. in order to mitigate this new threat there is a need to develop new
+methods for detecting attacks launched from compromised iot devices and
+differentiate between hour and millisecond long iotbased attacks. in this paper
+we propose and empirically evaluate a novel network based anomaly detection
+method which extracts behavior snapshots of the network and uses deep
+autoencoders to detect anomalous network traffic emanating from compromised iot
+devices. to evaluate our method, we infected nine commercial iot devices in our
+lab with two of the most widely known iot based botnets, mirai and bashlite.
+our evaluation results demonstrated our proposed method's ability to accurately
+and instantly detect the attacks as they were being launched from the
+compromised iot devices which were part of a botnet.

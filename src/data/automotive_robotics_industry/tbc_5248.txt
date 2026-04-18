@@ -1,0 +1,18 @@
+3d multi-object detection and tracking are crucial for traffic scene
+understanding. however, the community pays less attention to these areas due to
+the lack of a standardized benchmark dataset to advance the field. moreover,
+existing datasets (e.g., kitti) do not provide sufficient data and labels to
+tackle challenging scenes where highly interactive and occluded traffic
+participants are present. to address the issues, we present the honda research
+institute 3d dataset (h3d), a large-scale full-surround 3d multi-object
+detection and tracking dataset collected using a 3d lidar scanner. h3d
+comprises of 160 crowded and highly interactive traffic scenes with a total of
+1 million labeled instances in 27,721 frames. with unique dataset size, rich
+annotations, and complex scenes, h3d is gathered to stimulate research on
+full-surround 3d multi-object detection and tracking. to effectively and
+efficiently annotate a large-scale 3d point cloud dataset, we propose a
+labeling methodology to speed up the overall annotation cycle. a standardized
+benchmark is created to evaluate full-surround 3d multi-object detection and
+tracking algorithms. 3d object detection and tracking algorithms are trained
+and tested on h3d. finally, sources of errors are discussed for the development
+of future algorithms.

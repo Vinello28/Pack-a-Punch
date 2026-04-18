@@ -1,0 +1,15 @@
+the soil moisture active passive (smap) mission has delivered valuable
+sensing of surface soil moisture since 2015. however, it has a short time span
+and irregular revisit schedule. utilizing a state-of-the-art time-series deep
+learning neural network, long short-term memory (lstm), we created a system
+that predicts smap level-3 soil moisture data with atmospheric forcing,
+model-simulated moisture, and static physiographic attributes as inputs. the
+system removes most of the bias with model simulations and improves predicted
+moisture climatology, achieving small test root-mean-squared error (<0.035) and
+high correlation coefficient >0.87 for over 75\% of continental united states,
+including the forested southeast. as the first application of lstm in
+hydrology, we show the proposed network avoids overfitting and is robust for
+both temporal and spatial extrapolation tests. lstm generalizes well across
+regions with distinct climates and physiography. with high fidelity to smap,
+lstm shows great potential for hindcasting, data assimilation, and weather
+forecasting.

@@ -1,0 +1,8 @@
+this paper focuses on a robotic picking tasks in cluttered scenario. because
+of the diversity of objects and clutter by placing, it is much difficult to
+recognize and estimate their pose before grasping. here, we use u-net, a
+special convolution neural networks (cnn), to combine rgb images and depth
+information to predict picking region without recognition and pose estimation.
+the efficiency of diverse visual input of the network were compared, including
+rgb, rgb-d and rgb-points. and we found the rgb-points input could get a
+precision of 95.74%.

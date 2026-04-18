@@ -1,0 +1,1 @@
+we propose leveraging chromostereopsis, a perceptual phenomenon inducing depth perception through color contrast, as a novel approach to visually differentiating conversational roles in text-based ai interfaces. this method aims to implicitly communicate role hierarchy and add a subtle sense of physical space.

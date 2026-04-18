@@ -1,0 +1,10 @@
+this paper aims to investigate direct imitation learning from human drivers
+for the task of lane keeping assistance in highway and country roads using
+grayscale images from a single front view camera. the employed method utilizes
+convolutional neural networks (cnn) to act as a policy that is driving a
+vehicle. the policy is successfully learned via imitation learning using
+real-world data collected from human drivers and is evaluated in closed-loop
+simulated environments, demonstrating good driving behaviour and a robustness
+for domain changes. evaluation is based on two proposed performance metrics
+measuring how well the vehicle is positioned in a lane and the smoothness of
+the driven trajectory.

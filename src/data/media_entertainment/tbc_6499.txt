@@ -1,0 +1,13 @@
+the task of estimating the fundamental frequency of a monophonic sound
+recording, also known as pitch tracking, is fundamental to audio processing
+with multiple applications in speech processing and music information
+retrieval. to date, the best performing techniques, such as the pyin algorithm,
+are based on a combination of dsp pipelines and heuristics. while such
+techniques perform very well on average, there remain many cases in which they
+fail to correctly estimate the pitch. in this paper, we propose a data-driven
+pitch tracking algorithm, crepe, which is based on a deep convolutional neural
+network that operates directly on the time-domain waveform. we show that the
+proposed model produces state-of-the-art results, performing equally or better
+than pyin. furthermore, we evaluate the model's generalizability in terms of
+noise robustness. a pre-trained version of crepe is made freely available as an
+open-source python module for easy application.

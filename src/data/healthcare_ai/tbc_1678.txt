@@ -1,0 +1,12 @@
+face anti-spoofing is the crucial step to prevent face recognition systems
+from a security breach. previous deep learning approaches formulate face
+anti-spoofing as a binary classification problem. many of them struggle to
+grasp adequate spoofing cues and generalize poorly. in this paper, we argue the
+importance of auxiliary supervision to guide the learning toward discriminative
+and generalizable cues. a cnn-rnn model is learned to estimate the face depth
+with pixel-wise supervision, and to estimate rppg signals with sequence-wise
+supervision. then we fuse the estimated depth and rppg to distinguish live vs.
+spoof faces. in addition, we introduce a new face anti-spoofing database that
+covers a large range of illumination, subject, and pose variations.
+experimental results show that our model achieves the state-of-the-art
+performance on both intra-database and cross-database testing.

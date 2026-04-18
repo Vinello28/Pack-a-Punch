@@ -1,0 +1,18 @@
+in marketing we are often confronted with a continuous stream of responses to
+marketing messages. such streaming data provide invaluable information
+regarding message effectiveness and segmentation. however, streaming data are
+hard to analyze using conventional methods: their high volume and the fact that
+they are continuously augmented means that it takes considerable time to
+analyze them. we propose a method for estimating a finite mixture of logistic
+regression models which can be used to cluster customers based on a continuous
+stream of responses. this method, which we coin ofmlr, allows segments to be
+identified in data streams or extremely large static datasets. contrary to
+black box algorithms, ofmlr provides model estimates that are directly
+interpretable. we first introduce ofmlr, explaining in passing general topics
+such as online estimation and the em algorithm, making this paper a high level
+overview of possible methods of dealing with large data streams in marketing
+practice. next, we discuss model convergence, identifiability, and relations to
+alternative, bayesian, methods; we also identify more general issues that arise
+from dealing with continuously augmented data sets. finally, we introduce the
+ofmlr [r] package and evaluate the method by numerical simulation and by
+analyzing a large customer clickstream dataset.

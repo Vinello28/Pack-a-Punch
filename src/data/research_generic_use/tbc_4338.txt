@@ -1,0 +1,14 @@
+we explore the utility of clustering in reducing error in various prediction
+tasks. previous work has hinted at the improvement in prediction accuracy
+attributed to clustering algorithms if used to pre-process the data. in this
+work we more deeply investigate the direct utility of using clustering to
+improve prediction accuracy and provide explanations for why this may be so. we
+look at a number of datasets, run k-means at different scales and for each
+scale we train predictors. this produces k sets of predictions. these
+predictions are then combined by a na\"ive ensemble. we observed that this use
+of a predictor in conjunction with clustering improved the prediction accuracy
+in most datasets. we believe this indicates the predictive utility of
+exploiting structure in the data and the data compression handed over by
+clustering. we also found that using this method improves upon the prediction
+of even a random forests predictor which suggests this method is providing a
+novel, and useful source of variance in the prediction process.

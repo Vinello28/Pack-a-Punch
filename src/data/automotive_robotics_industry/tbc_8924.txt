@@ -1,0 +1,1 @@
+industrial robots are applied in a widening range of industries, but robot programming mostly remains a task limited to programming experts. we propose a natural language-based assistant for programming of advanced, industrial robotic applications and investigate strategies for domain-specific fine-tuning of foundation models with limited data and compute.

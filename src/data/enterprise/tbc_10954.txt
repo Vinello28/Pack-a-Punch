@@ -1,0 +1,1 @@
+defenders are overwhelmed by the number and scale of attacks against their networks.this problem will only be exacerbated as attackers leverage artificial intelligence to automate their workflows. we propose a path to autonomous cyber agents able to augment defenders by automating critical steps in the cyber defense life cycle.

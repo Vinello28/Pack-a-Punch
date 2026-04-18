@@ -1,0 +1,5 @@
+the paper presents the application of variational autoencoders (vae) for data
+dimensionality reduction and explorative analysis of mass spectrometry imaging
+data (msi). the results confirm that vaes are capable of detecting the patterns
+associated with the different tissue sub-types with performance than standard
+approaches.

@@ -1,0 +1,21 @@
+modeling buildings' heat dynamics is a complex process which depends on
+various factors including weather, building thermal capacity, insulation
+preservation, and residents' behavior. gray-box models offer a causal inference
+of those dynamics expressed in few parameters specific to built environments.
+these parameters can provide compelling insights into the characteristics of
+building artifacts and have various applications such as forecasting hvac
+usage, indoor temperature control monitoring of built environments, etc. in
+this paper, we present a systematic study of modeling buildings' thermal
+characteristics and thus derive the parameters of built conditions with a
+bayesian approach. we build a bayesian state-space model that can adapt and
+incorporate buildings' thermal equations and propose a generalized solution
+that can easily adapt prior knowledge regarding the parameters. we show that a
+faster approximate approach using variational inference for parameter
+estimation can provide similar parameters as that of a more time-consuming
+markov chain monte carlo (mcmc) approach. we perform extensive evaluations on
+two datasets to understand the generative process and show that the bayesian
+approach is more interpretable. we further study the effects of prior selection
+for the model parameters and transfer learning, where we learn parameters from
+one season and use them to fit the model in the other. we perform extensive
+evaluations on controlled and real data traces to enumerate buildings'
+parameter within a 95% credible interval.

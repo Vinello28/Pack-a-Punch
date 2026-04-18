@@ -1,0 +1,17 @@
+recently, there has been significant progress in understanding reinforcement
+learning in discounted infinite-horizon markov decision processes (mdps) by
+deriving tight sample complexity bounds. however, in many real-world
+applications, an interactive learning agent operates for a fixed or bounded
+period of time, for example tutoring students for exams or handling customer
+service requests. such scenarios can often be better treated as episodic
+fixed-horizon mdps, for which only looser bounds on the sample complexity
+exist. a natural notion of sample complexity in this setting is the number of
+episodes required to guarantee a certain performance with high probability (pac
+guarantee). in this paper, we derive an upper pac bound $\tilde
+o(\frac{|\mathcal s|^2 |\mathcal a| h^2}{\epsilon^2} \ln\frac 1 \delta)$ and a
+lower pac bound $\tilde \omega(\frac{|\mathcal s| |\mathcal a| h^2}{\epsilon^2}
+\ln \frac 1 {\delta + c})$ that match up to log-terms and an additional linear
+dependency on the number of states $|\mathcal s|$. the lower bound is the first
+of its kind for this setting. our upper bound leverages bernstein's inequality
+to improve on previous bounds for episodic finite-horizon mdps which have a
+time-horizon dependency of at least $h^3$.

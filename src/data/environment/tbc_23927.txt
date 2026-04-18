@@ -1,0 +1,13 @@
+the proposed earth observation (eo) based value adding system (eo vas),
+hereafter identified as autocloud+, consists of an innovative eo image
+understanding system (eo ius) design and implementation capable of automatic
+spatial context sensitive cloud/cloud shadow detection in multi source multi
+spectral (ms) eo imagery, whether or not radiometrically calibrated, acquired
+by multiple platforms, either spaceborne or airborne, including unmanned aerial
+vehicles (uavs). it is worth mentioning that the same eo ius architecture is
+suitable for a large variety of eo based value adding products and services,
+including: (i) low level image enhancement applications, such as automatic ms
+image topographic correction, co registration, mosaicking and compositing, (ii)
+high level ms image land cover (lc) and lc change (lcc) classification and
+(iii) content based image storage/retrieval in massive multi source eo image
+databases (big data mining).

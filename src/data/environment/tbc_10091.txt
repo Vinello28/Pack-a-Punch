@@ -1,0 +1,23 @@
+this paper addresses the energy disaggregation problem, i.e. decomposing the
+electricity signal of a whole home to its operating devices. first, we cast the
+problem as a dictionary learning (dl) problem where the key electricity
+patterns representing consumption behaviors are extracted for each device and
+stored in a dictionary matrix. the electricity signal of each device is then
+modeled by a linear combination of such patterns with sparse coefficients that
+determine the contribution of each device in the total electricity. although
+popular, the classic dl approach is prone to high error in real-world
+applications including energy disaggregation, as it merely finds linear
+dictionaries. moreover, this method lacks a recurrent structure; thus, it is
+unable to leverage the temporal structure of energy signals. motivated by such
+shortcomings, we propose a novel optimization program where the dictionary and
+its sparse coefficients are optimized simultaneously with a deep neural model
+extracting powerful nonlinear features from the energy signals. a long
+short-term memory auto-encoder (lstm-ae) is proposed with tunable time
+dependent states to capture the temporal behavior of energy signals for each
+device. we learn the dictionary in the space of temporal features captured by
+the lstm-ae rather than the original space of the energy signals; hence, in
+contrast to the traditional dl, here, a nonlinear dictionary is learned using
+powerful temporal features extracted from our deep model. real experiments on
+the publicly available reference energy disaggregation dataset (redd) show
+significant improvement compared to the state-of-the-art methodologies in terms
+of the disaggregation accuracy and f-score metrics.

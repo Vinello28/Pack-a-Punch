@@ -1,0 +1,10 @@
+tf.learn is a high-level python module for distributed machine learning
+inside tensorflow. it provides an easy-to-use scikit-learn style interface to
+simplify the process of creating, configuring, training, evaluating, and
+experimenting a machine learning model. tf.learn integrates a wide range of
+state-of-art machine learning algorithms built on top of tensorflow's low level
+apis for small to large-scale supervised and unsupervised problems. this module
+focuses on bringing machine learning to non-specialists using a general-purpose
+high-level language as well as researchers who want to implement, benchmark,
+and compare their new methods in a structured environment. emphasis is put on
+ease of use, performance, documentation, and api consistency.

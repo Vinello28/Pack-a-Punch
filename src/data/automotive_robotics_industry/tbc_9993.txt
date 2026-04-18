@@ -1,0 +1,6 @@
+we present shapechanger, a library for transfer reinforcement learning
+specifically designed for robotic tasks. we consider three types of knowledge
+transfer---from simulation to simulation, from simulation to real, and from
+real to real---and a wide range of tasks with continuous states and actions.
+shapechanger is under active development and open-sourced at:
+https://github.com/seba-1511/shapechanger/.

@@ -1,0 +1,24 @@
+intrusion detection for computer network systems has been becoming one of the
+most critical tasks for network administrators today. it has an important role
+for organizations, governments and our society due to the valuable resources
+hosted on computer networks. traditional misuse detection strategies are unable
+to detect new and unknown intrusion types. in contrast, anomaly detection in
+network security aims to distinguish between illegal or malicious events and
+normal behavior of network systems. anomaly detection can be considered as a
+classification problem where it builds models of normal network behavior, of
+which it uses to detect new patterns that significantly deviate from the model.
+most of the current approaches on anomaly detection is based on the learning of
+normal behavior and anomalous actions. they do not include memory that is they
+do not take into account previous events classify new ones. in this paper, we
+propose a one class collective anomaly detection model based on neural network
+learning. normally a long short term memory recurrent neural network (lstm rnn)
+is trained only on normal data, and it is capable of predicting several time
+steps ahead of an input. in our approach, a lstm rnn is trained on normal time
+series data before performing a prediction for each time step. instead of
+considering each time-step separately, the observation of prediction errors
+from a certain number of time-steps is now proposed as a new idea for detecting
+collective anomalies. the prediction errors of a certain number of the latest
+time-steps above a threshold will indicate a collective anomaly. the model is
+evaluated on a time series version of the kdd 1999 dataset. the experiments
+demonstrate that the proposed model is capable to detect collective anomaly
+efficiently

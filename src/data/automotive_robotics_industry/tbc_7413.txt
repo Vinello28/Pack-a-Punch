@@ -1,0 +1,17 @@
+the pervasiveness of the wireless cellular network can be a key enabler for
+the deployment of autonomous unmanned aerial vehicles (uavs) in beyond visual
+line of sight scenarios without human control. however, traditional cellular
+networks are optimized for ground user equipment (gue) such as smartphones
+which makes providing connectivity to flying uavs very challenging. moreover,
+ensuring better connectivity to a moving cellular-connected uav is notoriously
+difficult due to the complex air-to-ground path loss model. in this paper, a
+novel mechanism is proposed to ensure robust wireless connectivity and mobility
+support for cellular-connected uavs by tuning the downtilt (dt) angles of all
+the gbss. by leveraging tools from reinforcement learning (rl), dt angles are
+dynamically adjusted by using a model-free rl algorithm. the goal is to provide
+efficient mobility support in the sky by maximizing the received signal quality
+at the uav while also maintaining good throughput performance of the ground
+users. simulation results show that the proposed rl-based mobility management
+(mm) technique can reduce the number of handovers while maintaining the
+performance goals, compared to the baseline mm scheme in which the network
+always keeps the dt angle fixed.

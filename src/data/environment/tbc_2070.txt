@@ -1,0 +1,13 @@
+monitoring of disasters is crucial for mitigating their effects on the
+environment and human population, and can be facilitated by the use of unmanned
+aerial vehicles (uav), equipped with camera sensors that produce aerial photos
+of the areas of interest. a modern technique for recognition of events based on
+aerial photos is deep learning. in this paper, we present the state of the art
+work related to the use of deep learning techniques for disaster
+identification. we demonstrate the potential of this technique in identifying
+disasters with high accuracy, by means of a relatively simple deep learning
+model. based on a dataset of 544 images (containing disaster images such as
+fires, earthquakes, collapsed buildings, tsunami and flooding, as well as
+non-disaster scenes), our results show an accuracy of 91% achieved, indicating
+that deep learning, combined with uav equipped with camera sensors, have the
+potential to predict disasters with high accuracy.

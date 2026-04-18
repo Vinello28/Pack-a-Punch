@@ -1,0 +1,14 @@
+most approaches to machine learning from electronic health data can only
+predict a single endpoint. here, we present an alternative that uses
+unsupervised deep learning to simulate detailed patient trajectories. we use
+data comprising 18-month trajectories of 44 clinical variables from 1908
+patients with mild cognitive impairment or alzheimer's disease to train a model
+for personalized forecasting of disease progression. we simulate synthetic
+patient data including the evolution of each sub-component of cognitive exams,
+laboratory tests, and their associations with baseline clinical
+characteristics, generating both predictions and their confidence intervals.
+our unsupervised model predicts changes in total adas-cog scores with the same
+accuracy as specifically trained supervised models and identifies
+sub-components associated with word recall as predictive of progression. the
+ability to simultaneously simulate dozens of patient characteristics is a
+crucial step towards personalized medicine for alzheimer's disease.

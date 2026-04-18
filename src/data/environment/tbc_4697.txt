@@ -1,0 +1,14 @@
+forward-looking sonar can capture high resolution images of underwater
+scenes, but their interpretation is complex. generic object detection in such
+images has not been solved, specially in cases of small and unknown objects. in
+comparison, detection proposal algorithms have produced top performing object
+detectors in real-world color images. in this work we develop a convolutional
+neural network that can reliably score objectness of image windows in
+forward-looking sonar images and by thresholding objectness, we generate
+detection proposals. in our dataset of marine garbage objects, we obtain 94%
+recall, generating around 60 proposals per image. the biggest strength of our
+method is that it can generalize to previously unseen objects. we show this by
+detecting chain links, walls and a wrench without previous training in such
+objects. we strongly believe our method can be used for class-independent
+object detection, with many real-world applications such as chain following and
+mine detection.

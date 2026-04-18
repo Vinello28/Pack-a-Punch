@@ -1,0 +1,19 @@
+we describe a system to automatically filter clinically significant findings
+from computerized tomography (ct) head scans, operating at performance levels
+exceeding that of practicing radiologists. our system, named deepradiologynet,
+builds on top of deep convolutional neural networks (cnns) trained using
+approximately 3.5 million ct head images gathered from over 24,000 studies
+taken from january 1, 2015 to august 31, 2015 and january 1, 2016 to april 30
+2016 in over 80 clinical sites. for our initial system, we identified 30
+phenomenological traits to be recognized in the ct scans. to test the system,
+we designed a clinical trial using over 4.8 million ct head images (29,925
+studies), completely disjoint from the training and validation set, interpreted
+by 35 us board certified radiologists with specialized ct head experience. we
+measured clinically significant error rates to ascertain whether the
+performance of deepradiologynet was comparable to or better than that of us
+board certified radiologists. deepradiologynet achieved a clinically
+significant miss rate of 0.0367% on automatically selected high-confidence
+studies. thus, deepradiologynet enables significant reduction in the workload
+of human radiologists by automatically filtering studies and reporting on the
+high-confidence ones at an operating point well below the literal error rate
+for us board certified radiologists, estimated at 0.82%.

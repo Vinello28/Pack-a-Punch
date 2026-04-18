@@ -1,0 +1,7 @@
+we present new findings in regard to data analysis in very high dimensional
+spaces. we use dimensionalities up to around one million. a particular benefit
+of correspondence analysis is its suitability for carrying out an orthonormal
+mapping, or scaling, of power law distributed data. power law distributed data
+are found in many domains. correspondence factor analysis provides a latent
+semantic or principal axes mapping. our experiments use data from digital
+chemistry and finance, and other statistically generated data.

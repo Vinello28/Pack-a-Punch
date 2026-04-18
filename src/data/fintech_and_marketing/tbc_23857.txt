@@ -1,0 +1,16 @@
+credit scoring is an essential tool used by global financial institutions and
+credit lenders for financial decision making. in this paper, we introduce a new
+method based on gaussian mixture model (gmm) to forecast the probability of
+default for individual loan applicants. clustering similar customers with each
+other, our model associates a probability of being healthy to each group. in
+addition, our gmm-based model probabilistically associates individual samples
+to clusters, and then estimates the probability of default for each individual
+based on how it relates to gmm clusters. we provide applications for risk
+managers and decision makers in banks and non-bank financial institutions to
+maximize profit and mitigate the expected loss by giving loans to those who
+have a probability of default below a decision threshold. our model has a
+number of advantages. first, it gives a probabilistic view of credit standing
+for each individual applicant instead of a binary classification and therefore
+provides more information for financial decision makers. second, the expected
+loss on the train set calculated by our gmm-based default probabilities is very
+close to the actual loss, and third, our approach is computationally efficient.

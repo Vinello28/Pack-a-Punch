@@ -1,0 +1,16 @@
+this study investigates the use of unsupervised word embeddings and sequence
+features for sample representation in an active learning framework built to
+extract clinical concepts from clinical free text. the objective is to further
+reduce the manual annotation effort while achieving higher effectiveness
+compared to a set of baseline features. unsupervised features are derived from
+skip-gram word embeddings and a sequence representation approach. the
+comparative performance of unsupervised features and baseline hand-crafted
+features in an active learning framework are investigated using a wide range of
+selection criteria including least confidence, information diversity,
+information density and diversity, and domain knowledge informativeness. two
+clinical datasets are used for evaluation: the i2b2/va 2010 nlp challenge and
+the share/clef 2013 ehealth evaluation lab. our results demonstrate significant
+improvements in terms of effectiveness as well as annotation effort savings
+across both datasets. using unsupervised features along with baseline features
+for sample representation lead to further savings of up to 9% and 10% of the
+token and concept annotation rates, respectively.

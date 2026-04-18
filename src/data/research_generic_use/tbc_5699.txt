@@ -1,0 +1,18 @@
+modern inference and learning often hinge on identifying low-dimensional
+structures that approximate large scale data. subspace clustering achieves this
+through a union of linear subspaces. however, in contemporary applications data
+is increasingly often incomplete, rendering standard (full-data) methods
+inapplicable. on the other hand, existing incomplete-data methods present major
+drawbacks, like lifting an already high-dimensional problem, or requiring a
+super polynomial number of samples. motivated by this, we introduce a new
+subspace clustering algorithm inspired by fusion penalties. the main idea is to
+permanently assign each datum to a subspace of its own, and minimize the
+distance between the subspaces of all data, so that subspaces of the same
+cluster get fused together. our approach is entirely new to both, full and
+missing data, and unlike other methods, it directly allows noise, it requires
+no liftings, it allows low, high, and even full-rank data, it approaches
+optimal (information-theoretic) sampling rates, and it does not rely on other
+methods such as low-rank matrix completion to handle missing data. furthermore,
+our extensive experiments on both real and synthetic data show that our
+approach performs comparably to the state-of-the-art with complete data, and
+dramatically better if data is missing.

@@ -1,0 +1,14 @@
+semantic shape completion is a challenging problem in 3d computer vision
+where the task is to generate a complete 3d shape using a partial 3d shape as
+input. we propose a learning-based approach to complete incomplete 3d shapes
+through generative modeling and latent manifold optimization. our algorithm
+works directly on point clouds. we use an autoencoder and a gan to learn a
+distribution of embeddings for point clouds of object classes. an input point
+cloud with missing regions is first encoded to a feature vector. the
+representations learnt by the gan are then used to find the best latent vector
+on the manifold using a combined optimization that finds a vector in the
+manifold of plausible vectors that is close to the original input (both in the
+feature space and the output space of the decoder). experiments show that our
+algorithm is capable of successfully reconstructing point clouds with large
+missing regions with very high fidelity without having to rely on exemplar
+based database retrieval.

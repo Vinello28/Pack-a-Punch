@@ -1,0 +1,14 @@
+a disconcerting ramification of water pollution caused by burgeoning
+populations, rapid industrialization and modernization of agriculture, has been
+the exponential increase in the incidence of algal growth across the globe.
+harmful algal blooms (habs) have devastated fisheries, contaminated drinking
+water and killed livestock, resulting in economic losses to the tune of
+millions of dollars. therefore, it is important to constantly monitor water
+bodies and identify any algae build-up so that prompt action against its
+accumulation can be taken and the harmful consequences can be avoided. in this
+paper, we propose a computer vision system based on deep learning for algae
+monitoring. the proposed system is fast, accurate and cheap, and it can be
+installed on any robotic platforms such as usvs and uavs for autonomous algae
+monitoring. the experimental results demonstrate that the proposed system can
+detect algae in distinct environments regardless of the underlying hardware
+with high accuracy and in real time.

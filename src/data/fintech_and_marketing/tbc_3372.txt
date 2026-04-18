@@ -1,0 +1,16 @@
+this paper aims to develop new techniques to describe joint behavior of
+stocks, beyond regression and correlation. for example, we want to identify the
+clusters of the stocks that move together. our work is based on applying kernel
+principal component analysis(kpca) and functional principal component
+analysis(fpca) to high frequency data from nse. since we dealt with high
+frequency data with a tick size of 30 seconds, fpca seems to be an ideal
+choice. fpca is a functional variant of pca where each sample point is
+considered to be a function in hilbert space l^2. on the other hand, kpca is an
+extension of pca using kernel methods. results obtained from fpca and gaussian
+kernel pca seems to be in synergy but with a lag. there were two prominent
+clusters that showed up in our analysis, one corresponding to the banking
+sector and another corresponding to the it sector. the other smaller clusters
+were seen from the automobile industry and the energy sector. it sector was
+seen interacting with these small clusters. the learning gained from these
+interactions is substantial as one can use it significantly to develop trading
+strategies for intraday traders.

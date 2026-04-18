@@ -1,0 +1,16 @@
+as the number of publicly traded companies as well as the amount of their
+financial data grows rapidly, it is highly desired to have tracking, analysis,
+and eventually stock selections automated. there have been few works focusing
+on estimating the stock prices of individual companies. however, many of those
+have worked with very small number of financial parameters. in this work, we
+apply machine learning techniques to address automated stock picking, while
+using a larger number of financial parameters for individual companies than the
+previous studies. our approaches are based on the supervision of prediction
+parameters using company fundamentals, time-series properties, and correlation
+information between different stocks. we examine a variety of supervised
+learning techniques and found that using stock fundamentals is a useful
+approach for the classification problem, when combined with the high
+dimensional data handling capabilities of support vector machine. the portfolio
+our system suggests by predicting the behavior of stocks results in a 3% larger
+growth on average than the overall market within a 3-month time period, as the
+out-of-sample test suggests.

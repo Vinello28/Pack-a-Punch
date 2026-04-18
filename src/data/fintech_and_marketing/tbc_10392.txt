@@ -1,0 +1,1 @@
+mopo-lsi is an open-source multi-objective portfolio optimization library for sustainable investments. this document provides a user guide for mopo-lsi version 1.0, including problem setup, workflow and the hyper-parameters in configurations.

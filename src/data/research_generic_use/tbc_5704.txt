@@ -1,0 +1,12 @@
+assisted by neural networks, reinforcement learning agents have been able to
+solve increasingly complex tasks over the last years. the simulation
+environment in which the agents interact is an essential component in any
+reinforcement learning problem. the environment simulates the dynamics of the
+agents' world and hence provides feedback to their actions in terms of state
+observations and external rewards. to ease the design and simulation of such
+environments this work introduces $\texttt{apes}$, a highly customizable and
+open source package in python to create 2d grid-world environments for
+reinforcement learning problems. $\texttt{apes}$ equips agents with algorithms
+to simulate any field of vision, it allows the creation and positioning of
+items and rewards according to user-defined rules, and supports the interaction
+of multiple agents.

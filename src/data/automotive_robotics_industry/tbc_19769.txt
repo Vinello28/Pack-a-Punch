@@ -1,0 +1,10 @@
+rotation estimation of known rigid objects is important for robotic
+applications such as dexterous manipulation. most existing methods for rotation
+estimation use intermediate representations such as templates, global or local
+feature descriptors, or object coordinates, which require multiple steps in
+order to infer the object pose. we propose to directly regress a pose vector
+from raw point cloud segments using a convolutional neural network.
+experimental results show that our method can potentially achieve competitive
+performance compared to a state-of-the-art method, while also showing more
+robustness against occlusion. our method does not require any post processing
+such as refinement with the iterative closest point algorithm.

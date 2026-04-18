@@ -1,0 +1,14 @@
+prison facilities, mental correctional institutions, sports bars and places
+of public protest are prone to sudden violence and conflicts. surveillance
+systems play an important role in mitigation of hostile behavior and
+improvement of security by detecting such provocative and aggressive
+activities. this research proposed using automatic aggressive behavior and
+anger detection to improve the effectiveness of the surveillance systems. an
+emotion and aggression aware component will make the surveillance system highly
+responsive and capable of alerting the security guards in real time. this
+research proposed facial expression, head, hand and body movement and speech
+tracking for detecting anger and aggressive actions. recognition was achieved
+using support vector machines and rule based features. the multimodal affect
+recognition precision rate for anger improved by 15.2% and recall rate improved
+by 11.7% when behavioral rule based features were used in aggressive action
+detection.

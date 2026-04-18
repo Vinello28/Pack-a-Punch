@@ -1,1 +1,0 @@
-Assistente virtuale per la pubblica amministrazione con funzionalita di guida ai servizi comunali, prenotazione appuntamenti e compilazione modulistica.

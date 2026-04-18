@@ -1,0 +1,25 @@
+action recognition in surveillance video makes our life safer by detecting
+the criminal events or predicting violent emergencies. however, efficient
+action recognition is not free of difficulty. first, there are so many action
+classes in daily life that we cannot pre-define all possible action classes
+beforehand. moreover, it is very hard to collect real-word videos for certain
+particular actions such as steal and street fight due to legal restrictions and
+privacy protection. these challenges make existing data-driven recognition
+methods insufficient to attain desired performance. zero-shot learning is
+potential to be applied to solve these issues since it can perform
+classification without positive example. nevertheless, current zero-shot
+learning algorithms have been studied under the unreasonable setting where seen
+classes are absent during the testing phase. motivated by this, we study the
+task of action recognition in surveillance video under a more realistic
+\emph{generalized zero-shot setting}, where testing data contains both seen and
+unseen classes. to our best knowledge, this is the first work to study video
+action recognition under the generalized zero-shot setting. we firstly perform
+extensive empirical studies on several existing zero-shot leaning approaches
+under this new setting on a web-scale video data. our experimental results
+demonstrate that, under the generalize setting, typical zero-shot learning
+methods are no longer effective for the dataset we applied. then, we propose a
+method for action recognition by deploying generalized zero-shot learning,
+which transfers the knowledge of web video to detect the anomalous actions in
+surveillance videos. to verify the effectiveness of our proposed method, we
+further construct a new surveillance video dataset consisting of nine action
+classes related to the public safety situation.

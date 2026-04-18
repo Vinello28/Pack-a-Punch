@@ -1,0 +1,16 @@
+we present a learning-based system for rapid mass-scale material synthesis
+that is useful for novice and expert users alike. the user preferences are
+learned via gaussian process regression and can be easily sampled for new
+recommendations. typically, each recommendation takes 40-60 seconds to render
+with global illumination, which makes this process impracticable for real-world
+workflows. our neural network eliminates this bottleneck by providing
+high-quality image predictions in real time, after which it is possible to pick
+the desired materials from a gallery and assign them to a scene in an intuitive
+manner. workflow timings against disney's "principled" shader reveal that our
+system scales well with the number of sought materials, thus empowering even
+novice users to generate hundreds of high-quality material models without any
+expertise in material modeling. similarly, expert users experience a
+significant decrease in the total modeling time when populating a scene with
+materials. furthermore, our proposed solution also offers controllable
+recommendations and a novel latent space variant generation step to enable the
+real-time fine-tuning of materials without requiring any domain expertise.

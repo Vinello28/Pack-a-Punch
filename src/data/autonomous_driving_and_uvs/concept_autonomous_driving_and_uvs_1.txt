@@ -1,1 +1,0 @@
-Il SLAM (Simultaneous Localization and Mapping) e una tecnica fondamentale per i veicoli autonomi che consente di costruire una mappa dell'ambiente e localizzare il veicolo al suo interno in tempo reale.

@@ -1,0 +1,16 @@
+this project demonstrated a methodology to estimating cooperate credibility
+with a natural language processing approach. as cooperate transparency impacts
+both the credibility and possible future earnings of the firm, it is an
+important factor to be considered by banks and investors on risk assessments of
+listed firms. this approach of estimating cooperate credibility can bypass
+human bias and inconsistency in the risk assessment, the use of large
+quantitative data and neural network models provides more accurate estimation
+in a more efficient manner compare to manual assessment. at the beginning, the
+model will employs latent dirichlet allocation and thu open chinese lexicon
+from tsinghua university to classify topics in articles which are potentially
+related to corporate credibility. then with the keywords related to each
+topics, we trained a residual convolutional neural network with data labeled
+according to surveys of fund manager and accountant's opinion on corporate
+credibility. after the training, we run the model with preprocessed news
+reports regarding to all of the 3065 listed companies, the model is supposed to
+give back companies ranking based on the level of their transparency.

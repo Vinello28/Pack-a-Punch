@@ -1,0 +1,19 @@
+e-commerce websites such as amazon, alibaba, flipkart, and walmart sell
+billions of products. machine learning (ml) algorithms involving products are
+often used to improve the customer experience and increase revenue, e.g.,
+product similarity, recommendation, and price estimation. the products are
+required to be represented as features before training an ml algorithm. in this
+paper, we propose an approach called mrnet-product2vec for creating generic
+embeddings of products within an e-commerce ecosystem. we learn a dense and
+low-dimensional embedding where a diverse set of signals related to a product
+are explicitly injected into its representation. we train a discriminative
+multi-task bidirectional recurrent neural network (rnn), where the input is a
+product title fed through a bidirectional rnn and at the output, product labels
+corresponding to fifteen different tasks are predicted. the task set includes
+several intrinsic characteristics about a product such as price, weight, size,
+color, popularity, and material. we evaluate the proposed embedding
+quantitatively and qualitatively. we demonstrate that they are almost as good
+as sparse and extremely high-dimensional tf-idf representation in spite of
+having less than 3% of the tf-idf dimension. we also use a multimodal
+autoencoder for comparing products from different language-regions and show
+preliminary yet promising qualitative results.

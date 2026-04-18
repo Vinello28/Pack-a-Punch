@@ -1,0 +1,22 @@
+bidding optimization is one of the most critical problems in online
+advertising. sponsored search (ss) auction, due to the randomness of user query
+behavior and platform nature, usually adopts keyword-level bidding strategies.
+in contrast, the display advertising (da), as a relatively simpler scenario for
+auction, has taken advantage of real-time bidding (rtb) to boost the
+performance for advertisers. in this paper, we consider the rtb problem in
+sponsored search auction, named ss-rtb. ss-rtb has a much more complex dynamic
+environment, due to stochastic user query behavior and more complex bidding
+policies based on multiple keywords of an ad. most previous methods for da
+cannot be applied. we propose a reinforcement learning (rl) solution for
+handling the complex dynamic environment. although some rl methods have been
+proposed for online advertising, they all fail to address the "environment
+changing" problem: the state transition probabilities vary between two days.
+motivated by the observation that auction sequences of two days share similar
+transition patterns at a proper aggregation level, we formulate a robust mdp
+model at hour-aggregation level of the auction data and propose a
+control-by-model framework for ss-rtb. rather than generating bid prices
+directly, we decide a bidding model for impressions of each hour and perform
+real-time bidding accordingly. we also extend the method to handle the
+multi-agent problem. we deployed the ss-rtb system in the e-commerce search
+auction platform of alibaba. empirical experiments of offline evaluation and
+online a/b test demonstrate the effectiveness of our method.

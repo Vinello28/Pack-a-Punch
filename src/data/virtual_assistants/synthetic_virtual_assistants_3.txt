@@ -1,1 +1,0 @@
-Progetto di helpdesk AI per il supporto tecnico interno aziendale basato su architettura RAG con knowledge base documentale.

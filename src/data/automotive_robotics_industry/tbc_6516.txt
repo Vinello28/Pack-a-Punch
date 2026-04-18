@@ -1,0 +1,22 @@
+object detection in streaming images is a major step in different
+detection-based applications, such as object tracking, action recognition,
+robot navigation, and visual surveillance applications. in mostcases, image
+quality is noisy and biased, and as a result, the data distributions are
+disturbed and imbalanced. most object detection approaches, such as the faster
+region-based convolutional neural network (faster rcnn), single shot multibox
+detector with 300x300 inputs (ssd300), and you only look once version 2
+(yolov2), rely on simple sampling without considering distortions and noise
+under real-world changing environments, despite poor object labeling. in this
+paper, we propose an incremental active semi-supervised learning (iassl)
+technology for unseen object detection. it combines batch-based active learning
+(al) and bin-based semi-supervised learning (ssl) to leverage the strong points
+of al's exploration and ssl's exploitation capabilities. a collaborative
+sampling method is also adopted to measure the uncertainty and diversity of al
+and the confidence in ssl. batch-based al allows us to select more informative,
+confident, and representative samples with low cost. bin-based ssl divides
+streaming image samples into several bins, and each bin repeatedly transfers
+the discriminative knowledge of convolutional neural network (cnn) deep
+learning to the next bin until the performance criterion is reached. iassl can
+overcome noisy and biased labels in unknown, cluttered data distributions. we
+obtain superior performance, compared to state-of-the-art technologies such as
+faster rcnn, ssd300, and yolov2.

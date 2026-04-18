@@ -1,0 +1,19 @@
+accurate and reliable brain tumor segmentation is a critical component in
+cancer diagnosis, treatment planning, and treatment outcome evaluation. build
+upon successful deep learning techniques, a novel brain tumor segmentation
+method is developed by integrating fully convolutional neural networks (fcnns)
+and conditional random fields (crfs) in a unified framework to obtain
+segmentation results with appearance and spatial consistency. we train a deep
+learning based segmentation model using 2d image patches and image slices in
+following steps: 1) training fcnns using image patches; 2) training crfs as
+recurrent neural networks (crf-rnn) using image slices with parameters of fcnns
+fixed; and 3) fine-tuning the fcnns and the crf-rnn using image slices.
+particularly, we train 3 segmentation models using 2d image patches and slices
+obtained in axial, coronal and sagittal views respectively, and combine them to
+segment brain tumors using a voting based fusion strategy. our method could
+segment brain images slice-by-slice, much faster than those based on image
+patches. we have evaluated our method based on imaging data provided by the
+multimodal brain tumor image segmentation challenge (brats) 2013, brats 2015
+and brats 2016. the experimental results have demonstrated that our method
+could build a segmentation model with flair, t1c, and t2 scans and achieve
+competitive performance as those built with flair, t1, t1c, and t2 scans.

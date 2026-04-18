@@ -1,0 +1,16 @@
+short-term load forecasting (stlf) is essential for the reliable and economic
+operation of power systems. though many stlf methods were proposed over the
+past decades, most of them focused on loads at high aggregation levels only.
+thus, low-aggregation load forecast still requires further research and
+development. compared with the substation or city level loads, individual loads
+are typically more volatile and much more challenging to forecast. to further
+address this issue, this paper first discusses the characteristics of
+small-and-medium enterprise (sme) and residential loads at different
+aggregation levels and quantifies their predictability with approximate
+entropy. various stlf techniques, from the conventional linear regression to
+state-of-the-art deep learning, are implemented for a detailed comparative
+analysis to verify the forecasting performances as well as the predictability
+using an irish smart meter dataset. in addition, the paper also investigates
+how using data processing improves individual-level residential load
+forecasting with low predictability. effectiveness of the discussed method is
+validated with numerical results.

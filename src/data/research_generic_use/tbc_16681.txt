@@ -1,0 +1,10 @@
+image mosaicing is a method of constructing multiple images of the same scene
+into a larger image. the output of the image mosaic will be the union of two
+input images. image-mosaicing algorithms are used to get mosaiced image. image
+mosaicing processed is basically divided in to 5 phases. which includes;
+feature point extraction, image registration, homography computation, warping
+and blending if image. various corner detection algorithm is being used for
+feature extraction. this corner produces an efficient and informative output
+mosaiced image. image mosaicing is widely used in creating 3d images, medical
+imaging, computer vision, data from satellites, and military automatic target
+recognition.

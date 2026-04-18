@@ -1,0 +1,8 @@
+in this paper we report results for recognizing colorectal nbi endoscopic
+images by using features extracted from convolutional neural network (cnn). in
+this comparative study, we extract features from different layers from
+different cnn models, and then train linear svm classifiers. experimental
+results with 10-fold cross validations show that features from first few
+convolution layers are enough to achieve similar performance (i.e., recognition
+rate of 95%) with non-cnn local features such as bag-of-visual words, fisher
+vector, and vlad.

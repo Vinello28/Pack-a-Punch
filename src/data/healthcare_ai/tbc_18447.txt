@@ -1,0 +1,15 @@
+identifying complex neural circuitry from electron microscopic (em) images
+may help unlock the mysteries of the brain. however, identifying this circuitry
+requires time-consuming, manual tracing (proofreading) due to the size and
+intricacy of these image datasets, thus limiting state-of-the-art analysis to
+very small brain regions. potential avenues to improve scalability include
+automatic image segmentation and crowd sourcing, but current efforts have had
+limited success. in this paper, we propose a new strategy, focused
+proofreading, that works with automatic segmentation and aims to limit
+proofreading to the regions of a dataset that are most impactful to the
+resulting circuit. we then introduce a novel workflow, which exploits
+biological information such as synapses, and apply it to a large dataset in the
+fly optic lobe. with our techniques, we achieve significant tracing speedups of
+3-5x without sacrificing the quality of the resulting circuit. furthermore, our
+methodology makes the task of proofreading much more accessible and hence
+potentially enhances the effectiveness of crowd sourcing.

@@ -1,0 +1,12 @@
+magnetic resonance imaging (mri) enables 3-d imaging of anatomical
+structures. however, the acquisition of mr volumes with high spatial resolution
+leads to long scan times. to this end, we propose volumetric super-resolution
+forests (vsrf) to enhance mri resolution retrospectively. our method learns a
+locally linear mapping between low-resolution and high-resolution volumetric
+image patches by employing random forest regression. we customize features
+suitable for volumetric mri to train the random forest and propose a median
+tree ensemble for robust regression. vsrf outperforms state-of-the-art
+example-based super-resolution in term of image quality and efficiency for
+model training and inference in different mri datasets. it is also superior to
+unsupervised methods with just a handful or even a single volume to assemble
+training data.

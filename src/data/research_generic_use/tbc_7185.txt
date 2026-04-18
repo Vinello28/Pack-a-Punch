@@ -1,0 +1,1 @@
+to reduce the complexity of the hardware implementation of neural network-based optical channel equalizers, we demonstrate that the performance of the bilstm equalizer with approximated activation functions is close to that of the original model.

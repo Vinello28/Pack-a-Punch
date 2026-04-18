@@ -1,0 +1,10 @@
+this work presents the task of modifying images in an image editing program
+using natural language written commands. we utilize a corpus of over 6000 image
+edit text requests to alter real world images collected via crowdsourcing. a
+novel framework composed of actions and entities to map a user's natural
+language request to executable commands in an image editing program is
+described. we resolve previously labeled annotator disagreement through a
+voting process and complete annotation of the corpus. we experimented with
+different machine learning models and found that the lstm, the svm, and the
+bidirectional lstm-crf joint models are the best to detect image editing
+actions and associated entities in a given utterance.

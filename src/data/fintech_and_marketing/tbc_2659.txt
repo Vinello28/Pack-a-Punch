@@ -1,0 +1,23 @@
+telecommunications operators (telcos) traditional sources of income, voice
+and sms, are shrinking due to customers using over-the-top (ott) applications
+such as whatsapp or viber. in this challenging environment it is critical for
+telcos to maintain or grow their market share, by providing users with as good
+an experience as possible on their network.
+  but the task of extracting customer insights from the vast amounts of data
+collected by telcos is growing in complexity and scale everey day. how can we
+measure and predict the quality of a user's experience on a telco network in
+real-time? that is the problem that we address in this paper.
+  we present an approach to capture, in (near) real-time, the mobile customer
+experience in order to assess which conditions lead the user to place a call to
+a telco's customer care center. to this end, we follow a supervised learning
+approach for prediction and train our 'restricted random forest' model using,
+as a proxy for bad experience, the observed customer transactions in the telco
+data feed before the user places a call to a customer care center.
+  we evaluate our approach using a rich dataset provided by a major african
+telecommunication's company and a novel big data architecture for both the
+training and scoring of predictive models. our empirical study shows our
+solution to be effective at predicting user experience by inferring if a
+customer will place a call based on his current context.
+  these promising results open new possibilities for improved customer service,
+which will help telcos to reduce churn rates and improve customer experience,
+both factors that directly impact their revenue growth.

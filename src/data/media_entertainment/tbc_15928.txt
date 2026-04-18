@@ -1,0 +1,11 @@
+deep reinforcement learning, and especially the asynchronous advantage
+actor-critic algorithm, has been successfully used to achieve super-human
+performance in a variety of video games. starcraft ii is a new challenge for
+the reinforcement learning community with the release of pysc2 learning
+environment proposed by google deepmind and blizzard entertainment. despite
+being a target for several ai developers, few have achieved human level
+performance. in this project we explain the complexities of this environment
+and discuss the results from our experiments on the environment. we have
+compared various architectures and have proved that transfer learning can be an
+effective paradigm in reinforcement learning research for complex scenarios
+requiring skill transfer.

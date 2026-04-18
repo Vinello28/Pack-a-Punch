@@ -1,0 +1,19 @@
+breast cancer is one of the leading causes of mortality in women. early
+detection and treatment are imperative for improving survival rates, which have
+steadily increased in recent years as a result of more sophisticated
+computer-aided-diagnosis (cad) systems. a critical component of breast cancer
+diagnosis relies on histopathology, a laborious and highly subjective process.
+consequently, cad systems are essential to reduce inter-rater variability and
+supplement the analyses conducted by specialists. in this paper, a
+transfer-learning based approach is proposed, for the task of breast histology
+image classification into four tissue sub-types, namely, normal, benign,
+\textit{in situ} carcinoma and invasive carcinoma. the histology images,
+provided as part of the bach 2018 grand challenge, were first normalized to
+correct for color variations resulting from inconsistencies during slide
+preparation. subsequently, image patches were extracted and used to fine-tune
+google`s inception-v3 and resnet50 convolutional neural networks (cnns), both
+pre-trained on the imagenet database, enabling them to learn domain-specific
+features, necessary to classify the histology images. the resnet50 network
+(based on residual learning) achieved a test classification accuracy of 97.50%
+for four classes, outperforming the inception-v3 network which achieved an
+accuracy of 91.25%.

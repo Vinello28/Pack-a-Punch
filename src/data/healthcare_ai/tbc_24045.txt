@@ -1,0 +1,18 @@
+in recent years, deep learning (dl) methods have become powerful tools for
+biomedical image segmentation. however, high annotation efforts and costs are
+commonly needed to acquire sufficient biomedical training data for dl models.
+to alleviate the burden of manual annotation, in this paper, we propose a new
+weakly supervised dl approach for biomedical image segmentation using boxes
+only annotation. first, we develop a method to combine graph search (gs) and dl
+to generate fine object masks from box annotation, in which dl uses box
+annotation to compute a rough segmentation for gs and then gs is applied to
+locate the optimal object boundaries. during the mask generation process, we
+carefully utilize information from box annotation to filter out potential
+errors, and then use the generated masks to train an accurate dl segmentation
+network. extensive experiments on gland segmentation in histology images, lymph
+node segmentation in ultrasound images, and fungus segmentation in electron
+microscopy images show that our approach attains superior performance over the
+best known state-of-the-art weakly supervised dl method and is able to achieve
+(1) nearly the same accuracy compared to fully supervised dl methods with far
+less annotation effort, (2) significantly better results with similar
+annotation time, and (3) robust performance in various applications.

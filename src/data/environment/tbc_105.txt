@@ -1,0 +1,15 @@
+uk electricity market changes provide opportunities to alter households'
+electricity usage patterns for the benefit of the overall electricity network.
+work on clustering similar households has concentrated on daily load profiles
+and the variability in regular household behaviours has not been considered.
+those households with most variability in regular activities may be the most
+receptive to incentives to change timing.
+  whether using the variability of regular behaviour allows the creation of
+more consistent groupings of households is investigated and compared with daily
+load profile clustering. 204 uk households are analysed to find repeating
+patterns (motifs). variability in the time of the motif is used as the basis
+for clustering households. different clustering algorithms are assessed by the
+consistency of the results.
+  findings show that variability of behaviour, using motifs, provides more
+consistent groupings of households across different clustering algorithms and
+allows for more efficient targeting of behaviour change interventions.

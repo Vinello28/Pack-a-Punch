@@ -1,0 +1,12 @@
+accurate segmentation of anatomical structures in chest radiographs is
+essential for many computer-aided diagnosis tasks. in this paper we investigate
+the latest fully-convolutional architectures for the task of multi-class
+segmentation of the lungs field, heart and clavicles in a chest radiograph. in
+addition, we explore the influence of using different loss functions in the
+training process of a neural network for semantic segmentation. we evaluate all
+models on a common benchmark of 247 x-ray images from the jsrt database and
+ground-truth segmentation masks from the scr dataset. our best performing
+architecture, is a modified u-net that benefits from pre-trained encoder
+weights. this model outperformed the current state-of-the-art methods tested on
+the same benchmark, with jaccard overlap scores of 96.1% for lung fields, 90.6%
+for heart and 85.5% for clavicles.

@@ -1,0 +1,13 @@
+the ubiquity of machine learning based predictive models in modern society
+naturally leads people to ask how trustworthy those models are? in predictive
+modeling, it is quite common to induce a trade-off between accuracy and
+interpretability. for instance, doctors would like to know how effective some
+treatment will be for a patient or why the model suggested a particular
+medication for a patient exhibiting those symptoms? we acknowledge that the
+necessity for interpretability is a consequence of an incomplete formalisation
+of the problem, or more precisely of multiple meanings adhered to a particular
+concept. for certain problems, it is not enough to get the answer (what), the
+model also has to provide an explanation of how it came to that conclusion
+(why), because a correct prediction, only partially solves the original
+problem. in this article we extend existing categorisation of techniques to aid
+model interpretability and test this categorisation.

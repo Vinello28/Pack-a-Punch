@@ -1,0 +1,17 @@
+gait is a person's natural walking style and a complex biological process
+that is unique to each person. recently, the channel state information (csi) of
+wifi devices have been exploited to capture human gait biometrics for user
+identification. however, the performance of existing csi-based gait
+identification systems is far from satisfactory. they can only achieve limited
+identification accuracy (maximum $93\%$) only for a very small group of people
+(i.e., between 2 to 10). to address such challenge, an end-to-end deep csi
+learning system is developed, which exploits deep neural networks to
+automatically learn the salient gait features in csi data that are
+discriminative enough to distinguish different people firstly, the raw csi data
+are sanitized through window-based denoising, mean centering and normalization.
+the sanitized data is then passed to a residual deep convolutional neural
+network (dcnn), which automatically extracts the hierarchical features of
+gait-signatures embedded in the csi data. finally, a softmax classifier
+utilizes the extracted features to make the final prediction about the identity
+of the user. in a typical indoor environment, a top-1 accuracy of $97.12 \pm
+1.13\%$ is achieved for a dataset of 30 people.

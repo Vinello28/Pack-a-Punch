@@ -1,1 +1,0 @@
-Ottimizzazione della gestione delle offerte e della progettazione tecnica di Promel  attraverso lo sviluppo di un sistema basato su modelli di intelligenza artificiale (AI) per l’individuazione di progetti passati simili e la selezione preventiva delle componenti critiche

@@ -1,0 +1,17 @@
+deep convolutional neural networks (cnns), especially fully convolutional
+networks, have been widely applied to automatic medical image segmentation
+problems, e.g., multi-organ segmentation. existing cnn-based segmentation
+methods mainly focus on looking for increasingly powerful network
+architectures, but pay less attention to data sampling strategies for training
+networks more effectively. in this paper, we present a simple but effective
+sample selection method for training multi-organ segmentation networks. sample
+selection exhibits an exploitation-exploration strategy, i.e., exploiting hard
+samples and exploring less frequently visited samples. based on the fact that
+very hard samples might have annotation errors, we propose a new sample
+selection policy, named relaxed upper confident bound (rucb). compared with
+other sample selection policies, e.g., upper confident bound (ucb), it exploits
+a range of hard samples rather than being stuck with a small set of very hard
+ones, which mitigates the influence of annotation errors during training. we
+apply this new sample selection policy to training a multi-organ segmentation
+network on a dataset containing 120 abdominal ct scans and show that it boosts
+segmentation performance significantly.

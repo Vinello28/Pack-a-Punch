@@ -1,0 +1,11 @@
+detecting topographic changes in the urban environment has always been an
+important task for urban planning and monitoring. in practice, remote sensing
+data are often available in different modalities and at different time epochs.
+change detection between multimodal data can be very challenging since the data
+show different characteristics. given 3d laser scanning point clouds and 2d
+imagery from different epochs, this paper presents a framework to detect
+building and tree changes. first, the 2d and 3d data are transformed to image
+patches, respectively. a siamese cnn is then employed to detect candidate
+changes between the two epochs. finally, the candidate patch-based changes are
+grouped and verified as individual object changes. experiments on the urban
+data show that 86.4\% of patch pairs can be correctly classified by the model.

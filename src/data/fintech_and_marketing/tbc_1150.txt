@@ -1,0 +1,15 @@
+this paper analyzes customer product-choice behavior based on the recency and
+frequency of each customer's page views on e-commerce sites. recently, we
+devised an optimization model for estimating product-choice probabilities that
+satisfy monotonicity, convexity, and concavity constraints with respect to
+recency and frequency. this shape-restricted model delivered high predictive
+performance even when there were few training samples. however, typical
+e-commerce sites deal in many different varieties of products, so the
+predictive performance of the model can be further improved by integration of
+such product heterogeneity. for this purpose, we develop a novel latent-class
+shape-restricted model for estimating product-choice probabilities for each
+latent class of products. we also give a tailored expectation-maximization
+algorithm for parameter estimation. computational results demonstrate that
+higher predictive performance is achieved with our latent-class model than with
+the previous shape-restricted model and common latent-class logistic
+regression.

@@ -1,0 +1,14 @@
+we present a new data-driven video inpainting method for recovering missing
+regions of video frames. a novel deep learning architecture is proposed which
+contains two sub-networks: a temporal structure inference network and a spatial
+detail recovering network. the temporal structure inference network is built
+upon a 3d fully convolutional architecture: it only learns to complete a
+low-resolution video volume given the expensive computational cost of 3d
+convolution. the low resolution result provides temporal guidance to the
+spatial detail recovering network, which performs image-based inpainting with a
+2d fully convolutional network to produce recovered video frames in their
+original resolution. such two-step network design ensures both the spatial
+quality of each frame and the temporal coherence across frames. our method
+jointly trains both sub-networks in an end-to-end manner. we provide
+qualitative and quantitative evaluation on three datasets, demonstrating that
+our method outperforms previous learning-based video inpainting methods.

@@ -1,0 +1,16 @@
+semantic segmentation of land cover classes is fundamental for agricultural
+and economic development work, from sustainable forestry to urban planning, yet
+existing training datasets have significant limitations. to generate an open
+and comprehensive training library of high resolution earth imagery and high
+quality land cover classifications, public sentinel-2 data at 10 m spatial
+resolution was matched with accurate globeland30 labels from 2010, which were
+filtered by agreement with an intermediary sentinel-2 classification at 20 m
+produced during atmospheric correction. scene-level classifications were
+predicted by random forests trained on valid reflectance data and the filtered
+labels, and achieved over 80% model accuracy for a variety of locations.
+further work is required to aggregate individual scene classifications for
+annual labels and to test the approach in more locations, before crowdsourcing
+human validation. the goal is to create a sustained community-wide effort to
+generate image labels not only for land cover, but also very specific images
+for major agriculture crops across the world and other thematic categories of
+interest to the global development community.

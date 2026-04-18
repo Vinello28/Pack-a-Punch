@@ -1,0 +1,19 @@
+this paper presents a novel method to involve both spatial and temporal
+features for semantic video segmentation. current work on convolutional neural
+networks(cnns) has shown that cnns provide advanced spatial features supporting
+a very good performance of solutions for both image and video analysis,
+especially for the semantic segmentation task. we investigate how involving
+temporal features also has a good effect on segmenting video data. we propose a
+module based on a long short-term memory (lstm) architecture of a recurrent
+neural network for interpreting the temporal characteristics of video frames
+over time. our system takes as input frames of a video and produces a
+correspondingly-sized output; for segmenting the video our method combines the
+use of three components: first, the regional spatial features of frames are
+extracted using a cnn; then, using lstm the temporal features are added;
+finally, by deconvolving the spatio-temporal features we produce pixel-wise
+predictions. our key insight is to build spatio-temporal convolutional networks
+(spatio-temporal cnns) that have an end-to-end architecture for semantic video
+segmentation. we adapted fully some known convolutional network architectures
+(such as fcn-alexnet and fcn-vgg16), and dilated convolution into our
+spatio-temporal cnns. our spatio-temporal cnns achieve state-of-the-art
+semantic segmentation, as demonstrated for the camvid and nyudv2 datasets.

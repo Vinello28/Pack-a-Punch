@@ -1,0 +1,14 @@
+skin cancer is the most common of all cancers and each year million cases of
+skin cancer are treated. treating and curing skin cancer is easy, if it is
+diagnosed and treated at an early stage. in this work we propose an automatic
+technique for skin lesion segmentation in dermoscopic images which helps in
+classifying the skin cancer types. the proposed method comprises of two major
+phases (1) preprocessing and (2) segmentation using semi-supervised learning
+algorithm. in the preprocessing phase noise are removed using filtering
+technique and in the segmentation phase skin lesions are segmented based on
+clustering technique. k-means clustering algorithm is used to cluster the
+preprocessed images and skin lesions are filtered from these clusters based on
+the color feature. color of the skin lesions are learned from the training
+images using histograms calculations in rgb color space. the training images
+were downloaded from the isic 2017 challenge website and the experimental
+results were evaluated using validation and test sets.

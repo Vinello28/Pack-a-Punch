@@ -1,0 +1,14 @@
+in autonomous racing, vehicles operate close to the limits of handling and a
+sensor failure can have critical consequences. to limit the impact of such
+failures, this paper presents the redundant perception and state estimation
+approaches developed for an autonomous race car. redundancy in perception is
+achieved by estimating the color and position of the track delimiting objects
+using two sensor modalities independently. specifically, learning-based
+approaches are used to generate color and pose estimates, from lidar and camera
+data respectively. the redundant perception inputs are fused by a particle
+filter based slam algorithm that operates in real-time. velocity is estimated
+using slip dynamics, with reliability being ensured through a probabilistic
+failure detection algorithm. the sub-modules are extensively evaluated in
+real-world racing conditions using the autonomous race car "gotthard
+driverless", achieving lateral accelerations up to 1.7g and a top speed of
+90km/h.

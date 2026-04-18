@@ -1,0 +1,19 @@
+this paper presents a modular lightweight network model for road objects
+detection, such as car, pedestrian and cyclist, especially when they are far
+away from the camera and their sizes are small. great advances have been made
+for the deep networks, but small objects detection is still a challenging task.
+in order to solve this problem, majority of existing methods utilize
+complicated network or bigger image size, which generally leads to higher
+computation cost. the proposed network model is referred to as modular feature
+fusion detector (mffd), using a fast and efficient network architecture for
+detecting small objects. the contribution lies in the following aspects: 1) two
+base modules have been designed for efficient computation: front module reduce
+the information loss from raw input images; tinier module decrease model size
+and computation cost, while ensuring the detection accuracy. 2) by stacking the
+base modules, we design a context features fusion framework for multi-scale
+object detection. 3) the propose method is efficient in terms of model size and
+computation cost, which is applicable for resource limited devices, such as
+embedded systems for advanced driver assistance systems (adas). comparisons
+with the state-of-the-arts on the challenging kitti dataset reveal the
+superiority of the proposed method. especially, 100 fps can be achieved on the
+embedded gpus such as jetson tx2.

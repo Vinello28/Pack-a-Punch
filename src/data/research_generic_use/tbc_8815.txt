@@ -1,0 +1,9 @@
+recently convolutional neural networks (cnns) models have proven remarkable
+results for text classification and sentiment analysis. in this paper, we
+present our approach on the task of classifying business reviews using word
+embeddings on a large-scale dataset provided by yelp: yelp 2017 challenge
+dataset. we compare word-based cnn using several pre-trained word embeddings
+and end-to-end vector representations for text reviews classification. we
+conduct several experiments to capture the semantic relationship between
+business reviews and we use deep learning techniques that prove that the
+obtained results are competitive with traditional methods.

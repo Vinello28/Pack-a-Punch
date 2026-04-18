@@ -1,0 +1,16 @@
+procedural content generation (pcg) has recently become one of the hottest
+topics in computational intelligence and ai game researches. among a variety of
+pcg techniques, search-based approaches overwhelmingly dominate pcg development
+at present. while sbpcg leads to promising results and successful applications,
+it poses a number of challenges ranging from representation to evaluation of
+the content being generated. in this paper, we present an alternative yet
+generic pcg framework, named learning-based procedure content generation
+(lbpcg), to provide potential solutions to several challenging problems in
+existing pcg techniques. by exploring and exploiting information gained in game
+development and public beta test via data-driven learning, our framework can
+generate robust content adaptable to end-user or target players on-line with
+minimal interruption to their experience. furthermore, we develop enabling
+techniques to implement the various models required in our framework. for a
+proof of concept, we have developed a prototype based on the classic open
+source first-person shooter game, quake. simulation results suggest that our
+framework is promising in generating quality content.

@@ -1,0 +1,17 @@
+in e-commerce websites like taobao, brand is playing a more important role in
+influencing users' decision of click/purchase, partly because users are now
+attaching more importance to the quality of products and brand is an indicator
+of quality. however, existing ranking systems are not specifically designed to
+satisfy this kind of demand. some design tricks may partially alleviate this
+problem, but still cannot provide satisfactory results or may create additional
+interaction cost. in this paper, we design the first brand-level ranking system
+to address this problem. the key challenge of this system is how to
+sufficiently exploit users' rich behavior in e-commerce websites to rank the
+brands. in our solution, we firstly conduct the feature engineering
+specifically tailored for the personalized brand ranking problem and then rank
+the brands by an adapted attention-gru model containing three important
+modifications. note that our proposed modifications can also apply to many
+other machine learning models on various tasks. we conduct a series of
+experiments to evaluate the effectiveness of our proposed ranking model and
+test the response to the brand-level ranking system from real users on a
+large-scale e-commerce platform, i.e. taobao.

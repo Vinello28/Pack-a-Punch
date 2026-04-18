@@ -1,0 +1,16 @@
+catastrophic transitions, where a system shifts abruptly between alternate
+steady states, are a generic feature of many nonlinear systems. recently these
+regime shift were suggested as the mechanism underlies many ecological
+catastrophes, such as desertification and coral reef collapses, which are
+considered as a prominent threat to sustainability and to the well-being of
+millions. still, the methods proposed so far for the prediction of an imminent
+transition are quite ineffective, and some empirical and theoretical studies
+suggest that actual transitions may occur smoothly, without an abrupt shift.
+here we present a new diagnostic tool, based on monitoring the dynamics of
+clusters through time. our technique discriminates between systems with local
+positive feedback, where the transition is abrupt, and systems with negative
+density dependence, where the transition is smooth. analyzing the spatial
+dynamics of these two generic scenarios, we show that changes in the critical
+cluster size provide a reliable early warning indicator for both transitions.
+our method may allow for the prediction, and thus hopefully the prevention of
+such transitions, avoiding their destructive outcomes.

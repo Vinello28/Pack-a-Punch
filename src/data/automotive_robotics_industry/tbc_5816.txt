@@ -1,0 +1,14 @@
+automating the navigation of unmanned aerial vehicles (uavs) in diverse
+scenarios has gained much attention in recent years. however, teaching uavs to
+fly in challenging environments remains an unsolved problem, mainly due to the
+lack of training data. in this paper, we train a deep neural network to predict
+uav controls from raw image data for the task of autonomous uav racing in a
+photo-realistic simulation. training is done through imitation learning with
+data augmentation to allow for the correction of navigation mistakes. extensive
+experiments demonstrate that our trained network (when sufficient data
+augmentation is used) outperforms state-of-the-art methods and flies more
+consistently than many human pilots. additionally, we show that our optimized
+network architecture can run in real-time on embedded hardware, allowing for
+efficient on-board processing critical for real-world deployment. from a
+broader perspective, our results underline the importance of extensive data
+augmentation techniques to improve robustness in end-to-end learning setups.

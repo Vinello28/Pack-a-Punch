@@ -1,0 +1,19 @@
+reliable and automatic segmentation of lung lobes is important for diagnosis,
+assessment, and quantification of pulmonary diseases. the existing techniques
+are prohibitively slow, undesirably rely on prior (airway/vessel) segmentation,
+and/or require user interactions for optimal results. this work presents a
+reliable, fast, and fully automated lung lobe segmentation based on a
+progressive dense v-network (pdv-net). the proposed method can segment lung
+lobes in one forward pass of the network, with an average runtime of 2 seconds
+using 1 nvidia titan xp gpu, eliminating the need for any prior atlases, lung
+segmentation or any subsequent user intervention. we evaluated our model using
+84 chest ct scans from the lidc and 154 pathological cases from the ltrc
+datasets. our model achieved a dice score of $0.939 \pm 0.02$ for the lidc test
+set and $0.950 \pm 0.01$ for the ltrc test set, significantly outperforming a
+2d u-net model and a 3d dense v-net. we further evaluated our model against 55
+cases from the lola11 challenge, obtaining an average dice score of 0.935---a
+performance level competitive to the best performing team with an average score
+of 0.938. our extensive robustness analyses also demonstrate that our model can
+reliably segment both healthy and pathological lung lobes in ct scans from
+different vendors, and that our model is robust against configurations of ct
+scan reconstruction.

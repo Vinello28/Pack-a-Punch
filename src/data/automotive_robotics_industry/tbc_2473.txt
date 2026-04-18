@@ -1,0 +1,11 @@
+vehicle color information is one of the important elements in its
+(intelligent traffic system). in this paper, we present a vehicle color
+recognition method using convolutional neural network (cnn). naturally, cnn is
+designed to learn classification method based on shape information, but we
+proved that cnn can also learn classification based on color distribution. in
+our method, we convert the input image to two different color spaces, hsv and
+cie lab, and run it to some cnn architecture. the training process follow
+procedure introduce by krizhevsky, that learning rate is decreasing by factor
+of 10 after some iterations. to test our method, we use publicly vehicle color
+recognition dataset provided by chen. the results, our model outperform the
+original system provide by chen with 2% higher overall accuracy.

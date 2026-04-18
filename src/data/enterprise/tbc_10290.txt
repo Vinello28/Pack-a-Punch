@@ -1,0 +1,12 @@
+in this article, we investigate the features which enhanced discriminate the
+survival in the micro and small business (mse) using the approach of data
+mining with feature selection. according to the complexity of the data set, we
+proposed a comparison of three data imputation methods such as mean imputation
+(mi), k-nearest neighbor (knn) and expectation maximization (em) using mutually
+the selection of variables technique, whereby t-test, then through the data
+mining process using logistic regression classification methods, naive bayes
+algorithm, linear discriminant analysis and support vector machine hence
+comparing their respective performances. the experimental results will be
+spread in developing a model to predict the mse survival, providing a better
+understanding in the topic once it is a significant part of the brazilian' gpa
+and macroeconomy.

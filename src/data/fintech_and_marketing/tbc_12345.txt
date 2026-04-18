@@ -1,0 +1,18 @@
+with the transition from people's traditional `brick-and-mortar' shopping to
+online mobile shopping patterns in web 2.0 $\mathit{era}$, the recommender
+system plays a critical role in e-commerce and e-retails. this is especially
+true when designing this system for more than $\mathbf{236~million}$ daily
+active users. ranking strategy, the key module of the recommender system, needs
+to be precise, accurate, and responsive for estimating customers' intents. we
+propose a dynamic ranking paradigm, named as dnn-mab, that is composed of a
+pairwise deep neural network (dnn) $\mathit{pre}$-ranker connecting a revised
+multi-armed bandit (mab) dynamic $\mathit{post}$-ranker. by taking into account
+of explicit and implicit user feedbacks such as impressions, clicks,
+conversions, etc. dnn-mab is able to adjust dnn $\mathit{pre}$-ranking scores
+to assist customers locating items they are interested in most so that they can
+converge quickly and frequently. to the best of our knowledge, frameworks like
+dnn-mab have not been discussed in the previous literature to either e-commerce
+or machine learning audiences. in practice, dnn-mab has been deployed to
+production and it easily outperforms against other state-of-the-art models by
+significantly lifting the gross merchandise volume (gmv) which is the objective
+metrics at jd.

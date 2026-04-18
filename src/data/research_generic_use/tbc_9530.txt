@@ -1,0 +1,24 @@
+automatic decision-making approaches, such as reinforcement learning (rl),
+have been applied to (partially) solve the resource allocation problem
+adaptively in the cloud computing system. however, a complete cloud resource
+allocation framework exhibits high dimensions in state and action spaces, which
+prohibit the usefulness of traditional rl techniques. in addition, high power
+consumption has become one of the critical concerns in design and control of
+cloud computing systems, which degrades system reliability and increases
+cooling cost. an effective dynamic power management (dpm) policy should
+minimize power consumption while maintaining performance degradation within an
+acceptable level. thus, a joint virtual machine (vm) resource allocation and
+power management framework is critical to the overall cloud computing system.
+moreover, novel solution framework is necessary to address the even higher
+dimensions in state and action spaces. in this paper, we propose a novel
+hierarchical framework for solving the overall resource allocation and power
+management problem in cloud computing systems. the proposed hierarchical
+framework comprises a global tier for vm resource allocation to the servers and
+a local tier for distributed power management of local servers. the emerging
+deep reinforcement learning (drl) technique, which can deal with complicated
+control problems with large state space, is adopted to solve the global tier
+problem. furthermore, an autoencoder and a novel weight sharing structure are
+adopted to handle the high-dimensional state space and accelerate the
+convergence speed. on the other hand, the local tier of distributed server
+power managements comprises an lstm based workload predictor and a model-free
+rl based power manager, operating in a distributed manner.

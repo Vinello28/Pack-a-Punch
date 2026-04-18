@@ -1,0 +1,20 @@
+recommending the right products is the central problem in recommender
+systems, but the right products should also be recommended at the right time to
+meet the demands of users, so as to maximize their values. users' demands,
+implying strong purchase intents, can be the most useful way to promote
+products sales if well utilized. previous recommendation models mainly focused
+on user's general interests to find the right products. however, the aspect of
+meeting users' demands at the right time has been much less explored. to
+address this problem, we propose a novel long-short demands-aware model (lsdm),
+in which both user's interests towards items and user's demands over time are
+incorporated. we summarize two aspects: termed as long-time demands (e.g.,
+purchasing the same product repetitively showing a long-time persistent
+interest) and short-time demands (e.g., co-purchase like buying paintbrushes
+after pigments). to utilize such long-short demands of users, we create
+different clusters to group the successive product purchases together according
+to different time spans, and use recurrent neural networks to model each
+sequence of clusters at a time scale. the long-short purchase demands with
+multi-time scales are finally aggregated by joint learning strategies.
+experimental results on three real-world commerce datasets demonstrate the
+effectiveness of our model for next-item recommendation, showing the usefulness
+of modeling users' long-short purchase demands of items with multi-time scales.

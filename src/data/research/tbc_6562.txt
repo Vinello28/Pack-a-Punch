@@ -1,1 +1,0 @@
-La proposta progettuale SMART-MDAI propone l'analisi delle esigenze della definizione di realizzazione e sperimentazione prototipale su un caso interdisciplinare di studio focalizzato nel contesto energetico di una piattaforma Cloud/Edge orientata al Big Data Computing il cui paradigma di analisi fondamentale sta nella cosiddetta Big Data Analytics Multidimensionale.

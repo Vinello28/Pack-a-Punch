@@ -1,0 +1,18 @@
+in human-centered intelligent building, real-time measurements of human
+thermal comfort play critical roles and supply feedback control signals for
+building heating, ventilation, and air conditioning (hvac) systems. due to the
+challenges of intra- and inter-individual differences and skin subtleness
+variations, there is no satisfactory solution for thermal comfort measurements
+until now. in this paper, a non-invasive measuring method based on skin
+sensitivity index and deep learning (nisdl) was proposed to measure real-time
+skin temperature. a new evaluating index, named skin sensitivity index (ssi),
+was defined to overcome individual differences and skin subtleness variations.
+to illustrate the effectiveness of ssi proposed, two multi-layers deep learning
+framework (nisdl method i and ii) was designed and the densenet201 was used for
+extracting features from skin images. the partly personal saturation
+temperature (nipst) algorithm was use for algorithm comparisons. another deep
+learning algorithm without ssi (dl) was also generated for algorithm
+comparisons. finally, a total of 1.44 million image data was used for algorithm
+validation. the results show that 55.6180% and 52.2472% error values (nisdl
+method i, ii) are scattered at [0, 0.25), and the same error intervals
+distribution of nipst is 35.3933%.

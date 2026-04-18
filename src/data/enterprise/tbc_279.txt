@@ -1,0 +1,15 @@
+in a large e-commerce platform, all the participants compete for impressions
+under the allocation mechanism of the platform. existing methods mainly focus
+on the short-term return based on the current observations instead of the
+long-term return. in this paper, we formally establish the lifecycle model for
+products, by defining the introduction, growth, maturity and decline stages and
+their transitions throughout the whole life period. based on such model, we
+further propose a reinforcement learning based mechanism design framework for
+impression allocation, which incorporates the first principal component based
+permutation and the novel experiences generation method, to maximize short-term
+as well as long-term return of the platform. with the power of trial-and-error,
+it is possible to optimize impression allocation strategies globally which is
+contribute to the healthy development of participants and the platform itself.
+we evaluate our algorithm on a simulated environment built based on one of the
+largest e-commerce platforms, and a significant improvement has been achieved
+in comparison with the baseline solutions.

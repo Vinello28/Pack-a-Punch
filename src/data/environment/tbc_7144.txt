@@ -1,0 +1,17 @@
+supervised statistical classification is a vital tool for satellite image
+processing. it is useful not only when a discrete result, such as feature
+extraction or surface type, is required, but also for continuum retrievals by
+dividing the quantity of interest into discrete ranges. because of the high
+resolution of modern satellite instruments and because of the requirement for
+real-time processing, any algorithm has to be fast to be useful. here we
+describe an algorithm based on kernel estimation called adaptive gaussian
+filtering that incorporates several innovations to produce superior efficiency
+as compared to three other popular methods: k-nearest-neighbour (knn), learning
+vector quantization (lvq) and support vector machines (svm). this efficiency is
+gained with no compromises: accuracy is maintained, while estimates of the
+conditional probabilities are returned. these are useful not only to gauge the
+accuracy of an estimate in the absence of its true value, but also to
+re-calibrate a retrieved image and as a proxy for a discretized continuum
+variable. the algorithm is demonstrated and compared with the other three on a
+pair of synthetic test classes and to map the waterways of the netherlands.
+software may be found at: http://libagf.sourceforge.net.

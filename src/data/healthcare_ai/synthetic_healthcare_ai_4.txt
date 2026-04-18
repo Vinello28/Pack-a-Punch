@@ -1,1 +1,0 @@
-Implementazione di algoritmi di segmentazione automatica di organi e lesioni su immagini mediche per supporto alla pianificazione chirurgica.

@@ -1,0 +1,13 @@
+due to the extremely volatile nature of financial markets, it is commonly
+accepted that stock price prediction is a task full of challenge. however in
+order to make profits or understand the essence of equity market, numerous
+market participants or researchers try to forecast stock price using various
+statistical, econometric or even neural network models. in this work, we survey
+and compare the predictive power of five neural network models, namely, back
+propagation (bp) neural network, radial basis function (rbf) neural network,
+general regression neural network (grnn), support vector machine regression
+(svmr), least squares support vector machine regresssion (ls-svmr). we apply
+the five models to make price prediction of three individual stocks, namely,
+bank of china, vanke a and kweichou moutai. adopting mean square error and
+average absolute percentage error as criteria, we find bp neural network
+consistently and robustly outperforms the other four models.

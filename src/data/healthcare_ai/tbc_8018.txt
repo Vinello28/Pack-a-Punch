@@ -1,0 +1,15 @@
+person re-identification (re-id) aims to accurately re- trieve a person from
+a large-scale database of images cap- tured across multiple cameras. existing
+works learn deep representations using a large training subset of unique per-
+sons. however, identifying unseen persons is critical for a good re-id
+algorithm. moreover, the misalignment be- tween person crops to detection
+errors or pose variations leads to poor feature matching. in this work, we
+present a fusion of handcrafted features and deep feature representa- tion
+learned using multiple body parts to complement the global body features that
+achieves high performance on un- seen test images. pose information is used to
+detect body regions that are passed through convolutional neural net- works
+(cnn) to guide feature learning. finally, a metric learning step enables robust
+distance matching on a dis- criminative subspace. experimental results on 4
+popular re-id benchmark datasets namely viper, dukemtmc-reid, market-1501 and
+cuhk03 show that the proposed method achieves state-of-the-art performance in
+image-based per- son re-identification.

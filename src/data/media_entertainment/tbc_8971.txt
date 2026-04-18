@@ -1,0 +1,12 @@
+predicting popularity of social media videos before they are published is a
+challenging task, mainly due to the complexity of content distribution network
+as well as the number of factors that play part in this process. as solving
+this task provides tremendous help for media content creators, many successful
+methods were proposed to solve this problem with machine learning. in this
+work, we change the viewpoint and postulate that it is not only the predicted
+popularity that matters, but also, maybe even more importantly, understanding
+of how individual parts influence the final popularity score. to that end, we
+propose to combine the grad-cam visualization method with a soft attention
+mechanism. our preliminary results show that this approach allows for more
+intuitive interpretation of the content impact on video popularity, while
+achieving competitive results in terms of prediction accuracy.

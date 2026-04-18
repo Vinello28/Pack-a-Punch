@@ -1,0 +1,4 @@
+the financial services industry has unique explainability and fairness
+challenges arising from compliance and ethical considerations in credit
+decisioning. these challenges complicate the use of model machine learning and
+artificial intelligence methods in business decision processes.

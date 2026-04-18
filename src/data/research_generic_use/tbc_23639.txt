@@ -1,0 +1,20 @@
+network-based attacks on control systems may alter sensor data delivered to
+the controller, effectively causing degradation in control performance. as a
+result, having access to accurate state estimates, even in the presence of
+attacks on sensor measurements, is of critical importance. in this paper, we
+analyze performance of resilient state estimators (rses) when any subset of
+sensors may be compromised by a stealthy attacker. specifically, we consider
+systems with the well-known l0-based rse and two commonly used sound intrusion
+detectors (ids). for linear time-invariant plants with bounded noise, we define
+the notion of perfect attackability (pa) when attacks may result in unbounded
+estimation errors while remaining undetected by the employed id (i.e.,
+stealthy). we derive necessary and sufficient pa conditions, showing that a
+system can be perfectly attackable even if the plant is stable. while pa can be
+prevented with the use the standard cryptographic mechanisms (e.g.,message
+authentication) that ensure data integrity under network-based attacks, their
+continuous use imposes significant communication and computational overhead.
+consequently, we also study the impact that even intermittent use of data
+authentication has on rse performance guarantees in the presence of stealthy
+attacks. we show that if messages from some of the sensors are even
+intermittently authenticated, stealthy attacks could not result in unbounded
+state estimation errors.

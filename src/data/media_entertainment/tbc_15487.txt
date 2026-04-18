@@ -1,0 +1,12 @@
+humans develop a common sense of style compatibility between items based on
+their attributes. we seek to automatically answer questions like "does this
+shirt go well with that pair of jeans?" in order to answer these kinds of
+questions, we attempt to model human sense of style compatibility in this
+paper. the basic assumption of our approach is that most of the important
+attributes for a product in an online store are included in its title
+description. therefore it is feasible to learn style compatibility from these
+descriptions. we design a siamese convolutional neural network architecture and
+feed it with title pairs of items, which are either compatible or incompatible.
+those pairs will be mapped from the original space of symbolic words into some
+embedded style space. our approach takes only words as the input with few
+preprocessing and there is no laborious and expensive feature engineering.

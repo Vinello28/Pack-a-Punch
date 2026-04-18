@@ -1,0 +1,8 @@
+business corporations manage tons of unstructured data daily, such as pdfs and websites. recent advances in the deep
+learning field help find insight from this unstructured information. new models leverage the power of the transformer
+architecture to accomplish natural language understanding tasks on these data, jointly using the raw image and its text
+content or directly the image without ocr. we propose an extraction pipeline that employs question-answering models
+to get insight from unstructured data, allowing fast and efficient information retrieval from different sources. we show an
+application of this technique to a specific set of documents and how we can scale this infrastructure to different types of
+records. our solution can effectively handle large document corpora robustly, helping corporations exploit all the power
+coming from their data.

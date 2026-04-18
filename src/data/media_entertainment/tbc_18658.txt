@@ -1,0 +1,9 @@
+games have always been popular testbeds for artificial intelligence (ai). in
+the last decade, we have seen the rise of the multiple online battle arena
+(moba) games, which are the most played games nowadays. in spite of this, there
+are few works that explore moba as a testbed for ai research. in this paper we
+present and discuss the main features and opportunities offered by moba games
+to game ai research. we describe the various challenges faced along the game
+and also propose a discrete model that can be used to better understand and
+explore the game. with this, we aim to encourage the use of moba as a novel
+research platform for game ai.

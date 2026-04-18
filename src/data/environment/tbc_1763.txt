@@ -1,0 +1,21 @@
+infrared (ir) images are essential to improve the visibility of dark or
+camouflaged objects. object recognition and segmentation based on a neural
+network using ir images provide more accuracy and insight than color visible
+images. but the bottleneck is the amount of relevant ir images for training. it
+is difficult to collect real-world ir images for special purposes, including
+space exploration, military and fire-fighting applications. to solve this
+problem, we created color visible and ir images using a unity-based 3d game
+editor. these synthetically generated color visible and ir images were used to
+train cycle consistent adversarial networks (cyclegan) to convert visible
+images to ir images. cyclegan has the advantage that it does not require
+precisely matching visible and ir pairs for transformation training. in this
+study, we discovered that additional synthetic data can help improve cyclegan
+performance. neural network training using real data (n = 20) performed more
+accurate transformations than training using real (n = 10) and synthetic (n =
+10) data combinations. the result indicates that the synthetic data cannot
+exceed the quality of the real data. neural network training using real (n =
+10) and synthetic (n = 100) data combinations showed almost the same
+performance as training using real data (n = 20). at least 10 times more
+synthetic data than real data is required to achieve the same performance. in
+summary, cyclegan is used with synthetic data to improve the ir image
+conversion performance of visible images.

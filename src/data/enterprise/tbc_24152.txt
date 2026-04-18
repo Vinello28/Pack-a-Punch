@@ -1,0 +1,14 @@
+with the new opportunities emerging from the current wave of digitalization,
+terminal planning and management need to be revisited by taking a data-driven
+perspective. business analytics, as a practice of extracting insights from
+operational data, assists in reducing uncertainties using predictions and helps
+to identify and understand causes of inefficiencies, disruptions, and anomalies
+in intra- and inter-organizational terminal operations. despite the growing
+complexity of data within and around container terminals, a lack of data-driven
+approaches in the context of container terminals can be identified. in this
+chapter, the concept of business analytics for supporting terminal planning and
+management is introduced. the chapter specifically focuses on data mining
+approaches and provides a comprehensive overview on applications in container
+terminals and related research. as such, we aim to establish a data-driven
+perspective on terminal planning and management, complementing the traditional
+optimization perspective.

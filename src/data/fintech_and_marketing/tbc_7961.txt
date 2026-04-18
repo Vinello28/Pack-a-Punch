@@ -1,0 +1,10 @@
+this paper is to explore the possibility to use alternative data and
+artificial intelligence techniques to trade stocks. the efficacy of the daily
+twitter sentiment on predicting the stock return is examined using machine
+learning methods. reinforcement learning(q-learning) is applied to generate the
+optimal trading policy based on the sentiment signal. the predicting power of
+the sentiment signal is more significant if the stock price is driven by the
+expectation of the company growth and when the company has a major event that
+draws the public attention. the optimal trading strategy based on reinforcement
+learning outperforms the trading strategy based on the machine learning
+prediction.

@@ -1,0 +1,14 @@
+with the increase in online news consumption, to maximize advertisement
+revenue, news media websites try to attract and retain their readers on their
+sites. one of the most effective tools for reader engagement is commenting,
+where news readers post their views as comments against the news articles.
+traditionally, it has been assumed that the comments are mostly made against
+the full article. in this work, we show that present commenting landscape is
+far from this assumption. because the readers lack the time to go over an
+entire article, most of the comments are relevant to only particular sections
+of an article. in this paper, we build a system which can automatically
+classify comments against relevant sections of an article. to implement that,
+we develop a deep neural network based mechanism to find comments relevant to
+any section and a paragraph wise commenting interface to showcase them. we
+believe that such a data driven commenting system can help news websites to
+further increase reader engagement.

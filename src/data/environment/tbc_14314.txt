@@ -1,0 +1,20 @@
+building footprint extraction from high-resolution aerial images is always an
+essential part of urban dynamic monitoring, planning and management. it has
+also been a challenging task in remote sensing research. in recent years, deep
+neural networks have made great achievement in improving accuracy of building
+extraction from remote sensing imagery. however, most of existing approaches
+usually require large amount of parameters and floating point operations for
+high accuracy, it leads to high memory consumption and low inference speed
+which are harmful to research. in this paper, we proposed a novel efficient
+network named esfnet which employs separable factorized residual block and
+utilizes the dilated convolutions, aiming to preserve slight accuracy loss with
+low computational cost and memory consumption. our esfnet obtains a better
+trade-off between accuracy and efficiency, it can run at over 100 fps on single
+tesla v100, requires 6x fewer flops and has 18x fewer parameters than
+state-of-the-art real-time architecture erfnet while preserving similar
+accuracy without any additional context module, post-processing and pre-trained
+scheme. we evaluated our networks on whu building dataset and compared it with
+other state-of-the-art architectures. the result and comprehensive analysis
+show that our networks are benefit for efficient remote sensing researches, and
+the idea can be further extended to other areas. the code is public available
+at: https://github.com/mrluin/esfnet-pytorch

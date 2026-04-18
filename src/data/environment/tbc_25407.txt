@@ -1,0 +1,19 @@
+remote sensing is extensively used in cartography. as transportation networks
+grow and change, extracting roads automatically from satellite images is
+crucial to keep maps up-to-date. synthetic aperture radar satellites can
+provide high resolution topographical maps. however roads are difficult to
+identify in these data as they look visually similar to targets such as rivers
+and railways. most road extraction methods on synthetic aperture radar images
+still rely on a prior segmentation performed by classical computer vision
+algorithms. few works study the potential of deep learning techniques, despite
+their successful applications to optical imagery. this letter presents an
+evaluation of fully-convolutional neural networks for road segmentation in sar
+images. we study the relative performance of early and state-of-the-art
+networks after carefully enhancing their sensitivity towards thin objects by
+adding spatial tolerance rules. our models shows promising results,
+successfully extracting most of the roads in our test dataset. this shows that,
+although fully-convolutional neural networks natively lack efficiency for road
+segmentation, they are capable of good results if properly tuned. as the
+segmentation quality does not scale well with the increasing depth of the
+networks, the design of specialized architectures for roads extraction should
+yield better performances.

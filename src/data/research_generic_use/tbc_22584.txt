@@ -1,0 +1,15 @@
+during the 2017 nba playoffs, celtics coach brad stevens was faced with a
+difficult decision when defending against the cavaliers: "do you double and
+risk giving up easy shots, or stay at home and do the best you can?" it's a
+tough call, but finding a good defensive strategy that effectively incorporates
+doubling can make all the difference in the nba. in this paper, we analyze
+double teaming in the nba, quantifying the trade-off between risk and reward.
+using player trajectory data pertaining to over 643,000 possessions, we
+identified when the ball handler was double teamed. given these data and the
+corresponding outcome (i.e., was the defense successful), we used deep
+reinforcement learning to estimate the quality of the defensive actions. we
+present qualitative and quantitative results summarizing our learned defensive
+strategy for defending. we show that our policy value estimates are predictive
+of points per possession and win percentage. overall, the proposed framework
+represents a step toward a more comprehensive understanding of defensive
+strategies in the nba.

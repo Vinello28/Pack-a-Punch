@@ -1,0 +1,4 @@
+this study evaluates the performances of cnn and lstm for recognizing common
+charts patterns in a stock historical data. it presents two common patterns,
+the method used to build the training set, the neural networks architectures
+and the accuracies obtained.

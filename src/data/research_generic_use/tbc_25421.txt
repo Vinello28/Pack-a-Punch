@@ -1,0 +1,18 @@
+this paper addresses the application of quantum entanglement and cryptography
+for automation and control of dynamic systems. a dynamic system is a system
+where the rates of changes of its state variables are not negligible. quantum
+entanglement is realized by the spontaneous parametric down-conversion process.
+two entangled autonomous systems exhibit correlated behavior without any
+classical communication in between them due to the quantum entanglement
+phenomenon. specifically, the behavior of a system, bob, at a distance, is
+correlated with a corresponding system, alice. in an automation scenario, the
+'bob robot' is entangled with the 'alice robot' in performing autonomous tasks
+without any classical connection between them. quantum cryptography is a
+capability that allows guaranteed security. such capabilities can be
+implemented in control of autonomous mechanical systems where, for instance, an
+'alice autonomous system' can control a 'bob autonomous system' for
+applications of automation and robotics. the applications of quantum
+technologies to mechanical systems, at a scale larger than the atomistic scale,
+for control and automation, is a novel contribution of this paper. notably, the
+feedback control transfer function of an integrated classical dynamic system
+and a quantum state is proposed.

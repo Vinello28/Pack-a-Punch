@@ -1,0 +1,14 @@
+cinemagraphs are a compelling way to convey dynamic aspects of a scene. in
+these media, dynamic and still elements are juxtaposed to create an artistic
+and narrative experience. creating a high-quality, aesthetically pleasing
+cinemagraph requires isolating objects in a semantically meaningful way and
+then selecting good start times and looping periods for those objects to
+minimize visual artifacts (such a tearing). to achieve this, we present a new
+technique that uses object recognition and semantic segmentation as part of an
+optimization method to automatically create cinemagraphs from videos that are
+both visually appealing and semantically meaningful. given a scene with
+multiple objects, there are many cinemagraphs one could create. our method
+evaluates these multiple candidates and presents the best one, as determined by
+a model trained to predict human preferences in a collaborative way. we
+demonstrate the effectiveness of our approach with multiple results and a user
+study.

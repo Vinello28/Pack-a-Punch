@@ -1,0 +1,15 @@
+tropical cyclone wind-intensity prediction is a challenging task considering
+drastic changes climate patterns over the last few decades. in order to develop
+robust prediction models, one needs to consider different characteristics of
+cyclones in terms of spatial and temporal characteristics. transfer learning
+incorporates knowledge from a related source dataset to compliment a target
+datasets especially in cases where there is lack or data. stacking is a form of
+ensemble learning focused for improving generalization that has been recently
+used for transfer learning problems which is referred to as transfer stacking.
+in this paper, we employ transfer stacking as a means of studying the effects
+of cyclones whereby we evaluate if cyclones in different geographic locations
+can be helpful for improving generalization performs. moreover, we use
+conventional neural networks for evaluating the effects of duration on cyclones
+in prediction performance. therefore, we develop an effective strategy that
+evaluates the relationships between different types of cyclones through
+transfer learning and conventional learning methods via neural networks.

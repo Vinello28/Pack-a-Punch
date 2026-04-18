@@ -1,0 +1,26 @@
+in order to find effective treatments for alzheimer's disease (ad), we need
+to identify subjects at risk of ad as early as possible. to this end, recently
+developed disease progression models can be used to perform early diagnosis, as
+well as predict the subjects' disease stages and future evolution. however,
+these models have not yet been applied to rare neurodegenerative diseases, are
+not suitable to understand the complex dynamics of biomarkers, work only on
+large multimodal datasets, and their predictive performance has not been
+objectively validated. in this work i developed novel models of disease
+progression and applied them to estimate the progression of alzheimer's disease
+and posterior cortical atrophy, a rare neurodegenerative syndrome causing
+visual deficits. my first contribution is a study on the progression of
+posterior cortical atrophy, using models already developed: the event-based
+model (ebm) and the differential equation model (dem). my second contribution
+is the development of dive, a novel spatio-temporal model of disease
+progression that estimates fine-grained spatial patterns of pathology,
+potentially enabling us to understand complex disease mechanisms relating to
+pathology propagation along brain networks. my third contribution is the
+development of disease knowledge transfer (dkt), a novel disease progression
+model that estimates the multimodal progression of rare neurodegenerative
+diseases from limited, unimodal datasets, by transferring information from
+larger, multimodal datasets of typical neurodegenerative diseases. my fourth
+contribution is the development of novel extensions for the ebm and the dem,
+and the development of novel measures for performance evaluation of such
+models. my last contribution is the organization of the tadpole challenge, a
+competition which aims to identify algorithms and features that best predict
+the evolution of ad.

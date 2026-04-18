@@ -1,0 +1,28 @@
+unmanned aerial vehicle object detection 
+(uavod)
+presents unique challenges due to varying altitudes, dynamic
+backgrounds, and the small size of objects. traditional de-
+tection methods often struggle with these challenges, as
+they typically rely on visual features only and fail to ex-
+tract the semantic relations between the objects. to address
+these limitations,we propose a novel approach named self-
+prompting analogical reasoning (spar). ourmethod uti-
+lizes the vision-languagemodel (clip) to generate context-
+aware prompts based on image features, providing rich se-
+mantic information that guides analogical reasoning. spar
+includes two main modules: self-prompting and analogi-
+cal reasoning. self-prompting module based on learnable
+description and clip-text encoder generates context-aware
+prompt by combining specific image feature; then an object-
+ness prompt scoremap is produced by computing the simi-
+laritybetweenpixel-level features andcontext-awareprompt.
+withthis scoremap,multi-scale image features are enhanced
+and pixel-level features are chosen for graph construction.
+while for analogical reasoningmodule, graph nodes consist
+of category-level prompt nodes and pixel-level image feature
+nodes.analogical inference is based on graph convolution.
+under the guidance of category-level nodes, different-scale
+object features have been enhanced, which helps achieve
+more accuratedetectionof challengingobjects.extensive ex-
+periments illustrate that sparoutperforms traditionalmeth-
+ods,offeringamorerobustandaccuratesolutionforuavod.

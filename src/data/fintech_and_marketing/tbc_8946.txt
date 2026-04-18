@@ -1,0 +1,14 @@
+many online applications, such as online social networks or knowledge bases,
+are often attacked by malicious users who commit different types of actions
+such as vandalism on wikipedia or fraudulent reviews on ebay. currently, most
+of the fraud detection approaches require a training dataset that contains
+records of both benign and malicious users. however, in practice, there are
+often no or very few records of malicious users. in this paper, we develop
+one-class adversarial nets (ocan) for fraud detection using training data with
+only benign users. ocan first uses lstm-autoencoder to learn the
+representations of benign users from their sequences of online activities. it
+then detects malicious users by training a discriminator with a complementary
+gan model that is different from the regular gan model. experimental results
+show that our ocan outperforms the state-of-the-art one-class classification
+models and achieves comparable performance with the latest multi-source lstm
+model that requires both benign and malicious users in the training phase.

@@ -1,0 +1,17 @@
+unfair pricing policies have been shown to be one of the most negative
+perceptions customers can have concerning pricing, and may result in long-term
+losses for a company. despite the fact that dynamic pricing models help
+companies maximize revenue, fairness and equality should be taken into account
+in order to avoid unfair price differences between groups of customers. this
+paper shows how to solve dynamic pricing by using reinforcement learning (rl)
+techniques so that prices are maximized while keeping a balance between revenue
+and fairness. we demonstrate that rl provides two main features to support
+fairness in dynamic pricing: on the one hand, rl is able to learn from recent
+experience, adapting the pricing policy to complex market environments; on the
+other hand, it provides a trade-off between short and long-term objectives,
+hence integrating fairness into the model's core. considering these two
+features, we propose the application of rl for revenue optimization, with the
+additional integration of fairness as part of the learning procedure by using
+jain's index as a metric. results in a simulated environment show a significant
+improvement in fairness while at the same time maintaining optimisation of
+revenue.

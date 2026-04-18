@@ -1,0 +1,6 @@
+we are considering a scenario where a team of bodyguard robots provides
+physical protection to a vip in a crowded public space. we use deep
+reinforcement learning to learn the policy to be followed by the robots. as the
+robot bodyguards need to follow several difficult-to-reconcile goals, we study
+several primitive and composite reward functions and their impact on the
+overall behavior of the robotic bodyguards.

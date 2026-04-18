@@ -1,0 +1,19 @@
+the security infrastructure is ill-equipped to detect and deter the smuggling
+of non-explosive devices that enable terror attacks such as those recently
+perpetrated in western europe. the detection of so-called "small metallic
+threats" (smts) in cargo containers currently relies on statistical risk
+analysis, intelligence reports, and visual inspection of x-ray images by
+security officers. the latter is very slow and unreliable due to the difficulty
+of the task: objects potentially spanning less than 50 pixels have to be
+detected in images containing more than 2 million pixels against very complex
+and cluttered backgrounds. in this contribution, we demonstrate for the first
+time the use of convolutional neural networks (cnns), a type of deep learning,
+to automate the detection of smts in fullsize x-ray images of cargo containers.
+novel approaches for dataset augmentation allowed to train cnns from-scratch
+despite the scarcity of data available. we report fewer than 6% false alarms
+when detecting 90% smts synthetically concealed in stream-of-commerce images,
+which corresponds to an improvement of over an order of magnitude over
+conventional approaches such as bag-of-words (bows). the proposed scheme offers
+potentially super-human performance for a fraction of the time it would take
+for a security officers to carry out visual inspection (processing time is
+approximately 3.5s per container image).

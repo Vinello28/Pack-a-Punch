@@ -1,0 +1,16 @@
+pedestrian detection is a critical problem in computer vision with
+significant impact on safety in urban autonomous driving. in this work, we
+explore how semantic segmentation can be used to boost pedestrian detection
+accuracy while having little to no impact on network efficiency. we propose a
+segmentation infusion network to enable joint supervision on semantic
+segmentation and pedestrian detection. when placed properly, the additional
+supervision helps guide features in shared layers to become more sophisticated
+and helpful for the downstream pedestrian detector. using this approach, we
+find weakly annotated boxes to be sufficient for considerable performance
+gains. we provide an in-depth analysis to demonstrate how shared layers are
+shaped by the segmentation supervision. in doing so, we show that the resulting
+feature maps become more semantically meaningful and robust to shape and
+occlusion. overall, our simultaneous detection and segmentation framework
+achieves a considerable gain over the state-of-the-art on the caltech
+pedestrian dataset, competitive performance on kitti, and executes 2x faster
+than competitive methods.

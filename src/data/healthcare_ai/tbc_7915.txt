@@ -1,0 +1,1 @@
+we study the fully convolutional neural networks in the context of malignancy detection for breast cancer screening. we work on a supervised segmentation task looking for an acceptable compromise between the precision of the network and the computational complexity.

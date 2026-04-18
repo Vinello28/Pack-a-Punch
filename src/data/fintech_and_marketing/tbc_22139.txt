@@ -1,0 +1,14 @@
+with the considerable development of customer-to-customer (c2c) e-commerce in
+the recent years, there is a big demand for an effective recommendation system
+that suggests suitable websites for users to sell their items with some
+specified needs. nonetheless, e-commerce recommendation systems are mostly
+designed for business-to-customer (b2c) websites, where the systems offer the
+consumers the products that they might like to buy. almost none of the related
+research works focus on choosing selling sites for target items. in this paper,
+we introduce an approach that recommends the selling websites based upon the
+item's description, category, and desired selling price. this approach employs
+nosql data-based machine learning techniques for building and training topic
+models and classification models. the trained models can then be used to rank
+the websites dynamically with respect to the user needs. the experimental
+results with real-world datasets from vietnam c2c websites will demonstrate the
+effectiveness of our proposed method.

@@ -1,0 +1,22 @@
+counterparty risk denotes the risk that a party defaults in a bilateral
+contract. this risk not only depends on the two parties involved, but also on
+the risk from various other contracts each of these parties holds. in rather
+informal markets, such as the otc (over-the-counter) derivative market,
+institutions only report their aggregated quarterly risk exposure, but no
+details about their counterparties. hence, little is known about the
+diversification of counterparty risk. in this paper, we reconstruct the
+weighted and time-dependent network of counterparty risk in the otc derivatives
+market of the united states between 1998 and 2012. to proxy unknown bilateral
+exposures, we first study the co-occurrence patterns of institutions based on
+their quarterly activity and ranking in the official report. the network
+obtained this way is further analysed by a weighted k-core decomposition, to
+reveal a core-periphery structure. this allows us to compare the activity-based
+ranking with a topology-based ranking, to identify the most important
+institutions and their mutual dependencies. we also analyse correlations in
+these activities, to show strong similarities in the behavior of the core
+institutions. our analysis clearly demonstrates the clustering of counterparty
+risk in a small set of about a dozen us banks. this not only increases the
+default risk of the central institutions, but also the default risk of
+peripheral institutions which have contracts with the central ones. hence, all
+institutions indirectly have to bear (part of) the counterparty risk of all
+others, which needs to be better reflected in the price of otc derivatives.

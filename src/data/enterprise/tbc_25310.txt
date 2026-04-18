@@ -1,0 +1,21 @@
+in urban environments, supply resources have to be constantly matched to the
+"right" locations (where customer demand is present) so as to improve quality
+of life. for instance, ambulances have to be matched to base stations regularly
+so as to reduce response time for emergency incidents in ems (emergency
+management systems); vehicles (cars, bikes, scooters etc.) have to be matched
+to docking stations so as to reduce lost demand in shared mobility systems.
+such problem domains are challenging owing to the demand uncertainty,
+combinatorial action spaces (due to allocation) and constraints on allocation
+of resources (e.g., total resources, minimum and maximum number of resources at
+locations and regions).
+  existing systems typically employ myopic and greedy optimization approaches
+to optimize allocation of supply resources to locations. such approaches
+typically are unable to handle surges or variances in demand patterns well.
+recent research has demonstrated the ability of deep rl methods in adapting
+well to highly uncertain environments. however, existing deep rl methods are
+unable to handle combinatorial action spaces and constraints on allocation of
+resources. to that end, we have developed three approaches on top of the well
+known actor critic approach, ddpg (deep deterministic policy gradient) that are
+able to handle constraints on resource allocation. more importantly, we
+demonstrate that they are able to outperform leading approaches on simulators
+validated on semi-real and real data sets.

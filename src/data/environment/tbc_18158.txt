@@ -1,0 +1,16 @@
+the widespread mobile devices facilitated the emergence of many new
+applications and services. among them are location-based services (lbs) that
+provide services based on user's location. several techniques have been
+presented to enable lbs even in indoor environments where global positioning
+system (gps) has low localization accuracy. these methods use some environment
+measurements (like channel state information (csi) or received signal strength
+(rss)) for user localization. in this paper, we will use csi and a novel deep
+learning algorithm to design a robust and efficient system for indoor
+localization. more precisely, we use supervised autoencoder (sae) to model the
+environment using the data collected during the training phase. then, during
+the testing phase, we use the trained model and estimate the coordinates of the
+unknown point by checking different possible labels. unlike the previous
+fingerprinting approaches, in this work, we do not store the {csi/rss} of
+fingerprints and instead we model the environment only with a single sae. the
+performance of the proposed scheme is then evaluated in two indoor environments
+and compared with that of similar approaches.

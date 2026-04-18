@@ -1,0 +1,15 @@
+although the problem of automatic video summarization has recently received a
+lot of attention, the problem of creating a video summary that also highlights
+elements relevant to a search query has been less studied. we address this
+problem by posing query-relevant summarization as a video frame subset
+selection problem, which lets us optimise for summaries which are
+simultaneously diverse, representative of the entire video, and relevant to a
+text query. we quantify relevance by measuring the distance between frames and
+queries in a common textual-visual semantic embedding space induced by a neural
+network. in addition, we extend the model to capture query-independent
+properties, such as frame quality. we compare our method against previous state
+of the art on textual-visual embeddings for thumbnail selection and show that
+our model outperforms them on relevance prediction. furthermore, we introduce a
+new dataset, annotated with diversity and query-specific relevance labels. on
+this dataset, we train and test our complete model for video summarization and
+show that it outperforms standard baselines such as maximal marginal relevance.

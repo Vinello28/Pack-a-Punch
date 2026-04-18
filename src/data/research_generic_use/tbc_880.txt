@@ -1,0 +1,15 @@
+fully convolutional neural networks (fcn) have been shown to achieve
+state-of-the-art performance on the task of classifying time series sequences.
+we propose the augmentation of fully convolutional networks with long short
+term memory recurrent neural network (lstm rnn) sub-modules for time series
+classification. our proposed models significantly enhance the performance of
+fully convolutional networks with a nominal increase in model size and require
+minimal preprocessing of the dataset. the proposed long short term memory fully
+convolutional network (lstm-fcn) achieves state-of-the-art performance compared
+to others. we also explore the usage of attention mechanism to improve time
+series classification with the attention long short term memory fully
+convolutional network (alstm-fcn). utilization of the attention mechanism
+allows one to visualize the decision process of the lstm cell. furthermore, we
+propose fine-tuning as a method to enhance the performance of trained models.
+an overall analysis of the performance of our model is provided and compared to
+other techniques.

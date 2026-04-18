@@ -1,0 +1,11 @@
+rubystar is a dialog system designed to create "human-like" conversation by
+combining different response generation strategies. rubystar conducts a
+non-task-oriented conversation on general topics by using an ensemble of
+rule-based, retrieval-based and generative methods. topic detection, engagement
+monitoring, and context tracking are used for managing interaction. predictable
+elements of conversation, such as the bot's backstory and simple question
+answering are handled by separate modules. we describe a rating scheme we
+developed for evaluating response generation. we find that character-level rnn
+is an effective generation model for general responses, with proper parameter
+settings; however other kinds of conversation topics might benefit from using
+other models.

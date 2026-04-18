@@ -1,0 +1,16 @@
+the rise of user-generated content on digital plat
+forms has led to various types of communication, including
+ comments on social media, articles, and videos. in this context,
+ detecting nostalgic feelings in bengali comments is a unique
+ challenge. this study focuses on creating a dataset on ”nostalgic
+ bengali comments” and will check which methods perform better
+ to automatically spot nostalgic bengali comments. we will use
+ techniques from natural language processing, sentiment analysis,
+ and machine learning to differentiate between comments that
+ contain nostalgia and those that don’t. our dataset includes
+ diverse bengali comments collected from youtube. detecting nos
+talgic bengali comments could help us understand user feelings,
+ cultural discussions, and how people engage with content. this
+ research contributes to the field of sentiment analysis by specif
+ically addressing nostalgia in the bengali language, enhancing
+ our understanding of emotions in digital communication.

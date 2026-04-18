@@ -1,0 +1,13 @@
+wearable computing is one of the fastest growing technologies today. smart
+watches are poised to take over at least of half the wearable devices market in
+the near future. smart watch screen size, however, is a limiting factor for
+growth, as it restricts practical text input. on the other hand, wearable
+devices have some features, such as consistent user interaction and hands-free,
+heads-up operations, which pave the way for gesture recognition methods of text
+entry. this paper proposes a new text input method for smart watches, which
+utilizes motion sensor data and machine learning approaches to detect letters
+written in the air by a user. this method is less computationally intensive and
+less expensive when compared to computer vision approaches. it is also not
+affected by lighting factors, which limit computer vision solutions. the
+airdraw system prototype developed to test this approach is presented.
+additionally, experimental results close to 71% accuracy are presented.

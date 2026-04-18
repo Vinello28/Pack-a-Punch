@@ -1,0 +1,13 @@
+grid maps are widely used in robotics to represent obstacles in the
+environment and differentiating dynamic objects from static infrastructure is
+essential for many practical applications. in this work, we present a methods
+that uses a deep convolutional neural network (cnn) to infer whether grid cells
+are covering a moving object or not. compared to tracking approaches, that use
+e.g. a particle filter to estimate grid cell velocities and then make a
+decision for individual grid cells based on this estimate, our approach uses
+the entire grid map as input image for a cnn that inspects a larger area around
+each cell and thus takes the structural appearance in the grid map into account
+to make a decision. compared to our reference method, our concept yields a
+performance increase from 83.9% to 97.2%. a runtime optimized version of our
+approach yields similar improvements with an execution time of just 10
+milliseconds.

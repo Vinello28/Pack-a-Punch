@@ -1,0 +1,20 @@
+patients with schizophrenia often display impairments in the expression of
+emotion and speech and those are observed in their facial behaviour. automatic
+analysis of patients' facial expressions that is aimed at estimating symptoms
+of schizophrenia has received attention recently. however, the datasets that
+are typically used for training and evaluating the developed methods, contain
+only a small number of patients (4-34) and are recorded while the subjects were
+performing controlled tasks such as listening to life vignettes, or answering
+emotional questions. in this paper, we use videos of professional-patient
+interviews, in which symptoms were assessed in a standardised way as they
+should/may be assessed in practice, and which were recorded in realistic
+conditions (i.e. varying illumination levels and camera viewpoints) at the
+patients' homes or at mental health services. we automatically analyse the
+facial behaviour of 91 out-patients - this is almost 3 times the number of
+patients in other studies - and propose schinet, a novel neural network
+architecture that estimates expression-related symptoms in two different
+assessment interviews. we evaluate the proposed schinet for patient-independent
+prediction of symptoms of schizophrenia. experimental results show that some
+automatically detected facial expressions are significantly correlated to
+symptoms of schizophrenia, and that the proposed network for estimating symptom
+severity delivers promising results.

@@ -1,0 +1,13 @@
+armed conflict has led to an unprecedented number of internally displaced
+persons (idps) - individuals who are forced out of their homes but remain
+within their country. idps often urgently require shelter, food, and
+healthcare, yet prediction of when large fluxes of idps will cross into an area
+remains a major challenge for aid delivery organizations. accurate forecasting
+of idp migration would empower humanitarian aid groups to more effectively
+allocate resources during conflicts. we show that monthly flow of idps from
+province to province in both syria and yemen can be accurately forecasted one
+month in advance, using publicly available data. we model monthly idp flow
+using data on food price, fuel price, wage, geospatial, and news data. we find
+that machine learning approaches can more accurately forecast migration trends
+than baseline persistence models. our findings thus potentially enable
+proactive aid allocation for idps in anticipation of forecasted arrivals.

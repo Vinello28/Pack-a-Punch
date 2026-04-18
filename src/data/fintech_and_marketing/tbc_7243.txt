@@ -1,0 +1,19 @@
+in this paper, we design an integrated algorithm to evaluate the sentiment of
+chinese market. firstly, with the help of the web browser automation, we crawl
+a lot of news and comments from several influential financial websites
+automatically. secondly, we use techniques of natural language processing(nlp)
+under chinese context, including tokenization, word2vec word embedding and
+semantic database wordnet, to compute senti-scores of these news and comments,
+and then construct the sentimental factor. here, we build a finance-specific
+sentimental lexicon so that the sentimental factor can reflect the sentiment of
+financial market but not the general sentiments as happiness, sadness, etc.
+thirdly, we also implement an adjustment of the standard sentimental factor.
+our experimental performance shows that there is a significant correlation
+between our standard sentimental factor and the chinese market, and the
+adjusted factor is even more informative, having a stronger correlation with
+the chinese market. therefore, our sentimental factors can be important
+references when making investment decisions. especially during the chinese
+market crash in 2015, the pearson correlation coefficient of adjusted
+sentimental factor with sse is 0.5844, which suggests that our model can
+provide a solid guidance, especially in the special period when the market is
+influenced greatly by public sentiment.

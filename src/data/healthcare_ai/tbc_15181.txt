@@ -1,0 +1,9 @@
+human activity recognition (har) systems implement workflows that automatically detect activities from motion data,
+captured e.g. by wearable devices such as smartphones. these devices contain multiple sensors that record human motion as
+acceleration, rotation and orientation in long time series (ts) data. as a first step, har methods typically partition such
+recordings into smaller subsequences before applying feature extraction and classification. in this study, we evaluate the
+performance of 6 classical and recently published ts segmentation (tss) algorithms on a new large har benchmark of 126
+ts with up to 13 different activities, called mosad, recorded with 6 participants using ordinary smartphone sensors. our
+results show that the clasp algorithm achieves significantly more accurate results compared to the other methods, scoring
+the best segmentations in 57 out of 126 ts. the floss algorithm also shows promising results, particularly for long ts with
+many segments. mosad is freely available at https://github.com/ermshaua/mobile-sensing-human-activity-data-set.

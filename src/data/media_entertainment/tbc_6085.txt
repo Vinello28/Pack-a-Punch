@@ -1,0 +1,6 @@
+nintendo's super smash bros. melee fighting game can be emulated on modern
+hardware allowing us to inspect internal memory states, such as character
+positions. we created an ai that avoids being hit by training using these
+internal memory states and outputting controller button presses. after training
+on a month's worth of melee matches, our best agent learned to avoid the
+toughest ai built into the game for a full minute 74.6% of the time.

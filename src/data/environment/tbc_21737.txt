@@ -1,0 +1,11 @@
+corn yield prediction is beneficial as it provides valuable information about
+production and prices prior the harvest. publicly available high-quality corn
+yield prediction can help address emergent information asymmetry problems and
+in doing so improve price efficiency in futures markets. this paper is the
+first to employ long short-term memory (lstm), a special form of recurrent
+neural network (rnn) method to predict corn yields. a cross sectional time
+series of county-level corn yield and hourly weather data made the sample space
+large enough to use deep learning technics. lstm is efficient in time series
+prediction with complex inner relations, which makes it suitable for this task.
+the empirical results from county level data in iowa show promising predictive
+power relative to existing survey based methods.

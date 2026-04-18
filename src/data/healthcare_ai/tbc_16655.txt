@@ -1,0 +1,15 @@
+for effective treatment of alzheimer disease (ad), it is important to
+identify subjects who are most likely to exhibit rapid cognitive decline.
+herein, we developed a novel framework based on a deep convolutional neural
+network which can predict future cognitive decline in mild cognitive impairment
+(mci) patients using flurodeoxyglucose and florbetapir positron emission
+tomography (pet). the architecture of the network only relies on baseline pet
+studies of ad and normal subjects as the training dataset. feature extraction
+and complicated image preprocessing including nonlinear warping are unnecessary
+for our approach. accuracy of prediction (84.2%) for conversion to ad in mci
+patients outperformed conventional feature-based quantification approaches. roc
+analyses revealed that performance of cnn-based approach was significantly
+higher than that of the conventional quantification methods (p < 0.05). output
+scores of the network were strongly correlated with the longitudinal change in
+cognitive measurements. these results show the feasibility of deep learning as
+a tool for predicting disease outcome using brain images.

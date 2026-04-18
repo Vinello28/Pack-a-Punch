@@ -1,0 +1,13 @@
+advanced driver assistance systems (adas) improve driving safety
+significantly. they alert drivers from unsafe traffic conditions when a
+dangerous maneuver appears. traditional methods to predict driving maneuvers
+are mostly based on data-driven models alone. however, existing methods to
+understand the driver's intention remain an ongoing challenge due to a lack of
+intersection of human cognition and data analysis. to overcome this challenge,
+we propose a novel method that combines both the cognition-driven model and the
+data-driven model. we introduce a model named cognitive fusion-rnn (cf-rnn)
+which fuses the data inside the vehicle and the data outside the vehicle in a
+cognitive way. the cf-rnn model consists of two long short-term memory (lstm)
+branches regulated by human reaction time. experiments on the brain4cars
+benchmark dataset demonstrate that the proposed method outperforms previous
+methods and achieves state-of-the-art performance.

@@ -1,0 +1,17 @@
+nowadays, more and more customers browse and purchase products in favor of
+using mobile e-commerce apps such as taobao and amazon. since merchants are
+usually inclined to describe redundant and over-informative product titles to
+attract attentions from customers, it is important to concisely display short
+product titles on limited screen of mobile phones. to address this discrepancy,
+previous studies mainly consider textual information of long product titles and
+lacks of human-like view during training and evaluation process. in this paper,
+we propose a multi-modal generative adversarial network (mm-gan) for short
+product title generation in e-commerce, which innovatively incorporates image
+information and attribute tags from product, as well as textual information
+from original long titles. mm-gan poses short title generation as a
+reinforcement learning process, where the generated titles are evaluated by the
+discriminator in a human-like view. extensive experiments on a large-scale
+e-commerce dataset demonstrate that our algorithm outperforms other
+state-of-the-art methods. moreover, we deploy our model into a real-world
+online e-commerce environment and effectively boost the performance of click
+through rate and click conversion rate by 1.66% and 1.87%, respectively.

@@ -1,0 +1,16 @@
+many industries are now investing heavily in data science and automation to
+replace manual tasks and/or to help with decision making, especially in the
+realm of leveraging computer vision to automate many monitoring, inspection,
+and surveillance tasks. this has resulted in the emergence of the 'data
+scientist' who is conversant in statistical thinking, machine learning (ml),
+computer vision, and computer programming. however, as ml becomes more
+accessible to the general public and more aspects of ml become automated,
+applications leveraging computer vision are increasingly being created by
+non-experts with less opportunity for regulatory oversight. this points to the
+overall need for more educated responsibility for these lay-users of usable ml
+tools in order to mitigate potentially unethical ramifications. in this paper,
+we undertake a swot analysis to study the strengths, weaknesses, opportunities,
+and threats of building usable ml tools for mass adoption for important areas
+leveraging ml such as computer vision. the paper proposes a set of data science
+literacy criteria for educating and supporting lay-users in the responsible
+development and deployment of ml applications.

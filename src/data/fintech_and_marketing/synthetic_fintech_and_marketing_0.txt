@@ -1,1 +1,0 @@
-Sistema di credit scoring avanzato basato su gradient boosting e dati alternativi per la valutazione del merito creditizio di PMI e startup innovative.

@@ -1,0 +1,18 @@
+collision avoidance systems can play a vital role in reducing the number of
+accidents and saving human lives. in this paper, we introduce and validate a
+novel method for vehicles reactive collision avoidance using evolutionary
+neural networks (enn). a single front-facing rangefinder sensor is the only
+input required by our method. the training process and the proposed method
+analysis and validation are carried out using simulation. extensive experiments
+are conducted to analyse the proposed method and evaluate its performance.
+firstly, we experiment the ability to learn collision avoidance in a static
+free track. secondly, we analyse the effect of the rangefinder sensor
+resolution on the learning process. thirdly, we experiment the ability of a
+vehicle to individually and simultaneously learn collision avoidance. finally,
+we test the generality of the proposed method. we used a more realistic and
+powerful simulation environment (carmaker), a camera as an alternative input
+sensor, and lane keeping as an extra feature to learn. the results are
+encouraging; the proposed method successfully allows vehicles to learn
+collision avoidance in different scenarios that are unseen during training. it
+also generalizes well if any of the input sensor, the simulator, or the task to
+be learned is changed.

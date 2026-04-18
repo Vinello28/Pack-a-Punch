@@ -1,0 +1,19 @@
+standard models assign disease progression to discrete categories or stages
+based on well-characterized clinical markers. however, such a system is
+potentially at odds with our understanding of the underlying biology, which in
+highly complex systems may support a (near-)continuous evolution of disease
+from inception to terminal state. to learn such a continuous disease score one
+could infer a latent variable from dynamic "omics" data such as rna-seq that
+correlates with an outcome of interest such as survival time. however, such
+analyses may be confounded by additional data such as clinical covariates
+measured in electronic health records (ehrs). as a solution to this we
+introduce covariate latent variable models, a novel type of latent variable
+model that learns a low-dimensional data representation in the presence of two
+(asymmetric) views of the same data source. we apply our model to tcga
+colorectal cancer rna-seq data and demonstrate how incorporating
+microsatellite-instability (msi) status as an external covariate allows us to
+identify genes that stratify patients on an immune-response trajectory.
+finally, we propose an extension termed covariate gaussian process latent
+variable models for learning nonparametric, nonlinear representations. an r
+package implementing variational inference for covariate latent variable models
+is available at http://github.com/kieranrcampbell/clvm.

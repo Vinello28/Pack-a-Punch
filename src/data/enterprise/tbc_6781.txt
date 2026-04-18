@@ -1,0 +1,6 @@
+this paper illustrates the similarities between the problems of customer
+churn and employee turnover. an example of employee turnover prediction model
+leveraging classical machine learning techniques is developed. model outputs
+are then discussed to design \& test employee retention policies. this type of
+retention discussion is, to our knowledge, innovative and constitutes the main
+value of this paper.

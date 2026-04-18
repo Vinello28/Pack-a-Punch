@@ -1,0 +1,13 @@
+decision support is a probabilistic and quantitative method designed for
+modeling problems in situations with ambiguity. computer technology can be
+employed to provide clinical decision support and treatment recommendations.
+the problem of natural language applications is that they lack formality and
+the interpretation is not consistent. conversely, ontologies can capture the
+intended meaning and specify modeling primitives. disease ontology (do) that
+pertains to cancer's clinical stages and their corresponding information
+components is utilized to improve the reasoning ability of a decision support
+system (dss). the proposed dss uses case-based reasoning (cbr) to consider
+disease manifestations and provides physicians with treatment solutions from
+similar previous cases for reference. the proposed dss supports natural
+language processing (nlp) queries. the dss obtained 84.63% accuracy in disease
+classification with the help of the ontology.

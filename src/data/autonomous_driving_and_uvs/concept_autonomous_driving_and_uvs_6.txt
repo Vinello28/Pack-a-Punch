@@ -1,1 +1,0 @@
-La pianificazione del percorso (path planning) per veicoli autonomi utilizza algoritmi come A*, RRT e algoritmi basati su reinforcement learning per calcolare traiettorie sicure ed efficienti.

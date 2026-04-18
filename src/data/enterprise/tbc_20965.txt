@@ -1,0 +1,12 @@
+we aim to predict and explain service failures in supply-chain networks, more
+precisely among last-mile pickup and delivery services to customers. we analyze
+a dataset of 500,000 services using (1) supervised classification with random
+forests, and (2) association rules. our classifier reaches an average
+sensitivity of 0.7 and an average specificity of 0.7 for the 5 studied types of
+failure. association rules reassert the importance of confirmation calls to
+prevent failures due to customers not at home, show the importance of the time
+window size, slack time, and geographical location of the customer for the
+other failure types, and highlight the effect of the retailer company on
+several failure types. to reduce the occurrence of service failures, our data
+models could be coupled to optimizers, or used to define counter-measures to be
+taken by human dispatchers.

@@ -1,0 +1,18 @@
+in this research, feedforward ann (artificial neural network) model is
+developed and validated for predicting the ph at 10 different locations of the
+distribution system of drinking water of hyderabad city. the developed model is
+mlp (multilayer perceptron) with back propagation algorithm.the data for the
+training and testing of the model are collected through an experimental
+analysis on weekly basis in a routine examination for maintaining the quality
+of drinking water in the city. 17 parameters are taken into consideration
+including ph. these all parameters are taken as input variables for the model
+and then ph is predicted for 03 phases;raw water of river indus,treated water
+in the treatment plants and then treated water in the distribution system of
+drinking water. the training and testing results of this model reveal that mlp
+neural networks are exceedingly extrapolative for predicting the ph of river
+water, untreated and treated water at all locations of the distribution system
+of drinking water of hyderabad city. the optimum input and output weights are
+generated with minimum mse (mean square error) < 5%.experimental, predicted and
+tested values of ph are plotted and the effectiveness of the model is
+determined by calculating the coefficient of correlation (r2=0.999) of trained
+and tested results.

@@ -1,0 +1,12 @@
+we introduce preco, a large-scale english dataset for coreference resolution.
+the dataset is designed to embody the core challenges in coreference, such as
+entity representation, by alleviating the challenge of low overlap between
+training and test sets and enabling separated analysis of mention detection and
+mention clustering. to strengthen the training-test overlap, we collect a large
+corpus of about 38k documents and 12.4m words which are mostly from the
+vocabulary of english-speaking preschoolers. experiments show that with higher
+training-test overlap, error analysis on preco is more efficient than the one
+on ontonotes, a popular existing dataset. furthermore, we annotate singleton
+mentions making it possible for the first time to quantify the influence that a
+mention detector makes on coreference resolution performance. the dataset is
+freely available at https://preschool-lab.github.io/preco/.

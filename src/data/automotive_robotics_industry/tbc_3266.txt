@@ -1,0 +1,23 @@
+identifying the distribution of users' transportation modes is an essential
+part of travel demand analysis and transportation planning. with the advent of
+ubiquitous gps-enabled devices (e.g., a smartphone), a cost-effective approach
+for inferring commuters' mobility mode(s) is to leverage their gps
+trajectories. a majority of studies have proposed mode inference models based
+on hand-crafted features and traditional machine learning algorithms. however,
+manual features engender some major drawbacks including vulnerability to
+traffic and environmental conditions as well as possessing human's bias in
+creating efficient features. one way to overcome these issues is by utilizing
+convolutional neural network (cnn) schemes that are capable of automatically
+driving high-level features from the raw input. accordingly, in this paper, we
+take advantage of cnn architectures so as to predict travel modes based on only
+raw gps trajectories, where the modes are labeled as walk, bike, bus, driving,
+and train. our key contribution is designing the layout of the cnn's input
+layer in such a way that not only is adaptable with the cnn schemes but
+represents fundamental motion characteristics of a moving object including
+speed, acceleration, jerk, and bearing rate. furthermore, we ameliorate the
+quality of gps logs through several data preprocessing steps. using the clean
+input layer, a variety of cnn configurations are evaluated to achieve the best
+cnn architecture. the highest accuracy of 84.8% has been achieved through the
+ensemble of the best cnn configuration. in this research, we contrast our
+methodology with traditional machine learning algorithms as well as the seminal
+and most related studies to demonstrate the superiority of our framework.

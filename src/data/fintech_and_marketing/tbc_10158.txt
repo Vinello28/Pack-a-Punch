@@ -1,0 +1,14 @@
+in this paper, we focus on studying the appearing time of different kinds of
+cars on the road. this information will enable us to infer the life style of
+the car owners. the results can further be used to guide marketing towards car
+owners. conventionally, this kind of study is carried out by sending out
+questionnaires, which is limited in scale and diversity. to solve this problem,
+we propose a fully automatic method to carry out this study. our study is based
+on publicly available surveillance camera data. to make the results reliable,
+we only use the high resolution cameras (i.e. resolution greater than $1280
+\times 720$). images from the public cameras are downloaded every minute. after
+obtaining 50,000 images, we apply faster r-cnn (region-based convoluntional
+neural network) to detect the cars in the downloaded images and a fine-tuned
+vgg16 model is used to recognize the car makes. based on the recognition
+results, we present a data-driven analysis on the relationship between car
+makes and their appearing times, with implications on lifestyles.

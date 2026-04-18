@@ -1,0 +1,12 @@
+we propose a novel transfer learning approach for orphan screening called
+corresponding projections. in orphan screening the learning task is to predict
+the binding affinities of compounds to an orphan protein, i.e., one for which
+no training data is available. the identification of compounds with high
+affinity is a central concern in medicine since it can be used for drug
+discovery and design. given a set of prediction models for proteins with
+labelled training data and a similarity between the proteins, corresponding
+projections constructs a model for the orphan protein from them such that the
+similarity between models resembles the one between proteins. under the
+assumption that the similarity resemblance holds, we derive an efficient
+algorithm for kernel methods. we empirically show that the approach outperforms
+the state-of-the-art in orphan screening.

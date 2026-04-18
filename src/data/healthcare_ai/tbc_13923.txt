@@ -1,0 +1,14 @@
+selfie soft biometrics has great potential for various applications ranging
+from marketing, security and online banking. however, it faces many challenges
+since there is limited control in data acquisition conditions. this chapter
+presents a super-resolution-convolutional neural networks (srcnns) approach
+that increases the resolution of low quality periocular iris images cropped
+from selfie images of subject's faces. this work shows that increasing image
+resolution (2x and 3x) can improve the sex-classification rate when using a
+random forest classifier. the best sex-classification rate was 90.15% for the
+right and 87.15% for the left eye. this was achieved when images were upscaled
+from 150x150 to 450x450 pixels. these results compare well with the state of
+the art and show that when improving image resolution with the srcnn the
+sex-classification rate increases. additionally, a novel selfie database
+captured from 150 subjects with an iphone x was created (available upon
+request).

@@ -1,0 +1,16 @@
+across a variety of scientific disciplines, sparse inverse covariance
+estimation is a popular tool for capturing the underlying dependency
+relationships in multivariate data. unfortunately, most estimators are not
+scalable enough to handle the sizes of modern high-dimensional data sets (often
+on the order of terabytes), and assume gaussian samples. to address these
+deficiencies, we introduce hp-concord, a highly scalable optimization method
+for estimating a sparse inverse covariance matrix based on a regularized
+pseudolikelihood framework, without assuming gaussianity. our parallel proximal
+gradient method uses a novel communication-avoiding linear algebra algorithm
+and runs across a multi-node cluster with up to 1k nodes (24k cores), achieving
+parallel scalability on problems with up to ~819 billion parameters (1.28
+million dimensions); even on a single node, hp-concord demonstrates
+scalability, outperforming a state-of-the-art method. we also use hp-concord to
+estimate the underlying dependency structure of the brain from fmri data, and
+use the result to identify functional regions automatically. the results show
+good agreement with a clustering from the neuroscience literature.

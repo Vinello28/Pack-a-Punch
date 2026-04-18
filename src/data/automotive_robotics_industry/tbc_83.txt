@@ -1,0 +1,18 @@
+in this paper, multi-unmanned aerial vehicle (uav) enabled mobile edge
+computing (mec), i.e., uave is studied, where several uavs are deployed as
+flying mec platform to provide computing resource to ground user equipments
+(ues). compared to the traditional fixed location mec, uav enabled mec (i.e.,
+uave) is particular useful in case of temporary events, emergency situations
+and on-demand services, due to its high flexibility, low cost and easy
+deployment features. however, operation of uave faces several challenges, two
+of which are how to achieve both 1) the association between multiple ues and
+uavs and 2) the resource allocation from uavs to ues, while minimizing the
+energy consumption for all the ues. to address this, we formulate the above
+problem into a mixed integer nonlinear programming (minlp), which is difficult
+to be solved in general, especially in the large-scale scenario. we then
+propose a reinforcement learning (rl)-based user association and resource
+allocation (rlaa) algorithm to tackle this problem efficiently and effectively.
+numerical results show that the proposed rlaa can achieve the optimal
+performance with comparison to the exhaustive search in small scale, and have
+considerable performance gain over other typical algorithms in large-scale
+cases.

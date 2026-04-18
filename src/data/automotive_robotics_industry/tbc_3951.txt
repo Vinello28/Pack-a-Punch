@@ -1,0 +1,14 @@
+accurate detection of 3d objects is a fundamental problem in computer vision
+and has an enormous impact on autonomous cars, augmented/virtual reality and
+many applications in robotics. in this work we present a novel fusion of neural
+network based state-of-the-art 3d detector and visual semantic segmentation in
+the context of autonomous driving. additionally, we introduce
+scale-rotation-translation score (srts), a fast and highly parameterizable
+evaluation metric for comparison of object detections, which speeds up our
+inference time up to 20\% and halves training time. on top, we apply
+state-of-the-art online multi target feature tracking on the object
+measurements to further increase accuracy and robustness utilizing temporal
+information. our experiments on kitti show that we achieve same results as
+state-of-the-art in all related categories, while maintaining the performance
+and accuracy trade-off and still run in real-time. furthermore, our model is
+the first one that fuses visual semantic with 3d object detection.

@@ -1,0 +1,12 @@
+successfully predicting gentrification could have many social and commercial
+applications; however, real estate sales are difficult to predict because they
+belong to a chaotic system comprised of intrinsic and extrinsic
+characteristics, perceived value, and market speculation. using new york city
+real estate as our subject, we combine modern techniques of data science and
+machine learning with traditional spatial analysis to create robust real estate
+prediction models for both classification and regression tasks. we compare
+several cutting edge machine learning algorithms across spatial, semi-spatial
+and non-spatial feature engineering techniques, and we empirically show that
+spatially-conscious machine learning models outperform non-spatial models when
+married with advanced prediction techniques such as feed-forward artificial
+neural networks and gradient boosting machine models.

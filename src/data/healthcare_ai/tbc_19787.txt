@@ -1,0 +1,1 @@
+this paper details our approach to the task of detecting reportage of adverse drug reaction in tweets as part of the 2019 social media mining for healthcare applications shared task. we employed a combination of three types of word representations as input to a lstm model. with this approach, we achieved an f1 score of 0.5209.

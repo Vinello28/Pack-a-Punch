@@ -1,0 +1,21 @@
+much of business literature addresses the issues of consumer-centric design:
+how can businesses design customized services and products which accurately
+reflect consumer preferences? this paper uses data science natural language
+processing methodology to explore whether and to what extent emotions shape
+consumer preferences for media and entertainment content. using a unique
+filtered dataset of 6,174 movie scripts, we generate a mapping of screen
+content to capture the emotional trajectory of each motion picture. we then
+combine the obtained mappings into clusters which represent groupings of
+consumer emotional journeys. these clusters are used to predict overall success
+parameters of the movies including box office revenues, viewer satisfaction
+levels (captured by imdb ratings), awards, as well as the number of viewers'
+and critics' reviews. we find that like books all movie stories are dominated
+by 6 basic shapes. the highest box offices are associated with the man in a
+hole shape which is characterized by an emotional fall followed by an emotional
+rise. this shape results in financially successful movies irrespective of genre
+and production budget. yet, man in a hole succeeds not because it produces most
+"liked" movies but because it generates most "talked about" movies.
+interestingly, a carefully chosen combination of production budget and genre
+may produce a financially successful movie with any emotional shape.
+implications of this analysis for generating on-demand content and for driving
+business model innovation in entertainment industries are discussed.

@@ -1,0 +1,25 @@
+the european space agency (esa) defines an earth observation (eo) level 2
+product as a multispectral (ms) image corrected for geometric, atmospheric,
+adjacency and topographic effects, stacked with its scene classification map
+(scm), whose legend includes quality layers such as cloud and cloud-shadow. no
+esa eo level 2 product has ever been systematically generated at the ground
+segment. to contribute toward filling an information gap from eo big data to
+the esa eo level 2 product, an original stage 4 validation (val) of the
+satellite image automatic mapper (siam) lightweight computer program was
+conducted by independent means on an annual web-enabled landsat data (weld)
+image composite time-series of the conterminous u.s. the core of siam is a one
+pass prior knowledge based decision tree for ms reflectance space
+hyperpolyhedralization into static color names presented in literature in
+recent years. for the sake of readability this paper is split into two. the
+present part 1 theory provides the multidisciplinary background of a priori
+color naming in cognitive science, from linguistics to computer vision. to cope
+with dictionaries of ms color names and land cover class names that do not
+coincide and must be harmonized, an original hybrid guideline is proposed to
+identify a categorical variable pair relationship. an original quantitative
+measure of categorical variable pair association is also proposed. the
+subsequent part 2 validation discusses stage 4 val results collected by an
+original protocol for wall-to-wall thematic map quality assessment without
+sampling where the test and reference map legends can differ. conclusions are
+that the siam-weld maps instantiate a level 2 scm product whose legend is the 4
+class taxonomy of the fao land cover classification system at the dichotomous
+phase level 1 vegetation/nonvegetation and level 2 terrestrial/aquatic.

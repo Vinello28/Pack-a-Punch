@@ -1,0 +1,15 @@
+analysis of an organization's computer network activity is a key component of
+early detection and mitigation of insider threat, a growing concern for many
+organizations. raw system logs are a prototypical example of streaming data
+that can quickly scale beyond the cognitive power of a human analyst. as a
+prospective filter for the human analyst, we present an online unsupervised
+deep learning approach to detect anomalous network activity from system logs in
+real time. our models decompose anomaly scores into the contributions of
+individual user behavior features for increased interpretability to aid
+analysts reviewing potential cases of insider threat. using the cert insider
+threat dataset v6.2 and threat detection recall as our performance metric, our
+novel deep and recurrent neural network models outperform principal component
+analysis, support vector machine and isolation forest based anomaly detection
+baselines. for our best model, the events labeled as insider threat activity in
+our dataset had an average anomaly score in the 95.53 percentile, demonstrating
+our approach's potential to greatly reduce analyst workloads.

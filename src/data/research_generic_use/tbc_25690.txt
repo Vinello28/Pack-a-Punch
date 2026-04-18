@@ -1,0 +1,11 @@
+big data concern large-volume, growing data sets that are complex and have
+multiple autonomous sources. earlier technologies were not able to handle
+storage and processing of huge data thus big data concept comes into existence.
+this is a tedious job for users unstructured data. so, there should be some
+mechanism which classify unstructured data into organized form which helps user
+to easily access required data. classification techniques over big
+transactional database provide required data to the users from large datasets
+more simple way. there are two main classification techniques, supervised and
+unsupervised. in this paper we focused on to study of different supervised
+classification techniques. further this paper shows a advantages and
+limitations.

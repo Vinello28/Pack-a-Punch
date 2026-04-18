@@ -1,1 +1,0 @@
-Il Progetto di ricerca è volto allo studio di una nuova tipologia di sensori che  attraverso soluzioni di power harvesting ed algoritmi basati sull’intelligenza artificiale ed il machine learning  forniscano agli operatori di rete degli strumenti innovativi per il monitoraggio delle linee elettriche di media ed alta tensione.

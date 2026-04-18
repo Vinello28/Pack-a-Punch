@@ -1,0 +1,12 @@
+failure cases of black-box deep learning, e.g. adversarial examples, might
+have severe consequences in healthcare. yet such failures are mostly studied in
+the context of real-world images with calibrated attacks. to demystify the
+adversarial examples, rigorous studies need to be designed. unfortunately,
+complexity of the medical images hinders such study design directly from the
+medical images. we hypothesize that adversarial examples might result from the
+incorrect mapping of image space to the low dimensional generation manifold by
+deep networks. to test the hypothesis, we simplify a complex medical problem
+namely pose estimation of surgical tools into its barest form. an analytical
+decision boundary and exhaustive search of the one-pixel attack across multiple
+image dimensions let us localize the regions of frequent successful one-pixel
+attacks at the image space.

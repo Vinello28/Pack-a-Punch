@@ -1,0 +1,8 @@
+in this paper, we propose a named entity recognition (ner) system to identify
+film titles in podcast audio. taking inspiration from ner systems for noisy
+text in social media, we implement a two-stage approach that is robust to
+computer transcription errors and does not require significant computational
+expense to accommodate new film titles/releases. evaluating on a diverse set of
+podcasts, we demonstrate more than a 20% increase in f1 score across three
+baseline approaches when combining fuzzy-matching with a linear model aware of
+film-specific metadata.

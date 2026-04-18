@@ -1,0 +1,19 @@
+online social microblogging platforms including twitter are increasingly used
+for aiding relief operations during disaster events. during most of the
+calamities that can be natural disasters or even armed attacks,
+non-governmental organizations look for critical information about resources to
+support effected people. despite the recent advancement of natural language
+processing with deep neural networks, retrieval and ranking of short text
+becomes a challenging task because a lot of conversational and sympathy content
+merged with the critical information. in this paper, we address the problem of
+categorical information retrieval and ranking of most relevance information
+while considering the presence of short-text and multilingual languages that
+arise during such events. our proposed model is based on the formation of
+embedding vector with the help of textual and statistical preprocessing, and
+finally, entire training 2,100,000 vectors were normalized using feed-forward
+neural network for need and availability tweets. another important contribution
+of this paper lies in novel weighted ranking key algorithm based on top five
+general terms to rank the classified tweets in most relevance with
+classification. lastly, we test our model on nepal earthquake dataset (contains
+short text and multilingual language tweets) and achieved 6.81% of mean average
+precision on 5,250,000 unlabeled embedding vectors of disaster relief tweets.

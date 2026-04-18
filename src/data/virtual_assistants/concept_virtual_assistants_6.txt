@@ -1,1 +1,0 @@
-La memoria conversazionale a lungo termine consente agli assistenti virtuali di ricordare informazioni dalle conversazioni precedenti con lo stesso utente per personalizzare le interazioni future.

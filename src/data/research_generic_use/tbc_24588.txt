@@ -1,0 +1,12 @@
+we demonstrate in this paper that a generative model can be designed to
+perform classification tasks under challenging settings, including adversarial
+attacks and input distribution shifts. specifically, we propose a conditional
+variational autoencoder that learns both the decomposition of inputs and the
+distributions of the resulting components. during test, we jointly optimize the
+latent variables of the generator and the relaxed component labels to find the
+best match between the given input and the output of the generator. the model
+demonstrates promising performance at recognizing overlapping components from
+the multimnist dataset, and novel component combinations from a traffic sign
+dataset. experiments also show that the proposed model achieves high robustness
+on mnist and norb datasets, in particular for high-strength gradient attacks
+and non-gradient attacks.

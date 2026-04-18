@@ -1,1 +1,0 @@
-Creazione di SMART TOOLS basati su nuovi sensori e algoritmi di AI per la generazione di un naso elettronico (NE) per il monitoraggio del processo di cottura dei lievitati.

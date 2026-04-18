@@ -1,0 +1,19 @@
+microgrids, as small-scale islandable power systems, are considered as viable
+promotors of renewable energy resources. in particular, microgrids can
+efficiently integrate solar photovoltaic (pv) as the deployment of this
+customer-deployed technology is growing in distribution grids. however, there
+is a limit on how much pv can be hosted by a microgrid. high penetration of pvs
+can potentially put the microgrid at operational risks including but not
+limited to over and under voltages, excessive line losses, overloading of
+transformers and feeders, and protection failure. to avoid such potential
+negative impacts, the concept of hosting capacity is introduced and used. the
+hosting capacity is defined as the total capacity of ders that can be
+integrated into a given feeder/microgrid without exceeding operational
+restrictions and/or requiring system upgrades. hosting capacity studies are
+primarily done based on steadystate analyses. however, in case of microgrids
+and when transitioning between grid-connected and islanded modes, dynamic
+operation becomes more restrictive than steady-state operation and thus is
+worthy of detailed investigation to provide a better understanding of the
+amount of der that the microgrid can host. this paper examines this problem and
+provides extensive simulations on a practical test system to show its
+importance and merits.

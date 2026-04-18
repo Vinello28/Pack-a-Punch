@@ -1,0 +1,15 @@
+automatically writing stylized chinese characters is an attractive yet
+challenging task due to its wide applicabilities. in this paper, we propose a
+novel framework named style-aware variational auto-encoder (sa-vae) to flexibly
+generate chinese characters. specifically, we propose to capture the different
+characteristics of a chinese character by disentangling the latent features
+into content-related and style-related components. considering of the complex
+shapes and structures, we incorporate the structure information as prior
+knowledge into our framework to guide the generation. our framework shows a
+powerful one-shot/low-shot generalization ability by inferring the style
+component given a character with unseen style. to the best of our knowledge,
+this is the first attempt to learn to write new-style chinese characters by
+observing only one or a few examples. extensive experiments demonstrate its
+effectiveness in generating different stylized chinese characters by fusing the
+feature vectors corresponding to different contents and styles, which is of
+significant importance in real-world applications.

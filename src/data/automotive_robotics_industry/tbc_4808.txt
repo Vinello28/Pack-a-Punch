@@ -1,0 +1,13 @@
+we are proceeding towards the age of automation and robotic integration of
+our production lines [5]. effective quality-control systems have to be put in
+place to maintain the quality of manufactured components. among different
+quality-control systems, vision-based inspection systems have gained
+considerable amount of popularity [8] due to developments in computing power
+and image processing techniques. in this paper, we present a vision-based
+inspection system (vbi) as a quality-control system, which not only detects the
+presence of defects, such as in conventional vbis, but also leverage
+developments in machine learning to predict the presence of surface fractures
+and wearing. we use opencv, an open source computer-vision framework, and
+tensorflow, an open source machine-learning framework developed by google inc.,
+to accomplish the tasks of detection and prediction of presence of surface
+defects such as fractures of manufactured gears.

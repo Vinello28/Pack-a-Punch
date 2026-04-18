@@ -1,0 +1,24 @@
+thermal infrared (ir) images represent the heat patterns emitted from hot
+object and they do not consider the energies reflected from an object. objects
+living or non-living emit different amounts of ir energy according to their
+body temperature and characteristics. humans are homoeothermic and hence
+capable of maintaining constant temperature under different surrounding
+temperature. face recognition from thermal (ir) images should focus on changes
+of temperature on facial blood vessels. these temperature changes can be
+regarded as texture features of images and wavelet transform is a very good
+tool to analyze multi-scale and multi-directional texture. wavelet transform is
+also used for image dimensionality reduction, by removing redundancies and
+preserving original features of the image. the sizes of the facial images are
+normally large. so, the wavelet transform is used before image similarity is
+measured. therefore this paper describes an efficient approach of human face
+recognition based on wavelet transform from thermal ir images. the system
+consists of three steps. at the very first step, human thermal ir face image is
+preprocessed and the face region is only cropped from the entire image.
+secondly, haar wavelet is used to extract low frequency band from the cropped
+face region. lastly, the image classification between the training images and
+the test images is done, which is based on low-frequency components. the
+proposed approach is tested on a number of human thermal infrared face images
+created at our own laboratory and terravic facial ir database. experimental
+results indicated that the thermal infra red face images can be recognized by
+the proposed system effectively. the maximum success of 95% recognition has
+been achieved.

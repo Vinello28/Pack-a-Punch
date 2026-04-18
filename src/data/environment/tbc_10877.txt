@@ -1,0 +1,14 @@
+drought threatens food and water security around the world, and this threat
+is likely to become more severe under climate change. high resolution
+predictive information can help farmers, water managers, and others to manage
+the effects of drought. we have created an open source tool to produce
+short-term forecasts of vegetation health at high spatial resolution, using
+data that are global in coverage. the tool automates downloading and processing
+moderate resolution imaging spectroradiometer (modis) datasets, and training
+gradient-boosted machine models on hundreds of millions of observations to
+predict future values of the enhanced vegetation index. we compared the
+predictive power of different sets of variables (raw spectral modis data and
+level-3 modis products) in two regions with distinct agro-ecological systems,
+climates, and cloud coverage: sri lanka and california. our tool provides
+considerably greater predictive power on held-out datasets than simpler
+baseline models.

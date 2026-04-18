@@ -1,0 +1,20 @@
+dense 3d shape acquisition of swimming human or live fish is an important
+research topic for sports, biological science and so on. for this purpose,
+active stereo sensor is usually used in the air, however it cannot be applied
+to the underwater environment because of refraction, strong light attenuation
+and severe interference of bubbles. passive stereo is a simple solution for
+capturing dynamic scenes at underwater environment, however the shape with
+textureless surfaces or irregular reflections cannot be recovered. recently,
+the stereo camera pair with a pattern projector for adding artificial textures
+on the objects is proposed. however, to use the system for underwater
+environment, several problems should be compensated, i.e., disturbance by
+fluctuation and bubbles. simple solution is to use convolutional neural network
+for stereo to cancel the effects of bubbles and/or water fluctuation. since it
+is not easy to train cnn with small size of database with large variation, we
+develop a special bubble generation device to efficiently create real bubble
+database of multiple size and density. in addition, we propose a transfer
+learning technique for multi-scale cnn to effectively remove bubbles and
+projected-patterns on the object. further, we develop a real system and
+actually captured live swimming human, which has not been done before.
+experiments are conducted to show the effectiveness of our method compared with
+the state of the art techniques.

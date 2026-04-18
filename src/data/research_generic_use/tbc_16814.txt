@@ -1,0 +1,17 @@
+in recent decade, many state-of-the-art algorithms on image classification as
+well as audio classification have achieved noticeable successes with the
+development of deep convolutional neural network (cnn). however, most of the
+works only exploit single type of training data. in this paper, we present a
+study on classifying bird species by exploiting the combination of both visual
+(images) and audio (sounds) data using cnn, which has been sparsely treated so
+far. specifically, we propose cnn-based multimodal learning models in three
+types of fusion strategies (early, middle, late) to settle the issues of
+combining training data cross domains. the advantage of our proposed method
+lies on the fact that we can utilize cnn not only to extract features from
+image and audio data (spectrogram) but also to combine the features across
+modalities. in the experiment, we train and evaluate the network structure on a
+comprehensive cub-200-2011 standard data set combing our originally collected
+audio data set with respect to the data species. we observe that a model which
+utilizes the combination of both data outperforms models trained with only an
+either type of data. we also show that transfer learning can significantly
+increase the classification performance.

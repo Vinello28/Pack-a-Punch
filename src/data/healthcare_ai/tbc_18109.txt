@@ -1,0 +1,16 @@
+ingestible wireless capsule endoscopy is an emerging minimally invasive
+diagnostic technology for inspection of the gi tract and diagnosis of a wide
+range of diseases and pathologies. medical device companies and many research
+groups have recently made substantial progresses in converting passive capsule
+endoscopes to active capsule robots, enabling more accurate, precise, and
+intuitive detection of the location and size of the diseased areas. since a
+reliable real time pose estimation functionality is crucial for actively
+controlled endoscopic capsule robots, in this study, we propose a monocular
+visual odometry (vo) method for endoscopic capsule robot operations. our method
+lies on the application of the deep recurrent convolutional neural networks
+(rcnns) for the visual odometry task, where convolutional neural networks
+(cnns) and recurrent neural networks (rnns) are used for the feature extraction
+and inference of dynamics across the frames, respectively. detailed analyses
+and evaluations made on a real pig stomach dataset proves that our system
+achieves high translational and rotational accuracies for different types of
+endoscopic capsule robot trajectories.

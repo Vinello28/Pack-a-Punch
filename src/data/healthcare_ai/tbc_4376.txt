@@ -1,0 +1,8 @@
+this paper presents a database of human faces for persons wearing spectacles.
+the database consists of images of faces having significant variations with
+respect to illumination, head pose, skin color, facial expressions and sizes,
+and nature of spectacles. the database contains data of 60 subjects. this
+database is expected to be a precious resource for the development and
+evaluation of algorithms for face detection, eye detection, head tracking, eye
+gaze tracking, etc., for subjects wearing spectacles. as such, this can be a
+valuable contribution to the computer vision community.

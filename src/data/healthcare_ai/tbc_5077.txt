@@ -1,0 +1,28 @@
+recently, neuroimaging-based alzheimer’s
+disease (ad) or mild cognitive impairment (mci) diagnosis
+has attracted researchers in the field, due to the increasing
+prevalence of the diseases. unfortunately, the unfavorable
+high-dimensional nature of neuroimaging data, but a limited small number of samples available, makes it challenging
+to build a robust computer-aided diagnosis system. machine
+learning techniques have been considered as a useful tool in
+this respect and, among various methods, sparse regression
+has shown its validity in the literature. however, to our best
+knowledge, the existing sparse regression methods mostly
+try to select features based on the optimal regression coefficients in one step. we argue that since the training feature
+vectors are composed of both informative and uninformative or less informative features, the resulting optimal regression coefficients are inevidently affected by the
+uninformative or less informative features. to this end, we
+first propose a novel deep architecture to recursively discard
+uninformative features by performing sparse multi-task
+learning in a hierarchical fashion. we further hypothesize
+that the optimal regression coefficients reflect the relative
+importance of features in representing the target response
+variables. in this regard, we use the optimal regression coefficients learned in one hierarchy as feature weighting
+factors in the following hierarchy, and formulate a weighted
+sparse multi-task learning method. lastly, we also take into
+account the distributional characteristics of samples per
+class and use clustering-induced subclass label vectors as
+target response values in our sparse regression model. in our
+experiments on the adni cohort, we performed both binary
+and multi-class classification tasks in ad/mci diagnosis
+and showed the superiority of the proposed method by
+comparing with the state-of-the-art methods.

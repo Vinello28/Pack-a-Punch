@@ -1,0 +1,11 @@
+we investigate the problem of incorporating higher-level symbolic score-like
+information into automatic music transcription (amt) systems to improve their
+performance. we use recurrent neural networks (rnns) and their variants as
+music language models (mlms) and present a generative architecture for
+combining these models with predictions from a frame level acoustic classifier.
+we also compare different neural network architectures for acoustic modeling.
+the proposed model computes a distribution over possible output sequences given
+the acoustic input signal and we present an algorithm for performing a global
+search for good candidate transcriptions. the performance of the proposed model
+is evaluated on piano music from the maps dataset and we observe that the
+proposed model consistently outperforms existing transcription methods.

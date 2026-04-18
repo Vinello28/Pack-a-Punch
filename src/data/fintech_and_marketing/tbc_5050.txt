@@ -1,0 +1,16 @@
+a linear multi-factor model is one of the most important tools in equity
+portfolio management. the linear multi-factor models are widely used because
+they can be easily interpreted. however, financial markets are not linear and
+their accuracy is limited. recently, deep learning methods were proposed to
+predict stock return in terms of the multi-factor model. although these methods
+perform quite well, they have significant disadvantages such as a lack of
+transparency and limitations in the interpretability of the prediction. it is
+thus difficult for institutional investors to use black-box-type machine
+learning techniques in actual investment practice because they should show
+accountability to their customers. consequently, the solution we propose is
+based on lstm with lrp. specifically, we extend the linear multi-factor model
+to be non-linear and time-varying with lstm. then, we approximate and linearize
+the learned lstm models by lrp. we call this lstm+lrp model a deep recurrent
+factor model. finally, we perform an empirical analysis of the japanese stock
+market and show that our recurrent model has better predictive capability than
+the traditional linear model and fully-connected deep learning methods.

@@ -1,0 +1,12 @@
+intra-operative measurement of tissue oxygen saturation (sto2) has been
+widely explored by pulse oximetry or hyperspectral imaging (hsi) to assess the
+function and viability of tissue. in this paper we propose a pixel- level
+image-to-image translation approach based on conditional generative adversarial
+networks (cgan) to estimate tissue oxygen saturation (sto2) directly from rgb
+images. the real-time performance and non-reliance on additional hardware,
+enable a seamless integration of the proposed method into surgical and
+diagnostic workflows with standard endoscope systems. for validation, rgb
+images and sto2 ground truth were simulated and estimated from hsi images
+collected by a liquid crystal tuneable filter (lctf) endoscope for three tissue
+types (porcine bowel, lamb uterus and rabbit uterus). the result show that the
+proposed method can achieve visually identical images with comparable accuracy.

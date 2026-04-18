@@ -1,0 +1,15 @@
+the success of the human-robot co-worker team in a flexible manufacturing
+environment where robots learn from demonstration heavily relies on the correct
+and safe operation of the robot. how this can be achieved is a challenge that
+requires addressing both technical as well as human-centric research questions.
+in this paper we discuss the state of the art in safety assurance, existing as
+well as emerging standards in this area, and the need for new approaches to
+safety assurance in the context of learning machines. we then focus on robotic
+learning from demonstration, the challenges these techniques pose to safety
+assurance and indicate opportunities to integrate safety considerations into
+algorithms "by design". finally, from a human-centric perspective, we stipulate
+that, to achieve high levels of safety and ultimately trust, the robotic
+co-worker must meet the innate expectations of the humans it works with. it is
+our aim to stimulate a discussion focused on the safety aspects of
+human-in-the-loop robotics, and to foster multidisciplinary collaboration to
+address the research challenges identified.

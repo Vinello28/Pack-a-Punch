@@ -1,0 +1,24 @@
+analyses of targeted genomic sequencing data from next-generation-sequencing
+(ngs) technologies typically involves mapping reads to a reference sequence or
+clustering reads. for a number of species a reference genome is not available
+so the analyses of targeted sequencing data, for example polymorphic structural
+variation caused by mobile elements is difficult; clustering methods are
+preferred for such data analysis. clustering of reads requires a clustering
+threshold parameter, which is used to compare and group reads. however,
+determining the optimal clustering threshold for a read dataset is challenging
+because of different sequence composition, the number of sequences present, and
+also the amount of sequencing errors in the dataset. high values of the
+clustering threshold parameter can falsely inflate the number of recovered
+genomic regions, while low values of clustering threshold can merge reads from
+distinct regions into a single cluster. thus, an algorithm that can empirically
+determine clustering threshold is needed. we propose a pipeline for clustering
+genomic sequences wherein the clustering threshold is empirically determined
+from the ngs data. the optimal threshold is decided based on two internal
+clustering measures which assess clusters for small intra-cluster diameters and
+large inter-cluster distances. we evaluate the pipeline on two simulated
+datasets derived from human genome sequence simulating different genomic
+regions and sequencing depth. the total number of clusters obtained from our
+pipeline is closer to the actual number of reference sequences when compared to
+single round of clustering. also, the number of clusters whose consensus
+sequence matches a corresponding reference sequence is higher in our pipeline.
+we observe that the presence of repeat regions affects clustering accuracy.

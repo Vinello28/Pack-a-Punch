@@ -1,0 +1,10 @@
+fusiongan is a novel genre fusion framework for music generation that
+integrates the strengths of generative adversarial networks and dual learning.
+in particular, the proposed method offers a dual learning extension that can
+effectively integrate the styles of the given domains. to efficiently quantify
+the difference among diverse domains and avoid the vanishing gradient issue,
+fusiongan provides a wasserstein based metric to approximate the distance
+between the target domain and the existing domains. adopting the wasserstein
+distance, a new domain is created by combining the patterns of the existing
+domains using adversarial learning. experimental results on public music
+datasets demonstrated that our approach could effectively merge two genres.

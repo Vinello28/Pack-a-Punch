@@ -1,0 +1,14 @@
+fine-grained sentiment analysis is receiving increasing attention in recent
+years. extracting opinion target expressions (ote) in reviews is often an
+important step in fine-grained, aspect-based sentiment analysis. retrieving
+this information from user-generated text, however, can be difficult. customer
+reviews, for instance, are prone to contain misspelled words and are difficult
+to process due to their domain-specific language. in this work, we investigate
+whether character-level models can improve the performance for the
+identification of opinion target expressions. we integrate information about
+the character structure of a word into a sequence labeling system using
+character-level word embeddings and show their positive impact on the system's
+performance. specifically, we obtain an increase by 3.3 points f1-score with
+respect to our baseline model. in further experiments, we reveal encoded
+character patterns of the learned embeddings and give a nuanced view of the
+performance differences of both models.

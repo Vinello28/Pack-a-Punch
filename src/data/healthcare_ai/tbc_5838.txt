@@ -1,0 +1,11 @@
+reasoning under uncertainty in al hats come to mean assessing the credibility
+of hypotheses inferred from evidence. but techniques for assessing credibility
+do not tell a problem solver what to do when it is uncertain. this is the focus
+of our current research. we have developed a medical expert system called mum,
+for managing uncertainty in medicine, that plans diagnostic sequences of
+questions, tests, and treatments. this paper describes the kinds of problems
+that mum was designed to solve and gives a brief description of its
+architecture. more recently, we have built an empty version of mum called mu,
+and used it to reimplement mum and a small diagnostic system for plant
+pathology. the latter part of the paper describes the features of mu that make
+it appropriate for building expert systems that manage uncertainty.

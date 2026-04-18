@@ -1,0 +1,21 @@
+ridesourcing platforms like uber and didi are getting more and more popular
+around the world. however, unauthorized ridesourcing activities taking
+advantages of the sharing economy can greatly impair the healthy development of
+this emerging industry. as the first step to regulate on-demand ride services
+and eliminate black market, we design a method to detect ridesourcing cars from
+a pool of cars based on their trajectories. since licensed ridesourcing car
+traces are not openly available and may be completely missing in some cities
+due to legal issues, we turn to transferring knowledge from public transport
+open data, i.e, taxis and buses, to ridesourcing detection among ordinary
+vehicles. we propose a two-stage transfer learning framework. in stage 1, we
+take taxi and bus data as input to learn a random forest (rf) classifier using
+trajectory features shared by taxis/buses and ridesourcing/other cars. then, we
+use the rf to label all the candidate cars. in stage 2, leveraging the subset
+of high confident labels from the previous stage as input, we further learn a
+convolutional neural network (cnn) classifier for ridesourcing detection, and
+iteratively refine rf and cnn, as well as the feature set, via a co-training
+process. finally, we use the resulting ensemble of rf and cnn to identify the
+ridesourcing cars in the candidate pool. experiments on real car, taxi and bus
+traces show that our transfer learning framework, with no need of a pre-labeled
+ridesourcing dataset, can achieve similar accuracy as the supervised learning
+methods.

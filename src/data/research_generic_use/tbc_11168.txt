@@ -1,0 +1,20 @@
+dimensionality reduction is an important step in processing the hyperspectral
+images (hsi) to overcome the curse of dimensionality problem. linear
+dimensionality reduction methods such as independent component analysis (ica)
+and linear discriminant analysis (lda) are commonly employed to reduce the
+dimensionality of hsi. these methods fail to capture non-linear dependency in
+the hsi data, as data lies in the nonlinear manifold. to handle this, nonlinear
+transformation techniques based on kernel methods were introduced for
+dimensionality reduction of hsi. however, the kernel methods involve cubic
+computational complexity while computing the kernel matrix, and thus its
+potential cannot be explored when the number of pixels (samples) are large. in
+literature a fewer number of pixels are randomly selected to partial to
+overcome this issue, however this sub-optimal strategy might neglect important
+information in the hsi. in this paper, we propose randomized solutions to the
+ica and lda dimensionality reduction methods using random fourier features, and
+we label them as rffica and rfflda. our proposed method overcomes the
+scalability issue and to handle the non-linearities present in the data more
+efficiently. experiments conducted with two real-world hyperspectral datasets
+demonstrates that our proposed randomized methods outperform the conventional
+kernel ica and kernel lda in terms overall, per-class accuracies and
+computational time.

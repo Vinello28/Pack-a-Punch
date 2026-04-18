@@ -1,0 +1,15 @@
+enter the robotrix, an extremely photorealistic indoor dataset designed to
+enable the application of deep learning techniques to a wide variety of robotic
+vision problems. the robotrix consists of hyperrealistic indoor scenes which
+are explored by robot agents which also interact with objects in a visually
+realistic manner in that simulated world. photorealistic scenes and robots are
+rendered by unreal engine into a virtual reality headset which captures gaze so
+that a human operator can move the robot and use controllers for the robotic
+hands; scene information is dumped on a per-frame basis so that it can be
+reproduced offline to generate raw data and ground truth labels. by taking this
+approach, we were able to generate a dataset of 38 semantic classes totaling 8m
+stills recorded at +60 frames per second with full hd resolution. for each
+frame, rgb-d and 3d information is provided with full annotations in both
+spaces. thanks to the high quality and quantity of both raw information and
+annotations, the robotrix will serve as a new milestone for investigating 2d
+and 3d robotic vision tasks with large-scale data-driven techniques.

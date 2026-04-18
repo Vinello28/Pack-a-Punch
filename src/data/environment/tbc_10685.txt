@@ -1,0 +1,13 @@
+as more and more energy is produced from renewable energy sources (res), the
+challenge for balancing production and consumption is being shifted to
+consumers instead of the power grid. this requires new and intelligent ways of
+flexibility management at individual building and district levels. to this end,
+this paper presents a model based optimal control (mpc) algorithm embedded with
+deep neural network for day-ahead consumption and production forecasting. the
+algorithm is used to optimize a medium-sized grocery store energy consumption
+located in finland. system was tested in a simulation tool utilising real-life
+power measurements from the grocery store. we report a $8.4\%$ reduction in
+daily peak loads with flexibility provided by a $20$ kwh battery. on the other
+hand, a significant benefit was not seen in trying to optimize with respect to
+the energy spot price. we conclude that our approach is able to significantly
+reduce peak loads in a grocery store without additional operational costs.

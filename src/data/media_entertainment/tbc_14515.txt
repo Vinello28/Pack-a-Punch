@@ -1,0 +1,18 @@
+the recent advances in deep learning have made it possible to generate
+photo-realistic images by using neural networks and even to extrapolate video
+frames from an input video clip. in this paper, for the sake of both furthering
+this exploration and our own interest in a realistic application, we study
+image-to-video translation and particularly focus on the videos of facial
+expressions. this problem challenges the deep neural networks by another
+temporal dimension comparing to the image-to-image translation. moreover, its
+single input image fails most existing video generation methods that rely on
+recurrent models. we propose a user-controllable approach so as to generate
+video clips of various lengths from a single face image. the lengths and types
+of the expressions are controlled by users. to this end, we design a novel
+neural network architecture that can incorporate the user input into its skip
+connections and propose several improvements to the adversarial training method
+for the neural network. experiments and user studies verify the effectiveness
+of our approach. especially, we would like to highlight that even for the face
+images in the wild (downloaded from the web and the authors' own photos), our
+model can generate high-quality facial expression videos of which about 50\%
+are labeled as real by amazon mechanical turk workers.

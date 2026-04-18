@@ -1,0 +1,14 @@
+in future, vehicles and other traffic participants will be interconnected and
+equipped with various types of sensors, allowing for cooperation on different
+levels, such as situation prediction or intention detection. in this article we
+present a cooperative approach for starting movement detection of cyclists
+using a boosted stacking ensemble approach realizing feature- and decision
+level cooperation. we introduce a novel method based on a 3d convolutional
+neural network (cnn) to detect starting motions on image sequences by learning
+spatio-temporal features. the cnn is complemented by a smart device based
+starting movement detection originating from smart devices carried by the
+cyclist. both model outputs are combined in a stacking ensemble approach using
+an extreme gradient boosting classifier resulting in a fast and yet robust
+cooperative starting movement detector. we evaluate our cooperative approach on
+real-world data originating from experiments with 49 test subjects consisting
+of 84 starting motions.

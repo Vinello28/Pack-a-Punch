@@ -1,0 +1,12 @@
+one of the challenges related to the investigation of vehicular networks is
+associated with predicting a network state regarding both short-term and
+long-term network evolutionary changes. this paper analyzes a case in which
+vehicles are located on a straight road, and the connectivity state between two
+consecutive cars is determined by the markov chain model with two states. the
+transition probabilities of the considered model are explicitly expressed in
+terms of known parameters of the network using the wang-moayery model. within
+the presented model, the network evolution is described in terms of
+determinative parameters, such as average link duration, average cluster
+lifetime, and a clusters' existence probability between two fixed moments of
+time. in support of the theoretically obtained probabilistic distributions, the
+results of numerical simulations are provided.

@@ -1,0 +1,10 @@
+in this paper, we propose an efficient semantic segmentation framework for
+indoor scenes, tailored to the application on a mobile robot. semantic
+segmentation can help robots to gain a reasonable understanding of their
+environment, but to reach this goal, the algorithms not only need to be
+accurate, but also fast and robust. therefore, we developed an optimized 3d
+point cloud processing framework based on a randomized decision forest,
+achieving competitive results at sufficiently high frame rates. we evaluate the
+capabilities of our method on the popular nyu depth dataset and our own data
+and demonstrate its feasibility by deploying it on a mobile service robot, for
+which we could optimize an object search procedure using our results.

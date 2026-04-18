@@ -1,0 +1,17 @@
+wireless capsule endoscopy (wce) is an effective mean for diagnosis of
+gastrointestinal disorders. detection of informative scenes in wce video could
+reduce the length of transmitted videos and help the diagnosis procedure. in
+this paper, we investigate the problem of simplification of neural networks for
+automatic bleeding region detection inside capsule endoscopy device. suitable
+color channels are selected as neural networks inputs, and image classification
+is conducted using a multi-layer perceptron (mlp) and a convolutional neural
+network (cnn) separately. both cnn and mlp structures are simplified to reduce
+the number of computational operations. performances of two simplified networks
+are evaluated on a wce bleeding image dataset using the dice score. simulation
+results show that applying simplification methods on both mlp and cnn
+structures reduces the number of computational operations significantly with
+auc greater than 0.97. although cnn performs better in comparison with
+simplified mlp, the simplified mlp segments bleeding regions with a
+significantly smaller number of computational operations. concerning the
+importance of having a simple structure or a more accurate model, each of the
+designed structures could be selected for inside capsule implementation.

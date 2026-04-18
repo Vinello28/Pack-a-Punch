@@ -1,0 +1,15 @@
+with over 50 billion downloads and more than 1.3 million apps in the google
+official market, android has continued to gain popularity amongst smartphone
+users worldwide. at the same time there has been a rise in malware targeting
+the platform, with more recent strains employing highly sophisticated detection
+avoidance techniques. as traditional signature based methods become less potent
+in detecting unknown malware, alternatives are needed for timely zero-day
+discovery. thus this paper proposes an approach that utilizes ensemble learning
+for android malware detection. it combines advantages of static analysis with
+the efficiency and performance of ensemble machine learning to improve android
+malware detection accuracy. the machine learning models are built using a large
+repository of malware samples and benign apps from a leading antivirus vendor.
+experimental results and analysis presented shows that the proposed method
+which uses a large feature space to leverage the power of ensemble learning is
+capable of 97.3 to 99 percent detection accuracy with very low false positive
+rates.

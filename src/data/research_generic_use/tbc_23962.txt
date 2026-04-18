@@ -1,0 +1,15 @@
+hate speech detection is a critical, yet challenging problem in natural
+language processing (nlp). despite the existence of numerous studies dedicated
+to the development of nlp hate speech detection approaches, the accuracy is
+still poor. the central problem is that social media posts are short and noisy,
+and most existing hate speech detection solutions take each post as an isolated
+input instance, which is likely to yield high false positive and negative
+rates. in this paper, we radically improve automated hate speech detection by
+presenting a novel model that leverages intra-user and inter-user
+representation learning for robust hate speech detection on twitter. in
+addition to the target tweet, we collect and analyze the user's historical
+posts to model intra-user tweet representations. to suppress the noise in a
+single tweet, we also model the similar tweets posted by all other users with
+reinforced inter-user representation learning techniques. experimentally, we
+show that leveraging these two representations can significantly improve the
+f-score of a strong bidirectional lstm baseline model by 10.1%.

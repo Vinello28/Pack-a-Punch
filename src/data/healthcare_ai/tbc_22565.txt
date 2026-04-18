@@ -1,0 +1,12 @@
+identifying dairy cows with infections such as mastitis or cows on
+medications is an extremely important task and legally required by the fda$'$s
+pasteurized milk ordinance. the milk produced by these dairy cows cannot be
+allowed to mix with the milk from healthy cows or it risks contaminating the
+entire bulk tank or milk truck. ear tags, ankle bands, rfid tags and even iris
+patterns are some of the identification methods currently used in the dairy
+farms. in this work we propose the use of nir images of cow$'$s mammary glands
+as a novel biometric identification modality. two datasets, containing 302
+samples from 151 cows has been collected and various machine learning
+techniques applied to demonstrate the viability of the proposed biometric
+modality. the results suggest promising identification accuracy for samples
+collected over consecutive days

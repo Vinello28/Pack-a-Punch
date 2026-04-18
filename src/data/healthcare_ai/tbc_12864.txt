@@ -1,0 +1,14 @@
+accurate segmentation of breast lesions is a crucial step in evaluating the
+characteristics of tumors. however, this is a challenging task, since breast
+lesions have sophisticated shape, topological structure, and variation in the
+intensity distribution. in this paper, we evaluated the performance of three
+unsupervised algorithms for the task of breast magnetic resonance (mri) lesion
+segmentation, namely, gaussian mixture model clustering, k-means clustering and
+a marker-controlled watershed transformation based method. all methods were
+applied on breast mri slices following selection of regions of interest (rois)
+by an expert radiologist and evaluated on 106 subjects' images, which include
+59 malignant and 47 benign lesions. segmentation accuracy was evaluated by
+comparing our results with ground truth masks, using the dice similarity
+coefficient (dsc), jaccard index (ji), hausdorff distance and precision-recall
+metrics. the results indicate that the marker-controlled watershed
+transformation outperformed all other algorithms investigated.

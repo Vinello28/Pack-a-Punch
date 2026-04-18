@@ -1,0 +1,10 @@
+this study aims to establish a search service that provides greenwashing 
+pattern detection and infographic of enterprises through ai-based nlp technology. 
+the purpose of it is to provide decision indicators by checking data on greenwashing trends of companies by users, including investment institutions and general 
+consumers. we used a deep learning model to adopted evaluation factors to score 
+the ‘greenwashing’ and collected the title of media data with active monitoring of 
+companies based on those factors. in addition, construct greenwashing sentence 
+discrimination model and a corporate greenwashing scoring model using the bert 
+model. as a result, a service provided scores using data collected through its keywords 
+through visualization and the process of calculation when users input the name of 
+the company.

@@ -1,0 +1,18 @@
+today, detection of anomalous events in civil infrastructures (e.g. water
+pipe breaks and leaks) is time consuming and often takes hours or days. pipe
+breakage as one of the most frequent types of failure of water networks often
+causes community disruptions ranging from temporary interruptions in services
+to extended loss of business and relocation of residents. in this project, we
+design and implement a two-phase approach for leak event identification, which
+leverages dynamic data from multiple information sources including iot sensing
+data (pressure values and/or flow rates), geophysical data (water systems), and
+human inputs (tweets posted on twitter). in the approach, a high order
+conditional random field (crf) is constructed that enforces predictions based
+on iot observations consistent with human inputs to improve the performance of
+event identifications.
+  considering the physical water network as a graph, a crf model is built and
+learned by the structured support vector machine (ssvm) using node features
+such as water pressure and flow rate. after that, we built the high order crf
+system by enforcing twitter leakage detection information. an optimal inference
+algorithm is proposed for the adapted high order crf model. experimental
+results show the effectiveness of our system.

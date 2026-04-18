@@ -1,0 +1,13 @@
+the manipulator workspace mapping is an important problem in robotics and has
+attracted significant attention in the community. however, most of the
+pre-existing algorithms have expensive time complexity due to the reliance on
+sophisticated kinematic equations. to solve this problem, this paper introduces
+subspace learning (sl), a variant of subspace embedding, where a set of robot
+and scope parameters is mapped to the corresponding workspace by a deep neural
+network (dnn). trained on a large dataset of around $\mathbf{6\times 10^4}$
+samples obtained from a matlab$^\circledr$ implementation of a classical method
+and sampling of designed uniform distributions, the experiments demonstrate
+that the embedding significantly reduces run-time from $\mathbf{5.23 \times
+10^3}$ s of traditional discretization method to $\mathbf{0.224}$ s, with high
+accuracies (average f-measure is $\mathbf{0.9665}$ with batch gradient descent
+and resilient backpropagation).

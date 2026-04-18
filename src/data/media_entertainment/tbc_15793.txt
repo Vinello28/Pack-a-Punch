@@ -1,0 +1,6 @@
+we propose a framework for computer music composition that uses resilient
+propagation (rprop) and long short term memory (lstm) recurrent neural network.
+in this paper, we show that lstm network learns the structure and
+characteristics of music pieces properly by demonstrating its ability to
+recreate music. we also show that predicting existing music using rprop
+outperforms back propagation through time (bptt).

@@ -1,0 +1,22 @@
+breast cancer is the second leading cause of cancer death among women
+worldwide. nevertheless, it is also one of the most treatable malignances if
+detected early. screening for breast cancer with digital mammography (dm) has
+been widely used. however it demonstrates limited sensitivity for women with
+dense breasts. an emerging technology in the field is contrast-enhanced digital
+mammography (cedm), which includes a low energy (le) image similar to dm, and a
+recombined image leveraging tumor neoangiogenesis similar to breast magnetic
+resonance imaging (mri). cedm has shown better diagnostic accuracy than dm.
+while promising, cedm is not yet widely available across medical centers. in
+this research, we propose a shallow-deep convolutional neural network (sd-cnn)
+where a shallow cnn is developed to derive "virtual" recombined images from le
+images, and a deep cnn is employed to extract novel features from le,
+recombined or "virtual" recombined images for ensemble models to classify the
+cases as benign vs. cancer. to evaluate the validity of our approach, we first
+develop a deep-cnn using 49 cedm cases collected from mayo clinic to prove the
+contributions from recombined images for improved breast cancer diagnosis (0.86
+in accuracy using le imaging vs. 0.90 in accuracy using both le and recombined
+imaging). we then develop a shallow-cnn using the same 49 cedm cases to learn
+the nonlinear mapping from le to recombined images. next, we use 69 dm cases
+collected from the hospital located at zhejiang university, china to generate
+"virtual" recombined images. using dm alone provides 0.91 in accuracy, whereas
+sd-cnn improves the diagnostic accuracy to 0.95.

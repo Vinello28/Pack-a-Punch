@@ -1,0 +1,16 @@
+this paper presents a novel and flexible solution for fault prediction based
+on data collected from scada system. fault prediction is offered at two
+different levels based on a data-driven approach: (a) generic fault/status
+prediction and (b) specific fault class prediction, implemented by means of two
+different machine learning based modules built on an unsupervised clustering
+algorithm and a pattern recognition neural network, respectively. model has
+been assessed on a park of six photovoltaic (pv) plants up to 10 mw and on more
+than one hundred inverter modules of three different technology brands. the
+results indicate that the proposed method is effective in (a) predicting
+incipient generic faults up to 7 days in advance with sensitivity up to 95% and
+(b) anticipating damage of specific fault classes with times ranging from few
+hours up to 7 days. the model is easily deployable for on-line monitoring of
+anomalies on new pv plants and technologies, requiring only the availability of
+historical scada and fault data, fault taxonomy and inverter electrical
+datasheet. keywords: data mining, fault prediction, inverter module, key
+performance indicator, lost production

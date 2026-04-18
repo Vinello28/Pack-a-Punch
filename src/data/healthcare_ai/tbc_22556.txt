@@ -1,0 +1,11 @@
+identifying measurable genetic indicators (or biomarkers) of a specific
+condition of a biological system is a key element of precision medicine. indeed
+it allows to tailor diagnostic, prognostic and treatment choice to individual
+characteristics of a patient. in machine learning terms, biomarker discovery
+can be framed as a feature selection problem on whole-genome data sets.
+however, classical feature selection methods are usually underpowered to
+process these data sets, which contain orders of magnitude more features than
+samples. this can be addressed by making the assumption that genetic features
+that are linked on a biological network are more likely to work jointly towards
+explaining the phenotype of interest. we review here three families of methods
+for feature selection that integrate prior knowledge in the form of networks.

@@ -1,0 +1,19 @@
+energy consumption for hot water production is a major draw in high
+efficiency buildings. optimizing this has typically been approached from a
+thermodynamics perspective, decoupled from occupant influence. furthermore,
+optimization usually presupposes existence of a detailed dynamics model for the
+hot water system. these assumptions lead to suboptimal energy efficiency in the
+real world. in this paper, we present a novel reinforcement learning based
+methodology which optimizes hot water production. the proposed methodology is
+completely generalizable, and does not require an offline step or human domain
+knowledge to build a model for the hot water vessel or the heating element.
+occupant preferences too are learnt on the fly. the proposed system is applied
+to a set of 32 houses in the netherlands where it reduces energy consumption
+for hot water production by roughly 20% with no loss of occupant comfort.
+extrapolating, this translates to absolute savings of roughly 200 kwh for a
+single household on an annual basis. this performance can be replicated to any
+domestic hot water system and optimization objective, given that the fairly
+minimal requirements on sensor data are met. with millions of hot water systems
+operational worldwide, the proposed framework has the potential to reduce
+energy consumption in existing and new systems on a multi gigawatt-hour scale
+in the years to come.

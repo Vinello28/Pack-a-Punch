@@ -1,0 +1,14 @@
+generative adversarial networks (gans) are powerful tools for reconstructing
+compressed sensing magnetic resonance imaging (cs-mri). however most recent
+works lack exploration of structure information of mri images that is crucial
+for clinical diagnosis. to tackle this problem, we propose the
+structure-enhanced gan (segan) that aims at restoring structure information at
+both local and global scale. segan defines a new structure regularization
+called patch correlation regularization (pcr) which allows for efficient
+extraction of structure information. in addition, to further enhance the
+ability to uncover structure information, we propose a novel generator su-net
+by incorporating multiple-scale convolution filters into each layer. besides,
+we theoretically analyze the convergence of stochastic factors contained in
+training process. experimental results show that segan is able to learn target
+structure information and achieves state-of-the-art performance for cs-mri
+reconstruction.

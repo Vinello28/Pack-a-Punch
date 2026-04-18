@@ -1,1 +1,0 @@
-Progetto di previsione del dissesto idrogeologico mediante modelli predittivi che analizzano dati pluviometrici, geotecnici e immagini satellitari radar.

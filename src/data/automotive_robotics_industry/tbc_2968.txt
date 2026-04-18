@@ -1,0 +1,20 @@
+generative adversarial networks (gan) have attracted much research attention
+recently, leading to impressive results for natural image generation. however,
+to date little success was observed in using gan generated images for improving
+classification tasks. here we attempt to explore, in the context of car license
+plate recognition, whether it is possible to generate synthetic training data
+using gan to improve recognition accuracy. with a carefully-designed pipeline,
+we show that the answer is affirmative. first, a large-scale image set is
+generated using the generator of gan, without manual annotation. then, these
+images are fed to a deep convolutional neural network (dcnn) followed by a
+bidirectional recurrent neural network (brnn) with long short-term memory
+(lstm), which performs the feature learning and sequence labelling. finally,
+the pre-trained model is fine-tuned on real images. our experimental results on
+a few data sets demonstrate the effectiveness of using gan images: an
+improvement of 7.5% over a strong baseline with moderate-sized real data being
+available. we show that the proposed framework achieves competitive recognition
+accuracy on challenging test datasets. we also leverage the depthwise separate
+convolution to construct a lightweight convolutional rnn, which is about half
+size and 2x faster on cpu. combining this framework and the proposed pipeline,
+we make progress in performing accurate recognition on mobile and embedded
+devices.

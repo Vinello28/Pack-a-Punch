@@ -1,0 +1,18 @@
+the number of categories for action recognition is growing rapidly and it has
+become increasingly hard to label sufficient training data for learning
+conventional models for all categories. instead of collecting ever more data
+and labelling them exhaustively for all categories, an attractive alternative
+approach is zero-shot learning" (zsl). to that end, in this study we construct
+a mapping between visual features and a semantic descriptor of each action
+category, allowing new categories to be recognised in the absence of any visual
+training data. existing zsl studies focus primarily on still images, and
+attribute-based semantic representations. in this work, we explore word-vectors
+as the shared semantic space to embed videos and category labels for zsl action
+recognition. this is a more challenging problem than existing zsl of still
+images and/or attributes, because the mapping between video spacetime features
+of actions and the semantic space is more complex and harder to learn for the
+purpose of generalising over any cross-category domain shift. to solve this
+generalisation problem in zsl action recognition, we investigate a series of
+synergistic strategies to improve upon the standard zsl pipeline. most of these
+strategies are transductive in nature which means access to testing data in the
+training phase.

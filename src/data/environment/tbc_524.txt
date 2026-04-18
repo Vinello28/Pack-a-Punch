@@ -1,0 +1,15 @@
+our overarching goal is to develop an accurate and explainable model for
+plant disease identification using hyperspectral data. charcoal rot is a soil
+borne fungal disease that affects the yield of soybean crops worldwide.
+hyperspectral images were captured at 240 different wavelengths in the range of
+383 - 1032 nm. we developed a 3d convolutional neural network model for soybean
+charcoal rot disease identification. our model has classification accuracy of
+95.73\% and an infected class f1 score of 0.87. we infer the trained model
+using saliency map and visualize the most sensitive pixel locations that enable
+classification. the sensitivity of individual wavelengths for classification
+was also determined using the saliency map visualization. we identify the most
+sensitive wavelength as 733 nm using the saliency map visualization. since the
+most sensitive wavelength is in the near infrared region(700 - 1000 nm) of the
+electromagnetic spectrum, which is also the commonly used spectrum region for
+determining the vegetation health of the plant, we were more confident in the
+predictions using our model.

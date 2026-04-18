@@ -1,0 +1,14 @@
+rapid growth of machine learning methodologies and their applications offer
+new opportunity for improved transformer asset management. accordingly, power
+system operators are currently looking for data-driven methods to make
+better-informed decisions in terms of network management. in this paper,
+machine learning and data fusion techniques are integrated to estimate
+transformer loss of life. using ieee std. c57.91-2011, a data synthesis process
+is proposed based on hourly transformer loading and ambient temperature values.
+this synthesized data is employed to estimate transformer loss of life by using
+adaptive network-based fuzzy inference system (anfis) and radial basis function
+(rbf) network, which are further fused together with the objective of improving
+the estimation accuracy. among various data fusion techniques, ordered weighted
+averaging (owa) and sequential kalman filter are selected to fuse the output
+results of the estimated anfis and rbf. simulation results demonstrate the
+merit and the effectiveness of the proposed method.

@@ -1,0 +1,16 @@
+automatically learned quality assessment for images has recently become a hot
+topic due to its usefulness in a wide variety of applications such as
+evaluating image capture pipelines, storage techniques and sharing media.
+despite the subjective nature of this problem, most existing methods only
+predict the mean opinion score provided by datasets such as ava [1] and tid2013
+[2]. our approach differs from others in that we predict the distribution of
+human opinion scores using a convolutional neural network. our architecture
+also has the advantage of being significantly simpler than other methods with
+comparable performance. our proposed approach relies on the success (and
+retraining) of proven, state-of-the-art deep object recognition networks. our
+resulting network can be used to not only score images reliably and with high
+correlation to human perception, but also to assist with adaptation and
+optimization of photo editing/enhancement algorithms in a photographic
+pipeline. all this is done without need for a "golden" reference image,
+consequently allowing for single-image, semantic- and perceptually-aware,
+no-reference quality assessment.

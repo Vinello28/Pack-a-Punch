@@ -1,0 +1,16 @@
+we study domain-specific video streaming. specifically, we target a streaming
+setting where the videos to be streamed from a server to a client are all in
+the same domain and they have to be compressed to a small size for low-latency
+transmission. several popular video streaming services, such as the video game
+streaming services of geforce now and twitch, fall in this category. while
+conventional video compression standards such as h.264 are commonly used for
+this task, we hypothesize that one can leverage the property that the videos
+are all in the same domain to achieve better video quality. based on this
+hypothesis, we propose a novel video compression pipeline. specifically, we
+first apply h.264 to compress domain-specific videos. we then train a novel
+binary autoencoder to encode the leftover domain-specific residual information
+frame-by-frame into binary representations. these binary representations are
+then compressed and sent to the client together with the h.264 stream. in our
+experiments, we show that our pipeline yields consistent gains over standard
+h.264 compression across several benchmark datasets while using the same
+channel bandwidth.

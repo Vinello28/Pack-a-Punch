@@ -1,0 +1,14 @@
+in robotics, knowing the object states and recognizing the desired states are
+very important. objects at different states would require different grasping.
+to achieve different states, different manipulations would be required, as well
+as different grasping. to analyze the objects at different states, a dataset of
+cooking objects was created. cooking consists of various cutting techniques
+needed for different dishes (e.g. diced, julienne etc.). identifying each of
+this state of cooking objects by the human can be difficult sometimes too. in
+this paper, we have analyzed seven different cooking object states by tuning a
+convolutional neural network (cnn). for this task, images were downloaded and
+annotated by students and they are divided into training and a completely
+different test set. by tuning the vgg-16 cnn 77% accuracy was obtained. the
+work presented in this paper focuses on classification between various object
+states rather than task recognition or recipe prediction. this framework can be
+easily adapted in any other object state classification activity.

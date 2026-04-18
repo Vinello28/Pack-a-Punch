@@ -1,0 +1,11 @@
+background: malaria is a critical and potentially fatal disease caused by the plasmodium parasite and is
+responsible for more than 600,000 deaths globally. early and accurate detection of malaria parasites is crucial
+for effective treatment, yet conventional microscopy faces limitations in variability and efficiency.
+methods: we propose a novel computer-aided detection framework based on deep learning and attention
+mechanisms, extending the yolo-spam and yolo-pam models. our approach facilitates the detection and
+classification of malaria parasites across all infection stages and supports multi-species identification.
+results: the framework was evaluated on three publicly available datasets, demonstrating high accuracy
+in detecting four distinct malaria species and their life stages. comparative analysis against state-of-the-art
+methodologies indicates significant improvements in both detection rates and diagnostic utility.
+conclusion: this study presents a robust solution for automated malaria detection, offering valuable support
+for pathologists and enhancing diagnostic practices in real-world scenarios.

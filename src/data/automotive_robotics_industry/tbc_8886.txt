@@ -1,0 +1,20 @@
+visual localization is a key step in many robotics pipelines, allowing the
+robot to (approximately) determine its position and orientation in the world.
+an efficient and scalable approach to visual localization is to use image
+retrieval techniques. these approaches identify the image most similar to a
+query photo in a database of geo-tagged images and approximate the query's pose
+via the pose of the retrieved database image. however, image retrieval across
+drastically different illumination conditions, e.g. day and night, is still a
+problem with unsatisfactory results, even in this age of powerful neural
+models. this is due to a lack of a suitably diverse dataset with true
+correspondences to perform end-to-end learning. a recent class of neural models
+allows for realistic translation of images among visual domains with relatively
+little training data and, most importantly, without ground-truth pairings. in
+this paper, we explore the task of accurately localizing images captured from
+two traversals of the same area in both day and night. we propose todaygan - a
+modified image-translation model to alter nighttime driving images to a more
+useful daytime representation. we then compare the daytime and translated night
+images to obtain a pose estimate for the night image using the known 6-dof
+position of the closest day image. our approach improves localization
+performance by over 250% compared the current state-of-the-art, in the context
+of standard metrics in multiple categories.

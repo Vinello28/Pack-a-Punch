@@ -1,0 +1,18 @@
+in order for robots to perform mission-critical tasks, it is essential that
+they are able to quickly adapt to changes in their environment as well as to
+injuries and or other bodily changes. deep reinforcement learning has been
+shown to be successful in training robot control policies for operation in
+complex environments. however, existing methods typically employ only a single
+policy. this can limit the adaptability since a large environmental
+modification might require a completely different behavior compared to the
+learning environment. to solve this problem, we propose map-based multi-policy
+reinforcement learning (mmprl), which aims to search and store multiple
+policies that encode different behavioral features while maximizing the
+expected reward in advance of the environment change. thanks to these policies,
+which are stored into a multi-dimensional discrete map according to its
+behavioral feature, adaptation can be performed within reasonable time without
+retraining the robot. an appropriate pre-trained policy from the map can be
+recalled using bayesian optimization. our experiments show that mmprl enables
+robots to quickly adapt to large changes without requiring any prior knowledge
+on the type of injuries that could occur. a highlight of the learned behaviors
+can be found here: https://youtu.be/qwinbilxnoe .

@@ -1,0 +1,1 @@
+thoth is a tool designed to combine many different types of speed reading technology. the largest insight is using natural language parsing for more optimal rapid serial visual presentation and more effective reading information.

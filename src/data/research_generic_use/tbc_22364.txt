@@ -1,0 +1,10 @@
+expert system is developed as consulting service for users spread or public
+requires affordable access. the internet has become a medium for such services,
+but presence of mobile devices make the access becomes more widespread by
+utilizing mobile web and wap (wireless application protocol). applying expert
+systems applications over the web and wap requires a knowledge base
+representation that can be accessed simultaneously. this paper proposes single
+database to accommodate the knowledge representation with decision tree mapping
+approach. because of the database exist, consulting application through both
+web and wap can access it to provide expert system services options for more
+affordable for public.

@@ -1,0 +1,15 @@
+to grasp the randomly moving objects in unstructured environment, a novel robotic grasping method based on 
+multi-agent td3 with high-quality memory (ma-td3h) is proposed. during the grasping process, the ma-td3h 
+algorithm obtains the object’s motion state from the vision detection module and outputs the velocity of the 
+gripper. the quality of the sampled memory plays a crucial role in reinforcement learning models. in ma-td3h, 
+transitions are saved in the memory buffer and high-quality memory (h-memory) buffer respectively. when 
+updating the actor network, transitions are adaptively sampled from the two buffers by a set ratio according to 
+the current grasping success rate of the algorithm. also, the multi-agent mechanism enables the ma-td3h al
+gorithm to control multiple agents for simultaneous training and experience sharing. in the simulation, ma- 
+td3h improves the success rate of grasping the moving object by around 25 percent, compared with td3, 
+ddpg and sac. while in most cases, ma-td3h spends 80 percent of the time of the other algorithms. in real- 
+world experiments on grasping objects in different shapes and trajectories, the average grasping prediction 
+success rate (gpsr) and grasping reaching success rate (grsr) of ma-td3h are above 90 percent and 80 percent 
+respectively, and the average grsr is improved by 20–30 percent compared with the other algorithms. in 
+summary, simulated and real-world experiments validate that the ma-td3h algorithm outperforms the other 
+algorithms in robotic grasping for moving objects.

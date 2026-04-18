@@ -1,0 +1,10 @@
+the main aim of the present study is to explore the relationship between numerous input parameters and the solar
+ photovoltaic (pv) power using machine learning (ml) models. two different ml approaches such as support vector machine
+ (svm) and gaussian process regression (gpr) were considered and compared. the basic input parameters including solar pv
+ panel temperature, ambient temperature, solar flux, time of the day and relative humidity were considered for predicting the
+ solar pv power. the results showed that among the proposed ml approaches, matern 5/2 gpr algorithm provided the optimal
+ performance; whereas cubic svm had the worst performance. furthermore, the predicted output results are in good agreement
+ with the experimental values, indicating that the proposed ml approaches are appropriate for use in predicting the power of
+ different solar pv panel. additionally, to showcase the effectiveness and the accuracy of svm and gpr models in forecasting
+ solar pv power, the results of these models are compared using root mean squared error (rmse) and mean absolute error
+ (mae) criteria.

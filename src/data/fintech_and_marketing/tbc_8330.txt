@@ -1,0 +1,16 @@
+etsy is a global marketplace where people across the world connect to make,
+buy and sell unique goods. sellers at etsy can promote their product listings
+via advertising campaigns similar to traditional sponsored search ads.
+click-through rate (ctr) prediction is an integral part of online search
+advertising systems where it is utilized as an input to auctions which
+determine the final ranking of promoted listings to a particular user for each
+query. in this paper, we provide a holistic view of etsy's promoted listings'
+ctr prediction system and propose an ensemble learning approach which is based
+on historical or behavioral signals for older listings as well as content-based
+features for new listings. we obtain representations from texts and images by
+utilizing state-of-the-art deep learning techniques and employ multimodal
+learning to combine these different signals. we compare the system to
+non-trivial baselines on a large-scale real world dataset from etsy,
+demonstrating the effectiveness of the model and strong correlations between
+offline experiments and online performance. the paper is also the first
+technical overview to this kind of product in e-commerce context.

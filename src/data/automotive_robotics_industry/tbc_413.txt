@@ -1,0 +1,16 @@
+the lane-level localization accuracy is very important for autonomous
+vehicles. the global navigation satellite system (gnss), e.g. gps, is a generic
+localization method for vehicles, but is vulnerable to the multi-path
+interference in the urban environment. integrating the vision-based relative
+localization result and a digital map with the gnss is a common and cheap way
+to increase the global localization accuracy and thus to realize the lane-level
+localization. this project is to develop a mono-camera based lane-changing
+behavior detection module for the correction of lateral gps localization. we
+implemented a support vector machine (svm) based framework to directly classify
+the driving behavior, including the lane keeping, left and right lane changing,
+from a sampled data of the raw image captured by the mono-camera installed
+behind the window shield. the training data was collected from the driving
+around carnegie mellon university, and we compared the trained svm models w/
+and w/o the principle component analysis (pca) dimension reduction technique.
+the performance of the svm based classification method was compared with the
+cnn method.

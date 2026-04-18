@@ -1,0 +1,19 @@
+we study mechanisms to characterize how the asymptotic convergence of
+backpropagation in deep architectures, in general, is related to the network
+structure, and how it may be influenced by other design choices including
+activation type, denoising and dropout rate. we seek to analyze whether network
+architecture and input data statistics may guide the choices of learning
+parameters and vice versa. given the broad applicability of deep architectures,
+this issue is interesting both from theoretical and a practical standpoint.
+using properties of general nonconvex objectives (with first-order
+information), we first build the association between structural, distributional
+and learnability aspects of the network vis-\`a-vis their interaction with
+parameter convergence rates. we identify a nice relationship between feature
+denoising and dropout, and construct families of networks that achieve the same
+level of convergence. we then derive a workflow that provides systematic
+guidance regarding the choice of network sizes and learning parameters often
+mediated4 by input statistics. our technical results are corroborated by an
+extensive set of evaluations, presented in this paper as well as independent
+empirical observations reported by other groups. we also perform experiments
+showing the practical implications of our framework for choosing the best
+fully-connected design for a given problem.

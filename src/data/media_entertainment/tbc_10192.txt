@@ -1,0 +1,16 @@
+in this paper, we introduce a skill-balancing mechanism for adversarial
+non-player characters (npcs), called skilled experience catalogue (sec). the
+objective of this mechanism is to approximately match the skill level of an npc
+to an opponent in real-time. we test the technique in the context of a
+first-person shooter (fps) game. specifically, the technique adjusts a
+reinforcement learning npc's proficiency with a weapon based on its current
+performance against an opponent. firstly, a catalogue of experience, in the
+form of stored learning policies, is built up by playing a series of training
+games. once the npc has been sufficiently trained, the catalogue acts as a
+timeline of experience with incremental knowledge milestones in the form of
+stored learning policies. if the npc is performing poorly, it can jump to a
+later stage in the learning timeline to be equipped with more informed
+decision-making. likewise, if it is performing significantly better than the
+opponent, it will jump to an earlier stage. the npc continues to learn in
+real-time using reinforcement learning but its policy is adjusted, as required,
+by loading the most suitable milestones for the current circumstances.

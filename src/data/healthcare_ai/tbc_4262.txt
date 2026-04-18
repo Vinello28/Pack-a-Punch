@@ -1,0 +1,17 @@
+alzheimer's disease (ad) is an irreversible and progressive brain disease
+that can be stopped or slowed down with medical treatment. language changes
+serve as a sign that a patient's cognitive functions have been impacted,
+potentially leading to early diagnosis. in this work, we use nlp techniques to
+classify and analyze the linguistic characteristics of ad patients using the
+dementiabank dataset. we apply three neural models based on cnns, lstm-rnns,
+and their combination, to distinguish between language samples from ad and
+control patients. we achieve a new independent benchmark accuracy for the ad
+classification task. more importantly, we next interpret what these neural
+models have learned about the linguistic characteristics of ad patients, via
+analysis based on activation clustering and first-derivative saliency
+techniques. we then perform novel automatic pattern discovery inside activation
+clusters, and consolidate ad patients' distinctive grammar patterns.
+additionally, we show that first derivative saliency can not only rediscover
+previous language patterns of ad patients, but also shed light on the
+limitations of neural models. lastly, we also include analysis of
+gender-separated ad data.

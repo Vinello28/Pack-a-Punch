@@ -1,0 +1,16 @@
+cryptocurrencies (or digital tokens, digital currencies, e.g., btc, eth, xrp,
+neo) have been rapidly gaining ground in use, value, and understanding among
+the public, bringing astonishing profits to investors. unlike other money and
+banking systems, most digital tokens do not require central authorities. being
+decentralized poses significant challenges for credit rating. most icos are
+currently not subject to government regulations, which makes a reliable credit
+rating system for ico projects necessary and urgent.
+  in this paper, we introduce icorating, the first learning--based
+cryptocurrency rating system. we exploit natural-language processing techniques
+to analyze various aspects of 2,251 digital currencies to date, such as white
+paper content, founding teams, github repositories, websites, etc. supervised
+learning models are used to correlate the life span and the price change of
+cryptocurrencies with these features. for the best setting, the proposed system
+is able to identify scam ico projects with 0.83 precision.
+  we hope this work will help investors identify scam icos and attract more
+efforts in automatically evaluating and analyzing ico projects.

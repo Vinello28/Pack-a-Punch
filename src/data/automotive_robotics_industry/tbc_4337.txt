@@ -1,0 +1,8 @@
+this paper proposes an enhancement of convolutional neural networks for
+object detection in resource-constrained robotics through a geometric input
+transformation called visual mesh. it uses object geometry to create a graph in
+vision space, reducing computational complexity by normalizing the pixel and
+feature density of objects. the experiments compare the visual mesh with
+several other fast convolutional neural networks. the results demonstrate
+execution times sixteen times quicker than the fastest competitor tested, while
+achieving outstanding accuracy.

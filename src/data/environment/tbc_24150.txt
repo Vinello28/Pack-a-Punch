@@ -1,0 +1,11 @@
+in this paper, we provide a time-series distribution test system. this test
+system is a fully observable distribution grid in midwest u.s. with smart
+meters (sm) installed at all end users. our goal is to share a real u.s.
+distribution grid model without modification. this grid model is comprehensive
+and representative since it consists of both overhead lines and underground
+cables, and it has standard distribution grid components such as capacitor
+banks, line switches, substation transformers with load tap changer and
+secondary distribution transformers. an important uniqueness of this grid model
+is it has one-year smart meter measurements at all nodes, thus bridging the gap
+between existing test feeders and quasi-static time-series based distribution
+system analysis.

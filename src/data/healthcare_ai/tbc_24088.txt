@@ -1,0 +1,11 @@
+deep learning has been shown to produce state of the art results in many
+tasks in biomedical imaging, especially in segmentation. moreover, segmentation
+of the cerebrovascular structure from magnetic resonance angiography is a
+challenging problem because its complex geometry and topology have a large
+inter-patient variability. therefore, in this work, we present a convolutional
+neural network approach for this problem. particularly, a new network topology
+inspired by the u-net 3d and by the inception modules, entitled uception. in
+addition, a discussion about the best objective function for sparse data also
+guided most choices during the project. state of the art models are also
+implemented for a comparison purpose and final results show that the proposed
+architecture has the best performance in this particular context.

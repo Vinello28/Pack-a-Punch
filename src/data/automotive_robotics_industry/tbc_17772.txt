@@ -1,0 +1,13 @@
+offside detection in soccer has emerged as one of the most important
+decisions with an average of 50 offside decisions every game. false detections
+and rash calls adversely affect game conditions and in many cases drastically
+change the outcome of the game. the human eye has finite precision and can only
+discern a limited amount of detail in a given instance. current offside
+decisions are made manually by sideline referees and tend to remain
+controversial in many games. this calls for automated offside detection
+techniques in order to assist accurate refereeing. in this work, we have
+explicitly used computer vision and image processing techniques like hough
+transform, color similarity (quantization), graph connected components, and
+vanishing point ideas to identify the probable offside regions.
+  keywords: hough transform, connected components, klt tracking, color
+similarity.

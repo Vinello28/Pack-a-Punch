@@ -1,0 +1,21 @@
+in this paper, we present a method for automated estimation of a human face
+given a skull remain. the proposed method is based on three statistical models.
+a volumetric (tetrahedral) skull model encoding the variations of different
+skulls, a surface head model encoding the head variations, and a dense
+statistic of facial soft tissue thickness (fstt). all data are automatically
+derived from computed tomography (ct) head scans and optical face scans. in
+order to obtain a proper dense fstt statistic, we register a skull model to
+each skull extracted from a ct scan and determine the fstt value for each
+vertex of the skull model towards the associated extracted skin surface. the
+fstt values at predefined landmarks from our statistic are well in agreement
+with data from the literature.
+  to recover a face from a skull remain, we first fit our skull model to the
+given skull. next, we generate spheres with radius of the respective fstt value
+obtained from our statistic at each vertex of the registered skull. finally, we
+fit a head model to the union of all spheres. the proposed automated method
+enables a probabilistic face-estimation that facilitates forensic recovery even
+from incomplete skull remains. the fstt statistic allows the generation of
+plausible head variants, which can be adjusted intuitively using principal
+component analysis. we validate our face recovery process using an anonymized
+head ct scan. the estimation generated from the given skull visually compares
+well with the skin surface extracted from the ct scan itself.

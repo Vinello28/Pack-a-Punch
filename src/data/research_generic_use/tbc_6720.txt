@@ -1,0 +1,10 @@
+we present a novel, automatic eye gaze tracking scheme inspired by smooth
+pursuit eye motion while playing mobile games or watching virtual reality
+contents. our algorithm continuously calibrates an eye tracking system for a
+head mounted display. this eliminates the need for an explicit calibration step
+and automatically compensates for small movements of the headset with respect
+to the head. the algorithm finds correspondences between corneal motion and
+screen space motion, and uses these to generate gaussian process regression
+models. a combination of those models provides a continuous mapping from
+corneal position to screen space position. accuracy is nearly as good as
+achieved with an explicit calibration step.

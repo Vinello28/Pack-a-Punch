@@ -1,0 +1,13 @@
+we propose a two-stage hybrid approach with neural networks as the new
+feature construction algorithms for bankcard response classifications. the
+hybrid model uses a very simple neural network structure as the new feature
+construction tool in the first stage, then the newly created features are used
+as the additional input variables in logistic regression in the second stage.
+the model is compared with the traditional one-stage model in credit customer
+response classification. it is observed that the proposed two-stage model
+outperforms the one-stage model in terms of accuracy, the area under roc curve,
+and ks statistic. by creating new features with the neural network technique,
+the underlying nonlinear relationships between variables are identified.
+furthermore, by using a very simple neural network structure, the model could
+overcome the drawbacks of neural networks in terms of its long training time,
+complex topology, and limited interpretability.

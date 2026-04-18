@@ -1,0 +1,20 @@
+in this paper, we develop a method for unsupervised clustering of two-way
+(matrix) data by combining two recent innovations from different fields: the
+sparse subspace clustering (ssc) algorithm [10], which groups points coming
+from a union of subspaces into their respective subspaces, and the t-product
+[18], which was introduced to provide a matrix-like multiplication for third
+order tensors. our algorithm is analogous to ssc in that an "affinity" between
+different data points is built using a sparse self-representation of the data.
+unlike ssc, we employ the t-product in the self-representation. this allows us
+more flexibility in modeling; infact, ssc is a special case of our method. when
+using the t-product, three-way arrays are treated as matrices whose elements
+(scalars) are n-tuples or tubes. convolutions take the place of scalar
+multiplication. this framework allows us to embed the 2-d data into a
+vector-space-like structure called a free module over a commutative ring. these
+free modules retain many properties of complex inner-product spaces, and we
+leverage that to provide theoretical guarantees on our algorithm. we show that
+compared to vector-space counterparts, ssmc achieves higher accuracy and better
+able to cluster data with less preprocessing in some image clustering problems.
+in particular we show the performance of the proposed method on weizmann face
+database, the extended yale b face database and the mnist handwritten digits
+database.

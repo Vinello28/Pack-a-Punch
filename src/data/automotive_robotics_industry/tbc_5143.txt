@@ -1,0 +1,20 @@
+vehiclesbecomemoreadvancedandsmarterduetoadvancementsintechnologyinthemodern
+ world. every person now a days, demand a smart vehicle due to their automobility and smart controls. this
+ is all possible through advancements in vanet (vehicular adhoc network) and the internet of vehicles
+ (iov). vehicles in the vanet are highly connected to each other and this thing can cause security, safety,
+ and privacy risks for the asset itself and driver also. it can become a reason of major threat. and these
+ threats can occur due to tracing the location of the vehicle. existing techniques like group-based shadowing
+ schemes, obfuscation, silent periods, and mix-zone have preserved privacy of location somehow, but don’t
+ have a good qos and optimized efficient security. to overcome these issues, we introduced a new privacy
+ framework, which is an improvement of the existing shadowing scheme. we proposed a computationally
+ efficient group leader selection process based on centeredness, rule obeyed, and obu resources, reducing
+ overhead by 20%, integrating fl with dp to preserve data privacy without sacrificing utility, and achieving
+ a 15%improvement in location accuracy under privacy constraints, validating the scalability and robustness
+ of the framework through extensive simulations involving up to 300 vehicles. group leader is used as an
+ optimization of the overall framework including efficiency and implementation of the scheme. this scheme
+ increases privacy if the number of vehicles also increases, and this thing makes our scheme more scalable.
+ this scheme overcomes the many drawbacks of existing techniques like a higher tracing ratio in shadowing
+ schemes, totally depending on the group leader, and reduced utility of all schemes based on distances. the
+ most important thing, the single point of failure in the group leader base shadowing scheme is overcome by
+ using local federated learning with differential privacy. validation results of our proposed scheme showed
+ that it outperformed the current schemes mainly based on group leader.

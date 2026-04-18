@@ -1,0 +1,18 @@
+we propose a new real-world attack against the computer vision based systems
+of autonomous vehicles (avs). our novel sign embedding attack exploits the
+concept of adversarial examples to modify innocuous signs and advertisements in
+the environment such that they are classified as the adversary's desired
+traffic sign with high confidence. our attack greatly expands the scope of the
+threat posed to avs since adversaries are no longer restricted to just
+modifying existing traffic signs as in previous work. our attack pipeline
+generates adversarial samples which are robust to the environmental conditions
+and noisy image transformations present in the physical world. we ensure this
+by including a variety of possible image transformations in the optimization
+problem used to generate adversarial samples. we verify the robustness of the
+adversarial samples by printing them out and carrying out drive-by tests
+simulating the conditions under which image capture would occur in a real-world
+scenario. we experimented with physical attack samples for different distances,
+lighting conditions and camera angles. in addition, extensive evaluations were
+carried out in the virtual setting for a variety of image transformations. the
+adversarial samples generated using our method have adversarial success rates
+in excess of 95% in the physical as well as virtual settings.

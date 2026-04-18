@@ -1,0 +1,10 @@
+we present a data mining approach for profiling bank clients in order to
+support the process of detection of anti-money laundering operations. we first
+present the overall system architecture, and then focus on the relevant
+component for this paper. we detail the experiments performed on real world
+data from a financial institution, which allowed us to group clients in
+clusters and then generate a set of classification rules. we discuss the
+relevance of the founded client profiles and of the generated classification
+rules. according to the defined overall agent-based architecture, these rules
+will be incorporated in the knowledge base of the intelligent agents
+responsible for the signaling of suspicious transactions.

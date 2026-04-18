@@ -1,0 +1,17 @@
+we consider a distributed learning setup where a sparse signal is estimated
+over a network. our main interest is to save communication resource for
+information exchange over the network and reduce processing time. each node of
+the network uses a convex optimization based algorithm that provides a locally
+optimum solution for that node. the nodes exchange their signal estimates over
+the network in order to refine their local estimates. at a node, the
+optimization algorithm is based on an $\ell_1$-norm minimization with
+appropriate modifications to promote sparsity as well as to include influence
+of estimates from neighboring nodes. our expectation is that local estimates in
+each node improve fast and converge, resulting in a limited demand for
+communication of estimates between nodes and reducing the processing time. we
+provide restricted-isometry-property (rip)-based theoretical analysis on
+estimation quality. in the scenario of clean observation, it is shown that the
+local estimates converge to the exact sparse signal under certain technical
+conditions. simulation results show that the proposed algorithms show
+competitive performance compared to a globally optimum distributed lasso
+algorithm in the sense of convergence speed and estimation error.

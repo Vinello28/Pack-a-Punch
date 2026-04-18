@@ -1,0 +1,24 @@
+stock prediction aims to predict the future trends of a stock in order to
+help investors to make good investment decisions. traditional solutions for
+stock prediction are based on time-series models. with the recent success of
+deep neural networks in modeling sequential data, deep learning has become a
+promising choice for stock prediction.
+  however, most existing deep learning solutions are not optimized towards the
+target of investment, i.e., selecting the best stock with the highest expected
+revenue. specifically, they typically formulate stock prediction as a
+classification (to predict stock trend) or a regression problem (to predict
+stock price). more importantly, they largely treat the stocks as independent of
+each other. the valuable signal in the rich relations between stocks (or
+companies), such as two stocks are in the same sector and two companies have a
+supplier-customer relation, is not considered.
+  in this work, we contribute a new deep learning solution, named relational
+stock ranking (rsr), for stock prediction. our rsr method advances existing
+solutions in two major aspects: 1) tailoring the deep learning models for stock
+ranking, and 2) capturing the stock relations in a time-sensitive manner. the
+key novelty of our work is the proposal of a new component in neural network
+modeling, named temporal graph convolution, which jointly models the temporal
+evolution and relation network of stocks. to validate our method, we perform
+back-testing on the historical data of two stock markets, nyse and nasdaq.
+extensive experiments demonstrate the superiority of our rsr method. it
+outperforms state-of-the-art stock prediction solutions achieving an average
+return ratio of 98% and 71% on nyse and nasdaq, respectively.

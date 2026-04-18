@@ -1,0 +1,14 @@
+having the right assortment of shipping boxes in the fulfillment warehouse to
+pack and ship customer's online orders is an indispensable and integral part of
+nowadays ecommerce business, as it will not only help maintain a profitable
+business but also create great experiences for customers. however, it is an
+extremely challenging operations task to strategically select the best
+combination of tens of box sizes from thousands of feasible ones to be
+responsible for hundreds of thousands of orders daily placed on millions of
+inventory products. in this paper, we present a machine learning approach to
+tackle the task by formulating the box design problem prescriptively as a
+generalized version of weighted $k$-medoids clustering problem, where the
+parameters are estimated through a variety of descriptive analytics. we test
+this machine learning approach on fulfillment data collected from walmart u.s.
+ecommerce, and our approach is shown to be capable of improving the box
+utilization rate by more than $10\%$.

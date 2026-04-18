@@ -1,0 +1,15 @@
+dynamic networks, especially those representing social networks, undergo
+constant evolution of their community structure over time. nodes can migrate
+between different communities, communities can split into multiple new
+communities, communities can merge together, etc. in order to represent dynamic
+networks with evolving communities it is essential to use a dynamic model
+rather than a static one. here we use a dynamic stochastic block model where
+the underlying block model is different at different times. in order to
+represent the structural changes expressed by this dynamic model the network
+will be split into discrete time segments and a clustering algorithm will
+assign block memberships for each segment. in this paper we show that using an
+ensemble of clustering assignments accommodates for the variance in scalable
+clustering algorithms and produces superior results in terms of
+pairwise-precision and pairwise-recall. we also demonstrate that the dynamic
+clustering produced by the ensemble can be visualized as a flowchart which
+encapsulates the community evolution succinctly.

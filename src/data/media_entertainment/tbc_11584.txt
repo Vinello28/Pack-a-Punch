@@ -1,0 +1,9 @@
+we present a system for generating song lyrics lines conditioned on the style
+of a specified artist. the system uses a variational autoencoder with artist
+embeddings. we propose the pre-training of artist embeddings with the
+representations learned by a cnn classifier, which is trained to predict
+artists based on mel spectrograms of their song clips. this work is the first
+step towards combining audio and text modalities of songs for generating lyrics
+conditioned on the artist's style. our preliminary results suggest that there
+is a benefit in initializing artists' embeddings with the representations
+learned by a spectrogram classifier.

@@ -1,0 +1,19 @@
+e-commerce users may expect different products even for the same query, due
+to their diverse personal preferences. it is well-known that there are two
+types of preferences: long-term ones and short-term ones. the former refers to
+user' inherent purchasing bias and evolves slowly. by contrast, the latter
+reflects users' purchasing inclination in a relatively short period. they both
+affect users' current purchasing intentions. however, few research efforts have
+been dedicated to jointly model them for the personalized product search. to
+this end, we propose a novel attentive long short-term preference model, dubbed
+as alstp, for personalized product search. our model adopts the neural networks
+approach to learn and integrate the long- and short-term user preferences with
+the current query for the personalized product search. in particular, two
+attention networks are designed to distinguish which factors in the short-term
+as well as long-term user preferences are more relevant to the current query.
+this unique design enables our model to capture users' current search
+intentions more accurately. our work is the first to apply attention mechanisms
+to integrate both long- and short-term user preferences with the given query
+for the personalized search. extensive experiments over four amazon product
+datasets show that our model significantly outperforms several state-of-the-art
+product search methods in terms of different evaluation metrics.

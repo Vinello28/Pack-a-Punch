@@ -1,0 +1,17 @@
+training of deep learning models for computer vision requires large image or
+video datasets from real world. often, in collecting such datasets, we need to
+protect the privacy of the people captured in the images or videos, while still
+preserve the useful attributes such as facial expressions. in this work, we
+describe a new face de-identification method that can preserve essential facial
+attributes in the faces while concealing the identities. our method takes
+advantage of the recent advances in face attribute transfer models, while
+maintaining a high visual quality. instead of changing factors of the original
+faces or synthesizing faces completely, our method use a trained facial
+attribute transfer model to map non-identity related facial attributes to the
+face of donors, who are a small number (usually 2 to 3) of consented subjects.
+using the donors' faces ensures that the natural appearance of the synthesized
+faces, while ensuring the identity of the synthesized faces are changed. on the
+other hand, the fatm blends the donors' facial attributes to those of the
+original faces to diversify the appearance of the synthesized faces.
+experimental results on several sets of images and videos demonstrate the
+effectiveness of our face de-id algorithm.

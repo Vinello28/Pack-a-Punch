@@ -1,0 +1,15 @@
+this article deals with an important aspect of the neural network retrieval
+of sea surface salinity (sss) from smos brightness temperatures (tbs). the
+neural network retrieval method is an empirical approach that offers the
+possibility of being independent from any theoretical emissivity model, during
+the in-flight phase. a previous study [1] has proven that this approach is
+applicable to all pixels on ocean, by designing a set of neural networks with
+different inputs. the present study focuses on the choice of the learning
+database and demonstrates that a judicious distribution of the geophysical
+parameters allows to markedly reduce the systematic regional biases of the
+retrieved sss, which are due to the high noise on the tbs. an equalization of
+the distribution of the geophysical parameters, followed by a new technique for
+boosting the learning process, makes the regional biases almost disappear for
+latitudes between 40{\deg}s and 40{\deg}n, while the global standard deviation
+remains between 0.6 psu (at the center of the of the swath) and 1 psu (at the
+edges).

@@ -1,0 +1,12 @@
+energy storage devices represent environmentally friendly candidates to cope
+with volatile renewable energy generation. motivated by the increase in
+privately owned storage systems, this paper studies the problem of real-time
+control of a storage unit co-located with a renewable energy generator and an
+inelastic load. unlike many approaches in the literature, no distributional
+assumptions are being made on the renewable energy generation or the real-time
+prices. building on the deep q-networks algorithm, a reinforcement learning
+approach utilizing a neural network is devised where the storage unit
+operational constraints are respected. the neural network approximates the
+action-value function which dictates what action (charging, discharging, etc.)
+to take. simulations indicate that near-optimal performance can be attained
+with the proposed learning-based control policy for the storage units.

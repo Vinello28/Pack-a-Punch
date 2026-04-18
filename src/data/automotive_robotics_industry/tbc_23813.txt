@@ -1,0 +1,10 @@
+deep reinforcement learning has shown tremendous success in solving several
+games and tasks in robotics. however, unlike humans, it generally requires a
+lot of training instances. trajectories imitating to solve the task at hand can
+help to increase sample-efficiency of deep rl methods. in this paper, we
+present a simple approach to use such trajectories, applied to the challenging
+ball-in-maze games, recently introduced in the literature. we show that in
+spite of not using human-generated trajectories and just using the simulator as
+a model to generate a limited number of trajectories, we can get a speed-up of
+about 2-3x in the learning process. we also discuss some challenges we observed
+while using trajectory-based learning for very sparse reward functions.

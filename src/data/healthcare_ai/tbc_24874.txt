@@ -1,0 +1,16 @@
+knee injuries are frequent, varied and often require the patient to undergo
+intensive rehabilitation for several months. treatment protocols usually
+contemplate some recurrent measurements in order to assess progress, such as
+goniometry. the need for specific equipment or the complexity and duration of
+these tasks cause them to often be neglected. a novel deep learning based
+solution is presented, supported by the generation of a synthetic image
+dataset. a 3d human-body model was used for this purpose, simulating a
+recovering patient. for each image, the coordinates of three key points were
+registered: the centers of the thigh, the knee and the lower leg. these values
+are sufficient to estimate the flexion angle. convolutional neural networks
+were then trained for predicting these six coordinates. transfer learning was
+used with the vgg16 and inceptionv3 models pre-trained on the imagenet dataset,
+being an additional custom model trained from scratch. all models were tested
+with different combinations of data augmentation techniques applied on the
+training sets. inceptionv3 achieved the best overall results, producing
+considerably good predictions even on real unedited pictures.

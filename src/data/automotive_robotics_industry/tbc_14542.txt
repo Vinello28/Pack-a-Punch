@@ -1,0 +1,29 @@
+water bottling is the major task in water
+and beverage production companies. one of the most
+concerning issues during the bottling process is to
+assure encapsulation quality, such as no cover, high
+cover, crooked (curved) cover, this kind of issues
+could bring serious food safety problems. therefore,
+it is necessary to detect these defects in the process of
+production and take out the unqualified bottles from
+production lines. in this study we presented the
+presented a mechanism to detect defects during
+bottling process using convolutional neural network
+algorithm. we collected water bottle images from
+different sources and categorized the collected images
+as the training, validation, and testing data, which
+contains 7800, 1800, and 184 images respectively. all
+categories have been labeled as: broken, normal
+water, normal cap, no cap, foreign object and
+scratched. after data organization, we have applied
+different image preprocessing and data
+augmentation. the processed data was used to train a
+developed convolutional neural network model.
+additionally, you only look once version 3 (yolo3)
+object detection algorithm was used to detect bottles
+from the input image. after all, the accuracy of the
+developed model is compared with the accuracy of
+the pre-trained vgg16 and resnet50 model by
+training them on our dataset. in our study we are
+able to gate 96% of training accuracy and 99% of
+validation accuracy.

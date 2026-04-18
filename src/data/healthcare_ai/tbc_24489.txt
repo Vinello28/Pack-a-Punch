@@ -1,0 +1,17 @@
+abstract: image segmentation plays a central role in a broad range of applications, such as medical
+image analysis, autonomous vehicles, video surveillance and augmented reality. portrait segmentation, which is a subset of semantic image segmentation, is widely used as a preprocessing step in
+multiple applications such as security systems, entertainment applications, video conferences, etc. a
+substantial amount of deep learning-based portrait segmentation approaches have been developed,
+since the performance and accuracy of semantic image segmentation have improved significantly
+due to the recent introduction of deep learning technology. however, these approaches are limited to
+a single portrait segmentation model. in this paper, we propose a novel approach using an ensemble
+method by combining multiple heterogeneous deep-learning based portrait segmentation models to
+improve the segmentation performance. the two-models ensemble and three-models ensemble,
+using a simple soft voting method and weighted soft voting method, were experimented. intersection
+over union (iou) metric, iou standard deviation and false prediction rate were used to evaluate
+the performance. cost efficiency was calculated to analyze the efficiency of segmentation. the
+experiment results show that the proposed ensemble approach can perform with higher accuracy and
+lower errors than single deep-learning-based portrait segmentation models. the results also show
+that the ensemble of deep-learning models typically increases the use of memory and computing
+power, although it also shows that the ensemble of deep-learning models can perform more efficiently
+than a single model with higher accuracy using less memory and less computing power.

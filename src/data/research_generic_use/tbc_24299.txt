@@ -1,0 +1,17 @@
+multi-view product image queries can improve retrieval performance over
+single view queries significantly. in this paper, we investigated the
+performance of deep convolutional neural networks (convnets) on multi-view
+product image search. first, we trained a vgg-like network to learn deep
+convnets representations of product images. then, we computed the deep convnets
+representations of database and query images and performed single view queries,
+and multi-view queries using several early and late fusion approaches.
+  we performed extensive experiments on the publicly available multi-view
+object image dataset (mvod 5k) with both clean background queries from the
+internet and cluttered background queries from a mobile phone. we compared the
+performance of convnets to the classical bag-of-visual-words (bows). we
+concluded that (1) multi-view queries with deep convnets representations
+perform significantly better than single view queries, (2) convnets perform
+much better than bows and have room for further improvement, (3) pre-training
+of convnets on a different image dataset with background clutter is needed to
+obtain good performance on cluttered product image queries obtained with a
+mobile phone.

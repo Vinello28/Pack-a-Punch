@@ -1,0 +1,17 @@
+data mining is best-known for its analytical and prediction capabilities. it
+is used in several areas such as fraud detection, predicting client behavior,
+money market behavior, bankruptcy prediction. it can also help in establishing
+an educational ecosystem, which discovers useful knowledge, and assist
+educators to take proactive decisions to boost student performance and
+employability. this paper presents an empirical study that compares varied
+classification algorithms on two datasets of mca (masters in computer
+applications) students collected from various affiliated colleges of a reputed
+state university in india. one dataset includes only primary attributes,
+whereas other dataset is feeded with secondary psychometric attributes in it.
+the results showcase that solely primary academic attributes do not lead to
+smart prediction accuracy of students employability, once they square measure
+within the initial year of their education. the study analyzes and stresses the
+role of secondary psychometric attributes for better prediction accuracy and
+analysis of students performance. timely prediction and analysis of students
+performance can help management, teachers and students to work on their gray
+areas for better results and employment opportunities.

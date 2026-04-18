@@ -1,0 +1,11 @@
+in medical domain, data features often contain missing values. this can
+create serious bias in the predictive modeling. typical standard data mining
+methods often produce poor performance measures. in this paper, we propose a
+new method to simultaneously classify large datasets and reduce the effects of
+missing values. the proposed method is based on a multilevel framework of the
+cost-sensitive svm and the expected maximization imputation method for missing
+values, which relies on iterated regression analyses. we compare classification
+results of multilevel svm-based algorithms on public benchmark datasets with
+imbalanced classes and missing values as well as real data in health
+applications, and show that our multilevel svm-based method produces fast, and
+more accurate and robust classification results.

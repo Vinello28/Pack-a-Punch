@@ -1,0 +1,10 @@
+the detection of denial of service (dos) attacks remains a challenge for the
+cloud environment, affecting a massive number of services and applications
+hosted by such virtualized infrastructures. typically, in the literature, the
+detection of dos attacks is performed solely by analyzing the traffic of
+packets in the network. this work advocates for the use of telemetry from the
+cloud to detect dos attacks using machine learning algorithms. our hypothesis
+is based on richness of such native data collection services, with metrics from
+both physical and virtual hosts. our preliminary results demonstrate that dos
+can be identified accurately with k-nearest neighbors (knn) and decision tree
+(cart).

@@ -1,1 +1,0 @@
-Implementazione di digital twin dell'intera catena produttiva con simulazione in tempo reale per l'ottimizzazione dei parametri di processo nel settore meccanico.

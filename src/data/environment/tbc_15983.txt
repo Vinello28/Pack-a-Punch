@@ -1,0 +1,12 @@
+in this paper, we applied the multifractal detrended fluctuation analysis to
+the daily means of wind speed measured by 119 weather stations distributed over
+the territory of switzerland. the analysis was focused on the inner time
+fluctuations of wind speed, which could be more linked with the local
+conditions of the highly varying topography of switzerland. our findings point
+out to a persistent behaviour of all the measured wind speed series (indicated
+by a hurst exponent significantly larger than 0.5), and to a high
+multifractality degree indicating a relative dominance of the large
+fluctuations in the dynamics of wind speed, especially in the swiss plateau,
+which is comprised between the jura and alp mountain ranges. the study
+represents a contribution to the understanding of the dynamical mechanisms of
+wind speed variability in mountainous regions.

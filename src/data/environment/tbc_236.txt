@@ -1,0 +1,1 @@
+currently, weed control in a corn field is performed by a blanket application of herbicides which do not consider spatial distribution information of weeds and also uses an extensive amount of chemical herbicides. in order to reduce the amount of chemicals, we used drone based high-resolution imagery and computer-vision techniwue to perform site-specific weed control in corn.

@@ -1,1 +1,0 @@
-La sintesi vocale (Text-to-Speech) converte il testo generato dall'assistente virtuale in parlato naturale, utilizzando modelli neurali per produrre voci realistiche ed espressive.

@@ -1,0 +1,12 @@
+we give a complete algorithm and source code for constructing what we refer
+to as heterotic risk models (for equities), which combine: i) granularity of an
+industry classification; ii) diagonality of the principal component factor
+covariance matrix for any sub-cluster of stocks; and iii) dramatic reduction of
+the factor covariance matrix size in the russian-doll risk model construction.
+this appears to prove a powerful approach for constructing out-of-sample stable
+short-lookback risk models. thus, for intraday mean-reversion alphas based on
+overnight returns, sharpe ratio optimization using our heterotic risk models
+sizably improves the performance characteristics compared to weighted
+regressions based on principal components or industry classification. we also
+give source code for: a) building statistical risk models; and ii) sharpe ratio
+optimization with homogeneous linear constraints and position bounds.

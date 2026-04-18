@@ -1,0 +1,15 @@
+in this paper we propose a technique to adapt a convolutional neural network
+(cnn) based object counter to additional visual domains and object types while
+still preserving the original counting function. domain-specific normalisation
+and scaling operators are trained to allow the model to adjust to the
+statistical distributions of the various visual domains. the developed
+adaptation technique is used to produce a singular patch-based counting
+regressor capable of counting various object types including people, vehicles,
+cell nuclei and wildlife. as part of this study a challenging new cell counting
+dataset in the context of tissue culture and patient diagnosis is constructed.
+this new collection, referred to as the dublin cell counting (dcc) dataset, is
+the first of its kind to be made available to the wider computer vision
+community. state-of-the-art object counting performance is achieved in both the
+shanghaitech (parts a and b) and penguins datasets while competitive
+performance is observed on the trancos and modified bone marrow (mbm) datasets,
+all using a shared counting model.

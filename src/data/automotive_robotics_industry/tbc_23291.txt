@@ -1,0 +1,17 @@
+short range wireless devices are becoming more and more popular for
+ubiquitous sensor and actuator connectivity in industrial communication
+scenarios. apart from communication-only scenarios, there are also
+mission-critical use cases where the distance between the two communicating
+nodes needs to be determined precisely. applications such as automatic guided
+vehicles (agv's), automatic train pairing additionally require the devices to
+scan the environment and detect any potential humans/obstacles. ultra-wide band
+(uwb) has emerged as a promising candidate for real-time ranging and
+localization (rtrl) due to advantages such as large channel capacity, better
+co-existence with legacy systems due to low transmit power, better performance
+in multipath environments etc. in this paper, we evaluate the performance of a
+uwb cots device - timedomain p440 which can operate as a ranging radio and a
+monostatic radar simultaneously. to this end, we evaluate the possibility of
+using supervised learning based estimators for predicting the presence of
+obstacles by constructing a multiclass hypothesis. simulation results show that
+the ensemble tree based methods are able to calculate the likelihood of
+obstacle collision with accuracies close to 95%.

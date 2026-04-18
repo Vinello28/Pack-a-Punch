@@ -1,0 +1,15 @@
+electricity load forecasting plays an important role in the energy planning
+such as generation and distribution. however, the nonlinearity and dynamic
+uncertainties in the smart grid environment are the main obstacles in
+forecasting accuracy. deep neural network (dnn) is a set of intelligent
+computational algorithms that provide a comprehensive solution for modelling a
+complicated nonlinear relationship between the input and output through
+multiple hidden layers. in this paper, we propose dnn based electricity load
+forecasting system to manage the energy consumption in an efficient manner. we
+investigate the applicability of two deep neural network architectures
+feed-forward deep neural network (deep-fnn) and recurrent deep neural network
+(deep-rnn) to the new york independent system operator (nyiso) electricity load
+forecasting task. we test our algorithm with various activation functions such
+as sigmoid, hyperbolic tangent (tanh) and rectifier linear unit (relu). the
+performance measurement of two network architectures is compared in terms of
+mean absolute percentage error (mape) metric.

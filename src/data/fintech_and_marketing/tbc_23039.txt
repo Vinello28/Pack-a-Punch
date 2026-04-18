@@ -1,0 +1,13 @@
+as companies increase their efforts in retaining customers, being able to
+predict accurately ahead of time, whether a customer will churn in the
+foreseeable future is an extremely powerful tool for any marketing team. the
+paper describes in depth the application of deep learning in the problem of
+churn prediction. using abstract feature vectors, that can generated on any
+subscription based company's user event logs, the paper proves that through the
+use of the intrinsic property of deep neural networks (learning secondary
+features in an unsupervised manner), the complete pipeline can be applied to
+any subscription based company with extremely good churn predictive
+performance. furthermore the research documented in the paper was performed for
+framed data (a company that sells churn prediction as a service for other
+companies) in conjunction with the data science institute at lancaster
+university, uk. this paper is the intellectual property of framed data.

@@ -1,0 +1,20 @@
+millions of hearing impaired people around the world routinely use some
+variants of sign languages to communicate, thus the automatic translation of a
+sign language is meaningful and important. currently, there are two
+sub-problems in sign language recognition (slr), i.e., isolated slr that
+recognizes word by word and continuous slr that translates entire sentences.
+existing continuous slr methods typically utilize isolated slrs as building
+blocks, with an extra layer of preprocessing (temporal segmentation) and
+another layer of post-processing (sentence synthesis). unfortunately, temporal
+segmentation itself is non-trivial and inevitably propagates errors into
+subsequent steps. worse still, isolated slr methods typically require strenuous
+labeling of each word separately in a sentence, severely limiting the amount of
+attainable training data. to address these challenges, we propose a novel
+continuous sign recognition framework, the hierarchical attention network with
+latent space (ls-han), which eliminates the preprocessing of temporal
+segmentation. the proposed ls-han consists of three components: a two-stream
+convolutional neural network (cnn) for video feature representation generation,
+a latent space (ls) for semantic gap bridging, and a hierarchical attention
+network (han) for latent space based recognition. experiments are carried out
+on two large scale datasets. experimental results demonstrate the effectiveness
+of the proposed framework.

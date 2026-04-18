@@ -1,0 +1,14 @@
+using new spam technologies to carry out internet
+banking fraud refers to shifting and withdrawing money from the
+user’s balance account without it’s authorization. credit card
+fraud pops into the mind so far in the current scenario when the
+concept of fraud bursts into some conversation. credit card fraud
+has escalated tremendously in recent times due to the incredible
+growth in credit card purchases. in order to assess, identify or
+prevent undesirable conduct, fraud detection requires tracking
+the purchase behavior of users/customers. the purpose of this
+project is to predict the genuine and fraud transactions with
+respect to the amount of the transaction utilizing various machine
+learning approaches like logistic regression, decision trees,
+support vector machine, naïve bayes, random forest and knearest neighbor. the model built who has greater accuracy and
+precision is considered to be best fit for this system.

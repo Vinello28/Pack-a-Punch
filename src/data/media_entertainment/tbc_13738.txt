@@ -1,0 +1,11 @@
+augmented reality is an emerging technology in many application domains.
+among them is the beauty industry, where live virtual try-on of beauty products
+is of great importance. in this paper, we address the problem of live hair
+color augmentation. to achieve this goal, hair needs to be segmented quickly
+and accurately. we show how a modified mobilenet cnn architecture can be used
+to segment the hair in real-time. instead of training this network using large
+amounts of accurate segmentation data, which is difficult to obtain, we use
+crowd sourced hair segmentation data. while such data is much simpler to
+obtain, the segmentations there are noisy and coarse. despite this, we show how
+our system can produce accurate and fine-detailed hair mattes, while running at
+over 30 fps on an ipad pro tablet.

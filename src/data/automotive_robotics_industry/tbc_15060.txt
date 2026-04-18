@@ -1,0 +1,19 @@
+in this paper, we focus on fully automatic traffic surveillance camera
+calibration, which we use for speed measurement of passing vehicles. we improve
+over a recent state-of-the-art camera calibration method for traffic
+surveillance based on two detected vanishing points. more importantly, we
+propose a novel automatic scene scale inference method. the method is based on
+matching bounding boxes of rendered 3d models of vehicles with detected
+bounding boxes in the image. the proposed method can be used from arbitrary
+viewpoints, since it has no constraints on camera placement. we evaluate our
+method on the recent comprehensive dataset for speed measurement brnocompspeed.
+experiments show that our automatic camera calibration method by detection of
+two vanishing points reduces error by 50% (mean distance ratio error reduced
+from 0.18 to 0.09) compared to the previous state-of-the-art method. we also
+show that our scene scale inference method is more precise, outperforming both
+state-of-the-art automatic calibration method for speed measurement (error
+reduction by 86% -- 7.98km/h to 1.10km/h) and manual calibration (error
+reduction by 19% -- 1.35km/h to 1.10km/h). we also present qualitative results
+of the proposed automatic camera calibration method on video sequences obtained
+from real surveillance cameras in various places, and under different lighting
+conditions (night, dawn, day).

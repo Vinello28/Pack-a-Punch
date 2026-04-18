@@ -1,0 +1,14 @@
+in this paper, a method to achieve smooth transitions between sequential
+reachability tasks for a continuous time mobile robotic system is presented.
+control barrier functions provide formal guarantees of forward invariance of
+safe sets and finite-time reachability and are able to enforce task execution.
+barrier functions used in quadratic programs result in implementation of
+controllers with real-time performance guarantees. existing approaches for
+multi-objective task execution using control barrier functions leverage
+discretely switched, sequential quadratic programs to achieve successive tasks.
+however, discrete switching can lead to control input discontinuities which can
+affect a robot's performance. hence, we propose a method which ensures
+continuous transitions between sequential quadratic programs. in particular, a
+time varying component to the barrier function constraint is introduced which
+allows for a smooth transition between objectives. robotic implementation
+results are also provided.

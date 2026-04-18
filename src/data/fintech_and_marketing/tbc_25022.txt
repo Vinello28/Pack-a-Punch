@@ -1,0 +1,23 @@
+in online advertising, the internet users may be exposed to a sequence of
+different ad campaigns, i.e., display ads, search, or referrals from multiple
+channels, before led up to any final sales conversion and transaction. for both
+campaigners and publishers, it is fundamentally critical to estimate the
+contribution from ad campaign touch-points during the customer journey
+(conversion funnel) and assign the right credit to the right ad exposure
+accordingly. however, the existing research on the multi-touch attribution
+problem lacks a principled way of utilizing the users' pre-conversion actions
+(i.e., clicks), and quite often fails to model the sequential patterns among
+the touch points from a user's behavior data. to make it worse, the current
+industry practice is merely employing a set of arbitrary rules as the
+attribution model, e.g., the popular last-touch model assigns 100% credit to
+the final touch-point regardless of actual attributions. in this paper, we
+propose a dual-attention recurrent neural network (darnn) for the multi-touch
+attribution problem. it learns the attribution values through an attention
+mechanism directly from the conversion estimation objective. to achieve this,
+we utilize sequence-to-sequence prediction for user clicks, and combine both
+post-view and post-click attribution patterns together for the final conversion
+estimation. to quantitatively benchmark attribution models, we also propose a
+novel yet practical attribution evaluation scheme through the proxy of budget
+allocation (under the estimated attributions) over ad channels. the
+experimental results on two real datasets demonstrate the significant
+performance gains of our attribution model against the state of the art.

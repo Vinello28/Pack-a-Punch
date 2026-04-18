@@ -1,0 +1,14 @@
+in this paper, we present a new location fingerprinting database comprised of
+wi-fi received signal strength (rss) and geomagnetic field intensity measured
+with multiple devices at a multi-floor building in xi'an jiatong-liverpool
+university, suzhou, china. we also provide preliminary results of localization
+and trajectory estimation based on convolutional neural network (cnn) and long
+short-term memory (lstm) network with this database. for localization, we map
+rss data for a reference point to an image-like, two-dimensional array and then
+apply cnn which is popular in image and video analysis and recognition. for
+trajectory estimation, we use a modified random way point model to efficiently
+generate continuous step traces imitating human walking and train a stacked
+two-layer lstm network with the generated data to remember the changing pattern
+of geomagnetic field intensity against (x,y) coordinates. experimental results
+demonstrate the usefulness of our new database and the feasibility of the cnn
+and lstm-based localization and trajectory estimation with the database.

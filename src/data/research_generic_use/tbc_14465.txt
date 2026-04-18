@@ -1,0 +1,21 @@
+mining the underlying patterns in gigantic and complex data is of great
+importance to data analysts. in this paper, we propose a motion pattern
+approach to mine frequent behaviors in trajectory data. motion patterns,
+defined by a set of highly similar flow vector groups in a spatial locality,
+have been shown to be very effective in extracting dominant motion behaviors in
+video sequences. inspired by applications and properties of motion patterns, we
+have designed a framework that successfully solves the general task of
+trajectory clustering. our proposed algorithm consists of four phases: flow
+vector computation, motion component extraction, motion component's
+reachability set creation, and motion pattern formation. for the first phase,
+we break down trajectories into flow vectors that indicate instantaneous
+movements. in the second phase, via a kmeans clustering approach, we create
+motion components by clustering the flow vectors with respect to their location
+and velocity. next, we create motion components' reachability set in terms of
+spatial proximity and motion similarity. finally, for the fourth phase, we
+cluster motion components using agglomerative clustering with the weighted
+jaccard distance between the motion components' signatures, a set created using
+path reachability. we have evaluated the effectiveness of our proposed method
+in an extensive set of experiments on diverse datasets. further, we have shown
+how our proposed method handles difficulties in the general task of trajectory
+clustering that challenge the existing state-of-the-art methods.

@@ -1,0 +1,16 @@
+in video compression, most of the existing deep learning approaches
+concentrate on the visual quality of a single frame, while ignoring the useful
+priors as well as the temporal information of adjacent frames. in this paper,
+we propose a multi-frame guided attention network (mganet) to enhance the
+quality of compressed videos. our network is composed of a temporal encoder
+that discovers inter-frame relations, a guided encoder-decoder subnet that
+encodes and enhances the visual patterns of target frame, and a
+multi-supervised reconstruction component that aggregates information to
+predict details. we design a bidirectional residual convolutional lstm unit to
+implicitly discover frames variations over time with respect to the target
+frame. meanwhile, the guided map is proposed to guide our network to
+concentrate more on the block boundary. our approach takes advantage of
+intra-frame prior information and inter-frame information to improve the
+quality of compressed video. experimental results show the robustness and
+superior performance of the proposed method.code is available at
+https://github.com/mengab/mganet

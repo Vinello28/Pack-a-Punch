@@ -1,0 +1,22 @@
+we consider the problem of generating motion plans for a robot that are
+guaranteed to succeed despite uncertainty in the environment, parametric model
+uncertainty, and disturbances. furthermore, we consider scenarios where these
+plans must be generated in real-time, because constraints such as obstacles in
+the environment may not be known until they are perceived (with a noisy sensor)
+at runtime. our approach is to pre-compute a library of "funnels" along
+different maneuvers of the system that the state is guaranteed to remain within
+(despite bounded disturbances) when the feedback controller corresponding to
+the maneuver is executed. we leverage powerful computational machinery from
+convex optimization (sums-of-squares programming in particular) to compute
+these funnels. the resulting funnel library is then used to sequentially
+compose motion plans at runtime while ensuring the safety of the robot. a major
+advantage of the work presented here is that by explicitly taking into account
+the effect of uncertainty, the robot can evaluate motion plans based on how
+vulnerable they are to disturbances.
+  we demonstrate and validate our method using extensive hardware experiments
+on a small fixed-wing airplane avoiding obstacles at high speed (~12 mph),
+along with thorough simulation experiments of ground vehicle and quadrotor
+models navigating through cluttered environments. to our knowledge, these
+demonstrations constitute one of the first examples of provably safe and robust
+control for robotic systems with complex nonlinear dynamics that need to plan
+in real-time in environments with complex geometric constraints.

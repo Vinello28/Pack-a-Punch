@@ -1,0 +1,13 @@
+this paper presents a method for testing the decision making systems of
+autonomous vehicles. our approach involves perturbing stochastic elements in
+the vehicle's environment until the vehicle is involved in a collision. instead
+of applying direct monte carlo sampling to find collision scenarios, we
+formulate the problem as a markov decision process and use reinforcement
+learning algorithms to find the most likely failure scenarios. this paper
+presents monte carlo tree search (mcts) and deep reinforcement learning (drl)
+solutions that can scale to large environments. we show that drl can find more
+likely failure scenarios than mcts with fewer calls to the simulator. a
+simulation scenario involving a vehicle approaching a crosswalk is used to
+validate the framework. our proposed approach is very general and can be easily
+applied to other scenarios given the appropriate models of the vehicle and the
+environment.

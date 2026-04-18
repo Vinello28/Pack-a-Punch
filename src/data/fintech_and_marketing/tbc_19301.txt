@@ -1,0 +1,18 @@
+identifying customer segments in retail banking portfolios with different
+risk profiles can improve the accuracy of credit scoring. the variational
+autoencoder (vae) has shown promising results in different research domains,
+and it has been documented the powerful information embedded in the latent
+space of the vae. we use the vae and show that transforming the input data into
+a meaningful representation, it is possible to steer configurations in the
+latent space of the vae. specifically, the weight of evidence (woe)
+transformation encapsulates the propensity to fall into financial distress and
+the latent space in the vae preserves this characteristic in a well-defined
+clustering structure. these clusters have considerably different risk profiles
+and therefore are suitable not only for credit scoring but also for marketing
+and customer purposes. this new clustering methodology offers solutions to some
+of the challenges in the existing clustering algorithms, e.g., suggests the
+number of clusters, assigns cluster labels to new customers, enables cluster
+visualization, scales to large datasets, captures non-linear relationships
+among others. finally, for portfolios with a large number of customers in each
+cluster, developing one classifier model per cluster can improve the credit
+scoring assessment.

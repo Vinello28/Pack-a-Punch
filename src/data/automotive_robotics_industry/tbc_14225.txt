@@ -1,0 +1,14 @@
+person re-identification is a standard and established problem in the
+computer vision community. in recent years, vehicle re-identification is also
+getting more attention. in this paper, we focus on both these tasks and propose
+a method for aggregation of features in temporal domain as it is common to have
+multiple observations of the same object. the aggregation is based on weighting
+different elements of the feature vectors by different weights and it is
+trained in an end-to-end manner by a siamese network. the experimental results
+show that our method outperforms other existing methods for feature aggregation
+in temporal domain on both vehicle and person re-identification tasks.
+furthermore, to push research in vehicle re-identification further, we
+introduce a novel dataset carsreid74k. the dataset is not limited to
+frontal/rear viewpoints. it contains 17,681 unique vehicles, 73,976 observed
+tracks, and 277,236 positive pairs. the dataset was captured by 66 cameras from
+various angles.

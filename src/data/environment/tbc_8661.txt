@@ -1,0 +1,17 @@
+this paper describes a new algorithm for solar energy forecasting from a
+sequence of cloud optical depth (cod) images. the algorithm is based on the
+following simple observation: the dynamics of clouds represented by cod images
+resembles the motion (transport) of a density in a fluid flow. this suggests
+that, to forecast the motion of cod images, it is sufficient to forecast the
+flow. the latter, in turn, can be accomplished by fitting a parametric model of
+the fluid flow to the cod images observed in the past. namely, the learning
+phase of the algorithm is composed of the following steps: (i) given a sequence
+of cod images, the snapshots of the optical flow are estimated from two
+consecutive cod images; (ii) these snapshots are then assimilated into a
+navier-stokes equation (nse), i.e. an initial velocity field for nse is
+selected so that the corresponding nse' solution is as close as possible to the
+optical flow snapshots. the prediction phase consists of utilizing a linear
+transport equation, which describes the propagation of cod images in the fluid
+flow predicted by nse, to estimate the future motion of the cod images. the
+algorithm has been tested on cod images provided by two geostationary
+operational environmental satellites from noaa serving the west-hemisphere.

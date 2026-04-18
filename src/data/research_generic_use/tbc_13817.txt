@@ -1,0 +1,4 @@
+spectral clustering and singular value decomposition (svd) are both widely
+used technique for analyzing graph data. in this note, i will present their
+connections using simple linear algebra, aiming to provide some in-depth
+understanding for future research.

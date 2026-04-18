@@ -1,0 +1,21 @@
+deep neural networks (dnn) have demonstrated effectiveness for various
+applications such as image processing, video segmentation, and speech
+recognition. running state-of-the-art dnns on current systems mostly relies on
+either generalpurpose processors, asic designs, or fpga accelerators, all of
+which suffer from data movements due to the limited onchip memory and data
+transfer bandwidth. in this work, we propose a novel framework, called rapidnn,
+which processes all dnn operations within the memory to minimize the cost of
+data movement. to enable in-memory processing, rapidnn reinterprets a dnn model
+and maps it into a specialized accelerator, which is designed using
+non-volatile memory blocks that model four fundamental dnn operations, i.e.,
+multiplication, addition, activation functions, and pooling. the framework
+extracts representative operands of a dnn model, e.g., weights and input
+values, using clustering methods to optimize the model for in-memory
+processing. then, it maps the extracted operands and their precomputed results
+into the accelerator memory blocks. at runtime, the accelerator identifies
+computation results based on efficient in-memory search capability which also
+provides tunability of approximation to further improve computation efficiency.
+our evaluation shows that rapidnn achieves 68.4x, 49.5x energy efficiency
+improvement and 48.1x, 10.9x speedup as compared to isaac and pipelayer, the
+state-of-the-art dnn accelerators, while ensuring less than 0.3% of quality
+loss.

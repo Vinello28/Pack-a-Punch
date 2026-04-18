@@ -1,0 +1,16 @@
+the enormous amount of texts published daily by internet users has fostered
+the development of methods to analyze this content in several natural language
+processing areas, such as sentiment analysis. the main goal of this task is to
+classify the polarity of a message. even though many approaches have been
+proposed for sentiment analysis, some of the most successful ones rely on the
+availability of large annotated corpus, which is an expensive and
+time-consuming process. in recent years, distant supervision has been used to
+obtain larger datasets. so, inspired by these techniques, in this paper we
+extend such approaches to incorporate popular graphic symbols used in
+electronic messages, the emojis, in order to create a large sentiment corpus
+for portuguese. trained on almost one million tweets, several models were
+tested in both same domain and cross-domain corpora. our methods obtained very
+competitive results in five annotated corpora from mixed domains (twitter and
+product reviews), which proves the domain-independent property of such
+approach. in addition, our results suggest that the combination of emoticons
+and emojis is able to properly capture the sentiment of a message.

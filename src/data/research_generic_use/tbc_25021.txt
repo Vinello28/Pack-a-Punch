@@ -1,0 +1,23 @@
+in taobao, the largest e-commerce platform in china, billions of items are
+provided and typically displayed with their images. for better user experience
+and business effectiveness, click through rate (ctr) prediction in online
+advertising system exploits abundant user historical behaviors to identify
+whether a user is interested in a candidate ad. enhancing behavior
+representations with user behavior images will help understand user's visual
+preference and improve the accuracy of ctr prediction greatly. so we propose to
+model user preference jointly with user behavior id features and behavior
+images. however, training with user behavior images brings tens to hundreds of
+images in one sample, giving rise to a great challenge in both communication
+and computation. to handle these challenges, we propose a novel and efficient
+distributed machine learning paradigm called advanced model server (ams). with
+the well known parameter server (ps) framework, each server node handles a
+separate part of parameters and updates them independently. ams goes beyond
+this and is designed to be capable of learning a unified image descriptor model
+shared by all server nodes which embeds large images into low dimensional high
+level features before transmitting images to worker nodes. ams thus
+dramatically reduces the communication load and enables the arduous joint
+training process. based on ams, the methods of effectively combining the images
+and id features are carefully studied, and then we propose a deep image ctr
+model. our approach is shown to achieve significant improvements in both online
+and offline evaluations, and has been deployed in taobao display advertising
+system serving the main traffic.

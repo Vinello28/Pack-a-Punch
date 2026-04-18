@@ -1,0 +1,12 @@
+the "loving ai" project involves developing software enabling humanoid robots
+to interact with people in loving and compassionate ways, and to promote
+people' self-understanding and self-transcendence. currently the project
+centers on the hanson robotics robot "sophia" -- specifically, on supplying
+sophia with personality content and cognitive, linguistic, perceptual and
+behavioral content aimed at enabling loving interactions supportive of human
+self-transcendence. in september 2017 a small pilot study was conducted,
+involving the sophia robot leading human subjects through dialogues and
+exercises focused on meditation, visualization and relaxation. the pilot was an
+apparent success, qualitatively demonstrating the viability of the approach and
+the ability of appropriate human-robot interaction to increase human well-being
+and advance human consciousness.

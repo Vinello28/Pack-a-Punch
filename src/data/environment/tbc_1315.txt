@@ -1,0 +1,17 @@
+during the course of a humanitarian assistance-disaster relief (hadr) crisis,
+that can happen anywhere in the world, real-time information is often posted
+online by the people in need of help which, in turn, can be used by different
+stakeholders involved with management of the crisis. automated processing of
+such posts can considerably improve the effectiveness of such efforts; for
+example, understanding the aggregated emotion from affected populations in
+specific areas may help inform decision-makers on how to best allocate
+resources for an effective disaster response. however, these efforts may be
+severely limited by the availability of resources for the local language. the
+ongoing darpa project low resource languages for emergent incidents (lorelei)
+aims to further language processing technologies for low resource languages in
+the context of such a humanitarian crisis. in this work, we describe our
+submission for the 2019 sentiment, emotion and cognitive state (sec) pilot task
+of the lorelei project. we describe a collection of sentiment analysis systems
+included in our submission along with the features extracted. our fielded
+systems obtained the best results in both english and spanish language
+evaluations of the sec pilot task.

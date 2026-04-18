@@ -1,0 +1,16 @@
+crowd management is of paramount importance when it comes to preventing
+stampedes and saving lives, especially in a countries like china and india
+where the combined population is a third of the global population. millions of
+people convene annually all around the nation to celebrate a myriad of events
+and crowd count estimation is the linchpin of the crowd management system that
+could prevent stampedes and save lives. we present a network for crowd counting
+which reports state of the art results on crowd counting benchmarks. our
+contributions are, first, a u-net inspired model which affords us to report
+state of the art results. second, we propose an independent decoding
+reinforcement branch which helps the network converge much earlier and also
+enables the network to estimate density maps with high structural similarity
+index (ssim). third, we discuss the drawbacks of the contemporary architectures
+and empirically show that even though our architecture achieves state of the
+art results, the merit may be due to the encoder-decoder pipeline instead.
+finally, we report the error analysis which shows that the contemporary line of
+work is at saturation and leaves certain prominent problems unsolved.

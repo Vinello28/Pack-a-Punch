@@ -1,0 +1,11 @@
+the amounts of muscle and fat in a person's body, known as body composition,
+are correlated with cancer risks, cancer survival, and cardiovascular risk. the
+current gold standard for measuring body composition requires time-consuming
+manual segmentation of ct images by an expert reader. in this work, we describe
+a two-step process to fully automate the analysis of ct body composition using
+a densenet to select the ct slice and u-net to perform segmentation. we train
+and test our methods on independent cohorts. our results show dice scores
+(0.95-0.98) and correlation coefficients (r=0.99) that are favorable compared
+to human readers. these results suggest that fully automated body composition
+analysis is feasible, which could enable both clinical use and large-scale
+population studies.

@@ -1,0 +1,17 @@
+electronic medical records (emrs) supports the development of machine
+learning algorithms for predicting disease incidence, patient response to
+treatment, and other healthcare events. but insofar most algorithms have been
+centralized, taking little account of the decentralized, non-identically
+independently distributed (non-iid), and privacy-sensitive characteristics of
+emrs that can complicate data collection, sharing and learning. to address this
+challenge, we introduced a community-based federated machine learning (cbfl)
+algorithm and evaluated it on non-iid icu emrs. our algorithm clustered the
+distributed data into clinically meaningful communities that captured similar
+diagnoses and geological locations, and learnt one model for each community.
+throughout the learning process, the data was kept local on hospitals, while
+locally-computed results were aggregated on a server. evaluation results show
+that cbfl outperformed the baseline fl algorithm in terms of area under the
+receiver operating characteristic curve (roc auc), area under the
+precision-recall curve (pr auc), and communication cost between hospitals and
+the server. furthermore, communities' performance difference could be explained
+by how dissimilar one community was to others.

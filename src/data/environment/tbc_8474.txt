@@ -1,0 +1,13 @@
+polluting fine dusts in south korea which are mainly consisted of biomass
+burning and fugitive dust blown from dust belt is significant problem these
+days. predicting concentrations of fine dust particles in seoul is challenging
+because they are product of complicate chemical reactions among gaseous
+pollutants and also influenced by dynamical interactions between pollutants and
+multiple climate variables. elaborating state-of-art time series analysis
+techniques using deep learning, non-linear interactions between multiple
+variables can be captured and used to predict future dust concentration. in
+this work, we propose the lstm based model to predict hourly concentration of
+fine dust at target location in seoul based on previous concentration of
+pollutants, dust concentrations and climate variables in surrounding area. our
+results show that proposed model successfully predicts future dust
+concentrations at 25 target districts(gu) in seoul.

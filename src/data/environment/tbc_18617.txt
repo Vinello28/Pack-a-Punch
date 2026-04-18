@@ -1,0 +1,16 @@
+the scared cities of makkah al mukarramah and madina al munawarah host
+millions of pilgrims every year. during hajj, the movement of large number of
+people has a unique spatial and temporal constraints, which makes hajj one of
+toughest challenges for crowd management. in this paper, we propose a computer
+vision based framework that automatically analyses video sequence and computes
+important measurements which include estimation of crowd density,
+identification of dominant patterns, detection and localization of congestion.
+in addition, we analyze helpful statistics of the crowd like speed, and
+direction, that could provide support to crowd management personnel. the
+framework presented in this paper indicate that new advances in computer vision
+and machine learning can be leveraged effectively for challenging and high
+density crowd management applications. however, significant customization of
+existing approaches is required to apply them to the challenging crowd
+management situations in masjid al haram. our results paint a promising picture
+for deployment of computer vision technologies to assist in quantitative
+measurement of crowd size, density and congestion.

@@ -1,0 +1,12 @@
+in the context of the internet of things (iot), sound sensing applications
+are required to run on embedded platforms where notions of product pricing and
+form factor impose hard constraints on the available computing power. whereas
+automatic environmental sound recognition (aesr) algorithms are most often
+developed with limited consideration for computational cost, this article seeks
+which aesr algorithm can make the most of a limited amount of computing power
+by comparing the sound classification performance em as a function of its
+computational cost. results suggest that deep neural networks yield the best
+ratio of sound classification accuracy across a range of computational costs,
+while gaussian mixture models offer a reasonable accuracy at a consistently
+small cost, and support vector machines stand between both in terms of
+compromise between accuracy and computational cost.

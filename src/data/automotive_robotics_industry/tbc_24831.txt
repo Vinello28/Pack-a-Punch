@@ -1,0 +1,8 @@
+the paper studies the possibility of using artificial neural networks (ann)
+to determine certain mechanical properties of a new composite material. this
+new material is obtained by a mixture of hemp and polypropylene fibres. the
+material was developed for the industry of upholstered furniture. specifically,
+it is intended for the making of elements of the support structure of some
+upholstered goods (chairs, armchairs, sofa sides) with the objective of
+replacing wood. the paper aims to calculate the following mechanical
+properties: maximum tensile strength and maximum elongation.

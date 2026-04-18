@@ -1,0 +1,14 @@
+we trained and applied an encoder-decoder model to semantically segment
+breast biopsy images into biologically meaningful tissue labels. since
+conventional encoder-decoder networks cannot be applied directly on large
+biopsy images and the different sized structures in biopsies present novel
+challenges, we propose four modifications: (1) an input-aware encoding block to
+compensate for information loss, (2) a new dense connection pattern between
+encoder and decoder, (3) dense and sparse decoders to combine multi-level
+features, (4) a multi-resolution network that fuses the results of
+encoder-decoders run on different resolutions. our model outperforms a
+feature-based approach and conventional encoder-decoders from the literature.
+we use semantic segmentations produced with our model in an automated diagnosis
+task and obtain higher accuracies than a baseline approach that employs an svm
+for feature-based segmentation, both using the same segmentation-based
+diagnostic features.

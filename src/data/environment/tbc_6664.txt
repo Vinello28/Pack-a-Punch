@@ -1,0 +1,8 @@
+currently, engineers at substation service providers match customer data with
+the corresponding internally used signal names manually. this paper proposes a
+machine learning method to automate this process based on substation signal
+mapping data from a repository of executed projects. to this end, a bagged
+token classifier is proposed, letting words (tokens) in the customer signal
+name vote for provider signal names. in our evaluation, the proposed method
+exhibits better performance in terms of both accuracy and efficiency over
+standard classifiers.

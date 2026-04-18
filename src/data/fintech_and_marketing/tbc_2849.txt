@@ -1,0 +1,11 @@
+using a method rooted in information theory, we present results that have
+identified a large set of stocks for which social media can be informative
+regarding financial volatility. by clustering stocks based on the joint feature
+sets of social and financial variables, our research provides an important
+contribution by characterizing the conditions in which social media signals can
+lead financial volatility. the results indicate that social media is most
+informative about financial market volatility when the ratio of bullish to
+bearish sentiment is high, even when the number of messages is low. the
+robustness of these findings is verified across 500 stocks from both nyse and
+nasdaq exchanges. the reported results are reproducible via an open-source
+library for social-financial analysis made freely available.

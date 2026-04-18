@@ -1,0 +1,10 @@
+skin cancer is a major public health problem, with over 5 million newly
+diagnosed cases in the united states each year. melanoma is the deadliest form
+of skin cancer, responsible for over 9,000 deaths each year. in this paper, we
+propose an ensemble of deep convolutional neural networks to classify
+dermoscopy images into three classes. to achieve the highest classification
+accuracy, we fuse the outputs of the softmax layers of four different neural
+architectures. for aggregation, we consider the individual accuracies of the
+networks weighted by the confidence values provided by their final softmax
+layers. this fusion-based approach outperformed all the individual neural
+networks regarding classification accuracy.

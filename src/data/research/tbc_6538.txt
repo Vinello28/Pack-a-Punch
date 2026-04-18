@@ -1,1 +1,0 @@
-Il progetto di R &amp; S in questione mira a sviluppare soluzioni per l'introduzione di una manutenzione predittiva basata sulle misurazioni delle vibrazioni attraverso l'uso di IoT Big Data e Analytics / Machine Learning.

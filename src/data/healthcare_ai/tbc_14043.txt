@@ -1,0 +1,17 @@
+we describe the motivation and design for esinsider, an automated tool that
+detects potential persistent and insider threats in a network. esinsider
+aggregates clues from log data, over extended time periods, and proposes a
+small number of cases for human experts to review. the proposed cases package
+together related information so the analyst can see a bigger picture of what is
+happening, and their evidence includes internal network activity resembling
+reconnaissance and data collection.
+  the core ideas are to 1) detect fundamental campaign behaviors by following
+data movements over extended time periods, 2) link together behaviors
+associated with different meta-goals, and 3) use machine learning to understand
+what activities are expected and consistent for each individual network. we
+call this approach campaign analytics because it focuses on the threat actor's
+campaign goals and the intrinsic steps to achieve them. linking different
+campaign behaviors (internal reconnaissance, collection, exfiltration) reduces
+false positives from business-as-usual activities and creates opportunities to
+detect threats before a large exfiltration occurs. machine learning makes it
+practical to deploy this approach by reducing the amount of tuning needed.

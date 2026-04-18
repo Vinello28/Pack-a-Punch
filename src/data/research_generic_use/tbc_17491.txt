@@ -1,0 +1,15 @@
+with the rise of social media, people can now form relationships and
+communities easily regardless of location, race, ethnicity, or gender. however,
+the power of social media simultaneously enables harmful online behavior such
+as harassment and bullying. cyberbullying is a serious social problem, making
+it an important topic in social network analysis. machine learning methods can
+potentially help provide better understanding of this phenomenon, but they must
+address several key challenges: the rapidly changing vocabulary involved in
+cyber- bullying, the role of social network structure, and the scale of the
+data. in this study, we propose a model that simultaneously discovers
+instigators and victims of bullying as well as new bullying vocabulary by
+starting with a corpus of social interactions and a seed dictionary of bullying
+indicators. we formulate an objective function based on participant-vocabulary
+consistency. we evaluate this approach on twitter and ask.fm data sets and show
+that the proposed method can detect new bullying vocabulary as well as victims
+and bullies.

@@ -1,0 +1,12 @@
+the characterization of aircraft in remote sensing satellite imagery has many armed and
+civil applications. for civil purposes, such as in tragedy and emergency aircraft searching, airport scrutiny
+and aircraft identification from satellite images are very important. this study presents an automated
+methodology based on handcrafted and deep convolutional neural network (dcnn) features. the presented
+aircraft classification technique consists of the following steps. the handcrafted features achieved from
+a local binary pattern (lbp) and dcnn are fused by feature fusion techniques. the dcnn features are
+extracted from alexnet and inception v3. then we adopted a feature selection technique called principal
+component analysis (pca). pca removes the redundant and irrelevant information and improves the
+classification performance. then, famous supervised methodologies categorize these selected features.
+we chose the best classifier based on its highest accuracy. the proposed technique is executed on the
+multi-type aircraft remote sensing images (mtarsi) dataset, and the overall highest accuracy that we
+achieved from our proposed method is 96.8% by the linear support vector machine (svm) classifier.

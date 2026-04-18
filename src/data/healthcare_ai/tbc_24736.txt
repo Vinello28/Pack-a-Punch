@@ -1,0 +1,20 @@
+genome-wide association studies (gwa studies or gwas) investigate the
+relationships between genetic variants such as single-nucleotide polymorphisms
+(snps) and individual traits. recently, incorporating biological priors
+together with machine learning methods in gwa studies has attracted increasing
+attention. however, in real-world, nucleotide-level bio-priors have not been
+well-studied to date. alternatively, studies at gene-level, for example,
+protein--protein interactions and pathways, are more rigorous and legitimate,
+and it is potentially beneficial to utilize such gene-level priors in gwas. in
+this paper, we proposed a novel two-level structured sparse model, called
+sparse group lasso with group-level graph structure (sglgg), for gwas. it can
+be considered as a sparse group lasso along with a group-level graph lasso.
+essentially, sglgg penalizes the nucleotide-level sparsity as well as takes
+advantages of gene-level priors (both gene groups and networks), to identifying
+phenotype-associated risk snps. we employ the alternating direction method of
+multipliers algorithm to optimize the proposed model. our experiments on the
+alzheimer's disease neuroimaging initiative whole genome sequence data and
+neuroimage data demonstrate the effectiveness of sglgg. as a regression model,
+it is competitive to the state-of-the-arts sparse models; as a variable
+selection method, sglgg is promising for identifying alzheimer's
+disease-related risk snps.

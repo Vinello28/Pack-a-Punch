@@ -1,0 +1,10 @@
+given the complexity of human minds and their behavioral flexibility, it
+requires sophisticated data analysis to sift through a large amount of human
+behavioral evidence to model human minds and to predict human behavior. people
+currently spend a significant amount of time on social media such as twitter
+and facebook. thus many aspects of their lives and behaviors have been
+digitally captured and continuously archived on these platforms. this makes
+social media a great source of large, rich and diverse human behavioral
+evidence. in this paper, we survey the recent work on applying machine learning
+to infer human traits and behavior from social media data. we will also point
+out several future research directions.

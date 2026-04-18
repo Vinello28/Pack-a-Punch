@@ -1,0 +1,10 @@
+with the rapid development of internet finance, a large number of studies
+have shown that internet financial platforms have different financial systemic
+risk characteristics when they are subject to macroeconomic shocks or fragile
+internal crisis. from the perspective of regional development of internet
+finance, this paper uses t-sne machine learning algorithm to obtain data mining
+of china's internet finance development index involving 31 provinces and 335
+cities and regions. the conclusion of the peak and thick tail characteristics,
+then proposed three classification risks of internet financial systemic risk,
+providing more regionally targeted recommendations for the systematic risk of
+internet finance.

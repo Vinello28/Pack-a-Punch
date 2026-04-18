@@ -1,0 +1,17 @@
+in the field of computational pathology, the use of decision support systems
+powered by state-of-the-art deep learning solutions has been hampered by the
+lack of large labeled datasets. until recently, studies relied on datasets in
+the order of few hundreds of slides which are not enough to train a model that
+can work at scale in the clinic. here, we have gathered a dataset consisting of
+12,160 slides, two orders of magnitude larger than previous datasets in
+pathology and equivalent to 25 times the pixel count of the entire imagenet
+dataset. given the size of our dataset it is possible for us to train a deep
+learning model under the multiple instance learning (mil) assumption where only
+the overall slide diagnosis is necessary for training, avoiding all the
+expensive pixel-wise annotations that are usually part of supervised learning
+approaches. we test our framework on a complex task, that of prostate cancer
+diagnosis on needle biopsies. we performed a thorough evaluation of the
+performance of our mil pipeline under several conditions achieving an auc of
+0.98 on a held-out test set of 1,824 slides. these results open the way for
+training accurate diagnosis prediction models at scale, laying the foundation
+for decision support system deployment in the clinic.

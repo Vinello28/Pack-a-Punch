@@ -1,0 +1,14 @@
+climate projections continue to be marred by large uncertainties, which
+originate in processes that need to be parameterized, such as clouds,
+convection, and ecosystems. but rapid progress is now within reach. new
+computational tools and methods from data assimilation and machine learning
+make it possible to integrate global observations and local high-resolution
+simulations in an earth system model (esm) that systematically learns from
+both. here we propose a blueprint for such an esm. we outline how
+parameterization schemes can learn from global observations and targeted
+high-resolution simulations, for example, of clouds and convection, through
+matching low-order statistics between esms, observations, and high-resolution
+simulations. we illustrate learning algorithms for esms with a simple dynamical
+system that shares characteristics of the climate system; and we discuss the
+opportunities the proposed framework presents and the challenges that remain to
+realize it.

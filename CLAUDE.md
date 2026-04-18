@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Pack-a-Punch is a multi-class classifier that identifies the AI application sector of Italian texts. It fine-tunes `answerdotai/ModernBERT-base` (9 classes) and serves predictions via a FastAPI server backed by ONNX Runtime with CUDA acceleration.
+Pack-a-Punch is a multi-class classifier that identifies the AI application sector of texts. It fine-tunes `answerdotai/ModernBERT-base` (7 classes) and serves predictions via a FastAPI server backed by ONNX Runtime with CUDA acceleration.
 
 ## Common Commands
 
@@ -16,7 +16,7 @@ pip install -r requirements.txt
 python scripts/train.py --data-source txt
 
 # Train from CSV file
-python scripts/train.py --data-source csv --csv-path public/multiclass2_augmented.csv
+python scripts/train.py --data-source csv --csv-path public/modernbert_final.csv
 
 # Train with K-Fold cross validation
 python scripts/train.py --data-source txt --kfold --kfold-splits 5
@@ -86,7 +86,7 @@ Docker Compose config is optimized for DGX-A100 with DGX OS (Ubuntu 20.04):
 - **Testing**: pytest with `asyncio_mode = "auto"`; test paths under `tests/`
 - **Training data**: plain `.txt` files in `src/data/<class_slug>/` directories (e.g. `ai_research/`, `data_science/`); test split in `src/data/Test/`
 - **Model artifacts**: saved to `src/models/` (`.pt` and `.onnx` files)
-- **Base model**: `answerdotai/ModernBERT-base` (eager mode, no Triton), max sequence length 3072, 9 labels
+- **Base model**: `answerdotai/ModernBERT-base` (eager mode, no Triton), max sequence length 3072, 7 labels
 
 ## Workflow Orchestration
 ### 1. Plan Node Default

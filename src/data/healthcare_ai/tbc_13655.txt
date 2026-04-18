@@ -1,0 +1,16 @@
+a significant proportion of patients scanned in a clinical setting have
+follow-up scans. we show in this work that such longitudinal scans alone can be
+used as a form of 'free' self-supervision for training a deep network. we
+demonstrate this self-supervised learning for the case of t2-weighted sagittal
+lumbar magnetic resonance images (mris). a siamese convolutional neural network
+(cnn) is trained using two losses: (i) a contrastive loss on whether the scan
+is of the same person (i.e. longitudinal) or not, together with (ii) a
+classification loss on predicting the level of vertebral bodies. the
+performance of this pre-trained network is then assessed on a grading
+classification task. we experiment on a dataset of 1016 subjects, 423
+possessing follow-up scans, with the end goal of learning the disc degeneration
+radiological gradings attached to the intervertebral discs. we show that the
+performance of the pre-trained cnn on the supervised classification task is (i)
+superior to that of a network trained from scratch; and (ii) requires far fewer
+annotated training samples to reach an equivalent performance to that of the
+network trained from scratch.

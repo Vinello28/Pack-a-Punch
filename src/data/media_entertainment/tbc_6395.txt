@@ -1,0 +1,18 @@
+we present a novel system for sketch-based face image editing, enabling users
+to edit images intuitively by sketching a few strokes on a region of interest.
+our interface features tools to express a desired image manipulation by
+providing both geometry and color constraints as user-drawn strokes. as an
+alternative to the direct user input, our proposed system naturally supports a
+copy-paste mode, which allows users to edit a given image region by using parts
+of another exemplar image without the need of hand-drawn sketching at all. the
+proposed interface runs in real-time and facilitates an interactive and
+iterative workflow to quickly express the intended edits. our system is based
+on a novel sketch domain and a convolutional neural network trained end-to-end
+to automatically learn to render image regions corresponding to the input
+strokes. to achieve high quality and semantically consistent results we train
+our neural network on two simultaneous tasks, namely image completion and image
+translation. to the best of our knowledge, we are the first to combine these
+two tasks in a unified framework for interactive image editing. our results
+show that the proposed sketch domain, network architecture, and training
+procedure generalize well to real user input and enable high quality synthesis
+results without additional post-processing.

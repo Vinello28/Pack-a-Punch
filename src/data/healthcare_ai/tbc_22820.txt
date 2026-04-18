@@ -1,0 +1,25 @@
+the spinal cord is frequently affected by atrophy and/or lesions in multiple
+sclerosis (ms) patients. segmentation of the spinal cord and lesions from mri
+data provides measures of damage, which are key criteria for the diagnosis,
+prognosis, and longitudinal monitoring in ms. automating this operation
+eliminates inter-rater variability and increases the efficiency of
+large-throughput analysis pipelines. robust and reliable segmentation across
+multi-site spinal cord data is challenging because of the large variability
+related to acquisition parameters and image artifacts. the goal of this study
+was to develop a fully-automatic framework, robust to variability in both image
+parameters and clinical condition, for segmentation of the spinal cord and
+intramedullary ms lesions from conventional mri data. scans of 1,042 subjects
+(459 healthy controls, 471 ms patients, and 112 with other spinal pathologies)
+were included in this multi-site study (n=30). data spanned three contrasts
+(t1-, t2-, and t2*-weighted) for a total of 1,943 volumes. the proposed cord
+and lesion automatic segmentation approach is based on a sequence of two
+convolutional neural networks (cnns). to deal with the very small proportion of
+spinal cord and/or lesion voxels compared to the rest of the volume, a first
+cnn with 2d dilated convolutions detects the spinal cord centerline, followed
+by a second cnn with 3d convolutions that segments the spinal cord and/or
+lesions. when compared against manual segmentation, our cnn-based approach
+showed a median dice of 95% vs. 88% for propseg, a state-of-the-art spinal cord
+segmentation method. regarding lesion segmentation on ms data, our framework
+provided a dice of 60%, a relative volume difference of -15%, and a lesion-wise
+detection sensitivity and precision of 83% and 77%, respectively. the proposed
+framework is open-source and readily available in the spinal cord toolbox.

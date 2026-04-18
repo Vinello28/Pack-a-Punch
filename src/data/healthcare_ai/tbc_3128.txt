@@ -1,0 +1,15 @@
+as sensor networks for health monitoring become more prevalent, so will the
+need to control their usage and consumption of energy. this paper presents a
+method which leverages the algorithm's performance and energy consumption. by
+utilising reinforcement learning (rl) techniques, we provide an adaptive
+framework, which continuously performs weak training in an energy-aware system.
+we motivate this using a realistic example of residential localisation based on
+received signal strength (rss). the method is cheap in terms of work-hours,
+calibration and energy usage. it achieves this by utilising other sensors
+available in the environment. these other sensors provide weak labels, which
+are then used to employ the state-action-reward-state-action (sarsa) algorithm
+and train the model over time. our approach is evaluated on a simulated
+localisation environment and validated on a widely available pervasive health
+dataset which facilitates realistic residential localisation using rss. we show
+that our method is cheaper to implement and requires less effort, whilst at the
+same time providing a performance enhancement and energy savings over time.

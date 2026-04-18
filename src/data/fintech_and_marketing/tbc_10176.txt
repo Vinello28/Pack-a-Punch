@@ -1,0 +1,16 @@
+stock trend prediction plays a critical role in seeking maximized profit from
+stock investment. however, precise trend prediction is very difficult since the
+highly volatile and non-stationary nature of stock market. exploding
+information on internet together with advancing development of natural language
+processing and text mining techniques have enable investors to unveil market
+trends and volatility from online content. unfortunately, the quality,
+trustworthiness and comprehensiveness of online content related to stock market
+varies drastically, and a large portion consists of the low-quality news,
+comments, or even rumors. to address this challenge, we imitate the learning
+process of human beings facing such chaotic online news, driven by three
+principles: sequential content dependency, diverse influence, and effective and
+efficient learning. in this paper, to capture the first two principles, we
+designed a hybrid attention networks to predict the stock trend based on the
+sequence of recent related news. moreover, we apply the self-paced learning
+mechanism to imitate the third principle. extensive experiments on real-world
+stock market data demonstrate the effectiveness of our approach.

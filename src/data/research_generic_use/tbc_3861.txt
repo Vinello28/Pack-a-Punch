@@ -1,0 +1,21 @@
+abnormal event detection is one of the important objectives in research and
+practical applications of video surveillance. however, there are still three
+challenging problems for most anomaly detection systems in practical setting:
+limited labeled data, ambiguous definition of "abnormal" and expensive feature
+engineering steps. this paper introduces a unified detection framework to
+handle these challenges using energy-based models, which are powerful tools for
+unsupervised representation learning. our proposed models are firstly trained
+on unlabeled raw pixels of image frames from an input video rather than
+hand-crafted visual features; and then identify the locations of abnormal
+objects based on the errors between the input video and its reconstruction
+produced by the models. to handle video stream, we develop an online version of
+our framework, wherein the model parameters are updated incrementally with the
+image frames arriving on the fly. our experiments show that our detectors,
+using restricted boltzmann machines (rbms) and deep boltzmann machines (dbms)
+as core modules, achieve superior anomaly detection performance to unsupervised
+baselines and obtain accuracy comparable with the state-of-the-art approaches
+when evaluating at the pixel-level. more importantly, we discover that our
+system trained with dbms is able to simultaneously perform scene clustering and
+scene reconstruction. this capacity not only distinguishes our method from
+other existing detectors but also offers a unique tool to investigate and
+understand how the model works.

@@ -1,0 +1,13 @@
+we present a novel approach to perform ground-based estimation and prediction
+of the surface solar irradiance with the view to predicting photovoltaic energy
+production. we propose the use of mini-batch k-means clustering to extract
+features, referred to as per cluster number of pixels (pcnp), from sky images
+taken by a low-cost fish eye camera. these features are first used to classify
+the sky as clear or cloudy using a single hidden layer neural network; the
+classification accuracy achieves 99.7%. if the sky is classified as cloudy, we
+propose to use a deep neural network having as input features the pcnp to
+predict intra-hour variability of the solar irradiance. toward this objective,
+in this paper, we focus on estimating the deep neural network model relating
+the pcnp features and the solar irradiance, which is an important step before
+performing the prediction task. the proposed deep learning-based estimation
+approach is shown to have an accuracy of 95%.

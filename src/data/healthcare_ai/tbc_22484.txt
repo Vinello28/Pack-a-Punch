@@ -1,0 +1,21 @@
+in clinical data sets we often find static information (e.g. patient gender,
+blood type, etc.) combined with sequences of data that are recorded during
+multiple hospital visits (e.g. medications prescribed, tests performed, etc.).
+recurrent neural networks (rnns) have proven to be very successful for
+modelling sequences of data in many areas of machine learning. in this work we
+present an approach based on rnns, specifically designed for the clinical
+domain, that combines static and dynamic information in order to predict future
+events. we work with a database collected in the charit\'{e} hospital in berlin
+that contains complete information concerning patients that underwent a kidney
+transplantation. after the transplantation three main endpoints can occur:
+rejection of the kidney, loss of the kidney and death of the patient. our goal
+is to predict, based on information recorded in the electronic health record of
+each patient, whether any of those endpoints will occur within the next six or
+twelve months after each visit to the clinic. we compared different types of
+rnns that we developed for this work, with a model based on a feedforward
+neural network and a logistic regression model. we found that the rnn that we
+developed based on gated recurrent units provides the best performance for this
+task. we also used the same models for a second task, i.e., next event
+prediction, and found that here the model based on a feedforward neural network
+outperformed the other models. our hypothesis is that long-term dependencies
+are not as relevant in this task.

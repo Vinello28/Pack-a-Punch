@@ -1,0 +1,8 @@
+we present obamanet, the first architecture that generates both audio and
+synchronized photo-realistic lip-sync videos from any new text. contrary to
+other published lip-sync approaches, ours is only composed of fully trainable
+neural modules and does not rely on any traditional computer graphics methods.
+more precisely, we use three main modules: a text-to-speech network based on
+char2wav, a time-delayed lstm to generate mouth-keypoints synced to the audio,
+and a network based on pix2pix to generate the video frames conditioned on the
+keypoints.

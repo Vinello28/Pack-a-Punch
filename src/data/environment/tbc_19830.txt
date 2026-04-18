@@ -1,0 +1,15 @@
+measuring the performance of solar energy and heat transfer systems requires
+a lot of time, economic cost and manpower. meanwhile, directly predicting their
+performance is challenging due to the complicated internal structures.
+fortunately, a knowledge-based machine learning method can provide a promising
+prediction and optimization strategy for the performance of energy systems. in
+this chapter, the authors will show how they utilize the machine learning
+models trained from a large experimental database to perform precise prediction
+and optimization on a solar water heater (swh) system. a new energy system
+optimization strategy based on a high-throughput screening (hts) process is
+proposed. this chapter consists of: i) comparative studies on varieties of
+machine learning models (artificial neural networks (anns), support vector
+machine (svm) and extreme learning machine (elm)) to predict the performances
+of swhs; ii) development of an ann-based software to assist the quick
+prediction and iii) introduction of a computational hts method to design a
+high-performance swh system.

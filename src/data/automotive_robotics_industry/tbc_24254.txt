@@ -1,0 +1,13 @@
+defect detection is a basic and essential task in automatic parts production,
+especially for automotive engine precision parts. in this paper, we propose a
+new idea to construct a deep convolutional network combining related knowledge
+of feature processing and the representation ability of deep learning. our
+algorithm consists of a pixel-wise segmentation deep neural network (dnn) and a
+feature refining network. the fully convolutional dnn is presented to learn
+basic features of parts defects. after that, several typical traditional
+methods which are used to refine the segmentation results are transformed into
+convolutional manners and integrated. we assemble these methods as a shallow
+network with fixed weights and empirical thresholds. these thresholds are then
+released to enhance its adaptation ability and realize end-to-end training.
+testing results on different datasets show that the proposed method has good
+portability and outperforms the state-of-the-art algorithms.

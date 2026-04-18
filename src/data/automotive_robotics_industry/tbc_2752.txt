@@ -1,0 +1,20 @@
+prognostics or early detection of incipient faults is an important industrial
+challenge for condition-based and preventive maintenance. physics-based
+approaches to modeling fault progression are infeasible due to multiple
+interacting components, uncontrolled environmental factors and observability
+constraints. moreover, such approaches to prognostics do not generalize to new
+domains. consequently, domain-agnostic data-driven machine learning approaches
+to prognostics are desirable. damage progression is a path-dependent process
+and explicitly modeling the temporal patterns is critical for accurate
+estimation of both the current damage state and its progression leading to
+total failure. in this paper, we present a novel data-driven approach to
+prognostics that employs a novel textual representation of multivariate
+temporal sensor observations for predicting the future health state of the
+monitored equipment early in its life. this representation enables us to
+utilize well-understood concepts from text-mining for modeling, prediction and
+understanding distress patterns in a domain agnostic way. the approach has been
+deployed and successfully tested on large scale multivariate time-series data
+from commercial aircraft engines. we report experiments on well-known publicly
+available benchmark datasets and simulation datasets. the proposed approach is
+shown to be superior in terms of prediction accuracy, lead time to prediction
+and interpretability.

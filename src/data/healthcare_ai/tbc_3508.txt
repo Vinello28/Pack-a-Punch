@@ -1,1 +1,11 @@
-intelligenza artificiale e caRdioelettrofisiologia: sviluppo di Algoritmi in grado di diagnosticare Canalopatie congenitE e predire aritmie fatali
+traditional text classification techniques in clinical domain have heavily
+relied on the manually extracted textual cues. this paper proposes a generally
+supervised machine learning method that is equally hassle-free and does not use
+clinical knowledge. the employed methods were simple to implement, fast to run
+and yet effective. this paper proposes a novel named entity recognition (ner)
+based an ensemble system capable of learning the keyword features in the
+document. instead of merely considering the whole sentence/paragraph for
+analysis, the ner based keyword features can stress the important clinic
+relevant phases more. in addition, to capture the semantic information in the
+documents, the fasttext features originating from the document level fasttext
+classification results are exploited.

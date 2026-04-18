@@ -1,0 +1,7 @@
+the package cleannlp provides a set of fast tools for converting a textual
+corpus into a set of normalized tables. the underlying natural language
+processing pipeline utilizes stanford's corenlp library, exposing a number of
+annotation tasks for text written in english, french, german, and spanish.
+annotators include tokenization, part of speech tagging, named entity
+recognition, entity linking, sentiment analysis, dependency parsing,
+coreference resolution, and information extraction.

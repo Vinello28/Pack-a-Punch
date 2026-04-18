@@ -1,1 +1,0 @@
-La demand forecasting con AI utilizza modelli di serie temporali e deep learning per prevedere la domanda futura di prodotti, consentendo una pianificazione produttiva e logistica ottimale.

@@ -1,0 +1,1 @@
+sysk is an iheartradio podcast production. here we provide transcripts, sentiment and timestamps in json format of the entire stuff you should know podcast episode corpus, generated automatically using machine learning (ml). each episode's full transcript is connected to the episode title and a link to the audio.

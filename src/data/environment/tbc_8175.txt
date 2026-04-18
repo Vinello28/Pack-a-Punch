@@ -1,0 +1,11 @@
+this paper demonstrates a data-driven control approach for demand response in
+real-life residential buildings. the objective is to optimally schedule the
+heating cycles of the domestic hot water (dhw) buffer to maximize the
+self-consumption of the local photovoltaic (pv) production. a model-based
+reinforcement learning technique is used to tackle the underlying sequential
+decision-making problem. the proposed algorithm learns the stochastic occupant
+behavior, predicts the pv production and takes into account the dynamics of the
+system. a real-life experiment with six residential buildings is performed
+using this algorithm. the results show that the self-consumption of the pv
+production is significantly increased, compared to the default thermostat
+control.

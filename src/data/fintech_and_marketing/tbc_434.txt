@@ -1,0 +1,22 @@
+this paper describes a practical system for multi touch attribution (mta) for
+use by a publisher of digital ads. we developed this system for jd.com, an
+ecommerce company, which is also a publisher of digital ads in china. the
+approach has two steps. the first step ('response modeling') fits a user-level
+model for purchase of a product as a function of the user's exposure to ads.
+the second ('credit allocation') uses the fitted model to allocate the
+incremental part of the observed purchase due to advertising, to the ads the
+user is exposed to over the previous t days. to implement step one, we train a
+recurrent neural network (rnn) on user-level conversion and exposure data. the
+rnn has the advantage of flexibly handling the sequential dependence in the
+data in a semi-parametric way. the specific rnn formulation we implement
+captures the impact of advertising intensity, timing, competition, and
+user-heterogeneity, which are known to be relevant to ad-response. to implement
+step two, we compute shapley values, which have the advantage of having
+axiomatic foundations and satisfying fairness considerations. the specific
+formulation of the shapley value we implement respects incrementality by
+allocating the overall incremental improvement in conversion to the exposed
+ads, while handling the sequence-dependence of exposures on the observed
+outcomes. the system is under production at jd.com, and scales to handle the
+high dimensionality of the problem on the platform (attribution of the orders
+of about 300m users, for roughly 160k brands, across 200+ ad-types, served
+about 80b ad-impressions over a typical 15-day period).

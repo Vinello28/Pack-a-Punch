@@ -1,0 +1,11 @@
+with crimes on the rise all around the world, video surveillance is becoming
+more important day by day. due to the lack of human resources to monitor this
+increasing number of cameras manually new computer vision algorithms to perform
+lower and higher level tasks are being developed. we have developed a new
+method incorporating the most acclaimed histograms of oriented gradients the
+theory of visual saliency and the saliency prediction model deep multi level
+network to detect human beings in video sequences. furthermore we implemented
+the k means algorithm to cluster the hog feature vectors of the positively
+detected windows and determined the path followed by a person in the video. we
+achieved a detection precision of 83.11% and a recall of 41.27%. we obtained
+these results 76.866 times faster than classification on normal images.

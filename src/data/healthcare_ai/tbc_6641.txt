@@ -1,0 +1,16 @@
+cilia are hairlike structures protruding from nearly every cell in the body.
+diseases known as ciliopathies, where cilia function is disrupted, can result
+in a wide spectrum of disorders. however, most techniques for assessing ciliary
+motion rely on manual identification and tracking of cilia; this process is
+laborious and error-prone, and does not scale well. even where automated
+ciliary motion analysis tools exist, their applicability is limited. here, we
+propose an end-to-end computational machine learning pipeline that
+automatically identifies regions of cilia from videos, extracts patches of
+cilia, and classifies patients as exhibiting normal or abnormal ciliary motion.
+in particular, we demonstrate how convolutional lstm are able to encode complex
+features while remaining sensitive enough to differentiate between a variety of
+motion patterns. our framework achieves 90% with only a few hundred training
+epochs. we find that the combination of segmentation and classification
+networks in a single pipeline yields performance comparable to existing
+computational pipelines, while providing the additional benefit of an
+end-to-end, fully-automated analysis toolbox for ciliary motion.

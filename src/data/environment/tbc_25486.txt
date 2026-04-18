@@ -1,0 +1,19 @@
+edge computing allows more computing tasks to take place on the decentralized
+nodes at the edge of networks. today many delay sensitive, mission-critical
+applications can leverage these edge devices to reduce the time delay or even
+to enable real time, online decision making thanks to their onsite presence.
+human objects detection, behavior recognition and prediction in smart
+surveillance fall into that category, where a transition of a huge volume of
+video streaming data can take valuable time and place heavy pressure on
+communication networks. it is widely recognized that video processing and
+object detection are computing intensive and too expensive to be handled by
+resource limited edge devices. inspired by the depthwise separable convolution
+and single shot multi-box detector (ssd), a lightweight convolutional neural
+network (lcnn) is introduced in this paper. by narrowing down the classifier's
+searching space to focus on human objects in surveillance video frames, the
+proposed lcnn algorithm is able to detect pedestrians with an affordable
+computation workload to an edge device. a prototype has been implemented on an
+edge node (raspberry pi 3) using opencv libraries, and satisfactory performance
+is achieved using real world surveillance video streams. the experimental study
+has validated the design of lcnn and shown it is a promising approach to
+computing intensive applications at the edge.

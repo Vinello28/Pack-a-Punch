@@ -1,0 +1,19 @@
+fine particulate matter (pm$_{2.5}$) is one of the criteria air pollutants
+regulated by the environmental protection agency in the united states. there is
+strong evidence that ambient exposure to (pm$_{2.5}$) increases risk of
+mortality and hospitalization. large scale epidemiological studies on the
+health effects of pm$_{2.5}$ provide the necessary evidence base for lowering
+the safety standards and inform regulatory policy. however, ambient monitors of
+pm$_{2.5}$ (as well as monitors for other pollutants) are sparsely located
+across the u.s., and therefore studies based only on the levels of pm$_{2.5}$
+measured from the monitors would inevitably exclude large amounts of the
+population. one approach to resolving this issue has been developing models to
+predict local pm$_{2.5}$, no$_2$, and ozone based on satellite, meteorological,
+and land use data. this process typically relies developing a prediction model
+that relies on large amounts of input data and is highly computationally
+intensive to predict levels of air pollution in unmonitored areas. we have
+developed a flexible r package that allows for environmental health researchers
+to design and train spatio-temporal models capable of predicting multiple
+pollutants, including pm$_{2.5}$. we utilize h2o, an open source big data
+platform, to achieve both performance and scalability when used in conjunction
+with cloud or cluster computing systems.

@@ -1,0 +1,11 @@
+considering music as a sequence of events with multiple complex dependencies,
+the long short-term memory (lstm) architecture has proven very efficient in
+learning and reproducing musical styles. however, the generation of rhythms
+requires additional information regarding musical structure and accompanying
+instruments. in this paper we present deepdrum, an adaptive neural network
+capable of generating drum rhythms under constraints imposed by feed-forward
+(conditional) layers which contain musical parameters along with given
+instrumentation information (e.g. bass and guitar notes). results on generated
+drum sequences are presented indicating that deepdrum is effective in producing
+rhythms that resemble the learned style, while at the same time conforming to
+given constraints that were unknown during the training process.

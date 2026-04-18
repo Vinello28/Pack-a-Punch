@@ -1,0 +1,15 @@
+multiplayer online battle arena (moba) games are among the most played
+digital games in the world. in these games, teams of players fight against each
+other in arena environments, and the gameplay is focused on tactical combat.
+mastering mobas requires extensive practice, as is exemplified in the popular
+moba defence of the ancients 2 (dota 2). in this paper, we present three
+data-driven measures of spatio-temporal behavior in dota 2: 1) zone changes; 2)
+distribution of team members and: 3) time series clustering via a fuzzy
+approach. we present a method for obtaining accurate positional data from dota
+2. we investigate how behavior varies across these measures as a function of
+the skill level of teams, using four tiers from novice to professional players.
+results indicate that spatio-temporal behavior of moba teams is related to team
+skill, with professional teams having smaller within-team distances and
+conducting more zone changes than amateur teams. the temporal distribution of
+the within-team distances of professional and high-skilled teams also generally
+follows patterns distinct from lower skill ranks.

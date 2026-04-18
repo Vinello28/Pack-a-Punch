@@ -1,0 +1,16 @@
+we learn end-to-end point-to-point and path-following navigation behaviors
+that avoid moving obstacles. these policies receive noisy lidar observations
+and output robot linear and angular velocities. the policies are trained in
+small, static environments with autorl, an evolutionary automation layer around
+reinforcement learning (rl) that searches for a deep rl reward and neural
+network architecture with large-scale hyper-parameter optimization. autorl
+first finds a reward that maximizes task completion, and then finds a neural
+network architecture that maximizes the cumulative of the found reward.
+empirical evaluations, both in simulation and on-robot, show that autorl
+policies do not suffer from the catastrophic forgetfulness that plagues many
+other deep reinforcement learning algorithms, generalize to new environments
+and moving obstacles, are robust to sensor, actuator, and localization noise,
+and can serve as robust building blocks for larger navigation tasks. our
+path-following and point-to-point policies are respectively 23% and 26% more
+successful than comparison methods across new environments. video at:
+https://youtu.be/0uwkjpuecbi

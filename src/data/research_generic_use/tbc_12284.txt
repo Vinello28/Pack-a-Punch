@@ -1,0 +1,17 @@
+the number of categories for action recognition is growing rapidly. it is
+thus becoming increasingly hard to collect sufficient training data to learn
+conventional models for each category. this issue may be ameliorated by the
+increasingly popular 'zero-shot learning' (zsl) paradigm. in this framework a
+mapping is constructed between visual features and a human interpretable
+semantic description of each category, allowing categories to be recognised in
+the absence of any training data. existing zsl studies focus primarily on image
+data, and attribute-based semantic representations. in this paper, we address
+zero-shot recognition in contemporary video action recognition tasks, using
+semantic word vector space as the common space to embed videos and category
+labels. this is more challenging because the mapping between the semantic space
+and space-time features of videos containing complex actions is more complex
+and harder to learn. we demonstrate that a simple self-training and data
+augmentation strategy can significantly improve the efficacy of this mapping.
+experiments on human action datasets including hmdb51 and ucf101 demonstrate
+that our approach achieves the state-of-the-art zero-shot action recognition
+performance.

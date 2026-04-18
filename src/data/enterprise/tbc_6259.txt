@@ -1,0 +1,19 @@
+automatic voice-controlled systems have changed the way humans interact with
+a computer. voice or speech recognition systems allow a user to make a
+hands-free request to the computer, which in turn processes the request and
+serves the user with appropriate responses. after years of research and
+developments in machine learning and artificial intelligence, today
+voice-controlled technologies have become more efficient and are widely applied
+in many domains to enable and improve human-to-human and human-to-computer
+interactions. the state-of-the-art e-commerce applications with the help of web
+technologies offer interactive and user-friendly interfaces. however, there are
+some instances where people, especially with visual disabilities, are not able
+to fully experience the serviceability of such applications. a voice-controlled
+system embedded in a web application can enhance user experience and can
+provide voice as a means to control the functionality of e-commerce websites.
+in this paper, we propose a taxonomy of speech recognition systems (srs) and
+present a voice-controlled commodity purchase e-commerce application using ibm
+watson speech-to-text to demonstrate its usability. the prototype can be
+extended to other application scenarios such as government service kiosks and
+enable analytics of the converted text data for scenarios such as medical
+diagnosis at the clinics.

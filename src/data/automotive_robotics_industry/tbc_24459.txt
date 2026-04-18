@@ -1,0 +1,24 @@
+hyperspectral imaging sensors are becoming increasingly popular in robotics
+applications such as agriculture and mining, and allow per-pixel thematic
+classification of materials in a scene based on their unique spectral
+signatures. recently, convolutional neural networks have shown remarkable
+performance for classification tasks, but require substantial amounts of
+labelled training data. this data must sufficiently cover the variability
+expected to be encountered in the environment. for hyperspectral data, one of
+the main variations encountered outdoors is due to incident illumination, which
+can change in spectral shape and intensity depending on the scene geometry. for
+example, regions occluded from the sun have a lower intensity and their
+incident irradiance skewed towards shorter wavelengths.
+  in this work, a data augmentation strategy based on relighting is used during
+training of a hyperspectral convolutional neural network. it allows training to
+occur in the outdoor environment given only a small labelled region, which does
+not need to sufficiently represent the geometric variability of the entire
+scene. this is important for applications where obtaining large amounts of
+training data is labourious, hazardous or difficult, such as labelling pixels
+within shadows. radiometric normalisation approaches for pre-processing the
+hyperspectral data are analysed and it is shown that methods based on the raw
+pixel data are sufficient to be used as input for the classifier. this removes
+the need for external hardware such as calibration boards, which can restrict
+the application of hyperspectral sensors in robotics applications. experiments
+to evaluate the classification system are carried out on two datasets captured
+from a field-based platform.

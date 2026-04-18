@@ -1,0 +1,17 @@
+we develop a deep learning model of multi-period mortgage risk and use it to
+analyze an unprecedented dataset of origination and monthly performance records
+for over 120 million mortgages originated across the us between 1995 and 2014.
+our estimators of term structures of conditional probabilities of prepayment,
+foreclosure and various states of delinquency incorporate the dynamics of a
+large number of loan-specific as well as macroeconomic variables down to the
+zip-code level. the estimators uncover the highly nonlinear nature of the
+relationship between the variables and borrower behavior, especially
+prepayment. they also highlight the effects of local economic conditions on
+borrower behavior. state unemployment has the greatest explanatory power among
+all variables, offering strong evidence of the tight connection between housing
+finance markets and the macroeconomy. the sensitivity of a borrower to changes
+in unemployment strongly depends upon current unemployment. it also
+significantly varies across the entire borrower population, which highlights
+the interaction of unemployment and many other variables. these findings have
+important implications for mortgage-backed security investors, rating agencies,
+and housing finance policymakers.

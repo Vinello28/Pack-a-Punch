@@ -1,0 +1,15 @@
+dense object detection and temporal tracking are needed across applications
+domains ranging from people-tracking to analysis of satellite imagery over
+time. the detection and tracking of malignant skin cancers and benign moles
+poses a particularly challenging problem due to the general uniformity of large
+skin patches, the fact that skin lesions vary little in their appearance, and
+the relatively small amount of data available. here we introduce a novel data
+synthesis technique that merges images of individual skin lesions with
+full-body images and heavily augments them to generate significant amounts of
+data. we build a convolutional neural network (cnn) based system, trained on
+this synthetic data, and demonstrate superior performance to traditional
+detection and tracking techniques. additionally, we compare our system to
+humans trained with simple criteria. our system is intended for potential
+clinical use to augment the capabilities of healthcare providers. while
+domain-specific, we believe the methods invoked in this work will be useful in
+applying cnns across domains that suffer from limited data availability.

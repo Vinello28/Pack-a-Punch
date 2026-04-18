@@ -1,0 +1,10 @@
+robojam is a machine-learning system for generating music that assists users
+of a touchscreen music app by performing responses to their short
+improvisations. this system uses a recurrent artificial neural network to
+generate sequences of touchscreen interactions and absolute timings, rather
+than high-level musical notes. to accomplish this, robojam's network uses a
+mixture density layer to predict appropriate touch interaction locations in
+space and time. in this paper, we describe the design and implementation of
+robojam's network and how it has been integrated into a touchscreen music app.
+a preliminary evaluation analyses the system in terms of training, musical
+generation and user interaction.

@@ -1,0 +1,24 @@
+person reidentification (re-id), which aims at recognizing the pedestrians captured by multiple nonoverlapping
+cameras, has attracted more interest due to its significant and
+potential application in the internet of things like intelligent
+visual surveillance. however, person reid is still a challenging
+problem in the situations of various pose, similar appearances,
+partial occlusion, etc. to handle these obstacles, in this article, we
+investigate an innovative exciting-inhibition network (einet) that
+is a two-branch network composed of the exciting branch and
+the inhibition branch. the channel-spatial attention block that
+recalibrates the relationship between channels and highlights features at different spatial positions is used in the exciting branch.
+a novel soft batch dropblock that randomly selects a continuous region of the intermediate feature maps at the same location
+is applied in the inhibition branch to inhibit the trivial by an
+inhibitive mask and reinforce learning the remaining regions.
+we integrate the comprehensive features from both branches
+for evaluation and show the performance of einet intuitively
+using the visualization method. abundant experiments demonstrate the state-of-the-art performance by comparing with the
+previous methods on three popular person re-id benchmarks. for
+example, our method obtains 95.64% rank-1 and 88.75% mean
+average precision (map) on market-1501, and 77.00% rank-1
+and 74.51% map on cuhk03-detect in the single query mode,
+respectively.
+index terms—channel-spatial attention block (csab),
+exciting-inhibition network (einet), internet of things (iot),
+person reidentification (re-id), soft batch dropblock.

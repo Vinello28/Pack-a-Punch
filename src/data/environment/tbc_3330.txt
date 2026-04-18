@@ -1,0 +1,14 @@
+in this work we propose a method that geolocates videos within a delimited
+widespread area based solely on the frames visual content. our proposed method
+tackles video-geolocation through traditional image retrieval techniques
+considering google street view as the reference point. to achieve this goal we
+use the deep learning features obtained from netvlad to represent images, since
+through this feature vectors the similarity is their l2 norm. in this paper, we
+propose a family of voting-based methods to aggregate frame-wise geolocation
+results which boost the video geolocation result. the best aggregation found
+through our experiments considers both netvlad and sift similarity, as well as
+the geolocation density of the most similar results. to test our proposed
+method, we gathered a new video dataset from pittsburgh downtown area to
+benefit and stimulate more work in this area. our system achieved a precision
+of 90% while geolocating videos within a range of 150 meters or two blocks away
+from the original position.

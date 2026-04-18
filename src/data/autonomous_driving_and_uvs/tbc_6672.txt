@@ -1,1 +1,0 @@
-Obiettivo di questa proposta di progettazione è proprio lo sviluppo di un dispositivo software che consenta la guida autonoma di un veicolo su strada escludendo così efficacemente l'intervento del conducente

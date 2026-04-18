@@ -1,0 +1,10 @@
+in our physically inspired in-tree (it) based clustering algorithm and the
+series after it, there is only one free parameter involved in computing the
+potential value of each point. in this work, based on the delaunay
+triangulation or its dual voronoi tessellation, we propose a nonparametric
+process to compute potential values by the local information. this computation,
+though nonparametric, is relatively very rough, and consequently, many local
+extreme points will be generated. however, unlike those gradient-based methods,
+our it-based methods are generally insensitive to those local extremes. this
+positively demonstrates the superiority of these parametric (previous) and
+nonparametric (in this work) it-based methods.

@@ -1,0 +1,10 @@
+in this work, we consider the problem of estimating a behaviour policy for
+use in off-policy policy evaluation (ope) when the true behaviour policy is
+unknown. via a series of empirical studies, we demonstrate how accurate ope is
+strongly dependent on the calibration of estimated behaviour policy models: how
+precisely the behaviour policy is estimated from data. we show how powerful
+parametric models such as neural networks can result in highly uncalibrated
+behaviour policy models on a real-world medical dataset, and illustrate how a
+simple, non-parametric, k-nearest neighbours model produces better calibrated
+behaviour policy estimates and can be used to obtain superior importance
+sampling-based ope estimates.

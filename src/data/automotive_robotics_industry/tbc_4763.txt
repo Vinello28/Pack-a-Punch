@@ -1,0 +1,15 @@
+many applications such as autonomous navigation, urban planning and asset
+monitoring, rely on the availability of accurate information about objects and
+their geolocations. in this paper we propose to automatically detect and
+compute the gps coordinates of recurring stationary objects of interest using
+street view imagery. our processing pipeline relies on two fully convolutional
+neural networks: the first segments objects in the images while the second
+estimates their distance from the camera. to geolocate all the detected objects
+coherently we propose a novel custom markov random field model to perform
+objects triangulation. the novelty of the resulting pipeline is the combined
+use of monocular depth estimation and triangulation to enable automatic mapping
+of complex scenes with multiple visually similar objects of interest. we
+validate experimentally the effectiveness of our approach on two object
+classes: traffic lights and telegraph poles. the experiments report high object
+recall rates and gps accuracy within 2 meters, which is comparable with the
+precision of single-frequency gps receivers.

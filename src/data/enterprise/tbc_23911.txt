@@ -1,0 +1,16 @@
+we present edina, the university of edinburgh's social bot for the amazon
+alexa prize competition. edina is a conversational agent whose responses
+utilize data harvested from amazon mechanical turk (amt) through an innovative
+new technique we call self-dialogues. these are conversations in which a single
+amt worker plays both participants in a dialogue. such dialogues are
+surprisingly natural, efficient to collect and reflective of relevant and/or
+trending topics. these self-dialogues provide training data for a generative
+neural network as well as a basis for soft rules used by a matching score
+component. each match of a soft rule against a user utterance is associated
+with a confidence score which we show is strongly indicative of reply quality,
+allowing this component to self-censor and be effectively integrated with other
+components. edina's full architecture features a rule-based system backing off
+to a matching score, backing off to a generative neural network. our hybrid
+data-driven methodology thus addresses both coverage limitations of a strictly
+rule-based approach and the lack of guarantees of a strictly machine-learning
+approach.

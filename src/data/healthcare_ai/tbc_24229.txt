@@ -1,0 +1,18 @@
+the recent advances in ecg sensor devices provide opportunities for user
+self-managed auto-diagnosis and monitoring services over the internet. this
+imposes the requirements for generic ecg classification methods that are
+inter-patient and device independent. in this paper, we present our work on
+using the densely connected convolutional neural network (densenet) and gated
+recurrent unit network (gru) for addressing the inter-patient ecg
+classification problem. a deep learning model architecture is proposed and is
+evaluated using the mit-bih arrhythmia and supraventricular databases. the
+results obtained show that without applying any complicated data pre-processing
+or feature engineering methods, both of our models have considerably
+outperformed the state-of-the-art performance for supraventricular (sveb) and
+ventricular (veb) arrhythmia classifications on the unseen testing dataset
+(with the f1 score improved from 51.08 to 61.25 for sveb detection and from
+88.59 to 89.75 for veb detection respectively). as no patient-specific or
+device-specific information is used at the training stage in this work, it can
+be considered as a more generic approach for dealing with scenarios in which
+varieties of ecg signals are collected from different patients using different
+types of sensor devices.

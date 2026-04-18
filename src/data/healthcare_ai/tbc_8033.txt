@@ -1,0 +1,16 @@
+the extraction of consistent and identifiable features from an image of the
+human iris is known as iris recognition. identifying which pixels belong to the
+iris, known as segmentation, is the first stage of iris recognition. errors in
+segmentation propagate to later stages. current segmentation approaches are
+tuned to specific environments. we propose using a convolution neural network
+for iris segmentation. our algorithm is accurate when trained in a single
+environment and tested in multiple environments. our network builds on the mask
+r-cnn framework (he et al., iccv 2017). our approach segments faster than
+previous approaches including the mask r-cnn network. our network is accurate
+when trained on a single environment and tested with a different sensors
+(either visible light or near-infrared). its accuracy degrades when trained
+with a visible light sensor and tested with a near-infrared sensor (and vice
+versa). a small amount of retraining of the visible light model (using a few
+samples from a near-infrared dataset) yields a tuned network accurate in both
+settings. for training and testing, this work uses the casia v4 interval, notre
+dame 0405, ubiris v2, and iitd datasets.

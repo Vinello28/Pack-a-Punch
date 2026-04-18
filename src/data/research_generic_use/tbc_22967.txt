@@ -1,0 +1,13 @@
+the universal approximation properties with respect to $l ^p $-type criteria
+of three important families of reservoir computers with stochastic
+discrete-time semi-infinite inputs is shown. first, it is proved that linear
+reservoir systems with either polynomial or neural network readout maps are
+universal. more importantly, it is proved that the same property holds for two
+families with linear readouts, namely, trigonometric state-affine systems and
+echo state networks, which are the most widely used reservoir systems in
+applications. the linearity in the readouts is a key feature in supervised
+machine learning applications. it guarantees that these systems can be used in
+high-dimensional situations and in the presence of large datasets. the $l ^p $
+criteria used in this paper allow the formulation of universality results that
+do not necessarily impose almost sure uniform boundedness in the inputs or the
+fading memory property in the filter that needs to be approximated.

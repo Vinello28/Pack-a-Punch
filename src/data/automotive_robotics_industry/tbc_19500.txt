@@ -1,0 +1,15 @@
+range images captured by time-of-flight (tof) cameras are corrupted with
+multipath distortions due to interaction between modulated light signals and
+scenes. the interaction is often complicated, which makes a model-based
+solution elusive. we propose a learning-based approach for removing the
+multipath distortions for a tof camera in a robotic arm setup. our approach is
+based on deep learning. we use the robotic arm to automatically collect a large
+amount of tof range images containing various multipath distortions. the
+training images are automatically labeled by leveraging a high precision
+structured light sensor available only in the training time. in the test time,
+we apply the learned model to remove the multipath distortions. this allows our
+robotic arm setup to enjoy the speed and compact form of the tof camera without
+compromising with its range measurement errors. we conduct extensive
+experimental validations and compare the proposed method to several baseline
+algorithms. the experiment results show that our method achieves 55% error
+reduction in range estimation and largely outperforms the baseline algorithms.

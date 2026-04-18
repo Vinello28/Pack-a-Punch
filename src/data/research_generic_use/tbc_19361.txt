@@ -1,0 +1,17 @@
+much recent progress in vision-to-language problems has been achieved through
+a combination of convolutional neural networks (cnns) and recurrent neural
+networks (rnns). this approach does not explicitly represent high-level
+semantic concepts, but rather seeks to progress directly from image features to
+text. in this paper we first propose a method of incorporating high-level
+concepts into the successful cnn-rnn approach, and show that it achieves a
+significant improvement on the state-of-the-art in both image captioning and
+visual question answering. we further show that the same mechanism can be used
+to incorporate external knowledge, which is critically important for answering
+high level visual questions. specifically, we design a visual question
+answering model that combines an internal representation of the content of an
+image with information extracted from a general knowledge base to answer a
+broad range of image-based questions. it particularly allows questions to be
+asked about the contents of an image, even when the image itself does not
+contain a complete answer. our final model achieves the best reported results
+on both image captioning and visual question answering on several benchmark
+datasets.

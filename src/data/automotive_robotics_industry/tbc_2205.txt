@@ -1,0 +1,25 @@
+autonomous robots are used as the tool to solve many kinds of problems, such
+as environmental mapping and monitoring. either for adverse conditions related
+to the human presence or even for the need to reduce costs, it is certain that
+many efforts have been made to develop robots with an increasingly high level
+of autonomy. they must be capable of locomotion through dynamic environments,
+without human operators or assistant systems' help. it is noted, thus, that the
+form of perception and modeling of the environment becomes significantly
+relevant to navigation. among the main sensing methods are those based on
+vision. through this, it is possible to create highly-detailed models about the
+environment, since many characteristics can be measured, such as texture,
+color, and illumination. however, the most accurate vision-based navigation
+techniques are computationally expensive to run on low-cost mobile platforms.
+therefore, the goal of this work was to develop a low-cost robot, controlled by
+a raspberry pi, whose navigation system is based on vision. for this purpose,
+the strategy used consisted in identifying obstacles via optical flow pattern
+recognition. through this signal, it is possible to infer the relative
+displacement between the robot and other elements in the environment. its
+estimation was done using the lucas-kanade algorithm, which can be executed by
+the raspberry pi without harming its performance. finally, an svm based
+classifier was used to identify patterns of this signal associated with
+obstacles movement. the developed system was evaluated considering its
+execution over an optical flow pattern dataset extracted from a real navigation
+environment. in the end, it was verified that the processing frequency of the
+system was superior to the others. furthermore, its accuracy and acquisition
+cost were, respectively, higher and lower than most of the cited works.

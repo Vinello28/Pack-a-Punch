@@ -1,0 +1,15 @@
+machine learning applications in medical imaging are frequently limited by
+the lack of quality labeled data. in this paper, we explore the self training
+method, a form of semi-supervised learning, to address the labeling burden. by
+integrating reinforcement learning, we were able to expand the application of
+self training to complex segmentation networks without any further human
+annotation. the proposed approach, reinforced self training (rest), fine tunes
+a semantic segmentation networks by introducing a policy network that learns to
+generate pseudolabels. we incorporate an expert demonstration network, based on
+inverse reinforcement learning, to enhance clinical validity and convergence of
+the policy network. the model was tested on a pulmonary nodule segmentation
+task in chest x-rays and achieved the performance of a standard u-net while
+using only 50% of the labeled data, by exploiting unlabeled data. when the same
+number of labeled data was used, a moderate to significant cross validation
+accuracy improvement was achieved depending on the absolute number of labels
+used.

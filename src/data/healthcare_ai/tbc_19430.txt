@@ -1,0 +1,18 @@
+recently, there has been a growing interest in monitoring brain activity for
+individual recognition system. so far these works are mainly focussing on
+single channel data or fragment data collected by some advanced brain
+monitoring modalities. in this study we propose new individual recognition
+schemes based on spatio-temporal resting state electroencephalography (eeg)
+data. besides, instead of using features derived from artificially-designed
+procedures, modified deep learning architectures which aim to automatically
+extract an individual's unique features are developed to conduct
+classification. our designed deep learning frameworks are proved of a small but
+consistent advantage of replacing the $softmax$ layer with random forest.
+additionally, a voting layer is added at the top of designed neural networks in
+order to tackle the classification problem arisen from eeg streams. lastly,
+various experiments are implemented to evaluate the performance of the designed
+deep learning architectures; results indicate that the proposed eeg-based
+individual recognition scheme yields a high degree of classification accuracy:
+$81.6\%$ for characteristics in high risk (chr) individuals, $96.7\%$ for
+clinically stable first episode patients with schizophrenia (fes) and $99.2\%$
+for healthy controls (hc).

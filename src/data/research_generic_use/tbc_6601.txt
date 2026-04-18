@@ -1,0 +1,24 @@
+deep learning models with convolutional and recurrent networks are now
+ubiquitous and analyze massive amounts of audio, image, video, text and graph
+data, with applications in automatic translation, speech-to-text, scene
+understanding, ranking user preferences, ad placement, etc. competing
+frameworks for building these networks such as tensorflow, chainer, cntk,
+torch/pytorch, caffe1/2, mxnet and theano, explore different tradeoffs between
+usability and expressiveness, research or production orientation and supported
+hardware. they operate on a dag of computational operators, wrapping
+high-performance libraries such as cudnn (for nvidia gpus) or nnpack (for
+various cpus), and automate memory allocation, synchronization, distribution.
+custom operators are needed where the computation does not fit existing
+high-performance library calls, usually at a high engineering cost. this is
+frequently required when new operators are invented by researchers: such
+operators suffer a severe performance penalty, which limits the pace of
+innovation. furthermore, even if there is an existing runtime call these
+frameworks can use, it often doesn't offer optimal performance for a user's
+particular network architecture and dataset, missing optimizations between
+operators as well as optimizations that can be done knowing the size and shape
+of data. our contributions include (1) a language close to the mathematics of
+deep learning called tensor comprehensions, (2) a polyhedral just-in-time
+compiler to convert a mathematical description of a deep learning dag into a
+cuda kernel with delegated memory management and synchronization, also
+providing optimizations such as operator fusion and specialization for specific
+sizes, (3) a compilation cache populated by an autotuner. [abstract cutoff]

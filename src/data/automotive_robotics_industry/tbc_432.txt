@@ -1,0 +1,18 @@
+the ability to interact and understand the environment is a fundamental
+prerequisite for a wide range of applications from robotics to augmented
+reality. in particular, predicting how deformable objects will react to applied
+forces in real time is a significant challenge. this is further confounded by
+the fact that shape information about encountered objects in the real world is
+often impaired by occlusions, noise and missing regions e.g. a robot
+manipulating an object will only be able to observe a partial view of the
+entire solid. in this work we present a framework, 3d-physnet, which is able to
+predict how a three-dimensional solid will deform under an applied force using
+intuitive physics modelling. in particular, we propose a new method to encode
+the physical properties of the material and the applied force, enabling
+generalisation over materials. the key is to combine deep variational
+autoencoders with adversarial training, conditioned on the applied force and
+the material properties. we further propose a cascaded architecture that takes
+a single 2.5d depth view of the object and predicts its deformation. training
+data is provided by a physics simulator. the network is fast enough to be used
+in real-time applications from partial views. experimental results show the
+viability and the generalisation properties of the proposed architecture.

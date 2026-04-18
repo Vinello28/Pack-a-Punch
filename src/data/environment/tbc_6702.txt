@@ -1,0 +1,16 @@
+most environmental phenomena, such as wind profiles, ozone concentration and
+sunlight distribution under a forest canopy, exhibit nonstationary dynamics
+i.e. phenomenon variation change depending on the location and time of
+occurrence. non-stationary dynamics pose both theoretical and practical
+challenges to statistical machine learning algorithms aiming to accurately
+capture the complexities governing the evolution of such processes. in this
+paper, we address the sampling aspects of the problem of learning nonstationary
+spatio-temporal models, and propose an efficient yet simple algorithm - lisal.
+the core idea in lisal is to learn two models using gaussian processes (gps)
+wherein the first is a nonstationary gp directly modeling the phenomenon. the
+second model uses a stationary gp representing a latent space corresponding to
+changes in dynamics, or the nonstationarity characteristics of the first model.
+lisal involves adaptively sampling the latent space dynamics using information
+theory quantities to reduce the computational cost during the learning phase.
+the relevance of lisal is extensively validated using multiple real world
+datasets.

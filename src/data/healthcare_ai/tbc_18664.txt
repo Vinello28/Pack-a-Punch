@@ -1,0 +1,18 @@
+this paper proposes a new approach to diagnose broken rotor bar failure in a
+line start-permanent magnet synchronous motor (ls-pmsm) using random forests.
+the transient current signal during the motor startup was acquired from a
+healthy motor and a faulty motor with a broken rotor bar fault. we extracted 13
+statistical time domain features from the startup transient current signal, and
+used these features to train and test a random forest to determine whether the
+motor was operating under normal or faulty conditions. for feature selection,
+we used the feature importances from the random forest to reduce the number of
+features to two features. the results showed that the random forest classifies
+the motor condition as healthy or faulty with an accuracy of 98.8% using all
+features and with an accuracy of 98.4% by using only the mean-index and
+impulsion features. the performance of the random forest was compared with a
+decision tree, na\"ive bayes classifier, logistic regression, linear ridge, and
+a support vector machine, with the random forest consistently having a higher
+accuracy than the other algorithms. the proposed approach can be used in
+industry for online monitoring and fault diagnostic of ls-pmsm motors and the
+results can be helpful for the establishment of preventive maintenance plans in
+factories.

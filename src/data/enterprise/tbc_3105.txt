@@ -1,0 +1,16 @@
+conversational assistants are being progressively adopted by the general
+population. however, they are not capable of handling complicated
+information-seeking tasks that involve multiple turns of information exchange.
+due to the limited communication bandwidth in conversational search, it is
+important for conversational assistants to accurately detect and predict user
+intent in information-seeking conversations. in this paper, we investigate two
+aspects of user intent prediction in an information-seeking setting. first, we
+extract features based on the content, structural, and sentiment
+characteristics of a given utterance, and use classic machine learning methods
+to perform user intent prediction. we then conduct an in-depth feature
+importance analysis to identify key features in this prediction task. we find
+that structural features contribute most to the prediction performance. given
+this finding, we construct neural classifiers to incorporate context
+information and achieve better performance without feature engineering. our
+findings can provide insights into the important factors and effective methods
+of user intent prediction in information-seeking conversations.

@@ -1,0 +1,26 @@
+background: electronic health record (ehr) notes contain abundant medical
+jargon that can be difficult for patients to comprehend. one way to help
+patients is to reduce information overload and help them focus on medical terms
+that matter most to them.
+  objective: the aim of this work was to develop fit (finding important terms
+for patients), an unsupervised natural language processing (nlp) system that
+ranks medical terms in ehr notes based on their importance to patients.
+  methods: we built fit on a new unsupervised ensemble ranking model derived
+from the biased random walk algorithm to combine heterogeneous information
+resources for ranking candidate terms from each ehr note. specifically, fit
+integrates four single views for term importance: patient use of medical
+concepts, document-level term salience, word-occurrence based term relatedness,
+and topic coherence. it also incorporates partial information of term
+importance as conveyed by terms' unfamiliarity levels and semantic types. we
+evaluated fit on 90 expert-annotated ehr notes and compared it with three
+benchmark unsupervised ensemble ranking methods.
+  results: fit achieved 0.885 auc-roc for ranking candidate terms from ehr
+notes to identify important terms. when including term identification, the
+performance of fit for identifying important terms from ehr notes was 0.813
+auc-roc. it outperformed the three ensemble rankers for most metrics. its
+performance is relatively insensitive to its parameter.
+  conclusions: fit can automatically identify ehr terms important to patients
+and may help develop personalized interventions to improve quality of care. by
+using unsupervised learning as well as a robust and flexible framework for
+information fusion, fit can be readily applied to other domains and
+applications.

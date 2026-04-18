@@ -1,0 +1,15 @@
+the present study provides the first evidence that illiteracy can be reliably
+predicted from standard mobile phone logs. by deriving a broad set of mobile
+phone indicators reflecting users financial, social and mobility patterns we
+show how supervised machine learning can be used to predict individual
+illiteracy in an asian developing country, externally validated against a
+large-scale survey. on average the model performs 10 times better than random
+guessing with a 70% accuracy. further we show how individual illiteracy can be
+aggregated and mapped geographically at cell tower resolution. geographical
+mapping of illiteracy is crucial to know where the illiterate people are, and
+where to put in resources. in underdeveloped countries such mappings are often
+based on out-dated household surveys with low spatial and temporal resolution.
+one in five people worldwide struggle with illiteracy, and it is estimated that
+illiteracy costs the global economy more than 1 trillion dollars each year.
+these results potentially enable costeffective, questionnaire-free
+investigation of illiteracy-related questions on an unprecedented scale

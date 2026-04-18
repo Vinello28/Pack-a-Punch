@@ -1,0 +1,10 @@
+vehicle recognition and classification have broad applications, ranging from
+traffic flow management to military target identification. we demonstrate an
+unsupervised method for automated identification of moving vehicles from
+roadside audio sensors. using a short-time fourier transform to decompose audio
+signals, we treat the frequency signature in each time window as an individual
+data point. we then use a spectral embedding for dimensionality reduction.
+based on the leading eigenvectors, we relate the performance of an incremental
+reseeding algorithm to that of spectral clustering. we find that incremental
+reseeding accurately identifies individual vehicles using their acoustic
+signatures.

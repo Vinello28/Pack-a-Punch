@@ -1,0 +1,15 @@
+current uav-recorded datasets are mostly limited to action recognition and
+object tracking, whereas the gesture signals datasets were mostly recorded in
+indoor spaces. currently, there is no outdoor recorded public video dataset for
+uav commanding signals. gesture signals can be effectively used with uavs by
+leveraging the uavs visual sensors and operational simplicity. to fill this gap
+and enable research in wider application areas, we present a uav gesture
+signals dataset recorded in an outdoor setting. we selected 13 gestures
+suitable for basic uav navigation and command from general aircraft handling
+and helicopter handling signals. we provide 119 high-definition video clips
+consisting of 37151 frames. the overall baseline gesture recognition
+performance computed using pose-based convolutional neural network (p-cnn) is
+91.9 %. all the frames are annotated with body joints and gesture classes in
+order to extend the dataset's applicability to a wider research area including
+gesture recognition, action recognition, human pose recognition and situation
+awareness.

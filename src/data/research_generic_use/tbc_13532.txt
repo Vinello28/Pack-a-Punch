@@ -1,0 +1,13 @@
+standard 3d convolution operations require much larger amounts of memory and
+computation cost than 2d convolution operations. the fact has hindered the
+development of deep neural nets in many 3d vision tasks. in this paper, we
+investigate the possibility of applying depthwise separable convolutions in 3d
+scenario and introduce the use of 3d depthwise convolution. a 3d depthwise
+convolution splits a single standard 3d convolution into two separate steps,
+which would drastically reduce the number of parameters in 3d convolutions with
+more than one order of magnitude. we experiment with 3d depthwise convolution
+on popular cnn architectures and also compare it with a similar structure
+called pseudo-3d convolution. the results demonstrate that, with 3d depthwise
+convolutions, 3d vision tasks like classification and reconstruction can be
+carried out with more light-weighted neural networks while still delivering
+comparable performances.

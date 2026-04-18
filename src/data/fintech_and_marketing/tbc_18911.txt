@@ -1,0 +1,18 @@
+given e-commerce scenarios that user profiles are invisible, sessionbased recommendation is proposed to generate recommendation
+results from short sessions. previous work only considers the
+user’s sequential behavior in the current session, whereas the
+user’s main purpose in the current session is not emphasized. in
+this paper, we propose a novel neural networks framework, i.e.,
+neural attentive recommendation machine (narm), to tackle
+this problem. specifically, we explore a hybrid encoder with an
+attention mechanism to model the user’s sequential behavior and
+capture the user’s main purpose in the current session, which
+are combined as a unified session representation later. we then
+compute the recommendation scores for each candidate item with
+a bi-linear matching scheme based on this unified session representation. we train narm by jointly learning the item and session
+representations as well as their matchings. we carried out extensive experiments on two benchmark datasets. our experimental
+results show that narm outperforms state-of-the-art baselines on
+both datasets. furthermore, we also find that narm achieves a
+significant improvement on long sessions, which demonstrates its
+advantages in modeling the user’s sequential behavior and main
+purpose simultaneously

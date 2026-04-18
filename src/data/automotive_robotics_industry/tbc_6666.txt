@@ -1,0 +1,20 @@
+many works in collaborative robotics and human-robot interaction focuses on
+identifying and predicting human behaviour while considering the information
+about the robot itself as given. this can be the case when sensors and the
+robot are calibrated in relation to each other and often the reconfiguration of
+the system is not possible, or extra manual work is required. we present a deep
+learning based approach to remove the constraint of having the need for the
+robot and the vision sensor to be fixed and calibrated in relation to each
+other. the system learns the visual cues of the robot body and is able to
+localise it, as well as estimate the position of robot joints in 3d space by
+just using a 2d color image. the method uses a cascaded convolutional neural
+network, and we present the structure of the network, describe our own
+collected dataset, explain the network training and achieved results. a fully
+trained system shows promising results in providing an accurate mask of where
+the robot is located and a good estimate of its joints positions in 3d. the
+accuracy is not good enough for visual servoing applications yet, however, it
+can be sufficient for general safety and some collaborative tasks not requiring
+very high precision. the main benefit of our method is the possibility of the
+vision sensor to move freely. this allows it to be mounted on moving objects,
+for example, a body of the person or a mobile robot working in the same
+environment as the robots are operating in.

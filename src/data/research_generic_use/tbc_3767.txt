@@ -1,0 +1,12 @@
+neuromorphic architectures achieve low-power operation by using many simple
+spiking neurons in lieu of traditional hardware. here, we develop methods for
+precise linear computations in spiking neural networks and use these methods to
+map the evolution of a linear dynamical system (lds) onto an existing
+neuromorphic chip: ibm's truenorth. we analytically characterize, and
+numerically validate, the discrepancy between the spiking lds state sequence
+and that of its non-spiking counterpart. these analytical results shed light on
+the multiway tradeoff between time, space, energy, and accuracy in neuromorphic
+computation. to demonstrate the utility of our work, we implemented a
+neuromorphic kalman filter (kf) and used it for offline decoding of human vocal
+pitch from neural data. the neuromorphic kf could be used for low-power
+filtering in domains beyond neuroscience, such as navigation or robotics.

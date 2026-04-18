@@ -1,0 +1,17 @@
+using deep reinforcement learning, we train control policies for autonomous
+vehicles leading a platoon of vehicles onto a roundabout. using flow, a library
+for deep reinforcement learning in micro-simulators, we train two policies, one
+policy with noise injected into the state and action space and one without any
+injected noise. in simulation, the autonomous vehicle learns an emergent
+metering behavior for both policies in which it slows to allow for smoother
+merging. we then directly transfer this policy without any tuning to the
+university of delaware scaled smart city (udssc), a 1:25 scale testbed for
+connected and automated vehicles. we characterize the performance of both
+policies on the scaled city. we show that the noise-free policy winds up
+crashing and only occasionally metering. however, the noise-injected policy
+consistently performs the metering behavior and remains collision-free,
+suggesting that the noise helps with the zero-shot policy transfer.
+additionally, the transferred, noise-injected policy leads to a 5% reduction of
+average travel time and a reduction of 22% in maximum travel time in the udssc.
+videos of the controllers can be found at
+https://sites.google.com/view/iccps-policy-transfer.

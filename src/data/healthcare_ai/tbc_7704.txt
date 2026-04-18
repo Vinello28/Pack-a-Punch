@@ -1,0 +1,15 @@
+in this work, we present our various contributions to the objective of
+building a decision support tool for the diagnosis of rare diseases. our goal
+is to achieve a state of knowledge where the uncertainty about the patient's
+disease is below a predetermined threshold. we aim to reach such states while
+minimizing the average number of medical tests to perform. in doing so, we take
+into account the need, in many medical applications, to avoid, as much as
+possible, any misdiagnosis. to solve this optimization task, we investigate
+several reinforcement learning algorithm and make them operable in our
+high-dimensional and sparse-reward setting. we also present a way to combine
+expert knowledge, expressed as conditional probabilities, with real clinical
+data. this is crucial because the scarcity of data in the field of rare
+diseases prevents any approach based solely on clinical data. finally we show
+that it is possible to integrate the ontological information about symptoms
+while remaining in our probabilistic reasoning. it enables our decision support
+tool to process information given at different level of precision by the user.

@@ -1,0 +1,18 @@
+we propose a real-time context-aware learning system along with the
+architecture that runs on the mobile devices, provide services to the user and
+manage the iot devices. in this system, an application running on mobile
+devices collected data from the sensors, learned about the user-defined
+context, made predictions in real-time and manage iot devices accordingly.
+however, the computational power of the mobile devices makes it challenging to
+run machine learning algorithms with acceptable accuracy. to solve this issue,
+some authors have run machine learning algorithms on the server and transmitted
+the results to the mobile devices. although the context-aware predictions made
+by the server are more accurate than their mobile counterpart, it heavily
+depends on the network connection for the delivery of the results to the
+devices, which negatively affects real-time context-learning. therefore, in
+this work, we describe a context-learning algorithm for mobile devices which is
+less demanding on the computational resources and maintains the accuracy of the
+prediction by updating itself from the learning parameters obtained from the
+server periodically. experimental results show that the proposed light-weight
+context-learning algorithm can achieve mean accuracy up to 97.51% while mean
+execution time requires only 11ms.

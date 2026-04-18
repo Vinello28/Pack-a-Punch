@@ -1,0 +1,8 @@
+fraudulent banking operations can cause huge losses to the bank and further affect the economy negatively. what if blockchain technology and machine learning could be combined to detect suspicious banking activity and stop transactions at the source? that is what this paper aims to do.
+in this paper, a system is created which consists of a the following components:
+1) blockchain: to securely store transaction history.
+2) xgboosted kmenas algorithm: for quick and efficient detection of outliers, which indicate suspicious
+activity.
+3) apache ignite: this is an open source platform that provides powerful computing for real-time machine
+learning.
+key words: artificial intelligence, machine learning, data science, algorithm, blockchain, means, apache.

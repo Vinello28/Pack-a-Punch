@@ -1,0 +1,13 @@
+we build a large-scale visual search system which finds similar product
+images given a fashion item. defining similarity among arbitrary
+fashion-products is still remains a challenging problem, even there is no exact
+ground-truth. to resolve this problem, we define more than 90 fashion-related
+attributes, and combination of these attributes can represent thousands of
+unique fashion-styles. the fashion-attributes are one of the ingredients to
+define semantic similarity among fashion-product images. to build our system at
+scale, these fashion-attributes are again used to build an inverted indexing
+scheme. in addition to these fashion-attributes for semantic similarity, we
+extract colour and appearance features in a region-of-interest (roi) of a
+fashion item for visual similarity. by sharing our approach, we expect active
+discussion on that how to apply current computer vision research into the
+e-commerce industry.

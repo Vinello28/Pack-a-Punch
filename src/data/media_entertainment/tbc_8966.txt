@@ -1,0 +1,7 @@
+this paper proposes a method for classifying movie genres by only looking at
+text reviews. the data used are from large movie review dataset v1.0 and imdb.
+this paper compared a k-nearest neighbors (knn) model and a multilayer
+perceptron (mlp) that uses tf-idf as input features. the paper also discusses
+different evaluation metrics used when doing multi-label classification. for
+the data used in this research, the knn model performed the best with an
+accuracy of 55.4\% and a hamming loss of 0.047.

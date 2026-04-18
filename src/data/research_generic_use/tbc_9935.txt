@@ -1,0 +1,9 @@
+the susceptibility of deep learning to adversarial attack can be understood
+in the framework of the renormalisation group (rg) and the vulnerability of a
+specific network may be diagnosed provided the weights in each layer are known.
+an adversary with access to the inputs and outputs could train a second network
+to clone these weights and, having identified a weakness, use them to compute
+the perturbation of the input data which exploits it. however, the rg framework
+also provides a means to poison the outputs of the network imperceptibly,
+without affecting their legitimate use, so as to prevent such cloning of its
+weights and thereby foil the generation of adversarial data.

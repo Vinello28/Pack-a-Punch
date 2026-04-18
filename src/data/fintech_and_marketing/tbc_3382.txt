@@ -1,0 +1,14 @@
+financial times series such as stock price and exchange rates are, often,
+non-linear and non-stationary. use of decomposition models has been found to
+improve the accuracy of predictive models. the paper proposes a hybrid approach
+integrating the advantages of both decomposition model (namely, maximal overlap
+discrete wavelet transform (modwt)) and machine learning models (ann and svr)
+to predict the national stock exchange fifty index. in first phase, the data is
+decomposed into a smaller number of subseries using modwt. in next phase, each
+subseries is predicted using machine learning models (i.e., ann and svr). the
+predicted subseries are aggregated to obtain the final forecasts. in final
+stage, the effectiveness of the proposed approach is evaluated using error
+measures and statistical test. the proposed methods (modwt-ann and modwt-svr)
+are compared with ann and svr models and, it was observed that the return on
+investment obtained based on trading rules using predicted values of modwt-svr
+model was higher than that of buy-and-hold strategy.

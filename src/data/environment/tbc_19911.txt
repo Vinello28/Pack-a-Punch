@@ -1,0 +1,14 @@
+maritime domain awareness is critical for protecting sea lanes, ports,
+harbors, offshore structures and critical infrastructures against common
+threats and illegal activities. limited surveillance resources constrain
+maritime domain awareness and compromise full security coverage at all times.
+this situation calls for innovative intelligent systems for interactive
+situation analysis to assist marine authorities and security personal in their
+routine surveillance operations. in this article, we propose a novel situation
+analysis framework to analyze marine traffic data and differentiate various
+scenarios of vessel engagement for the purpose of detecting anomalies of
+interest for marine vessels that operate over some period of time in relative
+proximity to each other. the proposed framework views vessel behavior as
+probabilistic processes and uses machine learning to model common vessel
+interaction patterns. we represent patterns of interest as left-to-right hidden
+markov models and classify such patterns using support vector machines.

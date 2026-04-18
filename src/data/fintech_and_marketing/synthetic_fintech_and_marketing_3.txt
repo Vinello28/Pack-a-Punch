@@ -1,1 +1,0 @@
-Implementazione di un sistema di dynamic pricing basato su reinforcement learning per l'ottimizzazione dei ricavi nel settore e-commerce.

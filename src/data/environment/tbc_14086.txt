@@ -1,0 +1,14 @@
+the production of renewable and sustainable energy is one of the most
+important challenges currently facing mankind. wind has made an increasing
+contribution to the world's energy supply mix, but still remains a long way
+from reaching its full potential. in this paper, we investigate the use of
+artificial evolution to design vertical-axis wind turbine prototypes that are
+physically instantiated and evaluated under fan generated wind conditions.
+initially a conventional evolutionary algorithm is used to explore the design
+space of a single wind turbine and later a cooperative coevolutionary algorithm
+is used to explore the design space of an array of wind turbines. artificial
+neural networks are used throughout as surrogate models to assist learning and
+found to reduce the number of fabrications required to reach a higher
+aerodynamic efficiency. unlike in other approaches, such as computational fluid
+dynamics simulations, no mathematical formulations are used and no model
+assumptions are made.

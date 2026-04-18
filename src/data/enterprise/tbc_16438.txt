@@ -1,0 +1,23 @@
+sales forecasting plays a prominent role in business planning and business
+strategy. the value and importance of advance information is a cornerstone of
+planning activity, and a well-set forecast goal can guide sale-force more
+efficiently. in this paper cpu sales forecasting of intel corporation, a
+multinational semiconductor industry, was considered. past sale, future
+booking, exchange rates, gross domestic product (gdp) forecasting, seasonality
+and other indicators were innovatively incorporated into the quantitative
+modeling. benefit from the recent advances in computation power and software
+development, millions of models built upon multiple regressions, time series
+analysis, random forest and boosting tree were executed in parallel. the models
+with smaller validation errors were selected to form the ensemble model. to
+better capture the distinct characteristics, forecasting models were
+implemented at lead time and lines of business level. the moving windows
+validation process automatically selected the models which closely represent
+current market condition. the weekly cadence forecasting schema allowed the
+model to response effectively to market fluctuation. generic variable
+importance analysis was also developed to increase the model interpretability.
+rather than assuming fixed distribution, this non-parametric permutation
+variable importance analysis provided a general framework across methods to
+evaluate the variable importance. this variable importance framework can
+further extend to classification problem by modifying the mean absolute
+percentage error(mape) into misclassify error. please find the demo code at :
+https://github.com/qx0731/ensemble_forecast_methods

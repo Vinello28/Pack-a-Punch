@@ -1,0 +1,9 @@
+we investigate the predictability of several range-based stock volatility
+estimators, and compare them to the standard close-to-close estimator which is
+most commonly acknowledged as the volatility. the patterns of volatility
+changes are analyzed using lstm recurrent neural networks, which are a state of
+the art method of sequence learning. we implement the analysis on all current
+constituents of the dow jones industrial average index, and report averaged
+evaluation results. we find that changes in the values of range-based
+estimators are more predictable than that of the estimator using daily closing
+values only.

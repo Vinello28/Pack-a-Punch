@@ -1,0 +1,18 @@
+spectrum maps, which provide rf spectrum metrics such as power spectral
+density for every location in a geographic area, find numerous applications in
+wireless communications such as interference control, spectrum management,
+resource allocation, and network planning to name a few. spectrum cartography
+techniques construct these maps from a collection of measurements collected by
+spatially distributed sensors. due to the nature of the propagation of
+electromagnetic waves, spectrum maps are complicated functions of the spatial
+coordinates. for this reason, model-free approaches have been preferred.
+however, all existing schemes rely on some interpolation algorithm unable to
+learn from data. this work proposes a novel approach to spectrum cartography
+where propagation phenomena are learned from data. the resulting algorithms can
+therefore construct a spectrum map from a significantly smaller number of
+measurements than existing schemes since the spatial structure of shadowing and
+other phenomena is previously learned from maps in other environments. besides
+the aforementioned new paradigm, this is also the first work to perform
+spectrum cartography with deep neural networks. to exploit the manifold
+structure of spectrum maps, a deep network architecture is proposed based on
+completion autoencoders.

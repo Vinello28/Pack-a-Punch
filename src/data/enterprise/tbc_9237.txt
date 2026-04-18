@@ -1,0 +1,17 @@
+business process management (bpm) is a central element of today
+organizations. despite over the years its main focus has been the support of
+processes in highly controlled domains, nowadays many domains of interest to
+the bpm community are characterized by ever-changing requirements,
+unpredictable environments and increasing amounts of data that influence the
+execution of process instances. under such dynamic conditions, bpm systems must
+increase their level of automation to provide the reactivity and flexibility
+necessary for process management. on the other hand, the artificial
+intelligence (ai) community has concentrated its efforts on investigating
+dynamic domains that involve active control of computational entities and
+physical devices (e.g., robots, software agents, etc.). in this context,
+automated planning, which is one of the oldest areas in ai, is conceived as a
+model-based approach to synthesize autonomous behaviours in automated way from
+a model. in this paper, we discuss how automated planning techniques can be
+leveraged to enable new levels of automation and support for business
+processing, and we show some concrete examples of their successful application
+to the different stages of the bpm life cycle.

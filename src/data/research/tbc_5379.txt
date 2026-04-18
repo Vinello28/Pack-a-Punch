@@ -1,1 +1,0 @@
-QUANTIC  - Cooperative Research Project -  Algoritmi Quantistici di Machine Learning per problemi di classificazione di immagini: Sviluppo  Implementazione e Benchmarking

@@ -1,0 +1,14 @@
+accurate segmentation of heart structures imaged by cardiac mr is key for the
+quantitative analysis of pathology. high-resolution 3d mr sequences enable
+whole-heart structural imaging but are time-consuming, expensive to acquire and
+they often require long breath holds that are not suitable for patients.
+consequently, multiplanar breath-hold 2d cine sequences are standard practice
+but are disadvantaged by lack of whole-heart coverage and low through-plane
+resolution. to address this, we propose a conditional variational autoencoder
+architecture able to learn a generative model of 3d high-resolution left
+ventricular (lv) segmentations which is conditioned on three 2d lv
+segmentations of one short-axis and two long-axis images. by only employing
+these three 2d segmentations, our model can efficiently reconstruct the 3d
+high-resolution lv segmentation of a subject. when evaluated on 400 unseen
+healthy volunteers, our model yielded an average dice score of $87.92 \pm 0.15$
+and outperformed competing architectures.

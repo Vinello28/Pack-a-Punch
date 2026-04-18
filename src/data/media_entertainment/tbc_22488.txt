@@ -1,0 +1,17 @@
+psychlab is a simulated psychology laboratory inside the first-person 3d game
+world of deepmind lab (beattie et al. 2016). psychlab enables implementations
+of classical laboratory psychological experiments so that they work with both
+human and artificial agents. psychlab has a simple and flexible api that
+enables users to easily create their own tasks. as examples, we are releasing
+psychlab implementations of several classical experimental paradigms including
+visual search, change detection, random dot motion discrimination, and multiple
+object tracking. we also contribute a study of the visual psychophysics of a
+specific state-of-the-art deep reinforcement learning agent: unreal (jaderberg
+et al. 2016). this study leads to the surprising conclusion that unreal learns
+more quickly about larger target stimuli than it does about smaller stimuli. in
+turn, this insight motivates a specific improvement in the form of a simple
+model of foveal vision that turns out to significantly boost unreal's
+performance, both on psychlab tasks, and on standard deepmind lab tasks. by
+open-sourcing psychlab we hope to facilitate a range of future such studies
+that simultaneously advance deep reinforcement learning and improve its links
+with cognitive science.

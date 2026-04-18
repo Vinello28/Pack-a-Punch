@@ -1,0 +1,20 @@
+we motivate a method for transparently identifying ineffectual computations
+in unmodified deep learning models and without affecting accuracy.
+specifically, we show that if we decompose multiplications down to the bit
+level the amount of work performed during inference for image classification
+models can be consistently reduced by two orders of magnitude. in the best case
+studied of a sparse variant of alexnet, this approach can ideally reduce
+computation work by more than 500x. we present laconic a hardware accelerator
+that implements this approach to improve execution time, and energy efficiency
+for inference with deep learning networks. laconic judiciously gives up some of
+the work reduction potential to yield a low-cost, simple, and energy efficient
+design that outperforms other state-of-the-art accelerators. for example, a
+laconic configuration that uses a weight memory interface with just 128 wires
+outperforms a conventional accelerator with a 2k-wire weight memory interface
+by 2.3x on average while being 2.13x more energy efficient on average. a
+laconic configuration that uses a 1k-wire weight memory interface, outperforms
+the 2k-wire conventional accelerator by 15.4x and is 1.95x more energy
+efficient. laconic does not require but rewards advances in model design such
+as a reduction in precision, the use of alternate numeric representations that
+reduce the number of bits that are "1", or an increase in weight or activation
+sparsity.

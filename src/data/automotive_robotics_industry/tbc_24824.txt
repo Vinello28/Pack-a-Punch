@@ -1,0 +1,10 @@
+human action-anticipation methods predict what is the future action by
+observing only a few portion of an action in progress. this is critical for
+applications where computers have to react to human actions as early as
+possible such as autonomous driving, human-robotic interaction, assistive
+robotics among others. in this paper, we present a method for human action
+anticipation by predicting the most plausible future human motion. we represent
+human motion using dynamic images and make use of tailored loss functions to
+encourage a generative model to produce accurate future motion prediction. our
+method outperforms the currently best performing action-anticipation methods by
+4% on jhmdb-21, 5.2% on ut-interaction and 5.1% on ucf 101-24 benchmarks.

@@ -1,0 +1,14 @@
+autosomal dominant polycystic kidney disease (adpkd) characterized by
+progressive growth of renal cysts is the most prevalent and potentially lethal
+monogenic renal disease, affecting one in every 500-100 people. total kidney
+volume (tkv) and its growth computed from computed tomography images has been
+accepted as an essential prognostic marker for renal function loss. due to
+large variation in shape and size of kidney in adpkd, existing methods to
+compute tkv (i.e. to segment adkp) including those based on 2d convolutional
+neural networks are not accurate enough to be directly useful in clinical
+practice. in this work, we propose multi-task 3d convolutional neural networks
+to segment adpk and achieve a mean dice score of 0.95 and mean absolute
+percentage tkv error of 3.86. additionally, to solve the challenge of class
+imbalance, we propose to simply bootstrap cross entropy loss and compare
+results with recently prevalent dice loss in medical image segmentation
+community.

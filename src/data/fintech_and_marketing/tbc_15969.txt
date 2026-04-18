@@ -1,0 +1,10 @@
+sponsored search is a multi-billion dollar industry and makes up a major
+source of revenue for search engines (se). click-through-rate (ctr) estimation
+plays a crucial role for ads selection, and greatly affects the se revenue,
+advertiser traffic and user experience. we propose a novel architecture for
+solving ctr prediction problem by combining artificial neural networks (ann)
+with decision trees. first we compare ann with respect to other popular machine
+learning models being used for this task. then we go on to combine ann with
+matrixnet (proprietary implementation of boosted trees) and evaluate the
+performance of the system as a whole. the results show that our approach
+provides significant improvement over existing models.

@@ -1,0 +1,15 @@
+training 3d object detectors for autonomous driving has been limited to small
+datasets due to the effort required to generate annotations. reducing both task
+complexity and the amount of task switching done by annotators is key to
+reducing the effort and time required to generate 3d bounding box annotations.
+this paper introduces a novel ground truth generation method that combines
+human supervision with pretrained neural networks to generate per-instance 3d
+point cloud segmentation, 3d bounding boxes, and class annotations. the
+annotators provide object anchor clicks which behave as a seed to generate
+instance segmentation results in 3d. the points belonging to each instance are
+then used to regress object centroids, bounding box dimensions, and object
+orientation. our proposed annotation scheme requires 30x lower human annotation
+time. we use the kitti 3d object detection dataset to evaluate the efficiency
+and the quality of our annotation scheme. we also test the the proposed scheme
+on previously unseen data from the autonomoose self-driving vehicle to
+demonstrate generalization capabilities of the network.

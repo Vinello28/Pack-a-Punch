@@ -1,0 +1,7 @@
+we build csi-net, a unified deep neural network~(dnn), to learn the
+representation of wifi signals. using csi-net, we jointly solved two body
+characterization problems: biometrics estimation (including body fat, muscle,
+water, and bone rates) and person recognition. we also demonstrated the
+application of csi-net on two distinctive pose recognition tasks: the hand sign
+recognition (fine-scaled action of the hand) and falling detection
+(coarse-scaled motion of the body).

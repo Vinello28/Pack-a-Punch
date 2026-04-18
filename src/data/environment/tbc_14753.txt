@@ -1,0 +1,14 @@
+many future wireless sensor networks and the internet of things are expected
+to follow a software defined paradigm, where protocol parameters and behaviors
+will be dynamically tuned as a function of the signal statistics. new protocols
+will be then injected as a software as certain events occur. for instance, new
+data compressors could be (re)programmed on-the-fly as the monitored signal
+type or its statistical properties change. we consider a lossy compression
+scenario, where the application tolerates some distortion of the gathered
+signal in return for improved energy efficiency. to reap the full benefits of
+this paradigm, we discuss an automatic sensor profiling approach where the
+signal class, and in particular the corresponding rate-distortion curve, is
+automatically assessed using machine learning tools (namely, support vector
+machines and neural networks). we show that this curve can be reliably
+estimated on-the-fly through the computation of a small number (from ten to
+twenty) of statistical features on time windows of a few hundreds samples.

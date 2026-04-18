@@ -1,0 +1,21 @@
+one of the major goals of tomorrow's agriculture is to increase agricultural
+productivity but above all the quality of production while significantly
+reducing the use of inputs. meeting this goal is a real scientific and
+technological challenge. smart farming is among the promising approaches that
+can lead to interesting solutions for vineyard management and reduce the
+environmental impact. automatic vine disease detection can increase efficiency
+and flexibility in managing vineyard crops, while reducing the chemical inputs.
+this is needed today more than ever, as the use of pesticides is coming under
+increasing scrutiny and control. the goal is to map diseased areas in the
+vineyard for fast and precise treatment, thus guaranteeing the maintenance of a
+healthy state of the vine which is very important for yield management. to
+tackle this problem, a method is proposed here for vine disease detection using
+a deep learning segmentation approach on unmanned aerial vehicle (uav) images.
+the method is based on the combination of the visible and infrared images
+obtained from two different sensors. a new image registration method was
+developed to align visible and infrared images, enabling fusion of the
+information from the two sensors. a fully convolutional neural network approach
+uses this information to classify each pixel according to different instances,
+namely, shadow, ground, healthy and symptom. the proposed method achieved more
+than 92% of detection at grapevine-level and 87% at leaf level, showing
+promising perspectives for computer aided disease detection in vineyards.

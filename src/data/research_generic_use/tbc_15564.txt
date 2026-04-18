@@ -1,0 +1,14 @@
+dense word embeddings, which encode semantic meanings of words to low
+dimensional vector spaces have become very popular in natural language
+processing (nlp) research due to their state-of-the-art performances in many
+nlp tasks. word embeddings are substantially successful in capturing semantic
+relations among words, so a meaningful semantic structure must be present in
+the respective vector spaces. however, in many cases, this semantic structure
+is broadly and heterogeneously distributed across the embedding dimensions,
+which makes interpretation a big challenge. in this study, we propose a
+statistical method to uncover the latent semantic structure in the dense word
+embeddings. to perform our analysis we introduce a new dataset (semcat) that
+contains more than 6500 words semantically grouped under 110 categories. we
+further propose a method to quantify the interpretability of the word
+embeddings; the proposed method is a practical alternative to the classical
+word intrusion test that requires human intervention.

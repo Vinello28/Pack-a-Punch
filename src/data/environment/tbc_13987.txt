@@ -1,0 +1,20 @@
+power grids are critical infrastructure assets that face non-technical losses
+(ntl) such as electricity theft or faulty meters. ntl may range up to 40% of
+the total electricity distributed in emerging countries. industrial ntl
+detection systems are still largely based on expert knowledge when deciding
+whether to carry out costly on-site inspections of customers. electricity
+providers are reluctant to move to large-scale deployments of automated systems
+that learn ntl profiles from data due to the latter's propensity to suggest a
+large number of unnecessary inspections. in this paper, we propose a novel
+system that combines automated statistical decision making with expert
+knowledge. first, we propose a machine learning framework that classifies
+customers into ntl or non-ntl using a variety of features derived from the
+customers' consumption data. the methodology used is specifically tailored to
+the level of noise in the data. second, in order to allow human experts to feed
+their knowledge in the decision loop, we propose a method for visualizing
+prediction results at various granularity levels in a spatial hologram. our
+approach allows domain experts to put the classification results into the
+context of the data and to incorporate their knowledge for making the final
+decisions of which customers to inspect. this work has resulted in appreciable
+results on a real-world data set of 3.6m customers. our system is being
+deployed in a commercial ntl detection software.

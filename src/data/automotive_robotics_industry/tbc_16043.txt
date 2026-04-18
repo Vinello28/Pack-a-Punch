@@ -1,0 +1,15 @@
+image-based localization is a core component of many augmented/mixed reality
+(ar/mr) and autonomous robotic systems. current localization systems rely on
+the persistent storage of 3d point clouds of the scene to enable camera pose
+estimation, but such data reveals potentially sensitive scene information. this
+gives rise to significant privacy risks, especially as for many applications 3d
+mapping is a background process that the user might not be fully aware of. we
+pose the following question: how can we avoid disclosing confidential
+information about the captured 3d scene, and yet allow reliable camera pose
+estimation? this paper proposes the first solution to what we call privacy
+preserving image-based localization. the key idea of our approach is to lift
+the map representation from a 3d point cloud to a 3d line cloud. this novel
+representation obfuscates the underlying scene geometry while providing
+sufficient geometric constraints to enable robust and accurate 6-dof camera
+pose estimation. extensive experiments on several datasets and localization
+scenarios underline the high practical relevance of our proposed approach.

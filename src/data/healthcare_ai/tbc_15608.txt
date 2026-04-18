@@ -1,0 +1,19 @@
+we report the development and validation of a data-driven real-time risk
+score that provides timely assessments for the clinical acuity of ward patients
+based on their temporal lab tests and vital signs, which allows for timely
+intensive care unit (icu) admissions. unlike the existing risk scoring
+technologies, the proposed score is individualized; it uses the electronic
+health record (ehr) data to cluster the patients based on their static
+covariates into subcohorts of similar patients, and then learns a separate
+temporal, non-stationary multi-task gaussian process (gp) model that captures
+the physiology of every subcohort. experiments conducted on data from a
+heterogeneous cohort of 6,094 patients admitted to the ronald reagan ucla
+medical center show that our risk score significantly outperforms the
+state-of-the-art risk scoring technologies, such as the rothman index and mews,
+in terms of timeliness, true positive rate (tpr), and positive predictive value
+(ppv). in particular, the proposed score increases the auc with 20% and 38% as
+compared to rothman index and mews respectively, and can predict icu admissions
+8 hours before clinicians at a ppv of 35% and a tpr of 50%. moreover, we show
+that the proposed risk score allows for better decisions on when to discharge
+clinically stable patients from the ward, thereby improving the efficiency of
+hospital resource utilization.

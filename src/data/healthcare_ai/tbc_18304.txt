@@ -1,0 +1,24 @@
+objective: automatic text summarization tools can help users in the
+biomedical domain to access information efficiently from a large volume of
+scientific literature and other sources of text documents. in this paper, we
+propose a summarization method that combines itemset mining and domain
+knowledge to construct a concept-based model and to extract the main subtopics
+from an input document. our summarizer quantifies the informativeness of each
+sentence using the support values of itemsets appearing in the sentence.
+methods: to address the concept-level analysis of text, our method initially
+maps the original document to biomedical concepts using the umls. then, it
+discovers the essential subtopics of the text using a data mining technique,
+namely itemset mining, and constructs the summarization model. the employed
+itemset mining algorithm extracts a set of frequent itemsets containing
+correlated and recurrent concepts of the input document. the summarizer selects
+the most related and informative sentences and generates the final summary.
+results: we evaluate the performance of our itemset-based summarizer using the
+recall-oriented understudy for gisting evaluation (rouge) metrics, performing a
+set of experiments. the results show that the itemset-based summarizer performs
+better than the compared methods. the itemset-based summarizer achieves the
+best scores for all the assessed rouge metrics . conclusion: compared to the
+statistical, similarity, and word frequency methods, the proposed method
+demonstrates that the summarization model obtained from the concept extraction
+and itemset mining provides the summarizer with an effective metric for
+measuring the informative content of sentences. this can lead to an improvement
+in the performance of biomedical literature summarization.

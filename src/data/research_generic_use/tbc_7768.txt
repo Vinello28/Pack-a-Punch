@@ -1,0 +1,15 @@
+it is important to detect anomalous inputs when deploying machine learning
+systems. the use of larger and more complex inputs in deep learning magnifies
+the difficulty of distinguishing between anomalous and in-distribution
+examples. at the same time, diverse image and text data are available in
+enormous quantities. we propose leveraging these data to improve deep anomaly
+detection by training anomaly detectors against an auxiliary dataset of
+outliers, an approach we call outlier exposure (oe). this enables anomaly
+detectors to generalize and detect unseen anomalies. in extensive experiments
+on natural language processing and small- and large-scale vision tasks, we find
+that outlier exposure significantly improves detection performance. we also
+observe that cutting-edge generative models trained on cifar-10 may assign
+higher likelihoods to svhn images than to cifar-10 images; we use oe to
+mitigate this issue. we also analyze the flexibility and robustness of outlier
+exposure, and identify characteristics of the auxiliary dataset that improve
+performance.

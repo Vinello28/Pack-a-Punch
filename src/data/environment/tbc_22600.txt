@@ -1,0 +1,14 @@
+we detail our ongoing work in flint, michigan to detect pipes made of lead
+and other hazardous metals. after elevated levels of lead were detected in
+residents' drinking water, followed by an increase in blood lead levels in area
+children, the state and federal governments directed over $125 million to
+replace water service lines, the pipes connecting each home to the water
+system. in the absence of accurate records, and with the high cost of
+determining buried pipe materials, we put forth a number of predictive and
+procedural tools to aid in the search and removal of lead infrastructure.
+alongside these statistical and machine learning approaches, we describe our
+interactions with government officials in recommending homes for both
+inspection and replacement, with a focus on the statistical model that adapts
+to incoming information. finally, in light of discussions about increased
+spending on infrastructure development by the federal government, we explore
+how our approach generalizes beyond flint to other municipalities nationwide.

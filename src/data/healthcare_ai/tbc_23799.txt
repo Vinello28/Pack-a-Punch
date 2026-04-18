@@ -1,0 +1,1 @@
+Il progetto sviluppa un software basato su scRNAseq e AI per diagnosi precoce e monitoraggio della fibrosi polmonare idiopatica (IPF). Integra dati clinici  imaging e modelli predittivi  validando biomarcatori con organoidi e modelli murini per nuove terapie mirate.

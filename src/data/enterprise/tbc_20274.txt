@@ -1,0 +1,15 @@
+the continual growth of high speed networks is a challenge for real-time
+network analysis systems. the real time traffic classification is an issue for
+corporations and isps (internet service providers). this work presents the
+design and implementation of a real time flow-based network traffic
+classification system. the classifier monitor acts as a pipeline consisting of
+three modules: packet capture and pre-processing, flow reassembly, and
+classification with machine learning (ml). the modules are built as concurrent
+processes with well defined data interfaces between them so that any module can
+be improved and updated independently. in this pipeline, the flow reassembly
+function becomes the bottleneck of the performance. in this implementation, was
+used a efficient method of reassembly which results in a average delivery delay
+of 0.49 seconds, approximately. for the classification module, the performances
+of the k-nearest neighbor (knn), c4.5 decision tree, naive bayes (nb), flexible
+naive bayes (fnb) and adaboost ensemble learning algorithm are compared in
+order to validate our approach.

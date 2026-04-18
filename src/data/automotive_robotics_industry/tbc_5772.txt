@@ -1,0 +1,14 @@
+with the emergence of edge computing, there is an increasing need for running
+convolutional neural network based object detection on small form factor edge
+computing devices with limited compute and thermal budget for applications such
+as video surveillance. to address this problem, efficient object detection
+frameworks such as yolo and ssd were proposed. however, ssd based object
+detection that uses vgg16 as backend network is insufficient to achieve real
+time speed on edge devices. to further improve the detection speed, the backend
+network is replaced by more efficient networks such as squeezenet and
+mobilenet. although the speed is greatly improved, it comes with a price of
+lower accuracy. in this paper, we propose an efficient ssd named fire ssd. fire
+ssd achieves 70.7map on pascal voc 2007 test set. fire ssd achieves the speed
+of 30.6fps on low power mainstream cpu and is about 6 times faster than ssd300
+and has about 4 times smaller model size. fire ssd also achieves 22.2fps on
+integrated gpu.

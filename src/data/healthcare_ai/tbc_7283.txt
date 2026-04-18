@@ -1,0 +1,19 @@
+machine learning has been gaining traction in recent years to meet the demand
+for tools that can efficiently analyze and make sense of the ever-growing
+databases of biomedical data in health care systems around the world. however,
+effectively using machine learning methods requires considerable domain
+expertise, which can be a barrier of entry for bioinformaticians new to
+computational data science methods. therefore, off-the-shelf tools that make
+machine learning more accessible can prove invaluable for bioinformaticians. to
+this end, we have developed an open source pipeline optimization tool
+(tpot-mdr) that uses genetic programming to automatically design machine
+learning pipelines for bioinformatics studies. in tpot-mdr, we implement
+multifactor dimensionality reduction (mdr) as a feature construction method for
+modeling higher-order feature interactions, and combine it with a new expert
+knowledge-guided feature selector for large biomedical data sets. we
+demonstrate tpot-mdr's capabilities using a combination of simulated and real
+world data sets from human genetics and find that tpot-mdr significantly
+outperforms modern machine learning methods such as logistic regression and
+extreme gradient boosting (xgboost). we further analyze the best pipeline
+discovered by tpot-mdr for a real world problem and highlight tpot-mdr's
+ability to produce a high-accuracy solution that is also easily interpretable.

@@ -1,1 +1,11 @@
-Intervento brevettuale relativo a  Dispositivo e metodo per misurare una pluralità di parametri del sangue mediante intelligenza artificiale
+coronary calcium causes beam hardening and blooming artifacts on cardiac
+computed tomography angiography (cta) images, which lead to overestimation of
+lumen stenosis and reduction of diagnostic specificity. to properly remove
+coronary calcification and restore arterial lumen precisely, we propose a
+machine learning-based method with a multi-step inpainting process. we
+developed a new network configuration, dense-unet, to achieve optimal
+performance with low computational cost. results after the calcium removal
+process were validated by comparing with gold-standard x-ray angiography. our
+results demonstrated that removing coronary calcification from images with the
+proposed approach was feasible, and may potentially improve the diagnostic
+accuracy of cta.

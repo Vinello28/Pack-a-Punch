@@ -1,1 +1,0 @@
-L'obiettivo dell'attività di formazione proposta è quello di fornire ai partecipanti una conoscenza di base dei concetti di Intelligenza Artificiale Machine Learning Classico e Deep Learning presentando potenzialità e difficoltà nell'applicazione di queste tecnologie in scenari concreti.

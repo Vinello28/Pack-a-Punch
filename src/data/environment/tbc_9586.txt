@@ -1,0 +1,11 @@
+we inspect a possible clustering structure of the corruption perception among
+134 countries. using the average linkage clustering, we uncover a well-defined
+hierarchy in the relationships among countries. four main clusters are
+identified and they suggest that countries worldwide can be quite well
+separated according to their perception of corruption. moreover, we find a
+strong connection between corruption levels and a stage of development inside
+the clusters. the ranking of countries according to their corruption perfectly
+copies the ranking according to the economic performance measured by the gross
+domestic product per capita of the member states. to the best of our knowledge,
+this study is the first one to present an application of hierarchical and
+clustering methods to the specific case of corruption.

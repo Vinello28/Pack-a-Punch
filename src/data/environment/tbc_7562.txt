@@ -1,0 +1,21 @@
+high resolution datasets of population density which accurately map
+sparsely-distributed human populations do not exist at a global scale.
+typically, population data is obtained using censuses and statistical modeling.
+more recently, methods using remotely-sensed data have emerged, capable of
+effectively identifying urbanized areas. obtaining high accuracy in estimation
+of population distribution in rural areas remains a very challenging task due
+to the simultaneous requirements of sufficient sensitivity and resolution to
+detect very sparse populations through remote sensing as well as reliable
+performance at a global scale. here, we present a computer vision method based
+on machine learning to create population maps from satellite imagery at a
+global scale, with a spatial sensitivity corresponding to individual buildings
+and suitable for global deployment. by combining this settlement data with
+census data, we create population maps with ~30 meter resolution for 18
+countries. we validate our method, and find that the building identification
+has an average precision and recall of 0.95 and 0.91, respectively and that the
+population estimates have a standard error of a factor ~2 or less. based on our
+data, we analyze 29 percent of the world population, and show that 99 percent
+lives within 36 km of the nearest urban cluster. the resulting high-resolution
+population datasets have applications in infrastructure planning, vaccination
+campaign planning, disaster response efforts and risk analysis such as high
+accuracy flood risk analysis.

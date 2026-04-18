@@ -1,0 +1,17 @@
+we present a case study of artificial intelligence techniques applied to the
+control of production printing equipment. like many other real-world
+applications, this complex domain requires high-speed autonomous
+decision-making and robust continual operation. to our knowledge, this work
+represents the first successful industrial application of embedded
+domain-independent temporal planning. our system handles execution failures and
+multi-objective preferences. at its heart is an on-line algorithm that combines
+techniques from state-space planning and partial-order scheduling. we suggest
+that this general architecture may prove useful in other applications as more
+intelligent systems operate in continual, on-line settings. our system has been
+used to drive several commercial prototypes and has enabled a new product
+architecture for our industrial partner. when compared with state-of-the-art
+off-line planners, our system is hundreds of times faster and often finds
+better plans. our experience demonstrates that domain-independent ai planning
+based on heuristic search can flexibly handle time, resources, replanning, and
+multiple objectives in a high-speed practical application without requiring
+hand-coded control knowledge.

@@ -1,0 +1,15 @@
+query auto completion (qac) systems are a standard part of search engines in
+industry, helping users formulate their query. such systems update their
+suggestions after the user types each character, predicting the user's intent
+using various signals - one of the most common being popularity. recently, deep
+learning approaches have been proposed for the qac task, to specifically
+address the main limitation of previous popularity-based methods: the inability
+to predict unseen queries. in this work we improve previous methods based on
+neural language modeling, with the goal of building an end-to-end system. we
+particularly focus on using real-world data by integrating user information for
+personalized suggestions when possible. we also make use of time information
+and study how to increase diversity in the suggestions while studying the
+impact on scalability. our empirical results demonstrate a marked improvement
+on two separate datasets over previous best methods in both accuracy and
+scalability, making a step towards neural query auto-completion in production
+search engines.

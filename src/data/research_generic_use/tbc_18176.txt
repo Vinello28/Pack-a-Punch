@@ -1,0 +1,10 @@
+this paper addresses the search for a fast and meaningful image segmentation
+in the context of $k$-means clustering. the proposed method builds on a
+widely-used local version of lloyd's algorithm, called simple linear iterative
+clustering (slic). we propose an algorithm which extends slic to dynamically
+adjust the local search, adopting superpixel resolution dynamically to
+structure existent in the image, and thus provides for more meaningful
+superpixels in the same linear runtime as standard slic. the proposed method is
+evaluated against state-of-the-art techniques and improved boundary adherence
+and undersegmentation error are observed, whilst still remaining among the
+fastest algorithms which are tested.

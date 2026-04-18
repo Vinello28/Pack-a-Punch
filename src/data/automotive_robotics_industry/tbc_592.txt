@@ -1,0 +1,18 @@
+autonomous vehicles (avs) are on the road. to safely and efficiently interact
+with other road participants, avs have to accurately predict the behavior of
+surrounding vehicles and plan accordingly. such prediction should be
+probabilistic, to address the uncertainties in human behavior. such prediction
+should also be interactive, since the distribution over all possible
+trajectories of the predicted vehicle depends not only on historical
+information, but also on future plans of other vehicles that interact with it.
+to achieve such interaction-aware predictions, we propose a probabilistic
+prediction approach based on hierarchical inverse reinforcement learning (irl).
+first, we explicitly consider the hierarchical trajectory-generation process of
+human drivers involving both discrete and continuous driving decisions. based
+on this, the distribution over all future trajectories of the predicted vehicle
+is formulated as a mixture of distributions partitioned by the discrete
+decisions. then we apply irl hierarchically to learn the distributions from
+real human demonstrations. a case study for the ramp-merging driving scenario
+is provided. the quantitative results show that the proposed approach can
+accurately predict both the discrete driving decisions such as yield or pass as
+well as the continuous trajectories.

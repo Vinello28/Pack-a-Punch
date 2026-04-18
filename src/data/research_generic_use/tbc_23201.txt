@@ -1,0 +1,17 @@
+in this paper, we present a novel approach for object recognition in
+real-time by employing multilevel feature analysis and demonstrate the
+practicality of adapting feature extraction into a naive bayesian
+classification framework that enables simple, efficient, and robust
+performance. we also show the proposed method scales well as the number of
+level-classes grows. to effectively understand the patches surrounding a
+keypoint, the trained classifier uses hundreds of simple binary features and
+models class posterior probabilities. in addition, the classification process
+is computationally cheap under the assumed independence between arbitrary sets
+of features. even though for some particular scenarios, this assumption can be
+invalid. we demonstrate that the efficient classifier nevertheless performs
+remarkably well on image datasets with a large variation in the illumination
+environment and image capture perspectives. the experiment results show
+consistent accuracy can be achieved on many challenging dataset while offer
+interactive speed for large resolution images. the method demonstrates
+promising results that outperform the state-of-the-art methods on pattern
+recognition.

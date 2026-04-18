@@ -1,0 +1,23 @@
+predicting the collective motion of a group of pedestrians (a crowd) under
+the vehicle influence is essential for the development of autonomous vehicles
+to deal with mixed urban scenarios where interpersonal interaction and
+vehicle-crowd interaction (vci) are significant. this usually requires a model
+that can describe individual pedestrian motion under the influence of nearby
+pedestrians and the vehicle. this study proposed two pedestrian trajectory
+datasets, citr dataset and dut dataset, so that the pedestrian motion models
+can be further calibrated and verified, especially when vehicle influence on
+pedestrians plays an important role. citr dataset consists of experimentally
+designed fundamental vci scenarios (front, back, and lateral vcis) and provides
+unique id for each pedestrian, which is suitable for exploring a specific
+aspect of vci. dut dataset gives two ordinary and natural vci scenarios in
+crowded university campus, which can be used for more general purpose vci
+exploration. the trajectories of pedestrians, as well as vehicles, were
+extracted by processing video frames that come from a down-facing camera
+mounted on a hovering drone as the recording equipment. the final trajectories
+of pedestrians and vehicles were refined by kalman filters with linear
+point-mass model and nonlinear bicycle model, respectively, in which
+xy-velocity of pedestrians and longitudinal speed and orientation of vehicles
+were estimated. the statistics of the velocity magnitude distribution
+demonstrated the validity of the proposed dataset. in total, there are
+approximate 340 pedestrian trajectories in citr dataset and 1793 pedestrian
+trajectories in dut dataset. the dataset is available at github.

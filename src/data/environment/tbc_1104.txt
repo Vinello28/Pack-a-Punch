@@ -1,0 +1,21 @@
+ride sharing has important implications in terms of environmental, social and
+individual goals by reducing carbon footprints, fostering social interactions
+and economizing commuter costs. the ride sharing systems that are commonly
+available lack adaptive and scalable techniques that can simultaneously learn
+from the large scale data and predict in real-time dynamic fashion. in this
+paper, we study such a problem towards a smart city initiative, where a generic
+ride sharing system is conceived capable of making predictions about ride share
+opportunities based on the historically recorded data while satisfying
+real-time ride requests. underpinning the system is an application of a
+powerful machine learning convex optimization framework called network lasso
+that uses the alternate direction method of multipliers (admm) optimization for
+learning and dynamic prediction. we propose an application of a robust and
+scalable unified optimization framework within the ride sharing case-study. the
+application of network lasso framework is capable of jointly optimizing and
+clustering different rides based on their spatial and model similarity. the
+prediction from the framework clusters new ride requests, making accurate price
+prediction based on the clusters, detecting hidden correlations in the data and
+allowing fast convergence due to the network topology. we provide an empirical
+evaluation of the application of admm network lasso on real trip record and
+simulated data, proving their effectiveness since the mean squared error of the
+algorithm's prediction is minimized on the test rides.

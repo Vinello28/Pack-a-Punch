@@ -1,0 +1,13 @@
+in mobile robotics, a solid test for adaptation is the ability of a control
+system to function not only in a diverse number of physical environments, but
+also on a number of different robotic platforms. this paper demonstrates that a
+set of behaviours evolved in simulation on a miniature robot (epuck) can be
+transferred to a much larger-scale platform (pioneer), both in simulation and
+in the real world. the chosen architecture uses artificial evolution of epuck
+behaviours to obtain a genetic sequence, which is then employed to seed an
+idiotypic, artificial immune system (ais) on the pioneers. despite numerous
+hardware and software differences between the platforms, navigation and
+target-finding experiments show that the evolved behaviours transfer very well
+to the larger robot when the idiotypic ais technique is used. in contrast,
+transferability is poor when reinforcement learning alone is used, which
+validates the adaptability of the chosen architecture.

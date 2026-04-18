@@ -1,0 +1,24 @@
+providing force feedback as relevant information in current robot-assisted
+minimally invasive surgery systems constitutes a technological challenge due to
+the constraints imposed by the surgical environment. in this context,
+sensorless force estimation techniques represent a potential solution, enabling
+to sense the interaction forces between the surgical instruments and
+soft-tissues. specifically, if visual feedback is available for observing
+soft-tissues' deformation, this feedback can be used to estimate the forces
+applied to these tissues. to this end, a force estimation model, based on
+convolutional neural networks and long-short term memory networks, is proposed
+in this work. this model is designed to process both, the spatiotemporal
+information present in video sequences and the temporal structure of tool data
+(the surgical tool-tip trajectory and its grasping status). a series of
+analyses are carried out to reveal the advantages of the proposal and the
+challenges that remain for real applications. this research work focuses on two
+surgical task scenarios, referred to as pushing and pulling tissue. for these
+two scenarios, different input data modalities and their effect on the force
+estimation quality are investigated. these input data modalities are tool data,
+video sequences and a combination of both. the results suggest that the force
+estimation quality is better when both, the tool data and video sequences, are
+processed by the neural network model. moreover, this study reveals the need
+for a loss function, designed to promote the modeling of smooth and sharp
+details found in force signals. finally, the results show that the modeling of
+forces due to pulling tasks is more challenging than for the simplest pushing
+actions.

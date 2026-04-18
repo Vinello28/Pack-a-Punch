@@ -1,0 +1,11 @@
+we recognize that the skin lesion diagnosis is an essential and challenging
+sub-task in image classification, in which the fisher vector (fv) encoding
+algorithm and deep convolutional neural network (dcnn) are two of the most
+successful techniques. since the joint use of fv and dcnn has demonstrated
+proven success, the joint techniques could have discriminatory power on skin
+lesion diagnosis as well. to this hypothesis, we propose the aggregation
+algorithm for skin lesion diagnosis that utilize the residual network to
+extract the local features and the fisher vector method to aggregate the local
+features to image-level representation. we applied our algorithm on the
+international skin imaging collaboration 2018 (isic2018) challenge and only
+focus on the third task, i.e., the disease classification.

@@ -1,0 +1,10 @@
+precisely forecasting wind speed is essential for wind power producers and
+grid operators. however, this task is challenging due to the stochasticity of
+wind speed. to accurately predict short-term wind speed under uncertainties,
+this paper proposed a multi-variable stacked lstms model (mslstm). the proposed
+method utilizes multiple historical meteorological variables, such as wind
+speed, temperature, humidity, pressure, dew point and solar radiation to
+accurately predict wind speeds. the prediction performance is extensively
+assessed using real data collected in west texas, usa. the experimental results
+show that the proposed mslstm can preferably capture and learn uncertainties
+while output competitive performance.

@@ -1,0 +1,17 @@
+in this paper we propose a novel fingerprint indexing approach for speeding
+up in the fingerprint recognition system. what kind of features are used for
+indexing and how to employ the extracted features for searching are crucial for
+the fingerprint indexing. in this paper, we select a minutia descriptor, which
+has been used to improve the accuracy of the fingerprint matching, as a local
+feature for indexing and construct a fixed-length feature vector which will be
+used for searching from the minutia descriptors of the fingerprint image using
+a clustering. and we propose a fingerprint searching approach that uses the
+euclidean distance between two feature vectors as the similarity between two
+indexing features. our indexing approach has several benefits. it reduces
+searching time significantly and is irrespective of the existence of singular
+points and robust even though the size of the fingerprint image is small or the
+quality is low. and the constructed indexing vector by this approach is
+independent of the features which are used for indexing based on the
+geometrical relations between the minutiae, like one based on the minutiae
+triplets. thus, the proposed approach could be combined with other indexing
+approaches to gain a better indexing performance.

@@ -1,0 +1,7 @@
+this paper presents a novel approach to procedural generation of urban maps
+for first person shooter (fps) games. a multi-agent evolutionary system is
+employed to place streets, buildings and other items inside the unity3d game
+engine, resulting in playable video game levels. a computational agent is
+trained using machine learning techniques to capture the intent of the game
+designer as part of the multi-agent system, and to enable a semi-automated
+aesthetic selection for the underlying genetic algorithm.

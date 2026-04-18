@@ -1,0 +1,20 @@
+different users can use a given internet application in many different ways.
+the ability to record detailed event logs of user in-application activity
+allows us to discover ways in which the application is being used. this enables
+personalization and also leads to important insights with actionable business
+and product outcomes.
+  here we study the problem of user session categorization, where the goal is
+to automatically discover categories/classes of user in-session behavior using
+event logs, and then consistently categorize each user session into the
+discovered classes. we develop a three stage approach which uses clustering to
+discover categories of sessions, then builds classifiers to classify new
+sessions into the discovered categories, and finally performs daily
+classification in a distributed pipeline. an important innovation of our
+approach is selecting a set of events as long-tail features, and replacing them
+with a new feature that is less sensitive to product experimentation and
+logging changes. this allows for robust and stable identification of session
+types even though the underlying application is constantly changing. we deploy
+the approach to pinterest and demonstrate its effectiveness. we discover
+insights that have consequences for product monetization, growth, and design.
+our solution classifies millions of user sessions daily and leads to actionable
+insights.

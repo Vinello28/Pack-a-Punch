@@ -1,0 +1,26 @@
+in discussions hosted on discussion forums for moocs, references to online
+learning resources are often of central importance. they contextualize the
+discussion, anchoring the discussion participants' presentation of the issues
+and their understanding. however they are usually mentioned in free text,
+without appropriate hyperlinking to their associated resource. automated
+learning resource mention hyperlinking and categorization will facilitate
+discussion and searching within mooc forums, and also benefit the
+contextualization of such resources across disparate views. we propose the
+novel problem of learning resource mention identification in mooc forums. as
+this is a novel task with no publicly available data, we first contribute a
+large-scale labeled dataset, dubbed the forum resource mention (form) dataset,
+to facilitate our current research and future research on this task. we then
+formulate this task as a sequence tagging problem and investigate solution
+architectures to address the problem. importantly, we identify two major
+challenges that hinder the application of sequence tagging models to the task:
+(1) the diversity of resource mention expression, and (2) long-range contextual
+dependencies. we address these challenges by incorporating character-level and
+thread context information into a lstm-crf model. first, we incorporate a
+character encoder to address the out-of-vocabulary problem caused by the
+diversity of mention expressions. second, to address the context dependency
+challenge, we encode thread contexts using an rnn-based context encoder, and
+apply the attention mechanism to selectively leverage useful context
+information during sequence tagging. experiments on form show that the proposed
+method improves the baseline deep sequence tagging models notably,
+significantly bettering performance on instances that exemplify the two
+challenges.

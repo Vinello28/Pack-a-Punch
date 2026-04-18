@@ -1,0 +1,20 @@
+customers are usually exposed to online digital advertisement channels, such
+as email marketing, display advertising, paid search engine marketing, along
+their way to purchase or subscribe products( aka. conversion). the marketers
+track all the customer journey data and try to measure the effectiveness of
+each advertising channel. the inference about the influence of each channel
+plays an important role in budget allocation and inventory pricing decisions.
+several simplistic rule-based strategies and data-driven algorithmic strategies
+have been widely used in marketing field, but they do not address the issues,
+such as channel interaction, time dependency, user characteristics. in this
+paper, we propose a novel attribution algorithm based on deep learning to
+assess the impact of each advertising channel. we present deep neural net with
+attention multi-touch attribution model (dnamta) model in a supervised learning
+fashion of predicting if a series of events leads to conversion, and it leads
+us to have a deep understanding of the dynamic interaction effects between
+media channels. dnamta also incorporates user-context information, such as user
+demographics and behavior, as control variables to reduce the estimation biases
+of media effects. we used computational experiment of large real world
+marketing dataset to demonstrate that our proposed model is superior to
+existing methods in both conversion prediction and media channel influence
+evaluation.

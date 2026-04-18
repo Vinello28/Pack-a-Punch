@@ -1,0 +1,12 @@
+to identify and classify toxic online commentary, the modern tools of data
+science transform raw text into key features from which either thresholding or
+learning algorithms can make predictions for monitoring offensive
+conversations. we systematically evaluate 62 classifiers representing 19 major
+algorithmic families against features extracted from the jigsaw dataset of
+wikipedia comments. we compare the classifiers based on statistically
+significant differences in accuracy and relative execution time. among these
+classifiers for identifying toxic comments, tree-based algorithms provide the
+most transparently explainable rules and rank-order the predictive contribution
+of each feature. among 28 features of syntax, sentiment, emotion and outlier
+word dictionaries, a simple bad word list proves most predictive of offensive
+commentary.

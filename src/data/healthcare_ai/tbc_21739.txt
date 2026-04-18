@@ -1,0 +1,18 @@
+left atrium shape has been shown to be an independent predictor of recurrence
+after atrial fibrillation (af) ablation. shape-based representation is
+imperative to such an estimation process, where correspondence-based
+representation offers the most flexibility and ease-of-computation for
+population-level shape statistics. nonetheless, population-level shape
+representations in the form of image segmentation and correspondence models
+derived from cardiac mri require significant human resources with sufficient
+anatomy-specific expertise. in this paper, we propose a machine learning
+approach that uses deep networks to estimate af recurrence by predicting shape
+descriptors directly from mri images, with no image pre-processing involved. we
+also propose a novel data augmentation scheme to effectively train a deep
+network in a limited training data setting. we compare this new method of
+estimating shape descriptors from images with the state-of-the-art
+correspondence-based shape modeling that requires image segmentation and
+correspondence optimization. results show that the proposed method and the
+current state-of-the-art produce statistically similar outcomes on af
+recurrence, eliminating the need for expensive pre-processing pipelines and
+associated human labor.

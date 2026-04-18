@@ -1,0 +1,19 @@
+robots operating in populated environments encounter many different types of
+people, some of whom might have an advanced need for cautious interaction,
+because of physical impairments or their advanced age. robots therefore need to
+recognize such advanced demands to provide appropriate assistance, guidance or
+other forms of support. in this paper, we propose a depth-based perception
+pipeline that estimates the position and velocity of people in the environment
+and categorizes them according to the mobility aids they use: pedestrian,
+person in wheelchair, person in a wheelchair with a person pushing them, person
+with crutches and person using a walker. we present a fast region proposal
+method that feeds a region-based convolutional network (fast r-cnn). with this,
+we speed up the object detection process by a factor of seven compared to a
+dense sliding window approach. we furthermore propose a probabilistic position,
+velocity and class estimator to smooth the cnn's detections and account for
+occlusions and misclassifications. in addition, we introduce a new hospital
+dataset with over 17,000 annotated rgb-d images. extensive experiments confirm
+that our pipeline successfully keeps track of people and their mobility aids,
+even in challenging situations with multiple people from different categories
+and frequent occlusions. videos of our experiments and the dataset are
+available at http://www2.informatik.uni-freiburg.de/~kollmitz/mobilityaids

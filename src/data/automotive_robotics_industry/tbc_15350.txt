@@ -1,0 +1,14 @@
+the paper presents some aspects of the (gray level) image binarization
+methods used in artificial vision systems. it is introduced a new approach of
+gray level image binarization for artificial vision systems dedicated to
+industrial automation temporal thresholding. in the first part of the paper are
+extracted some limitations of using the global optimum thresholding in gray
+level image binarization. in the second part of this paper are presented some
+aspects of the dynamic optimum thresholding method for gray level image
+binarization. starting from classic methods of global and dynamic optimal
+thresholding of the gray level images in the next section are introduced the
+concepts of temporal histogram and temporal thresholding. in the final section
+are presented some practical aspects of the temporal thresholding method in
+artificial vision applications form the moving scene in robotic automation
+class; pointing out the influence of the acquisition frequency on the methods
+results.

@@ -1,0 +1,11 @@
+the rapid increase in the number of online videos provides the marketing and
+advertising agents ample opportunities to reach out to their audience. one of
+the most widely used strategies is product placement, or embedded marketing,
+wherein new advertisements are integrated seamlessly into existing
+advertisements in videos. such strategies involve accurately localizing the
+position of the advert in the image frame, either manually in the video editing
+phase, or by using machine learning frameworks. however, these machine learning
+techniques and deep neural networks need a massive amount of data for training.
+in this paper, we propose and release the first large-scale dataset of
+advertisement billboards, captured in outdoor scenes. we also benchmark several
+state-of-the-art semantic segmentation algorithms on our proposed dataset.

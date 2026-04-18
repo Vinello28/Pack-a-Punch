@@ -1,0 +1,1 @@
+we aim to solve semantic video segmentation in autonomous driving, namely road detection in real time video, using techniques discussed in (shelhamer et al., 2016a). while fully convolutional network gives good result, we show that the speed can be halved while preserving the accuracy. the test dataset being used is kitti, which consists of real footage from germany's streets.

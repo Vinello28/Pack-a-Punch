@@ -1,0 +1,20 @@
+we explore the application of super-resolution techniques to satellite
+imagery, and the effects of these techniques on object detection algorithm
+performance. specifically, we enhance satellite imagery beyond its native
+resolution, and test if we can identify various types of vehicles, planes, and
+boats with greater accuracy than native resolution. using the very deep
+super-resolution (vdsr) framework and a custom random forest super-resolution
+(rfsr) framework we generate enhancement levels of 2x, 4x, and 8x over five
+distinct resolutions ranging from 30 cm to 4.8 meters. using both native and
+super-resolved data, we then train several custom detection models using the
+simrdwn object detection framework. simrdwn combines a number of popular object
+detection algorithms (e.g. ssd, yolo) into a unified framework that is designed
+to rapidly detect objects in large satellite images. this approach allows us to
+quantify the effects of super-resolution techniques on object detection
+performance across multiple classes and resolutions. we also quantify the
+performance of object detection as a function of native resolution and object
+pixel size. for our test set we note that performance degrades from mean
+average precision (map) = 0.53 at 30 cm resolution, down to map = 0.11 at 4.8 m
+resolution. super-resolving native 30 cm imagery to 15 cm yields the greatest
+benefit; a 13-36% improvement in map. super-resolution is less beneficial at
+coarser resolutions, though still provides a small improvement in performance.

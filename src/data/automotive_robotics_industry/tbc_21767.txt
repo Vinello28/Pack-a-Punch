@@ -1,0 +1,18 @@
+the intelligent transportation system (its) targets to a coordinated traffic
+system by applying the advanced wireless communication technologies for road
+traffic scheduling. towards an accurate road traffic control, the short-term
+traffic forecasting to predict the road traffic at the particular site in a
+short period is often useful and important. in existing works, seasonal
+autoregressive integrated moving average (sarima) model is a popular approach.
+the scheme however encounters two challenges: 1) the analysis on related data
+is insufficient whereas some important features of data may be neglected; and
+2) with data presenting different features, it is unlikely to have one
+predictive model that can fit all situations. to tackle above issues, in this
+work, we develop a hybrid model to improve accuracy of sarima. in specific, we
+first explore the autocorrelation and distribution features existed in traffic
+flow to revise structure of the time series model. based on the gaussian
+distribution of traffic flow, a hybrid model with a bayesian learning algorithm
+is developed which can effectively expand the application scenarios of sarima.
+we show the efficiency and accuracy of our proposal using both analysis and
+experimental studies. using the real-world trace data, we show that the
+proposed predicting approach can achieve satisfactory performance in practice.

@@ -1,0 +1,25 @@
+image classification is the task of assigning to an input image a label from
+a fixed set of categories. one of its most important applicative fields is that
+of robotics, in particular the needing of a robot to be aware of what's around
+and the consequent exploitation of that information as a benefit for its tasks.
+in this work we consider the problem of a robot that enters a new environment
+and wants to understand visual data coming from its camera, so to extract
+knowledge from them. as main novelty we want to overcome the needing of a
+physical robot, as it could be expensive and unhandy, so to hopefully enhance,
+speed up and ease the research in this field. that's why we propose to develop
+an application for a mobile platform that wraps several deep visual recognition
+tasks. first we deal with a simple image classification, testing a model
+obtained from an alexnet trained on the ilsvrc 2012 dataset. several photo
+settings are considered to better understand which factors affect most the
+quality of classification. for the same purpose we are interested to integrate
+the classification task with an extra module dealing with segmentation of the
+object inside the image. in particular we propose a technique for extracting
+the object shape and moving out all the background, so to focus the
+classification only on the region occupied by the object. another significant
+task that is included is that of object discovery. its purpose is to simulate
+the situation in which the robot needs a certain object to complete one of its
+activities. it starts searching for what it needs by looking around and trying
+to understand the location of the object by scanning the surrounding
+environment. finally we provide a tool for dealing with the creation of
+customized task-specific databases, meant to better suit to one's needing in a
+particular vision task.

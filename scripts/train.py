@@ -38,7 +38,7 @@ def parse_args():
     parser.add_argument(
         "--csv-path",
         type=Path,
-        default=Path("public/multiclass2_augmented.csv"),
+        default=Path("public/modernbert_final.csv"),
         help="Path to CSV training file (used when --data-source csv)",
     )
     

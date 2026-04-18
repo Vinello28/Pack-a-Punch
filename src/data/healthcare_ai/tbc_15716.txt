@@ -1,0 +1,8 @@
+this article describes a contour-based 3d tongue deformation visualization
+framework using b-mode ultrasound image sequences. a robust, automatic tracking
+algorithm characterizes tongue motion via a contour, which is then used to
+drive a generic 3d finite element model (fem). a novel contour-based 3d dynamic
+modeling method is presented. modal reduction and modal warping techniques are
+applied to model the deformation of the tongue physically and efficiently. this
+work can be helpful in a variety of fields, such as speech production, silent
+speech recognition, articulation training, speech disorder study, etc.

@@ -1,0 +1,14 @@
+in this paper, we introduce a methodology for predicting intent and slots of
+a query for a chatbot that answers career-related queries. we take a
+multi-staged approach where both the processes (intent-classification and
+slot-tagging) inform each other's decision-making in different stages. the
+model breaks down the problem into stages, solving one problem at a time and
+passing on relevant results of the current stage to the next, thereby reducing
+search space for subsequent stages, and eventually making classification and
+tagging more viable after each stage. we also observe that relaxing rules for a
+fuzzy entity-matching in slot-tagging after each stage (by maintaining a
+separate named entity tagger per stage) helps us improve performance, although
+at a slight cost of false-positives. our model has achieved state-of-the-art
+performance with f1-score of 77.63% for intent-classification and 82.24% for
+slot-tagging on our dataset that we would publicly release along with the
+paper.

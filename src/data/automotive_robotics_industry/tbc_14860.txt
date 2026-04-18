@@ -1,0 +1,22 @@
+in this paper we present a graph-based resource allocation scheme for
+sidelink broadcast vehicle-to-vehicle (v2v) communications. harnessing
+available information on the geographical position of vehicles and spectrum
+resources utilization, enodebs are capable of allotting the same set of
+sidelink resources to several different vehicles in order for them to broadcast
+their signals. hence, vehicles sharing the same resources would ideally be in
+different communications clusters for the interference level-generated due to
+resource repurposing-to be maintained under control. within a communications
+cluster, it is crucial that vehicles transmit in orthogonal time resources to
+prevent conflicts as vehicles-with half-duplex radio interfaces--cannot
+transmit and receive simultaneously. in this research, we have envisaged a
+solution based on a bipartite graph, where vehicles and spectrum resources are
+represented by vertices whereas the edges represent the achievable rate in each
+resource based on the signal-to-interference-plus-noise ratio (sinr) that
+vehicles perceive. the aforementioned constraint on time orthogonality of
+allocated resources can be approached by aggregating conflicting vertices into
+macro-vertices which, in addition, narrows the search space yielding a solution
+with computational complexity equivalent to the conventional graph matching
+problem. we show mathematically and through simulations that the proposed
+approach yields an optimal solution. in addition, we provide simulations
+showing that the proposed method outperforms other competing approaches,
+specially in scenarios with high vehicular density.

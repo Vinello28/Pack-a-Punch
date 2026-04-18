@@ -1,0 +1,20 @@
+reinforcement learning (rl) is an efficient learning
+approach to solving control problems for a robot by interacting
+with the environment to acquire the optimal control policy.
+however, there are many challenges for rl to execute continuous
+control tasks. in this article, without the need to know and
+learn the dynamic model of a robotic manipulator, a kernelbased dynamic model for rl is proposed. in addition, a new
+tuple is formed through kernel function sampling to describe a
+robotic rl control problem. in this algorithm, a reward function
+is defined according to the features of tracking control in order to
+speed up the learning process, and then an rl tracking controller
+with a kernel-based transition dynamic model is proposed.
+finally, a critic system is presented to evaluate the policy whether
+it is good or bad to the rl control tasks. the simulation results
+illustrate that the proposed method can fulfill the robotic tracking
+tasks effectively and achieve similar and even better tracking
+performance with much smaller inputs of force/torque compared
+with other learning algorithms, demonstrating the effectiveness
+and efficiency of the proposed rl algorithm.
+index terms— kernel function, reinforcement learning (rl),
+reward function, robotics tracking control.

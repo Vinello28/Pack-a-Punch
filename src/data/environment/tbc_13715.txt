@@ -1,0 +1,15 @@
+directional oil well drilling requires high precision of the wellbore
+positioning inside the productive area. however, due to specifics of
+engineering design, sensors that explicitly determine the type of the drilled
+rock are located farther than 15m from the drilling bit. as a result, the
+target area runaways can be detected only after this distance, which in turn,
+leads to a loss in well productivity and the risk of the need for an expensive
+re-boring operation.
+  we present a novel approach for identifying rock type at the drilling bit
+based on machine learning classification methods and data mining on sensors
+readings. we compare various machine-learning algorithms, examine extra
+features coming from mathematical modeling of drilling mechanics, and show that
+the real-time rock type classification error can be reduced from 13.5 % to 9 %.
+the approach is applicable for precise directional drilling in relatively thin
+target intervals of complex shapes and generalizes appropriately to new wells
+that are different from the ones used for training the machine learning model.

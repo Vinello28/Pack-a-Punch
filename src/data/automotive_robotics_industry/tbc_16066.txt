@@ -1,0 +1,19 @@
+as an initial assessment, over 480,000 labeled virtual images of normal
+highway driving were readily generated in grand theft auto v's virtual
+environment. using these images, a cnn was trained to detect following distance
+to cars/objects ahead, lane markings, and driving angle (angular heading
+relative to lane centerline): all variables necessary for basic autonomous
+driving. encouraging results were obtained when tested on over 50,000 labeled
+virtual images from substantially different gta-v driving environments. this
+initial assessment begins to define both the range and scope of the labeled
+images needed for training as well as the range and scope of labeled images
+needed for testing the definition of boundaries and limitations of trained
+networks. it is the efficacy and flexibility of a "gta-v"-like virtual
+environment that is expected to provide an efficient well-defined foundation
+for the training and testing of convolutional neural networks for safe driving.
+additionally, described is the princeton virtual environment (pve) for the
+training, testing and enhancement of safe driving ai, which is being developed
+using the video-game engine unity. pve is being developed to recreate rare but
+critical corner cases that can be used in re-training and enhancing machine
+learning models and understanding the limitations of current self driving
+models. the florida tesla crash is being used as an initial reference.

@@ -1,0 +1,12 @@
+indoor navigation aims at performing navigation within buildings. in scenes
+like home and factory, most intelligent mobile devices require an functionality
+of routing to guide itself precisely through indoor scenes to complete various
+tasks in order to serve human. in most scenarios, we expected an intelligent
+device capable of navigating itself in unseen environment. although several
+solutions have been proposed to deal with this issue, they usually require
+pre-installed beacons or a map pre-built with slam, which means that they are
+not capable of working in novel environments. to address this, we proposed
+navigationnet, a computer vision dataset and benchmark to allow the utilization
+of deep reinforcement learning on scene-understanding-based indoor navigation.
+we also proposed and formalized several typical indoor routing problems that
+are suitable for deep reinforcement learning.

@@ -1,0 +1,21 @@
+detecting small objects over large areas remains a significant challenge in
+satellite imagery analytics. among the challenges is the sheer number of pixels
+and geographical extent per image: a single digitalglobe satellite image
+encompasses over 64 km2 and over 250 million pixels. another challenge is that
+objects of interest are often minuscule (~pixels in extent even for the highest
+resolution imagery), which complicates traditional computer vision techniques.
+to address these issues, we propose a pipeline (simrdwn) that evaluates
+satellite images of arbitrarily large size at native resolution at a rate of >
+0.2 km2/s. building upon the tensorflow object detection api paper, this
+pipeline offers a unified approach to multiple object detection frameworks that
+can run inference on images of arbitrary size. the simrdwn pipeline includes a
+modified version of yolo (known as yolt), along with the models of the
+tensorflow object detection api: ssd, faster r-cnn, and r-fcn. the proposed
+approach allows comparison of the performance of these four frameworks, and can
+rapidly detect objects of vastly different scales with relatively little
+training data over multiple sensors. for objects of very different scales (e.g.
+airplanes versus airports) we find that using two different detectors at
+different scales is very effective with negligible runtime cost.we evaluate
+large test images at native resolution and find map scores of 0.2 to 0.8 for
+vehicle localization, with the yolt architecture achieving both the highest map
+and fastest inference speed.

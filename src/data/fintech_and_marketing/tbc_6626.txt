@@ -1,0 +1,9 @@
+survival analysis/time-to-event models are extremely useful as they can help
+companies predict when a customer will buy a product, churn or default on a
+loan, and therefore help them improve their roi. in this paper, we introduce a
+new method to calculate survival functions using the multi-task logistic
+regression (mtlr) model as its base and a deep learning architecture as its
+core. based on the concordance index (c-index) and brier score, this method
+outperforms the mtlr in all the experiments disclosed in this paper as well as
+the cox proportional hazard (coxph) model when nonlinear dependencies are
+found.

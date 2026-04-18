@@ -1,0 +1,15 @@
+investment decisions can benefit from incorporating an accumulated knowledge
+of the past to drive future decision making. we introduce continual learning
+augmentation (cla) which is based on an explicit memory structure and a feed
+forward neural network (ffnn) base model and used to drive long term financial
+investment decisions. we demonstrate that our approach improves accuracy in
+investment decision making while memory is addressed in an explainable way. our
+approach introduces novel remember cues, consisting of empirically learned
+change points in the absolute error series of the ffnn. memory recall is also
+novel, with contextual similarity assessed over time by sampling distances
+using dynamic time warping (dtw). we demonstrate the benefits of our approach
+by using it in an expected return forecasting task to drive investment
+decisions. in an investment simulation in a broad international equity universe
+between 2003-2017, our approach significantly outperforms ffnn base models. we
+also illustrate how cla's memory addressing works in practice, using a worked
+example to demonstrate the explainability of our approach.

@@ -1,0 +1,21 @@
+the emergence of online retailers has brought new opportunities to the design
+of their distribution networks. notably, for online retailers that do not operate offline
+stores, their target customers are more sensitive to the quality of logistic services, such as
+delivery speed and reliability. this paper is motivated by a leading online retailer for cosmetic products on taobao.com that aimed to improve its logistics efficiency by redesigning
+its centralized distribution network into a multilevel one. the multilevel distribution network consists of a layer of primary facilities to hold stocks from suppliers and transshipment and a layer of secondary facilities to provide last-mile delivery. there are two major
+challenges of designing such a facility network. first, online customers can respond significantly to the change of logistics efficiency with the redesigned network, thereby rendering
+the network optimized under the original demand distribution suboptimal. second, because
+online retailers have relatively small sales volumes and are very flexible in choosing facility
+locations, the facility candidate set can be large, causing the facility location optimization
+challenging to solve. to this end, we propose an iterative prediction-and-optimization strategy for distribution network design. specifically, we first develop an artificial neural network (ann) to predict customer demands, factoring in the logistic service quality given the
+network and the city-level purchasing power based on demographic statistics. then, a
+mixed integer linear programming (milp) model is formulated to choose facility locations
+with minimum transportation, facility setup, and package processing costs. we further develop an efficient two-stage heuristic for computing high-quality solutions to the milp
+model, featuring an agglomerative hierarchical clustering algorithm and an expectation and
+maximization algorithm. subsequently, the ann demand predictor and two-stage heuristic
+are integrated for iterative network design. finally, using a real-world data set, we validate
+the demand prediction accuracy and demonstrate the mutual interdependence between the
+demand and network design.
+summary of contribution: we propose an iterative prediction-and-optimization algorithm for multilevel distribution network design for e-logistics and evaluate its operational
+value for online retailers. we address the issue of the interplay between distribution network design and the demand distribution using an iterative framework. further, combining the idea in operational research and data mining, our paper provides an end-to-end solution that can provide accurate predictions of online sales distribution, subsequently
+solving large-scale optimization problems for distribution network design problems

@@ -1,0 +1,14 @@
+machine learning algorithms, and more in particular neural networks, arguably
+experience a revolution in terms of performance. currently, the best systems we
+have for speech recognition, computer vision and similar problems are based on
+neural networks, trained using the half-century old backpropagation algorithm.
+despite the fact that neural networks are a form of analog computers, they are
+still implemented digitally for reasons of convenience and availability. in
+this paper we demonstrate how we can design physical linear dynamic systems
+with non-linear feedback as a generic platform for dynamic, neuro-inspired
+analog computing. we show that a crucial advantage of this setup is that the
+error backpropagation can be performed physically as well, which greatly speeds
+up the optimisation process. as we show in this paper, using one experimentally
+validated and one conceptual example, such systems may be the key to providing
+a relatively straightforward mechanism for constructing highly scalable, fully
+dynamic analog computers.

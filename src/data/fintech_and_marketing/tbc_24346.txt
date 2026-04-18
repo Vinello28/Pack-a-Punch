@@ -1,0 +1,18 @@
+we explore deep reinforcement learning(rl) algorithms for scalping trading
+and knew that there is no appropriate trading gym and agent examples. thus we
+propose gym and agent like open ai gym in finance. not only that, we introduce
+new rl framework based on our hybrid algorithm which leverages between
+supervised learning and rl algorithm and uses meaningful observations such
+order book and settlement data from experience watching scalpers trading. that
+is very crucial information for traders behavior to be decided. to feed these
+data into our model, we use spatio-temporal convolution layer, called conv3d
+for order book data and temporal cnn, called conv1d for settlement data. those
+are preprocessed by episode filter we developed. agent consists of four sub
+agents divided to clarify their own goal to make best decision. also, we
+adopted value and policy based algorithm to our framework. with these features,
+we could make agent mimic scalpers as much as possible. in many fields, rl
+algorithm has already begun to transcend human capabilities in many domains.
+this approach could be a starting point to beat human in the financial stock
+market, too and be a good reference for anyone who wants to design rl algorithm
+in real world domain. finally, weexperiment our framework and gave you
+experiment progress.

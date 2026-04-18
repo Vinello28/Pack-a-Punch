@@ -1,0 +1,1 @@
+we introduced a new framework to detect perceptual bugs using a long short-term memory (lstm) network, which detects bugs in video games as anomalies. the detected buggy frames are then clustered to determine the category of the occurred bug. the framework was evaluated on two first person shooter (fps) games. results show the effectiveness of the framework.

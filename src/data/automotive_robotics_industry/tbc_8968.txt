@@ -1,0 +1,16 @@
+intelligent transportation systems (itss) are envisioned to play a critical
+role in improving traffic flow and reducing congestion, which is a pervasive
+issue impacting urban areas around the globe. rapidly advancing vehicular
+communication and edge cloud computation technologies provide key enablers for
+smart traffic management. however, operating viable real-time actuation
+mechanisms on a practically relevant scale involves formidable challenges,
+e.g., policy iteration and conventional reinforcement learning (rl) techniques
+suffer from poor scalability due to state space explosion. motivated by these
+issues, we explore the potential for deep q-networks (dqn) to optimize traffic
+light control policies. as an initial benchmark, we establish that the dqn
+algorithms yield the "thresholding" policy in a single-intersection. next, we
+examine the scalability properties of dqn algorithms and their performance in a
+linear network topology with several intersections along a main artery. we
+demonstrate that dqn algorithms produce intelligent behavior, such as the
+emergence of "greenwave" patterns, reflecting their ability to learn favorable
+traffic light actuations.

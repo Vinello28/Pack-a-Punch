@@ -1,0 +1,25 @@
+single image super resolution (sisr) techniques based on super resolution
+convolutional neural networks (srcnn) are applied to micro-computed tomography
+({\mu}ct) images of sandstone and carbonate rocks. digital rock imaging is
+limited by the capability of the scanning device resulting in trade-offs
+between resolution and field of view, and super resolution methods tested in
+this study aim to compensate for these limits. srcnn models sr-resnet, enhanced
+deep sr (edsr), and wide-activation deep sr (wdsr) are used on the digital rock
+super resolution 1 (drsrd1) dataset of 4x downsampled images, comprising of
+2000 high resolution (800x800) raw micro-ct images of bentheimer sandstone and
+estaillades carbonate. the trained models are applied to the validation and
+test data within the dataset and show a 3-5 db rise in image quality compared
+to bicubic interpolation, with all tested models performing within a 0.1 db
+range. difference maps indicate that edge sharpness is completely recovered in
+images within the scope of the trained model, with only high frequency noise
+related detail loss. we find that aside from generation of high-resolution
+images, a beneficial side effect of super resolution methods applied to
+synthetically downgraded images is the removal of image noise while recovering
+edgewise sharpness which is beneficial for the segmentation process. the model
+is also tested against real low-resolution images of bentheimer rock with image
+augmentation to account for natural noise and blur. the srcnn method is shown
+to act as a preconditioner for image segmentation under these circumstances
+which naturally leads to further future development and training of models that
+segment an image directly. image restoration by srcnn on the rock images is of
+significantly higher quality than traditional methods and suggests srcnn
+methods are a viable processing step in a digital rock workflow.

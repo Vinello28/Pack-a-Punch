@@ -1,0 +1,21 @@
+unmanned aerial vehicles (uavs) have recently rapidly grown to facilitate a
+wide range of innovative applications that can fundamentally change the way
+cyber-physical systems (cpss) are designed. cpss are a modern generation of
+systems with synergic cooperation between computational and physical potentials
+that can interact with humans through several new mechanisms. the main
+advantages of using uavs in cps application is their exceptional features,
+including their mobility, dynamism, effortless deployment, adaptive altitude,
+agility, adjustability, and effective appraisal of real-world functions anytime
+and anywhere. furthermore, from the technology perspective, uavs are predicted
+to be a vital element of the development of advanced cpss. therefore, in this
+survey, we aim to pinpoint the most fundamental and important design challenges
+of multi-uav systems for cps applications. we highlight key and versatile
+aspects that span the coverage and tracking of targets and infrastructure
+objects, energy-efficient navigation, and image analysis using machine learning
+for fine-grained cps applications. key prototypes and testbeds are also
+investigated to show how these practical technologies can facilitate cps
+applications. we present and propose state-of-the-art algorithms to address
+design challenges with both quantitative and qualitative methods and map these
+challenges with important cps applications to draw insightful conclusions on
+the challenges of each application. finally, we summarize potential new
+directions and ideas that could shape future research in these areas.

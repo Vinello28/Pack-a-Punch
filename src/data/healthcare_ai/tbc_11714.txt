@@ -1,0 +1,15 @@
+determining whether hypotensive patients in intensive care units (icus)
+should receive fluid bolus therapy (fbt) has been an extremely challenging task
+for intensive care physicians as the corresponding increase in blood pressure
+has been hard to predict. our study utilized regression models and
+attention-based recurrent neural network (rnn) algorithms and a multi-clinical
+information system large-scale database to build models that can predict the
+successful response to fbt among hypotensive patients in icus. we investigated
+both time-aggregated modeling using logistic regression algorithms with
+regularization and time-series modeling using the long short term memory
+network (lstm) and the gated recurrent units network (gru) with the attention
+mechanism for clinical interpretability. among all modeling strategies, the
+stacked lstm with the attention mechanism yielded the most predictable model
+with the highest accuracy of 0.852 and area under the curve (auc) value of
+0.925. the study results may help identify hypotensive patients in icus who
+will have sufficient blood pressure recovery after fbt.

@@ -1,0 +1,25 @@
+nowadays, we can find several diseases related to the unhealthy diet habits
+of the population, such as diabetes, obesity, anemia, bulimia and anorexia. in
+many cases, these diseases are related to the food consumption of people.
+mediterranean diet is scientifically known as a healthy diet that helps to
+prevent many metabolic diseases. in particular, our work focuses on the
+recognition of mediterranean food and dishes. the development of this
+methodology would allow to analise the daily habits of users with wearable
+cameras, within the topic of lifelogging. by using automatic mechanisms we
+could build an objective tool for the analysis of the patient's behaviour,
+allowing specialists to discover unhealthy food patterns and understand the
+user's lifestyle.
+  with the aim to automatically recognize a complete diet, we introduce a
+challenging multi-labeled dataset related to mediterranean diet called foodcat.
+the first type of label provided consists of 115 food classes with an average
+of 400 images per dish, and the second one consists of 12 food categories with
+an average of 3800 pictures per class. this dataset will serve as a basis for
+the development of automatic diet recognition. in this context, deep learning
+and more specifically, convolutional neural networks (cnns), currently are
+state-of-the-art methods for automatic food recognition. in our work, we
+compare several architectures for image classification, with the purpose of
+diet recognition. applying the best model for recognising food categories, we
+achieve a top-1 accuracy of 72.29\%, and top-5 of 97.07\%. in a complete diet
+recognition of dishes from mediterranean diet, enlarged with the food-101
+dataset for international dishes recognition, we achieve a top-1 accuracy of
+68.07\%, and top-5 of 89.53\%, for a total of 115+101 food classes.

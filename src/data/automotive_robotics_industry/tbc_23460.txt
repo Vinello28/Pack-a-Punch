@@ -1,0 +1,9 @@
+we propose model with larger spatial size of feature maps and evaluate it on
+object detection task. with the goal to choose the best feature extraction
+network for our model we compare several popular lightweight networks. after
+that we conduct a set of experiments with channels reduction algorithms in
+order to accelerate execution. our vehicle detection models are accurate, fast
+and therefore suit for embedded visual applications. with only 1.5 gflops our
+best model gives 93.39 ap on validation subset of challenging detrac dataset.
+the smallest of our models is the first to achieve real-time inference speed on
+cpu with reasonable accuracy drop to 91.43 ap.

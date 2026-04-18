@@ -1,0 +1,18 @@
+real-time bidding (rtb) is an important mechanism in online display
+advertising, where a proper bid for each page view plays an essential role for
+good marketing results. budget constrained bidding is a typical scenario in rtb
+where the advertisers hope to maximize the total value of the winning
+impressions under a pre-set budget constraint. however, the optimal bidding
+strategy is hard to be derived due to the complexity and volatility of the
+auction environment. to address these challenges, in this paper, we formulate
+budget constrained bidding as a markov decision process and propose a
+model-free reinforcement learning framework to resolve the optimization
+problem. our analysis shows that the immediate reward from environment is
+misleading under a critical resource constraint. therefore, we innovate a
+reward function design methodology for the reinforcement learning problems with
+constraints. based on the new reward design, we employ a deep neural network to
+learn the appropriate reward so that the optimal policy can be learned
+effectively. different from the prior model-based work, which suffers from the
+scalability problem, our framework is easy to be deployed in large-scale
+industrial applications. the experimental evaluations demonstrate the
+effectiveness of our framework on large-scale real datasets.

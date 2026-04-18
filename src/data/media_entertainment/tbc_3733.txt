@@ -1,0 +1,15 @@
+finding the music of the moment can often be a challenging problem, even for
+well-versed music listeners. musical tastes are constantly in flux, and the
+problem of developing computational models for musical taste dynamics presents
+a rich and nebulous problem space. a variety of factors all play some role in
+determining preferences (e.g., popularity, musicological, social, geographical,
+generational), and these factors vary across different listeners and contexts.
+in this paper, we leverage a massive dataset on internet radio station creation
+from a large music streaming company in order to develop computational models
+of listener taste evolution. we delve deep into the complexities of this
+domain, identifying some of the unique challenges that it presents, and develop
+a model utilizing recurrent neural networks. we apply our model to the problem
+of next station prediction and show that it not only outperforms several
+baselines, but excels at long tail music personalization, particularly by
+learning the long-term dependency structure of listener music preference
+evolution.

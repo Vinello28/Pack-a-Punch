@@ -1,0 +1,12 @@
+with an increasingly large number of chinese tourists in japan, the hotel
+industry is in need of an affordable market research tool that does not rely on
+expensive and time-consuming surveys or interviews. because this problem is
+real and relevant to the hotel industry in japan, and otherwise completely
+unexplored in other studies, we have extracted a list of potential keywords
+from chinese reviews of japanese hotels in the hotel portal site ctrip1 using a
+mathematical model to then use them in a sentiment analysis with a machine
+learning classifier. while most studies that use information collected from the
+internet use pre-existing data analysis tools, in our study, we designed the
+mathematical model to have the highest possible performing results in
+classification, while also exploring on the potential business implications
+these may have.

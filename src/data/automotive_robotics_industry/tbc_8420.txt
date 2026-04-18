@@ -1,0 +1,11 @@
+nowadays autonomous technologies are a very heavily explored area and
+particularly computer vision as the main component of vehicle perception. the
+quality of the whole vision system based on neural networks relies on the
+dataset it was trained on. it is extremely difficult to find traffic sign
+datasets from most of the counties of the world. meaning autonomous vehicle
+from the usa will not be able to drive though lithuania recognizing all road
+signs on the way. in this paper, we propose a solution on how to update model
+using a small dataset from the country vehicle will be used in. it is important
+to mention that is not panacea, rather small upgrade which can boost autonomous
+car development in countries with limited data access. we achieved about 10
+percent quality raise and expect even better results during future experiments.

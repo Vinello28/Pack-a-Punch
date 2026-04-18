@@ -1,0 +1,14 @@
+in the tasks of environmental monitoring is of great importance to have
+compact and portable systems able to identify environmental contaminants that
+facilitate tasks related to waste management and environmental restoration. in
+this paper, a prototype sensor is described to identify contaminants in the
+environment. this prototype is made with an array of tin oxide sno2 gas sensors
+used to identify chemical vapors, a step of data acquisition implemented with
+arm (advanced risc machine) low-cost platform (arduino) and a neural network
+able to identify environmental contaminants automatically. the neural network
+is used to identify the composition of contaminant census. in the computer
+system, the heavy computational load is presented only in the training process,
+once the neural network has been trained, the operation is to spread the data
+across the network with a much lighter computational load, which consists
+mainly of a vector-matrix multiplication and a search table that holds the
+activation function to quickly identify unknown samples.

@@ -1,0 +1,19 @@
+traffic light and sign detectors on autonomous cars are integral for road
+scene perception. the literature is abundant with deep learning networks that
+detect either lights or signs, not both, which makes them unsuitable for
+real-life deployment due to the limited graphics processing unit (gpu) memory
+and power available on embedded systems. the root cause of this issue is that
+no public dataset contains both traffic light and sign labels, which leads to
+difficulties in developing a joint detection framework. we present a deep
+hierarchical architecture in conjunction with a mini-batch proposal selection
+mechanism that allows a network to detect both traffic lights and signs from
+training on separate traffic light and sign datasets. our method solves the
+overlapping issue where instances from one dataset are not labelled in the
+other dataset. we are the first to present a network that performs joint
+detection on traffic lights and signs. we measure our network on the
+tsinghua-tencent 100k benchmark for traffic sign detection and the bosch small
+traffic lights benchmark for traffic light detection and show it outperforms
+the existing bosch small traffic light state-of-the-art method. we focus on
+autonomous car deployment and show our network is more suitable than others
+because of its low memory footprint and real-time image processing time.
+qualitative results can be viewed at https://youtu.be/_ymogpzbxow

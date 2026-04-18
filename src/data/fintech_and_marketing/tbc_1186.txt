@@ -1,1 +1,15 @@
-Nextmind è una società di consulenza specializzata nella comunicazione digitale e sviluppo di soluzioni innovative che intende sviluppare una nuova soluzione tecnologica dedicata ai mercati finanziari. Applicando modelli e algoritmi matematici statistici-predittivi ad un set di ¿Big Data¿ di valori storici dei fondi ed analizzando gli andamenti dei parametri finanziari ottenuti è possibile determinare la qualità della performance di un fondo. L¿analisi sarà svolta  anche tramite paradigmi di Intelligenza Artificiale  sia sul rischio specifico che sul grado storico di aggressività di un titolo rispetto al mercato. Oltre alla valutazione delle performance sostenute dal fondo sarà inoltre possibile modellizzare il suo andamento anche nell¿immediato futuro. Il supporto specialistico dell¿innovation manager sarà incentrato sulle tematiche inerenti il Big Data e l¿intelligenza artificiale per la progettazione e la realizzazione del sistema sopra esposto  ricorrendo alle migliori tecnologie nell¿ambito del cloud computing  che abilita alla fruizione dei ¿grandi¿ motori intelligenti come Google  Amazon e IBM. Gli scenari applicativi sono molteplici: dallo sviluppo di app per gli utenti investitori alla creazione di progetti custom per importanti realtà finanziarie.
+mining financial text documents and understanding the sentiments of
+individual investors, institutions and markets is an important and challenging
+problem in the literature. current approaches to mine sentiments from financial
+texts largely rely on domain specific dictionaries. however, dictionary based
+methods often fail to accurately predict the polarity of financial texts. this
+paper aims to improve the state-of-the-art and introduces a novel sentiment
+analysis approach that employs the concept of financial and non-financial
+performance indicators. it presents an association rule mining based
+hierarchical sentiment classifier model to predict the polarity of financial
+texts as positive, neutral or negative. the performance of the proposed model
+is evaluated on a benchmark financial dataset. the model is also compared
+against other state-of-the-art dictionary and machine learning based approaches
+and the results are found to be quite promising. the novel use of performance
+indicators for financial sentiment analysis offers interesting and useful
+insights.

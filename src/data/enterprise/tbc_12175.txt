@@ -1,0 +1,14 @@
+public sector organisations are increasingly interested in using data science
+and artificial intelligence capabilities to deliver policy and generate
+efficiencies in high uncertainty environments. the long-term success of data
+science and ai in the public sector relies on effectively embedding it into
+delivery solutions for policy implementation. however, governments cannot do
+this integration of ai into public service delivery on their own. the uk
+government industrial strategy is clear that delivering on the ai grand
+challenge requires collaboration between universities and public and private
+sectors. this cross-sectoral collaborative approach is the norm in applied ai
+centres of excellence around the world. despite their popularity, cross-sector
+collaborations entail serious management challenges that hinder their success.
+in this article we discuss the opportunities and challenges from ai for public
+sector. finally, we propose a series of strategies to successfully manage these
+cross-sectoral collaborations.

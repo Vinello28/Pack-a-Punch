@@ -1,1 +1,0 @@
-La medicina personalizzata basata su genomica utilizza modelli di machine learning per analizzare il profilo genetico del paziente e ottimizzare la scelta del trattamento terapeutico.

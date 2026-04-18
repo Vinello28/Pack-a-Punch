@@ -1,0 +1,13 @@
+leveraging large historical data in electronic health record (ehr), we
+developed doctor ai, a generic predictive model that covers observed medical
+conditions and medication uses. doctor ai is a temporal model using recurrent
+neural networks (rnn) and was developed and applied to longitudinal time
+stamped ehr data from 260k patients over 8 years. encounter records (e.g.
+diagnosis codes, medication codes or procedure codes) were input to rnn to
+predict (all) the diagnosis and medication categories for a subsequent visit.
+doctor ai assesses the history of patients to make multilabel predictions (one
+label for each diagnosis or medication category). based on separate blind test
+set evaluation, doctor ai can perform differential diagnosis with up to 79%
+recall@30, significantly higher than several baselines. moreover, we
+demonstrate great generalizability of doctor ai by adapting the resulting
+models from one institution to another without losing substantial accuracy.

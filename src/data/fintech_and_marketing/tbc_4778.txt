@@ -1,0 +1,14 @@
+now-a-days, derogatory comments are often made by one another, not only in
+offline environment but also immensely in online environments like social
+networking websites and online communities. so, an identification combined with
+prevention system in all social networking websites and applications, including
+all the communities, existing in the digital world is a necessity. in such a
+system, the identification block should identify any negative online behaviour
+and should signal the prevention block to take action accordingly. this study
+aims to analyse any piece of text and detecting different types of toxicity
+like obscenity, threats, insults and identity-based hatred. the labelled
+wikipedia comment dataset prepared by jigsaw is used for the purpose. a
+6-headed machine learning tf-idf model has been made and trained separately,
+yielding a mean validation accuracy of 98.08% and absolute validation accuracy
+of 91.61%. such an automated system should be deployed for enhancing healthy
+online conversation

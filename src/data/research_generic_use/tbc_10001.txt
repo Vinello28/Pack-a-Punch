@@ -1,0 +1,13 @@
+predictive business process monitoring methods exploit logs of completed
+cases of a process in order to make predictions about running cases thereof.
+existing methods in this space are tailor-made for specific prediction tasks.
+moreover, their relative accuracy is highly sensitive to the dataset at hand,
+thus requiring users to engage in trial-and-error and tuning when applying them
+in a specific setting. this paper investigates long short-term memory (lstm)
+neural networks as an approach to build consistently accurate models for a wide
+range of predictive process monitoring tasks. first, we show that lstms
+outperform existing techniques to predict the next event of a running case and
+its timestamp. next, we show how to use models for predicting the next task in
+order to predict the full continuation of a running case. finally, we apply the
+same approach to predict the remaining time, and show that this approach
+outperforms existing tailor-made methods.

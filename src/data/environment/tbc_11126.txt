@@ -1,0 +1,17 @@
+in this paper, we present an end-to-end approach for environmental sound
+classification based on a 1d convolution neural network (cnn) that learns a
+representation directly from the audio signal. several convolutional layers are
+used to capture the signal's fine time structure and learn diverse filters that
+are relevant to the classification task. the proposed approach can deal with
+audio signals of any length as it splits the signal into overlapped frames
+using a sliding window. different architectures considering several input sizes
+are evaluated, including the initialization of the first convolutional layer
+with a gammatone filterbank that models the human auditory filter response in
+the cochlea. the performance of the proposed end-to-end approach in classifying
+environmental sounds was assessed on the urbansound8k dataset and the
+experimental results have shown that it achieves 89% of mean accuracy.
+therefore, the propose approach outperforms most of the state-of-the-art
+approaches that use handcrafted features or 2d representations as input.
+furthermore, the proposed approach has a small number of parameters compared to
+other architectures found in the literature, which reduces the amount of data
+required for training.

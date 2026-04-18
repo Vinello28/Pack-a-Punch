@@ -1,0 +1,17 @@
+traffic flow prediction is crucial for urban traffic management and public
+safety. its key challenges lie in how to adaptively integrate the various
+factors that affect the flow changes. in this paper, we propose a unified
+neural network module to address this problem, called attentive crowd flow
+machine~(acfm), which is able to infer the evolution of the crowd flow by
+learning dynamic representations of temporally-varying data with an attention
+mechanism. specifically, the acfm is composed of two progressive convlstm units
+connected with a convolutional layer for spatial weight prediction. the first
+lstm takes the sequential flow density representation as input and generates a
+hidden state at each time-step for attention map inference, while the second
+lstm aims at learning the effective spatial-temporal feature expression from
+attentionally weighted crowd flow features. based on the acfm, we further build
+a deep architecture with the application to citywide crowd flow prediction,
+which naturally incorporates the sequential and periodic data as well as other
+external influences. extensive experiments on two standard benchmarks (i.e.,
+crowd flow in beijing and new york city) show that the proposed method achieves
+significant improvements over the state-of-the-art methods.

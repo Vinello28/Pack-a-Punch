@@ -1,1 +1,16 @@
-Il progetto presentato da MyMy si colloca nell’ambito della transizione digitale e dell’innovazione tecnologica  con l’obiettivo di rafforzare le competenze interne all’azienda e favorire l’adozione di soluzioni basate sull’Intelligenza Artificiale Generativa. Allineandosi alle priorità della Strategia di Specializzazione Intelligente (S3) di Regione Lombardia  l’iniziativa si propone di accrescere la competitività dell’impresa attraverso l’integrazione di nuove tecnologie nei processi aziendali e nelle strategie di mercato. L’intervento prevede un percorso formativo avanzato focalizzato sul Prompt Engineering  una disciplina chiave per l’ottimizzazione dell’interazione con i modelli di AI generativa  essenziale per massimizzare l’efficacia delle soluzioni digitali. La formazione si estenderà all’applicazione dell’intelligenza artificiale nel business e all’adozione di strategie avanzate di digital marketing  con un approfondimento sulle tecniche di automazione e analisi dei dati. Un elemento distintivo sarà l’implementazione di strumenti AI per migliorare le strategie di customer interaction  la personalizzazione dei contenuti digitali e l’ottimizzazione delle campagne di marketing. Il progetto si articolerà in diverse fasi  a partire dalla formazione avanzata e dall’acquisizion
+the credit scoring risk management is a fast growing field due to consumer's
+credit requests. credit requests, of new and existing customers, are often
+evaluated by classical discrimination rules based on customers information.
+however, these kinds of strategies have serious limits and don't take into
+account the characteristics difference between current customers and the future
+ones. the aim of this paper is to measure credit worthiness for non customers
+borrowers and to model potential risk given a heterogeneous population formed
+by borrowers customers of the bank and others who are not. we hold on previous
+works done in generalized gaussian discrimination and transpose them into the
+logistic model to bring out efficient discrimination rules for non customers'
+subpopulation.
+  therefore we obtain several simple models of connection between parameters of
+both logistic models associated respectively to the two subpopulations. the
+german credit data set is selected to experiment and to compare these models.
+experimental results show that the use of links between the two subpopulations
+improve the classification accuracy for the new loan applicants.

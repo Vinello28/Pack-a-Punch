@@ -1,0 +1,14 @@
+with the advent of web 2.0, various types of data are being produced every
+day. this has led to the revolution of big data. huge amount of structured and
+unstructured data are produced in financial markets. processing these data
+could help an investor to make an informed investment decision. in this paper,
+a framework has been developed to incorporate both structured and unstructured
+data for portfolio optimization. portfolio optimization consists of three
+processes: asset selection, asset weighting and asset management. this
+framework proposes to achieve the first two processes using a 5-stage
+methodology. the stages include shortlisting stocks using data envelopment
+analysis (dea), incorporation of the qualitative factors using text mining,
+stock clustering, stock ranking and optimizing the portfolio using heuristics.
+this framework would help the investors to select appropriate assets to make
+portfolio, invest in them to minimize the risk and maximize the return and
+monitor their performance.

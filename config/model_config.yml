@@ -3,35 +3,33 @@
 
 model:
   # Model identifier (HuggingFace Hub)
-  name: "answerdotai/ModernBERT-base"
+  name: "FacebookAI/xlm-roberta-large"
 
-  # Maximum sequence length in tokens
-  max_length: 3072
+  # Maximum sequence length in tokens (XLM-R hard limit: 512)
+  max_length: 512
 
   # Number of classification labels
-  num_labels: 9
+  num_labels: 7
 
   # Label mapping (id -> name)
   label_map:
-    0: "Autonomous Driving and UVs"
-    1: "Enterprise AI"
-    2: "Environmental AI"
+    0: "Media & Entertainment"
+    1: "Enterprise"
+    2: "Environment"
     3: "Fintech and Marketing"
-    4: "Generic use"
-    5: "Healthcare AI"
-    6: "Research"
-    7: "Robotics and Industry"
-    8: "Virtual assistants"
+    4: "Healthcare AI"
+    5: "Research & Generic use"
+    6: "Automotive, Robotics, Industry"
 
   # Model architecture (used for ONNX optimization)
   architecture:
-    num_heads: 12
-    hidden_size: 768
-    model_type: "modernbert"
+    num_heads: 16
+    hidden_size: 1024
+    model_type: "xlm-roberta"
 
 training:
   batch_size: 32
-  learning_rate: 2.0e-5
+  learning_rate: 1.0e-5 # Adjusted for XLM-R large
   num_epochs: 4
   warmup_ratio: 0.1
   weight_decay: 0.01
@@ -68,6 +66,6 @@ distillation:
   system_prompt: |
     Sei un classificatore di testi. Devi determinare in quale settore di applicazione dell'intelligenza artificiale rientra il testo seguente.
 
-    Le categorie possibili sono: "Autonomous Driving and UVs", "Enterprise AI", "Environmental AI", "Fintech and Marketing", "Generic use", "Healthcare AI", "Research", "Robotics and Industry", "Virtual assistants".
+    Le categorie possibili sono: "Media & Entertainment", "Enterprise", "Environment", "Fintech and Marketing", "Healthcare AI", "Research & Generic use", "Automotive, Robotics, Industry".
 
     Rispondi SOLO con un JSON nel formato: {"label": "<una delle categorie>", "confidence": 0.0-1.0}

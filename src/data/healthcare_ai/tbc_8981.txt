@@ -1,0 +1,20 @@
+diabetic retinopathy (dr) is a non-negligible eye disease among patients with
+diabetes mellitus, and automatic retinal image analysis algorithm for the dr
+screening is in high demand. considering the resolution of retinal image is
+very high, where small pathological tissues can be detected only with large
+resolution image and large local receptive field are required to identify those
+late stage disease, but directly training a neural network with very deep
+architecture and high resolution image is both time computational expensive and
+difficult because of gradient vanishing/exploding problem, we propose a
+\textbf{multi-cell} architecture which gradually increases the depth of deep
+neural network and the resolution of input image, which both boosts the
+training time but also improves the classification accuracy. further,
+considering the different stages of dr actually progress gradually, which means
+the labels of different stages are related. to considering the relationships of
+images with different stages, we propose a \textbf{multi-task} learning
+strategy which predicts the label with both classification and regression.
+experimental results on the kaggle dataset show that our method achieves a
+kappa of 0.841 on test set which is the 4-th rank of all state-of-the-arts
+methods. further, our multi-cell multi-task convolutional neural networks
+(m$^2$cnn) solution is a general framework, which can be readily integrated
+with many other deep neural network architectures.

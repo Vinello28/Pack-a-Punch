@@ -1,0 +1,15 @@
+various approaches have been proposed to learn visuo-motor policies for
+real-world robotic applications. one solution is first learning in simulation
+then transferring to the real world. in the transfer, most existing approaches
+need real-world images with labels. however, the labelling process is often
+expensive or even impractical in many robotic applications. in this paper, we
+propose an adversarial discriminative sim-to-real transfer approach to reduce
+the cost of labelling real data. the effectiveness of the approach is
+demonstrated with modular networks in a table-top object reaching task where a
+7 dof arm is controlled in velocity mode to reach a blue cuboid in clutter
+through visual observations. the adversarial transfer approach reduced the
+labelled real data requirement by 50%. policies can be transferred to real
+environments with only 93 labelled and 186 unlabelled real images. the
+transferred visuo-motor policies are robust to novel (not seen in training)
+objects in clutter and even a moving target, achieving a 97.8% success rate and
+1.8 cm control accuracy.

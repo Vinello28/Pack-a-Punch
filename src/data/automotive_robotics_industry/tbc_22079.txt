@@ -1,0 +1,20 @@
+in intelligent transportation system, real-time systems that monitor and
+analyze road users become increasingly critical as we march toward the smart
+city era. vision-based frameworks for object detection, multiple object
+tracking, and traffic near accident detection are important applications of
+intelligent transportation system, particularly in video surveillance and etc.
+although deep neural networks have recently achieved great success in many
+computer vision tasks, a uniformed framework for all the three tasks is still
+challenging where the challenges multiply from demand for real-time
+performance, complex urban setting, highly dynamic traffic event, and many
+traffic movements. in this paper, we propose a two-stream convolutional network
+architecture that performs real-time detection, tracking, and near accident
+detection of road users in traffic video data. the two-stream model consists of
+a spatial stream network for object detection and a temporal stream network to
+leverage motion features for multiple object tracking. we detect near accidents
+by incorporating appearance features and motion features from two-stream
+networks. using aerial videos, we propose a traffic near accident dataset
+(tnad) covering various types of traffic interactions that is suitable for
+vision-based traffic analysis tasks. our experiments demonstrate the advantage
+of our framework with an overall competitive qualitative and quantitative
+performance at high frame rates on the tnad dataset.

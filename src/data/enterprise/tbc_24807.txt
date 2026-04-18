@@ -1,0 +1,15 @@
+software development effort estimation is considered a fundamental task for
+software development life cycle as well as for managing project cost, time and
+quality. therefore, accurate estimation is a substantial factor in projects
+success and reducing the risks. in recent years, software effort estimation has
+received a considerable amount of attention from researchers and became a
+challenge for software industry. in the last two decades, many researchers and
+practitioners proposed statistical and machine learning-based models for
+software effort estimation. in this work, firefly algorithm is proposed as a
+metaheuristic optimization method for optimizing the parameters of three
+cocomo-based models. these models include the basic cocomo model and other two
+models proposed in the literature as extensions of the basic cocomo model. the
+developed estimation models are evaluated using different evaluation metrics.
+experimental results show high accuracy and significant error minimization of
+firefly algorithm over other metaheuristic optimization algorithms including
+genetic algorithms and particle swarm optimization.

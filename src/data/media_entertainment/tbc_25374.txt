@@ -1,0 +1,12 @@
+recently, realistic image generation using deep neural networks has become a
+hot topic in machine learning and computer vision. images can be generated at
+the pixel level by learning from a large collection of images. learning to
+generate colorful cartoon images from black-and-white sketches is not only an
+interesting research problem, but also a potential application in digital
+entertainment. in this paper, we investigate the sketch-to-image synthesis
+problem by using conditional generative adversarial networks (cgan). we propose
+the auto-painter model which can automatically generate compatible colors for a
+sketch. the new model is not only capable of painting hand-draw sketch with
+proper colors, but also allowing users to indicate preferred colors.
+experimental results on two sketch datasets show that the auto-painter performs
+better that existing image-to-image methods.

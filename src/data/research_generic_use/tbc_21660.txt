@@ -1,0 +1,20 @@
+traditional place categorization approaches in robot vision assume that
+training and test images have similar visual appearance. therefore, any
+seasonal, illumination and environmental changes typically lead to severe
+degradation in performance. to cope with this problem, recent works have
+proposed to adopt domain adaptation techniques. while effective, these methods
+assume that some prior information about the scenario where the robot will
+operate is available at training time. unfortunately, in many cases this
+assumption does not hold, as we often do not know where a robot will be
+deployed. to overcome this issue, in this paper we present an approach which
+aims at learning classification models able to generalize to unseen scenarios.
+specifically, we propose a novel deep learning framework for domain
+generalization. our method develops from the intuition that, given a set of
+different classification models associated to known domains (e.g. corresponding
+to multiple environments, robots), the best model for a new sample in the novel
+domain can be computed directly at test time by optimally combining the known
+models. to implement our idea, we exploit recent advances in deep domain
+adaptation and design a convolutional neural network architecture with novel
+layers performing a weighted version of batch normalization. our experiments,
+conducted on three common datasets for robot place categorization, confirm the
+validity of our contribution.

@@ -1,0 +1,22 @@
+predicting the short-term power output of a photovoltaic panel is an
+important task for the efficient management of smart grids. short-term
+forecasting at the minute scale, also known as nowcasting, can benefit from sky
+images captured by regular cameras and installed close to the solar panel.
+however, estimating the weather conditions from these images---sun intensity,
+cloud appearance and movement, etc.---is a very challenging task that the
+community has yet to solve with traditional computer vision techniques. in this
+work, we propose to learn the relationship between sky appearance and the
+future photovoltaic power output using deep learning. we train several variants
+of convolutional neural networks which take historical photovoltaic power
+values and sky images as input and estimate photovoltaic power in a very short
+term future. in particular, we compare three different architectures based on:
+a multi-layer perceptron (mlp), a convolutional neural network (cnn), and a
+long short term memory (lstm) module. we evaluate our approach quantitatively
+on a dataset of photovoltaic power values and corresponding images gathered in
+kyoto, japan. our experiments reveal that the mlp network, already used
+similarly in previous work, achieves an rmse skill score of 7% over the
+commonly-used persistence baseline on the 1-minute future photovoltaic power
+prediction task. our cnn-based network improves upon this with a 12% skill
+score. in contrast, our lstm-based model, which can learn the temporal
+dependencies in the data, achieves a 21% rmse skill score, thus outperforming
+all other approaches.

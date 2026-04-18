@@ -1,0 +1,26 @@
+medical image analysis and computer-assisted intervention problems are
+increasingly being addressed with deep-learning-based solutions. established
+deep-learning platforms are flexible but do not provide specific functionality
+for medical image analysis and adapting them for this application requires
+substantial implementation effort. thus, there has been substantial duplication
+of effort and incompatible infrastructure developed across many research
+groups. this work presents the open-source niftynet platform for deep learning
+in medical imaging. the ambition of niftynet is to accelerate and simplify the
+development of these solutions, and to provide a common mechanism for
+disseminating research outputs for the community to use, adapt and build upon.
+  niftynet provides a modular deep-learning pipeline for a range of medical
+imaging applications including segmentation, regression, image generation and
+representation learning applications. components of the niftynet pipeline
+including data loading, data augmentation, network architectures, loss
+functions and evaluation metrics are tailored to, and take advantage of, the
+idiosyncracies of medical image analysis and computer-assisted intervention.
+niftynet is built on tensorflow and supports tensorboard visualization of 2d
+and 3d images and computational graphs by default.
+  we present 3 illustrative medical image analysis applications built using
+niftynet: (1) segmentation of multiple abdominal organs from computed
+tomography; (2) image regression to predict computed tomography attenuation
+maps from brain magnetic resonance images; and (3) generation of simulated
+ultrasound images for specified anatomical poses.
+  niftynet enables researchers to rapidly develop and distribute deep learning
+solutions for segmentation, regression, image generation and representation
+learning applications, or extend the platform to new applications.

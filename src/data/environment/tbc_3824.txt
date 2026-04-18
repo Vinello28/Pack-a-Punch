@@ -1,0 +1,8 @@
+solar energy has the potential to become the backbone energy source for the
+world. utility scale solar power plants (more than 50 mw) could have more than
+100k individual solar modules and be spread over more than 200 acres of land.
+traditionally methods of monitoring each module become too costly in the
+utility scale. we demonstrate an alternative using the recent advances in deep
+learning to automatically analyze drone footage. we show that this can be a
+quick and reliable alternative. we show that it can save huge amounts of power
+and the impact the developing world hugely.

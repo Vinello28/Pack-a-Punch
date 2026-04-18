@@ -1,0 +1,9 @@
+we propose a novel framework for deep reinforcement learning (drl) in modular
+robotics to train a robot directly from joint states, using traditional robotic
+tools. we use an state-of-the-art implementation of the proximal policy
+optimization, trust region policy optimization and actor-critic
+kronecker-factored trust region algorithms to learn policies in four different
+modular articulated robotic arm (mara) environments. we support this process
+using a framework that communicates with typical tools used in robotics, such
+as gazebo and robot operating system 2 (ros 2). we evaluate several algorithms
+in modular robots with an empirical study in simulation.

@@ -1,0 +1,15 @@
+this paper summarizes the design, experiments and results of our solution to
+the road damage detection and classification challenge held as part of the 2018
+ieee international conference on big data cup. automatic detection and
+classification of damage in roads is an essential problem for multiple
+applications like maintenance and autonomous driving. we demonstrate that
+convolutional neural net based instance detection and classfication approaches
+can be used to solve this problem. in particular we show that mask-rcnn, one of
+the state-of-the-art algorithms for object detection, localization and instance
+segmentation of natural images, can be used to perform this task in a fast
+manner with effective results. we achieve a mean f1 score of 0.528 at an iou of
+50% on the task of detection and classification of different types of damages
+in real-world road images acquired using a smartphone camera and our average
+inference time for each image is 0.105 seconds on an nvidia geforce 1080ti
+graphic card. the code and saved models for our approach can be found here :
+https://github.com/sshkhr/bigdatacup18 submission

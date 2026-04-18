@@ -1,0 +1,12 @@
+this paper examines the up-to-dateness of installed firmware versions of iot
+devices accessible via public internet. it analyzes datasets of 1.06m devices
+collected from the iot search engine censys and maps the results against the
+latest firmware version each manufacturer offers. by applying the semma data
+mining process, a fully scalable and adaptive approach is developed. this
+approach relies on three data artifacts: raw data from censys, a mapping table
+with firmware versions and a keyword search list. the preliminary results
+confirm the heterogeneity of connected iot devices. they show that
+manufacturer, device type and country influence the up-to-dateness of firmware.
+the results suggest users as a "weak link" as they do not update the firmware
+of their devices in a timely manner. however, the heterogeneity leads to
+results not showing a high reliability, yet.

@@ -1,0 +1,12 @@
+due to the popularity of the internet and smart mobile devices, more and more
+financial transactions and activities have been digitalized. compared to
+traditional financial fraud detection strategies using credit-related features,
+customers are generating a large amount of unstructured behavioral data every
+second. in this paper, we propose an recurrent neural netword (rnn) based
+deep-learning structure integrated with markov transition field (mtf) for
+predicting online fraud behaviors using customer's interactions with websites
+or smart-phone apps as a series of states. in practice, we tested and proved
+that the proposed network structure for processing sequential behavioral data
+could significantly boost fraud predictive ability comparing with the
+multilayer perceptron network and distance based classifier with dynamic time
+warping(dtw) as distance metric.

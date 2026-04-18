@@ -1,0 +1,16 @@
+clustering web documents has numerous applications, such as aggregating news
+articles into meaningful events, detecting trends and hot topics on the web,
+preserving diversity in search results, etc. at the same time, the importance
+of named entities and, in particular, the ability to recognize them and to
+solve the associated co-reference resolution problem are widely recognized as
+key enabling factors when mining, aggregating and comparing content on the web.
+  instead of considering these two problems separately, we propose in this
+paper a method that tackles jointly the problem of clustering news articles
+into events and cross-document co-reference resolution of named entities. the
+co-occurrence of named entities in the same clusters is used as an additional
+signal to decide whether two referents should be merged into one entity. these
+refined entities can in turn be used as enhanced features to re-cluster the
+documents and then be refined again, entering into a virtuous cycle that
+improves simultaneously the performances of both tasks. we implemented a
+prototype system and report results using the tdt5 collection of news articles,
+demonstrating the potential of our approach.

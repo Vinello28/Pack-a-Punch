@@ -1,0 +1,18 @@
+high voltage power transformers are one of the most critical equipments in
+the electric power grid. a sudden failure of a power transformer can
+significantly disrupt bulk power delivery. before a transformer reaches its
+critical failure state, there are indicators which, if monitored periodically,
+can alert an operator that the transformer is heading towards a failure. one of
+the indicators is the signal to noise ratio (snr) of the voltage and current
+signals in substations located in the vicinity of the transformer. during
+normal operations, the width of the snr band is small. however, when the
+transformer heads towards a failure, the widths of the bands increase, reaching
+their maximum just before the failure actually occurs. this change in width of
+the snr can be observed by sensors, such as phasor measurement units (pmus)
+located nearby. identifying code is a mathematical tool that enables one to
+uniquely identify one or more {\em objects of interest}, by generating a unique
+signature corresponding to those objects, which can then be detected by a
+sensor. in this paper, we first describe how identifying code can be utilized
+for detecting failure of power transformers. then, we apply this technique to
+determine the fewest number of sensors needed to uniquely identify failing
+transformers in different test systems.

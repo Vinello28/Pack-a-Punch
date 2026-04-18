@@ -1,0 +1,10 @@
+most recent approaches to monocular 3d human pose estimation rely on deep
+learning. they typically involve regressing from an image to either 3d joint
+coordinates directly or 2d joint locations from which 3d coordinates are
+inferred. both approaches have their strengths and weaknesses and we therefore
+propose a novel architecture designed to deliver the best of both worlds by
+performing both simultaneously and fusing the information along the way. at the
+heart of our framework is a trainable fusion scheme that learns how to fuse the
+information optimally instead of being hand-designed. this yields significant
+improvements upon the state-of-the-art on standard 3d human pose estimation
+benchmarks.

@@ -1,0 +1,13 @@
+generative models, in particular generative adversarial networks (gans), have
+received significant attention recently. a number of gan variants have been
+proposed and have been utilized in many applications. despite large strides in
+terms of theoretical progress, evaluating and comparing gans remains a daunting
+task. while several measures have been introduced, as of yet, there is no
+consensus as to which measure best captures strengths and limitations of models
+and should be used for fair model comparison. as in other areas of computer
+vision and machine learning, it is critical to settle on one or few good
+measures to steer the progress in this field. in this paper, i review and
+critically discuss more than 24 quantitative and 5 qualitative measures for
+evaluating generative models with a particular emphasis on gan-derived models.
+i also provide a set of 7 desiderata followed by an evaluation of whether a
+given measure or a family of measures is compatible with them.

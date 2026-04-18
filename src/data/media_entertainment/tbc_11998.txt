@@ -1,0 +1,19 @@
+with faster connection speed, internet users are now making social network a
+huge reservoir of texts, images and video clips (gif). sentiment analysis for
+such online platform can be used to predict political elections, evaluates
+economic indicators and so on. however, gif sentiment analysis is quite
+challenging, not only because it hinges on spatio-temporal visual
+contentabstraction, but also for the relationship between such abstraction and
+final sentiment remains unknown.in this paper, we dedicated to find out such
+relationship.we proposed a sentipairsequence basedspatiotemporal visual
+sentiment ontology, which forms the midlevel representations for gifsentiment.
+the establishment process of sentipair contains two steps. first, we construct
+the synset forest to define the semantic tree structure of visual sentiment
+label elements. then, through thesynset forest, we organically select and
+combine sentiment label elements to form a mid-level visual sentiment
+representation. our experiments indicate that sentipair outperforms other
+competing mid-level attributes. using sentipair, our analysis frameworkcan
+achieve satisfying prediction accuracy (72.6%). we also opened ourdataset
+(gso-2015) to the research community. gso-2015 contains more than 6,000
+manually annotated gifs out of more than 40,000 candidates. each is labeled
+with both sentiment and sentipair sequence.

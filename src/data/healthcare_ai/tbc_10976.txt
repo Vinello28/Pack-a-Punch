@@ -1,0 +1,14 @@
+image-guided radiation therapy can benefit from accurate motion tracking by
+ultrasound imaging, in order to minimize treatment margins and radiate moving
+anatomical targets, e.g., due to breathing. one way to formulate this tracking
+problem is the automatic localization of given tracked anatomical landmarks
+throughout a temporal ultrasound sequence. for this, we herein propose a
+fully-convolutional siamese network that learns the similarity between pairs of
+image regions containing the same landmark. accordingly, it learns to localize
+and thus track arbitrary image features, not only predefined anatomical
+structures. we employ a temporal consistency model as a location prior, which
+we combine with the network-predicted location probability map to track a
+target iteratively in ultrasound sequences. we applied this method on the
+dataset of the challenge on liver ultrasound tracking (clust) with competitive
+results, where our work is the first to effectively apply cnns on this tracking
+problem, thanks to our temporal regularization.

@@ -1,0 +1,12 @@
+recently, there has been rising interest in bayesian optimization -- the
+optimization of an unknown function with assumptions usually expressed by a
+gaussian process (gp) prior. we study an optimization strategy that directly
+uses an estimate of the argmax of the function. this strategy offers both
+practical and theoretical advantages: no tradeoff parameter needs to be
+selected, and, moreover, we establish close connections to the popular gp-ucb
+and gp-pi strategies. our approach can be understood as automatically and
+adaptively trading off exploration and exploitation in gp-ucb and gp-pi. we
+illustrate the effects of this adaptive tuning via bounds on the regret as well
+as an extensive empirical evaluation on robotics and vision tasks,
+demonstrating the robustness of this strategy for a range of performance
+criteria.

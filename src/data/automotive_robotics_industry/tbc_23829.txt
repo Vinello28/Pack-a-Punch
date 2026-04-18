@@ -1,0 +1,17 @@
+over the passage of time unmanned autonomous vehicles (uavs), especially
+autonomous flying drones grabbed a lot of attention in artificial intelligence.
+since electronic technology is getting smaller, cheaper and more efficient, huge
+advancement in the study of uavs has been observed recently. from monitoring
+floods, discerning the spread of algae in water bodies to detecting forest trail, their
+application is far and wide. our work is mainly focused on autonomous flying
+drones where we establish a case study towards efficiency, robustness and accuracy
+of uavs where we showed our results well supported through experiments.
+we provide details of the software and hardware architecture used in the study. we
+further discuss about our implementation algorithms and present experiments that
+provide a comparison between three different state-of-the-art algorithms namely
+trailnet, inceptionresnet and mobilenet in terms of accuracy, robustness, power
+consumption and inference time. in our study, we have shown that mobilenet has
+produced better results with very less computational requirement and power consumption.
+we have also reported the challenges we have faced during our work
+as well as a brief discussion on our future work to improve safety features and
+performance.

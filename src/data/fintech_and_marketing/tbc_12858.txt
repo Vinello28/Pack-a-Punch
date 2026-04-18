@@ -1,0 +1,14 @@
+stock exchanges are considered major players in financial sectors of many
+countries. most stockbrokers, who execute stock trade, use technical,
+fundamental or time series analysis in trying to predict stock prices, so as to
+advise clients. however, these strategies do not usually guarantee good returns
+because they guide on trends and not the most likely price. it is therefore
+necessary to explore improved methods of prediction.
+  the research proposes the use of artificial neural network that is
+feedforward multi-layer perceptron with error backpropagation and develops a
+model of configuration 5:21:21:1 with 80% training data in 130,000 cycles. the
+research develops a prototype and tests it on 2008-2012 data from stock markets
+e.g. nairobi securities exchange and new york stock exchange, where prediction
+results show mape of between 0.71% and 2.77%. validation done with encog and
+neuroph realized comparable results. the model is thus capable of prediction on
+typical stock markets.

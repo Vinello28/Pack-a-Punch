@@ -1,0 +1,26 @@
+we describe a new multiresolution "nested encoder-decoder" convolutional
+network architecture and use it to annotate morphological patterns in
+reflectance confocal microscopy (rcm) images of human skin for aiding cancer
+diagnosis. skin cancers are the most common types of cancers, melanoma being
+the deadliest among them. rcm is an effective, non-invasive pre-screening tool
+for skin cancer diagnosis, with the required cellular resolution. however,
+images are complex, low-contrast, and highly variable, so that clinicians
+require months to years of expert-level training to be able to make accurate
+assessments. in this paper, we address classifying 4 key clinically important
+structural/textural patterns in rcm images. the occurrence and morphology of
+these patterns are used by clinicians for diagnosis of melanomas. the large
+size of rcm images, the large variance of pattern size, the large-scale range
+over which patterns appear, the class imbalance in collected images, and the
+lack of fully-labeled images all make this a challenging problem to address,
+even with automated machine learning tools. we designed a novel nested u-net
+architecture to cope with these challenges, and a selective loss function to
+handle partial labeling. trained and tested on 56 melanoma-suspicious,
+partially labeled, 12k x 12k pixel images, our network automatically annotated
+diagnostic patterns with high sensitivity and specificity, providing consistent
+labels for unlabeled sections of the test images. providing such annotation
+will aid clinicians in achieving diagnostic accuracy, and perhaps more
+important, dramatically facilitate clinical training, thus enabling much more
+rapid adoption of rcm into widespread clinical use process. in addition, our
+adaptation of u-net architecture provides an intrinsically multiresolution deep
+network that may be useful in other challenging biomedical image analysis
+applications.

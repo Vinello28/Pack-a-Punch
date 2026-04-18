@@ -1,0 +1,9 @@
+a weighted random survival forest is presented in the paper. it can be
+regarded as a modification of the random forest improving its performance. the
+main idea underlying the proposed model is to replace the standard procedure of
+averaging used for estimation of the random survival forest hazard function by
+weighted avaraging where the weights are assigned to every tree and can be
+veiwed as training paremeters which are computed in an optimal way by solving a
+standard quadratic optimization problem maximizing harrell's c-index. numerical
+examples with real data illustrate the outperformance of the proposed model in
+comparison with the original random survival forest.

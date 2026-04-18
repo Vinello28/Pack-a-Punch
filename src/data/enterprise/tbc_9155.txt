@@ -1,0 +1,15 @@
+business process deviance refers to the phenomenon whereby a subset of the
+executions of a business process deviate, in a negative or positive way, with
+respect to its expected or desirable outcomes. deviant executions of a business
+process include those that violate compliance rules, or executions that
+undershoot or exceed performance targets. deviance mining is concerned with
+uncovering the reasons for deviant executions by analyzing business process
+event logs. this article provides a systematic review and comparative
+evaluation of deviance mining approaches based on a family of data mining
+techniques known as sequence classification. using real-life logs from multiple
+domains, we evaluate a range of feature types and classification methods in
+terms of their ability to accurately discriminate between normal and deviant
+executions of a process. we also analyze the interestingness of the rule sets
+extracted using different methods. we observe that feature sets extracted using
+pattern mining techniques only slightly outperform simpler feature sets based
+on counts of individual activity occurrences in a trace.

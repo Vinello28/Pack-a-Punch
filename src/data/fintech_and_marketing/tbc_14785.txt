@@ -1,0 +1,17 @@
+an artificial agent for financial risk and returns' prediction is built with
+a modular cognitive system comprised of interconnected recurrent neural
+networks, such that the agent learns to predict the financial returns, and
+learns to predict the squared deviation around these predicted returns. these
+two expectations are used to build a volatility-sensitive interval prediction
+for financial returns, which is evaluated on three major financial indices and
+shown to be able to predict financial returns with higher than 80% success rate
+in interval prediction in both training and testing, raising into question the
+efficient market hypothesis. the agent is introduced as an example of a class
+of artificial intelligent systems that are equipped with a modular networked
+learning cognitive system, defined as an integrated networked system of machine
+learning modules, where each module constitutes a functional unit that is
+trained for a given specific task that solves a subproblem of a complex main
+problem expressed as a network of linked subproblems. in the case of neural
+networks, these systems function as a form of an "artificial brain", where each
+module is like a specialized brain region comprised of a neural network with a
+specific architecture.

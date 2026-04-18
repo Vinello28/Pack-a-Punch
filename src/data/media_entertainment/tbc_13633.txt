@@ -1,0 +1,5 @@
+we present neural wavetable, a proof-of-concept wavetable synthesizer that
+uses neural networks to generate playable wavetables. the system can produce
+new, distinct waveforms through the interpolation of traditional wavetables in
+an autoencoder's latent space. it is available as a vst/au plugin for use in a
+digital audio workstation.

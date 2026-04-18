@@ -1,0 +1,13 @@
+breast cancer is one of the leading causes of cancer death among women
+worldwide. in clinical routine, automatic breast ultrasound (bus) image
+segmentation is very challenging and essential for cancer diagnosis and
+treatment planning. many bus segmentation approaches have been studied in the
+last two decades, and have been proved to be effective on private datasets.
+currently, the advancement of bus image segmentation seems to meet its
+bottleneck. the improvement of the performance is increasingly challenging, and
+only few new approaches were published in the last several years. it is the
+time to look at the field by reviewing previous approaches comprehensively and
+to investigate the future directions. in this paper, we study the basic ideas,
+theories, pros and cons of the approaches, group them into categories, and
+extensively review each category in depth by discussing the principles,
+application issues, and advantages/disadvantages.

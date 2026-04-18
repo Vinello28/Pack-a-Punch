@@ -1,0 +1,15 @@
+smart city projects address many of the current problems afflicting high
+populated areas and cities and, as such, are a target for government,
+institutions and private organizations that plan to explore its foreseen
+advantages. in technical terms, smart city projects present a complex set of
+requirements including a large number users with highly different and
+heterogeneous requirements. in this scenario, this paper proposes and analyses
+the impact and perspectives on adopting software-defined networking and
+artificial intelligence as innovative approaches for smart city project
+development and deployment. big data is also considered as an inherent element
+of most smart city project that must be tackled. a framework layered view is
+proposed with a discussion about software-defined networking and machine
+learning impacts on innovation followed by a use case that demonstrates the
+potential benefits of cognitive learning for smart cities. it is argued that
+the complexity of smart city projects do require new innovative approaches that
+potentially result in more efficient and intelligent systems.

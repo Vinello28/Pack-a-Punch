@@ -1,0 +1,15 @@
+the following work outlines an approach for automatic detection and
+recognition of periodic pulse train signals using a multi-stage process based
+on spectrogram edge detection, energy projection and classification. the method
+has been implemented to automatically detect and recognize pulse train songs of
+minke whales. while the long term goal of this work is to properly identify and
+detect minke songs from large multi-year datasets, this effort was developed
+using sounds off the coast of massachusetts, in the stellwagen bank national
+marine sanctuary. the detection methodology is presented and evaluated on 232
+continuous hours of acoustic recordings and a qualitative analysis of machine
+learning classifiers and their performance is described. the trained automatic
+detection and classification system is applied to 120 continuous hours,
+comprised of various challenges such as broadband and narrowband noises, low
+snr, and other pulse train signatures. this automatic system achieves a tpr of
+63% for fpr of 0.6% (or 0.87 fp/h), at a precision (ppv) of 84% and an f1 score
+of 71%.

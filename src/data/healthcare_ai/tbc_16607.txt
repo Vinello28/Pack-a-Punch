@@ -1,0 +1,20 @@
+with the increasing popularity of pet-mr scanners in clinical applications,
+synthesis of ct images from mr has been an important research topic. accurate
+pet image reconstruction requires attenuation correction, which is based on the
+electron density of tissues and can be obtained from ct images. while ct
+measures electron density information for x-ray photons, mr images convey
+information about the magnetic properties of tissues. therefore, with the
+advent of pet-mr systems, the attenuation coefficients need to be indirectly
+estimated from mr images. in this paper, we propose a fully convolutional
+neural network (cnn) based method to synthesize head ct from ultra-short
+echo-time (ute) dual-echo mr images. unlike traditional $t_1$-w images which do
+not have any bone signal, ute images show some signal for bone, which makes it
+a good candidate for mr to ct synthesis. a notable advantage of our approach is
+that accurate results were achieved with a small training data set. using an
+atlas of a single ct and dual-echo ute pair, we train a deep neural network
+model to learn the transform of mr intensities to ct using patches. we compared
+our cnn based model with a state-of-the-art registration based as well as a
+bayesian model based ct synthesis method, and showed that the proposed cnn
+model outperforms both of them. we also compared the proposed model when only
+$t_1$-w images are available instead of ute, and show that ute images produce
+better synthesis than using just $t_1$-w images.

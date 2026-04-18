@@ -1,1 +1,0 @@
-Sviluppo di un ambiente distribuito per il telemonitoraggio di cittadini fragili  con patologie croniche e complesse  residenti in zone rurali con l’ausilio di intelligenza artificiale

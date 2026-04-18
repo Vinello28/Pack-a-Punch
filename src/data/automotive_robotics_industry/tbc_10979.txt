@@ -1,0 +1,10 @@
+unlike classification, position labels cannot be assigned manually by humans.
+for this reason, generating supervision for precise object localization is a
+hard task. this paper details a method to create large datasets for 3d object
+localization, with real world images, using an industrial robot to generate
+position labels. by knowledge of the geometry of the robot, we are able to
+automatically synchronize the images of the two cameras and the object 3d
+position. we applied it to generate a screw-driver localization dataset with
+stereo images, using a kuka lbr iiwa robot. this dataset could then be used to
+train a cnn regressor to learn end-to-end stereo object localization from a set
+of two standard uncalibrated cameras.

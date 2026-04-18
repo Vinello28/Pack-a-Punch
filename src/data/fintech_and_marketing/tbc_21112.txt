@@ -1,0 +1,1 @@
+we present the process of transitioning machine learning models to the tensorflow framework at a large scale in an online advertising ecosystem. in this talk we address the key challenges we faced and describe how we successfully tackled them; notably, implementing the models in tf and serving them efficiently with low latency using various optimization techniques.

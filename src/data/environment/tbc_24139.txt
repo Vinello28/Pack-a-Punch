@@ -1,0 +1,16 @@
+this paper presents an online transfer learning framework for improving
+temperature predictions in residential buildings. in transfer learning,
+prediction models trained under a set of available data from a target domain
+(e.g., house with limited data) can be improved through the use of data
+generated from similar source domains (e.g., houses with rich data). given also
+the need for prediction models that can be trained online (e.g., as part of a
+model-predictive-control implementation), this paper introduces the generalized
+online transfer learning algorithm (gotl). it employs a weighted combination of
+the available predictors (i.e., the target and source predictors) and
+guarantees convergence to the best weighted predictor. furthermore, the use of
+transfer component analysis (tca) allows for using more than a single source
+domains, since it may facilitate the fit of a single model on more than one
+source domains (houses). this allows gotl to transfer knowledge from more than
+one source domains. we further validate our results through experiments in
+climate control for residential buildings and show that gotl may lead to
+non-negligible energy savings for given comfort levels.

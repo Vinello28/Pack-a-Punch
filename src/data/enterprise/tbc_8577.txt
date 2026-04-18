@@ -1,0 +1,19 @@
+digital human identity management, can now be seen as a social necessity, as
+it is essentially required in almost every public sector such as, financial
+inclusions, security, banking, social networking e.t.c. hence, in today's
+rampantly emerging world with so many adversarial entities, relying on a single
+biometric trait is being too optimistic. in this paper, we have proposed a
+novel end-to-end, unified biometric roi segmentation network (ubsegnet), for
+extracting region of interest from five different biometric traits viz. face,
+iris, palm, knuckle and 4-slap fingerprint. the architecture of the proposed
+ubsegnet consists of two stages: (i) trait classification and (ii) trait
+localization. for these stages, we have used a state of the art region based
+convolutional neural network (rcnn), comprising of three major parts namely
+convolutional layers, region proposal network (rpn) along with classification
+and regression heads. the model has been evaluated over various huge publicly
+available biometric databases. to the best of our knowledge this is the first
+unified architecture proposed, segmenting multiple biometric traits. it has
+been tested over around 5000 * 5 = 25,000 images (5000 images per trait) and
+produces very good results. our work on unified biometric segmentation, opens
+up the vast opportunities in the field of multiple biometric traits based
+authentication systems.

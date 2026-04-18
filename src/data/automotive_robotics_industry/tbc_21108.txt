@@ -1,0 +1,11 @@
+license plate recognition is the key component to many automatic traffic
+control systems. it enables the automatic identification of vehicles in many
+applications. such systems must be able to identify vehicles from images taken
+in various conditions including low light, rain, snow, etc. in order to reduce
+the complexity and cost of the hardware required for such devices, the
+algorithm should be as efficient as possible. this paper proposes a license
+plate recognition system which uses a new approach based on compressive sensing
+techniques for dimensionality reduction and feature extraction. dimensionality
+reduction will enable precise classification with less training data while
+demanding less computational power. based on the extracted features, character
+recognition and classification is done by a support vector machine classifier.

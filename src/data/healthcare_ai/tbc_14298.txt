@@ -1,0 +1,15 @@
+mild traumatic brain injury is a growing public health problem with an
+estimated incidence of over 1.7 million people annually in us. diagnosis is
+based on clinical history and symptoms, and accurate, concrete measures of
+injury are lacking. this work aims to directly use diffusion mr images obtained
+within one month of trauma to detect injury, by incorporating deep learning
+techniques. to overcome the challenge due to limited training data, we describe
+each brain region using the bag of word representation, which specifies the
+distribution of representative patch patterns. we apply a convolutional
+auto-encoder to learn the patch-level features, from overlapping image patches
+extracted from the mr images, to learn features from diffusion mr images of
+brain using an unsupervised approach. our experimental results show that the
+bag of word representation using patch level features learnt by the auto
+encoder provides similar performance as that using the raw patch patterns, both
+significantly outperform earlier work relying on the mean values of mr metrics
+in selected brain regions.

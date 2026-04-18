@@ -1,0 +1,14 @@
+in our study, we demonstrate the synergy effect between convolutional neural
+networks and the multiplicity of smiles. the model we propose, the so-called
+convolutional neural fingerprint (cnf) model, reaches the accuracy of
+traditional descriptors such as dragon (mauri et al. [22]), rdkit (landrum
+[18]), cdk2 (willighagen et al. [43]) and pydescriptor (masand and rastija
+[20]). moreover the cnf model generally performs better than highly fine-tuned
+traditional descriptors, especially on small data sets, which is of great
+interest for the chemical field where data sets are generally small due to
+experimental costs, the availability of molecules or accessibility to private
+databases. we evaluate the cnf model along with smiles augmentation during both
+training and testing. to the best of our knowledge, this is the first time that
+such a methodology is presented. we show that using the multiplicity of smiles
+during training acts as a regulariser and therefore avoids overfitting and can
+be seen as ensemble learning when considered for testing.

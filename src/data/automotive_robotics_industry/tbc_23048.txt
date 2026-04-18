@@ -1,0 +1,20 @@
+traffic cameras are commonly deployed monitoring components in road
+infrastructure networks, providing operators visual information about
+conditions at critical points in the network. however, human observers are
+often limited in their ability to process simultaneous information sources.
+recent advancements in computer vision, driven by deep learning methods, have
+enabled general object recognition, unlocking opportunities for camera-based
+sensing beyond the existing human observer paradigm. in this paper, we present
+a natural language processing (nlp)-inspired approach, entitled
+bag-of-label-words (bolw), for analyzing image data sets using exclusively
+textual labels. the bolw model represents the data in a conventional matrix
+form, enabling data compression and decomposition techniques, while preserving
+semantic interpretability. we apply the latent dirichlet allocation (lda) topic
+model to decompose the label data into a small number of semantic topics. to
+illustrate our approach, we use freeway camera images collected from the boston
+area between december 2017-january 2018. we analyze the cameras' sensitivity to
+weather events; identify temporal traffic patterns; and analyze the impact of
+infrequent events, such as the winter holidays and the "bomb cyclone" winter
+storm. this study demonstrates the flexibility of our approach, which allows us
+to analyze weather events and freeway traffic using only traffic camera image
+labels.

@@ -1,0 +1,11 @@
+background
+interactions with virtual 3d objects in the virtual reality (vr) environment using the gesture of fingers captured in a wearable 2d camera have emerging applications in real-life.
+
+method
+this paper presents an approach of a two-stage convolutional neural network, one for the detection of hand and another for the fingertips. one purpose of vr environments is to transform a virtual 3d object with affine parameters by using the gesture of thumb and index fingers.
+
+results
+to evaluate the performance of the proposed system, one existing, and another developed egocentric fingertip databases are employed so that learning involves large variations that are common in real-life. experimental results show that the proposed fingertip detection system outperforms the existing systems in terms of the precision of detection.
+
+conclusion
+the interaction performance of the proposed system in the vr environment is higher than that of the existing systems in terms of estimation error and correlation between the ground truth and estimated affine parameters.

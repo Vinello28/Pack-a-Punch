@@ -1,0 +1,14 @@
+our study employs sentiment analysis to evaluate the compatibility of
+amazon.com reviews with their corresponding ratings. sentiment analysis is the
+task of identifying and classifying the sentiment expressed in a piece of text
+as being positive or negative. on e-commerce websites such as amazon.com,
+consumers can submit their reviews along with a specific polarity rating. in
+some instances, there is a mismatch between the review and the rating. to
+identify the reviews with mismatched ratings we performed sentiment analysis
+using deep learning on amazon.com product review data. product reviews were
+converted to vectors using paragraph vector, which then was used to train a
+recurrent neural network with gated recurrent unit. our model incorporated both
+semantic relationship of review text and product information. we also developed
+a web service application that predicts the rating score for a submitted review
+using the trained model and if there is a mismatch between predicted rating
+score and submitted rating score, it provides feedback to the reviewer.

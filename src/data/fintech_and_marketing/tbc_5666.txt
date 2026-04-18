@@ -1,0 +1,21 @@
+recommendation systems are an important units in today's e-commerce
+applications, such as targeted advertising, personalized marketing and
+information retrieval. in recent years, the importance of contextual
+information has motivated generation of personalized recommendations according
+to the available contextual information of users.
+  compared to the traditional systems which mainly utilize users' rating
+history, review-based recommendation hopefully provide more relevant results to
+users. we introduce a review-based recommendation approach that obtains
+contextual information by mining user reviews. the proposed approach relate to
+features obtained by analyzing textual reviews using methods developed in
+natural language processing (nlp) and information retrieval discipline to
+compute a utility function over a given item. an item utility is a measure that
+shows how much it is preferred according to user's current context.
+  in our system, the context inference is modeled as similarity between the
+users reviews history and the item reviews history. as an example application,
+we used our method to mine contextual data from customers' reviews of movies
+and use it to produce review-based rating prediction. the predicted ratings can
+generate recommendations that are item-based and should appear at the
+recommended items list in the product page. our evaluations suggest that our
+system can help produce better prediction rating scores in comparison to the
+standard prediction methods.

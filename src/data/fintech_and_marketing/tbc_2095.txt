@@ -1,0 +1,16 @@
+class imbalance problems manifest in domains such as financial fraud
+detection or network intrusion analysis, where the prevalence of one class is
+much higher than another. typically, practitioners are more interested in
+predicting the minority class than the majority class as the minority class may
+carry a higher misclassification cost. however, classifier performance
+deteriorates in the face of class imbalance as oftentimes classifiers may
+predict every point as the majority class. methods for dealing with class
+imbalance include cost-sensitive learning or resampling techniques. in this
+paper, we introduce deepbalance, an ensemble of deep belief networks trained
+with balanced bootstraps and random feature selection. we demonstrate that our
+proposed method outperforms baseline resampling methods such as smote and
+under- and over-sampling in metrics such as auc and sensitivity when applied to
+a highly imbalanced financial transaction data. additionally, we explore
+performance and training time implications of various model parameters.
+furthermore, we show that our model is easily parallelizable, which can reduce
+training times. finally, we present an implementation of deepbalance in r.

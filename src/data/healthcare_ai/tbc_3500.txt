@@ -1,0 +1,25 @@
+magnetic resonance imaging (mri) and positron emission tomography (pet)
+automatic 3-d registration is implemented and validated for small animal image
+volumes so that the high-resolution anatomical mri information can be fused
+with the low spatial resolution of functional pet information for the
+localization of lesion that is currently in high demand in the study of tumor
+of cancer (oncology) and its corresponding preparation of pharmaceutical drugs.
+though many registration algorithms are developed and applied on human brain
+volumes, these methods may not be as efficient on small animal datasets due to
+lack of intensity information and often the high anisotropy in voxel
+dimensions. therefore, a fully automatic registration algorithm which can
+register not only assumably rigid small animal volumes such as brain but also
+deformable organs such as kidney, cardiac and chest is developed using a
+combination of global affine and local b-spline transformation models in which
+mutual information is used as a similarity criterion. the global affine
+registration uses a multi-resolution pyramid on image volumes of 3 levels
+whereas in local b-spline registration, a multi-resolution scheme is applied on
+the b-spline grid of 2 levels on the finest resolution of the image volumes in
+which only the transform itself is affected rather than the image volumes.
+since mutual information lacks sufficient spatial information, pca is used to
+inject it by estimating initial translation and rotation parameters. it is
+computationally efficient since it is implemented using c++ and itk library,
+and is qualitatively and quantitatively shown that this pca-initialized global
+registration followed by local registration is in close agreement with expert
+manual registration and outperforms the one without pca initialization tested
+on small animal brain and kidney.

@@ -1,0 +1,15 @@
+subsurface applications including geothermal, geological carbon
+sequestration, oil and gas, etc., typically involve maximizing either the
+extraction of energy or the storage of fluids. characterizing the subsurface is
+extremely complex due to heterogeneity and anisotropy. due to this complexity,
+there are uncertainties in the subsurface parameters, which need to be
+estimated from multiple diverse as well as fragmented data streams. in this
+paper, we present a non-intrusive sequential inversion framework, for
+integrating data from geophysical and flow sources to constraint subsurface
+discrete fracture networks (dfn). in this approach, we first estimate bounds on
+the statistics for the dfn fracture orientations using microseismic data. these
+bounds are estimated through a combination of a focal mechanism (physics-based
+approach) and clustering analysis (statistical approach) of seismic data. then,
+the fracture lengths are constrained based on the flow data. the efficacy of
+this multi-physics based sequential inversion is demonstrated through a
+representative synthetic example.

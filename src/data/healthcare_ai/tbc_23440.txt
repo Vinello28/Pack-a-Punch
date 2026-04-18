@@ -1,0 +1,13 @@
+recent advances in deep learning, like 3d fully convolutional networks
+(fcns), have improved the state-of-the-art in dense semantic segmentation of
+medical images. however, most network architectures require severely
+downsampling or cropping the images to meet the memory limitations of today's
+gpu cards while still considering enough context in the images for accurate
+segmentation. in this work, we propose a novel approach that utilizes
+auto-context to perform semantic segmentation at higher resolutions in a
+multi-scale pyramid of stacked 3d fcns. we train and validate our models on a
+dataset of manually annotated abdominal organs and vessels from 377 clinical ct
+images used in gastric surgery, and achieve promising results with close to 90%
+dice score on average. for additional evaluation, we perform separate testing
+on datasets from different sources and achieve competitive results,
+illustrating the robustness of the model and approach.

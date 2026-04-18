@@ -1,0 +1,12 @@
+intense volatility in financial markets affect humans worldwide. therefore,
+relatively accurate prediction of volatility is critical. we suggest that
+massive data sources resulting from human interaction with the internet may
+offer a new perspective on the behavior of market participants in periods of
+large market movements. first we select 28 key words, which are related to
+finance as indicators of the public mood and macroeconomic factors. then those
+28 words of the daily search volume based on baidu index are collected
+manually, from june 1, 2006 to october 29, 2017. we apply a long short-term
+memory neural network to forecast csi300 volatility using those search volume
+data. compared to the benchmark garch model, our forecast is more accurate,
+which demonstrates the effectiveness of the lstm neural network in volatility
+forecasting.

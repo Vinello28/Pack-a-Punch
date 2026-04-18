@@ -1,0 +1,14 @@
+this study is a part of design of an audio system for in-house object
+detection system for visually impaired, low vision personnel by birth or by an
+accident or due to old age. the input of the system will be scene and output as
+audio. alert facility is provided based on severity levels of the objects
+(snake, broke glass etc) and also during difficulties. the study proposed
+techniques to provide speedy detection of objects based on shapes and its
+scale. features are extraction to have minimum spaces using dynamic scaling.
+from a scene, clusters of objects are formed based on the scale and shape.
+searching is performed among the clusters initially based on the shape, scale,
+mean cluster value and index of object(s). the minimum operation to detect the
+possible shape of the object is performed. in case the object does not have a
+likely matching shape, scale etc, then the several operations required for an
+object detection will not perform; instead, it will declared as a new object.
+in such way, this study finds a speedy way of detecting objects.

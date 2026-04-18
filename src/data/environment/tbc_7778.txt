@@ -1,0 +1,23 @@
+ground vehicles equipped with monocular vision systems are a valuable source
+of high resolution image data for precision agriculture applications in
+orchards. this paper presents an image processing framework for fruit detection
+and counting using orchard image data. a general purpose image segmentation
+approach is used, including two feature learning algorithms; multi-scale
+multi-layered perceptrons (mlp) and convolutional neural networks (cnn). these
+networks were extended by including contextual information about how the image
+data was captured (metadata), which correlates with some of the appearance
+variations and/or class distributions observed in the data. the pixel-wise
+fruit segmentation output is processed using the watershed segmentation (ws)
+and circular hough transform (cht) algorithms to detect and count individual
+fruits. experiments were conducted in a commercial apple orchard near
+melbourne, australia. the results show an improvement in fruit segmentation
+performance with the inclusion of metadata on the previously benchmarked mlp
+network. we extend this work with cnns, bringing agrovision closer to the
+state-of-the-art in computer vision, where although metadata had negligible
+influence, the best pixel-wise f1-score of $0.791$ was achieved. the ws
+algorithm produced the best apple detection and counting results, with a
+detection f1-score of $0.858$. as a final step, image fruit counts were
+accumulated over multiple rows at the orchard and compared against the
+post-harvest fruit counts that were obtained from a grading and counting
+machine. the count estimates using cnn and ws resulted in the best performance
+for this dataset, with a squared correlation coefficient of $r^2=0.826$.

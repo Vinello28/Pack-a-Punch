@@ -1,0 +1,18 @@
+with the rise in militant activity and rogue behaviour in oil and gas regions
+around the world, oil pipeline disturbances is on the increase leading to huge
+losses to multinational operators and the countries where such facilities
+exist. however, this situation can be averted if adequate predictive monitoring
+schemes are put in place. we propose in the first part of this paper, an
+artificial intelligence predictive monitoring system capable of predictive
+classification and pattern recognition of pipeline datasets. the predictive
+system is based on a highly sparse predictive deviant learning algorithm
+(p-dla) designed to synthesize a sequence of memory predictive clusters for
+eventual monitoring, control and decision making. the dla (p-dla) is compared
+with a popular machine learning algorithm, the long short-term memory (lstm)
+which is based on a temporal version of the standard feed-forward
+back-propagation trained artificial neural networks (anns). the results of
+simulations study show impressive results and validates the sparse memory
+predictive approach which favours the sub-synthesis of a highly compressed and
+low dimensional knowledge discovery and information prediction scheme. it also
+shows that the proposed new approach is competitive with a well-known and
+proven ai approach such as the lstm.

@@ -1,0 +1,21 @@
+for any autonomous driving vehicle, control module determines its road
+performance and safety, i.e. its precision and stability should stay within a
+carefully-designed range. nonetheless, control algorithms require vehicle
+dynamics (such as longitudinal dynamics) as inputs, which, unfortunately, are
+obscure to calibrate in real time. as a result, to achieve reasonable
+performance, most, if not all, research-oriented autonomous vehicles do manual
+calibrations in a one-by-one fashion. since manual calibration is not
+sustainable once entering into mass production stage for industrial purposes,
+we here introduce a machine-learning based auto-calibration system for
+autonomous driving vehicles. in this paper, we will show how we build a
+data-driven longitudinal calibration procedure using machine learning
+techniques. we first generated offline calibration tables from human driving
+data. the offline table serves as an initial guess for later uses and it only
+needs twenty-minutes data collection and process. we then used an
+online-learning algorithm to appropriately update the initial table (the
+offline table) based on real-time performance analysis. this longitudinal
+auto-calibration system has been deployed to more than one hundred baidu apollo
+self-driving vehicles (including hybrid family vehicles and electronic
+delivery-only vehicles) since april 2018. by august 27, 2018, it had been
+tested for more than two thousands hours, ten thousands kilometers (6,213
+miles) and yet proven to be effective.

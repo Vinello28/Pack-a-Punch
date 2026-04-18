@@ -1,0 +1,16 @@
+this paper introduces a novel methodology to integrate human brain
+connectomics and parcellation for brain tumor segmentation and survival
+prediction. for segmentation, we utilize an existing brain parcellation atlas
+in the mni152 1mm space and map this parcellation to each individual subject
+data. we use deep neural network architectures together with hard negative
+mining to achieve the final voxel level classification. for survival
+prediction, we present a new method for combining features from connectomics
+data, brain parcellation information, and the brain tumor mask. we leverage the
+average connectome information from the human connectome project and map each
+subject brain volume onto this common connectome space. from this, we compute
+tractographic features that describe potential neural disruptions due to the
+brain tumor. these features are then used to predict the overall survival of
+the subjects. the main novelty in the proposed methods is the use of normalized
+brain parcellation data and tractography data from the human connectome project
+for analyzing mr images for segmentation and survival prediction. experimental
+results are reported on the brats2018 dataset.

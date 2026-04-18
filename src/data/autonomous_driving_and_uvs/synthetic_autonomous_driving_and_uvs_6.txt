@@ -1,1 +1,0 @@
-Progetto di flotta coordinata di UAV per sorveglianza territoriale con pianificazione cooperativa del percorso e comunicazione V2V per copertura ottimale dell'area.

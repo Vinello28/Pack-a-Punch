@@ -1,0 +1,12 @@
+recently, mobile operators in many developing economies have launched "mobile
+money" platforms that deliver basic financial services over the mobile phone
+network. while many believe that these services can improve the lives of the
+poor, a consistent difficulty has been identifying individuals most likely to
+benefit from access to the new technology. here, we combine terabyte-scale data
+from three different mobile phone operators from ghana, pakistan, and zambia,
+to better understand the behavioral determinants of mobile money adoption. our
+supervised learning models provide insight into the best predictors of adoption
+in three very distinct cultures. we find that models fit on one population fail
+to generalize to another, and in general are highly context-dependent. these
+findings highlight the need for a nuanced approach to understanding the role
+and potential of financial services for the poor.

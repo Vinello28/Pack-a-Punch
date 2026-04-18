@@ -1,0 +1,11 @@
+the rohingya movement and crisis caused a huge uproar in the political and
+economic state of bangladesh. refugee movement is a recurring event and a large
+amount of data in the form of opinions remains on social media such as
+facebook, with very little analysis done on them.to analyse the comments based
+on all rohingya related posts, we had to create and modify a classifier based
+on the support vector machine algorithm. the code is implemented in python and
+uses scikit-learn library. a dataset on rohingya analysis is not currently
+available so we had to use our own data set of 2500 positive and 2500 negative
+comments. we specifically used a support vector machine with linear kernel. a
+previous experiment was performed by us on the same dataset using the naive
+bayes algorithm, but that did not yield impressive results.

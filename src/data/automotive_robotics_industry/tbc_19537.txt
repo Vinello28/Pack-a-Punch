@@ -1,0 +1,13 @@
+as a general rule, data analytics are now mandatory for companies. scanned
+document analysis brings additional challenges introduced by paper damages and
+scanning quality.in an industrial context, this work focuses on the automatic
+understanding of sale receipts which enable access to essential and accurate
+consumption statistics. given an image acquired with a smart-phone, the
+proposed work mainly focuses on the first steps of the full tool chain which
+aims at providing essential information such as the store brand, purchased
+products and related prices with the highest possible confidence. to get this
+high confidence level, even if scanning is not perfectly controlled, we propose
+a double check processing tool-chain using deep convolutional neural networks
+(dcnns) on one hand and more classical image and text processings on another
+hand.the originality of this work relates in this double check processing and
+in the joint use of dcnns for different applications and text analysis.

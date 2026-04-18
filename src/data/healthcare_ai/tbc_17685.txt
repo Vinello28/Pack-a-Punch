@@ -1,0 +1,14 @@
+as societies around the world are ageing, the number of alzheimer's disease
+(ad) patients is rapidly increasing. to date, no low-cost, non-invasive
+biomarkers have been established to advance the objectivization of ad diagnosis
+and progression assessment. here, we utilize bayesian neural networks to
+develop a multivariate predictor for ad severity using a wide range of
+quantitative eeg (qeeg) markers. the bayesian treatment of neural networks both
+automatically controls model complexity and provides a predictive distribution
+over the target function, giving uncertainty bounds for our regression task. it
+is therefore well suited to clinical neuroscience, where data sets are
+typically sparse and practitioners require a precise assessment of the
+predictive uncertainty. we use data of one of the largest prospective ad eeg
+trials ever conducted to demonstrate the potential of bayesian deep learning in
+this domain, while comparing two distinct bayesian neural network approaches,
+i.e., monte carlo dropout and hamiltonian monte carlo.

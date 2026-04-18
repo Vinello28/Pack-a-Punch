@@ -1,0 +1,19 @@
+we present a deep learning approach for high resolution face completion with
+multiple controllable attributes (e.g., male and smiling) under arbitrary
+masks. face completion entails understanding both structural meaningfulness and
+appearance consistency locally and globally to fill in "holes" whose content do
+not appear elsewhere in an input image. it is a challenging task with the
+difficulty level increasing significantly with respect to high resolution, the
+complexity of "holes" and the controllable attributes of filled-in fragments.
+our system addresses the challenges by learning a fully end-to-end framework
+that trains generative adversarial networks (gans) progressively from low
+resolution to high resolution with conditional vectors encoding controllable
+attributes.
+  we design novel network architectures to exploit information across multiple
+scales effectively and efficiently. we introduce new loss functions encouraging
+sharp completion. we show that our system can complete faces with large
+structural and appearance variations using a single feed-forward pass of
+computation with mean inference time of 0.007 seconds for images at 1024 x 1024
+resolution. we also perform a pilot human study that shows our approach
+outperforms state-of-the-art face completion methods in terms of rank analysis.
+the code will be released upon publication.

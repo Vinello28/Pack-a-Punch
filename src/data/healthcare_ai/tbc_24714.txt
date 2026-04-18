@@ -1,0 +1,13 @@
+the international symposium on biomedical imaging (isbi) held a grand
+challenge to evaluate computational systems for the automated detection of
+metastatic breast cancer in whole slide images of sentinel lymph node biopsies.
+our team won both competitions in the grand challenge, obtaining an area under
+the receiver operating curve (auc) of 0.925 for the task of whole slide image
+classification and a score of 0.7051 for the tumor localization task. a
+pathologist independently reviewed the same images, obtaining a whole slide
+image classification auc of 0.966 and a tumor localization score of 0.733.
+combining our deep learning system's predictions with the human pathologist's
+diagnoses increased the pathologist's auc to 0.995, representing an
+approximately 85 percent reduction in human error rate. these results
+demonstrate the power of using deep learning to produce significant
+improvements in the accuracy of pathological diagnoses.

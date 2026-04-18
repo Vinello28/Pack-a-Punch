@@ -1,0 +1,20 @@
+in this paper, we introduce a simple, yet powerful pipeline for medical image
+segmentation that combines fully convolutional networks (fcns) with fully
+convolutional residual networks (fc-resnets). we propose and examine a design
+that takes particular advantage of recent advances in the understanding of both
+convolutional neural networks as well as resnets. our approach focuses upon the
+importance of a trainable pre-processing when using fc-resnets and we show that
+a low-capacity fcn model can serve as a pre-processor to normalize medical
+input data. in our image segmentation pipeline, we use fcns to obtain
+normalized images, which are then iteratively refined by means of a fc-resnet
+to generate a segmentation prediction. as in other fully convolutional
+approaches, our pipeline can be used off-the-shelf on different image
+modalities. we show that using this pipeline, we exhibit state-of-the-art
+performance on the challenging electron microscopy benchmark, when compared to
+other 2d methods. we improve segmentation results on ct images of liver
+lesions, when contrasting with standard fcn methods. moreover, when applying
+our 2d pipeline on a challenging 3d mri prostate segmentation challenge we
+reach results that are competitive even when compared to 3d methods. the
+obtained results illustrate the strong potential and versatility of the
+pipeline by achieving highly accurate results on multi-modality images from
+different anatomical regions and organs.

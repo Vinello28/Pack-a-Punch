@@ -1,0 +1,16 @@
+running high-resolution physical models is computationally expensive and
+essential for many disciplines. agriculture, transportation, and energy are
+sectors that depend on high-resolution weather models, which typically consume
+many hours of large high performance computing (hpc) systems to deliver timely
+results. many users cannot afford to run the desired resolution and are forced
+to use low resolution output. one simple solution is to interpolate results for
+visualization. it is also possible to combine an ensemble of low resolution
+models to obtain a better prediction. however, these approaches fail to capture
+the redundant information and patterns in the low-resolution input that could
+help improve the quality of prediction. in this paper, we propose and evaluate
+a strategy based on a deep neural network to learn a high-resolution
+representation from low-resolution predictions using weather forecast as a
+practical use case. we take a supervised learning approach, since obtaining
+labeled data can be done automatically. our results show significant
+improvement when compared with standard practices and the strategy is still
+lightweight enough to run on modest computer systems.

@@ -1,0 +1,20 @@
+the banking industry is very important for an economic cycle of each country
+and provides some quality of services for us. with the advancement in
+technology and rapidly increasing of the complexity of the business
+environment, it has become more competitive than the past so that efficiency
+analysis in the banking industry attracts much attention in recent years. from
+many aspects, such analyses at the branch level are more desirable. evaluating
+the branch performance with the purpose of eliminating deficiency can be a
+crucial issue for branch managers to measure branch efficiency. this work not
+only can lead to a better understanding of bank branch performance but also
+give further information to enhance managerial decisions to recognize
+problematic areas. to achieve this purpose, this study presents an integrated
+approach based on data envelopment analysis (dea), clustering algorithms and
+polynomial pattern classifier for constructing a classifier to identify a class
+of bank branches. first, the efficiency estimates of individual branches are
+evaluated by using the dea approach. next, when the range and number of classes
+were identified by experts, the number of clusters is identified by an
+agglomerative hierarchical clustering algorithm based on some statistical
+methods. next, we divide our raw data into k clusters by means of
+self-organizing map (som) neural networks. finally, all clusters are fed into
+the reduced multivariate polynomial model to predict the classes of data.

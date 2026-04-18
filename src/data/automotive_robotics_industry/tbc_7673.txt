@@ -1,0 +1,13 @@
+in recent years, printed circuit boards (pcb) have become the backbone of a
+large number of consumer electronic devices leading to a surge in their
+production. this has made it imperative to employ automatic inspection systems
+to identify manufacturing defects in pcb before they are installed in the
+respective systems. an important task in this regard is the classification of
+defects as either true or pseudo defects, which decides if the pcb is to be
+re-manufactured or not. this work proposes a novel approach to detect most
+common defects in the pcbs. the problem has been approached by employing highly
+discriminative features based on multi-scale wavelet transform, which are
+further boosted by using a kernalized version of the support vector machines
+(svm). a real world printed circuit board dataset has been used for
+quantitative analysis. experimental results demonstrated the efficacy of the
+proposed method.

@@ -1,0 +1,16 @@
+software quality-in-use comprehends the quality from user's perspectives. it
+has gained its importance in e-learning applications, mobile service based
+applications and project management tools. user's decisions on software
+acquisitions are often ad hoc or based on preference due to difficulty in
+quantitatively measure software quality-in-use. however, why quality-in-use
+measurement is difficult? although there are many software quality models to
+our knowledge, no works surveys the challenges related to software
+quality-in-use measurement. this paper has two main contributions; 1) presents
+major issues and challenges in measuring software quality-in-use in the context
+of the iso square series and related software quality models, 2) presents a
+novel framework that can be used to predict software quality-in-use, and 3)
+presents preliminary results of quality-in-use topic prediction. concisely, the
+issues are related to the complexity of the current standard models and the
+limitations and incompleteness of the customized software quality models. the
+proposed framework employs sentiment analysis techniques to predict software
+quality-in-use.

@@ -1,1 +1,1 @@
-Implementazione di un sistema BMS “intelligente” con l’obiettivo di stimare i parametri della batteria riguardanti il SOC e il SOH mediante AI e Machine Learning (ML).
+La resistenza agli antibiotici minaccia la salute globale e richiede metodi di identificazione rapida dei ceppi resistenti. Questo progetto si concentra su test innovativi attraverso il sequenziamento automatico  l'ottimizzazione dell'analisi dei dati e le interfacce avanzate. Mira a sviluppare sensori biologici e antibiotici innovativi per combattere efficacemente la resistenza.

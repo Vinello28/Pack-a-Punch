@@ -1,0 +1,7 @@
+in this paper, we propose a computer assisted diagnosis (cad) system based on
+a deep convolutional neural network (cnn) model, to build an end-to-end
+learning process that classifies breast mass lesions. we investigate the impact
+that has transfer learning when large data is scarce, and explore the proper
+way to fine-tune the layers to learn features that are more specific to the new
+data. the proposed approach showed better performance compared to other
+proposals that classified the same dataset.

@@ -1,0 +1,13 @@
+we present an unconstrained ear recognition framework that outperforms
+state-of-the-art systems in different publicly available image databases. to
+this end, we developed cnn-based solutions for ear normalization and
+description, we used well-known handcrafted descriptors, and we fused learned
+and handcrafted features to improve recognition. we designed a two-stage
+landmark detector that successfully worked under untrained scenarios. we used
+the results generated to perform a geometric image normalization that boosted
+the performance of all evaluated descriptors. our cnn descriptor outperformed
+other cnn-based works in the literature, specially in more difficult scenarios.
+the fusion of learned and handcrafted matchers appears to be complementary as
+it achieved the best performance in all experiments. the obtained results
+outperformed all other reported results for the uerc challenge, which contains
+the most difficult database nowadays.

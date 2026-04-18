@@ -1,0 +1,16 @@
+generating explanation to explain its behavior is an essential capability for
+a robotic teammate. explanations help human partners better understand the
+situation and maintain trust of their teammates. prior work on robot generating
+explanations focuses on providing the reasoning behind its decision making.
+these approaches, however, fail to heed the cognitive requirement of
+understanding an explanation. in other words, while they provide the right
+explanations from the explainer's perspective, the explainee part of the
+equation is ignored. in this work, we address an important aspect along this
+direction that contributes to a better understanding of a given explanation,
+which we refer to as the progressiveness of explanations. a progressive
+explanation improves understanding by limiting the cognitive effort required at
+each step of making the explanation. as a result, such explanations are
+expected to be smoother and hence easier to understand. a general formulation
+of progressive explanation is presented. algorithms are provided based on
+several alternative quantifications of cognitive effort as an explanation is
+being made, which are evaluated in a standard planning competition domain.

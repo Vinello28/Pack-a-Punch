@@ -1,0 +1,12 @@
+metric learning aims to embed one metric space into another to benefit tasks
+like classification and clustering. although a greatly distorted metric space
+has a high degree of freedom to fit training data, it is prone to overfitting
+and numerical inaccuracy. this paper presents {\it bounded-distortion metric
+learning} (bdml), a new metric learning framework which amounts to finding an
+optimal mahalanobis metric space with a bounded-distortion constraint. an
+efficient solver based on the multiplicative weights update method is proposed.
+moreover, we generalize bdml to pseudo-metric learning and devise the
+semidefinite relaxation and a randomized algorithm to approximately solve it.
+we further provide theoretical analysis to show that distortion is a key
+ingredient for stability and generalization ability of our bdml algorithm.
+extensive experiments on several benchmark datasets yield promising results.

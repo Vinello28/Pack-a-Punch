@@ -1,0 +1,14 @@
+a central goal in automatic music transcription is to detect individual note
+events in music recordings. an important variant is instrument-dependent music
+transcription where methods can use calibration data for the instruments in
+use. however, despite the additional information, results rarely exceed an
+f-measure of 80%. as a potential explanation, the transcription problem can be
+shown to be badly conditioned and thus relies on appropriate regularization. a
+recently proposed method employs a mixture of simple, convex regularizers (to
+stabilize the parameter estimation process) and more complex terms (to
+encourage more meaningful structure). in this paper, we present two extensions
+to this method. first, we integrate a computational loudness model to better
+differentiate real from spurious note detections. second, we employ
+(bidirectional) long short term memory networks to re-weight the likelihood of
+detected note constellations. despite their simplicity, our two extensions lead
+to a drop of about 35% in note error rate compared to the state-of-the-art.

@@ -1,0 +1,22 @@
+identifying mix-and-match relationships between fashion items is an urgent
+task in a fashion e-commerce recommender system. it will significantly enhance
+user experience and satisfaction. however, due to the challenges of inferring
+the rich yet complicated set of compatibility patterns in a large e-commerce
+corpus of fashion items, this task is still underexplored. inspired by the
+recent advances in multi-relational knowledge representation learning and deep
+neural networks, this paper proposes a novel translation-based neural fashion
+compatibility modeling (transnfcm) framework, which jointly optimizes fashion
+item embeddings and category-specific complementary relations in a unified
+space via an end-to-end learning manner. transnfcm places items in a unified
+embedding space where a category-specific relation (category-comp-category) is
+modeled as a vector translation operating on the embeddings of compatible items
+from the corresponding categories. by this way, we not only capture the
+specific notion of compatibility conditioned on a specific pair of
+complementary categories, but also preserve the global notion of compatibility.
+we also design a deep fashion item encoder which exploits the complementary
+characteristic of visual and textual features to represent the fashion
+products. to the best of our knowledge, this is the first work that uses
+category-specific complementary relations to model the category-aware
+compatibility between items in a translation-based embedding space. extensive
+experiments demonstrate the effectiveness of transnfcm over the
+state-of-the-arts on two real-world datasets.

@@ -1,0 +1,17 @@
+convolutional neural networks (cnns) have recently achieved great success in
+single-image super-resolution (sisr). however, these methods tend to produce
+over-smoothed outputs and miss some textural details. to solve these problems,
+we propose the super-resolution cliquenet (srcliquenet) to reconstruct the high
+resolution (hr) image with better textural details in the wavelet domain. the
+proposed srcliquenet firstly extracts a set of feature maps from the low
+resolution (lr) image by the clique blocks group. then we send the set of
+feature maps to the clique up-sampling module to reconstruct the hr image. the
+clique up-sampling module consists of four sub-nets which predict the high
+resolution wavelet coefficients of four sub-bands. since we consider the edge
+feature properties of four sub-bands, the four sub-nets are connected to the
+others so that they can learn the coefficients of four sub-bands jointly.
+finally we apply inverse discrete wavelet transform (idwt) to the output of
+four sub-nets at the end of the clique up-sampling module to increase the
+resolution and reconstruct the hr image. extensive quantitative and qualitative
+experiments on benchmark datasets show that our method achieves superior
+performance over the state-of-the-art methods.

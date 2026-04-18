@@ -1,0 +1,18 @@
+near-sensor data analytics is a promising direction for iot endpoints, as it
+minimizes energy spent on communication and reduces network load - but it also
+poses security concerns, as valuable data is stored or sent over the network at
+various stages of the analytics pipeline. using encryption to protect sensitive
+data at the boundary of the on-chip analytics engine is a way to address data
+security issues. to cope with the combined workload of analytics and encryption
+in a tight power envelope, we propose fulmine, a system-on-chip based on a
+tightly-coupled multi-core cluster augmented with specialized blocks for
+compute-intensive data processing and encryption functions, supporting software
+programmability for regular computing tasks. the fulmine soc, fabricated in
+65nm technology, consumes less than 20mw on average at 0.8v achieving an
+efficiency of up to 70pj/b in encryption, 50pj/px in convolution, or up to
+25mips/mw in software. as a strong argument for real-life flexible application
+of our platform, we show experimental results for three secure analytics use
+cases: secure autonomous aerial surveillance with a state-of-the-art deep cnn
+consuming 3.16pj per equivalent risc op; local cnn-based face detection with
+secured remote recognition in 5.74pj/op; and seizure detection with encrypted
+data collection from eeg within 12.7pj/op.

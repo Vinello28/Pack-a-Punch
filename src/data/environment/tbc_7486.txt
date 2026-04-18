@@ -1,0 +1,12 @@
+consumers with low demand, like households, are generally supplied
+single-phase power by connecting their service mains to one of the phases of a
+distribution transformer. the distribution companies face the problem of
+keeping a record of consumer connectivity to a phase due to uninformed changes
+that happen. the exact phase connectivity information is important for the
+efficient operation and control of distribution system. we propose a new data
+driven approach to the problem based on principal component analysis (pca) and
+its graph theoretic interpretations, using energy measurements in equally timed
+short intervals, generated from smart meters. we propose an algorithm for
+inferring phase connectivity from noisy measurements. the algorithm is
+demonstrated using simulated data for phase connectivities in distribution
+networks.

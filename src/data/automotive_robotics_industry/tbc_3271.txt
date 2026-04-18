@@ -1,0 +1,14 @@
+event-based cameras offer much potential to the fields of robotics and
+computer vision, in part due to their large dynamic range and extremely high
+"frame rates". these attributes make them, at least in theory, particularly
+suitable for enabling tasks like navigation and mapping on high speed robotic
+platforms under challenging lighting conditions, a task which has been
+particularly challenging for traditional algorithms and camera sensors. before
+these tasks become feasible however, progress must be made towards adapting and
+innovating current rgb-camera-based algorithms to work with event-based
+cameras. in this paper we present ongoing research investigating two distinct
+approaches to incorporating event-based cameras for robotic navigation: the
+investigation of suitable place recognition / loop closure techniques, and the
+development of efficient neural implementations of place recognition techniques
+that enable the possibility of place recognition using event-based cameras at
+very high frame rates using neuromorphic computing hardware.

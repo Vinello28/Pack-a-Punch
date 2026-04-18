@@ -1,0 +1,1 @@
+this work presents the systems explored as part of the clpsych 2019 shared task. more specifically, this work explores the promise of deep learning systems for suicide risk assessment.

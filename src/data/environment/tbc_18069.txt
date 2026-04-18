@@ -1,0 +1,18 @@
+person detection from vehicles has made rapid progress recently with the
+advent of multiple highquality datasets of urban and highway driving, yet no
+large-scale benchmark is available for the same problem in off-road or
+agricultural environments. here we present the nrec agricultural
+person-detection dataset to spur research in these environments. it consists of
+labeled stereo video of people in orange and apple orchards taken from two
+perception platforms (a tractor and a pickup truck), along with vehicle
+position data from rtk gps. we define a benchmark on part of the dataset that
+combines a total of 76k labeled person images and 19k sampled person-free
+images. the dataset highlights several key challenges of the domain, including
+varying environment, substantial occlusion by vegetation, people in motion and
+in non-standard poses, and people seen from a variety of distances; meta-data
+are included to allow targeted evaluation of each of these effects. finally, we
+present baseline detection performance results for three leading approaches
+from urban pedestrian detection and our own convolutional neural network
+approach that benefits from the incorporation of additional image context. we
+show that the success of existing approaches on urban data does not transfer
+directly to this domain.

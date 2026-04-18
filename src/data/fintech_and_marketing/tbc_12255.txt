@@ -1,0 +1,13 @@
+algorithms are increasingly common components of high-impact decision-making,
+and a growing body of literature on adversarial examples in laboratory settings
+indicates that standard machine learning models are not robust. this suggests
+that real-world systems are also susceptible to manipulation or
+misclassification, which especially poses a challenge to machine learning
+models used in financial services. we use the loan grade classification problem
+to explore how machine learning models are sensitive to small changes in
+user-reported data, using adversarial attacks documented in the literature and
+an original, domain-specific attack. our work shows that a robust optimization
+algorithm can build models for financial services that are resistant to
+misclassification on perturbations. to the best of our knowledge, this is the
+first study of adversarial attacks and defenses for deep learning in financial
+services.

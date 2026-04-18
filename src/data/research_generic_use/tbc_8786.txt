@@ -1,0 +1,17 @@
+an ability of modeling and predicting the cascades
+of resharing is crucial to understanding information propagation and to launching campaign of viral
+marketing. conventional methods for cascade prediction heavily depend on the hypothesis of diffusion models, e.g., independent cascade model and
+linear threshold model. recently, researchers attempt to circumvent the problem of cascade prediction using sequential models (e.g., recurrent neural
+network, namely rnn) that do not require knowing the underlying diffusion model. existing sequential models employ a chain structure to capture
+the memory effect. however, for cascade prediction, each cascade generally corresponds to a diffusion tree, causing cross-dependence in cascade—
+one sharing behavior could be triggered by its
+non-immediate predecessor in the memory chain.
+in this paper, we propose to an attention-based
+rnn to capture the cross-dependence in cascade.
+furthermore, we introduce a coverage strategy to
+combat the misallocation of attention caused by
+the memoryless of traditional attention mechanism.
+extensive experiments on both synthetic and real
+world datasets demonstrate the proposed models
+outperform state-of-the-art models at both cascade
+prediction and inferring diffusion tree.

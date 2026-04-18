@@ -1,0 +1,14 @@
+recent rapid increase in the generation of clinical data and rapid
+development of computational science make us able to extract new insights from
+massive datasets in healthcare industry. oncological clinical notes are
+creating rich databases for documenting patients history and they potentially
+contain lots of patterns that could help in better management of the disease.
+however, these patterns are locked within free text (unstructured) portions of
+clinical documents and consequence in limiting health professionals to extract
+useful information from them and to finally perform query and answering (qa)
+process in an accurate way. the information extraction (ie) process requires
+natural language processing (nlp) techniques to assign semantics to these
+patterns. therefore, in this paper, we analyze the design of annotators for
+specific lung cancer concepts that can be integrated over apache unstructured
+information management architecture (uima) framework. in addition, we explain
+the details of generation and storage of annotation outcomes.

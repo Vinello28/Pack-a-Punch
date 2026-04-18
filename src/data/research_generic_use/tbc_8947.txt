@@ -1,0 +1,14 @@
+the diameter $k$-clustering problem is the problem of partitioning a finite
+subset of $\mathbb{r}^d$ into $k$ subsets called clusters such that the maximum
+diameter of the clusters is minimized. one early clustering algorithm that
+computes a hierarchy of approximate solutions to this problem (for all values
+of $k$) is the agglomerative clustering algorithm with the complete linkage
+strategy. for decades, this algorithm has been widely used by practitioners.
+however, it is not well studied theoretically. in this paper, we analyze the
+agglomerative complete linkage clustering algorithm. assuming that the
+dimension $d$ is a constant, we show that for any $k$ the solution computed by
+this algorithm is an $o(\log k)$-approximation to the diameter $k$-clustering
+problem. our analysis does not only hold for the euclidean distance but for any
+metric that is based on a norm. furthermore, we analyze the closely related
+$k$-center and discrete $k$-center problem. for the corresponding agglomerative
+algorithms, we deduce an approximation factor of $o(\log k)$ as well.

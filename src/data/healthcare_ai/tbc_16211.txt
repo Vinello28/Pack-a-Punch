@@ -1,0 +1,23 @@
+a content-based image retrieval (cbir) system which identifies similar
+medical images based on a query image can assist clinicians for more accurate
+diagnosis. the recent cbir research trend favors the construction and use of
+binary codes to represent images. deep architectures could learn the non-linear
+relationship among image pixels adaptively, allowing the automatic learning of
+high-level features from raw pixels. however, most of them require class
+labels, which are expensive to obtain, particularly for medical images. the
+methods which do not need class labels utilize a deep autoencoder for binary
+hashing, but the code construction involves a specific training algorithm and
+an ad-hoc regularization technique. in this study, we explored using a deep
+de-noising autoencoder (dda), with a new unsupervised training scheme using
+only backpropagation and dropout, to hash images into binary codes. we
+conducted experiments on more than 14,000 x-ray images. by using class labels
+only for evaluating the retrieval results, we constructed a 16-bit dda and a
+512-bit dda independently. comparing to other unsupervised methods, we
+succeeded to obtain the lowest total error by using the 512-bit codes for
+retrieval via exhaustive search, and speed up 9.27 times with the use of the
+16-bit codes while keeping a comparable total error. we found that our new
+training scheme could reduce the total retrieval error significantly by 21.9%.
+to further boost the image retrieval performance, we developed radon
+autoencoder barcode (rabc) which are learned from the radon projections of
+images using a de-noising autoencoder. experimental results demonstrated its
+superior performance in retrieval when it was combined with dda binary codes.

@@ -1,0 +1,17 @@
+optimal data aggregation aimed at maximizing iot network lifetime by
+minimizing constrained on-board resource utilization continues to be a
+challenging task. the existing data aggregation methods have proven that
+compressed sensing is promising for data aggregation. however, they compromise
+either on energy efficiency or recovery fidelity and require complex on-node
+computations. in this paper, we propose a novel light weight compressed data
+aggregation (lwcda) algorithm that randomly divides the entire network into
+non-overlapping clusters for data aggregation. the random non-overlapping
+clustering offers two important advantages: 1) energy efficiency, as each node
+has to send its measurement only to its cluster head, 2) highly sparse
+measurement matrix, which leads to a practically implementable framework with
+low complexity. we analyze the properties of our measurement matrix using
+restricted isometry property, the associated coherence and phase transition.
+through extensive simulations on practical data, we show that the measurement
+matrix can reconstruct data with high fidelity. further, we demonstrate that
+the lwcda algorithm reduces transmission cost significantly against baseline
+approaches, implying thereby the enhancement of the network lifetime.

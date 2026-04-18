@@ -1,0 +1,21 @@
+impervious surface area is a direct consequence of the urbanization, which
+also plays an important role in urban planning and environmental management.
+with the rapidly technical development of remote sensing, monitoring urban
+impervious surface via high spatial resolution (hsr) images has attracted
+unprecedented attention recently. traditional multi-classes models are
+inefficient for impervious surface extraction because it requires labeling all
+needed and unneeded classes that occur in the image exhaustively. therefore, we
+need to find a reliable one-class model to classify one specific land cover
+type without labeling other classes. in this study, we investigate several
+one-class classifiers, such as presence and background learning (pbl), positive
+unlabeled learning (pul), ocsvm, bsvm and maxent, to extract urban impervious
+surface area using high spatial resolution imagery of gf-1, china's new
+generation of high spatial remote sensing satellite, and evaluate the
+classification accuracy based on artificial interpretation results. compared to
+traditional multi-classes classifiers (ann and svm), the experimental results
+indicate that pbl and pul provide higher classification accuracy, which is
+similar to the accuracy provided by ann model. meanwhile, pbl and pul
+outperforms ocsvm, bsvm, maxent and svm models. hence, the one-class
+classifiers only need a small set of specific samples to train models without
+losing predictive accuracy, which is supposed to gain more attention on urban
+impervious surface extraction or other one specific land cover type.

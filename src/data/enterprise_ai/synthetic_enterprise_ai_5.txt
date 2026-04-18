@@ -1,1 +1,0 @@
-Soluzione di document understanding basata su NLP per la classificazione automatica di contratti e fatture nel settore assicurativo.

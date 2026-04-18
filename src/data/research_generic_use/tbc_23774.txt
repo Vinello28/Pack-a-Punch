@@ -1,0 +1,1 @@
+hadfield-menell et al. (2017) propose the off-switch game, a model of human-ai cooperation in which ai agents always defer to humans because they are uncertain about our preferences. i explain two reasons why ai agents might not defer. first, ai agents might not value learning. second, even if ai agents value learning, they might not be certain to learn our actual preferences.

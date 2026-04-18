@@ -1,0 +1,14 @@
+with a great amount of research going on in the field of autonomous vehicles
+or self-driving cars, there has been considerable progress in road detection
+and tracking algorithms. most of these algorithms use gps to handle road
+junctions and its subsequent decisions. however, there are places in the urban
+environment where it becomes difficult to get gps fixes which render the
+junction decision handling erroneous or possibly risky. vision-based junction
+detection, however, does not have such problems. this paper proposes a novel
+deep convolutional neural network architecture for disambiguation of junctions
+from roads with a high degree of accuracy. this network is benchmarked against
+other well known classifying network architectures like alexnet and vggnet.
+further, we discuss a potential road navigation methodology which uses the
+proposed network model. we conclude by performing an experimental validation of
+the trained network and the navigational method on the roads of the indian
+institute of science (iisc).

@@ -1,0 +1,19 @@
+a recommender system is an information filtering technology which can be used
+to predict preference ratings of items (products, services, movies, etc) and/or
+to output a ranking of items that are likely to be of interest to the user.
+context-aware recommender systems (cars) learn and predict the tastes and
+preferences of users by incorporating available contextual information in the
+recommendation process. one of the major challenges in context-aware
+recommender systems research is the lack of automatic methods to obtain
+contextual information for these systems. considering this scenario, in this
+paper, we propose to use contextual information from topic hierarchies of the
+items (web pages) to improve the performance of context-aware recommender
+systems. the topic hierarchies are constructed by an extension of the
+lupi-based incremental hierarchical clustering method that considers three
+types of information: traditional bag-of-words (technical information), and the
+combination of named entities (privileged information i) with domain terms
+(privileged information ii). we evaluated the contextual information in four
+context-aware recommender systems. different weights were assigned to each type
+of information. the empirical results demonstrated that topic hierarchies with
+the combination of the two kinds of privileged information can provide better
+recommendations.

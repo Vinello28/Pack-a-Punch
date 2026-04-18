@@ -1,0 +1,16 @@
+privacy concern has been increasingly important in many machine learning (ml)
+problems. we study empirical risk minimization (erm) problems under secure
+multi-party computation (mpc) frameworks. main technical tools for mpc have
+been developed based on cryptography. one of limitations in current
+cryptographically private ml is that it is computationally intractable to
+evaluate non-linear functions such as logarithmic functions or exponential
+functions. therefore, for a class of erm problems such as logistic regression
+in which non-linear function evaluations are required, one can only obtain
+approximate solutions. in this paper, we introduce a novel cryptographically
+private tool called secure approximation guarantee (sag) method. the key
+property of sag method is that, given an arbitrary approximate solution, it can
+provide a non-probabilistic assumption-free bound on the approximation quality
+under cryptographically secure computation framework. we demonstrate the
+benefit of the sag method by applying it to several problems including a
+practical privacy-preserving data analysis task on genomic and clinical
+information.

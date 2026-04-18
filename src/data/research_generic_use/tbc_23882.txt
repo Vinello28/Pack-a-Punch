@@ -1,0 +1,21 @@
+recent advances in visual activity recognition have raised the possibility of
+applications such as automated video surveillance. effective approaches for
+such problems however require the ability to recognize the plans of agents from
+video information. although traditional plan recognition algorithms depend on
+access to sophisticated planning domain models, one recent promising direction
+involves learning approximated (or shallow) domain models directly from the
+observed activity sequences dup. one limitation is that such approaches expect
+observed action sequences as inputs. in many cases involving vision/sensing
+from raw data, there is considerable uncertainty about the specific action at
+any given time point. the most we can expect in such cases is probabilistic
+information about the action at that point. the input will then be sequences of
+such observed action distributions. in this work, we address the problem of
+constructing an effective data-interface that allows a plan recognition module
+to directly handle such observation distributions. such an interface works like
+a bridge between the low-level perception module, and the high-level plan
+recognition module. we propose two approaches. the first involves resampling
+the distribution sequences to single action sequences, from which we could
+learn an action affinity model based on learned action (word) embeddings for
+plan recognition. the second is to directly learn action distribution
+embeddings by our proposed distr2vec (distribution to vector) model, to
+construct an affinity model for plan recognition.

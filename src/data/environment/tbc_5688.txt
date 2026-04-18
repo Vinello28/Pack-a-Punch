@@ -1,0 +1,9 @@
+we perform spatio-temporal analysis of public sentiment using geotagged photo
+collections. we develop a deep learning-based classifier that predicts the
+emotion conveyed by an image. this allows us to associate sentiment with place.
+we perform spatial hotspot detection and show that different emotions have
+distinct spatial distributions that match expectations. we also perform
+temporal analysis using the capture time of the photos. our spatio-temporal
+hotspot detection correctly identifies emerging concentrations of specific
+emotions and year-by-year analyses of select locations show there are strong
+temporal correlations between the predicted emotions and known events.

@@ -1,0 +1,18 @@
+analysis of cancer and other pathological diseases, like the interstitial
+lung diseases (ilds), is usually possible through computed tomography (ct)
+scans. to aid this, a preprocessing step of segmentation is performed to reduce
+the area to be analyzed, segmenting the lungs and removing unimportant regions.
+generally, complex methods are developed to extract the lung region, also using
+hand-made feature extractors to enhance segmentation. with the popularity of
+deep learning techniques and its automated feature learning, we propose a lung
+segmentation approach using fully convolutional networks (fcns) combined with
+fully connected conditional random fields (crf), employed in many
+state-of-the-art segmentation works. aiming to develop a generalized approach,
+the publicly available datasets from university hospitals of geneva (hug) and
+vessel12 challenge were studied, including many healthy and pathological ct
+scans for evaluation. experiments using the dataset individually, its trained
+model on the other dataset and a combination of both datasets were employed.
+dice scores of $98.67\%\pm0.94\%$ for the hug-ild dataset and
+$99.19\%\pm0.37\%$ for the vessel12 dataset were achieved, outperforming works
+in the former and obtaining similar state-of-the-art results in the latter
+dataset, showing the capability in using deep learning approaches.

@@ -1,0 +1,24 @@
+abstract: in this work, we present a new nonlinear joint transform correlator (jtc) architecture
+in the fourier domain (fd) for the encryption and decryption of two simultaneous images. the
+main features of the proposed system are its increased level of security, the obtention of a single
+real-valued encrypted signal that contains the ciphered information of the two primary images and,
+additionally, a high image quality for the two final decrypted signals. the two images to be encrypted
+can be either related to each other, or independent signals. the encryption system is based on the
+double random phase encoding (drpe), which is implemented by using a nonlinear jtc in the fd.
+the input plane of the jtc has four non-overlapping data distributions placed side-by-side with
+no blank spaces between them. the four data distributions are phase-only functions defined by
+the two images to encrypt and four random phase masks (rpms). the joint power spectrum (jps)
+is produced by the intensity of the fourier transform (ft) of the input plane of the jtc. one of
+the main novelties of the proposal consists of the determination of the appropriate two nonlinear
+operations that modify the jps distribution with a twofold purpose: to obtain a single real-valued
+encrypted image with a high level of security and to improve the quality of the decrypted images.
+the security keys of the encryption system are represented by the four rpms, which are all necessary
+for a satisfactory decryption. the decryption system is implemented using a 4f-processor where the
+encrypted image and the security keys given by the four rpms are introduced in the proper plane of
+the processor. the double image encryption system based on a nonlinear jtc in the fd increases
+the security of the system because there is a larger key space, and we can simultaneously validate
+two independent information signals (original images to encrypt) in comparison to previous similar
+proposals. the feasibility and performance of the proposed double image encryption and decryption
+system based on a nonlinear jtc are validated through computational simulations. finally, we
+additionally comment on the proposed security system resistance against different attacks based on
+brute force, plaintext and deep learning.

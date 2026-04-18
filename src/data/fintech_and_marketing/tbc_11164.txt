@@ -1,0 +1,18 @@
+facebook marketplace is quickly gaining momentum among consumers as a favored
+customer-to-customer (c2c) product trading platform. the recommendation system
+behind it helps to significantly improve the user experience. building the
+recommendation system for facebook marketplace is challenging for two reasons:
+1) scalability: the number of products in facebook marketplace is huge. tens of
+thousands of products need to be scored and recommended within a couple hundred
+milliseconds for millions of users every day; 2) cold start: the life span of
+the c2c products is very short and the user activities on the products are
+sparse. thus it is difficult to accumulate enough product level signals for
+recommendation and we are facing a significant cold start issue. in this paper,
+we propose to address both the scalability and the cold-start issue by building
+a collaborative multi-modal deep learning based retrieval system where the
+compact embeddings for the users and the products are trained with the
+multi-modal content information. this system shows significant improvement over
+the benchmark in online and off-line experiments: in the online experiment, it
+increases the number of messages initiated by the buyer to the seller by
++26.95%; in the off-line experiment, it improves the prediction accuracy by
++9.58%.

@@ -1,0 +1,10 @@
+learning-based approaches for robotic grasping using visual sensors typically
+require collecting a large size dataset, either manually labeled or by many
+trial and errors of a robotic manipulator in the real or simulated world. we
+propose a simpler learning-from-demonstration approach that is able to detect
+the object to grasp from merely a single demonstration using a convolutional
+neural network we call graspnet. in order to increase robustness and decrease
+the training time even further, we leverage data from previous demonstrations
+to quickly fine-tune a grapnet for each new demonstration. we present some
+preliminary results on a grasping experiment with the franka panda cobot for
+which we can train a graspnet with only hundreds of train iterations.

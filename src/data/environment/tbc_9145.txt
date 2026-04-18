@@ -1,0 +1,15 @@
+the thermal subsystem of the mars express (mex) spacecraft keeps the on-board
+equipment within its pre-defined operating temperatures range. to plan and
+optimize the scientific operations of mex, its operators need to estimate in
+advance, as accurately as possible, the power consumption of the thermal
+subsystem. the remaining power can then be allocated for scientific purposes.
+we present a machine learning pipeline for efficiently constructing accurate
+predictive models for predicting the power of the thermal subsystem on board
+mex. in particular, we employ state-of-the-art feature engineering approaches
+for transforming raw telemetry data, in turn used for constructing accurate
+models with different state-of-the-art machine learning methods. we show that
+the proposed pipeline considerably improve our previous (competition-winning)
+work in terms of time efficiency and predictive performance. moreover, while
+achieving superior predictive performance, the constructed models also provide
+important insight into the spacecraft's behavior, allowing for further analyses
+and optimal planning of mex's operation.

@@ -1,0 +1,15 @@
+this article explores the usage of the state-of-art neural network mask r-cnn
+to be used for window detection of texture files from the citygml model of
+berlin. as texture files are very irregular in terms of size, exposure settings
+and orientation, we use several parameter optimisation methods to improve the
+precision. those textures are cropped from aerial photos, which implies that
+the angle of the facade, the exposure as well as contrast are calibrated
+towards the mean and not towards the single facade. the analysis of a single
+texture image with the human eye itself is challenging: a combination of window
+and facade estimation and perspective analysis is necessary in order to
+determine the facades and windows. we train and detect bounding boxes and masks
+from two data sets with image size 128 and 256. we explore various
+configuration optimisation methods and the relation of the region proposal
+network, detected rois and the mask output. our final results shows that the we
+can improve the average precision scores for both data set sizes, yet the
+initial ap score varies and leads to different resulting scores.

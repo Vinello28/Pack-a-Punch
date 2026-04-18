@@ -1,0 +1,19 @@
+driver gaze has been shown to be an excellent surrogate for driver attention
+in intelligent vehicles. with the recent surge of highly autonomous vehicles,
+driver gaze can be useful for determining the handoff time to a human driver.
+while there has been significant improvement in personalized driver gaze zone
+estimation systems, a generalized system which is invariant to different
+subjects, perspectives and scales is still lacking. we take a step towards this
+generalized system using convolutional neural networks (cnns). we finetune 4
+popular cnn architectures for this task, and provide extensive comparisons of
+their outputs. we additionally experiment with different input image patches,
+and also examine how image size affects performance. for training and testing
+the networks, we collect a large naturalistic driving dataset comprising of 11
+long drives, driven by 10 subjects in two different cars. our best performing
+model achieves an accuracy of 95.18% during cross-subject testing,
+outperforming current state of the art techniques for this task. finally, we
+evaluate our best performing model on the publicly available columbia gaze
+dataset comprising of images from 56 subjects with varying head pose and gaze
+directions. without any training, our model successfully encodes the different
+gaze directions on this diverse dataset, demonstrating good generalization
+capabilities.

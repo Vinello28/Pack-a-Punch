@@ -1,0 +1,1 @@
+we present a multimodal dialogue system that allows doctors to interact with a medical decision support system in virtual reality (vr). we integrate an interactive visualization of patient records and radiology image data, as well as therapy predictions. therapy predictions are computed in real-time using a deep learning model.

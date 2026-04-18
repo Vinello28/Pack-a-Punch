@@ -1,0 +1,4 @@
+in this work, we present our findings and experiments for stock-market
+prediction using various textual sentiment analysis tools, such as mood
+analysis and event extraction, as well as prediction models, such as lstms and
+specific convolutional architectures.

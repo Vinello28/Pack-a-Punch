@@ -1,0 +1,11 @@
+computer vision for automated analysis of cells and tissues usually include
+extracting features from images before analyzing such features via various
+machine learning and machine vision algorithms. we developed a convolutional
+neural network model that classifies mda-mb-468 and mcf7 breast cancer cells
+via brightfield microscopy images without the need of any prior feature
+extraction. our 6-layer convolutional neural network is directly trained,
+validated and tested on 1,241 images of mda-mb-468 and mcf7 breast cancer cell
+line in an end-to-end fashion, allowing a system to distinguish between
+different cancer cell types. the model takes in as input imaged breast cancer
+cell line and then outputs the cell line type (mda-mb-468 or mcf7) as predicted
+probabilities between the two classes. our model scored a 99% accuracy.

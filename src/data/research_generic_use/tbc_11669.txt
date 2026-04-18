@@ -1,0 +1,22 @@
+motivation: ontologies are widely used in biology for data annotation,
+integration, and analysis. in addition to formally structured axioms,
+ontologies contain meta-data in the form of annotation axioms which provide
+valuable pieces of information that characterize ontology classes. annotations
+commonly used in ontologies include class labels, descriptions, or synonyms.
+despite being a rich source of semantic information, the ontology meta-data are
+generally unexploited by ontology-based analysis methods such as semantic
+similarity measures. results: we propose a novel method, opa2vec, to generate
+vector representations of biological entities in ontologies by combining formal
+ontology axioms and annotation axioms from the ontology meta-data. we apply a
+word2vec model that has been pre-trained on pubmed abstracts to produce feature
+vectors from our collected data. we validate our method in two different ways:
+first, we use the obtained vector representations of proteins as a similarity
+measure to predict protein-protein interaction (ppi) on two different datasets.
+second, we evaluate our method on predicting gene-disease associations based on
+phenotype similarity by generating vector representations of genes and diseases
+using a phenotype ontology, and applying the obtained vectors to predict
+gene-disease associations. these two experiments are just an illustration of
+the possible applications of our method. opa2vec can be used to produce vector
+representations of any biomedical entity given any type of biomedical ontology.
+availability: https://github.com/bio-ontology-research-group/opa2vec contact:
+robert.hoehndorf@kaust.edu.sa and xin.gao@kaust.edu.sa.

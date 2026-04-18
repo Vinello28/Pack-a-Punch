@@ -1,0 +1,10 @@
+this paper describes our approach to the bosch production line performance
+challenge run by kaggle.com. maximizing the production yield is at the heart of
+the manufacturing industry. at the bosch assembly line, data is recorded for
+products as they progress through each stage. data science methods are applied
+to this huge data repository consisting records of tests and measurements made
+for each component along the assembly line to predict internal failures. we
+found that it is possible to train a model that predicts which parts are most
+likely to fail. thus a smarter failure detection system can be built and the
+parts tagged likely to fail can be salvaged to decrease operating costs and
+increase the profit margins.

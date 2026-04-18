@@ -1,0 +1,22 @@
+autonomous driving has attracted remarkable attention from both industry and
+academia. an important task is to estimate 3d properties(e.g.translation,
+rotation and shape) of a moving or parked vehicle on the road. this task, while
+critical, is still under-researched in the computer vision community -
+partially owing to the lack of large scale and fully-annotated 3d car database
+suitable for autonomous driving research. in this paper, we contribute the
+first large-scale database suitable for 3d car instance understanding -
+apollocar3d. the dataset contains 5,277 driving images and over 60k car
+instances, where each car is fitted with an industry-grade 3d cad model with
+absolute model size and semantically labelled keypoints. this dataset is above
+20 times larger than pascal3d+ and kitti, the current state-of-the-art. to
+enable efficient labelling in 3d, we build a pipeline by considering 2d-3d
+keypoint correspondences for a single instance and 3d relationship among
+multiple instances. equipped with such dataset, we build various baseline
+algorithms with the state-of-the-art deep convolutional neural networks.
+specifically, we first segment each car with a pre-trained mask r-cnn, and then
+regress towards its 3d pose and shape based on a deformable 3d car model with
+or without using semantic keypoints. we show that using keypoints significantly
+improves fitting performance. finally, we develop a new 3d metric jointly
+considering 3d pose and 3d shape, allowing for comprehensive evaluation and
+ablation study. by comparing with human performance we suggest several future
+directions for further improvements.

@@ -1,0 +1,9 @@
+an automated method to detect and analyze the melanoma is presented to
+improve diagnosis which will leads to the exact treatment. image processing
+techniques such as segmentation, feature descriptors and classification models
+are involved in this method. in the first phase the lesion region is segmented
+using cielab color space based segmentation. then feature descriptors such as
+shape, color and texture are extracted. finally, in the third phase lesion
+region is classified as melanoma, seborrheic keratosis or nevus using multi
+class o-a svm model. experiment with isic 2017 archive skin image database has
+been done and analyzed the results.

@@ -1,0 +1,19 @@
+next basket recommendation, which aims to predict the next a few items that a
+user most probably purchases given his historical transactions, plays a vital
+role in market basket analysis. from the viewpoint of item, an item could be
+purchased by different users together with different items, for different
+reasons. therefore, an ideal recommender system should represent an item
+considering its transaction contexts. existing state-of-the-art deep learning
+methods usually adopt the static item representations, which are invariant
+among all of the transactions and thus cannot achieve the full potentials of
+deep learning. inspired by the pre-trained representations of bert in natural
+language processing, we propose to conduct context-aware item representation
+for next basket recommendation, called item encoder representations from
+transformers (iert). in the offline phase, iert pre-trains deep item
+representations conditioning on their transaction contexts. in the online
+recommendation phase, the pre-trained model is further fine-tuned with an
+additional output layer. the output contextualized item embeddings are used to
+capture users' sequential behaviors and general tastes to conduct
+recommendation. experimental results on the ta-feng data set show that iert
+outperforms the state-of-the-art baseline methods, which demonstrated the
+effectiveness of iert in next basket representation.

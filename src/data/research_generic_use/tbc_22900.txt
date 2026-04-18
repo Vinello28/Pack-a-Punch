@@ -1,0 +1,14 @@
+recent advancements in recurrent neural network (rnn) research have
+demonstrated the superiority of utilizing multiscale structures in learning
+temporal representations of time series. currently, most of multiscale rnns use
+fixed scales, which do not comply with the nature of dynamical temporal
+patterns among sequences. in this paper, we propose adaptively scaled recurrent
+neural networks (asrnn), a simple but efficient way to handle this problem.
+instead of using predefined scales, asrnns are able to learn and adjust scales
+based on different temporal contexts, making them more flexible in modeling
+multiscale patterns. compared with other multiscale rnns, asrnns are bestowed
+upon dynamical scaling capabilities with much simpler structures, and are easy
+to be integrated with various rnn cells. the experiments on multiple sequence
+modeling tasks indicate asrnns can efficiently adapt scales based on different
+sequence contexts and yield better performances than baselines without
+dynamical scaling abilities.

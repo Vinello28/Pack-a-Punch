@@ -1,0 +1,7 @@
+large language models with glu architectures are typically designed with significant expansion ratios in their mlp layers, where output dimensions are several times larger than input dimensions. while various pruning techniques have been proposed to reduce model size, the relationship between this expansion capacity and model performance has remained unexplored. this paper presents a systematic investigation of glu expansion ratios as a key metric for model pruning, using llama-3.2 models (1b and 3b variants) as case studies. 
+
+our findings reveal that models with an expansion ratio of 140% consistently outperform others, achieving a balance between redundancy reduction, task-specific performance, and environmental sustainability. for instance, llama-3.2-1b at 40% pruning and llama-3.2-3b at 10% pruning surpassed their respective baselines in multiple benchmarks, including boolq, ifeval, and musr. 
+
+beyond performance, this study underscores significant environmental benefits. specifically, pruning the 3b model to 140% expansion with just 10% pruning achieved a remarkable 50% reduction in co2 emissions, showcasing the potential of pruning to enhance computational efficiency while maintaining robust performance. 
+
+future research should explore extending these findings to other glu-based architectures, such as mistral, qwen, and microsoft phi, to validate their broader applicability. this study provides a novel perspective on sustainable ai development, effectively bridging the goals of performance optimization and environmental responsibility.

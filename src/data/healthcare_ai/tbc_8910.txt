@@ -1,0 +1,22 @@
+chemical-chemical interaction (cci) plays a key role in predicting candidate
+drugs, toxicity, therapeutic effects, and biological functions. in various
+types of chemical analyses, computational approaches are often required due to
+the amount of data that needs to be handled. the recent remarkable growth and
+outstanding performance of deep learning have attracted considerable research
+attention. however,even in state-of-the-art drug analysis methods, deep
+learning continues to be used only as a classifier, although deep learning is
+capable of not only simple classification but also automated feature
+extraction. in this paper, we propose the first end-to-end learning method for
+cci, named deepcci. hidden features are derived from a simplified molecular
+input line entry system (smiles), which is a string notation representing the
+chemical structure, instead of learning from crafted features. to discover
+hidden representations for the smiles strings, we use convolutional neural
+networks (cnns). to guarantee the commutative property for homogeneous
+interaction, we apply model sharing and hidden representation merging
+techniques. the performance of deepcci was compared with a plain deep
+classifier and conventional machine learning methods. the proposed deepcci
+showed the best performance in all seven evaluation metrics used. in addition,
+the commutative property was experimentally validated. the automatically
+extracted features through end-to-end smiles learning alleviates the
+significant efforts required for manual feature engineering. it is expected to
+improve prediction performance, in drug analyses.

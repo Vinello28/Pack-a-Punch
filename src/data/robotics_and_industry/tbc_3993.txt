@@ -1,1 +1,0 @@
-Il progetto  SiCoSAGai si concentra sullapplicazione delle tecnologie di visione e dellintelligenza artificiale generativa per migliorare il processo di collaudo delle saldature robotizzate  rendendolo più efficiente ed adattabile alle variazioni. La finalità del progetto è la realizzazione di un prototipo convalidato in ambiente industrialmente rilevante.

@@ -1,0 +1,7 @@
+from an image sequence captured by a stationary camera, background
+subtraction can detect moving foreground objects in the scene. distinguishing
+foreground from background is further improved by various heuristics. then each
+object's motion can be emphasized by duplicating its positions as a motion
+trail. these trails clarify the objects' spatial relationships. also, adding
+motion trails to a video before previewing it at high speed reduces the risk of
+overlooking transient events.

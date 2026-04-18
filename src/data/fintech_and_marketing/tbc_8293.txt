@@ -1,0 +1,16 @@
+application of fuzzy support vector machine in stock price forecast. support
+vector machine is a new type of machine learning method proposed in 1990s. it
+can deal with classification and regression problems very successfully. due to
+the excellent learning performance of support vector machine, the technology
+has become a hot research topic in the field of machine learning, and it has
+been successfully applied in many fields. however, as a new technology, there
+are many limitations to support vector machines. there is a large amount of
+fuzzy information in the objective world. if the training of support vector
+machine contains noise and fuzzy information, the performance of the support
+vector machine will become very weak and powerless. as the complexity of many
+factors influence the stock price prediction, the prediction results of
+traditional support vector machine cannot meet people with precision, this
+study improved the traditional support vector machine fuzzy prediction
+algorithm is proposed to improve the new model precision. nasdaq stock market,
+standard & poor's (s&p) stock market are considered. novel advanced- fuzzy
+support vector machine (na-fsvm) is the proposed methodology.

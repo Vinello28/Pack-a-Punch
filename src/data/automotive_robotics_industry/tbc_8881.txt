@@ -1,0 +1,15 @@
+there is a plenty of research going on in field of robotics. one of the most
+important task is dynamic estimation of response during motion. one of the main
+applications of this research topics is the task of pouring, which is performed
+daily and is commonly used while cooking. we present an approach to estimate
+response to a sequence of manipulation actions. we are experimenting with
+pouring motion and the response is the change of the amount of water in the
+pouring cup. the pouring motion is represented by rotation angle and the amount
+of water is represented by its weight. we are using recurrent neural networks
+for building the neural network model to train on sequences which represents
+1307 trails of pouring. the model gives great results on unseen test data which
+does not too different with training data in terms of dimensions of the cup
+used for pouring and receiving. the loss obtained with this test data is
+4.5920. the model does not give good results on generalization experiments when
+we provide a test set which has dimensions of the cup very different from those
+in training data.

@@ -1,0 +1,17 @@
+osteoarthritis (oa) is a common musculoskeletal condition typically diagnosed
+from radiographic assessment after clinical examination. however, a visual
+evaluation made by a practitioner suffers from subjectivity and is highly
+dependent on the experience. computer-aided diagnostics (cad) could improve the
+objectivity of knee radiographic examination. the first essential step of knee
+oa cad is to automatically localize the joint area. however, according to the
+literature this task itself remains challenging. the aim of this study was to
+develop novel and computationally efficient method to tackle the issue. here,
+three different datasets of knee radiographs were used (n = 473/93/77) to
+validate the overall performance of the method. our pipeline consists of two
+parts: anatomically-based joint area proposal and their evaluation using
+histogram of oriented gradients and the pre-trained support vector machine
+classifier scores. the obtained results for the used datasets show the mean
+intersection over the union equal to: 0.84, 0.79 and 0.78. using a high-end
+computer, the method allows to automatically annotate conventional knee
+radiographs within 14-16ms and high resolution ones within 170ms. our results
+demonstrate that the developed method is suitable for large-scale analyses.

@@ -1,0 +1,11 @@
+this paper studies an application of machine learning in extracting features
+from the historical market implied corporate bond yields. we consider an
+example of a hypothetical illiquid fixed income market. after choosing a
+surrogate liquid market, we apply the denoising autoencoder (dae) algorithm to
+learn the features of the missing yield parameters from the historical data of
+the instruments traded in the chosen liquid market. the dae algorithm is then
+challenged by two "point-in-time" inpainting algorithms taken from the image
+processing and computer vision domain. it is observed that, when tested on
+unobserved rate surfaces, the dae algorithm exhibits superior performance
+thanks to the features it has learned from the historical shapes of yield
+curves.

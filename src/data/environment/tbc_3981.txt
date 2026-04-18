@@ -1,0 +1,1 @@
+deep learning techniques are applied so as to increase the spatial resolution of sentinel2 satellite imagery, depicting the amynteo lignite mine in ptolemaida, greece. resolution enhancement by factors 2 and 4 as well as by factors 2 and 6 using very-deep superresolution (vdsr) and dsen2 networks, respectively, provides fairly well results on amynteo lignite mine images.

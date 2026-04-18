@@ -1,0 +1,11 @@
+video watermarking embeds a message into a cover
+video in an imperceptible manner, which can be retrieved
+even if the video undergoes certain modifications or distor￾tions. traditional watermarking methods are often manu￾ally designed for particular types of distortions and thus
+cannot simultaneously handle a broad spectrum of distor￾tions. to this end, we propose a robust deep learning-based
+solution for video watermarking that is end-to-end train￾able. our model consists of a novel multiscale design where
+the watermarks are distributed across multiple spatial￾temporal scales. it gains robustness against various dis￾tortions through a differentiable distortion layer, whereas
+non-differentiable distortions, such as popular video com￾pression standards, are modeled by a differentiable proxy.
+extensive evaluations on a wide variety of distortions show
+that our method outperforms traditional video watermark￾ing methods as well as deep image watermarking models by
+a large margin. we further demonstrate the practicality of
+our method on a realistic video-editing application.

@@ -1,0 +1,14 @@
+filters in a convolutional neural network (cnn) contain model parameters
+learned from enormous amounts of data. in this paper, we suggest to decompose
+convolutional filters in cnn as a truncated expansion with pre-fixed bases,
+namely the decomposed convolutional filters network (dcfnet), where the
+expansion coefficients remain learned from data. such a structure not only
+reduces the number of trainable parameters and computation, but also imposes
+filter regularity by bases truncation. through extensive experiments, we
+consistently observe that dcfnet maintains accuracy for image classification
+tasks with a significant reduction of model parameters, particularly with
+fourier-bessel (fb) bases, and even with random bases. theoretically, we
+analyze the representation stability of dcfnet with respect to input
+variations, and prove representation stability under generic assumptions on the
+expansion coefficients. the analysis is consistent with the empirical
+observations.

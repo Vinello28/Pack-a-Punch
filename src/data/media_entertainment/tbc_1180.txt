@@ -1,0 +1,14 @@
+we show how we can globally edit images using textual instructions: given a
+source image and a textual instruction for the edit, generate a new image
+transformed under this instruction. to tackle this novel problem, we develop
+three different trainable models based on rnn and generative adversarial
+network (gan). the models (bucket, filter bank, and end-to-end) differ in how
+much expert knowledge is encoded, with the most general version being purely
+end-to-end. to train these systems, we use amazon mechanical turk to collect
+textual descriptions for around 2000 image pairs sampled from several datasets.
+experimental results evaluated on our dataset validate our approaches. in
+addition, given that the filter bank model is a good compromise between
+generality and performance, we investigate it further by replacing rnn with
+graph rnn, and show that graph rnn improves performance. to the best of our
+knowledge, this is the first computational photography work on global image
+editing that is purely based on free-form textual instructions.

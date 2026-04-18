@@ -1,0 +1,12 @@
+search is at the heart of modern e-commerce. as a result, the task of ranking
+search results automatically (learning to rank) is a multibillion dollar
+machine learning problem. traditional models optimize over a few
+hand-constructed features based on the item's text. in this paper, we introduce
+a multimodal learning to rank model that combines these traditional features
+with visual semantic features transferred from a deep convolutional neural
+network. in a large scale experiment using data from the online marketplace
+etsy, we verify that moving to a multimodal representation significantly
+improves ranking quality. we show how image features can capture fine-grained
+style information not available in a text-only representation. in addition, we
+show concrete examples of how image information can successfully disentangle
+pairs of highly different items that are ranked similarly by a text-only model.

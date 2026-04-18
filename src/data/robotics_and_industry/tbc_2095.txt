@@ -1,1 +1,0 @@
-Realizzazione di un’isola di lavoro innovativa e flessibile  dove una coppia di robot collaborativi possa eseguire il test automatico degli azionamenti elettronici prodotti dall’azienda.

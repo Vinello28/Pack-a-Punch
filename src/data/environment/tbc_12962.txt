@@ -1,0 +1,18 @@
+colombia has a privileged geographical location which makes it a cornerstone
+and equidistant point to all regional markets. the country has a great
+ecological diversity and it is one of the largest suppliers of flowers for us.
+colombian flower companies have made innovations in the marketing process,
+using methods to reach all conditions for final consumers. this article
+develops a monitoring system for floriculture industries. the system was
+implemented in a robotic platform. this device has the ability to be programmed
+in different programming languages. the robot takes the necessary environment
+information from its camera. the algorithm of the monitoring system was
+developed with the image processing toolbox on matlab. the implemented
+algorithm acquires images through its camera, it performs a preprocessing of
+the image, noise filter, enhancing of the color and adjusting the dimension in
+order to increase processing speed. then, the image is segmented by color and
+with the binarized version of the image using morphological operations (erosion
+and dilation), extract relevant features such as centroid, perimeter and area.
+the data obtained from the image processing helps the robot with the automatic
+identification of objectives, orientation and move towards them. also, the
+results generate a diagnostic quality of each object scanned.

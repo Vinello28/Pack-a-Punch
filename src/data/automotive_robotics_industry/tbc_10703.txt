@@ -1,0 +1,18 @@
+estimating the 6d pose of known objects is important for robots to interact
+with the real world. the problem is challenging due to the variety of objects
+as well as the complexity of a scene caused by clutter and occlusions between
+objects. in this work, we introduce posecnn, a new convolutional neural network
+for 6d object pose estimation. posecnn estimates the 3d translation of an
+object by localizing its center in the image and predicting its distance from
+the camera. the 3d rotation of the object is estimated by regressing to a
+quaternion representation. we also introduce a novel loss function that enables
+posecnn to handle symmetric objects. in addition, we contribute a large scale
+video dataset for 6d object pose estimation named the ycb-video dataset. our
+dataset provides accurate 6d poses of 21 objects from the ycb dataset observed
+in 92 videos with 133,827 frames. we conduct extensive experiments on our
+ycb-video dataset and the occludedlinemod dataset to show that posecnn is
+highly robust to occlusions, can handle symmetric objects, and provide accurate
+pose estimation using only color images as input. when using depth data to
+further refine the poses, our approach achieves state-of-the-art results on the
+challenging occludedlinemod dataset. our code and dataset are available at
+https://rse-lab.cs.washington.edu/projects/posecnn/.

@@ -1,0 +1,11 @@
+iris is one of the popular biometrics that is widely used for identity
+authentication. different features have been used to perform iris recognition
+in the past. most of them are based on hand-crafted features designed by
+biometrics experts. due to tremendous success of deep learning in computer
+vision problems, there has been a lot of interest in applying features learned
+by convolutional neural networks on general image recognition to other tasks
+such as segmentation, face recognition, and object detection. in this paper, we
+have investigated the application of deep features extracted from vgg-net for
+iris recognition. the proposed scheme has been tested on two well-known iris
+databases, and has shown promising results with the best accuracy rate of
+99.4\%, which outperforms the previous best result.

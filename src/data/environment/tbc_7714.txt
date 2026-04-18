@@ -1,0 +1,20 @@
+rapid developments in hardware, software, and communication technologies have
+allowed the emergence of internet-connected sensory devices that provide
+observation and data measurement from the physical world. by 2020, it is
+estimated that the total number of internet-connected devices being used will
+be between 25 and 50 billion. as the numbers grow and technologies become more
+mature, the volume of data published will increase. internet-connected devices
+technology, referred to as internet of things (iot), continues to extend the
+current internet by providing connectivity and interaction between the physical
+and cyber worlds. in addition to increased volume, the iot generates big data
+characterized by velocity in terms of time and location dependency, with a
+variety of multiple modalities and varying data quality. intelligent processing
+and analysis of this big data is the key to developing smart iot applications.
+this article assesses the different machine learning methods that deal with the
+challenges in iot data by considering smart cities as the main use case. the
+key contribution of this study is presentation of a taxonomy of machine
+learning algorithms explaining how different techniques are applied to the data
+in order to extract higher level information. the potential and challenges of
+machine learning for iot data analytics will also be discussed. a use case of
+applying support vector machine (svm) on aarhus smart city traffic data is
+presented for a more detailed exploration.

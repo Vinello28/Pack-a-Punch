@@ -1,0 +1,21 @@
+reconstructing 4d vehicular activity (3d space
+and time) from cameras is useful for autonomous vehicles,
+commuters and local authorities to plan for smarter and safer
+cities. traffic is inherently repetitious over long periods, yet
+current deep learning-based 3d reconstruction methods have
+not considered such repetitions and have difficulty generalizing
+to new intersection-installed cameras. we present a novel
+approach exploiting longitudinal (long-term) repetitious motion
+as self-supervision to reconstruct 3d vehicular activity from a
+video captured by a single fixed camera. starting from offthe-shelf 2d keypoint detections, our algorithm optimizes 3d
+vehicle shapes and poses, and then clusters their trajectories in
+3d space. the 2d keypoints and trajectory clusters accumulated
+over long-term are later used to improve the 2d and 3d
+keypoints via self-supervision without any human annotation.
+our method improves reconstruction accuracy over state of
+the art on scenes with a significant visual difference from the
+keypoint detector’s training data, and has many applications
+including velocity estimation, anomaly detection and vehicle
+counting. we demonstrate results on traffic videos captured
+at multiple city intersections, collected using our smartphones,
+youtube, and other public datasets.

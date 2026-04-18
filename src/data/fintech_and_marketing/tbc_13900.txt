@@ -1,0 +1,14 @@
+derivative traders are usually required to scan through hundreds, even
+thousands of possible trades on a daily basis. up to now, not a single solution
+is available to aid in their job. hence, this work aims to develop a trading
+recommendation system, and apply this system to the so-called mid-curve
+calendar spread (mccs), an exotic swaption-based derivatives package. in
+summary, our trading recommendation system follows this pipeline: (i) on a
+certain trade date, we compute metrics and sensitivities related to an mccs;
+(ii) these metrics are feed in a model that can predict its expected return for
+a given holding period; and after repeating (i) and (ii) for all trades we
+(iii) rank the trades using some dominance criteria. to suggest that such
+approach is feasible, we used a list of 35 different types of mccs; a total of
+11 predictive models; and 4 benchmark models. our results suggest that in
+general linear regression with lasso regularisation compared favourably to
+other approaches from a predictive and interpretability perspective.

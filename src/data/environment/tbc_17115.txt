@@ -1,0 +1,22 @@
+smart services are an important element of the smart cities and the internet
+of things (iot) ecosystems where the intelligence behind the services is
+obtained and improved through the sensory data. providing a large amount of
+training data is not always feasible; therefore, we need to consider
+alternative ways that incorporate unlabeled data as well. in recent years, deep
+reinforcement learning (drl) has gained great success in several application
+domains. it is an applicable method for iot and smart city scenarios where
+auto-generated data can be partially labeled by users' feedback for training
+purposes. in this paper, we propose a semi-supervised deep reinforcement
+learning model that fits smart city applications as it consumes both labeled
+and unlabeled data to improve the performance and accuracy of the learning
+agent. the model utilizes variational autoencoders (vae) as the inference
+engine for generalizing optimal policies. to the best of our knowledge, the
+proposed model is the first investigation that extends deep reinforcement
+learning to the semi-supervised paradigm. as a case study of smart city
+applications, we focus on smart buildings and apply the proposed model to the
+problem of indoor localization based on ble signal strength. indoor
+localization is the main component of smart city services since people spend
+significant time in indoor environments. our model learns the best action
+policies that lead to a close estimation of the target locations with an
+improvement of 23% in terms of distance to the target and at least 67% more
+received rewards compared to the supervised drl model.

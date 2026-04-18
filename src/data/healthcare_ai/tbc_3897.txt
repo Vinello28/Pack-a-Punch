@@ -1,0 +1,18 @@
+x-ray baggage security screening is widely used to maintain aviation and
+transport security. of particular interest is the focus on automated security
+x-ray analysis for particular classes of object such as electronics, electrical
+items, and liquids. however, manual inspection of such items is challenging
+when dealing with potentially anomalous items. here we present a dual
+convolutional neural network (cnn) architecture for automatic anomaly detection
+within complex security x-ray imagery. we leverage recent advances in
+region-based (r-cnn), mask-based cnn (mask r-cnn) and detection architectures
+such as retinanet to provide object localisation variants for specific object
+classes of interest. subsequently, leveraging a range of established cnn object
+and fine-grained category classification approaches we formulate within object
+anomaly detection as a two-class problem (anomalous or benign). while the best
+performing object localisation method is able to perform with 97.9% mean
+average precision (map) over a six-class x-ray object detection problem,
+subsequent two-class anomaly/benign classification is able to achieve 66%
+performance for within object anomaly detection. overall, this performance
+illustrates both the challenge and promise of object-wise anomaly detection
+within the context of cluttered x-ray security imagery.

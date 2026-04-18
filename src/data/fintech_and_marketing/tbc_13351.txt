@@ -1,0 +1,14 @@
+we describe a parallel bayesian online deep learning framework (pbodl) for
+click-through rate (ctr) prediction within today's tencent advertising system,
+which provides quick and accurate learning of user preferences. we first
+explain the framework with a deep probit regression model, which is trained
+with probabilistic back-propagation in the mode of assumed gaussian density
+filtering. then we extend the model family to a variety of bayesian online
+models with increasing feature embedding capabilities, such as sparse-mlp,
+fm-mlp and ffm-mlp. finally, we implement a parallel training system based on a
+stream computing infrastructure and parameter servers. experiments with public
+available datasets and tencent industrial datasets show that models within our
+framework perform better than several common online models, such as
+adpredictor, ftrl-proximal and matchbox. online a/b test within tencent
+advertising system further proves that our framework could achieve ctr and cpm
+lift by learning more quickly and accurately.

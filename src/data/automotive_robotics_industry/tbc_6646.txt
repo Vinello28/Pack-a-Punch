@@ -1,0 +1,14 @@
+while it is believed that denoising is not always necessary in many big data
+applications, we show in this paper that denoising is helpful in urban traffic
+analysis by applying the method of bounded total variation denoising to the
+urban road traffic prediction and clustering problem. we propose two
+easy-to-implement methods to estimate the noise strength parameter in the
+denoising algorithm, and apply the denoising algorithm to gps-based traffic
+data from beijing taxi system. for the traffic prediction problem, we combine
+neural network and history matching method for roads randomly chosen from an
+urban area of beijing. numerical experiments show that the predicting accuracy
+is improved significantly by applying the proposed bounded total variation
+denoising algorithm. we also test the algorithm on clustering problem, where a
+recently developed clustering analysis method is applied to more than one
+hundred urban road segments in beijing based on their velocity profiles. better
+clustering result is obtained after denoising.

@@ -1,0 +1,18 @@
+segmenting a structural magnetic resonance imaging (mri) scan is an important
+pre-processing step for analytic procedures and subsequent inferences about
+longitudinal tissue changes. manual segmentation defines the current gold
+standard in quality but is prohibitively expensive. automatic approaches are
+computationally intensive, incredibly slow at scale, and error prone due to
+usually involving many potentially faulty intermediate steps. in order to
+streamline the segmentation, we introduce a deep learning model that is based
+on volumetric dilated convolutions, subsequently reducing both processing time
+and errors. compared to its competitors, the model has a reduced set of
+parameters and thus is easier to train and much faster to execute. the contrast
+in performance between the dilated network and its competitors becomes obvious
+when both are tested on a large dataset of unprocessed human brain volumes. the
+dilated network consistently outperforms not only another state-of-the-art deep
+learning approach, the up convolutional network, but also the ground truth on
+which it was trained. not only can the incredible speed of our model make large
+scale analyses much easier but we also believe it has great potential in a
+clinical setting where, with little to no substantial delay, a patient and
+provider can go over test results.

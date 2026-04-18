@@ -1,0 +1,17 @@
+accurate state estimation is a fundamental problem for autonomous robots. to
+achieve locally accurate and globally drift-free state estimation, multiple
+sensors with complementary properties are usually fused together. local sensors
+(camera, imu, lidar, etc) provide precise pose within a small region, while
+global sensors (gps, magnetometer, barometer, etc) supply noisy but globally
+drift-free localization in a large-scale environment. in this paper, we propose
+a sensor fusion framework to fuse local states with global sensors, which
+achieves locally accurate and globally drift-free pose estimation. local
+estimations, produced by existing vo/vio approaches, are fused with global
+sensors in a pose graph optimization. within the graph optimization, local
+estimations are aligned into a global coordinate. meanwhile, the accumulated
+drifts are eliminated. we evaluate the performance of our system on public
+datasets and with real-world experiments. results are compared against other
+state-of-the-art algorithms. we highlight that our system is a general
+framework, which can easily fuse various global sensors in a unified pose graph
+optimization. our implementations are open
+source\footnote{https://github.com/hkust-aerial-robotics/vins-fusion}.

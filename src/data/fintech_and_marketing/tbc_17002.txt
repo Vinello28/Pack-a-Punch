@@ -1,0 +1,15 @@
+the ability to automatically detect fraudulent escrow websites is important
+in order to alleviate online auction fraud. despite research on related topics,
+fake escrow website categorization has received little attention. in this study
+we evaluated the effectiveness of various features and techniques for detecting
+fake escrow websites. our analysis included a rich set of features extracted
+from web page text, image, and link information. we also proposed a composite
+kernel tailored to represent the properties of fake websites, including content
+duplication and structural attributes. experiments were conducted to assess the
+proposed features, techniques, and kernels on a test bed encompassing nearly
+90,000 web pages derived from 410 legitimate and fake escrow sites. the
+combination of an extended feature set and the composite kernel attained over
+98% accuracy when differentiating fake sites from real ones, using the support
+vector machines algorithm. the results suggest that automated web-based
+information systems for detecting fake escrow sites could be feasible and may
+be utilized as authentication mechanisms.

@@ -1,0 +1,28 @@
+timely and accurate estimation of the area and distribution of crops is vital for food security.
+optical remote sensing has been a key technique for acquiring crop area and conditions on regional
+to global scales, but great challenges arise due to frequent cloudy days in southern china. this
+makes optical remote sensing images usually unavailable. synthetic aperture radar (sar) could
+bridge this gap since it is less aeffected by clouds. the recent availability of sentinel-1a (s1a) sar
+imagery with a 12-day revisit period at a high spatial resolution of about 10 m makes it possible to
+fully utilize phenological information to improve early crop classification. in deep learning methods,
+one-dimensional convolutional neural networks (1d cnns), long short-term memory recurrent
+neural networks (lstm rnns), and gated recurrent unit rnns (gru rnns) have been shown
+to efficiently extract temporal features for classification tasks. however, due to the complexity of
+training, these three deep learning methods have been less used in early crop classification. in this
+work, we attempted to combine them with an incremental classification method to avoid the need for
+training optimal architectures and hyper-parameters for data from each time series. first, we trained
+1d cnns, lstm rnns, and gru rnns based on the full images’ time series to attain three classifiers
+with optimal architectures and hyper-parameters. then, starting at the first time point, we performed
+an incremental classification process to train each classifier using all of the previous data, and obtained
+a classification network with all parameter values (including the hyper-parameters) at each time
+point. finally, test accuracies of each time point were assessed for each crop type to determine the
+optimal time series length. a case study was conducted in suixi and leizhou counties of zhanjiang
+city, china. to verify the effectiveness of this method, we also implemented the classic random forest
+(rf) approach. the results were as follows: (i) 1d cnns achieved the highest kappa coefficient
+(0.942) of the four classifiers, and the highest value (0.934) in the gru rnns time series was attained
+earlier than with other classifiers; (ii) all three deep learning methods and the rf achieved f measures
+above 0.900 before the end of growth seasons of banana, eucalyptus, second-season paddy rice, and
+sugarcane; while, the 1d cnn classifier was the only one that could obtain an f-measure above 0.900
+for pineapple before harvest. all results indicated the eeffectiveness of the solution combining the
+deep learning models with the incremental classification approach for early crop classification. this
+method is expected to provide new perspectives for early mapping of croplands in cloudy areas.

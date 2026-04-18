@@ -1,0 +1,20 @@
+progress has been achieved recently in object detection given advancements in
+deep learning. nevertheless, such tools typically require a large amount of
+training data and significant manual effort to label objects. this limits their
+applicability in robotics, where solutions must scale to a large number of
+objects and variety of conditions. this work proposes an autonomous process for
+training a convolutional neural network (cnn) for object detection and pose
+estimation in robotic setups. the focus is on detecting objects placed in
+cluttered, tight environments, such as a shelf with multiple objects. in
+particular, given access to 3d object models, several aspects of the
+environment are physically simulated. the models are placed in physically
+realistic poses with respect to their environment to generate a labeled
+synthetic dataset. to further improve object detection, the network self-trains
+over real images that are labeled using a robust multi-view pose estimation
+process. the proposed training process is evaluated on several existing
+datasets and on a dataset collected for this paper with a motoman robotic arm.
+results show that the proposed approach outperforms popular training processes
+relying on synthetic - but not physically realistic - data and manual
+annotation. the key contributions are the incorporation of physical reasoning
+in the synthetic data generation process and the automation of the annotation
+process over real images.

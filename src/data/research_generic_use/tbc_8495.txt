@@ -1,0 +1,20 @@
+the application and usage of opinion mining, especially for business
+intelligence, product recommendation, targeted marketing etc. have fascinated
+many research attentions around the globe. various research efforts attempted
+to mine opinions from customer reviews at different levels of granularity,
+including word-, sentence-, and document-level. however, development of a fully
+automatic opinion mining and sentiment analysis system is still elusive. though
+the development of opinion mining and sentiment analysis systems are getting
+momentum, most of them attempt to perform document-level sentiment analysis,
+classifying a review document as positive, negative, or neutral. such
+document-level opinion mining approaches fail to provide insight about users
+sentiment on individual features of a product or service. therefore, it seems
+to be a great help for both customers and manufacturers, if the reviews could
+be processed at a finer-grained level and presented in a summarized form
+through some visual means, highlighting individual features of a product and
+users sentiment expressed over them. in this paper, the design of a unified
+opinion mining and sentiment analysis framework is presented at the
+intersection of both machine learning and natural language processing
+approaches. also, design of a novel feature-level review summarization scheme
+is proposed to visualize mined features, opinions and their polarity values in
+a comprehendible way.

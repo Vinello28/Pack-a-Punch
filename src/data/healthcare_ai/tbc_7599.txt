@@ -1,0 +1,24 @@
+replication studies are essential for validation of new methods, and are
+crucial to maintain the high standards of scientific publications, and to use
+the results in practice. we have attempted to replicate the main method in
+'development and validation of a deep learning algorithm for detection of
+diabetic retinopathy in retinal fundus photographs' published in jama 2016;
+316(22). we re-implemented the method since the source code is not available,
+and we used publicly available data sets. the original study used non-public
+fundus images from eyepacs and three hospitals in india for training. we used a
+different eyepacs data set from kaggle. the original study used the benchmark
+data set messidor-2 to evaluate the algorithm's performance. we used the same
+data set. in the original study, ophthalmologists re-graded all images for
+diabetic retinopathy, macular edema, and image gradability. there was one
+diabetic retinopathy grade per image for our data sets, and we assessed image
+gradability ourselves. hyper-parameter settings were not described in the
+original study. but some of these were later published. we were not able to
+replicate the original study. our algorithm's area under the receiver operating
+curve (auc) of 0.94 on the kaggle eyepacs test set and 0.80 on messidor-2 did
+not come close to the reported auc of 0.99 in the original study. this may be
+caused by the use of a single grade per image, different data, or different not
+described hyper-parameter settings. this study shows the challenges of
+replicating deep learning, and the need for more replication studies to
+validate deep learning methods, especially for medical image analysis.
+  our source code and instructions are available at:
+https://github.com/mikevoets/jama16-retina-replication

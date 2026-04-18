@@ -1,0 +1,21 @@
+hemoglobin is the iron containing protein in red blood cells which carries oxygen from lungs to
+rest of the body tissues. accurate measurement of hemoglobin is essential for diagnosing anemia, a condition
+characterized by a deficiency of red blood cells. this measurement is particularly vital before initiating
+blood transfusions for thalassemia patients. non-invasive estimation of hemoglobin levels can be achieved
+through photoplethysmography (ppg)-based methods. ppg is an optical method to measure blood volume
+changes in successive heart beats. ppg signals can be obtained from fingertip videos using a light source
+and a photodetector. smartphoneppg utilizes a smartphone’s flashlight as a light source and its camera as
+a photodetector to acquire ppg signals, offering an affordable and portable point-of-care tool. despite the
+ubiquity of smartphones, signals from their cameras often contain noise, making feature selection from ppg
+characteristics challenging. while ppg-based methods are invaluable, the lack of real-world datasets poses
+a significant challenge in maximizing the benefits of ppg technology. in this paper, we introduce a dataset
+comprising 1-minute fingertip video recordings from 150 anemic patients, obtained using a smartphone’s
+camera. the dataset, publicly accessible for research purposes (https://forms.gle/lb4qn81zmqeuy3v27),
+covers an age range of 6 months to 32 years, with diverse hemoglobin values (4.3 gm/dl - 12.4 gm/dl).
+utilizing this dataset, we propose a deep learning-based technique employing the resnet-18 architecture to
+estimate hemoglobin levels. this approach eliminates the need for manual feature extraction and selection
+from ppg signals, overcoming a limitation in existing smartphone ppg-based hemoglobin estimation
+systems. our model achieves a hemoglobin level estimation with an rmse of 0.81-1.39 when compared
+with the gold standard laboratory method, complete blood count (cbc) test reports. in contrast, hemaapp,
+a state-of-the-art research utilizing a machine learning-based classifier (svm), yields an rmse of 1.7 on
+our dataset. the accuracy and simplicity of our model position it as a promising alternative to existing noninvasive hemoglobin level estimation methods.

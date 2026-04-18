@@ -1,0 +1,22 @@
+social and information networking activities such as on facebook, twitter,
+wechat, and weibo have become an indispensable part of our everyday life, where
+we can easily access friends' behaviors and are in turn influenced by them.
+consequently, an effective social influence prediction for each user is
+critical for a variety of applications such as online recommendation and
+advertising.
+  conventional social influence prediction approaches typically design various
+hand-crafted rules to extract user- and network-specific features. however,
+their effectiveness heavily relies on the knowledge of domain experts. as a
+result, it is usually difficult to generalize them into different domains.
+inspired by the recent success of deep neural networks in a wide range of
+computing applications, we design an end-to-end framework, deepinf, to learn
+users' latent feature representation for predicting social influence. in
+general, deepinf takes a user's local network as the input to a graph neural
+network for learning her latent social representation. we design strategies to
+incorporate both network structures and user-specific features into
+convolutional neural and attention networks. extensive experiments on open
+academic graph, twitter, weibo, and digg, representing different types of
+social and information networks, demonstrate that the proposed end-to-end
+model, deepinf, significantly outperforms traditional feature engineering-based
+approaches, suggesting the effectiveness of representation learning for social
+applications.

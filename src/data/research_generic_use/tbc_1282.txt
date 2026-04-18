@@ -1,0 +1,15 @@
+text is the main method of communicating information in the digital age.
+messages, blogs, news articles, reviews, and opinionated information abound on
+the internet. people commonly purchase products online and post their opinions
+about purchased items. this feedback is displayed publicly to assist others
+with their purchasing decisions, creating the need for a mechanism with which
+to extract and summarize useful information for enhancing the decision-making
+process. our contribution is to improve the accuracy of extraction by combining
+different techniques from three major areas, named data mining, natural
+language processing techniques and ontologies. the proposed framework
+sequentially mines products aspects and users opinions, groups representative
+aspects by similarity, and generates an output summary. this paper focuses on
+the task of extracting product aspects and users opinions by extracting all
+possible aspects and opinions from reviews using natural language, ontology,
+and frequent (tag) sets. the proposed framework, when compared with an existing
+baseline model, yielded promising results.

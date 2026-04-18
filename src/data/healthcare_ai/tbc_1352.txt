@@ -1,0 +1,24 @@
+background: electroencephalography (eeg) monitors brain activity during sleep
+and is used to identify sleep disorders. in sleep medicine, clinicians
+interpret raw eeg signals in so-called sleep stages, which are assigned by
+experts to every 30s window of signal. for diagnosis, they also rely on shorter
+prototypical micro-architecture events which exhibit variable durations and
+shapes, such as spindles, k-complexes or arousals. annotating such events is
+traditionally performed by a trained sleep expert, making the process time
+consuming, tedious and subject to inter-scorer variability. to automate this
+procedure, various methods have been developed, yet these are event-specific
+and rely on the extraction of hand-crafted features.
+  new method: we propose a novel deep learning architecure called dreem one
+shot event detector (dosed). dosed jointly predicts locations, durations and
+types of events in eeg time series. the proposed approach, applied here on
+sleep related micro-architecture events, is inspired by object detectors
+developed for computer vision such as yolo and ssd. it relies on a
+convolutional neural network that builds a feature representation from raw eeg
+signals, as well as two modules performing localization and classification
+respectively.
+  results and comparison with other methods: the proposed approach is tested on
+4 datasets and 3 types of events (spindles, k-complexes, arousals) and compared
+to the current state-of-the-art detection algorithms.
+  conclusions: results demonstrate the versatility of this new approach and
+improved performance compared to the current state-of-the-art detection
+methods.

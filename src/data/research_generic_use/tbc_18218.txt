@@ -1,0 +1,17 @@
+e-commerce companies such as amazon, alibaba and flipkart process billions of
+orders every year. however, these orders represent only a small fraction of all
+plausible orders. exploring the space of all plausible orders could help us
+better understand the relationships between the various entities in an
+e-commerce ecosystem, namely the customers and the products they purchase. in
+this paper, we propose a generative adversarial network (gan) for orders made
+in e-commerce websites. once trained, the generator in the gan could generate
+any number of plausible orders. our contributions include: (a) creating a dense
+and low-dimensional representation of e-commerce orders, (b) train an
+ecommercegan (ecgan) with real orders to show the feasibility of the proposed
+paradigm, and (c) train an ecommerce-conditional-gan (ec^2gan) to generate the
+plausible orders involving a particular product. we propose several qualitative
+methods to evaluate ecgan and demonstrate its effectiveness. the ec^2gan is
+used for various kinds of characterization of possible orders involving a
+product that has just been introduced into the e-commerce system. the proposed
+approach ec^2gan performs significantly better than the baseline in most of the
+scenarios.

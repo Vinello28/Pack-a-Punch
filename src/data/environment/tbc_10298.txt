@@ -1,0 +1,17 @@
+the goal of sustainable development can be attained by the efficient management of renewable energy resources. 
+wind energy is attracting attention worldwide due to its renewable and sustainable nature. accurate wind speed 
+prediction is essential for the stable functioning of wind turbines to generate wind power. however, the flexible 
+and intermittent nature of wind speed makes accurate wind speed forecasting a challenging task. the proposed 
+wind speed forecasting framework combines the features of various data decomposition techniques and bidi-
+rectional long short term memory (bidlstm) networks. presently, data decomposition models such as the 
+wavelet transform are extensively employed for wind speed forecasting to improve the accuracy of the fore-
+casting models. hence, in this paper, various data decomposition techniques that can denoise the signal are 
+investigated and applied to partition the input time series into several high and low-frequency signals. the data 
+decomposition methods, namely, wavelet transform, empirical model decomposition, ensemble empirical 
+mode decomposition, and empirical wavelet transform, have been applied to denoise the dataset. the low and 
+high-frequency sub-series are forecasted separately using bidirectional lstm networks, and the forecasting 
+outcomes of low and high-frequency signals are aggregated to get the final forecasting results. the empirical 
+results establish that the proposed ewt- based hybrid model outperforms other decomposition-based models in 
+accuracy and stability. the performance of the ewt-bidlstm model is further compared with bidirectional 
+lstm networks with skip connections. the experimental results substantiate that the proposed decomposition- 
+based hybrid deep bidlstm models with skip connections exhibit better prediction accuracy than other models.

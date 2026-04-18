@@ -1,1 +1,0 @@
-Scopo del progetto è la ricerca teorica di tecnologie automatizzate  fondate su algoritmi di machine learning finalizzati a organizzare in modo efficace ed efficiente il servizio di assistenza post vendita e a ottimizzare via tele-gestione il funzionamento operativo di una macchina frigorifera.

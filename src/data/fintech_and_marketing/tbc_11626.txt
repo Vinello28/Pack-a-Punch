@@ -1,0 +1,15 @@
+when human agents come together to make decisions, it is often the case that
+one human agent has more information than the other. this phenomenon is called
+information asymmetry and this distorts the market. often if one human agent
+intends to manipulate a decision in its favor the human agent can signal wrong
+or right information. alternatively, one human agent can screen for information
+to reduce the impact of asymmetric information on decisions. with the advent of
+artificial intelligence, signaling and screening have been made easier. this
+paper studies the impact of artificial intelligence on the theory of asymmetric
+information. it is surmised that artificial intelligent agents reduce the
+degree of information asymmetry and thus the market where these agents are
+deployed become more efficient. it is also postulated that the more artificial
+intelligent agents there are deployed in the market the less is the volume of
+trades in the market. this is because for many trades to happen the asymmetry
+of information on goods and services to be traded should exist, creating a
+sense of arbitrage.

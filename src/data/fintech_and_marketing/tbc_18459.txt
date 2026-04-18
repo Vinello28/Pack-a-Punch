@@ -1,0 +1,42 @@
+： with the rapid expansion of cyberspace and the fast development of information 
+technology， cyberattacks have become increasingly commonplace. according to the survey of 
+cybersecurity ventures， a world-renowned network economy research institution， the economic loss 
+caused by cybercrimes is estimated to reach usd 10.5 trillion per year by 2025. the chinese 
+government attaches great importance to cybersecurity. general secretary xi jinping profoundly 
+pointed out that “without cybersecurity， there is no national security”. however， existing studies have 
+paid insufficient attention to the cybersecurity issues faced by chinese enterprises. at present， the 
+digital economy has become an inevitable trend in china’s economy. it can be predicted that the 
+cybersecurity risk exposure of chinese enterprises will become increasingly prominent. in this context， 
+accurately understanding the economic consequences of enterprise cybersecurity risks and exploring the 
+effective governance strategies of enterprise cybersecurity risks can not only provide theoretical support 
+for the formulation of cybersecurity-related policies in china but also provide new ideas for coping with 
+future digital technology changes.
+ based on the text analysis method of machine learning， this paper innovatively depicts the 
+cybersecurity risks of chinese enterprises and empirically examines the impact of cybersecurity risks on 
+the trade credit decision and long-term business relationship of upstream and downstream enterprises. 
+this paper finds that cybersecurity risks significantly reduce corporate net trade credit and customers 
+are more sensitive to enterprise cybersecurity risks than suppliers. the decrease in corporate net trade 
+credit is mainly driven by customers’ risk aversion motivation. in addition， the reputation loss caused 
+by cybersecurity risks is more obvious in enterprises with greater exposure to cybersecurity risks， such 
+as enterprises with higher digitalization or more trade secrets and non-state-owned enterprises， as well 
+as in enterprises with a weaker ability to control losses afterward， such as enterprises with smaller 
+market power， greater financing constraints， and lower management ability. further analysis shows that 
+cybersecurity risks lead to the dynamic adjustment of the business relationship between customers and 
+enterprises， so that customers allocate more businesses to other enterprises， thus triggering the long
+term decline of supply chain trust. strengthening digital governance， risk management， and enterprise 
+communication can effectively alleviate the trust decline caused by cybersecurity risks.
+ the possible contributions of this paper are as follows. firstly， this paper extends relevant studies 
+on reputation loss of cybersecurity risks from the perspective of supply chain trust. by examining the 
+impact of enterprise cybersecurity risk on the trade credit decision of upstream and downstream 
+enterprises and the adjustment of the long-term business relationship caused by it， this paper provides a 
+new perspective for revealing the transmission mechanism of cybersecurity risks in the supply chain. 
+secondly， this paper supplements research on the influencing factors of corporate trade credit from the 
+perspective of cybersecurity risks. digital technology and the real economy are deeply integrated with 
+the rapid development of information technology. while bringing efficiency to enterprises， new 
+technologies generate new cybersecurity problems. analyzing the impact of cybersecurity risks on 
+corporate trade credit， this paper provides new ideas for understanding trust construction and business 
+dynamics among enterprises in the context of the digital economy. thirdly， at the methodological level， 
+this paper innovatively uses the text analysis method based on machine learning and take the md&a 
+text of listed companies’ annual reports as the analysis objects to construct indicators that can 
+comprehensively reflect the cybersecurity risks of chinese enterprises， providing a useful reference for 
+the subsequent assessment of enterprise cybersecurity risks and their economic impacts.

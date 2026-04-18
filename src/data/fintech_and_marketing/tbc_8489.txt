@@ -1,0 +1,17 @@
+user response prediction makes a crucial contribution to the rapid
+development of online advertising system and recommendation system. the
+importance of learning feature interactions has been emphasized by many works.
+many deep models are proposed to automatically learn high-order feature
+interactions. since most features in advertising system and recommendation
+system are high-dimensional sparse features, deep models usually learn a
+low-dimensional distributed representation for each feature in the bottom
+layer. besides traditional fully-connected architectures, some new operations,
+such as convolutional operations and product operations, are proposed to learn
+feature interactions better. in these models, the representation is shared
+among different operations. however, the best representation for different
+operations may be different. in this paper, we propose a new neural model named
+operation-aware neural networks (onn) which learns different representations
+for different operations. our experimental results on two large-scale
+real-world ad click/conversion datasets demonstrate that onn consistently
+outperforms the state-of-the-art models in both offline-training environment
+and online-training environment.

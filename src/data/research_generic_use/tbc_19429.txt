@@ -1,0 +1,15 @@
+a recent paper by gatys et al. describes a method for rendering an image in
+the style of another image. first, they use convolutional neural network
+features to build a statistical model for the style of an image. then they
+create a new image with the content of one image but the style statistics of
+another image. here, we extend this method to render a movie in a given
+artistic style. the naive solution that independently renders each frame
+produces poor results because the features of the style move substantially from
+one frame to the next. the other naive method that initializes the optimization
+for the next frame using the rendered version of the previous frame also
+produces poor results because the features of the texture stay fixed relative
+to the frame of the movie instead of moving with objects in the scene. the main
+contribution of this paper is to use optical flow to initialize the style
+transfer optimization so that the texture features move with the objects in the
+video. finally, we suggest a method to incorporate optical flow explicitly into
+the cost function.

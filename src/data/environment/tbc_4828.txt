@@ -1,0 +1,14 @@
+early detection of incipient faults is of vital importance to reducing
+maintenance costs, saving energy, and enhancing occupant comfort in buildings.
+popular supervised learning models such as deep neural networks are considered
+promising due to their ability to directly learn from labeled fault data;
+however, it is known that the performance of supervised learning approaches
+highly relies on the availability and quality of labeled training data. in
+fault detection and diagnosis (fdd) applications, the lack of labeled incipient
+fault data has posed a major challenge to applying these supervised learning
+techniques to commercial buildings. to overcome this challenge, this paper
+proposes using monte carlo dropout (mc-dropout) to enhance the supervised
+learning pipeline, so that the resulting neural network is able to detect and
+diagnose unseen incipient fault examples. we also examine the proposed
+mc-dropout method on the rp-1043 dataset to demonstrate its effectiveness in
+indicating the most likely incipient fault types.

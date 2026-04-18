@@ -1,0 +1,17 @@
+connecting different text attributes associated with the same entity
+(conflation) is important in business data analytics since it could help merge
+two different tables in a database to provide a more comprehensive profile of
+an entity. however, the conflation task is challenging because two text strings
+that describe the same entity could be quite different from each other for
+reasons such as misspelling. it is therefore critical to develop a conflation
+model that is able to truly understand the semantic meaning of the strings and
+match them at the semantic level. to this end, we develop a character-level
+deep conflation model that encodes the input text strings from character level
+into finite dimension feature vectors, which are then used to compute the
+cosine similarity between the text strings. the model is trained in an
+end-to-end manner using back propagation and stochastic gradient descent to
+maximize the likelihood of the correct association. specifically, we propose
+two variants of the deep conflation model, based on long-short-term memory
+(lstm) recurrent neural network (rnn) and convolutional neural network (cnn),
+respectively. both models perform well on a real-world business analytics
+dataset and significantly outperform the baseline bag-of-character (boc) model.

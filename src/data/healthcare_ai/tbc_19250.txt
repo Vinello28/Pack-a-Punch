@@ -1,0 +1,17 @@
+segmentation of ultrasound images is an essential task in both diagnosis and
+image-guided interventions given the ease-of-use and low cost of this imaging
+modality. as manual segmentation is tedious and time consuming, a growing body
+of research has focused on the development of automatic segmentation
+algorithms. deep learning algorithms have shown remarkable achievements in this
+regard; however, they need large training datasets. unfortunately, preparing
+large labeled datasets in ultrasound images is prohibitively difficult.
+therefore, in this study, we propose the use of simulated ultrasound (us)
+images for training the u-net deep learning segmentation architecture and test
+on tissue-mimicking phantom data collected by an ultrasound machine. we
+demonstrate that the trained architecture on the simulated data is
+transferrable to real data, and therefore, simulated data can be considered as
+an alternative training dataset when real datasets are not available. the
+second contribution of this paper is that we train our u- net network on
+envelope and b-mode images of the simulated dataset, and test the trained
+network on real envelope and b- mode images of phantom, respectively. we show
+that test results are superior for the envelope data compared to b-mode image.

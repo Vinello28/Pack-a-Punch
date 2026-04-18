@@ -1,0 +1,24 @@
+estimates of population abundance are fundamental to wildlife management and
+conservation, but are difficult to obtain across large geographic scales and
+for cryptic species. we used a state-space model with age-at-harvest data in a
+bayesian framework to model american black bear (ursus americanus) abundance
+and demographic parameters in four management zones in wisconsin from
+2011-2017. we had limited demographic data available from the population, and
+relied upon a) the model, b) age-at-harvest data, and c) informative prior
+distributions from a literature review. the estimated posterior means and
+distributions for abundance and demographic parameters from our models were
+reasonable for each management zone, and indicated a decreasing trend in zones
+a and b, and a generally stable trend in zones c and d. the age-at-harvest data
+updated the posterior distribution and means for initial population size,
+harvest season survival, and non-harvest season survival, with a notable
+increase in precision for the survival values. a strength of the model for
+managers is the formalized process for providing biologically supported
+information as prior distributions to transparently accommodate expert opinion
+with measures of confidence when estimating wildlife populations, which can
+then be updated by the age-at-harvest data and model structure. the integration
+of prior information and age-at-harvest state-space models in a bayesian
+framework efficiently leverage all available information for making
+zone-specific abundance estimates for the management of harvested species. this
+may create more informative data for decision-makers when setting harvest
+quotas, and could lead to more effective monitoring, conservation, and
+management of cryptic carnivore species.

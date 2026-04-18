@@ -1,0 +1,15 @@
+applications such as face recognition that deal with high-dimensional data
+need a mapping technique that introduces representation of low-dimensional
+features with enhanced discriminatory power and a proper classifier, able to
+classify those complex features. most of traditional linear discriminant
+analysis suffer from the disadvantage that their optimality criteria are not
+directly related to the classification ability of the obtained feature
+representation. moreover, their classification accuracy is affected by the
+"small sample size" problem which is often encountered in fr tasks. in this
+short paper, we combine nonlinear kernel based mapping of data called kdda with
+support vector machine classifier to deal with both of the shortcomings in an
+efficient and cost effective manner. the proposed here method is compared, in
+terms of classification accuracy, to other commonly used fr methods on umist
+face database. results indicate that the performance of the proposed method is
+overall superior to those of traditional fr approaches, such as the eigenfaces,
+fisherfaces, and d-lda methods and traditional linear classifiers.

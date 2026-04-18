@@ -1,0 +1,21 @@
+single image super resolution (sr), which refers to reconstruct a
+higher-resolution (hr) image from the observed low-resolution (lr) image, has
+received substantial attention due to its tremendous application potentials.
+despite the breakthroughs of recently proposed sr methods using convolutional
+neural networks (cnns), their generated results usually lack of preserving
+structural (high-frequency) details. in this paper, regarding global boundary
+context and residual context as complimentary information for enhancing
+structural details in image restoration, we develop a contextualized multi-task
+learning framework to address the sr problem. specifically, our method first
+extracts convolutional features from the input lr image and applies one
+deconvolutional module to interpolate the lr feature maps in a content-adaptive
+way. then, the resulting feature maps are fed into two branched sub-networks.
+during the neural network training, one sub-network outputs salient image
+boundaries and the hr image, and the other sub-network outputs the local
+residual map, i.e., the residual difference between the generated hr image and
+ground-truth image. on several standard benchmarks (i.e., set5, set14 and
+bsd200), our extensive evaluations demonstrate the effectiveness of our sr
+method on achieving both higher restoration quality and computational
+efficiency compared with several state-of-the-art sr approaches. the source
+code and some sr results can be found at:
+http://hcp.sysu.edu.cn/structure-preserving-image-super-resolution/

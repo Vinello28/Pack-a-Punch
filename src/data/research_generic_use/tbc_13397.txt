@@ -1,0 +1,1 @@
+this book aims to review and present the recent advances of distributed representation learning for nlp, including why representation learning can improve nlp, how representation learning takes part in various important topics of nlp, and what challenges are still not well addressed by distributed representation.

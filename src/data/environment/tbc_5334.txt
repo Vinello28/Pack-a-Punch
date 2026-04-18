@@ -1,0 +1,22 @@
+detecting faults in electrical power grids is of paramount importance, either
+from the electricity operator and consumer viewpoints. modern electric power
+grids (smart grids) are equipped with smart sensors that allow to gather
+real-time information regarding the physical status of all the component
+elements belonging to the whole infrastructure (e.g., cables and related
+insulation, transformers, breakers and so on). in real-world smart grid
+systems, usually, additional information that are related to the operational
+status of the grid itself are collected such as meteorological information.
+designing a suitable recognition (discrimination) model of faults in a
+real-world smart grid system is hence a challenging task. this follows from the
+heterogeneity of the information that actually determine a typical fault
+condition. the second point is that, for synthesizing a recognition model, in
+practice only the conditions of observed faults are usually meaningful.
+therefore, a suitable recognition model should be synthesized by making use of
+the observed fault conditions only. in this paper, we deal with the problem of
+modeling and recognizing faults in a real-world smart grid system, which
+supplies the entire city of rome, italy. recognition of faults is addressed by
+following a combined approach of multiple dissimilarity measures customization
+and one-class classification techniques. we provide here an in-depth study
+related to the available data and to the models synthesized by the proposed
+one-class classifier. we offer also a comprehensive analysis of the fault
+recognition results by exploiting a fuzzy set based reliability decision rule.

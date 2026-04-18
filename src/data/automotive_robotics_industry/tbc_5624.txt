@@ -1,0 +1,19 @@
+in this paper, we address the problem of road segmentation and free space
+detection in the context of autonomous driving. traditional methods either use
+3-dimensional (3d) cues such as point clouds obtained from lidar, radar or
+stereo cameras or 2-dimensional (2d) cues such as lane markings, road
+boundaries and object detection. typical 3d point clouds do not have enough
+resolution to detect fine differences in heights such as between road and
+pavement. image based 2d cues fail when encountering uneven road textures such
+as due to shadows, potholes, lane markings or road restoration. we propose a
+novel free road space detection technique combining both 2d and 3d cues. in
+particular, we use cnn based road segmentation from 2d images and plane/box
+fitting on sparse depth data obtained from slam as priors to formulate an
+energy minimization using conditional random field (crf), for road pixels
+classification. while the cnn learns the road texture and is unaffected by
+depth boundaries, the 3d information helps in overcoming texture based
+classification failures. finally, we use the obtained road segmentation with
+the 3d depth data from monocular slam to detect the free space for the
+navigation purposes. our experiments on kitti odometry dataset, camvid dataset,
+as well as videos captured by us, validate the superiority of the proposed
+approach over the state of the art.

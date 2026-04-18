@@ -1,0 +1,15 @@
+electric vehicle (ev) is playing a significant role in the distribution
+energy management systems since the power consumption level of the evs is much
+higher than the other regular home appliances. the randomness of the ev driver
+behaviors make the optimal charging or discharging scheduling even more
+difficult due to the uncertain charging session parameters. to minimize the
+impact of behavioral uncertainties, it is critical to develop effective methods
+to predict ev load for smart ev energy management. using the ev smart charging
+infrastructures on ucla campus and city of santa monica as testbeds, we have
+collected real-world datasets of ev charging behaviors, based on which we
+proposed an ev user modeling technique which combines statistical analysis and
+machine learning approaches. specifically, unsupervised clustering algorithm,
+and multilayer perceptron are applied to historical charging record to make the
+day-ahead ev parking and load prediction. experimental results with
+cross-validation show that our model can achieve good performance for charging
+control scheduling and online ev load forecasting.

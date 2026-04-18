@@ -1,0 +1,8 @@
+we propose a new method to estimate plant biodiversity with r{\'e}nyi and rao
+indexes through the so called high order singular value decomposition (hosvd)
+of tensors. starting from nasa multispectral images we evaluate biodiversity
+and we compare original biodiversity estimates with those realised via the
+hosvd compression methods for big data. our strategy turns out to be extremely
+powerful in terms of storage memory and precision of the outcome. the obtained
+results are so promising that we can support the efficiency of our method in
+the ecological framework.

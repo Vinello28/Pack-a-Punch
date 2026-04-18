@@ -1,0 +1,25 @@
+the importance of robotic assistive devices grows in our work and everyday
+life. cooperative scenarios involving both robots and humans require safe
+human-robot interaction. one important aspect here is the management of robot
+errors, including fast and accurate online robot-error detection and
+correction. analysis of brain signals from a human interacting with a robot may
+help identifying robot errors, but accuracies of such analyses have still
+substantial space for improvement. in this paper we evaluate whether a novel
+framework based on deep convolutional neural networks (deep convnets) could
+improve the accuracy of decoding robot errors from the eeg of a human observer,
+both during an object grasping and a pouring task. we show that deep convnets
+reached significantly higher accuracies than both regularized linear
+discriminant analysis (rlda) and filter bank common spatial patterns (fb-csp)
+combined with rlda, both widely used eeg classifiers. deep convnets reached
+mean accuracies of 75% +/- 9 %, rlda 65% +/- 10% and fb-csp + rlda 63% +/- 6%
+for decoding of erroneous vs. correct trials. visualization of the time-domain
+eeg features learned by the convnets to decode errors revealed spatiotemporal
+patterns that reflected differences between the two experimental paradigms.
+across subjects, convnet decoding accuracies were significantly correlated with
+those obtained with rlda, but not csp, indicating that in the present context
+convnets behaved more 'rlda-like' (but consistently better), while in a
+previous decoding study with another task but the same convnet architecture, it
+was found to behave more 'csp-like'. our findings thus provide further support
+for the assumption that deep convnets are a versatile addition to the existing
+toolbox of eeg decoding techniques, and we discuss steps how convnet eeg
+decoding performance could be further optimized.

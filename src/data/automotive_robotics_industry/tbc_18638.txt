@@ -1,0 +1,19 @@
+we propose a low cost and effective way to combine a free simulation software
+and free cad models for modeling human-object interaction in order to improve
+human & object segmentation. it is intended for research scenarios related to
+safe human-robot collaboration (shrc) and interaction (shri) in the industrial
+domain. the task of human and object modeling has been used for detecting
+activity, and for inferring and predicting actions, different from those works,
+we do human and object modeling in order to learn interactions in rgb-d data
+for improving segmentation. for this purpose, we define a novel density
+function to model a three dimensional (3d) scene in a virtual environment
+(vrep). this density function takes into account various possible
+configurations of human-object and object-object relationships and interactions
+governed by their affordances. using this function, we synthesize a large,
+realistic and highly varied synthetic rgb-d dataset that we use for training.
+we train a random forest classifier, and the pixelwise predictions obtained is
+integrated as a unary term in a pairwise conditional random fields (crf). our
+evaluation shows that modeling these interactions improves segmentation
+performance by ~7\% in mean average precision and recall over state-of-the-art
+methods that ignore these interactions in real-world data. our approach is
+computationally efficient, robust and can run real-time on consumer hardware.

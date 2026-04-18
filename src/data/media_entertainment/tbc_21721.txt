@@ -1,0 +1,9 @@
+digital games have become a key player in the entertainment industry,
+attracting millions of new players each year. in spite of that, novice players
+may have a hard time when playing certain types of games, such as mobas and
+mmorpgs, due to their steep learning curves and not so friendly online
+communities. in this paper, we present an approach to help novice players in
+moba games overcome these problems. an artificial intelligence agent plays
+alongside the player analyzing his/her performance and giving tips about the
+game. experiments performed with the game {\em league of legends} show the
+potential of this approach.

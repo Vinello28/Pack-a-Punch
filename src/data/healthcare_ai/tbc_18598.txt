@@ -1,0 +1,25 @@
+marking tumors and organs is a challenging task suffering from both inter-
+and intra-observer variability. the literature quantifies observer variability
+by generating consensus among multiple experts when they mark the same image.
+automatically building consensus contours to establish quality assurance for
+image segmentation is presently absent in the clinical practice. as the
+\emph{big data} becomes more and more available, techniques to access a large
+number of existing segments of multiple experts becomes possible. fast
+algorithms are, hence, required to facilitate the search for similar cases. the
+present work puts forward a potential framework that tested with small datasets
+(both synthetic and real images) displays the reliability of finding similar
+images. in this paper, the idea of content-based barcodes is used to retrieve
+similar cases in order to build consensus contours in medical image
+segmentation. this approach may be regarded as an extension of the conventional
+atlas-based segmentation that generally works with rather small atlases due to
+required computational expenses. the fast segment-retrieval process via
+barcodes makes it possible to create and use large atlases, something that
+directly contributes to the quality of the consensus building. because the
+accuracy of experts' contours must be measured, we first used 500 synthetic
+prostate images with their gold markers and delineations by 20 simulated users.
+the fast barcode-guided computed consensus delivered an average error of
+$8\%\!\pm\!5\%$ compared against the gold standard segments. furthermore, we
+used magnetic resonance images of prostates from 15 patients delineated by 5
+oncologists and selected the best delineations to serve as the gold-standard
+segments. the proposed barcode atlas achieved a jaccard overlap of
+$87\%\!\pm\!9\%$ with the contours of the gold-standard segments.

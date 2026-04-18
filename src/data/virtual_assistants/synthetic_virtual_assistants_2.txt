@@ -1,1 +1,0 @@
-Realizzazione di un concierge digitale per strutture ricettive turistiche con capacita di prenotazione, informazioni e raccomandazioni personalizzate.

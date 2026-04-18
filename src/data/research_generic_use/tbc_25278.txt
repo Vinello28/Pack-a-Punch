@@ -1,0 +1,21 @@
+in online social networks people often express attitudes towards others,
+which forms massive sentiment links among users. predicting the sign of
+sentiment links is a fundamental task in many areas such as personal
+advertising and public opinion analysis. previous works mainly focus on textual
+sentiment classification, however, text information can only disclose the "tip
+of the iceberg" about users' true opinions, of which the most are unobserved
+but implied by other sources of information such as social relation and users'
+profile. to address this problem, in this paper we investigate how to predict
+possibly existing sentiment links in the presence of heterogeneous information.
+first, due to the lack of explicit sentiment links in mainstream social
+networks, we establish a labeled heterogeneous sentiment dataset which consists
+of users' sentiment relation, social relation and profile knowledge by
+entity-level sentiment extraction method. then we propose a novel and flexible
+end-to-end signed heterogeneous information network embedding (shine) framework
+to extract users' latent representations from heterogeneous networks and
+predict the sign of unobserved sentiment links. shine utilizes multiple deep
+autoencoders to map each user into a low-dimension feature space while
+preserving the network structure. we demonstrate the superiority of shine over
+state-of-the-art baselines on link prediction and node recommendation in two
+real-world datasets. the experimental results also prove the efficacy of shine
+in cold start scenario.

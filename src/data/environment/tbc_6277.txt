@@ -1,0 +1,19 @@
+content caching in small base stations or wireless infostations is considered
+to be a suitable approach to improve the efficiency in wireless content
+delivery. placing the optimal content into local caches is crucial due to
+storage limitations, but it requires knowledge about the content popularity
+distribution, which is often not available in advance. moreover, local content
+popularity is subject to fluctuations since mobile users with different
+interests connect to the caching entity over time. which content a user prefers
+may depend on the user's context. in this paper, we propose a novel algorithm
+for context-aware proactive caching. the algorithm learns context-specific
+content popularity online by regularly observing context information of
+connected users, updating the cache content and observing cache hits
+subsequently. we derive a sublinear regret bound, which characterizes the
+learning speed and proves that our algorithm converges to the optimal cache
+content placement strategy in terms of maximizing the number of cache hits.
+furthermore, our algorithm supports service differentiation by allowing
+operators of caching entities to prioritize customer groups. our numerical
+results confirm that our algorithm outperforms state-of-the-art algorithms in a
+real world data set, with an increase in the number of cache hits of at least
+14%.

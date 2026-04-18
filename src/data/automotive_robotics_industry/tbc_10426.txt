@@ -1,0 +1,16 @@
+semantic segmentation and vision-based geolocalization in aerial images are
+challenging tasks in computer vision. due to the advent of deep convolutional
+nets and the availability of relatively low cost uavs, they are currently
+generating a growing attention in the field. we propose a novel multi-task
+multi-stage neural network that is able to handle the two problems at the same
+time, in a single forward pass. the first stage of our network predicts
+pixelwise class labels, while the second stage provides a precise location
+using two branches. one branch uses a regression network, while the other is
+used to predict a location map trained as a segmentation task. from a
+structural point of view, our architecture uses encoder-decoder modules at each
+stage, having the same encoder structure re-used. furthermore, its size is
+limited to be tractable on an embedded gpu. we achieve commercial gps-level
+localization accuracy from satellite images with spatial resolution of 1 square
+meter per pixel in a city-wide area of interest. on the task of semantic
+segmentation, we obtain state-of-the-art results on two challenging datasets,
+the inria aerial image labeling dataset and massachusetts buildings.

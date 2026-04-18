@@ -1,0 +1,16 @@
+the electronic health record (ehr) contains a large amount of
+multi-dimensional and unstructured clinical data of significant operational and
+research value. distinguished from previous studies, our approach embraces a
+double-annotated dataset and strays away from obscure "black-box" models to
+comprehensive deep learning models. in this paper, we present a novel neural
+attention mechanism that not only classifies clinically important findings.
+specifically, convolutional neural networks (cnn) with attention analysis are
+used to classify radiology head computed tomography reports based on five
+categories that radiologists would account for in assessing acute and
+communicable findings in daily practice. the experiments show that our cnn
+attention models outperform non-neural models, especially when trained on a
+larger dataset. our attention analysis demonstrates the intuition behind the
+classifier's decision by generating a heatmap that highlights attended terms
+used by the cnn model; this is valuable when potential downstream medical
+decisions are to be performed by human experts or the classifier information is
+to be used in cohort construction such as for epidemiological studies.

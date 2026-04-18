@@ -1,0 +1,23 @@
+confocal laser endomicroscopy (cle) is an advanced optical fluorescence
+technology undergoing assessment for applications in brain tumor surgery.
+despite its promising potential, interpreting the unfamiliar gray tone images
+of fluorescent stains can be difficult. many of the cle images can be distorted
+by motion, extremely low or high fluorescence signal, or obscured by red blood
+cell accumulation, and these can be interpreted as nondiagnostic. however, just
+one neat cle image might suffice for intraoperative diagnosis of the tumor.
+while manual examination of thousands of nondiagnostic images during surgery
+would be impractical, this creates an opportunity for a model to select
+diagnostic images for the pathologists or surgeon's review. in this study, we
+sought to develop a deep learning model to automatically detect the diagnostic
+images using a manually annotated dataset, and we employed a patient-based
+nested cross-validation approach to explore generalizability of the model. we
+explored various training regimes: deep training, shallow fine-tuning, and deep
+fine-tuning. further, we investigated the effect of ensemble modeling by
+combining the top-5 single models crafted in the development phase. we
+localized histological features from diagnostic cle images by visualization of
+shallow and deep neural activations. our inter-rater experiment results
+confirmed that our ensemble of deeply fine-tuned models achieved higher
+agreement with the ground truth than the other observers. with the speed and
+precision of the proposed method (110 images/second; 85% on the gold standard
+test subset), it has potential to be integrated into the operative workflow in
+the brain tumor surgery.

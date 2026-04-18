@@ -1,0 +1,18 @@
+despite the development of two and three dimensional (2d&3d) technology, it
+has attracted the attention of researchers in recent years. this research is
+done to reveal the detailed effects of 2d in comparison with 3d technology on
+the human brain waves. the impact of 2d&3d video watching using
+electroencephalography (eeg) brain signals is studied. a group of eight healthy
+volunteers with the average age of 31+-3.06 years old participated in this
+three-stage test. eeg signal recording consisted of three stages: after a bit
+of relaxation (a), a 2d video was displayed (b), the recording of the signal
+continued for a short period of time as rest (c), and finally the trial ended.
+exactly the same steps were repeated for the 3d video. power spectrum density
+(psd) based on short time fourier transform (stft) was used to analyze the
+brain signals of 2d&3d video viewers. after testing all the eeg frequency
+bands, delta and theta were extracted as the features. partial least squares
+regression (plsr) and support vector machine (svm) classification algorithms
+were considered in order to classify eeg signals obtained as the result of
+2d&3d video watching. successful classification results were obtained by
+selecting the correct combinations of effective channels representing the brain
+regions.

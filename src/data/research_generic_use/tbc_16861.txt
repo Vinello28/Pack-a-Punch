@@ -1,0 +1,18 @@
+the state-of-the-art cnn models give good performance on sentence
+classification tasks. the purpose of this work is to empirically study
+desirable properties such as semantic coherence, attention mechanism and
+reusability of cnns in these tasks. semantically coherent kernels are
+preferable as they are a lot more interpretable for explaining the decision of
+the learned cnn model. we observe that the learned kernels do not have semantic
+coherence. motivated by this observation, we propose to learn kernels with
+semantic coherence using clustering scheme combined with word2vec
+representation and domain knowledge such as sentiwordnet. we suggest a
+technique to visualize attention mechanism of cnns for decision explanation
+purpose. reusable property enables kernels learned on one problem to be used in
+another problem. this helps in efficient learning as only a few additional
+domain specific filters may have to be learned. we demonstrate the efficacy of
+our core ideas of learning semantically coherent kernels and leveraging
+reusable kernels for efficient learning on several benchmark datasets.
+experimental results show the usefulness of our approach by achieving
+performance close to the state-of-the-art methods but with semantic and
+reusable properties.

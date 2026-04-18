@@ -1,0 +1,17 @@
+rapid growth of modern technologies such as internet and mobile computing are
+bringing dramatically increased e-commerce payments, as well as the explosion
+in transaction fraud. meanwhile, fraudsters are continually refining their
+tricks, making rule-based fraud detection systems difficult to handle the
+ever-changing fraud patterns. many data mining and artificial intelligence
+methods have been proposed for identifying small anomalies in large transaction
+data sets, increasing detecting efficiency to some extent. nevertheless, there
+is always a contradiction that most methods are irrelevant to transaction
+sequence, yet sequence-related methods usually cannot learn information at
+single-transaction level well. in this paper, a new "within->between->within"
+sandwich-structured sequence learning architecture has been proposed by
+stacking an ensemble method, a deep sequential learning method and another
+top-layer ensemble classifier in proper order. moreover, attention mechanism
+has also been introduced in to further improve performance. models in this
+structure have been manifested to be very efficient in scenarios like fraud
+detection, where the information sequence is made up of vectors with complex
+interconnected features.

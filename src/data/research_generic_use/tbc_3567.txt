@@ -1,0 +1,14 @@
+conventional spoken language understanding systems consist of two main
+components: an automatic speech recognition module that converts audio to a
+transcript, and a natural language understanding module that transforms the
+resulting text (or top n hypotheses) into a set of domains, intents, and
+arguments. these modules are typically optimized independently. in this paper,
+we formulate audio to semantic understanding as a sequence-to-sequence problem
+[1]. we propose and compare various encoder-decoder based approaches that
+optimize both modules jointly, in an end-to-end manner. evaluations on a
+real-world task show that 1) having an intermediate text representation is
+crucial for the quality of the predicted semantics, especially the intent
+arguments and 2) jointly optimizing the full system improves overall accuracy
+of prediction. compared to independently trained models, our best jointly
+trained model achieves similar domain and intent prediction f1 scores, but
+improves argument word error rate by 18% relative.

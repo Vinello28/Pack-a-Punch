@@ -1,0 +1,18 @@
+detecting humans is a key skill for mobile robots and intelligent vehicles in
+a large variety of applications. while the problem is well studied for certain
+sensory modalities such as image data, few works exist that address this
+detection task using 2d range data. however, a widespread sensory setup for
+many mobile robots in service and domestic applications contains a horizontally
+mounted 2d laser scanner. detecting people from 2d range data is challenging
+due to the speed and dynamics of human leg motion and the high levels of
+occlusion and self-occlusion particularly in crowds of people. while previous
+approaches mostly relied on handcrafted features, we recently developed the
+deep learning based wheelchair and walker detector drow. in this paper, we show
+the generalization to people, including small modifications that significantly
+boost drow's performance. additionally, by providing a small, fully online
+temporal window in our network, we further boost our score. we extend the drow
+dataset with person annotations, making this the largest dataset of person
+annotations in 2d range data, recorded during several days in a real-world
+environment with high diversity. extensive experiments with three current
+baseline methods indicate it is a challenging dataset, on which our improved
+drow detector beats the current state-of-the-art.

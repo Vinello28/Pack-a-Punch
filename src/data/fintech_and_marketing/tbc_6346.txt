@@ -1,0 +1,14 @@
+in this paper, we propose an offline counterfactual policy estimation
+framework called genie to optimize sponsored search marketplace. genie employs
+an open box simulation engine with click calibration model to compute the kpi
+impact of any modification to the system. from the experimental results on bing
+traffic, we showed that genie performs better than existing observational
+approaches that employs randomized experiments for traffic slices that have
+frequent policy updates. we also show that genie can be used to tune completely
+new policies efficiently without creating risky randomized experiments due to
+cold start problem. as time of today, genie hosts more than 10000 optimization
+jobs yearly which runs more than 30 million processing node hours of big data
+jobs for bing ads. for the last 3 years, genie has been proven to be the one of
+the major platforms to optimize bing ads marketplace due to its reliability
+under frequent policy changes and its efficiency to minimize risks in real
+experiments.

@@ -1,0 +1,13 @@
+herbaria worldwide are housing a treasure of 100s of millions of herbarium
+specimens, which are increasingly being digitized in recent years and thereby
+made more easily accessible to the scientific community. at the same time, deep
+learning algorithms are rapidly improving pattern recognition from images and
+these techniques are more and more being applied to biological objects. we are
+using digital images of herbarium specimens in order to identify taxa and
+traits of these collection objects by applying convolutional neural networks
+(cnn). images of the 1000 species most frequently documented by herbarium
+specimens on gbif have been downloaded and combined with morphological trait
+data, preprocessed and divided into training and test datasets for species and
+trait recognition. good performance in both domains is promising to use this
+approach in future tools supporting taxonomy and natural history collection
+management.

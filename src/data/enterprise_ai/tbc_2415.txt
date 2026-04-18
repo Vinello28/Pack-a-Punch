@@ -1,1 +1,0 @@
-La Società DATABOOZ ITALIA s.r.l  intende studiare e prototipizzare  un generatore di itinerari e percorsi turistici che a partire da pochi input dell’utente  ( uno o due PoI di interesse  la geolocalizzazione e gli interessi dell’utente  il tempo a disposizione)  aggrega contenuti e propone approfondimenti.

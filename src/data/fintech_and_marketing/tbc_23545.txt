@@ -1,0 +1,13 @@
+market manipulation is a strategy used by traders to alter the price of
+financial securities. one type of manipulation is based on the process of
+buying or selling assets by using several trading strategies, among them
+spoofing is a popular strategy and is considered illegal by market regulators.
+some promising tools have been developed to detect manipulation, but cases can
+still be found in the markets. in this paper we model spoofing and pinging
+trading, two strategies that differ in the legal background but share the same
+elemental concept of market manipulation. we use a reinforcement learning
+framework within the full and partial observability of markov decision
+processes and analyse the underlying behaviour of the manipulators by finding
+the causes of what encourages the traders to perform fraudulent activities.
+this reveals procedures to counter the problem that may be helpful to market
+regulators as our model predicts the activity of spoofers.

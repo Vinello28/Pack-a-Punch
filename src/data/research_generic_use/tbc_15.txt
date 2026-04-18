@@ -1,0 +1,19 @@
+we propose a novel methodology, forest floor, to visualize and interpret
+random forest (rf) models. rf is a popular and useful tool for non-linear
+multi-variate classification and regression, which yields a good trade-off
+between robustness (low variance) and adaptiveness (low bias). direct
+interpretation of a rf model is difficult, as the explicit ensemble model of
+hundreds of deep trees is complex. nonetheless, it is possible to visualize a
+rf model fit by its mapping from feature space to prediction space. hereby the
+user is first presented with the overall geometrical shape of the model
+structure, and when needed one can zoom in on local details. dimensional
+reduction by projection is used to visualize high dimensional shapes. the
+traditional method to visualize rf model structure, partial dependence plots,
+achieve this by averaging multiple parallel projections. we suggest to first
+use feature contributions, a method to decompose trees by splitting features,
+and then subsequently perform projections. the advantages of forest floor over
+partial dependence plots is that interactions are not masked by averaging. as a
+consequence, it is possible to locate interactions, which are not visualized in
+a given projection. furthermore, we introduce: a goodness-of-visualization
+measure, use of colour gradients to identify interactions and an out-of-bag
+cross validated variant of feature contributions.

@@ -1,0 +1,10 @@
+with the explosion in the field of big data and introduction of more
+stringent emission norms every three to five years, automotive companies must
+not only continue to enhance the fuel economy ratings of their products, but
+also provide valued services to their customers such as delivering engine
+performance and health reports at regular intervals. a reasonable solution to
+both issues is installing a variety of sensors on the engine. sensor data can
+be used to develop fuel economy features and will directly indicate engine
+performance. however, mounting a plethora of sensors is impractical in a very
+cost-sensitive industry. thus, virtual sensors can replace physical sensors by
+reducing cost while capturing essential engine data.

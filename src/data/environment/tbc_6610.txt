@@ -1,0 +1,21 @@
+urban planning applications (energy audits, investment, etc.) require an
+understanding of built infrastructure and its environment, i.e., both
+low-level, physical features (amount of vegetation, building area and geometry
+etc.), as well as higher-level concepts such as land use classes (which encode
+expert understanding of socio-economic end uses). this kind of data is
+expensive and labor-intensive to obtain, which limits its availability
+(particularly in developing countries). we analyze patterns in land use in
+urban neighborhoods using large-scale satellite imagery data (which is
+available worldwide from third-party providers) and state-of-the-art computer
+vision techniques based on deep convolutional neural networks. for supervision,
+given the limited availability of standard benchmarks for remote-sensing data,
+we obtain ground truth land use class labels carefully sampled from open-source
+surveys, in particular the urban atlas land classification dataset of $20$ land
+use classes across $~300$ european cities. we use this data to train and
+compare deep architectures which have recently shown good performance on
+standard computer vision tasks (image classification and segmentation),
+including on geospatial data. furthermore, we show that the deep
+representations extracted from satellite imagery of urban environments can be
+used to compare neighborhoods across several cities. we make our dataset
+available for other machine learning researchers to use for remote-sensing
+applications.

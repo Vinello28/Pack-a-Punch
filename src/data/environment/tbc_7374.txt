@@ -1,0 +1,20 @@
+contemporary power grids are being challenged by rapid voltage fluctuations
+that are caused by large-scale deployment of renewable generation, electric
+vehicles, and demand response programs. in this context, monitoring the grid's
+operating conditions in real time becomes increasingly critical. with the
+emergent large scale and nonconvexity however, the existing power system state
+estimation (psse) schemes become computationally expensive or yield suboptimal
+performance. to bypass these hurdles, this paper advocates deep neural networks
+(dnns) for real-time power system monitoring. by unrolling an iterative
+physics-based prox-linear solver, a novel model-specific dnn is developed for
+real-time psse with affordable training and minimal tuning effort. to further
+enable system awareness even ahead of the time horizon, as well as to endow the
+dnn-based estimator with resilience, deep recurrent neural networks (rnns) are
+also pursued for power system state forecasting. deep rnns leverage the
+long-term nonlinear dependencies present in the historical voltage time series
+to enable forecasting, and they are easy to implement. numerical tests showcase
+improved performance of the proposed dnn-based estimation and forecasting
+approaches compared with existing alternatives. in real load data experiments
+on the ieee 118-bus benchmark system, the novel model-specific dnn-based psse
+scheme outperforms nearly by an order-of-magnitude the competing alternatives,
+including the widely adopted gauss-newton psse solver.

@@ -1,0 +1,19 @@
+predicting trends in stock market prices has been an area of interest for
+researchers for many years due to its complex and dynamic nature. intrinsic
+volatility in stock market across the globe makes the task of prediction
+challenging. forecasting and diffusion modeling, although effective can't be
+the panacea to the diverse range of problems encountered in prediction,
+short-term or otherwise. market risk, strongly correlated with forecasting
+errors, needs to be minimized to ensure minimal risk in investment. the authors
+propose to minimize forecasting error by treating the forecasting problem as a
+classification problem, a popular suite of algorithms in machine learning. in
+this paper, we propose a novel way to minimize the risk of investment in stock
+market by predicting the returns of a stock using a class of powerful machine
+learning algorithms known as ensemble learning. some of the technical
+indicators such as relative strength index (rsi), stochastic oscillator etc are
+used as inputs to train our model. the learning model used is an ensemble of
+multiple decision trees. the algorithm is shown to outperform existing algo-
+rithms found in the literature. out of bag (oob) error estimates have been
+found to be encouraging. key words: random forest classifier, stock price
+forecasting, exponential smoothing, feature extraction, oob error and
+convergence.

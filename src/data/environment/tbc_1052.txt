@@ -1,0 +1,13 @@
+neural networks are being applied in many tasks related to iot with
+encouraging results. for example, neural networks can precisely detect human,
+objects and animal via surveillance camera for security purpose. however,
+neural networks have been recently found vulnerable to well-designed input
+samples that called adversarial examples. such issue causes neural networks to
+misclassify adversarial examples that are imperceptible to humans. we found
+giving a rotation to an adversarial example image can defeat the effect of
+adversarial examples. using mnist number images as the original images, we
+first generated adversarial examples to neural network recognizer, which was
+completely fooled by the forged examples. then we rotated the adversarial image
+and gave them to the recognizer to find the recognizer to regain the correct
+recognition. thus, we empirically confirmed rotation to images can protect
+pattern recognizer based on neural networks from adversarial example attacks.

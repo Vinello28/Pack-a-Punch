@@ -1,0 +1,17 @@
+the us eia estimated in 2017 about 39\% of total u.s. energy consumption was
+by the residential and commercial sectors. therefore, intelligent building
+management (ibm) solutions that minimize consumption while maintaining tenant
+comfort are an important component in addressing climate change. a forecasting
+capability for accurate prediction of indoor temperatures in a planning horizon
+of 24 hours is essential to ibm. it should predict the indoor temperature in
+both short-term (e.g. 15 minutes) and long-term (e.g. 24 hours) periods
+accurately including weekends, major holidays, and minor holidays. other
+requirements include the ability to predict the maximum and the minimum indoor
+temperatures precisely and provide the confidence for each prediction. to
+achieve these requirements, we propose a novel adjoint neural network
+architecture for time series prediction that uses an ancillary neural network
+to capture weekend and holiday information. we studied four long short-term
+memory (lstm) based time series prediction networks within this architecture.
+we observed that the ancillary neural network helps to improve the prediction
+accuracy, the maximum and the minimum temperature prediction and model
+reliability for all networks tested.

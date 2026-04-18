@@ -1,0 +1,9 @@
+deep learning is an advanced model of traditional machine learning. this has
+the capability to extract optimal feature representation from raw input
+samples. this has been applied towards various use cases in cyber security such
+as intrusion detection, malware classification, android malware detection, spam
+and phishing detection and binary analysis. this paper outlines the survey of
+all the works related to deep learning based solutions for various cyber
+security use cases. keywords: deep learning, intrusion detection, malware
+detection, android malware detection, spam & phishing detection, traffic
+analysis, binary analysis.

@@ -1,0 +1,19 @@
+remote sensing satellite data offer the unique possibility to map land use
+land cover transformations by providing spatially explicit information.
+however, detection of short-term processes and land use patterns of high
+spatial-temporal variability is a challenging task. we present a novel
+framework using multi-temporal terrasar-x data and machine learning techniques,
+namely discriminative markov random fields with spatio-temporal priors, and
+import vector machines, in order to advance the mapping of land cover
+characterized by short-term changes. our study region covers a current
+deforestation frontier in the brazilian state par\'{a} with land cover
+dominated by primary forests, different types of pasture land and secondary
+vegetation, and land use dominated by short-term processes such as
+slash-and-burn activities. the data set comprises multi-temporal terrasar-x
+imagery acquired over the course of the 2014 dry season, as well as optical
+data (rapideye, landsat) for reference. results show that land use land cover
+is reliably mapped, resulting in spatially adjusted overall accuracies of up to
+$79\%$ in a five class setting, yet limitations for the differentiation of
+different pasture types remain. the proposed method is applicable on
+multi-temporal data sets, and constitutes a feasible approach to map land use
+land cover in regions that are affected by high-frequent temporal changes.

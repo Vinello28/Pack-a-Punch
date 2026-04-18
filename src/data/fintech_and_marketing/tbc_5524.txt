@@ -1,0 +1,8 @@
+this paper examines the relationship between inverse perpetual swap
+contracts, a bitcoin derivative akin to futures and the margin funding interest
+rates levied on bitmex. this paper proves the heteroskedastic nature of funding
+rates and goes onto establish a causal relationship between the funding rates
+and the bitcoin inverse perpetual swap contracts based on granger causality.
+the paper further dwells into developing a predictive model for funding rates
+using best-fitted garch models. implications of the results are presented, and
+funding rates as a predictive tool for gauging the market trend is discussed.

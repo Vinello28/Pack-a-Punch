@@ -1,0 +1,16 @@
+due to the lack of available annotated medical images, accurate
+computer-assisted diagnosis requires intensive data augmentation (da)
+techniques, such as geometric/intensity transformations of original images;
+however, those transformed images intrinsically have a similar distribution to
+the original ones, leading to limited performance improvement. to fill the data
+lack in the real image distribution, we synthesize brain contrast-enhanced
+magnetic resonance (mr) images---realistic but completely different from the
+original ones---using generative adversarial networks (gans). this study
+exploits progressive growing of gans (pggans), a multi-stage generative
+training method, to generate original-sized 256 x 256 mr images for
+convolutional neural network-based brain tumor detection, which is challenging
+via conventional gans; difficulties arise due to unstable gan training with
+high resolution and a variety of tumors in size, location, shape, and contrast.
+our preliminary results show that this novel pggan-based da method can achieve
+promising performance improvement, when combined with classical da, in tumor
+detection and also in other medical imaging tasks.

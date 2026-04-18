@@ -149,7 +149,7 @@ class TestConfig:
         from src.config import settings
         
         assert settings.model.max_length == 3072
-        assert settings.model.num_labels == 8
+        assert settings.model.num_labels == 7
         assert settings.inference.num_sessions >= 1
         assert settings.server.port > 0
     

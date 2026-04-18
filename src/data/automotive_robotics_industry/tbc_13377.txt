@@ -1,0 +1,17 @@
+path planning is one of the most vital elements of mobile robotics. with a
+priori knowledge of the environment, global path planning provides a
+collision-free route through the workspace. the global path plan can be
+calculated with a variety of informed search algorithms, most notably the a*
+search method, guaranteed to deliver a complete and optimal solution that
+minimizes the path cost. path planning optimization typically looks to minimize
+the distance traversed from start to goal, yet many mobile robot applications
+call for additional path planning objectives, presenting a multiobjective
+optimization (moo) problem. past studies have applied genetic algorithms to moo
+path planning problems, but these may have the disadvantages of computational
+complexity and suboptimal solutions. alternatively, the algorithm in this paper
+approaches moo path planning with the use of pareto fronts, or finding
+non-dominated solutions. the algorithm presented incorporates pareto optimality
+into every step of a* search, thus it is named a*-po. results of simulations
+show a*-po outperformed several variations of the standard a* algorithm for moo
+path planning. a planetary exploration rover case study was added to
+demonstrate the viability of a*-po in a real-world application.

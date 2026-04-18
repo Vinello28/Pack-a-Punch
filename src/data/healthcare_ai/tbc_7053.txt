@@ -1,0 +1,12 @@
+when it comes to preventive healthcare, place matters. it is increasingly
+clear that social factors, particularly reliable access to healthy food, are as
+determinant to health and health equity as medical care. however, food access
+studies often only present one-dimensional measurements of access. we
+hypothesize that food access is a multidimensional concept and evaluated
+penchansky and thomas's 1981 definition of access. in our approach, we identify
+ten variables contributing to food access in the city of chicago and use
+principal component analysis to identify vulnerable populations with low
+access. our results indicate that within the urban environment of the case
+study site, affordability is the most important factor in low food
+accessibility, followed by urban youth, reduced mobility, and higher immigrant
+population.

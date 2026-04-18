@@ -1,0 +1,18 @@
+the energy output a photo voltaic(pv) panel is a function of solar
+irradiation and weather parameters like temperature and wind speed etc. a
+general measure for solar irradiation called global horizontal irradiance
+(ghi), customarily reported in watt/meter$^2$, is a generic indicator for this
+intermittent energy resource. an accurate prediction of ghi is necessary for
+reliable grid integration of the renewable as well as for power market trading.
+while some machine learning techniques are well introduced along with the
+traditional time-series forecasting techniques, deep-learning techniques
+remains less explored for the task at hand. in this paper we give deep learning
+models suitable for sequence to sequence prediction of ghi. the deep learning
+models are reported for short-term forecasting $\{1-24\}$ hour along with the
+state-of-the art techniques like gradient boosted regression trees(gbrt) and
+feed forward neural networks(ffnn).
+  we have checked that spatio-temporal features like wind direction, wind speed
+and ghi of neighboring location improves the prediction accuracy of the deep
+learning models significantly. among the various sequence-to-sequence
+encoder-decoder models lstm performed superior, handling short-comings of the
+state-of-the-art techniques.

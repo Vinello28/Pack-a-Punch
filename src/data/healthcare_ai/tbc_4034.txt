@@ -1,0 +1,13 @@
+multiview light sheet fluorescence microscopy (lsfm) allows to image
+developing organisms in 3d at unprecedented temporal resolution over long
+periods of time. the resulting massive amounts of raw image data requires
+extensive processing interactively via dedicated graphical user interface (gui)
+applications. the consecutive processing steps can be easily automated and the
+individual time points can be processed independently, which lends itself to
+trivial parallelization on a high performance cluster (hpc). here we introduce
+an automated workflow for processing large multiview, multi-channel,
+multi-illumination time-lapse lsfm data on a single workstation or in parallel
+on a hpc. the pipeline relies on snakemake to resolve dependencies among
+consecutive processing steps and can be easily adapted to any cluster
+environment for processing lsfm data in a fraction of the time required to
+collect it.

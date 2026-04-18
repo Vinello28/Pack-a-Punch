@@ -1,0 +1,13 @@
+this paper focuses on finding spatial and temporal criminal hotspots. it
+analyses two different real-world crimes datasets for denver, co and los
+angeles, ca and provides a comparison between the two datasets through a
+statistical analysis supported by several graphs. then, it clarifies how we
+conducted apriori algorithm to produce interesting frequent patterns for
+criminal hotspots. in addition, the paper shows how we used decision tree
+classifier and naive bayesian classifier in order to predict potential crime
+types. to further analyse crimes datasets, the paper introduces an analysis
+study by combining our findings of denver crimes dataset with its demographics
+information in order to capture the factors that might affect the safety of
+neighborhoods. the results of this solution could be used to raise awareness
+regarding the dangerous locations and to help agencies to predict future crimes
+in a specific location within a particular time.

@@ -1,0 +1,13 @@
+neurons in the primate visual cortices show a wide range of stimulus
+selectivity. some neurons respond to only a small fraction of stimulus images,
+whereas others respond to many stimulus images in a non-selective manner. it is
+unclear how stimulus selective and non-selective neurons contribute to visual
+object recognition. herein, we examined the relationship between stimulus
+selectivity and the effect of deletion of units on task performance using fully
+a connected layer of two types of deep convolutional neural networks (dcnns).
+deleting a stimulus selective unit caused slight improvements of task
+performance, whereas deleting stimulus non-selective units caused a significant
+decrease in task performance. however, these findings do not imply that
+stimulus selective units have no use for the task. indeed, better performance
+was obtained when the networks consisted of both stimulus selective and
+non-selective units.

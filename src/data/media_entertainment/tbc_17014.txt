@@ -1,0 +1,11 @@
+we introduce a data-driven approach for unsupervised video retargeting that
+translates content from one domain to another while preserving the style native
+to a domain, i.e., if contents of john oliver's speech were to be transferred
+to stephen colbert, then the generated content/speech should be in stephen
+colbert's style. our approach combines both spatial and temporal information
+along with adversarial losses for content translation and style preservation.
+in this work, we first study the advantages of using spatiotemporal constraints
+over spatial constraints for effective retargeting. we then demonstrate the
+proposed approach for the problems where information in both space and time
+matters such as face-to-face translation, flower-to-flower, wind and cloud
+synthesis, sunrise and sunset.

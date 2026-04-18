@@ -1,0 +1,17 @@
+a new obstacle detection algorithm for unmanned surface vehicles (usvs) is
+presented. a state-of-the-art graphical model for semantic segmentation is
+extended to incorporate boat pitch and roll measurements from the on-board
+inertial measurement unit (imu), and a stereo verification algorithm that
+consolidates tentative detections obtained from the segmentation is proposed.
+the imu readings are used to estimate the location of horizon line in the
+image, which automatically adjusts the priors in the probabilistic semantic
+segmentation model. we derive the equations for projecting the horizon into
+images, propose an efficient optimization algorithm for the extended graphical
+model, and offer a practical imu-camera-usv calibration procedure. using an usv
+equipped with multiple synchronized sensors, we captured a new challenging
+multi-modal dataset, and annotated its images with water edge and obstacles.
+experimental results show that the proposed algorithm significantly outperforms
+the state of the art, with nearly 30% improvement in water-edge detection
+accuracy, an over 21% reduction of false positive rate, an almost 60% reduction
+of false negative rate, and an over 65% increase of true positive rate, while
+its matlab implementation runs in real-time.

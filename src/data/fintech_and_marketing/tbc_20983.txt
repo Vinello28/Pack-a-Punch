@@ -1,0 +1,7 @@
+we present explicit formulas - that are also computer code - for 101
+real-life quantitative trading alphas. their average holding period
+approximately ranges 0.6-6.4 days. the average pair-wise correlation of these
+alphas is low, 15.9%. the returns are strongly correlated with volatility, but
+have no significant dependence on turnover, directly confirming an earlier
+result based on a more indirect empirical analysis. we further find empirically
+that turnover has poor explanatory power for alpha correlations.

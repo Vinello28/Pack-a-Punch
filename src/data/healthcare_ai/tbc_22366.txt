@@ -1,0 +1,18 @@
+state-of-the-art methods of attribute detection from faces almost always
+assume the presence of a full, unoccluded face. hence, their performance
+degrades for partially visible and occluded faces. in this paper, we introduce
+splitface, a deep convolutional neural network-based method that is explicitly
+designed to perform attribute detection in partially occluded faces. taking
+several facial segments and the full face as input, the proposed method takes a
+data driven approach to determine which attributes are localized in which
+facial segments. the unique architecture of the network allows each attribute
+to be predicted by multiple segments, which permits the implementation of
+committee machine techniques for combining local and global decisions to boost
+performance. with access to segment-based predictions, splitface can predict
+well those attributes which are localized in the visible parts of the face,
+without having to rely on the presence of the whole face. we use the celeba and
+lfwa facial attribute datasets for standard evaluations. we also modify both
+datasets, to occlude the faces, so that we can evaluate the performance of
+attribute detection algorithms on partial faces. our evaluation shows that
+splitface significantly outperforms other recent methods especially for partial
+faces.

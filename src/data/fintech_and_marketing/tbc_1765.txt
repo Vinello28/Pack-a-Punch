@@ -1,1 +1,11 @@
-Progettazione  sviluppo applicativo e implementazione dell¿infrastruttura informatica per la realizzazione di una piattaforma di sentiment analysis basata su reti neurali convoluzionali e/o ricorrenti e algoritmi di machine learning volti alla elaborazione di testi relativi a contenuti sociopolitici e dati socio-demografici. il progetto prevede l¿analisi dei contenuti presenti in rete e la valutazione delle discussioni per ottenere e analizzare i trending topics e individuare gli influencer e l¿analisi dei contenuti prodotti in ambito politico per individuare i contenuti più trattati  valutare la capacità di engagement e analizzare stile e qualità della comunicazione.
+in this paper, we examine the use case of general adversarial networks (gans)
+in the field of marketing. in particular, we analyze how gan models can
+replicate text patterns from successful product listings on airbnb, a
+peer-to-peer online market for short-term apartment rentals. to do so, we
+define the diehl-martinez-kamalu (dmk) loss function as a new class of
+functions that forces the model's generated output to include a set of
+user-defined keywords. this allows the general adversarial network to recommend
+a way of rewording the phrasing of a listing description to increase the
+likelihood that it is booked. although we tailor our analysis to airbnb data,
+we believe this framework establishes a more general model for how generative
+algorithms can be used to produce text samples for the purposes of marketing.

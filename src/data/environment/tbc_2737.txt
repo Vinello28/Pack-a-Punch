@@ -1,0 +1,24 @@
+the integration of renewable energy sources (res) is rapidly increasing in
+electric power systems (eps). while the inclusion of intermittent res coupled
+with the wide-scale deployment of communication and sensing devices is
+important towards a fully smart grid, it has also expanded the cyber-threat
+landscape, effectively making power systems vulnerable to cyberattacks. this
+paper proposes a cybersecurity assessment approach designed to assess the
+cyberphysical security of eps. the work takes into consideration the
+intermittent generation of res, vulnerabilities introduced by
+microprocessor-based electronic information and operational technology (it/ot)
+devices, and contingency analysis results. the proposed approach utilizes deep
+reinforcement learning (drl) and an adapted common vulnerability scoring system
+(cvss) score tailored to assess vulnerabilities in eps in order to identify the
+optimal attack transition policy based on n-2 contingency results, i.e., the
+simultaneous failure of two system elements. the effectiveness of the work is
+validated via numerical and real-time simulation experiments performed on
+literature-based power grid test cases. the results demonstrate how the
+proposed method based on deep q-network (dqn) performs closely to a
+graph-search approach in terms of the number of transitions needed to find the
+optimal attack policy, without the need for full observation of the system. in
+addition, the experiments present the method's scalability by showcasing the
+number of transitions needed to find the optimal attack transition policy in a
+large system such as the polish 2383 bus test system. the results exhibit how
+the proposed approach requires one order of magnitude fewer transitions when
+compared to a random transition policy.

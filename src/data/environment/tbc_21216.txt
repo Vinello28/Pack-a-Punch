@@ -1,0 +1,22 @@
+the impact of soiling on solar panels is an important and well-studied
+problem in renewable energy sector. in this paper, we present the first
+convolutional neural network (cnn) based approach for solar panel soiling and
+defect analysis. our approach takes an rgb image of solar panel and
+environmental factors as inputs to predict power loss, soiling localization,
+and soiling type. in computer vision, localization is a complex task which
+typically requires manually labeled training data such as bounding boxes or
+segmentation masks. our proposed approach consists of specialized four stages
+which completely avoids localization ground truth and only needs panel images
+with power loss labels for training. the region of impact area obtained from
+the predicted localization masks are classified into soiling types using the
+webly supervised learning. for improving localization capabilities of cnns, we
+introduce a novel bi-directional input-aware fusion (bidiaf) block that
+reinforces the input at different levels of cnn to learn input-specific feature
+maps. our empirical study shows that bidiaf improves the power loss prediction
+accuracy by about 3% and localization accuracy by about 4%. our end-to-end
+model yields further improvement of about 24% on localization when learned in a
+weakly supervised manner. our approach is generalizable and showed promising
+results on web crawled solar panel images. our system has a frame rate of 22
+fps (including all steps) on a nvidia titanx gpu. additionally, we collected
+first of it's kind dataset for solar panel image analysis consisting 45,000+
+images.

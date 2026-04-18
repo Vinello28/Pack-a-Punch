@@ -1,1 +1,0 @@
-Implementazione di algoritmi di SLAM visuale per la navigazione autonoma di AGV in magazzini logistici di grandi dimensioni con traffico misto uomo-macchina.

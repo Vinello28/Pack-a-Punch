@@ -1,0 +1,20 @@
+managing and hedging the risks associated with variable annuity (va) products
+require intraday valuation of key risk metrics for these products. the complex
+structure of va products and computational complexity of their accurate
+evaluation have compelled insurance companies to adopt monte carlo (mc)
+simulations to value their large portfolios of va products. because the mc
+simulations are computationally demanding, especially for intraday valuations,
+insurance companies need more efficient valuation techniques. recently, a
+framework based on traditional spatial interpolation techniques has been
+proposed that can significantly decrease the computational complexity of mc
+simulation (gan and lin, 2015). however, traditional interpolation techniques
+require the definition of a distance function that can significantly impact
+their accuracy. moreover, none of the traditional spatial interpolation
+techniques provide all of the key properties of accuracy, efficiency, and
+granularity (hejazi et al., 2015). in this paper, we present a neural network
+approach for the spatial interpolation framework that affords an efficient way
+to find an effective distance function. the proposed approach is accurate,
+efficient, and provides an accurate granular view of the input portfolio. our
+numerical experiments illustrate the superiority of the performance of the
+proposed neural network approach compared to the traditional spatial
+interpolation schemes.

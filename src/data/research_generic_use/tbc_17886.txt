@@ -1,0 +1,20 @@
+the success of automated driving deployment is highly depending on the
+ability to develop an efficient and safe driving policy. the problem is well
+formulated under the framework of optimal control as a cost optimization
+problem. model based solutions using traditional planning are efficient, but
+require the knowledge of the environment model. on the other hand, model free
+solutions suffer sample inefficiency and require too many interactions with the
+environment, which is infeasible in practice. methods under the reinforcement
+learning framework usually require the notion of a reward function, which is
+not available in the real world. imitation learning helps in improving sample
+efficiency by introducing prior knowledge obtained from the demonstrated
+behavior, on the risk of exact behavior cloning without generalizing to unseen
+environments. in this paper we propose a meta learning framework, based on data
+set aggregation, to improve generalization of imitation learning algorithms.
+under the proposed framework, we propose metadagger, a novel algorithm which
+tackles the generalization issues in traditional imitation learning. we use the
+open race car simulator (torcs) to test our algorithm. results on unseen test
+tracks show significant improvement over traditional imitation learning
+algorithms, improving the learning time and sample efficiency in the same time.
+the results are also supported by visualization of the learnt features to prove
+generalization of the captured details.

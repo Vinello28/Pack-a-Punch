@@ -1,0 +1,17 @@
+up to now, only limited research has been conducted on cross-modal retrieval
+of suitable music for a specified video or vice versa. moreover, much of the
+existing research relies on metadata such as keywords, tags, or associated
+description that must be individually produced and attached posterior. this
+paper introduces a new content-based, cross-modal retrieval method for video
+and music that is implemented through deep neural networks. we train the
+network via inter-modal ranking loss such that videos and music with similar
+semantics end up close together in the embedding space. however, if only the
+inter-modal ranking constraint is used for embedding, modality-specific
+characteristics can be lost. to address this problem, we propose a novel soft
+intra-modal structure loss that leverages the relative distance relationship
+between intra-modal samples before embedding. we also introduce reasonable
+quantitative and qualitative experimental protocols to solve the lack of
+standard protocols for less-mature video-music related tasks. finally, we
+construct a large-scale 200k video-music pair benchmark. all the datasets and
+source code can be found in our online repository
+(https://github.com/csehong/vm-net).

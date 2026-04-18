@@ -1,0 +1,15 @@
+lighting design and modelling or industrial applications like luminaire
+planning and commissioning rely heavily on time consuming manual measurements
+or on physically coherent computational simulations. regarding the
+latter,standard approaches are based on cad modeling simulations and offline
+rendering, with long processing times and therefore inflexible workflows. thus,
+in this paper we pro-pose a computer vision based system to measure lighting
+with just a single rgbd camera. the proposed method uses both depth data and
+images from the sensor to provide a dense measure of light intensity in the
+field of view of the camera. we evaluate our system on novel ground truth data
+and compare it to state-of-the-art commercial light-planning software. our
+system provides improved performance, while being completely automated, given
+that the cad model is extracted from the depth and the albedo estimated with
+the support of rgb images. to the best of our knowledge, this is the first
+automatic framework for the estimation of lighting in general indoor scenarios
+from rgbdinput.

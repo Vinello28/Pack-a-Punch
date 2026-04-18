@@ -1,1 +1,0 @@
-Si prevede la realizzazione di un sistema di supporto ai genitori dei bambini della struttura attraverso la creazione di un Chatbot  (chat automatica e diretta con i genitori). Il sistema permetterà di catalogare e velocizzare i processi informativi e di comunicazione delle attività dell'asilo nido e della scuola dell'infanzia.

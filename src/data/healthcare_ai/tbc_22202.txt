@@ -1,0 +1,19 @@
+the segmentation of retinal vessels is of significance for doctors to
+diagnose the fundus diseases. however, existing methods have various problems
+in the segmentation of the retinal vessels, such as insufficient segmentation
+of retinal vessels, weak anti-noise interference ability, and sensitivity to
+lesions, etc. aiming to the shortcomings of existed methods, this paper
+proposes the use of conditional deep convolutional generative adversarial
+networks to segment the retinal vessels. we mainly improve the network
+structure of the generator. the introduction of the residual module at the
+convolutional layer for residual learning makes the network structure sensitive
+to changes in the output, as to better adjust the weight of the generator. in
+order to reduce the number of parameters and calculations, using a small
+convolution to halve the number of channels in the input signature before using
+a large convolution kernel. by used skip connection to connect the output of
+the convolutional layer with the output of the deconvolution layer to avoid
+low-level information sharing. by verifying the method on the drive and stare
+datasets, the segmentation accuracy rate is 96.08% and 97.71%, the sensitivity
+reaches 82.74% and 85.34% respectively, and the f-measure reaches 82.08% and
+85.02% respectively. the sensitivity is 4.82% and 2.4% higher than that of
+r2u-net.

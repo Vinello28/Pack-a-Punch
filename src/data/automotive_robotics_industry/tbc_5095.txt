@@ -1,0 +1,17 @@
+the democratization of machine learning (ml) has led to ml-based machine
+vision systems for autonomous driving, traffic monitoring, and video
+surveillance. however, true democratization cannot be achieved without greatly
+simplifying the process of collecting groundtruth for training and testing
+these systems. this groundtruth collection is necessary to ensure good
+performance under varying conditions. in this paper, we present the design and
+evaluation of satyam, a first-of-its-kind system that enables a layperson to
+launch groundtruth collection tasks for machine vision with minimal effort.
+satyam leverages a crowdtasking platform, amazon mechanical turk, and automates
+several challenging aspects of groundtruth collection: creating and launching
+of custom web-ui tasks for obtaining the desired groundtruth, controlling
+result quality in the face of spammers and untrained workers, adapting prices
+to match task complexity, filtering spammers and workers with poor performance,
+and processing worker payments. we validate satyam using several popular
+benchmark vision datasets, and demonstrate that groundtruth obtained by satyam
+is comparable to that obtained from trained experts and provides matching ml
+performance when used for training.

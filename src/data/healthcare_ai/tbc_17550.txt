@@ -1,0 +1,13 @@
+periocular refers to the region around the eye, including sclera, eyelids,
+lashes, brows and skin. with a surprisingly high discrimination ability, it is
+the ocular modality requiring the least constrained acquisition. here, we apply
+existing pre-trained architectures, proposed in the context of the imagenet
+large scale visual recognition challenge, to the task of periocular
+recognition. these have proven to be very successful for many other computer
+vision tasks apart from the detection and classification tasks for which they
+were designed. experiments are done with a database of periocular images
+captured with a digital camera. we demonstrate that these off-the-shelf cnn
+features can effectively recognize individuals based on periocular images,
+despite being trained to classify generic objects. compared against reference
+periocular features, they show an eer reduction of up to ~40%, with the fusion
+of cnn and traditional features providing additional improvements.

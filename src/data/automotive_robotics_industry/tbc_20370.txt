@@ -1,0 +1,22 @@
+one of the key challenges in predictive maintenance is to predict the
+impending downtime of an equipment with a reasonable prediction horizon so that
+countermeasures can be put in place. classically, this problem has been posed
+in two different ways which are typically solved independently: (1) remaining
+useful life (rul) estimation as a long-term prediction task to estimate how
+much time is left in the useful life of the equipment and (2) failure
+prediction (fp) as a short-term prediction task to assess the probability of a
+failure within a pre-specified time window. as these two tasks are related,
+performing them separately is sub-optimal and might results in inconsistent
+predictions for the same equipment. in order to alleviate these issues, we
+propose two methods: deep weibull model (dw-rnn) and multi-task learning
+(mtl-rnn). dw-rnn is able to learn the underlying failure dynamics by fitting
+weibull distribution parameters using a deep neural network, learned with a
+survival likelihood, without training directly on each task. while dw-rnn makes
+an explicit assumption on the data distribution, mtl-rnn exploits the implicit
+relationship between the long-term rul and short-term fp tasks to learn the
+underlying distribution. additionally, both our methods can leverage the
+non-failed equipment data for rul estimation. we demonstrate that our methods
+consistently outperform baseline rul methods that can be used for fp while
+producing consistent results for rul and fp. we also show that our methods
+perform at par with baselines trained on the objectives optimized for either of
+the two tasks.

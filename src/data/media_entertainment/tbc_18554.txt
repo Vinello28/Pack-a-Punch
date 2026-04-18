@@ -1,0 +1,5 @@
+social media users tend to mention entities when reacting to news events. the
+main purpose of this work is to create entity-centric aggregations of tweets on
+a daily basis. by applying topic modeling and sentiment analysis, we create
+data visualization insights about current events and people reactions to those
+events from an entity-centric perspective.

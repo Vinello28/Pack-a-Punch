@@ -1,0 +1,19 @@
+automatically scene understanding using machine learning algorithms has been
+widely applied to different industries to reduce the cost of manual labor.
+nowadays, insurance companies launch express vehicle insurance claim and
+settlement by allowing customers uploading pictures taken by mobile devices.
+this kind of insurance claim is treated as small claim and can be processed
+either manually or automatically in a quick fashion. however, due to the
+increasing amount of claims every day, system or people are likely to be fooled
+by repeated claims for identical case leading to big lost to insurance
+companies.thus, an anti-fraud checking before processing the claim is
+necessary. we create the first data set of car damage images collected from
+internet and local parking lots. in addition, we proposed an approach to
+generate robust deep features by locating the damages accurately and
+efficiently in the images. the state-of-the-art real-time object detector yolo
+\cite{redmon2016you}is modified to train and discover damage region as an
+important part of the pipeline. both local and global deep features are
+extracted using vgg model\cite{simonyan14c}, which are fused later for more
+robust system performance. experiments show our approach is effective in
+preventing fraud claims as well as meet the requirement to speed up the
+insurance claim prepossessing.

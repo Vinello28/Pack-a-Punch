@@ -1,1 +1,0 @@
-QUANTIC - Progetto di ricerca cooperativa - Algoritmi di Quantum per l'apprendimento automatico per problemi di classificazione delle immagini: Implementazione dello sviluppo e Benchmarking

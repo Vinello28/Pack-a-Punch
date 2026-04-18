@@ -1,0 +1,18 @@
+while the major white matter tracts are of great interest to numerous studies
+in neuroscience and medicine, their manual dissection in larger cohorts from
+diffusion mri tractograms is time-consuming, requires expert knowledge and is
+hard to reproduce. tract orientation mapping (tom) is a novel concept that
+facilitates bundle-specific tractography based on a learned mapping from the
+original fiber orientation distribution function (fodf) peaks to a list of
+tract orientation maps (also abbr. tom). each tom represents one of the known
+tracts with each voxel containing no more than one orientation vector. toms can
+act as a prior or even as direct input for tractography. we use an
+encoder-decoder fully-convolutional neural network architecture to learn the
+required mapping. in comparison to previous concepts for the reconstruction of
+specific bundles, the presented one avoids various cumbersome processing steps
+like whole brain tractography, atlas registration or clustering. we compare it
+to four state of the art bundle recognition methods on 20 different bundles in
+a total of 105 subjects from the human connectome project. results are
+anatomically convincing even for difficult tracts, while reaching low angular
+errors, unprecedented runtimes and top accuracy values (dice). our code and our
+data are openly available.

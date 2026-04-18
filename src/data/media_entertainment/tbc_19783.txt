@@ -1,0 +1,7 @@
+in this study an artificial neural network was trained to classify musical
+instruments, using audio samples transformed to the frequency domain. different
+features of the sound, in both time and frequency domain, were analyzed and
+compared in relation to how much information that could be derived from that
+limited data. the study concluded that in comparison with the base experiment,
+that had an accuracy of 93.5%, using the attack only resulted in 80.2% and the
+initial 100 hz in 64.2%.

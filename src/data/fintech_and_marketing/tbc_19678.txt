@@ -1,0 +1,15 @@
+with the increase of online customer opinions in specialised websites and
+social networks, the necessity of automatic systems to help to organise and
+classify customer reviews by domain-specific aspect/categories and sentiment
+polarity is more important than ever. supervised approaches to aspect based
+sentiment analysis obtain good results for the domain/language their are
+trained on, but having manually labelled data for training supervised systems
+for all domains and languages are usually very costly and time consuming. in
+this work we describe w2vlda, an almost unsupervised system based on topic
+modelling, that combined with some other unsupervised methods and a minimal
+configuration, performs aspect/category classifiation,
+aspect-terms/opinion-words separation and sentiment polarity classification for
+any given domain and language. we evaluate the performance of the aspect and
+sentiment classification in the multilingual semeval 2016 task 5 (absa)
+dataset. we show competitive results for several languages (english, spanish,
+french and dutch) and domains (hotels, restaurants, electronic-devices).

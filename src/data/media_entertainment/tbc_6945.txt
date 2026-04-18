@@ -1,0 +1,9 @@
+the increase of the quantity of user-generated content experienced in social
+media has boosted the importance of analysing and organising the content by its
+quality. here, we propose a method that uses audio fingerprinting to organise
+and infer the quality of user-generated audio content. the proposed method
+detects the overlapping segments between different audio clips to organise and
+cluster the data according to events, and to infer the audio quality of the
+samples. a test setup with concert recordings manually crawled from youtube is
+used to validate the presented method. the results show that the proposed
+method achieves better results than previous methods.

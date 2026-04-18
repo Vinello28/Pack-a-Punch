@@ -1,0 +1,23 @@
+new social and economic activities massively exploit big data and machine
+learning algorithms to do inference on people's lives. applications include
+automatic curricula evaluation, wage determination, and risk assessment for
+credits and loans. recently, many governments and institutions have raised
+concerns about the lack of fairness, equity and ethics in machine learning to
+treat these problems. it has been shown that not including sensitive features
+that bias fairness, such as gender or race, is not enough to mitigate the
+discrimination when other related features are included. instead, including
+fairness in the objective function has been shown to be more efficient.
+  we present novel fair regression and dimensionality reduction methods built
+on a previously proposed fair classification framework. both methods rely on
+using the hilbert schmidt independence criterion as the fairness term. unlike
+previous approaches, this allows us to simplify the problem and to use multiple
+sensitive variables simultaneously. replacing the linear formulation by kernel
+functions allows the methods to deal with nonlinear problems. for both linear
+and nonlinear formulations the solution reduces to solving simple matrix
+inversions or generalized eigenvalue problems. this simplifies the evaluation
+of the solutions for different trade-off values between the predictive error
+and fairness terms. we illustrate the usefulness of the proposed methods in toy
+examples, and evaluate their performance on real world datasets to predict
+income using gender and/or race discrimination as sensitive variables, and
+contraceptive method prediction under demographic and socio-economic sensitive
+descriptors.

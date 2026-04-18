@@ -1,0 +1,22 @@
+estimating the 3d human body shape and pose under clothing is important for many applications, including virtual
+try-on, non-contact body measurement, and avatar creation for
+virtual reality. existing body shape estimation methods formulate
+this task as an optimization problem by fitting a parametric body
+model to a single dressed-human scan or a sequence of dressed human meshes for a better accuracy. this is impractical for many
+applications that require fast acquisition such as gaming and
+virtual try-on due to the expensive computation. in this paper, we
+propose the first learning-based approach to estimate the human
+body shape under clothing from a single dressed-human scan,
+dubbed body pointnet. the proposed body pointnet operates
+directly on raw point clouds and predicts the undressed body in
+a coarse-to-fine manner. due to the nature of the data – aligned
+paired dressed scans and undressed bodies, and genus-0 manifold
+meshes (i.e. single-layer surfaces) – we face a major challenge of
+lacking training data. to address this challenge, we propose a
+novel method to synthesize the dressed-human pseudo-scans and
+corresponding ground truth bodies. a new large-scale dataset,
+dubbed bug (body under virtual garments) is presented,
+employed for the learning task of body shape estimation from 3d
+dressed-human scans. comprehensive evaluations show that the
+proposed body pointnet outperforms the state-of-the-art methods
+in terms of both accuracy and running time.

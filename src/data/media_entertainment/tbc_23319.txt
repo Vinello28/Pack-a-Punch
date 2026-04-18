@@ -1,0 +1,13 @@
+light field technology represents a viable path for providing a high-quality
+vr content. however, such an imaging system generates a high amount of data
+leading to an urgent need for lf image compression solution. in this paper, we
+propose an efficient lf image coding scheme based on view synthesis. instead of
+transmitting all the lf views, only some of them are coded and transmitted,
+while the remaining views are dropped. the transmitted views are coded using
+versatile video coding (vvc) and used as reference views to synthesize the
+missing views at decoder side. the dropped views are generated using the
+efficient dual discriminator gan model. the selection of reference/dropped
+views is performed using a rate distortion optimization based on the vvc
+temporal scalability. experimental results show that the proposed method
+provides high coding performance and overcomes the state-of-the-art lf image
+compression solutions.

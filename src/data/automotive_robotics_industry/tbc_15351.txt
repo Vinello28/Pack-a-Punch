@@ -1,0 +1,19 @@
+object detection is an integral part of an autonomous vehicle for its
+safety-critical and navigational purposes. traffic signs as objects play a
+vital role in guiding such systems. however, if the vehicle fails to locate any
+critical sign, it might make a catastrophic failure. in this paper, we propose
+an approach to identify traffic signs that have been mistakenly discarded by
+the object detector. the proposed method raises an alarm when it discovers a
+failure by the object detector to detect a traffic sign. this approach can be
+useful to evaluate the performance of the detector during the deployment phase.
+we trained a single shot multi-box object detector to detect traffic signs and
+used its internal features to train a separate false negative detector (fnd).
+during deployment, fnd decides whether the traffic sign detector (tsd) has
+missed a sign or not. we are using precision and recall to measure the accuracy
+of fnd in two different datasets. for 80% recall, fnd has achieved 89.9%
+precision in belgium traffic sign detection dataset and 90.8% precision in
+german traffic sign recognition benchmark dataset respectively. to the best of
+our knowledge, our method is the first to tackle this critical aspect of false
+negative detection in robotic vision. such a fail-safe mechanism for object
+detection can improve the engagement of robotic vision systems in our daily
+life.

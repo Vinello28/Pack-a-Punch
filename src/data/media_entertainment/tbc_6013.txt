@@ -1,0 +1,20 @@
+movies provide us with a mass of visual content as well as attracting
+stories. existing methods have illustrated that understanding movie stories
+through only visual content is still a hard problem. in this paper, for
+answering questions about movies, we put forward a layered memory network (lmn)
+that represents frame-level and clip-level movie content by the static word
+memory module and the dynamic subtitle memory module, respectively.
+particularly, we firstly extract words and sentences from the training movie
+subtitles. then the hierarchically formed movie representations, which are
+learned from lmn, not only encode the correspondence between words and visual
+content inside frames, but also encode the temporal alignment between sentences
+and frames inside movie clips. we also extend our lmn model into three variant
+frameworks to illustrate the good extendable capabilities. we conduct extensive
+experiments on the movieqa dataset. with only visual content as inputs, lmn
+with frame-level representation obtains a large performance improvement. when
+incorporating subtitles into lmn to form the clip-level representation, we
+achieve the state-of-the-art performance on the online evaluation task of
+'video+subtitles'. the good performance successfully demonstrates that the
+proposed framework of lmn is effective and the hierarchically formed movie
+representations have good potential for the applications of movie question
+answering.

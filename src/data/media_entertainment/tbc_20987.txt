@@ -1,0 +1,23 @@
+editing faces in videos is a popular yet challenging aspect of computer
+vision and graphics, which encompasses several applications including facial
+attractiveness enhancement, makeup transfer, face replacement, and expression
+manipulation. simply applying image-based warping algorithms to video-based
+face editing produces temporal incoherence in the synthesized videos because it
+is impossible to consistently localize facial features in two frames
+representing two different faces in two different videos (or even two
+consecutive frames representing the same face in one video). therefore, high
+performance face editing usually requires significant manual manipulation. in
+this paper we propose a novel temporal-spatial-smooth warping (tssw) algorithm
+to effectively exploit the temporal information in two consecutive frames, as
+well as the spatial smoothness within each frame. tssw precisely estimates two
+control lattices in the horizontal and vertical directions respectively from
+the corresponding control lattices in the previous frame, by minimizing a novel
+energy function that unifies a data-driven term, a smoothness term, and feature
+point constraints. corresponding warping surfaces then precisely map source
+frames to the target frames. experimental testing on facial attractiveness
+enhancement, makeup transfer, face replacement, and expression manipulation
+demonstrates that the proposed approaches can effectively preserve spatial
+smoothness and temporal coherence in editing facial geometry, skin detail,
+identity, and expression, which outperform the existing face editing methods.
+in particular, tssw is robust to subtly inaccurate localization of feature
+points and is a vast improvement over image-based warping methods.

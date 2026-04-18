@@ -1,0 +1,11 @@
+multiple object tracking (mot) in urban traffic aims to produce the
+trajectories of the different road users that move across the field of view
+with different directions and speeds and that can have varying appearances and
+sizes. occlusions and interactions among the different objects are expected and
+common due to the nature of urban road traffic. in this work, a tracking
+framework employing classification label information from a deep learning
+detection approach is used for associating the different objects, in addition
+to object position and appearances. we want to investigate the performance of a
+modern multiclass object detector for the mot task in traffic scenes. results
+show that the object labels improve tracking performance, but that the output
+of object detectors are not always reliable.

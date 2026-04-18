@@ -1,0 +1,10 @@
+this paper describes a prototype system that integrates social media analysis
+into the european flood awareness system (efas). this integration allows the
+collection of social media data to be automatically triggered by flood risk
+warnings determined by a hydro-meteorological model. then, we adopt a
+multi-lingual approach to find flood-related messages by employing two
+state-of-the-art methodologies: language-agnostic word embeddings and
+language-aligned word embeddings. both approaches can be used to bootstrap a
+classifier of social media messages for a new language with little or no
+labeled data. finally, we describe a method for selecting relevant and
+representative messages and displaying them back in the interface of efas.

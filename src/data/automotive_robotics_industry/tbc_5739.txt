@@ -1,0 +1,15 @@
+pursuing three important elements including economic, safety, and traffic are
+the overall objective of decision evaluation across all transport projects. in
+this study, we investigate the feasibility of the development of city
+interchanges and road connections for network users. to achieve this goal, a
+series of minor goals are required to be met in advance including determining
+benefits, costs of implement-ing new highway interchanges, quantifying the
+effective parameters, the increase in fuel consumption, the reduction in travel
+time, and finally influence on travel speed. in this study, geometric
+advancement of hakim highway, and yadegar-e-emam highway were investigated in
+the macro view from the cloverleaf inter-section with a low capacity to a
+three-level directional intersection of the enhanced cloverleaf. for this
+purpose, the simulation was done by emme software of inro company. the results
+of the method were evaluated by the objective of net present value (npv), and
+the benefit and cost of each one was stated precisely in different years. at
+the end, some suggestion has been provided.

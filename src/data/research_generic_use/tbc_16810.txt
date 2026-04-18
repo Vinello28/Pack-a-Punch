@@ -1,0 +1,12 @@
+we introduce cilantro, an open-source c++ library for geometric and
+general-purpose point cloud data processing. the library provides functionality
+that covers low-level point cloud operations, spatial reasoning, various
+methods for point cloud segmentation and generic data clustering, flexible
+algorithms for robust or local geometric alignment, model fitting, as well as
+powerful visualization tools. to accommodate all kinds of workflows, cilantro
+is almost fully templated, and most of its generic algorithms operate in
+arbitrary data dimension. at the same time, the library is easy to use and
+highly expressive, promoting a clean and concise coding style. cilantro is
+highly optimized, has a minimal set of external dependencies, and supports
+rapid development of performant point cloud processing software in a wide
+variety of contexts.

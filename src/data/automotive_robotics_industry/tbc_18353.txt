@@ -1,0 +1,8 @@
+recent developments in the field of robot grasping have shown great
+improvements in the grasp success rates when dealing with unknown objects. in
+this work we improve on one of the most promising approaches, the grasp quality
+convolutional neural network (gq-cnn) trained on the dexnet 2.0 dataset. we
+propose a new architecture for the gq-cnn and describe practical improvements
+that increase the model validation accuracy from 92.2% to 95.8% and from 85.9%
+to 88.0% on respectively image-wise and object-wise training and validation
+splits.

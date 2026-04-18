@@ -1,1 +1,0 @@
-Progetto di ricerca e sviluppo di Edge AI per la diagnostica e il monitoraggio dei sistemi di mobilità

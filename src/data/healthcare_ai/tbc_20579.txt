@@ -1,0 +1,15 @@
+semantic segmentation of functional magnetic resonance imaging (fmri) makes
+great sense for pathology diagnosis and decision system of medical robots. the
+multi-channel fmri provides more information of the pathological features. but
+the increased amount of data causes complexity in feature detections. this
+paper proposes a principal component analysis (pca)-aided fully convolutional
+network to particularly deal with multi-channel fmri. we transfer the learned
+weights of contemporary classification networks to the segmentation task by
+fine-tuning. the results of the convolutional network are compared with various
+methods e.g. k-nn. a new labeling strategy is proposed to solve the semantic
+segmentation problem with unclear boundaries. even with a small-sized training
+dataset, the test results demonstrate that our model outperforms other
+pathological feature detection methods. besides, its forward inference only
+takes 90 milliseconds for a single set of fmri data. to our knowledge, this is
+the first time to realize pixel-wise labeling of multi-channel magnetic
+resonance image using fcn.

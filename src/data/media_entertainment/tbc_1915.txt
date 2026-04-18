@@ -1,0 +1,17 @@
+the recent computer graphics developments have upraised the quality of the
+generated digital content, astonishing the most skeptical viewer. games and
+movies have taken advantage of this fact but, at the same time, these advances
+have brought serious negative impacts like the ones yielded by fakeimages
+produced with malicious intents. digital artists can compose artificial images
+capable of deceiving the great majority of people, turning this into a very
+dangerous weapon in a timespan currently know as fake news/post-truth" era. in
+this work, we propose a new approach for dealing with the problem of detecting
+computer generated images, through the application of deep convolutional
+networks and transfer learning techniques. we start from residual networks and
+develop different models adapted to the binary problem of identifying if an
+image was or not computer generated. differently from the current
+state-of-the-art approaches, we don't rely on hand-crafted features, but
+provide to the model the raw pixel information, achieving the same 0.97 of
+state-of-the-art methods with two main advantages: our methods show more stable
+results (depicted by lower variance) and eliminate the laborious and manual
+step of specialized features extraction and selection.

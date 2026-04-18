@@ -1,1 +1,0 @@
-Il progetto prevede lo sviluppo e l'implementazione di un chatbot AI per l'ottimizzazione e l'automazione del servizio clienti e la gestione della comunicazione aziendale.

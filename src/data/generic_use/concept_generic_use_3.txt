@@ -1,1 +1,0 @@
-Il transfer learning consente di riutilizzare modelli pre-addestrati su grandi dataset per nuovi compiti con pochi dati, accelerando lo sviluppo di applicazioni AI in diversi domini.

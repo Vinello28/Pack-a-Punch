@@ -1,0 +1,19 @@
+multimodal biometric identification has been grown a great attention in the
+most interests in the security fields. in the real world there exist modern
+system devices that are able to detect, recognize, and classify the human
+identities with reliable and fast recognition rates. unfortunately most of
+these systems rely on one modality, and the reliability for two or more
+modalities are further decreased. the variations of face images with respect to
+different poses are considered as one of the important challenges in face
+recognition systems. in this paper, we propose a multimodal biometric system
+that able to detect the human face images that are not only one view face
+image, but also multi-view face images. each subject entered to the system
+adjusted their face at front of the three cameras, and then the features of the
+face images are extracted based on speeded up robust features (surf) algorithm.
+we utilize multi-layer perceptron (mlp) and combined classifiers based on both
+learning vector quantization (lvq), and radial basis function (rbf) for
+classification purposes. the proposed system has been tested using sdumla-hmt,
+and casia datasets. furthermore, we collected a database of multi-view face
+images by which we take the additive white gaussian noise into considerations.
+the results indicated the reliability, robustness of the proposed system with
+different poses and variations including noise images.

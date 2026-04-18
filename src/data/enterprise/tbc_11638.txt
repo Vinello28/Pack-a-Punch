@@ -1,0 +1,13 @@
+the paper outlines a framework for autonomous control of a crm (customer
+relationship management) system. first, it explores how a modified version of
+the widely accepted recency-frequency-monetary value system of metrics can be
+used to define the state space of clients or donors. second, it describes a
+procedure to determine the optimal direct marketing action in discrete and
+continuous action space for the given individual, based on his position in the
+state space. the procedure involves the use of model-free q-learning to train a
+deep neural network that relates a client's position in the state space to
+rewards associated with possible marketing actions. the estimated value
+function over the client state space can be interpreted as customer lifetime
+value, and thus allows for a quick plug-in estimation of clv for a given
+client. experimental results are presented, based on kdd cup 1998 mailing
+dataset of donation solicitations.

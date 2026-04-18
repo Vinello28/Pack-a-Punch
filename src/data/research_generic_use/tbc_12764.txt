@@ -1,0 +1,16 @@
+the recognition of human actions and the determination of human attributes
+are two tasks that call for fine-grained classification. indeed, often rather
+small and inconspicuous objects and features have to be detected to tell their
+classes apart. in order to deal with this challenge, we propose a novel
+convolutional neural network that mines mid-level image patches that are
+sufficiently dedicated to resolve the corresponding subtleties. in particular,
+we train a newly de- signed cnn (deeppattern) that learns discriminative patch
+groups. there are two innovative aspects to this. on the one hand we pay
+attention to contextual information in an origi- nal fashion. on the other
+hand, we let an iteration of feature learning and patch clustering purify the
+set of dedicated patches that we use. we validate our method for action clas-
+sification on two challenging datasets: pascal voc 2012 action and stanford 40
+actions, and for attribute recogni- tion we use the berkeley attributes of
+people dataset. our discriminative mid-level mining cnn obtains state-of-the-
+art results on these datasets, without a need for annotations about parts and
+poses.

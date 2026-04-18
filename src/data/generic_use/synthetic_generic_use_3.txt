@@ -1,1 +1,0 @@
-Progetto di automazione dei processi tramite pipeline di data processing con modelli di machine learning per la riduzione degli errori manuali.

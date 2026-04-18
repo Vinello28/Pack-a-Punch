@@ -1,0 +1,20 @@
+the goal of music highlight extraction is to get a short consecutive segment
+of a piece of music that provides an effective representation of the whole
+piece. in a previous work, we introduced an attention-based convolutional
+recurrent neural network that uses music emotion classification as a surrogate
+task for music highlight extraction, for pop songs. the rationale behind that
+approach is that the highlight of a song is usually the most emotional part.
+this paper extends our previous work in the following two aspects. first,
+methodology-wise we experiment with a new architecture that does not need any
+recurrent layers, making the training process faster. moreover, we compare a
+late-fusion variant and an early-fusion variant to study which one better
+exploits the attention mechanism. second, we conduct and report an extensive
+set of experiments comparing the proposed attention-based methods against a
+heuristic energy-based method, a structural repetition-based method, and a few
+other simple feature-based methods for this task. due to the lack of
+public-domain labeled data for highlight extraction, following our previous
+work we use the rwc pop 100-song data set to evaluate how the detected
+highlights overlap with any chorus sections of the songs. the experiments
+demonstrate the effectiveness of our methods over competing methods. for
+reproducibility, we open source the code and pre-trained model at
+https://github.com/remyhuang/pop-music-highlighter/.

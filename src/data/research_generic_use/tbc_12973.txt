@@ -1,0 +1,16 @@
+social media platforms contain great wealth of information which provides us
+opportunities explore hidden patterns or unknown correlations, and understand
+people's satisfaction with what they are discussing. as one showcase, in this
+paper, we summarize the data set of twitter messages related to recent
+demonetization of all rs. 500 and rs. 1000 notes in india and explore insights
+from twitter's data. our proposed system automatically extracts the popular
+latent topics in conversations regarding demonetization discussed in twitter
+via the latent dirichlet allocation (lda) based topic model and also identifies
+the correlated topics across different categories. additionally, it also
+discovers people's opinions expressed through their tweets related to the event
+under consideration via the emotion analyzer. the system also employs an
+intuitive and informative visualization to show the uncovered insight.
+furthermore, we use an evaluation measure, normalized mutual information (nmi),
+to select the best lda models. the obtained lda results show that the tool can
+be effectively used to extract discussion topics and summarize them for further
+manual analysis.

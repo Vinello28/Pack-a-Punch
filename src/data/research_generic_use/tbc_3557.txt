@@ -1,0 +1,19 @@
+moving object detection (mod) is a significant problem in computer vision
+that has many real world applications. different categories of methods have
+been proposed to solve mod. one of the challenges is to separate moving objects
+from illumination changes and shadows that are present in most real world
+videos. state-of-the-art methods that can handle illumination changes and
+shadows work in a batch mode; thus, these methods are not suitable for long
+video sequences or real-time applications. in this paper, we propose an
+extension of a state-of-the-art batch mod method (ilisd) to an
+online/incremental mod using unsupervised and generative neural networks, which
+use illumination invariant image representations. for each image in a sequence,
+we use a low-dimensional representation of a background image by a neural
+network and then based on the illumination invariant representation, decompose
+the foreground image into: illumination change and moving objects. optimization
+is performed by stochastic gradient descent in an end-to-end and unsupervised
+fashion. our algorithm can work in both batch and online modes. in the batch
+mode, like other batch methods, optimizer uses all the images. in online mode,
+images can be incrementally fed into the optimizer. based on our experimental
+evaluation on benchmark image sequences, both the online and the batch modes of
+our algorithm achieve state-of-the-art accuracy on most data sets.

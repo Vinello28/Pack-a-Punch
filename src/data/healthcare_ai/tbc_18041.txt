@@ -1,0 +1,9 @@
+purpose - functional bowel diseases, including irritable bowel syndrome,
+chronic constipation, and chronic diarrhea, are some of the most common
+diseases seen in clinical practice. many patients describe a range of triggers
+for altered bowel consistency and symptoms. however, characterization of the
+relationship between symptom triggers using bowel diaries is hampered by poor
+compliance and lack of objective stool consistency measurements. we sought to
+develop a stool detection and tracking system using computer vision and deep
+convolutional neural networks (cnn) that could be used by patients, providers,
+and researchers in the assessment of chronic gastrointestinal (gi) disease.

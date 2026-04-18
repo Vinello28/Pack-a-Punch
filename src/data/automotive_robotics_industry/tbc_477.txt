@@ -1,0 +1,10 @@
+the purpose of this technical report is two-fold. first of all, it introduces
+a suite of challenging continuous control tasks (integrated with openai gym)
+based on currently existing robotics hardware. the tasks include pushing,
+sliding and pick & place with a fetch robotic arm as well as in-hand object
+manipulation with a shadow dexterous hand. all tasks have sparse binary rewards
+and follow a multi-goal reinforcement learning (rl) framework in which an agent
+is told what to do using an additional input.
+  the second part of the paper presents a set of concrete research ideas for
+improving rl algorithms, most of which are related to multi-goal rl and
+hindsight experience replay.

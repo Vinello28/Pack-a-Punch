@@ -1,0 +1,10 @@
+when parameterizing vehicle control algorithms for stability or trajectory
+control, the road-tire friction coefficient is an essential model parameter
+when it comes to control performance. one major impact on the friction
+coefficient is the condition of the road surface. a camera-based,
+forward-looking classification of the road-surface helps enabling an early
+parametrization of vehicle control algorithms. in this paper, we train and
+compare two different deep convolutional neural network models, regarding their
+application for road friction estimation and describe the challenges for
+training the classifier in terms of available training data and the
+construction of suitable datasets.

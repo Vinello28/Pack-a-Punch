@@ -1,0 +1,1 @@
+we consider the task of detecting anomalies for autonomous mobile robots based on vision. we categorize relevant types of visual anomalies and discuss how they can be detected by unsupervised deep learning methods. we propose a novel dataset built specifically for this task, on which we test a state-of-the-art approach; we finally discuss deployment in a real scenario.

@@ -1,0 +1,25 @@
+with the rapid development of smart cities, smart buildings are generating a
+massive amount of building sensing data by the equipped sensors. indeed,
+building sensing data provides a promising way to enrich a series of
+data-demanding and cost-expensive urban mobile applications. in this paper, we
+study how to reuse building sensing data to predict traffic volume on nearby
+roads. nevertheless, it is non-trivial to achieve accurate prediction on such
+cross-domain data with two major challenges. first, relationships between
+building sensing data and traffic data are not unknown as prior, and the
+spatio-temporal complexities impose more difficulties to uncover the underlying
+reasons behind the above relationships. second, it is even more daunting to
+accurately predict traffic volume with dynamic building-traffic correlations,
+which are cross-domain, non-linear, and time-varying. to address the above
+challenges, we design and implement buildsensys, a first-of-its-kind system for
+nearby traffic volume prediction by reusing building sensing data. first, we
+conduct a comprehensive building-traffic analysis based on multi-source
+datasets, disclosing how and why building sensing data is correlated with
+nearby traffic volume. second, we propose a novel recurrent neural network for
+traffic volume prediction based on cross-domain learning with two attention
+mechanisms. specifically, a cross-domain attention mechanism captures the
+building-traffic correlations and adaptively extracts the most relevant
+building sensing data at each predicting step. then, a temporal attention
+mechanism is employed to model the temporal dependencies of data across
+historical time intervals. the extensive experimental studies demonstrate that
+buildsensys outperforms all baseline methods with up to 65.3% accuracy
+improvement (e.g., 2.2% mape) in predicting nearby traffic volume.

@@ -1,0 +1,13 @@
+the central idea of this paper is to demonstrate the strength of lyrics for
+music mining and natural language processing (nlp) tasks using the distributed
+representation paradigm. for music mining, we address two prediction tasks for
+songs: genre and popularity. existing works for both these problems have two
+major bottlenecks. first, they represent lyrics using handcrafted features that
+require intricate knowledge of language and music. second, they consider lyrics
+as a weak indicator of genre and popularity. we overcome both the bottlenecks
+by representing lyrics using distributed representation. in our work, genre
+identification is a multi-class classification task whereas popularity
+prediction is a binary classification task. we achieve an f1 score of around
+0.6 for both the tasks using only lyrics. distributed representation of words
+is now heavily used for various nlp algorithms. we show that lyrics can be used
+to improve the quality of this representation.

@@ -1,0 +1,15 @@
+machine learning models of music typically break up the task of composition
+into a chronological process, composing a piece of music in a single pass from
+beginning to end. on the contrary, human composers write music in a nonlinear
+fashion, scribbling motifs here and there, often revisiting choices previously
+made. in order to better approximate this process, we train a convolutional
+neural network to complete partial musical scores, and explore the use of
+blocked gibbs sampling as an analogue to rewriting. neither the model nor the
+generative procedure are tied to a particular causal direction of composition.
+our model is an instance of orderless nade (uria et al., 2014), which allows
+more direct ancestral sampling. however, we find that gibbs sampling greatly
+improves sample quality, which we demonstrate to be due to some conditional
+distributions being poorly modeled. moreover, we show that even the cheap
+approximate blocked gibbs procedure from yao et al. (2014) yields better
+samples than ancestral sampling, based on both log-likelihood and human
+evaluation.

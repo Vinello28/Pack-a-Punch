@@ -1,0 +1,13 @@
+accurate automatic organ segmentation is an important yet challenging problem
+for medical image analysis. the pancreas is an abdominal organ with very high
+anatomical variability. this inhibits traditional segmentation methods from
+achieving high accuracies, especially compared to other organs such as the
+liver, heart or kidneys. in this paper, we present a holistic learning approach
+that integrates semantic mid-level cues of deeply-learned organ interior and
+boundary maps via robust spatial aggregation using random forest. our method
+generates boundary preserving pixel-wise class labels for pancreas
+segmentation. quantitative evaluation is performed on ct scans of 82 patients
+in 4-fold cross-validation. we achieve a (mean $\pm$ std. dev.) dice similarity
+coefficient of 78.01% $\pm$ 8.2% in testing which significantly outperforms the
+previous state-of-the-art approach of 71.8% $\pm$ 10.7% under the same
+evaluation criterion.

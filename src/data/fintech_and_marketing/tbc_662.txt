@@ -1,0 +1,4 @@
+companies operating under the subscription model typically invest significant resources attempting to predict customer's feature usage. these predictions can be used to fuel growth: it may allow these companies to target individual customers -- for example to convert non-paying consumers to begin paying for for enhanced services -- or to identify customers not maximizing their subscription product.
+this assistance can avoid an increase in the churn rate, and for some consumers may increase their usage.
+
+in this work, we develop a deep learning model to predict the product usage of a given consumer, based on historical usage. we adapt a convolutional neural network to time-series data followed by auxiliary output, and demonstrate that this enhanced model effectively predicts future change in usage.

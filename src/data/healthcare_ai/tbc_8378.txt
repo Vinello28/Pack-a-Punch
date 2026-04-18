@@ -1,0 +1,10 @@
+retention of residual skills for persons who partially lose their cognitive
+or physical ability is of utmost importance. research is focused on developing
+systems that provide need-based assistance for retention of such residual
+skills. this paper describes a novel cognitive collaborative control
+architecture c3a, designed to address the challenges of developing need- based
+assistance for wheelchair navigation. organization of c3a is detailed and
+results from simulation of the proposed architecture is presented. for
+simulation of our proposed architecture, we have used ros (robot operating
+system) as a control framework and a 3d robotic simulator called usarsim
+(unified system for automation and robot simulation).

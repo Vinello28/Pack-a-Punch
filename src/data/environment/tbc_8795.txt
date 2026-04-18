@@ -1,0 +1,14 @@
+an increasing number of internet of things (iot) devices are connecting to
+the internet, yet many of these devices are fundamentally insecure, exposing
+the internet to a variety of attacks. botnets such as mirai have used insecure
+consumer iot devices to conduct distributed denial of service (ddos) attacks on
+critical internet infrastructure. this motivates the development of new
+techniques to automatically detect consumer iot attack traffic. in this paper,
+we demonstrate that using iot-specific network behaviors (e.g. limited number
+of endpoints and regular time intervals between packets) to inform feature
+selection can result in high accuracy ddos detection in iot network traffic
+with a variety of machine learning algorithms, including neural networks. these
+results indicate that home gateway routers or other network middleboxes could
+automatically detect local iot device sources of ddos attacks using low-cost
+machine learning algorithms and traffic data that is flow-based and
+protocol-agnostic.

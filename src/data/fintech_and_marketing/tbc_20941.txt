@@ -1,0 +1,16 @@
+electricity is bought and sold in wholesale markets at prices that fluctuate
+significantly. short-term forecasting of electricity prices is an important
+endeavor because it helps electric utilities control risk and because it
+influences competitive strategy for generators. as the "smart grid" grows,
+short-term price forecasts are becoming an important input to bidding and
+control algorithms for battery operators and demand response aggregators. while
+the statistics and machine learning literature offers many proposed methods for
+electricity price prediction, there is no consensus supporting a single best
+approach. we test two contrasting machine learning approaches for predicting
+electricity prices, regression decision trees and recurrent neural networks
+(rnns), and compare them to a more traditional arima implementation. we conduct
+the analysis on a challenging dataset of electricity prices from ercot, in
+texas, where price fluctuation is especially high. we find that regression
+decision trees in particular achieves high performance compared to the other
+methods, suggesting that regression trees should be more carefully considered
+for electricity price forecasting.

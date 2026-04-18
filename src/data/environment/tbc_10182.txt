@@ -1,0 +1,19 @@
+due to the inherent intermittency, variability, and randomness, photovoltaic (pv) power
+generation faces significant challenges in energy grid integration. to address these challenges,
+current research mainly focuses on developing more efficient energy management systems and
+prediction technologies. through optimizing scheduling and integration in pv power generation, the
+stability and reliability of the power grid can be further improved. in this study, a new prediction
+model is introduced that combines the strengths of convolutional neural networks (cnns), long
+short-term memory (lstm) networks, and attention mechanisms, so we call this algorithm cnn-
+lstm-attention (cla). in addition, the crested porcupine optimizer (cpo) algorithm is utilized to
+solve the short-term prediction problem in photovoltaic power generation. this model is abbreviated
+as cpo-cla. this is the first time that the cpo algorithm has been introduced into the lstm
+algorithm for parameter optimization. to effectively capture univariate and multivariate time series
+patterns, multiple relevant and target variables prediction patterns (mrtpps) are employed in the
+cpo-cla model. the results show that the cpo-cla model is superior to traditional methods and
+recent popular models in terms of prediction accuracy and stability, especially in the 13 h timestep.
+the integration of attention mechanisms enables the model to adaptively focus on the most relevant
+historical data for future power prediction. the cpo algorithm further optimizes the lstm network
+parameters, which ensures the robust generalization ability of the model. the research results are
+of great significance for energy generation scheduling and establishing trust in the energy market.
+ultimately, it will help integrate renewable energy into the grid more reliably and efficiently.

@@ -1,0 +1,8 @@
+this work summarizes our submission for the task 3: disease classification of
+isic 2018 challenge in skin lesion analysis towards melanoma detection. we use
+a novel deep neural network (dnn) ensemble architecture introduced by us that
+can effectively classify skin lesions by using data-augmentation and bagging to
+address paucity of data and prevent over-fitting. the ensemble is composed of
+two dnn architectures: inception-v4 and inception-resnet-v2. the dnn
+architectures are combined in to an ensemble by using a $1\times1$ convolution
+for fusion in a meta-learning layer.

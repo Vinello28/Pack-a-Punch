@@ -1,0 +1,16 @@
+shot boundary detection (sbd) is an important pre-processing step for video
+manipulation. here, each segment of frames is classified as either sharp,
+gradual or no transition. current sbd techniques analyze hand-crafted features
+and attempt to optimize both detection accuracy and processing speed. however,
+the heavy computations of optical flow prevents this. to achieve this aim, we
+present an sbd technique based on spatio-temporal convolutional neural networks
+(cnn). since current datasets are not large enough to train an accurate sbd
+cnn, we present a new dataset containing more than 3.5 million frames of sharp
+and gradual transitions. the transitions are generated synthetically using
+image compositing models. our dataset contain additional 70,000 frames of
+important hard-negative no transitions. we perform the largest evaluation to
+date for one sbd algorithm, on real and synthetic data, containing more than
+4.85 million frames. in comparison to the state of the art, we outperform
+dissolve gradual detection, generate competitive performance for sharp
+detections and produce significant improvement in wipes. in addition, we are up
+to 11 times faster than the state of the art.

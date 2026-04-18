@@ -1,0 +1,18 @@
+this paper presents a novel approach for temporal and semantic segmentation
+of edited videos into meaningful segments, from the point of view of the
+storytelling structure. the objective is to decompose a long video into more
+manageable sequences, which can in turn be used to retrieve the most
+significant parts of it given a textual query and to provide an effective
+summarization. previous video decomposition methods mainly employed perceptual
+cues, tackling the problem either as a story change detection, or as a
+similarity grouping task, and the lack of semantics limited their ability to
+identify story boundaries. our proposal connects together perceptual, audio and
+semantic cues in a specialized deep network architecture designed with a
+combination of cnns which generate an appropriate embedding, and clusters shots
+into connected sequences of semantic scenes, i.e. stories. a retrieval
+presentation strategy is also proposed, by selecting the semantically and
+aesthetically "most valuable" thumbnails to present, considering the query in
+order to improve the storytelling presentation. finally, the subjective nature
+of the task is considered, by conducting experiments with different annotators
+and by proposing an algorithm to maximize the agreement between automatic
+results and human annotators.

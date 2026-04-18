@@ -1,0 +1,18 @@
+software defined internet of things (sd-iot) networks profits from
+centralized management and interactive resource sharing which enhances the
+efficiency and scalability of iot applications. but with the rapid growth in
+services and applications, it is vulnerable to possible attacks and faces
+severe security challenges. intrusion detection has been widely used to ensure
+network security, but classical detection means are usually signature-based or
+explicit-behavior-based and fail to detect unknown attacks intelligently, which
+are hard to satisfy the requirements of sd-iot networks. in this paper, we
+propose an ai-based two-stage intrusion detection empowered by software defined
+technology. it flexibly captures network flows with a globle view and detects
+attacks intelligently through applying ai algorithms. we firstly leverage bat
+algorithm with swarm division and differential mutation to select typical
+features. then, we exploit random forest through adaptively altering the
+weights of samples using weighted voting mechanism to classify flows.
+evaluation results prove that the modified intelligent algorithms select more
+important features and achieve superior performance in flow classification. it
+is also verified that intelligent intrusion detection shows better accuracy
+with lower overhead comparied with existing solutions.

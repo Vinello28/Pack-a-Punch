@@ -1,0 +1,12 @@
+accurate hand pose estimation at joint level has several uses on human-robot
+interaction, user interfacing and virtual reality applications. yet, it
+currently is not a solved problem. the novel deep learning techniques could
+make a great improvement on this matter but they need a huge amount of
+annotated data. the hand pose datasets released so far present some issues that
+make them impossible to use on deep learning methods such as the few number of
+samples, high-level abstraction annotations or samples consisting in depth
+maps. in this work, we introduce a multiview hand pose dataset in which we
+provide color images of hands and different kind of annotations for each, i.e
+the bounding box and the 2d and 3d location on the joints in the hand. besides,
+we introduce a simple yet accurate deep learning architecture for real-time
+robust 2d hand pose estimation.

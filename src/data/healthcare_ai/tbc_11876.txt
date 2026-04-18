@@ -1,0 +1,11 @@
+introduction
+study of aneurysm- and patient-specific risk factors has paved the way for understanding the pathopysiology of cerebral aneurysm development, growth, and rupture. however, predictors of post rupture neurological status have not been previously investigated. in this study, we try to effectively predict post rupture initial condition using a neuroevolutionary algorithm.
+
+methods
+we hypothesized that a number of suggested determinants of cerebral aneurysm growth and rupture may also contribute to the occurrence of a poor post rupture neurological condition. the relationship between potential predictors and the outcome was proposed as nonlinear and stochastic. poor post rupture status was defined as hunt and hess scale 4, 5 and wfns grade 3–5 up to 4 d or until surgery, each one occurred earlier. a single hidden-layer feed forward neural network (ffnn) combined with a genetic algorithm (ga) is so constructed.
+
+results
+risk factors suggested in the phases and elapss scores (age, history of subarachnoid hemorrhage, hypertension and aneurysm location, size and shape), plus smoking, gender, and multiplicity were selected as design variables. the data of 163 eligible patients with ruptured cerebral aneurysms were divided into 2 sets: 122 patients (1098 datasets) for training the network and 41 patients (369 datasets) as testing the model. using binary variable encoding, a ga generates the initial population with population size, mutation and crossover rates of 16, 0.5, and 0.01, respectively. then, the generated population is fed into the ffnn for prediction purpose. new generation is constructed using reproduction and recombination operators. the predictability of the constructed networks is calculated using r-squared value and mean square error on matlab for both the training and testing datasets.
+
+conclusion
+currently, there is no existing approach that can predict severity of neurological status after cerebral aneurysm rupture. this work will demonstrate a real-world application of a hybrid neurogenetic algorithm to tackle this clinical problem.

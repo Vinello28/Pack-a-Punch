@@ -1,0 +1,22 @@
+portable, wearable and wireless electrocardiogram (ecg) systems have the
+potential to be used as point-of-care for cardiovascular disease diagnostic
+systems. such wearable and wireless ecg systems require automatic detection of
+cardiovascular disease. even in the primary care, automation of ecg diagnostic
+systems will improve efficiency of ecg diagnosis and reduce the minimal
+training requirement of local healthcare workers. however, few fully automatic
+myocardial infarction (mi) disease detection algorithms have well been
+developed. this paper presents a novel automatic mi classification algorithm
+using second order ordinary differential equation (ode) with time varying
+coefficients, which simultaneously captures morphological and dynamic feature
+of highly correlated ecg signals. by effectively estimating the unobserved
+state variables and the parameters of the second order ode, the accuracy of the
+classification was significantly improved. the estimated time varying
+coefficients of the second order ode were used as an input to the support
+vector machine (svm) for the mi classification. the proposed method was applied
+to the ptb diagnostic ecg database within physionet. the overall sensitivity,
+specificity, and classification accuracy of 12 lead ecgs for mi binary
+classifications were 98.7%, 96.4% and 98.3%, respectively. we also found that
+even using one lead ecg signals, we can reach accuracy as high as 97%.
+multiclass mi classification is a challenging task but the developed ode
+approach for 12 lead ecgs coupled with multiclass svm reached 96.4% accuracy
+for classifying 5 subgroups of mi and healthy controls.

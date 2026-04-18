@@ -1,0 +1,13 @@
+today's densely instrumented world offers tremendous opportunities for
+continuous acquisition and analysis of multimodal sensor data providing
+temporal characterization of an individual's behaviors. is it possible to
+efficiently couple such rich sensor data with predictive modeling techniques to
+provide contextual, and insightful assessments of individual performance and
+wellbeing? prediction of different aspects of human behavior from these noisy,
+incomplete, and heterogeneous bio-behavioral temporal data is a challenging
+problem, beyond unsupervised discovery of latent structures. we propose a
+supervised tensor embedding (ste) algorithm for high dimension multimodal data
+with join decomposition of input and target variable. furthermore, we show that
+features selection will help to reduce the contamination in the prediction and
+increase the performance. the efficiently of the methods was tested via two
+different real world datasets.

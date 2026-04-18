@@ -1,0 +1,14 @@
+accurate segmentation of medical images is an important step during radiotherapy planning and clinical
+diagnosis. however, manually marking organ or lesion boundaries is tedious, time-consuming, and prone to
+error due to subjective variability of radiologist. automatic segmentation remains a challenging task owing
+to the variation (in shape and size) across subjects. moreover, existing convolutional neural networks based
+methods perform poorly in small medical objects segmentation due to class imbalance and boundary ambiguity.
+in this paper, we propose a dual feature fusion attention network (dff-net) to improve the segmentation
+accuracy of small objects. it mainly includes two core modules: the dual-branch feature fusion module (dffm)
+and the reverse attention context module (racm). we first extract multi-resolution features by multi-scale
+feature extractor, then construct dffm to aggregate the global and local contextual information to achieve
+information complementarity among features, which provides sufficient guidance for accurate small objects
+segmentation. moreover, to alleviate the degradation of segmentation accuracy caused by blurred medical
+image boundaries, we propose racm to enhance the edge texture of features. experimental results on datasets
+npc, acdc, and polyp demonstrate that our proposed method has fewer parameters, faster inference, and
+lower model complexity, and achieves better accuracy than more state-of-the-art methods.

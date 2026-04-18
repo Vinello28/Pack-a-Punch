@@ -1,0 +1,13 @@
+the stock market is a very important financial market, and the prediction of the stock has always been of great 
+interest to many investors. nowadays, many methods for predicting stocks have been developed and one of the 
+most commonly adopted strategies is to seek similar stocks through historical data to make predictions. the key 
+to this strategy is the construction of a reasonable similarity measurement. in this paper, for accurately 
+describing the similarity between a pair of time series, a novel similarity measurement is proposed, which is 
+named as the dynamic multi-perspective personalized similarity measurement (dmpsm). specifically, the 
+segmented stock series are weighted according to the principle that the closer to current data, the more weight 
+will be given. then, canberra distance is embedded into the dynamic time warping (dtw) to measure the 
+similarity between any pair of time series. by this way, the dmpsm can not only reflect the personalization of 
+stock time series, but also eliminate the impact of singularities and apply to one-to-many matching. to validate 
+the efficiency of dmpsm, experiments utilized 285 stocks from the shanghai stock exchange and the results 
+demonstrated the superiority of the proposed approach over similarity measurements, including euclidean 
+distance, canberra distance and dtw.

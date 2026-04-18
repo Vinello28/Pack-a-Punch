@@ -1,0 +1,26 @@
+recognising individual trees within remotely sensed imagery has important
+applications in forest ecology and management. several algorithms for tree
+delineation have been suggested, mostly based on locating local maxima or
+inverted basins in raster canopy height models (chms) derived from light
+detection and ranging (lidar) data or photographs. however, these algorithms
+often lead to inaccurate estimates of forest stand characteristics due to the
+limited information content of raster chms. here we develop a 3d tree
+delineation method which uses graph cut to delineate trees from the full 3d
+lidar point cloud, and also makes use of any optical imagery available
+(hyperspectral imagery in our case). first, conventional methods are used to
+locate local maxima in the chm and generate an initial map of trees. second, a
+graph is built from the lidar point cloud, fused with the hyperspectral data.
+for computational efficiency, the feature space of hyperspectral imagery is
+reduced using robust pca. third, a multi-class normalised cut is applied to the
+graph, using the initial map of trees to constrain the number of clusters and
+their locations. finally, recursive normalised cut is used to subdivide, if
+necessary, each of the clusters identified by the initial analysis. we call
+this approach multiclass cut followed by recursive cut (mcrc). the
+effectiveness of mcrc was tested using three datasets: i) newfor, ii) a
+coniferous forest in the italian alps, and iii) a deciduous woodland in the uk.
+the performance of mcrc was usually superior to that of other delineation
+methods, and was further improved by including high-resolution optical imagery.
+since mcrc delineates the entire lidar point cloud in 3d, it allows individual
+crown characteristics to be measured. by making full use of the data available,
+graph cut has the potential to considerably improve the accuracy of tree
+delineation.

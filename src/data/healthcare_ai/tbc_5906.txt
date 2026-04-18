@@ -1,0 +1,17 @@
+acute coronary syndrome (acs) is a syndrome caused by a decrease in blood
+flow in the coronary arteries. the acs is usually related to coronary
+thrombosis and is primarily caused by plaque rupture followed by plaque erosion
+and calcified nodule. thin-cap fibroatheroma (tcfa) is known to be the most
+similar lesion morphologically to a plaque rupture. in this paper, we propose
+methods to classify tcfa using various machine learning classifiers including
+feed-forward neural network (fnn), k-nearest neighbor (knn), random forest (rf)
+and convolutional neural network (cnn) to figure out a classifier that shows
+optimal tcfa classification accuracy. in addition, we suggest pixel range based
+feature extraction method to extract the ratio of pixels in the different
+region of interests to reflect the physician's tcfa discrimination criteria. a
+total of 12,325 ivus images were labeled with corresponding oct images to train
+and evaluate the classifiers. we achieved 0.884, 0.890, 0.878 and 0.933 area
+under the roc curve (auc) in the order of using fnn, knn, rf and cnn
+classifier. as a result, the cnn classifier performed best and the top 10
+features of the feature-based classifiers (fnn, knn, rf) were found to be
+similar to the physician's tcfa diagnostic criteria.

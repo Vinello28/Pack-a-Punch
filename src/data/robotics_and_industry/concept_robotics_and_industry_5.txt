@@ -1,1 +1,0 @@
-Gli AMR (Autonomous Mobile Robots) navigano autonomamente nei magazzini e nelle fabbriche utilizzando SLAM e sensori per movimentare materiali senza infrastrutture fisse come binari o magneti.

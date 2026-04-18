@@ -1,0 +1,12 @@
+over the past decade humans have experienced exponential growth in the use of
+online resources, in particular social media and microblogging websites such as
+facebook, twitter, youtube and also mobile applications such as whatsapp, line,
+etc. many companies have identified these resources as a rich mine of marketing
+knowledge. this knowledge provides valuable feedback which allows them to
+further develop the next generation of their product. in this paper, sentiment
+analysis of a product is performed by extracting tweets about that product and
+classifying the tweets showing it as positive and negative sentiment. the
+authors propose a hybrid approach which combines unsupervised learning in the
+form of k-means clustering to cluster the tweets and then performing supervised
+learning methods such as decision trees and support vector machines for
+classification.

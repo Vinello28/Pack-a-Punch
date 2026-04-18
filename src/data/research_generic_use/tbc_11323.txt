@@ -1,0 +1,22 @@
+we present a method for automatically generating repair feedback for syntax
+errors for introductory programming problems. syntax errors constitute one of
+the largest classes of errors (34%) in our dataset of student submissions
+obtained from a mooc course on edx. the previous techniques for generating
+automated feed- back on programming assignments have focused on functional
+correctness and style considerations of student programs. these techniques
+analyze the program ast of the program and then perform some dynamic and
+symbolic analyses to compute repair feedback. unfortunately, it is not possible
+to generate asts for student pro- grams with syntax errors and therefore the
+previous feedback techniques are not applicable in repairing syntax errors.
+  we present a technique for providing feedback on syntax errors that uses
+recurrent neural networks (rnns) to model syntactically valid token sequences.
+our approach is inspired from the recent work on learning language models from
+big code (large code corpus). for a given programming assignment, we first
+learn an rnn to model all valid token sequences using the set of syntactically
+correct student submissions. then, for a student submission with syntax errors,
+we query the learnt rnn model with the prefix to- ken sequence to predict token
+sequences that can fix the error by either replacing or inserting the predicted
+token sequence at the error location. we evaluate our technique on over 14, 000
+student submissions with syntax errors. our technique can completely re- pair
+31.69% (4501/14203) of submissions with syntax errors and in addition partially
+correct 6.39% (908/14203) of the submissions.

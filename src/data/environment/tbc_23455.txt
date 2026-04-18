@@ -1,0 +1,18 @@
+unmanned aerial vehicles (drones) are emerging as a promising technology for
+both environmental and infrastructure monitoring, with broad use in a plethora
+of applications. many such applications require the use of computer vision
+algorithms in order to analyse the information captured from an on-board
+camera. such applications include detecting vehicles for emergency response and
+traffic monitoring. this paper therefore, explores the trade-offs involved in
+the development of a single-shot object detector based on deep convolutional
+neural networks (cnns) that can enable uavs to perform vehicle detection under
+a resource constrained environment such as in a uav. the paper presents a
+holistic approach for designing such systems; the data collection and training
+stages, the cnn architecture, and the optimizations necessary to efficiently
+map such a cnn on a lightweight embedded processing platform suitable for
+deployment on uavs. through the analysis we propose a cnn architecture that is
+capable of detecting vehicles from aerial uav images and can operate between
+5-18 frames-per-second for a variety of platforms with an overall accuracy of
+~95%. overall, the proposed architecture is suitable for uav applications,
+utilizing low-power embedded processors that can be deployed on commercial
+uavs.

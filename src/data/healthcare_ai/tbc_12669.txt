@@ -1,0 +1,11 @@
+in order to identify and prevent tea leaf diseases effectively, convolution
+neural network (cnn) was used to realize the image recognition of tea disease
+leaves. firstly, image segmentation and data enhancement are used to preprocess
+the images, and then these images were input into the network for training.
+secondly, to reach a higher recognition accuracy of cnn, the learning rate and
+iteration numbers were adjusted frequently and the dropout was added properly
+in the case of over-fitting. finally, the experimental results show that the
+recognition accuracy of cnn is 93.75%, while the accuracy of svm and bp neural
+network is 89.36% and 87.69% respectively. therefore, the recognition algorithm
+based on cnn is better in classification and can improve the recognition
+efficiency of tea leaf diseases effectively.

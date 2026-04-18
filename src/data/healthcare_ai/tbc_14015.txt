@@ -1,0 +1,14 @@
+glaucoma is the second leading cause of blindness all over the world, with
+approximately 60 million cases reported worldwide in 2010. if undiagnosed in
+time, glaucoma causes irreversible damage to the optic nerve leading to
+blindness. the optic nerve head examination, which involves measurement of
+cup-to-disc ratio, is considered one of the most valuable methods of structural
+diagnosis of the disease. estimation of cup-to-disc ratio requires segmentation
+of optic disc and optic cup on eye fundus images and can be performed by modern
+computer vision algorithms. this work presents universal approach for automatic
+optic disc and cup segmentation, which is based on deep learning, namely,
+modification of u-net convolutional neural network. our experiments include
+comparison with the best known methods on publicly available databases
+drions-db, rim-one v.3, drishti-gs. for both optic disc and cup segmentation,
+our method achieves quality comparable to current state-of-the-art methods,
+outperforming them in terms of the prediction time.

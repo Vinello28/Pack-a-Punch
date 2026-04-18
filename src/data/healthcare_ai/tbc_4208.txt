@@ -1,0 +1,17 @@
+computer aided detection (cad) is a valuable technique for precisely
+interpreting medical images and it has a global business opportunity of about
+usd 1.8 billion. the current aspects with reference to the four sub stages such
+as image pre-processing, segmentation, feature extraction and classification
+and the future scope of cad in medical imaging has been discussed in this
+paper. many reviewers have emphasized the need for synergy between engineers
+and medical professionals for successful development of cad systems and the
+current work is a move in that direction. the engineering aspects of the above
+four stages in four imaging modalities viz. computed tomography, magnetic
+resonance imaging, mammography and bone scintigraphy used in the diagnosis of
+five critical diseases have been discussed with a clinical background.
+automatic classification of image can play an important role in preliminary
+screening of very critical ailments bringing down the cost of health care.
+another recent advancement is using artificial intelligence and machine
+learning techniques. this paper reviews these engineering aspects with a view
+to explore the opportunities to researchers as well as the medical industry to
+offer affordable medical services with accessibility in even remote locations.

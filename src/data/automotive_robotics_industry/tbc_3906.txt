@@ -1,0 +1,8 @@
+this paper describes the vision based robotic picking system that was
+developed by our team, team applied robotics, for the amazon picking challenge
+2016. this competition challenged teams to develop a robotic system that is
+able to pick a large variety of products from a shelve or a tote. we discuss
+the design considerations and our strategy, the high resolution 3d vision
+system, the use of a combination of texture and shape-based object detection
+algorithms, the robot path planning and object manipulators that were
+developed.

@@ -1,0 +1,14 @@
+compact keyframe-based video summaries are a popular way of generating
+viewership on video sharing platforms. yet, creating relevant and compelling
+summaries for arbitrarily long videos with a small number of keyframes is a
+challenging task. we propose a comprehensive keyframe-based summarization
+framework combining deep convolutional neural networks and restricted boltzmann
+machines. an original co-regularization scheme is used to discover meaningful
+subject-scene associations. the resulting multimodal representations are then
+used to select highly-relevant keyframes. a comprehensive user study is
+conducted comparing our proposed method to a variety of schemes, including the
+summarization currently in use by one of the most popular video sharing
+websites. the results show that our method consistently outperforms the
+baseline schemes for any given amount of keyframes both in terms of
+attractiveness and informativeness. the lead is even more significant for
+smaller summaries.

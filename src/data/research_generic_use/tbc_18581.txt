@@ -1,0 +1,1 @@
+we prove that weak convergence within generalized gamma convolution (ggc) distributions implies convergence in the mean value. we use this fact to show the robustness of the expected utility maximizing optimal portfolio under exponential utility function when return vectors are modelled by hyperbolic distributions.

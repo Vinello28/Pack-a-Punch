@@ -1,0 +1,20 @@
+memorability is considered to be an important characteristic of visual
+content, whereas for advertisement and educational purposes it is often
+crucial. despite numerous studies on understanding and predicting image
+memorability, there are almost no achievements in memorability modification. in
+this work, we study two approaches to image editing - gan and classical image
+processing - and show their impact on memorability. the visual features which
+influence memorability directly stay unknown till now, hence it is impossible
+to control it manually. as a solution, we let gan learn it deeply using labeled
+data, and then use it for conditional generation of new images. by analogy with
+algorithms which edit facial attributes, we consider memorability as yet
+another attribute and operate with it in the same way. obtained data is also
+interesting for analysis, simply because there are no real-world examples of
+successful change of image memorability while preserving its other attributes.
+we believe this may give many new answers to the question "what makes an image
+memorable?" apart from that we also study the influence of conventional
+photo-editing tools (photoshop, instagram, etc.) used daily by a wide audience
+on memorability. in this case, we start from real practical methods and study
+it using statistics and recent advances in memorability prediction.
+photographers, designers, and advertisers will benefit from the results of this
+study directly.

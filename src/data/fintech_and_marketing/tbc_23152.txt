@@ -1,0 +1,15 @@
+in the last three decades, we have seen a significant increase in trading
+goods and services through online auctions. however, this business created an
+attractive environment for malicious moneymakers who can commit different types
+of fraud activities, such as shill bidding (sb). the latter is predominant
+across many auctions but this type of fraud is difficult to detect due to its
+similarity to normal bidding behaviour. the unavailability of sb datasets makes
+the development of sb detection and classification models burdensome.
+furthermore, to implement efficient sb detection models, we should produce sb
+data from actual auctions of commercial sites. in this study, we first scraped
+a large number of ebay auctions of a popular product. after preprocessing the
+raw auction data, we build a high-quality sb dataset based on the most reliable
+sb strategies. the aim of our research is to share the preprocessed auction
+dataset as well as the sb training (unlabelled) dataset, thereby researchers
+can apply various machine learning techniques by using authentic data of
+auctions and fraud.

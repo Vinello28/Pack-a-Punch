@@ -1,0 +1,14 @@
+social media platforms provide an environment where people can freely engage
+in discussions. unfortunately, they also enable several problems, such as
+online harassment. recently, google and jigsaw started a project called
+perspective, which uses machine learning to automatically detect toxic
+language. a demonstration website has been also launched, which allows anyone
+to type a phrase in the interface and instantaneously see the toxicity score
+[1]. in this paper, we propose an attack on the perspective toxic detection
+system based on the adversarial examples. we show that an adversary can subtly
+modify a highly toxic phrase in a way that the system assigns significantly
+lower toxicity score to it. we apply the attack on the sample phrases provided
+in the perspective website and show that we can consistently reduce the
+toxicity scores to the level of the non-toxic phrases. the existence of such
+adversarial examples is very harmful for toxic detection systems and seriously
+undermines their usability.

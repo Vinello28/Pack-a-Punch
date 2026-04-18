@@ -1,0 +1,14 @@
+cross modal image syntheses is gaining significant interests for its ability
+to estimate target images of a different modality from a given set of source
+images,like estimating mr to mr, mr to ct, ct to pet etc, without the need for
+an actual acquisition.though they show potential for applications in radiation
+therapy planning,image super resolution, atlas construction, image segmentation
+etc.the synthesis results are not as accurate as the actual acquisition.in this
+paper,we address the problem of multi modal image synthesis by proposing a
+fully convolutional deep learning architecture called the synnet.we extend the
+proposed architecture for various input output configurations. and finally, we
+propose a structure preserving custom loss function for cross-modal image
+synthesis.we validate the proposed synnet and its extended framework on brats
+dataset with comparisons against three state-of-the art methods.and the results
+of the proposed custom loss function is validated against the traditional loss
+function used by the state-of-the-art methods for cross modal image synthesis.

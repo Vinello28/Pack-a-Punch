@@ -1,0 +1,17 @@
+on a daily investment decision in a security market, the price earnings (pe)
+ratio is one of the most widely applied methods being used as a firm valuation
+tool by investment experts. unfortunately, recent academic developments in
+financial econometrics and machine learning rarely look at this tool. in
+practice, fundamental pe ratios are often estimated only by subjective expert
+opinions. the purpose of this research is to formalize a process of fundamental
+pe estimation by employing advanced dynamic bayesian network (dbn) methodology.
+the estimated pe ratio from our model can be used either as a information
+support for an expert to make investment decisions, or as an automatic trading
+system illustrated in experiments. forward-backward inference and em parameter
+estimation algorithms are derived with respect to the proposed dbn structure.
+unlike existing works in literatures, the economic interpretation of our dbn
+model is well-justified by behavioral finance evidences of volatility. a simple
+but practical trading strategy is invented based on the result of bayesian
+inference. extensive experiments show that our trading strategy equipped with
+the inferenced pe ratios consistently outperforms standard investment
+benchmarks.

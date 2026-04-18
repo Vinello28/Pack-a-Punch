@@ -1,0 +1,17 @@
+a high-gain observer-based cooperative deterministic learning (cdl) control
+algorithm is proposed in this chapter for a group of identical unicycle-type
+unmanned ground vehicles (ugvs) to track over desired reference trajectories.
+for the vehicle states, the positions of the vehicles can be measured, while
+the velocities are estimated using the high-gain observer. for the trajectory
+tracking controller, the radial basis function (rbf) neural network (nn) is
+used to online estimate the unknown dynamics of the vehicle, and the nn weight
+convergence and estimation accuracy is guaranteed by cdl. the major challenge
+and novelty of this chapter is to track the reference trajectory using this
+observer-based cdl algorithm without the full knowledge of the vehicle state
+and vehicle model. in addition, any vehicle in the system is able to learn the
+knowledge of unmodeled dynamics along the union of trajectories experienced by
+all vehicle agents, such that the learned knowledge can be re-used to follow
+any reference trajectory defined in the learning phase. the learning-based
+tracking convergence and consensus learning results, as well as using learned
+knowledge for tracking experienced trajectories, are shown using the lyapunov
+method. simulation is given to show the effectiveness of this algorithm.

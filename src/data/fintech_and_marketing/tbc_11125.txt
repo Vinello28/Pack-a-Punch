@@ -1,0 +1,11 @@
+predicting potential credit default accounts in advance is challenging.
+traditional statistical techniques typically cannot handle large amounts of
+data and the dynamic nature of fraud and humans. to tackle this problem, recent
+research has focused on artificial and computational intelligence based
+approaches. in this work, we present and validate a heuristic approach to mine
+potential default accounts in advance where a risk probability is precomputed
+from all previous data and the risk probability for recent transactions are
+computed as soon they happen. beside our heuristic approach, we also apply a
+recently proposed machine learning approach that has not been applied
+previously on our targeted dataset [15]. as a result, we find that these
+applied approaches outperform existing state-of-the-art approaches.

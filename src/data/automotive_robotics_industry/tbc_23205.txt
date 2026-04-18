@@ -1,0 +1,8 @@
+we propose a real-time pedestrian detection system for the embedded nvidia
+tegra x1 gpu-cpu hybrid platform. the pipeline is composed by the following
+state-of-the-art algorithms: histogram of local binary patterns (lbp) and
+histograms of oriented gradients (hog) features extracted from the input image;
+pyramidal sliding window technique for candidate generation; and support vector
+machine (svm) for classification. results show a 8x speedup in the target tegra
+x1 platform and a better performance/watt ratio than desktop cuda platforms in
+study.

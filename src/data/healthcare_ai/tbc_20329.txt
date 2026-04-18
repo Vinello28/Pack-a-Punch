@@ -1,0 +1,20 @@
+image segmentation is a fundamental problem in biomedical image analysis.
+recent advances in deep learning have achieved promising results on many
+biomedical image segmentation benchmarks. however, due to large variations in
+biomedical images (different modalities, image settings, objects, noise, etc),
+to utilize deep learning on a new application, it usually needs a new set of
+training data. this can incur a great deal of annotation effort and cost,
+because only biomedical experts can annotate effectively, and often there are
+too many instances in images (e.g., cells) to annotate. in this paper, we aim
+to address the following question: with limited effort (e.g., time) for
+annotation, what instances should be annotated in order to attain the best
+performance? we present a deep active learning framework that combines fully
+convolutional network (fcn) and active learning to significantly reduce
+annotation effort by making judicious suggestions on the most effective
+annotation areas. we utilize uncertainty and similarity information provided by
+fcn and formulate a generalized version of the maximum set cover problem to
+determine the most representative and uncertain areas for annotation. extensive
+experiments using the 2015 miccai gland challenge dataset and a lymph node
+ultrasound image segmentation dataset show that, using annotation suggestions
+by our method, state-of-the-art segmentation performance can be achieved by
+using only 50% of training data.

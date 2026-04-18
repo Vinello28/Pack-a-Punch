@@ -1,0 +1,16 @@
+automatically generating animation from natural language text finds
+application in a number of areas e.g. movie script writing, instructional
+videos, and public safety. however, translating natural language text into
+animation is a challenging task. existing text-to-animation systems can handle
+only very simple sentences, which limits their applications. in this paper, we
+develop a text-to-animation system which is capable of handling complex
+sentences. we achieve this by introducing a text simplification step into the
+process. building on an existing animation generation system for screenwriting,
+we create a robust nlp pipeline to extract information from screenplays and map
+them to the system's knowledge base. we develop a set of linguistic
+transformation rules that simplify complex sentences. information extracted
+from the simplified sentences is used to generate a rough storyboard and video
+depicting the text. our sentence simplification module outperforms existing
+systems in terms of bleu and sari metrics.we further evaluated our system via a
+user study: 68 % participants believe that our system generates reasonable
+animation from input screenplays.

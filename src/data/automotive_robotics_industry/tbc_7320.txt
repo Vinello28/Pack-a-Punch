@@ -1,0 +1,14 @@
+deep learning is a fast-growing machine learning approach to perceive and
+understand large amounts of data. in this paper, general information about the
+deep learning approach which is attracted much attention in the field of
+machine learning is given in recent years and an application about semantic
+image segmentation is carried out in order to help autonomous driving of
+autonomous vehicles. this application is implemented with fully convolutional
+network (fcn) architectures obtained by modifying the convolutional neural
+network (cnn) architectures based on deep learning. experimental studies for
+the application are utilized 4 different fcn architectures named
+fcn-alexnet,fcn-8s, fcn-16s and fcn-32s. for the experimental studies, fcns are
+first trained separately and validation accuracies of these trained network
+models on the used dataset is compared. in addition, image segmentation
+inferences are visualized to take account of how precisely fcn architectures
+can segment objects.

@@ -1,0 +1,25 @@
+establishing up-to-date large scale building maps is essential to understand
+urban dynamics, such as estimating population, urban planning and many other
+applications. although many computer vision tasks has been successfully carried
+out with deep convolutional neural networks, there is a growing need to
+understand their large scale impact on building mapping with remote sensing
+imagery. taking advantage of the scalability of cnns and using only few areas
+with the abundance of building footprints, for the first time we conduct a
+comparative analysis of four state-of-the-art cnns for extracting building
+footprints across the entire continental united states. the four cnn
+architectures namely: branch-out cnn, fully convolutional neural network (fcn),
+conditional random field as recurrent neural network (crfasrnn), and segnet,
+support semantic pixel-wise labeling and focus on capturing textural
+information at multi-scale. we use 1-meter resolution aerial images from
+national agriculture imagery program (naip) as the test-bed, and compare the
+extraction results across the four methods. in addition, we propose to combine
+signed-distance labels with segnet, the preferred cnn architecture identified
+by our extensive evaluations, to advance building extraction results to
+instance level. we further demonstrate the usefulness of fusing additional near
+ir information into the building extraction framework. large scale experimental
+evaluations are conducted and reported using metrics that include: precision,
+recall rate, intersection over union, and the number of buildings extracted.
+with the improved cnn model and no requirement of further post-processing, we
+have generated building maps for the united states. the quality of extracted
+buildings and processing time demonstrated the proposed cnn-based framework
+fits the need of building extraction at scale.

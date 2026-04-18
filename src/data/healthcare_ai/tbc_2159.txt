@@ -1,0 +1,19 @@
+genome-wide association studies (gwas) have achieved great success in the
+genetic study of alzheimer's disease (ad). collaborative imaging genetics
+studies across different research institutions show the effectiveness of
+detecting genetic risk factors. however, the high dimensionality of gwas data
+poses significant challenges in detecting risk snps for ad. selecting relevant
+features is crucial in predicting the response variable. in this study, we
+propose a novel distributed feature selection framework (dfsf) to conduct the
+large-scale imaging genetics studies across multiple institutions. to speed up
+the learning process, we propose a family of distributed group lasso screening
+rules to identify irrelevant features and remove them from the optimization.
+then we select the relevant group features by performing the group lasso
+feature selection process in a sequence of parameters. finally, we employ the
+stability selection to rank the top risk snps that might help detect the early
+stage of ad. to the best of our knowledge, this is the first distributed
+feature selection model integrated with group lasso feature selection as well
+as detecting the risk genetic factors across multiple research institutions
+system. empirical studies are conducted on 809 subjects with 5.9 million snps
+which are distributed across several individual institutions, demonstrating the
+efficiency and effectiveness of the proposed method.

@@ -1,0 +1,14 @@
+we propose a scalable computerized approach for large-scale inference of
+liver imaging reporting and data system (li-rads) final assessment categories
+in narrative ultrasound (us) reports. although our model was trained on reports
+created using a li-rads template, it was also able to infer li-rads scoring for
+unstructured reports that were created before the li-rads guidelines were
+established. no human-labelled data was required in any step of this study; for
+training, li-rads scores were automatically extracted from those reports that
+contained structured li-rads scores, and it translated the derived knowledge to
+reasoning on unstructured radiology reports. by providing automated li-rads
+categorization, our approach may enable standardizing screening recommendations
+and treatment planning of patients at risk for hepatocellular carcinoma, and it
+may facilitate ai-based healthcare research with us images by offering large
+scale text mining and data gathering opportunities from standard hospital
+clinical data repositories.

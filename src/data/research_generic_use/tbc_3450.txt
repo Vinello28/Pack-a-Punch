@@ -1,0 +1,15 @@
+information systems experience an ever-growing volume of unstructured data,
+particularly in the form of textual materials. this represents a rich source of
+information from which one can create value for people, organizations and
+businesses. for instance, recommender systems can benefit from automatically
+understanding preferences based on user reviews or social media. however, it is
+difficult for computer programs to correctly infer meaning from narrative
+content. one major challenge is negations that invert the interpretation of
+words and sentences. as a remedy, this paper proposes a novel learning strategy
+to detect negations: we apply reinforcement learning to find a policy that
+replicates the human perception of negations based on an exogenous response,
+such as a user rating for reviews. our method yields several benefits, as it
+eliminates the former need for expensive and subjective manual labeling in an
+intermediate stage. moreover, the inferred policy can be used to derive
+statistical inferences and implications regarding how humans process and act on
+negations.

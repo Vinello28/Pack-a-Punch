@@ -1,0 +1,16 @@
+real-time traffic flow prediction can not only provide travelers with
+reliable traffic information so that it can save people's time, but also assist
+the traffic management agency to manage traffic system. it can greatly improve
+the efficiency of the transportation system. traditional traffic flow
+prediction approaches usually need a large amount of data but still give poor
+performances. with the development of deep learning, researchers begin to pay
+attention to artificial neural networks (anns) such as rnn and lstm. however,
+these anns are very time-consuming. in our research, we improve the deep
+residual network and build a dynamic model which previous researchers hardly
+use. we firstly integrate the input and output of the $i^{th}$ layer to the
+input of the $i+1^{th}$ layer and prove that each layer will fit a simpler
+function so that the error rate will be much smaller. then, we use the concept
+of online learning in our model to update pre-trained model during prediction.
+our result shows that our model has higher accuracy than some state-of-the-art
+models. in addition, our dynamic model can perform better in practical
+applications.

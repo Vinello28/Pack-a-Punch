@@ -1,0 +1,14 @@
+this research investigated the potential for improving peer-to-peer (p2p)
+credit scoring by using "private information" about communications and travels
+of borrowers. we found that p2p borrowers' ego networks exhibit scale-free
+behavior driven by underlying preferential attachment mechanisms that connect
+borrowers in a fashion that can be used to predict loan profitability. the
+projection of these private networks onto networks of mobile phone
+communication and geographical locations from mobile phone gps potentially give
+loan providers access to private information through graph and location metrics
+which we used to predict loan profitability. graph topology was found to be an
+important predictor of loan profitability, explaining over 5.5% of variability.
+networks of borrower location information explain an additional 19% of the
+profitability. machine learning algorithms were applied to the data set
+previously analyzed to develop the predictive model and resulted in a 4%
+reduction in mean squared error.

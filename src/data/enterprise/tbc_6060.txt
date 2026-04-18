@@ -1,0 +1,19 @@
+out of nearly 70,000 bills introduced in the u.s. congress from 2001 to 2015,
+only 2,513 were enacted. we developed a machine learning approach to
+forecasting the probability that any bill will become law. starting in 2001
+with the 107th congress, we trained models on data from previous congresses,
+predicted all bills in the current congress, and repeated until the 113th
+congress served as the test. for prediction we scored each sentence of a bill
+with a language model that embeds legislative vocabulary into a
+high-dimensional, semantic-laden vector space. this language representation
+enables our investigation into which words increase the probability of
+enactment for any topic. to test the relative importance of text and context,
+we compared the text model to a context-only model that uses variables such as
+whether the bill's sponsor is in the majority party. to test the effect of
+changes to bills after their introduction on our ability to predict their final
+outcome, we compared using the bill text and meta-data available at the time of
+introduction with using the most recent data. at the time of introduction
+context-only predictions outperform text-only, and with the newest data
+text-only outperforms context-only. combining text and context always performs
+best. we conducted a global sensitivity analysis on the combined model to
+determine important variables predicting enactment.

@@ -1,0 +1,12 @@
+electroencephalography (eeg) during sleep is used by clinicians to evaluate
+various neurological disorders. in sleep medicine, it is relevant to detect
+macro-events (> 10s) such as sleep stages, and micro-events (<2s) such as
+spindles and k-complexes. annotations of such events require a trained sleep
+expert, a time consuming and tedious process with a large inter-scorer
+variability. automatic algorithms have been developed to detect various types
+of events but these are event-specific. we propose a deep learning method that
+jointly predicts locations, durations and types of events in eeg time series.
+it relies on a convolutional neural network that builds a feature
+representation from raw eeg signals. numerical experiments demonstrate
+efficiency of this new approach on various event detection tasks compared to
+current state-of-the-art, event specific, algorithms.

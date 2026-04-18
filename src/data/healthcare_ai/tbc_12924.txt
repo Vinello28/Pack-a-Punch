@@ -1,0 +1,25 @@
+accurate segmentation of cerebral vasculature and a quantitative assessment
+of cerebrovascular morphology is critical to various diagnostic and therapeutic
+purposes and is pertinent to studying brain health and disease. however, this
+is still a challenging task due to the complexity of the vascular imaging data.
+we propose an automated method for cerebral vascular segmentation without the
+need of any manual intervention as well as a method to skeletonize the binary
+volume to extract vascular geometric features which can characterize vessel
+structure. we combine a probabilistic vessel-enhancing filtering with an
+active-contour technique to segment magnetic resonance and computed tomography
+angiograms (mra and cta) and subsequently extract the vessel centerlines and
+diameters to calculate the geometrical properties of the vasculature. our
+method was validated using a 3d phantom of the circle-of-willis region with 84%
+mean dice similarity and 85% mean pearson correlation with minimal modified
+hausdorff distance error. we applied this method to a dataset of healthy
+subjects and stroke patients and present a quantitative comparison between
+them. we found significant differences in the geometric features including
+total length (2.88 +/- 0.38 m for healthy and 2.20 +/- 0.67 m for stroke),
+volume (40.18 +/- 25.55 ml for healthy and 34.43 +/- 21.83 ml for stroke),
+tortuosity (3.24 +/- 0.88 rad/cm for healthy and 5.80 +/- 0.92 rad/cm for
+stroke) and fractality (box dimension 1.36 +/- 0.28 for healthy vs. 1.69 +/-
+0.20 for stroke). this technique can be applied on any imaging modality and can
+be used in the future to automatically obtain the 3d segmented vasculature for
+diagnosis and treatment planning of stroke and other cerebrovascular diseases
+(cvd) in the clinic and also to study the morphological changes caused by
+various cvd.

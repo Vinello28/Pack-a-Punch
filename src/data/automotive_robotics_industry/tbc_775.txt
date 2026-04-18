@@ -1,0 +1,10 @@
+assigning a label to each pixel in an image, namely semantic segmentation,
+has been an important task in computer vision, and has applications in
+autonomous driving, robotic navigation, localization, and scene understanding.
+fully convolutional neural networks have proved to be a successful solution for
+the task over the years but most of the work being done focuses primarily on
+accuracy. in this paper, we present a computationally efficient approach to
+semantic segmentation, while achieving a high mean intersection over union
+(miou), 70.33% on cityscapes challenge. the network proposed is capable of
+running real-time on mobile devices. in addition, we make our code and model
+weights publicly available.

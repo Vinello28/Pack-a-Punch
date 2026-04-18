@@ -1,0 +1,14 @@
+segmentation of the airway tree from chest computed tomography (ct) images is
+critical for quantitative assessment of airway diseases including
+bronchiectasis and chronic obstructive pulmonary disease (copd). however,
+obtaining an accurate segmentation of airways from ct scans is difficult due to
+the high complexity of airway structures. recently, deep convolutional neural
+networks (cnns) have become the state-of-the-art for many segmentation tasks,
+and in particular the so-called unet architecture for biomedical images.
+however, its application to the segmentation of airways still remains a
+challenging task. this work presents a simple but robust approach based on a 3d
+unet to perform segmentation of airways from chest cts. the method is trained
+on a dataset composed of 12 cts, and tested on another 6 cts. we evaluate the
+influence of different loss functions and data augmentation techniques, and
+reach an average dice coefficient of 0.8 between the ground-truth and our
+automated segmentations.

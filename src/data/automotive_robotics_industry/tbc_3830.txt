@@ -1,0 +1,16 @@
+in this work, we present a novel framework for on-line human gait stability
+prediction of the elderly users of an intelligent robotic rollator using long
+short term memory (lstm) networks, fusing multimodal rgb-d and laser range
+finder (lrf) data from non-wearable sensors. a deep learning (dl) based
+approach is used for the upper body pose estimation. the detected pose is used
+for estimating the body center of mass (com) using unscented kalman filter
+(ukf). an augmented gait state estimation framework exploits the lrf data to
+estimate the legs' positions and the respective gait phase. these estimates are
+the inputs of an encoder-decoder sequence to sequence model which predicts the
+gait stability state as safe or fall risk walking. it is validated with data
+from real patients, by exploring different network architectures,
+hyperparameter settings and by comparing the proposed method with other
+baselines. the presented lstm-based human gait stability predictor is shown to
+provide robust predictions of the human stability state, and thus has the
+potential to be integrated into a general user-adaptive control architecture as
+a fall-risk alarm.

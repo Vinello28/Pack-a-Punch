@@ -1,0 +1,24 @@
+in near future, vulnerable road users (vrus) such as cyclists and pedestrians
+will be equipped with smart devices and wearables which are capable to
+communicate with intelligent vehicles and other traffic participants. road
+users are then able to cooperate on different levels, such as in cooperative
+intention detection for advanced vru protection. smart devices can be used to
+detect intentions, e.g., an occluded cyclist intending to cross the road, to
+warn vehicles of vrus, and prevent potential collisions. this article presents
+a human activity recognition approach to detect the starting movement of
+cyclists wearing smart devices. we propose a novel two-stage feature selection
+procedure using a score specialized for robust starting detection reducing the
+false positive detections and leading to understandable and interpretable
+features. the detection is modelled as a classification problem and realized by
+means of a machine learning classifier. we introduce an auxiliary class, that
+models starting movements and allows to integrate early movement indicators,
+i.e., body part movements indicating future behaviour. in this way we improve
+the robustness and reduce the detection time of the classifier. our empirical
+studies with real-world data originating from experiments which involve 49 test
+subjects and consists of 84 starting motions show that we are able to detect
+the starting movements early. our approach reaches an f1-score of 67 % within
+0.33 s after the first movement of the bicycle wheel. investigations concerning
+the device wearing location show that for devices worn in the trouser pocket
+the detector has less false detections and detects starting movements faster on
+average. we found that we can further improve the results when we train
+distinct classifiers for different wearing locations.

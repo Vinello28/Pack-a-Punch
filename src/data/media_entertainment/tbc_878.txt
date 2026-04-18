@@ -1,0 +1,15 @@
+this paper addresses the problem of supervised video summarization by
+formulating it as a sequence-to-sequence learning problem, where the input is a
+sequence of original video frames, the output is a keyshot sequence. our key
+idea is to learn a deep summarization network with attention mechanism to mimic
+the way of selecting the keyshots of human. to this end, we propose a novel
+video summarization framework named attentive encoder-decoder networks for
+video summarization (avs), in which the encoder uses a bidirectional long
+short-term memory (bilstm) to encode the contextual information among the input
+video frames. as for the decoder, two attention-based lstm networks are
+explored by using additive and multiplicative objective functions,
+respectively. extensive experiments are conducted on three video summarization
+benchmark datasets, i.e., summe, and tvsum. the results demonstrate the
+superiority of the proposed avs-based approaches against the state-of-the-art
+approaches,with remarkable improvements from 0.8% to 3% on two
+datasets,respectively..

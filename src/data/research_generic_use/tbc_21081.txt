@@ -1,0 +1,17 @@
+for many image clustering problems, replacing raw image data with features
+extracted by a pretrained convolutional neural network (cnn), leads to better
+clustering performance. however, the specific features extracted, and, by
+extension, the selected cnn architecture, can have a major impact on the
+clustering results. in practice, this crucial design choice is often decided
+arbitrarily due to the impossibility of using cross-validation with
+unsupervised learning problems. however, information contained in the different
+pretrained cnn architectures may be complementary, even when pretrained on the
+same data. to improve clustering performance, we rephrase the image clustering
+problem as a multi-view clustering (mvc) problem that considers multiple
+different pretrained feature extractors as different "views" of the same data.
+we then propose a multi-input neural network architecture that is trained
+end-to-end to solve the mvc problem effectively. our experimental results,
+conducted on three different natural image datasets, show that: 1. using
+multiple pretrained cnns jointly as feature extractors improves image
+clustering; 2. using an end-to-end approach improves mvc; and 3. combining both
+produces state-of-the-art results for the problem of image clustering.

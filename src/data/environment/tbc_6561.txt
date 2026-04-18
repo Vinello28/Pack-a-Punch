@@ -1,0 +1,9 @@
+increasing availability of data related to air quality from ground monitoring stations has provided the chance
+for data mining researchers to propose sophisticated models for predicting the concentrations of different
+air pollutants. in this paper, we proposed a hybrid model based on deep learning methods that integrates
+graph convolutional networks and long short-term memory networks (gc-lstm) to model and forecast
+the spatiotemporal variation of pm2.5 concentrations. specifically, historical observations on different stations are constructed as spatiotemporal graph series, and historical air quality variables, meteorological
+factors, spatial terms and temporal attributes are defined as graph signals. to evaluate the performance
+of the gc-lstm, we compared our results with several state-of-the-art methods in different time intervals. based on the results, our gc-lstm model achieved the best performance for predictions. moreover,
+evaluations of recall rate (68.45%), false alarm rate (4.65%) (both of threshold: 115 lg/m3) and correlation coefficient r2 (0.72) for 72-hour predictions also verify the feasibility of our proposed model. this
+methodology can be used for concentration forecasting of different air pollutants in future.

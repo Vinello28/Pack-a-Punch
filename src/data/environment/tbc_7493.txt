@@ -1,0 +1,18 @@
+anomaly detection has various applications including condition monitoring and
+fault diagnosis. the objective is to sense the environment, learn the normal
+system state, and then periodically classify whether the instantaneous state
+deviates from the normal one or not. a flexible and cost-effective way of
+monitoring a system state is to use a wireless sensor network. in the
+traditional approach, the sensors encode their observations and transmit them
+to a fusion center by means of some interference avoiding channel access
+method. the fusion center then decodes all the data and classifies the
+corresponding system state. as this approach can be highly inefficient in terms
+of energy consumption, in this paper we propose a transmission scheme that
+exploits interference for carrying out the anomaly detection directly in the
+air. in other words, the wireless channel helps the fusion center to retrieve
+the sought classification outcome immediately from the channel output. to
+achieve this, the chosen learning model is linear support vector machines.
+after discussing the proposed scheme and proving its reliability, we present
+numerical examples demonstrating that the scheme reduces the energy consumption
+for anomaly detection by up to 53% compared to a strategy that uses time
+division multiple-access.

@@ -1,0 +1,12 @@
+we introduce a novel method to automatically adjust camera exposure for image
+processing and computer vision applications on mobile robot platforms. because
+most image processing algorithms rely heavily on low-level image features that
+are based mainly on local gradient information, we consider that gradient
+quantity can determine the proper exposure level, allowing a camera to capture
+the important image features in a manner robust to illumination conditions. we
+then extend this concept to a multi-camera system and present a new control
+algorithm to achieve both brightness consistency between adjacent cameras and a
+proper exposure level for each camera. we implement our prototype system with
+off-the-shelf machine-vision cameras and demonstrate the effectiveness of the
+proposed algorithms on practical applications, including pedestrian detection,
+visual odometry, surround-view imaging, panoramic imaging and stereo matching.

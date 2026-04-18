@@ -1,0 +1,18 @@
+convolutional neural networks (cnns) can potentially provide powerful tools
+for classifying and identifying patterns in climate and environmental data.
+however, because of the inherent complexities of such data, which are often
+spatio-temporal, chaotic, and non-stationary, the cnn algorithms must be
+designed/evaluated for each specific dataset and application. yet to start,
+cnn, a supervised technique, requires a large labeled dataset. labeling demands
+(human) expert time, which combined with the limited number of relevant
+examples in this area, can discourage using cnns for new problems. to address
+these challenges, here we (1) propose an effective auto-labeling strategy based
+on using an unsupervised clustering algorithm and evaluating the performance of
+cnns in re-identifying these clusters; (2) use this approach to label thousands
+of daily large-scale weather patterns over north america in the outputs of a
+fully-coupled climate model and show the capabilities of cnns in re-identifying
+the 4 clustered regimes. the deep cnn trained with $1000$ samples or more per
+cluster has an accuracy of $90\%$ or better. accuracy scales monotonically but
+nonlinearly with the size of the training set, e.g. reaching $94\%$ with $3000$
+training samples per cluster. effects of architecture and hyperparameters on
+the performance of cnns are examined and discussed.

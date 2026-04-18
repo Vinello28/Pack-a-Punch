@@ -1,0 +1,17 @@
+with recent advances in computer vision and graphics, it is now possible to
+generate videos with extremely realistic synthetic faces, even in real time.
+countless applications are possible, some of which raise a legitimate alarm,
+calling for reliable detectors of fake videos. in fact, distinguishing between
+original and manipulated video can be a challenge for humans and computers
+alike, especially when the videos are compressed or have low resolution, as it
+often happens on social networks. research on the detection of face
+manipulations has been seriously hampered by the lack of adequate datasets. to
+this end, we introduce a novel face manipulation dataset of about half a
+million edited images (from over 1000 videos). the manipulations have been
+generated with a state-of-the-art face editing approach. it exceeds all
+existing video manipulation datasets by at least an order of magnitude. using
+our new dataset, we introduce benchmarks for classical image forensic tasks,
+including classification and segmentation, considering videos compressed at
+various quality levels. in addition, we introduce a benchmark evaluation for
+creating indistinguishable forgeries with known ground truth; for instance with
+generative refinement models.

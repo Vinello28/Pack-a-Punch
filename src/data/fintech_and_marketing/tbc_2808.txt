@@ -1,0 +1,17 @@
+we introduce a framework to study the effective objectives at different time
+scales of financial market microstructure. the financial market can be regarded
+as a complex adaptive system, where purposeful agents collectively and
+simultaneously create and perceive their environment as they interact with it.
+it has been suggested that multiple agent classes operate in this system, with
+a non-trivial hierarchy of top-down and bottom-up causation classes with
+different effective models governing each level. we conjecture that agent
+classes may in fact operate at different time scales and thus act differently
+in response to the same perceived market state. given scale-specific temporal
+state trajectories and action sequences estimated from aggregate market
+behaviour, we use inverse reinforcement learning to compute the effective
+reward function for the aggregate agent class at each scale, allowing us to
+assess the relative attractiveness of feature vectors across different scales.
+differences in reward functions for feature vectors may indicate different
+objectives of market participants, which could assist in finding the scale
+boundary for agent classes. this has implications for learning algorithms
+operating in this domain.

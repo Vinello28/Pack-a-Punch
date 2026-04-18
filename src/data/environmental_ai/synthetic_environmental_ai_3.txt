@@ -1,1 +1,0 @@
-Sviluppo di un sistema di monitoraggio della biodiversita basato su camera trap con riconoscimento automatico delle specie tramite reti neurali convoluzionali.

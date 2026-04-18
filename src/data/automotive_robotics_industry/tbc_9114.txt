@@ -1,0 +1,21 @@
+unmanned aerial vehicles (uavs) are capable of serving as aerial base
+stations (bss) for providing both cost-effective and on-demand wireless
+communications. this article investigates dynamic resource allocation of
+multiple uavs enabled communication networks with the goal of maximizing
+long-term rewards. more particularly, each uav communicates with a ground user
+by automatically selecting its communicating users, power levels and
+subchannels without any information exchange among uavs. to model the
+uncertainty of environments, we formulate the long-term resource allocation
+problem as a stochastic game for maximizing the expected rewards, where each
+uav becomes a learning agent and each resource allocation solution corresponds
+to an action taken by the uavs. afterwards, we develop a multi-agent
+reinforcement learning (marl) framework that each agent discovers its best
+strategy according to its local observations using learning. more specifically,
+we propose an agent-independent method, for which all agents conduct a decision
+algorithm independently but share a common structure based on q-learning.
+finally, simulation results reveal that: 1) appropriate parameters for
+exploitation and exploration are capable of enhancing the performance of the
+proposed marl based resource allocation algorithm; 2) the proposed marl
+algorithm provides acceptable performance compared to the case with complete
+information exchanges among uavs. by doing so, it strikes a good tradeoff
+between performance gains and information exchange overheads.

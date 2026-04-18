@@ -1,0 +1,18 @@
+bitcoin is a cryptocurrency that features a distributed, decentralized and
+trustworthy mechanism, which has made bitcoin a popular global transaction
+platform. the transaction efficiency among nations and the privacy benefiting
+from address anonymity of the bitcoin network have attracted many activities
+such as payments, investments, gambling, and even money laundering in the past
+decade. unfortunately, some criminal behaviors which took advantage of this
+platform were not identified. this has discouraged many governments to support
+cryptocurrency. thus, the capability to identify criminal addresses becomes an
+important issue in the cryptocurrency network. in this paper, we propose new
+features in addition to those commonly used in the literature to build a
+classification model for detecting abnormality of bitcoin network addresses.
+these features include various high orders of moments of transaction time
+(represented by block height) which summarizes the transaction history in an
+efficient way. the extracted features are trained by supervised machine
+learning methods on a labeling category data set. the experimental evaluation
+shows that these features have improved the performance of bitcoin address
+classification significantly. we evaluate the results under eight classifiers
+and achieve the highest micro-f1/macro-f1 of 87%/86% with lightgbm.

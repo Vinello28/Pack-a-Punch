@@ -1,0 +1,12 @@
+the task of predicting future stock values has always been one that is
+heavily desired albeit very difficult. this difficulty arises from stocks with
+non-stationary behavior, and without any explicit form. hence, predictions are
+best made through analysis of financial stock data. to handle big data sets,
+current convention involves the use of the moving average. however, by
+utilizing the wavelet transform in place of the moving average to denoise stock
+signals, financial data can be smoothened and more accurately broken down. this
+newly transformed, denoised, and more stable stock data can be followed up by
+non-parametric statistical methods, such as support vector regression (svr) and
+recurrent neural network (rnn) based long short-term memory (lstm) networks to
+predict future stock prices. through the implementation of these methods, one
+is left with a more accurate stock forecast, and in turn, increased profits.

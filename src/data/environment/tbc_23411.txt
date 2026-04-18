@@ -1,0 +1,16 @@
+in fruit production, critical crop management decisions are guided by bloom
+intensity, i.e., the number of flowers present in an orchard. despite its
+importance, bloom intensity is still typically estimated by means of human
+visual inspection. existing automated computer vision systems for flower
+identification are based on hand-engineered techniques that work only under
+specific conditions and with limited performance. this work proposes an
+automated technique for flower identification that is robust to uncontrolled
+environments and applicable to different flower species. our method relies on
+an end-to-end residual convolutional neural network (cnn) that represents the
+state-of-the-art in semantic segmentation. to enhance its sensitivity to
+flowers, we fine-tune this network using a single dataset of apple flower
+images. since cnns tend to produce coarse segmentations, we employ a refinement
+method to better distinguish between individual flower instances. without any
+pre-processing or dataset-specific training, experimental results on images of
+apple, peach and pear flowers, acquired under different conditions demonstrate
+the robustness and broad applicability of our method.

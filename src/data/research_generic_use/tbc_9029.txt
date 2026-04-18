@@ -1,0 +1,14 @@
+5g networks are expected to be more dynamic and chaotic in their structure
+than current networks. with the advent of network function virtualization
+(nfv), network functions (nf) will no longer be tightly coupled with the
+hardware they are running on, which poses new challenges in network management.
+noisy neighbor is a term commonly used to describe situations in nfv
+infrastructure where an application experiences degradation in performance due
+to the fact that some of the resources it needs are occupied by other
+applications in the same cloud node. these situations cannot be easily
+identified using straightforward approaches, which calls for the use of
+sophisticated methods for nfv infrastructure management. in this paper we
+demonstrate how machine learning (ml) techniques can be used to identify such
+events. through experiments using data collected at real nfv infrastructure, we
+show that standard models for automated classification can detect the noisy
+neighbor phenomenon with an accuracy of more than 90% in a simple scenario.

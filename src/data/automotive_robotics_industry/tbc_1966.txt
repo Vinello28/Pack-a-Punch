@@ -1,0 +1,23 @@
+object detection and 6d pose estimation in the crowd (scenes with multiple
+object instances, severe foreground occlusions and background distractors), has
+become an important problem in many rapidly evolving technological areas such
+as robotics and augmented reality. single shot-based 6d pose estimators with
+manually designed features are still unable to tackle the above challenges,
+motivating the research towards unsupervised feature learning and
+next-best-view estimation. in this work, we present a complete framework for
+both single shot-based 6d object pose estimation and next-best-view prediction
+based on hough forests, the state of the art object pose estimator that
+performs classification and regression jointly. rather than using manually
+designed features we a) propose an unsupervised feature learnt from
+depth-invariant patches using a sparse autoencoder and b) offer an extensive
+evaluation of various state of the art features. furthermore, taking advantage
+of the clustering performed in the leaf nodes of hough forests, we learn to
+estimate the reduction of uncertainty in other views, formulating the problem
+of selecting the next-best-view. to further improve pose estimation, we propose
+an improved joint registration and hypotheses verification module as a final
+refinement step to reject false detections. we provide two additional
+challenging datasets inspired from realistic scenarios to extensively evaluate
+the state of the art and our framework. one is related to domestic environments
+and the other depicts a bin-picking scenario mostly found in industrial
+settings. we show that our framework significantly outperforms state of the art
+both on public and on our datasets.

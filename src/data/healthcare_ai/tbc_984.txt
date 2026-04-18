@@ -1,0 +1,18 @@
+melanoma is a type of skin cancer developed from melanocytes. it is one of
+the most lethal types of cancer, accounting for approximately 75% of skin
+cancer deaths. late stage melanoma is very difficult to treat, since the cancer
+cells are deranged, may be genetically linked and can be unresponsive to
+therapy. therefore, determining how to effectively make use of different
+treatment regimens is of vital importance to survival. in this analysis, we
+propose an adaptive treatment recommendation system based on a hybrid
+cluster-classification (cc) structure. our proposed system consists of two
+parts,1) distribution based clustering and 2) classification. our
+recommendation system can help to identify high-risk melanoma patients and
+suggest the best approach to treatment, which enables clinicians and patients
+to make decisions on the basis of real-world data. our data came from the
+canadian melanoma research network (cmrn) database, a pan-canadian multi-year
+observational database, which is part of global melanoma registry network
+(gmrn). training/testing sets are generated based on data from different
+sources, leading to cross cohort analysis tasks. experimental results show that
+our proposed system achieves very promising results with an overall accuracy of
+up to 80%.

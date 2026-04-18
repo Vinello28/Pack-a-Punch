@@ -1,0 +1,17 @@
+communication is now a standard tool in the central bank's monetary policy
+toolkit. theoretically, communication provides the central bank an opportunity
+to guide public expectations, and it has been shown empirically that central
+bank communication can lead to financial market fluctuations. however, there
+has been little research into which dimensions or topics of information are
+most important in causing these fluctuations. we develop a semi-automatic
+methodology that summarizes the fomc statements into its main themes,
+automatically selects the best model based on coherency, and assesses whether
+there is a significant impact of these themes on the shape of the u.s treasury
+yield curve using topic modeling methods from the machine learning literature.
+our findings suggest that the fomc statements can be decomposed into three
+topics: (i) information related to the economic conditions and the mandates,
+(ii) information related to monetary policy tools and intermediate targets, and
+(iii) information related to financial markets and the financial crisis. we
+find that statements are most influential during the financial crisis and the
+effects are mostly present in the curvature of the yield curve through
+information related to the financial theme.

@@ -1,0 +1,23 @@
+the recent drive towards achieving greater autonomy and intelligence in
+robotics has led to high levels of complexity. autonomous robots increasingly
+depend on third party off-the-shelf components and complex machine-learning
+techniques. this trend makes it challenging to provide strong design-time
+certification of correct operation.
+  to address these challenges, we present soter, a robotics programming
+framework with two key components: (1) a programming language for implementing
+and testing high-level reactive robotics software and (2) an integrated runtime
+assurance (rta) system that helps enable the use of uncertified components,
+while still providing safety guarantees. soter provides language primitives to
+declaratively construct a rta module consisting of an advanced,
+high-performance controller (uncertified), a safe, lower-performance controller
+(certified), and the desired safety specification. the framework provides a
+formal guarantee that a well-formed rta module always satisfies the safety
+specification, without completely sacrificing performance by using higher
+performance uncertified components whenever safe. soter allows the complex
+robotics software stack to be constructed as a composition of rta modules,
+where each uncertified component is protected using a rta module.
+  to demonstrate the efficacy of our framework, we consider a real-world
+case-study of building a safe drone surveillance system. our experiments both
+in simulation and on actual drones show that the soter-enabled rta ensures the
+safety of the system, including when untrusted third-party components have bugs
+or deviate from the desired behavior.

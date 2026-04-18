@@ -1,0 +1,14 @@
+the estimation of crowd count in images has a wide range of applications such
+as video surveillance, traffic monitoring, public safety and urban planning.
+recently, the convolutional neural network (cnn) based approaches have been
+shown to be more effective in crowd counting than traditional methods that use
+handcrafted features. however, the existing cnn-based methods still suffer from
+large number of parameters and large storage space, which require high storage
+and computing resources and thus limit the real-world application.
+consequently, we propose a deeply-recursive network (dr-resnet) based on resnet
+blocks for crowd counting. the recursive structure makes the network deeper
+while keeping the number of parameters unchanged, which enhances network
+capability to capture statistical regularities in the context of the crowd.
+besides, we generate a new dataset from the video-monitoring data of beijing
+bus station. experimental results have demonstrated that proposed method
+outperforms most state-of-the-art methods with far less number of parameters.

@@ -1,0 +1,14 @@
+the rise of digital and mobile communications has recently made the world
+more connected and networked, resulting in an unprecedented volume of data
+flowing between sources, data centers, or processes. while these data may be
+processed in a centralized manner, it is often more suitable to consider
+distributed strategies such as diffusion as they are scalable and can handle
+large amounts of data by distributing tasks over networked agents. although it
+is relatively simple to implement diffusion strategies over a cluster, it
+appears to be challenging to deploy them in an ad-hoc network with limited
+energy budget for communication. in this paper, we introduce a diffusion lms
+strategy that significantly reduces communication costs without compromising
+the performance. then, we analyze the proposed algorithm in the mean and
+mean-square sense. next, we conduct numerical experiments to confirm the
+theoretical findings. finally, we perform large scale simulations to test the
+algorithm efficiency in a scenario where energy is limited.

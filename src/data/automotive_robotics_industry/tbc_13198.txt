@@ -1,0 +1,12 @@
+most vehicle license plate recognition use neural network techniques to
+enhance its computing capability. the image of the vehicle license plate is
+captured and processed to produce a textual output for further processing. this
+paper reviews image processing and neural network techniques applied at
+different stages which are preprocessing, filtering, feature extraction,
+segmentation and recognition in such way to remove the noise of the image, to
+enhance the image quality and to expedite the computing process by converting
+the characters in the image into respective text. an exemplar experiment has
+been done in matlab to show the basic process of the image processing
+especially for license plate in malaysia case study. an algorithm is adapted
+into the solution for parking management system. the solution then is
+implemented as proof of concept to the algorithm.

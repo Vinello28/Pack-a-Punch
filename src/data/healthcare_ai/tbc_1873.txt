@@ -1,1 +1,0 @@
-sviluppare una soluzione robotica modulare che possa supportare ed assistere il personale socio-sanitario durante l’emergenza Covid-19  favorendo la riduzione del rischio di contagio e di trasmissione del virus.

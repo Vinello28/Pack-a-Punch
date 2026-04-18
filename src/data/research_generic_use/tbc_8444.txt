@@ -1,0 +1,10 @@
+this work presents an approach to automatically induction for non-greedy
+decision trees constructed from neural network architecture. this construction
+can be used to transfer weights when growing or pruning a decision tree,
+allowing non-greedy decision tree algorithms to automatically learn and adapt
+to the ideal architecture. in this work, we examine the underpinning ideas
+within ensemble modelling and bayesian model averaging which allow our neural
+network to asymptotically approach the ideal architecture through weights
+transfer. experimental results demonstrate that this approach improves models
+over fixed set of hyperparameters for decision tree models and decision forest
+models.

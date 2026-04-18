@@ -1,0 +1,11 @@
+predicting the completion time of business process instances would be a very
+helpful aid when managing processes under service level agreement constraints.
+the ability to know in advance the trend of running process instances would
+allow business managers to react in time, in order to prevent delays or
+undesirable situations. however, making such accurate forecasts is not easy:
+many factors may influence the required time to complete a process instance. in
+this paper, we propose an approach based on deep recurrent neural networks
+(specifically lstms) that is able to exploit arbitrary information associated
+to single events, in order to produce an as-accurate-as-possible prediction of
+the completion time of running instances. experiments on real-world datasets
+confirm the quality of our proposal.

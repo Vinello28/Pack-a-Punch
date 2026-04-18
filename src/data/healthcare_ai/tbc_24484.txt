@@ -1,0 +1,11 @@
+screening mammography is an important front-line tool for the early detection
+of breast cancer, and some 39 million exams are conducted each year in the
+united states alone. here, we describe a multi-scale convolutional neural
+network (cnn) trained with a curriculum learning strategy that achieves high
+levels of accuracy in classifying mammograms. specifically, we first train
+cnn-based patch classifiers on segmentation masks of lesions in mammograms, and
+then use the learned features to initialize a scanning-based model that renders
+a decision on the whole image, trained end-to-end on outcome data. we
+demonstrate that our approach effectively handles the "needle in a haystack"
+nature of full-image mammogram classification, achieving 0.92 auroc on the ddsm
+dataset.

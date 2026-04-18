@@ -1,0 +1,17 @@
+accurate and robust recognition and prediction of traffic situation plays an
+important role in autonomous driving, which is a prerequisite for risk
+assessment and effective decision making. although there exist a lot of works
+dealing with modeling driver behavior of a single object, it remains a
+challenge to make predictions for multiple highly interactive agents that react
+to each other simultaneously. in this work, we propose a generic probabilistic
+hierarchical recognition and prediction framework which employs a two-layer
+hidden markov model (tlhmm) to obtain the distribution of potential situations
+and a learning-based dynamic scene evolution model to sample a group of future
+trajectories. instead of predicting motions of a single entity, we propose to
+get the joint distribution by modeling multiple interactive agents as a whole
+system. moreover, due to the decoupling property of the layered structure, our
+model is suitable for knowledge transfer from simulation to real world
+applications as well as among different traffic scenarios, which can reduce the
+computational efforts of training and the demand for a large data amount. a
+case study of highway ramp merging scenario is demonstrated to verify the
+effectiveness and accuracy of the proposed framework.

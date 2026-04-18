@@ -1,0 +1,16 @@
+deep learning has been revolutionary for computer vision and semantic
+segmentation in particular, with bayesian deep learning (bdl) used to obtain
+uncertainty maps from deep models when predicting semantic classes. this
+information is critical when using semantic segmentation for autonomous driving
+for example. standard semantic segmentation systems have well-established
+evaluation metrics. however, with bdl's rising popularity in computer vision we
+require new metrics to evaluate whether a bdl method produces better
+uncertainty estimates than another method. in this work we propose three such
+metrics to evaluate bdl models designed specifically for the task of semantic
+segmentation. we modify deeplab-v3+, one of the state-of-the-art deep neural
+networks, and create its bayesian counterpart using mc dropout and concrete
+dropout as inference techniques. we then compare and test these two inference
+techniques on the well-known cityscapes dataset using our suggested metrics.
+our results provide new benchmarks for researchers to compare and evaluate
+their improved uncertainty quantification in pursuit of safer semantic
+segmentation.

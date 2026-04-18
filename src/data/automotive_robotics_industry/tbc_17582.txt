@@ -1,0 +1,21 @@
+robots are expected to operate autonomously in dynamic environments.
+understanding the underlying dynamic characteristics of objects is a key
+enabler for achieving this goal. in this paper, we propose a method for
+pointwise semantic classification of 3d lidar data into three classes:
+non-movable, movable and dynamic. we concentrate on understanding these
+specific semantics because they characterize important information required for
+an autonomous system. non-movable points in the scene belong to unchanging
+segments of the environment, whereas the remaining classes corresponds to the
+changing parts of the scene. the difference between the movable and dynamic
+class is their motion state. the dynamic points can be perceived as moving,
+whereas movable objects can move, but are perceived as static. to learn the
+distinction between movable and non-movable points in the environment, we
+introduce an approach based on deep neural network and for detecting the
+dynamic points, we estimate pointwise motion. we propose a bayes filter
+framework for combining the learned semantic cues with the motion cues to infer
+the required semantic classification. in extensive experiments, we compare our
+approach with other methods on a standard benchmark dataset and report
+competitive results in comparison to the existing state-of-the-art.
+furthermore, we show an improvement in the classification of points by
+combining the semantic cues retrieved from the neural network with the motion
+cues.

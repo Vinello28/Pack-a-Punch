@@ -1,0 +1,26 @@
+in multi-label text classification, each textual document can be assigned
+with one or more labels. due to this nature, the multi-label text
+classification task is often considered to be more challenging compared to the
+binary or multi-class text classification problems. as an important task with
+broad applications in biomedicine such as assigning diagnosis codes, a number
+of different computational methods (e.g. training and combining binary
+classifiers for each label) have been proposed in recent years. however, many
+suffered from modest accuracy and efficiency, with only limited success in
+practical use. we propose ml-net, a novel deep learning framework, for
+multi-label classification of biomedical texts. as an end-to-end system, ml-net
+combines a label prediction network with an automated label count prediction
+mechanism to output an optimal set of labels by leveraging both predicted
+confidence score of each label and the contextual information in the target
+document. we evaluate ml-net on three independent, publicly-available corpora
+in two kinds of text genres: biomedical literature and clinical notes. for
+evaluation, example-based measures such as precision, recall and f-measure are
+used. ml-net is compared with several competitive machine learning baseline
+models. our benchmarking results show that ml-net compares favorably to the
+state-of-the-art methods in multi-label classification of biomedical texts.
+ml-net is also shown to be robust when evaluated on different text genres in
+biomedicine. unlike traditional machine learning methods, ml-net does not
+require human efforts in feature engineering and is highly efficient and
+scalable approach to tasks with a large set of labels (no need to build
+individual classifiers for each separate label). finally, ml-net is able to
+dynamically estimate the label count based on the document context in a more
+systematic and accurate manner.

@@ -1,0 +1,13 @@
+we present a general framework for classification of sparse and
+irregularly-sampled time series. the properties of such time series can result
+in substantial uncertainty about the values of the underlying temporal
+processes, while making the data difficult to deal with using standard
+classification methods that assume fixed-dimensional feature spaces. to address
+these challenges, we propose an uncertainty-aware classification framework
+based on a special computational layer we refer to as the gaussian process
+adapter that can connect irregularly sampled time series data to any black-box
+classifier learnable using gradient descent. we show how to scale up the
+required computations based on combining the structured kernel interpolation
+framework and the lanczos approximation method, and how to discriminatively
+train the gaussian process adapter in combination with a number of classifiers
+end-to-end using backpropagation.

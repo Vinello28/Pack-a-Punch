@@ -1,0 +1,13 @@
+we address the problem of real-time 3d object detection from point clouds in
+the context of autonomous driving. computation speed is critical as detection
+is a necessary component for safety. existing approaches are, however,
+expensive in computation due to high dimensionality of point clouds. we utilize
+the 3d data more efficiently by representing the scene from the bird's eye view
+(bev), and propose pixor, a proposal-free, single-stage detector that outputs
+oriented 3d object estimates decoded from pixel-wise neural network
+predictions. the input representation, network architecture, and model
+optimization are especially designed to balance high accuracy and real-time
+efficiency. we validate pixor on two datasets: the kitti bev object detection
+benchmark, and a large-scale 3d vehicle detection benchmark. in both datasets
+we show that the proposed detector surpasses other state-of-the-art methods
+notably in terms of average precision (ap), while still runs at >28 fps.

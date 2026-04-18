@@ -1,0 +1,12 @@
+in this paper we focus on developing a control algorithm for multi-terrain
+tracked robots with flippers using a reinforcement learning (rl) approach. the
+work is based on the deep deterministic policy gradient (ddpg) algorithm,
+proven to be very successful in simple simulation environments. the algorithm
+works in an end-to-end fashion in order to control the continuous position of
+the flippers. this end-to-end approach makes it easy to apply the controller to
+a wide array of circumstances, but the huge flexibility comes to the cost of an
+increased difficulty of solution. the complexity of the task is enlarged even
+more by the fact that real multi-terrain robots move in partially observable
+environments. notwithstanding these complications, being able to smoothly
+control a multi-terrain robot can produce huge benefits in impaired people
+daily lives or in search and rescue situations.

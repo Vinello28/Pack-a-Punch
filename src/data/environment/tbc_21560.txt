@@ -1,0 +1,14 @@
+we present a complete methodology for authenticating local bee pollen against
+fraudulent samples using image processing and machine learning techniques. the
+proposed standard methods do not need expensive equipment such as advanced
+microscopes and can be used for a preliminary fast rejection of unknown pollen
+types. the system is able to rapidly reject the non-local pollen samples with
+inexpensive hardware and without the need to send the product to the
+laboratory. methods are based on the color properties of bee pollen loads
+images and the use of one-class classifiers which are appropriate to reject
+unknown pollen samples when there is limited data about them. the validation of
+the method is carried out by authenticating spanish bee pollen types.
+experimentation shows that the proposed methods can obtain an overall
+authentication accuracy of 94%. we finally illustrate the user interaction with
+the software in some practical cases by showing the developed application
+prototype.

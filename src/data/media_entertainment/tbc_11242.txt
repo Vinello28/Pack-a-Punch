@@ -1,0 +1,12 @@
+this paper presents an adaptive level generation algorithm for the
+physics-based puzzle game angry birds. the proposed algorithm is based on a
+pre-existing level generator for this game, but where the difficulty of the
+generated levels can be adjusted based on the player's performance. this allows
+for the creation of personalised levels tailored specifically to the player's
+own abilities. the effectiveness of our proposed method is evaluated using
+several agents with differing strategies and ai techniques. by using these
+agents as models / representations of real human player's characteristics, we
+can optimise level properties efficiently over a large number of generations.
+as a secondary investigation, we also demonstrate that by combining the
+performance of several agents together it is possible to generate levels that
+are especially challenging for certain players but not others.

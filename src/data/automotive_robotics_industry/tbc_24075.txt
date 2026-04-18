@@ -1,0 +1,16 @@
+geo-localization has been widely applied as an important technique to get the longitude
+and latitude for unmanned aerial vehicle (uav) navigation in outdoor flight. due to the possible
+interference and blocking of gps signals, the method based on image retrieval, which is less likely
+to be interfered with, has received extensive attention in recent years. the geo-localization of uavs
+and satellites can be achieved by querying pre-obtained satellite images with gps-tagged and drone
+images from different perspectives. in this paper, an image transformation technique is used to extract
+cross-view geo-localization information from uavs and satellites. a single-stage training method
+in uav and satellite geo-localization is first proposed, which simultaneously realizes cross-view
+feature extraction and image retrieval, and achieves higher accuracy than existing multi-stage training
+techniques. a novel piecewise soft-margin triplet loss function is designed to avoid model parameters
+being trapped in suboptimal sets caused by the lack of constraint on positive and negative samples.
+the results illustrate that the proposed loss function enhances image retrieval accuracy and realizes
+a better convergence. moreover, a data augmentation method for satellite images is proposed to
+overcome the disproportionate numbers of image samples. on the benchmark university-1652, the
+proposed method achieves the state-of-the-art result with a 6.67% improvement in recall rate (r@1)
+and 6.13% in average precision (ap). all codes will be publicized to promote reproducibility.

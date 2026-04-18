@@ -1,0 +1,10 @@
+statistical learning on biological data can be challenging due to confounding
+variables in sample collection and processing. confounders can cause models to
+generalize poorly and result in inaccurate prediction performance metrics if
+models are not validated thoroughly. in this paper, we propose methods to
+control for confounding factors and further improve prediction performance. we
+introduce orthonormal basis construction in confounding factor normalization
+(onion) to remove confounding covariates and use the domain-adversarial neural
+network (dann) to penalize models for encoding confounder information. we apply
+the proposed methods to simulated and empirical patient data and show
+significant improvements in generalization.

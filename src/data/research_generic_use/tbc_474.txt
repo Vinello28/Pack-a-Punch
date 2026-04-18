@@ -1,0 +1,14 @@
+we present two related methods for deriving connectivity-based brain atlases
+from individual connectomes. the proposed methods exploit a previously proposed
+dense connectivity representation, termed continuous connectivity, by first
+performing graph-based hierarchical clustering of individual brains, and
+subsequently aggregating the individual parcellations into a consensus
+parcellation. the search for consensus minimizes the sum of cluster membership
+distances, effectively estimating a pseudo-karcher mean of individual
+parcellations. we assess the quality of our parcellations using (1)
+kullback-liebler and jensen-shannon divergence with respect to the dense
+connectome representation, (2) inter-hemispheric symmetry, and (3) performance
+of the simplified connectome in a biological sex classification task. we find
+that the parcellation based-atlas computed using a greedy search at a
+hierarchical depth 3 outperforms all other parcellation-based atlases as well
+as the standard dessikan-killiany anatomical atlas in all three assessments.

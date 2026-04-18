@@ -1,0 +1,11 @@
+wireless sensor networks (wsns) are widely used for monitoring physical happenings of the
+environment. however, the data gathered by the wsns may be inaccurate and unreliable due to power
+exhaustion, noise and other reasons. unnecessary data such as erroneous data and redundant data
+transmission causes a lot of extra energy consumption. to improve the data reliability and reduce the
+energy consumption, we proposed an in-network processing architecture for data cleaning, which
+divides the task into four stages implemented in different nodes respectively. this strategy guaranteed
+the cleaning algorithms were computationally lightweight in local nodes and energy-efficient due to
+almost no communication overhead. in addition, we presented the detection algorithms for data faults
+and event outliers, which were conducted by utilizing the related attributes from the local sensor node
+and the cooperation with its relaying neighbor. experiment results show that our proposed approach
+is accurate and energy-efficient.

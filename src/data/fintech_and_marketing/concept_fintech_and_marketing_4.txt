@@ -1,1 +1,0 @@
-Il dynamic pricing basato su AI adatta automaticamente i prezzi dei prodotti in funzione della domanda, della concorrenza e del comportamento degli utenti per massimizzare i ricavi.

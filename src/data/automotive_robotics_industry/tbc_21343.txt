@@ -1,0 +1,10 @@
+contextual policy search (cps) is a class of multi-task reinforcement
+learning algorithms that is particularly useful for robotic applications. a
+recent state-of-the-art method is contextual covariance matrix adaptation
+evolution strategies (c-cma-es). it is based on the standard black-box
+optimization algorithm cma-es. there are two useful extensions of cma-es that
+we will transfer to c-cma-es and evaluate empirically: acm-es, which uses a
+comparison-based surrogate model, and acma-es, which uses an active update of
+the covariance matrix. we will show that improvements with these methods can be
+impressive in terms of sample-efficiency, although this is not relevant any
+more for the robotic domain.

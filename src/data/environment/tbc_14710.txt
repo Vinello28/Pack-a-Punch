@@ -1,0 +1,12 @@
+in this article, a video base early fire alarm system is developed by
+monitoring the smoke in the scene. there are two major contributions in this
+work. first, to find the best texture feature for smoke detection, a general
+framework, named histograms of equivalent patterns (hep), is adopted to achieve
+an extensive evaluation of various kinds of texture features. second, the
+\emph{block based inter-frame difference} (bifd) and a improved version of
+lbp-top are proposed and ensembled to describe the space-time characteristics
+of the smoke. in order to reduce the false alarms, the smoke history image
+(shi) is utilized to register the recent classification results of candidate
+smoke blocks. experimental results using svm show that the proposed method can
+achieve better accuracy and less false alarm compared with the state-of-the-art
+technologies.

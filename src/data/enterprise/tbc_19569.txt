@@ -1,0 +1,8 @@
+we describe the setting and results of the convai2 neurips competition that
+aims to further the state-of-the-art in open-domain chatbots. some key
+takeaways from the competition are: (i) pretrained transformer variants are
+currently the best performing models on this task, (ii) but to improve
+performance on multi-turn conversations with humans, future systems must go
+beyond single word metrics like perplexity to measure the performance across
+sequences of utterances (conversations) -- in terms of repetition, consistency
+and balance of dialogue acts (e.g. how many questions asked vs. answered).

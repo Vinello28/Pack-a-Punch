@@ -1,0 +1,19 @@
+rank minimization can be converted into tractable surrogate problems, such as
+nuclear norm minimization (nnm) and weighted nnm (wnnm). the problems related
+to nnm, or wnnm, can be solved iteratively by applying a closed-form proximal
+operator, called singular value thresholding (svt), or weighted svt, but they
+suffer from high computational cost of singular value decomposition (svd) at
+each iteration. we propose a fast and accurate approximation method for svt,
+that we call fast randomized svt (frsvt), with which we avoid direct
+computation of svd. the key idea is to extract an approximate basis for the
+range of the matrix from its compressed matrix. given the basis, we compute
+partial singular values of the original matrix from the small factored matrix.
+in addition, by developping a range propagation method, our method further
+speeds up the extraction of approximate basis at each iteration. our
+theoretical analysis shows the relationship between the approximation bound of
+svd and its effect to nnm via svt. along with the analysis, our empirical
+results quantitatively and qualitatively show that our approximation rarely
+harms the convergence of the host algorithms. we assess the efficiency and
+accuracy of the proposed method on various computer vision problems, e.g.,
+subspace clustering, weather artifact removal, and simultaneous multi-image
+alignment and rectification.

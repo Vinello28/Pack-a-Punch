@@ -1,0 +1,17 @@
+epilepsy is common neurological diseases, affecting about 0.6-0.8 % of world
+population. epileptic patients suffer from chronic unprovoked seizures, which
+can result in broad spectrum of debilitating medical and social consequences.
+since seizures, in general, occur infrequently and are unpredictable, automated
+seizure detection systems are recommended to screen for seizures during
+long-term electroencephalogram (eeg) recordings. in addition, systems for early
+seizure detection can lead to the development of new types of intervention
+systems that are designed to control or shorten the duration of seizure events.
+in this article, we investigate the utility of recurrent neural networks (rnns)
+in designing seizure detection and early seizure detection systems. we propose
+a deep learning framework via the use of gated recurrent unit (gru) rnns for
+seizure detection. we use publicly available data in order to evaluate our
+method and demonstrate very promising evaluation results with overall accuracy
+close to 100 %. we also systematically investigate the application of our
+method for early seizure warning systems. our method can detect about 98% of
+seizure events within the first 5 seconds of the overall epileptic seizure
+duration.

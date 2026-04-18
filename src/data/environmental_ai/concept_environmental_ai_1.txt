@@ -1,1 +1,0 @@
-Il remote sensing applicato all'ambiente combina immagini satellitari multispettrali con deep learning per classificare l'uso del suolo, monitorare la deforestazione e tracciare il cambiamento climatico.

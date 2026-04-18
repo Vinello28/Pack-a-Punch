@@ -1,0 +1,21 @@
+an electroencephalography (eeg) based brain computer interface (bci) enables
+people to communicate with the outside world by interpreting the eeg signals of
+their brains to interact with devices such as wheelchairs and intelligent
+robots. more specifically, motor imagery eeg (mi-eeg), which reflects a
+subjects active intent, is attracting increasing attention for a variety of bci
+applications. accurate classification of mi-eeg signals while essential for
+effective operation of bci systems, is challenging due to the significant noise
+inherent in the signals and the lack of informative correlation between the
+signals and brain activities. in this paper, we propose a novel deep neural
+network based learning framework that affords perceptive insights into the
+relationship between the mi-eeg data and brain activities. we design a joint
+convolutional recurrent neural network that simultaneously learns robust
+high-level feature presentations through low-dimensional dense embeddings from
+raw mi-eeg signals. we also employ an autoencoder layer to eliminate various
+artifacts such as background activities. the proposed approach has been
+evaluated extensively on a large- scale public mi-eeg dataset and a limited but
+easy-to-deploy dataset collected in our lab. the results show that our approach
+outperforms a series of baselines and the competitive state-of-the- art
+methods, yielding a classification accuracy of 95.53%. the applicability of our
+proposed approach is further demonstrated with a practical bci system for
+typing.

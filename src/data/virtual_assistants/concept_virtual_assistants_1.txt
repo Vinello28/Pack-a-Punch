@@ -1,1 +1,0 @@
-L'architettura RAG (Retrieval-Augmented Generation) combina la ricerca in basi documentali con modelli linguistici generativi per fornire risposte accurate e aggiornate alle domande degli utenti.

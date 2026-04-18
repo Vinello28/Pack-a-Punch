@@ -1,0 +1,12 @@
+collaborative robots working on a common task are necessary for many
+applications. one of the challenges for achieving collaboration in a team of
+robots is mutual tracking and identification. we present a novel pipeline for
+online visionbased detection, tracking and identification of robots with a
+known and identical appearance. our method runs in realtime on the limited
+hardware of the observer robot. unlike previous works addressing robot tracking
+and identification, we use a data-driven approach based on recurrent neural
+networks to learn relations between sequential inputs and outputs. we formulate
+the data association problem as multiple classification problems. a deep lstm
+network was trained on a simulated dataset and fine-tuned on small set of real
+data. experiments on two challenging datasets, one synthetic and one real,
+which include long-term occlusions, show promising results.

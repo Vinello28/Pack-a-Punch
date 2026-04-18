@@ -1,0 +1,18 @@
+the past few years have witnessed the flourishing of crowdsourced medical
+question answering (q&a) websites. patients who have medical information
+demands tend to post questions about their health conditions on these
+crowdsourced q&a websites and get answers from other users. however, we observe
+that a large portion of new medical questions cannot be answered in time or
+receive only few answers from these websites. on the other hand, we notice that
+solved questions have great potential to solve this challenge. motivated by
+these, we propose an end-to-end system that can automatically find similar
+questions for unsolved medical questions. by learning the vector presentation
+of unsolved questions and their candidate similar questions, the proposed
+system outputs similar questions according to the similarity between vector
+representations. through the vector representation, the similar questions are
+found at the question level, and the diversity of medical questions expression
+issue can be addressed. further, we handle two more important issues, i.e.,
+training data generation issue and efficiency issue, associated with the lstm
+training procedure and the retrieval of candidate similar questions. the
+effectiveness of the proposed system is validated on a large-scale real-world
+dataset collected from a crowdsourced maternal-infant q&a website.

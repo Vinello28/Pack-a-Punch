@@ -1,0 +1,18 @@
+mapping and self-localization in unknown environments are fundamental
+capabilities in many robotic applications. these tasks typically involve the
+identification of objects as unique features or landmarks, which requires the
+objects both to be detected and then assigned a unique identifier that can be
+maintained when viewed from different perspectives and in different images. the
+\textit{data association} and \textit{simultaneous localization and mapping}
+(slam) problems are, individually, well-studied in the literature. but these
+two problems are inherently tightly coupled, and that has not been
+well-addressed. without accurate slam, possible data associations are
+combinatorial and become intractable easily. without accurate data association,
+the error of slam algorithms diverge easily. this paper proposes a novel
+nonparametric pose graph that models data association and slam in a single
+framework. an algorithm is further introduced to alternate between inferring
+data association and performing slam. experimental results show that our
+approach has the new capability of associating object detections and localizing
+objects at the same time, leading to significantly better performance on both
+the data association and slam problems than achieved by considering only one
+and ignoring imperfections in the other.

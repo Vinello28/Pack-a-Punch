@@ -1,0 +1,12 @@
+the widespread adoption of autonomous systems such as drones and assistant
+robots has created a need for real-time high-quality semantic scene
+segmentation. in this paper, we propose an efficient yet robust technique for
+on-the-fly dense reconstruction and semantic segmentation of 3d indoor scenes.
+to guarantee (near) real-time performance, our method is built atop an
+efficient super-voxel clustering method and a conditional random field with
+higher-order constraints from structural and object cues, enabling progressive
+dense semantic segmentation without any precomputation. we extensively evaluate
+our method on different indoor scenes including kitchens, offices, and bedrooms
+in the scenenn and scannet datasets and show that our technique consistently
+produces state-of-the-art segmentation results in both qualitative and
+quantitative experiments.

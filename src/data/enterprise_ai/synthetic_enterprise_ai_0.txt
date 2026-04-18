@@ -1,1 +1,0 @@
-Implementazione di algoritmi di Machine Learning per la manutenzione predittiva dei macchinari industriali, riducendo i tempi di inattivita del 35% nel settore manifatturiero.

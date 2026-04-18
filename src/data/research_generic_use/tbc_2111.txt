@@ -1,0 +1,10 @@
+data mining is the process of extracting useful patterns from the huge amount
+of database and many data mining techniques are used for mining these patterns.
+recently, one of the remarkable facts in higher educational institute is the
+rapid growth data and this educational data is expanding quickly without any
+advantage to the educational management. the main aim of the management is to
+refine the education standard; therefore by applying the various data mining
+techniques on this data one can get valuable information. this research study
+proposed the "classification model for the student's enrollment process in
+higher educational courses using data mining techniques". additionally, this
+study contributes to finding some patterns that are meaningful to management.

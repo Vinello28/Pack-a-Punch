@@ -1,0 +1,20 @@
+motivated by the increasing availability of vehicle trajectory data, we
+propose learn-to-route, a comprehensive trajectory-based routing solution.
+specifically, we first construct a graph-like structure from trajectories as
+the routing infrastructure. second, we enable trajectory-based routing given an
+arbitrary (source, destination) pair.
+  in the first step, given a road network and a collection of trajectories, we
+propose a trajectory-based clustering method that identifies regions in a road
+network. if a pair of regions are connected by trajectories, we maintain the
+paths used by these trajectories and learn a routing preference for travel
+between the regions. as trajectories are skewed and sparse, many region pairs
+are not connected by trajectories. we thus transfer routing preferences from
+region pairs with sufficient trajectories to such region pairs and then use the
+transferred preferences to identify paths between the regions. in the second
+step, we exploit the above graph-like structure to achieve a comprehensive
+trajectory-based routing solution. empirical studies with two substantial
+trajectory data sets offer insight into the proposed solution, indicating that
+it is practical. a comparison with a leading routing service offers evidence
+that the paper's proposal is able to enhance routing quality.
+  this is an extended version of "learning to route with sparse trajectory
+sets" [1], to appear in ieee icde 2018.

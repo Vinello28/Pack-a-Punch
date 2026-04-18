@@ -1,0 +1,20 @@
+commercial iterative reconstruction techniques on modern ct scanners target
+radiation dose reduction but there are lingering concerns over their impact on
+image appearance and low contrast detectability. recently, machine learning,
+especially deep learning, has been actively investigated for ct. here we design
+a novel neural network architecture for low-dose ct (ldct) and compare it with
+commercial iterative reconstruction methods used for standard of care ct. while
+popular neural networks are trained for end-to-end mapping, driven by big data,
+our novel neural network is intended for end-to-process mapping so that
+intermediate image targets are obtained with the associated search gradients
+along which the final image targets are gradually reached. this learned dynamic
+process allows to include radiologists in the training loop to optimize the
+ldct denoising workflow in a task-specific fashion with the denoising depth as
+a key parameter. our progressive denoising network was trained with the mayo
+ldct challenge dataset, and tested on images of the chest and abdominal regions
+scanned on the ct scanners made by three leading ct vendors. the best deep
+learning based reconstructions are systematically compared to the best
+iterative reconstructions in a double-blinded reader study. it is found that
+our deep learning approach performs either comparably or favorably in terms of
+noise suppression and structural fidelity, and runs orders of magnitude faster
+than the commercial iterative ct reconstruction algorithms.

@@ -1,0 +1,19 @@
+land use and land cover maps provide fundamental information that has been used in different types of studies,
+ranging from public health to carbon cycling. however, the existing remote sensing image classification methods
+thus far suffer from the insufficient usage of multiple modalities, underconsideration of prior domain knowledge,
+and poor performance on minority classes. to alleviate these problems, we propose a novel domain knowledge-
+guided deep collaborative fusion network (dkdfn) with performance boosting for minority categories for land
+cover classification. more specifically, the dkdfn adopts a multihead encoder and a multibranch decoder
+structure. the architecture of the encoder probablizes sufficient mining of complementary information from
+multiple modalities, which are sentinel-2, sentinel-1, and srtm digital elevation data (srtm) in our case. the
+multibranch decoder enables land cover classification in a multitask learning setup, performing semantic seg­
+mentation and reconstructing multimodal remote sensing indices, which are selected as representatives of
+domain knowledge. this design incorporates domain knowledge in an effective end-to-end manner. the training
+stage of our dkdfn is supervised by our proposed asymmetry loss function (alf), which boosts performance on
+nearly all categories, especially the categories with a low frequency of occurrence. ablation studies of the
+network suggest that our design logic is worth testing in any network with an encoder-decoder structure. the
+study is conducted in hunan, china and is verified using a self-labeled multimodal unitemporal remote sensing
+image dataset. the comparative experiments between dkdfn and 6 state-of-the-art models (u-net, segnet,
+pspnet, deeplab, hrnet, mp-resnet) testify to the superiority of our method and suggest its potential to be
+applied more widely to map land cover in other geographical areas given the availability of sentinel-2, sentinel-
+1, and srtm data. the dataset can be downloaded by https://github.com/laurachow/hunanmultimodaldataset

@@ -1,0 +1,12 @@
+forecasting the movements of stock prices is one the most challenging
+problems in financial markets analysis. in this paper, we use machine learning
+(ml) algorithms for the prediction of future price movements using limit order
+book data. two different sets of features are combined and evaluated:
+handcrafted features based on the raw order book data and features extracted by
+ml algorithms, resulting in feature vectors with highly variant
+dimensionalities. three classifiers are evaluated using combinations of these
+sets of features on two different evaluation setups and three prediction
+scenarios. even though the large scale and high frequency nature of the limit
+order book poses several challenges, the scope of the conducted experiments and
+the significance of the experimental results indicate that machine learning
+highly befits this task carving the path towards future research in this field.

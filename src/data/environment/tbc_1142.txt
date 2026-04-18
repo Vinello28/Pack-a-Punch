@@ -1,0 +1,14 @@
+poor air quality has become an increasingly critical challenge for many
+metropolitan cities, which carries many catastrophicphysical and mental
+consequences on human health and quality of life. however, accurately
+monitoring and forecasting air qualityremains a highly challenging endeavour.
+limited by geographically sparse data, traditional statistical models and newly
+emergingdata-driven methods of air quality forecasting mainly focused on the
+temporal correlation between the historical temporal datasets of airpollutants.
+however, in reality, both distribution and dispersion of air pollutants are
+highly location-dependant. in this paper, we proposea novel hybrid deep
+learning model that combines convolutional neural networks (cnn) and long short
+term memory (lstm)together to forecast air quality at high-resolution. our
+model can utilize the spatial correlation characteristic of our air pollutant
+datasetsto achieve higher forecasting accuracy than existing deep learning
+models of air pollution forecast.

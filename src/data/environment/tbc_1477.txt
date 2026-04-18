@@ -1,0 +1,16 @@
+in an underwater scene, wavelength-dependent light absorption and scattering
+degrade the visibility of images, causing low contrast and distorted color
+casts. to address this problem, we propose a convolutional neural network based
+image enhancement model, i.e., uwcnn, which is trained efficiently using a
+synthetic underwater image database. unlike the existing works that require the
+parameters of underwater imaging model estimation or impose inflexible
+frameworks applicable only for specific scenes, our model directly reconstructs
+the clear latent underwater image by leveraging on an automatic end-to-end and
+data-driven training mechanism. compliant with underwater imaging models and
+optical properties of underwater scenes, we first synthesize ten different
+marine image databases. then, we separately train multiple uwcnn models for
+each underwater image formation type. experimental results on real-world and
+synthetic underwater images demonstrate that the presented method generalizes
+well on different underwater scenes and outperforms the existing methods both
+qualitatively and quantitatively. besides, we conduct an ablation study to
+demonstrate the effect of each component in our network.

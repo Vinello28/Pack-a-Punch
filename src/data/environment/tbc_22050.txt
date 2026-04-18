@@ -1,0 +1,17 @@
+the growing number of large databases of animal tracking provides an
+opportunity for analyses of movement patterns at the scales of populations and
+even species. we used analytical approaches, developed to cope with big data,
+that require no a priori assumptions about the behaviour of the target agents,
+to analyse a pooled tracking dataset of 272 elephant seals (mirounga leonina)
+in the southern ocean, that was comprised of >500,000 location estimates
+collected over more than a decade. our analyses showed that the displacements
+of these seals were described by a truncated power law distribution across
+several spatial and temporal scales, with a clear signature of directed
+movement. this pattern was evident when analysing the aggregated tracks despite
+a wide diversity of individual trajectories. we also identified marine
+provinces that described the migratory and foraging habitats of these seals.
+our analysis provides evidence for the presence of intrinsic drivers of
+movement, such as memory, that cannot be detected using common models of
+movement behaviour. these results highlight the potential for big data
+techniques to provide new insights into movement behaviour when applied to
+large datasets of animal tracking.

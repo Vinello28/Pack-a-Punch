@@ -1,0 +1,16 @@
+pedestrian analysis plays a vital role in intelligent video surveillance and
+is a key component for security-centric computer vision systems. despite that
+the convolutional neural networks are remarkable in learning discriminative
+features from images, the learning of comprehensive features of pedestrians for
+fine-grained tasks remains an open problem. in this study, we propose a new
+attention-based deep neural network, named as hydraplus-net (hp-net), that
+multi-directionally feeds the multi-level attention maps to different feature
+layers. the attentive deep features learned from the proposed hp-net bring
+unique advantages: (1) the model is capable of capturing multiple attentions
+from low-level to semantic-level, and (2) it explores the multi-scale
+selectiveness of attentive features to enrich the final feature representations
+for a pedestrian image. we demonstrate the effectiveness and generality of the
+proposed hp-net for pedestrian analysis on two tasks, i.e. pedestrian attribute
+recognition and person re-identification. intensive experimental results have
+been provided to prove that the hp-net outperforms the state-of-the-art methods
+on various datasets.

@@ -1,0 +1,26 @@
+building open domain conversational systems that allow users to have engaging
+conversations on topics of their choice is a challenging task. alexa prize was
+launched in 2016 to tackle the problem of achieving natural, sustained,
+coherent and engaging open-domain dialogs. in the second iteration of the
+competition in 2018, university teams advanced the state of the art by using
+context in dialog models, leveraging knowledge graphs for language
+understanding, handling complex utterances, building statistical and
+hierarchical dialog managers, and leveraging model-driven signals from user
+responses. the 2018 competition also included the provision of a suite of tools
+and models to the competitors including the cobot (conversational bot) toolkit,
+topic and dialog act detection models, conversation evaluators, and a sensitive
+content detection model so that the competing teams could focus on building
+knowledge-rich, coherent and engaging multi-turn dialog systems. this paper
+outlines the advances developed by the university teams as well as the alexa
+prize team to achieve the common goal of advancing the science of
+conversational ai. we address several key open-ended problems such as
+conversational speech recognition, open domain natural language understanding,
+commonsense reasoning, statistical dialog management, and dialog evaluation.
+these collaborative efforts have driven improved experiences by alexa users to
+an average rating of 3.61, the median duration of 2 mins 18 seconds, and
+average turns to 14.6, increases of 14%, 92%, 54% respectively since the launch
+of the 2018 competition. for conversational speech recognition, we have
+improved our relative word error rate by 55% and our relative entity error rate
+by 34% since the launch of the alexa prize. socialbots improved in quality
+significantly more rapidly in 2018, in part due to the release of the cobot
+toolkit.

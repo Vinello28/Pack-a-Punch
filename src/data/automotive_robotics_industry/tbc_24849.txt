@@ -1,0 +1,6 @@
+in this article an automation system for human-machine-interfaces (hmi) for
+setpoint adjustment using supervised learning is presented. we use hmis of
+multi-modal thermal conditioning systems in passenger cars as example for a
+complex setpoint selection system. the goal is the reduction of interaction
+complexity up to full automation. the approach is not limited to climate
+control applications but can be extended to other setpoint-based hmis.

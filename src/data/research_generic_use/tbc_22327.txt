@@ -1,0 +1,20 @@
+recommender systems are becoming ubiquitous in many settings and take many
+forms, from product recommendation in e-commerce stores, to query suggestions
+in search engines, to friend recommendation in social networks. current
+research directions which are largely based upon supervised learning from
+historical data appear to be showing diminishing returns with a lot of
+practitioners report a discrepancy between improvements in offline metrics for
+supervised learning and the online performance of the newly proposed models.
+one possible reason is that we are using the wrong paradigm: when looking at
+the long-term cycle of collecting historical performance data, creating a new
+version of the recommendation model, a/b testing it and then rolling it out. we
+see that there a lot of commonalities with the reinforcement learning (rl)
+setup, where the agent observes the environment and acts upon it in order to
+change its state towards better states (states with higher rewards). to this
+end we introduce recogym, an rl environment for recommendation, which is
+defined by a model of user traffic patterns on e-commerce and the users
+response to recommendations on the publisher websites. we believe that this is
+an important step forward for the field of recommendation systems research,
+that could open up an avenue of collaboration between the recommender systems
+and reinforcement learning communities and lead to better alignment between
+offline and online performance metrics.

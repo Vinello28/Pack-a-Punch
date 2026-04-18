@@ -1,0 +1,9 @@
+the number of visually impaired or blind (vib) people in the world is
+estimated at several hundred million. based on a series of interviews with the
+vib and developers of assistive technology, this paper provides a survey of
+machine-learning based mobile applications and identifies the most relevant
+applications. we discuss the functionality of these apps, how they align with
+the needs and requirements of the vib users, and how they can be improved with
+techniques such as federated learning and model compression. as a result of
+this study we identify promising future directions of research in mobile
+perception, micro-navigation, and content-summarization.

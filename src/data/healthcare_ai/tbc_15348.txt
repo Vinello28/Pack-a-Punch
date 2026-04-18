@@ -1,0 +1,25 @@
+purpose: recently, several attempts were conducted to transfer deep learning
+to medical image reconstruction. an increasingly number of publications follow
+the concept of embedding the ct reconstruction as a known operator into a
+neural network. however, most of the approaches presented lack an efficient ct
+reconstruction framework fully integrated into deep learning environments. as a
+result, many approaches are forced to use workarounds for mathematically
+unambiguously solvable problems. methods: pyro-nn is a generalized framework to
+embed known operators into the prevalent deep learning framework tensorflow.
+the current status includes state-of-the-art parallel-, fan- and cone-beam
+projectors and back-projectors accelerated with cuda provided as tensorflow
+layers. on top, the framework provides a high level python api to conduct fbp
+and iterative reconstruction experiments with data from real ct systems.
+results: the framework provides all necessary algorithms and tools to design
+end-to-end neural network pipelines with integrated ct reconstruction
+algorithms. the high level python api allows a simple use of the layers as
+known from tensorflow. to demonstrate the capabilities of the layers, the
+framework comes with three baseline experiments showing a cone-beam short scan
+fdk reconstruction, a ct reconstruction filter learning setup, and a tv
+regularized iterative reconstruction. all algorithms and tools are referenced
+to a scientific publication and are compared to existing non deep learning
+reconstruction frameworks. the framework is available as open-source software
+at \url{https://github.com/csyben/pyro-nn}. conclusions: pyro-nn comes with the
+prevalent deep learning framework tensorflow and allows to setup end-to-end
+trainable neural networks in the medical image reconstruction context. we
+believe that the framework will be a step towards reproducible research

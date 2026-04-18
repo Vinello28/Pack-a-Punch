@@ -1,0 +1,10 @@
+millimeter wave communication systems can leverage information from sensors
+to reduce the overhead associated with link configuration. lidar (light
+detection and ranging) is one sensor widely used in autonomous driving for high
+resolution mapping and positioning. this paper shows how lidar data can be used
+for line-of-sight detection and to reduce the overhead in millimeter wave
+beam-selection. in the proposed distributed architecture, the base station
+broadcasts its position. the connected vehicle leverages its lidar data to
+suggest a set of beams selected via a deep convolutional neural network.
+co-simulation of communications and lidar in a vehicle-to-infrastructure (v2i)
+scenario confirm that lidar can help configuring mmwave v2i links.

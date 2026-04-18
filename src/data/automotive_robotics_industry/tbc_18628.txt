@@ -1,0 +1,16 @@
+we present an algorithm for rapidly learning controllers for robotics
+systems. the algorithm follows the model-based reinforcement learning paradigm,
+and improves upon existing algorithms; namely probabilistic learning in control
+(pilco) and a sample-based version of pilco with neural network dynamics
+(deep-pilco). we propose training a neural network dynamics model using
+variational dropout with truncated log-normal noise. this allows us to obtain a
+dynamics model with calibrated uncertainty, which can be used to simulate
+controller executions via rollouts. we also describe set of techniques,
+inspired by viewing pilco as a recurrent neural network model, that are crucial
+to improve the convergence of the method. we test our method on a variety of
+benchmark tasks, demonstrating data-efficiency that is competitive with pilco,
+while being able to optimize complex neural network controllers. finally, we
+assess the performance of the algorithm for learning motor controllers for a
+six legged autonomous underwater vehicle. this demonstrates the potential of
+the algorithm for scaling up the dimensionality and dataset sizes, in more
+complex control tasks.

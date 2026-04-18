@@ -1,0 +1,17 @@
+we introduce end-to-end neural network based models for simulating users of
+task-oriented dialogue systems. user simulation in dialogue systems is crucial
+from two different perspectives: (i) automatic evaluation of different dialogue
+models, and (ii) training task-oriented dialogue systems. we design a
+hierarchical sequence-to-sequence model that first encodes the initial user
+goal and system turns into fixed length representations using recurrent neural
+networks (rnn). it then encodes the dialogue history using another rnn layer.
+at each turn, user responses are decoded from the hidden representations of the
+dialogue level rnn. this hierarchical user simulator (hus) approach allows the
+model to capture undiscovered parts of the user goal without the need of an
+explicit dialogue state tracking. we further develop several variants by
+utilizing a latent variable model to inject random variations into user
+responses to promote diversity in simulated user responses and a novel goal
+regularization mechanism to penalize divergence of user responses from the
+initial user goal. we evaluate the proposed models on movie ticket booking
+domain by systematically interacting each user simulator with various dialogue
+system policies trained with different objectives and users.

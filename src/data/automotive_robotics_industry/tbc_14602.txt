@@ -1,0 +1,11 @@
+as the first robotic platforms slowly approach our everyday life, we can
+imagine a near future where service robots will be easily accessible by
+non-expert users through vocal interfaces. the capability of managing natural
+language would indeed speed up the process of integrating such platform in the
+ordinary life. semantic parsing is a fundamental task of the natural language
+understanding process, as it allows extracting the meaning of a user utterance
+to be used by a machine. in this paper, we present a preliminary study to
+semantically parse user vocal commands for a house service robot, using a
+multi-layer long-short term memory neural network with attention mechanism. the
+system is trained on the human robot interaction corpus, and it is
+preliminarily compared with previous approaches.

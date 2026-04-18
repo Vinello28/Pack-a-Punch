@@ -1,0 +1,11 @@
+intensive care clinicians are presented with large quantities of patient
+information and measurements from a multitude of monitoring systems. the
+limited ability of humans to process such complex information hinders
+physicians to readily recognize and act on early signs of patient
+deterioration. we used machine learning to develop an early warning system for
+circulatory failure based on a high-resolution icu database with 240 patient
+years of data. this automatic system predicts 90.0% of circulatory failure
+events (prevalence 3.1%), with 81.8% identified more than two hours in advance,
+resulting in an area under the receiver operating characteristic curve of 94.0%
+and area under the precision-recall curve of 63.0%. the model was externally
+validated in a large independent patient cohort.

@@ -1,0 +1,25 @@
+developing neural network image classification models often requires
+significant architecture engineering. in this paper, we study a method to learn
+the model architectures directly on the dataset of interest. as this approach
+is expensive when the dataset is large, we propose to search for an
+architectural building block on a small dataset and then transfer the block to
+a larger dataset. the key contribution of this work is the design of a new
+search space (the "nasnet search space") which enables transferability. in our
+experiments, we search for the best convolutional layer (or "cell") on the
+cifar-10 dataset and then apply this cell to the imagenet dataset by stacking
+together more copies of this cell, each with their own parameters to design a
+convolutional architecture, named "nasnet architecture". we also introduce a
+new regularization technique called scheduleddroppath that significantly
+improves generalization in the nasnet models. on cifar-10 itself, nasnet
+achieves 2.4% error rate, which is state-of-the-art. on imagenet, nasnet
+achieves, among the published works, state-of-the-art accuracy of 82.7% top-1
+and 96.2% top-5 on imagenet. our model is 1.2% better in top-1 accuracy than
+the best human-invented architectures while having 9 billion fewer flops - a
+reduction of 28% in computational demand from the previous state-of-the-art
+model. when evaluated at different levels of computational cost, accuracies of
+nasnets exceed those of the state-of-the-art human-designed models. for
+instance, a small version of nasnet also achieves 74% top-1 accuracy, which is
+3.1% better than equivalently-sized, state-of-the-art models for mobile
+platforms. finally, the learned features by nasnet used with the faster-rcnn
+framework surpass state-of-the-art by 4.0% achieving 43.1% map on the coco
+dataset.

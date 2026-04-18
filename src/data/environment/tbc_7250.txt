@@ -1,0 +1,15 @@
+energy-constrained sensor nodes can adaptively optimize their energy
+consumption if a continuous measurement exists. this is of particular
+importance in scenarios of high dynamics such as energy harvesting or adaptive
+task scheduling. however, self-measuring of power consumption at reasonable
+cost and complexity is unavailable as a generic system service. in this paper,
+we present eco, a hardware-software co-design enabling generic energy
+management on iot nodes. eco is tailored to devices with limited resources and
+thus targets most of the upcoming iot scenarios. the proposed measurement
+module combines commodity components with a common system interfaces to achieve
+easy, flexible integration with various hardware platforms and the riot iot
+operating system. we thoroughly evaluate and compare accuracy and overhead. our
+findings indicate that our commodity design competes well with highly optimized
+solutions, while being significantly more versatile. we employ eco for energy
+management on riot and validate its readiness for deployment in a five-week
+field trial integrated with energy harvesting.

@@ -1,0 +1,9 @@
+we propose an architecture for analysing database connection logs across
+different instances of databases within an intranet comprising over 10,000
+users and associated devices. our system uses flume agents to send
+notifications to a hadoop distributed file system for long-term storage and
+elasticsearch and kibana for short-term visualisation, effectively creating a
+data lake for the extraction of log data. we adopt machine learning models with
+an ensemble of approaches to filter and process the indicators within the data
+and aim to predict anomalies or outliers using feature vectors built from this
+log data.

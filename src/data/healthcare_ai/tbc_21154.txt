@@ -1,0 +1,21 @@
+facial micro-expressions are subtle and involuntary expressions that can
+reveal concealed emotions. micro-expressions are an invaluable source of
+information in application domains such as lie detection, mental health,
+sentiment analysis and more. one of the biggest challenges in this field of
+research is the small amount of available spontaneous micro-expression data.
+however, spontaneous data collection is burdened by time-consuming and
+expensive annotation. hence, methods are needed which can reduce the amount of
+data that annotators have to review. this paper presents a novel
+micro-expression spotting method using a recurrent neural network (rnn) on
+optical flow features. we extract histogram of oriented optical flow (hoof)
+features to encode the temporal changes in selected face regions. finally, the
+rnn spots short intervals which are likely to contain occurrences of relevant
+facial micro-movements. the proposed method is evaluated on the samm database.
+any chance of subject bias is eliminated by training the rnn using
+leave-one-subject-out cross-validation. comparing the spotted intervals with
+the labeled data shows that the method produced 1569 false positives while
+obtaining a recall of 0.4654. the initial results show that the proposed method
+would reduce the video length by a factor of 3.5, while still retaining almost
+half of the relevant micro-movements. lastly, as the model gets more data, it
+becomes better at detecting intervals, which makes the proposed method suitable
+for supporting the annotation process.

@@ -1,0 +1,19 @@
+the world is witnessing an unprecedented growth of cyber-physical systems
+(cps), which are foreseen to revolutionize our world {via} creating new
+services and applications in a variety of sectors such as environmental
+monitoring, mobile-health systems, intelligent transportation systems and so
+on. the {information and communication technology }(ict) sector is experiencing
+a significant growth in { data} traffic, driven by the widespread usage of
+smartphones, tablets and video streaming, along with the significant growth of
+sensors deployments that are anticipated in the near future. {it} is expected
+to outstandingly increase the growth rate of raw sensed data. in this paper, we
+present the cps taxonomy {via} providing a broad overview of data collection,
+storage, access, processing and analysis. compared with other survey papers,
+this is the first panoramic survey on big data for cps, where our objective is
+to provide a panoramic summary of different cps aspects. furthermore, cps
+{require} cybersecurity to protect {them} against malicious attacks and
+unauthorized intrusion, which {become} a challenge with the enormous amount of
+data that is continuously being generated in the network. {thus, we also}
+provide an overview of the different security solutions proposed for cps big
+data storage, access and analytics. we also discuss big data meeting green
+challenges in the contexts of cps.

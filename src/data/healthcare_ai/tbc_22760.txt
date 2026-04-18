@@ -1,0 +1,18 @@
+the present study provides a comparative assessment of non-invasive sensors
+as means of estimating the microbial contamination and time-on-shelf (i.e.
+storage time) of leafy green vegetables, using a novel unified spectra analysis
+workflow. two fresh ready-to-eat green salads were used in the context of this
+study for the purpose of evaluating the efficiency and practical application of
+the presented workflow: rocket and baby spinach salads. the employed analysis
+workflow consisted of robust data normalization, powerful feature selection
+based on random forests regression, and selection of the number of partial
+least squares regression coefficients in the training process by estimating the
+knee-point on the explained variance plot. training processes were based on
+microbiological and spectral data derived during storage of green salad samples
+at isothermal conditions (4, 8 and 12c), whereas testing was performed on data
+during storage under dynamic temperature conditions (simulating real-life
+temperature fluctuations in the food supply chain). since an increasing
+interest in the use of non-invasive sensors in food quality assessment has been
+made evident in recent years, the unified spectra analysis workflow described
+herein, by being based on the creation/usage of limited sized featured sets,
+could be very useful in food-specific low-cost sensor development.

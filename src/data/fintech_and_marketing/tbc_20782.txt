@@ -1,0 +1,1 @@
+easy-to-use,modular and extendible package of deep-learning based ctr models.deepfm,deepinterestnetwork(din),deepinterestevolutionnetwork(dien),deepcrossnetwork(dcn),attentionalfactorizationmachine(afm),neural factorization machine(nfm),autoint,deep session interest network(dsin)

@@ -1,0 +1,21 @@
+chest x-rays are one of the most common radiological examinations in daily
+clinical routines. reporting thorax diseases using chest x-rays is often an
+entry-level task for radiologist trainees. yet, reading a chest x-ray image
+remains a challenging job for learning-oriented machine intelligence, due to
+(1) shortage of large-scale machine-learnable medical image datasets, and (2)
+lack of techniques that can mimic the high-level reasoning of human
+radiologists that requires years of knowledge accumulation and professional
+training. in this paper, we show the clinical free-text radiological reports
+can be utilized as a priori knowledge for tackling these two key problems. we
+propose a novel text-image embedding network (tienet) for extracting the
+distinctive image and text representations. multi-level attention models are
+integrated into an end-to-end trainable cnn-rnn architecture for highlighting
+the meaningful text words and image regions. we first apply tienet to classify
+the chest x-rays by using both image features and text embeddings extracted
+from associated reports. the proposed auto-annotation framework achieves high
+accuracy (over 0.9 on average in aucs) in assigning disease labels for our
+hand-label evaluation dataset. furthermore, we transform the tienet into a
+chest x-ray reporting system. it simulates the reporting process and can output
+disease classification and a preliminary report together. the classification
+results are significantly improved (6% increase on average in aucs) compared to
+the state-of-the-art baseline on an unseen and hand-labeled dataset (openi).

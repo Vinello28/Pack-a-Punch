@@ -1,0 +1,7 @@
+artificial intelligence (ai) achieved super-human performance in a broad
+variety of domains. we say that an ai is made artificially stupid on a task
+when some limitations are deliberately introduced to match a human's ability to
+do the task. an artificial general intelligence (agi) can be made safer by
+limiting its computing power and memory, or by introducing artificial stupidity
+on certain tasks. we survey human intellectual limits and give recommendations
+for which limits to implement in order to build a safe agi.

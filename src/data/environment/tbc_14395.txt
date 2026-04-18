@@ -1,0 +1,13 @@
+in industrial environments, an increasing amount of wireless devices are
+used, which utilize license-free bands. as a consequence of these mutual
+interferences of wireless systems might decrease the state of coexistence.
+therefore, a central coexistence management system is needed, which allocates
+conflict-free resources to wireless systems. to ensure a conflict-free resource
+utilization, it is useful to predict the prospective medium utilization before
+resources are allocated. this paper presents a self-learning concept, which is
+based on reinforcement learning. a simulative evaluation of reinforcement
+learning agents based on neural networks, called deep q-networks and double
+deep q-networks, was realized for exemplary and practically relevant
+coexistence scenarios. the evaluation of the double deep q-network showed that
+a prediction accuracy of at least 98 % can be reached in all investigated
+scenarios.

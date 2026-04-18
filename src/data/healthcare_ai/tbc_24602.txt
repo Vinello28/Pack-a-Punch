@@ -1,0 +1,1 @@
+stutio  test  realizzazione  validazione set-uo/processi di: - validazione letture indirette da sensori rispetto a letture dirette del medesimo dato; - acquisire dataset di training per algoritmi di ML - con lettura diretta dei parametri principali ed eventuali altri che influenzano il modello; - metodologia per automatizzare e velocizzare le misure eseguite con i suddetti set-up

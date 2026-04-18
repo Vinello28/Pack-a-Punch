@@ -1,0 +1,1 @@
+this study presents an open data-market platform and a dataset containing 160,000 markers and 18,000 images. we hope that this dataset will bring more new data value and applications in this paper, we introduce the format and usage of the dataset, and we show a demonstration of deep learning vehicle detection trained by this dataset.

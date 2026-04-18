@@ -1,0 +1,15 @@
+in this paper, we proposed a method for reconstructing the 3d model based on
+continuous sensory input. the robot can draw on extremely large data from the
+real world using various sensors. however, the sensory inputs are usually too
+noisy and high-dimensional data. it is very difficult and time consuming for
+robot to process using such raw data when the robot tries to construct 3d
+model. hence, there needs to be a method that can extract useful information
+from such sensory inputs. to address this problem our method utilizes the
+concept of object semantic hierarchy (osh). different from the previous work
+that used this hierarchy framework, we extract the motion information using the
+deep belief network technique instead of applying classical computer vision
+approaches. we have trained on two large sets of random dot images (10,000)
+which are translated and rotated, respectively, and have successfully extracted
+several bases that explain the translation and rotation motion. based on this
+translation and rotation bases, background subtraction have become possible
+using object semantic hierarchy.

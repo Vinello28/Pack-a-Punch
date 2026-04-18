@@ -1,0 +1,14 @@
+money laundering is a crime that makes it possible to finance other crimes,
+for this reason, it is important for criminal organizations and their combat is
+prioritized by nations around the world. the anti-money laundering process has
+not evolved as expected because it has prioritized only the signaling of
+suspicious transactions. the constant increasing in the volume of transactions
+has overloaded the indispensable human work of final evaluation of the
+suspicions. this article presents a multiagent system that aims to go beyond
+the capture of suspicious transactions, seeking to assist the human expert in
+the analysis of suspicions. the agents created use data mining techniques to
+create transactional behavioral profiles; apply rules generated in learning
+process in conjunction with specific rules based on legal aspects and profiles
+created to capture suspicious transactions; and analyze these suspicious
+transactions indicating to the human expert those that require more detailed
+analysis.

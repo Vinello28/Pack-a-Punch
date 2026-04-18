@@ -1,0 +1,16 @@
+text-to-speech synthesis in indian languages has a seen lot of progress over
+the decade partly due to the annual blizzard challenges. these systems assume
+the text to be written in devanagari or dravidian scripts which are nearly
+phonemic orthography scripts. however, the most common form of computer
+interaction among indians is ascii written transliterated text. such text is
+generally noisy with many variations in spelling for the same word. in this
+paper we evaluate three approaches to synthesize speech from such noisy ascii
+text: a naive uni-grapheme approach, a multi-grapheme approach, and a
+supervised grapheme-to-phoneme (g2p) approach. these methods first convert the
+ascii text to a phonetic script, and then learn a deep neural network to
+synthesize speech from that. we train and test our models on blizzard challenge
+datasets that were transliterated to ascii using crowdsourcing. our experiments
+on hindi, tamil and telugu demonstrate that our models generate speech of
+competetive quality from ascii text compared to the speech synthesized from the
+native scripts. all the accompanying transliterated datasets are released for
+public access.

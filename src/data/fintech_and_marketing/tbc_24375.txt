@@ -1,0 +1,16 @@
+we applied deep q-network with a convolutional neural network function
+approximator, which takes stock chart images as input, for making global stock
+market predictions. our model not only yields profit in the stock market of the
+country where it was trained but generally yields profit in global stock
+markets. we trained our model only in the us market and tested it in 31
+different countries over 12 years. the portfolios constructed based on our
+model's output generally yield about 0.1 to 1.0 percent return per transaction
+prior to transaction costs in 31 countries. the results show that there are
+some patterns on stock chart image, that tend to predict the same future stock
+price movements across global stock markets. moreover, the results show that
+future stock prices can be predicted even if the training and testing
+procedures are done in different countries. training procedure could be done in
+relatively large and liquid markets (e.g., usa) and tested in small markets.
+this result demonstrates that artificial intelligence based stock price
+forecasting models can be used in relatively small markets (emerging countries)
+even though they do not have a sufficient amount of data for training.

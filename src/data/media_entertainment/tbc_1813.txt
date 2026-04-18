@@ -1,0 +1,23 @@
+analyzing fashion attributes is essential in the fashion design process.
+current fashion forecasting firms, such as wgsn utilizes information from all
+around the world (from fashion shows, visual merchandising, blogs, etc). they
+gather information by experience, by observation, by media scan, by interviews,
+and by exposed to new things. such information analyzing process is called
+abstracting, which recognize similarities or differences across all the
+garments and collections. in fact, such abstraction ability is useful in many
+fashion careers with different purposes. fashion forecasters abstract across
+design collections and across time to identify fashion change and directions;
+designers, product developers and buyers abstract across a group of garments
+and collections to develop a cohesive and visually appeal lines; sales and
+marketing executives abstract across product line each season to recognize
+selling points; fashion journalist and bloggers abstract across runway photos
+to recognize symbolic core concepts that can be translated into editorial
+features. fashion attributes analysis for such fashion insiders requires much
+detailed and in-depth attributes annotation than that for consumers, and
+requires inference on multiple domains. in this project, we propose a
+data-driven approach for recognizing fashion attributes. specifically, a
+modified version of faster r-cnn model is trained on images from a large-scale
+localization dataset with 594 fine-grained attributes under different
+scenarios, for example in online stores and street snapshots. this model will
+then be used to detect garment items and classify clothing attributes for
+runway photos and fashion illustrations.

@@ -1,0 +1,16 @@
+pathological lung segmentation (pls) is an important, yet challenging,
+medical image application due to the wide variability of pathological lung
+appearance and shape. because pls is often a pre-requisite for other imaging
+analytics, methodological simplicity and generality are key factors in
+usability. along those lines, we present a bottom-up deep-learning based
+approach that is expressive enough to handle variations in appearance, while
+remaining unaffected by any variations in shape. we incorporate the deeply
+supervised learning framework, but enhance it with a simple, yet effective,
+progressive multi-path scheme, which more reliably merges outputs from
+different network stages. the result is a deep model able to produce finer
+detailed masks, which we call progressive holistically-nested networks
+(p-hnns). using extensive cross-validation, our method is tested on
+multi-institutional datasets comprising 929 ct scans (848 publicly available),
+of pathological lungs, reporting mean dice scores of 0.985 and demonstrating
+significant qualitative and quantitative improvements over state-of-the art
+approaches.

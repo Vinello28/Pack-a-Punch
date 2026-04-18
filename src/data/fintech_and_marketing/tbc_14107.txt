@@ -1,0 +1,13 @@
+it has been shown that financial news leads to the fluctuation of stock
+prices. however, previous work on news-driven financial market prediction
+focused only on predicting stock price movement without providing an
+explanation. in this paper, we propose a dual-layer attention-based neural
+network to address this issue. in the initial stage, we introduce a
+knowledge-based method to adaptively extract relevant financial news. then, we
+use input attention to pay more attention to the more influential news and
+concatenate the day embeddings with the output of the news representation.
+finally, we use an output attention mechanism to allocate different weights to
+different days in terms of their contribution to stock price movement. thorough
+empirical studies based upon historical prices of several individual stocks
+demonstrate the superiority of our proposed method in stock price prediction
+compared to state-of-the-art methods.

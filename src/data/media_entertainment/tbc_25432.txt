@@ -1,0 +1,11 @@
+recent advances in media generation techniques have made it easier for
+attackers to create forged images and videos. state-of-the-art methods enable
+the real-time creation of a forged version of a single video obtained from a
+social network. although numerous methods have been developed for detecting
+forged images and videos, they are generally targeted at certain domains and
+quickly become obsolete as new kinds of attacks appear. the method introduced
+in this paper uses a capsule network to detect various kinds of spoofs, from
+replay attacks using printed images or recorded videos to computer-generated
+videos using deep convolutional neural networks. it extends the application of
+capsule networks beyond their original intention to the solving of inverse
+graphics problems.

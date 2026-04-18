@@ -1,1 +1,0 @@
-L'elaborazione del linguaggio naturale (NLP) permette ai computer di comprendere, interpretare e generare testo in linguaggio umano, abilitando applicazioni come traduzione, classificazione e chatbot.

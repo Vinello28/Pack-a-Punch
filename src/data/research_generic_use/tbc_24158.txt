@@ -1,0 +1,9 @@
+actively sampled data can have very different characteristics than passively
+sampled data. therefore, it's promising to investigate using different
+inference procedures during al than are used during passive learning (pl). this
+general idea is explored in detail for the focused case of al with
+cost-weighted svms for imbalanced data, a situation that arises for many hlt
+tasks. the key idea behind the proposed initpa method for addressing imbalance
+is to base cost models during al on an estimate of overall corpus imbalance
+computed via a small unbiased sample rather than the imbalance in the labeled
+training data, which is the leading method used during pl.

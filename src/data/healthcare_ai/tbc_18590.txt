@@ -1,0 +1,21 @@
+being able to effectively identify clouds and monitor their evolution is one
+important step toward more accurate quantitative precipitation estimation and
+forecast. in this study, a new gradient-based cloud-image segmentation
+technique is developed using tools from image processing techniques. this
+method integrates morphological image gradient magnitudes to separable cloud
+systems and patches boundaries. a varying scale-kernel is implemented to reduce
+the sensitivity of image segmentation to noise and capture objects with various
+finenesses of the edges in remote-sensing images. the proposed method is
+flexible and extendable from single- to multi-spectral imagery. case studies
+were carried out to validate the algorithm by applying the proposed
+segmentation algorithm to synthetic radiances for channels of the geostationary
+operational environmental satellites (goes-r) simulated by a high-resolution
+weather prediction model. the proposed method compares favorably with the
+existing cloud-patch-based segmentation technique implemented in the
+persiann-ccs (precipitation estimation from remotely sensed information using
+artificial neural network - cloud classification system) rainfall retrieval
+algorithm. evaluation of event-based images indicates that the proposed
+algorithm has potential to improve rain detection and estimation skills with an
+average of more than 45% gain comparing to the segmentation technique used in
+persiann-ccs and identifying cloud regions as objects with accuracy rates up to
+98%.

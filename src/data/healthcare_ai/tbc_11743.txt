@@ -1,0 +1,17 @@
+crop diseases are a major threat to food security, but their rapid
+identification remains difficult in many parts of the world due to the lack of
+the necessary infrastructure. the combination of increasing global smartphone
+penetration and recent advances in computer vision made possible by deep
+learning has paved the way for smartphone-assisted disease diagnosis. using a
+public dataset of 54,306 images of diseased and healthy plant leaves collected
+under controlled conditions, we train a deep convolutional neural network to
+identify 14 crop species and 26 diseases (or absence thereof). the trained
+model achieves an accuracy of 99.35% on a held-out test set, demonstrating the
+feasibility of this approach. when testing the model on a set of images
+collected from trusted online sources - i.e. taken under conditions different
+from the images used for training - the model still achieves an accuracy of
+31.4%. while this accuracy is much higher than the one based on random
+selection (2.6%), a more diverse set of training data is needed to improve the
+general accuracy. overall, the approach of training deep learning models on
+increasingly large and publicly available image datasets presents a clear path
+towards smartphone-assisted crop disease diagnosis on a massive global scale.

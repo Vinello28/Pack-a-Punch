@@ -1,0 +1,17 @@
+in many online applications interactions between a user and a web-service are
+organized in a sequential way, e.g., user browsing an e-commerce website. in
+this setting, recommendation system acts throughout user navigation by showing
+items. previous works have addressed this recommendation setup through the task
+of predicting the next item user will interact with. in particular, recurrent
+neural networks (rnns) has been shown to achieve substantial improvements over
+collaborative filtering baselines. in this paper, we consider interactions
+triggered by the recommendations of deployed recommender system in addition to
+browsing behavior. indeed, it is reported that in online services interactions
+with recommendations represent up to 30\% of total interactions. moreover, in
+practice, recommender system can greatly influence user behavior by promoting
+specific items. in this paper, we extend the rnn modeling framework by taking
+into account user interaction with recommended items. we propose and evaluate
+rnn architectures that consist of the recommendation action module and the
+state-action fusion module. using real-world large-scale datasets we
+demonstrate improved performance on the next item prediction task compared to
+the baselines.

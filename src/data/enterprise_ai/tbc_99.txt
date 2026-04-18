@@ -1,1 +1,0 @@
-L'obiettivo è duplice: automatizzare l'acquisizione degli ordini da parte dei nostri agenti/distributori nel mondo tramite l'acquisto di un software ad hoc integrato con il  sistema informativo aziendale; sviluppare un modello previsionale di vendita su proiezioni di dati parziali per migliorare l'efficienza dei lanci produttivi e  anticipare i tempi di consegna.

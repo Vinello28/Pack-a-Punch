@@ -1,0 +1,15 @@
+this paper presents a portable phenotyping system that is capable of
+integrating both rule-based and statistical machine learning based approaches.
+our system utilizes umls to extract clinically relevant features from the
+unstructured text and then facilitates portability across different
+institutions and data systems by incorporating ohdsi's omop common data model
+(cdm) to standardize necessary data elements. our system can also store the key
+components of rule-based systems (e.g., regular expression matches) in the
+format of omop cdm, thus enabling the reuse, adaptation and extension of many
+existing rule-based clinical nlp systems. we experimented with our system on
+the corpus from i2b2's obesity challenge as a pilot study. our system
+facilitates portable phenotyping of obesity and its 15 comorbidities based on
+the unstructured patient discharge summaries, while achieving a performance
+that often ranked among the top 10 of the challenge participants. this
+standardization enables a consistent application of numerous rule-based and
+machine learning based classification techniques downstream.

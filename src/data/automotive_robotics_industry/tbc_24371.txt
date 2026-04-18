@@ -1,0 +1,22 @@
+developing a safe and efficient collision-avoidance policy for multiple robots is challenging in the decentralized scenarios
+where each robot generates its paths with limited observation of other robots’ states and intentions. prior distributed
+multi-robot collision-avoidance systems often require frequent inter-robot communication or agent-level features to plan a
+local collision-free action, which is not robust and computationally prohibitive. in addition, the performance of these
+methods is not comparable with their centralized counterparts in practice. in this article, we present a decentralized
+sensor-level collision-avoidance policy for multi-robot systems, which shows promising results in practical applications.
+in particular, our policy directly maps raw sensor measurements to an agent’s steering commands in terms of the movement
+velocity. as a first step toward reducing the performance gap between decentralized and centralized methods, we
+present a multi-scenario multi-stage training framework to learn an optimal policy. the policy is trained over a large
+number of robots in rich, complex environments simultaneously using a policy-gradient-based reinforcement-learning
+algorithm. the learning algorithm is also integrated into a hybrid control framework to further improve the policy’s
+robustness and effectiveness. we validate the learned sensor-level collision-3avoidance policy in a variety of simulated
+and real-world scenarios with thorough performance evaluations for large-scale multi-robot systems. the generalization
+of the learned policy is verified in a set of unseen scenarios including the navigation of a group of heterogeneous robots
+and a large-scale scenario with 100 robots. although the policy is trained using simulation data only, we have successfully
+deployed it on physical robots with shapes and dynamics characteristics that are different from the simulated agents,
+in order to demonstrate the controller’s robustness against the simulation-to-real modeling error. finally, we show that
+the collision-avoidance policy learned from multi-robot navigation tasks provides an excellent solution for safe and effective
+autonomous navigation for a single robot working in a dense real human crowd. our learned policy enables a robot
+to make effective progress in a crowd without getting stuck. more importantly, the policy has been successfully deployed
+on different types of physical robot platforms without tedious parameter tuning. videos are available at https://sites.google.
+com/view/hybridmrca.

@@ -1,0 +1,15 @@
+these days human beings are facing many environmental challenges due to
+frequently occurring drought hazards. it may have an effect on the countrys
+environment, the community, and industries. several adverse impacts of drought
+hazard are continued in pakistan, including other hazards. however, early
+measurement and detection of drought can provide guidance to water resources
+management for employing drought mitigation policies. in this paper, we used a
+multilayer perceptron neural network (mlpnn) algorithm for drought forecasting.
+we applied and tested mlpnn algorithm on monthly time series data of
+standardized precipitation evapotranspiration index (spei) for seventeen
+climatological stations located in northern area and kpk (pakistan). we found
+that mlpnn has potential capability for spei drought forecasting based on
+performance measures (i.e., mean average error (mae), the coefficient of
+correlation r, and root mean square error (rmse). water resources and
+management planner can take necessary action in advance (e.g., in water
+scarcity areas) by using mlpnn model as part of their decision making.

@@ -1,0 +1,15 @@
+simultaneous modeling of the spatio-temporal variation patterns of brain
+functional network from 4d fmri data has been an important yet challenging
+problem for the field of cognitive neuroscience and medical image analysis.
+inspired by the recent success in applying deep learning for functional brain
+decoding and encoding, in this work we propose a spatio-temporal convolutional
+neural network (st-cnn)to jointly learn the spatial and temporal patterns of
+targeted network from the training data and perform automatic, pin-pointing
+functional network identification. the proposed st-cnn is evaluated by the task
+of identifying the default mode network (dmn) from fmri data. results show that
+while the framework is only trained on one fmri dataset,it has the sufficient
+generalizability to identify the dmn from different populations of data as well
+as different cognitive tasks. further investigation into the results show that
+the superior performance of st-cnn is driven by the jointly-learning scheme,
+which capture the intrinsic relationship between the spatial and temporal
+characteristic of dmn and ensures the accurate identification.

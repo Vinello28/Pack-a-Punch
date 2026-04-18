@@ -1,0 +1,12 @@
+building effective, enjoyable, and safe autonomous vehicles is a lot harder
+than has historically been considered. the reason is that, simply put, an
+autonomous vehicle must interact with human beings. this interaction is not a
+robotics problem nor a machine learning problem nor a psychology problem nor an
+economics problem nor a policy problem. it is all of these problems put into
+one. it challenges our assumptions about the limitations of human beings at
+their worst and the capabilities of artificial intelligence systems at their
+best. this work proposes a set of principles for designing and building
+autonomous vehicles in a human-centered way that does not run away from the
+complexity of human nature but instead embraces it. we describe our development
+of the human-centered autonomous vehicle (hcav) as an illustrative case study
+of implementing these principles in practice.

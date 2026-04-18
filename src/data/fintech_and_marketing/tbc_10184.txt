@@ -1,0 +1,12 @@
+in today's day and age when almost every industry has an online presence with
+users interacting in online marketplaces, personalized recommendations have
+become quite important. traditionally, the problem of collaborative filtering
+has been tackled using matrix factorization which is linear in nature. we
+extend the work of [11] on using variational autoencoders (vaes) for
+collaborative filtering with implicit feedback by proposing a hybrid,
+multi-modal approach. our approach combines movie embeddings (learned from a
+sibling vae network) with user ratings from the movielens 20m dataset and
+applies it to the task of movie recommendation. we empirically show how the vae
+network is empowered by incorporating movie embeddings. we also visualize movie
+and user embeddings by clustering their latent representations obtained from a
+vae.

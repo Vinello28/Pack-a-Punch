@@ -1,0 +1,6 @@
+in this paper we design and evaluate a deep-reinforcement learning agent that
+optimizes routing. our agent adapts automatically to current traffic conditions
+and proposes tailored configurations that attempt to minimize the network
+delay. experiments show very promising performance. moreover, this approach
+provides important operational advantages with respect to traditional
+optimization algorithms.

@@ -1,0 +1,24 @@
+connectivity studies using resting-state functional magnetic resonance
+imaging are increasingly pooling data acquired at multiple sites. while this
+may allow investigators to speed up recruitment or increase sample size,
+multisite studies also potentially introduce systematic biases in connectivity
+measures across sites. in this work, we measure the inter-site effect in
+connectivity and its impact on our ability to detect individual and group
+differences. our study was based on real, as opposed to simulated, multisite
+fmri datasets collected in n=345 young, healthy subjects across 8 scanning
+sites with 3t scanners and heterogeneous scanning protocols, drawn from the
+1000 functional connectome project. we first empirically show that typical
+functional networks were reliably found at the group level in all sites, and
+that the amplitude of the inter-site effects was small to moderate, with a
+cohen's effect size below 0.5 on average across brain connections. we then
+implemented a series of monte-carlo simulations, based on real data, to
+evaluate the impact of the multisite effects on detection power in statistical
+tests comparing two groups (with and without the effect) using a general linear
+model, as well as on the prediction of group labels with a support-vector
+machine. as a reference, we also implemented the same simulations with fmri
+data collected at a single site using an identical sample size. simulations
+revealed that using data from heterogeneous sites only slightly decreased our
+ability to detect changes compared to a monosite study with the glm, and had a
+greater impact on prediction accuracy. taken together, our results support the
+feasibility of multisite studies in rs-fmri provided the sample size is large
+enough.

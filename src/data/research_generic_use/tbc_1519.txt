@@ -1,0 +1,7 @@
+we introduce a spatio-temporal convolutional neural network model for
+trajectory forecasting from visual sources. applied in an auto-regressive way
+it provides an explicit probability distribution over continuations of a given
+initial trajectory segment. we discuss it in relation to (more complicated)
+existing work and report on experiments on two standard datasets for trajectory
+forecasting: mnistseq and stanford drones, achieving results on-par with or
+better than previous methods.

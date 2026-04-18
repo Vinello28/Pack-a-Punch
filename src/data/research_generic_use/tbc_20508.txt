@@ -1,0 +1,14 @@
+in this short paper, we propose the split-diffuse (sd) algorithm that takes
+the output of an existing word embedding algorithm, and distributes the data
+points uniformly across the visualization space. the result improves the
+perceivability and the interactability by the human.
+  we apply the sd algorithm to analyze the user behavior through access logs
+within the cyber security domain. the result, named the topic grids, is a set
+of grids on various topics generated from the logs. on the same set of grids,
+different behavioral metrics can be shown on different targets over different
+periods of time, to provide visualization and interaction to the human experts.
+  analysis, investigation, and other types of interaction can be performed on
+the topic grids more efficiently than on the output of existing dimension
+reduction methods. in addition to the cyber security domain, the topic grids
+can be further applied to other domains like e-commerce, credit card
+transaction, customer service to analyze the behavior in a large scale.

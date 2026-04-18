@@ -1,0 +1,17 @@
+in this paper, we examine the visual variability of objects across different
+ad categories, i.e. what causes an advertisement to be visually persuasive. we
+focus on modeling and generating faces which appear to come from different
+types of ads. for example, if faces in beauty ads tend to be women wearing
+lipstick, a generative model should portray this distinct visual appearance.
+training generative models which capture such category-specific differences is
+challenging because of the highly diverse appearance of faces in ads and the
+relatively limited amount of available training data. to address these
+problems, we propose a conditional variational autoencoder which makes use of
+predicted semantic attributes and facial expressions as a supervisory signal
+when training. we show how our model can be used to produce visually distinct
+faces which appear to be from a fixed ad topic category. our human studies and
+quantitative and qualitative experiments confirm that our method greatly
+outperforms a variety of baselines, including two variations of a
+state-of-the-art generative adversarial network, for transforming faces to be
+more ad-category appropriate. finally, we show preliminary generation results
+for other types of objects, conditioned on an ad topic.

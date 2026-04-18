@@ -1,0 +1,22 @@
+objective: to apply deep learning pose estimation algorithms for vision-based
+assessment of parkinsonism and levodopa-induced dyskinesia (lid). methods: nine
+participants with parkinson's disease (pd) and lid completed a levodopa
+infusion protocol, where symptoms were assessed at regular intervals using the
+unified dyskinesia rating scale (udysrs) and unified parkinson's disease rating
+scale (updrs). a state-of-the-art deep learning pose estimation method was used
+to extract movement trajectories from videos of pd assessments. features of the
+movement trajectories were used to detect and estimate the severity of
+parkinsonism and lid using random forest. communication and drinking tasks were
+used to assess lid, while leg agility and toe tapping tasks were used to assess
+parkinsonism. feature sets from tasks were also combined to predict total
+udysrs and updrs part iii scores. results: for lid, the communication task
+yielded the best results for dyskinesia (severity estimation: r = 0.661,
+detection: auc = 0.930). for parkinsonism, leg agility had better results for
+severity estimation (r = 0.618), while toe tapping was better for detection
+(auc = 0.773). udysrs and updrs part iii scores were predicted with r = 0.741
+and 0.530, respectively. conclusion: this paper presents the first application
+of deep learning for vision-based assessment of parkinsonism and lid and
+demonstrates promising performance for the future translation of deep learning
+to pd clinical practices. significance: the proposed system provides insight
+into the potential of computer vision and deep learning for clinical
+application in pd.

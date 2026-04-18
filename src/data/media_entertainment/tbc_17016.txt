@@ -1,0 +1,16 @@
+multiplayer online battle arena (moba) is currently one of the most popular
+genres of digital games around the world. the domain of knowledge contained in
+these complicated games is large. it is hard for humans and algorithms to
+evaluate the real-time game situation or predict the game result. in this
+paper, we introduce moba-slice, a time slice based evaluation framework of
+relative advantage between teams in moba games. moba-slice is a quantitative
+evaluation method based on learning, similar to the value network of alphago.
+it establishes a foundation for further moba related research including ai
+development. in moba-slice, with an analysis of the deciding factors of moba
+game results, we design a neural network model to fit our discounted evaluation
+function. then we apply moba-slice to defense of the ancients 2 (dota2), a
+typical and popular moba game. experiments on a large number of match replays
+show that our model works well on arbitrary matches. moba-slice not only has an
+accuracy 3.7% higher than dota plus assistant at result prediction, but also
+supports the prediction of the remaining time of the game, and then realizes
+the evaluation of relative advantage between teams.

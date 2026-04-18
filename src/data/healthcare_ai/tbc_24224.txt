@@ -1,0 +1,23 @@
+in recent years, analyzing task-based fmri (tfmri) data has become an
+essential tool for understanding brain function and networks. however, due to
+the sheer size of tfmri data, its intrinsic complex structure, and lack of
+ground truth of underlying neural activities, modeling tfmri data is hard and
+challenging. previously proposed data-modeling methods including independent
+component analysis (ica) and sparse dictionary learning only provided a weakly
+established model based on blind source separation under the strong assumption
+that original fmri signals could be linearly decomposed into time series
+components with corresponding spatial maps. meanwhile, analyzing and learning a
+large amount of tfmri data from a variety of subjects has been shown to be very
+demanding but yet challenging even with technological advances in computational
+hardware. given the convolutional neural network (cnn), a robust method for
+learning high-level abstractions from low-level data such as tfmri time series,
+in this work we propose a fast and scalable novel framework for distributed
+deep convolutional autoencoder model. this model aims to both learn the complex
+hierarchical structure of the tfmri data and to leverage the processing power
+of multiple gpus in a distributed fashion. to implement such a model, we have
+created an enhanced processing pipeline on the top of apache spark and
+tensorflow library, leveraging from a very large cluster of gpu machines.
+experimental data from applying the model on the human connectome project (hcp)
+show that the proposed model is efficient and scalable toward tfmri big data
+analytics, thus enabling data-driven extraction of hierarchical neuroscientific
+information from massive fmri big data in the future.

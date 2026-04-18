@@ -1,0 +1,13 @@
+electroencephalography (eeg), as the most common tool for epileptic seizure
+classification, contains useful information about different physiological
+states of the brain. seizure related features in eeg signals can be better
+identified when localized in time frequency basis projections. in this work, a
+novel method for epileptic seizure classification based on wavelet packets
+(wps) is presented in which both mother wavelet function and wp bases are
+adapted a posteriori to improve the seizure classification. a support vector
+machine (svm) as classifier is used for seizure versus non-seizure eeg segment
+classification. in order to evaluate the proposed algorithm, a publicly
+available dataset containing different groups patient with epilepsy and healthy
+individuals are used. the obtained results indicate that the proposed method
+outperforms some previously proposed algorithms in epileptic seizure
+classification.

@@ -1,0 +1,22 @@
+coastal aquaculture monitoring is vital for sustainable offshore aquaculture management.
+however, the dense distribution and various sizes of aquacultures make it challenging to accurately
+extract the boundaries of aquaculture ponds. in this study, we develop a novel combined framework
+that integrates unet++ with a marker-controlled watershed segmentation strategy to facilitate aquaculture boundary extraction from fully polarimetric gaofen-3 sar imagery. first, four polarimetric
+decomposition algorithms were applied to extract 13 polarimetric scattering features. together
+with the nine other polarisation and texture features, a total of 22 polarimetric features were then
+extracted, among which four were optimised according to the separability index. subsequently, to
+reduce the “adhesion” phenomenon and separate adjacent and even adhering ponds into individual
+aquaculture units, two unet++ subnetworks were utilised to construct the marker and foreground
+functions, the results of which were then used in the marker-controlled watershed algorithm to obtain
+refined aquaculture results. a multiclass segmentation strategy that divides the intermediate markers
+into three categories (aquaculture, background and dikes) was applied to the marker function. in
+addition, a boundary patch refinement postprocessing strategy was applied to the two subnetworks
+to extract and repair the complex/error-prone boundaries of the aquaculture ponds, followed by a
+morphological operation that was conducted for label augmentation. an experimental investigation
+performed to extract individual aquacultures in the yancheng coastal wetlands indicated that the
+crucial features for aquacultures are shannon entropy (se), the intensity component of se (se_i) and
+the corresponding mean texture features (mean_se and mean_se_i). when the optimal features were
+introduced, our proposed method performed better than standard unet++ in aquaculture extraction,
+achieving improvements of 1.8%, 3.2%, 21.7% and 12.1% in f1, iou, mr and insf1, respectively. the
+experimental results indicate that the proposed method can handle the adhesion of both adjacent
+objects and unclear boundaries effectively and capture clear and refined aquaculture boundaries.

@@ -1,0 +1,12 @@
+mr-only radiotherapy treatment planning requires accurate mr-to-ct synthesis.
+current deep learning methods for mr-to-ct synthesis depend on pairwise aligned
+mr and ct training images of the same patient. however, misalignment between
+paired images could lead to errors in synthesized ct images. to overcome this,
+we propose to train a generative adversarial network (gan) with unpaired mr and
+ct images. a gan consisting of two synthesis convolutional neural networks
+(cnns) and two discriminator cnns was trained with cycle consistency to
+transform 2d brain mr image slices into 2d brain ct image slices and vice
+versa. brain mr and ct images of 24 patients were analyzed. a quantitative
+evaluation showed that the model was able to synthesize ct images that closely
+approximate reference ct images, and was able to outperform a gan model trained
+with paired mr and ct images.

@@ -1,1 +1,23 @@
-Il progetto di FrigorBox Int. Srl prevede la sperimentazione del dispositivo prototipale denominato AIRCARE-BOX basato sulla tecnologia del plasma freddo (NTP).L’obiettivo del progetto è infatti quello di rendere disponibili soluzioni tecnologiche innovative legate alla sanificazione degli ambienti  in grado di ridurre il rischio di contaminazione e garantire la sicurezza delle persone su tutti luoghi di lavoro e non.   Il progetto prevede inizialmente di testare il device  tramite laboratori specializzati con virus simili. Sulla base dei risultati ottenuti dai test preliminari si prevede una ulteriore fase di test in modo da sperimentare l’efficacia del device ottimizzato proprio contro il virus COVID-19. Una volta validato l’AIRCARE-BOX troverebbe quindi impiego sia in ambienti medici quali studi medici  ambulatori  RSA  pronto soccorso  dove più alta deve essere l’attenzione per la sanificazione considerata l’alta probabilità di presenza di soggetti infetti sia un più ampio impiego in tutti gli esercizi commerciali che prevedono la presenza del pubblico o comunque un contatto ravvicinato come: centri estetici  barbieri e parrucchieri  bar  ristoranti ed alberghi.
+text mining is a process of extracting information of interest from text.
+such a method includes techniques from various areas such as information
+retrieval (ir), natural language processing (nlp), and information extraction
+(ie). in this study, text mining methods are applied to extract causal
+relations from maritime accident investigation reports collected from the
+marine accident investigation branch (maib). these causal relations provide
+information on various mechanisms behind accidents, including human and
+organizational factors relating to the accident. the objective of this study is
+to facilitate the analysis of the maritime accident investigation reports, by
+means of extracting contributory causes with more feasibility. a careful
+investigation of contributory causes from the reports provide opportunity to
+improve safety in future.
+  two methods have been employed in this study to extract the causal relations.
+they are 1) pattern classification method and 2) connectives method. the
+earlier one uses naive bayes and support vector machines (svm) as classifiers.
+the latter simply searches for the words connecting cause and effect in
+sentences.
+  the causal patterns extracted using these two methods are compared to the
+manual (human expert) extraction. the pattern classification method showed a
+fair and sensible performance with f-measure(average) = 65% when compared to
+connectives method with f-measure(average) = 58%. this study is an evidence,
+that text mining methods could be employed in extracting causal relations from
+marine accident investigation reports.

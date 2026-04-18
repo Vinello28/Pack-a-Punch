@@ -1,0 +1,10 @@
+sustainable and economical generation of electrical power is an essential and
+mandatory component of infrastructure in today's world. optimal generation
+(generator subset selection) of power requires a careful evaluation of various
+factors like type of source, generation, transmission & storage capacities,
+congestion among others which makes this a difficult task. we created a grid to
+simulate various conditions including stimuli like generator supply, weather
+and load demand using siemens pss/e software and this data is trained using
+deep learning methods and subsequently tested. the results are highly
+encouraging. as per our knowledge, this is the first paper to propose a working
+and scalable deep learning model for this problem.

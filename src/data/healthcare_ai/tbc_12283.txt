@@ -1,0 +1,18 @@
+face detection and recognition has been prevalent with research scholars and
+diverse approaches have been incorporated till date to serve purpose. the
+rampant advent of biometric analysis systems, which may be full body scanners,
+or iris detection and recognition systems and the finger print recognition
+systems, and surveillance systems deployed for safety and security purposes
+have contributed to inclination towards same. advances has been made with
+frontal view, lateral view of the face or using facial expressions such as
+anger, happiness and gloominess, still images and video image to be used for
+detection and recognition. this led to newer methods for face detection and
+recognition to be introduced in achieving accurate results and economically
+feasible and extremely secure. techniques such as principal component analysis
+(pca), independent component analysis (ica), linear discriminant analysis
+(lda), have been the predominant ones to be used. but with improvements needed
+in the previous approaches neural networks based recognition was like boon to
+the industry. it not only enhanced the recognition but also the efficiency of
+the process. choosing backpropagation as the learning method was clearly out of
+its efficiency to recognize nonlinear faces with an acceptance ratio of more
+than 90% and execution time of only few seconds.

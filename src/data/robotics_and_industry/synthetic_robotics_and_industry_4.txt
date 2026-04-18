@@ -1,1 +1,0 @@
-Piattaforma di manutenzione predittiva Industry 4.0 basata su sensori IoT e modelli di anomaly detection per impianti di produzione alimentare.

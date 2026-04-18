@@ -1,0 +1,15 @@
+with the expansion of high-speed railway network and growth of passenger
+transportation demands, the fleet size of electric multiple unit (emu) in china
+needs to be adjusted accordingly. generally, an emu train costs tens of
+millions of dollars which constitutes a significant portion of capital
+investment. thus, the prediction of emu fleet size has attracted increasing
+attention from associated railway departments. first, this paper introduces a
+typical architecture of convolutional neural network (cnn) and its basic
+theory. then, some data of nine indices, such as passenger traffic volume and
+length of high-speed railways in operation, is collected and preprocessed.
+next, a cnn and a backpropagation neural network (bpnn) are constructed and
+trained aiming to predict emu fleet size in the following years. the
+differences and performances of these two networks in computation experiments
+are analyzed in-depth. the results indicate that the cnn is superior to the
+bpnn both in generalization ability and fitting accuracy, and cnn can serve as
+an aid in emu fleet size prediction.

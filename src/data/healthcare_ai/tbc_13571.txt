@@ -1,0 +1,13 @@
+the placenta is a complex organ, playing multiple roles during fetal
+development. very little is known about the association between placental
+morphological abnormalities and fetal physiology. in this work, we present an
+open sourced, computationally tractable deep learning pipeline to analyse
+placenta histology at the level of the cell. by utilising two deep
+convolutional neural network architectures and transfer learning, we can
+robustly localise and classify placental cells within five classes with an
+accuracy of 89%. furthermore, we learn deep embeddings encoding phenotypic
+knowledge that is capable of both stratifying five distinct cell populations
+and learn intraclass phenotypic variance. we envisage that the automation of
+this pipeline to population scale studies of placenta histology has the
+potential to improve our understanding of basic cellular placental biology and
+its variations, particularly its role in predicting adverse birth outcomes.

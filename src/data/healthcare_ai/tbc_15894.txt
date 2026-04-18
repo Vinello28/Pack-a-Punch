@@ -1,0 +1,19 @@
+in the case of diabetes, fingertip pricking for a blood sample is
+inconvenient for glucose measurement. invasive approaches like laboratory test
+and one-touch glucometer enhance the risk of blood-related infections. to
+mitigate this important issue, in the current paper, we propose a novel
+internet-of-medical-things (iomt) enabled edge-device for precise, non-invasive
+blood glucose measurement. in this work, a near-infrared (nir) spectroscopic
+technique using two wavelengths (940 nm, 1300 nm) is taken to detect the
+glucose molecule from human blood. the novel device called iglu is based on nir
+spectroscopy and machine learning (ml) models of high accuracy. an optimal
+multiple polynomial regression model and deep neural network (dnn) model have
+been presented for precise measurement. the proposed device is validated and
+blood glucose values are stored on the cloud using open iot platform for remote
+monitoring by an endocrinologist. for device validation, the estimated blood
+glucose values have been compared with blood glucose values obtained from the
+invasive device. it has been observed that mean absolute relative difference
+(mard) and average error (avge) are found 4.66 % and 4.61 % respectively from
+predicted blood glucose concentration values. the regression coefficient is
+found 0.81. the proposed spectroscopic non-invasive device provides accurate
+and cost-effective solution for smart healthcare.

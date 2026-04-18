@@ -1,0 +1,18 @@
+data is the new oil; this refrain is repeated extensively in the age of
+internet tracking, machine learning, and data analytics. as data collection
+becomes more personal and pervasive, however, public pressure is mounting for
+privacy protection. in this atmosphere, developers have created applications to
+add noise to user attributes visible to tracking algorithms. this creates a
+strategic interaction between trackers and users when incentives to maintain
+privacy and improve accuracy are misaligned. in this paper, we conceptualize
+this conflict through an n+1-player, augmented stackelberg game. first a
+machine learner declares a privacy protection level, and then users respond by
+choosing their own perturbation amounts. we use the general frameworks of
+differential privacy and empirical risk minimization to quantify the utility
+components due to privacy and accuracy, respectively. in equilibrium, each user
+perturbs her data independently, which leads to a high net loss in accuracy. to
+remedy this scenario, we show that the learner improves his utility by
+proactively perturbing the data himself. while other work in this area has
+studied privacy markets and mechanism design for truthful reporting of user
+information, we take a different viewpoint by considering both user and learner
+perturbation.

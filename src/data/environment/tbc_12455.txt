@@ -1,0 +1,24 @@
+wildfires are frequent, devastating events in australia that regularly cause
+significant loss of life and widespread property damage. fire weather indices
+are a widely-adopted method for measuring fire danger and they play a
+significant role in issuing bushfire warnings and in anticipating demand for
+bushfire management resources. existing systems that calculate fire weather
+indices are limited due to low spatial and temporal resolution. localized
+wireless sensor networks, on the other hand, gather continuous sensor data
+measuring variables such as air temperature, relative humidity, rainfall and
+wind speed at high resolutions. however, using wireless sensor networks to
+estimate fire weather indices is a challenge due to data quality issues, lack
+of standard data formats and lack of agreement on thresholds and methods for
+calculating fire weather indices. within the scope of this paper, we propose a
+standardized approach to calculating fire weather indices (a.k.a. fire danger
+ratings) and overcome a number of the challenges by applying semantic web
+technologies to the processing of data streams from a wireless sensor network
+deployed in the springbrook region of south east queensland. this paper
+describes the underlying ontologies, the semantic reasoning and the semantic
+fire weather index (sfwi) system that we have developed to enable domain
+experts to specify and adapt rules for calculating fire weather indices. we
+also describe the web-based mapping interface that we have developed, that
+enables users to improve their understanding of how fire weather indices vary
+over time within a particular region.finally, we discuss our evaluation results
+that indicate that the proposed system outperforms state-of-the-art techniques
+in terms of accuracy, precision and query performance.

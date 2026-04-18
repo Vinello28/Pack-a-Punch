@@ -1,0 +1,13 @@
+among the many anticipated roles for robots in the future is that of being a
+human teammate. aside from all the technological hurdles that have to be
+overcome with respect to hardware and control to make robots fit to work with
+humans, the added complication here is that humans have many conscious and
+subconscious expectations of their teammates - indeed, we argue that teaming is
+mostly a cognitive rather than physical coordination activity. this introduces
+new challenges for the ai and robotics community and requires fundamental
+changes to the traditional approach to the design of autonomy. with this in
+mind, we propose an update to the classical view of the intelligent agent
+architecture, highlighting the requirements for mental modeling of the human in
+the deliberative process of the autonomous agent. in this article, we outline
+briefly the recent efforts of ours, and others in the community, towards
+developing cognitive teammates along these guidelines.

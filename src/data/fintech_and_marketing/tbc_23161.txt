@@ -1,0 +1,6 @@
+in this paper, we study the ability to make the short-term prediction of the
+exchange price fluctuations towards the united states dollar for the bitcoin
+market. we use the data of realized volatility collected from one of the
+largest bitcoin digital trading offices in 2016 and 2017 as well as order
+information. experiments are performed to evaluate a variety of statistical and
+machine learning approaches.

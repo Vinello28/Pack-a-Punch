@@ -1,0 +1,20 @@
+visual servoing is a well-known task in robotics. however, there are still
+challenges when multiple visual sources are combined to accurately guide the
+robot or occlusions appear. in this paper we present a novel visual servoing
+approach using hybrid multi-camera input data to lead a robot arm accurately to
+dynamically moving target points in the presence of partial occlusions. the
+approach uses four rgbd sensors as eye-to-hand (etoh) visual input, and an
+arm-mounted stereo camera as eye-in-hand (einh). a master supervisor task
+selects between using the etoh or the einh, depending on the distance between
+the robot and target. the master also selects the subset of etoh cameras that
+best perceive the target. when the einh sensor is used, if the target becomes
+occluded or goes out of the sensor's view-frustum, the master switches back to
+the etoh sensors to re-track the object. using this adaptive visual input data,
+the robot is then controlled using an iterative planner that uses position,
+orientation and joint configuration to estimate the trajectory. since the
+target is dynamic, this trajectory is updated every time-step. experiments show
+good performance in four different situations: tracking a ball, targeting a
+bulls-eye, guiding a straw to a mouth and delivering an item to a moving hand.
+the experiments cover both simple situations such as a ball that is mostly
+visible from all cameras, and more complex situations such as the mouth which
+is partially occluded from some of the sensors.

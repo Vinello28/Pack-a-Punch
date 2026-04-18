@@ -1,0 +1,12 @@
+haircutting non-cash collateral has become a key element of the post-crisis
+reform of the shadow banking system and otc derivatives markets. this article
+develops a parametric haircut model by expanding haircut definitions beyond the
+traditional value-at-risk measure and employing a double-exponential
+jump-diffusion model for collateral market risk. haircuts are solved to target
+credit risk measurements, including probability of default, expected loss or
+unexpected loss criteria. comparing to data-driven approach typically run on
+proxy data series, the model enables sensitivity analysis and stress test,
+captures market liquidity risk, allows idiosyncratic risk adjustments, and
+incorporates relevant market information. computational results for main
+equities, securitization, and corporate bonds show potential for uses in
+collateral agreements, e.g. csas, and for regulatory capital calculations.

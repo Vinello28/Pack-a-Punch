@@ -1,0 +1,19 @@
+with the increasing variety of services that e-commerce platforms provide,
+criteria for evaluating their success become also increasingly multi-targeting.
+this work introduces a multi-target optimization framework with bayesian
+modeling of the target events, called deep bayesian multi-target learning
+(dbmtl). in this framework, target events are modeled as forming a bayesian
+network, in which directed links are parameterized by hidden layers, and
+learned from training samples. the structure of bayesian network is determined
+by model selection. we applied the framework to taobao live-streaming
+recommendation, to simultaneously optimize (and strike a balance) on targets
+including click-through rate, user stay time in live room, purchasing behaviors
+and interactions. significant improvement has been observed for the proposed
+method over other mtl frameworks and the non-mtl model. our practice shows that
+with an integrated causality structure, we can effectively make the learning of
+a target benefit from other targets, creating significant synergy effects that
+improve all targets. the neural network construction guided by dbmtl fits in
+with the general probabilistic model connecting features and multiple targets,
+taking weaker assumption than the other methods discussed in this paper. this
+theoretical generality brings about practical generalization power over various
+targets distributions, including sparse targets and continuous-value ones.

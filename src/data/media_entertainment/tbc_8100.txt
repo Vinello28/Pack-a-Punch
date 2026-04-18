@@ -1,0 +1,15 @@
+convolutional neural networks (cnns) have been successfully applied on both
+discriminative and generative modeling for music-related tasks. for a
+particular task, the trained cnn contains information representing the decision
+making or the abstracting process. one can hope to manipulate existing music
+based on this 'informed' network and create music with new features
+corresponding to the knowledge obtained by the network. in this paper, we
+propose a method to utilize the stored information from a cnn trained on
+musical genre classification task. the network was composed of three
+convolutional layers, and was trained to classify five-second song clips into
+five different genres. after training, randomly selected clips were modified by
+maximizing the sum of outputs from the network layers. in addition to the
+potential of such cnns to produce interesting audio transformation, more
+information about the network and the original music could be obtained from the
+analysis of the generated features since these features indicate how the
+network 'understands' the music.

@@ -1,0 +1,14 @@
+youtube-8m dataset enhances the development of large-scale video recognition
+technology as imagenet dataset has encouraged image classification, recognition
+and detection of artificial intelligence fields. for this large video dataset,
+it is a challenging task to classify a huge amount of multi-labels. by change
+of perspective, we propose a novel method by regarding labels as words. in
+details, we describe online learning approaches to multi-label video
+classification that are guided by deep recurrent neural networks for video to
+sentence translator. we designed the translator based on lstms and found out
+that a stochastic gating before the input of each lstm cell can help us to
+design the structural details. in addition, we adopted batch normalizations
+into our models to improve our lstm models. since our models are feature
+extractors, they can be used with other classifiers. finally we report improved
+validation results of our models on large-scale youtube-8m datasets and
+discussions for the further improvement.

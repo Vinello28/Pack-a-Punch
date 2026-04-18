@@ -1,0 +1,19 @@
+bike sharing provides an environment-friendly way for traveling and is
+booming all over the world. yet, due to the high similarity of user travel
+patterns, the bike imbalance problem constantly occurs, especially for dockless
+bike sharing systems, causing significant impact on service quality and company
+revenue. thus, it has become a critical task for bike sharing systems to
+resolve such imbalance efficiently. in this paper, we propose a novel deep
+reinforcement learning framework for incentivizing users to rebalance such
+systems. we model the problem as a markov decision process and take both
+spatial and temporal features into consideration. we develop a novel deep
+reinforcement learning algorithm called hierarchical reinforcement pricing
+(hrp), which builds upon the deep deterministic policy gradient algorithm.
+different from existing methods that often ignore spatial information and rely
+heavily on accurate prediction, hrp captures both spatial and temporal
+dependencies using a divide-and-conquer structure with an embedded localized
+module. we conduct extensive experiments to evaluate hrp, based on a dataset
+from mobike, a major chinese dockless bike sharing company. results show that
+hrp performs close to the 24-timeslot look-ahead optimization, and outperforms
+state-of-the-art methods in both service level and bike distribution. it also
+transfers well when applied to unseen areas.

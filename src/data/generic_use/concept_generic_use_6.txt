@@ -1,1 +1,0 @@
-La Computer Vision e una disciplina dell'AI che sviluppa tecniche per consentire ai computer di interpretare e comprendere i contenuti di immagini e video digitali.

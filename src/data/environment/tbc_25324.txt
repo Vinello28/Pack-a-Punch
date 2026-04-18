@@ -1,0 +1,17 @@
+uses of underwater videos to assess diversity and abundance of fish are being
+rapidly adopted by marine biologists. manual processing of videos for
+quantification by human analysts is time and labour intensive. automatic
+processing of videos can be employed to achieve the objectives in a cost and
+time-efficient way. the aim is to build an accurate and reliable fish detection
+and recognition system, which is important for an autonomous robotic platform.
+however, there are many challenges involved in this task (e.g. complex
+background, deformation, low resolution and light propagation). recent
+advancement in the deep neural network has led to the development of object
+detection and recognition in real time scenarios. an end-to-end deep
+learning-based architecture is introduced which outperformed the state of the
+art methods and first of its kind on fish assessment task. a region proposal
+network (rpn) introduced by an object detector termed as faster r-cnn was
+combined with three classification networks for detection and recognition of
+fish species obtained from remote underwater video stations (ruvs). an accuracy
+of 82.4% (map) obtained from the experiments are much higher than previously
+proposed methods.

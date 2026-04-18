@@ -1,0 +1,18 @@
+heart disease is one of the complex diseases and globally many people suffered from this
+disease. on time and efficient identification of heart disease plays a key role in healthcare, particularly
+in the field of cardiology. in this article, we proposed an efficient and accurate system to diagnosis heart
+disease and the system is based on machine learning techniques. the system is developed based on
+classification algorithms includes support vector machine, logistic regression, artificial neural network,
+k-nearest neighbor, naïve bays, and decision tree while standard features selection algorithms have been
+used such as relief, minimal redundancy maximal relevance, least absolute shrinkage selection operator
+and local learning for removing irrelevant and redundant features. we also proposed novel fast conditional
+mutual information feature selection algorithm to solve feature selection problem. the features selection
+algorithms are used for features selection to increase the classification accuracy and reduce the execution time
+of classification system. furthermore, the leave one subject out cross-validation method has been used for
+learning the best practices of model assessment and for hyperparameter tuning. the performance measuring
+metrics are used for assessment of the performances of the classifiers. the performances of the classifiers
+have been checked on the selected features as selected by features selection algorithms. the experimental
+results show that the proposed feature selection algorithm (fcmim) is feasible with classifier support vector
+machine for designing a high-level intelligent system to identify heart disease. the suggested diagnosis
+system (fcmim-svm) achieved good accuracy as compared to previously proposed methods. additionally,
+the proposed system can easily be implemented in healthcare for the identification of heart disease.

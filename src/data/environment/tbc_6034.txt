@@ -1,0 +1,12 @@
+video surveillance is a well researched area of study with substantial work
+done in the aspects of object detection, tracking and behavior analysis. with
+the abundance of video data captured over a long period of time, we can
+understand patterns in human behavior and scene dynamics through data-driven
+temporal analytics. in this work, we propose two schemes to perform descriptive
+and predictive analytics on long-term video surveillance data. we generate
+heatmap and footmap visualizations to describe spatially pooled trajectory
+patterns with respect to time and location. we also present two approaches for
+anomaly prediction at the day-level granularity: a trajectory-based statistical
+approach, and a time-series based approach. experimentation with one year data
+from a single camera demonstrates the ability to uncover interesting insights
+about the scene and to predict anomalies reasonably well.

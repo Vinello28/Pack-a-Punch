@@ -1,0 +1,14 @@
+license plate recognition (lpr) plays an important role on the traffic
+monitoring and parking management. a robust and efficient method for enhancing
+accuracy of license plate characters recognition based on k nearest neighbours
+(k-nn) classifier is presented in this paper. the system first prepares a
+contour form of the extracted character, then the angle and distance feature
+information about the character is extracted and finally k-nn classifier is
+used to character recognition. angle and distance features of a character have
+been computed based on distribution of points on the bitmap image of character.
+in k-nn method, the euclidean distance between testing point and reference
+points is calculated in order to find the k-nearest neighbours. we evaluated
+our method on the available dataset that contain 1200 sample. using 70% samples
+for training, we tested our method on whole samples and obtained 99% correct
+recognition rate.further, we achieved average 99.41% accuracy using
+three/strategy validation technique on 1200 dataset.

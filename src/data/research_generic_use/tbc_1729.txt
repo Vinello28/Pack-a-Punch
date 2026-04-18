@@ -1,0 +1,14 @@
+in this paper, we propose a novel fitting method that uses local image
+features to fit a 3d morphable model to 2d images. to overcome the obstacle of
+optimising a cost function that contains a non-differentiable feature
+extraction operator, we use a learning-based cascaded regression method that
+learns the gradient direction from data. the method allows to simultaneously
+solve for shape and pose parameters. our method is thoroughly evaluated on
+morphable model generated data and first results on real data are presented.
+compared to traditional fitting methods, which use simple raw features like
+pixel colour or edge maps, local features have been shown to be much more
+robust against variations in imaging conditions. our approach is unique in that
+we are the first to use local features to fit a morphable model.
+  because of the speed of our method, it is applicable for realtime
+applications. our cascaded regression framework is available as an open source
+library (https://github.com/patrikhuber).

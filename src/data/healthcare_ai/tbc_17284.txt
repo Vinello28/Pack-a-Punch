@@ -1,0 +1,19 @@
+deep learning (dl) based semantic segmentation methods have been providing
+state-of-the-art performance in the last few years. more specifically, these
+techniques have been successfully applied to medical image classification,
+segmentation, and detection tasks. one deep learning technique, u-net, has
+become one of the most popular for these applications. in this paper, we
+propose a recurrent convolutional neural network (rcnn) based on u-net as well
+as a recurrent residual convolutional neural network (rrcnn) based on u-net
+models, which are named ru-net and r2u-net respectively. the proposed models
+utilize the power of u-net, residual network, as well as rcnn. there are
+several advantages of these proposed architectures for segmentation tasks.
+first, a residual unit helps when training deep architecture. second, feature
+accumulation with recurrent residual convolutional layers ensures better
+feature representation for segmentation tasks. third, it allows us to design
+better u-net architecture with same number of network parameters with better
+performance for medical image segmentation. the proposed models are tested on
+three benchmark datasets such as blood vessel segmentation in retina images,
+skin cancer segmentation, and lung lesion segmentation. the experimental
+results show superior performance on segmentation tasks compared to equivalent
+models including u-net and residual u-net (resu-net).

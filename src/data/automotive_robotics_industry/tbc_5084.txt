@@ -1,0 +1,18 @@
+end-to-end control for robot manipulation and grasping is emerging as an
+attractive alternative to traditional pipelined approaches. however, end-to-end
+methods tend to either be slow to train, exhibit little or no generalisability,
+or lack the ability to accomplish long-horizon or multi-stage tasks. in this
+paper, we show how two simple techniques can lead to end-to-end (image to
+velocity) execution of a multi-stage task, which is analogous to a simple
+tidying routine, without having seen a single real image. this involves
+locating, reaching for, and grasping a cube, then locating a basket and
+dropping the cube inside. to achieve this, robot trajectories are computed in a
+simulator, to collect a series of control velocities which accomplish the task.
+then, a cnn is trained to map observed images to velocities, using domain
+randomisation to enable generalisation to real world images. results show that
+we are able to successfully accomplish the task in the real world with the
+ability to generalise to novel environments, including those with dynamic
+lighting conditions, distractor objects, and moving objects, including the
+basket itself. we believe our approach to be simple, highly scalable, and
+capable of learning long-horizon tasks that have until now not been shown with
+the state-of-the-art in end-to-end robot control.

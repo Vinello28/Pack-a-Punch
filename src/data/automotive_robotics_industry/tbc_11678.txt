@@ -1,0 +1,10 @@
+in this work, we study the use of logistic regression in manufacturing
+failures detection. as a data set for the analysis, we used the data from
+kaggle competition bosch production line performance. we considered the use of
+machine learning, linear and bayesian models. for machine learning approach, we
+analyzed xgboost tree based classifier to obtain high scored classification.
+using the generalized linear model for logistic regression makes it possible to
+analyze the influence of the factors under study. the bayesian approach for
+logistic regression gives the statistical distribution for the parameters of
+the model. it can be useful in the probabilistic analysis, e.g. risk
+assessment.

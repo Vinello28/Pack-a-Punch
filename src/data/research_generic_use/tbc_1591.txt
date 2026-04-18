@@ -1,0 +1,17 @@
+many stated preference studies conducted in developing countries provide a
+low willingness to pay (wtp) for a wide range of goods and services. however,
+recent studies in these countries indicate that this may partly be a result of
+the choice of payment vehicle, not the preference for the good. thus, low wtp
+may not indicate a low welfare effect for public projects in developing
+countries. we argue that in a setting where 1) there is imperfect
+substitutability between money and other measures of wealth (e.g. labor), and
+2) institutions are perceived to be corrupt, including payment vehicles that
+are currently available to the individual and less pron to corruption may be
+needed to obtain valid welfare estimates. otherwise, we risk underestimating
+the welfare benefit of projects. we demonstrate this through a rural household
+contingent valuation (cv) survey designed to elicit the value of access to
+reliable irrigation water in ethiopia. of the total average annual wtp for
+access to reliable irrigation service, cash contribution comprises only 24.41
+%. the implication is that socially desirable projects might be rejected based
+on cost-benefit analysis as a result of welfare gain underestimation due to
+mismatch of payment vehicles choice in valuation study.

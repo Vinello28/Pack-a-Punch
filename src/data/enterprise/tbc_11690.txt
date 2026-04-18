@@ -1,0 +1,20 @@
+we consider the problem of classifying business process instances based on
+structural features derived from event logs. the main motivation is to provide
+machine learning based techniques with quick response times for interactive
+computer assisted root cause analysis. in particular, we create structural
+features from process mining such as activity and transition occurrence counts,
+and ordering of activities to be evaluated as potential features for
+classification. we show that adding such structural features increases the
+amount of information thus potentially increasing classification accuracy.
+however, there is an inherent trade-off as using too many features leads to too
+long run-times for machine learning classification models. one way to improve
+the machine learning algorithms' run-time is to only select a small number of
+features by a feature selection algorithm. however, the run-time required by
+the feature selection algorithm must also be taken into account. also, the
+classification accuracy should not suffer too much from the feature selection.
+the main contributions of this paper are as follows: first, we propose and
+compare six different feature selection algorithms by means of an experimental
+setup comparing their classification accuracy and achievable response times.
+second, we discuss the potential use of feature selection results for computer
+assisted root cause analysis as well as the properties of different types of
+structural features in the context of feature selection.

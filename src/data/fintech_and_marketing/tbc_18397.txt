@@ -1,0 +1,12 @@
+detection of outliers or anomalies is one of the vital issues in pattern-driven data mining. outlier detection
+detects the inconsistent behavior of individual objects. it is an important sector in the data mining field
+with several different applications such as detecting credit card fraud, hacking discovery and discovering
+criminal activities. it is necessary to develop tools used to uncover the critical information established in the
+extensive data. this paper investigated a novel method for detecting cluster outliers in a multidimensional
+dataset, capable of identifying the clusters and outliers for datasets containing noise. the proposed method
+can detect the groups and outliers left by the clustering process, like instant irregular sets of clusters (c) and
+outliers (o), to boost the results. the results obtained after applying the algorithm to the dataset improved
+in terms of several parameters. for the comparative analysis, the accurate average value and the recall value
+parameters are computed. the accurate average value is 74.05% of the existing coid algorithm, and our
+proposed algorithm has 77.21%. the average recall value is 81.19% and 89.51% of the existing and proposed
+algorithm, which shows that the proposed work efficiency is better than the existing coid algorithm.

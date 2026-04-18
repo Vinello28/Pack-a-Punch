@@ -1,0 +1,19 @@
+in this work, we propose a novel framework to encode the local connectivity
+patterns of brain, using fisher vectors (fv), vector of locally aggregated
+descriptors (vlad) and bag-of-words (bow) methods. we first obtain local
+descriptors, called mesh arc descriptors (mads) from fmri data, by forming
+local meshes around anatomical regions, and estimating their relationship
+within a neighborhood. then, we extract a dictionary of relationships, called
+\textit{brain connectivity dictionary} by fitting a generative gaussian mixture
+model (gmm) to a set of mads, and selecting the codewords at the mean of each
+component of the mixture. codewords represent the connectivity patterns among
+anatomical regions. we also encode mads by vlad and bow methods using the
+k-means clustering.
+  we classify the cognitive states of human connectome project (hcp) task fmri
+dataset, where we train support vector machines (svm) by the encoded mads.
+results demonstrate that, fv encoding of mads can be successfully employed for
+classification of cognitive tasks, and outperform the vlad and bow
+representations. moreover, we identify the significant gaussians in mixture
+models by computing energy of their corresponding fv parts, and analyze their
+effect on classification accuracy. finally, we suggest a new method to
+visualize the codewords of brain connectivity dictionary.

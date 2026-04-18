@@ -1,0 +1,1 @@
+an optimised subsea system design for energy-efficient sdm operation is demonstrated using machine learning. the removal of gain-flattening filters employed in submarine optical amplifiers can result in capacity gains at no additional overall repeater cost.

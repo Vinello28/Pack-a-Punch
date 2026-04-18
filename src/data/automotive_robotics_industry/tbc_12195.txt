@@ -1,0 +1,25 @@
+recent advances in deep neural networks (dnns) have led to the development of
+dnn-driven autonomous cars that, using sensors like camera, lidar, etc., can
+drive without any human intervention. most major manufacturers including tesla,
+gm, ford, bmw, and waymo/google are working on building and testing different
+types of autonomous vehicles. the lawmakers of several us states including
+california, texas, and new york have passed new legislation to fast-track the
+process of testing and deployment of autonomous vehicles on their roads.
+  however, despite their spectacular progress, dnns, just like traditional
+software, often demonstrate incorrect or unexpected corner case behaviors that
+can lead to potentially fatal collisions. several such real-world accidents
+involving autonomous cars have already happened including one which resulted in
+a fatality. most existing testing techniques for dnn-driven vehicles are
+heavily dependent on the manual collection of test data under different driving
+conditions which become prohibitively expensive as the number of test
+conditions increases.
+  in this paper, we design, implement and evaluate deeptest, a systematic
+testing tool for automatically detecting erroneous behaviors of dnn-driven
+vehicles that can potentially lead to fatal crashes. first, our tool is
+designed to automatically generated test cases leveraging real-world changes in
+driving conditions like rain, fog, lighting conditions, etc. deeptest
+systematically explores different parts of the dnn logic by generating test
+inputs that maximize the numbers of activated neurons. deeptest found thousands
+of erroneous behaviors under different realistic driving conditions (e.g.,
+blurring, rain, fog, etc.) many of which lead to potentially fatal crashes in
+three top performing dnns in the udacity self-driving car challenge.

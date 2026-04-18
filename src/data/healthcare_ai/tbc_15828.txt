@@ -1,0 +1,19 @@
+to be effective, state of the art machine learning technology needs large
+amounts of annotated data. there are numerous compelling applications in
+healthcare that can benefit from high performance automated decision support
+systems provided by deep learning technology, but they lack the comprehensive
+data resources required to apply sophisticated machine learning models.
+further, for economic reasons, it is very difficult to justify the creation of
+large annotated corpora for these applications. hence, automated annotation
+techniques become increasingly important. in this study, we investigated the
+effectiveness of using an active learning algorithm to automatically annotate a
+large eeg corpus. the algorithm is designed to annotate six types of eeg
+events. two model training schemes, namely threshold-based and volume-based,
+are evaluated. in the threshold-based scheme the threshold of confidence scores
+is optimized in the initial training iteration, whereas for the volume-based
+scheme only a certain amount of data is preserved after each iteration.
+recognition performance is improved 2% absolute and the system is capable of
+automatically annotating previously unlabeled data. given that the
+interpretation of clinical eeg data is an exceedingly difficult task, this
+study provides some evidence that the proposed method is a viable alternative
+to expensive manual annotation.

@@ -1,0 +1,15 @@
+sleep disorders, such as sleep apnea, parasomnias, and hypersomnia, affect
+50-70 million adults in the united states (hillman et al., 2006). overnight
+polysomnography (psg), including brain monitoring using electroencephalography
+(eeg), is a central component of the diagnostic evaluation for sleep disorders.
+while psg is conventionally performed by trained technologists, the recent rise
+of powerful neural network learning algorithms combined with large
+physiological datasets offers the possibility of automation, potentially making
+expert-level sleep analysis more widely available. we propose sleepnet (sleep
+eeg neural network), a deployed annotation tool for sleep staging. sleepnet
+uses a deep recurrent neural network trained on the largest sleep physiology
+database assembled to date, consisting of psgs from over 10,000 patients from
+the massachusetts general hospital (mgh) sleep laboratory. sleepnet achieves
+human-level annotation performance on an independent test set of 1,000 eegs,
+with an average accuracy of 85.76% and algorithm-expert inter-rater agreement
+(ira) of kappa = 79.46%, comparable to expert-expert ira.

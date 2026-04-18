@@ -1,0 +1,19 @@
+large medical image data sets with high dimensionality require substantial
+amount of computation time for data creation and data processing. this paper
+presents a novel generalized method that finds optimal image-based feature sets
+that reduce computational time complexity while maximizing overall
+classification accuracy for detection of diabetic retinopathy (dr). first,
+region-based and pixel-based features are extracted from fundus images for
+classification of dr lesions and vessel-like structures. next, feature ranking
+strategies are used to distinguish the optimal classification feature sets. dr
+lesion and vessel classification accuracies are computed using the boosted
+decision tree and decision forest classifiers in the microsoft azure machine
+learning studio platform, respectively. for images from the diaretdb1 data set,
+40 of its highest-ranked features are used to classify four dr lesion types
+with an average classification accuracy of 90.1% in 792 seconds. also, for
+classification of red lesion regions and hemorrhages from microaneurysms,
+accuracies of 85% and 72% are observed, respectively. for images from stare
+data set, 40 high-ranked features can classify minor blood vessels with an
+accuracy of 83.5% in 326 seconds. such cloud-based fundus image analysis
+systems can significantly enhance the borderline classification performances in
+automated screening systems.

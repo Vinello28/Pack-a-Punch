@@ -1,0 +1,19 @@
+brain decoding is a data analysis paradigm for neuroimaging experiments that
+is based on predicting the stimulus presented to the subject from the
+concurrent brain activity. in order to make inference at the group level, a
+straightforward but sometimes unsuccessful approach is to train a classifier on
+the trials of a group of subjects and then to test it on unseen trials from new
+subjects. the extreme difficulty is related to the structural and functional
+variability across the subjects. we call this approach "decoding across
+subjects". in this work, we address the problem of decoding across subjects for
+magnetoencephalographic (meg) experiments and we provide the following
+contributions: first, we formally describe the problem and show that it belongs
+to a machine learning sub-field called transductive transfer learning (ttl).
+second, we propose to use a simple ttl technique that accounts for the
+differences between train data and test data. third, we propose the use of
+ensemble learning, and specifically of stacked generalization, to address the
+variability across subjects within train data, with the aim of producing more
+stable classifiers. on a face vs. scramble task meg dataset of 16 subjects, we
+compare the standard approach of not modelling the differences across subjects,
+to the proposed one of combining ttl and ensemble learning. we show that the
+proposed approach is consistently more accurate than the standard one.

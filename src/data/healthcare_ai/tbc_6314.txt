@@ -1,0 +1,26 @@
+robust automated organ segmentation is a prerequisite for computer-aided
+diagnosis (cad), quantitative imaging analysis and surgical assistance. for
+high-variability organs such as the pancreas, previous approaches report
+undesirably low accuracies. we present a bottom-up approach for pancreas
+segmentation in abdominal ct scans that is based on a hierarchy of information
+propagation by classifying image patches at different resolutions; and
+cascading superpixels. there are four stages: 1) decomposing ct slice images as
+a set of disjoint boundary-preserving superpixels; 2) computing pancreas class
+probability maps via dense patch labeling; 3) classifying superpixels by
+pooling both intensity and probability features to form empirical statistics in
+cascaded random forest frameworks; and 4) simple connectivity based
+post-processing. the dense image patch labeling are conducted by: efficient
+random forest classifier on image histogram, location and texture features; and
+more expensive (but with better specificity) deep convolutional neural network
+classification on larger image windows (with more spatial contexts). evaluation
+of the approach is performed on a database of 80 manually segmented ct volumes
+in six-fold cross-validation (cv). our achieved results are comparable, or
+better than the state-of-the-art methods (evaluated by
+"leave-one-patient-out"), with dice 70.7% and jaccard 57.9%. the computational
+efficiency has been drastically improved in the order of 6~8 minutes, comparing
+with others of ~10 hours per case. finally, we implement a multi-atlas label
+fusion (malf) approach for pancreas segmentation using the same datasets. under
+six-fold cv, our bottom-up segmentation method significantly outperforms its
+malf counterpart: (70.7 +/- 13.0%) versus (52.5 +/- 20.8%) in dice. deep cnn
+patch labeling confidences offer more numerical stability, reflected by smaller
+standard deviations.

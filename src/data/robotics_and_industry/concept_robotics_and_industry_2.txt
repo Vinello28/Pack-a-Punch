@@ -1,1 +1,0 @@
-La manutenzione predittiva Industry 4.0 analizza dati vibrazionali, termici e acustici dei macchinari con algoritmi di machine learning per prevedere guasti e pianificare interventi preventivi.

@@ -1,0 +1,13 @@
+autonomous driving is becoming a future practical lifestyle greatly driven by
+deep learning. specifically, an effective traffic sign detection by deep
+learning plays a critical role for it. however, different countries have
+different sets of traffic signs, making localized traffic sign recognition
+model training a tedious and daunting task. to address the issues of taking
+amount of time to compute complicate algorithm and low ratio of detecting
+blurred and sub-pixel images of localized traffic signs, we propose multi-scale
+deconvolution networks (mdn), which flexibly combines multi-scale convolutional
+neural network with deconvolution sub-network, leading to efficient and
+reliable localized traffic sign recognition model training. it is demonstrated
+that the proposed mdn is effective compared with classical algorithms on the
+benchmarks of the localized traffic sign, such as chinese traffic sign dataset
+(ctsd), and the german traffic sign benchmarks (gtsrb).

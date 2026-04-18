@@ -1,0 +1,17 @@
+we introduce the densely segmented supermarket (d2s) dataset, a novel
+benchmark for instance-aware semantic segmentation in an industrial domain. it
+contains 21,000 high-resolution images with pixel-wise labels of all object
+instances. the objects comprise groceries and everyday products from 60
+categories. the benchmark is designed such that it resembles the real-world
+setting of an automatic checkout, inventory, or warehouse system. the training
+images only contain objects of a single class on a homogeneous background,
+while the validation and test sets are much more complex and diverse. to
+further benchmark the robustness of instance segmentation methods, the scenes
+are acquired with different lightings, rotations, and backgrounds. we ensure
+that there are no ambiguities in the labels and that every instance is labeled
+comprehensively. the annotations are pixel-precise and allow using crops of
+single instances for articial data augmentation. the dataset covers several
+challenges highly relevant in the field, such as a limited amount of training
+data and a high diversity in the test and validation sets. the evaluation of
+state-of-the-art object detection and instance segmentation methods on d2s
+reveals significant room for improvement.

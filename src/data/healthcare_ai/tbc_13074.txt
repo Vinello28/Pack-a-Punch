@@ -1,0 +1,18 @@
+syndrome differentiation in traditional chinese medicine (tcm) is the process
+of understanding and reasoning body condition, which is the essential step and
+premise of effective treatments. however, due to its complexity and lack of
+standardization, it is challenging to achieve. in this study, we consider each
+patient's record as a one-dimensional image and symptoms as pixels, in which
+missing and negative values are represented by zero pixels. the objective is to
+find relevant symptoms first and then map them to proper syndromes, that is
+similar to the object detection problem in computer vision. inspired from it,
+we employ multi-instance multi-task learning combined with the convolutional
+neural network (mimt-cnn) for syndrome differentiation, which takes region
+proposals as input and output image labels directly. the neural network
+consists of region proposals generation, convolutional layer, fully connected
+layer, and max pooling (multi-instance pooling) layer followed by the sigmoid
+function in each syndrome prediction task for image representation learning and
+final results generation. on the diabetes dataset, it performs better than all
+other baseline methods. moreover, it shows stability and reliability to
+generate results, even on the dataset with small sample size, a large number of
+missing values and noises.

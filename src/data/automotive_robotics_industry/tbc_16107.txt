@@ -1,0 +1,14 @@
+we develop an approach that benefits from large simulated datasets and takes
+full advantage of the limited online data that is most relevant. we propose a
+variant of bayesian optimization that alternates between using informed and
+uninformed kernels. with this bernoulli alternation kernel we ensure that
+discrepancies between simulation and reality do not hinder adapting robot
+control policies online. the proposed approach is applied to a challenging
+real-world problem of task-oriented grasping with novel objects. our further
+contribution is a neural network architecture and training pipeline that use
+experience from grasping objects in simulation to learn grasp stability scores.
+we learn task scores from a labeled dataset with a convolutional network, which
+is used to construct an informed kernel for our variant of bayesian
+optimization. experiments on an abb yumi robot with real sensor data
+demonstrate success of our approach, despite the challenge of fulfilling task
+requirements and high uncertainty over physical properties of objects.

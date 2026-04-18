@@ -1,0 +1,16 @@
+visualizing and interpreting convolutional neural networks (cnns) is an
+important task to increase trust in automatic medical decision making systems.
+in this study, we train a 3d cnn to detect alzheimer's disease based on
+structural mri scans of the brain. then, we apply four different gradient-based
+and occlusion-based visualization methods that explain the network's
+classification decisions by highlighting relevant areas in the input image. we
+compare the methods qualitatively and quantitatively. we find that all four
+methods focus on brain regions known to be involved in alzheimer's disease,
+such as inferior and middle temporal gyrus. while the occlusion-based methods
+focus more on specific regions, the gradient-based methods pick up distributed
+relevance patterns. additionally, we find that the distribution of relevance
+varies across patients, with some having a stronger focus on the temporal lobe,
+whereas for others more cortical areas are relevant. in summary, we show that
+applying different visualization methods is important to understand the
+decisions of a cnn, a step that is crucial to increase clinical impact and
+trust in computer-based decision support systems.

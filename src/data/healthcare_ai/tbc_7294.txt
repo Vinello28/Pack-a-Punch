@@ -1,0 +1,13 @@
+facial paralysis is the most common facial nerve disorder. it causes
+functional and aesthetic defcitsthat often lead to emotional distress
+and afect psychosocial well-being. one form of treatment is mirror
+therapy, which has shown potential but has several mirror-related
+drawbacks that limit its efectiveness. we propose farapy, the frst
+mobile augmented reality mirror therapy system for facial paralysis
+that provides real-time feedback and tracks user progress over time.
+we developed an efcient convolutional neural network to detect
+muscle activations and intensities as users perform facial exercises
+in front of a mobile device camera. our model outperformsthe stateof-the-art model on benchmark data for detecting facial action unit
+intensity. our user study (n=20) shows high user satisfaction and
+greater preference for our interactive system over traditional mirror
+therapy

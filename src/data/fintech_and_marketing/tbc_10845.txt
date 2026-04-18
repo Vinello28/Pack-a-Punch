@@ -1,0 +1,15 @@
+user online shopping experience in modern e-commerce websites critically relies on real-time personalized recommendations. however, building a productionized recommender system still remains challenging due to a massive collection of items, a huge number of online
+users, and requirements for recommendations to be responsive to user
+actions. in this work, we present our relevant, responsive, and scalable
+deep online ranking system (dors) that we developed and deployed in
+our company. dors is implemented in a three-level architecture which
+includes (1) candidate retrieval that retrieves a board set of candidates
+with various business rules enforced; (2) deep neural network ranking
+model that takes advantage of available user and item specific features
+and their interactions; (3) multi-arm bandits based online re-ranking
+that dynamically takes user real-time feedback and re-ranks the final
+recommended items in scale. given a user as a query, dors is able to
+precisely capture users’ real-time purchasing intents and help users reach
+to product purchases. both offline and online experimental results show
+that dors provides more personalized online ranking results and makes
+more revenue.

@@ -1,0 +1,10 @@
+in the medical domain, identifying and expanding abbreviations in clinical
+texts is a vital task for both better human and machine understanding. it is a
+challenging task because many abbreviations are ambiguous especially for
+intensive care medicine texts, in which phrase abbreviations are frequently
+used. besides the fact that there is no universal dictionary of clinical
+abbreviations and no universal rules for abbreviation writing, such texts are
+difficult to acquire, expensive to annotate and even sometimes, confusing to
+domain experts. this paper proposes a novel and effective approach - exploiting
+task-oriented resources to learn word embeddings for expanding abbreviations in
+clinical notes. we achieved 82.27% accuracy, close to expert human performance.

@@ -1,0 +1,14 @@
+over the past decade, the stellar growth of indian economy has been
+challenged by persistently high levels of inflation, particularly in food
+prices. the primary reason behind this stubborn food inflation is mismatch in
+supply-demand, as domestic agricultural production has failed to keep up with
+rising demand owing to a number of proximate factors. the relative significance
+of these factors in determining the change in food prices have been analysed
+using gradient boosted regression trees (brt), a machine learning technique.
+the results from brt indicates all predictor variables to be fairly significant
+in explaining the change in food prices, with msp and farm wages being
+relatively more important than others. international food prices were found to
+have limited relevance in explaining the variation in domestic food prices. the
+challenge of ensuring food and nutritional security for growing indian
+population with rising incomes needs to be addressed through resolute policy
+reforms.

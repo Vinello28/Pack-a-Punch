@@ -1,0 +1,17 @@
+deep convolution neural networks (cnn) have achieved significant performance
+on single image super-resolution (sr) recently. however, existing cnn-based
+methods use artificially synthetic low-resolution (lr) and high-resolution (hr)
+image pairs to train networks, which cannot handle real-world cases since the
+degradation from hr to lr is much more complex than manually designed. to solve
+this problem, we propose a real-world lr images guided bi-cycle network for
+single image super-resolution, in which the bidirectional structural
+consistency is exploited to train both the degradation and sr reconstruction
+networks in an unsupervised way. specifically, we propose a degradation network
+to model the real-world degradation process from hr to lr via generative
+adversarial networks, and these generated realistic lr images paired with
+real-world hr images are exploited for training the sr reconstruction network,
+forming the first cycle. then in the second reverse cycle, consistency of
+real-world lr images are exploited to further stabilize the training of sr
+reconstruction and degradation networks. extensive experiments on both
+synthetic and real-world images demonstrate that the proposed algorithm
+performs favorably against state-of-the-art single image sr methods.

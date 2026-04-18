@@ -1,0 +1,13 @@
+we present a learning-based mapless motion planner by taking the sparse
+10-dimensional range findings and the target position with respect to the
+mobile robot coordinate frame as input and the continuous steering commands as
+output. traditional motion planners for mobile ground robots with a laser range
+sensor mostly depend on the obstacle map of the navigation environment where
+both the highly precise laser sensor and the obstacle map building work of the
+environment are indispensable. we show that, through an asynchronous deep
+reinforcement learning method, a mapless motion planner can be trained
+end-to-end without any manually designed features and prior demonstrations. the
+trained planner can be directly applied in unseen virtual and real
+environments. the experiments show that the proposed mapless motion planner can
+navigate the nonholonomic mobile robot to the desired targets without colliding
+with any obstacles.

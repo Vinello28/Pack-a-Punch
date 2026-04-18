@@ -1,0 +1,11 @@
+extracting accurate attribute qualities from product titles is a vital
+component in delivering ecommerce customers with a rewarding online shopping
+experience via an enriched faceted search. we demonstrate the potential of deep
+recurrent networks in this domain, primarily models such as bidirectional lstms
+and bidirectional lstm-crf with or without an attention mechanism. these have
+improved overall f1 scores, as compared to the previous benchmarks (more et
+al.) by at least 0.0391, showcasing an overall precision of 97.94%, recall of
+94.12% and the f1 score of 0.9599. this has made us achieve a significant
+coverage of important facets or attributes of products which not only shows the
+efficacy of deep recurrent models over previous machine learning benchmarks but
+also greatly enhances the overall customer experience while shopping online.

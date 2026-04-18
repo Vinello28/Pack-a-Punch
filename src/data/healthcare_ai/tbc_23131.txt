@@ -1,0 +1,17 @@
+in person attributes recognition, we describe a person in terms of their
+appearance. typically, this includes a wide range of traits including age,
+gender, clothing, and footwear. although this could be used in a wide variety
+of scenarios, it generally is applied to video surveillance, where attribute
+recognition is impacted by low resolution, and other issues such as variable
+pose, occlusion and shadow. recent approaches have used deep convolutional
+neural networks (cnns) to improve the accuracy in person attribute recognition.
+however, many of these networks are relatively shallow and it is unclear to
+what extent they use contextual cues to improve classification accuracy. in
+this paper, we propose deeper methods for person attribute recognition.
+interpreting the reasons behind the classification is highly important, as it
+can provide insight into how the classifier is making decisions. interpretation
+suggests that deeper networks generally take more contextual information into
+consideration, which helps improve classification accuracy and
+generalizability. we present experimental analysis and results for whole body
+attributes using the pa-100k and peta datasets and facial attributes using the
+celeba dataset.

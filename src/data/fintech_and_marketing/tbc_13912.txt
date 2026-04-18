@@ -1,0 +1,10 @@
+a new challenge to quantitative finance after the recent financial crisis is
+the study of credit valuation adjustment (cva), which requires modeling of the
+future values of a portfolio. in this paper, following recent work in [weinan
+e(2017), han(2017)], we apply deep learning to attack this problem. the future
+values are parameterized by neural networks, and the parameters are then
+determined through optimization. two concrete products are studied: bermudan
+swaption and mark-to-market cross-currency swap. we obtain their expected
+positive/negative exposures, and further study the resulting functional form of
+future values. such an approach represents a new framework for modeling xva,
+and it also sheds new lights on other methods like american monte carlo.

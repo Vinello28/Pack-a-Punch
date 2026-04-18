@@ -1,0 +1,20 @@
+with malware detection techniques increasingly adopting machine learning
+approaches, the creation of precise training sets becomes more and more
+important. large data sets of realistic web traffic, correctly classified as
+benign or malicious are needed, not only to train classic and deep learning
+algorithms, but also to serve as evaluation benchmarks for existing malware
+detection products. interestingly, despite the vast number and versatility of
+threats a user may encounter when browsing the web, actual malicious content is
+often hard to come by, since prerequisites such as browser and operating system
+type and version must be met in order to receive the payload from a malware
+distributing server. in combination with privacy constraints on data sets of
+actual user traffic, it is difficult for researchers and product developers to
+evaluate anti-malware solutions against large-scale data sets of realistic web
+traffic. in this paper we present webeye, a framework that autonomously creates
+realistic http traffic, enriches recorded traffic with additional information,
+and classifies records as malicious or benign, using different classifiers. we
+are using webeye to collect malicious html and javascript and show how datasets
+created with webeye can be used to train machine learning based malware
+detection algorithms. we regard webeye and the data sets it creates as a tool
+for researchers and product developers to evaluate and improve their ai-based
+anti-malware solutions against large-scale benchmarks.

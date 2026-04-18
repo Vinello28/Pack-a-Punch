@@ -1,0 +1,12 @@
+an unmanned ariel vehicle (uav) has greater importance in the army for border
+security. the main objective of this article is to develop an opencv-python
+code using haar cascade algorithm for object and face detection. currently,
+uavs are used for detecting and attacking the infiltrated ground targets. the
+main drawback for this type of uavs is that sometimes the object are not
+properly detected, which thereby causes the object to hit the uav. this project
+aims to avoid such unwanted collisions and damages of uav. uav is also used for
+surveillance that uses voila-jones algorithm to detect and track humans. this
+algorithm uses cascade object detector function and vision. train function to
+train the algorithm. the main advantage of this code is the reduced processing
+time. the python code was tested with the help of available database of video
+and image, the output was verified.

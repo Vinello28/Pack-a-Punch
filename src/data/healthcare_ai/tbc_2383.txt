@@ -1,0 +1,19 @@
+'health utilities' measure patient preferences for perfect health compared to
+specific unhealthy states, such as asthma, a fractured hip, or colon cancer.
+when integrated over time, these estimations are called quality adjusted life
+years (qalys). until now, characterizing health utilities (hus) required
+detailed patient interviews or written surveys. while reliable and specific,
+this data remained costly due to efforts to locate, enlist and coordinate
+participants. thus the scope, context and temporality of diseases examined has
+remained limited.
+  now that more than a billion people use social media, we propose a novel
+strategy: use natural language processing to analyze public online
+conversations for signals of the severity of medical conditions and correlate
+these to known hus using machine learning. in this work, we filter a dataset
+that originally contained 2 billion tweets for relevant content on 60 diseases.
+using this data, our algorithm successfully distinguished mild from severe
+diseases, which had previously been categorized only by traditional techniques.
+this represents progress towards two related applications: first, predicting
+hus where such information is nonexistent; and second, (where rich hu data
+already exists) estimating temporal or geographic patterns of disease severity
+through data mining.

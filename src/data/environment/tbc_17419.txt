@@ -1,0 +1,13 @@
+forecasting thermal load is a key component for the majority of optimization
+solutions for controlling district heating and cooling systems. recent studies
+have analysed the results of a number of data-driven methods applied to thermal
+load forecasting, this paper presents the results of combining a collection of
+these individual methods in an expert system. the expert system will combine
+multiple thermal load forecasts in a way that it always tracks the best expert
+in the system. this solution is tested and validated using a thermal load
+dataset of 27 months obtained from 10 residential buildings located in rottne,
+sweden together with outdoor temperature information received from a weather
+forecast service. the expert system is composed of the following data-driven
+methods: linear regression, extremely randomized trees regression, feed-forward
+neural network and support vector machine. the results of the proposed solution
+are compared with the results of the individual methods.

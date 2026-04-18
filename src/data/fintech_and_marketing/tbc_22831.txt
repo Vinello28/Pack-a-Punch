@@ -1,0 +1,14 @@
+the problem of anomaly detection has been studied for a long time. in short,
+anomalies are abnormal or unlikely things. in financial networks, thieves and
+illegal activities are often anomalous in nature. members of a network want to
+detect anomalies as soon as possible to prevent them from harming the network's
+community and integrity. many machine learning techniques have been proposed to
+deal with this problem; some results appear to be quite promising but there is
+no obvious superior method. in this paper, we consider anomaly detection
+particular to the bitcoin transaction network. our goal is to detect which
+users and transactions are the most suspicious; in this case, anomalous
+behavior is a proxy for suspicious behavior. to this end, we use three
+unsupervised learning methods including k-means clustering, mahalanobis
+distance, and unsupervised support vector machine (svm) on two graphs generated
+by the bitcoin transaction network: one graph has users as nodes, and the other
+has transactions as nodes.

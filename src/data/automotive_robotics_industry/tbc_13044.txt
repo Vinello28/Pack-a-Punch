@@ -1,0 +1,14 @@
+we present a novel object detection pipeline for localization and recognition
+in three dimensional environments. our approach makes use of an rgb-d sensor
+and combines state-of-the-art techniques from the robotics and computer vision
+communities to create a robust, real-time detection system. we focus
+specifically on solving the object detection problem for tabletop scenes, a
+common environment for assistive manipulators. our detection pipeline locates
+objects in a point cloud representation of the scene. these clusters are
+subsequently used to compute a bounding box around each object in the rgb
+space. each defined patch is then fed into a convolutional neural network (cnn)
+for object recognition. we also demonstrate that our region proposal method can
+be used to develop novel datasets that are both large and diverse enough to
+train deep learning models, and easy enough to collect that end-users can
+develop their own datasets. lastly, we validate the resulting system through an
+extensive analysis of the accuracy and run-time of the full pipeline.

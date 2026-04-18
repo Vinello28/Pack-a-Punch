@@ -1,0 +1,15 @@
+ant colony system (acs) is a promising approach which has been widely used in
+problems such as travelling salesman problems (tsp), job shop scheduling
+problems (jsp) and quadratic assignment problems (qap). in its original
+implementation, parameters of the algorithm were selected by trial and error
+approach. over the last few years, novel approaches have been proposed on
+adapting the parameters of acs in improving its performance. the aim of this
+paper is to use a framework introduced for self-tuning optimization algorithms
+combined with the firefly algorithm (fa) to tune the parameters of the acs
+solving symmetric tsp problems. the fa optimizes the problem specific
+parameters of acs while the parameters of the fa are tuned by the selected
+framework itself. with this approach, the user neither has to work with the
+parameters of acs nor the parameters of fa. using common symmetric tsp problems
+we demonstrate that the framework fits well for the acs. a detailed statistical
+analysis further verifies the goodness of the new acs over the existing acs and
+also of the other techniques used to tune the parameters of acs.

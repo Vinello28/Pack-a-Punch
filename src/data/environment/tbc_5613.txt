@@ -1,0 +1,18 @@
+craters are among the most studied geomorphic features in the solar system
+because they yield important information about the past and present geological
+processes and provide information about the relative ages of observed geologic
+formations. we present a method for automatic crater detection using advanced
+machine learning to deal with the large amount of satellite imagery collected.
+the challenge of automatically detecting craters comes from their is complex
+surface because their shape erodes over time to blend into the surface.
+bandeira provided a seminal dataset that embodied this challenge that is still
+an unsolved pattern recognition problem to this day. there has been work to
+solve this challenge based on extracting shape and contrast features and then
+applying classification models on those features. the limiting factor in this
+existing work is the use of hand crafted filters on the image such as gabor or
+sobel filters or haar features. these hand crafted methods rely on domain
+knowledge to construct. we would like to learn the optimal filters and features
+based on training examples. in order to dynamically learn filters and features
+we look to convolutional neural networks (cnns) which have shown their
+dominance in computer vision. the power of cnns is that they can learn image
+filters which generate features for high accuracy classification.

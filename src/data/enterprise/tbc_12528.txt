@@ -1,0 +1,1 @@
+applications involving machine learning in human resources (hr, the management of human talent in order to accomplish organizational goals) must respect the privacy of the individuals whose data is being used. this is a difficult aim, given the extremely personal nature of text data handled by hr departments, such as curricula vitae (cvs).

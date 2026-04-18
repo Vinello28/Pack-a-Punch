@@ -1,0 +1,12 @@
+heart rate variability studies depend on the robust calculation of the
+tachogram, the heart rate times series, usually by the detection of r peaks in
+the electrocardiogram (ecg). ecgs however are subject to a number of sources of
+noise which are difficult to filter and therefore reduce the tachogram
+accuracy. we describe a pipeline for fast calculation of tachograms from noisy
+ecgs of several hours' length. the pipeline consists of three stages. a neural
+network (nn) trained to detect r peaks and distinguish these from noise; a
+measure to robustly detect false positives (fps) and negatives (fns) produced
+by the nn; a simple "alarm" algorithm for automatically removing fps and
+interpolating fns. in addition, we introduce the approach of encoding ecgs,
+tachograms and other cardiac time series in the form of raster images, which
+greatly speeds and eases their visual inspection and analysis.

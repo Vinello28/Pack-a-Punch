@@ -1,0 +1,20 @@
+we propose a novel traffic sign detection system that simultaneously
+estimates the location and precise boundary of traffic signs using
+convolutional neural network (cnn). estimating the precise boundary of traffic
+signs is important in navigation systems for intelligent vehicles where traffic
+signs can be used as 3d landmarks for road environment. previous traffic sign
+detection systems, including recent methods based on cnn, only provide bounding
+boxes of traffic signs as output, and thus requires additional processes such
+as contour estimation or image segmentation to obtain the precise sign
+boundary. in this work, the boundary estimation of traffic signs is formulated
+as a 2d pose and shape class prediction problem, and this is effectively solved
+by a single cnn. with the predicted 2d pose and the shape class of a target
+traffic sign in an input image, we estimate the actual boundary of the target
+sign by projecting the boundary of a corresponding template sign image into the
+input image plane. by formulating the boundary estimation problem as a
+cnn-based pose and shape prediction task, our method is end-to-end trainable,
+and more robust to occlusion and small targets than other boundary estimation
+methods that rely on contour estimation or image segmentation. the proposed
+method with architectural optimization provides an accurate traffic sign
+boundary estimation which is also efficient in compute, showing a detection
+frame rate higher than 7 frames per second on low-power mobile platforms.

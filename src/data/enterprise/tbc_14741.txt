@@ -1,0 +1,20 @@
+we address the problem of assisting human dispatchers in operating power
+grids in today's changing context using machine learning, with theaim of
+increasing security and reducing costs. power networks are highly regulated
+systems, which at all times must meet varying demands of electricity with a
+complex production system, including conventional power plants, less
+predictable renewable energies (such as wind or solar power), and the
+possibility of buying/selling electricity on the international market with more
+and more actors involved at a europeanscale. this problem is becoming ever more
+challenging in an aging network infrastructure. one of the primary goals of
+dispatchers is to protect equipment (e.g. avoid that transmission lines
+overheat) with few degrees of freedom: we are considering in this paper solely
+modifications in network topology, i.e. re-configuring the way in which lines,
+transformers, productions and loads are connected in sub-stations. using years
+of historical data collected by the french transmission service operator (tso)
+"r\'eseau de transport d'electricit\'e" (rte), we develop novel machine
+learning techniques (drawing on "deep learning") to mimic human decisions to
+devise "remedial actions" to prevent any line to violate power flow limits
+(so-called "thermal limits"). the proposed technique is hybrid. it does not
+rely purely on machine learning: every action will be tested with actual
+simulators before being proposed to the dispatchers or implemented on the grid.

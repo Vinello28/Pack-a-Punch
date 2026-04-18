@@ -1,0 +1,12 @@
+this work examines the role of reinforcement learning in reducing the
+severity of on-road collisions by controlling velocity and steering in
+situations in which contact is imminent. we construct a model, given camera
+images as input, that is capable of learning and predicting the dynamics of
+obstacles, cars and pedestrians, and train our policy using this model. two
+policies that control both braking and steering are compared against a baseline
+where the only action taken is (conventional) braking in a straight line. the
+two policies are trained using two distinct reward structures, one where any
+and all collisions incur a fixed penalty, and a second one where the penalty is
+calculated based on already established delta-v models of injury severity. the
+results show that both policies exceed the performance of the baseline, with
+the policy trained using injury models having the highest performance.

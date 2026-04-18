@@ -1,0 +1,14 @@
+unmanned aerial vehicles (uavs) offer new opportunities for wildlife
+monitoring, with several advantages over traditional field-based methods. they
+have readily been used to count birds, marine mammals and large herbivores in
+different environments, tasks which are routinely performed through manual
+counting in large collections of images. in this paper, we propose a
+semi-automatic system able to detect large mammals in semi-arid savanna. it
+relies on an animal-detection system based on machine learning, trained with
+crowd-sourced annotations provided by volunteers who manually interpreted
+sub-decimeter resolution color images. the system achieves a high recall rate
+and a human operator can then eliminate false detections with limited effort.
+our system provides good perspectives for the development of data-driven
+management practices in wildlife conservation. it shows that the detection of
+large mammals in semi-arid savanna can be approached by processing data
+provided by standard rgb cameras mounted on affordable fixed wings uavs.

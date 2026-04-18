@@ -1,1 +1,0 @@
-Attività di R&S volte alla progettazione e implementazione di strumenti software Model-Driven Engineering (MDE) che contribuiranno anche alla sicurezza e alla sicurezza nei domini mission-critical che includono componenti IoT e software basato sull'AI

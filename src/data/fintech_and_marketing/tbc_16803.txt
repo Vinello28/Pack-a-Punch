@@ -1,0 +1,8 @@
+financial institutions have to screen their transactions to ensure that they
+are not affiliated with terrorism entities. developing appropriate solutions to
+detect such affiliations precisely while avoiding any kind of interruption to
+large amount of legitimate transactions is essential. in this paper, we present
+building blocks of a scalable solution that may help financial institutions to
+build their own software to extract terrorism entities out of both structured
+and unstructured financial messages in real time and with approximate
+similarity matching approach.

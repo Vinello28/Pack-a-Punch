@@ -1,0 +1,11 @@
+we develop a method for the automated detection and segmentation of speech
+balloons in comic books, including their carrier and tails. our method is based
+on a deep convolutional neural network that was trained on annotated pages of
+the graphic narrative corpus. more precisely, we are using a fully
+convolutional network approach inspired by the u-net architecture, combined
+with a vgg-16 based encoder. the trained model delivers state-of-the-art
+performance with an f1-score of over 0.94. qualitative results suggest that
+wiggly tails, curved corners, and even illusory contours do not pose a major
+problem. furthermore, the model has learned to distinguish speech balloons from
+captions. we compare our model to earlier results and discuss some possible
+applications.

@@ -1,0 +1,7 @@
+the annotation of image and video data of large datasets is a fundamental
+task in multimedia information retrieval and computer vision applications. in
+order to support the users during the image and video annotation process,
+several software tools have been developed to provide them with a graphical
+environment which helps drawing object contours, handling tracking information
+and specifying object metadata. here we introduce a preliminary version of the
+image annotation tools developed at the imaging and vision laboratory.

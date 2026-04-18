@@ -1,0 +1,8 @@
+this paper shows how graph neural networks can be used for learning
+distributed coordination mechanisms in connected teams of robots. we capture
+the relational aspect of robot coordination by modeling the robot team as a
+graph, where each robot is a node, and edges represent communication links.
+during training, robots learn how to pass messages and update internal states,
+so that a target behavior is reached. as a proxy for more complex problems,
+this short paper considers the problem where each robot must locally estimate
+the algebraic connectivity of the team's network topology.

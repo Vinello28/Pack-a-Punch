@@ -1,0 +1,17 @@
+robotic code needs to be verified to ensure its safety and functional
+correctness, especially when the robot is interacting with people. testing real
+code in simulation is a viable option. however, generating tests that cover
+rare scenarios, as well as exercising most of the code, is a challenge
+amplified by the complexity of the interactions between the environment and the
+software. model-based test generation methods can automate otherwise manual
+processes and facilitate reaching rare scenarios during testing. in this paper,
+we compare using belief-desire-intention (bdi) agents as models for test
+generation with more conventional automata-based techniques that exploit model
+checking, in terms of practicality, performance, transferability to different
+scenarios, and exploration (`coverage'), through two case studies: a
+cooperative manufacturing task, and a home care scenario. the results highlight
+the advantages of using bdi agents for test generation. bdi agents naturally
+emulate the agency present in human-robot interactions (hris), and are thus
+more expressive than automata. the performance of the bdi-based test generation
+is at least as high, and the achieved coverage is higher or equivalent,
+compared to test generation based on model checking automata.

@@ -1,0 +1,10 @@
+we analyze expenditure patterns of discretionary funds by brazilian congress
+members. this analysis is based on a large dataset containing over $7$ million
+expenses made publicly available by the brazilian government. this dataset has,
+up to now, remained widely untouched by machine learning methods. our main
+contributions are two-fold: (i) we provide a novel dataset benchmark for
+machine learning-based efforts for government transparency to the broader
+research community, and (ii) introduce a neural network-based approach for
+analyzing and visualizing outlying expense patterns. our hope is that the
+approach presented here can inspire new machine learning methodologies for
+government transparency applicable to other developing nations.

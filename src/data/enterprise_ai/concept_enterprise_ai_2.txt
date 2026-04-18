@@ -1,1 +1,0 @@
-Il process mining utilizza algoritmi di data mining per analizzare i log dei sistemi informativi aziendali e scoprire, monitorare e migliorare i processi reali dell'organizzazione.

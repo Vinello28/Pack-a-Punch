@@ -1,0 +1,12 @@
+distracted driving is deadly, claiming 3,477 lives in the u.s. in 2015 alone.
+although there has been a considerable amount of research on modeling the
+distracted behavior of drivers under various conditions, accurate automatic
+detection using multiple modalities and especially the contribution of using
+the speech modality to improve accuracy has received little attention. this
+paper introduces a new multimodal dataset for distracted driving behavior and
+discusses automatic distraction detection using features from three modalities:
+facial expression, speech and car signals. detailed multimodal feature analysis
+shows that adding more modalities monotonically increases the predictive
+accuracy of the model. finally, a simple and effective multimodal fusion
+technique using a polynomial fusion layer shows superior distraction detection
+results compared to the baseline svm and neural network models.

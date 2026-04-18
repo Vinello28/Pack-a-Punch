@@ -1,0 +1,4 @@
+this project applies mask r-cnn method to isic 2018 challenge tasks: lesion
+boundary segmentation (task1), lesion attributes detection (task 2), lesion
+diagnosis (task 3), a solution to the latter is using a trained model for task
+1 and a simple voting procedure.

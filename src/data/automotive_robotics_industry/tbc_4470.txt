@@ -1,0 +1,18 @@
+natural human-robot interaction in complex and unpredictable environments is
+one of the main research lines in robotics. in typical real-world scenarios,
+humans are at some distance from the robot and the acquired signals are
+strongly impaired by noise, reverberations and other interfering sources. in
+this context, the detection and localisation of speakers plays a key role since
+it is the pillar on which several tasks (e.g.: speech recognition and speaker
+tracking) rely. we address the problem of how to detect and localize people
+that are both seen and heard by a humanoid robot. we introduce a hybrid
+deterministic/probabilistic model. indeed, the deterministic component allows
+us to map the visual information into the auditory space. by means of the
+probabilistic component, the visual features guide the grouping of the auditory
+features in order to form av objects. the proposed model and the associated
+algorithm are implemented in real-time (17 fps) using a stereoscopic camera
+pair and two microphones embedded into the head of the humanoid robot nao. we
+performed experiments on (i) synthetic data, (ii) a publicly available data set
+and (iii) data acquired using the robot. the results we obtained validate the
+approach and encourage us to further investigate how vision can help robot
+hearing.

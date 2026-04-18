@@ -1,0 +1,13 @@
+in this paper, a neural network-based stock price prediction and trading
+system using technical analysis indicators is presented. the model developed
+first converts the financial time series data into a series of buy-sell-hold
+trigger signals using the most commonly preferred technical analysis
+indicators. then, a multilayer perceptron (mlp) artificial neural network (ann)
+model is trained in the learning stage on the daily stock prices between 1997
+and 2007 for all of the dow30 stocks. apache spark big data framework is used
+in the training stage. the trained model is then tested with data from 2007 to
+2017. the results indicate that by choosing the most appropriate technical
+indicators, the neural network model can achieve comparable results against the
+buy and hold strategy in most of the cases. furthermore, fine tuning the
+technical indicators and/or optimization strategy can enhance the overall
+trading performance.

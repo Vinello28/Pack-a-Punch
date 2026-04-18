@@ -1,0 +1,9 @@
+we illustrate that the electrification of our transport system might impose
+unnecessary extra congestion and delay for daily commuting passengers. by
+modelling travel behaviors of these passengers, it is found that more of them
+tend to depart at a narrower peak-hour time window. the occurrence of this
+shift is mainly caused by (1) the energy consumption of electric vehicles (evs)
+is much lower than that of traditional vehicles and (2) the energy consumption
+of evs is less sensitive to congestion than that of traditional vehicles. we
+further examine the role of congestion toll in minimizing the extra congestion
+and delay.

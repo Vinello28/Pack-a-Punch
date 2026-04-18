@@ -1,0 +1,16 @@
+for many applications in low-power real-time robotics, stereo cameras are the
+sensors of choice for depth perception as they are typically cheaper and more
+versatile than their active counterparts. their biggest drawback, however, is
+that they do not directly sense depth maps; instead, these must be estimated
+through data-intensive processes. therefore, appropriate algorithm selection
+plays an important role in achieving the desired performance characteristics.
+  motivated by applications in space and mobile robotics, we implement and
+evaluate a fpga-accelerated adaptation of the elas algorithm. despite offering
+one of the best trade-offs between efficiency and accuracy, elas has only been
+shown to run at 1.5-3 fps on a high-end cpu. our system preserves all
+intriguing properties of the original algorithm, such as the slanted plane
+priors, but can achieve a frame rate of 47fps whilst consuming under 4w of
+power. unlike previous fpga based designs, we take advantage of both components
+on the cpu/fpga system-on-chip to showcase the strategy necessary to accelerate
+more complex and computationally diverse algorithms for such low power,
+real-time systems.

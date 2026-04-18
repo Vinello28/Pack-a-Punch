@@ -1,0 +1,19 @@
+attack graphs provide compact representations of the attack paths that an
+attacker can follow to compromise network resources by analysing network
+vulnerabilities and topology. these representations are a powerful tool for
+security risk assessment. bayesian inference on attack graphs enables the
+estimation of the risk of compromise to the system's components given their
+vulnerabilities and interconnections, and accounts for multi-step attacks
+spreading through the system. whilst static analysis considers the risk posture
+at rest, dynamic analysis also accounts for evidence of compromise, e.g. from
+siem software or forensic investigation. however, in this context, exact
+bayesian inference techniques do not scale well. in this paper we show how
+loopy belief propagation - an approximate inference technique - can be applied
+to attack graphs, and that it scales linearly in the number of nodes for both
+static and dynamic analysis, making such analyses viable for larger networks.
+we experiment with different topologies and network clustering on synthetic
+bayesian attack graphs with thousands of nodes to show that the algorithm's
+accuracy is acceptable and converge to a stable solution. we compare sequential
+and parallel versions of loopy belief propagation with exact inference
+techniques for both static and dynamic analysis, showing the advantages of
+approximate inference techniques to scale to larger attack graphs.

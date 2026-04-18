@@ -1,0 +1,13 @@
+localization in challenging, natural environments such as forests or
+woodlands is an important capability for many applications from guiding a robot
+navigating along a forest trail to monitoring vegetation growth with handheld
+sensors. in this work we explore laser-based localization in both urban and
+natural environments, which is suitable for online applications. we propose a
+deep learning approach capable of learning meaningful descriptors directly from
+3d point clouds by comparing triplets (anchor, positive and negative examples).
+the approach learns a feature space representation for a set of segmented point
+clouds that are matched between a current and previous observations. our
+learning method is tailored towards loop closure detection resulting in a small
+model which can be deployed using only a cpu. the proposed learning method
+would allow the full pipeline to run on robots with limited computational
+payload such as drones, quadrupeds or ugvs.

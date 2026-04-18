@@ -1,0 +1,16 @@
+deep neural networks have achieved promising results in stock
+trend prediction. however, most of these models have two common
+drawbacks, including (i) current methods are not sensitive enough
+to abrupt changes of stock trend, and (ii) forecasting results are
+not interpretable for humans. to address these two problems, we
+propose a novel knowledge-driven temporal convolutional network (kdtcn) for stock trend prediction and explanation. firstly,
+we extract structured events from financial news, and utilize external knowledge from knowledge graph to obtain event embeddings.
+then, we combine event embeddings and price values together to
+forecast stock trend. we evaluate the prediction accuracy to show
+how knowledge-driven events work on abrupt changes. we also
+visualize the effect of events and linkage among events based on
+knowledge graph, to explain why knowledge-driven events are
+common sources of abrupt changes. experiments demonstrate that
+kdtcn can (i) react to abrupt changes much faster and outperform
+state-of-the-art methods on stock datasets, as well as (ii) facilitate
+the explanation of prediction particularly with abrupt changes.

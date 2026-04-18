@@ -1,0 +1,14 @@
+we propose a 3d object detection method for autonomous driving by fully
+exploiting the sparse and dense, semantic and geometry information in stereo
+imagery. our method, called stereo r-cnn, extends faster r-cnn for stereo
+inputs to simultaneously detect and associate object in left and right images.
+we add extra branches after stereo region proposal network (rpn) to predict
+sparse keypoints, viewpoints, and object dimensions, which are combined with 2d
+left-right boxes to calculate a coarse 3d object bounding box. we then recover
+the accurate 3d bounding box by a region-based photometric alignment using left
+and right rois. our method does not require depth input and 3d position
+supervision, however, outperforms all existing fully supervised image-based
+methods. experiments on the challenging kitti dataset show that our method
+outperforms the state-of-the-art stereo-based method by around 30% ap on both
+3d detection and 3d localization tasks. code has been released at
+https://github.com/hkust-aerial-robotics/stereo-rcnn.

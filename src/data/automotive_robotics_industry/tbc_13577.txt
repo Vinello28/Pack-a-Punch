@@ -1,0 +1,19 @@
+to decommission deactivated gaseous diffusion enrichment facilities, miles of
+contaminated pipe must be measured. the current method requires thousands of
+manual measurements, repeated manual data transcription, and months of manual
+analysis. the pipe crawling activity measurement system (pcams), developed by
+carnegie mellon university and in commissioning for use at the doe portsmouth
+gaseous diffusion enrichment facility, uses a robot to measure uranium-235 from
+inside pipes and automatically log the data. radiation measurements, as well as
+imagery, geometric modeling, and precise measurement positioning data are
+digitally transferred to the pcams server. on the server, data can be
+automatically processed in minutes and summarized for analyst review.
+measurement reports are auto-generated with the push of a button. a database
+specially-configured to hold heterogeneous data such as spectra, images, and
+robot trajectories serves as archive. this paper outlines the features and
+design of the pcams post-processing software, currently in commissioning for
+use at the portsmouth gaseous diffusion enrichment facility. the analysis
+process, the analyst interface to the system, and the content of auto-generated
+reports are each described. example pipe-interior geometric surface models,
+illustration of how key report features apply in operational runs, and user
+feedback are discussed.

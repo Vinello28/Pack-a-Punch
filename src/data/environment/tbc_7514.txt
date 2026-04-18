@@ -1,0 +1,11 @@
+the production of thematic maps depicting land cover is one of the most
+common applications of remote sensing. to this end, several semantic
+segmentation approaches, based on deep learning, have been proposed in the
+literature, but land cover segmentation is still considered an open problem due
+to some specific problems related to remote sensing imaging. in this paper we
+propose a novel approach to deal with the problem of modelling multiscale
+contexts surrounding pixels of different land cover categories. the approach
+leverages the computation of a heteroscedastic measure of uncertainty when
+classifying individual pixels in an image. this classification uncertainty
+measure is used to define a set of memory gates between layers that allow a
+principled method to select the optimal decision for each pixel.

@@ -1,0 +1,12 @@
+we present a generative approach to classify scarcely observed longitudinal
+patient trajectories. the available time series are represented as tensors and
+factorized using generative deep recurrent neural networks. the learned factors
+represent the patient data in a compact way and can then be used in a
+downstream classification task. for more robustness and accuracy in the
+predictions, we used an ensemble of those deep generative models to mimic
+bayesian posterior sampling. we illustrate the performance of our architecture
+on an intensive-care case study of in-hospital mortality prediction with 96
+longitudinal measurement types measured across the first 48-hour from
+admission. our combination of generative and ensemble strategies achieves an
+auc of over 0.85, and outperforms the saps-ii mortality score and gru
+baselines.

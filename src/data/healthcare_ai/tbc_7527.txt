@@ -1,0 +1,15 @@
+segmentation of 3d images is a fundamental problem in biomedical image
+analysis. deep learning (dl) approaches have achieved state-of-the-art
+segmentation perfor- mance. to exploit the 3d contexts using neural networks,
+known dl segmentation methods, including 3d convolution, 2d convolution on
+planes orthogonal to 2d image slices, and lstm in multiple directions, all
+suffer incompatibility with the highly anisotropic dimensions in common 3d
+biomedical images. in this paper, we propose a new dl framework for 3d image
+segmentation, based on a com- bination of a fully convolutional network (fcn)
+and a recurrent neural network (rnn), which are responsible for exploiting the
+intra-slice and inter-slice contexts, respectively. to our best knowledge, this
+is the first dl framework for 3d image segmentation that explicitly leverages
+3d image anisotropism. evaluating using a dataset from the isbi neuronal
+structure segmentation challenge and in-house image stacks for 3d fungus
+segmentation, our approach achieves promising results comparing to the known
+dl-based 3d segmentation approaches.

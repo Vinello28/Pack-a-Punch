@@ -1,0 +1,15 @@
+chest radiography or called chest x-ray(cxr) is common and one of the most cost-effective diagnostic
+procedures done in medical facilities. interpretation of the chest x-ray is important in the diagnosis and
+detection of diseases such as pneumonia, pneumothorax, interstitial lung disease, heart failure, bone
+fracture, tuberculosis, pneumoconiosis, covid-19, and even early lung cancer, as it contains a lot of
+information about the patient's medical condition. in practice, radiologists or consultants review these
+images and diagnose diseases, but this process can lead to misdiagnoses due to human error and
+expertise. also, interpretation takes time. assistive systems can be developed to reduce the impact of
+events that challenge health systems, such as the covid-19 pandemic, to alleviate the workload and to
+reduce human error. for this purpose, chest x-ray images of a total of 336, covid-19, infiltrative and
+healthy patients collected from derince education and research hospital were collected. in this study,
+experiments were conducted to classify these images with convolutional neural networks. our cnn
+network with residual blocks and cnn with resnet backbone by transfer learning were compared. as
+a result, the cnn model achieved 86.76% accuracy on test data, and (k=5) k-fold cross-validation
+84.84% accuracy. the cnn with resnet backbone by transfer learning achieved 89.71% accuracy on
+test data, and (k=5) k-fold cross-validation 84.23% accuracy.

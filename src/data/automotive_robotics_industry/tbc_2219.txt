@@ -1,0 +1,20 @@
+due to the increasing market share of electric vehicles (evs), the optimal
+thermal management (tm) of batteries has recently received significant
+attention. optimal battery temperature control is challenging, requiring a
+detailed model and numerous parameters of the tm system, which includes fans,
+pumps, compressors, and heat exchangers. this paper proposes a supervised
+learning strategy for the optimal operation of the tm system in an ev.
+specifically, for tm subsystems, individual artificial neural networks (anns)
+are implemented and trained with data obtained under normal ev driving
+conditions. the anns are then interconnected based on the physical
+configuration of the tm system. the trained anns are replicated using piecewise
+linear equations, which can be explicitly integrated into an optimization
+problem for optimal tm scheduling. this approach enables the application of a
+mixed-integer linear programming solver to the problem, ensuring the global
+optimality of the solution. simulation case studies are performed for the two
+operating modes of the tm system: i.e., integrated and separate modes. the case
+study results demonstrate that the ann-based model successfully reflects the
+operating characteristics of the tm system, enabling accurate battery
+temperature estimation. the proposed optimal tm strategy using the ann-based
+model is verified to be effective in reducing the total energy consumption,
+while maintaining the battery temperature within an acceptable range.

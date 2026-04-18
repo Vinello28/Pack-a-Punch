@@ -1,0 +1,15 @@
+exponential growth in electronic healthcare records (ehr) has resulted in new
+opportunities and urgent needs for discovery of meaningful data-driven
+representations and patterns of diseases in computational phenotyping research.
+deep learning models have shown superior performance for robust prediction in
+computational phenotyping tasks, but suffer from the issue of model
+interpretability which is crucial for clinicians involved in decision-making.
+in this paper, we introduce a novel knowledge-distillation approach called
+interpretable mimic learning, to learn interpretable phenotype features for
+making robust prediction while mimicking the performance of deep learning
+models. our framework uses gradient boosting trees to learn interpretable
+features from deep learning models such as stacked denoising autoencoder and
+long short-term memory. exhaustive experiments on a real-world clinical
+time-series dataset show that our method obtains similar or better performance
+than the deep learning models, and it provides interpretable phenotypes for
+clinical decision making.

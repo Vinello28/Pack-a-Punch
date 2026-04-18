@@ -1,0 +1,15 @@
+we propose a novel unsupervised game-theoretic salient object detection
+algorithm that does not require labeled training data. first, saliency
+detection problem is formulated as a non-cooperative game, hereinafter referred
+to as saliency game, in which image regions are players who choose to be
+"background" or "foreground" as their pure strategies. a payoff function is
+constructed by exploiting multiple cues and combining complementary features.
+saliency maps are generated according to each region's strategy in the nash
+equilibrium of the proposed saliency game. second, we explore the complementary
+relationship between color and deep features and propose an iterative random
+walk algorithm to combine saliency maps produced by the saliency game using
+different features. iterative random walk allows sharing information across
+feature spaces, and detecting objects that are otherwise very hard to detect.
+extensive experiments over 6 challenging datasets demonstrate the superiority
+of our proposed unsupervised algorithm compared to several state of the art
+supervised algorithms.

@@ -1,0 +1,10 @@
+we introduce a new virtual environment for simulating a card game known as
+"big 2". this is a four-player game of imperfect information with a relatively
+complicated action space (being allowed to play 1,2,3,4 or 5 card combinations
+from an initial starting hand of 13 cards). as such it poses a challenge for
+many current reinforcement learning methods. we then use the recently proposed
+"proximal policy optimization" algorithm to train a deep neural network to play
+the game, purely learning via self-play, and find that it is able to reach a
+level which outperforms amateur human players after only a relatively short
+amount of training time and without needing to search a tree of future game
+states.

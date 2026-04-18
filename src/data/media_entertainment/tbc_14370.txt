@@ -1,0 +1,14 @@
+we consider the problem of automatic highlight-detection in video game
+streams. currently, the vast majority of highlight-detection systems for games
+are triggered by the occurrence of hard-coded game events (e.g., score change,
+end-game), while most advanced tools and techniques are based on detection of
+highlights via visual analysis of game footage. we argue that in the context of
+game streaming, events that may constitute highlights are not only dependent on
+game footage, but also on social signals that are conveyed by the streamer
+during the play session (e.g., when interacting with viewers, or when
+commenting and reacting to the game). in this light, we present a multi-view
+unsupervised deep learning methodology for novelty-based highlight detection.
+the method jointly analyses both game footage and social signals such as the
+players facial expressions and speech, and shows promising results for
+generating highlights on streams of popular games such as player unknown's
+battlegrounds.

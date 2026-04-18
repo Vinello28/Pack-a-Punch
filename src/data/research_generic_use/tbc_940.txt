@@ -1,0 +1,15 @@
+the national basketball association(nba) has expanded their data gathering
+and have heavily invested in new technologies to gather advanced performance
+metrics on players. this expanded data set allows analysts to use unique
+performance metrics in models to estimate and classify player performance.
+instead of grouping players together based on physical attributes and positions
+played, analysts can group together players that play similar to each other
+based on these tracked metrics. existing methods for player classification have
+typically used offensive metrics for clustering [1]. there have been attempts
+to classify players using past defensive metrics, but the lack of quality
+metrics has not produced promising results. the classifications presented in
+the paper use newly introduced defensive metrics to find different defensive
+positions for each player. without knowing the number of categories that
+players can be cast into, gaussian mixture models (gmm) can be applied to find
+the optimal number of clusters. in the model presented, five different
+defensive player types can be identified.

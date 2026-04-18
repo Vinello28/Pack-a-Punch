@@ -1,0 +1,14 @@
+human pose forecasting is an important problem in computer vision with
+applications to human-robot interaction, visual surveillance, and autonomous
+driving. usually, forecasting algorithms use 3d skeleton sequences and are
+trained to forecast for a few milliseconds into the future. long-range
+forecasting is challenging due to the difficulty of estimating how long a
+person continues an activity. to this end, our contributions are threefold: (i)
+we propose a generative framework for poses using variational autoencoders
+based on deep markov models (dmms); (ii) we evaluate our pose forecasts using a
+pose-based action classifier, which we argue better reflects the subjective
+quality of pose forecasts than distance in coordinate space; (iii) last, for
+evaluation of the new model, we introduce a 480,000-frame video dataset called
+ikea furniture assembly (ikea fa), which depicts humans repeatedly assembling
+and disassembling furniture. we demonstrate promising results for our approach
+on both ikea fa and the existing ntu rgb+d dataset.

@@ -1,0 +1,18 @@
+the internet of things (iot) and artificial intelligence (ai) have been
+employed in agriculture over a long period of time, alongside other advanced
+computing technologies. however, increased attention is currently being paid to
+the use of such smart technologies. agriculture has provided an important
+source of food for human beings over many thousands of years, including the
+development of appropriate farming methods for different types of crops. the
+emergence of new advanced iot technologies has the potential to monitor the
+agricultural environment to ensure high-quality products. however, there
+remains a lack of research and development in relation to smart sustainable
+agriculture (ssa), accompanied by complex obstacles arising from the
+fragmentation of agricultural processes, i.e. the control and operation of
+iot/ai machines; data sharing and management; interoperability; and large
+amounts of data analysis and storage. this study firstly, explores existing
+iot/ai technologies adopted for ssa and secondly, identifies iot/ai technical
+architecture capable of underpinning the development of ssa platforms. as well
+as contributing to the current body of knowledge, this research reviews
+research and development within ssa and provides an iot/ai architecture to
+establish a smart, sustainable agriculture platform as a solution.

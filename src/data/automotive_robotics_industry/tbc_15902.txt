@@ -1,0 +1,14 @@
+successful human-robot collaboration requires a predictive model of human
+behavior. the robot needs to be able to recognize current goals and actions and
+to predict future activities in a given context. however, the spatio-temporal
+sequence of human actions is difficult to model since latent factors such as
+intention, task, knowledge, intuition and preference determine the action
+choices of each individual. in this work we introduce semi-supervised
+variational recurrent neural networks which are able to a) model temporal
+distributions over latent factors and the observable feature space, b)
+incorporate discrete labels such as activity type when available, and c)
+generate possible future action sequences on both feature and label level. we
+evaluate our model on the cornell activity dataset cad-120 dataset. our model
+outperforms state-of-the-art approaches in both activity and affordance
+detection and anticipation. additionally, we show how samples of possible
+future action sequences are in line with past observations.

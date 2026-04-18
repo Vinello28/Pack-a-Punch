@@ -1,0 +1,10 @@
+in the wake of a polarizing election, the cyber world is laden with hate
+speech. context accompanying a hate speech text is useful for identifying hate
+speech, which however has been largely overlooked in existing datasets and hate
+speech detection models. in this paper, we provide an annotated corpus of hate
+speech with context information well kept. then we propose two types of hate
+speech detection models that incorporate context information, a logistic
+regression model with context features and a neural network model with learning
+components for context. our evaluation shows that both models outperform a
+strong baseline by around 3% to 4% in f1 score and combining these two models
+further improve the performance by another 7% in f1 score.

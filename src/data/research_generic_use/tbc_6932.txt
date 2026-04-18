@@ -1,0 +1,14 @@
+android malware has been on the rise in recent years due to the increasing
+popularity of android and the proliferation of third party application markets.
+emerging android malware families are increasingly adopting sophisticated
+detection avoidance techniques and this calls for more effective approaches for
+android malware detection. hence, in this paper we present and evaluate an
+n-gram opcode features based approach that utilizes machine learning to
+identify and categorize android malware. this approach enables automated
+feature discovery without relying on prior expert or domain knowledge for
+pre-determined features. furthermore, by using a data segmentation technique
+for feature selection, our analysis is able to scale up to 10-gram opcodes. our
+experiments on a dataset of 2520 samples showed an f-measure of 98% using the
+n-gram opcode based approach. we also provide empirical findings that
+illustrate factors that have probable impact on the overall n-gram opcodes
+performance trends.

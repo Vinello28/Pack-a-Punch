@@ -1,0 +1,19 @@
+in this work, motivated by recent manufacturing trends, we investigate
+autonomous robotic assembly. industrial assembly tasks require contact-rich
+manipulation skills, which are challenging to acquire using classical control
+and motion planning approaches. consequently, robot controllers for assembly
+domains are presently engineered to solve a particular task, and cannot easily
+handle variations in the product or environment. reinforcement learning (rl) is
+a promising approach for autonomously acquiring robot skills that involve
+contact-rich dynamics. however, rl relies on random exploration for learning a
+control policy, which requires many robot executions, and often gets trapped in
+locally suboptimal solutions. instead, we posit that prior knowledge, when
+available, can improve rl performance. we exploit the fact that in modern
+assembly domains, geometric information about the task is readily available via
+the cad design files. we propose to leverage this prior knowledge by guiding rl
+along a geometric motion plan, calculated using the cad data. we show that our
+approach effectively improves over traditional control approaches for tracking
+the motion plan, and can solve assembly tasks that require high precision, even
+without accurate state estimation. in addition, we propose a neural network
+architecture that can learn to track the motion plan, and generalize the
+assembly controller to changes in the object positions.

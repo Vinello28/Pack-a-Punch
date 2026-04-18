@@ -1,0 +1,18 @@
+locating vessels during surgery is critical for avoiding inadvertent damage,
+yet vasculature can be difficult to identify. video motion magnification can
+potentially highlight vessels by exaggerating subtle motion embedded within the
+video to become perceivable to the surgeon. in this paper, we explore a
+physiological model of artery distension to extend motion magnification to
+incorporate higher orders of motion, leveraging the difference in acceleration
+over time (jerk) in pulsatile motion to highlight the vascular pulse wave. our
+method is compared to first and second order motion based eulerian video
+magnification algorithms. using data from a surgical video retrieved during a
+robotic prostatectomy, we show that our method can accentuate
+cardio-physiological features and produce a more succinct and clearer video for
+motion magnification, with more similarities in areas without motion to the
+source video at large magnifications. we validate the approach with a structure
+similarity (ssim) and peak signal to noise ratio (psnr) assessment of three
+videos at an increasing working distance, using three different levels of
+optical magnification. spatio-temporal cross sections are presented to show the
+effectiveness of our proposal and video samples are provided to demonstrates
+qualitatively our results.

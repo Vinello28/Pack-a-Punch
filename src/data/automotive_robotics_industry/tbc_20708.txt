@@ -1,0 +1,9 @@
+both humans and the sensors on an autonomous vehicle have limited sensing
+capabilities. when these limitations coincide with scenarios involving
+vulnerable road users, it becomes important to account for these limitations in
+the motion planner. for the scenario of an occluded pedestrian crosswalk, the
+speed of the approaching vehicle should be a function of the amount of
+uncertainty on the roadway. in this work, the longitudinal controller is
+formulated as a partially observable markov decision process and dynamic
+programming is used to compute the control policy. the control policy scales
+the speed profile to be used by a model predictive steering controller.

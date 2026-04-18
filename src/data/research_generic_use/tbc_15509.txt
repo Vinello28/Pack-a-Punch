@@ -1,0 +1,13 @@
+wireless distributed systems as used in sensor networks, internet-of-things
+and cyber-physical systems, impose high requirements on resource efficiency.
+advanced preprocessing and classification of data at the network edge can help
+to decrease the communication demand and to reduce the amount of data to be
+processed centrally. in the area of distributed acoustic sensing, the
+combination of algorithms with a high classification rate and
+resource-constraint embedded systems is essential. unfortunately, algorithms
+for acoustic event detection have a high memory and computational demand and
+are not suited for execution at the network edge. this paper addresses these
+aspects by applying structural optimizations to a convolutional neural network
+for audio event detection to reduce the memory requirement by a factor of more
+than 500 and the computational effort by a factor of 2.1 while performing 9.2%
+better.

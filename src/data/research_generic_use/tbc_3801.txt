@@ -1,0 +1,11 @@
+finite mixture models have become a popular tool for clustering. amongst
+other uses, they have been applied for clustering longitudinal data and
+clustering high-dimensional data. in the latter case, a latent gaussian mixture
+model is sometimes used. although there has been much work on clustering using
+latent variables and on clustering longitudinal data, respectively, there has
+been a paucity of work that combines these features. an approach is developed
+for clustering longitudinal data with many time points based on an extension of
+the mixture of common factor analyzers model. a variation of the
+expectation-maximization algorithm is used for parameter estimation and the
+bayesian information criterion is used for model selection. the approach is
+illustrated using real and simulated data.

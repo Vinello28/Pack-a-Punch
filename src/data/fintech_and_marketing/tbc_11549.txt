@@ -1,0 +1,16 @@
+millions of people use online e-commerce platforms to search and buy
+products. identifying attributes in a query is a critical component in
+connecting users to relevant items. however, in many cases, the queries have
+multiple attributes, and some of them will be in conflict with each other. for
+example, the query "maroon 5 dvds" has two candidate attributes, the color
+"maroon" or the band "maroon 5", where only one of the attributes can be
+present. in this paper, we address the problem of resolving conflicting
+attributes in e-commerce queries. a challenge in this problem is that knowledge
+bases like wikipedia that are used to understand web queries are not focused on
+the e-commerce domain. e-commerce search engines, however, have access to the
+catalog which contains detailed information about the items and its attributes.
+we propose a framework that constructs knowledge graphs from catalog to resolve
+conflicting attributes in e-commerce queries. our experiments on real-world
+queries on e-commerce platforms demonstrate that resolving conflicting
+attributes by leveraging catalog information significantly improves attribute
+identification, and also gives out more relevant search results.

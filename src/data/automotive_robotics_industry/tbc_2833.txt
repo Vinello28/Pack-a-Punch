@@ -1,0 +1,17 @@
+in this paper, we present a new method for detecting road users in an urban
+environment which leads to an improvement in multiple object tracking. our
+method takes as an input a foreground image and improves the object detection
+and segmentation. this new image can be used as an input to trackers that use
+foreground blobs from background subtraction. the first step is to create
+foreground images for all the frames in an urban video. then, starting from the
+original blobs of the foreground image, we merge the blobs that are close to
+one another and that have similar optical flow. the next step is extracting the
+edges of the different objects to detect multiple objects that might be very
+close (and be merged in the same blob) and to adjust the size of the original
+blobs. at the same time, we use the optical flow to detect occlusion of objects
+that are moving in opposite directions. finally, we make a decision on which
+information we keep in order to construct a new foreground image with blobs
+that can be used for tracking. the system is validated on four videos of an
+urban traffic dataset. our method improves the recall and precision metrics for
+the object detection task compared to the vanilla background subtraction method
+and improves the clear mot metrics in the tracking tasks for most videos.

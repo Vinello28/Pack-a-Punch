@@ -1,0 +1,17 @@
+in this paper, we develop a new weakly-supervised learning algorithm to learn
+to segment cancerous regions in histopathology images. our work is under a
+multiple instance learning framework (mil) with a new formulation, deep weak
+supervision (dws); we also propose an effective way to introduce constraints to
+our neural networks to assist the learning process. the contributions of our
+algorithm are threefold: (1) we build an end-to-end learning system that
+segments cancerous regions with fully convolutional networks (fcn) in which
+image-to-image weakly-supervised learning is performed. (2) we develop a deep
+week supervision formulation to exploit multi-scale learning under weak
+supervision within fully convolutional networks. (3) constraints about positive
+instances are introduced in our approach to effectively explore additional
+weakly-supervised information that is easy to obtain and enjoys a significant
+boost to the learning process. the proposed algorithm, abbreviated as dws-mil,
+is easy to implement and can be trained efficiently. our system demonstrates
+state-of-the-art results on large-scale histopathology image datasets and can
+be applied to various applications in medical imaging beyond histopathology
+images such as mri, ct, and ultrasound images.

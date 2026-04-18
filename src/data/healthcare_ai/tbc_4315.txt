@@ -1,1 +1,17 @@
-BM-AI: Interfaccia cervello macchina ad elevata risoluzione basata su algoritmi adattivi AI a supporto dello sviluppo di Digital Twins per lo studio di neuropatologie
+in this paper, we propose an effective electrocardiogram (ecg) arrhythmia
+classification method using a deep two-dimensional convolutional neural network
+(cnn) which recently shows outstanding performance in the field of pattern
+recognition. every ecg beat was transformed into a two-dimensional grayscale
+image as an input data for the cnn classifier. optimization of the proposed cnn
+classifier includes various deep learning techniques such as batch
+normalization, data augmentation, xavier initialization, and dropout. in
+addition, we compared our proposed classifier with two well-known cnn models;
+alexnet and vggnet. ecg recordings from the mit-bih arrhythmia database were
+used for the evaluation of the classifier. as a result, our classifier achieved
+99.05% average accuracy with 97.85% average sensitivity. to precisely validate
+our cnn classifier, 10-fold cross-validation was performed at the evaluation
+which involves every ecg recording as a test data. our experimental results
+have successfully validated that the proposed cnn classifier with the
+transformed ecg images can achieve excellent classification accuracy without
+any manual pre-processing of the ecg signals such as noise filtering, feature
+extraction, and feature reduction.

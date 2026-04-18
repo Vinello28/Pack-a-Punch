@@ -1,0 +1,17 @@
+we propose a new deep learning based approach for camera relocalization. our
+approach localizes a given query image by using a convolutional neural network
+(cnn) for first retrieving similar database images and then predicting the
+relative pose between the query and the database images, whose poses are known.
+the camera location for the query image is obtained via triangulation from two
+relative translation estimates using a ransac based approach. each relative
+pose estimate provides a hypothesis for the camera orientation and they are
+fused in a second ransac scheme. the neural network is trained for relative
+pose estimation in an end-to-end manner using training image pairs. in contrast
+to previous work, our approach does not require scene-specific training of the
+network, which improves scalability, and it can also be applied to scenes which
+are not available during the training of the network. as another main
+contribution, we release a challenging indoor localisation dataset covering 5
+different scenes registered to a common coordinate frame. we evaluate our
+approach using both our own dataset and the standard 7 scenes benchmark. the
+results show that the proposed approach generalizes well to previously unseen
+scenes and compares favourably to other recent cnn-based methods.

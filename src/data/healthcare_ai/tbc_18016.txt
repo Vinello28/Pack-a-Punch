@@ -1,0 +1,15 @@
+falls are serious and costly for elderly people. the centers for disease
+control and prevention of the us reports that millions of older people, 65 and
+older, fall each year at least once. serious injuries such as; hip fractures,
+broken bones or head injury, are caused by 20% of the falls. the time it takes
+to respond and treat a fallen person is crucial. with this paper we present a
+new , non-invasive system for fallen people detection. our approach uses only
+stereo camera data for passively sensing the environment. the key novelty is a
+human fall detector which uses a cnn based human pose estimator in combination
+with stereo data to reconstruct the human pose in 3d and estimate the ground
+plane in 3d. furthermore, our system consists of a reasoning module which
+formulates a number of measures to reason whether a person is fallen. we have
+tested our approach in different scenarios covering most activities elderly
+people might encounter living at home. based on our extensive evaluations, our
+systems shows high accuracy and almost no miss-classification. to reproduce our
+results, the implementation is publicly available to the scientific community.

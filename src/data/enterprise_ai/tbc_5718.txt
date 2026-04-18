@@ -1,1 +1,0 @@
-Il progetto sviluppa un sistema integrato di diagnostica predittiva per infrastrutture ferroviarie  basato su moduli fotonici autonomi a basso consumo. Include sensori in fibra ottica  unità di interrogazione miniaturizzate e algoritmi per manutenzione smart  portando la tecnologia da TRL 3-4 a TRL 7

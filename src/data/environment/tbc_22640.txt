@@ -1,0 +1,18 @@
+as computer vision before, remote sensing has been radically changed by the
+introduction of convolution neural networks. land cover use, object detection
+and scene understanding in aerial images rely more and more on deep learning to
+achieve new state-of-the-art results. recent architectures such as fully
+convolutional networks (long et al., 2015) can even produce pixel level
+annotations for semantic mapping. in this work, we show how to use such deep
+networks to detect, segment and classify different varieties of wheeled
+vehicles in aerial images from the isprs potsdam dataset. this allows us to
+tackle object detection and classification on a complex dataset made up of
+visually similar classes, and to demonstrate the relevance of such a subclass
+modeling approach. especially, we want to show that deep learning is also
+suitable for object-oriented analysis of earth observation data. first, we
+train a fcn variant on the isprs potsdam dataset and show how the learnt
+semantic maps can be used to extract precise segmentation of vehicles, which
+allow us studying the repartition of vehicles in the city. second, we train a
+cnn to perform vehicle classification on the vedai (razakarivony and jurie,
+2016) dataset, and transfer its knowledge to classify candidate segmented
+vehicles on the potsdam dataset.

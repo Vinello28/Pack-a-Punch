@@ -1,0 +1,16 @@
+this paper outlines an agent-based model of a simple financial market in
+which a single asset is available for trade by three different types of
+traders. the model was first introduced in the phd thesis of one of the
+authors, see reference [1]. the simulated log returns are examined for the
+presence of the stylised facts of financial data. the features of
+leptokurtosis, volatility clustering and aggregational gaussianity are
+especially highlighted and studied in detail. the following ingredients are
+found to be essential for the production of these stylised facts: the memory of
+noise traders who make random trade decisions; the inclusion of technical
+traders that trade in line with trends in the price and the inclusion of
+fundamental traders who know the "fundamental value" of the stock and trade
+accordingly. when these three basic types of traders are included log returns
+are produced with a leptokurtic distribution and volatility clustering as well
+as some further statistical features of empirical data. this enhances and
+broadens our understanding of the fundamental processes involved in the
+production of empirical data by the market.

@@ -1,0 +1,1 @@
+in this project, we designed an intelligent assistant player for the single-player game space invaders with the aim to provide a satisfying co-op experience. the agent behaviour was designed using reinforcement learning techniques and evaluated based on several criteria. we validate the hypothesis that an ai-driven computer player can provide a satisfying co-op experience.

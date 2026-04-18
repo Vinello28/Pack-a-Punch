@@ -1,0 +1,25 @@
+the growing rate of public space cctv installations has generated a need for
+automated methods for exploiting video surveillance data including scene
+understanding, query, behaviour annotation and summarization. for this reason,
+extensive research has been performed on surveillance scene understanding and
+analysis. however, most studies have considered single scenes, or groups of
+adjacent scenes. the semantic similarity between different but related scenes
+(e.g., many different traffic scenes of similar layout) is not generally
+exploited to improve any automated surveillance tasks and reduce manual effort.
+exploiting commonality, and sharing any supervised annotations, between
+different scenes is however challenging due to: some scenes are totally
+un-related -- and thus any information sharing between them would be
+detrimental; while others may only share a subset of common activities -- and
+thus information sharing is only useful if it is selective. moreover,
+semantically similar activities which should be modelled together and shared
+across scenes may have quite different pixel-level appearance in each scene. to
+address these issues we develop a new framework for distributed multiple-scene
+global understanding that clusters surveillance scenes by their ability to
+explain each other's behaviours; and further discovers which subset of
+activities are shared versus scene-specific within each cluster. we show how to
+use this structured representation of multiple scenes to improve common
+surveillance tasks including scene activity understanding, cross-scene
+query-by-example, behaviour classification with reduced supervised labelling
+requirements, and video summarization. in each case we demonstrate how our
+multi-scene model improves on a collection of standard single scene models and
+a flat model of all scenes.

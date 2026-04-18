@@ -1,0 +1,14 @@
+neuromorphic computing is a promising solution for reducing the size, weight
+and power of mobile embedded systems. in this paper, we introduce a realization
+of such a system by creating the first closed-loop battery-powered
+communication system between an ibm truenorth ns1e and an autonomous
+android-based robotics platform. using this system, we constructed a dataset of
+path following behavior by manually driving the android-based robot along steep
+mountain trails and recording video frames from the camera mounted on the robot
+along with the corresponding motor commands. we used this dataset to train a
+deep convolutional neural network implemented on the truenorth ns1e. the ns1e,
+which was mounted on the robot and powered by the robot's battery, resulted in
+a self-driving robot that could successfully traverse a steep mountain path in
+real time. to our knowledge, this represents the first time the truenorth ns1e
+neuromorphic chip has been embedded on a mobile platform under closed-loop
+control.

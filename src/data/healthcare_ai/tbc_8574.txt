@@ -1,0 +1,9 @@
+this article suggests an algorithm of formation a training set for artificial
+neural network in case of image segmentation. the distinctive feature of this
+algorithm is that it using only one image for segmentation. the segmentation
+performs using three-layer perceptron. the main method of the segmentation is a
+method of region growing. neural network is using for get a decision to include
+pixel into an area or not. impulse noise is using for generation of a training
+set. pixels damaged by noise are not related to the same region. suggested
+method has been tested with help of computer experiment in automatic and
+interactive modes.

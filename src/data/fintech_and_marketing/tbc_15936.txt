@@ -1,0 +1,9 @@
+aim: this study aimed to develop and apply the novel hexgin (heterogeneous extension for graph isomorphism network) model to the fincen files case data and compare its performance with existing solutions, such as the sage-based graph neural network and multi-layer perceptron (mlp), to demonstrate its potential advantages in the field of anti-money laundering systems (aml).
+
+methodology: the research employed the fincen files case data to develop and apply the hexgin model in a beneficiary prediction task for a suspicious transactions graph. the model's performance was compared with the existing solutions in a series of cross-validation experiments.
+
+results: the experimental results on the cross-validation data and test dataset indicate the potential advantages of hexgin over the existing solutions, such as mlp and graph sage. the proposed model outperformed other algorithms in terms of f1 score, precision, and roc auc in both training and testing phases.
+
+implications and recommendations: the findings demonstrate the potential of heterogeneous graph neural networks and their highly expressive architectures, such as gin, in aml. further research is needed, in particular to combine the proposed model with other existing algorithms and test the solution on various money-laundering datasets.
+
+originality/value: unlike many aml studies that rely on synthetic or undisclosed data sources, this research was based on a publicly available, real, heterogeneous transaction dataset, being part of a larger investigation. the results indicate a promising direction for the development of modern hybrid aml tools for analysing suspicious transactions; based on heterogeneous graph networks capable of handling various types of entities and their connections.

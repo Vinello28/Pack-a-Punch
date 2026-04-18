@@ -1,0 +1,20 @@
+dynamic texture is a field of research that has gained considerable interest
+from computer vision community due to the explosive growth of multimedia
+databases. in addition, dynamic texture is present in a wide range of videos,
+which makes it very important in expert systems based on videos such as medical
+systems, traffic monitoring systems, forest fire detection system, among
+others. in this paper, a new method for dynamic texture characterization based
+on diffusion in directed networks is proposed. the dynamic texture is modeled
+as a directed network. the method consists in the analysis of the dynamic of
+this network after a series of graph cut transformations based on the edge
+weights. for each network transformation, the activity for each vertex is
+estimated. the activity is the relative frequency that one vertex is visited by
+random walks in balance. then, texture descriptor is constructed by
+concatenating the activity histograms. the main contributions of this paper are
+the use of directed network modeling and diffusion in network to dynamic
+texture characterization. these tend to provide better performance in dynamic
+textures classification. experiments with rotation and interference of the
+motion pattern were conducted in order to demonstrate the robustness of the
+method. the proposed approach is compared to other dynamic texture methods on
+two very well know dynamic texture database and on traffic condition
+classification, and outperform in most of the cases.

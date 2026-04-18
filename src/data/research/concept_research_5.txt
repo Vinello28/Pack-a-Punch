@@ -1,1 +1,0 @@
-La data-driven discovery utilizza tecniche di machine learning per identificare pattern nascosti in grandi dataset scientifici, portando a nuove scoperte in astronomia, genomica e scienza dei materiali.

@@ -1,0 +1,14 @@
+cash managers make daily decisions based on predicted monetary inflows from
+debtors and outflows to creditors. usual assumptions on the statistical
+properties of daily net cash flow include normality, absence of correlation and
+stationarity. we provide a comprehensive study based on a real-world cash flow
+data set from small and medium companies, which is the most common type of
+companies in europe. we also propose a new cross-validated test for time-series
+non-linearity showing that: (i) the usual assumption of normality, absence of
+correlation and stationarity hardly appear; (ii) non-linearity is often
+relevant for forecasting; and (iii) typical data transformations have little
+impact on linearity and normality. our results provide a forecasting strategy
+for cash flow management which performs better than classical methods. this
+evidence may lead to consider a more data-driven approach such as time-series
+forecasting in an attempt to provide cash managers with expert systems in cash
+management.

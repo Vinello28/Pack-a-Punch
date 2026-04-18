@@ -1,0 +1,14 @@
+with the emergence of mobile and wearable devices, push notification becomes
+a powerful tool to connect and maintain the relationship with app users, but
+sending inappropriate or too many messages at the wrong time may result in the
+app being removed by the users. in order to maintain the retention rate and the
+delivery rate of advertisement, we adopt deep neural network (dnn) to develop a
+pop-up recommendation system "click sequence-aware deep neural network
+(dnn)-based pop-ups recommendation (c-3po)" enabled by collaborative
+filtering-based hybrid user behavioral analysis. we further verified the system
+with real data collected from the product security master, clean master and cm
+browser, supported by leopard mobile inc. (cheetah mobile taiwan agency). in
+this way, we can know precisely about users' preference and frequency to click
+on the push notification/pop-ups, decrease the troublesome to users
+efficiently, and meanwhile increase the click through rate of push
+notifications/pop-ups.

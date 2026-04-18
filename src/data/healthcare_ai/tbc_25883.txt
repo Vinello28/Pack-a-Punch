@@ -1,0 +1,14 @@
+automated facial expression detection problem pose two primary challenges
+that include variations in expression and facial occlusions (glasses, beard,
+mustache or face covers). in this paper we introduce a novel automated patch
+creation technique that masks a particular region of interest in the face,
+followed by eigen-value decomposition of the patched faces and generation of
+isomaps to detect underlying clustering patterns among faces. the proposed
+masked eigen-face based isomap clustering technique achieves 75% sensitivity
+and 66-73% accuracy in classification of faces with occlusions and smiling
+faces in around 1 second per image. also, betweenness centrality, eigen
+centrality and maximum information flow can be used as network-based measures
+to identify the most significant training faces for expression classification
+tasks. the proposed method can be used in combination with feature-based
+expression classification methods in large data sets for improving expression
+classification accuracies.

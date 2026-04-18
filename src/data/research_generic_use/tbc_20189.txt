@@ -1,0 +1,13 @@
+although end-to-end text-to-speech (tts) models such as tacotron have shown
+excellent results, they typically require a sizable set of high-quality <text,
+audio> pairs for training, which are expensive to collect. in this paper, we
+propose a semi-supervised training framework to improve the data efficiency of
+tacotron. the idea is to allow tacotron to utilize textual and acoustic
+knowledge contained in large, publicly-available text and speech corpora.
+importantly, these external data are unpaired and potentially noisy.
+specifically, first we embed each word in the input text into word vectors and
+condition the tacotron encoder on them. we then use an unpaired speech corpus
+to pre-train the tacotron decoder in the acoustic domain. finally, we fine-tune
+the model using available paired data. we demonstrate that the proposed
+framework enables tacotron to generate intelligible speech using less than half
+an hour of paired training data.

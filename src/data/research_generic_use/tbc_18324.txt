@@ -1,0 +1,16 @@
+with the increasing importance of online communities, discussion forums, and
+customer reviews, internet "trolls" have proliferated thereby making it
+difficult for information seekers to find relevant and correct information. in
+this paper, we consider the problem of detecting and identifying internet
+trolls, almost all of which are human agents. identifying a human agent among a
+human population presents significant challenges compared to detecting
+automated spam or computerized robots. to learn a troll's behavior, we use
+contextual anomaly detection to profile each chat user. using clustering and
+distance-based methods, we use contextual data such as the group's current
+goal, the current time, and the username to classify each point as an anomaly.
+a user whose features significantly differ from the norm will be classified as
+a troll. we collected 38 million data points from the viral internet fad,
+twitch plays pokemon. using clustering and distance-based methods, we develop
+heuristics for identifying trolls. using mapreduce techniques for preprocessing
+and user profiling, we are able to classify trolls based on 10 features
+extracted from a user's lifetime history.

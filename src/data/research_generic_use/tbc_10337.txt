@@ -1,0 +1,17 @@
+in many advanced video based applications background modeling is a
+pre-processing step to eliminate redundant data, for instance in tracking or
+video surveillance applications. over the past years background subtraction is
+usually based on low level or hand-crafted features such as raw color
+components, gradients, or local binary patterns. the background subtraction
+algorithms performance suffer in the presence of various challenges such as
+dynamic backgrounds, photometric variations, camera jitters, and shadows. to
+handle these challenges for the purpose of accurate background modeling we
+propose a unified framework based on the algorithm of image inpainting. it is
+an unsupervised visual feature learning hybrid generative adversarial algorithm
+based on context prediction. we have also presented the solution of random
+region inpainting by the fusion of center region inpaiting and random region
+inpainting with the help of poisson blending technique. furthermore we also
+evaluated foreground object detection with the fusion of our proposed method
+and morphological operations. the comparison of our proposed method with 12
+state-of-the-art methods shows its stability in the application of background
+estimation and foreground detection.

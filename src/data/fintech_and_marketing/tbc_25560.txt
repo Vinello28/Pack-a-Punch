@@ -1,0 +1,19 @@
+a churn prediction system guides telecom service providers to reduce revenue
+loss. however, the development of a churn prediction system for a telecom
+industry is a challenging task, mainly due to the large size of the data, high
+dimensional features, and imbalanced distribution of the data. in this paper,
+we present a solution to the inherent problems of churn prediction, using the
+concept of transfer learning (tl) and ensemble-based meta-classification. the
+proposed method tl-deepe is applied in two stages. the first stage employs tl
+by fine-tuning multiple pre-trained deep convolution neural networks (cnns).
+telecom datasets are normally in vector form, which is converted into 2d images
+because deep cnns have high learning capacity on images. in the second stage,
+predictions from these deep cnns are appended to the original feature vector
+and thus are used to build a final feature vector for the high-level genetic
+programming (gp) and adaboost based ensemble classifier. thus, the experiments
+are conducted using various cnns as base classifiers and the gp-adaboost as a
+meta-classifier. by using 10-fold cross-validation, the performance of the
+proposed tl-deepe system is compared with existing techniques, for two standard
+telecommunication datasets; orange and cell2cell. performing experiments on
+orange and cell2cell datasets, the prediction accuracy obtained was 75.4% and
+68.2%, while the area under the curve was 0.83 and 0.74, respectively.

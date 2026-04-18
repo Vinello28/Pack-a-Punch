@@ -1,0 +1,9 @@
+gold price volatilities have a significant impact on many financial activities of the world. the development of a reliable
+prediction model could offer insights in gold price fluctuations, behavior and dynamics and ultimately could provide the
+opportunity of gaining significant profits. in this work, we propose a new deep learning forecasting model for the accurate
+prediction of gold price and movement. the proposed model exploits the ability of convolutional layers for extracting
+useful knowledge and learning the internal representation of time-series data as well as the effectiveness of long short-term
+memory (lstm) layers for identifying short-term and long-term dependencies. we conducted a series of experiments and
+evaluated the proposed model against state-of-the-art deep learning and machine learning models. the preliminary
+experimental analysis illustrated that the utilization of lstm layers along with additional convolutional layers could
+provide a significant boost in increasing the forecasting performance.

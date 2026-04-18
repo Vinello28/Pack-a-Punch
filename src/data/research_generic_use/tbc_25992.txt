@@ -1,0 +1,21 @@
+video quality assessment (vqa) is a very challenging task due to its highly
+subjective nature. moreover, many factors influence vqa. compression of video
+content, while necessary for minimising transmission and storage requirements,
+introduces distortions which can have detrimental effects on the perceived
+quality. especially when dealing with modern video coding standards, it is
+extremely difficult to model the effects of compression due to the
+unpredictability of encoding on different content types. moreover, transmission
+also introduces delays and other distortion types which affect the perceived
+quality. therefore, it would be highly beneficial to accurately predict the
+perceived quality of video to be distributed over modern content distribution
+platforms, so that specific actions could be undertaken to maximise the quality
+of experience (qoe) of the users. traditional vqa techniques based on feature
+extraction and modelling may not be sufficiently accurate. in this paper, a
+novel deep learning (dl) framework is introduced for effectively predicting vqa
+of video content delivery mechanisms based on end-to-end feature learning. the
+proposed framework is based on convolutional neural networks, taking into
+account compression distortion as well as transmission delays. training and
+evaluation of the proposed framework are performed on a user annotated vqa
+dataset specifically created to undertake this work. the experiments show that
+the proposed methods can lead to high accuracy of the quality estimation,
+showcasing the potential of using dl in complex vqa scenarios.

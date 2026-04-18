@@ -1,0 +1,18 @@
+the aim of this paper is to propose a new approach for the pattern
+recognition of power quality (pq) disturbances based on empirical mode
+decomposition (emd) and $k$ nearest neighbor ($k$-nn) classifier. since emd
+decomposes a signal into intrinsic mode functions (imf) in time-domain with
+same length of the original signal, it preserves the information that is hidden
+in fourier domain or in wavelet coefficients. in this proposed method, power
+signals are decomposed into imfs in emd domain. due to the presence of
+non-linearity and noise on the original signal, it is hard to analyze them by
+second order statistics. thus, an effective feature set is developed
+considering higher order statistics (hos) like variance, skewness, and kurtosis
+from the decomposed first three imfs. this feature vector is fed into different
+classifiers like $k$-nn, probabilistic neural network (pnn), and radial basis
+function (rbf). among all the classifiers, $k$-nn showed higher classification
+accuracy and robustness both in training and testing to detect the pq
+disturbance events. simulation results evaluated that the proposed hos-emd
+based method along with $k$-nn classifier outperformed in terms of
+classification accuracy and computational efficiency in comparison to the other
+state-of-art methods both in clean and noisy environment.

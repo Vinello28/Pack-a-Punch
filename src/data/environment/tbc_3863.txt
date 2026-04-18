@@ -1,0 +1,10 @@
+artificial neural network (ann) based model is a computational approach
+commonly used for modeling the complex relationships between input and output
+parameters. prediction of the flow rate of a river is a requisite for any
+successful water resource management and river basin planning. in the current
+survey, the effectiveness of an artificial neural network was examined to
+predict the colorado river discharge. in this modeling process, an ann model
+was used to relate the discharge of the colorado river to such parameters as
+the amount of precipitation, ambient temperature and snowpack level at a
+specific time of the year. the model was able to precisely study the impact of
+climatic parameters on the flow rate of the colorado river.

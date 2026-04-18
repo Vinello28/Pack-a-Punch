@@ -1,0 +1,1 @@
+this paper is about a multilingual chatbot developed for public administration within the cef funded project enrich4all. we argue for multi-lingual chatbots empowered through mt and discuss the integration of the cef etranslation service in a chatbot solution.

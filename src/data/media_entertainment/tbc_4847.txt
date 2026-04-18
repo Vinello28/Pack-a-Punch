@@ -1,0 +1,21 @@
+interaction in virtual reality (vr) environments is essential to achieve a
+pleasant and immersive experience. most of the currently existing vr
+applications, lack of robust object grasping and manipulation, which are the
+cornerstone of interactive systems. therefore, we propose a realistic, flexible
+and robust grasping system that enables rich and real-time interactions in
+virtual environments. it is visually realistic because it is completely
+user-controlled, flexible because it can be used for different hand
+configurations, and robust because it allows the manipulation of objects
+regardless their geometry, i.e. hand is automatically fitted to the object
+shape. in order to validate our proposal, an exhaustive qualitative and
+quantitative performance analysis has been carried out. on the one hand,
+qualitative evaluation was used in the assessment of the abstract aspects such
+as: hand movement realism, interaction realism and motor control. on the other
+hand, for the quantitative evaluation a novel error metric has been proposed to
+visually analyze the performed grips. this metric is based on the computation
+of the distance from the finger phalanges to the nearest contact point on the
+object surface. these contact points can be used with different application
+purposes, mainly in the field of robotics. as a conclusion, system evaluation
+reports a similar performance between users with previous experience in virtual
+reality applications and inexperienced users, referring to a steep learning
+curve.

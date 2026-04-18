@@ -1,0 +1,17 @@
+wearable and assistive robotics for human grasp support are broadly either
+tele-operated robotic arms or act through orthotic control of a paralyzed
+user's hand. such devices require correct orientation for successful and
+efficient grasping. in many human-robot assistive settings, the end-user is
+required to explicitly control the many degrees of freedom making effective or
+efficient control problematic. here we are demonstrating the off-loading of
+low-level control of assistive robotics and active orthotics, through automatic
+end-effector orientation control for grasping. this paper describes a compact
+algorithm implementing fast computer vision techniques to obtain the
+orientation of the target object to be grasped, by segmenting the images
+acquired with a camera positioned on top of the end-effector of the robotic
+device. the rotation needed that optimises grasping is directly computed from
+the object's orientation. the algorithm has been evaluated in 6 different scene
+backgrounds and end-effector approaches to 26 different objects. 94.8% of the
+objects were detected in all backgrounds. grasping of the object was achieved
+in 91.1% of the cases and has been evaluated with a robot simulator confirming
+the performance of the algorithm.

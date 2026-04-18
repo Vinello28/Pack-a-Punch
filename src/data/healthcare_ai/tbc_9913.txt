@@ -1,0 +1,12 @@
+the automatic assessment of hippocampus volume is an important tool in the
+study of several neurodegenerative diseases such as alzheimer's disease.
+specifically, the measurement of hippocampus subfields properties is of great
+interest since it can show earlier pathological changes in the brain. however,
+segmentation of these subfields is very difficult due to their complex
+structure and for the need of high-resolution magnetic resonance images
+manually labeled. in this work, we present a novel pipeline for automatic
+hippocampus subfield segmentation based on a deeply supervised convolutional
+neural network. results of the proposed method are shown for two available
+hippocampus subfield delineation protocols. the method has been compared to
+other state-of-the-art methods showing improved results in terms of accuracy
+and execution time.

@@ -1,0 +1,12 @@
+we advance the state of the art in polyphonic piano music transcription by
+using a deep convolutional and recurrent neural network which is trained to
+jointly predict onsets and frames. our model predicts pitch onset events and
+then uses those predictions to condition framewise pitch predictions. during
+inference, we restrict the predictions from the framewise detector by not
+allowing a new note to start unless the onset detector also agrees that an
+onset for that pitch is present in the frame. we focus on improving onsets and
+offsets together instead of either in isolation as we believe this correlates
+better with human musical perception. our approach results in over a 100%
+relative improvement in note f1 score (with offsets) on the maps dataset.
+furthermore, we extend the model to predict relative velocities of normalized
+audio which results in more natural-sounding transcriptions.

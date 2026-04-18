@@ -1,0 +1,13 @@
+data-target association is an important step in multi-target localization for
+the intelligent operation of un- manned systems in numerous applications such
+as search and rescue, traffic management and surveillance. the objective of
+this paper is to present an innovative data association learning approach named
+multi-layer k-means (mlkm) based on leveraging the advantages of some existing
+machine learning approaches, including k-means, k-means++, and deep neural
+networks. to enable the accurate data association from different sensors for
+efficient target localization, mlkm relies on the clustering capabilities of
+k-means++ structured in a multi-layer framework with the error correction
+feature that is motivated by the backpropogation that is well-known in deep
+learning research. to show the effectiveness of the mlkm method, numerous
+simulation examples are conducted to compare its performance with k-means,
+k-means++, and deep neural networks.

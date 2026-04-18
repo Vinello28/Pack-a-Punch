@@ -1,0 +1,19 @@
+unsupervised object modeling is important in robotics, especially for
+handling a large set of objects. we present a method for unsupervised 3d object
+discovery, reconstruction, and localization that exploits multiple instances of
+an identical object contained in a single rgb-d image. the proposed method does
+not rely on segmentation, scene knowledge, or user input, and thus is easily
+scalable. our method aims to find recurrent patterns in a single rgb-d image by
+utilizing appearance and geometry of the salient regions. we extract keypoints
+and match them in pairs based on their descriptors. we then generate triplets
+of the keypoints matching with each other using several geometric criteria to
+minimize false matches. the relative poses of the matched triplets are computed
+and clustered to discover sets of triplet pairs with similar relative poses.
+triplets belonging to the same set are likely to belong to the same object and
+are used to construct an initial object model. detection of remaining instances
+with the initial object model using ransac allows to further expand and refine
+the model. the automatically generated object models are both compact and
+descriptive. we show quantitative and qualitative results on rgb-d images with
+various objects including some from the amazon picking challenge. we also
+demonstrate the use of our method in an object picking scenario with a robotic
+arm.

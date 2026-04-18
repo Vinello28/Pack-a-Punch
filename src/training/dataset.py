@@ -4,7 +4,7 @@ Dataset loading utilities for text classification.
 Supports:
 1. TXT files organized in label directories (one subdirectory per class)
 2. JSONL files with {"text": "...", "label": 0|1|...} format
-3. CSV files with "Descrizione" and "Label" columns
+3. CSV files with "description" (or legacy "Descrizione") and "Label" columns
 """
 
 import csv
@@ -204,7 +204,8 @@ def load_dataset_from_csv(
     file_path: Path,
 ) -> tuple[list[str], list[int]]:
     """
-    Load dataset from a CSV file with "Descrizione" and "Label" columns.
+    Load dataset from a CSV file with "description" (or legacy "Descrizione")
+    and "Label" columns.
 
     Rows whose label does not match any entry in settings.model.label_map
     are skipped with a warning (handles malformed/noisy rows).
@@ -225,8 +226,9 @@ def load_dataset_from_csv(
 
     with open(file_path, "r", encoding="utf-8") as f:
         reader = csv.DictReader(f)
+        text_col = "description" if reader.fieldnames and "description" in reader.fieldnames else "Descrizione"
         for row_num, row in enumerate(reader, 2):  # row 1 is header
-            text = (row.get("Descrizione") or "").strip()
+            text = (row.get(text_col) or "").strip()
             label_str = (row.get("Label") or "").strip()
 
             if not text:

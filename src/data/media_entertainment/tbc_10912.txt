@@ -1,0 +1,14 @@
+understanding fashion images has been advanced by benchmarks with rich
+annotations such as deepfashion, whose labels include clothing categories,
+landmarks, and consumer-commercial image pairs. however, deepfashion has
+nonnegligible issues such as single clothing-item per image, sparse landmarks
+(4~8 only), and no per-pixel masks, making it had significant gap from
+real-world scenarios. we fill in the gap by presenting deepfashion2 to address
+these issues. it is a versatile benchmark of four tasks including clothes
+detection, pose estimation, segmentation, and retrieval. it has 801k clothing
+items where each item has rich annotations such as style, scale, viewpoint,
+occlusion, bounding box, dense landmarks and masks. there are also 873k
+commercial-consumer clothes pairs. a strong baseline is proposed, called match
+r-cnn, which builds upon mask r-cnn to solve the above four tasks in an
+end-to-end manner. extensive evaluations are conducted with different
+criterions in deepfashion2.

@@ -1,0 +1,19 @@
+we study in this paper how to initialize the parameters of multinomial
+logistic regression (a fully connected layer followed with softmax and cross
+entropy loss), which is widely used in deep neural network (dnn) models for
+classification problems. as logistic regression is widely known not having a
+closed-form solution, it is usually randomly initialized, leading to several
+deficiencies especially in transfer learning where all the layers except for
+the last task-specific layer are initialized using a pre-trained model. the
+deficiencies include slow convergence speed, possibility of stuck in local
+minimum, and the risk of over-fitting. to address those deficiencies, we first
+study the properties of logistic regression and propose a closed-form
+approximate solution named regularized gaussian classifier (rgc). then we adopt
+this approximate solution to initialize the task-specific linear layer and
+demonstrate superior performance over random initialization in terms of both
+accuracy and convergence speed on various tasks and datasets. for example, for
+image classification, our approach can reduce the training time by 10 times and
+achieve 3.2% gain in accuracy for flickr-style classification. for object
+detection, our approach can also be 10 times faster in training for the same
+accuracy, or 5% better in terms of map for voc 2007 with slightly longer
+training.

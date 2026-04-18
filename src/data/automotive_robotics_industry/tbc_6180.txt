@@ -1,0 +1,21 @@
+forecasting the flow of crowds is of great importance to traffic management
+and public safety, and very challenging as it is affected by many complex
+factors, including spatial dependencies (nearby and distant), temporal
+dependencies (closeness, period, trend), and external conditions (e.g., weather
+and events). we propose a deep-learning-based approach, called st-resnet, to
+collectively forecast two types of crowd flows (i.e. inflow and outflow) in
+each and every region of a city. we design an end-to-end structure of st-resnet
+based on unique properties of spatio-temporal data. more specifically, we
+employ the residual neural network framework to model the temporal closeness,
+period, and trend properties of crowd traffic. for each property, we design a
+branch of residual convolutional units, each of which models the spatial
+properties of crowd traffic. st-resnet learns to dynamically aggregate the
+output of the three residual neural networks based on data, assigning different
+weights to different branches and regions. the aggregation is further combined
+with external factors, such as weather and day of the week, to predict the
+final traffic of crowds in each and every region. we have developed a real-time
+system based on microsoft azure cloud, called urbanflow, providing the crowd
+flow monitoring and forecasting in guiyang city of china. in addition, we
+present an extensive experimental evaluation using two types of crowd flows in
+beijing and new york city (nyc), where st-resnet outperforms nine well-known
+baselines.

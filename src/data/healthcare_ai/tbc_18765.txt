@@ -1,0 +1,17 @@
+segmentation of focal (localized) brain pathologies such as brain tumors and
+brain lesions caused by multiple sclerosis and ischemic strokes are necessary
+for medical diagnosis, surgical planning and disease development as well as
+other applications such as tractography. over the years, attempts have been
+made to automate this process for both clinical and research reasons. in this
+regard, machine learning methods have long been a focus of attention. over the
+past two years, the medical imaging field has seen a rise in the use of a
+particular branch of machine learning commonly known as deep learning. in the
+non-medical computer vision world, deep learning based methods have obtained
+state-of-the-art results on many datasets. recent studies in computer aided
+diagnostics have shown deep learning methods (and especially convolutional
+neural networks - cnn) to yield promising results. in this chapter, we provide
+a survey of cnn methods applied to medical imaging with a focus on brain
+pathology segmentation. in particular, we discuss their characteristic
+peculiarities and their specific configuration and adjustments that are best
+suited to segment medical images. we also underline the intrinsic differences
+deep learning methods have with other machine learning methods.

@@ -1,0 +1,20 @@
+computer vision plays a major role in the robotics industry, where vision
+data is frequently used for navigation and high-level decision making. although
+there is significant research in algorithms and functional requirements, there
+is a comparative lack of emphasis on how best to map these abstract concepts
+onto an appropriate software architecture.
+  in this study, we distinguish between the functional and non-functional
+requirements of a computer vision system. using a robocup humanoid robot system
+as a case study, we propose and develop a software architecture that fulfills
+the latter criteria.
+  the modifiability of the proposed architecture is demonstrated by detailing a
+number of feature detection algorithms and emphasizing which aspects of the
+underlying framework were modified to support their integration. to demonstrate
+portability, we port our vision system (designed for an application-specific
+darwin-op humanoid robot) to a general-purpose, raspberry pi computer. we
+evaluate performance on both platforms and compare them to a vision system
+optimised for functional requirements only.
+  the architecture and implementation presented in this study provide a highly
+generalisable framework for computer vision system design that is of particular
+benefit in research and development, competition and other environments in
+which rapid system evolution is necessary.

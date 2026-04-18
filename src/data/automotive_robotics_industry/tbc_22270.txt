@@ -1,0 +1,19 @@
+recently, the advancement in industrial automation and high-speed printing
+has raised numerous challenges related to the printing quality inspection of
+final products. this paper proposes a machine vision based technique to assess
+the printing quality of text on industrial objects. the assessment is based on
+three quality defects such as text misalignment, varying printing shades, and
+misprinted text. the proposed scheme performs the quality inspection through
+stochastic assessment technique based on the second-order statistics of
+printing. first: the text-containing area on printed product is identified
+through image processing techniques. second: the alignment testing of the
+identified text-containing area is performed. third: optical character
+recognition is performed to divide the text into different small boxes and only
+the intensity value of each text-containing box is taken as a random variable
+and second-order statistics are estimated to determine the varying printing
+defects in the text under one, two and three sigma thresholds. fourth: the
+k-nearest neighbors based supervised machine learning is performed to provide
+the stochastic process for misprinted text detection. finally, the technique is
+deployed on an industrial image for the printing quality assessment with
+varying values of n and m. the results have shown that the proposed saml-qc
+technique can perform real-time automated inspection for industrial printing.

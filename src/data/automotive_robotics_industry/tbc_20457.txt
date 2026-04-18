@@ -1,0 +1,19 @@
+when we physically interact with our environment using our hands, we touch
+objects and force them to move: contact and motion are defining properties of
+manipulation. in this paper, we present an active, bottom-up method for the
+detection of actor-object contacts and the extraction of moved objects and
+their motions in rgbd videos of manipulation actions. at the core of our
+approach lies non-rigid registration: we continuously warp a point cloud model
+of the observed scene to the current video frame, generating a set of dense 3d
+point trajectories. under loose assumptions, we employ simple point cloud
+segmentation techniques to extract the actor and subsequently detect
+actor-environment contacts based on the estimated trajectories. for each such
+interaction, using the detected contact as an attention mechanism, we obtain an
+initial motion segment for the manipulated object by clustering trajectories in
+the contact area vicinity and then we jointly refine the object segment and
+estimate its 6dof pose in all observed frames. because of its generality and
+the fundamental, yet highly informative, nature of its outputs, our approach is
+applicable to a wide range of perception and planning tasks. we qualitatively
+evaluate our method on a number of input sequences and present a comprehensive
+robot imitation learning example, in which we demonstrate the crucial role of
+our outputs in developing action representations/plans from observation.

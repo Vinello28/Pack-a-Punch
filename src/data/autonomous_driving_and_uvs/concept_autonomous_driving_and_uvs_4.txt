@@ -1,1 +1,0 @@
-La comunicazione V2X (Vehicle-to-Everything) permette ai veicoli autonomi di scambiare informazioni con altri veicoli, infrastrutture stradali e pedoni per migliorare la sicurezza e l'efficienza del traffico.

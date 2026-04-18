@@ -1,0 +1,11 @@
+price changes are induced by aggressive market orders in stock market. we
+introduce a bivariate marked hawkes process to model aggressive market order
+arrivals at the microstructural level. the order arrival intensity is marked by
+an exogenous part and two endogenous processes reflecting the self-excitation
+and cross-excitation respectively. we calibrate the model for an sse stock. we
+find that the exponential kernel with a smooth cut-off (i.e. the subtraction of
+two exponentials) produces much better calibration than the monotonous
+exponential kernel (i.e. the sum of two exponentials). the exogenous baseline
+intensity explains the $u$-shaped intraday pattern. our empirical results show
+that the endogenous submission clustering is mainly caused by self-excitation
+rather than cross-excitation.

@@ -1,0 +1,11 @@
+we demonstrate progress on the deployment of two sets of technologies to
+support distribution grid operators integrating high shares of renewable energy
+sources, based on a market for trading local energy flexibilities. an
+artificial-intelligence (ai) grid modelling tool, based on probabilistic
+graphs, predicts congestions and estimates the amount and location of energy
+flexibility required to avoid such events. a scalable time-series forecasting
+system delivers large numbers of short-term predictions of distributed energy
+demand and generation. we discuss the deployment of the technologies at three
+trial demonstration sites across europe, in the context of a research project
+carried out in a consortium with energy utilities, technology providers and
+research institutions.

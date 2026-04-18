@@ -1,1 +1,0 @@
-La robotica collaborativa (cobot) consente a robot e operatori umani di lavorare nello stesso spazio in sicurezza, con applicazioni nell'assemblaggio, nell'ispezione e nella movimentazione di materiali.

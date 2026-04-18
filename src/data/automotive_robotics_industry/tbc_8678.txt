@@ -1,0 +1,15 @@
+in the past few years, the technology of automated guided vehicles (agvs) has
+notably advanced. in particular, in the context of factory and warehouse
+automation, different approaches have been presented for detecting and
+localizing pallets inside warehouses and shop-floor environments. in a related
+research paper [1], we show that an agvs can detect, localize, and track
+pallets using machine learning techniques based only on the data of an on-board
+2d laser rangefinder. such sensor is very common in industrial scenarios due to
+its simplicity and robustness, but it can only provide a limited amount of
+data. therefore, it has been neglected in the past in favor of more complex
+solutions. in this paper, we release to the community the data we collected in
+[1] for further research activities in the field of pallet localization and
+tracking. the dataset comprises a collection of 565 2d scans from real-world
+environments, which are divided into 340 samples where pallets are present, and
+225 samples where they are not. the data have been manually labelled and are
+provided in different formats.

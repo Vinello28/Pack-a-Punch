@@ -1,0 +1,16 @@
+dynamic portfolio optimization is the process of sequentially allocating
+wealth to a collection of assets in some consecutive trading periods, based on
+investors' return-risk profile. automating this process with machine learning
+remains a challenging problem. here, we design a deep reinforcement learning
+(rl) architecture with an autonomous trading agent such that, investment
+decisions and actions are made periodically, based on a global objective, with
+autonomy. in particular, without relying on a purely model-free rl agent, we
+train our trading agent using a novel rl architecture consisting of an infused
+prediction module (ipm), a generative adversarial data augmentation module
+(dam) and a behavior cloning module (bcm). our model-based approach works with
+both on-policy or off-policy rl algorithms. we further design the back-testing
+and execution engine which interact with the rl agent in real time. using
+historical {\em real} financial market data, we simulate trading with practical
+constraints, and demonstrate that our proposed model is robust, profitable and
+risk-sensitive, as compared to baseline trading strategies and model-free rl
+agents from prior work.

@@ -1,0 +1,10 @@
+recommendation system has been widely used in different areas. collaborative
+filtering focuses on rating, ignoring the features of items itself. in order to
+effectively evaluate customers preferences on books, taking into consideration
+of the characteristics of offline book retail, we use lda model to calculate
+customers preference on book topics and use word2vec to calculate customers
+preference on book types. when forecasting rating on books, we take two factors
+into consideration: similarity of customers and correlation between customers
+and books. the experiment shows that our hybrid recommendation method based on
+features performances better than single recommendation method in offline book
+retail data.

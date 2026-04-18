@@ -1,0 +1,13 @@
+autonomous robotic manipulation in clutter is challenging. a large variety of
+objects must be perceived in complex scenes, where they are partially occluded
+and embedded among many distractors, often in restricted spaces. to tackle
+these challenges, we developed a deep-learning approach that combines object
+detection and semantic segmentation. the manipulation scenes are captured with
+rgb-d cameras, for which we developed a depth fusion method. employing
+pretrained features makes learning from small annotated robotic data sets
+possible. we evaluate our approach on two challenging data sets: one captured
+for the amazon picking challenge 2016, where our team nimbro came in second in
+the stowing and third in the picking task, and one captured in
+disaster-response scenarios. the experiments show that object detection and
+semantic segmentation complement each other and can be combined to yield
+reliable object perception.

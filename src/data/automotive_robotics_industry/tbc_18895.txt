@@ -1,0 +1,9 @@
+a real-time deep learning based method for pedestrian detection (pd) is
+applied to the human-aware robot navigation problem. the pedestrian detector
+combines the aggregate channel features (acf) detector with a deep
+convolutional neural network (cnn) in order to obtain fast and accurate
+performance. our solution is firstly evaluated using a set of real images taken
+from onboard and offboard cameras and, then, it is validated in a typical robot
+navigation environment with pedestrians (two distinct experiments are
+conducted). the results on both tests show that our pedestrian detector is
+robust and fast enough to be used on robot navigation applications.

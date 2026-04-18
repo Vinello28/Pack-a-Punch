@@ -1,0 +1,12 @@
+insurance companies must manage millions of claims per year. while most of
+these claims are non-fraudulent, fraud detection is core for insurance
+companies. the ultimate goal is a predictive model to single out the fraudulent
+claims and pay out the non-fraudulent ones immediately. modern machine learning
+methods are well suited for this kind of problem. health care claims often have
+a data structure that is hierarchical and of variable length. we propose one
+model based on piecewise feed forward neural networks (deep learning) and
+another model based on self-attention neural networks for the task of claim
+management. we show that the proposed methods outperform bag-of-words based
+models, hand designed features, and models based on convolutional neural
+networks, on a data set of two million health care claims. the proposed
+self-attention method performs the best.

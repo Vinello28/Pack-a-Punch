@@ -1,0 +1,22 @@
+use of low-cost depth sensors, such as a stereo camera setup with
+illuminators, is of particular interest for numerous applications ranging from
+robotics and transportation to mixed and augmented reality. the ability to
+quantify noise is crucial for these applications, e.g., when the sensor is used
+for map generation or to develop a sensor scheduling policy in a multi-sensor
+setup. range error models provide uncertainty estimates and help weigh the data
+correctly in instances where range measurements are taken from different
+vantage points or with different sensors. the weighing is important to fuse
+range data into a map in a meaningful way, i.e., the high confidence data is
+relied on most heavily. such a model is derived in this work. we show that the
+range error for stereo systems with integrated illuminators is cubic and
+validate the proposed model experimentally with an off-the-shelf structured
+light stereo system. the experiments confirm the validity of the model and
+simplify the application of this type of sensor in robotics. the proposed error
+model is relevant to any stereo system with low ambient light where the main
+light source is located at the camera system. among others, this is the case
+for structured light stereo systems and night stereo systems with headlights.
+in this work, we propose that the range error is cubic in range for stereo
+systems with integrated illuminators. experimental validation with an
+off-the-shelf structured light stereo system shows that the exponent is between
+2.4 and 2.6. the deviation is attributed to our model considering only shot
+noise.

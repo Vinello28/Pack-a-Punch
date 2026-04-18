@@ -1,0 +1,12 @@
+with the fast development of internet companies throughout the world,
+customer churn has become a serious concern. to better help the companies
+retain their customers, it is important to build a customer churn prediction
+model to identify the customers who are most likely to churn ahead of time. in
+this paper, we propose a time-sensitive customer churn prediction (tccp)
+framework based on positive and unlabeled (pu) learning technique.
+specifically, we obtain the recent data by shortening the observation period,
+and start to train model as long as enough positive samples are collected,
+ignoring the absence of the negative examples. we conduct thoroughly
+experiments on real industry data from alipay.com. the experimental results
+demonstrate that tccp outperforms the rule-based models and the traditional
+supervised learning models.

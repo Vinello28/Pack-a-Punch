@@ -1,0 +1,11 @@
+news agencies produce thousands of multimedia stories describing events
+happening in the world that are either scheduled such as sports competitions,
+political summits and elections, or breaking events such as military conflicts,
+terrorist attacks, natural disasters, etc. when writing up those stories,
+journalists refer to contextual background and to compare with past similar
+events. however, searching for precise facts described in stories is hard. in
+this paper, we propose a general method that leverages the wikidata knowledge
+base to produce semantic annotations of news articles. next, we describe a
+semantic search engine that supports both keyword based search in news articles
+and structured data search providing filters for properties belonging to
+specific event schemas that are automatically inferred.

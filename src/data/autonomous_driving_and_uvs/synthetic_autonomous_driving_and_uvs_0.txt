@@ -1,1 +1,0 @@
-Sviluppo di un sistema di guida autonoma di livello 4 per shuttle elettrici destinati al trasporto passeggeri in aree urbane pedonali, con sensori LiDAR e telecamere stereo.

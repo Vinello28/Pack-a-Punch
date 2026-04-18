@@ -1,0 +1,24 @@
+parts of texas, oklahoma, and kansas have experienced increased rates of
+seismicity in recent years, providing new datasets of earthquake recordings to
+develop ground motion prediction models for this particular region of the
+central and eastern north america (cena). this paper outlines a framework for
+using artificial neural networks (anns) to develop attenuation models from the
+ground motion recordings in this region. while attenuation models exist for the
+cena, concerns over the increased rate of seismicity in this region necessitate
+investigation of ground motions prediction models particular to these states.
+to do so, an ann-based framework is proposed to predict peak ground
+acceleration (pga) and peak ground velocity (pgv) given magnitude, earthquake
+source-to-site distance, and shear wave velocity. in this framework,
+approximately 4,500 ground motions with magnitude greater than 3.0 recorded in
+these three states (texas, oklahoma, and kansas) since 2005 are considered.
+results from this study suggest that existing ground motion prediction models
+developed for cena do not accurately predict the ground motion intensity
+measures for earthquakes in this region, especially for those with low
+source-to-site distances or on very soft soil conditions. the proposed ann
+models provide much more accurate prediction of the ground motion intensity
+measures at all distances and magnitudes. the proposed ann models are also
+converted to relatively simple mathematical equations so that engineers can
+easily use them to predict the ground motion intensity measures for future
+events. finally, through a sensitivity analysis, the contributions of the
+predictive parameters to the prediction of the considered intensity measures
+are investigated.

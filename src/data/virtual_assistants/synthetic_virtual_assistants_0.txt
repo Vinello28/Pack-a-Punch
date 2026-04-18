@@ -1,1 +1,0 @@
-Sviluppo di un chatbot conversazionale multicanale per il customer service di un operatore telefonico, con comprensione del linguaggio naturale in italiano.

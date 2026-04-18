@@ -1,0 +1,8 @@
+this paper describes a new open domain dialogue system alquist developed as
+part of the alexa prize competition for the amazon echo line of products. the
+alquist dialogue system is designed to conduct a coherent and engaging
+conversation on popular topics. we are presenting a hybrid system combining
+several machine learning and rule based approaches. we discuss and describe the
+alquist pipeline, data acquisition, and processing, dialogue manager, nlg,
+knowledge aggregation and hierarchy of sub-dialogs. we present some of the
+experimental results.

@@ -1,0 +1,20 @@
+recent advancements in signal processing and machine learning coupled with
+developments of electronic medical record keeping in hospitals and the
+availability of extensive set of medical images through internal/external
+communication systems, have resulted in a recent surge of significant interest
+in "radiomics". radiomics is an emerging and relatively new research field,
+which refers to extracting semi-quantitative and/or quantitative features from
+medical images with the goal of developing predictive and/or prognostic models,
+and is expected to become a critical component for integration of image-derived
+information for personalized treatment in the near future. the conventional
+radiomics workflow is typically based on extracting pre-designed features (also
+referred to as hand-crafted or engineered features) from a segmented region of
+interest. nevertheless, recent advancements in deep learning have caused trends
+towards deep learning-based radiomics (also referred to as discovery
+radiomics). considering the advantages of these two approaches, there are also
+hybrid solutions developed to exploit the potentials of multiple data sources.
+considering the variety of approaches to radiomics, further improvements
+require a comprehensive and integrated sketch, which is the goal of this
+article. this manuscript provides a unique interdisciplinary perspective on
+radiomics by discussing state-of-the-art signal processing solutions in the
+context of radiomics.

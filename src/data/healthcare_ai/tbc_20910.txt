@@ -1,0 +1,21 @@
+objective. natural language processing methods for medical auto-coding, or
+automatic generation of medical billing codes from electronic health records,
+generally assign each code independently of the others. they may thus assign
+codes for closely related procedures or diagnoses to the same document, even
+when they do not tend to occur together in practice, simply because the right
+choice can be difficult to infer from the clinical narrative.
+  materials and methods. we propose a method that injects awareness of the
+propensities for code co-occurrence into this process. first, a model is
+trained to estimate the conditional probability that one code is assigned by a
+human coder, given than another code is known to have been assigned to the same
+document. then, at runtime, an iterative algorithm is used to apply this model
+to the output of an existing statistical auto-coder to modify the confidence
+scores of the codes.
+  results. we tested this method in combination with a primary auto-coder for
+icd-10 procedure codes, achieving a 12% relative improvement in f-score over
+the primary auto-coder baseline.
+  discussion. the proposed method can be used, with appropriate features, in
+combination with any auto-coder that generates codes with different levels of
+confidence.
+  conclusion. the promising results obtained for icd-10 procedure codes suggest
+that the proposed method may have wider applications in auto-coding.

@@ -1,0 +1,12 @@
+as more and more personal photos are shared and tagged in social media,
+avoiding privacy risks such as unintended recognition becomes increasingly
+challenging. we propose a new hybrid approach to obfuscate identities in photos
+by head replacement. our approach combines state of the art parametric face
+synthesis with latest advances in generative adversarial networks (gan) for
+data-driven image synthesis. on the one hand, the parametric part of our method
+gives us control over the facial parameters and allows for explicit
+manipulation of the identity. on the other hand, the data-driven aspects allow
+for adding fine details and overall realism as well as seamless blending into
+the scene context. in our experiments, we show highly realistic output of our
+system that improves over the previous state of the art in obfuscation rate
+while preserving a higher similarity to the original image content.

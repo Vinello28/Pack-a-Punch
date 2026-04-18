@@ -1,0 +1,11 @@
+over the past few decades, the amount of scientific articles and technical
+literature has increased exponentially in size. consequently, there is a great
+need for systems that can ingest these documents at scale and make their
+content discoverable. unfortunately, both the format of these documents (e.g.
+the pdf format or bitmap images) as well as the presentation of the data (e.g.
+complex tables) make the extraction of qualitative and quantitive data
+extremely challenging. we present a platform to ingest documents at scale which
+is powered by machine learning techniques and allows the user to train custom
+models on document collections. we show precision/recall results greater than
+97% with regard to conversion to structured formats, as well as scaling
+evidence for each of the microservices constituting the platform.

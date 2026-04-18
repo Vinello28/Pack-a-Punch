@@ -1,0 +1,16 @@
+often the challenge associated with tasks like fraud and spam detection[1] is
+the lack of all likely patterns needed to train suitable supervised learning
+models. in order to overcome this limitation, such tasks are attempted as
+outlier or anomaly detection tasks. we also hypothesize that out- liers have
+behavioral patterns that change over time. limited data and continuously
+changing patterns makes learning significantly difficult. in this work we are
+proposing an approach that detects outliers in large data sets by relying on
+data points that are consistent. the primary contribution of this work is that
+it will quickly help retrieve samples for both consistent and non-outlier data
+sets and is also mindful of new outlier patterns. no prior knowledge of each
+set is required to extract the samples. the method consists of two phases, in
+the first phase, consistent data points (non- outliers) are retrieved by an
+ensemble method of unsupervised clustering techniques and in the second phase a
+one class classifier trained on the consistent data point set is ap- plied on
+the remaining sample set to identify the outliers. the approach is tested on
+three publicly available data sets and the performance scores are competitive.

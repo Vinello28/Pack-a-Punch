@@ -1,0 +1,13 @@
+object pose estimation is a crucial prerequisite for robots to perform
+autonomous manipulation in clutter. real-world bin-picking settings such as
+warehouses present additional challenges, e.g., new objects are added
+constantly. most of the existing object pose estimation methods assume that 3d
+models of the objects is available beforehand. we present a pipeline that
+requires minimal human intervention and circumvents the reliance on the
+availability of 3d models by a fast data acquisition method and a synthetic
+data generation procedure. this work builds on previous work on semantic
+segmentation of cluttered bin-picking scenes to isolate individual objects in
+clutter. an additional network is trained on synthetic scenes to estimate
+object poses from a cropped object-centered encoding extracted from the
+segmentation results. the proposed method is evaluated on a synthetic
+validation dataset and cluttered real-world scenes.

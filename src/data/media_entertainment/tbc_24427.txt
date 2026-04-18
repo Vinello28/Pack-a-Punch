@@ -1,0 +1,16 @@
+in this paper, we propose a recurrent neural network (rnn)-based midi music
+composition machine that is able to learn musical knowledge from existing
+beatles' songs and generate music in the style of the beatles with little human
+intervention. in the learning stage, a sequence of stylistically uniform,
+multiple-channel music samples was modeled by a rnn. in the composition stage,
+a short clip of randomly-generated music was used as a seed for the rnn to
+start music score prediction. to form structured music, segments of generated
+music from different seeds were concatenated together. to improve the quality
+and structure of the generated music, we integrated music theory knowledge into
+the model, such as controlling the spacing of gaps in the vocal melody,
+normalizing the timing of chord changes, and requiring notes to be related to
+the song's key (c major, for example). this integration improved the quality of
+the generated music as verified by a professional composer. we also conducted a
+subjective listening test that showed our generated music was close to original
+music by the beatles in terms of style similarity, professional quality, and
+interestingness. generated music samples are at https://goo.gl/ualxob.

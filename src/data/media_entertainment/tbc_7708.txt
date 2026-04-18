@@ -1,0 +1,20 @@
+online social media is a social vehicle in which people share various moments
+of their lives with their friends, such as playing sports, cooking dinner or
+just taking a selfie for fun, via visual means, that is, photographs. our study
+takes a closer look at the popular visual concepts illustrating various
+cultural lifestyles from aggregated, de-identified photographs. we perform
+analysis both at macroscopic and microscopic levels, to gain novel insights
+about global and local visual trends as well as the dynamics of interpersonal
+cultural exchange and diffusion among facebook friends. we processed images by
+automatically classifying the visual content by a convolutional neural network
+(cnn). through various statistical tests, we find that socially tied
+individuals more likely post images showing similar cultural lifestyles. to
+further identify the main cause of the observed social correlation, we use the
+shuffle test and the preference-based matched estimation (pme) test to
+distinguish the effects of influence and homophily. the results indicate that
+the visual content of each user's photographs are temporally, although not
+necessarily causally, correlated with the photographs of their friends, which
+may suggest the effect of influence. our paper demonstrates that facebook
+photographs exhibit diverse cultural lifestyles and preferences and that the
+social interaction mediated through the visual channel in social media can be
+an effective mechanism for cultural diffusion.

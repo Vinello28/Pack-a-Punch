@@ -1,0 +1,16 @@
+unmanned aerial vehicles (uavs), have intrigued different people from all
+walks of life, because of their pervasive computing capabilities. uav equipped
+with vision techniques, could be leveraged to establish navigation autonomous
+control for uav itself. also, object detection from uav could be used to
+broaden the utilization of drone to provide ubiquitous surveillance and
+monitoring services towards military operation, urban administration and
+agriculture management. as the data-driven technologies evolved, machine
+learning algorithm, especially the deep learning approach has been intensively
+utilized to solve different traditional computer vision research problems.
+modern convolutional neural networks based object detectors could be divided
+into two major categories: one-stage object detector and two-stage object
+detector. in this study, we utilize some representative cnn based object
+detectors to execute the computer vision task over stanford drone dataset
+(sdd). state-of-the-art performance has been achieved in utilizing focal loss
+dense detector retinanet based approach for object detection from uav in a fast
+and accurate manner.

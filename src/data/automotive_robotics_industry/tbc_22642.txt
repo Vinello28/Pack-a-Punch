@@ -1,0 +1,18 @@
+this work improves the positioning precision of lightweight robots with
+series elastic actuators (seas). lightweight sea robots, along with
+low-impedance control, can maneuver without causing damage in uncertain,
+confined spaces such as inside an aircraft wing during aircraft assembly.
+nevertheless, substantial modeling uncertainties in sea robots reduce the
+precision achieved by model-based approaches such as inversion-based
+feedforward. therefore, this article improves the precision of sea robots
+around specified operating points, through a multi-input multi-output (mimo),
+iterative learning control (ilc) approach. the main contributions of this
+article are to (i) introduce an input-weighted complex kernel to estimate local
+mimo models using complex gaussian process regression (c-gpr) (ii) develop
+ger\v{s}gorin-theorem-based conditions on the iteration gains for ensuring ilc
+convergence to precision within noise-related limits, even with errors in the
+estimated model; and (iii) demonstrate precision positioning with an
+experimental sea robot. comparative experimental results, with and without ilc,
+show around 90% improvement in the positioning precision (close to the
+repeatability limit of the robot) and a 10-times increase in the sea robot's
+operating speed with the use of the mimo ilc.

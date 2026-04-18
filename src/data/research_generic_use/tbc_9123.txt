@@ -1,0 +1,27 @@
+although personalized recommendation has been investigated for decades, the
+wide adoption of latent factor models (lfm) has made the explainability of
+recommendations a critical issue to both the research community and practical
+application of recommender systems. for example, in many practical systems the
+algorithm just provides a personalized item recommendation list to the users,
+without persuasive personalized explanation about why such an item is
+recommended while another is not. unexplainable recommendations introduce
+negative effects to the trustworthiness of recommender systems, and thus affect
+the effectiveness of recommendation engines. in this work, we investigate
+explainable recommendation in aspects of data explainability, model
+explainability, and result explainability, and the main contributions are as
+follows:
+  1. data explainability: we propose localized matrix factorization (lmf)
+framework based bordered block diagonal form (bbdf) matrices, and further
+applied this technique for parallelized matrix factorization.
+  2. model explainability: we propose explicit factor models (efm) based on
+phrase-level sentiment analysis, as well as dynamic user preference modeling
+based on time series analysis. in this work, we extract product features and
+user opinions towards different features from large-scale user textual reviews
+based on phrase-level sentiment analysis techniques, and introduce the efm
+approach for explainable model learning and recommendation.
+  3. economic explainability: we propose the total surplus maximization (tsm)
+framework for personalized recommendation, as well as the model specification
+in different types of online applications. based on basic economic concepts, we
+provide the definitions of utility, cost, and surplus in the application
+scenario of web services, and propose the general framework of web total
+surplus calculation and maximization.

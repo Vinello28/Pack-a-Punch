@@ -1,0 +1,19 @@
+context aware advertisement (caa) is a type of advertisement
+appearing on websites or mobile apps. the advertisement is targeted
+on specific group of users and/or the content displayed on the
+websites or apps. this paper focuses on classifying images displayed
+on the websites by incremental learning classifier with deep
+convolutional neural network (dcnn) especially for context aware
+advertisement (caa) framework. incrementally learning new knowledge
+with dcnn leads to catastrophic forgetting as previously stored
+information is replaced with new information. to prevent
+catastrophic forgetting, part of previously learned knowledge should
+be stored for the life time of incremental classifier. storing
+information for life time involves privacy and legal concerns
+especially in context aware advertising framework. here, we propose
+an incremental classifier learning method which addresses privacy
+and legal concerns while taking care of catastrophic forgetting
+problem. we conduct experiments on different datasets including
+cifar-100. experimental results show that proposed system achieves
+relatively high performance compared to the state-of-the-art
+incremental learning methods.

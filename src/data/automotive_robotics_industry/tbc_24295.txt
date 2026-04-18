@@ -1,0 +1,14 @@
+in autonomous driving applications a critical challenge is to identify action
+to take to avoid an obstacle on collision course. for example, when a heavy
+object is suddenly encountered it is critical to stop the vehicle or change the
+lane even if it causes other traffic disruptions. however,there are situations
+when it is preferable to collide with the object rather than take an action
+that would result in a much more serious accident than collision with the
+object. for example, a heavy object which falls from a truck should be avoided
+whereas a bouncing ball or a soft target such as a foam box need not be.we
+present a novel method to discriminate between the motion characteristics of
+these types of objects based on their physical properties such as bounciness,
+elasticity, etc.in this preliminary work, we use recurrent neural net-work with
+lstm cells to train a classifier to classify objects based on their motion
+trajectories. we test the algorithm on synthetic data, and, as a proof of
+concept, demonstrate its effectiveness on a limited set of real-world data.

@@ -1,0 +1,18 @@
+financial portfolio management is the process of constant redistribution of a
+fund into different financial products. this paper presents a
+financial-model-free reinforcement learning framework to provide a deep machine
+learning solution to the portfolio management problem. the framework consists
+of the ensemble of identical independent evaluators (eiie) topology, a
+portfolio-vector memory (pvm), an online stochastic batch learning (osbl)
+scheme, and a fully exploiting and explicit reward function. this framework is
+realized in three instants in this work with a convolutional neural network
+(cnn), a basic recurrent neural network (rnn), and a long short-term memory
+(lstm). they are, along with a number of recently reviewed or published
+portfolio-selection strategies, examined in three back-test experiments with a
+trading period of 30 minutes in a cryptocurrency market. cryptocurrencies are
+electronic and decentralized alternatives to government-issued money, with
+bitcoin as the best-known example of a cryptocurrency. all three instances of
+the framework monopolize the top three positions in all experiments,
+outdistancing other compared trading algorithms. although with a high
+commission rate of 0.25% in the backtests, the framework is able to achieve at
+least 4-fold returns in 50 days.

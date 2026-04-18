@@ -1,0 +1,12 @@
+in this work, we propose a novel deep network for traffic sign classification
+that achieves outstanding performance on gtsrb surpassing all previous methods.
+our deep network consists of spatial transformer layers and a modified version
+of inception module specifically designed for capturing local and global
+features together. this features adoption allows our network to classify
+precisely intraclass samples even under deformations. use of spatial
+transformer layer makes this network more robust to deformations such as
+translation, rotation, scaling of input images. unlike existing approaches that
+are developed with hand-crafted features, multiple deep networks with huge
+parameters and data augmentations, our method addresses the concern of
+exploding parameters and augmentations. we have achieved the state-of-the-art
+performance of 99.81\% on gtsrb dataset.

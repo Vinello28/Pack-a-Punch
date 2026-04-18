@@ -1,0 +1,19 @@
+objective: non-invasive foetal electrocardiography (ni-fecg) has the potential to provide 
+more additional clinical information for detecting and diagnosing fetal diseases. we propose and 
+demonstrate a deep learning approach for fetal qrs complex detection from raw ni-fecg signals 
+by using a convolutional neural network (cnn) model. the main objective is to investigate whether 
+reliable fetal qrs complex detection performance can still be obtained from features of singlechannel ni-fecg signals, without canceling maternal ecg (mecg) signals. approach: a deep 
+learning method is proposed for recognizing fetal qrs complexes. firstly, we collect data from set-a 
+of the physionet/computing in cardiology challenge database. the sample entropy method is 
+used for signal quality assessment. part of the bad quality signals is excluded in the further analysis. 
+secondly, in the proposed method, the features of raw ni-fecg signals are normalized before 
+they are fed to a cnn classifier to perform fetal qrs complex detection. we use precision, recall, 
+f-measure and accuracy as the evaluation metrics to assess the performance of fetal qrs complex 
+detection. main results: the proposed deep learning method can achieve relatively high precision 
+(75.33%), recall (80.54%), and f-measure scores (77.85%) compared with three other well-known 
+pattern classification methods, namely knn, naive bayes and svm. significance: the proposed 
+deep learning method can attain reliable fetal qrs complex detection performance from the raw 
+ni-fecg signals without canceling mecg signals. in addition, the influence of different activation 
+functions and signal quality assessment on classification performance are evaluated, and results 
+show that relu outperforms the sigmoid and tanh on this particular task, and better classification 
+performance is obtained with the signal quality assessment step in this study.

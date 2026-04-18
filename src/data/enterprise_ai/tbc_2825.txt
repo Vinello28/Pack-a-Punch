@@ -1,1 +1,0 @@
-l’erogazione di servizi tecnologici avanzati ed innovativi finalizzati ad assessment  erogazione di consulenza e servizio di test before invest per architettura dati e formazione. Studio ed evoluzione cloud native della piattaforma TRAILS per garantire scalabilità (Big Data)  modularità (Microservices)  sicurezza (Multitenancy) e innovatività (Future-proof)

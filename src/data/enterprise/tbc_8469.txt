@@ -1,0 +1,25 @@
+corporate insolvency can have a devastating effect on the economy. with an
+increasing number of companies making expansion overseas to capitalize on
+foreign resources, a multinational corporate bankruptcy can disrupt the world's
+financial ecosystem. corporations do not fail instantaneously; objective
+measures and rigorous analysis of qualitative (e.g. brand) and quantitative
+(e.g. econometric factors) data can help identify a company's financial risk.
+gathering and storage of data about a corporation has become less difficult
+with recent advancements in communication and information technologies. the
+remaining challenge lies in mining relevant information about a company's
+health hidden under the vast amounts of data, and using it to forecast
+insolvency so that managers and stakeholders have time to react. in recent
+years, machine learning has become a popular field in big data analytics
+because of its success in learning complicated models. methods such as support
+vector machines, adaptive boosting, artificial neural networks, and gaussian
+processes can be used for recognizing patterns in the data (with a high degree
+of accuracy) that may not be apparent to human analysts. this thesis studied
+corporate bankruptcy of manufacturing companies in korea and poland using
+experts' opinions and financial measures, respectively. using publicly
+available datasets, several machine learning methods were applied to learn the
+relationship between the company's current state and its fate in the near
+future. results showed that predictions with accuracy greater than 95% were
+achievable using any machine learning technique when informative features like
+experts' assessment were used. however, when using purely financial factors to
+predict whether or not a company will go bankrupt, the correlation is not as
+strong.

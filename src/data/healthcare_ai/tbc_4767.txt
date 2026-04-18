@@ -1,0 +1,15 @@
+the use of electroencephalogram (eeg) as the main input signal in
+brain-machine interfaces has been widely proposed due to the non-invasive
+nature of the eeg. here we are specifically interested in interfaces that
+extract information from the auditory system and more specifically in the task
+of classifying heard speech from eegs. to do so, we propose to limit the
+preprocessing of the eegs and use machine learning approaches to automatically
+extract their meaningful characteristics. more specifically, we use a regulated
+recurrent neural network (rnn) reservoir, which has been shown to outperform
+classic machine learning approaches when applied to several different
+bio-signals, and we compare it with a deep neural network approach. moreover,
+we also investigate the classification performance as a function of the number
+of eeg electrodes. a set of 8 subjects were presented randomly with 3 different
+auditory stimuli (english vowels a, i and u). we obtained an excellent
+classification rate of 83.2% with the rnn when considering all 64 electrodes. a
+rate of 81.7% was achieved with only 10 electrodes.

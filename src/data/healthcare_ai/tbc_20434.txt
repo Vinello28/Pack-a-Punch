@@ -1,0 +1,13 @@
+extremely preterm infants often require endotracheal intubation and
+mechanical ventilation during the first days of life. due to the detrimental
+effects of prolonged invasive mechanical ventilation (imv), clinicians aim to
+extubate infants as soon as they deem them ready. unfortunately, existing
+strategies for prediction of extubation readiness vary across clinicians and
+institutions, and lead to high reintubation rates. we present an approach using
+random forest classifiers for the analysis of cardiorespiratory variability to
+predict extubation readiness. we address the issue of data imbalance by
+employing random undersampling of examples from the majority class before
+training each decision tree in a bag. by incorporating clinical domain
+knowledge, we further demonstrate that our classifier could have identified 71%
+of infants who failed extubation, while maintaining a success detection rate of
+78%.

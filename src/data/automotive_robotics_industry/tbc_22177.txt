@@ -1,0 +1,21 @@
+computer vision has become a major source of information for autonomous
+navigation of robots of various types, self-driving cars, military robots and
+mars/lunar rovers are some examples. nevertheless, the majority of methods
+focus on analysing images captured in visible spectrum. in this manuscript we
+elaborate on the problem of segmenting cross-country scenes captured in ir
+spectrum. for this purpose we proposed employing salient features. salient
+features are robust to variations in scale, brightness and view angle. we
+suggest the speeded-up robust features as a basis for our salient features for
+a number of reasons discussed in the paper. we also provide a comparison of two
+surf implementations. the surf features are extracted from images of different
+terrain types. for every feature we estimate a terrain class membership
+function. the membership values are obtained by means of either the multi-layer
+perceptron or nearest neighbours. the features' class membership values and
+their spatial positions are then applied to estimate class membership values
+for all pixels in the image. to decrease the effect of segmentation blinking
+that is caused by rapid switching between different terrain types and to speed
+up segmentation, we are tracking camera position and predict features'
+positions. the comparison of the multi-layer perception and the nearest
+neighbour classifiers is presented in the paper. the error rate of the terrain
+segmentation using the nearest neighbours obtained on the testing set is
+16.6+-9.17%.

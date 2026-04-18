@@ -1,0 +1,23 @@
+intelligent recommendation technology has been playing an increasingly
+important role in various industry applications such as e-commerce product
+promotion and internet advertisement display. besides users' feedbacks (e.g.,
+numerical ratings) on items as usually exploited by some typical recommendation
+algorithms, there are often some additional data such as users' social circles
+and other behaviors. such auxiliary data are usually related to users'
+preferences on items behind the numerical ratings. collaborative recommendation
+with auxiliary data (crad) aims to leverage such additional information so as
+to improve the personalization services, which have received much attention
+from both researchers and practitioners.
+  transfer learning (tl) is proposed to extract and transfer knowledge from
+some auxiliary data in order to assist the learning task on some target data.
+in this paper, we consider the crad problem from a transfer learning view,
+especially on how to achieve knowledge transfer from some auxiliary data.
+first, we give a formal definition of transfer learning for crad (tl-crad).
+second, we extend the existing categorization of tl techniques (i.e., adaptive,
+collective and integrative knowledge transfer algorithm styles) with three
+knowledge transfer strategies (i.e., prediction rule, regularization and
+constraint). third, we propose a novel generic knowledge transfer framework for
+tl-crad. fourth, we describe some representative works of each specific
+knowledge transfer strategy of each algorithm style in detail, which are
+expected to inspire further works. finally, we conclude the paper with some
+summary discussions and several future directions.

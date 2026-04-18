@@ -1,0 +1,17 @@
+in this paper, we propose a recursive framework to recognize facial
+expressions from images in real scenes. unlike traditional approaches that
+typically focus on developing and refining algorithms for improving recognition
+performance on an existing dataset, we integrate three important components in
+a recursive manner: facial dataset generation, facial expression recognition
+model building, and interactive interfaces for testing and new data collection.
+to start with, we first create a candid-images-for-facial-expression (cife)
+dataset. we then apply a convolutional neural network (cnn) to cife and build a
+cnn model for web image expression classification. in order to increase the
+expression recognition accuracy, we also fine-tune the cnn model and thus
+obtain a better cnn facial expression recognition model. based on the
+fine-tuned cnn model, we design a facial expression game engine and collect a
+new and more balanced dataset, gamo. the images of this dataset are collected
+from the different expressions our game users make when playing the game.
+finally, we evaluate the gamo and cife datasets and show that our recursive
+framework can help build a better facial expression model for dealing with real
+scene facial expression tasks.

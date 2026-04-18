@@ -1,0 +1,13 @@
+this paper addresses the question of how a previously available control
+policy $\pi_s$ can be used as a supervisor to more quickly and safely train a
+new learned control policy $\pi_l$ for a robot. a weighted average of the
+supervisor and learned policies is used during trials, with a heavier weight
+initially on the supervisor, in order to allow safe and useful physical trials
+while the learned policy is still ineffective. during the process, the weight
+is adjusted to favor the learned policy. as weights are adjusted, the learned
+network must compensate so as to give safe and reasonable outputs under the
+different weights. a pioneer network is introduced that pre-learns a policy
+that performs similarly to the current learned policy under the planned next
+step for new weights; this pioneer network then replaces the currently learned
+network in the next set of trials. experiments in openai gym demonstrate the
+effectiveness of the proposed method.

@@ -1,0 +1,23 @@
+autonomous robots that assist humans in day to day living tasks are becoming
+increasingly popular. autonomous mobile robots operate by sensing and
+perceiving their surrounding environment to make accurate driving decisions. a
+combination of several different sensors such as lidar, radar, ultrasound
+sensors and cameras are utilized to sense the surrounding environment of
+autonomous vehicles. these heterogeneous sensors simultaneously capture various
+physical attributes of the environment. such multimodality and redundancy of
+sensing need to be positively utilized for reliable and consistent perception
+of the environment through sensor data fusion. however, these multimodal sensor
+data streams are different from each other in many ways, such as temporal and
+spatial resolution, data format, and geometric alignment. for the subsequent
+perception algorithms to utilize the diversity offered by multimodal sensing,
+the data streams need to be spatially, geometrically and temporally aligned
+with each other. in this paper, we address the problem of fusing the outputs of
+a light detection and ranging (lidar) scanner and a wide-angle monocular image
+sensor for free space detection. the outputs of lidar scanner and the image
+sensor are of different spatial resolutions and need to be aligned with each
+other. a geometrical model is used to spatially align the two sensor outputs,
+followed by a gaussian process (gp) regression-based resolution matching
+algorithm to interpolate the missing data with quantifiable uncertainty. the
+results indicate that the proposed sensor data fusion framework significantly
+aids the subsequent perception steps, as illustrated by the performance
+improvement of a uncertainty aware free space detection algorithm

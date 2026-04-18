@@ -1,0 +1,19 @@
+robotic mobile fulfillment systems (rmfss) are a new type of warehousing
+system, which has received more attention recently, due to increasing growth in
+the e-commerce sector. instead of sending pickers to the inventory area to
+search for and pick the ordered items, robots carry shelves (called "pods")
+including ordered items from the inventory area to picking stations. in the
+picking stations, human pickers put ordered items into totes; then these items
+are transported by a conveyor to the packing stations. this type of warehousing
+system relieves the human pickers and improves the picking process. in this
+paper, we concentrate on decisions about the assignment of pods to stations and
+orders to stations to fulfill picking for each incoming customer's order. in
+previous research for an rmfs with multiple picking stations, these decisions
+are made sequentially. instead, we present a new integrated model. to improve
+the system performance even more, we extend our model by splitting orders. this
+means parts of an order are allowed to be picked at different stations. to the
+best of the authors' knowledge, this is the first publication on split orders
+in an rmfs. we analyze different performance metrics, such as pile-on,
+pod-station visits, robot moving distance and order turn-over time. we compare
+the results of our models in different instances with the sequential method in
+our open-source simulation framework rawsim-o.

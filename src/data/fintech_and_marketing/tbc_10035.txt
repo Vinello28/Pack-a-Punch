@@ -1,0 +1,24 @@
+estimating the market price of a house is important for many busi-
+nesses such as real estate and mortgage lending companies. the
+price of a house depends not only on its structural features (e.g. area
+and number of bedrooms) but also on the spatial context where it is
+located. in this work we estimate the price of a house based solely
+on its structural features and the characteristics and price of its
+neighbors. for that, we propose a hybrid attention mechanism that
+weights neighbors based on their similarity to the house in terms
+of structural features and geographic location. for the structural
+features, we apply an euclidean-based attention and, for the geo-
+graphic location, we propose an attention layer based on a radial
+basis function kernel. those attention mechanisms are then used
+by a neural network regressor to predict the price of a house and to
+generate a vector representation of the house based on its implicit
+context: the house embedding, which can be used as a feature set
+by any regressor to perform house price prediction. we have per-
+formed an extensive experimental evaluation on real-world datasets
+that shows that: (1) regressors using house embedding obtained
+the best results on all 4 datasets, outperforming baseline models;
+(2) the learned house embedding improves the performance of the
+evaluated regressors in almost all scenarios in comparison to raw
+features; and (3) simple regressor models such as linear regres-
+sion using house embedding achieved comparable results to more
+competitive algorithms (e.g. random forest and xgboost).

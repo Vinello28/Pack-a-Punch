@@ -1,0 +1,23 @@
+the united states spends more than $1b each year on initiatives such as the
+american community survey (acs), a labor-intensive door-to-door study that
+measures statistics relating to race, gender, education, occupation,
+unemployment, and other demographic factors. although a comprehensive source of
+data, the lag between demographic changes and their appearance in the acs can
+exceed half a decade. as digital imagery becomes ubiquitous and machine vision
+techniques improve, automated data analysis may provide a cheaper and faster
+alternative. here, we present a method that determines socioeconomic trends
+from 50 million images of street scenes, gathered in 200 american cities by
+google street view cars. using deep learning-based computer vision techniques,
+we determined the make, model, and year of all motor vehicles encountered in
+particular neighborhoods. data from this census of motor vehicles, which
+enumerated 22m automobiles in total (8% of all automobiles in the us), was used
+to accurately estimate income, race, education, and voting patterns, with
+single-precinct resolution. (the average us precinct contains approximately
+1000 people.) the resulting associations are surprisingly simple and powerful.
+for instance, if the number of sedans encountered during a 15-minute drive
+through a city is higher than the number of pickup trucks, the city is likely
+to vote for a democrat during the next presidential election (88% chance);
+otherwise, it is likely to vote republican (82%). our results suggest that
+automated systems for monitoring demographic trends may effectively complement
+labor-intensive approaches, with the potential to detect trends with fine
+spatial resolution, in close to real time.

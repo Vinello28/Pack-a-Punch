@@ -1,0 +1,14 @@
+making sense of incomplete and conflicting narrative knowledge in the
+presence of abnormalities, unobservable processes, and other real world
+considerations is a challenge and crucial requirement for cognitive robotics
+systems. an added challenge, even when suitably specialised action languages
+and reasoning systems exist, is practical integration and application within
+large-scale robot control frameworks.
+  in the backdrop of an autonomous wheelchair robot control task, we report on
+application-driven work to realise postdiction triggered abnormality detection
+and re-planning for real-time robot control: (a) narrative-based knowledge
+about the environment is obtained via a larger smart environment framework; and
+(b) abnormalities are postdicted from stable-models of an answer-set program
+corresponding to the robot's epistemic model. the overall reasoning is
+performed in the context of an approximate epistemic action theory based
+planner implemented via a translation to answer-set programming.

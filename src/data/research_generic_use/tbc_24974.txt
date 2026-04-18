@@ -1,0 +1,16 @@
+fuzzy logic deals with degrees of truth. in this paper, we have shown how to
+apply fuzzy logic in text mining in order to perform document clustering. we
+took an example of document clustering where the documents had to be clustered
+into two categories. the method involved cleaning up the text and stemming of
+words. then, we chose m number of features which differ significantly in their
+word frequencies (wf), normalized by document length, between documents
+belonging to these two clusters. the documents to be clustered were represented
+as a collection of m normalized wf values. fuzzy c-means (fcm) algorithm was
+used to cluster these documents into two clusters. after the fcm execution
+finished, the documents in the two clusters were analysed for the values of
+their respective m features. it was known that documents belonging to a
+document type, say x, tend to have higher wf values for some particular
+features. if the documents belonging to a cluster had higher wf values for
+those same features, then that cluster was said to represent x. by fuzzy logic,
+we not only get the cluster name, but also the degree to which a document
+belongs to a cluster.

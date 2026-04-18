@@ -1,0 +1,13 @@
+this paper describes allennlp, a platform for research on deep learning
+methods in natural language understanding. allennlp is designed to support
+researchers who want to build novel language understanding models quickly and
+easily. it is built on top of pytorch, allowing for dynamic computation graphs,
+and provides (1) a flexible data api that handles intelligent batching and
+padding, (2) high-level abstractions for common operations in working with
+text, and (3) a modular and extensible experiment framework that makes doing
+good science easy. it also includes reference implementations of high quality
+approaches for both core semantic problems (e.g. semantic role labeling (palmer
+et al., 2005)) and language understanding applications (e.g. machine
+comprehension (rajpurkar et al., 2016)). allennlp is an ongoing open-source
+effort maintained by engineers and researchers at the allen institute for
+artificial intelligence.

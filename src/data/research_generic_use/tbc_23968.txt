@@ -1,0 +1,6 @@
+ukb is an open source collection of programs for performing, among other
+tasks, knowledge-based word sense disambiguation (wsd). since it was released
+in 2009 it has been often used out-of-the-box in sub-optimal settings. we show
+that nine years later it is the state-of-the-art on knowledge-based wsd. this
+case shows the pitfalls of releasing open source nlp software without optimal
+default settings and precise instructions for reproducibility.

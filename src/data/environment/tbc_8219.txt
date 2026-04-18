@@ -1,0 +1,15 @@
+the neighborhood effect is a key driving factor for the land-use change (luc)
+process. this study applies convolutional neural networks (cnn) to capture
+neighborhood characteristics from satellite images and to enhance the
+performance of luc modeling. we develop a hybrid cnn model (conv-net) to
+predict the lu transition probability by combining satellite images and
+geographical features. a spatial weight layer is designed to incorporate the
+distance-decay characteristics of neighborhood effect into conv-net. as an
+alternative model, we also develop a hybrid convolutional denoising autoencoder
+and multi-layer perceptron model (cdae-net), which specifically learns latent
+representations from satellite images and denoises the image data. finally, a
+dinamica-based cellular automata (ca) model simulates the lu pattern. the
+results show that the convolutional-based models improve the modeling
+performances compared with a model that accepts only the geographical features.
+overall, conv-net outperforms cdae-net in terms of luc predictive performance.
+nonetheless, cdae-net performs better when the data are noisy.

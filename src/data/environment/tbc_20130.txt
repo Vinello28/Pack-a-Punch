@@ -1,0 +1,15 @@
+the asian-pacific region is the major international tourism demand market in
+the world, and its tourism demand is deeply affected by various factors.
+previous studies have shown that different market factors influence the tourism
+market demand at different timescales. accordingly, the decomposition ensemble
+learning approach is proposed to analyze the impact of different market factors
+on market demand, and the potential advantages of the proposed method on
+forecasting tourism demand in the asia-pacific region are further explored.
+this study carefully explores the multi-scale relationship between tourist
+destinations and the major source countries, by decomposing the corresponding
+monthly tourist arrivals with noise-assisted multivariate empirical mode
+decomposition. with the china and malaysia as case studies, their respective
+empirical results show that decomposition ensemble approach significantly
+better than the benchmarks which include statistical model, machine learning
+and deep learning model, in terms of the level forecasting accuracy and
+directional forecasting accuracy.

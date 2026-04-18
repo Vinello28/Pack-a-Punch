@@ -1,0 +1,22 @@
+in this paper, an interference-aware path planning scheme for a network of
+cellular-connected unmanned aerial vehicles (uavs) is proposed. in particular,
+each uav aims at achieving a tradeoff between maximizing energy efficiency and
+minimizing both wireless latency and the interference level caused on the
+ground network along its path. the problem is cast as a dynamic game among
+uavs. to solve this game, a deep reinforcement learning algorithm, based on
+echo state network (esn) cells, is proposed. the introduced deep esn
+architecture is trained to allow each uav to map each observation of the
+network state to an action, with the goal of minimizing a sequence of
+time-dependent utility functions. each uav uses esn to learn its optimal path,
+transmission power level, and cell association vector at different locations
+along its path. the proposed algorithm is shown to reach a subgame perfect nash
+equilibrium (spne) upon convergence. moreover, an upper and lower bound for the
+altitude of the uavs is derived thus reducing the computational complexity of
+the proposed algorithm. simulation results show that the proposed scheme
+achieves better wireless latency per uav and rate per ground user (ue) while
+requiring a number of steps that is comparable to a heuristic baseline that
+considers moving via the shortest distance towards the corresponding
+destinations. the results also show that the optimal altitude of the uavs
+varies based on the ground network density and the ue data rate requirements
+and plays a vital role in minimizing the interference level on the ground ues
+as well as the wireless transmission delay of the uav.

@@ -1,0 +1,19 @@
+we are motivated by the fact that multiple representations of the environment
+are required to stand for the changes in appearance with time and for changes
+that appear in a cyclic manner. these changes are, for example, from day to
+night time, and from day to day across seasons. in such situations, the robot
+visits the same routes multiple times and collects different appearances of it.
+multiple visual experiences usually find robotic vision applications like
+visual localization, mapping, place recognition, and autonomous navigation. the
+novelty in this paper is an algorithm that connects multiple visual experiences
+via aligning multiple image sequences. this problem is solved by finding the
+maximum flow in a directed graph flow-network, whose vertices represent the
+matches between frames in the test and reference sequences. edges of the graph
+represent the cost of these matches. the problem of finding the best match is
+reduced to finding the minimum-cut surface, which is solved as a maximum flow
+network problem. application to visual localization is considered in this paper
+to show the effectiveness of the proposed multiple image sequence alignment
+method, without loosing its generality. experimental evaluations show that the
+precision of sequence matching is improved by considering multiple visual
+sequences for the same route, and that the method performs favorably against
+state-of-the-art single representation methods like seqslam and able-m.

@@ -1,0 +1,13 @@
+appearance based person re-identification in a real-world video surveillance
+system with non-overlapping camera views is a challenging problem for many
+reasons. current state-of-the-art methods often address the problem by relying
+on supervised learning of similarity metrics or ranking functions to implicitly
+model appearance transformation between cameras for each camera pair, or group,
+in the system. this requires considerable human effort to annotate data.
+furthermore, the learned models are camera specific and not transferable from
+one set of cameras to another. therefore, the annotation process is required
+after every network expansion or camera replacement, which strongly limits
+their applicability. alternatively, we propose a novel modeling approach to
+harness complementary appearance information without supervised learning that
+significantly outperforms current state-of-the-art unsupervised methods on
+multiple benchmark datasets.

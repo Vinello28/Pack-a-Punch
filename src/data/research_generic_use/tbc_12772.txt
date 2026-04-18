@@ -1,0 +1,22 @@
+with the rapid growth of internet applications, sequential prediction in
+collaborative filtering has become an emerging and crucial task. given the
+behavioral history of a specific user, predicting his or her next choice plays
+a key role in improving various online services. meanwhile, there are more and
+more scenarios with multiple types of behaviors, while existing works mainly
+study sequences with a single type of behavior. as a widely used approach,
+markov chain based models are based on a strong independence assumption. as two
+classical neural network methods for modeling sequences, recurrent neural
+networks cannot well model short-term contexts, and the log-bilinear model is
+not suitable for long-term contexts. in this paper, we propose a recurrent
+log-bilinear (rlbl) model. it can model multiple types of behaviors in
+historical sequences with behavior-specific transition matrices. rlbl applies a
+recurrent structure for modeling long-term contexts. it models several items in
+each hidden layer and employs position-specific transition matrices for
+modeling short-term contexts. moreover, considering continuous time difference
+in behavioral history is a key factor for dynamic prediction, we further extend
+rlbl and replace position-specific transition matrices with time-specific
+transition matrices, and accordingly propose a time-aware recurrent
+log-bilinear (ta-rlbl) model. experimental results show that the proposed rlbl
+model and ta-rlbl model yield significant improvements over the competitive
+compared methods on three datasets, i.e., movielens-1m dataset, global
+terrorism database and tmall dataset with different numbers of behavior types.

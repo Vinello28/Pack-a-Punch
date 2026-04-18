@@ -1,0 +1,20 @@
+with the rapid proliferation of smart mobile devices, users now take millions
+of photos every day. these include large numbers of clothing and accessory
+images. we would like to answer questions like `what outfit goes well with this
+pair of shoes?' to answer these types of questions, one has to go beyond
+learning visual similarity and learn a visual notion of compatibility across
+categories. in this paper, we propose a novel learning framework to help answer
+these types of questions. the main idea of this framework is to learn a feature
+transformation from images of items into a latent space that expresses
+compatibility. for the feature transformation, we use a siamese convolutional
+neural network (cnn) architecture, where training examples are pairs of items
+that are either compatible or incompatible. we model compatibility based on
+co-occurrence in large-scale user behavior data; in particular co-purchase data
+from amazon.com. to learn cross-category fit, we introduce a strategic method
+to sample training data, where pairs of items are heterogeneous dyads, i.e.,
+the two elements of a pair belong to different high-level categories. while
+this approach is applicable to a wide variety of settings, we focus on the
+representative problem of learning compatible clothing style. our results
+indicate that the proposed framework is capable of learning semantic
+information about visual style and is able to generate outfits of clothes, with
+items from different categories, that go well together.

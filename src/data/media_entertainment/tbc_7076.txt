@@ -1,0 +1,20 @@
+in web era, since technology has revolutionized mankind life, plenty of data
+and information are published on the internet each day. for instance, news
+agencies publish news on their websites all over the world. these raw data
+could be an important resource for knowledge extraction. these shared data
+contain emotions (i.e., positive, neutral or negative) toward various topics;
+therefore, sentimental content extraction could be a beneficial task in many
+aspects. extracting the sentiment of news illustrates highly valuable
+information about the events over a period of time, the viewpoint of a media or
+news agency to these events. in this paper an attempt is made to propose an
+approach for news analysis and extracting useful knowledge from them. firstly,
+we attempt to extract a noise robust sentiment of news documents; therefore,
+the news associated to six countries: united state, united kingdom, germany,
+canada, france and australia in 5 different news categories: politics, sports,
+business, entertainment and technology are downloaded. in this paper we compare
+the condition of different countries in each 5 news topics based on the
+extracted sentiments and emotional contents in news documents. moreover, we
+propose an approach to reduce the bulky news data to extract the hottest topics
+and news titles as a knowledge. eventually, we generate a word model to map
+each word to a fixed-size vector by word2vec in order to understand the
+relations between words in our collected news database.

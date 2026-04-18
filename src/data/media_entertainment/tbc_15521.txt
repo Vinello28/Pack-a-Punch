@@ -1,0 +1,17 @@
+we propose the first deep learning approach for exemplar-based local
+colorization. given a reference color image, our convolutional neural network
+directly maps a grayscale image to an output colorized image. rather than using
+hand-crafted rules as in traditional exemplar-based methods, our end-to-end
+colorization network learns how to select, propagate, and predict colors from
+the large-scale data. the approach performs robustly and generalizes well even
+when using reference images that are unrelated to the input grayscale image.
+more importantly, as opposed to other learning-based colorization methods, our
+network allows the user to achieve customizable results by simply feeding
+different references. in order to further reduce manual effort in selecting the
+references, the system automatically recommends references with our proposed
+image retrieval algorithm, which considers both semantic and luminance
+information. the colorization can be performed fully automatically by simply
+picking the top reference suggestion. our approach is validated through a user
+study and favorable quantitative comparisons to the-state-of-the-art methods.
+furthermore, our approach can be naturally extended to video colorization. our
+code and models will be freely available for public use.

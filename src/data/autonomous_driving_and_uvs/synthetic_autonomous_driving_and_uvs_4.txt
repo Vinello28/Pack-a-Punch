@@ -1,1 +1,0 @@
-Piattaforma di fusione sensoriale multi-modale per veicoli a guida autonoma che integra LiDAR, radar a 77 GHz e telecamere per la percezione a 360 gradi dell'ambiente circostante.

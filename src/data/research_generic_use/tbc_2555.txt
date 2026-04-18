@@ -1,0 +1,16 @@
+its constant technological evolution characterizes the contemporary world,
+and every day the processes, once manual, become computerized. data are stored
+in the cyberspace, and as a consequence, one must increase the concern with the
+security of this environment. cyber-attacks are represented by a growing
+worldwide scale and are characterized as one of the significant challenges of
+the century. this article aims to propose a computational system based on
+intelligent hybrid models, which through fuzzy rules allows the construction of
+expert systems in cybernetic data attacks, focusing on the sql injection
+attack. the tests were performed with real bases of sql injection attacks on
+government computers, using fuzzy neural networks. according to the results
+obtained, the feasibility of constructing a system based on fuzzy rules, with
+the classification accuracy of cybernetic invasions within the margin of the
+standard deviation (compared to the state-of-the-art model in solving this type
+of problem) is real. the model helps countries prepare to protect their data
+networks and information systems, as well as create opportunities for expert
+systems to automate the identification of attacks in cyberspace.

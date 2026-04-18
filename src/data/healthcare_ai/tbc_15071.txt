@@ -1,0 +1,20 @@
+state-of-the-art methods treat pedestrian attribute recognition as a
+multi-label image classification problem. the location information of person
+attributes is usually eliminated or simply encoded in the rigid splitting of
+whole body in previous work. in this paper, we formulate the task in a
+weakly-supervised attribute localization framework. based on googlenet,
+firstly, a set of mid-level attribute features are discovered by novelly
+designed detection layers, where a max-pooling based weakly-supervised object
+detection technique is used to train these layers with only image-level labels
+without the need of bounding box annotations of pedestrian attributes.
+secondly, attribute labels are predicted by regression of the detection
+response magnitudes. finally, the locations and rough shapes of pedestrian
+attributes can be inferred by performing clustering on a fusion of activation
+maps of the detection layers, where the fusion weights are estimated as the
+correlation strengths between each attribute and its relevant mid-level
+features. extensive experiments are performed on the two currently largest
+pedestrian attribute datasets, i.e. the peta dataset and the rap dataset.
+results show that the proposed method has achieved competitive performance on
+attribute recognition, compared to other state-of-the-art methods. moreover,
+the results of attribute localization are visualized to understand the
+characteristics of the proposed method.

@@ -1,0 +1,10 @@
+this paper presents a case study of a recommender system that can be used to
+save energy in smart homes without lowering the comfort of the inhabitants. we
+present an algorithm that uses consumer behavior data only and uses machine
+learning to suggest actions for inhabitants to reduce the energy consumption of
+their homes. the system mines for frequent and periodic patterns in the event
+data provided by the digitalstrom home automation system. these patterns are
+converted into association rules, prioritized and compared with the current
+behavior of the inhabitants. if the system detects an opportunities to save
+energy without decreasing the comfort level it sends a recommendation to the
+residents.

@@ -1,0 +1,13 @@
+in this paper, we present a unified end-to-end approach to build a large
+scale visual search and recommendation system for e-commerce. previous works
+have targeted these problems in isolation. we believe a more effective and
+elegant solution could be obtained by tackling them together. we propose a
+unified deep convolutional neural network architecture, called visnet, to learn
+embeddings to capture the notion of visual similarity, across several semantic
+granularities. we demonstrate the superiority of our approach for the task of
+image retrieval, by comparing against the state-of-the-art on the exact
+street2shop dataset. we then share the design decisions and trade-offs made
+while deploying the model to power visual recommendations across a catalog of
+50m products, supporting 2k queries a second at flipkart, india's largest
+e-commerce company. the deployment of our solution has yielded a significant
+business impact, as measured by the conversion-rate.

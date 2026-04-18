@@ -1,0 +1,17 @@
+recently image inpainting has witnessed rapid progress due to generative
+adversarial networks (gan) that are able to synthesize realistic contents.
+however, most existing gan-based methods for semantic inpainting apply an
+auto-encoder architecture with a fully connected layer, which cannot accurately
+maintain spatial information. in addition, the discriminator in existing gans
+struggle to understand high-level semantics within the image context and yield
+semantically consistent content. existing evaluation criteria are biased
+towards blurry results and cannot well characterize edge preservation and
+visual authenticity in the inpainting results. in this paper, we propose an
+improved generative adversarial network to overcome the aforementioned
+limitations. our proposed gan-based framework consists of a fully convolutional
+design for the generator which helps to better preserve spatial structures and
+a joint loss function with a revised perceptual loss to capture high-level
+semantics in the context. furthermore, we also introduce two novel measures to
+better assess the quality of image inpainting results. experimental results
+demonstrate that our method outperforms the state of the art under a wide range
+of criteria.

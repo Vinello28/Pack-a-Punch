@@ -1,0 +1,14 @@
+we introduce an image cytometer (i-cyt) for the analysis of phytoplankton in
+fresh and marine water environments. a linear quantification of cell numbers
+was observed covering several orders of magnitude using cultures of tetraselmis
+and nannochloropsis measured by autofluorescence in a laboratory environment.
+we assessed the functionality of the system outside the laboratory by
+phytoplankton quantification of samples taken from a marine water environment
+(dutch wadden sea, the netherlands) and a fresh water environment (lake ijssel,
+the netherlands). the i-cyt was also employed to study the effects of two
+ballast water treatment systems (bwts), based on chlorine electrolysis and uv
+sterilization, with the analysis including the vitality of the phytoplankton.
+for comparative study and benchmarking of the i-cyt, a standard flow cytometer
+was used. our results prove a limit of detection (lod) of 10 cells/ml with an
+accuracy between 0.7 and 0.5 log, and a correlation of 88.29% in quantification
+and 96.21% in vitality, with respect to the flow cytometry results.

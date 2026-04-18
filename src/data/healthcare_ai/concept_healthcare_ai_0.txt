@@ -1,1 +1,0 @@
-La diagnostica per immagini assistita da AI utilizza reti neurali convoluzionali per analizzare radiografie, TAC e risonanze magnetiche, supportando i radiologi nell'identificazione di patologie.

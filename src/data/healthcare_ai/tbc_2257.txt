@@ -1,0 +1,12 @@
+we address the problem of finding descriptive explanations of facts stored in
+a knowledge graph. this is important in high-risk domains such as healthcare,
+intelligence, etc. where users need additional information for decision making
+and is especially crucial for applications that rely on automatically
+constructed knowledge bases where machine learned systems extract facts from an
+input corpus and working of the extractors is opaque to the end-user. we follow
+an approach inspired from information retrieval and propose a simple and
+efficient, yet effective solution that takes into account passage level as well
+as document level properties to produce a ranked list of passages describing a
+given input relation. we test our approach using wikidata as the knowledge base
+and wikipedia as the source corpus and report results of user studies conducted
+to study the effectiveness of our proposed model.

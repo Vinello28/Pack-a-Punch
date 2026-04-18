@@ -1,1 +1,0 @@
-Il progetto mira a promuovere una visione integrata dell'IA "spiegabile" in cui le caratteristiche di basso livello dei processi di deep learning siano combinate con modelli di comunicazione ad alto livello di capacità argomentativa umana

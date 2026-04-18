@@ -1,0 +1,11 @@
+potato quality control has improved in the last years thanks to automation
+techniques like machine vision, mainly making the classification task between
+different quality degrees faster, safer and less subjective. in our study we
+are going to design a computer vision algorithm for grading of potatoes
+according to the greening of the surface color of potato. the ratio of green
+pixels to the total number of pixels of the potato surface is found. the higher
+the ratio the worse is the potato. first the image is converted into serial
+data and then processing is done in rgb colour space. green part of the potato
+is also shown by de-serializing the output. the same algorithm is then
+synthesized on fpga and the result shows thousand times speed improvement in
+case of hardware synthesis.

@@ -1,0 +1,19 @@
+glaucoma causes an irreversible damage to retinal nerve fibers which results
+in vision loss, if undetected in early stage. therefore, diagnosis of glaucoma
+in its early stage may prevent further vision loss. in this paper, we propose a
+convolutional neural network (cnn) based approach for automated glaucoma
+diagnosis by employing retinal fundus images. this approach employs transfer
+learning technique and local binary pattern (lbp) based data augmentation. in
+the proposed approach, we employ alexnet as a pre-trained cnn model which is
+used for transfer learning. initially, the proposed approach divides the fundus
+image dataset into training and testing data. further, the color fundus images
+in training and testing data are separated into red (r), green (g), and blue
+(b) channels. additionally, the lbp-based data augmentation is performed on
+training data. specifically, we compute lpbs for each of the channel. finally,
+the augmented training data is used to train the cnn model via transfer
+learning. in testing stage, the r, g, and b channels of test image are fed to
+the trained cnn model which generates 3 decisions. we employ a decision level
+fusion technique to combine the decisions obtained from the trained cnn model.
+the experimental evaluation of the proposed approach on the public rim-one
+fundus image database, achieves state-of-the-art performance for glaucoma
+diagnosis.

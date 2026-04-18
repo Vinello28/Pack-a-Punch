@@ -1,0 +1,13 @@
+learning-based approaches to robotic manipulation are limited by the
+scalability of data collection and accessibility of labels. in this paper, we
+present a multi-task domain adaptation framework for instance grasping in
+cluttered scenes by utilizing simulated robot experiments. our neural network
+takes monocular rgb images and the instance segmentation mask of a specified
+target object as inputs, and predicts the probability of successfully grasping
+the specified object for each candidate motor command. the proposed transfer
+learning framework trains a model for instance grasping in simulation and uses
+a domain-adversarial loss to transfer the trained model to real robots using
+indiscriminate grasping data, which is available both in simulation and the
+real world. we evaluate our model in real-world robot experiments, comparing it
+with alternative model architectures as well as an indiscriminate grasping
+baseline.

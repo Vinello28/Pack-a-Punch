@@ -1,0 +1,20 @@
+there is a wealth of information about financial systems that is embedded in
+document collections. in this paper, we focus on a specialized text extraction
+task for this domain. the objective is to extract mentions of names of
+financial institutions, or fi names, from financial prospectus documents, and
+to identify the corresponding real world entities, e.g., by matching against a
+corpus of such entities. the tasks are named entity recognition (ner) and
+entity resolution (er); both are well studied in the literature. our
+contribution is to develop a rule-based approach that will exploit lists of fi
+names for both tasks; our solution is labeled dict-based ner and rank-based er.
+since the fi names are typically represented by a root, and a suffix that
+modifies the root, we use these lists of fi names to create specialized root
+and suffix dictionaries. to evaluate the effectiveness of our specialized
+solution for extracting fi names, we compare dict-based ner with a general
+purpose rule-based ner solution, org ner. our evaluation highlights the
+benefits and limitations of specialized versus general purpose approaches, and
+presents additional suggestions for tuning and customization for fi name
+extraction. to our knowledge, our proposed solutions, dict-based ner and
+rank-based er, and the root and suffix dictionaries, are the first attempt to
+exploit specialized knowledge, i.e., lists of fi names, for rule-based ner and
+er.

@@ -1,0 +1,10 @@
+recommendation system could help the companies to persuade users to visit or
+consume at a particular place, which was based on many traditional methods such
+as the set of collaborative filtering algorithms. most research discusses the
+model design or feature engineering methods to minimize the root mean square
+error (rmse) of rating prediction, but lacks exploring the ways to generate the
+reasons for recommendations. this paper proposed an integrated neural network
+based model which integrates rating scores prediction and explainable words
+generation. based on the experimental results, this model presented lower rmse
+compared with traditional methods, and generate the explanation of
+recommendation to convince customers to visit the recommended place.

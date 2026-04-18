@@ -1,0 +1,20 @@
+we consider the problem of sorting a densely cluttered pile of unknown
+objects using a robot. this yet unsolved problem is relevant in the robotic
+waste sorting business.
+  by extending previous active learning approaches to grasping, we show a
+system that learns the task autonomously. instead of predicting just whether a
+grasp succeeds, we predict the classes of the objects that end up being picked
+and thrown onto the target conveyor. segmenting and identifying objects from
+the uncluttered target conveyor, as opposed to the working area, is easier due
+to the added structure since the thrown objects will be the only ones present.
+  instead of trying to segment or otherwise understand the cluttered working
+area in any way, we simply allow the controller to learn a mapping from an rgbd
+image in the neighborhood of the grasp to a predicted result---all segmentation
+etc. in the working area is implicit in the learned function. the grasp
+selection operates in two stages: the first stage is hardcoded and outputs a
+distribution of possible grasps that sometimes succeed. the second stage uses a
+purely learned criterion to choose the grasp to make from the proposal
+distribution created by the first stage.
+  in an experiment, the system quickly learned to make good pickups and predict
+correctly, in advance, which class of object it was going to pick up and was
+able to sort the objects from a densely cluttered pile by color.

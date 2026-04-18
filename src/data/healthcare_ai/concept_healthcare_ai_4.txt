@@ -1,1 +1,0 @@
-Il triage automatizzato con AI classifica la gravita dei pazienti in pronto soccorso analizzando sintomi, parametri vitali e anamnesi tramite modelli di NLP e machine learning.

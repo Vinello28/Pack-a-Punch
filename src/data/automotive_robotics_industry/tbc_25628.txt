@@ -1,0 +1,20 @@
+efficient and real time segmentation of color images has a variety of
+importance in many fields of computer vision such as image compression, medical
+imaging, mapping and autonomous navigation. being one of the most
+computationally expensive operation, it is usually done through software imple-
+mentation using high-performance processors. in robotic systems, however, with
+the constrained platform dimensions and the need for portability, low power
+consumption and simultaneously the need for real time image segmentation, we
+envision hardware parallelism as the way forward to achieve higher
+acceleration. field-programmable gate arrays (fpgas) are among the best suited
+for this task as they provide high computing power in a small physical area.
+they exceed the computing speed of software based implementations by breaking
+the paradigm of sequential execution and accomplishing more per clock cycle
+operations by enabling hardware level parallelization at an architectural
+level. in this paper, we propose three novel architectures of a well known
+efficient graph based image segmentation algorithm. these proposed
+implementations optimizes time and power consumption when compared to software
+implementations. the hybrid design proposed, has notable furtherance of
+acceleration capabilities delivering atleast 2x speed gain over other implemen-
+tations, which henceforth allows real time image segmentation that can be
+deployed on mobile robotic systems.

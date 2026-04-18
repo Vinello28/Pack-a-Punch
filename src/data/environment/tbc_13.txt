@@ -1,0 +1,14 @@
+fine-grained weather forecasting data, i.e., the grid data with high-resolution,
+have attracted increasing attention in recent years, especially for some specific applications
+such as the winter olympic games. although european centre for medium-range
+weather forecasts (ecmwf) provides grid prediction up to 240 hours, the coarse data
+are unable to meet high requirements of these major events. in this paper, we propose
+a method, called model residual machine learning (mrml), to generate grid prediction
+with high-resolution based on high-precision stations forecasting. mrml applies model
+output machine learning (moml) for stations forecasting. subsequently, mrml utilizes
+these forecasts to improve the quality of the grid data by fitting a machine learning (ml)
+model to the residuals. we demonstrate that mrml achieves high capability at diverse
+meteorological elements, specifically, temperature, relative humidity, and wind speed. in
+addition, mrml could be easily extended to other post-processing methods by invoking
+different techniques. in our experiments, mrml outperforms the traditional downscaling
+methods such as piecewise linear interpolation (pli) on the testing data.

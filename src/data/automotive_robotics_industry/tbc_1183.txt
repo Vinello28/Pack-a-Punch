@@ -1,0 +1,11 @@
+we present a new dataset, called falling things (fat), for advancing the
+state-of-the-art in object detection and 3d pose estimation in the context of
+robotics. by synthetically combining object models and backgrounds of complex
+composition and high graphical quality, we are able to generate photorealistic
+images with accurate 3d pose annotations for all objects in all images. our
+dataset contains 60k annotated photos of 21 household objects taken from the
+ycb dataset. for each image, we provide the 3d poses, per-pixel class
+segmentation, and 2d/3d bounding box coordinates for all objects. to facilitate
+testing different input modalities, we provide mono and stereo rgb images,
+along with registered dense depth images. we describe in detail the generation
+process and statistical analysis of the data.

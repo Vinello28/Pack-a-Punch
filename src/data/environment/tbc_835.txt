@@ -1,0 +1,26 @@
+the process of exploring and exploiting oil and gas (o&g) generates a lot of
+data that can bring more efficiency to the industry. the opportunities for
+using data mining techniques in the "digital oil-field" remain largely
+unexplored or uncharted. with the high rate of data expansion, companies are
+scrambling to develop ways to develop near-real-time predictive analytics, data
+mining and machine learning capabilities, and are expanding their data storage
+infrastructure and resources. with these new goals, come the challenges of
+managing data growth, integrating intelligence tools, and analyzing the data to
+glean useful insights. oil and gas companies need data solutions to
+economically extract value from very large volumes of a wide variety of data
+generated from exploration, well drilling and production devices and sensors.
+  data mining for oil and gas industry throughout the lifecycle of the
+reservoir includes the following roles: locating hydrocarbons, managing
+geological data, drilling and formation evaluation, well construction, well
+completion, and optimizing production through the life of the oil field. for
+each of these phases during the lifecycle of oil field, data mining play a
+significant role. based on which phase were talking about, knowledge creation
+through scientific models, data analytics and machine learning, a effective,
+productive, and on demand data insight is critical for decision making within
+the organization.
+  the significant challenges posed by this complex and economically vital field
+justify a meeting of data scientists that are willing to share their experience
+and knowledge. thus, the worskhop on data mining for oil and gas (dm4og) aims
+to provide a quality forum for researchers that work on the significant
+challenges arising from the synergy between data science, machine learning, and
+the modeling and optimization problems in the o&g industry.
