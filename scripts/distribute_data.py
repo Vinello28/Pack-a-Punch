@@ -5,22 +5,26 @@ import uuid
 def distribute_data():
     # Paths
     excel_path = "src/data/tbc_classificata.xlsx"
+    csv_path = "src/data/bert_binary.csv"
     base_data_path = "src/data"
 
-    # Verify input file exists
-    if not os.path.exists(excel_path):
-        print(f"Error: {excel_path} not found.")
-        return
-
-    # Read Excel file
+    # Verify input file exists and read
     try:
-        df = pd.read_excel(excel_path)
+        if os.path.exists(excel_path):
+            print(f"Reading {excel_path}...")
+            df = pd.read_excel(excel_path)
+        elif os.path.exists(csv_path):
+            print(f"Reading {csv_path}...")
+            df = pd.read_csv(csv_path)
+        else:
+            print(f"Error: Neither {excel_path} nor {csv_path} found.")
+            return
     except Exception as e:
-        print(f"Error reading Excel file: {e}")
+        print(f"Error reading input file: {e}")
         return
 
     # Check columns
-    required_columns = ["Descrizione", "Label"]
+    required_columns = ["description", "class"]
     if not all(col in df.columns for col in required_columns):
         print(f"Error: Missing columns. Expected {required_columns}, found {df.columns}")
         return
@@ -30,8 +34,8 @@ def distribute_data():
 
     # Iterate rows
     for index, row in df.iterrows():
-        description = row["Descrizione"]
-        label = row["Label"]
+        description = row["description"]
+        label = row["class"]
 
         # Normalize label just in case
         if isinstance(label, str):
