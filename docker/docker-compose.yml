@@ -79,8 +79,6 @@ services:
       dockerfile: docker/Dockerfile.train
     image: pack-a-punch:train
     container_name: pap-trainer
-    security_opt:
-      - seccomp:unconfined
     volumes:
       # Mount data directory (read-write)
       - ../src/data:/app/src/data:rw
