@@ -1,0 +1,14 @@
+in this paper, we propose a novel method to jointly solve scene layout
+estimation and global registration problems for accurate indoor 3d
+reconstruction. given a sequence of range data, we first build a set of scene
+fragments using kinectfusion and register them through pose graph optimization.
+afterwards, we alternate between layout estimation and layout-based global
+registration processes in iterative fashion to complement each other. we
+extract the scene layout through hierarchical agglomerative clustering and
+energy-based multi-model fitting in consideration of noisy measurements. having
+the estimated scene layout in one hand, we register all the range data through
+the global iterative closest point algorithm where the positions of 3d points
+that belong to the layout such as walls and a ceiling are constrained to be
+close to the layout. we experimentally verify the proposed method with the
+publicly available synthetic and real-world datasets in both quantitative and
+qualitative ways.

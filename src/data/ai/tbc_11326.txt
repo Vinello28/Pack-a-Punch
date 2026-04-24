@@ -1,0 +1,19 @@
+handwriting is one of the most important means of daily communication.
+although the problem of handwriting recognition has been considered for more
+than 60 years there are still many open issues, especially in the task of
+unconstrained handwritten sentence recognition. this paper focuses on the
+automatic system that recognizes continuous english sentence through a
+mouse-based gestures in real-time based on artificial neural network. the
+proposed artificial neural network is trained using the traditional
+backpropagation algorithm for self supervised neural network which provides the
+system with great learning ability and thus has proven highly successful in
+training for feed-forward artificial neural network. the designed algorithm is
+not only capable of translating discrete gesture moves, but also continuous
+gestures through the mouse. in this paper we are using the efficient neural
+network approach for recognizing english sentence drawn by mouse. this approach
+shows an efficient way of extracting the boundary of the english sentence and
+specifies the area of the recognition english sentence where it has been drawn
+in an image and then used artificial neural network to recognize the english
+sentence. the proposed approach english sentence recognition (esr) system is
+designed and tested successfully. experimental results show that the higher
+speed and accuracy were examined.

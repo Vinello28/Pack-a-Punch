@@ -1,0 +1,12 @@
+current state-of-the-art convolutional architectures for object detection are
+manually designed. here we aim to learn a better architecture of feature
+pyramid network for object detection. we adopt neural architecture search and
+discover a new feature pyramid architecture in a novel scalable search space
+covering all cross-scale connections. the discovered architecture, named
+nas-fpn, consists of a combination of top-down and bottom-up connections to
+fuse features across scales. nas-fpn, combined with various backbone models in
+the retinanet framework, achieves better accuracy and latency tradeoff compared
+to state-of-the-art object detection models. nas-fpn improves mobile detection
+accuracy by 2 ap compared to state-of-the-art ssdlite with mobilenetv2 model in
+[32] and achieves 48.3 ap which surpasses mask r-cnn [10] detection accuracy
+with less computation time.

@@ -1,0 +1,12 @@
+several applications of reinforcement learning suffer from instability due to high
+variance. this is especially prevalent in high dimensional domains. regularization
+is a commonly used technique in machine learning to reduce variance, at the cost
+of introducing some bias. most existing regularization techniques focus on spatial
+(perceptual) regularization. yet in reinforcement learning, due to the nature of the
+bellman equation, there is an opportunity to also exploit temporal regularization
+based on smoothness in value estimates over trajectories. this paper explores a
+class of methods for temporal regularization. we formally characterize the bias
+induced by this technique using markov chain concepts. we illustrate the various
+characteristics of temporal regularization via a sequence of simple discrete and
+continuous mdps, and show that the technique provides improvement even in
+high-dimensional atari games.

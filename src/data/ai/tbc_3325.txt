@@ -1,0 +1,14 @@
+current state-of-the-art reading comprehension models rely heavily on
+recurrent neural networks. we explored an entirely different approach to
+question answering: a convolutional model. by their nature, these convolutional
+models are fast to train and capture local dependencies well, though they can
+struggle with longer-range dependencies and thus require augmentation to
+achieve comparable performance to rnn-based models. we conducted over two dozen
+controlled experiments with convolutional models and various
+kernel/attention/regularization schemes to determine the precise performance
+gains of each strategy, while maintaining a focus on speed. we ultimately
+ensembled three models: crossconv (0.5398 dev f1), attnconv (0.5665), and
+maybeconv (0.5285). the ensembled model was able to achieve a 0.6238 f1 score
+using the official squad evaluation script. our individual convolutional model
+crossconv was able to exceed the performance of the rnn-plus-attention baseline
+by 25% while training 6 times faster.

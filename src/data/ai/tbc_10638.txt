@@ -1,0 +1,14 @@
+calculating the semantic similarity between sentences is a long dealt problem
+in the area of natural language processing. the semantic analysis field has a
+crucial role to play in the research related to the text analytics. the
+semantic similarity differs as the domain of operation differs. in this paper,
+we present a methodology which deals with this issue by incorporating semantic
+similarity and corpus statistics. to calculate the semantic similarity between
+words and sentences, the proposed method follows an edge-based approach using a
+lexical database. the methodology can be applied in a variety of domains. the
+methodology has been tested on both benchmark standards and mean human
+similarity dataset. when tested on these two datasets, it gives highest
+correlation value for both word and sentence similarity outperforming other
+similar models. for word similarity, we obtained pearson correlation
+coefficient of 0.8753 and for sentence similarity, the correlation obtained is
+0.8794.

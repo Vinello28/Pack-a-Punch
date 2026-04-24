@@ -1,0 +1,16 @@
+reinforcement learning is a powerful technique to train an agent to perform a
+task. however, an agent that is trained using reinforcement learning is only
+capable of achieving the single task that is specified via its reward function.
+such an approach does not scale well to settings in which an agent needs to
+perform a diverse set of tasks, such as navigating to varying positions in a
+room or moving objects to varying locations. instead, we propose a method that
+allows an agent to automatically discover the range of tasks that it is capable
+of performing. we use a generator network to propose tasks for the agent to try
+to achieve, specified as goal states. the generator network is optimized using
+adversarial training to produce tasks that are always at the appropriate level
+of difficulty for the agent. our method thus automatically produces a
+curriculum of tasks for the agent to learn. we show that, by using this
+framework, an agent can efficiently and automatically learn to perform a wide
+set of tasks without requiring any prior knowledge of its environment. our
+method can also learn to achieve tasks with sparse rewards, which traditionally
+pose significant challenges.

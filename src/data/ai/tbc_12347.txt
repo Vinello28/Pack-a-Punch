@@ -1,0 +1,11 @@
+despite the recent success of video object detection on desktop gpus, its
+architecture is still far too heavy for mobiles. it is also unclear whether the
+key principles of sparse feature propagation and multi-frame feature
+aggregation apply at very limited computational resources. in this paper, we
+present a light weight network architecture for video object detection on
+mobiles. light weight image object detector is applied on sparse key frames. a
+very small network, light flow, is designed for establishing correspondence
+across frames. a flow-guided gru module is designed to effectively aggregate
+features on key frames. for non-key frames, sparse feature propagation is
+performed. the whole network can be trained end-to-end. the proposed system
+achieves 60.2% map score at speed of 25.6 fps on mobiles (e.g., huawei mate 8).

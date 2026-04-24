@@ -1,0 +1,8 @@
+in practical bayesian optimization, we must often search over structures with
+differing numbers of parameters. for instance, we may wish to search over
+neural network architectures with an unknown number of layers. to relate
+performance data gathered for different architectures, we define a new kernel
+for conditional parameter spaces that explicitly includes information about
+which parameters are relevant in a given structure. we show that this kernel
+improves model quality and bayesian optimization results over several simpler
+baseline kernels.

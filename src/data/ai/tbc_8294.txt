@@ -1,0 +1,19 @@
+generative adversarial networks (gans) have been successfully used to
+synthesize realistically looking images of faces, scenery and even medical
+images. unfortunately, they usually require large training datasets, which are
+often scarce in the medical field, and to the best of our knowledge gans have
+been only applied for medical image synthesis at fairly low resolution.
+however, many state-of-the-art machine learning models operate on high
+resolution data as such data carries indispensable, valuable information. in
+this work, we try to generate realistically looking high resolution images of
+skin lesions with gans, using only a small training dataset of 2000 samples.
+the nature of the data allows us to do a direct comparison between the image
+statistics of the generated samples and the real dataset. we both
+quantitatively and qualitatively compare state-of-the-art gan architectures
+such as dcgan and lapgan against a modification of the latter for the task of
+image generation at a resolution of 256x256px. our investigation shows that we
+can approximate the real data distribution with all of the models, but we
+notice major differences when visually rating sample realism, diversity and
+artifacts. in a set of use-case experiments on skin lesion classification, we
+further show that we can successfully tackle the problem of heavy class
+imbalance with the help of synthesized high resolution melanoma samples.

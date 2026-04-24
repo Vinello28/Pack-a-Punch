@@ -1,0 +1,16 @@
+text classification is a task of automatic classification of text into one of
+the predefined categories. the problem of text classification has been widely
+studied in different communities like natural language processing, data mining
+and information retrieval. text classification is an important constituent in
+many information management tasks like topic identification, spam filtering,
+email routing, language identification, genre classification, readability
+assessment etc. the performance of text classification improves notably when
+phrase patterns are used. the use of phrase patterns helps in capturing
+non-local behaviours and thus helps in the improvement of text classification
+task. phrase structure extraction is the first step to continue with the phrase
+pattern identification. in this survey, detailed study of phrase structure
+learning methods have been carried out. this will enable future work in several
+nlp tasks, which uses syntactic information from phrase structure like grammar
+checkers, question answering, information extraction, machine translation, text
+classification. the paper also provides different levels of classification and
+detailed comparison of the phrase structure learning methods.

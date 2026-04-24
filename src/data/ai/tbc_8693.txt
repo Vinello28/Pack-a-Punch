@@ -1,0 +1,14 @@
+we consider the problem of recovering a function input of a differential
+equation formulated on an unknown domain $m$. we assume to have access to a
+discrete domain $m_n=\{x_1, \dots, x_n\} \subset m$, and to noisy measurements
+of the output solution at $p\le n$ of those points. we introduce a graph-based
+bayesian inverse problem, and show that the graph-posterior measures over
+functions in $m_n$ converge, in the large $n$ limit, to a posterior over
+functions in $m$ that solves a bayesian inverse problem with known domain.
+  the proofs rely on the variational formulation of the bayesian update, and on
+a new topology for the study of convergence of measures over functions on point
+clouds to a measure over functions on the continuum. our framework, techniques,
+and results may serve to lay the foundations of robust uncertainty
+quantification of graph-based tasks in machine learning. the ideas are
+presented in the concrete setting of recovering the initial condition of the
+heat equation on an unknown manifold.

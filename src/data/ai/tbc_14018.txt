@@ -1,0 +1,12 @@
+we study the problem of transferring a sample in one domain to an analog
+sample in another domain. given two related domains, s and t, we would like to
+learn a generative function g that maps an input sample from s to the domain t,
+such that the output of a given function f, which accepts inputs in either
+domains, would remain unchanged. other than the function f, the training data
+is unsupervised and consist of a set of samples from each domain. the domain
+transfer network (dtn) we present employs a compound loss function that
+includes a multiclass gan loss, an f-constancy component, and a regularizing
+component that encourages g to map samples from t to themselves. we apply our
+method to visual domains including digits and face images and demonstrate its
+ability to generate convincing novel images of previously unseen entities,
+while preserving their identity.

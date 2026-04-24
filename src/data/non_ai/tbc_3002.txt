@@ -1,0 +1,1 @@
+Valutazione di un nuovo sistema automatico per la misurazione della pressione esofagea durante  ventilazione meccanica.

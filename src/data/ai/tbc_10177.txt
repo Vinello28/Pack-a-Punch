@@ -1,0 +1,20 @@
+binarized statistical image features (bsif) have been successfully used for
+texture analysis in many computer vision tasks, including iris recognition and
+biometric presentation attack detection. one important point is that all
+applications of bsif in iris recognition have used the original bsif filters,
+which were trained on image patches extracted from natural images. this paper
+tests the question of whether domain-specific bsif can give better performance
+than the default bsif. the second important point is in the selection of image
+patches to use in training for bsif. can image patches derived from
+eye-tracking experiments, in which humans perform an iris recognition task,
+give better performance than random patches? our results say that (1)
+domain-specific bsif features can out-perform the default bsif features, and
+(2) selecting image patches in a task-specific manner guided by human
+performance can out-perform selecting random patches. these results are
+important because bsif is often regarded as a generic texture tool that does
+not need any domain adaptation, and human-task-guided selection of patches for
+training has never (to our knowledge) been done. this paper follows the
+reproducible research requirements, and the new iris-domain-specific bsif
+filters, the patches used in filter training, the database used in testing and
+the source codes of the designed iris recognition method are made available
+along with this paper to facilitate applications of this concept.

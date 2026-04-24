@@ -1,0 +1,12 @@
+in this work, we focus on multilingual systems based on recurrent neural
+networks (rnns), trained using the connectionist temporal classification (ctc)
+loss function. using a multilingual set of acoustic units poses difficulties.
+to address this issue, we proposed language feature vectors (lfvs) to train
+language adaptive multilingual systems. language adaptation, in contrast to
+speaker adaptation, needs to be applied not only on the feature level, but also
+to deeper layers of the network. in this work, we therefore extended our
+previous approach by introducing a novel technique which we call "modulation".
+based on this method, we modulated the hidden layers of rnns using lfvs. we
+evaluated this approach in both full and low resource conditions, as well as
+for grapheme and phone based systems. lower error rates throughout the
+different conditions could be achieved by the use of the modulation.

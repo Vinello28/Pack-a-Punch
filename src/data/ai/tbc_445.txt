@@ -1,0 +1,12 @@
+in this paper, we explore a new approach to named entity recognition (ner)
+with the goal of learning from context and fragment features more effectively,
+contributing to the improvement of overall recognition performance. we use the
+recent fixed-size ordinally forgetting encoding (fofe) method to fully encode
+each sentence fragment and its left-right contexts into a fixed-size
+representation. next, we organize the context and fragment features into
+groups, and feed each feature group to dedicated fully-connected layers.
+finally, we merge each group's final dedicated layers and add a shared layer
+leading to a single output. the outcome of our experiments show that, given
+only tokenized text and trained word embeddings, our system outperforms our
+baseline models, and is competitive to the state-of-the-arts of various
+well-known ner tasks.

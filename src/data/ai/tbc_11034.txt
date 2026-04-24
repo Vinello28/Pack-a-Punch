@@ -1,0 +1,17 @@
+the nonlinear shannon capacity limit has been identified as the fundamental
+barrier to the maximum rate of transmitted information in optical
+communications. in long-haul high-bandwidth optical networks, this limit is
+mainly attributed to deterministic kerr-induced fiber nonlinearities and from
+the interaction of amplified spontaneous emission noise from cascaded optical
+amplifiers with fiber nonlinearity: the stochastic parametric noise
+amplification. unlike earlier impractical approaches that compensate solely
+deterministic nonlinearities, here we demonstrate a novel electronic-based deep
+neural network with multiple-inputs and outputs (mimo) that tackles the
+interplay of deterministic and stochastic nonlinearity manifestation in
+coherent optical signals. our demonstration shows that mimo deep learning can
+compensate nonlinear inter-carrier crosstalk effects even in the presence of
+frequency stochastic variations, which has hitherto been considered impossible.
+our solution significantly outperforms conventional machine learning and
+gold-standard nonlinear equalizers without sacrificing computational
+complexity, leading to record-breaking transmission performance for up to 40
+gbit/sec high-spectral-efficient optical signals.

@@ -1,0 +1,13 @@
+breast cancer is one of the most common types of cancer and leading
+cancer-related death causes for women. in the context of iciar 2018 grand
+challenge on breast cancer histology images, we compare one handcrafted feature
+extractor and five transfer learning feature extractors based on deep learning.
+we find out that the deep learning networks pretrained on imagenet have better
+performance than the popular handcrafted features used for breast cancer
+histology images. the best feature extractor achieves an average accuracy of
+79.30%. to improve the classification performance, a random forest
+dissimilarity based integration method is used to combine different feature
+groups together. when the five deep learning feature groups are combined, the
+average accuracy is improved to 82.90% (best accuracy 85.00%). when handcrafted
+features are combined with the five deep learning feature groups, the average
+accuracy is improved to 87.10% (best accuracy 93.00%).

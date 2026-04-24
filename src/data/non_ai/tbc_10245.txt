@@ -1,0 +1,1 @@
+Con il presente progetto si intende procedere all'automatizzazione dei documenti relativi al ciclo attivo aziendale con l'emissione automatica degli stessi a partire dal preventivo per procedere con il documento di trasporto alla fattura di vendita e per concludersi con l'emissione delle ricevute bancarie

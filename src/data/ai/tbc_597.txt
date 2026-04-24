@@ -1,0 +1,16 @@
+we consider the decomposition of a signal over an overcomplete set of
+vectors. minimization of the $\ell^1$-norm of the coefficient vector can often
+retrieve the sparsest solution (so-called "$\ell^1/\ell^0$-equivalence"), a
+generally np-hard task, and this fact has powered the field of compressed
+sensing. wright et al.'s sparse representation-based classification (src)
+applies this relationship to machine learning, wherein the signal to be
+decomposed represents the test sample and columns of the dictionary are
+training samples. we investigate the relationships between
+$\ell^1$-minimization, sparsity, and classification accuracy in src. after
+proving that the tractable, deterministic approach to verifying
+$\ell^1/\ell^0$-equivalence fundamentally conflicts with the high coherence
+between same-class training samples, we demonstrate that $\ell^1$-minimization
+can still recover the sparsest solution when the classes are well-separated.
+further, using a nonlinear transform so that sparse recovery conditions may be
+satisfied, we demonstrate that approximate (not strict) equivalence is key to
+the success of src.

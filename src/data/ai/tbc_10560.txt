@@ -1,0 +1,10 @@
+drug name recognition (dnr) is an essential step in the pharmacovigilance
+(pv) pipeline. dnr aims to find drug name mentions in unstructured biomedical
+texts and classify them into predefined categories. state-of-the-art dnr
+approaches heavily rely on hand crafted features and domain specific resources
+which are difficult to collect and tune. for this reason, this paper
+investigates the effectiveness of contemporary recurrent neural architectures -
+the elman and jordan networks and the bidirectional lstm with crf decoding - at
+performing dnr straight from the text. the experimental results achieved on the
+authoritative semeval-2013 task 9.1 benchmarks show that the bidirectional
+lstm-crf ranks closely to highly-dedicated, hand-crafted systems.

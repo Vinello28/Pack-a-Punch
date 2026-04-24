@@ -1,0 +1,10 @@
+training generative adversarial networks (gans) often suffers from cyclic
+behaviors of iterates. based on a simple intuition that the direction of
+centripetal acceleration of an object moving in uniform circular motion is
+toward the center of the circle, we present the simultaneous centripetal
+acceleration (sca) method and the alternating centripetal acceleration (aca)
+method to alleviate the cyclic behaviors. under suitable conditions, gradient
+descent methods with either sca or aca are shown to be linearly convergent for
+bilinear games. numerical experiments are conducted by applying aca to existing
+gradient-based algorithms in a gan setup scenario, which demonstrate the
+superiority of aca.

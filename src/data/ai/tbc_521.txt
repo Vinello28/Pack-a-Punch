@@ -1,0 +1,15 @@
+we propose a new spatio-temporal attention based mechanism for human action
+recognition able to automatically attend to the hands most involved into the
+studied action and detect the most discriminative moments in an action.
+attention is handled in a recurrent manner employing recurrent neural network
+(rnn) and is fully-differentiable. in contrast to standard soft-attention based
+mechanisms, our approach does not use the hidden rnn state as input to the
+attention model. instead, attention distributions are extracted using external
+information: human articulated pose. we performed an extensive ablation study
+to show the strengths of this approach and we particularly studied the
+conditioning aspect of the attention mechanism. we evaluate the method on the
+largest currently available human action recognition dataset, ntu-rgb+d, and
+report state-of-the-art results. other advantages of our model are certain
+aspects of explanability, as the spatial and temporal attention distributions
+at test time allow to study and verify on which parts of the input data the
+method focuses.

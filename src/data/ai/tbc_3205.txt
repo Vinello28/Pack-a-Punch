@@ -1,0 +1,15 @@
+deep convolutional neural networks (cnn) brought revolution without any doubt
+to various challenging tasks, mainly in computer vision. however, their model
+designing still requires attention to reduce number of learnable parameters,
+with no meaningful reduction in performance. in this paper we investigate to
+what extend cnn may take advantage of pyramid structure typical of biological
+neurons. a generalized statement over convolutional layers from input till
+fully connected layer is introduced that helps further in understanding and
+designing a successful deep network. it reduces ambiguity, number of
+parameters, and their size on disk without degrading overall accuracy.
+performance are shown on state-of-the-art models for mnist, cifar-10,
+cifar-100, and imagenet-12 datasets. despite more than 80% reduction in
+parameters for caffe_lenet, challenging results are obtained. further, despite
+10-20% reduction in training data along with 10-40% reduction in parameters for
+alexnet model and its variations, competitive results are achieved when
+compared to similar well-engineered deeper architectures.

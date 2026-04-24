@@ -1,0 +1,15 @@
+driven by the goal to enable sleep apnea monitoring and machine
+learning-based detection at home with small mobile devices, we investigate
+whether interpretation-based indirect knowledge transfer can be used to create
+classifiers with acceptable performance. interpretation-based indirect
+knowledge transfer means that a classifier (student) learns from a synthetic
+dataset based on the knowledge representation from an already trained deep
+network (teacher). we use activation maximization to generate visualizations
+and create a synthetic dataset to train the student classifier. this approach
+has the advantage that student classifiers can be trained without access to the
+original training data. with experiments we investigate the feasibility of
+interpretation-based indirect knowledge transfer and its limitations. the
+student achieves an accuracy of 97.8% on mnist (teacher accuracy: 99.3%) with a
+similar smaller architecture to that of the teacher. the student classifier
+achieves an accuracy of 86.1% and 89.5% for a subset of the apnea-ecg dataset
+(teacher: 89.5% and 91.1%, respectively).

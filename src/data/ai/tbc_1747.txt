@@ -1,0 +1,21 @@
+privacy policies are the primary channel through which companies inform users
+about their data collection and sharing practices. these policies are often
+long and difficult to comprehend. short notices based on information extracted
+from privacy policies have been shown to be useful but face a significant
+scalability hurdle, given the number of policies and their evolution over time.
+companies, users, researchers, and regulators still lack usable and scalable
+tools to cope with the breadth and depth of privacy policies. to address these
+hurdles, we propose an automated framework for privacy policy analysis
+(polisis). it enables scalable, dynamic, and multi-dimensional queries on
+natural language privacy policies. at the core of polisis is a privacy-centric
+language model, built with 130k privacy policies, and a novel hierarchy of
+neural-network classifiers that accounts for both high-level aspects and
+fine-grained details of privacy practices. we demonstrate polisis' modularity
+and utility with two applications supporting structured and free-form querying.
+the structured querying application is the automated assignment of privacy
+icons from privacy policies. with polisis, we can achieve an accuracy of 88.4%
+on this task. the second application, pribot, is the first freeform
+question-answering system for privacy policies. we show that pribot can produce
+a correct answer among its top-3 results for 82% of the test questions. using
+an mturk user study with 700 participants, we show that at least one of
+pribot's top-3 answers is relevant to users for 89% of the test questions.

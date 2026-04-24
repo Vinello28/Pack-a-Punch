@@ -25,8 +25,8 @@ src/models/*.json
 # Data (user-specific)
 src/data/*.jsonl
 src/data/*.json
-src/data/ai/
-src/data/non_ai/
+#src/data/ai/
+#src/data/non_ai/
 src/data/unlabeled/
 !src/data/.gitkeep
 

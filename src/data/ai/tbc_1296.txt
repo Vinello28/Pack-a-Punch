@@ -1,0 +1,3 @@
+we present an end-to-end trainable approach for optical character recognition (ocr) on printed documents. it is based on predicting a two-dimensional character grid ('chargrid') representation of a document image as a semantic segmentation task.
+to identify individual character instances from the chargrid, we regard characters as objects and use object detection techniques from computer vision.
+we demonstrate experimentally that our method outperforms previous state-of-the-art approaches in accuracy while being easily parallelizable on gpu (thereby being significantly faster), as well as easier to train.

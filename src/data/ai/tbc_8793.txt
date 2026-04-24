@@ -1,0 +1,7 @@
+we analyse a mean-field model of personalized pagerank on the erdos-renyi
+random graph containing a denser planted erdos-renyi subgraph. we investigate
+the regimes where the values of personalized pagerank concentrate around the
+mean-field value. we also study the optimization of the damping factor, the
+only parameter in personalized pagerank. our theoretical results help to
+understand the applicability of personalized pagerank and its limitations for
+local graph clustering.

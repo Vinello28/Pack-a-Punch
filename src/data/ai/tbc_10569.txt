@@ -1,0 +1,16 @@
+recently, segmentation neural networks have been significantly improved by
+demonstrating very promising accuracies on public benchmarks. however, these
+models are very heavy and generally suffer from low inference speed, which
+limits their application scenarios in practice. meanwhile, existing fast
+segmentation models usually fail to obtain satisfactory segmentation accuracies
+on public benchmarks. in this paper, we propose a teacher-student learning
+framework that transfers the knowledge gained by a heavy and better performed
+segmentation network (i.e. teacher) to guide the learning of fast segmentation
+networks (i.e. student). specifically, both zero-order and first-order
+knowledge depicted in the fine annotated images and unlabeled auxiliary data
+are transferred to regularize our student learning. the proposed method can
+improve existing fast segmentation models without incurring extra computational
+overhead, so it can still process images with the same fast speed. extensive
+experiments on the pascal context, cityscape and voc 2012 datasets demonstrate
+that the proposed teacher-student learning framework is able to significantly
+boost the performance of student network.

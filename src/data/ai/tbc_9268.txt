@@ -1,0 +1,16 @@
+the behavior of users in certain services could be a clue that can be used to
+infer their preferences and may be used to make recommendations for other
+services they have never used. however, the cross-domain relationships between
+items and user consumption patterns are not simple, especially when there are
+few or no common users and items across domains. to address this problem, we
+propose a content-based cross-domain recommendation method for cold-start users
+that does not require user- and item- overlap. we formulate recommendation as
+extreme multi-class classification where labels (items) corresponding to the
+users are predicted. with this formulation, the problem is reduced to a domain
+adaptation setting, in which a classifier trained in the source domain is
+adapted to the target domain. for this, we construct a neural network that
+combines an architecture for domain adaptation, domain separation network, with
+a denoising autoencoder for item representation. we assess the performance of
+our approach in experiments on a pair of data sets collected from movie and
+news services of yahoo! japan and show that our approach outperforms several
+baseline methods including a cross-domain collaborative filtering method.

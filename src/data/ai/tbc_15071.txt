@@ -1,0 +1,10 @@
+we present an architecture for information extraction from text that augments
+an existing parser with a character-level neural network. the network is
+trained using a measure of consistency of extracted data with existing
+databases as a form of noisy supervision. our architecture combines the ability
+of constraint-based information extraction systems to easily incorporate domain
+knowledge and constraints with the ability of deep neural networks to leverage
+large amounts of data to learn complex features. boosting the existing parser's
+precision, the system led to large improvements over a mature and highly tuned
+constraint-based production information extraction system used at bloomberg for
+financial language text.

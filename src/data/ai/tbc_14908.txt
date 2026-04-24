@@ -1,0 +1,17 @@
+in this paper, a model for classification of logos based on symbolic
+representation of features is presented. the proposed model makes use of global
+features of logo images such as color, texture, and shape features for
+classification. the logo images are broadly classified into three different
+classes, viz., logo image containing only text, an image with only symbol, and
+an image with both text and a symbol. in each class, the similar looking logo
+images are clustered using k-means clustering algorithm. the intra-cluster
+variations present in each cluster corresponding to each class are then
+preserved using symbolic interval data. thus referenced logo images are
+represented in the form of interval data. a sample logo image is then
+classified using suitable symbolic classifier. for experimentation purpose,
+relatively large amount of color logo images is created consisting of 5044 logo
+images. the classification results are validated with the help of accuracy,
+precision, recall, f-measure, and time. to check the efficacy of the proposed
+model, the comparative analyses are given against the other models. the results
+show that the proposed model outperforms the other models with respect to time
+and f-measure.

@@ -1,0 +1,1 @@
+Lâ€™obiettivo del presente progetto Ã¨ sviluppare un Digital Twin che permetta il controllo delle pressioni esercitate allâ€™interno delle protesi di arto inferiore  a seguito di una scansione 3D del moncone e di una modellazione che permetta di realizzare lâ€™invasatura mediante stampa 3D.

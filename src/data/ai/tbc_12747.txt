@@ -1,0 +1,12 @@
+identifying relationships between concepts is a key aspect of scientific
+knowledge synthesis. finding these links often requires a researcher to
+laboriously search through scien- tific papers and databases, as the size of
+these resources grows ever larger. in this paper we describe how distributional
+semantics can be used to unify structured knowledge graphs with unstructured
+text to predict new relationships between medical concepts, using a
+probabilistic generative model. our approach is also designed to ameliorate
+data sparsity and scarcity issues in the medical domain, which make language
+modelling more challenging. specifically, we integrate the medical relational
+database (semmeddb) with text from electronic health records (ehrs) to perform
+knowledge graph completion. we further demonstrate the ability of our model to
+predict relationships between tokens not appearing in the relational database.

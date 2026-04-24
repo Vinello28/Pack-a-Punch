@@ -1,0 +1,20 @@
+in this work we study the use of 3d hand poses to recognize first-person
+dynamic hand actions interacting with 3d objects. towards this goal, we
+collected rgb-d video sequences comprised of more than 100k frames of 45 daily
+hand action categories, involving 26 different objects in several hand
+configurations. to obtain hand pose annotations, we used our own mo-cap system
+that automatically infers the 3d location of each of the 21 joints of a hand
+model via 6 magnetic sensors and inverse kinematics. additionally, we recorded
+the 6d object poses and provide 3d object models for a subset of hand-object
+interaction sequences. to the best of our knowledge, this is the first
+benchmark that enables the study of first-person hand actions with the use of
+3d hand poses. we present an extensive experimental evaluation of rgb-d and
+pose-based action recognition by 18 baselines/state-of-the-art approaches. the
+impact of using appearance features, poses, and their combinations are
+measured, and the different training/testing protocols are evaluated. finally,
+we assess how ready the 3d hand pose estimation field is when hands are
+severely occluded by objects in egocentric views and its influence on action
+recognition. from the results, we see clear benefits of using hand pose as a
+cue for action recognition compared to other data modalities. our dataset and
+experiments can be of interest to communities of 3d hand pose estimation, 6d
+object pose, and robotics as well as action recognition.

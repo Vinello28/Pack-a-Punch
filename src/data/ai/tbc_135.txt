@@ -1,0 +1,9 @@
+in this paper, we propose a multi-generator extension to the adversarial
+training framework, in which the objective of each generator is to represent a
+unique component of a target mixture distribution. in the training phase, the
+generators cooperate to represent, as a mixture, the target distribution while
+maintaining distinct manifolds. as opposed to traditional generative models,
+inference from a particular generator after training resembles selective
+sampling from a unique component in the target distribution. we demonstrate the
+feasibility of the proposed architecture both analytically and with basic
+multi-layer perceptron (mlp) models trained on the mnist dataset.

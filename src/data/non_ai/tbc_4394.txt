@@ -1,0 +1,1 @@
+Il progetto "DIGITALIZZAZIONE PROCESSI AZIENDALI" ha lo scopo attraverso un computer una stampante ed un software gestionale di automatizzare i processi aziendali quali la gestione del magazzino piante fiori e concimi e articoli per l'agricoltura e il giardinaggio  l'emissione di documenti fiscali e non  la gestione della prima nota e dei registri fiscali.

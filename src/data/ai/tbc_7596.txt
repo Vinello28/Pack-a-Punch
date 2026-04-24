@@ -1,0 +1,14 @@
+how can we effectively develop speech technology for languages where no
+transcribed data is available? many existing approaches use no annotated
+resources at all, yet it makes sense to leverage information from large
+annotated corpora in other languages, for example in the form of multilingual
+bottleneck features (bnfs) obtained from a supervised speech recognition
+system. in this work, we evaluate the benefits of bnfs for subword modeling
+(feature extraction) in six unseen languages on a word discrimination task.
+first we establish a strong unsupervised baseline by combining two existing
+methods: vocal tract length normalisation (vtln) and the correspondence
+autoencoder (cae). we then show that bnfs trained on a single language already
+beat this baseline; including up to 10 languages results in additional
+improvements which cannot be matched by just adding more data from a single
+language. finally, we show that the cae can improve further on the bnfs if
+high-quality same-word pairs are available.

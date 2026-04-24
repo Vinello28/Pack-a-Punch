@@ -1,0 +1,12 @@
+based on a new atomic norm, we propose a new convex formulation for sparse
+matrix factorization problems in which the number of nonzero elements of the
+factors is assumed fixed and known. the formulation counts sparse pca with
+multiple factors, subspace clustering and low-rank sparse bilinear regression
+as potential applications. we compute slow rates and an upper bound on the
+statistical dimension of the suggested norm for rank 1 matrices, showing that
+its statistical dimension is an order of magnitude smaller than the usual
+$\ell\_1$-norm, trace norm and their combinations. even though our convex
+formulation is in theory hard and does not lead to provably polynomial time
+algorithmic schemes, we propose an active set algorithm leveraging the
+structure of the convex problem to solve it and show promising numerical
+results.

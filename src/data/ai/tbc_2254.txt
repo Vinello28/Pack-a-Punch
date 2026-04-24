@@ -1,0 +1,18 @@
+artificial intelligence (ai) has been used extensively in automatic decision
+making in a broad variety of scenarios, ranging from credit ratings for loans
+to recommendations of movies. traditional design guidelines for ai models focus
+essentially on accuracy maximization, but recent work has shown that
+economically irrational and socially unacceptable scenarios of discrimination
+and unfairness are likely to arise unless these issues are explicitly
+addressed. this undesirable behavior has several possible sources, such as
+biased datasets used for training that may not be detected in black-box models.
+after pointing out connections between such bias of ai and the problem of
+induction, we focus on popper's contributions after hume's, which offer a
+logical theory of preferences. an ai model can be preferred over others on
+purely rational grounds after one or more attempts at refutation based on
+accuracy and fairness. inspired by such epistemological principles, this paper
+proposes a structured approach to mitigate discrimination and unfairness caused
+by bias in ai systems. in the proposed computational framework, models are
+selected and enhanced after attempts at refutation. to illustrate our
+discussion, we focus on hiring decision scenarios where an ai system filters in
+which job applicants should go to the interview phase.

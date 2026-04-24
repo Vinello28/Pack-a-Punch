@@ -1,0 +1,8 @@
+the wavelet transform has seen success when incorporated into neural network
+architectures, such as in wavelet scattering networks. more recently, it has
+been shown that the dual-tree complex wavelet transform can provide better
+representations than the standard transform. with this in mind, we extend our
+previous method for learning filters for the 1d and 2d wavelet transforms into
+the dual-tree domain. we show that with few modifications to our original
+model, we can learn directional filters that leverage the properties of the
+dual-tree wavelet transform.

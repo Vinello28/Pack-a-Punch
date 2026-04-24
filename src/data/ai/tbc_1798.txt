@@ -1,0 +1,1 @@
+Implementazione di un sistema BMS â€œintelligenteâ€ con lâ€™obiettivo di stimare i parametri della batteria riguardanti il SOC e il SOH mediante AI e Machine Learning (ML).

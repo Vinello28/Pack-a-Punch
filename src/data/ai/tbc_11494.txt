@@ -1,0 +1,10 @@
+we present a novel algorithm to train a deep q-learning agent using
+natural-gradient techniques. we compare the original deep q-network (dqn)
+algorithm to its natural-gradient counterpart, which we refer to as ngdqn, on a
+collection of classic control domains. without employing target networks, ngdqn
+significantly outperforms dqn without target networks, and performs no worse
+than dqn with target networks, suggesting that ngdqn stabilizes training and
+can help reduce the need for additional hyperparameter tuning. we also find
+that ngdqn is less sensitive to hyperparameter optimization relative to dqn.
+together these results suggest that natural-gradient techniques can improve
+value-function optimization in deep reinforcement learning.

@@ -1,0 +1,23 @@
+motivation: thanks to the recent advances in structural biology, nowadays
+three-dimensional structures of various proteins are solved on a routine basis.
+a large portion of these contain structural repetitions or internal symmetries.
+to understand the evolution mechanisms of these proteins and how structural
+repetitions affect the protein function, we need to be able to detect such
+proteins very robustly. as deep learning is particularly suited to deal with
+spatially organized data, we applied it to the detection of proteins with
+structural repetitions. results: we present deepsymmetry, a versatile method
+based on three-dimensional (3d) convolutional networks that detects structural
+repetitions in proteins and their density maps. our method is designed to
+identify tandem repeat proteins, proteins with internal symmetries, symmetries
+in the raw density maps, their symmetry order, and also the corresponding
+symmetry axes. detection of symmetry axes is based on learning six-dimensional
+veronese mappings of 3d vectors, and the median angular error of axis
+determination is less than one degree. we demonstrate the capabilities of our
+method on benchmarks with tandem repeated proteins and also with symmetrical
+assemblies. for example, we have discovered over 10,000 putative tandem repeat
+proteins that are not currently present in the repeatsdb database.
+availability: the method is available at
+https://team.inria.fr/nano-d/software/deepsymmetry. it consists of a c++
+executable that transforms molecular structures into volumetric density maps,
+and a python code based on the tensorflow framework for applying the
+deepsymmetry model to these maps.

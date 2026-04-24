@@ -1,0 +1,17 @@
+low-rank modeling has a lot of important applications in machine learning,
+computer vision and social network analysis. while the matrix rank is often
+approximated by the convex nuclear norm, the use of nonconvex low-rank
+regularizers has demonstrated better recovery performance. however, the
+resultant optimization problem is much more challenging. a very recent
+state-of-the-art is based on the proximal gradient algorithm. however, it
+requires an expensive full svd in each proximal step. in this paper, we show
+that for many commonly-used nonconvex low-rank regularizers, a cutoff can be
+derived to automatically threshold the singular values obtained from the
+proximal operator. this allows the use of power method to approximate the svd
+efficiently. besides, the proximal operator can be reduced to that of a much
+smaller matrix projected onto this leading subspace. convergence, with a rate
+of o(1/t) where t is the number of iterations, can be guaranteed. extensive
+experiments are performed on matrix completion and robust principal component
+analysis. the proposed method achieves significant speedup over the
+state-of-the-art. moreover, the matrix solution obtained is more accurate and
+has a lower rank than that of the traditional nuclear norm regularizer.

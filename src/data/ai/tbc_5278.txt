@@ -1,0 +1,21 @@
+we introduce a framework for dynamic evaluation of the fingers movements:
+flexion, extension, abduction and adduction. this framework estimates angle
+measurements from joints computed by a hand pose estimation algorithm using a
+depth sensor (realsense sr300). given depth maps as input, our framework uses
+pose-ren, which is a state-of-art hand pose estimation method that estimates 3d
+hand joint positions using a deep convolutional neural network. the pose
+estimation algorithm runs in real-time, allowing users to visualise 3d skeleton
+tracking results at the same time as the depth images are acquired. once 3d
+joint poses are obtained, our framework estimates a plane containing the wrist
+and mcp joints and measures flexion/extension and abduction/aduction angles by
+applying computational geometry operations with respect to this plane. we
+analysed flexion and abduction movement patterns using real data, extracting
+the movement trajectories. our preliminary results show that this method allows
+an automatic discrimination of hands with rheumatoid arthritis (ra) and healthy
+patients. the angle between joints can be used as an indicative of current
+movement capabilities and function. although the measurements can be noisy and
+less accurate than those obtained statically through goniometry, the
+acquisition is much easier, non-invasive and patient-friendly, which shows the
+potential of our approach. the system can be used with and without orthosis.
+our framework allows the acquisition of measurements with minimal intervention
+and significantly reduces the evaluation time.

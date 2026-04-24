@@ -1,0 +1,8 @@
+we present improved methods of using structured svms in a large-scale
+hierarchical classification problem, that is when labels are leaves, or sets of
+leaves, in a tree or a dag. we examine the need to normalize both the
+regularization and the margin and show how doing so significantly improves
+performance, including allowing achieving state-of-the-art results where
+unnormalized structured svms do not perform better than flat models. we also
+describe a further extension of hierarchical svms that highlight the connection
+between hierarchical svms and matrix factorization models.

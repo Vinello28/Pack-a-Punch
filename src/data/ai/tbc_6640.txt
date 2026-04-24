@@ -1,0 +1,11 @@
+with the widespread use of the internet, the size of the text data increases
+day by day. poems can be given as an example of the growing text. in this
+study, we aim to classify poetry according to poet. firstly, data set
+consisting of three different poetry of poets written in english have been
+constructed. then, text categorization techniques are implemented on it.
+chi-square technique are used for feature selection. in addition, five
+different classification algorithms are tried. these algorithms are sequential
+minimal optimization, naive bayes, c4.5 decision tree, random forest and
+k-nearest neighbors. although each classifier showed very different results,
+over the 70% classification success rate was taken by sequential minimal
+optimization technique.

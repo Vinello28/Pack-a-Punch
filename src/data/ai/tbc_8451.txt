@@ -1,0 +1,14 @@
+latent dirichlet allocation (lda) is a widely-used probabilistic topic
+modeling paradigm, and recently finds many applications in computer vision and
+computational biology. in this paper, we propose a fast and accurate batch
+algorithm, active belief propagation (abp), for training lda. usually batch lda
+algorithms require repeated scanning of the entire corpus and searching the
+complete topic space. to process massive corpora having a large number of
+topics, the training iteration of batch lda algorithms is often inefficient and
+time-consuming. to accelerate the training speed, abp actively scans the subset
+of corpus and searches the subset of topic space for topic modeling, therefore
+saves enormous training time in each iteration. to ensure accuracy, abp selects
+only those documents and topics that contribute to the largest residuals within
+the residual belief propagation (rbp) framework. on four real-world corpora,
+abp performs around $10$ to $100$ times faster than state-of-the-art batch lda
+algorithms with a comparable topic modeling accuracy.

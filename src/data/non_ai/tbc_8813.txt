@@ -1,0 +1,1 @@
+Sviluppo sistema per l'automazione dei processi di registrazione delle fatture (attive e passive) in contabilitÃ .

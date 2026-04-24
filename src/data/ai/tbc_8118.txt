@@ -1,0 +1,13 @@
+in this paper, we address the challenging problem of spatial and temporal
+action detection in videos. we first develop an effective approach to localize
+frame-level action regions through integrating static and kinematic information
+by the early- and late-fusion detection scheme. with the intention of exploring
+important temporal connections among the detected action regions, we propose a
+tracking-by-point-matching algorithm to stitch the discrete action regions into
+a continuous spatio-temporal action tube. recurrent 3d convolutional neural
+network is used to predict action categories and determine temporal boundaries
+of the generated tubes. we then introduce an action footprint map to refine the
+candidate tubes based on the action-specific spatial characteristics preserved
+in the convolutional layers of r3dcnn. in the extensive experiments, our method
+achieves superior detection results on the three public benchmark datasets:
+ucfsports, j-hmdb and ucf101.

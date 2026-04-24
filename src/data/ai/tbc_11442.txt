@@ -1,0 +1,12 @@
+in this paper we address the issue of output instability of deep neural
+networks: small perturbations in the visual input can significantly distort the
+feature embeddings and output of a neural network. such instability affects
+many deep architectures with state-of-the-art performance on a wide range of
+computer vision tasks. we present a general stability training method to
+stabilize deep networks against small input distortions that result from
+various types of common image processing, such as compression, rescaling, and
+cropping. we validate our method by stabilizing the state-of-the-art inception
+architecture against these types of distortions. in addition, we demonstrate
+that our stabilized model gives robust state-of-the-art performance on
+large-scale near-duplicate detection, similar-image ranking, and classification
+on noisy datasets.

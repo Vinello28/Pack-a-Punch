@@ -1,0 +1,5 @@
+in the recent years it turned out that multidimensional recurrent neural
+networks (mdrnn) perform very well for offline handwriting recognition tasks
+like the openhart 2013 evaluation dir. with suitable writing preprocessing and
+dictionary lookup, our argus software completed this task with an error rate of
+26.27% in its primary setup.

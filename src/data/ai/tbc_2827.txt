@@ -1,0 +1,21 @@
+evaluating expression of the human epidermal growth factor receptor 2 (her2)
+by visual examination of immunohistochemistry (ihc) on invasive breast cancer
+(bca) is a key part of the diagnostic assessment of bca due to its recognised
+importance as a predictive and prognostic marker in clinical practice. however,
+visual scoring of her2 is subjective and consequently prone to inter-observer
+variability. given the prognostic and therapeutic implications of her2 scoring,
+a more objective method is required. in this paper, we report on a recent
+automated her2 scoring contest, held in conjunction with the annual pathsoc
+meeting held in nottingham in june 2016, aimed at systematically comparing and
+advancing the state-of-the-art artificial intelligence (ai) based automated
+methods for her2 scoring. the contest dataset comprised of digitised whole
+slide images (wsi) of sections from 86 cases of invasive breast carcinoma
+stained with both haematoxylin & eosin (h&e) and ihc for her2. the contesting
+algorithms automatically predicted scores of the ihc slides for an unseen
+subset of the dataset and the predicted scores were compared with the 'ground
+truth' (a consensus score from at least two experts). we also report on a
+simple man vs machine contest for the scoring of her2 and show that the
+automated methods could beat the pathology experts on this contest dataset.
+this paper presents a benchmark for comparing the performance of automated
+algorithms for scoring of her2. it also demonstrates the enormous potential of
+automated algorithms in assisting the pathologist with objective ihc scoring.

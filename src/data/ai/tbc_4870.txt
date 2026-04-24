@@ -1,0 +1,1 @@
+the weber fechner law of psychophysics observes that human perception is logarithmic in the stimulus. we present an algorithm for incorporating the weber fechner law into loss functions for machine learning, and use the algorithm to enhance the performance of deep learning networks.

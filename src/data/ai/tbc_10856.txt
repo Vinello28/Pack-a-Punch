@@ -1,0 +1,6 @@
+the quantization error (qe) from som applied on time series of spatial
+contrast images with variable relative amount of white and dark pixel contents,
+as in monochromatic medical images or satellite images, is proven a reliable
+indicator of potentially critical changes in image homogeneity. the qe is shown
+to increase linearly with the variability in spatial contrast contents across
+time when contrast intensity is kept constant.

@@ -1,0 +1,10 @@
+for a certain class of distributions, we prove that the linear programming
+relaxation of $k$-medoids clustering---a variant of $k$-means clustering where
+means are replaced by exemplars from within the dataset---distinguishes points
+drawn from nonoverlapping balls with high probability once the number of points
+drawn and the separation distance between any two balls are sufficiently large.
+our results hold in the nontrivial regime where the separation distance is
+small enough that points drawn from different balls may be closer to each other
+than points drawn from the same ball; in this case, clustering by thresholding
+pairwise distances between points can fail. we also exhibit numerical evidence
+of high-probability recovery in a substantially more permissive regime.

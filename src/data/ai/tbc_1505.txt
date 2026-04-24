@@ -1,0 +1,19 @@
+saliency integration has attracted much attention on unifying saliency maps
+from multiple saliency models. previous offline integration methods usually
+face two challenges: 1. if most of the candidate saliency models misjudge the
+saliency on an image, the integration result will lean heavily on those
+inferior candidate models; 2. an unawareness of the ground truth saliency
+labels brings difficulty in estimating the expertise of each candidate model.
+to address these problems, in this paper, we propose an arbitrator model (am)
+for saliency integration. firstly, we incorporate the consensus of multiple
+saliency models and the external knowledge into a reference map to effectively
+rectify the misleading by candidate models. secondly, our quest for ways of
+estimating the expertise of the saliency models without ground truth labels
+gives rise to two distinct online model-expertise estimation methods. finally,
+we derive a bayesian integration framework to reconcile the saliency models of
+varying expertise and the reference map. to extensively evaluate the proposed
+am model, we test twenty-seven state-of-the-art saliency models, covering both
+traditional and deep learning ones, on various combinations over four datasets.
+the evaluation results show that the am model improves the performance
+substantially compared to the existing state-of-the-art integration methods,
+regardless of the chosen candidate saliency models.

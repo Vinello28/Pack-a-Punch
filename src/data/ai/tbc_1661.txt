@@ -1,0 +1,17 @@
+in flanders, all tv shows are subtitled. however, the process of subtitling
+is a very time-consuming one and can be sped up by providing the output of a
+speech recognizer run on the audio of the tv show, prior to the subtitling.
+naturally, this speech recognition will perform much better if the employed
+language model is adapted to the register and the topic of the program. we
+present several language models trained on subtitles of television shows
+provided by the flemish public-service broadcaster vrt. this data was gathered
+in the context of the project ston which has as purpose to facilitate the
+process of subtitling tv shows. one model is trained on all available data (46m
+word tokens), but we also trained models on a specific type of tv show or
+domain/topic. language models of spoken language are quite rare due to the lack
+of training data. the size of this corpus is relatively large for a corpus of
+spoken language (compare with e.g. cgn which has 9m words), but still rather
+small for a language model. thus, in practice it is advised to interpolate
+these models with a large background language model trained on written
+language. the models can be freely downloaded on
+http://www.esat.kuleuven.be/psi/spraak/downloads/.

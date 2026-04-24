@@ -1,0 +1,6 @@
+we propose a method to improve image clustering using sparse text and the
+wisdom of the crowds. in particular, we present a method to fuse two different
+kinds of document features, image and text features, and use a common
+dictionary or "wisdom of the crowds" as the connection between the two
+different kinds of documents. with the proposed fusion matrix, we use topic
+modeling via non-negative matrix factorization to cluster documents.

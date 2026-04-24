@@ -1,0 +1,11 @@
+secure aggregation protocols allow a collection of mutually distrust parties,
+each holding a private value, to collaboratively compute the sum of those
+values without revealing the values themselves. we consider training a deep
+neural network in the federated learning model, using distributed stochastic
+gradient descent across user-held training data on mobile devices, wherein
+secure aggregation protects each user's model gradient. we design a novel,
+communication-efficient secure aggregation protocol for high-dimensional data
+that tolerates up to 1/3 users failing to complete the protocol. for 16-bit
+input values, our protocol offers 1.73x communication expansion for $2^{10}$
+users and $2^{20}$-dimensional vectors, and 1.98x expansion for $2^{14}$ users
+and $2^{24}$ dimensional vectors.

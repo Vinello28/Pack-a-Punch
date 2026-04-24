@@ -1,0 +1,1 @@
+Il progetto sviluppa un sistema di conversazione basato su IA per facilitare l'accesso ai servizi sanitari locali  superando ostacoli linguistici e burocratici. Utilizzando modelli avanzati  mira a migliorare la comunicazione tra pazienti e operatori  riducendo le visite fisiche e ottimizzando la gestione delle malattie croniche  soprattutto in aree remote.

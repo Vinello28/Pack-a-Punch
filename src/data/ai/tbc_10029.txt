@@ -1,0 +1,1 @@
+this paper presents the participation of {\#}warteam in task 6 of semeval2017 with a system classifying humor by comparing and ranking tweets. the training data consists of annotated tweets from the @midnight tv show. {\#}warteam{'}s system uses a neural network (tensorflow) having inputs from a na{\"\i}ve bayes humor classifier and a sentiment analyzer.

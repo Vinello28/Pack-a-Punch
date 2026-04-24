@@ -1,0 +1,9 @@
+in this paper, we propose a semi-supervised dictionary learning method that
+uses both the information in labelled and unlabelled data and jointly trains a
+linear classifier embedded on the sparse codes. the manifold structure of the
+data in the sparse code space is preserved using the same approach as the
+locally linear embedding method (lle). this enables one to enforce the
+predictive power of the unlabelled data sparse codes. we show that our approach
+provides significant improvements over other methods. the results can be
+further improved by training a simple nonlinear classifier as svm on the sparse
+codes.

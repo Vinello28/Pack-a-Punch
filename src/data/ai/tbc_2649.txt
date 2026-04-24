@@ -1,0 +1,20 @@
+mental health conditions cause a great deal of distress or impairment;
+depression alone will affect 11% of the world's population. the application of
+artificial intelligence (ai) and big-data technologies to mental health has
+great potential for personalizing treatment selection, prognosticating,
+monitoring for relapse, detecting and helping to prevent mental health
+conditions before they reach clinical-level symptomatology, and even delivering
+some treatments. however, unlike similar applications in other fields of
+medicine, there are several unique challenges in mental health applications
+which currently pose barriers towards the implementation of these technologies.
+specifically, there are very few widely used or validated biomarkers in mental
+health, leading to a heavy reliance on patient and clinician derived
+questionnaire data as well as interpretation of new signals such as digital
+phenotyping. in addition, diagnosis also lacks the same objective 'gold
+standard' as in other conditions such as oncology, where clinicians and
+researchers can often rely on pathological analysis for confirmation of
+diagnosis. in this chapter we discuss the major opportunities, limitations and
+techniques used for improving mental healthcare through ai and big-data. we
+explore both the computational, clinical and ethical considerations and best
+practices as well as lay out the major researcher directions for the near
+future.

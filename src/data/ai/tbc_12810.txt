@@ -1,0 +1,16 @@
+convolutional neural networks (cnns) have been successfully used for brain
+tumor segmentation, specifically, fully convolutional networks (fcns). fcns can
+segment a set of voxels at once, having a direct spatial correspondence between
+units in feature maps (fms) at a given location and the corresponding
+classified voxels. in convolutional layers, fms are merged to create new fms,
+so, channel combination is crucial. however, not all fms have the same
+relevance for a given class. recently, in classification problems,
+squeeze-and-excitation (se) blocks have been proposed to re-calibrate fms as a
+whole, and suppress the less informative ones. however, this is not optimal in
+fcn due to the spatial correspondence between units and voxels. in this
+article, we propose feature recombination through linear expansion and
+compression to create more complex features for semantic segmentation.
+additionally, we propose a segmentation se (segse) block for feature
+recalibration that collects contextual information, while maintaining the
+spatial meaning. finally, we evaluate the proposed methods in brain tumor
+segmentation, using publicly available data.

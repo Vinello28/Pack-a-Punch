@@ -1,0 +1,12 @@
+sparse pseudo-point approximations for gaussian process (gp) models provide a
+suite of methods that support deployment of gps in the large data regime and
+enable analytic intractabilities to be sidestepped. however, the field lacks a
+principled method to handle streaming data in which both the posterior
+distribution over function values and the hyperparameter estimates are updated
+in an online fashion. the small number of existing approaches either use
+suboptimal hand-crafted heuristics for hyperparameter learning, or suffer from
+catastrophic forgetting or slow updating when new data arrive. this paper
+develops a new principled framework for deploying gaussian process
+probabilistic models in the streaming setting, providing methods for learning
+hyperparameters and optimising pseudo-input locations. the proposed framework
+is assessed using synthetic and real-world datasets.

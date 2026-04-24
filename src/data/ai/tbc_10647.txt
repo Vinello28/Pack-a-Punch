@@ -1,0 +1,18 @@
+in online display advertising, guaranteed contracts and real-time bidding
+(rtb) are two major ways to sell impressions for a publisher. despite the
+increasing popularity of rtb, there is still half of online display advertising
+revenue generated from guaranteed contracts. therefore, simultaneously selling
+impressions through both guaranteed contracts and rtb is a straightforward
+choice for a publisher to maximize its yield. however, deriving the optimal
+strategy to allocate impressions is not a trivial task, especially when the
+environment is unstable in real-world applications. in this paper, we formulate
+the impression allocation problem as an auction problem where each contract can
+submit virtual bids for individual impressions. with this formulation, we
+derive the optimal impression allocation strategy by solving the optimal
+bidding functions for contracts. since the bids from contracts are decided by
+the publisher, we propose a multi-agent reinforcement learning (marl) approach
+to derive cooperative policies for the publisher to maximize its yield in an
+unstable environment. the proposed approach also resolves the common challenges
+in marl such as input dimension explosion, reward credit assignment, and
+non-stationary environment. experimental evaluations on large-scale real
+datasets demonstrate the effectiveness of our approach.

@@ -1,0 +1,20 @@
+we present the first real-time human performance capture approach that
+reconstructs dense, space-time coherent deforming geometry of entire humans in
+general everyday clothing from just a single rgb video. we propose a novel
+two-stage analysis-by-synthesis optimization whose formulation and
+implementation are designed for high performance. in the first stage, a skinned
+template model is jointly fitted to background subtracted input video, 2d and
+3d skeleton joint positions found using a deep neural network, and a set of
+sparse facial landmark detections. in the second stage, dense non-rigid 3d
+deformations of skin and even loose apparel are captured based on a novel
+real-time capable algorithm for non-rigid tracking using dense photometric and
+silhouette constraints. our novel energy formulation leverages automatically
+identified material regions on the template to model the differing non-rigid
+deformation behavior of skin and apparel. the two resulting non-linear
+optimization problems per-frame are solved with specially-tailored
+data-parallel gauss-newton solvers. in order to achieve real-time performance
+of over 25hz, we design a pipelined parallel architecture using the cpu and two
+commodity gpus. our method is the first real-time monocular approach for
+full-body performance capture. our method yields comparable accuracy with
+off-line performance capture techniques, while being orders of magnitude
+faster.

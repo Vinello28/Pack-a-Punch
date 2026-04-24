@@ -1,0 +1,12 @@
+next to the high performance, the essential feature of the multiprocessor
+systems is their fault-tolerant capability. in this regard, fault-tolerant
+interconnection networks and especially fault-tolerant routing methods are
+crucial parts of these systems. hypercube is a popular interconnection network
+that is used in many multiprocessors. there are several suggested practices for
+fault tolerant routing in these systems. in this paper, a neural routing method
+is introduced which is named as fault avoidance routing (far). this method
+keeps the message as far from the faulty nodes as possible. the proposed method
+employs the hopfield neural network. in comparison with other neural routing
+methods, far requires a small number of neurons. the simulation results show
+that far has excellent performance in larger interconnection networks and
+networks with a high density of faulty nodes.

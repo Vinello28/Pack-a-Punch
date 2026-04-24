@@ -1,0 +1,18 @@
+with the increased availability of large databases of electronic health
+records (ehrs) comes the chance of enhancing health risks screening. most
+post-marketing detections of adverse drug reaction (adr) rely on physicians'
+spontaneous reports, leading to under reporting. to take up this challenge, we
+develop a scalable model to estimate the effect of multiple longitudinal
+features (drug exposures) on a rare longitudinal outcome. our procedure is
+based on a conditional poisson model also known as self-controlled case series
+(sccs). we model the intensity of outcomes using a convolution between
+exposures and step functions, that are penalized using a combination of
+group-lasso and total-variation. this approach does not require the
+specification of precise risk periods, and allows to study in the same model
+several exposures at the same time. we illustrate the fact that this approach
+improves the state-of-the-art for the estimation of the relative risks both on
+simulations and on a cohort of diabetic patients, extracted from the large
+french national health insurance database (sniiram), a sql database built
+around medical reimbursements of more than 65 million people. this work has
+been done in the context of a research partnership between ecole polytechnique
+and cnamts (in charge of sniiram).

@@ -1,0 +1,1 @@
+Implementazione di un sistema di smart contract  basato su architettura blochckain  in grado di tracciare i processi interni tra le aziende del gruppo e Partner di FORFIRM

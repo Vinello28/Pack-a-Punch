@@ -1,0 +1,11 @@
+photonic neural network implementations have been gaining considerable
+attention as a potentially disruptive future technology. demonstrating learning
+in large scale neural networks is essential to establish photonic machine
+learning substrates as viable information processing systems. realizing
+photonic neural networks with numerous nonlinear nodes in a fully parallel and
+efficient learning hardware was lacking so far. we demonstrate a network of up
+to 2500 diffractively coupled photonic nodes, forming a large scale recurrent
+neural network. using a digital micro mirror device, we realize reinforcement
+learning. our scheme is fully parallel, and the passive weights maximize energy
+efficiency and bandwidth. the computational output efficiently converges and we
+achieve very good performance.

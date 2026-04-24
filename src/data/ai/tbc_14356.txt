@@ -1,0 +1,15 @@
+the state-of-the-art method for automatically segmenting white matter bundles
+in diffusion-weighted mri is tractography in conjunction with streamline
+cluster selection. this process involves long chains of processing steps which
+are not only computationally expensive but also complex to setup and tedious
+with respect to quality control. direct bundle segmentation methods treat the
+task as a traditional image segmentation problem. while they so far did not
+deliver competitive results, they can potentially mitigate many of the
+mentioned issues. we present a novel supervised approach for direct tract
+segmentation that shows major performance gains. it builds upon a stacked u-net
+architecture which is trained on manual bundle segmentations from human
+connectome project subjects. we evaluate our approach \textit{in vivo} as well
+as \textit{in silico} using the ismrm 2015 tractography challenge phantom
+dataset. we achieve human segmentation performance and a major performance gain
+over previous pipelines. we show how the learned spatial priors efficiently
+guide the segmentation even at lower image qualities with little quality loss.

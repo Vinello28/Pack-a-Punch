@@ -1,0 +1,1 @@
+Virtual Storage per la Fast Reserve e servizi integrati di inerzia sintetica  peak shaving e load levelling

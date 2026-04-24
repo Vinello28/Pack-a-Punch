@@ -1,0 +1,25 @@
+a new low-dimensional parameterization based on principal component analysis
+(pca) and convolutional neural networks (cnn) is developed to represent complex
+geological models. the cnn-pca method is inspired by recent developments in
+computer vision using deep learning. cnn-pca can be viewed as a generalization
+of an existing optimization-based pca (o-pca) method. both cnn-pca and o-pca
+entail post-processing a pca model to better honor complex geological features.
+in cnn-pca, rather than use a histogram-based regularization as in o-pca, a new
+regularization involving a set of metrics for multipoint statistics is
+introduced. the metrics are based on summary statistics of the nonlinear filter
+responses of geological models to a pre-trained deep cnn. in addition, in the
+cnn-pca formulation presented here, a convolutional neural network is trained
+as an explicit transform function that can post-process pca models quickly.
+cnn-pca is shown to provide both unconditional and conditional realizations
+that honor the geological features present in reference sgems geostatistical
+realizations for a binary channelized system. flow statistics obtained through
+simulation of random cnn-pca models closely match results for random sgems
+models for a demanding case in which o-pca models lead to significant
+discrepancies. results for history matching are also presented. in this
+assessment cnn-pca is applied with derivative-free optimization, and a subspace
+randomized maximum likelihood method is used to provide multiple posterior
+models. data assimilation and significant uncertainty reduction are achieved
+for existing wells, and physically reasonable predictions are also obtained for
+new wells. finally, the cnn-pca method is extended to a more complex
+non-stationary bimodal deltaic fan system, and is shown to provide high-quality
+realizations for this challenging example.

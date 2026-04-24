@@ -1,0 +1,11 @@
+we present cyclades, a general framework for parallelizing stochastic
+optimization algorithms in a shared memory setting. cyclades is asynchronous
+during shared model updates, and requires no memory locking mechanisms, similar
+to hogwild!-type algorithms. unlike hogwild!, cyclades introduces no conflicts
+during the parallel execution, and offers a black-box analysis for provable
+speedups across a large family of algorithms. due to its inherent conflict-free
+nature and cache locality, our multi-core implementation of cyclades
+consistently outperforms hogwild!-type algorithms on sufficiently sparse
+datasets, leading to up to 40% speedup gains compared to the hogwild!
+implementation of sgd, and up to 5x gains over asynchronous implementations of
+variance reduction algorithms.

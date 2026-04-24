@@ -1,0 +1,14 @@
+most network embedding algorithms consist in measuring co-occurrences of
+nodes via random walks then learning the embeddings using skip-gram with
+negative sampling. while it has proven to be a relevant choice, there are
+alternatives, such as glove, which has not been investigated yet for network
+embedding. even though sgns better handles non co-occurrence than glove, it has
+a worse time-complexity. in this paper, we propose a matrix factorization
+approach for network embedding, inspired by glove, that better handles non
+co-occurrence with a competitive time-complexity. we also show how to extend
+this model to deal with networks where nodes are documents, by simultaneously
+learning word, node and document representations. quantitative evaluations show
+that our model achieves state-of-the-art performance, while not being so
+sensitive to the choice of hyper-parameters. qualitatively speaking, we show
+how our model helps exploring a network of documents by generating
+complementary network-oriented and content-oriented keywords.

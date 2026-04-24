@@ -1,0 +1,1 @@
+AvIoT - Un sistema IoT multisensore per servizi di comunicazione real-time su piattaforma Cloud in ambito avionico

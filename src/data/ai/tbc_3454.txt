@@ -1,0 +1,15 @@
+anomaly detection in dynamic graphs becomes
+very critical in many different application scenarios, e.g., recommender systems, while it also raises
+huge challenges due to the high flexible nature of
+anomaly and lack of sufficient labelled data. it is
+better to learn the anomaly patterns by considering all possible hints including the structural, content and temporal features, rather than utilizing
+heuristic rules over the partial features. in this paper, we propose addgraph, a general end-to-end
+anomalous edge detection framework using an extended temporal gcn (graph convolutional network) with an attention model, which can capture
+both long-term patterns and the short-term patterns
+in dynamic graphs. in order to cope with insuffi-
+cient explicit labelled data, we employ a selective
+negative sampling and margin loss in training of
+addgraph in a semi-supervised fashion. we conduct extensive experiments on real-world datasets,
+and illustrate that addgraph can outperform the
+state-of-the-art competitors in anomaly detection
+significantly

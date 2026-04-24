@@ -1,0 +1,10 @@
+we present a new approach for detecting related crime series, by unsupervised
+learning of the latent feature embeddings from narratives of crime record via
+the gaussian-bernoulli restricted boltzmann machines (rbm). this is a
+drastically different approach from prior work on crime analysis, which
+typically considers only time and location and at most category information.
+after the embedding, related cases are closer to each other in the euclidean
+feature space, and the unrelated cases are far apart, which is a good property
+can enable subsequent analysis such as detection and clustering of related
+cases. experiments over several series of related crime incidents hand labeled
+by the atlanta police department reveal the promise of our embedding methods.

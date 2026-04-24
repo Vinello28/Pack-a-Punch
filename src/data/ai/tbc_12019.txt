@@ -1,0 +1,15 @@
+emotion recognition from facial expressions is tremendously useful,
+especially when coupled with smart devices and wireless multimedia
+applications. however, the inadequate network bandwidth often limits the
+spatial resolution of the transmitted video, which will heavily degrade the
+recognition reliability. we develop a novel framework to achieve robust emotion
+recognition from low bit rate video. while video frames are downsampled at the
+encoder side, the decoder is embedded with a deep network model for joint
+super-resolution (sr) and recognition. notably, we propose a novel max-mix
+training strategy, leading to a single "one-for-all" model that is remarkably
+robust to a vast range of downsampling factors. that makes our framework well
+adapted for the varied bandwidths in real transmission scenarios, without
+hampering scalability or efficiency. the proposed framework is evaluated on the
+avec 2016 benchmark, and demonstrates significantly improved stand-alone
+recognition performance, as well as rate-distortion (r-d) performance, than
+either directly recognizing from lr frames, or separating sr and recognition.

@@ -1,0 +1,10 @@
+market making is a fundamental trading problem in which an agent provides
+liquidity by continually offering to buy and sell a security. the problem is
+challenging due to inventory risk, the risk of accumulating an unfavourable
+position and ultimately losing money. in this paper, we develop a high-fidelity
+simulation of limit order book markets, and use it to design a market making
+agent using temporal-difference reinforcement learning. we use a linear
+combination of tile codings as a value function approximator, and design a
+custom reward function that controls inventory risk. we demonstrate the
+effectiveness of our approach by showing that our agent outperforms both simple
+benchmark strategies and a recent online learning approach from the literature.

@@ -1,0 +1,15 @@
+we present a new classification method for quasar identification in the
+eros-2 and macho datasets based on a boosted version of random forest
+classifier. we use a set of variability features including parameters of a
+continuous auto regressive model. we prove that continuous auto regressive
+parameters are very important discriminators in the classification process. we
+create two training sets (one for eros-2 and one for macho datasets) using
+known quasars found in the lmc. our model's accuracy in both eros-2 and macho
+training sets is about 90% precision and 86% recall, improving the state of the
+art models accuracy in quasar detection. we apply the model on the complete,
+including 28 million objects, eros-2 and macho lmc datasets, finding 1160 and
+2551 candidates respectively. to further validate our list of candidates, we
+crossmatched our list with a previous 663 known strong candidates, getting 74%
+of matches for macho and 40% in eros-2. the main difference on matching level
+is because eros-2 is a slightly shallower survey which translates to
+significantly lower signal-to-noise ratio lightcurves.

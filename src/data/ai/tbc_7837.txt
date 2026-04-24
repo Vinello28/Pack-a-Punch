@@ -1,0 +1,15 @@
+the knn approach, which is widely used in recommender systems because of its
+efficiency, robustness and interpretability, is proposed for session-based
+recommendation recently and outperforms recurrent neural network models. it
+captures the most recent co-occurrence information of items by considering the
+interaction time. however, it neglects the co-occurrence information of items
+in the historical behavior which is interacted earlier and cannot discriminate
+the impact of items and sessions with different popularity. due to these
+observations, this paper presents a new contextual knn approach to address
+these issues for session-based recommendation. specifically, a diffusion-based
+similarity method is proposed for considering the popularity of vertices in
+session-item bipartite network, and a candidate selection method is proposed to
+capture the items that are co-occurred with different historical clicked items
+in the same session efficiently. comprehensive experiments are conducted to
+demonstrate the effectiveness of our knn approach over the state-of-the-art knn
+approach for session-based recommendation on three benchmark datasets.

@@ -1,0 +1,13 @@
+building on a specific formalization of analogical relationships of the form
+"a relates to b as c relates to d", we establish a connection between two
+important subfields of artificial intelligence, namely analogical reasoning and
+kernel-based machine learning. more specifically, we show that so-called
+analogical proportions are closely connected to kernel functions on pairs of
+objects. based on this result, we introduce the analogy kernel, which can be
+seen as a measure of how strongly four objects are in analogical relationship.
+as an application, we consider the problem of object ranking in the realm of
+preference learning, for which we develop a new method based on support vector
+machines trained with the analogy kernel. our first experimental results for
+data sets from different domains (sports, education, tourism, etc.) are
+promising and suggest that our approach is competitive to state-of-the-art
+algorithms in terms of predictive accuracy.

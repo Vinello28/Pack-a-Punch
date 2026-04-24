@@ -1,0 +1,1 @@
+Il presente progetto consiste nell'adeguamento tecnologico in vista della futura introduzione dell'obbligo della fatturazione elettronica. Pertanto Ã¨ necessario lo sviluppo di un software che automatizzi il processo e l'acquisto di due computer.

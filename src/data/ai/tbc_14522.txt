@@ -1,0 +1,15 @@
+this document gives a knowledge-oriented analysis of about 20 interesting
+recognizing textual entailment (rte) examples, drawn from the 2005 rte5
+competition test set. the analysis ignores shallow statistical matching
+techniques between t and h, and rather asks: what would it take to reasonably
+infer that t implies h? what world knowledge would be needed for this task?
+although such knowledge-intensive techniques have not had much success in rte
+evaluations, ultimately an intelligent system should be expected to know and
+deploy this kind of world knowledge required to perform this kind of reasoning.
+  the selected examples are typically ones which our rte system (called blue)
+got wrong and ones which require world knowledge to answer. in particular, the
+analysis covers cases where there was near-perfect lexical overlap between t
+and h, yet the entailment was no, i.e., examples that most likely all current
+rte systems will have got wrong. a nice example is #341 (page 26), that
+requires inferring from "a river floods" that "a river overflows its banks".
+seems it should be easy, right? enjoy!

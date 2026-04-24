@@ -1,0 +1,15 @@
+autonomous vehicles (av) are expected to bring considerable benefits to
+society, such as traffic optimization and accidents reduction. they rely
+heavily on advances in many artificial intelligence (ai) approaches and
+techniques. however, while some researchers in this field believe ai is the
+core element to enhance safety, others believe ai imposes new challenges to
+assure the safety of these new ai-based systems and applications. in this
+non-convergent context, this paper presents a systematic literature review to
+paint a clear picture of the state of the art of the literature in ai on av
+safety. based on an initial sample of 4870 retrieved papers, 59 studies were
+selected as the result of the selection criteria detailed in the paper. the
+shortlisted studies were then mapped into six categories to answer the proposed
+research questions. an av system model was proposed and applied to orient the
+discussions about the slr findings. as a main result, we have reinforced our
+preliminary observation about the necessity of considering a serious safety
+agenda for the future studies on ai-based av systems.

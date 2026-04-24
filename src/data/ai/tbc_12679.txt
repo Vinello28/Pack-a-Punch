@@ -1,0 +1,22 @@
+the widely used model for evolutionary relationships is a bifurcating tree
+with all taxa/observations placed at the leaves. this is not appropriate if the
+taxa have been densely sampled across evolutionary time and may be in a direct
+ancestral relationship, or if there is not enough information to fully resolve
+all the branching points in the evolutionary tree. in this paper, we present a
+fast distance-based agglomeration method called family-joining (fj) for
+constructing so-called generally labeled trees in which taxa may be placed at
+internal vertices and the tree may contain polytomies. fj constructs such trees
+on the basis of pairwise distances and a distance threshold. we tested three
+methods for threshold selection, fj-aic, fj-bic and fj-cv, which minimize
+akaike information criterion, bayesian information criterion, and
+cross-validation error, respectively. when compared with related methods on
+simulated data, fj-bic was among the best at reconstructing the correct tree
+across a wide range of simulation scenarios. fj-bic was applied to hiv
+sequences sampled from individuals involved in a known transmission chain. the
+fj-bic tree was found to be compatible with almost all transmission events. on
+average, internal branches in the fj-bic tree have higher bootstrap support
+than branches in the leaf-labeled bifurcating tree constructed using raxml.
+$36\%$ and $25\%$ of the internal branches in the fj-bic tree and raxml tree,
+respectively, have bootstrap support greater than $70\%$. to the best of our
+knowledge the method presented here is the first attempt at modeling
+evolutionary relationships using generally labeled trees.

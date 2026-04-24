@@ -1,0 +1,19 @@
+in most recent years, deep convolutional neural networks (dcnns) based image
+super-resolution (sr) has gained increasing attention in multimedia and
+computer vision communities, focusing on restoring the high-resolution (hr)
+image from a low-resolution (lr) image. however, one nonnegligible flaw of
+dcnns based methods is that most of them are not able to restore
+high-resolution images containing sufficient high-frequency information from
+low-resolution images with low-frequency information redundancy. worse still,
+as the depth of dcnns increases, the training easily encounters the problem of
+vanishing gradients, which makes the training more difficult. these problems
+hinder the effectiveness of dcnns in image sr task. to solve these problems, we
+propose the multi-view aware attention networks (maanet) for image sr task.
+specifically, we propose the local aware (la) and global aware (ga) attention
+to deal with lr features in unequal manners, which can highlight the
+high-frequency components and discriminate each feature from lr images in the
+local and the global views, respectively. furthermore, we propose the local
+attentive residual-dense (lard) block, which combines the la attention with
+multiple residual and dense connections, to fit a deeper yet easy to train
+architecture. the experimental results show that our proposed approach can
+achieve remarkable performance compared with other state-of-the-art methods.

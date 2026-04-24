@@ -1,0 +1,10 @@
+neuroethology has been an active field of study for more than a century now.
+out of some of the most interesting species that has been studied so far,
+weakly electric fish is a fascinating one. it performs communication,
+echo-location and inter-species detection efficiently with an interesting
+configuration of sensors, neu-rons and a simple brain. in this paper we propose
+a cognitive architecture inspired by the way these fishes handle and process
+information. we believe that it is eas-ier to understand and mimic the neural
+architectures of a simpler species than that of human. hence, the proposed
+architecture is expected to both help research in cognitive robotics and also
+help understand more complicated brains like that of human beings.

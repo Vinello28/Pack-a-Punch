@@ -1,0 +1,10 @@
+non-availability of reliable and sustainable electric power is a major
+problem in the developing world. renewable energy sources like solar are not
+very lucrative in the current stage due to various uncertainties like weather,
+storage, land use among others. there also exists various other issues like
+mis-commitment of power, absence of intelligent fault analysis, congestion,
+etc. in this paper, we propose a novel deep learning-based system for
+predicting faults and selecting power generators optimally so as to reduce
+costs and ensure higher reliability in solar power systems. the results are
+highly encouraging and they suggest that the approaches proposed in this paper
+have the potential to be applied successfully in the developing world.

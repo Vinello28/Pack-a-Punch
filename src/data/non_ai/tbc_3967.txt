@@ -1,0 +1,1 @@
+Le istruzioni di lavoro in produzione oggi non sono gestite a livello informatico: per mezzo del software Solidworks Composer verranno realizzate istruzioni informatizzate con animazioni interattive 3D ed immagini line art 2D

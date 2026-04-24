@@ -1,0 +1,15 @@
+the oecd pointed out that the best way to keep students up to school is to
+intervene as early as possible [1]. using education big data and deep learning
+to predict student's score provides new resources and perspectives for early
+intervention. previous forecasting schemes often requires manual filter of
+features , a large amount of prior knowledge and expert knowledge. deep
+learning can automatically extract features without manual intervention to
+achieve better predictive performance. in this paper, the graph neural network
+matrix filling model (graph-vae) based on deep learning can automatically
+extract features without a large amount of prior knowledge. the experiment
+proves that our model is better than the traditional solution in the student's
+score dataset, and it better describes the correlation and difference between
+the students and the curriculum, and dimensionality reducing the vector of
+coding result is visualized, the clustering effect is consistent with the real
+data distribution clustering. in addition, we use gradient-based attribution
+methods to analyze the key factors that influence performance prediction.

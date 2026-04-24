@@ -1,0 +1,1 @@
+La societÃ  ha progettato la realizzazione di un algoritmo che profili il cliente cosi da permettergli   prima di acquistare un prodotto  di identificare il prodotto migliore in base alle caratteristiche personali ed alla tipologia del capello. Tale algoritmo permetterÃ  alla societÃ  di ampliare la clientela fidelizzandola ai propri prodotti.

@@ -1,0 +1,11 @@
+while an increasing interest in deep models for single-image depth estimation
+methods can be observed, established schemes for their evaluation are still
+limited. we propose a set of novel quality criteria, allowing for a more
+detailed analysis by focusing on specific characteristics of depth maps. in
+particular, we address the preservation of edges and planar regions, depth
+consistency, and absolute distance accuracy. in order to employ these metrics
+to evaluate and compare state-of-the-art single-image depth estimation
+approaches, we provide a new high-quality rgb-d dataset. we used a dslr camera
+together with a laser scanner to acquire high-resolution images and highly
+accurate depth maps. experimental results show the validity of our proposed
+evaluation protocol.

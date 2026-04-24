@@ -1,0 +1,19 @@
+class imbalance classification is a challenging research problem in data
+mining and machine learning, as most of the real-life datasets are often
+imbalanced in nature. existing learning algorithms maximise the classification
+accuracy by correctly classifying the majority class, but misclassify the
+minority class. however, the minority class instances are representing the
+concept with greater interest than the majority class instances in real-life
+applications. recently, several techniques based on sampling methods
+(under-sampling of the majority class and over-sampling the minority class),
+cost-sensitive learning methods, and ensemble learning have been used in the
+literature for classifying imbalanced datasets. in this paper, we introduce a
+new clustering-based under-sampling approach with boosting (adaboost)
+algorithm, called cusboost, for effective imbalanced classification. the
+proposed algorithm provides an alternative to rusboost (random under-sampling
+with adaboost) and smoteboost (synthetic minority over-sampling with adaboost)
+algorithms. we evaluated the performance of cusboost algorithm with the
+state-of-the-art methods based on ensemble learning like adaboost, rusboost,
+smoteboost on 13 imbalance binary and multi-class datasets with various
+imbalance ratios. the experimental results show that the cusboost is a
+promising and effective approach for dealing with highly imbalanced datasets.

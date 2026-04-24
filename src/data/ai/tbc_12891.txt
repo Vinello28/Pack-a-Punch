@@ -1,0 +1,1 @@
+the paper applies a deep recurrent neural network to the task of sentence boundary detection in sanskrit, an important, yet underresourced ancient indian language. the deep learning approach improves the f scores set by a metrical baseline and by a conditional random field classifier by more than 10{\%}.

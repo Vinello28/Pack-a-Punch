@@ -1,0 +1,10 @@
+this work targets people identification in video based on the way they walk
+(i.e. gait). while classical methods typically derive gait signatures from
+sequences of binary silhouettes, in this work we explore the use of
+convolutional neural networks (cnn) for learning high-level descriptors from
+low-level motion features (i.e. optical flow components). we carry out a
+thorough experimental evaluation of the proposed cnn architecture on the
+challenging tum-gaid dataset. the experimental results indicate that using
+spatio-temporal cuboids of optical flow as input data for cnn allows to obtain
+state-of-the-art results on the gait task with an image resolution eight times
+lower than the previously reported results (i.e. 80x60 pixels).

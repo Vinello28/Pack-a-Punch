@@ -1,0 +1,13 @@
+we recently proposed a new ensemble clustering algorithm for graphs (ecg)
+based on the concept of consensus clustering. we validated our approach by
+replicating a study comparing graph clustering algorithms over benchmark
+graphs, showing that ecg outperforms the leading algorithms. in this paper, we
+extend our comparison by considering a wider range of parameters for the
+benchmark, generating graphs with different properties. we provide new
+experimental results showing that the ecg algorithm alleviates the well-known
+resolution limit issue, and that it leads to better stability of the
+partitions. we also illustrate how the ensemble obtained with ecg can be used
+to quantify the presence of community structure in the graph, and to zoom in on
+the sub-graph most closely associated with seed vertices. finally, we
+illustrate further applications of ecg by comparing it to previous results for
+community detection on weighted graphs, and community-aware anomaly detection.

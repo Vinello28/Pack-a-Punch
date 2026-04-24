@@ -1,0 +1,17 @@
+greybox fuzzing is one of the most useful and effective techniques for the
+bug detection in large scale application programs. it uses minimal amount of
+instrumentation. american fuzzy lop (afl) is a popular coverage based
+evolutionary greybox fuzzing tool. afl performs extremely well in fuzz testing
+large applications and finding critical vulnerabilities, but afl involves a lot
+of heuristics while deciding the favored test case(s), skipping test cases
+during fuzzing, assigning fuzzing iterations to test case(s). in this work, we
+aim at replacing the heuristics the afl uses while assigning the fuzzing
+iterations to a test case during the random fuzzing. we formalize this problem
+as a `contextual bandit problem' and we propose an algorithm to solve this
+problem. we have implemented our approach on top of the afl. we modify the
+afl's heuristics with our learned model through the policy gradient method. our
+learning algorithm selects the multiplier of the number of fuzzing iterations
+to be assigned to a test case during random fuzzing, given a fixed length
+substring of the test case to be fuzzed. we fuzz the substring with this new
+energy value and continuously updates the policy based upon the interesting
+test cases it produces on fuzzing.

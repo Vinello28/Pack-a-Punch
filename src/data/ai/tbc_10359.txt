@@ -1,0 +1,12 @@
+this paper introduces a novel measure-theoretic theory for machine learning
+that does not require statistical assumptions. based on this theory, a new
+regularization method in deep learning is derived and shown to outperform
+previous methods in cifar-10, cifar-100, and svhn. moreover, the proposed
+theory provides a theoretical basis for a family of practically successful
+regularization methods in deep learning. we discuss several consequences of our
+results on one-shot learning, representation learning, deep learning, and
+curriculum learning. unlike statistical learning theory, the proposed learning
+theory analyzes each problem instance individually via measure theory, rather
+than a set of problem instances via statistics. as a result, it provides
+different types of results and insights when compared to statistical learning
+theory.

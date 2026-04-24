@@ -1,0 +1,21 @@
+with the excellent accuracy and feasibility, the neural networks have been
+widely applied into the novel intelligent applications and systems. however,
+with the appearance of the adversarial attack, the nn based system performance
+becomes extremely vulnerable:the image classification results can be
+arbitrarily misled by the adversarial examples, which are crafted images with
+human unperceivable pixel-level perturbation. as this raised a significant
+system security issue, we implemented a series of investigations on the
+adversarial attack in this work: we first identify an image's pixel
+vulnerability to the adversarial attack based on the adversarial saliency
+analysis. by comparing the analyzed saliency map and the adversarial
+perturbation distribution, we proposed a new evaluation scheme to
+comprehensively assess the adversarial attack precision and efficiency. then,
+with a novel adversarial saliency prediction method, a fast adversarial example
+generation framework, namely "asp", is proposed with significant attack
+efficiency improvement and dramatic computation cost reduction. compared to the
+previous methods, experiments show that asp has at most 12 times speed-up for
+adversarial example generation, 2 times lower perturbation rate, and high
+attack success rate of 87% on both mnist and cifar10. asp can be also well
+utilized to support the data-hungry nn adversarial training. by reducing the
+attack success rate as much as 90%, asp can quickly and effectively enhance the
+defense capability of nn based system to the adversarial attacks.

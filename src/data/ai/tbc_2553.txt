@@ -1,0 +1,5 @@
+we present torchcraft, a library that enables deep learning research on
+real-time strategy (rts) games such as starcraft: brood war, by making it
+easier to control these games from a machine learning framework, here torch.
+this white paper argues for using rts games as a benchmark for ai research, and
+describes the design and components of torchcraft.

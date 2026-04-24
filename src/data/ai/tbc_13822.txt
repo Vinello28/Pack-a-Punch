@@ -1,0 +1,7 @@
+reinforcement learning agents learn by exploring the environment and then exploiting what they have learned.
+this frees the human trainers from having to know the preferred action or intrinsic value of each encountered state.
+the cost of this freedom is reinforcement learning is slower and more unstable than supervised learning.
+we explore the possibility that ensemble methods can remedy these shortcomings and do so by investigating a novel technique which harnesses the wisdom of the crowds by bagging q-function approximator estimates.
+
+our results show that this proposed approach improves all three tasks and reinforcement learning approaches attempted.
+we are able to demonstrate that this is a direct result of the increased stability of the action portion of the state-action-value function used by q-learning to select actions and by policy gradient methods to train the policy.

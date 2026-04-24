@@ -1,0 +1,6 @@
+we describe in this paper the theory and practice behind a new modal
+clustering method for binary data. our approach (binnnms) is based on the
+nearest neighbor median shift. the median shift is an extension of the
+well-known mean shift, which was designed for continuous data, to handle binary
+data. we demonstrate that binnnms can discover accurately the location of
+clusters in binary data with theoretical and experimental analyses.

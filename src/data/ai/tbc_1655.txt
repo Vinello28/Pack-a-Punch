@@ -1,0 +1,11 @@
+currently, most of existing research in direction of arrival (doa) estimation
+is focused on single signal transmission (sst) based signal. however, to make
+full use of the degree of freedom provided by the system in the polarisation
+domain, the dual signal transmission (dst) model has been adopted more and more
+widely in wireless communications. in this work, a doa estimation method for a
+mixture of sst and dst signals (referred to as the mixed signal transmission
+(mst) model) is proposed. to our best knowledge, this is the first time to
+study the doa estimation problem for such an mst model. there are two steps in
+the proposed method, which deals with the two kinds of signals separately. the
+performance of the proposed method is compared with the cram\'{e}r-rao bound
+(crb) based on computer simulations.

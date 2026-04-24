@@ -1,0 +1,17 @@
+inter-cell interference coordination (icic) is a promising way to improve
+energy efficiency in wireless networks, especially where small base stations
+are densely deployed. however, traditional optimization based icic schemes
+suffer from severe performance degradation with complex interference pattern.
+to address this issue, we propose a deep reinforcement learning with
+deterministic policy and target (drl-dpt) framework for icic in wireless
+networks. drl-dpt overcomes the main obstacles in applying reinforcement
+learning and deep learning in wireless networks, i.e. continuous state space,
+continuous action space and convergence. firstly, a deep neural network (dnn)
+is involved as the actor to obtain deterministic power control actions in
+continuous space. then, to guarantee the convergence, an online training
+process is presented, which makes use of a dedicated reward function as the
+target rule and a policy gradient descent algorithm to adjust dnn weights.
+experimental results show that the proposed drl-dpt framework consistently
+outperforms existing schemes in terms of energy efficiency and throughput under
+different wireless interference scenarios. more specifically, it improves up to
+15% of energy efficiency with faster convergence rate.

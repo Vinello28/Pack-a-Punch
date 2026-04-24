@@ -1,0 +1,14 @@
+as an inevitable trend of future 5g networks, software defined architecture
+has many advantages in providing central- ized control and flexible resource
+management. but it is also confronted with various security challenges and
+potential threats with emerging services and technologies. as the focus of
+network security, intrusion detection systems (ids) are usually deployed
+separately without collaboration. they are also unable to detect novel attacks
+with limited intelligent abilities, which are hard to meet the needs of
+software defined 5g. in this paper, we propose an intelligent intrusion system
+taking the advances of software defined technology and artificial intelligence
+based on software defined 5g architecture. it flexibly combines security
+function mod- ules which are adaptively invoked under centralized management
+and control with a globle view. it can also deal with unknown intrusions by
+using machine learning algorithms. evaluation results prove that the
+intelligent intrusion detection system achieves a better performance.

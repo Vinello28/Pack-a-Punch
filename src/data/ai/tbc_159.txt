@@ -1,0 +1,17 @@
+autonomous robots operating in dynamic environments must maintain beliefs
+over a hypothesis space that is rich enough to represent the activities of
+interest at different scales. this is important both in order to accommodate
+the availability of evidence at varying degrees of coarseness, such as when
+interpreting and assimilating natural instructions, but also in order to make
+subsequent reactive planning more efficient. we present an algorithm that
+combines a topology-based trajectory clustering procedure that generates
+hierarchically-structured spatial abstractions with a bank of particle filters
+at each of these abstraction levels so as to produce probability estimates over
+an agent's navigation activity that is kept consistent across the hierarchy. we
+study the performance of the proposed method using a synthetic trajectory
+dataset in 2d, as well as a dataset taken from ais-based tracking of ships in
+an extended harbour area. we show that, in comparison to a baseline which is a
+particle filter that estimates activity without exploiting such structure, our
+method achieves a better normalised error in predicting the trajectory as well
+as better time to convergence to a true class when compared against ground
+truth.

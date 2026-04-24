@@ -1,0 +1,14 @@
+k-means is one of the most widely used algorithms for clustering in data
+mining applications, which attempts to minimize the sum of the square of the
+euclidean distance of the points in the clusters from the respective means of
+the clusters. however, k-means suffers from local minima problem and is not
+guaranteed to converge to the optimal cost. k-means++ tries to address the
+problem by seeding the means using a distance-based sampling scheme. however,
+seeding the means in k-means++ needs $o\left(k\right)$ sequential passes
+through the entire dataset, and this can be very costly for large datasets.
+here we propose a method of seeding the initial means based on factorizations
+of higher order moments for bounded data. our method takes $o\left(1\right)$
+passes through the entire dataset to extract the initial set of means, and its
+final cost can be proven to be within $o(\sqrt{k})$ of the optimal cost. we
+demonstrate the performance of our algorithm in comparison with the existing
+algorithms on various benchmark datasets.

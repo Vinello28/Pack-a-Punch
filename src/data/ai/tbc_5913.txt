@@ -1,0 +1,21 @@
+real-world applications could benefit from the ability to automatically
+generate a fine-grained ranking of photo aesthetics. however, previous methods
+for image aesthetics analysis have primarily focused on the coarse, binary
+categorization of images into high- or low-aesthetic categories. in this work,
+we propose to learn a deep convolutional neural network to rank photo
+aesthetics in which the relative ranking of photo aesthetics are directly
+modeled in the loss function. our model incorporates joint learning of
+meaningful photographic attributes and image content information which can help
+regularize the complicated photo aesthetics rating problem.
+  to train and analyze this model, we have assembled a new aesthetics and
+attributes database (aadb) which contains aesthetic scores and meaningful
+attributes assigned to each image by multiple human raters. anonymized rater
+identities are recorded across images allowing us to exploit intra-rater
+consistency using a novel sampling strategy when computing the ranking loss of
+training image pairs. we show the proposed sampling strategy is very effective
+and robust in face of subjective judgement of image aesthetics by individuals
+with different aesthetic tastes. experiments demonstrate that our unified model
+can generate aesthetic rankings that are more consistent with human ratings. to
+further validate our model, we show that by simply thresholding the estimated
+aesthetic scores, we are able to achieve state-or-the-art classification
+performance on the existing ava dataset benchmark.

@@ -1,0 +1,18 @@
+stereo depth estimation is used for many computer vision applications. though
+many popular methods strive solely for depth quality, for real-time mobile
+applications (e.g. prosthetic glasses or micro-uavs), speed and power
+efficiency are equally, if not more, important. many real-world systems rely on
+semi-global matching (sgm) to achieve a good accuracy vs. speed balance, but
+power efficiency is hard to achieve with conventional hardware, making the use
+of embedded devices such as fpgas attractive for low-power applications.
+however, the full sgm algorithm is ill-suited to deployment on fpgas, and so
+most fpga variants of it are partial, at the expense of accuracy. in a non-fpga
+context, the accuracy of sgm has been improved by more global matching (mgm),
+which also helps tackle the streaking artifacts that afflict sgm. in this
+paper, we propose a novel, resource-efficient method that is inspired by mgm's
+techniques for improving depth quality, but which can be implemented to run in
+real time on a low-power fpga. through evaluation on multiple datasets (kitti
+and middlebury), we show that in comparison to other real-time capable stereo
+approaches, we can achieve a state-of-the-art balance between accuracy, power
+efficiency and speed, making our approach highly desirable for use in real-time
+systems with limited power.

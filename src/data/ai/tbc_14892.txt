@@ -1,0 +1,15 @@
+we improve the performance of the american fuzzy lop (afl) fuzz testing
+framework by using generative adversarial network (gan) models to reinitialize
+the system with novel seed files. we assess performance based on the temporal
+rate at which we produce novel and unseen code paths. we compare this approach
+to seed file generation from a random draw of bytes observed in the training
+seed files. the code path lengths and variations were not sufficiently diverse
+to fully replace afl input generation. however, augmenting native afl with
+these additional code paths demonstrated improvements over afl alone.
+specifically, experiments showed the gan was faster and more effective than the
+lstm and out-performed a random augmentation strategy, as measured by the
+number of unique code paths discovered. gan helps afl discover 14.23% more code
+paths than the random strategy in the same amount of cpu time, finds 6.16% more
+unique code paths, and finds paths that are on average 13.84% longer. using gan
+shows promise as a reinitialization strategy for afl to help the fuzzer
+exercise deep paths in software.

@@ -1,0 +1,19 @@
+a link prediction (lp) algorithm is given a graph, and has to rank, for each
+node, other nodes that are candidates for new linkage. lp is strongly motivated
+by social search and recommendation applications. lp techniques often focus on
+global properties (graph conductance, hitting or commute times, katz score) or
+local properties (adamic-adar and many variations, or node feature vectors),
+but rarely combine these signals. furthermore, neither of these extremes
+exploit link densities at the intermediate level of communities. in this paper
+we describe a discriminative lp algorithm that exploits two new signals. first,
+a co-clustering algorithm provides community level link density estimates,
+which are used to qualify observed links with a surprise value. second, links
+in the immediate neighborhood of the link to be predicted are not interpreted
+at face value, but through a local model of node feature similarities. these
+signals are combined into a discriminative link predictor. we evaluate the new
+predictor using five diverse data sets that are standard in the literature. we
+report on significant accuracy boosts compared to standard lp methods
+(including adamic-adar and random walk). apart from the new predictor, another
+contribution is a rigorous protocol for benchmarking and reporting lp
+algorithms, which reveals the regions of strengths and weaknesses of all the
+predictors studied here, and establishes the new proposal as the most robust.

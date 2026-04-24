@@ -1,0 +1,14 @@
+urban traffic control (utc) plays an essential role in intelligent
+transportation system (its) but remains difficult. since model-based utc
+methods may not accurately describe the complex nature of traffic dynamics in
+all situations, model-free data-driven utc methods, especially reinforcement
+learning (rl) based utc methods, received increasing interests in the last
+decade. however, existing dl approaches did not propose an efficient algorithm
+to solve the complicated multiple intersections control problems whose
+state-action spaces are vast. to solve this problem, we propose a deep
+reinforcement learning (drl) algorithm that combines several tricks to master
+an appropriate control strategy within an acceptable time. this new algorithm
+relaxes the fixed traffic demand pattern assumption and reduces human invention
+in parameter tuning. simulation experiments have shown that our method
+outperforms traditional rule-based approaches and has the potential to handle
+more complex traffic problems in the real world.

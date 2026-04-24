@@ -1,0 +1,12 @@
+underwater gas reservoirs are used in many situations. in particular, carbon
+capture and storage (ccs) facilities that are currently being developed intend
+to store greenhouse gases inside geological formations in the deep sea. in
+these formations, however, the gas might percolate, leaking back to the water
+and eventually to the atmosphere. the early detection of such leaks is
+therefore tantamount to any underwater ccs project. in this work, we propose to
+use passive acoustic monitoring (pam) and a machine learning approach to design
+efficient detectors that can signal the presence of a leakage. we use data
+obtained from simulation experiments off the brazilian shore, and show that the
+detection based on classification algorithms achieve good performance. we also
+propose a smoothing strategy based on hidden markov models in order to
+incorporate previous knowledge about the probabilities of leakage occurrences.

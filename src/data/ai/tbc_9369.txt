@@ -1,0 +1,12 @@
+we propose a novel zero-shot learning method for semantic utterance
+classification (suc). it learns a classifier $f: x \to y$ for problems where
+none of the semantic categories $y$ are present in the training set. the
+framework uncovers the link between categories and utterances using a semantic
+space. we show that this semantic space can be learned by deep neural networks
+trained on large amounts of search engine query log data. more precisely, we
+propose a novel method that can learn discriminative semantic features without
+supervision. it uses the zero-shot learning framework to guide the learning of
+the semantic features. we demonstrate the effectiveness of the zero-shot
+semantic learning algorithm on the suc dataset collected by (tur, 2012).
+furthermore, we achieve state-of-the-art results by combining the semantic
+features with a supervised method.

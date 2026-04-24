@@ -1,0 +1,16 @@
+live cell microscopy sequences exhibit complex spatial structures and
+complicated temporal behaviour, making their analysis a challenging task.
+considering cell segmentation problem, which plays a significant role in the
+analysis, the spatial properties of the data can be captured using
+convolutional neural networks (cnns). recent approaches show promising
+segmentation results using convolutional encoder-decoders such as the u-net.
+nevertheless, these methods are limited by their inability to incorporate
+temporal information, that can facilitate segmentation of individual touching
+cells or of cells that are partially visible. in order to exploit cell dynamics
+we propose a novel segmentation architecture which integrates convolutional
+long short term memory (c-lstm) with the u-net. the network's unique
+architecture allows it to capture multi-scale, compact, spatio-temporal
+encoding in the c-lstms memory units. the method was evaluated on the cell
+tracking challenge and achieved state-of-the-art results (1st on fluo-n2dh-sim+
+and 2nd on dic-c2dl-hela datasets) the code is freely available at:
+https://github.com/arbellea/lstm-unet.git

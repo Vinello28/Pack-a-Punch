@@ -1,0 +1,25 @@
+kernel-based reinforcement learning (kbrl) stands out among reinforcement
+learning algorithms for its strong theoretical guarantees. by casting the
+learning problem as a local kernel approximation, kbrl provides a way of
+computing a decision policy which is statistically consistent and converges to
+a unique solution. unfortunately, the model constructed by kbrl grows with the
+number of sample transitions, resulting in a computational cost that precludes
+its application to large-scale or on-line domains. in this paper we introduce
+an algorithm that turns kbrl into a practical reinforcement learning tool.
+kernel-based stochastic factorization (kbsf) builds on a simple idea: when a
+transition matrix is represented as the product of two stochastic matrices, one
+can swap the factors of the multiplication to obtain another transition matrix,
+potentially much smaller, which retains some fundamental properties of its
+precursor. kbsf exploits such an insight to compress the information contained
+in kbrl's model into an approximator of fixed size. this makes it possible to
+build an approximation that takes into account both the difficulty of the
+problem and the associated computational cost. kbsf's computational complexity
+is linear in the number of sample transitions, which is the best one can do
+without discarding data. moreover, the algorithm's simple mechanics allow for a
+fully incremental implementation that makes the amount of memory used
+independent of the number of sample transitions. the result is a kernel-based
+reinforcement learning algorithm that can be applied to large-scale problems in
+both off-line and on-line regimes. we derive upper bounds for the distance
+between the value functions computed by kbrl and kbsf using the same data. we
+also illustrate the potential of our algorithm in an extensive empirical study
+in which kbsf is applied to difficult tasks based on real-world data.

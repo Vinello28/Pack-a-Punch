@@ -1,0 +1,12 @@
+deep reinforcement learning (drl) has become increasingly powerful in recent
+years, with notable achievements such as deepmind's alphago. it has been
+successfully deployed in commercial vehicles like mobileye's path planning
+system. however, a vast majority of work on drl is focused on toy examples in
+controlled synthetic car simulator environments such as torcs and carla. in
+general, drl is still at its infancy in terms of usability in real-world
+applications. our goal in this paper is to encourage real-world deployment of
+drl in various autonomous driving (ad) applications. we first provide an
+overview of the tasks in autonomous driving systems, reinforcement learning
+algorithms and applications of drl to ad systems. we then discuss the
+challenges which must be addressed to enable further progress towards
+real-world deployment.

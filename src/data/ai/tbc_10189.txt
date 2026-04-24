@@ -1,0 +1,15 @@
+we address semi-supervised video object segmentation, the task of
+automatically generating accurate and consistent pixel masks for objects in a
+video sequence, given the first-frame ground truth annotations. towards this
+goal, we present the premvos algorithm (proposal-generation, refinement and
+merging for video object segmentation). our method separates this problem into
+two steps, first generating a set of accurate object segmentation mask
+proposals for each video frame and then selecting and merging these proposals
+into accurate and temporally consistent pixel-wise object tracks over a video
+sequence in a way which is designed to specifically tackle the difficult
+challenges involved with segmenting multiple objects across a video sequence.
+our approach surpasses all previous state-of-the-art results on the davis 2017
+video object segmentation benchmark with a j & f mean score of 71.6 on the
+test-dev dataset, and achieves first place in both the davis 2018 video object
+segmentation challenge and the youtube-vos 1st large-scale video object
+segmentation challenge.

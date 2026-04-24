@@ -5,8 +5,9 @@ import uuid
 def distribute_data():
     # Paths
     excel_path = "src/data/tbc_classificata.xlsx"
-    csv_path = "src/data/bert_binary.csv"
+    csv_path = "src/data/bert_bin_unbiased.csv"
     base_data_path = "src/data"
+    
 
     # Verify input file exists and read
     try:
@@ -24,7 +25,7 @@ def distribute_data():
         return
 
     # Check columns
-    required_columns = ["description", "class"]
+    required_columns = ["text", "label"]
     if not all(col in df.columns for col in required_columns):
         print(f"Error: Missing columns. Expected {required_columns}, found {df.columns}")
         return
@@ -34,8 +35,8 @@ def distribute_data():
 
     # Iterate rows
     for index, row in df.iterrows():
-        description = row["description"]
-        label = row["class"]
+        description = row["text"]
+        label = row["label"]
 
         # Normalize label just in case
         if isinstance(label, str):
@@ -53,7 +54,7 @@ def distribute_data():
             normalized_label = label.lower().strip()
             if normalized_label == "ai":
                 target_dir = os.path.join(base_data_path, "ai")
-            elif normalized_label == "non_ai" or normalized_label == "non-ai":
+            elif normalized_label == "non_ai" or normalized_label == "non-ai" or normalized_label == "non ai":
                 target_dir = os.path.join(base_data_path, "non_ai")
             else:
                 print(f"Warning: Unknown label '{label}' at row {index}. Skipping.")

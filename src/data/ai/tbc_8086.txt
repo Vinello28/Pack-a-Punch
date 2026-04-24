@@ -1,0 +1,1 @@
+Horus Ã¨ un sistema di Visual Recognition che riesce ad identificare e classificare forme  colori e motivi di un oggetto presente in un immagine. Il sistema analizza e codifica i pixel delle immagini identificando il colore  la forma/modello e il motivo/fantasia

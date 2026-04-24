@@ -1,0 +1,9 @@
+retrieving information from social networks is the first and primordial step
+many data analysis fields such as natural language processing, sentiment
+analysis and machine learning. important data science tasks relay on historical
+data gathering for further predictive results. most of the recent works use
+twitter api, a public platform for collecting public streams of information,
+which allows querying chronological tweets for no more than three weeks old. in
+this paper, we present a new methodology for collecting historical tweets
+within any date range using web scraping techniques bypassing for twitter api
+restrictions.

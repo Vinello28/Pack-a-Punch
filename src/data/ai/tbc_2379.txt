@@ -1,0 +1,28 @@
+clustering is one of the most fundamental problems in data analysis and it
+has been studied extensively in the literature. though many clustering
+algorithms have been proposed, clustering theories that justify the use of
+these clustering algorithms are still unsatisfactory. in particular, one of the
+fundamental challenges is to address the following question:
+  what is a cluster in a set of data points?
+  in this paper, we make an attempt to address such a question by considering a
+set of data points associated with a distance measure (metric). we first
+propose a new cohesion measure in terms of the distance measure. using the
+cohesion measure, we define a cluster as a set of points that are cohesive to
+themselves. for such a definition, we show there are various equivalent
+statements that have intuitive explanations. we then consider the second
+question:
+  how do we find clusters and good partitions of clusters under such a
+definition?
+  for such a question, we propose a hierarchical agglomerative algorithm and a
+partitional algorithm. unlike standard hierarchical agglomerative algorithms,
+our hierarchical agglomerative algorithm has a specific stopping criterion and
+it stops with a partition of clusters. our partitional algorithm, called the
+k-sets algorithm in the paper, appears to be a new iterative algorithm. unlike
+the lloyd iteration that needs two-step minimization, our k-sets algorithm only
+takes one-step minimization.
+  one of the most interesting findings of our paper is the duality result
+between a distance measure and a cohesion measure. such a duality result leads
+to a dual k-sets algorithm for clustering a set of data points with a cohesion
+measure. the dual k-sets algorithm converges in the same way as a sequential
+version of the classical kernel k-means algorithm. the key difference is that a
+cohesion measure does not need to be positive semi-definite.

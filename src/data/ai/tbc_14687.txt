@@ -1,0 +1,13 @@
+the growing importance and utilization of measuring brain waves (e.g. eeg
+signals of eye state) in brain-computer interface (bci) applications
+highlighted the need for suitable classification methods. in this paper, a
+comparison between three of well-known classification methods (i.e. support
+vector machine (svm), hidden markov map (hmm), and radial basis function (rbf))
+for eeg based eye state classification was achieved. furthermore, a suggested
+method that is based on ensemble model was tested. the suggested (ensemble
+system) method based on a voting algorithm with two kernels: random forest (rf)
+and kstar classification methods. the performance was tested using three
+measurement parameters: accuracy, mean absolute error (mae), and confusion
+matrix. results showed that the proposed method outperforms the other tested
+methods. for instance, the suggested method's performance was 97.27% accuracy
+and 0.13 mae.

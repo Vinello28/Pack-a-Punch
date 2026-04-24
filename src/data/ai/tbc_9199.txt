@@ -1,0 +1,22 @@
+deep learning is an emerging technology that is considered one of the most
+promising directions for reaching higher levels of artificial intelligence.
+among the other achievements, building computers that understand speech
+represents a crucial leap towards intelligent machines. despite the great
+efforts of the past decades, however, a natural and robust human-machine speech
+interaction still appears to be out of reach, especially when users interact
+with a distant microphone in noisy and reverberant environments. the latter
+disturbances severely hamper the intelligibility of a speech signal, making
+distant speech recognition (dsr) one of the major open challenges in the field.
+  this thesis addresses the latter scenario and proposes some novel techniques,
+architectures, and algorithms to improve the robustness of distant-talking
+acoustic models. we first elaborate on methodologies for realistic data
+contamination, with a particular emphasis on dnn training with simulated data.
+we then investigate on approaches for better exploiting speech contexts,
+proposing some original methodologies for both feed-forward and recurrent
+neural networks. lastly, inspired by the idea that cooperation across different
+dnns could be the key for counteracting the harmful effects of noise and
+reverberation, we propose a novel deep learning paradigm called network of deep
+neural networks. the analysis of the original concepts were based on extensive
+experimental validations conducted on both real and simulated data, considering
+different corpora, microphone configurations, environments, noisy conditions,
+and asr tasks.

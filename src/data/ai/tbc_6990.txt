@@ -1,0 +1,13 @@
+cluster analysis is widely used in the areas of machine learning and data
+mining. fuzzy clustering is a particular method that considers that a data
+point can belong to more than one cluster. fuzzy clustering helps obtain
+flexible clusters, as needed in such applications as text categorization. the
+performance of a clustering algorithm critically depends on the number of
+clusters, and estimating the optimal number of clusters is a challenging task.
+quality indices help estimate the optimal number of clusters. however, there is
+no quality index that can obtain an accurate number of clusters for different
+datasets. thence, in this paper, we propose a new cluster quality index
+associated with a visual, graph-based solution that helps choose the optimal
+number of clusters in fuzzy partitions. moreover, we validate our theoretical
+results through extensive comparison experiments against state-of-the-art
+quality indices on a variety of numerical real-world and artificial datasets.

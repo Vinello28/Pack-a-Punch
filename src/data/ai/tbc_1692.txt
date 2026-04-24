@@ -1,0 +1,1 @@
+Il progetto si pone l'obiettivo di sviluppare techniche di integrazione tra intelligenza artificiare simbolica e subsimbolica volte alla generazione di spiegazioni per sistemi basati su Machine Learning in ambito Healthcare

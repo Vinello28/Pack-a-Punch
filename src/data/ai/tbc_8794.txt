@@ -1,0 +1,19 @@
+it is challenging to detect curve texts due to their irregular shapes and
+varying sizes. in this paper, we first investigate the deficiency of the
+existing curve detection methods and then propose a novel conditional spatial
+expansion (cse) mechanism to improve the performance of curve text detection.
+instead of regarding the curve text detection as a polygon regression or a
+segmentation problem, we treat it as a region expansion process. our cse starts
+with a seed arbitrarily initialized within a text region and progressively
+merges neighborhood regions based on the extracted local features by a cnn and
+contextual information of merged regions. the cse is highly parameterized and
+can be seamlessly integrated into existing object detection frameworks.
+enhanced by the data-dependent cse mechanism, our curve text detection system
+provides robust instance-level text region extraction with minimal
+post-processing. the analysis experiment shows that our cse can handle texts
+with various shapes, sizes, and orientations, and can effectively suppress the
+false-positives coming from text-like textures or unexpected texts included in
+the same roi. compared with the existing curve text detection algorithms, our
+method is more robust and enjoys a simpler processing flow. it also creates a
+new state-of-art performance on curve text benchmarks with f-score of up to
+78.4$\%$.

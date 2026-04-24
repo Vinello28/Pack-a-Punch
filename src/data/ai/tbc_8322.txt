@@ -1,0 +1,10 @@
+we designed a multilayer perceptron neural network to predict the price of a
+football (soccer) player using data on more than 15,000 players from the
+football simulation video game fifa 2017. the network was optimized by
+experimenting with different activation functions, number of neurons and
+layers, learning rate and its decay, nesterov momentum based stochastic
+gradient descent, l2 regularization, and early stopping. simultaneous
+exploration of various aspects of neural network training is performed and
+their trade-offs are investigated. our final model achieves a top-5 accuracy of
+87.2% among 119 pricing categories, and places any footballer within 6.32% of
+his actual price on average.

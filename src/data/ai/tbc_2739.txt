@@ -1,0 +1,16 @@
+everyday we are exposed to various chemicals via food additives, cleaning and
+cosmetic products and medicines -- and some of them might be toxic. however
+testing the toxicity of all existing compounds by biological experiments is
+neither financially nor logistically feasible. therefore the government
+agencies nih, epa and fda launched the tox21 data challenge within the
+"toxicology in the 21st century" (tox21) initiative. the goal of this challenge
+was to assess the performance of computational methods in predicting the
+toxicity of chemical compounds. state of the art toxicity prediction methods
+build upon specifically-designed chemical descriptors developed over decades.
+though deep learning is new to the field and was never applied to toxicity
+prediction before, it clearly outperformed all other participating methods. in
+this application paper we show that deep nets automatically learn features
+resembling well-established toxicophores. in total, our deep learning approach
+won both of the panel-challenges (nuclear receptors and stress response) as
+well as the overall grand challenge, and thereby sets a new standard in tox
+prediction.

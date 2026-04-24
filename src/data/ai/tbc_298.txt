@@ -1,0 +1,14 @@
+self-tuning optical systems are of growing importance in technological
+applications such as mode-locked fiber lasers. such self-tuning paradigms
+require {\em intelligent} algorithms capable of inferring approximate models of
+the underlying physics and discovering appropriate control laws in order to
+maintain robust performance for a given objective. in this work, we demonstrate
+the first integration of a {\em deep learning} (dl) architecture with {\em
+model predictive control} (mpc) in order to self-tune a mode-locked fiber
+laser. not only can our dl-mpc algorithmic architecture approximate the unknown
+fiber birefringence, it also builds a dynamical model of the laser and
+appropriate control law for maintaining robust, high-energy pulses despite a
+stochastically drifting birefringence. we demonstrate the effectiveness of this
+method on a fiber laser which is mode-locked by nonlinear polarization
+rotation. the method advocated can be broadly applied to a variety of optical
+systems that require robust controllers.

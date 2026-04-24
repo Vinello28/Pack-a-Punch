@@ -1,0 +1,17 @@
+integer linear programming (ilp) formulations of markov random fields (mrfs)
+models with global connectivity priors were investigated previously in computer
+vision, e.g., \cite{globalinter,globalconn}. in these works, only linear
+programing (lp) relaxations \cite{globalinter,globalconn} or simplified
+versions \cite{graphcutbase} of the problem were solved. this paper
+investigates the ilp of multi-label mrf with exact connectivity priors via a
+branch-and-cut method, which provably finds globally optimal solutions. the
+method enforces connectivity priors iteratively by a cutting plane method, and
+provides feasible solutions with a guarantee on sub-optimality even if we
+terminate it earlier. the proposed ilp can be applied as a post-processing
+method on top of any existing multi-label segmentation approach. as it provides
+globally optimal solution, it can be used off-line to generate ground-truth
+labeling, which serves as quality check for any fast on-line algorithm.
+furthermore, it can be used to generate ground-truth proposals for weakly
+supervised segmentation. we demonstrate the power and usefulness of our model
+by several experiments on the bsds500 and pascal image dataset, as well as on
+medical images with trained probability maps.

@@ -1,0 +1,17 @@
+today, there are two major paradigms for vision-based autonomous driving
+systems: mediated perception approaches that parse an entire scene to make a
+driving decision, and behavior reflex approaches that directly map an input
+image to a driving action by a regressor. in this paper, we propose a third
+paradigm: a direct perception approach to estimate the affordance for driving.
+we propose to map an input image to a small number of key perception indicators
+that directly relate to the affordance of a road/traffic state for driving. our
+representation provides a set of compact yet complete descriptions of the scene
+to enable a simple controller to drive autonomously. falling in between the two
+extremes of mediated perception and behavior reflex, we argue that our direct
+perception representation provides the right level of abstraction. to
+demonstrate this, we train a deep convolutional neural network using recording
+from 12 hours of human driving in a video game and show that our model can work
+well to drive a car in a very diverse set of virtual environments. we also
+train a model for car distance estimation on the kitti dataset. results show
+that our direct perception approach can generalize well to real driving images.
+source code and data are available on our project website.

@@ -1,0 +1,1 @@
+Il progetto intende implementare le attivitÃ  Ricerca & Sviluppo nel campo delle riprese video ad inquadratura autonomache riesca a gestire le riprese di un evento sportivo e non senza lâ€™intervento diretto dellâ€™operatore di ripresa

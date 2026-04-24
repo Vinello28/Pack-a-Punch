@@ -1,0 +1,19 @@
+often the filters learned by convolutional neural networks (cnns) from
+different datasets appear similar. this is prominent in the first few layers.
+this similarity of filters is being exploited for the purposes of transfer
+learning and some studies have been made to analyse such transferability of
+features. this is also being used as an initialization technique for different
+tasks in the same dataset or for the same task in similar datasets.
+off-the-shelf cnn features have capitalized on this idea to promote their
+networks as best transferable and most general and are used in a cavalier
+manner in day-to-day computer vision tasks.
+  it is curious that while the filters learned by these cnns are related to the
+atomic structures of the images from which they are learnt, all datasets learn
+similar looking low-level filters. with the understanding that a dataset that
+contains many such atomic structures learn general filters and are therefore
+useful to initialize other networks with, we propose a way to analyse and
+quantify generality among datasets from their accuracies on transferred
+filters. we applied this metric on several popular character recognition,
+natural image and a medical image dataset, and arrived at some interesting
+conclusions. on further experimentation we also discovered that particular
+classes in a dataset themselves are more general than others.

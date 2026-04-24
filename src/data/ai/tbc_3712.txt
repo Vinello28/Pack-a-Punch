@@ -1,0 +1,11 @@
+gradient control plays an important role in feed-forward networks applied to
+various computer vision tasks. previous work has shown that recurrent highway
+networks minimize the problem of vanishing or exploding gradients. they achieve
+this by setting the eigenvalues of the temporal jacobian to 1 across the time
+steps. in this work, batch normalized recurrent highway networks are proposed
+to control the gradient flow in an improved way for network convergence.
+specifically, the introduced model can be formed by batch normalizing the
+inputs at each recurrence loop. the proposed model is tested on an image
+captioning task using mscoco dataset. experimental results indicate that the
+batch normalized recurrent highway networks converge faster and performs better
+compared with the traditional lstm and rhn based models.

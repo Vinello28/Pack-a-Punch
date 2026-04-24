@@ -1,0 +1,1 @@
+Sistema telemedicina: il software permette di gestire la cartella clinica del paziente e di instaurare un canale audio/video bidirezionale tra il centro servizi (ospedale) e la postazione paziente (casa del paziente) in modo da garantire un assistenza domiciliare 24/24 e 7/7.

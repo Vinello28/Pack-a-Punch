@@ -1,0 +1,20 @@
+generalized linear models (glm) are link function based statistical models.
+many supervised learning algorithms are extensions of glms and have link
+functions built into the algorithm to model different outcome distributions.
+there are two major drawbacks when using this approach in applications using
+real world datasets. one is that none of the link functions available in the
+popular packages is a good fit for the data. second, it is computationally
+inefficient and impractical to test all the possible distributions to find the
+optimum one. in addition, many glms and their machine learning extensions
+struggle on problems of overdispersion in tweedie distributions. in this paper
+we propose a quantum extension to glm that overcomes these drawbacks. a quantum
+gate with non-gaussian transformation can be used to continuously deform the
+outcome distribution from known results. in doing so, we eliminate the need for
+a link function. further, by using an algorithm that superposes all possible
+distributions to collapse to fit a dataset, we optimize the model in a
+computationally efficient way. we provide an initial proof-of-concept by
+testing this approach on both a simulation of overdispersed data and then on a
+benchmark dataset, which is quite overdispersed, and achieved state of the art
+results. this is a game changer in several applied fields, such as part failure
+modeling, medical research, actuarial science, finance and many other fields
+where tweedie regression and overdispersion are ubiquitous.

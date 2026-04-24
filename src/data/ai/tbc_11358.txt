@@ -1,0 +1,11 @@
+identifying interactions between proteins is important to understand
+underlying biological processes. extracting a protein-protein interaction (ppi)
+from the raw text is often very difficult. previous supervised learning methods
+have used handcrafted features on human-annotated data sets. in this paper, we
+propose a novel tree recurrent neural network with structured attention
+architecture for doing ppi. our architecture achieves state of the art results
+(precision, recall, and f1-score) on the aimed and bioinfer benchmark data
+sets. moreover, our models achieve a significant improvement over previous best
+models without any explicit feature extraction. our experimental results show
+that traditional recurrent networks have inferior performance compared to tree
+recurrent networks for the supervised ppi problem.

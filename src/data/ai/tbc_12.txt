@@ -1,0 +1,1 @@
+following up on the linear transformer part of the article from katharopoulos et al., that takes this idea from shen et al., the trick that produces a linear complexity for the attention mechanism is re-used and extended to a second-order approximation of the softmax normalization.

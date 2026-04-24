@@ -1,0 +1,15 @@
+tamer has proven to be a powerful interactive reinforcement learning method
+for allowing ordinary people to teach and personalize autonomous agents'
+behavior by providing evaluative feedback. however, a tamer agent planning with
+uct---a monte carlo tree search strategy, can only update states along its path
+and might induce high learning cost especially for a physical robot. in this
+paper, we propose to drive the agent's exploration along the optimal path and
+reduce the learning cost by initializing the agent's reward function via
+inverse reinforcement learning from demonstration. we test our proposed method
+in the rl benchmark domain---grid world---with different discounts on human
+reward. our results show that learning from demonstration can allow a tamer
+agent to learn a roughly optimal policy up to the deepest search and encourage
+the agent to explore along the optimal path. in addition, we find that learning
+from demonstration can improve the learning efficiency by reducing total
+feedback, the number of incorrect actions and increasing the ratio of correct
+actions to obtain an optimal policy, allowing a tamer agent to converge faster.

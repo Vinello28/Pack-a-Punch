@@ -1,0 +1,11 @@
+semantic parsing can be defined as the process of mapping natural language
+sentences into a machine interpretable, formal representation of its meaning.
+semantic parsing using lstm encoder-decoder neural networks have become
+promising approach. however, human automated translation of natural language
+does not provide grammaticality guarantees for the sentences generate such a
+guarantee is particularly important for practical cases where a data base query
+can cause critical errors if the sentence is ungrammatical. in this work, we
+propose an neural architecture called encoder cfg-decoder, whose output
+conforms to a given context-free grammar. results are show for any
+implementation of such architecture display its correctness and providing
+benchmark accuracy levels better than the literature.

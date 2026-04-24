@@ -1,0 +1,15 @@
+state-of-the-art systems for semantic image segmentation use feed-forward
+pipelines with fixed computational costs. building an image segmentation system
+that works across a range of computational budgets is challenging and
+time-intensive as new architectures must be designed and trained for every
+computational setting. to address this problem we develop a recurrent neural
+network that successively improves prediction quality with each iteration.
+importantly, the rnn may be deployed across a range of computational budgets by
+merely running the model for a variable number of iterations. we find that this
+architecture is uniquely suited for efficiently segmenting videos. by
+exploiting the segmentation of past frames, the rnn can perform video
+segmentation at similar quality but reduced computational cost compared to
+state-of-the-art image segmentation methods. when applied to static images in
+the pascal voc 2012 and cityscapes segmentation datasets, the rnn traces out a
+speed-accuracy curve that saturates near the performance of state-of-the-art
+segmentation methods.

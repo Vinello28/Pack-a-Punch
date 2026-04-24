@@ -1,0 +1,10 @@
+in embedded vision systems, parallel computation of the integral image
+presents several design challenges in terms of hardware resources, speed and
+power consumption. although recursive equations significantly reduce the number
+of operations for computing the integral image, the required internal memory
+becomes prohibitively large for an embedded integral image computation engine
+for increasing image sizes. with the objective of achieving high-throughput
+with minimum hardware resources, this paper proposes a memory-efficient design
+strategy for a parallel embedded integral image computation engine. results
+show that the design achieves nearly 35% reduction in memory for common hd
+video.

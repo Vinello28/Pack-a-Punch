@@ -1,0 +1,20 @@
+flaw detection in non-destructive testing, especially in complex signals like
+ultrasonic data, has thus far relied heavily on the expertise and judgement of
+trained human inspectors. while automated systems have been used for a long
+time, these have mostly been limited to using simple decision automation, such
+as signal amplitude threshold. the recent advances in various machine learning
+algorithms have solved many similarly difficult classification problems, that
+have previously been considered intractable. for non-destructive testing,
+encouraging results have already been reported in the open literature, but the
+use of machine learning is still very limited in ndt applications in the field.
+key issue hindering their use, is the limited availability of representative
+flawed data-sets to be used for training. in the present paper, we develop
+modern, very deep convolutional network to detect flaws from phased-array
+ultrasonic data. we make extensive use of data augmentation to enhance the
+initially limited raw data and to aid learning. the data augmentation utilizes
+virtual flaws - a technique, that has successfully been used in training human
+inspectors and is soon to be used in nuclear inspection qualification. the
+results from the machine learning classifier are compared to human performance.
+we show, that using sophisticated data augmentation, modern deep learning
+networks can be trained to achieve superhuman performance by significant
+margin.

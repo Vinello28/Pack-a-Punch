@@ -1,0 +1,1 @@
+Il progetto prevede la realizzazione di una piattaforma in grado di gestire gli ordini della clientela B2B interfacciandola con il magazzino nell'ottica di automatizzare e dematerializzare  i processi amministrativi. Sono previsti limitati investimenti in formazione ed in banda ultra larga.

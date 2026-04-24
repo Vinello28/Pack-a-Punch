@@ -1,0 +1,23 @@
+we propose a new active learning (al) method for text classification with
+convolutional neural networks (cnns). in al, one selects the instances to be
+manually labeled with the aim of maximizing model performance with minimal
+effort. neural models capitalize on word embeddings as representations
+(features), tuning these to the task at hand. we argue that al strategies for
+multi-layered neural models should focus on selecting instances that most
+affect the embedding space (i.e., induce discriminative word representations).
+this is in contrast to traditional al approaches (e.g., entropy-based
+uncertainty sampling), which specify higher level objectives. we propose a
+simple approach for sentence classification that selects instances containing
+words whose embeddings are likely to be updated with the greatest magnitude,
+thereby rapidly learning discriminative, task-specific embeddings. we extend
+this approach to document classification by jointly considering: (1) the
+expected changes to the constituent word representations; and (2) the model's
+current overall uncertainty regarding the instance. the relative emphasis
+placed on these criteria is governed by a stochastic process that favors
+selecting instances likely to improve representations at the outset of
+learning, and then shifts toward general uncertainty sampling as al progresses.
+empirical results show that our method outperforms baseline al approaches on
+both sentence and document classification tasks. we also show that, as
+expected, the method quickly learns discriminative word embeddings. to the best
+of our knowledge, this is the first work on al addressing neural models for
+text classification.

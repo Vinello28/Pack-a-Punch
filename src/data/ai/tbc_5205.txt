@@ -1,0 +1,14 @@
+long short-term memory (lstm) recurrent neural networks (rnns) have been
+shown to give state-of-the-art performance on many speech recognition tasks, as
+they are able to provide the learned dynamically changing contextual window of
+all sequence history. on the other hand, the convolutional neural networks
+(cnns) have brought significant improvements to deep feed-forward neural
+networks (ffnns), as they are able to better reduce spectral variation in the
+input signal. in this paper, a network architecture called as convolutional
+recurrent neural network (crnn) is proposed by combining the cnn and lstm rnn.
+in the proposed crnns, each speech frame, without adjacent context frames, is
+organized as a number of local feature patches along the frequency axis, and
+then a lstm network is performed on each feature patch along the time axis. we
+train and compare ffnns, lstm rnns and the proposed lstm crnns at various
+number of configurations. experimental results show that the lstm crnns can
+exceed state-of-the-art speech recognition performance.

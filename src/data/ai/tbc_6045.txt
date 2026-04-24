@@ -1,0 +1,14 @@
+quantum clustering is a powerful method to detect clusters in data with mixed
+density. however, it is very sensitive to a length parameter that is inherent
+to the schr\"odinger equation. in addition, linking data points into clusters
+requires local estimates of covariance that are also controlled by length
+parameters. this raises the question of how to adjust the control parameters of
+the schr\"odinger equation for optimal clustering. we propose a probabilistic
+framework that provides an objective function for the goodness-of-fit to the
+data, enabling the control parameters to be optimised within a bayesian
+framework. this naturally yields probabilities of cluster membership and data
+partitions with specific numbers of clusters. the proposed framework is tested
+on real and synthetic data sets, assessing its validity by measuring
+concordance with known data structure by means of the jaccard score (js). this
+work also proposes an objective way to measure performance in unsupervised
+learning that correlates very well with js.

@@ -1,0 +1,14 @@
+in this paper, we study the problem of addressee and response selection in
+multi-party conversations. understanding multi-party conversations is
+challenging because of complex speaker interactions: multiple speakers exchange
+messages with each other, playing different roles (sender, addressee,
+observer), and these roles vary across turns. to tackle this challenge, we
+propose the speaker interaction recurrent neural network (si-rnn). whereas the
+previous state-of-the-art system updated speaker embeddings only for the
+sender, si-rnn uses a novel dialog encoder to update speaker embeddings in a
+role-sensitive way. additionally, unlike the previous work that selected the
+addressee and response separately, si-rnn selects them jointly by viewing the
+task as a sequence prediction problem. experimental results show that si-rnn
+significantly improves the accuracy of addressee and response selection,
+particularly in complex conversations with many speakers and responses to
+distant messages many turns in the past.

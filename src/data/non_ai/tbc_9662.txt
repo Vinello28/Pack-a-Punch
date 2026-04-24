@@ -1,0 +1,1 @@
+Il progetto Ã¨ finalizzato alla trasformazione della componente di modellazione della piattaforma Aryosa da BPMN (Business Process Model and Notation) a DMN (Decision Model and Notation).

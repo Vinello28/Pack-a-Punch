@@ -1,0 +1,9 @@
+the recently proposed unbiased online recurrent optimization algorithm (uoro,
+arxiv:1702.05043) uses an unbiased approximation of rtrl to achieve fully
+online gradient-based learning in rnns. in this work we analyze the variance of
+the gradient estimate computed by uoro, and propose several possible changes to
+the method which reduce this variance both in theory and practice. we also
+contribute significantly to the theoretical and intuitive understanding of uoro
+(and its existing variance reduction technique), and demonstrate a fundamental
+connection between its gradient estimate and the one that would be computed by
+reinforce if small amounts of noise were added to the rnn's hidden units.

@@ -1,0 +1,15 @@
+kalman filters are routinely used for many data fusion applications including
+navigation, tracking, and simultaneous localization and mapping problems.
+however, significant time and effort is frequently required to tune various
+kalman filter model parameters, e.g. process noise covariance, pre-whitening
+filter models for non-white noise, etc. conventional optimization techniques
+for tuning can get stuck in poor local minima and can be expensive to implement
+with real sensor data. to address these issues, a new "black box" bayesian
+optimization strategy is developed for automatically tuning kalman filters. in
+this approach, performance is characterized by one of two stochastic objective
+functions: normalized estimation error squared (nees) when ground truth state
+models are available, or the normalized innovation error squared (nis) when
+only sensor data is available. by intelligently sampling the parameter space to
+both learn and exploit a nonparametric gaussian process surrogate function for
+the nees/nis costs, bayesian optimization can efficiently identify multiple
+local minima and provide uncertainty quantification on its results.

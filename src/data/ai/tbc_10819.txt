@@ -1,0 +1,17 @@
+loss functions play a key role in training superior deep neural networks. in
+convolutional neural networks (cnns), the popular cross entropy loss together
+with softmax does not explicitly guarantee minimization of intra-class variance
+or maximization of inter-class variance. in the early studies, there is no
+theoretical analysis and experiments explicitly indicating how to choose the
+number of units in fully connected layer. to help cnns learn features more fast
+and discriminative, there are two contributions in this paper. first, we
+determine the minimum number of units in fc layer by rigorous theoretical
+analysis and extensive experiment, which reduces cnns' parameter memory and
+training time. second, we propose a negative-focused weights-biased softmax
+(w-softmax) loss to help cnns learn more discriminative features. the proposed
+w-softmax loss not only theoretically formulates the intraclass compactness and
+inter-class separability, but also can avoid overfitting by enlarging decision
+margins. moreover, the size of decision margins can be flexibly controlled by
+adjusting a hyperparameter $\alpha$. extensive experimental results on several
+benchmark datasets show the superiority of w-softmax in image classification
+tasks.

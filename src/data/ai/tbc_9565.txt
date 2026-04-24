@@ -1,0 +1,16 @@
+computerized automatic methods have been employed to boost the productivity
+as well as objectiveness of hand bone age assessment. these approaches make
+predictions according to the whole x-ray images, which include other objects
+that may introduce distractions. instead, our framework is inspired by the
+clinical workflow (tanner-whitehouse) of hand bone age assessment, which
+focuses on the key components of the hand. the proposed framework is composed
+of two components: a mask r-cnn subnet of pixelwise hand segmentation and a
+residual attention network for hand bone age assessment. the mask r-cnn subnet
+segments the hands from x-ray images to avoid the distractions of other objects
+(e.g., x-ray tags). the hierarchical attention components of the residual
+attention subnet force our network to focus on the key components of the x-ray
+images and generate the final predictions as well as the associated visual
+supports, which is similar to the assessment procedure of clinicians. we
+evaluate the performance of the proposed pipeline on the rsna pediatric bone
+age dataset and the results demonstrate its superiority over the previous
+methods.

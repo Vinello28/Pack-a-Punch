@@ -1,0 +1,21 @@
+emotion recognition is a core research area at the intersection of artificial
+intelligence and human communication analysis. it is a significant technical
+challenge since humans display their emotions through complex idiosyncratic
+combinations of the language, visual and acoustic modalities. in contrast to
+traditional multimodal fusion techniques, we approach emotion recognition from
+both direct person-independent and relative person-dependent perspectives. the
+direct person-independent perspective follows the conventional emotion
+recognition approach which directly infers absolute emotion labels from
+observed multimodal features. the relative person-dependent perspective
+approaches emotion recognition in a relative manner by comparing partial video
+segments to determine if there was an increase or decrease in emotional
+intensity. our proposed model integrates these direct and relative prediction
+perspectives by dividing the emotion recognition task into three easier
+subtasks. the first subtask involves a multimodal local ranking of relative
+emotion intensities between two short segments of a video. the second subtask
+uses local rankings to infer global relative emotion ranks with a bayesian
+ranking algorithm. the third subtask incorporates both direct predictions from
+observed multimodal behaviors and relative emotion ranks from local-global
+rankings for final emotion prediction. our approach displays excellent
+performance on an audio-visual emotion recognition benchmark and improves over
+other algorithms for multimodal fusion.

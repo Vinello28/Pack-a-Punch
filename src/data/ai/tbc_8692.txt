@@ -1,0 +1,17 @@
+high energy physics (hep) distributed computing infrastructures require
+automatic tools to monitor, analyze and react to potential security incidents.
+these tools should collect and inspect data such as resource consumption, logs
+and sequence of system calls for detecting anomalies that indicate the presence
+of a malicious agent. they should also be able to perform automated reactions
+to attacks without administrator intervention. we describe a novel framework
+that accomplishes these requirements, with a proof of concept implementation
+for the alice experiment at cern. we show how we achieve a fully virtualized
+environment that improves the security by isolating services and jobs without a
+significant performance impact. we also describe a collected dataset for
+machine learning based intrusion prevention and detection systems on grid
+computing. this dataset is composed of resource consumption measurements (such
+as cpu, ram and network traffic), logfiles from operating system services, and
+system call data collected from production jobs running in an alice grid test
+site and a big set of malware. this malware was collected from security
+research sites. based on this dataset, we will proceed to develop machine
+learning algorithms able to detect malicious jobs.

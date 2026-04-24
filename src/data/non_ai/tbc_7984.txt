@@ -1,0 +1,1 @@
+uBeatECG: un modello pre-clinico di cuore su chip per il rilevamento della sindrome del QT lungo

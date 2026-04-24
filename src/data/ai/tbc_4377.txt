@@ -1,0 +1,18 @@
+in this paper we present a theoretical analysis to understand sparse
+filtering, a recent and effective algorithm for unsupervised learning. the aim
+of this research is not to show whether or how well sparse filtering works, but
+to understand why and when sparse filtering does work. we provide a thorough
+theoretical analysis of sparse filtering and its properties, and further offer
+an experimental validation of the main outcomes of our theoretical analysis. we
+show that sparse filtering works by explicitly maximizing the entropy of the
+learned representation through the maximization of the proxy of sparsity, and
+by implicitly preserving mutual information between original and learned
+representations through the constraint of preserving a structure of the data,
+specifically the structure defined by relations of neighborhoodness under the
+cosine distance. furthermore, we empirically validate our theoretical results
+with artificial and real data sets, and we apply our theoretical understanding
+to explain the success of sparse filtering on real-world problems. our work
+provides a strong theoretical basis for understanding sparse filtering: it
+highlights assumptions and conditions for success behind this feature
+distribution learning algorithm, and provides insights for developing new
+feature distribution learning algorithms.

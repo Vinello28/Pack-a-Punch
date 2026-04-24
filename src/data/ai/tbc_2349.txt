@@ -1,0 +1,23 @@
+steady-state visual evoked potentials (ssveps) are neural oscillations from
+the parietal and occipital regions of the brain that are evoked from flickering
+visual stimuli. ssveps are robust signals measurable in the
+electroencephalogram (eeg) and are commonly used in brain-computer interfaces
+(bcis). however, methods for high-accuracy decoding of ssveps usually require
+hand-crafted approaches that leverage domain-specific knowledge of the stimulus
+signals, such as specific temporal frequencies in the visual stimuli and their
+relative spatial arrangement. when this knowledge is unavailable, such as when
+ssvep signals are acquired asynchronously, such approaches tend to fail. in
+this paper, we show how a compact convolutional neural network (compact-cnn),
+which only requires raw eeg signals for automatic feature extraction, can be
+used to decode signals from a 12-class ssvep dataset without the need for any
+domain-specific knowledge or calibration data. we report across subject mean
+accuracy of approximately 80% (chance being 8.3%) and show this is
+substantially better than current state-of-the-art hand-crafted approaches
+using canonical correlation analysis (cca) and combined-cca. furthermore, we
+analyze our compact-cnn to examine the underlying feature representation,
+discovering that the deep learner extracts additional phase and amplitude
+related features associated with the structure of the dataset. we discuss how
+our compact-cnn shows promise for bci applications that allow users to freely
+gaze/attend to any stimulus at any time (e.g., asynchronous bci) as well as
+provides a method for analyzing ssvep signals in a way that might augment our
+understanding about the basic processing in the visual cortex.

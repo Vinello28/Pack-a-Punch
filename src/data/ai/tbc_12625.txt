@@ -1,0 +1,5 @@
+the goal of dialogue relation extraction (dre) is to identify the relation between two entities in a given dialogue.
+during conversations, speakers may expose their relations to certain entities by some clues, such evidences called ''triggers''.  
+however, none of the existing work on dre tried to detect triggers and leverage the information for enhancing the performance.
+this paper proposes trend, a multi-tasking bert-based model which learns to identify triggers for improving relation extraction.
+the experimental results show that the proposed method achieves the state-of-the-art on the benchmark datasets.

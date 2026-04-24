@@ -1,0 +1,10 @@
+daily operation of a large-scale experiment is a challenging task,
+particularly from perspectives of routine monitoring of quality for data being
+taken. we describe an approach that uses machine learning for the automated
+system to monitor data quality, which is based on partial use of data qualified
+manually by detector experts. the system automatically classifies marginal
+cases: both of good an bad data, and use human expert decision to classify
+remaining "grey area" cases.
+  this study uses collision data collected by the cms experiment at lhc in
+2010. we demonstrate that proposed workflow is able to automatically process at
+least 20\% of samples without noticeable degradation of the result.

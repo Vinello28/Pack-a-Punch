@@ -1,0 +1,1 @@
+ottenere lâ€™integrazione dei sistemi su una directory comune Microsoft Active Directory  permettendo di organizzare gli accessi alle risorse in modo sicuro e integrato tra i sistemi  grazie allâ€™utilizzo di ruoli  gruppi e diritti di accesso (per menzionarne alcuni). Servizi di Consulenza per: Architettura con 2 Domain Controller per Failover servizi Autenticazione

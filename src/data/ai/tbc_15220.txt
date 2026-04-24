@@ -1,0 +1,15 @@
+access to electronic health record (ehr) data has motivated computational
+advances in medical research. however, various concerns, particularly over
+privacy, can limit access to and collaborative use of ehr data. sharing
+synthetic ehr data could mitigate risk. in this paper, we propose a new
+approach, medical generative adversarial network (medgan), to generate
+realistic synthetic patient records. based on input real patient records,
+medgan can generate high-dimensional discrete variables (e.g., binary and count
+features) via a combination of an autoencoder and generative adversarial
+networks. we also propose minibatch averaging to efficiently avoid mode
+collapse, and increase the learning efficiency with batch normalization and
+shortcut connections. to demonstrate feasibility, we showed that medgan
+generates synthetic patient records that achieve comparable performance to real
+data on many experiments including distribution statistics, predictive modeling
+tasks and a medical expert review. we also empirically observe a limited
+privacy risk in both identity and attribute disclosure using medgan.

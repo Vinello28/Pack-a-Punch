@@ -1,0 +1,19 @@
+according to parallel distributed processing (pdp) theory in psychology,
+neural networks (nn) learn distributed rather than interpretable localist
+representations. this view has been held so strongly that few researchers have
+analysed single units to determine if this assumption is correct. however,
+recent results from psychology, neuroscience and computer science have shown
+the occasional existence of local codes emerging in artificial and biological
+neural networks. in this paper, we undertake the first systematic survey of
+when local codes emerge in a feed-forward neural network, using generated input
+and output data with known qualities. we find that the number of local codes
+that emerge from a nn follows a well-defined distribution across the number of
+hidden layer neurons, with a peak determined by the size of input data, number
+of examples presented and the sparsity of input data. using a 1-hot output code
+drastically decreases the number of local codes on the hidden layer. the number
+of emergent local codes increases with the percentage of dropout applied to the
+hidden layer, suggesting that the localist encoding may offer a resilience to
+noisy networks. this data suggests that localist coding can emerge from
+feed-forward pdp networks and suggests some of the conditions that may lead to
+interpretable localist representations in the cortex. the findings highlight
+how local codes should not be dismissed out of hand.

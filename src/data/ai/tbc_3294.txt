@@ -1,0 +1,24 @@
+existing deep convolutional neural networks (cnns) require a fixed-size
+(e.g., 224x224) input image. this requirement is "artificial" and may reduce
+the recognition accuracy for the images or sub-images of an arbitrary
+size/scale. in this work, we equip the networks with another pooling strategy,
+"spatial pyramid pooling", to eliminate the above requirement. the new network
+structure, called spp-net, can generate a fixed-length representation
+regardless of image size/scale. pyramid pooling is also robust to object
+deformations. with these advantages, spp-net should in general improve all
+cnn-based image classification methods. on the imagenet 2012 dataset, we
+demonstrate that spp-net boosts the accuracy of a variety of cnn architectures
+despite their different designs. on the pascal voc 2007 and caltech101
+datasets, spp-net achieves state-of-the-art classification results using a
+single full-image representation and no fine-tuning.
+  the power of spp-net is also significant in object detection. using spp-net,
+we compute the feature maps from the entire image only once, and then pool
+features in arbitrary regions (sub-images) to generate fixed-length
+representations for training the detectors. this method avoids repeatedly
+computing the convolutional features. in processing test images, our method is
+24-102x faster than the r-cnn method, while achieving better or comparable
+accuracy on pascal voc 2007.
+  in imagenet large scale visual recognition challenge (ilsvrc) 2014, our
+methods rank #2 in object detection and #3 in image classification among all 38
+teams. this manuscript also introduces the improvement made for this
+competition.

@@ -1,0 +1,15 @@
+we present a method for identifying the coherent structures associated with
+individual lagrangian flow trajectories even where only sparse particle
+trajectory data is available. the method, based on techniques in spectral graph
+theory, uses the coherent structure coloring vector and associated eigenvectors
+to analyze the distance in higher-dimensional eigenspace between a selected
+reference trajectory and other tracer trajectories in the flow. by analyzing
+this distance metric in a hierarchical clustering, the coherent structure of
+which the reference particle is a member can be identified. this algorithm is
+proven successful in identifying coherent structures of varying complexities in
+canonical unsteady flows. additionally, the method is able to assess the
+relative coherence of the associated structure in comparison to the surrounding
+flow. although the method is demonstrated here in the context of fluid flow
+kinematics, the generality of the approach allows for its potential application
+to other unsupervised clustering problems in dynamical systems such as neuronal
+activity, gene expression, or social networks.

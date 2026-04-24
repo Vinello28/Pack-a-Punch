@@ -1,0 +1,16 @@
+emotions are physiological states generated in humans in reaction to internal
+or external events. they are complex and studied across numerous fields
+including computer science. as humans, on reading "why don't you ever text me!"
+we can either interpret it as a sad or angry emotion and the same ambiguity
+exists for machines. lack of facial expressions and voice modulations make
+detecting emotions from text a challenging problem. however, as humans
+increasingly communicate using text messaging applications, and digital agents
+gain popularity in our society, it is essential that these digital agents are
+emotion aware, and respond accordingly.
+  in this paper, we propose a novel approach to detect emotions like happy, sad
+or angry in textual conversations using an lstm based deep learning model. our
+approach consists of semi-automated techniques to gather training data for our
+model. we exploit advantages of semantic and sentiment based embeddings and
+propose a solution combining both. our work is evaluated on real-world
+conversations and significantly outperforms traditional machine learning
+baselines as well as other off-the-shelf deep learning models.

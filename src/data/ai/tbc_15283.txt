@@ -1,0 +1,1 @@
+verificare la fattibilitÃ  tecnica (Â«test before invest Â») di un sistema di Â«monitoraggio intelligenteÂ» del processo  in grado di utilizzare in tempo reale i dati disponibili per quality detenction e formazione degli operatori

@@ -1,0 +1,25 @@
+weighted svm (or fuzzy svm) is the most widely used svm variant owning its
+effectiveness to the use of instance weights. proper selection of the instance
+weights can lead to increased generalization performance. in this work, we
+extend the span error bound theory to weighted svm and we introduce effective
+hyperparameter selection methods for the weighted svm algorithm. the
+significance of the presented work is that enables the application of span
+bound and span-rule with weighted svm. the span bound is an upper bound of the
+leave-one-out error that can be calculated using a single trained svm model.
+this is important since leave-one-out error is an almost unbiased estimator of
+the test error. similarly, the span-rule gives the actual value of the
+leave-one-out error. thus, one can apply span bound and span-rule as
+computationally lightweight alternatives of leave-one-out procedure for
+hyperparameter selection. the main theoretical contributions are: (a) we prove
+the necessary and sufficient condition for the existence of the span of a
+support vector in weighted svm; and (b) we prove the extension of span bound
+and span-rule to weighted svm. we experimentally evaluate the span bound and
+the span-rule for hyperparameter selection and we compare them with other
+methods that are applicable to weighted svm: the $k$-fold cross-validation and
+the ${\xi}-{\alpha}$ bound. experiments on 14 benchmark data sets and data sets
+with importance scores for the training instances show that: (a) the condition
+for the existence of span in weighted svm is satisfied almost always; (b) the
+span-rule is the most effective method for weighted svm hyperparameter
+selection; (c) the span-rule is the best predictor of the test error in the
+mean square error sense; and (d) the span-rule is efficient and, for certain
+problems, it can be calculated faster than $k$-fold cross-validation.

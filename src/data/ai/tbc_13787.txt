@@ -1,0 +1,18 @@
+recent research on super-resolution has achieved great success due to the
+development of deep convolutional neural networks (dcnns). however,
+super-resolution of arbitrary scale factor has been ignored for a long time.
+most previous researchers regard super-resolution of different scale factors as
+independent tasks. they train a specific model for each scale factor which is
+inefficient in computing, and prior work only take the super-resolution of
+several integer scale factors into consideration. in this work, we propose a
+novel method called meta-sr to firstly solve super-resolution of arbitrary
+scale factor (including non-integer scale factors) with a single model. in our
+meta-sr, the meta-upscale module is proposed to replace the traditional upscale
+module. for arbitrary scale factor, the meta-upscale module dynamically
+predicts the weights of the upscale filters by taking the scale factor as input
+and use these weights to generate the hr image of arbitrary size. for any
+low-resolution image, our meta-sr can continuously zoom in it with arbitrary
+scale factor by only using a single model. we evaluated the proposed method
+through extensive experiments on widely used benchmark datasets on single image
+super-resolution. the experimental results show the superiority of our
+meta-upscale.

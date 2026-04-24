@@ -1,0 +1,1 @@
+the following work presents a new algorithm for character recognition from obfuscated images. the presented method is an example of a potential threat to current postal services. this paper both analyzes the efficiency of the given algorithm and suggests countermeasures to prevent such threats from occurring.

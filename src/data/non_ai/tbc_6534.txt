@@ -1,0 +1,1 @@
+Implementazione di un sistema di Virtualizzazione e conversione in ambiente virtuale dei server di produzione.

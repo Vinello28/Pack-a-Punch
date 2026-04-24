@@ -1,0 +1,8 @@
+in this paper, we describe our approach for the omg- emotion challenge 2018.
+the goal is to produce utterance-level valence and arousal estimations for
+videos of approximately 1 minute length. we tackle this problem by first
+extracting facial expressions features of videos as time series data, and then
+using recurrent neural networks of the echo state network type to model the
+correspondence between the time series data and valence-arousal values.
+experimentally we show that the proposed approach surpasses the baseline
+methods provided by the organizers.

@@ -1,0 +1,14 @@
+the work presented here applies deep learning to the task of automated
+cardiac auscultation, i.e. recognizing abnormalities in heart sounds. we
+describe an automated heart sound classification algorithm that combines the
+use of time-frequency heat map representations with a deep convolutional neural
+network (cnn). given the cost-sensitive nature of misclassification, our cnn
+architecture is trained using a modified loss function that directly optimizes
+the trade-off between sensitivity and specificity. we evaluated our algorithm
+at the 2016 physionet computing in cardiology challenge where the objective was
+to accurately classify normal and abnormal heart sounds from single, short,
+potentially noisy recordings. our entry to the challenge achieved a final
+specificity of 0.95, sensitivity of 0.73 and overall score of 0.84. we achieved
+the greatest specificity score out of all challenge entries and, using just a
+single cnn, our algorithm differed in overall score by only 0.02 compared to
+the top place finisher, which used an ensemble approach.

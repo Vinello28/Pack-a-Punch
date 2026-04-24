@@ -1,0 +1,17 @@
+extending the success of deep neural networks to natural language
+understanding and symbolic reasoning requires complex operations and external
+memory. recent neural program induction approaches have attempted to address
+this problem, but are typically limited to differentiable memory, and
+consequently cannot scale beyond small synthetic tasks. in this work, we
+propose the manager-programmer-computer framework, which integrates neural
+networks with non-differentiable memory to support abstract, scalable and
+precise operations through a friendly neural computer interface. specifically,
+we introduce a neural symbolic machine, which contains a sequence-to-sequence
+neural "programmer", and a non-differentiable "computer" that is a lisp
+interpreter with code assist. to successfully apply reinforce for training, we
+augment it with approximate gold programs found by an iterative maximum
+likelihood training process. nsm is able to learn a semantic parser from weak
+supervision over a large knowledge base. it achieves new state-of-the-art
+performance on webquestionssp, a challenging semantic parsing dataset, with
+weak supervision. compared to previous approaches, nsm is end-to-end, therefore
+does not rely on feature engineering or domain specific knowledge.

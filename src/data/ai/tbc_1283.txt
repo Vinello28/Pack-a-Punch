@@ -1,0 +1,15 @@
+face alignment is an active computer vision domain, that consists in
+localizing a number of facial landmarks that vary across datasets.
+state-of-the-art face alignment methods either consist in end-to-end
+regression, or in refining the shape in a cascaded manner, starting from an
+initial guess. in this paper, we introduce decafa, an end-to-end deep
+convolutional cascade architecture for face alignment. decafa uses
+fully-convolutional stages to keep full spatial resolution throughout the
+cascade. between each cascade stage, decafa uses multiple chained transfer
+layers with spatial softmax to produce landmark-wise attention maps for each of
+several landmark alignment tasks. weighted intermediate supervision, as well as
+efficient feature fusion between the stages allow to learn to progressively
+refine the attention maps in an end-to-end manner. we show experimentally that
+decafa significantly outperforms existing approaches on 300w, celeba and wflw
+databases. in addition, we show that decafa can learn fine alignment with
+reasonable accuracy from very few images using coarsely annotated data.

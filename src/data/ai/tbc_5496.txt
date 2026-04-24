@@ -1,0 +1,22 @@
+the expensive inter-machine communication is the bottleneck of
+distributed optimization.
+existing study tackles this problem by shortening the communication
+rounds, but the reduction of per-round communication cost is not
+well-studied.
+this work proposes a progressive manifold identification approach with 
+sound theoretical justifications to greatly reduce both the
+communication rounds and the bytes communicated per round for partly
+smooth regularized problems, which include many large-scale machine
+learning tasks such as the training of $\ell_1$- and
+group-lasso-regularized models.
+our method uses an inexact proximal quasi-newton method to iteratively
+identify a sequence of low-dimensional smooth manifolds in which the
+final solution lies, and restricts the model update within the current
+manifold to lower significantly the per-round communication cost.
+after identifying the final manifold within which the problem is
+smooth, we take superlinear-convergent truncated semismooth
+newton steps obtained through preconditioned conjugate gradient to
+largely reduce the communication rounds.
+experiments show that when compared with the state of the art,
+the communication cost of our method is significantly lower
+and the running time is up to $10$ times faster.

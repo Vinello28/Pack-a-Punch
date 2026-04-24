@@ -1,0 +1,17 @@
+object detection in challenging situations such as scale variation,
+occlusion, and truncation depends not only on feature details but also on
+contextual information. most previous networks emphasize too much on detailed
+feature extraction through deeper and wider networks, which may enhance the
+accuracy of object detection to certain extent. however, the feature details
+are easily being changed or washed out after passing through complicated
+filtering structures. to better handle these challenges, the paper proposes a
+novel framework, multi-scale, deep inception convolutional neural network
+(mdcn), which focuses on wider and broader object regions by activating feature
+maps produced in the deep part of the network. instead of incepting inner
+layers in the shallow part of the network, multi-scale inceptions are
+introduced in the deep layers. the proposed framework integrates the contextual
+information into the learning process through a single-shot network structure.
+it is computational efficient and avoids the hard training problem of previous
+macro feature extraction network designed for shallow layers. extensive
+experiments demonstrate the effectiveness and superior performance of mdcn over
+the state-of-the-art models.

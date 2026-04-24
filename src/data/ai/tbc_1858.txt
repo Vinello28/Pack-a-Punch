@@ -1,0 +1,19 @@
+eurovoc (2012) is a highly multilingual thesaurus consisting of over 6,700
+hierarchically organised subject domains used by european institutions and many
+authorities in member states of the european union (eu) for the classification
+and retrieval of official documents. jex is jrc-developed multi-label
+classification software that learns from manually labelled data to
+automatically assign eurovoc descriptors to new documents in a profile-based
+category-ranking task. the jex release consists of trained classifiers for 22
+official eu languages, of parallel training data in the same languages, of an
+interface that allows viewing and amending the assignment results, and of a
+module that allows users to re-train the tool on their own document
+collections. jex allows advanced users to change the document representation so
+as to possibly improve the categorisation result through linguistic
+pre-processing. jex can be used as a tool for interactive eurovoc descriptor
+assignment to increase speed and consistency of the human categorisation
+process, or it can be used fully automatically. the output of jex is a
+language-independent eurovoc feature vector lending itself also as input to
+various other language technology tasks, including cross-lingual clustering and
+classification, cross-lingual plagiarism detection, sentence selection and
+ranking, and more.

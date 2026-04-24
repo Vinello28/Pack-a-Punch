@@ -1,0 +1,19 @@
+spikes in the membrane electrical potentials of neurons play a major role in
+the functioning of nervous systems of animals. obtaining the spikes from
+different neurons has been a challenging problem for decades. several schemes
+have been proposed for spike sorting to isolate the spikes of individual
+neurons from electrical recordings in extracellular media. however, there is
+much scope for improvement in the accuracies obtained using the prevailing
+methods of spike sorting. to determine more effective spike sorting strategies
+using well known methods, we compared different types of signal features and
+techniques for dimensionality reduction in feature space. we tried to determine
+an optimum or near optimum feature extraction and dimensionality reduction
+methods and an optimum or near optimum number of features for spike sorting. we
+assessed relative performance of well known methods on simulated recordings
+specially designed for development and benchmarking of spike sorting schemes,
+with varying number of spike classes and the well established method of
+$k$-means clustering of selected features. we found that almost all well known
+methods performed quite well. nevertheless, from spike waveforms of 64 samples,
+sampled at 24 khz, using principal component analysis (pca) to select around 46
+to 55 features led to the better spike sorting performance than most other
+methods (wilcoxon signed rank sum test, $p < 0.001$).

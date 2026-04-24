@@ -1,0 +1,14 @@
+in reinforcement learning episodes, the rewards and punishments are often
+non-deterministic, and there are invariably stochastic elements governing the
+underlying situation. such stochastic elements are often numerous and cannot be
+known in advance, and they have a tendency to obscure the underlying rewards
+and punishments patterns. indeed, if stochastic elements were absent, the same
+outcome would occur every time and the learning problems involved could be
+greatly simplified. in addition, in most practical situations, the cost of an
+observation to receive either a reward or punishment can be significant, and
+one would wish to arrive at the correct learning conclusion by incurring
+minimum cost. in this paper, we present a stochastic approach to reinforcement
+learning which explicitly models the variability present in the learning
+environment and the cost of observation. criteria and rules for learning
+success are quantitatively analyzed, and probabilities of exceeding the
+observation cost bounds are also obtained.

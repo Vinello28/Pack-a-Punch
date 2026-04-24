@@ -1,0 +1,25 @@
+remarkable progress has been made in image recognition, primarily due to the
+availability of large-scale annotated datasets and the revival of deep cnn.
+cnns enable learning data-driven, highly representative, layered hierarchical
+image features from sufficient training data. however, obtaining datasets as
+comprehensively annotated as imagenet in the medical imaging domain remains a
+challenge. there are currently three major techniques that successfully employ
+cnns to medical image classification: training the cnn from scratch, using
+off-the-shelf pre-trained cnn features, and conducting unsupervised cnn
+pre-training with supervised fine-tuning. another effective method is transfer
+learning, i.e., fine-tuning cnn models pre-trained from natural image dataset
+to medical image tasks. in this paper, we exploit three important, but
+previously understudied factors of employing deep convolutional neural networks
+to computer-aided detection problems. we first explore and evaluate different
+cnn architectures. the studied models contain 5 thousand to 160 million
+parameters, and vary in numbers of layers. we then evaluate the influence of
+dataset scale and spatial image context on performance. finally, we examine
+when and why transfer learning from pre-trained imagenet (via fine-tuning) can
+be useful. we study two specific computer-aided detection (cade) problems,
+namely thoraco-abdominal lymph node (ln) detection and interstitial lung
+disease (ild) classification. we achieve the state-of-the-art performance on
+the mediastinal ln detection, with 85% sensitivity at 3 false positive per
+patient, and report the first five-fold cross-validation classification results
+on predicting axial ct slices with ild categories. our extensive empirical
+evaluation, cnn model analysis and valuable insights can be extended to the
+design of high performance cad systems for other medical imaging tasks.

@@ -1,0 +1,22 @@
+in this chapter we review the main literature related to kernel spectral
+clustering (ksc), an approach to clustering cast within a kernel-based
+optimization setting. ksc represents a least-squares support vector machine
+based formulation of spectral clustering described by a weighted kernel pca
+objective. just as in the classifier case, the binary clustering model is
+expressed by a hyperplane in a high dimensional space induced by a kernel. in
+addition, the multi-way clustering can be obtained by combining a set of binary
+decision functions via an error correcting output codes (ecoc) encoding scheme.
+because of its model-based nature, the ksc method encompasses three main steps:
+training, validation, testing. in the validation stage model selection is
+performed to obtain tuning parameters, like the number of clusters present in
+the data. this is a major advantage compared to classical spectral clustering
+where the determination of the clustering parameters is unclear and relies on
+heuristics. once a ksc model is trained on a small subset of the entire data,
+it is able to generalize well to unseen test points. beyond the basic
+formulation, sparse ksc algorithms based on the incomplete cholesky
+decomposition (icd) and $l_0$, $l_1, l_0 + l_1$, group lasso regularization are
+reviewed. in that respect, we show how it is possible to handle large scale
+data. also, two possible ways to perform hierarchical clustering and a soft
+clustering method are presented. finally, real-world applications such as image
+segmentation, power load time-series clustering, document clustering and big
+data learning are considered.

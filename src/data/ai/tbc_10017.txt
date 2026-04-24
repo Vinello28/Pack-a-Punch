@@ -1,0 +1,15 @@
+attention mechanisms have become a popular component in deep neural networks,
+yet there has been little examination of how different influencing factors and
+methods for computing attention from these factors affect performance. toward a
+better general understanding of attention mechanisms, we present an empirical
+study that ablates various spatial attention elements within a generalized
+attention formulation, encompassing the dominant transformer attention as well
+as the prevalent deformable convolution and dynamic convolution modules.
+conducted on a variety of applications, the study yields significant findings
+about spatial attention in deep networks, some of which run counter to
+conventional understanding. for example, we find that the query and key content
+comparison in transformer attention is negligible for self-attention, but vital
+for encoder-decoder attention. a proper combination of deformable convolution
+with key content only saliency achieves the best accuracy-efficiency tradeoff
+in self-attention. our results suggest that there exists much room for
+improvement in the design of attention mechanisms.

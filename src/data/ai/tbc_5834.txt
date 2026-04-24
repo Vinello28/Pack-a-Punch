@@ -1,0 +1,16 @@
+deep neural networks (dnns) have provably enhanced the state-of-the-art
+neural machine translation (nmt) with their capability in modeling complex
+functions and capturing complex linguistic structures. however nmt systems with
+deep architecture in their encoder or decoder rnns often suffer from severe
+gradient diffusion due to the non-linear recurrent activations, which often
+make the optimization much more difficult. to address this problem we propose
+novel linear associative units (lau) to reduce the gradient propagation length
+inside the recurrent unit. different from conventional approaches (lstm unit
+and gru), laus utilizes linear associative connections between input and output
+of the recurrent unit, which allows unimpeded information flow through both
+space and time direction. the model is quite simple, but it is surprisingly
+effective. our empirical study on chinese-english translation shows that our
+model with proper configuration can improve by 11.7 bleu upon groundhog and the
+best reported results in the same setting. on wmt14 english-german task and a
+larger wmt14 english-french task, our model achieves comparable results with
+the state-of-the-art.

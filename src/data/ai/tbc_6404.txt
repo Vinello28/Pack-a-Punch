@@ -1,0 +1,11 @@
+interfaces based on projection screens have become increasingly more popular
+in recent years, mainly due to the large screen size and resolution that they
+provide, as well as their stereo-vision capabilities. this work shows a local
+method for real-time detection of non-stationary photometric perturbations in
+projected images by means of computer vision techniques. the method is based on
+the computation of differences between the images in the projector's frame
+buffer and the corresponding images on the projection screen observed by the
+camera. it is robust under spatial variations in the intensity of light emitted
+by the projector on the projection surface and also robust under stationary
+photometric perturbations caused by external factors. moreover, we describe the
+experiments carried out to show the reliability of the method.

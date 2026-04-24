@@ -1,0 +1,14 @@
+we consider the problem of multiple agents sensing and acting in environments
+with the goal of maximising their shared utility. in these environments, agents
+must learn communication protocols in order to share information that is needed
+to solve the tasks. by embracing deep neural networks, we are able to
+demonstrate end-to-end learning of protocols in complex environments inspired
+by communication riddles and multi-agent computer vision problems with partial
+observability. we propose two approaches for learning in these domains:
+reinforced inter-agent learning (rial) and differentiable inter-agent learning
+(dial). the former uses deep q-learning, while the latter exploits the fact
+that, during learning, agents can backpropagate error derivatives through
+(noisy) communication channels. hence, this approach uses centralised learning
+but decentralised execution. our experiments introduce new environments for
+studying the learning of communication protocols and present a set of
+engineering innovations that are essential for success in these domains.

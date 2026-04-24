@@ -1,0 +1,8 @@
+we study the problem of off-policy policy evaluation (oppe) in rl. in
+contrast to prior work, we consider how to estimate both the individual policy
+value and average policy value accurately. we draw inspiration from recent work
+in causal reasoning, and propose a new finite sample generalization error bound
+for value estimates from mdp models. using this upper bound as an objective, we
+develop a learning algorithm of an mdp model with a balanced representation,
+and show that our approach can yield substantially lower mse in common
+synthetic benchmarks and a hiv treatment simulation domain.

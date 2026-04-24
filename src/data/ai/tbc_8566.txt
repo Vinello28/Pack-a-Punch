@@ -1,0 +1,14 @@
+measuring airways in chest computed tomography (ct) images is important for
+characterizing diseases such as cystic fibrosis, yet very time-consuming to
+perform manually. machine learning algorithms offer an alternative, but need
+large sets of annotated data to perform well. we investigate whether
+crowdsourcing can be used to gather airway annotations which can serve directly
+for measuring the airways, or as training data for the algorithms. we generate
+image slices at known locations of airways and request untrained crowd workers
+to outline the airway lumen and airway wall. our results show that the workers
+are able to interpret the images, but that the instructions are too complex,
+leading to many unusable annotations. after excluding unusable annotations,
+quantitative results show medium to high correlations with expert measurements
+of the airways. based on this positive experience, we describe a number of
+further research directions and provide insight into the challenges of
+crowdsourcing in medical images from the perspective of first-time users.

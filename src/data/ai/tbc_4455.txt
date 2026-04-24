@@ -1,0 +1,15 @@
+deep learning methods, in particular trained convolutional neural networks
+(cnns) have recently been shown to produce compelling state-of-the-art results
+for single image super-resolution (sr). invariably, a cnn is learned to map the
+low resolution (lr) image to its corresponding high resolution (hr) version in
+the spatial domain. aiming for faster inference and more efficient solutions
+than solving the sr problem in the spatial domain, we propose a novel network
+structure for learning the sr mapping function in an image transform domain,
+specifically the discrete cosine transform (dct). as a first contribution, we
+show that dct can be integrated into the network structure as a convolutional
+dct (cdct) layer. we further extend the network to allow the cdct layer to
+become trainable (i.e. optimizable). because this layer represents an image
+transform, we enforce pairwise orthogonality constraints on the individual
+basis functions/filters. this orthogonally regularized deep sr network (ordsr)
+simplifies the sr task by taking advantage of image transform domain while
+adapting the design of transform basis to the training image set.

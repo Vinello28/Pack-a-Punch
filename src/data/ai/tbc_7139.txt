@@ -1,0 +1,11 @@
+this paper gives a rigorous analysis of trained generalized hamming
+networks(ghn) proposed by fan (2017) and discloses an interesting finding about
+ghns, i.e., stacked convolution layers in a ghn is equivalent to a single yet
+wide convolution layer. the revealed equivalence, on the theoretical side, can
+be regarded as a constructive manifestation of the universal approximation
+theorem cybenko(1989); hornik (1991). in practice, it has profound and
+multi-fold implications. for network visualization, the constructed deep
+epitomes at each layer provide a visualization of network internal
+representation that does not rely on the input data. moreover, deep epitomes
+allows the direct extraction of features in just one step, without resorting to
+regularized optimizations used in existing visualization tools.

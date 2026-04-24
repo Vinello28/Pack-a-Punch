@@ -1,0 +1,22 @@
+convolutional neural networks (cnns) can be applied to graph similarity
+matching, in which case they are called graph cnns. graph cnns are attracting
+increasing attention due to their effectiveness and efficiency. however, the
+existing convolution approaches focus only on regular data forms and require
+the transfer of the graph or key node neighborhoods of the graph into the same
+fixed form. during this transfer process, structural information of the graph
+can be lost, and some redundant information can be incorporated. to overcome
+this problem, we propose the disordered graph convolutional neural network
+(dgcnn) based on the mixed gaussian model, which extends the cnn by adding a
+preprocessing layer called the disordered graph convolutional layer (dgcl). the
+dgcl uses a mixed gaussian function to realize the mapping between the
+convolution kernel and the nodes in the neighborhood of the graph. the output
+of the dgcl is the input of the cnn. we further implement a
+backward-propagation optimization process of the convolutional layer by which
+we incorporate the feature-learning model of the irregular node neighborhood
+structure into the network. thereafter, the optimization of the convolution
+kernel becomes part of the neural network learning process. the dgcnn can
+accept arbitrary scaled and disordered neighborhood graph structures as the
+receptive fields of cnns, which reduces information loss during graph
+transformation. finally, we perform experiments on multiple standard graph
+datasets. the results show that the proposed method outperforms the
+state-of-the-art methods in graph classification and retrieval.

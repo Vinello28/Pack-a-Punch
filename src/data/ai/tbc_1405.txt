@@ -1,0 +1,15 @@
+cell imaging and analysis are fundamental to biomedical research because
+cells are the basic functional units of life. among different cell-related
+analysis, cell counting and detection are widely used. in this paper, we focus
+on one common step of learning-based cell counting approaches: coding the raw
+dot labels into more suitable maps for learning. two criteria of coding raw dot
+labels are discussed, and a new coding scheme is proposed in this paper. the
+two criteria measure how easy it is to train the model with a coding scheme,
+and how robust the recovered raw dot labels are when predicting. the most
+compelling advantage of the proposed coding scheme is the ability to
+distinguish neighboring cells in crowded regions. cell counting and detection
+experiments are conducted for five coding schemes on four types of cells and
+two network architectures. the proposed coding scheme improves the counting
+accuracy versus the widely-used gaussian and rectangle kernels up to 12%, and
+also improves the detection accuracy versus the common proximity coding up to
+14%.

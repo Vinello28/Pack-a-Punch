@@ -1,0 +1,12 @@
+the ability to modulate vocal sounds and generate speech is one of the
+features which set humans apart from other living beings. the human voice can
+be characterized by several attributes such as pitch, timbre, loudness, and
+vocal tone. it has often been observed that humans express their emotions by
+varying different vocal attributes during speech generation. hence, deduction
+of human emotions through voice and speech analysis has a practical
+plausibility and could potentially be beneficial for improving human
+conversational and persuasion skills. this paper presents an algorithmic
+approach for detection and analysis of human emotions with the help of voice
+and speech processing. the proposed approach has been developed with the
+objective of incorporation with futuristic artificial intelligence systems for
+improving human-computer interactions.
