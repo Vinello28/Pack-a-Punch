@@ -46,8 +46,6 @@ services:
       dockerfile: docker/Dockerfile.serve
     image: pack-a-punch:serve
     container_name: pap-classifier-pytorch
-    security-opt:
-      - seccomp:unconfined
     ports:
       - "8081:8080"
     volumes:
@@ -79,6 +77,8 @@ services:
       dockerfile: docker/Dockerfile.train
     image: pack-a-punch:train
     container_name: pap-trainer
+    security_opt:
+      - seccomp:unconfined
     volumes:
       # Mount data directory (read-write)
       - ../src/data:/app/src/data:rw
