@@ -150,6 +150,7 @@ def main():
         return 1
     
     # Export ONNX
+    onnx_path = None
     if args.export_optimum:
         logger.info("Exporting to ONNX with Optimum (kernel fusion)...")
         try:
@@ -167,6 +168,52 @@ def main():
             logger.error(f"ONNX export failed: {e}")
             return 1
     
+    # Evaluation on Test set
+    if onnx_path:
+        logger.info("=" * 60)
+        logger.info("Evaluating ONNX model on Test set...")
+        try:
+            from src.inference.engine import create_engine
+            from src.training.dataset import load_dataset_from_txt
+            from sklearn.metrics import classification_report
+            import time
+            
+            test_dir = settings.data_dir / "Test"
+            if test_dir.exists():
+                logger.info(f"Loading test data from {test_dir}...")
+                test_texts, test_labels = load_dataset_from_txt(test_dir)
+                
+                logger.info("Initializing InferenceEngine...")
+                engine = create_engine(model_path=onnx_path)
+                
+                logger.info("Running predictions...")
+                start_time = time.time()
+                
+                results = []
+                batch_size = engine.batch_size
+                for i in range(0, len(test_texts), batch_size):
+                    batch_texts = test_texts[i:i + batch_size]
+                    results.extend(engine.predict_batch(batch_texts))
+                
+                # Convert predictions to label IDs
+                label_map_inv = {v: k for k, v in settings.model.label_map.items()}
+                pred_labels = [label_map_inv[res["label"]] for res in results]
+                
+                logger.info(f"Inference time: {time.time() - start_time:.2f}s")
+                
+                # Print metrics
+                target_names = [settings.model.label_map[0], settings.model.label_map[1]]
+                report = classification_report(
+                    test_labels, 
+                    pred_labels, 
+                    target_names=target_names
+                )
+                logger.info("Classification Report:\n" + report)
+            else:
+                logger.warning(f"Test directory not found at {test_dir}. Skipping evaluation.")
+        except Exception as e:
+            logger.error(f"Evaluation failed: {e}")
+
     logger.info("=" * 60)
     logger.info("Training pipeline complete!")
     logger.info("=" * 60)
