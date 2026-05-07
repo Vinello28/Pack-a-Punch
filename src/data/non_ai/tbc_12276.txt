@@ -1,0 +1,1 @@
+Il progetto si propone di implementare i Gemelli Digitali (Digital Twins) nel settore sanitario al fine di creare modelli avanzati dei pazienti utilizzando dati medici e biologici

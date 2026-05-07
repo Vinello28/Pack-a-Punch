@@ -1,0 +1,18 @@
+the effectiveness of generative adversarial approaches in producing images
+according to a specific style or visual domain has recently opened new
+directions to solve the unsupervised domain adaptation problem. it has been
+shown that source labeled images can be modified to mimic target samples making
+it possible to train directly a classifier in the target domain, despite the
+original lack of annotated data. inverse mappings from the target to the source
+domain have also been evaluated but only passing through adapted feature
+spaces, thus without new image generation. in this paper we propose to better
+exploit the potential of generative adversarial networks for adaptation by
+introducing a novel symmetric mapping among domains. we jointly optimize
+bi-directional image transformations combining them with target self-labeling.
+moreover we define a new class consistency loss that aligns the generators in
+the two directions imposing to conserve the class identity of an image passing
+through both domain mappings. a detailed qualitative and quantitative analysis
+of the reconstructed images confirm the power of our approach. by integrating
+the two domain specific classifiers obtained with our bi-directional network we
+exceed previous state-of-the-art unsupervised adaptation results on four
+different benchmark datasets.

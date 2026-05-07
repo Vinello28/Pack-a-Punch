@@ -1,0 +1,1 @@
+APLAND (Analysis Platform for LANdslide Detection) ha come obiettivo programmatico  la realizzazione di una piattaforma di gestione  analisi  integrazione e distribuzione di dati  modelli e soluzioni utili a gestire le conoscenze connesse alla valutazione della pericolositÃ  e della suscettibilitÃ  da frana.

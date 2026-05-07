@@ -1,0 +1,1 @@
+Bitcorp ha sviluppato un Intrusion Detection Prevention System (IDPS) dotato di un impianto di intelligenza artificiale (Machine Learning ML) capace di monitorare reti del tipo Local Area Network (LAN) che Metropolitan Area Network (MAN) e Wide Area Network (WAN) ovvero rilevare potenziali minacce cyber sia dall esterno che dall interno della infrastruttura monitorata.

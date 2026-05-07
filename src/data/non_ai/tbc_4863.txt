@@ -1,0 +1,1 @@
+La tecnologia LAMP  indica una piattaforma software per lo sviluppo di applicazioni web che prende il nome dalle iniziali dei componenti software con cui e' realizzata. I componenti di base  da cui prende il nome  sono: - Linux: il sistema operativo

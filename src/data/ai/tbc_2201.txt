@@ -1,0 +1,1 @@
+Il progetto sviluppa protesi sensorizzate per arti superiori e inferiori con sensori EMG e di pressione per migliorare controllo e feedback. Include training in realt virtuale e design avanzato con materiali biocompatibili puntando a prototipi innovativi che aumentano funzionalit e accettazione

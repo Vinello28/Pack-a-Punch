@@ -1,0 +1,1 @@
+Il progetto ha come obiettivo l'integrazione di strumenti di interactive computing e prototipazione rapida in ambito intelligenza artificiale con strumenti di definizione ed esecuzione di workflow su architetture eterogenee che vanno dal Cloud all'HPC attraverso tecniche di annotazione del codice e compilazione source-to-source.

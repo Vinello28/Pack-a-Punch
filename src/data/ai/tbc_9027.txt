@@ -1,0 +1,26 @@
+alzheimer's disease (ad) is characterized by a cascade of biomarkers becoming
+abnormal, the pathophysiology of which is very complex and largely unknown.
+event-based modeling (ebm) is a data-driven technique to estimate the sequence
+in which biomarkers for a disease become abnormal based on cross-sectional
+data. it can help in understanding the dynamics of disease progression and
+facilitate early diagnosis and prognosis. in this work we propose a novel
+discriminative approach to ebm, which is shown to be more accurate than
+existing state-of-the-art ebm methods. the method first estimates for each
+subject an approximate ordering of events. subsequently, the central ordering
+over all subjects is estimated by fitting a generalized mallows model to these
+approximate subject-specific orderings. we also introduce the concept of
+relative distance between events which helps in creating a disease progression
+timeline. subsequently, we propose a method to stage subjects by placing them
+on the estimated disease progression timeline. we evaluated the proposed method
+on alzheimer's disease neuroimaging initiative (adni) data and compared the
+results with existing state-of-the-art ebm methods. we also performed extensive
+experiments on synthetic data simulating the progression of alzheimer's
+disease. the event orderings obtained on adni data seem plausible and are in
+agreement with the current understanding of progression of ad. the proposed
+patient staging algorithm performed consistently better than that of
+state-of-the-art ebm methods. event orderings obtained in simulation
+experiments were more accurate than those of other ebm methods and the
+estimated disease progression timeline was observed to correlate with the
+timeline of actual disease progression. the results of these experiments are
+encouraging and suggest that discriminative ebm is a promising approach to
+disease progression modeling.

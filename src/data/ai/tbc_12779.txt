@@ -1,0 +1,1 @@
+Analisi dei dati estratti dalla piattaforma per interpretare e correlare le variabili con le metriche di interesse mediante tecniche innovative. Studio di fattibilit e test di un modello LLM out-of-the-shelf per la possibile implementazione di un sistema in grado di interrogare i dati estratti dalla piattaforma proprietaria di Komete.

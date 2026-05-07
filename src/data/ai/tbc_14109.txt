@@ -1,0 +1,1 @@
+Realizzazione di un virtual showroom nel proprio sito con la possibilita  tramite lâ€™intelligenza artificiale  di effettuare simulazioni di articoli su modelli presenti conferendo al sito le proprieta di uno store fisico o di una fiera di settore.

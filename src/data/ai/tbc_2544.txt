@@ -1,0 +1,1 @@
+Il progetto finalizzato all'ideazione e alla progettazione di un sistema informatico per l'analisi dei big data raccolti da strumenti avanzati di marketing automation integrati con algoritmi di intelligenza artificiale avente lo scopo di dotare le aziende di strumenti analitici e predittivi legati alle proprie azioni di digital marketing

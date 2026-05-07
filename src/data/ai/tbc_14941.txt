@@ -1,0 +1,1 @@
+DESCRIZIONE: Sviluppo di una piattaforma di Intelligenza Artificiale e Machine Learning integrata nei processi CPM.

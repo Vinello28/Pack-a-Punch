@@ -1,0 +1,1 @@
+Piattaforma informatica Microsoft .NET con: interfaccia responsive  ovvero in grado di adattarsi automaticamente alla risoluzione del dispositivo utilizzato (pc  tablet smartphone  etc)

@@ -1,0 +1,1 @@
+il progetto prevede la gestione digitale dei documenti a partire dalla loro formazione / ricezione fino all'archiviazione e conservazione sostitutiva a norma. il progetto prevede moduli software (firma grafometrica) e hardware (tavolette per firma e pc).

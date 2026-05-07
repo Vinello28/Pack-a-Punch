@@ -1,0 +1,1 @@
+Realizzazione di una piattaforma con funzionalit di machine learning capace di autoapprendere dalle transazioni e dall analisi dei dati per effettuare un operazione di adeguamento tramite un meccanismo di Artificial Intelligence.

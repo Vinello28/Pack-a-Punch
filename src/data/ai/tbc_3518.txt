@@ -1,0 +1,1 @@
+Il progetto TIC VLE si basa sull utilizzo della realt virtuale per la ricostruzione di ambientazioni virtuali. Tali ambientazioni immersive saranno utilizzate come simulatori all interno di corsi di formazione inizialmente orientati verso la sicurezza sul lavoro.

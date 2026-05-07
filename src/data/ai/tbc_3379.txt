@@ -1,0 +1,1 @@
+Il progetto Tech4Art realizza un sistema digitale per la valorizzazione fruizione e gestione dei Beni Culturali attraverso la combinazione innovativa di pi tecnologie ICT (Augmented reality Virtual museum social museum participatory museum QRcode NFC Beacon indoor e outdoor geolocalization) e new media & audiovisual guide web/mobile application.

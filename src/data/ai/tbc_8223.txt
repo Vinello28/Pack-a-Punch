@@ -1,0 +1,1 @@
+Realizzazione di una piattaforma dotata di Intelligenza Artificiale e di tutor virtuali in grado fornire un primo orientamento dâ€™ingresso per gli interessati alla formazione universitaria.

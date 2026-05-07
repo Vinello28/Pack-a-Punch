@@ -1,0 +1,1 @@
+Creazione di un sistema di simulazione odontoiatrico in realt virtuale ed immersiva integrato a piattaforma e-learning con database e certificazione dati blockchain based.

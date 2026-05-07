@@ -1,0 +1,1 @@
+Il progetto prevede la realizzazione di uno strumento hardware e software  denominato Block Box (BB)  basato su tecnologia Blockchain per lâ€™implementazione di funzionalitÃ : - di convalida di certificazioni ambientali di prodotto e - di manutenzione predittiva  nel caso i prodotti siano dispositivi ad alimentazione elettrica.

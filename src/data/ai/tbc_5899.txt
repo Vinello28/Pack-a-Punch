@@ -1,0 +1,1 @@
+Il progetto esplora l uso di robotica mobile e intelligenza artificiale per automatizzare la manutenzione dei rotabili ferroviari. Sistemi robotici con sensori e visione artificiale acquisiscono dati digitali elaborati da algoritmi predittivi per rilevare difetti e prevenire guasti migliorando sicurezza ed efficienza

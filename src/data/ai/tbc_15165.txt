@@ -1,0 +1,10 @@
+this work investigates continual learning of two segmentation tasks in brain
+mri with neural networks. to explore in this context the capabilities of
+current methods for countering catastrophic forgetting of the first task when a
+new one is learned, we investigate elastic weight consolidation, a recently
+proposed method based on fisher information, originally evaluated on
+reinforcement learning of atari games. we use it to sequentially learn
+segmentation of normal brain structures and then segmentation of white matter
+lesions. our findings show this recent method reduces catastrophic forgetting,
+while large room for improvement exists in these challenging settings for
+continual learning.

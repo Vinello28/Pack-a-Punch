@@ -1,0 +1,1 @@
+Con il presente investimento s'intende realizzare un sistema intelligente di gestione del Terminal Bus. Il nuovo sistema cloud based grazie ad algoritmi di Machine Learning e di Data Mining costruir il modello Energivoro del terminal per predire il consumo energetico necessario.

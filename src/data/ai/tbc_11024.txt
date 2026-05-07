@@ -1,0 +1,1 @@
+Sito Web multilingua con booking engine pagamenti on line self check-in e self check-out revenue management intelligente che utilizza tecniche di machine learning invio automatico alla PS istat e calcolo della tassa di soggiorno. Installazione tastiere per automatizzare gli accessi con generazione dei codici che saranno consegnati agl'ospiti.

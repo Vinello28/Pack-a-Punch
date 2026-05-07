@@ -1,0 +1,1 @@
+Il progetto mira a sviluppare un sistema di Machine Learning per ottimizzare il testing elettrico delle schede di controllo delle stufe a pellet. Si prevede di raccogliere dati da un Software e immagini da una telecamera installata nel sistema di testing.

@@ -1,0 +1,18 @@
+probabilistic graphical models are powerful tools which allow us to formalise
+our knowledge about the world and reason about its inherent uncertainty. there
+exist a considerable number of methods for performing inference in
+probabilistic graphical models; however, they can be computationally costly due
+to significant time burden and/or storage requirements; or they lack
+theoretical guarantees of convergence and accuracy when applied to large scale
+graphical models. to this end, we propose the universal marginaliser importance
+sampler (um-is) -- a hybrid inference scheme that combines the flexibility of a
+deep neural network trained on samples from the model and inherits the
+asymptotic guarantees of importance sampling. we show how combining samples
+drawn from the graphical model with an appropriate masking function allows us
+to train a single neural network to approximate any of the corresponding
+conditional marginal distributions, and thus amortise the cost of inference. we
+also show that the graph embeddings can be applied for tasks such as:
+clustering, classification and interpretation of relationships between the
+nodes. finally, we benchmark the method on a large graph (>1000 nodes), showing
+that um-is outperforms sampling-based methods by a large margin while being
+computationally efficient.

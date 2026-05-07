@@ -1,0 +1,1 @@
+sistema basato sull intelligenza artificiale denominato GuardA.I strutturato per l analisi predittiva di infrastrutture pubbliche (ponti dighe autostrade palazzi etc.) al fine di monitorare e prevedere gli interventi di manutenzione necessari

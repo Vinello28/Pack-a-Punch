@@ -1,0 +1,1 @@
+Il Progetto mira a esplorare l'applicazione di soluzioni di Intelligenza Artificiale (AI) per analizzare i dati raccolti dai siti web di Eolnet Srl al fine di comprendere meglio i comportamenti di acquisto dei clienti identificare nuovi target di clientela e ottimizzare le strategie di marketing.

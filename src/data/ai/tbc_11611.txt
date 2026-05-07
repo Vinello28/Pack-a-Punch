@@ -1,0 +1,1 @@
+Il progetto denominato ARTeller Augmented Reality storyTELLER ha come obiettivo la studio di un architettura per la fornitura di servizi in realt aumentata applicato al settore dei musei/beni culturali/siti archeologici. Servizi basati sull architettura proposta ridurranno sensibilmente l impatto ambientale

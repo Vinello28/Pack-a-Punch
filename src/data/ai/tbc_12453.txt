@@ -1,0 +1,1 @@
+Realizzazione di un modello di Smart Home in grado di utilizzare algoritmi basati sull'intelligenza artificiale.

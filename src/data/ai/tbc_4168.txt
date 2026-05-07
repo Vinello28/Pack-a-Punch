@@ -1,0 +1,1 @@
+AI-GPU@SAT progettazione e implementazione di due reti neurali e corrispettivo hardware dimostrativo per il processamento a bordo satellite di dati iper-spettrali e di dati SAR (Synthetic Aperture Radar)

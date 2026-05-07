@@ -1,0 +1,1 @@
+La soluzione tecnologica ottenuta una piattaforma di Big Data Analytics a supporto della prevenzione oncologica con funzionalit evolute (data collection/ingestion data storage data processing e data analysis) per il suggerimento automatico di percorsi di prevenzione / follow- up.

@@ -1,0 +1,15 @@
+diversity of food and its attributes represents the culinary habits of
+peoples from different countries. thus, this paper addresses the problem of
+identifying food culture of people around the world and its flavor by
+classifying two main food attributes, cuisine and flavor. a deep learning model
+based on multi-scale convotuional networks is proposed for extracting more
+accurate features from input images. the aggregation of multi-scale convolution
+layers with different kernel size is also used for weighting the features
+results from different scales. in addition, a joint loss function based on
+negative log likelihood (nll) is used to fit the model probability to multi
+labeled classes for multi-modal classification task. furthermore, this work
+provides a new dataset for food attributes, so-called yummly48k, extracted from
+the popular food website, yummly. our model is assessed on the constructed
+yummly48k dataset. the experimental results show that our proposed method
+yields 65% and 62% average f1 score on validation and test set which
+outperforming the state-of-the-art models.

@@ -1,0 +1,1 @@
+Realizzazione di una soluzione basata sull'adozione di strumenti e tecniche di intelligenza artificiale data anlysis e internet of things in modo da ottimizzare la gestione dei flussi passeggeri tra porto e trasporto pubblico locale.

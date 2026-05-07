@@ -1,0 +1,9 @@
+previous rnn architectures have largely been superseded by lstm, or "long
+short-term memory". since its introduction, there have been many variations on
+this simple design. however, it is still widely used and we are not aware of a
+gated-rnn architecture that outperforms lstm in a broad sense while still being
+as simple and efficient. in this paper we propose a modified lstm-like
+architecture. our architecture is still simple and achieves better performance
+on the tasks that we tested on. we also introduce a new rnn performance
+benchmark that uses the handwritten digits and stresses several important
+network capabilities.

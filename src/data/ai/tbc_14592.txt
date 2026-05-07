@@ -1,0 +1,1 @@
+Sviluppo di kit (hardware e software) diretti a gestire lâ€™intero ciclo di sviluppo e messa in produzione di un prodotto/servizio AIoT.

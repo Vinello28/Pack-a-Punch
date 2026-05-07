@@ -1,0 +1,1 @@
+Il progetto ISKILL prevede lo studio e sviluppo di una soluzione tecnologica prototipale in grado di impiegare gli algoritmi di intelligenza artificiale per effettuare il riconoscimento facciale (destinato agli studenti/docenti) all interno della piattaforma di e-learning impiegata per la formazione a distanza WAU-UNIVERSITY.

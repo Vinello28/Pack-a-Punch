@@ -1,0 +1,1 @@
+Il progetto prevede di usare un modello di AI-VOLUTION: Revolution of Software Automation. L obiettivo del progetto implementare con successo l'automazione basata sull'Intelligenza Artificiale (AI) all'interno del processo di sviluppo software al fine di migliorare significativamente l'efficienza la qualit del codice e la collaborazione del team

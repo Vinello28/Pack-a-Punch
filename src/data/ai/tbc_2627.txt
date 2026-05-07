@@ -1,0 +1,1 @@
+Realizzazione di un EVA per collezionare dati e addestrare l'IA senza bisogno di un operatore.

@@ -1,0 +1,1 @@
+Sistema innovativo per la profilazione il conteggio e l'analisi del flusso di persone e delle loro interazioni attraverso varchi e passaggi fisici facendo uso di tecnologie di Computer Vision Sensor Fusion e Deep Learning

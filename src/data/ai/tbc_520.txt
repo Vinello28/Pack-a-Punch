@@ -1,0 +1,1 @@
+Il progetto Perpetuo intende realizzare un sistema di monitoraggio predittivo basato su software di machine learning applicato ad impianti di pressofusione

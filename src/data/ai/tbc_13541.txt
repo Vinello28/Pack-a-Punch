@@ -1,0 +1,1 @@
+Realizzare la versione 2.0 di Ambiens VR Ambiens.AI introducendo nell ambito della progettazione in rendering l intelligenza artificiale il machine learnig e il deep learnig. Ambiens.AI un traduttore automatico di elaborati architettonici bidimensionali digitali e non in elaborati 3D e BIM.

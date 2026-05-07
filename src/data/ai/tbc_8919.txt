@@ -1,0 +1,19 @@
+in recent years a number of large-scale triple-oriented knowledge graphs have
+been generated and various models have been proposed to perform learning in
+those graphs. most knowledge graphs are static and reflect the world in its
+current state. in reality, of course, the state of the world is changing: a
+healthy person becomes diagnosed with a disease and a new president is
+inaugurated. in this paper, we extend models for static knowledge graphs to
+temporal knowledge graphs. this enables us to store episodic data and to
+generalize to new facts (inductive learning). we generalize leading learning
+models for static knowledge graphs (i.e., tucker, rescal, hole, complex,
+distmult) to temporal knowledge graphs. in particular, we introduce a new
+tensor model, cont, with superior generalization performance. the performances
+of all proposed models are analyzed on two different datasets: the global
+database of events, language, and tone (gdelt) and the database for integrated
+conflict early warning system (icews). we argue that temporal knowledge graph
+embeddings might be models also for cognitive episodic memory (facts we
+remember and can recollect) and that a semantic memory (current facts we know)
+can be generated from episodic memory by a marginalization operation. we
+validate this episodic-to-semantic projection hypothesis with the icews
+dataset.

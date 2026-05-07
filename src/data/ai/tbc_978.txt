@@ -1,0 +1,1 @@
+Sviluppo di un sistema di sicurezza anticollisione basato su sensori laser visione e IA.

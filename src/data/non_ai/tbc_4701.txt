@@ -1,0 +1,1 @@
+Il progetto si pone lo scopo di automatizzare i processi di trasmissione ordini e scambio informazioni tra ufficio traffico ed automezzi con l'obiettivo di ridurre la duplicazione dei dati e velocizzare e semplificare le procedure di scarico dei continers presso i porti

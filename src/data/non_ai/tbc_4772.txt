@@ -1,0 +1,1 @@
+- Attivita' di consulenza per il potenziamento dell'infrastruttura di rete wifi - Implementazione di sistemi di network resilience al fine di ridurre l'impatto dei fault di connettivita' sull'end user  - Integrazione dei servizi di rete con la piattaforma

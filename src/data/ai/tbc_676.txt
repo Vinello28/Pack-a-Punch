@@ -1,0 +1,16 @@
+in this paper we present two deep-learning systems that competed at
+semeval-2018 task 3 "irony detection in english tweets". we design and ensemble
+two independent models, based on recurrent neural networks (bi-lstm), which
+operate at the word and character level, in order to capture both the semantic
+and syntactic information in tweets. our models are augmented with a
+self-attention mechanism, in order to identify the most informative words. the
+embedding layer of our word-level model is initialized with word2vec word
+embeddings, pretrained on a collection of 550 million english tweets. we did
+not utilize any handcrafted features, lexicons or external datasets as prior
+information and our models are trained end-to-end using back propagation on
+constrained data. furthermore, we provide visualizations of tweets with
+annotations for the salient tokens of the attention layer that can help to
+interpret the inner workings of the proposed models. we ranked 2nd out of 42
+teams in subtask a and 2nd out of 31 teams in subtask b. however,
+post-task-completion enhancements of our models achieve state-of-the-art
+results ranking 1st for both subtasks.

@@ -1,0 +1,1 @@
+Realizzazione di una piattaforma intelligente di visualizzazione informazioni funzionali di normale utilizzo dellâ€™ascensore capace di essere anche vettore di informazioni bidirezionali tra centro assistenza locale e/o remoto oltre a tool diagnostico e di parametrizzazione per personale addetto alla manutenzione

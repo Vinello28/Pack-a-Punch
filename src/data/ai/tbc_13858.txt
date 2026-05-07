@@ -1,0 +1,1 @@
+Realizzazione di un PoC di una piattaforma web-based basata su algoritmi di intelligenza artificiale

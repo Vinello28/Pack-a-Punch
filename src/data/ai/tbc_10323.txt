@@ -1,0 +1,14 @@
+neural network design has utilized flexible nonlinear processes which can
+mimic biological systems, but has suffered from a lack of traceability in the
+resulting network. graphical probabilistic models ground network design in
+probabilistic reasoning, but the restrictions reduce the expressive capability
+of each node making network designs complex. the ability to model coupled
+random variables using the calculus of nonextensive statistical mechanics
+provides a neural node design incorporating nonlinear coupling between input
+states while maintaining the rigor of probabilistic reasoning. a generalization
+of bayes rule using the coupled product enables a single node to model
+correlation between hundreds of random variables. a coupled markov random field
+is designed for the inferencing and classification of uci's mlr 'multiple
+features data set' such that thousands of linear correlation parameters can be
+replaced with a single coupling parameter with just a (3%, 4%) percent
+reduction in (classification, inference) performance.

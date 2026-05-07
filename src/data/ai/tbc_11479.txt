@@ -1,0 +1,1 @@
+Il progetto di Ricerca e Sviluppo in oggetto si prefigge quale obiettivo lo sviluppo di soluzioni volte all introduzione della manutenzione predittiva basata sulle misure di vibrazioni tramite l uso di IoT Big Data e Analytics / Machine Learning.

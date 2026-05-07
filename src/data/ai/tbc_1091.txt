@@ -1,0 +1,9 @@
+we study the structure of representations, defined as approximations of
+minimal sufficient statistics that are maximal invariants to nuisance factors,
+for visual data subject to scaling and occlusion of line-of-sight. we derive
+analytical expressions for such representations and show that, under certain
+restrictive assumptions, they are related to features commonly in use in the
+computer vision community. this link highlights the condition tacitly assumed
+by these descriptors, and also suggests ways to improve and generalize them.
+this new interpretation draws connections to the classical theories of
+sampling, hypothesis testing and group invariance.

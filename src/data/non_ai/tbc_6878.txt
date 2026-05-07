@@ -1,0 +1,1 @@
+Il progetto prevede l'ingegnerizzazione di un sistema di prospezione per l'individuazione di anomalie geologiche durante le operazioni di scavo in roccia  mediante la meccanizzazione e automazione di una metodologia georadar giÃ  testata. L'utilizzo del GPR (ground probing radar) per l'individuazione di cavitÃ  e fratture Ã¨ noto in letteratura

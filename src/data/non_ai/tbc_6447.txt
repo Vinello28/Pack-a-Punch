@@ -1,0 +1,1 @@
+La societÃ  si occupa di intermediazioni  compravendite e gestione di locazioni. Per poter realizzare questo progetto di lavoro  ci siamo accorti di alcuni limiti strutturali che ci ostacolano e rallentano nello sviluppo di un mercato giÃ  esistente. I limiti principali sono: -	Informatizzare lo scadenziario

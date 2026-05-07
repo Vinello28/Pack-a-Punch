@@ -1,0 +1,1 @@
+Il progetto MINA punta allo sviluppo di un applicazione innovativa per dispositivi mobili multipiattaforma (iOS e Android) per supporto alla guida veicolo in contesto Smart City. L applicazione sar configurabile come sistema di navigazione intelligente durante la guida in modalit manuale e come mission control e visualizzazione dati in modalit di guida autonoma.

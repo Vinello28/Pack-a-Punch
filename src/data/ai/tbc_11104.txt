@@ -1,0 +1,10 @@
+pose2sim provides a workflow for 3d markerless kinematics, as an alternative to the more usual marker-based motion capture methods. pose2sim stands for “openpose to opensim”, as it uses openpose inputs (2d coordinates obtained from multiple videos) and leads to an opensim result (full-body 3d joint angles).
+the repository presents a framework for:
+• detecting 2d joint coordinates from videos, e.g. via openpose (cao et al., 2019)
+• calibrating cameras
+• detecting the person of interest
+• triangulating 2d joint coordinates and storing them as 3d positions in a .trc file
+• filtering these calculated 3d positions
+• scaling and running inverse kinematics via opensim (delp et al., 2007; seth, 2018), in
+order to obtain full-body 3d joint angles
+each task is easily customizable, and requires only moderate python skills. pose2sim is accessible at https://github.com/perfanalytics/pose2sim.

@@ -1,0 +1,1 @@
+Sistemi di ricalibrazione automatica di posizionamento della strumentazione di rilievo montata su veicoli diagnostici e/o su trolley robotizzati per la mappatura e la diagnostica 3D delle infrastrutture ferroviarie.

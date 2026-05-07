@@ -43,23 +43,15 @@ def distribute_data():
             label = label.lower().strip()
         
         # Check if valid label
-        target_dir = None
         if label == "ai":
             target_dir = os.path.join(base_data_path, "ai")
-        elif label == "non_ai":
+        elif label in ["non_ai", "non-ai", "non ai"]:
             target_dir = os.path.join(base_data_path, "non_ai")
+            label = "non_ai"  # Normalize to match counts dictionary keys
         else:
-            # Handle variations if necessary or skip
-            # Check for possible variations
-            normalized_label = label.lower().strip()
-            if normalized_label == "ai":
-                target_dir = os.path.join(base_data_path, "ai")
-            elif normalized_label == "non_ai" or normalized_label == "non-ai" or normalized_label == "non ai":
-                target_dir = os.path.join(base_data_path, "non_ai")
-            else:
-                print(f"Warning: Unknown label '{label}' at row {index}. Skipping.")
-                counts["skipped"] = counts.get("skipped", 0) + 1
-                continue
+            print(f"Warning: Unknown label '{label}' at row {index}. Skipping.")
+            counts["skipped"] = counts.get("skipped", 0) + 1
+            continue
 
         # Ensure directory exists
         os.makedirs(target_dir, exist_ok=True)

@@ -1,0 +1,1 @@
+Sistema gestionale integrato e modulare che automatizza il servizio noleggioradioguide: - frontend portale cliente: registrazione  gestione anagrafica prenotazione servizi  pagamenti reportistica  ticket di assistenza

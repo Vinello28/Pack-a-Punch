@@ -1,0 +1,1 @@
+Implementazione di un collettore di dati e di tecnologia semantica per la loro classificazione.

@@ -1,0 +1,1 @@
+sviluppo piattaforma prototipo web based FARMWARE e APP mobile (ANDROID E IOS) per sistema di supporto decisionale  basato su tecnologie IOT in grado di raccogliere ed elaborare dati in tempo reale sulle coltivazioni e sui parametri ambientali .

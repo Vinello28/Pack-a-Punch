@@ -1,0 +1,2 @@
+we demonstrate that it is feasible to diacritize hebrew script without any human-curated resources other than plain diacritized text. we present nakdimon, a two-layer character level lstm, that performs on par with much more complicated curation-dependent 
+ systems, across a diverse array of modern hebrew sources.

@@ -1,0 +1,25 @@
+the trade-off between language expressiveness and system scalability (e&s) is
+a well-known problem in rdf stream reasoning. higher expressiveness supports
+more complex reasoning logic, however, it may also hinder system scalability.
+current research mainly focuses on logical frameworks suitable for stream
+reasoning as well as the implementation and the evaluation of prototype
+systems. these systems are normally developed in a centralized setting which
+suffer from inherent limited scalability, while an in-depth study of applying
+distributed solutions to cover e&s is still missing. in this paper, we aim to
+explore the feasibility of applying modern distributed computing frameworks to
+meet e&s all together. to do so, we first propose bigsr, a technical
+demonstrator that supports a positive fragment of the lars framework. for the
+sake of generality and to cover a wide variety of use cases, bigsr relies on
+the two main execution models adopted by major distributed execution
+frameworks: bulk synchronous processing (bsp) and record-at-a-time (rat).
+accordingly, we implement bigsr on top of apache spark streaming (bsp model)
+and apache flink (rat model). in order to conclude on the impacts of bsp and
+rat on e&s, we analyze the ability of the two models to support distributed
+stream reasoning and identify several types of use cases characterized by their
+levels of support. this classification allows for quantifying the e&s trade-off
+by assessing the scalability of each type of use case \wrt its level of
+expressiveness. then, we conduct a series of experiments with 15 queries from 4
+different datasets. our experiments show that bigsr over both bsp and rat
+generally scales up to high throughput beyond million-triples per second (with
+or without recursion), and rat attains sub-millisecond delay for stateless
+query operators.

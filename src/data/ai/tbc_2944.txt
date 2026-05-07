@@ -1,0 +1,1 @@
+L obiettivo primario del progetto ATTICUS lo sviluppo di un sistema hardware e software basato su intelligenza artificiale in grado di monitorare costantemente un individuo e di accorgersi di anomalie che riguardano sia il suo stato di salute sia i suoi comportamenti (e.g. abitudini spostamenti).

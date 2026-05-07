@@ -1,0 +1,9 @@
+gaussian processes (gps) are a generic modelling tool for supervised
+learning. while they have been successfully applied on large datasets, their
+use in safety-critical applications is hindered by the lack of good performance
+guarantees. to this end, we propose a method to learn gps and their sparse
+approximations by directly optimizing a pac-bayesian bound on their
+generalization performance, instead of maximizing the marginal likelihood.
+besides its theoretical appeal, we find in our evaluation that our learning
+method is robust and yields significantly better generalization guarantees than
+other common gp approaches on several regression benchmark datasets.

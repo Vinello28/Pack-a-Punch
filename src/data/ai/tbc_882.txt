@@ -1,0 +1,18 @@
+in a massive open online course (mooc), predictive models of student behavior
+can support multiple aspects of learning, including instructor feedback and
+timely intervention. ongoing courses, when the student outcomes are yet
+unknown, must rely on models trained from the historical data of previously
+offered courses. it is possible to transfer models, but they often have poor
+prediction performance. one reason is features that inadequately represent
+predictive attributes common to both courses. we present an automated
+transductive transfer learning approach that addresses this issue. it relies on
+problem-agnostic, temporal organization of the mooc clickstream data, where,
+for each student, for multiple courses, a set of specific mooc event types is
+expressed for each time unit. it consists of two alternative transfer methods
+based on representation learning with auto-encoders: a passive approach using
+transductive principal component analysis and an active approach that uses a
+correlation alignment loss term. with these methods, we investigate the
+transferability of dropout prediction across similar and dissimilar moocs and
+compare with known methods. results show improved model transferability and
+suggest that the methods are capable of automatically learning a feature
+representation that expresses common predictive characteristics of moocs.

@@ -1,0 +1,1 @@
+sviluppo di una piattaforma dotata di algoritmi proprietari di AI di computer vision tramite la quale l utente ha la possibilit di analizzare i contenuti presenti all interno di immagini e video

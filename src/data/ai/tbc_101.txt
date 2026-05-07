@@ -1,0 +1,1 @@
+Il progetto denominato SAR-BIM-IA si propone di sviluppare un processo per la definizione di una banca dati degli asset TLC a partire dal sistema di rilevamento a basso costo fino alla definizione del dataset

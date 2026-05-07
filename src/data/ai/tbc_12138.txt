@@ -1,0 +1,1 @@
+IoTUseCase: un software per lo sviluppo di applicazioni in ambito AIoT (Artificial Intelligence of Things)

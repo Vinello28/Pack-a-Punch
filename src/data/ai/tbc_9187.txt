@@ -1,0 +1,1 @@
+Progetto finalizzato alla creazione di un framework di gestito in cloud all interno del quale sar creato un eco-sistema in grado di ospitare diversi livelli di utilizzo delle tecnologie IA (Intelligenza Artificiale) e ML (Machine Learning) dagli algoritmi predittivi in ambito clinico-oncologico alla costituzione di Identit Digitali Sanitarie (IDS).

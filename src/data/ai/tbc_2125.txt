@@ -1,0 +1,13 @@
+learning to infer bayesian posterior from a few-shot dataset is an important
+step towards robust meta-learning due to the model uncertainty inherent in the
+problem. in this paper, we propose a novel bayesian model-agnostic
+meta-learning method. the proposed method combines scalable gradient-based
+meta-learning with nonparametric variational inference in a principled
+probabilistic framework. during fast adaptation, the method is capable of
+learning complex uncertainty structure beyond a point estimate or a simple
+gaussian approximation. in addition, a robust bayesian meta-update mechanism
+with a new meta-loss prevents overfitting during meta-update. remaining an
+efficient gradient-based meta-learner, the method is also model-agnostic and
+simple to implement. experiment results show the accuracy and robustness of the
+proposed method in various tasks: sinusoidal regression, image classification,
+active learning, and reinforcement learning.

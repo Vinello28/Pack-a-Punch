@@ -1,0 +1,13 @@
+in a recent decade, imagenet has become the most notable and powerful
+benchmark database in computer vision and machine learning community. as
+imagenet has emerged as a representative benchmark for evaluating the
+performance of novel deep learning models, its evaluation tends to include only
+quantitative measures such as error rate, rather than qualitative analysis.
+thus, there are few studies that analyze the failure cases of deep learning
+models in imagenet, though there are numerous works analyzing the networks
+themselves and visualizing them. in this abstract, we qualitatively analyze the
+failure cases of imagenet classification results from recent deep learning
+model, and categorize these cases according to the certain image patterns.
+through this failure analysis, we believe that it can be discovered what the
+final challenges are in imagenet database, which the current deep learning
+model is still vulnerable to.

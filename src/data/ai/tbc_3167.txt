@@ -1,0 +1,1 @@
+Sviluppo di una soluzione innovativa basata sulla robotica collaborativa per standardizzare e migliorare la ripetibilit e riproducibilit dei test in process delle sonde ecografiche ed in particolare i test pulse-echo potenza acustica e qualit dell immagine test di qualit ad oggi eseguiti manualmente da un operatore.

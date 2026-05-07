@@ -1,0 +1,1 @@
+Il progetto Ã¨ finalizzato ad Â¿automatizzareÂ¿ processi manuali di inserimento ed elaborazione  dei dati strategici per l'Azienda. Gli obiettivi sono: 1. Analizzare i processi aziendali per individuare difficoltÃ  ed inefficienze nella raccolta  analisi e rappresentazione dei dati

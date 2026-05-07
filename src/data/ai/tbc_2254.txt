@@ -1,0 +1,15 @@
+the recently developed variational autoencoders (vaes) have proved to be an
+effective confluence of the rich representational power of neural networks with
+bayesian methods. however, most work on vaes use a rather simple prior over the
+latent variables such as standard normal distribution, thereby restricting its
+applications to relatively simple phenomena. in this work, we propose
+hierarchical nonparametric variational autoencoders, which combines
+tree-structured bayesian nonparametric priors with vaes, to enable infinite
+flexibility of the latent representation space. both the neural parameters and
+bayesian priors are learned jointly using tailored variational inference. the
+resulting model induces a hierarchical structure of latent semantic concepts
+underlying the data corpus, and infers accurate representations of data
+instances. we apply our model in video representation learning. our method is
+able to discover highly interpretable activity hierarchies, and obtain improved
+clustering accuracy and generalization capacity based on the learned rich
+representations.

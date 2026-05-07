@@ -1,0 +1,1 @@
+Il progetto prevede la realizzazione di una soluzione informatica in grado di effettuare le attivitÃ  di Riconciliazione Bancaria e IVA mediante lâ€™impiego di metodologie  di Intelligenza Artificiale e Machine Learning.

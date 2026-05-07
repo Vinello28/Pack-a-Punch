@@ -1,0 +1,9 @@
+guided by critical systems found in nature we develop a novel mechanism
+consisting of inhomogeneous polynomial regularisation via which we can induce
+scale invariance in deep learning systems. technically, we map our deep
+learning (dl) setup to a genuine field theory, on which we act with the
+renormalisation group (rg) in momentum space and produce the flow equations of
+the couplings; those are translated to constraints and consequently interpreted
+as "critical regularisation" conditions in the optimiser; the resulting
+equations hence prove to be sufficient conditions for - and serve as an elegant
+and simple mechanism to induce scale invariance in any deep learning setup.

@@ -1,0 +1,17 @@
+how can we improve the facial soft-biometric classification with help of the
+human visual system? this paper explores the use of saliency which is
+equivalent to the human visual system to classify age, gender and facial
+expression soft-biometric for facial images. using the deep multi-level network
+(ml-net) [1] and off-the-shelf face detector [2], we propose our approach -
+saf-bage, which first detects the face in the test image, increases the
+bounding box (b-box) margin by 30%, finds the saliency map using ml-net, with
+30% reweighted ratio of saliency map, it multiplies with the input cropped face
+and extracts the convolutional neural networks (cnn) predictions on the
+multiplied reweighted salient face. our cnn uses the model alexnet [3], which
+is pre-trained on imagenet. the proposed approach surpasses the performance of
+other approaches, increasing the state-of-the-art by approximately 0.8% on the
+widely-used adience [28] dataset for age and gender classification and by
+nearly 3% on the recent affectnet [36] dataset for facial expression
+classification. we hope our simple, reproducible and effective approach will
+help ease future research in facial soft-biometric classification using
+saliency.

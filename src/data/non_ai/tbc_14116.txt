@@ -1,0 +1,1 @@
+Attualmente operiamo con un gestionale implementato su un framework sviluppato in America  abbiamo scelto questa opzione per avere la massima flessibilitÃ  sin tanto che le procedure non fossero state tutte testate

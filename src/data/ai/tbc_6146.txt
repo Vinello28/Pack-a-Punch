@@ -1,0 +1,1 @@
+Il progetto ha l'obbiettivo di ottimizzare il controllo della presenza di colla su astucci di carta nel settore del paper converting e cartotecnica. Tale controllo verr implementato tramite tecniche di deep learning con cui addestrare il sistema a riconoscere in maniera automatica la corretta presenza di colla.

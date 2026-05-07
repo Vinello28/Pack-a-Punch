@@ -1,0 +1,1 @@
+Installazione sistema gestionale per la digitalizzazione gestione produzione  partendo dalla preventivazione alla gestione della commessa  distinta base  cicli lavorazione  gestione fabbisogni  e magazzino.  Il progetto prevede inoltre il collegamento di 2 Im pianti Taglio Laser al gestionale per rivelazioni dati e trasmissione al CNC ( Machine SW Interface )

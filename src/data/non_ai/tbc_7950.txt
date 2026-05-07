@@ -1,0 +1,1 @@
+Progettazione e sviluppo di una piattaforma hardware/software per il monitoraggio e l'estrazione automatica di informazioni provenienti da fonti web e opendata

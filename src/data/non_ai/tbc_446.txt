@@ -1,0 +1,1 @@
+Il progetto  richiede lo sviluppo di un ERP personalizzato  per la gestione dei progetti. In particolare  dovranno essere implementate le seguenti funzionalitÃ : - Gestione delle risorse

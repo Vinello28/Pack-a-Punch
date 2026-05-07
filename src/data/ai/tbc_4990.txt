@@ -1,0 +1,1 @@
+Il progetto di consuelnza mira a fornire strumenti in tema di big data analisi dei dati cyber security monitoraggio tramite devive (IOT) sviluppo digitale al fine di realizzare una piattaforma in grado di raccogliere dati per le aziende clienti e fornire suggerimenti ai destinatari finali ovvero i viaggiatori.

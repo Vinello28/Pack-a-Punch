@@ -1,0 +1,1 @@
+Sviluppo di un modulo software all interno di TweetMood che utilizzi tecniche di machine learning applicate alla text analysis capace di restituire una classificazione di sentiment score dato un testo (tweet) in lingua italiana.

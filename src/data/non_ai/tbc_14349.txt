@@ -1,0 +1,1 @@
+Sviluppo di una procedura standard per la costruzione di un referto computazionale patient-specific sullo stato di sollecitazione dellâ€™aorta.

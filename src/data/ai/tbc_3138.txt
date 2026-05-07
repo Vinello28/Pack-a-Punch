@@ -1,0 +1,1 @@
+Progetto dal titolo INGENIOS - Benchmarking Quantum Supremacy for Combinatorial Optimization and Machine Learning problems finanziato nell'ambito del bando a cascata a valere sul Centro Nazionale HPC

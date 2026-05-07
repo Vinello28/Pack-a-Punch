@@ -1,0 +1,1 @@
+Sistema di annotazione semiautomatica basato su tecniche di computer vision per l'archiviazione di materiale cinematografico digitalizzato da pellicola e supporto magnetico.

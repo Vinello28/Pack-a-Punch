@@ -1,0 +1,1 @@
+sviluppo di una piattaforma SaaS  in ambiente cloud  che automatizzi i processi di test delle API  rendendoli piÃ¹ precisi ed accessibili

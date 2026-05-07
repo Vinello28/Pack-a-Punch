@@ -1,0 +1,1 @@
+L obiettivo del progetto di R&D lo sviluppo e la realizzazione di una piattaforma software avanzata che permetta di erogare servizi di Big Data analysis modeling & management per l ottimizzazione dei processi industriali sia fisici che transazionali in maniera modulare automatizzata e fortemente scalabile.
