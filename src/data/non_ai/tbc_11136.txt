@@ -1,1 +1,0 @@
-Metalarredo intende implementare un sistema di Data Analytics e Business Intelligence a supporto dei processi decisionali di pianificazione della produzione e degli acquisti. Gli obiettivi sono: Â¿	migliorare la puntualitÃ  delle consegne

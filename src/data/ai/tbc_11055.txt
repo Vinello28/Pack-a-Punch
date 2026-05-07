@@ -1,9 +1,0 @@
-we propose a spatial diffuseness feature for deep neural network (dnn)-based
-automatic speech recognition to improve recognition accuracy in reverberant and
-noisy environments. the feature is computed in real-time from multiple
-microphone signals without requiring knowledge or estimation of the direction
-of arrival, and represents the relative amount of diffuse noise in each time
-and frequency bin. it is shown that using the diffuseness feature as an
-additional input to a dnn-based acoustic model leads to a reduced word error
-rate for the reverb challenge corpus, both compared to logmelspec features
-extracted from noisy signals, and features enhanced by spectral subtraction.

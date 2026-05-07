@@ -1,1 +1,0 @@
-Implementazione del sito internet con inserimento di meccanismi di scambio di informazioni con la clientela attraverso la realizzazione  all'interno dell'area riservata  di automatismi in e out

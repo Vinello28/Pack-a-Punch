@@ -1,1 +1,0 @@
-Digitalizzazione delle pratiche edilizie dell'ufficio tecnico con l'implementazione di un portale per lo sportello unico edilizia (SUE).

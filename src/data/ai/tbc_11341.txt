@@ -1,1 +1,0 @@
-Sviluppo e implementazione di algoritmi con logiche di intelligenza artificiale a machine learning per la prototipia e la supply chain

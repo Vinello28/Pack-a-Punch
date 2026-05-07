@@ -1,1 +1,0 @@
-Centralizzazione dei dati relativi alle vendite attraverso un sistema telematico che permetta alla sede centrale di acquisire i dati delle vendite dei punti vendita periferici attuando inoltre un sistema di dematerializzazione cartacea dei documenti.

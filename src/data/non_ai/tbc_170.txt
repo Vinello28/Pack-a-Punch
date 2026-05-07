@@ -1,1 +1,0 @@
-Implementazione di sistemi CAD 3D parametrici per la modellizzazione di linee di estrusione e raccolta film plastico  introducendo nuove stazioni per progettisti meccanici con il fine di migliorare lÂ¿efficienza di progettazione riducendo i tempi dal layout iniziale allÂ¿ingegnerizzazione dei componenti. Ottimizzazione delle geometrie con ausilio di metodi FEM

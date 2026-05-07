@@ -1,1 +1,0 @@
-Apparato e metodo per misurare uno spazio e/o un allineamento e/o un angolo di disallineamento tra superfici  segnatamente sulla base di una tecnica di segmentazione semantica di immagini

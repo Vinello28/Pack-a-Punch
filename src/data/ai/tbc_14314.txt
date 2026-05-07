@@ -1,6 +1,0 @@
-conventional prior for variational auto-encoder (vae) is a gaussian
-distribution. recent works demonstrated that choice of prior distribution
-affects learning capacity of vae models. we propose a general technique
-(embedding-reparameterization procedure, or er) for introducing arbitrary
-manifold-valued variables in vae model. we compare our technique with a
-conventional vae on a toy benchmark problem. this is work in progress.

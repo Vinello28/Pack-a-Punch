@@ -1,1 +1,0 @@
-Digitalizzazione dell'archivio storico comunale tramite scansione ottica e archiviazione su server locali ridondati.

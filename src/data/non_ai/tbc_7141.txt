@@ -1,1 +1,0 @@
-Il programma Ã¨ strutturato in 2 fasi: 1. Training Program su Meccanica Quantistica  2. Esperienze Pilota per creare modelli applicativi da integrare nella metodologia Smart-Lean 7 WCM Transformation.

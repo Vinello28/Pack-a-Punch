@@ -1,7 +1,0 @@
-this paper presents an open-source enforcement learning toolkit named cytonrl
-(https://github.com/arthurxlw/cytonrl). the toolkit implements four recent
-advanced deep q-learning algorithms from scratch using c++ and nvidia's
-gpu-accelerated libraries. the code is simple and elegant, owing to an
-open-source general-purpose neural network library named cytonlib. benchmark
-shows that the toolkit achieves competitive performances on the popular atari
-game of breakout.

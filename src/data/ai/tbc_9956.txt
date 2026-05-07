@@ -1,8 +1,0 @@
-automatic clinical diagnosis of retinal diseases has emerged as a promising
-approach to facilitate discovery in areas with limited access to specialists.
-we propose a novel visual-assisted diagnosis hybrid model based on the support
-vector machine (svm) and deep neural networks (dnns). the model incorporates
-complementary strengths of dnns and svm. furthermore, we present a new clinical
-retina label collection for ophthalmology incorporating 32 retina diseases
-classes. using eyenet, our model achieves 89.73% diagnosis accuracy and the
-model performance is comparable to the professional ophthalmologists.

@@ -1,1 +1,0 @@
-Il progetto si configura in attivitÃ  iniziali delle attuali pratiche di lavoro interne adottate dall'azienda. AttivitÃ  successiva all'analisi sarÃ  lo sviluppo di un sistema software che permetta di migliorare e automatizzare determinate operazioni di ricerca ore lavorative dipendenti  gestioni appalti e gestione amministrativa.

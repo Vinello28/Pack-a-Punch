@@ -1,9 +1,0 @@
-we develop a framework for combining differentiable programming languages
-with neural networks. using this framework we create end-to-end trainable
-systems that learn to write interpretable algorithms with perceptual
-components. we explore the benefits of inductive biases for strong
-generalization and modularity that come from the program-like structure of our
-models. in particular, modularity allows us to learn a library of (neural)
-functions which grows and improves as more tasks are solved. empirically, we
-show that this leads to lifelong learning systems that transfer knowledge to
-new tasks more effectively than baselines.

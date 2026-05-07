@@ -1,9 +1,0 @@
-various approaches for liver segmentation in ct have been proposed: besides
-statistical shape models, which played a major role in this research area,
-novel approaches on the basis of convolutional neural networks have been
-introduced recently. using a set of 219 liver ct datasets with reference
-segmentations from liver surgery planning, we evaluate the performance of
-several neural network classifiers based on 2d and 3d u-net architectures. an
-interesting observation is that slice-wise approaches perform surprisingly
-well, with mean and median dice coefficients above 0.97, and may be preferable
-over 3d approaches given current hardware and software limitations.

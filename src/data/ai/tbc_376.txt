@@ -1,1 +1,0 @@
-Il progetto iAgro prevede lo sviluppo di una mobile app che  tramite scansioni 3D da smartphone  analizza le colture e determina parametri chiave per supportare le decisioni agronomiche  utilizzando algoritmi incloud di AI  AR e computer vision

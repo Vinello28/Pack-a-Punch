@@ -1,8 +1,0 @@
-we present some updates to yolo! we made a bunch of little design changes to
-make it better. we also trained this new network that's pretty swell. it's a
-little bigger than last time but more accurate. it's still fast though, don't
-worry. at 320x320 yolov3 runs in 22 ms at 28.2 map, as accurate as ssd but
-three times faster. when we look at the old .5 iou map detection metric yolov3
-is quite good. it achieves 57.9 map@50 in 51 ms on a titan x, compared to 57.5
-map@50 in 198 ms by retinanet, similar performance but 3.8x faster. as always,
-all the code is online at https://pjreddie.com/yolo/

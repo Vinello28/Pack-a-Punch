@@ -1,1 +1,0 @@
-NECA: Neuro Echo Cardio Analysis. A ground-breaking software solution for the automatization of the diagnostic processing of echocardiogram images.

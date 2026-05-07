@@ -1,1 +1,0 @@
-Progetto dal titolo "SoundIA - Sviluppo di un sistema per lâ€™analisi del sonno basato sullâ€™intelligenza artificiale e time series registrati dal SoundiTM  un sistema multisensore indossabile"  finanziato nell'ambito del bando a cascata sul PE FAIR

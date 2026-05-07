@@ -1,1 +1,0 @@
-Sviluppo di sistemi di guida autonoma per trattori agricoli impegnati nella semina di precisione con integrazione GNSS e AI.

@@ -1,9 +1,0 @@
-we use a deep learning model trained only on a patient's blood oxygenation
-data (measurable with an inexpensive fingertip sensor) to predict impending
-hypoxemia (low blood oxygen) more accurately than trained anesthesiologists
-with access to all the data recorded in a modern operating room. we also
-provide a simple way to visualize the reason why a patient's risk is low or
-high by assigning weight to the patient's past blood oxygen values. this work
-has the potential to provide cutting-edge clinical decision support in
-low-resource settings, where rates of surgical complication and death are
-substantially greater than in high-resource areas.

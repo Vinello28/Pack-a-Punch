@@ -1,1 +1,0 @@
-Il progetto si articola su linee di R&S quali:a) Studio e sviluppo di algoritmi di Intelligenza Artificiale che sono alla base delle funzionalitÃ  del motore (Engine)

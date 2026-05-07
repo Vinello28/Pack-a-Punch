@@ -1,1 +1,0 @@
-Piattaforma che permette la gestione economica  tecnica ed e-commerce per Internet Service Provider. Il progetto prevede lÂ¿automatizzazione dei processi aziendali per la gestione della fatturazione  pagamenti e gestione delle attivitÃ  di Internet Service Provider.

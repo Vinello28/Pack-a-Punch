@@ -1,1 +1,0 @@
-Miglioramento dell'efficienza aziendale mediante: 1) Nuova Automazione robotizzata marcatore laser Keyence mediante implementazione nuovo hardware (PC) e software interfaccia telecamera - marcatore

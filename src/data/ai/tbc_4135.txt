@@ -1,1 +1,0 @@
-BM-AI: Interfaccia cervello macchina ad elevata risoluzione basata su algoritmi adattivi AI a supporto dello sviluppo di Digital Twins per lo studio di neuropatologie

@@ -1,1 +1,0 @@
-Digitalizzazione del lavoro di consulenza revenue adottando strumenti hardware/software in grado di velocizzare il processo di analisi. Le caratteristiche del software dovrebbero essere le seguenti:  1) Analizzare tutti i dati relativi all'andamento delle vendite

@@ -1,1 +1,0 @@
-CHRA 4.0: Studio  progettazione  sviluppo e implementazione di una macchina prototipale per assemblaggio e dis-assemblaggio CHRA (Center HousingRotatingAssy) che utilizzi la tecnologia innovativa relativa all'industria 4.0

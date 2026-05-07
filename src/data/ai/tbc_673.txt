@@ -1,1 +1,0 @@
-Implementazione di sistemi di controllo qualità nel settore alimentare tramite spettroscopia NIR e modelli di classificazione Machine Learning.

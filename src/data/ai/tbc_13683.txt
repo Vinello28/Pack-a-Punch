@@ -1,1 +1,0 @@
-Progetto di realta aumentata che applica alle visite della chiesa Madre di Sellia e dei suoi beni culturali (statue  quadri  opere dâ€™arte in genere) i metodi della robotica con intelligenza artificiale di nuova generazione.

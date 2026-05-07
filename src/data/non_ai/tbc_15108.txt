@@ -1,1 +1,0 @@
-Sviluppo della Data Ownership Platform (DOP)  un framework che garantisce un approccio tecnologico pervasivo e predittivo alla data governance

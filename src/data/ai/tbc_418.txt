@@ -1,1 +1,0 @@
-in this study we develop a system that tags and extracts financial concepts called financial named entities (fne) along with corresponding numeric values {--} monetary and temporal. we employ machine learning and natural language processing methods to identify financial concepts and dates, and link them to numerical entities.

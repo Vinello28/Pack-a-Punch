@@ -1,1 +1,0 @@
-Il progetto ha come scopo lâ€™implementazione di strategie di Computer Vision per il monitoraggio in continuo di opere civili  per la salvaguardia delle persone e la messa in sicurezza di centri abitati  strutture ed edifici

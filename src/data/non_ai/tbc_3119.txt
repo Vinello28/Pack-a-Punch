@@ -1,1 +1,0 @@
-Il sistema di geIstione permetterÃ  di poter gestire le utenze di telecontrollo legate alla vendita delle "arnie smart" e nello specifico favorirÃ  lo svolgimento di tale lavoro in forma delocalizzata (telelavoro). Infatti a seguito della vendita dei prodotti smart l'azienda dovrÃ  gestire dati  risultati ed allarmi in termini di servizi di assistenza.

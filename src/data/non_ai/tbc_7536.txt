@@ -1,1 +1,0 @@
-Testare gli applicativi sviluppati su diversi framework  redigere una gap analysis sulla direttiva NIS2 e controllare il codice sorgente dell'applicazione core del Cliente con lo scopo di prevenire/mitigare e correggere eventuali aree funzionali che mostrino debolezze intrinseche.

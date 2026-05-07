@@ -1,1 +1,0 @@
-EasyLap - Sistema Robotico per Laparoscopia con strumentazione tradizionale e di semplice utilizzo

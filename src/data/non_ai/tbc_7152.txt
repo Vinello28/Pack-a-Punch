@@ -1,1 +1,0 @@
-Progetto volto a migliorare l'efficienza aziendale  attraverso lÂ¿acquisto di consulenza specialistica e lÂ¿acquisto di sviluppo software finalizzati all'automatizzazione dei processi di fatturazione tra la piattaforma DSTPlatform.com e l'ERP di gestione contabile tramite collegamenti API personallizzati

@@ -1,1 +1,0 @@
-Il progetto ha come obiettivo di applicare tecniche avanzate di intelligenza artificiale per estrarre e processare dati provenienti da una nuova generazione di sensori quantistici  in particolare sensori multi-fisici utilizzabili per il controllo avanzato di macchine elettriche per applicazioni automotive

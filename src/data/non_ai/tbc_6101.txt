@@ -1,1 +1,0 @@
-ECOWELD+ Ã¨ un rivoluzionario processo per la saldatura robotizzata di componenti metallici in grado di:  - riconoscere automaticamente posizionamento e dimensioni dei componenti da saldare  anche in assenza di informazioni CAD sulla geometria degli stessi

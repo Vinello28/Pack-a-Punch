@@ -1,1 +1,0 @@
-Strumento di risk management per infrastrutture critiche basato su web data mining

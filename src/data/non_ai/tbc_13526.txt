@@ -1,1 +1,0 @@
-Il progetto prevede l' integrazione di software per raccogliere informazioni dai negozi o punti vendita all' interno del parco. I dati verranno analizzati con Business Intelligence per valutare miglioramenti o sprechi. Analizzando un controllo di gestione dettagliato per singolo punto.

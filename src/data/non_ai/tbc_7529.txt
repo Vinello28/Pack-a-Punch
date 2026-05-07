@@ -1,1 +1,0 @@
-Convergenza infrastruttura logica statica in una scalabilitÃ  dinamica direttamente proporzinale alla crescita dei nodi  compressione e deduplicazione dei dati per un risparmio dello spazio fisico fino al 50%. Risparmio energetico per minor potenza di calcolo impiegata.

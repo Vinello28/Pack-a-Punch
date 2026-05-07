@@ -1,1 +1,0 @@
-Python per l'Interazione con Servizi di Generazione di Contenuti tramite API

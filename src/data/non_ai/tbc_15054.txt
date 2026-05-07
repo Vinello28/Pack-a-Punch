@@ -1,1 +1,0 @@
-Il progetto sviluppa un sistema avanzato per la modellazione delcomportamento fisiopatologico dei polmoni  utilizzando dati radiologici TAC e spirometrici per creare un DigitalTwin (modello sia fisico3D che virtuale) della struttura delle vie aeree.

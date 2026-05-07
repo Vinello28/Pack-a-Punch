@@ -1,1 +1,0 @@
-"""Il progetto di innovazione mira a sviluppare una piattaforma software innovativa dotata di intelligenza artificiale per incrementare la qualitÃ  dei servizi giÃ  erogati ed ampliare il porfolio con servizi a forte valore aggiunto."""

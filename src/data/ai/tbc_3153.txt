@@ -1,1 +1,0 @@
-Il progetto ha come obiettivo Progettazione  implementazione e test di HIRA - Hybrid InfraRed System for Affective Computing: un nuovo modulo di imaging facciale per affective computing in tempo reale  basato su imaging ibrido vicino infrarosso- infrarosso termico  algoritmi avanzati di intelligenza emozionale e di super-risoluzione basati sull'intelligenza artificiale

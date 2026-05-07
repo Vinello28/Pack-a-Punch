@@ -1,7 +1,0 @@
-we study kmeans clustering estimation of panel data models with a latent
-group structure and $n$ units and $t$ time periods under long panel
-asymptotics. we show that the group-specific coefficients can be estimated at
-the parametric root $nt$ rate even if error variances diverge as $t \to \infty$
-and some units are asymptotically misclassified. this limit case approximates
-empirically relevant settings and is not covered by existing asymptotic
-results.

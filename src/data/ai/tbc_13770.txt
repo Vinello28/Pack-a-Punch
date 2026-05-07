@@ -1,1 +1,0 @@
-Sviluppo di un sistema di precision farming che utilizza l'Intelligenza Artificiale  sensoristica IoT e georeferenziazione

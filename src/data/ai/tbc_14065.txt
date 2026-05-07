@@ -1,9 +1,0 @@
-we introduce imagination-augmented agents (i2as), a novel architecture for
-deep reinforcement learning combining model-free and model-based aspects. in
-contrast to most existing model-based reinforcement learning and planning
-methods, which prescribe how a model should be used to arrive at a policy, i2as
-learn to interpret predictions from a learned environment model to construct
-implicit plans in arbitrary ways, by using the predictions as additional
-context in deep policy networks. i2as show improved data efficiency,
-performance, and robustness to model misspecification compared to several
-baselines.

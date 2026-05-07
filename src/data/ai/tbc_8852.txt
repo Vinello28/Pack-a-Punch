@@ -1,9 +1,0 @@
-current machine learning systems operate, almost exclusively, in a
-statistical, or model-free mode, which entails severe theoretical limits on
-their power and performance. such systems cannot reason about interventions and
-retrospection and, therefore, cannot serve as the basis for strong ai. to
-achieve human level intelligence, learning machines need the guidance of a
-model of reality, similar to the ones used in causal inference tasks. to
-demonstrate the essential role of such models, i will present a summary of
-seven tasks which are beyond reach of current machine learning systems and
-which have been accomplished using the tools of causal modeling.

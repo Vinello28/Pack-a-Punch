@@ -1,1 +1,0 @@
-Progetto di ricerca dal titolo "USCE2QC - Holistic Approach to Quantum Computing Dependability: From Noise Suppression in Ultrastrong Coupling Regime to the Edge-to-Quantum Continuum"  finanziato nell'ambito del bando a cascata sul Centro Nazionale HPC

@@ -1,1 +1,0 @@
-A - DocFinance Ã¨ un progetto applicativo per la Gestione Anticipata di Tesoreria  che contiene il Corporate banking ed Ã¨ integrato con il Sistema Informativo aziendale  i cui obiettivi sono: la gestione dei flussi di cassa con informazioni utili ad ottimizzare la tesoreria

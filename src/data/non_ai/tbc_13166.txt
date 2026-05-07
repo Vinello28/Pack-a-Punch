@@ -1,1 +1,0 @@
-Si intende procedere alla riorganizzazione del lavoro all'interno dell'esercizio commerciale implementando un sistema tecnologico ed efficente nella gestione delle comande. Si intende velocizzare il processo che va dalla ricezione delle comande al passaggio delle informazioni alla cucina e successivamente alla cassa  in modo interattivo e simultaneo.

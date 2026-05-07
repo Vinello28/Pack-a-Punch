@@ -1,9 +1,0 @@
-color image segmentation is a very emerging topic for image processing
-research. since it has the ability to present the result in a way that is much
-more close to the human yes perceive, so todays more research is going on this
-area. choosing a proper color space is a very important issue for color image
-segmentation process. generally lab and hsv are the two frequently chosen color
-spaces. in this paper a comparative analysis is performed between these two
-color spaces with respect to color image segmentation. for measuring their
-performance, we consider the parameters: mse and psnr . it is found that hsv
-color space is performing better than lab.

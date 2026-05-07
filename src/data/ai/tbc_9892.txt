@@ -1,9 +1,0 @@
-matrix factorization was used to generate investment recommendations for
-investors. an iterative conjugate gradient method was used to optimize the
-regularized squared-error loss function. the number of latent factors, number
-of iterations, and regularization values were explored. overfitting can be
-addressed by either early stopping or regularization parameter tuning. the
-model achieved the highest average prediction accuracy of 13.3%. with a similar
-model, the same dataset was used to generate investor recommendations for
-companies undergoing fundraising, which achieved highest prediction accuracy of
-11.1%.

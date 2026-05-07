@@ -1,1 +1,0 @@
-LÂ¿obiettivo del progetto Ã¨ di automatizzare e modernizzare il sistema di calcolo dei costi del prodotto (sia a standard che a consuntivo) integrandolo nel sistema gestionale. Si prevede inoltre lÂ¿automazione del sistema di gestione qualitÃ  definendolo per processi ed anchÂ¿esso integrato nel sistema gestionale.

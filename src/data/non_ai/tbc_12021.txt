@@ -1,1 +1,0 @@
-Il progetto mira a sviluppare un prototipo di realtÃ  virtuale per supportare la fisioterapia  valutando i movimenti dei pazienti in tempo reale e offrendo feedback immediato. Rivolto a pazienti post-operatori  il sistema consente sessioni da remoto con un agente intelligente che valuta gli esercizi e fornisce indicazioni personalizzate.

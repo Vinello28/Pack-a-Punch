@@ -1,1 +1,0 @@
-Realizzazione di un sistema che consenta il pagamento di polizze assicurative in particolare rivolta alla instant insurance  tramite dispositivi mobili e intermediari di pagamento alternativi.

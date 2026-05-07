@@ -1,1 +1,0 @@
-Automatizzazione del processo di ricezione e controllo delle merci tramite lettura barcode ed associazione ad incarichi ricevuti  automatizzazione del controllo del carico merci in distribuzione sui mezzi con gestione tramite applicazione su dispositivi mobile delle consegne  ritiri e conferme in tempo reale.

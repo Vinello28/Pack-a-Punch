@@ -1,1 +1,0 @@
-Sviluppo d una piattaforma digitale basata sull'utilizzo del Machine Learning per una nuova modalita di visita museale.

@@ -1,1 +1,0 @@
-Lettura documenti contabili tramite sistema OCR e relativa contabilizzazione automatica nella contabilitÃ  generale dell'azienda. Eventuale lettura estendibile al documento contabile (estratto conto bancario) e sua successiva contabilizzazione su scheda contabile.

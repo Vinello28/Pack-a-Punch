@@ -1,8 +1,0 @@
-the recent successes of deep learning have led to a wave of interest from
-non-experts. gaining an understanding of this technology, however, is
-difficult. while the theory is important, it is also helpful for novices to
-develop an intuitive feel for the effect of different hyperparameters and
-structural variations. we describe tensorflow playground, an interactive, open
-sourced visualization that allows users to experiment via direct manipulation
-rather than coding, enabling them to quickly build an intuition about neural
-nets.

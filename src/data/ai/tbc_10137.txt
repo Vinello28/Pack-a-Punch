@@ -1,1 +1,0 @@
-Viene sviluppata una piattaforma web  un'APP e un modello di AI e machine learning in grado di generare policy di sostenibilitÃ  personalizzate per ogni tipologia di evento dal vivo.

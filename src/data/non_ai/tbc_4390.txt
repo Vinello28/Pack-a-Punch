@@ -1,1 +1,0 @@
-Il progetto IRIS mira a sviluppare una soluzione innovativa sul tema 5. Lâ€™obiettivo Ã¨ realizzare un sistema termografico prototipale automatizzato (controllato da remoto) per la verifica dellâ€™integritÃ  strutturale di materiali compositi avanzati per aerospazio.

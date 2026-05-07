@@ -1,1 +1,0 @@
-Piattaforma dedicata ai reparti di rianimazione per gestire le principali complicazioni riguardanti i pazienti. Attraverso 15 parametri e lâ€™utilizzo di 4 algoritmi proprietari permette di gestire monitoraggio  cura ed eventi critici.

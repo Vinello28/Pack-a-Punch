@@ -1,7 +1,0 @@
-we give the motivation for scoring clustering algorithms and a metric $m : a
-\rightarrow \mathbb{n}$ from the set of clustering algorithms to the natural
-numbers which we realize as \begin{equation} m(a) = \sum_i \alpha_i |f_i -
-\beta_i|^{w_i} \end{equation} where $\alpha_i,\beta_i,w_i$ are parameters used
-for scoring the feature $f_i$, which is computed empirically.. we give a method
-by which one can score features such as stability, noise sensitivity, etc and
-derive the necessary parameters. we conclude by giving a sample set of scores.

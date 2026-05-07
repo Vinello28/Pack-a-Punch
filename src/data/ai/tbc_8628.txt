@@ -1,1 +1,0 @@
-Sviluppo di un software di Intelligenza Artificiale che supporti lâ€™attivita di doppiaggio da remoto allâ€™interno di una piattaforma integrata che si pone lâ€™obiettivo di formare professionalmente la figura del doppiatore.

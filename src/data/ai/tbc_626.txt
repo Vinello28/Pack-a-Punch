@@ -1,1 +1,0 @@
-DOOWAY â€œData Analytics per il Turismo in Italiaâ€ : tecniche specifiche  basate su data mining  data integration/data fusion ed intelligenza artificiale  di estrazione ed elaborazione di dati da fonti strutturate e non  finalizzate alla costruzione di una piattaforma di Data Analytics per il settore del Turismo

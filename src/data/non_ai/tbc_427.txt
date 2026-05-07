@@ -1,1 +1,0 @@
-Tool innovativo di analisi e dimensionamento della smart grid (InCAD) e algoritmi innovativi di forecasting  routing energetico e data analytics (InEnCo_sw)

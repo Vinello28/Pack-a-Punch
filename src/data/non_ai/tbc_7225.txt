@@ -1,1 +1,0 @@
-Implementazione sistema informatico e hardware per gestione digitalizzazione firme pazienti tramite sistemi di rilevazione firma grafometrica

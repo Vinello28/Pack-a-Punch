@@ -1,1 +1,0 @@
-Si realizza un software in grado di gestire tramite algoritmi che leggono i flussi di informazione inseriti dai nostri operatori. Tale software sarÃ  in grado di gestire l'andamento dei prodotti sugli scaffali  la loro movimantazione secondo la posizione in esposizione  le offerte da volantino il quantitativo esposto ed altro

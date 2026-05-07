@@ -1,7 +1,0 @@
-most previous work on neural text generation from graph-structured data
-relies on standard sequence-to-sequence methods. these approaches linearise the
-input graph to be fed to a recurrent neural network. in this paper, we propose
-an alternative encoder based on graph convolutional networks that directly
-exploits the input structure. we report results on two graph-to-sequence
-datasets that empirically show the benefits of explicitly encoding the input
-graph structure.

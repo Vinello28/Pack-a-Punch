@@ -1,1 +1,0 @@
-Implementazione delle logiche Lean nella gestione dei materiali e nella gestione dei reparti

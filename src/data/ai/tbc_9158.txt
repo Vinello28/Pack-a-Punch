@@ -1,1 +1,0 @@
-Sviluppo di un pacchetto software basato su Intelligenza Artificiale che assista gli operatori nel processo di laminazione di prodotti lunghi.

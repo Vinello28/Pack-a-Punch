@@ -1,1 +1,0 @@
-PTL srl: gestire la conoscenza nei processi inter-funzionali per organizzare l'High Level Strutture

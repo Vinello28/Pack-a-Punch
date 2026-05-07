@@ -1,1 +1,0 @@
-Avendo negli ultimi anni sviluppato una nuova e interessante area di business della digital sentiment analysis  l'elaborazione della quantitÃ  di dati trattati nel processo ( cd feed )  richiede una sempre maggiore capacitÃ  e velocitÃ  di elaborazione che deve essere supportata da un adeguato parco hardware.

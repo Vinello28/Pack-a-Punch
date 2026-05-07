@@ -1,1 +1,0 @@
-Implementazione datacentre in house per analisi e interoperabilitÃ  tra le sedi con analisi dati e traffico

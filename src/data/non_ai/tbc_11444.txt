@@ -1,1 +1,0 @@
-Re-ingegnerizzazione da Cobol a .NET di una piattaforma gestionale intersettoriale

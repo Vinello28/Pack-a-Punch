@@ -1,9 +1,0 @@
-we summarize our recent findings, where we proposed a framework for learning
-a kolmogorov model, for a collection of binary random variables. more
-specifically, we derive conditions that link outcomes of specific random
-variables, and extract valuable relations from the data. we also propose an
-algorithm for computing the model and show its first-order optimality, despite
-the combinatorial nature of the learning problem. we apply the proposed
-algorithm to recommendation systems, although it is applicable to other
-scenarios. we believe that the work is a significant step toward interpretable
-machine learning.

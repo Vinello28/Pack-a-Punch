@@ -1,1 +1,0 @@
-Primo step della realizzazione dell'integrazione tra front-office e back-office con il ciclo passivo ed il ciclo attivo  incluse funzionalitÃ  di CRM (customer Relationship Managenet). L'innovazione prevista consentirÃ  di ottenere un incremento della produttivitÃ  per addetto a di impostare campagne di marketing piÃ¹ efficaci ed efficienti

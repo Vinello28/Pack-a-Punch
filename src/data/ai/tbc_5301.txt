@@ -1,1 +1,0 @@
-Piattaforma di ottimizzazione di portafoglio finanziario basata su tecniche di Deep Reinforcement Learning e analisi dei sentiment dei mercati.

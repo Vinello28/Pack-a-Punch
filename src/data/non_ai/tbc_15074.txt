@@ -1,1 +1,0 @@
-Lâ€™ambito di principale interesse del progetto Ã¨ il monitoraggio dei comportamenti dei visitatori per  migliorare la fruizione dei contenuti espositivi  il livello di engagement e la personalizzazione degli  stessi. La soluzione tecnologica che si vuole implementare Ã¨ un Kiosk interattivo a controllo oculare  dotato  di tecnologia eyetracking e sensori di prossimitÃ

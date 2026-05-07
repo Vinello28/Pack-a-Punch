@@ -1,1 +1,0 @@
-a problem of learning decision policy from past experience is considered. using the fully probabilistic design (fpd) formalism, we propose a new general approach for finding a stochastic policy from the past data.

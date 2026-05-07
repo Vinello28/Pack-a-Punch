@@ -1,1 +1,0 @@
-Sviluppo di un IA in grado di determinare il livello emotivo di un individuo.

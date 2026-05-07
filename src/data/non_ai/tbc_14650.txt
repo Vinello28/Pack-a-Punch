@@ -1,1 +1,0 @@
-Il progetto consiste nella realizzazione di una piattaforma digitale di e-commerce che assolverÃ  a diverse funzioni  ovvero: 1.	Iscrizione dei clienti e caricamento dellÂ¿anagrafica (nonchÃ© dei dati necessari a procedere alla loro identificazione  alla processazione) e al pagamento degli ordini in maniera completamente automatica migliorandone la scalabilitÃ

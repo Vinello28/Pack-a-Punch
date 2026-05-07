@@ -1,1 +1,0 @@
-Il progetto ha come obiettivo CLEVER propone una serie di innovazioni nell'area degli acceleratori hardware (HW)  dello stack di progettazione e del software middleware che rivoluzionano la capacitÃ  delle piattaforme di edge computing di operare in modo federato  sfruttando risorse sparse che vengono coordinate per creare un potente pool di risorse

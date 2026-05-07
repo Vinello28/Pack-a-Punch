@@ -1,5 +1,0 @@
-in this work, we introduce progressive normalizing flows (pnf), a generative network that allows to model high-dimensional input data distributions by progressively training several flow-based modules.
-competing generative models, such as gans or autoencoders, do not aim at learning probability density of real data, while flow-based models realize this objective at a prohibitive cost of highly-dimensional internal representation.
-here, we address these limitations and introduce a new strategy to train flow-based models. we progressively train consecutive models at increasing data resolutions, which allows to construct low-dimensional representations, as done in autoencoders, while directly approximating the log-likelihood function. 
-additional feature of our model is its intrinsic ability to upscale data resolution in the consecutive stages. 
-we show that pnf offers a superior or comparable performance over the state of the art.

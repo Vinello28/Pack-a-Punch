@@ -1,1 +1,0 @@
-Implementazione software per il controllo di gestione. Implementazione software per la conservazione digitale dei documenti. Implementazione software per la gestione della firma grafometrica sui documenti

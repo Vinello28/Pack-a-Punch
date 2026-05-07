@@ -1,1 +1,0 @@
-Produzione di un robot per il picking da pallet e sviluppo del software collegato

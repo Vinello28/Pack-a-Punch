@@ -1,1 +1,0 @@
-Implementazione di modelli di serie temporali basati su LSTM per la previsione del carico elettrico nazionale e l'integrazione efficiente delle rinnovabili.

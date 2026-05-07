@@ -1,1 +1,0 @@
-La gestione del magazzino verrÃ  reingegnerizzata  verranno codificati tutti i prodotti e caricati su di un data base per la successiva ricerca attraverso un lettore di codice a barre che verrÃ  utilizzato si nella fase di carico di magazzino che nella fase di scarico  cio razionalizzerÃ  la gestione delle scorte e la gestione degli acquisti

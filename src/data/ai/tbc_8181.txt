@@ -1,7 +1,0 @@
-this paper describes a new model for an artificial neural network processing
-unit or neuron. it is slightly different to a traditional feedforward network
-by the fact that it favours a mechanism of trying to match the wave-like
-'shape' of the input with the shape of the output against specific value error
-corrections. the expectation is then that a best fit shape can be transposed
-into the desired output values more easily. this allows for notions of
-reinforcement through resonance and also the construction of synapses.

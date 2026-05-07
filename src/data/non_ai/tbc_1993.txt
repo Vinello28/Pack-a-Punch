@@ -1,1 +1,0 @@
-Sistema di addestramento assistito di un giocatore per il gioco del golf comprendente un sottosistema di generazione di dati di gioco in comunicazione di dati con un sottosistema di elaborazione di dati di gioco

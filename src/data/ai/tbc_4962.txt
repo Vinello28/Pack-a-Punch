@@ -1,7 +1,0 @@
-we propose a way to simulate cherenkov detector response using a generative
-adversarial neural network to bypass low-level details. this network is trained
-to reproduce high level features of the simulated detector events based on
-input observables of incident particles. this allows the dramatic increase of
-simulation speed. we demonstrate that this approach provides simulation
-precision which is consistent with the baseline and discuss possible
-implications of these results.
