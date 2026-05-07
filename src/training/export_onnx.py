@@ -59,17 +59,25 @@ def export_to_onnx(
     dynamic_axes = {
         "input_ids": {0: "batch_size", 1: "sequence_length"},
         "attention_mask": {0: "batch_size", 1: "sequence_length"},
-        "token_type_ids": {0: "batch_size", 1: "sequence_length"},
-        "logits": {0: "batch_size"},
     }
+    
+    input_names = ["input_ids", "attention_mask"]
+    inputs = [dummy_input["input_ids"], dummy_input["attention_mask"]]
+    
+    if "token_type_ids" in dummy_input:
+        dynamic_axes["token_type_ids"] = {0: "batch_size", 1: "sequence_length"}
+        input_names.append("token_type_ids")
+        inputs.append(dummy_input["token_type_ids"])
+        
+    dynamic_axes["logits"] = {0: "batch_size"}
     
     # Export
     logger.info(f"Exporting to ONNX: {output_path}")
     torch.onnx.export(
         model,
-        (dummy_input["input_ids"], dummy_input["attention_mask"], dummy_input["token_type_ids"]),
+        tuple(inputs),
         str(output_path),
-        input_names=["input_ids", "attention_mask", "token_type_ids"],
+        input_names=input_names,
         output_names=["logits"],
         dynamic_axes=dynamic_axes,
         opset_version=opset_version,
