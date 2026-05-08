@@ -169,11 +169,12 @@ def main():
             return 1
     
     # Evaluation on Test set
-    if onnx_path:
+    if model_path:
         logger.info("=" * 60)
-        logger.info("Evaluating ONNX model on Test set...")
+        logger.info("Evaluating PyTorch model on Test set...")
         try:
-            from src.inference.engine import create_engine
+            import torch
+            from transformers import AutoModelForSequenceClassification, AutoTokenizer
             from src.training.dataset import load_dataset_from_txt
             from sklearn.metrics import classification_report
             import time
@@ -183,21 +184,35 @@ def main():
                 logger.info(f"Loading test data from {test_dir}...")
                 test_texts, test_labels = load_dataset_from_txt(test_dir)
                 
-                logger.info("Initializing InferenceEngine...")
-                engine = create_engine(model_path=onnx_path)
+                logger.info("Loading PyTorch model and tokenizer...")
+                device = "cuda" if torch.cuda.is_available() else "cpu"
+                tokenizer = AutoTokenizer.from_pretrained(model_path)
+                model = AutoModelForSequenceClassification.from_pretrained(model_path)
+                model.to(device)
+                model.eval()
                 
                 logger.info("Running predictions...")
                 start_time = time.time()
                 
-                results = []
-                batch_size = engine.batch_size
+                batch_size = 64
+                pred_labels = []
+                
                 for i in range(0, len(test_texts), batch_size):
                     batch_texts = test_texts[i:i + batch_size]
-                    results.extend(engine.predict_batch(batch_texts))
-                
-                # Convert predictions to label IDs
-                label_map_inv = {v: k for k, v in settings.model.label_map.items()}
-                pred_labels = [label_map_inv[res["label"]] for res in results]
+                    inputs = tokenizer(
+                        batch_texts, 
+                        padding=True, 
+                        truncation=True, 
+                        max_length=settings.model.max_length, 
+                        return_tensors="pt"
+                    )
+                    inputs = {k: v.to(device) for k, v in inputs.items()}
+                    
+                    with torch.no_grad():
+                        outputs = model(**inputs)
+                        logits = outputs.logits
+                        preds = torch.argmax(logits, dim=-1).cpu().tolist()
+                        pred_labels.extend(preds)
                 
                 logger.info(f"Inference time: {time.time() - start_time:.2f}s")
                 
