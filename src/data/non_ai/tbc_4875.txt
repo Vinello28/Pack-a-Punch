@@ -1,1 +1,1 @@
-Nuovi algoritmi per lo slicing 3D
+Realizzazione di un processo di test e verifica con un robot collaborativo

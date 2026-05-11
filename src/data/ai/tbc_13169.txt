@@ -1,1 +1,16 @@
-Sviluppo di tecnologie di Intelligenza Artificiale Realt Aumentata e Realt Virtuale nel settore cinematografico e televisivo.
+we consider \textit{anytime} linear prediction in the common machine learning
+setting, where features are in groups that have costs. we achieve anytime (or
+interruptible) predictions by sequencing the computation of feature groups and
+reporting results using the computed features at interruption. we extend
+orthogonal matching pursuit (omp) and forward regression (fr) to learn the
+sequencing greedily under this group setting with costs. we theoretically
+guarantee that our algorithms achieve near-optimal linear predictions at each
+budget when a feature group is chosen. with a novel analysis of omp, we improve
+its theoretical bound to the same strength as that of fr. in addition, we
+develop a novel algorithm that consumes cost $4b$ to approximate the optimal
+performance of \textit{any} cost $b$, and prove that with cost less than $4b$,
+such an approximation is impossible. to our knowledge, these are the first
+anytime bounds at \textit{all} budgets. we test our algorithms on two
+real-world data-sets and evaluate them in terms of anytime linear prediction
+performance against cost-weighted group lasso and alternative greedy
+algorithms.

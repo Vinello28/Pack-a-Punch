@@ -1,1 +1,2 @@
-MEDIANTE UTILIZZO DI DRONI VENGONO ANALIZZATE COPERTURE DEGLI IMMOBILI PER IL RILEVAMENTO DIAGNOSTICO RIFERITO ALL'EFFICIENZA ENERGETICA DEI FABBRICATI E PER QUALSIASI ALTRA OPERAZIONE INERENTE L'AMBITO EDILIZIO  AGRICOLO E GEOLOGICO
+Consorzio C2T, grazie al presente bando, intende, progettare, sviluppare e realizzare il proprio sistema di data analisys, basato su un ETL dinamico ed utilizziando una struttura basata su un modello multi-
+dimensionale che avra lo scopo di analizzare ed estrare i dati per la realizzazione dei report in maniera assolutamnete autonoma. Con il present ebando si intende acquisire e sviluppare il modello basato sul proprio server.

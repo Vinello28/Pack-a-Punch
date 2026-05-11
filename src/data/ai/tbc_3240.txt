@@ -1,0 +1,2 @@
+Il progetto si propone di realizzare nuove soluzioni e tecnologie per il
+miglioramento della sicurezza sul lavoro in diversi contesti produttivi tramite lo sviluppo di un sistema integrato Hardware Software che integra algoritmi e tecnologie Internet of Things (IoT), Intelligenza Artificiale (IA) e Cloud per il monitoraggio dell’utilizzo dei Dispositivi di Protezioni Individuale (DPI) e la rilevazione di eventi di quasi infortunio (eventi near miss).

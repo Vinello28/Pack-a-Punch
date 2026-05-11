@@ -1,1 +1,6 @@
-Advanced DEtection of suspicious skin Lesions based on Artificial Intelligence and DEep learning
+GenomeUp è una piattaforma dedicata alla medicina di precisione sviluppata con
+l'Intelligenza Artificiale. Permette ai medici di ottenere un rapporto clinico sui geni che influenzano la
+patologia e sulle terapie di precisione da adottare, a partire dal genoma del paziente.
+Per la realizzazione del progetto sarà necessario implementare una soluzione e-commerce, saranno necessarie
+consulenze ai fini delle certificazioni sulla sicurezza del sistema hardware. Per la formazione e il miglioramento
+dell'efficienza aziendale sono previste spese di consulenza specialistica.

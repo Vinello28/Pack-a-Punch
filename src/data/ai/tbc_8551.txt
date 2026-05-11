@@ -1,1 +1,0 @@
-Il progetto prevede lo sviluppo di un chatbot basato su tecnologia NodeJs ed integrato con un chat engine. Il chatbot inserito nel sito Nabui.it guider il cittadino attraverso una serie di argomenti definiti (a design time) .

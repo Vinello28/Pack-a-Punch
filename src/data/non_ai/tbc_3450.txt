@@ -1,1 +1,2 @@
-ACQUISTO DI UN SOFTWARE "INDUSTRIAL ANALYTICS PLATFORM" CAPACE DI GESTIRE IL BUDGET DI VENDITA  I SUOI SCOSTAMENTI E I BIG DATA AZINEDALI  IMPLEMENTANDO LA STRATEGIA DI RENDERE DISPONIBILE UN SET DI INFORMAZIONI ESTREMAMENTE UTILI PER IL BOARD DELL'AZIENDA.
+AVAST - Augmented reality for Virtual Analysis and Scenarios evaluation in public Transportation
+Modelli di realtà virtuale per l’analisi dei comportamenti di scelta degli utenti di sistemi di trasporto

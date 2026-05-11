@@ -1,0 +1,4 @@
+Il progetto si propone di progettare e sviluppare una piattaforma digitale sull’AI per la biodiversità, al fine di favorire la collaborazione
+tra diversi stakeholder e promuovere la condivisione di dati, modelli AI per la rapida elaborazione di Big Data,
+processi, best practice, report analitici e strumenti di citizen science e di proporre al suo interno un dimostratore di servizio innovativo per la biodiversità: “monitoraggio del rischio e
+dinamica delle popolazioni di IAS vegetali in aree protette”.

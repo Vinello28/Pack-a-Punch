@@ -1,17 +1,4 @@
-imagine a princess asleep in a castle, waiting for her prince to slay the
-dragon and rescue her. tales like the famous sleeping beauty clearly divide up
-gender roles. but what about more modern stories, borne of a generation
-increasingly aware of social constructs like sexism and racism? do these
-stories tend to reinforce gender stereotypes, or counter them? in this paper,
-we present a technique that combines natural language processing with a
-crowdsourced lexicon of stereotypes to capture gender biases in fiction. we
-apply this technique across 1.8 billion words of fiction from the wattpad
-online writing community, investigating gender representation in stories, how
-male and female characters behave and are described, and how authors' use of
-gender stereotypes is associated with the community's ratings. we find that
-male over-representation and traditional gender stereotypes (e.g., dominant men
-and submissive women) are common throughout nearly every genre in our corpus.
-however, only some of these stereotypes, like sexual or violent men, are
-associated with highly rated stories. finally, despite women often being the
-target of negative stereotypes, female authors are equally likely to write such
-stereotypes as men.
+Keplero srl è una società  operante nel campo dell' IoT. Keplero distribuisce una piattaforma software di monitoraggio ed automazione utilizzata in diversi settori come la Smart Logistic, Smart Energy e Smart Building. L'Azienda ha effettuato delle analisi di mercato orientate all'introduzione di strumenti di Intelligenza Artificiale che, permettessero di aprire nuove
+nicchie di mercato. La possibilità di applicare Algoritmi Previsionali garantirebbe un notevole vantaggio competitivo nella Smart Industry (in particolare nel settore manufatturiero) e produce grandissimi risparmi derivanti dalla diminuzione dei guasti e degli interventi, dalla migliore pianificazione dei controlli e dall'incremento della sicurezza sui luoghi di lavoro.
+L'obiettivo del progetto è un nuovo modulo applicabile su questi scenari ed integrato con la piattaforma IoT. Keplero ha individuato in BNova il partner ideale per il supporto allo sviluppo di questo nuovo modulo: BNova , società specializzata nel trattamento ed analisi dei dati può mettere in campo la giusta esperienza e competenze tecniche di gestione di progetti,
+organizzazione e vlorizzazione dei dati nonchè attingere dal proprio bagaglio di clienti e partner per definire una strategia di diffusione e commercializzazione del prodotto finale.

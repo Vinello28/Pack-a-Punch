@@ -1,1 +1,11 @@
-Il progetto PIN UP punta a digitalizzare il ciclo creativo produttivo e commerciale dell impresa nel settore moda mare attraverso l integrazione di Intelligenza Artificiale realt aumentata (AR) e piattaforme collaborative. Gli obiettivi principali sono: ridurre i tempi di sviluppo collezione del 40% abbattere i costi di prototipazione fisica del 70% e digitalizzare il 90% degli ordini. L investimento complessivo di circa 85.000 00 allocato su hardware (tablet visori wokstation) nuove licenze AR e RFID consulenze specialistiche e formazione del personale. Tutte le tipologie di spesa indicate risultano essere strettamente funzionali agli obiettivi di progetto. I clienti potranno visualizzare e customizzare mediante preset dedicati i capi in 3D con benefici in termini di customer experience e time-to-market. Il progetto migliora l integrazione tra reparti e partner abilitando un modello di filiera digitale tracciabile e sostenibile con una riduzione delle spedizioni e dei materiali inutilizzati stimata oltre il 65%. Grazie a queste innovazioni si ipotizza che l azienda passer da una scala Acatech attuale pari a 2 (Connettivit ) ad una scala pari a 6 (Adattabilit ).
+video style transfer is a useful component for applications such as augmented
+reality, non-photorealistic rendering, and interactive games. many existing
+methods use optical flow to preserve the temporal smoothness of the synthesized
+video. however, the estimation of optical flow is sensitive to occlusions and
+rapid motions. thus, in this work, we introduce a novel evolve-sync loss
+computed by evolvements to replace optical flow. using this evolve-sync loss,
+we build an adversarial learning framework, termed as video style transfer
+generative adversarial network (vst-gan), which improves upon the mgan method
+for image style transfer for more efficient video style transfer. we perform
+extensive experimental evaluations of our method and show quantitative and
+qualitative improvements over the state-of-the-art methods.

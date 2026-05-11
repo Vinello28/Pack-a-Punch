@@ -1,0 +1,6 @@
+"Il progetto di trasformazione digitale tramite líadozione di servizi digitali innovativi prevede líideazione, lo sviluppo ad hoc e quindi líutilizzo di una piattaforma digitale in cloud con modulo di intelligenza artificiale che punta ad innovare integralmente la sfera produttiva ed organizzativa integrando digitalmente le aree aziendali e incrementando líefficienza. 
+Líiniziativa Ë orientata a:
+1) Innovare i processi aziendali. Grazie al supporto delle tecnologie digitali gli attuali processi saranno completamente ridisegnati rendendoli pi¿ efficienti, pi¿ efficaci e migliorando la competitivit‡ aziendale(BPR);
+2) Sviluppare una piattaforma digitale che abbraccia tra loro e integra i processi produttivi, organizzativi, e amministrativi (ERP custom);
+3) Sfruttare le potenzialit‡ del cloud per implementare una modalit‡ di organizzazione che permetta ai dipendenti di lavorare agevolmente in smart working rimanendo comunque sotto coordinamento, controllo e gestione efficiente delle societ‡ (Conciliazione vita lavoro).
+4) Sfruttare le potenzialit‡ dellíintelligenza artificiale

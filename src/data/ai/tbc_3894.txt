@@ -1,1 +1,6 @@
-REALIZZAZIONE DI UNA INNOVATIVA PIATTAFORMA DI INTERMEDIAZIONE ASSICURATIVA BASATA SU ALGORITMI DI INTELLIGENZA ARTIFICIALE
+Sviluppo di una tecnologia innovativa ad ultrasuoni per il trattamento di materie prime alimentari in modo automatizzato, con caratteristiche e proprietà distintive, nonché migliorie sostanziali rispetto allo stato dell’arte presente sul mercato. Il sistema industriale è in grado di trattare, in modo automatico e automatizzato, una vasta gamma di  alimenti e di rilevarne e monitorarne la qualità del processo in modo continuativo, in tempo reale e senza la presenza dell'uomo. 
+Studio degli effetti del trattamento su ciascun alimento e dello sviluppo di processi certificati, atti a garantire la necessaria flessibilità del trattamento rispetto alle singole materie prime. 
+Il tutto con l’obiettivo di 
+- Permettere mediante utilizzo di un motore di Intelligenza Artificiale (IA) e di algoritmi sofisticati e modelli predittivi automatici, la raccolta e l'analisi dei dati relativi alla lavorazione degli alimenti, migliorando l'efficienza e l'accuratezza delle analisi stesse.
+- Preservare le proprietà sensoriali, organolettiche e nutrizionali degli alimenti durante la loro lavorazione. Ciò garantisce che i consumatori finali possano beneficiare di alimenti di alta qualità e con effetti positivi sulla loro salute.
+- Ridurre i) il consumo di acqua ed energia durante la lavorazione degli ali

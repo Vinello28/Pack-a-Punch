@@ -1,0 +1,1 @@
+Il progetto sviluppa 3-DIMENSION, piattaforma interdisciplinare di Spatial Transcriptomics per la medicina di precisione. Analizza in 3D fino a 28.000 geni e milioni di cellule, integrando AI per gestire enormi dati e caratterizzare tumori solidi, migliorando cure e riducendo costi sanitari.

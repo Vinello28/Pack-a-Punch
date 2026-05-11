@@ -1,1 +1,0 @@
-Realizzare un prototipo modulare subacqueo con algoritmi di IA e ML per monitorare i rifiuti marini.

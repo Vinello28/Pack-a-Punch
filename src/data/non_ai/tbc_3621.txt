@@ -1,1 +1,5 @@
-Con l'iniziativa ELF si intende progettare e realizzare in ambiente reale (prevalentemente le aree industriali della CittÃ  di Savigliano) una nuova infrastruttura intelligente per l'illuminazione pubblica. L'infrastruttura sarÃ  dotata di sensori innovativi e a basso costo che permetteranno di ottimizzare il consumo energetico ed aumentare l'affidabilitÃ  degli impianti di illuminazione. L'obiettivo piÃ¹ significativo che ELF intende ottenere Ã¨ quello di scalare la dimensione dell'infrastruttura di illuminazione. La soluzione deve poter essere economicamente sostenibile e quindi utilizzabile anche per amministrazioni di comuni piccoli e con poche centinaia di punti luce  anche sparsi (la stragrande maggioranza dei comuni Piemontesi  ove il peso delle frazioni Ã¨ significativo rispetto al comune stesso).
+Il COBOT RELAX, di seguito RELAX, è un braccio robotico collaborativo a 6 GDL integrato su AGV; è stato realizzato da G.A. in partnership con l’IIT (Genova); si distingue per il rapporto peso/payload=1(carico gestibile >20kg). Prima del Go-to-market si ritiene necessario procedere con:
+- Integrazione tecnologia 5G per applicazioni in ambiente outdoor
+- Produzione parti del robot mediante additive manufacturing
+- Tuning software/integrazione moduli safety
+- Adeguamento normativo

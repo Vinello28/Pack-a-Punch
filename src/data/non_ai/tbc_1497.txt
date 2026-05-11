@@ -1,1 +1,1 @@
-DIGITALIZZAZIONE DI TUTTI I PROCESSI PRODUTTIVI IN LOGICA "PULL"
+Realizzazione di una piattaforma digitale b2c e b2b dedicata alla commercializzazione di prodotti turistici con particolare attenzione all'attività incoming svolta da Orvietur in Umbria, inserimento di sistemi di pagamento elettronico e sviluppo della multicanalità.

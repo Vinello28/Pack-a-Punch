@@ -1,1 +1,7 @@
-Progetto di energy management nel settore finanza basato su Active Learning per ottimizzazione etichettatura. Il sistema analizza serie temporali storiche di 10+ anni per ottimizzare i processi operativi. L'infrastruttura prevede infrastruttura cloud scalabile (AWS/Azure/GCP). Il finanziamento copre sviluppo software, acquisizione dati e deployment in produzione.
+"Il progetto mira a ottimizzare un motore software per l'assegnazione dei turni di lavoro utilizzando tecniche di Explainable Artificial Intelligence (XAI) e include il ridisegno dei processi aziendali per migliorare l'efficienza operativa e la soddisfazione dei dipendenti. Si suddivide nelle seguenti fasi:
+1. Analisi delle necessità dell'organizzazione per la pianificazione dei turni, considerando leggi sul lavoro, preferenze dei dipendenti, esigenze operative e vincoli di budget.
+2. Acquisizione di dati storici su turni di lavoro, prestazioni dei dipendenti, preferenze individuali, e fattori influenzanti come malattie e ferie.
+3. Creazione di un algoritmo avanzato di ricerca operativa, utilizzando tecniche di XAI, che integri dati raccolti e regole aziendali, bilanciando turni in modo equo, rispettando vincoli legali e operativi, e riducendo i costi.
+4. Implementazione del nuovo motore di assegnazione con i sistemi esistenti di gestione delle risorse umane, payroll e registrazione presenze, attraverso API per garantire compatibilità e sincronizzazione dei dati.
+5. Valutazione dell'efficienza dell'algoritmo in un ambiente controllato.
+6. Integrazione del nuovo sistema nell'ambiente operativo.

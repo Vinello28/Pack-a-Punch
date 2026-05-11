@@ -1,16 +1,1 @@
-most of the current face hallucination methods, whether they are shallow
-learning-based or deep learning-based, all try to learn a relationship model
-between low-resolution (lr) and high-resolution (hr) spaces with the help of a
-training set. they mainly focus on modeling image prior through either
-model-based optimization or discriminative inference learning. however, when
-the input lr face is tiny, the learned prior knowledge is no longer effective
-and their performance will drop sharply. to solve this problem, in this paper
-we propose a general face hallucination method that can integrate model-based
-optimization and discriminative inference. in particular, to exploit the model
-based prior, the deep convolutional neural networks (cnn) denoiser prior is
-plugged into the super-resolution optimization model with the aid of
-image-adaptive laplacian regularization. additionally, we further develop a
-high-frequency details compensation method by dividing the face image to facial
-components and performing face hallucination in a multi-layer neighbor
-embedding manner. experiments demonstrate that the proposed method can achieve
-promising super-resolution results for tiny input lr faces.
+NEUROKIT2E mira a fornire un framework open-source indipendente mirato all esecuzione di task di intelligenza artificiale (IA) sull edge del network con l intento di supportare una comunit internazionale di utenti e un'ampia variet di domini applicativi

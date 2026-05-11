@@ -1,1 +1,1 @@
-Realizzazione di un sistema di Machine Learning per inpainting nel contesto sport. La soluzione utilizza architetture Transformer e modelli di attenzione per analizzare segnali biomedici (EEG, ECG, fMRI) in tempo reale. L'infrastruttura tecnologica prevede container orchestration con Kubernetes per garantire alte performance.
+Il progetto prevede lo sviluppo di un sistema innovativo basato su intelligenza artificiale per creare antologie personalizzate di brani letterari, scelti tematicamente dal catalogo dell'editore.

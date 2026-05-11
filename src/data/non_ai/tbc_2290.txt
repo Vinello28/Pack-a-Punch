@@ -1,0 +1,5 @@
+Il raggruppamento, attraverso questo ambizioso progetto, intende realizzare un'infrastruttura universale composta
+ da una piattaforma completa e modulare, in grado di coadiuvare le amministrazioni dell'area sanitaria (pubbliche
+ e private) nel ripensare la gestione dei propri flussi documentali in ottica digitale, ed al contempo nel supportarle
+ nella formazione, gestione e conservazione dei propri archivi ibridi, attraverso una forte integrazione con i sistemi
+ informativi sanitari esistenti e l'utilizzo di tecnologie dell'industria 4.0, quali l'IoT e i big data.

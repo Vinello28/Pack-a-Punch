@@ -1,0 +1,1 @@
+Sviluppo diuna piattaforma prototipo web based per la gestione delle prenotazioni (booking on line) delle seconde case dotata di un sistema di intelligenza artificiale che analizza il comportamento di acquisto del singolo utente le sue abitudini crea la memoria esperienziale per singolo utente e genera suggerimenti.

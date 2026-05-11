@@ -1,1 +1,1 @@
-Simulazione software, IoT, Cloud, Big Data e Analytics
+Implementazione di una piattaforma web per il turismo rurale che permette la prenotazione di agriturismi e la vendita di prodotti locali.

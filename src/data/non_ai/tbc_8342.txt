@@ -1,1 +1,1 @@
-la societÃ  intende attraverso il sistema domotico   digitalizzare  gli impianti  della struttura al fine di renderla facilmente gestibile dagli operatori migliorando l'organizzazione del lavoro con l'acquisto di hardware e software
+IMPLEMENTAZIONE SISTEMI DI ACQUISIZIONE E TRASMISSIONE ELABORAZIONE E DIFFUSIONE DEL DATO, BIG DATA

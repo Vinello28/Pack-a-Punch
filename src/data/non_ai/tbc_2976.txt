@@ -1,0 +1,3 @@
+Il progetto ha come obiettivo Riposizionare farmaci per modulare l’attività della via SLIT/ROBO, implicata
+nella formazione del microambiente del tumore del pancreas, da utilizzare in combinazione con inibitori del
+checkpoint immunitario al fine di migliorare la prognosi dei pazienti

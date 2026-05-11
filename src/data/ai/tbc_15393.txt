@@ -1,1 +1,1 @@
-Noesis: Intelligenza Artificiale Cloud e Cybersecurity - N.I.A.C.C
+Il progetto FishVision finalizzato a verificare in condizioni reali un applicativo gestionale basato sull intelligenza artificiale per il benessere e la salute delle specie ittiche (orata Sparus aurata e spigola Dicentrarchus labrax) in allevamenti offshore in IMTA accessibile e gestibile tramite cloud.

@@ -1,0 +1,1 @@
+Il kit che andremo ad inserire, prevede un nuovo programma che grazie a un sistema  elaborato dotato di telecamere ad alta risoluzione e una libreria di visione ad alte prestazioni, permette di leggere la data di scadenza stampata o impressa sulle scatole.

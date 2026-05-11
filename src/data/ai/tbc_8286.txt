@@ -1,1 +1,0 @@
-Il progetto ha come obiettivo Sviluppo di algoritmi per lâ€™interpretabilitÃ  di metodi di AI. Modelli di explainable AI verranno studiati su un insieme di use-cases multidisciplinari in fisica delle alte energie  in medicina e e nelle neuroscienze

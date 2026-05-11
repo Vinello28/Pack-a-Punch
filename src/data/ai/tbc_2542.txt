@@ -1,0 +1,3 @@
+Il progetto ha l'obiettivo creare un ambiente digitale dedicato al mercato dei piccoli e
+piccolissimi produttori del vino. Attraverso tecnologie avanzate saranno ricreati ambienti digitali
+dove l’espositore potrà incontrare la clientela, gestire eventi live, vendere i propri prodotti. Algoritmi di intelligenza artificiale e funzioni di Big Data Analytics e Digital Marketing Analytics consentiranno di analizzare il comportamento dell’acquirente, estrarne informazioni preziose e patterns nascosti.

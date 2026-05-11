@@ -1,1 +1,7 @@
-Sistema di annotazione semiautomatica basato su tecniche di computer vision per l'archiviazione di materiale cinematografico digitalizzato da pellicola e supporto magnetico.
+L'intervento si concentra sull'implementazione di diverse soluzioni digitali integrate:
+•	Ottimizzazione moduli ERP esistenti (BI e CRM)
+•	Implementazione nuovi moduli ERP per produzione, logistica e qualità
+•	Introduzione di un chatbot basato su IA generativa per assistenza clienti
+•	Sviluppo di soluzioni IoT bidirezionali
+•	Implementazione sistemi smart per l'erogazione dell'acqua
+Il progetto ha una durata prevista di 12 mesi e include formazione specifica per il personale.

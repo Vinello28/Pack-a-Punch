@@ -1,0 +1,7 @@
+3I progetta e realizza impianti di visione industriale per il controllo automatico della produzione, sia sul lato hardware che software. L¿obiettivo del progetto è l¿introduzione di metodi informatici per rendere più efficiente il processo di prototipazione e sviluppo sia del singolo componente che dell¿impianto. Gli obiettivi sono:
+- Digitalizzare il workflow di progetto sfruttando modellazione e prototipazione virtuale, con l¿obiettivo di velocizzare tale processo;
+- Implementare algoritmi e tecniche avanzate nelle soluzioni software per l¿elaborazione delle immagini, al fine di migliorare le performance dei sistemi di visione prodotti;
+- Condividere le fasi di lavoro di un progetto, migliorando la qualità, l¿intellegibilità e la comunicazione interna al team delle fasi intermedie;
+-	Offrire ai clienti supporto da remoto per operazioni di diagnosi, aggiornamento e manutenzione
+Viene pertanto previsto l¿acquisto di una licenza per un software che consenta la modellazione tridimensionale dei componenti, insieme ad una postazione desktop adeguata.
+Viene inoltre programmata la partecipazione ad un corso formativo inerente il Machine Learning, al fine di formare una figura in grado di implementare nuovi algoritmi per la gestione e l¿elaborazione dei dati ottenuti dalle immagi

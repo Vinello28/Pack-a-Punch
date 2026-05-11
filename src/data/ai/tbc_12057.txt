@@ -1,1 +1,1 @@
-Progetto di innovazione digitale per pianificazione percorsi basato su Edge AI e TinyML per dispositivi embedded nel contesto farmaceutico. Il modello apprende da immagini ad alta risoluzione acquisite da telecamere industriali utilizzando tecniche di curriculum learning. Il deployment sfrutta feature store centralizzato per garantire affidabilità.
+Il piano dal titolo [STUDIO MASCIOTTI - Intelligenza Artificiale Competenze Digitali e Benessere dei Dipendenti] approvato con delibera del CdA di Fondolavoro del [28/10/2025]

@@ -1,18 +1,1 @@
-we use deep learning to model interactions across two or more sets of
-objects, such as user-movie ratings, protein-drug bindings, or ternary
-user-item-tag interactions. the canonical representation of such interactions
-is a matrix (or a higher-dimensional tensor) with an exchangeability property:
-the encoding's meaning is not changed by permuting rows or columns. we argue
-that models should hence be permutation equivariant (pe): constrained to make
-the same predictions across such permutations. we present a parameter-sharing
-scheme and prove that it could not be made any more expressive without
-violating pe. this scheme yields three benefits. first, we demonstrate
-state-of-the-art performance on multiple matrix completion benchmarks. second,
-our models require a number of parameters independent of the numbers of
-objects, and thus scale well to large datasets. third, models can be queried
-about new objects that were not available at training time, but for which
-interactions have since been observed. in experiments, our models achieved
-surprisingly good generalization performance on this matrix extrapolation task,
-both within domains (e.g., new users and new movies drawn from the same
-distribution used for training) and even across domains (e.g., predicting music
-ratings after training on movies).
+La sostituzione del server attuale  obsoleto  con uno nuovo dalle migliori e piÃ¹ performanti capacitÃ  tecniche  permetterebbe allo Studio di sviluppare ed offrire ulteriori servizi rispetto a quelli giÃ  offerti sfruttando le crescenti possibilitÃ  offerte dal machine learning e dall'utilizzo dell'IA  efficientare i processi lavorativi liberando tempo e risorse da destinare al rafforzamento della posizione dello Studio sul mercato aumentando la possibilitÃ  di offrire servizi da remoto  con l'acquisto del nuovo notebook e delle cuffie bluetooth  combinandoli con maggiori competenze che si andranno ad acquisire in merito alle nuove tecnologie  ed una maggiore visibilitÃ  su internet cosÃ¬ da raggiungere un maggior numero di clienti ed ottenere cosÃ¬ un vantaggio competitivo.

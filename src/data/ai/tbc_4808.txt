@@ -1,1 +1,12 @@
-CREEREMO UN'ESPERIENZA DI ESCAPE ROOM VIRTUALE MINDMAZE AI. QUESTA ESPERIENZA IMMERSIVA TRASPORTER I PARTECIPANTI IN UN MONDO VIRTUALE RICCAMENTE DECORATO E PIENO DI ENIGMI AVVINCENTI E SFIDE STIMOLANTI. IL CUORE PULSANTE DI MINDMAZE AI IL SUO ASSISTENTE VIRTUALE ANIMATO DA UN CHATBOT CHE INTERAGISCE CON I GIOCATORI IN TEMPO REALE. QUESTO ASSISTENTE NON SI LIMITA A FORNIRE INDIZI: ESSO SI ADATTA E RISPONDE IN MANIERA PERSONALIZZATA ALLE AZIONI E ALLE SCELTE DEI PARTECIPANTI RENDENDO OGNI ESPERIENZA UNICA E SU MISURA. APPRENDER DAI COMPORTAMENTI DEI GIOCATORI AGGIUSTANDO DINAMICAMENTE LA DIFFICOLT E MODELLANDO LA TRAMA PER GARANTIRE UN'AVVENTURA SEMPRE FRESCA E COINVOLGENTE. AL CENTRO DEL NOSTRO PROGETTO VI ANCHE UN FORTE IMPEGNO VERSO L'ACCESSIBILIT . ABBIAMO IMPLEMENTATO STRUMENTI CHE PERMETTONO A GIOCATORI CON DIVERSE ABILIT DI IMMERGERSI PIENAMENTE NEL GIOCO OFFRENDO OPZIONI DI PERSONALIZZAZIONE E SUGGERIMENTI SPECIFICI PER CIASCUN UTENTE. QUESTO IMPEGNO NELL'INNOVAZIONE E NELLA PERSONALIZZAZIONE GUIDATO DALL'INTELLIGENZA ARTIFICIALE NON SOLO MIGLIORA IL GIOCO ATTUALE MA APRE ANCHE LA STRADA A EVOLUZIONI FUTURE CONSENTENDOCI DI ADATTARCI CONTINUAMENTE ALLE ESIGENZE E ALLE ASPETTATIVE IN EVOLUZIONE DEI GIOCATORI.
+Il Progetto si propone di sviluppare una piattaforma digitale interoperabile per supportare servizi di mobilità sicuri e cooperativi in una Smart City, con particolare attenzione agli Utenti Vulnerabili della Strada (pedoni, ciclisti, ecc.). Tale piattaforma includerà funzionalità avanzate come la ricostruzione 3D post-incidente e l'accesso intelligente alle informazioni urbane tramite tecnologie AI.  
+La piattaforma sarà alimentata da una rete di “oggetti intelligenti” come sensori IoT, dispositivi indossabili, telecamere, attuatori e unità di calcolo periferiche distribuiti in aree strategiche della città. L'obiettivo è raccogliere e analizzare dati eterogenei, anche in tempo reale, per supportare servizi di sicurezza, prevenzione dei rischi e gestione della mobilità anche in situazioni critiche con presenza di mezzi di emergenza. 
+
+Componenti Chiave: 
+
+Piattaforma Cooperativa V2X: Utilizzo della piattaforma Vodafone STEP e modelli deep learning per analizzare eventi complessi. 
+
+Ricostruzione 3D: Sviluppo di un sistema avanzato per la ricostruzione tridimensionale di scene urbane post-incidente. 
+
+Agenti Conversazionali: Implementazione di chatbot intelligenti basati su modelli linguistici di grandi dimensioni (LLM) per interfacce utente evolute. 
+
+Video Analytics Ibrido: Sist

@@ -1,0 +1,18 @@
+Implementazione di dispositivi hardware di nuova generazione con una più alta efficienza di lavoro. Installazione di un nuovo software gestionale delle camere presenti all'interno della struttra ricettiva che migliora l'efficacia dei servizi erogati dalla struttura. Di seguito l'elenco dei beni strumentali necessari er il miglioramento dell'efficienz aziendale:
+LicenzaprincipalesofwareE2KHotel
+Workstation
+MultiStruttura(2strutturetotali)
+GestioneprenotazionidaBookingonline
+GestioneMagazzino
+PrimaNota
+PacchettoCustomerCare
+PacchettoManagement
+PacchettoClient/Serverautomation 
+SoftwareBookingonline
+SoftwareChannelManager(O.T.A.)
+StampanteLaserA4B/NL5100DNBrother
+NASSynologyserieD+con2baieHDD2TBconsoftware
+NBAsusProP2530UJ15.6"i78GB1TBDVDW10pro
+ServerFujitsu2HDDW2012R2+Monitor17"+Tast.eMouse
+ServerFujitsu2HDDW2012R2+Monitor17"+Tast.eMouse  RegistratoredicassaCitizenSeriale80mm.+Display 
+UPS800Watt

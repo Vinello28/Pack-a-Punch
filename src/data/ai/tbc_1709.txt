@@ -1,1 +1,13 @@
-Il progetto proposto consiste in un software altamente evoluto che mediante l'implementazione delle pi recenti tecniche di machine learning e di deep learning consente la realizzazione di strategie quantitative di investimento sui mercati finanziari. Si tratta di applicazione dell intelligenza artificiale alla costruzione di uno strumento a supporto delle decisioni degli investitori. Ci comporta miglioramenti di natura quantitativa e qualitativa nella capacit di analisi finanziaria rispetto alle alternative tradizionali human-based quali la minimizzazione degli errori causati da bias emotivi nelle scelte di investimento e soprattutto la scalabilit della struttura di business ovvero elevata performance (risk-adjusted) a costi per altro inferiori rispetto al mercato. Gli utenti investitori possono sfruttare l elevata capacit di calcolo e predittiva del software proposto accedendo ad una piattaforma che l azienda ha concepito ad hoc. L investimento previsto dunque destinato alla costruzione di un prodotto/servizio in grado fornire strategie di investimento sui mercati quotati sempre pi accurate e con scelte che nel tempo si automigliorano grazie all applicazione dell intelligenza artificiale nell analisi di big data.
+Con il progetto si vuole realizzare un dispositivo innovativo e “intelligente” capace di misurare lo
+stato di attenzione e allerta di operatori di torni, macchinari industriali, carelli elevatori e mezzi di
+trasporto nel settore della manifattura avanzata intervenendo tempestivamente sull’operatività del
+macchinario. Il dispositivo sarà cosi in grado di agire in autonomia disabilitando il movimento del
+veicolo (qualora si tratti di un carrello elevatore) o ammonendo l’operatore ad una sosta (in caso di
+operazioni con macchine utensili in movimento) qualora venga rilevato un colpo di sonno o
+disattenzione da parte del lavoratore.
+
+Per la realizzazione ci si avvale dei più recenti sviluppi di algoritmi di intelligenza artificiale
+applicati alla visione artificiale specialmente quelli riguardanti implementazioni basate su librerie
+quali TensorFlow e OpenCV. Studi mostrano infatti come sia possibile identificare con accuratezza
+lo stato di allerta di persone mediante il monitoraggio dell’apertura delle palpebre e della direzione
+di osservazione dell’operatore.

@@ -1,0 +1,1 @@
+Il progetto MicroClimArt si pone come finalit la realizzazione di MCASys (MicroClimArtSystem) un avanzato sistema informativo basato su un intelligenza artificiale per la rappresentazione e la valutazione dell'impatto degli inquinanti atmosferici sui beni culturali.

@@ -1,0 +1,1 @@
+Gnucoop offre una soluzione per raccogliere dati esterni e arricchire modelli di linguaggio con informazioni aggiornate. Include installazione software e configurazione LLM, personalizzabile per esigenze aziendali, migliorando decisioni e efficienza.

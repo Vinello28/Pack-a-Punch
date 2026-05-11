@@ -1,0 +1,12 @@
+huang (arxiv:1612.03270) argues that the perceptual learning induced by our
+decoded neurofeedback method (decnef) can be explained by hebbian synaptic
+plasticity of connections between v1/v2 and v3/v4 rather than that within
+v1/v2, and that reinforcement learning at a cellular level should not be
+possible, and thus challenges our conclusions. in this reply, first, we show
+that huang's model is not compatible with our data which strongly suggest
+plasticity within v1/v2. second, the results of our new analysis show that
+spontaneous activity is not random but largely accounted for by low-dimensional
+components. these and other results indicate that learning to induce a
+stimulus-associated template voxel pattern in v1/v2 within as few as 100 trials
+is likely to be accomplished by hyper-resolution and sub-voxel level control by
+decnef.

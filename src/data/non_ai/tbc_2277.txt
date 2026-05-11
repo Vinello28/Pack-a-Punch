@@ -1,0 +1,1 @@
+Screevo è un assistente vocale per l’Industria 4.0 in grado di controllare ogni macchina o sistema software tramite voce, senza alcuna integrazione necessaria

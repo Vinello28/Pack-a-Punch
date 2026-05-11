@@ -1,1 +1,1 @@
-Deploiable-expandable Electrode for ElectroPoration of cancer cells
+il progetto intende realizzare l'ampliamento della capacita' di uno stabilimento esistente mediante la produzione di sensori di corrente con materiali riciclabili e con processi automatici informatizzati

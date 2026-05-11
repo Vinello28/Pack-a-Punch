@@ -1,1 +1,2 @@
-Realizzazione di una collegamento in remoto con un server all in one  destinato a consentire l'elaborazione dei dei dati contabili anche sfruttando il telelavoro
+Il progetto VIXVOCAL prevede l’utilizzo della tecnologia di biometria per il riconoscimento vocale che verrà applicato in modo da consentire il riconoscimento del
+doppiatore italiano in un film interpretato da un attore cinematografico straniero, mediante l’uso di un app scaricabile su comuni smartphone in commercio.

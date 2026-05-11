@@ -1,0 +1,1 @@
+Si prevede lo sviluppo di un sistema di raccolta e analisi dei dati di produzione di impianti industriali che attraverso l uso di un software basato sull intelligenza artificiale consente di migliorare l analisi l interpretazione ed il controllo dei processi in considerazione degli obiettivi di produzione e delle attrezzature in uso nell impianto.

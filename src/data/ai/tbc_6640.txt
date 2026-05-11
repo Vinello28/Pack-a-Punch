@@ -1,1 +1,1 @@
-Implementazione di un sistema BMS intelligente con l obiettivo di stimare i parametri della batteria riguardanti il SOC e il SOH mediante AI e Machine Learning (ML).
+Corso a catalogo - Percorso Intelligenza Artificiale Generativa nel business 18h Corso a catalogo - L'impatto pratico degli AI Agents nel business

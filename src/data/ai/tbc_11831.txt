@@ -1,1 +1,10 @@
-Il progetto promosso da Ambienti Digitali SRL ha l obiettivo di realizzare un ecosistema digitale integrato in cloud in grado di ottimizzare i processi interni migliorare l efficienza operativa e rafforzare il posizionamento dell azienda all interno della filiera Innovazione nei servizi trasformazione digitale e logistica . Attraverso l unificazione di strumenti oggi frammentati (CRM gestione progetti ticketing) il sistema consentir una visione condivisa delle attivit riducendo ritardi e inefficienze. L integrazione di tecnologie avanzate come workflow automatizzati chatbot intelligenti e strumenti di analisi predittiva migliorer la qualit dei servizi favorendo la personalizzazione la rapidit e la sostenibilit operativa. Il progetto prevede anche il monitoraggio continuo delle risorse IT e l adozione di modelli pay-per-use con un impatto positivo sulla sostenibilit ambientale ed economica. Inoltre la piattaforma offrir dashboard gestionali e strumenti di supporto decisionale per il management. Il progetto rafforza cos la capacit dell azienda di operare in mercati ad alto contenuto tecnologico posizionandosi come partner strategico per la digitalizzazione delle imprese.
+in this paper, we describe our ensemble approach for sentiment
+and aspect predictions in the financial domain for a given text. this
+ensemble approach uses convolutional neural networks (cnns)
+and recurrent neural networks (rnns) with a ridge regression
+and a voting strategy for sentiment and aspect predictions, and
+therefore, does not rely on any handcrafted feature. based on 5-cross
+validation on the released training set, the results show that cnns
+overall perform better than rnns on both tasks, and the ensemble
+approach can boost the performance further by leveraging different
+types of deep learning approaches.

@@ -1,1 +1,5 @@
-reinserimento lavorativo di disabile da lavoro attraverso adattamenti del posto di lavoro - automatizzazione linea di produzione con robot antropomorfo
+Oggetto della proposta è l’erogazione di servizi di assesment e formazione in ambito Cyber Security e Compliance, nello 
+specifico le attività previste sono: 
+• Assessment, Penetration Test fino a 5 IP 
+• Vulnerability Assessment fino a 30 Server 
+• Formazione Security Awareness per 15 dipendent

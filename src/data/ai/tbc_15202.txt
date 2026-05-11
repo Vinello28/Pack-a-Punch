@@ -1,1 +1,0 @@
-lo sviluppo di un macchinario integrato con un software basato su reti neurali per l'analisi di anomalie su tessuti

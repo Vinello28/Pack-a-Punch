@@ -1,1 +1,12 @@
-Realizzazione di un ecosistema integrato di applicativi per soddisfare esigenze di manutenzione di progetti di ingegneria sfruttando il concetto di gemello digitale e attraverso la realt aumentata
+Per migliorare l'efficienza del nostro sito internet, nell'ottica di sviluppare ulteriormente la rete commerciale on-line, rendendo più semplice e immediato il contatto con la nostra azienda come: customer care, internazionalizzazione e automatizzazione delle comunicazioni:
+
+a) integrazione e sviluppo di nuove sezioni del sito internet indiciopponibili.com al fine di rendere automatica e digitale il servizio di customer care, attraverso:
+
+1) implementazione (o acquisto di servizio) di chat collegate alle app mobile di messaggistica come  Whatsapp, Messenger o Telegram (es. chat2desk.com); nel dettaglio si tratta sia di costi per software da acquistare e implementare nel sito, sia dei costi per l'azienda software che sviluppera' per noi queste tecnologie
+costo 2000 euro
+
+2) implementazione (o acquisto di servizio) di "Interfacce conversazionali" ovvero software di intelligenza artificiale in grado di elaborare il linguaggio umano al fine di creare una piattaforma indipendente di comunicazione verso clienti, fornitori e collaboratori (es. blog.ndg.ai) 
+costo 5000 euro 
+
+c) conversione del sito internet indiciopponibili.com da monolingua a multilingua al fine di facilitare interazione con figure internazionali (clienti, fornitori e collaboratori) 
+costo 2000 euro

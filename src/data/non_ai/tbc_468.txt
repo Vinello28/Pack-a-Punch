@@ -1,0 +1,1 @@
+Applicativo per la gestione del recluitment dei traduttori e dei fornitori in generale nonché la gestione del materiale multimediale necessario alla realizzazione dei lavori stessi.

@@ -1,1 +1,1 @@
-Oggetto della Offerta la realizzazione di un Proof of Concept (PoC) basato su Intelligenza Artificiale per l ottimizzazione del processo di gestione del rifiuto tramite integrazione con un gestionale di settore. (il Servizio )
+Implementazione di algoritmi di Natural Language Processing (NLP) con BERT/GPT per style transfer nel dominio retail. Il progetto integra database relazionali legacy migrati su data lake provenienti da multiple sorgenti eterogenee. Il finanziamento copre architettura serverless per inferenza e team di data scientist specializzati.

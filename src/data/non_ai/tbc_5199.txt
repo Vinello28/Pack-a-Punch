@@ -1,0 +1,2 @@
+L'obiettivo generale della proposta è progettare e fabbricare nuove interfacce
+neuronali impiantabili in grado di comunicare in modo bidirezionale con esoprotesi ed esoscheletri

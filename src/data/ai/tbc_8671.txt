@@ -1,1 +1,10 @@
-cognitive radio has developed as a novelapproach that enables efficient use of unexploited or underutilized parts of frequency bands. wireless cognitive radio networks aim to speculativelyfeat the empty or underutilized parts of the spectrum by listening to the frequency bands of their secondary users with various sensing techniques. for this purpose, the process of switching from a frequency channel used by secondary users for various reasons to another free channel is defined as spectrum allocation. at the beginning of the cases where the spectrum allocation takes place, the frequency channels allocated to secondary users are put back into the service of primary users. several techniques are utilized for the spectrum allocation process decided by the access points. artificial intelligence techniques are used to make the decision to realize the spectrum allocation transaction. in this paper, we present a fuzzy logic based spectrum allocation technique and thus ensure better management. the simulation results shows the performance in terms of received signal strength and signal to noise power.
+among the plethora of techniques devised to curb the prevalence of noise in
+medical images, deep learning based approaches have shown the most promise.
+however, one critical limitation of these deep learning based denoisers is the
+requirement of high-quality noiseless ground truth images that are difficult to
+obtain in many medical imaging applications such as x-rays. to circumvent this
+issue, we leverage recently proposed approach of [7] that incorporates stein's
+unbiased risk estimator (sure) to train a deep convolutional neural network
+without requiring denoised ground truth x-ray data. our experimental results
+demonstrate the effectiveness of sure based approach for denoising x-ray
+images.

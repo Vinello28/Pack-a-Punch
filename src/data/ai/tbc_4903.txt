@@ -1,0 +1,9 @@
+J&W S.r.l è una PMI innovativa, mira a sviluppare un prototipo avanzato di swarm robotic a (TRL7) per la mobilità autonoma interconnessa. Il progetto prevede l'integrazione sinergica di Robot Mobili Autonomi (AMR) e Veicoli Aerei senza Pilota (UAV)
+La soluzione sarà garantita nel funzionamento da Intelligenza Artificiale (AI) e visione artificiale (Computer Vision) per ottimizzare la navigazione terrestre in ambienti complessi e disconnessi. Le applicazioni target includono il trasporto di merci in contesti agritech (es. vendemmia) e nell'industria pesante (es. terreni sporchi o sconnessi), dove le informazioni aeree dei droni sono cruciali per la guida degli AMR.
+
+Il progetto si allinea alle tecnologie digitali e deep tech STEP e intende colmare lacune nei sistemi a guida autonoma per terreni difficili. 
+I principali benefici attesi includono:
+- Miglioramento dell'efficienza rispetto alle soluzioni oggi sul mercato;
+- Un concept basato sulla sostenibilità ambientale  che predilige una soluzione interamente elettrificata;
+- Aumento della sicurezza e supporto alla forza lavoro in settori critici; 
+- Lo sviluppo di un sistema abilitatore per future applicazioni complesse.

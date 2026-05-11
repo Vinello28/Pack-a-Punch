@@ -1,0 +1,3 @@
+Introduzione di un groupware aziendale FLOSS
+Introduzione di un ticket system FLOSS ITIL compliant
+Centralizzazione su server virtuali separati dei servizi ICT interni (file server, groupware, ticket system)

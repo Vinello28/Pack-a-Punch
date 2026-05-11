@@ -1,1 +1,1 @@
-Robot modulari per la logistica ospedaliera - Ro.Mo.L.O
+INTRODUZIONE DELLE TECNOLOGIE DI ROBOTICA PER LO SVILUPPO DI UN NUOVO PRODOTTO - Sviluppo di un sistema di robotica collaborativa in campo aperto, per la mappatura di sotto-servizi, con impiego di diagnostica non distruttiva e sensoristica IoT.

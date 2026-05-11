@@ -1,0 +1,1 @@
+Il progetto ha come obiettivo la realizzazione di uno strumento installabile all interno degli abitacoli dei veicoli in grado di fornire in modo puntuale informazioni sulla qualità dell aria interna ed esterna di un veicolo in modo da evidenziare possibili situazioni di pericolo.

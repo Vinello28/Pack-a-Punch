@@ -1,0 +1,7 @@
+Il progetto proposto da OSM FELSINA SRL consiste nello sviluppo e nell’implementazione della piattaforma digitale AIONYX AI, un sistema innovativo progettato per supportare la transizione digitale dell’azienda, ottimizzando i processi interni di gestione dei clienti, dei consulenti e della documentazione HR. Attualmente, l’organizzazione delle attività si basa su strumenti manuali e disaggregati (Excel, email, Google Drive), con il rischio di inefficienze, perdita di informazioni e rallentamenti operativi.
+La nuova piattaforma consentirà di:
+•	Automatizzare il flusso di acquisizione e gestione dei lead
+•	Tracciare e archiviare tutte le attività svolte dai consulenti
+•	Generare, grazie all’intelligenza artificiale, report personalizzati, mansionari su base attitudinale, e dashboard di sintesi per la direzione
+•	Fornire un accesso riservato ai clienti per consultare in autonomia documenti, grafici e indicatori di performance
+L’obiettivo del progetto è quello di trasformare digitalmente il modello di business di OSM FELSINA, rendendolo più efficiente, tracciabile e scalabile, riducendo gli errori manuali e alleggerendo i carichi operativi ripetitivi del personale.

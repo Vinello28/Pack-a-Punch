@@ -1,1 +1,1 @@
-portale per ispirazione  educazione e apprendimento nel mondo della film industry e dellâ€™entertainment attraverso lo sviluppo e allâ€™adozione di tecnologie come lâ€™intelligenza artificiale  la blockchain e realtÃ  virtuale
+Creazione di un motore di AI per human-robot interaction basato su Support Vector Machines (SVM) con kernel non lineari dedicato al settore pubblica amministrazione. L'addestramento sfrutta corpus testuali multilingue con tecniche di data augmentation. L'infrastruttura include monitoring e observability con Prometheus/Grafana per training e inferenza.

@@ -1,1 +1,12 @@
-Realizzazione di una soluzione AI per rilevamento intrusioni mediante Neuromorphic Computing dedicata al mercato sport. Il sistema analizza database relazionali legacy migrati su data lake con accuratezza superiore al 95%. L'infrastruttura tecnologica comprende pipeline MLOps con CI/CD automatizzato e sistemi di backup automatizzati.
+Il progetto si propone di studiare e applicare tecniche di
+intelligenza artificiale come algoritmi generativi e predittivi ad un modulo di
+monitoraggio sugli input e output dei diversi sistemi di machine vision o
+ottimizzazione di processo commissionati all’azienda. Lo scopo primario è
+quello di utilizzare i dati normalmente forniti dal cliente nella fase
+preliminare (Proof of Concept) e i modelli predittivi da essi derivati per ottenere
+un riscontro immediato di eventuali anomalie nei dati stessi durante le
+successive fasi di sviluppo (ingegnerizzazione del sistema finale o precollaudo), abbattendone così i costi e automatizzandone per quanto possibile i
+meccanismi di adattamento all’ambiente di produzione. Una conseguenza secondaria
+ma non meno importante derivante dall’applicazione di questo modulo di monitoraggio
+intelligente è inoltre il valore aggiunto che esso può dare al prodotto finale nelle
+successive fasi operative potenziandone il controllo e la stabilità.

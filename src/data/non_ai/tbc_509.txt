@@ -1,1 +1,4 @@
-RISTRUTTURARE L HOTEL LORENZINI SKI PER LA REALIZZAZIONE E LA PROMOZIONE DI UN TURISMO SOCIALE E SOSTENIBILE ANCHE PER LE FASCE PIU DEBOLI.
+Sviluppo di software per la messa in tavola automatica di elementi 3d (tridimensionali).
+Quello che si vuole sviluppare sono tre stazioni operative per la messa in tavola automatizzata di elementi tridimensionali con output bidimensionale dell elemento e relativa scheda componente/i (BOM-Build of material) tramite macro, dato un modello base.
+Si ipotizza un percentuale di accuratezza del 75% con relativo abbattimento del budget orario destinato a tali attività.
+Il surpluss ottenuto potra essere destinato ad attivita di Engineering, design e modellazione, dove il valore aggiunto del personale tecnico ha effettivo rscontro.

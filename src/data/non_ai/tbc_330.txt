@@ -1,0 +1,5 @@
+Le novità di V-Ray 3 for Rhino sono tipicamente utilizzate dagli architetti e dai designer, le principali categorie di utenti cui è rivolto il motore di rendering.
+Virtual Reality - rendering per gli output;
+nuova tecnologia Swarm per il calcolo distribuito;
+tool per effettuare sezioni dinamiche sui modelli, molto utile per le applicazioni arch & design;
+consente di creare automaticamente sistemi di erba realistica, tessuti e tappeti.

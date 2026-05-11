@@ -1,0 +1,7 @@
+il progetto ha l'obiettivo di innovare i processi di raccolta, gestione ed archiviazione dei dati aziendali per consentire il monitoraggio costante dei risultati, il miglioramento della capacità previsionale e l'ottimizzazioen delle azioni di markketing e CRM.
+L'approccio adottato prevede l'integrazioen di processi afferenti a diverse aree aziendali attraverso sistemi digitali
+Le aree e i sistemi coinvolti sono
+- ERP e Contabilità
+- CRM e profilazione clienti
+- Marketing Automation
+- Business Intelligence

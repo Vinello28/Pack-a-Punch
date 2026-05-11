@@ -1,6 +1,1 @@
-we present a large-scale dataset, record, for machine reading comprehension
-requiring commonsense reasoning. experiments on this dataset demonstrate that
-the performance of state-of-the-art mrc systems fall far behind human
-performance. record represents a challenge for future research to bridge the
-gap between human and machine commonsense reading comprehension. record is
-available at http://nlp.jhu.edu/record.
+Il progetto vuole sfruttare le tecnologie legate allâ€™Intelligenza Artificiale e al Machine Learning per far sÃ¬ che la transizione a un Evento Digitale 100% Accessibile sia semplice e facilmente adottabile da tutte le aziende.

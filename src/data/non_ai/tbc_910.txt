@@ -1,1 +1,9 @@
-MODELLAZIONE TRAMITE SCANNER E SOFTWER CAD-CAM DI PROTESI SCHELETRICA  E LO STAMPAGGIO IN RESINA CALCINABILE DEL MANUFATTO VIRTUALE
+Il progetto di investimento prevede: 
+
+1)      lo sviluppo e la realizzazione di un sito e-commerce per la commercializzazione tramite internet di parti di ricambio e accessori nuovi ed usati per autoveicoli e motocicli. Seguendo la scia dell evoluzione digitale, lo sviluppo di un sito e-commerce costituisce per l azienda una grande opportunità per ampliare il proprio volume di affari e i propri profitti poiché consentirà di raggiungere una più ampia e variegata platea di clienti su scala provinciale, regionale e nazionale superando i limiti legati alla territorialità dell attività;   
+
+2)      l acquisto di un software gestionale per la fatturazione. Si tratta di un software all¿avanguardia che si adatta bene alla realtà lavorativa aziendale garantendo una semplificazione del processo ordinario di fatturazione e un adeguata gestione del processo di fatturazione elettronica; 
+
+3)      l acquisto di tre computer PC Desktop e di una stampante, necessari per la gestione e l utilizzo del sito e-commerce e del nuovo software gestionale di fatturazione; 
+
+4)      la realizzazione di una rete LAN per lo sviluppo e la gestione della postazione e-commerce.

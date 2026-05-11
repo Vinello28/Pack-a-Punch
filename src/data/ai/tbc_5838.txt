@@ -1,1 +1,3 @@
-ResilIO Tecnologie digitali fondamentali Intelligenza Artificiale Internet delle Cose e Quantum Machine Learning per la Resilienza Ambientale
+Il progetto ha l'obiettivo di utilizzare tecnologie EO e AI per analizzare immagini
+satellitari, offrendo dati per un turismo sostenibile e la corretta gestione ambientale. La piattaforma web
+faciliterà l'accesso a questi dati, migliorando la gestione territoriale e le esperienze turistiche

@@ -1,0 +1,10 @@
+La linea di azione 3.1.a del bando in oggetto richiede la ‘realizzazione e produzione di dispositivi
+intelligenti, sviluppati come prototipo all’interno del progetto, per consentirne una sperimentazione su
+larga scala nei settori chimico e biologico, oltre che in altre applicazioni rientranti nel contesto
+sociosanitario’.
+La proposta di progetto coerentemente, consiste nello studio, progettazione e produzione di dispositivi
+prototipali per l’identificazione e quantificazione rapida di marcatori biochimici usati nel contesto
+sanitario per aiutare i medici nella diagnosi di varie patologie [1]. Lo strumento è pensato per funzionare
+come una piattaforma unica in grado di ‘leggere’ i dati provenienti da un biosensore funzionalizzabile
+con diverse molecole, proteine e/o anticorpi specifici offrendo la possibilità di adattare il biosensore alla
+necessità di rilevamento specifica.

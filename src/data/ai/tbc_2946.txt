@@ -1,1 +1,0 @@
-Lâ€™obiettivo del progetto HPS4MAN Ã¨ realizzare il prototipo di una postazione di robotica collaborativa â€œsmartâ€ in grado di adattarsi in tempo reale alle caratteristiche e alle necessitÃ  dellâ€™operatore  alle condizioni dellâ€™ambiente e al processo produttivo

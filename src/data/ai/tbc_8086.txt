@@ -1,1 +1,1 @@
-Horus Ã¨ un sistema di Visual Recognition che riesce ad identificare e classificare forme  colori e motivi di un oggetto presente in un immagine. Il sistema analizza e codifica i pixel delle immagini identificando il colore  la forma/modello e il motivo/fantasia
+Cooperative Research Project - realizzare un'infrastruttura di QFL (Quantum Federated Learning) per l addestramento di modelli di Intelligenza Artificiale (AI) utilizzando dati raccolti a partire da diverse compagnie energetiche e riferiti ai consumi elettrici del proprio bacino di utenti

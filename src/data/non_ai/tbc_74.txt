@@ -1,1 +1,1 @@
-Realizzazione di un cofano funebre in biopolimeri
+Gli obiettivi sono realizzare stampanti 3D con tecnologia FDM “Fused Deposition Modeling”, per poi proseguire con la realizzazione di stampanti SLS (Selective Laser Sintering), SLA (Stereolithography) e relativi servizi di stampa.

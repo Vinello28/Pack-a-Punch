@@ -1,1 +1,1 @@
-Il progetto EnergyCertifier intende realizzare una soluzione big data sostenibile per lacertificazione tramite tecnologie blockchain e smart contract delle rilevazioni operate daisistemi di monitoraggio dei valori energetici.
+L obiettivo dell attivit formativa proposta consiste nel fornire ai partecipanti una panoramica completa sui concetti di Intelligenza Artificiale Machine Learning Classico e Deep Learning presentando potenzialit e difficolt di applicazione di queste tecnologie in scenari concreti con particolare focus sull industria.

@@ -1,1 +1,12 @@
-drug-target interaction (dti) prediction is vital for drug discovery, yet challenges persist in achieving model interpretability and optimizing performance. we propose a novel transformer-based model, fragxsitedti, that aims to address these challenges in dti prediction. notably, fragxsitedti is the first dti model to simultaneously leverage drug molecule fragments and protein pockets. our information-rich representations for both proteins and drugs offer a detailed perspective on their interaction. inspired by the perceiver io framework, our model features a learnable latent array, initially interacting with protein binding site embeddings using cross-attention and later refined through self-attention and used as a query to the drug fragments in the drug's cross-attention transformer block. this learnable query array serves as a mediator and enables seamless information translation, preserving critical nuances in drug-protein interactions. our computational results on three benchmarking datasets demonstrate the superior predictive power of our model over several state-of-the-art models. we also show the interpretability of our model in terms of the critical components of both target proteins and drug molecules within drug-target pairs.
+identifying relationships between concepts is a key aspect of scientific
+knowledge synthesis. finding these links often requires a researcher to
+laboriously search through scien- tific papers and databases, as the size of
+these resources grows ever larger. in this paper we describe how distributional
+semantics can be used to unify structured knowledge graphs with unstructured
+text to predict new relationships between medical concepts, using a
+probabilistic generative model. our approach is also designed to ameliorate
+data sparsity and scarcity issues in the medical domain, which make language
+modelling more challenging. specifically, we integrate the medical relational
+database (semmeddb) with text from electronic health records (ehrs) to perform
+knowledge graph completion. we further demonstrate the ability of our model to
+predict relationships between tokens not appearing in the relational database.

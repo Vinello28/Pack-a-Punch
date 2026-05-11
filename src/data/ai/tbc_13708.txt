@@ -1,1 +1,1 @@
-Narrazione multimediale ed emozionale caratteristica della Virtual Reality e dell Augmented Reality applicandola all arte figurativa dei murales ed al patrimonio culturale presente a Sant Angelo
+Progetto di grasp planning nel settore finanza basato su Computer Vision e Object Detection (YOLO/R-CNN). Il sistema analizza dataset annotati di oltre 1 milione di esempi per ottimizzare i processi operativi. L'infrastruttura prevede model registry e versioning. Il finanziamento copre sviluppo software, acquisizione dati e deployment in produzione.

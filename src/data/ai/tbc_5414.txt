@@ -1,1 +1,1 @@
-PASSAGE processo innovativo per l utilizzo dell Intelligenza Artificiale nella valutazione dello stato di pavimentazioni stradali
+Feasibility study and prototype development of JEDI, an AI ecosystem for journalism. Objectives: analyze specialized LLMs, validate pre-training techniques, and create an innovative AI platform for digital publishing.

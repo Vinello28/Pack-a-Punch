@@ -1,1 +1,6 @@
-Engineering Design and Optimization  - progettazione ed ottimizzazione di componenti di macchine avvalendosi sia dei metodi della meccanica e della fluidodinamica computazionale  sia dellâ€™approccio ingegneristico tradizionale alle operazioni di dimensionamento e verifica
+Il presente intervento consiste nell’acquisizione di servizi di consulenza finalizzati attività allo
+sviluppo di un software basato su di un algoritmo di rintracciamento di bambini in età da ciuccio in
+ambienti chiusi. Il ciuccio sarà dotato di un dispositivo RFID di localizzazione e dovrà essere
+rilevato entro la distanza massima possibile da uno Smartphone di uso comune tramite tecnologia
+BTLE. La creazione di tale sistema sarà una prima fase di fattibilità per l’integrazione dell’algoritmo
+all’interno di sistemi IoT esistenti.

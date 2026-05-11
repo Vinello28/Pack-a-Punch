@@ -1,1 +1,11 @@
-erogazione di servizi tecnologici avanzati ed innovativi finalizzati a consulenza e formazione sull'utilizzo di intelligenza artificiale nei porcessi aziendali
+L'intervento di digitalizzazione mira a trasformare Pingvin in un’azienda moderna e interconnessa, capace di operare in modo più efficiente, sostenibile e orientato al cliente. Il progetto non si limita alla semplice automazione dei processi, ma punta a creare un ecosistema digitale integrato che connette la supply chain, i clienti e i fornitori in un sistema collaborativo e trasparente.
+
+La "Digitalizzazione Integrata" prevede:
+
+Integrazione dei Dati della Supply Chain: Collegare i dati provenienti dai fornitori e dai partner logistici con i sistemi interni di gestione, garantendo visibilità in tempo reale su scorte e ordini per migliorare l'efficienza operativa.
+E-commerce B2B e B2C: Offrire ai clienti e agli agenti un portale intuitivo e aggiornato, con accesso alle informazioni su ordini, prodotti e disponibilità, oltre a un nuovo canale B2C che permette a Pingvin di raggiungere direttamente il cliente finale.
+Intelligenza Artificiale per Ottimizzazione delle Scorte: Prevedere la domanda con modelli di AI per una gestione più precisa dell’inventario.
+La parte "Sostenibile" dell'intervento include:
+
+Pre-analisi e Monitoraggio ESG: Identificare e monitorare le metriche di sostenibilità della supply chain, con un tracciamento continuo delle emissioni e dei consumi.
+Community con

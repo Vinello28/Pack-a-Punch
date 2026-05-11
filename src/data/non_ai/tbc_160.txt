@@ -1,0 +1,8 @@
+Il soggetto richiedente LANCIA SERVIZI SANITARI S.R.L. al fine di favorire la digitalizzazione dei processi aziendali e l'ammodernamento tecnologico della propria impresa intende; secondo il DM 23 settembre 2014 art. 2 comm. 2 lettera a) Migliorare l efficienza aziendale, lettera b) Modernizzare l organizzazione del lavoro, dotarsi di un sistema informativo integrato. 
+Il sistema così realizzato ha la caratteristica di gestire le informazioni prodotte durante i processi aziendali: raccolta dati, condivisione, elaborazione, archiviazione. Ogni postazione di lavoro sarà dotata in aggiunta di connettività a banda larga. Lo scopo del sistema informativo è quello dunque di produrre e distribuire dati per ottenere la massima razionalizzazione dei processi operativi, con aumentate performance aziendali, verrà effettuato inoltre un corso di formazione ICT. La componente IOT ne permetterà l analisi e l archiviazione in-cloud e la Remote Management.
+I procedimenti sopra descritti sono finalizzati ad adempiere con efficacia ed efficienza alle necessità informative interne ed esterne del richiedente in termini di: 
+1) gestione dei dati aziendali;
+2) tempestività di interrogazione;
+3) minor utilizzo di risorse;
+4) accesso anche da remoto;
+5) affidabilità dell¿informazione gestita.

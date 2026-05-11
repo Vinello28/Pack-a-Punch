@@ -1,1 +1,1 @@
-IL PROGETTO PREVEDE UNA PRIMA FASE DI ANALISI DEL CONTESTO COMPETITIVO DELL'AZIENDA DEL SUO POSIZIONAMENTO ON LINE. SUCCESSIVAMENTE SI PROVVEDERA' AD EFFETTUARE ED APPLICARE TUTTE LE STRATEGIE CON LA REALIZZAZIONE DI APPLICAZIONI E SERVIZI WEB.
+indstallazion di un server e di un nas con relativa rete local e i suoi client,  che permetta un flusso di lavoro più organizzato (es. preventivazione , programma di contabilità condiviso, ecc..) e di conseguenza più veloce e allo stesso tempo ci permetta di conservare e condividere i file in maniera ottimale.

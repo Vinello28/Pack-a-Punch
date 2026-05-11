@@ -1,1 +1,1 @@
-Sviluppo di soluzioni volte all ottimizzazione di processi produttivi e all introduzione della manutenzione predittiv tramite l uso di IoT big data e Analytics / Machine Learning.
+Creazione di un motore di AI per question answering basato su Transfer Learning e fine-tuning di modelli pre-addestrati dedicato al settore trasporti. L'addestramento sfrutta point cloud da sensori LiDAR con tecniche di data augmentation. L'infrastruttura include mixed precision training (FP16/BF16) per training e inferenza.

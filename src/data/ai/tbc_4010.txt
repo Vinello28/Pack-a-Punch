@@ -1,1 +1,6 @@
-M.I.A. Fashion (Models and Solution for Artificial Intelligence in the Luxury Fashion sector)
+Questo progetto, quindi, abiliterà non solo il cambio di paradigma di gestione del service ma
+permetterà la creazione di nuove opportunità (grazie alla scoperta di pattern nascosti e non identificabili
+manualmente) che l’intelligenza artificiale potrà suggerire automaticamente durante il futuro
+utilizzo. Il risultato sarà un elettrodomestico SMART ottimizzato nelle performance (nell’ambiente di
+funzionamento), con accresciuta durabilità, più competitivo nel costo, con nuovi e remunerativi servizi
+da offrire alla clientela e con minori emissioni inquinanti a vantaggio dell’ambiente.

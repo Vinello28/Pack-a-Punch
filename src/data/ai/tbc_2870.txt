@@ -1,0 +1,2 @@
+Il progetto ha come obiettivo Automazione aumentata dall'intelligenza artificiale per un DevOps efficiente: un
+framework basato su modelli per lo sviluppo continuo a run-time nei sistemi cyber-fisici

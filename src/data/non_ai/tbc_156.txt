@@ -1,0 +1,1 @@
+La tecnologia dello scanner Swing permette di realizzare qualsiasi protesi acquisendo immagini 3D da telecamere intraorali, con il risultato di tramutare i modelli solidi in modelli virtuali.

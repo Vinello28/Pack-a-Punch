@@ -1,0 +1,2 @@
+sistema di videosorveglianza gestito in aree interne ed esterna all azienda (ingressi e parcheggi) con sistma di riconoscimento dei volti, gestione degli ingressi, conteggio passaggi pedonali, controllo aree avanzato.
+Sistema connesso con il sito web aziendale per il monitoraggio e la sicurezza.

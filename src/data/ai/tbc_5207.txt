@@ -1,1 +1,13 @@
-OmniEnergy sviluppa prodotti di intelligenza artificiale per aumentare drasticamente l efficienza della produzione e del mercato dell energia
+Gammatom è una piccola impresa che fornisce servizi di sanificazione di prodotti per diversi ambiti (medicale,
+cosmetica, alimentare…).
+Il processo utilizza un impianto a raggi gamma, che opera con logiche discrete: peculiari per il settore, molto
+complesse e non ottimizzabili con strumenti disponibili sul mercato.
+Attualmente sono state riscontrate tre criticità principali:
+- La schedulazione dell’impianto è complessa, onerosa e prona a errori
+- Le commesse non vengono trattate tramite un flusso strutturato, causando gap di informazioni
+- I flussi intralogistici conseguenti sono inefficienti
+Il progetto si focalizza sull’ottimizzazione della schedulazione dell’impianto chiave dell’azienda, sviluppandosi in tre
+fasi:
+- riprogettazione e implementazione dei processi di gestione ordini [WP1 e 2]
+- creazione di un simulatore di scenari di schedulazione, con conseguente ottimizzazione tramite AI [WP3 e 4]
+- successiva ottimizzazione dei flussi operativi intralogistici [WP5]

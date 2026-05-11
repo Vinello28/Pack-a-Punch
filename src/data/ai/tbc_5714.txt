@@ -1,1 +1,5 @@
-lite - Nuovo Orizzonte una webserie di genere sci-fi di 6 episodi da 15 minuti ciascuno ambientata in un futuro prossimo nel territorio marchigiano. lite Nuovo Orizzonte parla di una societ in declino sia dal punto di vista spirituale che umano dove le emozioni sono azzerate e la tecnologia fondata sull Intelligenza Artificiale - tema oggi molto discusso - ha preso definitivamente il sopravvento in tutte le azioni del quotidiano. La webserie ipotizza un evoluzione della nostra vita proiettata fra 30 anni ma gi molto vicina a noi.
+Analisi dei dati estratti dalla piattaforma per interpretare e correlare le variabili con le
+metriche di interesse mediante tecniche innovative.
+Studio di fattibilità e test di un modello LLM out-of-the-shelf per la possibile
+implementazione di un sistema in grado di interrogare i dati estratti dalla piattaforma
+proprietaria di Komete.

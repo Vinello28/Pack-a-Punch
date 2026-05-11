@@ -1,0 +1,5 @@
+- inteligens GP6 PWM 
+- ekofriend 30
+- kit converter eternet 48s ICTP
+-  software apposito
+- sistemi di controllo

@@ -1,1 +1,1 @@
-Il progetto prevede la costituzione di una infrastruttura per lo sfruttamento del telelavoro a favore di amministratori e dipendenti dell'impresa  mediante acquisizione di hardware e software di ultima generazione che siano in grado di sostenere le velocitÃ  ed il carico di lavoro necessari per il raggiungimento del fine preposto. Faranno parte del progetto gli strumenti per lÂ¿utilizzo di teleconferenze.
+Realizzazione di un processo di taglio o supporto operativo con un cobot collaborativo

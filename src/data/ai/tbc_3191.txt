@@ -1,1 +1,2 @@
-Implementazione del modello di IA analizzato all'interno dell'applicazione in forma di un prototipo in grado di elaborare le informazioni del sistema
+Il progetto ha come obiettivo Automazione aumentata dall'intelligenza artificiale per un DevOps efficiente: un
+framework basato su modelli per lo sviluppo continuo a run-time nei sistemi cyber-fisici.;

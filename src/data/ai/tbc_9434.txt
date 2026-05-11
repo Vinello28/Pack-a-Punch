@@ -1,16 +1,1 @@
-recently, supervised hashing methods have attracted much attention since they
-can optimize retrieval speed and storage cost while preserving semantic
-information. because hashing codes learning is np-hard, many methods resort to
-some form of relaxation technique. but the performance of these methods can
-easily deteriorate due to the relaxation. luckily, many supervised hashing
-formulations can be viewed as energy functions, hence solving hashing codes is
-equivalent to learning marginals in the corresponding conditional random field
-(crf). by minimizing the kl divergence between a fully factorized distribution
-and the gibbs distribution of this crf, a set of consistency equations can be
-obtained, but updating them in parallel may not yield a local optimum since the
-variational lower bound is not guaranteed to increase. in this paper, we use a
-linear approximation of the sigmoid function to convert these consistency
-equations to linear systems, which have a closed-form solution. by applying
-this novel technique to two classical hashing formulations ksh and splh, we
-obtain two new methods called em (energy minimizing based)-ksh and em-splh.
-experimental results on three datasets show the superiority of our methods.
+Realizzazione di un sistema di Machine Learning per protein folding nel contesto ambiente. La soluzione utilizza Self-Supervised Learning (SSL) per analizzare video ad alta definizione 4K/8K in tempo reale. L'infrastruttura tecnologica prevede pipeline MLOps con CI/CD automatizzato per garantire alte performance.

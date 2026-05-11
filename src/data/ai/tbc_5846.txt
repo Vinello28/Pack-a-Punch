@@ -1,0 +1,8 @@
+I silenziatori per motocicli, composti da materiali metallici, devono superare rigorosi controlli qualitativi per
+garantirne conformità estetica e funzionale. Un progetto di Lafranconi, sviluppato con MADE e il Politecnico di
+Milano, ha portato alla creazione di un sistema basato su visione artificiale e algoritmi di ML/AI per l’identificazione
+automatica dei difetti su superfici cromate lucide. Tuttavia, con l’ampliamento del mix produttivo, sono state
+introdotte nuove finiture (cromate scure, spazzolate e sabbiate), rendendo necessaria l’evoluzione del sistema. Questo
+progetto mira a rendere algoritmi e illuminazione adattabili a tutte le finiture, migliorando affidabilità e robustezza
+del controllo qualità. Inoltre, il Politecnico condurrà uno scouting per individuare un integratore terzo,
+industrializzare il prototipo e sviluppare un sistema robotico per la movimentazione della telecamera.

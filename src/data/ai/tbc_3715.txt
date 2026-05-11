@@ -1,0 +1,14 @@
+La proposta di ricerca è unica ma si sviluppa su due attività distinte: l’efficientamento 
+dell’attività di scarico, gestione e rappresentazione dei dati di custodia titoli provenienti dalle 
+banche e il miglioramento del cd Direct Indexing, un sistema di Wealth Allocation evoluto e 
+customizzato sul cliente finale. 
+In un mondo dove i dati e le informazioni aumentano in modo frammentato e disomogeneo
+la capacità di renderli fruibili e utilizzarli per offrire dei servizi a valore aggiunto è l’obiettivo 
+dell’industria nella quale opera Earnext. Tuttavia, il raggiungimento di questo obiettivo
+richiede tempo, sforzi e competenze specifiche che in alcuni casi non sono compatibili con 
+le capacità di R&D e la reattività degli operatori di settore.
+Il progetto prevede il miglioramento delle due attività menzionate attraverso l’uso di 
+metodologie nel perimetro di: Big Data, Data Lake, Machine Learning (anche NLP), 
+Performance Computing, Processi Stocastici e usabilità (UX). Attraverso il progetto Earnext 
+otterrà una maggiore efficienza nella gestione e rappresentazione dei dati che porterà ad una 
+maggiore scalabilità e competitività dell’iniziativa nel suo mercato di riferimento.

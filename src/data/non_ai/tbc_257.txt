@@ -1,1 +1,5 @@
-Smart Ambient Monitoring enabled by Public Transportation Systems
+Il progetto mira ad aumentare la efficienza aziendale nella produzione di siti web per effetto dell impiego di
+ un WCMS proprietario (oggetto dell investimento) e ad implementare un sito di e-commerce dedicato alla vendita on line di servizi internet tra i quali: Siti Web, hosting, posta elettronica, massive mailing, SEO,etc.
+In particolare si prevede:
+La realizzazione di un WCMS (Web Content Management System) per la creazione e gestione efficiente di siti istituzionali, portali e siti di e-commerce per la propria clientela. In particolare il WCMS dovrà consentire la creazione di siti web per i quali dovrà essere possibile la pubblicazione e gestione di contenuti testuali, link, immagini, video e in generale materiale scaricabile. Inoltre dovrà essere possibile la gestione multi utente e multi gruppo e la gestione, dall area riservata di ciascun sito web realizzato con il WCMS, di campagne promozionali via massive email e via sms sfruttando un unica origine di dati.
+La realizzazione di un sito di e-commerce per la vendita on line dei servizi web offerti alla clientela. Consulenza per la ottimizzazione del sito e per il posizionamento nelle prime pagine dei principali motori di ricerca e consulenza per la impostazione di campagne pubblicitarie a mezzo web.

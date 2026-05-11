@@ -1,1 +1,12 @@
-Mandelli Sistemi SpA azienda leader nella realizzazione di centri di lavoro orizzontali per la lavorazione di materiali difficult to cut per il settore aerospace intende studiare e sviluppare soluzioni innovative di augmented reality (AR) con l obiettivo di migliorare i processi di progettazione produzione manutenzione ed assistenza post-vendita. L obiettivo di realizzare soluzioni avanzate con l utilizzo di tecnologie allo stato dell arte del settore che permettano di migliorare l efficienza dei processi e la qualit dei servizi offerti. In particolare il progetto verter sui seguenti 4 aspetti/tematiche: SELLERS utilizzo di animazioni 3D e AR per migliorare l esperienza di vendita con possibilit di osservare alcune parti peculiari della macchina che nella realt fisica non sono visibili (parti interne) PRODUCT DESIGN utilizzo di oggetti 3D proiettati nell ambiente e animazione 3D dinamica con integrazione di informazioni IoT provenienti dal parco macchine installate sul campo per valutare gli aspetti critici prima della prototipazione ASSEMBLAGGIO/ADDESTRAMENTO CLIENTE/ASSISTENZA TECNICA uso di tecnologie AR per migliorare ii processi di assemblaggio in particolare dei gruppi complessi di addestramento del cliente e di assistenza tecnica.
+L'obiettivo del progetto Blood Innovative Logistic, Government
+and AI system (BILGAI nel prosieguo) è sviluppare una
+piattaforma innovativa per il governo territoriale della raccolta
+e della logistica degli emocomponenti, integrata con un
+sistema previsionale di ultima generazione. Sviluppata in
+cooperazione da un partenariato di di due aziende, una startup,
+e un organismo di ricerca tutti lombardi, la piattaforma BILGAI
+ambisce a diventare il prodotto di riferimento nel settore,
+sia a livello nazionale che internazionale, completando con
+nuove funzionalità i servizi base dei sistemi di gestione di
+centri territoriali su scala regionale e nazionale (es. il Centro
+Trasfusionale Regionale Lombardia).

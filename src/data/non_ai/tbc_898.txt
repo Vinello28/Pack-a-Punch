@@ -1,0 +1,4 @@
+Il progetto prevede la revisione e creazione dell'attuale sito internet con creazione di un sito collegato rivolto escusivamente alla gestione dell'attività di vendita di beni e servizi on line. Tale progetto prevede :
+1) adeguamento delle strutture informatiche: adozione dellabanda larga, acquisizione di un server e di due postazioni operatore ( pc )
+2) razionalizzazione attività assistenza mediante adozione di app  e relativi device
+3) formazion e degli operatori su qunto sopra mediante tutoraggio sia in tetrmini di gestione delle nuove piattaforme sia in termini di learnig operativo con follow up di sei mesi a garanzia di raggiungimento di risultati previsti

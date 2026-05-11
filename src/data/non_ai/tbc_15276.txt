@@ -1,1 +1,1 @@
-Implementazione di un sistema informatico e informativo per lÂ¿accesso alla piattaforma hardware e software dallÂ¿esterno della sede aziendale attraverso il collegamento internet per lÂ¿automatizzazione di processi di contabilizzazione dei servizi erogati presso la clientela e il controllo dello stato manutentivo degli impianti gestiti con lÂ¿immissione di rapporti di rendicontazione
+Sistema di produzione adattiva per la creazione e produzione interattiva tailor made di serramenti arredi

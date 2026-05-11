@@ -1,0 +1,4 @@
+Il progetto intende sfruttare i Large Language Models, affiancandoli alla
+capacità dell’AI generativa di interagire con fonti dati non strutturate, per
+supportare gli enti accademici nei compiti della Terza Missione per la
+diffusione del sapere.

@@ -1,0 +1,4 @@
+L'azienda intende sviluppare il proprio sito web attraverso cui fornire servire servizi di e-learnig per i quali è necessaria l'integraazione con l'e-commerce. Attraverso il sito verranno commercializzati i corsi ed i servizi già forniti dall'azienda (es. corsi di lingue, corsi di lingua e cultura italiana per stranieri, traduzioni ed interpretariati). All'uopo necessita hardware e software per la realizzazione di video in streaming, allestimento di postazione per formazione a distanza e l'accesso alla connettività alla banda larga.
+Si intende inoltre attivare on-site un server/nas per la condvisione e consultazione del materiale didattico ed aziendale anche in mobilità.
+Saranno anche acquisite le consulenze rivolte all'ottimizzazione del progetto proposto con formazione necessaria per l'implementazione delle tecnologie adottate.
+La formazione verrà noltre estesa al personale che la ditta intende assumere.

@@ -1,1 +1,1 @@
-Il progetto InfoAICert mira a creare una piattaforma italiana per la valutazione della conformit dei sistemi di IA ad alto rischio sfruttando l'expertise di Fabio Roli sulla sicurezza dell IA e la reputazione di InfoCert come fornitore di servizi di fiducia. Questo progetto intende avanzare la ricerca scientifica sviluppando algoritmi per valutare la sicurezza di questi sistemi.
+App realt aumentata geolocalizzazione e intelligenza artificiale.

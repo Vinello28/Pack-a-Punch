@@ -1,1 +1,1 @@
-Formazione < 24h: Metodologia Da Agile a DevOps Corso di Base- AI Generativa Corso Avanzato - AI Generativa
+L'assistenza sanitaria si trova ad affrontare un'ondata di dati medici sparsi complicata dai requisiti di privacy del GDPR. Il progetto propone il Federated Machine Learning per mantenere la riservatezza dei dati e migliorare al contempo le conoscenze cliniche. L'obiettivo semplificare l'uso di FL migliorare le prestazioni degli algoritmi e promuovere il supporto della comunit .

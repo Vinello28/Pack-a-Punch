@@ -1,1 +1,11 @@
-MIGLIORARE L'EFFICIENZA DELL'IMPRESA SOTTO IL PROFILO TECNOLOGICO  INCREMENTANDO LA VISIBILITA' E ALLARGANDO IL MERCATO  SVILUPPANDO UN MIGLIORAMENTO DEGLI AMBIENTI DI LAVORO
+L'investimento è orientato alla realizzazioen di un gestionale web based utile per controllare rapidamente clienti, agenti, fornitori, polizze, alert, pagamenti e reportistiche.
+L'investimento permette una digitalizzazioen dei processi.
+Le attività realizzate saranno:
+* realizzazioen di un albero di navigazione completo del gestionale
+* realizzazione di una UX Design con indicazione delle funzionalità
+* realizzazione UI Design con esempi in formato grafico
+* configurazione della piattaforma per la gestione autonoma dei contenuti
+* configurazione multiutente
+* editing pagina PHP/HTML
+* Debug, testing e messa online
+* Lay out del gestionale responsive per visualizzazione da smartphone/tablet

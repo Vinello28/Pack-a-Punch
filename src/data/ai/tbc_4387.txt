@@ -1,1 +1,4 @@
-In vista di prossima assunzione la Swide Srls ha deciso di formare il suo personale interno con un consulente specializzato su software specifici crm e formazione nell'ambito della realt virtuale/realt aumentata. Lo scopo di tale progetto che richiede una figura con un background informatico ma anche psicologico nel settore della comunicazione quello di riuscire ad individuare anche gli effetti della realt virtuale sul comportamento umano e sulla psiche.
+Il progetto di DaDo si basa sull'uso combinato di Realtà Virtuale e Mista, integrato con Intelligenza
+Artificiale, Analisi Dati e supportato da tecnologie di rete avanzate come il 5G/6G. L'obiettivo è
+sviluppare percorsi culturali ed educativi in XR personalizzati per musei, scuole, enti turistici,
+comuni e imprese del settore culturale e creativo.

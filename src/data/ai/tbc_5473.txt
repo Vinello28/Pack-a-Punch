@@ -1,1 +1,11 @@
-Il progetto presentato da Fasthink intende proprio fornire una soluzione ad alcuni problemi emersi e riscontrati all interno dei contesti industriali dove spesso accade che esistano gap incolmabili e finora non colmati tra le tecnologie e dispositivi di campo (OT) e i sistemi informatici in uso in azienda (IT) attraverso il ricorso all Iot e all Intelligenza Artificiale. La convergenza tra ambienti IT e OT uno dei fulcri principali su cui si basa l Industria 4.0: tradizionalmente infatti questi due scenari industriali sono stati gestiti e trattati separatamente. Pi di recente invece emersa la consapevolezza dei vantaggi di ridurre questo gap esistente avvicinando i due ambienti anche se si rivela essere una soluzione piuttosto sfidante.
+L’intervento attuativo punta a migliorare sicurezza, automazione, e performance aziendali, con un focus su cybersecurity, intelligenza artificiale (IA), e realtà aumentata (AR).
+
+Obiettivi dell'Intervento
+Cybersecurity: L’obiettivo è proteggere i dati aziendali tramite firewall avanzati, sistemi di prevenzione delle intrusioni (IPS) e crittografia end-to-end. I KPI associati includono la riduzione del 95% delle vulnerabilità informatiche e il miglioramento dei tempi di rilevamento delle minacce entro i primi mesi.
+
+Automazione tramite AI: L’uso di chatbot AI permetterà di automatizzare l’assistenza clienti, migliorando la velocità di risposta e ottimizzando il processo di vendita. Tra gli obiettivi specifici, aumentare del 25% la velocità di risposta ai clienti e incrementare il tasso di conversione dei lead.
+
+Realtà Aumentata per le Vendite: La piattaforma AR consentirà ai clienti di visualizzare i prodotti in modo interattivo, riducendo i tempi di chiusura delle trattative e aumentando l'engagement. L’obiettivo è raddoppiare il tasso di conversione e ridurre il tempo di dimostrazione dei prodotti in showroom.
+
+Soluzioni Tecnologiche
+Cybersecurity Avanzata: Implementazione di firewall, IPS, crittografia e strumenti di monitoraggio basati su AI per una protezione proattiva e scal

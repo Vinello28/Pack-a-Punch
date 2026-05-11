@@ -1,1 +1,0 @@
-Il prodotto una mano robotica collaborativa che sar installata sui robot collaborativi (cobots) come sistema di presa e manipolazione tendente a replicare il movimento umano

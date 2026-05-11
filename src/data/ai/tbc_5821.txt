@@ -1,1 +1,17 @@
-Il dirigente desidera partecipare a un'iniziativa che tratta il tema dell'intelligenza artificiale e un'iniziativa dell'insight discovery utile a scoprire le proprie potenzialit
+4s Intende perseguire i seguenti obiettivi:
+Integrazione dei Dati Aziendali
+Obiettivo: Automatizzare l'integrazione degli ordini dei clienti con il gestionale entro 6 mesi. 
+Automazione dei Processi di Produzione
+Obiettivo: Automatizzare il 30% delle fasi di gestione delle commesse entro 12 mesi, utilizzando un software AI.
+ Miglioramento della Cybersecurity
+Obiettivo: Implementare un sistema di sicurezza conforme a ISO 27001 entro 9 mesi.
+Reskilling/Upskilling del Personale
+Obiettivo: Formare tutto il personale all’uso del nuovo ERP e BI entro 12 mesi.
+ Schedulazione Dinamica della Produzione
+Obiettivo: Implementare un sistema di schedulazione dinamica basato su AI entro 9 mesi.
+
+Indicatori di Sviluppo Digitale
+Efficienza Operativa: Incremento del 15% nella produzione entro 12 mesi.
+Trasparenza nei Processi: Accesso in tempo reale ai dati di produzione, con un miglioramento del 20% nei report.
+ROI: Recupero del 40% dei costi entro 18 mesi.
+Implementando questi obiettivi, 4S Carpenteria potrà migliorare significativamente la propria efficienza e competitività.

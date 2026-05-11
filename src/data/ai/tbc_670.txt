@@ -1,1 +1,12 @@
-Il progetto mira a raggiungere tre obiettivi principali: ridurre il tempo di redazione delle relazioni dell'80% ridurre gli errori nelle trascrizioni manuali dello stesso 80% e migliorare l'efficienza operativa tramite una gestione automatizzata dei dati raccolti. Attualmente la redazione delle relazioni tecniche rappresenta una fase dispendiosa in termini di tempo per gli operatori che sono costretti a trascrivere manualmente le informazioni raccolte durante gli interventi. Attraverso l'uso dell'intelligenza artificiale e in particolare di GPT-4 il sistema consentir di automatizzare la trascrizione delle note vocali e la generazione dei report. Questo porter a una drastica riduzione del tempo dedicato a queste attivit liberando risorse preziose che potranno essere impiegate in altri compiti tecnici e produttivi. Si prevede che questa automazione riduca del 80% il tempo necessario per completare le relazioni migliorando la produttivit complessiva dell'officina. Allo stesso tempo la trascrizione manuale soggetta a errori specialmente quando gli operatori devono digitare rapidamente o ricordare dettagli tecnici complessi. Gli errori possono compromettere la qualit delle relazioni e rendere pi difficoltosa la tracciabilit delle operazioni svolte. Grazie all'accurat
+Implementazione servizi informatizzati
+
+1. Implementazione CHATBOT per agevolazione vendita servizi e-commerce
+2. Implementazione WEBTV per diffusione informativa e pubblicitaria su tv a circuito chiuso interne
+3. Implementazione software biometrico HEARTRATE
+4. Implementazione firma GRAFOMETRICA
+
+
+Implementazione hardware
+1.	Acquisto di hardware aggiornato a supporto dello sviluppo software 
+2.	Acquisto tavolette grafometriche
+3.	Acquisto monitor per visualizzazione dati biometrici

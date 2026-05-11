@@ -1,0 +1,6 @@
+Il progetto consiste nell'acquisto di:
+- n° 1 workstation DELL 5810, processore Xeon Six-Core E5-1650V4 3.6 Ghz 15 Mb cache 32 Gb memoria ramm SSD 256 Gb, Windows 10 pro 64 bit Scheda Video Nvidia Quadro M2000 4 Gb GDDR5
+- n° 3 workstation HP Z440, processore Xeon  QuadCore E5-1620V4 3.5 Ghz 10 Mb cache 32 Gb memoria ramm SSD 256 Gb, Windows 10 pro 64 bit Scheda Video Nvidia Quadro M2000 4 Gb GDDR5
+- n° 1 Multifunzione HP Laserjet Enterprise MFP M775DN formato A3 Stampa - scansione - copia, velocità stampa fino a 30 ppm mono e colori velocità copia fino a 30 ppm, stampa e copia f/r- Cassetto carta 350 fogli + 100 bypass, funzione e-print
+- n° 1 Firewall Fortigate 50 E per fascia lineare Telecom e linea Eolo Internet 
+Tale intervento di rinnovamento della strumentazione informatica consentirà maggiore efficienza nel settore amministrativo e gestionale.

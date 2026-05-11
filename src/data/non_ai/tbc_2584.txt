@@ -1,0 +1,1 @@
+Il progetto mirava a virtualizzare nel cloud diversi processi di postproduzione garantendo inoltre l

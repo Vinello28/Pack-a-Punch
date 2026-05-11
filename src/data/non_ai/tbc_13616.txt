@@ -1,1 +1,1 @@
-acquisto sistema di stampa a base acqua mediante tecnologia Latex  al fine di accelerare e migliorare la produttivitÃ
+Implementazione ed aggiornamento dell'infrastruttura di connessione rete dati per il collegamento in banda larga  servizi di remotizzazione ed acquisiszione documentale finalizzata alla dematerializzazione  con ammodernamento tecnologico delle aparecchiature hardware

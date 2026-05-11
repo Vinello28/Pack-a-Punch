@@ -1,1 +1,1 @@
-FamaLabs sta sviluppando YSI  un sistema basato su AI in grado di semplificare il processo di raccolta dati durante i clinical trials e di ottimizzare il monitoraggio dei pazienti coinvolti. Ysi Ã¨ il primo assistente vocale per la ricerca clinica
+Piattaforma tecnologica che consente il collegamento tra pazienti e professionisti sanitari, prevedendo in futuro l'attivazione di algoritmi di Advanced Analytics e Machine Learning oltre che l'integrazione con operatori terzi (SSN e ospedali).

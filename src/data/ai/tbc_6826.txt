@@ -1,1 +1,0 @@
-we present our response to task 5 of the social media mining for health applications (smm4h) 2022 competition. we share our approach into classifying whether a tweet in spanish about covid-19 symptoms pertain to themselves, others, or not at all. using a combination of bert based models, we were able to achieve results that were higher than the median result of the competition.

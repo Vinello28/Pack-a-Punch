@@ -1,1 +1,1 @@
-il progetto prevede la creazione di uno strumento software in grado di gestire i rapporti commerciali con i clienti e tenere traccia di tutte le attivitÃ  e delle opportunitÃ  di vendita. Contestualmente si vuole progettare una soluzione in grado di automatizzare alcuni flussi di lavoro come la programmazione degli spostamenti e delle visite ai clienti tramite la geolocalizzazione degli stessi.
+Il piano dal titolo [POST - Progetto Organizzazione e Sviluppo Tecnico] approvato con delibera del CdA di Fondolavoro del [04/02/2025]

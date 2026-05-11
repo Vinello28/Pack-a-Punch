@@ -1,0 +1,3 @@
+Il progetto RoboHome si propone di sviluppare e validare un prototipo di dispositivo robotico integrato 
+con un sistema di teleriabilitazione e tecnologie di realtà virtuale (VR) per ottimizzare il recupero 
+funzionale della mano nei pazienti post-ictus.

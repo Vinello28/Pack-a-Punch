@@ -1,1 +1,9 @@
-Soluzioni Avanzate per la Lotta contro le malattie delle piante con l'Utilizzo di tecnologie Spaziali
+Il progetto ha come fine il miglioramento dell'efficienza aziendale e prevede la fornitura di una infrastruttura tecnologica IT così composta: 1 server, 8 postazioni di lavoro, la suite gestionale nonchè i servizi di avviamento, assistenza tecnica, manutenzione, supporto specialistico formativo da parte dell'impresa affidataria.
+In sintesi:
+a) fornitura dell'apparecchiatura hardware e dei software
+b) prestazione dei servizi connessi.
+Per motivi di congruità funzionale al nuovo regolamento generale europeo sul trattamento dei dati, si rende necessario dotarsi anche di una piattaforma cloud e hardware (raid del server) di backup.
+Le scelte ipotizzate sono state effettuate in modo da bilanciare efficienza e performance e per garantire le funzionalità del deployment del telelavoro.
+L'infrastruttura in oggetto, composta tutta da elementi nuovi di fabbrica e con marchio CE,  risponde a requisiti in ambito di scalabilità, di ottimizzazione dei consumi e di affidabilità intesa come modernizzazione.
+Infine il software scelto è fornito testato ed originale.
+Per l'avvio operativo e la configurazione del progetto è previsto un'attività specialistica di training on the job aziendale.

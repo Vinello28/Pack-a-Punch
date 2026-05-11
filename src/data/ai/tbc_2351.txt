@@ -1,1 +1,4 @@
-FTCOOP_Necessit di sviluppare nuove competenze digitali in ambito IA per migliorare la produttivit personale e ottimizzare i processi aziendali
+Geico Taikisha è da oltre cinquant’anni leader a livello mondiale nella realizzazione e progettazione di impianti automatizzati chiavi in mano per la verniciatura delle scocche automobilistiche.
+Il progetto RPIV ha l’obiettivo di realizzare una soluzione innovativa per l'identificazione preventiva di problematiche di processo su linee di verniciatura grazie alla combinazione di più tecnologie 4.0 per creare un sistema di early warning che identifichi l’insorgenza di anomalie nel funzionamento di parti della linea.
+La soluzione combina strumenti robotizzati per l’identificazione dei difetti di verniciatura, piattaforme IoT, logiche di controllo statistico di processo e AI e dashboard di analisi avanzate al fine di individuare i guasti incipienti e avvisare anticipatamente gli operatori.
+Consente quindi di aumentare l’efficienza, la produttività e la sostenibilità degli impianti di verniciatura, garantendo un risparmio di materie prime, energia e una minor produzione di rifiuti.

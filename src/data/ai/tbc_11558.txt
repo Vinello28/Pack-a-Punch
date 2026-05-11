@@ -1,1 +1,2 @@
-Hiddenz una piattaforma digitale basata sull'intelligenza artificiale per il settore del turismo. Attraverso un agente conversazionale l utente pu costruire itinerari personalizzati scoprire eventi ristoranti cantine e borghi con prenotazione diretta in un unico passaggio. Dal lato B2B Hiddenz offre a operatori locali un modello in abbonamento per promuoversi e gestire i clienti in modo automatizzato.
+we demonstrate that it is feasible to diacritize hebrew script without any human-curated resources other than plain diacritized text. we present nakdimon, a two-layer character level lstm, that performs on par with much more complicated curation-dependent 
+ systems, across a diverse array of modern hebrew sources.

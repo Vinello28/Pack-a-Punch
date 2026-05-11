@@ -1,10 +1,1 @@
-we propose the margin adaptation for generative adversarial networks (magans)
-algorithm, a novel training procedure for gans to improve stability and
-performance by using an adaptive hinge loss function. we estimate the
-appropriate hinge loss margin with the expected energy of the target
-distribution, and derive principled criteria for when to update the margin. we
-prove that our method converges to its global optimum under certain
-assumptions. evaluated on the task of unsupervised image generation, the
-proposed training procedure is simple yet robust on a diverse set of data, and
-achieves qualitative and quantitative improvements compared to the
-state-of-the-art.
+Progetto di innovazione digitale per analisi video sorveglianza basato su Explainable AI (XAI) con SHAP/LIME nel contesto sicurezza. Il modello apprende da serie temporali storiche di 10+ anni utilizzando tecniche di curriculum learning. Il deployment sfrutta A/B testing framework per garantire affidabilità.

@@ -1,0 +1,1 @@
+Sviluppare, integrare, validare su un microgrid reale e rendere disponibili in un toolkit finale un insieme efficace di tecnologie abilitant per gestire e garantire la resilienza e l'affidabilità dei sistemi energetici

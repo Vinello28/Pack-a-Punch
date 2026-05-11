@@ -1,1 +1,13 @@
-Vision srl la holding di un gruppo di Centri Dentali denominati Clinica Dentale Santa Teresa presenti nelle citt principali dell Emilia Romagna (attualmente presenti a Rimini Casalecchio di reno Ravenna Cesena Faenza e di prossima apertura a Comacchio e a Ferrara) e di un laboratorio dentale (Laboratorio Dentale Santa Teresa). I soci fondatori sono da sempre stati appassionati di innovazione e di tecnologie per cui sentono il forte bisogno di innovare i processi interni e di far acquisire competenze professionali ai propri collaboratori (fra dipendenti e medici ad oggi sono circa 90) attraverso la formazione delle persone nei 7 ambiti aziendali individuati su cui effettuare l implementazione dell Intelligenza Artificiale. Il sistema di monitoraggio che verr impiegato il Software BaseCamp un SW per il project management. E una piattaforma che per ogni progetto prevede chi deve essere inserito una dashboard per approfondire i temi ritenuti importanti dal project leader una chat la possibilit di caricare file di supporto un flusso di stato di avanzamento dei lavoro il Gant. Grazie a questo strumento facile individuare Gap di competenze Gap di personale necessit di risorse tecnologiche.
+Il progetto AI4PCB, proposto da Univerlab SRL, mira allo
+sviluppo e alla validazione su scala pilota di una tecnologia
+innovativa per il trattamento avanzato dei rifiuti elettronici,
+con l’obiettivo di recuperare materie prime critiche (CRM)
+come neodimio, tantalio, oro, palladio, rame, argento e terre
+rare leggere da schede PCB. L’intervento si inserisce nel
+quadro della transizione verso un’economia circolare e della
+riduzione della dipendenza strategica dell’UE da fonti esterne,
+in linea con il Regolamento (UE) 2024/795 e il Programma
+Regionale di Gestione dei Rifiuti. La soluzione proposta integra
+robotica collaborativa, intelligenza artificiale e solvometallurgia
+avanzata, superando i limiti dei processi tradizionali basati
+su trattamenti manuali o distruttivi.

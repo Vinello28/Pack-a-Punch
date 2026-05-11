@@ -1,1 +1,1 @@
-ADELE - Advanced DEtection of suspicious skin LEsions based on artificial intelligence
+Servizi di Intelligenza Artificiale

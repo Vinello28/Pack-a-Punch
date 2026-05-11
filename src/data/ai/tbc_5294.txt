@@ -1,1 +1,3 @@
-Il progetto si propone di realizzare un?innovazione significativa nell?utilizzo di UAV dotati di un sistema integrato di sensori per l?individuazione delle aree inquinate marine principalmente da elementi plastici. Tutte le attivit di modello e previsione nonch l?integrazione di dati eterogenei provenienti da UAV e da satelliti saranno effettuate a partire dallo sviluppo di una piattaforma di IA progettata ad-hoc con le pi aggiornate tecnologie di apprendimento artificiale.
+Il progetto ha come obiettivo trasferire soluzioni machine learning (ML) e artificial
+intelligence (AI) nel manufacturing, mobility e robotics, per la collaborazione uomo-macchina e per rivelare le
+anomalie nell’industria digitalizzata

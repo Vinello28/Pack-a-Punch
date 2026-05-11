@@ -1,1 +1,38 @@
-Implementazione di un sistema di intelligenza artificiale per pose estimation utilizzando Deep Learning con reti neurali convoluzionali (CNN). Il progetto si rivolge al settore ambiente e processa Big Data provenienti da sensori IoT distribuiti. L'architettura tecnologica include edge computing con acceleratori TPU/NPU con capacità di scaling automatico.
+Creazione Ai per indicizzazione contenuti testuali sito con attivazione campi e gestione per valutazione manuale e automatica materiali più importanti
+Creazione Ai per interpretazione domande utenti per individuazione contenuti più inerenti nel sito
+Invio e ricezione da parte di OpenAI delle risposte (abbonamento OpenAI pagato direttamente da Cliente)
+Impostazione strutture grafiche per inserimento risposte e contenuti generali da Ai-nhoa sulla base delle informazioni indicizzate
+•
+“Responsive Layout” per visualizzazione Mobile
+•
+Linguaggi utilizzati: HTML5 – Javascript – PHP - MySQL
+•
+Inserimenti effetti Javascript - CSS3 (livello Bronze)
+•
+Ottimizzazione SEO Bronze:
+o
+URL Pagine SEO friendly (anche pagine aggiornabili)
+Creazione Site-map XML
+Generazione file Robots
+Utilizzo TAG semantici HTML5
+Specifiche pagine web con contenuti indicizzati per Ai-Nhoa Intelligenza artificiale:
+•
+1 lingua (Italiano)
+•
+“Responsive Layout” per visualizzazione Mobile
+•
+Linguaggi utilizzati: HTML5 – Javascript – PHP - MySQL
+•
+Inserimenti effetti Javascript - CSS3 (livello Bronze)
+•
+Inserimento Google Tag Manager e attivazione statistiche Google Analytics
+•
+Sito CMS MAGENTO-NW aggiornabile
+•
+Ottimizzazione SEO Bronze:
+•
+URL Pagine SEO friendly (anche pagine aggiornabili)
+•
+Creazione Site-map XML
+•
+G

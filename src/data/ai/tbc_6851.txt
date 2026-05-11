@@ -1,1 +1,9 @@
-Il progetto OSCAR (Order System Client Advanced Resource) rappresenta una svolta strategica nel percorso di digitalizzazione di Itarca S.p.A. azienda attiva dal 1969 nella distribuzione di prodotti alimentari per il settore HORECA. L obiettivo ottimizzare la gestione degli ordini attraverso un portale web avanzato integrato con l ERP aziendale riducendo gli interventi manuali migliorando la precisione e accelerando i tempi di elaborazione. Il sistema prevede anche l integrazione con WhatsApp per la raccolta automatica degli ordini offrendo ai clienti un esperienza semplice veloce e personalizzata. Grazie all intelligenza artificiale il progetto introduce un assistente virtuale per supportare la rete vendita nell analisi dei comportamenti d acquisto migliorando il cross-selling e la fidelizzazione. L automazione dei processi interni e la digitalizzazione della logistica porteranno a un sensibile aumento dell efficienza operativa e alla riduzione dei costi. Il progetto contribuisce anche alla sostenibilit ambientale tramite la dematerializzazione documentale e l ottimizzazione delle consegne. OSCAR si inserisce in una strategia aziendale pi ampia orientata all innovazione all efficienza e allo sviluppo digitale.
+we study the structure of representations, defined as approximations of
+minimal sufficient statistics that are maximal invariants to nuisance factors,
+for visual data subject to scaling and occlusion of line-of-sight. we derive
+analytical expressions for such representations and show that, under certain
+restrictive assumptions, they are related to features commonly in use in the
+computer vision community. this link highlights the condition tacitly assumed
+by these descriptors, and also suggests ways to improve and generalize them.
+this new interpretation draws connections to the classical theories of
+sampling, hypothesis testing and group invariance.

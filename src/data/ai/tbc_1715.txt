@@ -1,1 +1,7 @@
-we present a clock-driven spiking neural network simulator which is up to 3x faster than the state of the art while, at the same time, being more general and requiring less programming effort on both the user's and maintainer's side. this is made possible by designing our pipeline around "work queues" which act as interfaces between stages and greatly reduce implementation complexity. we evaluate our work using three well-established snn models on a series of benchmarks.
+Un motore AI viene utilizzato per analizzare grandi moli di dati raccolte da dispositivi indossabili e IoT.
+Tutti questi dati sono correlati tra loro e, nel nostro caso, vengono utilizzati per creare l'avatar dell'utente.
+La qualità e la quantità di questi dati ci portano, nel tempo, a istruire il nostro motore di intelligenza artificiale a offrire un servizio dedicato per ogni utente.
+Nessuno è uguale agli altri e la personalizzazione del profilo porta ad avere un avatar digitale costruito sui propri dati biometrici.
+Il motore AI può calcolare automaticamente la soglia di allarme in base alle serie temporali dei dati dell'utente.
+Il motore adatta le soglie degli allarmi cardiaci per ogni singola persona, questo dopo aver raccolto una certa quantità di dati. Infatti, negli algoritmi AI il numero di dati raccolti e la loro qualità sono due fattori fondamentali per ottenere previsioni realistiche e accettabili. Ogni persona può quindi dare il proprio feedback: su richiesta dall'app o in caso di allarme, su domande specifiche dell'operatore.Il feedback ci consentirà di istruire meglio il motore AI.
+Monitoreremo anche le piccole differenze tra una persona e l'altra, ciò può fare la differenza per evitare falsi allarmi.

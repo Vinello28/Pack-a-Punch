@@ -1,1 +1,4 @@
-Il progetto CAMPANIA VR EXPERIENCE la prima Tourist Digital Platform in grado di offrire prodotti turistici esperienziali in modalit immersiva degli attrattori culturali minori della Campania. Particolarit della piattaforma offerta dalla modalit di commercializzazione del prodotto turistico prevedendone la vendita nella formula del cofanetto regalo. Il cofanetto brevettato e prodotto da Vr Tourism quando aperto si trasforma in modalit pop up in un vero e proprio visore per la realt virtuale. Grazie a questo visore dunque possibile per il turista-cliente una volta acquistato il prodotto turistico inserire il proprio smartphone all interno e visualizzare in modalit VR l offerta turistica presente in piattaforma
+Bitcorp ha sviluppato un Intrusion Detection Prevention System (IDPS)
+dotato di un impianto di intelligenza artificiale (Machine Learning – ML) capace di monitorare
+reti del tipo Local Area Network (LAN) che Metropolitan Area Network (MAN) e Wide Area
+Network (WAN), ovvero rilevare potenziali minacce cyber sia dall’esterno che dall’interno della infrastruttura monitorata.

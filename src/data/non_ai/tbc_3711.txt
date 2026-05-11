@@ -1,1 +1,6 @@
-PROGRAMMI PER LA FATTURAZIONE ELETTRONICA DI SOGGETTI TERZI AI FINI DI ADEGUARSI ALL'EVOLUZIONE NORMATIVA E DIGITALE DELL'IMPRESA
+Gli obiettivi del progetto  sono:
+¿ Promuovere la mobilità attiva collegandosi a iniziative per il rilascio di incentivi al bike to work;
+¿ Offrire agli utenti una tecnologia innovativa per ottimizzare l’esperienza e contrastare il furto del
+mezzo;
+¿ Supportare PA e aziende in ottica smart city, con un portale per pianificare traffico e spazio
+urbano tramite IA

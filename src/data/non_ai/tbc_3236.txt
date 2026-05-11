@@ -1,1 +1,1 @@
-RESILIENT svilupperÃ  un tool per la pianificazione resiliente multi-settoriale del sistema energetico europeo  condizionato a scenari futuri di domanda settoriale (elettrico  industriale ecc). RESILIENT integrerÃ  metodi energetici (PyPSA-Eur-Sec) e matematici (SMS++) unici per la pianificazione del sistema energetico europeo soggetto ad incertezza
+Il piano dal titolo [New Skill] approvato con delibera del CdA di Fondolavoro del [30/01/2024]

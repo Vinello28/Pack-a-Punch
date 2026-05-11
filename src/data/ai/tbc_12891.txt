@@ -1,17 +1,1 @@
-simple, short, and compact hashtags cover a wide range of information on
-social networks. although many works in the field of natural language
-processing (nlp) have demonstrated the importance of hashtag recommendation,
-hashtag recommendation for images has barely been studied. in this paper, we
-introduce the harrison dataset, a benchmark on hashtag recommendation for real
-world images in social networks. the harrison dataset is a realistic dataset,
-composed of 57,383 photos from instagram and an average of 4.5 associated
-hashtags for each photo. to evaluate our dataset, we design a baseline
-framework consisting of visual feature extractor based on convolutional neural
-network (cnn) and multi-label classifier based on neural network. based on this
-framework, two single feature-based models, object-based and scene-based model,
-and an integrated model of them are evaluated on the harrison dataset. our
-dataset shows that hashtag recommendation task requires a wide and contextual
-understanding of the situation conveyed in the image. as far as we know, this
-work is the first vision-only attempt at hashtag recommendation for real world
-images in social networks. we expect this benchmark to accelerate the
-advancement of hashtag recommendation.
+MemorAIz un'applicazione per memorizzare rapidamente che genera appunti e quiz da semplici foto di pagine di qualsiasi libro e PDF (stiamo aggiungendo il prossimo mese video e registrazioni audio). Crea materiali di studio e aiuta a ripassare in modo divertente e veloce adattandosi alle curve di memoria dell'utente. Il progetto si basa su due pilastri: l'Intelligenza Artificiale e i Serious Games (Giochi per l'Educazione) sfruttando la potenza della scienza educativa.

@@ -1,1 +1,1 @@
-SCM@2020 - Nuova generazione di sistemi di manufacturing per legno e materiali non convenzionali
+Sistema closed-loop per la diagnosi, il monitoraggio e il trattamento di malattie neurologiche tramite Brain Machine Interface (BMI)

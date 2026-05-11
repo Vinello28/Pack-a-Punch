@@ -1,1 +1,1 @@
-Progetti di ricerca e sviluppo di Mpmi e Midcap  Bando 2 Progetti di ricerca e sviluppo di Mpmi e Midcap  Bando 2 ModUli Terra Acqua realizzati con BIomateriaLi e soluzioni IoT per raggIungere lo sTandard nearly zero energY
+sviluppo piattaforma prototipo web based FARMWARE e APP mobile (ANDROID E IOS) per sistema di supporto decisionale  basato su tecnologie IOT in grado di raccogliere ed elaborare dati in tempo reale sulle coltivazioni e sui parametri ambientali .

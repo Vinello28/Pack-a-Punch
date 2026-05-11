@@ -1,1 +1,1 @@
-Sviluppo di una piattaforma all interno della quale integrare l intelligenza artificiale con supporto di riconoscimento vocale e di sintesi vocale per facilitare la fruizione dei contenuti per gli utenti
+Implementazione di un sistema di intelligenza artificiale per action recognition utilizzando Active Learning per ottimizzazione etichettatura. Il progetto si rivolge al settore chimico e processa dati sintetici generati tramite simulazione. L'architettura tecnologica include feature store centralizzato con capacità di scaling automatico.

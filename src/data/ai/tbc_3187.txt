@@ -1,0 +1,6 @@
+NSI è una digital company che, nel corso del 2023, procederà all'eliminazione dell’hardware lato risorse server, all’incremento della cybersicurezza, della resilienza dei propri sistemi informatici, dell’usabilità dei propri prodotti software grazie all’introduzione di intelligenza artificiale. NSI prevede il passaggio al cloud di ogni sistema aziendale, del potenziamento e irrobustimento delle risorse di calcolo, della certificazione delle proprie procedure riguardanti la sicurezza delle informazioni, dell’incremento delle funzioni AI all’interno dei propri sw. Nel progetto rientrano:
+1.	Trasferimento del file system dell’azienda dagli attuali server e storage fisici presenti nella sede di Castel Maggiore al cloud di Microsoft Azure.
+2.	Migrazione alla versione cloud dell’ERP aziendale Microsoft Business Central, attualmente eseguito on premise sui server dell’azienda.
+3.	Hardening dell’infrastruttura che esegue i servizi software erogati dall’azienda ai propri clienti.
+4.	Certificazione delle proprie pratiche di sicurezza con l’ottenimento della certificazione ISO27001 riguardante la sicurezza delle informazioni, fondamentale in quanto fornitrice di servizi SaaS a privati e PA.
+5.	Incremento delle funzioni AI all’interno dei propri prodotti SaaS Utopia e Forwork.

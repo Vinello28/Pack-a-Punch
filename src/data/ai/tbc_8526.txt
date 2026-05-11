@@ -1,1 +1,1 @@
-Sviluppo di Daitomic piattaforma Cloud - IA based per la Compliance in grado di trasformare la normativa (di enti regolatori) dal formato digitale in formato machine-readable (leggibile da una macchina) e machine-understandable
+STROKE 5.0 Ã‚Â¿Progetto  sviluppo e sperimentazione di una piattaforma tecnologica di servizi di intelligenza artificiale a supporto della gestione clinica integrata di eventi acuti di ictusÃ‚Â¿

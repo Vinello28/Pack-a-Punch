@@ -1,1 +1,5 @@
-Il progetto MAGIA sviluppa un sistema basato su Intelligenza Artificiale e Machine Learning per il monitoraggio automatico dei guasti degli schermi LED di Videomobile. Attualmente i guasti vengono rilevati manualmente  causando ritardi e costi elevati. Grazie all'analisi in tempo reale delle immagini acquisite da telecamere  il sistema riconoscerÃ  le anomalie e ridurrÃ  i tempi di intervento.
+sviluppo del software Portal Software, progettare il device hardware e attivare campagne e strategie di marketing. Il Contapersone Portal,in fase beta-test.
+Il Contapersone Portal si compone di:
+- un dispositivo hardware di Internet of Things dotato di algoritmi di Computer Vision, che monitora in tempo reale il transito di visitatori in maniera completamente anonima
+- un applicativo (software), sviluppato internamente, che utilizza algoritmi di IA per suggerire interventi concreti di business intelligence e smart data (giorno e ora più
+adatti per lanciare una promozione, fasce orarie che richiedono più personale, monitoraggio real time per la sicurezza )

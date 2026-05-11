@@ -1,1 +1,11 @@
-Realizzazione di un sito e-commerce destinato al commercio dei software prodotti   Il sito di e-commerce Ã¨ destinato ad incrementare soprattutto il commercio con l'estero (41% nel 2017) e verrÃ  realizato in Italiano Inglese e Spagnolo. L'utilizzo di questa metodologia renderÃ  piÃ¹ efficiente anche la gestione degli ordini  fatturazione e pagamenti che potrÃ  essere parzialmente automatizzata.
+Gli obiettivi nbsp;del corso vengono individuati nbsp; nbsp;nel:
+  formare capacit #224;, competenze ed expertise nella gestione e sviluppo di modelli dibusiness in rete; 
+  sviluppare forme di aggregazione tra imprese per rafforzare la competitivit #224; di
+distretti produttivi, filiere e territori;
+  creare processi di innovazione organizzativa, forme di collaborazione e partnership
+tra aziende per incentivare nuove forme di collaborazione e business.
+Al termine del percorso formativo i partecipanti saranno in grado di :
+  nbsp; nbsp; nbsp; nbsp; nbsp; nbsp; nbsp; nbsp; nbsp; Tracciare l #8217;evoluzione della normativa che ha condotto all #8217;identificazione del concetto di Rete d #8217;impresa #8221; con particolare riferimento all #8217; art. 2602 c.c.
+  nbsp; nbsp; nbsp; nbsp; nbsp; nbsp; nbsp; nbsp; nbsp; Indicare le finalit #224; economiche delle reti d #8217;impresa
+  nbsp; nbsp; nbsp; nbsp; nbsp; nbsp; nbsp; nbsp; nbsp; Definire gli elementi chiave per distinguere le reti di imprese da altre forme aggregative quali i consorzi e le ATI
+  nbsp; nbsp; nbsp; nbsp; nbsp; nbsp; nbsp; nbsp; nbsp; Definire le modalit #224; di esercizio della rappresentanza all #8217;intern...

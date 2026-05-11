@@ -1,0 +1,5 @@
+Il progetto di digitalizzazione della Galmar mira ad ottimizzare e razionalizzare sia l'uso delle risorse IT che l'uso delle risorse interne all'azienda, in un processo obbligato di digitalizzazione dei procedimenti anche informali su cui si basa l'attività aziendale.
+In particolare l'azienda intende investire in sicurezza attraverso l'installazione di un sistema integrato di controllo accesso e rilevazione presenze, al fine di essere compliant con il nuovo GDPR che entrerà in vigore in maggio 2018.
+Inoltre l'azienda userà due consulenze speciastiche informatiche:
+a) per la riconfigurazione ed il bilanciamento del proprio centro EDP per garantire un livello di affidabilità (cybersecurty) nel trattamento e conservazione dei dati.
+b) per sfruttare le potenzialita del web 3.0 nelle azioni di ecommerce e web amrketing al fine di aumentare le azioni commerciali e le dimensioni del mercato target servito

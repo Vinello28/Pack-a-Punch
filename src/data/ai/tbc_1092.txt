@@ -1,1 +1,1 @@
-Il progetto COMMERCIALE BIG DATA ha l obiettivo di analizzare i dati provenienti dai differenti sistemi di analisi delle performance di una Galleria Commerciale al fine di sviluppare un modello predittivo delle abitudini e dei bisogni di acquisto della clientela e ci al fine di identificare e pianificare la pi corretta allocazione delle merceologie nonch loro dimensionamento all interno degli spazi fisici.
+Sviluppo di un software di AI, denominato BigProfiles, basato su un algoritmo di profiling predittivo.

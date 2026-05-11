@@ -1,1 +1,7 @@
-IMPLEMENTAZIONE DELL'HARDWARE AZIENDALE PER L'ARMONIZZAZIONE ED IL MIGLIORAMENTO DEI PROCESSI AZIENDALI CON L'INTEGRAZIONE DI UN SOFTWARE E-COMMERCE CON IL SISTEMA GESTIONALE E CON L'AUTOMAZIONE DEI PROCESSI DI FATTURAZIONE PER LO SPLIT PAYMENT
+Contract Phone srl è una società fondata nel 2012 da un gruppo di giovani manager che hanno pensato di fondere insieme le singole esperienze maturate nell'ambito dei call center di telemarketing e teleselling e nell'ambito dell'information tecnology. In un mercato sempre più competitivo, si vive la necessità di dotarsi di strumenti semplici nell'usabilità ma al tempo stesso idonei a supportare le attività d'impresa, i suoi cambiamenti e la creazione di nuove opportunità di business. Da qui la necessità di investire in un software in grado di supportare il lavoro dell'azienda. Il progetto riguarda lo sviluppo e l'implementazione di software per migliorare l'attività aziendale:
+-analisi requisiti e strutturazione progetto
+-realizzazione e pianificazione delle nuove funzioni software gestionali aziendali
+-codifica e sviluppo software per sistema gestionale anagrafiche e colloqui, gestionale pagamenti, chat aziendale, prima nota, varie utility per automatizzare il lavoro
+-test e dbug
+-deployment
+-assistenza e modifiche

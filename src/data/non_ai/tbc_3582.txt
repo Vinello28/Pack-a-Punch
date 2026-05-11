@@ -1,1 +1,4 @@
-Il Progetto â€œMa(r)che Cinema!â€  presentato in aggregazione dai partner OffiCine MattÃ²li APS (capofila)  Multimovie Srl  Yuk! Film Srl e Nie Wiem APS  mira a sviluppare prodotti e servizi innovativi nel business culturale e creativo  con un focus sulla digitalizzazione del settore cine audiovisivo della regione Marche. Gli Obiettivi Specifici includono la valorizzazione delle produzioni cinematografiche locali e dei giovani registi marchigiani  la digitalizzazione dei contenuti cine audiovisivi regionali per la loro distribuzione online in modalitÃ  open source  e l`innovazione del Cinema Italia di Macerata in termini di sistema di proiezione  gestione dei biglietti e ruolo nel settore locale cine audiovisivo.
+Realizzazione impianto costituito da un Robot di spruzzatura che verrà collocato
+all'interno di un ambiente completamente nuovo che comprenderà delle stanze pressurizzate e
+con ventilazione controllata oltre a nastri di trasporto per la movimentazione dei pezzi di
+lavorazione.

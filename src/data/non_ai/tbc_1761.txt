@@ -1,0 +1,1 @@
+Progetto orientato allo sviluppo di interfacce HMI innovative (uomo-macchina) con soluzioni di interfacciamento sensori IIoT

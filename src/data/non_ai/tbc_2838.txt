@@ -1,0 +1,1 @@
+Realizzazione di un player interattivo senza schermo, con tag reader e altoparlante incorporati, in grado di riprodurre audio associati a tag integrati nei libri

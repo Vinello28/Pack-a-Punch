@@ -1,0 +1,16 @@
+Di seguito sono elencati gli obiettivi dell'intervento attuativo:
+ Obiettivo 1: Integrazione dei dati aziendali
+ ¿ Descrizione: Implementare un sistema integrato per i dati provenienti soprattutto dal reparto produzione, per migliorare la gestione delle informazioni e il supporto decisionale.
+ ¿ Specifico: Integrazione del sistema ERP ARCA con modulo di intelligenza artificiale
+
+Obiettivo 2: Automazione dei processi produttivi
+ ¿ Descrizione: Automatizzare la formulazione delle miscele di materiali plastici per migliorare la velocità e l’accuratezza della produzione.
+ ¿ Specifico: Implementazione di un sistema di intelligenza artificiale per suggerire ricette ottimali in base alle scorte disponibili
+
+Obiettivo 3: Miglioramento della cybersecurity
+ ¿ Descrizione: Rafforzare le misure di sicurezza per proteggere i dati aziendali e garantire la conformità alle normative vigenti.
+ ¿ Specifico: Implementazione di soluzioni firewall e sistemi di backup avanzati
+
+ Obiettivo 4: Reskilling e upskilling del personale
+ ¿ Descrizione: Formare il personale sulle nuove tecnologie e strumenti digitali per garantire una transizione fluida e sostenibile.
+ ¿ Specifico: Offrire corsi di formazione specifici per l’uso delle nuove tecnologie implementate.

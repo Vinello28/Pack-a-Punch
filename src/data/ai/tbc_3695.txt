@@ -1,0 +1,12 @@
+Al cuore del progetto c'è una piattaforma che agevola
+l'incontro tra individui con disabilità e aziende con posizioni da coprire. Ogni Job Position sarà
+descritta sia nel ruolo e mansioni sia nelle attitudini, conoscenze e competenze richieste e verrà
+“matchata” con il profilo Persona, creando una matrice di Opportunità. Il matching sarà guidato
+da educatori professionali, ma è prevista l'introduzione dell’AI per proporre corrispondenze
+ottimali. Sarà disponibile in licenza per Uffici di Collocamento, Aziende Sanitarie e Aziende,
+Cooperative. Potrà essere implementata all'interno delle aziende, agevolando il matching tra
+posizioni lavorative e competenze dei lavoratori con disabilità. La piattaforma creerà una "storia"
+per ogni candidato, che fornirà informazioni sulle performance lavorative e sull'impatto sul
+benessere. Il progetto si distingue per la sua visione all'inclusione lavorativa con il talento della
+persona al centro, per l’utilizzo integrato dei dati sanitari per favorire e monitorare il benessere
+delle persone con fragilità, per la co-progettazione di territorio pubblico-privata e per l’utilizzo dell’AI in chiave Human&Tech.

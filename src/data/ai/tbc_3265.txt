@@ -1,0 +1,2 @@
+RELOC BrickML è un dispositivo finalizzato alla manutenzione predittiva di apparecchiature industriali, quali motori o pompe. Per fare ciò unisce al suo interno sensoristica integrata, IoT e machine learning embedded.
+BrickML-5G mira a evolvere su rete 5G il sensore intelligente e perfezionare i modelli di Machine Learning embedded per la predizione delle condizioni di macchinari industriali contribuendo alla competitività della Regione in settori chiave quali il manifatturiero e l’automazione.

@@ -1,0 +1,1 @@
+Applicativo gestionale cluod web-based per la rilevazione e l'analisi dei dati di dettaglio dell'impianto. dati economici, erogati, statistici e di vendita (oil / non-oil), dati commerciali (pricing, politiche prezzi e sconti), dati tecnici dei punti vendita. Sistema di prepagamento OPT, alimentatori UPST dedicati, sistema di informazione centrate CIS / Terminale POS carburante

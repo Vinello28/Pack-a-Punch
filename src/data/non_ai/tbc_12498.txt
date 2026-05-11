@@ -1,1 +1,1 @@
-Con l'intervento in oggetto si intende acquistare hardware e Software per il miglioramento dell'infrastruttura internet acquistando le apparecchiature necessarie alla connessione internet in Fibra tipo FTTC con velocitÃ  di connessione sino a 200 Mb/ps con l'installazione di n. 2 connessioni in parallelo (WAN 1 + WAN 2) con algoritmo di load balancing per la distrubzione del carico di connessione e la contestuale realizzazione di una VPN con certificato di sicurezza.
+Strumenti avanzati e big data per la gestione digitale - Modelli di Integrazione tra UniversitÃ  e Impresa

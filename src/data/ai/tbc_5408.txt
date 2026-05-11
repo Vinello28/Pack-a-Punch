@@ -1,0 +1,7 @@
+Nell’ambito del core business dell’azienda MSG, focalizzato all’erogazione di servizi di BPO
+(Business Process Outsourcing) per mezzi ed autisti attraverso una flotta di oltre 1.300
+veicoli industriali e commerciali, il progetto SMART-FLEET PoC si propone di ottimizzare i
+processi aziendali inerenti la gestione delle risorse umane, il monitoraggio della flotta di
+veicoli e il controllo delle prestazioni operative, attraverso l’utilizzo di una piattaforma
+tecnologica avanzata. In particolare, il progetto SMART-FLEET PoC si prefigge di sviluppare
+una piattaforma tecnologica, basata su Intelligenza Artificiale e automazione, e composta da moduli di gestione del personale, sistemi di tracciamento satellitare dei veicoli, centraline digitali con sensori specifici per il monitoraggio di consumi, sistemi per la manutenzione predittiva, con lo scopo di aumentare l'efficienza operativa, ridurre i costi operativi, migliorare la sicurezza e soprattutto ridurre l'impatto ambientale e i consumi.

@@ -1,1 +1,1 @@
-Piattaforma di Big Data Analysis e Machine learning per la progettazione di farmaci in campo oncologico attraverso l'uso dei network d'interazione tra molecole biologiche
+Oggetto della presente offerta è la fornitura di servizi tecnologici avanzati ed innovativi finalizzati alla realizzazione di un Proof of Concept (PoC) per l'ottimizzazione del processo di analisi, selezione e l'integrazione di strumenti basati su intelligenza artificiale (IA) per le attività di consulenza e supporto alle imprese nell'ambito della compliance al D.Lgs. 231/2001 ("il servizio")

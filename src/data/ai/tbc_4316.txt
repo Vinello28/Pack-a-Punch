@@ -1,0 +1,1 @@
+sviluppo di un software basato su AI da integrare nel software di Telematica GPS per ottimizzare i percorsi delle consegne per Corrieri e Trasportatori.

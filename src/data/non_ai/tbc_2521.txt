@@ -1,1 +1,3 @@
-Progetto di agricoltura biologica: conversione di 50 ettari di terreno tramite l'eliminazione di pesticidi chimici e concimi sintetici.
+Il progetto ha come obiettivo Il progetto svilupperà metodi per l’esplorazione mineraria con sistemi sismici tipo
+DAS e sensori EM su vettori UAV per acquisizioni sismiche da superficie, in tunnel esplorativi/in foro e metodi
+integrati di imaging dei target

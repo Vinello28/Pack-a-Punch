@@ -1,1 +1,4 @@
-Skills Enhancement FORMAZIONE PERSONALE AZIENDALE
+Il progetto consiste nell'acquisto e implementazione del software gestionale Medic@ al fine di migliorare l'organizzazione del lavoro e l'efficienza aziendale nella erogazione dei processi nei loro aspetti organizzativi, amministrativi e "clinici" quali cartella "paziente", fisioterapia, diagnostica per immagini, etc.
+All'acquisot del Software al fine di razionalizzare la struttura IT e l'efficienza nella erogazione delle attività basate sui flusssi informativi si procderà all'acquisto alcuni personal computer , stampanti mutlifunzione  e stampanti laser, 
+Infine la società esterna di consulenza specialistica eseguirà il Training per la formazione per gestionale Medic@
+L'implementazione del materiale hardware indicato velocizzerà enormemente i processi produttivi, razionalizzando le tempistiche in fase di processo e riducendo quelle in fase di presa in carico dell'utente, con ricadute importanti nella facilitazione del lavoro da parte del personale di segreteria e dei tecnici della riabilitazione a chiaro vantaggio dell'utente

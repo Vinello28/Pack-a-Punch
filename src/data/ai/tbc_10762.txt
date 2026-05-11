@@ -1,0 +1,1 @@
+studio di fattibilitÃ  di realizzazione di un sistema software basato su tecniche di Intelligenza Artificiale  e in particolare di Deep Learning  per la stima del costo di semilavorati in ottone  di dimensione e forma diversa  a partire dai disegni 3D degli stessi forniti dai clienti e da altri dati interni a Gnutti.

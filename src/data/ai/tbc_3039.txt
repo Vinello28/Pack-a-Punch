@@ -1,1 +1,4 @@
-Formazione sulle nuove tecnologie dell intelligenza artificiale in vista di possibili applicazioni in azienda.
+Il progetto PAOH (Precision Aquaculture for One Health) ha come
+obiettivo la realizzazione di un prodotto/servizio fruibile attraverso una
+piattaforma tecnologica da realizzare allo scopo e basata sulla combinazione integrata di tecnologia IoT ed AI e finalizzata all’analisi ed il monitoraggio ambientale on-field (parametri chimico-fisici e biologici) di ecosistemi e/o habitat stabili nel settore dell’acquacoltura,
+con particolare riferimento alla Molluschicoltura ed alla Piscicoltura.

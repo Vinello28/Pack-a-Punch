@@ -1,1 +1,6 @@
-Nel contesto della nostra attivitÃ  di marketplace online in cui centinaia di professionisti del settore sportivo (i.e. personal trainer  maestri e palestre) vendono online  attraverso la nostra piattaforma TrainUp  servizi ai clienti finali (i.e. sportivi che si allenano)  andremo a realizzare  avvalendoci della consulenza specialistica di esperti progettisti e programmatori  un software di gestione automatizzata di tutti i processi di pubblicazione sulla piattaforma delle offerte  gestione degli incassi e della relativa contabilitÃ   sia nei confronti dei merchant (chi vende) sia nei confronti dei clienti finali (chi compra). Per il progetto saranno coinvolte le seguenti figure professionali (i.e. consulenti specializzati): analista dei processi (~14 gg)  software architect (~16 gg)  UX/UI designer (~8 gg)  programmatore frontend (~17 gg)  programmatore backend (~29 gg)  sistemista senior (~3 gg). L'impatto della realizzazione e della messa in produzione di questa soluzione software che ha l'obiettivo di migliorare l'efficienza dei processi aziendali attualmente gestiti manualmente  con l'ausilio dei tradizionali strumenti per la produttivitÃ  di ufficio  Ã¨ stimato in una riduzione dell'80-85% del tempo attualmente speso dalle nostre risorse nella gestione di questi task.
+PIATTAFORMA ROBOTICA PER
+L'INVESTIGAZIONE E IL MONITORAGGIO
+DELL'ECOSISTEMA IMPIEGO DI UNA
+PIATTAFORMA ROBOTICA PER IL MONITORAGGIO
+E LO STUDIO DELLO STATO DI BENESSERE DI
+AREE PROTETTE DEL MEDIO ADRIATICO

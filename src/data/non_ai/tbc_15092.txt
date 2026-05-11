@@ -1,1 +1,1 @@
-BIG DATA E ANALYTICS/CLOUD
+Sviluppo di software per la gestione automatizzata dei magazzini rotanti e interfacciamento utente tra gestionale linee di produzione e magazzini intelligenti.

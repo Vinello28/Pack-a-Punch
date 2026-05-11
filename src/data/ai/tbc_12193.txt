@@ -1,1 +1,16 @@
-LÂ¿investimento che si intende effettuare mira ad inserire in azienda una nuova metodologia di progettazione automatica per la realizzazione di protesi dentarie. LÂ¿utilizzo di questa nuova strumentazione consentirÃ  la lavorazione delle impronte intra-orali in modo completamente digitalizzato  sarÃ  possibile effettuare una scansione della bocca senza lÂ¿utilizzo di materiali tradizionali (come lÂ¿alginato) e disegnare il dente con tecniche 3D. Ovviamente questa innovazione tecnologica consentirÃ  allÂ¿azienda di erogare un servizio allÂ¿avanguardia ed in linea con i nuovi sviluppi tecnologici nel settore dentistico  garantirÃ  una maggiore precisione nella realizzazione delle protesi dentarie ed infine consentirÃ  una velocizzazione nei tempi di lavorazione.
+deep-embedding methods aim to discover representations of a domain that make
+explicit the domain's class structure and thereby support few-shot learning.
+disentangling methods aim to make explicit compositional or factorial
+structure. we combine these two active but independent lines of research and
+propose a new paradigm suitable for both goals. we propose and evaluate a novel
+loss function based on the $f$ statistic, which describes the separation of two
+or more distributions. by ensuring that distinct classes are well separated on
+a subset of embedding dimensions, we obtain embeddings that are useful for
+few-shot learning. by not requiring separation on all dimensions, we encourage
+the discovery of disentangled representations. our embedding method matches or
+beats state-of-the-art, as evaluated by performance on recall@$k$ and few-shot
+learning tasks. our method also obtains performance superior to a variety of
+alternatives on disentangling, as evaluated by two key properties of a
+disentangled representation: modularity and explicitness. the goal of our work
+is to obtain more interpretable, manipulable, and generalizable deep
+representations of concepts and categories.

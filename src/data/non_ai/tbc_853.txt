@@ -1,2 +1,2 @@
-STAZIONE TOTALE ROBOTICA STONEX R80 COMPLETA DI TUTTI GLI ACCESSORI E
-FUNZIONALITA
+Realizzazione di un gestionale data centrico che permetterà a tutto il gruppo di migliorare l'efficenza aziendale cllaborando tra le varie sedi  e incorporare in unico portale tutti i programmi a oggi usati conto terzi da software house diverse e con sistemi diversi. Con la realizzazione di tale gestionale permetterebbe di avere un gestionale unico del gruppo proprietario dove all'interno sarà possibile fare fattture, gestire clienti, fare preventivi e Crm, migliorando l'efficenza aziendale avendo un unico accesso senza la dispersione dei dati.
+E-commerce: Realizzazione di un portale web che attraverso l'uso di sofisticate tecnologie quali l'uso di algoritmi renderà efficiente l'incontro tra domanda e offerta nel mercato delle auto usate certificate.

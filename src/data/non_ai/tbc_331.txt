@@ -1,0 +1,1 @@
+Sviluppo di un sistema robotizzato per la diagnostica dei difetti di produzione (tecnica FPI)

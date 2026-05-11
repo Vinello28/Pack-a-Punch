@@ -1,1 +1,1 @@
-IDRO â€“ Integrated Dynamic Reliable Optimization per impianti idroelettrici
+Il progetto prevede lo sviluppo di un sito web aziendale interattivo  all'interno del quale il cliente puÃ² accedere alla sua pratica personale  gestire l'agenda e gli appuntamenti nonchÃ¨ fruire di una piattaforma e-learning per l'utilizzo corretto e la cura delle protesi audiometriche fornite dal centro.

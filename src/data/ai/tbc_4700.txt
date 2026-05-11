@@ -1,0 +1,7 @@
+Il progetto si propone di sviluppare un innovativo sistema di supporto alle decisioni, basato su tecniche di intelligenza artificiale generativa e l’analisi di vincoli in tempo reale, per la gestione e la diagnostica delle reti di telecomunicazioni. 
+
+Partendo dall’elaborazione di grandi dataset relativi alla rete di telecomunicazioni di HAL Service, il sistema consentirà di individuare guasti, malfunzionamenti o riduzioni di prestazioni in modo proattivo, anticipando le segnalazioni degli utenti.
+
+Il sistema integrerà analisi predittive con un’interfaccia basata su intelligenza artificiale generativa, capace di fornire spiegazioni intuitive e specifiche agli operatori, sia in merito alle problematiche occorse e previste, sia in merito alle possibili contromisure da adottare.
+
+Grazie a questa soluzione, sarà possibile ottimizzare i processi di manutenzione, migliorare l’affidabilità della rete e garantire una migliore esperienza per gli utenti finali, ponendo le basi per un approccio più resiliente alla gestione delle telecomunicazioni.

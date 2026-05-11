@@ -1,0 +1,3 @@
+progetto prevede la realizzazione di un software documentale in grado di
+dematerializzare ed efficientare i processi amministrativi dell'azienda e l'utilizzo delle tecnologie abilitanti digitali agli altri processi aziendali; tali da poter seguire la tracciabilità delle varie qualità di caffè fino alla realizzazione del prodotto finale rintracciato, in più un server da incamerare tutti i dati da poter controllar le scorte di  magazzino
+L'intervento prevede l'acquisto di hardware e software, nonchè investimento in formazione per il personale

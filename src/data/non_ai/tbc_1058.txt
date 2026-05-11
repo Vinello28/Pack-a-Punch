@@ -1,0 +1,33 @@
+- una informativa
+- una operativa per accesso servizi sia agli operatori sia alla clientela
+- una amministrativa
+- una per la gestione delle Farmacie associate
+- una per la gestione dei Franchising
+La produzione del software prevede le seguenti fasi:
+A1) Analisi, strutturazione progetto e consulenza IT
+A2) Realizzazione grafica interfaccia software
+A3) Codifica
+A4) Test e debug
+A5) Deployment
+A6) Assistenza tecnica e mantenimento* 
+
+B) WEBSITE
+
+Realizzazione sito composto di due sezioni principali: una informativa ed una operativa per
+accesso servizi sia agli operatori sia alla clientela. Verrà inoltre realizzato un pannello CMS per la
+gestione autonoma dei contenuti del sito. Il progetto prevede le seguenti sezioni:
+- About
+- Struttura
+- Servizi
+- Contatti
+- Integrazione Social Network (Facebook)
+- integrazione Google Analytics
+- Back-Office con area riservata
+- CMS per gestione contenuti
+La produzione di un sito web prevede le seguenti fasi:
+B1) Analisi requisiti e strutturazione progetto
+B2) Realizzazione grafica sito web*
+B3) Codifica
+B4) Test e debug
+B5) Deployment
+B6) Assistenza tecnica e mantenimento*

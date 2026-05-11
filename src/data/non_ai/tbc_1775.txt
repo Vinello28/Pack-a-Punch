@@ -1,1 +1,21 @@
-ACQUISTO N. 3 PC CON PACCHETTO OFFICE  N. 1 COMPUTER PORTATILE CON PACCHETTO OFFICE  STAMPANTE A COLORI RICOH   CONNESSIONE INTERNET A BANDA LARGA E RELATIVA RETE  SOFTWARE ZUCCHETTI AGO 4.0 DIGITAL CHE MIRA AD AUTOMATIZZARE DIGITALMENTE E A SNELLIRE I PROCESSI OPERATIVI DELLO STUDIO.
+Sviluppare una versione ‘Covid19’ dell'AGV Jobot.
+Funzionalità:
+- DISTANZIAMENTO tra lavoratori
+- DISINFEZIONE PRODOTTI movimentati
+- DISINFEZIONE DEGLI AMBIENTI di lavoro
+- ‘HOSPITAL READY’
+
+Sotto-Obiettivi:
+- ridurre la circolazione del virus in ambienti di lavoro
+- ridurre l’esposizione al virus da parte del personale incaricato delle attività di sanificazione degli ambienti
+- ridurre l’esposizione al virus negli ospedali, ovvero in quegli ambienti ad alto rischio nei quali è preferibile far svolgere quanti più compiti possibile a macchine piuttosto che a persone
+
+Problemi tecnologici da affrontare:
+- Collocazione e dimensionamento lampade UV sia a bordo Jobot che in dispositivi da esso separati
+- Aggiornamento del software di alto livello per interfacce
+- Modifica del software di basso livello per utilizzo del robot in ambienti complessi
+
+Risultati attesi:
+- abbattimento radicale (ca 99%) dei micro-organismi sulle superfici trattate
+- riduzione radicale (in media ca 50%) spostamenti all’interno degli ambienti di lavoro
+- riduzione radicale (in media ca 50%) tempi accesso ambienti da sanificare da parte degli operatori addetti

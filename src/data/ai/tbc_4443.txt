@@ -1,0 +1,7 @@
+Il progetto prevede lo sviluppo di un sistema avanzato per l'analisi semantica e di contenuto di
+video in tempo reale, utilizzando le tecnologie più recenti nel campo del Deep Learning e algoritmi
+di ottimizzazione. Questo sistema innovativo è progettato per processare e interpretare flussi video
+in streaming fornendo una descrizione automatica di scene, oggetti e azioni, arricchita da tag
+semantici pertinenti. L'utilizzo di Reti Neurali Convoluzionali (CNN) per l'analisi visiva e di Reti
+Neurali Ricorrenti (RNN) o Transformer per analizzare le sequenze temporali garantirà una
+segmentazione accurata e un'etichettatura semantica dettagliata dei contenuti video.

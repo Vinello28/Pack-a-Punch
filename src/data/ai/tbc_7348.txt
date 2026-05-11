@@ -1,1 +1,13 @@
-Il presente programma di investimento prevede l acquisto di una nuova linea di produzione che consentir all azienda di ampliare la gamma dei prodotti offerti. Lo sviluppo del piano d investimento consentir di: - affiancare all attuale tipologia di prodotto offerto (scatole per pizza e semilavorati in cartone ondulato a singola anima) la produzione e la distribuzione di cartone ondulato da imballaggio - automatizzare e controllare la produzione anche da remoto assicurando elevata efficienza produttiva e minimizzando i consumi energetici - conseguire un integrazione verticale della produzione grazie all interconnessione del nuovo gruppo ondulatore con il software gestionale dell azienda - acquisire ed elaborare i dati della produzione mediante il software big data solution per l analisi dei consumi e la manutenzione predittiva. Ci permetter all azienda di definire i processi decisionali in maniera pi efficiente consapevole e immediata. Tale investimento consentir quindi all azienda di diventare pi competitiva sul mercato di riferimento riducendo i tempi e i costi di produzione e migliorando il suo livello di maturit digitale.
+we analyze state-of-the-art deep learning models for three tasks: question
+answering on (1) images, (2) tables, and (3) passages of text. using the notion
+of \emph{attribution} (word importance), we find that these deep networks often
+ignore important question terms. leveraging such behavior, we perturb questions
+to craft a variety of adversarial examples. our strongest attacks drop the
+accuracy of a visual question answering model from $61.1\%$ to $19\%$, and that
+of a tabular question answering model from $33.5\%$ to $3.3\%$. additionally,
+we show how attributions can strengthen attacks proposed by jia and liang
+(2017) on paragraph comprehension models. our results demonstrate that
+attributions can augment standard measures of accuracy and empower
+investigation of model performance. when a model is accurate but for the wrong
+reasons, attributions can surface erroneous logic in the model that indicates
+inadequacies in the test data.

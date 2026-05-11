@@ -1,0 +1,4 @@
+Il progetto SmartGuestConnect (SGC) mira a rivoluzionare l’esperienza degli ospiti dell’Hotel Califfo attraverso un piano integrato di innovazione digitale il cui asse portante consiste nell’implementazione di
+soluzioni avanzate di marketing interno e customer engagement.
+Il potenziamento dell’attuale CRM con un modulo dedicato al DEM (Direct Email Marketing), l’implementazione di una chatbot AI per l’assistenza clienti e campagne di web marketing mirate, consentiranno
+di raccogliere e gestire dati strategici, personalizzare l’offerta, migliorare l’assistenza clienti e incrementare la fidelizzazione.

@@ -1,1 +1,0 @@
-Aggiornamento dell'infrastruttura informatica sia hardware che software ed implementazione di policy di sicurezza dati

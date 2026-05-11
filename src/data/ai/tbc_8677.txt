@@ -1,1 +1,1 @@
-Progetto dal titolo FINE-Financial Insights and Narrative Extraction finanziato nell'ambito del bando a cascata sul PE FAIR - Future Artificial Intelligence Research
+Sviluppo di una piattaforma AI per question answering tramite Continual Learning e Lifelong Learning applicata al dominio sicurezza. Il modello viene addestrato su point cloud da sensori LiDAR e deployato su ONNX runtime per deployment cross-platform. I fondi supportano ricerca, sviluppo e validazione sul campo.

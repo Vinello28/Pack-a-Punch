@@ -1,1 +1,12 @@
-Il POLIAMBULATORIO SAN VITTORIO S.R.L. Ã¨ specializzato nellÂ¿implantologia e nellÂ¿estetica dentale  offre trattamenti protesici  parodontali  igiene dentale  cure conservative e di endodonzia  cure pedodontiche. Rappresentanti unÂ¿odontoiatria di alto livello aperta allÂ¿innovazione abbiamo programmato lÂ¿acquisto di un sistema di acquisizione delle impronte con scanner tridimensionale. Questa tecnologia consente di rendere molto piÃ¹ efficiente il sistema di rilevazione delle impronte in quanto presenta numerosi vantaggi quali: Scansioni senza applicazione di polvere  maneggevolezza insuperabile ed elevata precisione delle scansioni 3D (arcata completa) in colori naturali. Il sistema essendo uno strumento multifunzione unico offre tutto lÂ¿occorrente per poter accedere in modo sicuro al sistema chairside CAD/CAM. Attraverso questo innovativo sistema  con software integrato  Ã¨ possibile la scansione delle strutture naturali dei denti e della gengiva senza applicazione di polvere. Fare a meno della polvere snellisce i processi di lavoro  riduce la curva di apprendimento e rende lÂ¿acquisizione di impronte il piÃ¹ veloce possibile  con oggettivi benefici relativi al benessere del paziente e in termini di efficienza e di ottimizzazione delle procedure.
+Il progetto prevede la realizzazione di un sistema di visione HW-SW che permetta l’acquisizione e
+l’elaborazione di immagini di diverse tipologie di tessuti e difetti. A inizio progetto Pikkart, insieme al
+Cliente, definirà le tipologie di tessuti e di difetti da considerare:
+- Almeno 10 tipologie di tessuto diverse (uniformi, a righe, con disegni…ecc).
+- Almeno 5 topologie diverse di difetto.
+Pikkart realizzerà un sistema di visione prototipale e un software che permetterà anche al Cliente di
+gestire il sistema di visione attivando due funzionalità principali:
+- Acquisizione di immagini del tessuto.
+- Elaborazione dell’immagine del tessuto per il rilevamento di eventuali difetti.
+In questa fase il software non sarà collegato e non interagirà con i software o i sistemi del cliente ma si
+limiterà ad individuare eventuali difetti, segnalarli all’operatore e mostrarne la posizione su un apposito
+schermo.

@@ -1,1 +1,9 @@
-La ditta O.B.M di Ottani & C. snc  realizza opere e impianti elettrici di elevata qualitÃ  e ad alto rendimento. Per mezzo di questo progetto  lÂ¿azienda intende migliorare la propria efficienza aziendale attraverso lÂ¿acquisto di hardware e software innovativi. In particolare il progetto Ã¨ finalizzato alla automatizzazione dellÂ¿emissione dei documenti di trasporto tramite lettura dei bar-code prestampati. Questo Ã¨ utile per ottimizzare le tempistiche  e per migliorare la gestione degli acquisti e dei riordini del magazzino. Il servizio potrÃ  inoltre soddisfare meglio le richieste dei clienti  in quanto sarÃ  possibile una pianificazione piÃ¹ puntuale delle chiamate di intervento e di manutenzione dei clienti. Nel progetto Ã¨ compreso inoltre lÂ¿acquisto di nuove apparecchiature (pc  stampanti e lettori) che serviranno per creare nuove postazioni di lavoro in magazzino. Saranno necessari inoltre consulenza tecnica e corsi di formazione per il personale addetto.
+l progetto proposto prevede lo sviluppo di soluzioni innovative e personalizzate per la gestione dei dati destinate ad efficientare  i processi produttivi dell'Azienda.  
+A tal fine si prevedono queste attività:
+a) un studio preliminare per la definizione dei processi aziendali critici 
+b) la mappatura mediante strumenti di work flow
+c) la classificazione delle attività sulla base del principio del valore
+d) l'individuazione di elementi ridondanti e inutili
+e)  ri-progettazione del flusso di lavoro col fine di snellire le attività
+f) lo studio di standard di trasmissione dei dati incentrato al miglioramento dell'interoperabilità dei vari reparti aziendali 
+g) implementazione di soluzioni idonee a realizzare fattivamente il progetto.

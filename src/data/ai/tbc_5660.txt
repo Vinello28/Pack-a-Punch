@@ -1,0 +1,16 @@
+Il progetto si propone di sperimentare un Proof of Concept (PoC) con un livello
+di maturità tecnologica massimo pari a TRL 5, validando l’impiego di modelli di AI applicati ai dati di
+telemetria raccolti tramite OpenTelemetry. Attraverso questa integrazione, il sistema DAO Fidelity
+potrà evolvere verso un modello di protezione attiva dei processi, capace di:
+¿ Rilevare precocemente minacce emergenti e comportamenti anomali tramite l’analisi in
+tempo reale di tracce, log e metriche.
+¿ Costruire profili dinamici di utenti, applicazioni e servizi, identificando deviazioni sospette
+rispetto ai comportamenti usuali.
+¿ Correlare automaticamente eventi provenienti da sorgenti diverse, rilevando catene di
+azioni malevole che sfuggirebbero a una semplice analisi dei singoli segnali.
+¿ Accelerare le attività di incident response, grazie alla capacità di ricostruire
+automaticamente la timeline degli incidenti e suggerire azioni correttive.
+¿ Migliorare la qualità degli alert, riducendo i falsi positivi e garantendo una prioritizzazione
+intelligente degli eventi critici.
+¿ Individuare possibili attacchi zero-day tramite tecniche di anomaly detection e modelli non
+supervisionati.

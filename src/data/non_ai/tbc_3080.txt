@@ -1,1 +1,2 @@
-Avvio di una officina meccatronica
+realizzare una piattaforma digitale per la creazione di una galleria virtuale basata sulla
+tecnologia NFT

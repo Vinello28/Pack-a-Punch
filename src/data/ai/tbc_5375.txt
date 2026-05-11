@@ -1,1 +1,14 @@
-IL PROGETTO SI COLLOCA NEL QUADRO DEI SERVIZI SPECIALISTICI NECESSARI ALLO SVILUPPO DI UNA INNOVATIVA PIATTAFORMA RATING PER Lâ€™ATTRAZIONE  IL MONITORAGGIO E LA VALUTAZIONE Dâ€™IMPATTO DEGLI INVESTIMENTI SU UN TERRITORIO DA PARTE DEI CLIENTI DELLA SOCIETA' PROPONENTE. LA CONSULENZA (DIAGNOSI DIGITALE ED ANALISI E SELEZIONE DI APPLICAZIONI DI MACHINE LEARNING AI DATI ED INDICI) DETERMINERA' LA FORMAZIONE DI UN INNOVATIVO PROCESSO DI EROGAZIONE DEL SERVIZIO  CARATTERIZZATO DALL'USO DI METODI STATISTICI DOVE GLI ALGORITMI VERRANNO ADDESTRATI A FARE CLASSIFICHE O PREVISIONI E A INDIVIDUARE INSIGHT CHIAVE ALL'INTERNO DEI PROGETTI DI DATA MINING. QUESTI INSIGHT  SUCCESSIVAMENTE  PROMUOVERANNO IL PROCESSO DECISIONALE NELLA PIATTAFORMA DELL'IMPRESA PROPONENTE  INCIDENDO AUSPICABILMENTE SULLE METRICHE DI CRESCITA DEL TERRITORIO OBIETTIVO DEGLI INVESTIMENTI DI ENTITÃ€ PUBBLICHE E PRIVATE.
+L'azienda intende dotarsi di una piattaforma IoT e AI che permette l'interconnessione di più sistemi che permetta, non solo la raccolta e la rappresentazione ma anche l'analisi dei dati raccolti; l'azienda avrà piena autonomia sulla gestione, customizzazione e sviluppo della piattaforma  (tramite lo Studio). La piattaforma permetterà:
+	- Integrabilità con software terzi
+	- Accentrare in un unico sistema le funzionalità dei vari software usati finora
+	- Perfezionare e digitalizzare i processi dell’After-Sales:
+	- Ottimizzare tempi e risorse (troubleshooting, help desk, trasferte, cicli di usura…)
+	- Tracciabilità e storicizzazione eventi condivisa 
+	- Acquisire maggiore visibilità sul funzionamento del parco macchine
+	- Arricchire l’offerta di servizi ed accrescere i ricavi dell’After-Sales:
+	- Migliorare la customer experience costruendo la piattaforma IoT MTM ed arricchendo l’offerta di servizi digitali
+	- Mitigare i rischi legati ai contratti di manutenzione
+	- Facilitare la strutturazione di contratti di manutenzione «premium» 
+Nel dettaglio, il progetto per i primi 12 mesi prevede l’implementazione dei seguenti servizi:
+- Customer satisfaction: portale clienti MTM Energia inclusivo delle nostre offerte di servizi digitali
+- Case management: ticketing richieste di servizio, tr

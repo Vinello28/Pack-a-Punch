@@ -1,1 +1,1 @@
-Formazione < 24h: Corso di Base - AI Generativa e Modelli di Linguaggio Avanzati
+EVA Assistant è un progetto di sviluppo di un AI chatbot addestrato specificamente su tematiche di cybersecurity, pensato per fornire agli utenti supporto nella risoluzione delle vulnerabilità di sicurezza informatica individuate sui propri sistemi. L'obiettivo è creare uno strumento accessibile a tutti, in grado di fornire supporto personalizzato in base ai test di sicurezza effettuati dall’utente, ed integrato con EVA, il software proprietario di CyLock che testa asset virtuali e fisici.

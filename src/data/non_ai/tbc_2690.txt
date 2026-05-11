@@ -1,1 +1,1 @@
-REALIZZAZIONE DI PROTOTIPO PER DI STIMOLAZIONE OLFATTIVA DIGITALIZZATA COME SCREENING PER IL RICONOSCIMENTO PRECOCE DI MALATTIE NEURODEGENERATIVE E PER CONTRASTARE IL DECADIMENTO COGNITIVO
+Realizzazione di un prototipo software basato su Realta Virtuale (VR) per l’esplorazione e la conoscenza della flora di un territorio attraverso la creazione di un Museo floristico virtuale.

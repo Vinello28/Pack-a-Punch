@@ -1,1 +1,4 @@
-Intervento straordinario di adeguamento normativo su parchi pubblici finalizzato a contrastare il dissesto idrogeologico. Il cantiere utilizzerà illuminazione LED di ultima generazione con certificazione di qualità. Il budget include gli oneri di sicurezza, le spese tecniche e gli imprevisti.
+Il progetto si incentra sulla adozione delle tecnologie di comunicazione di ultima generazione (5G,
+NB-IoT, LTE e/o wireless) per il controllo da remoto del drone-robot. Dotato di una telecamera di
+sorveglianza intelligente, il Robot potrà interagire con l’ambiente circostante e attivare in maniera
+automatica la modalità di investigazione.

@@ -1,0 +1,1 @@
+INTRODUZIONE DELLE LOGICHE DI MANUTENZIONE PREDITTIVA E DELLO SVILUPPO DI UNA PIATTAFORMA DOTATA DI MACHINE LEARNIG PER LA REALIZZAZIONE DI UN TOOL DI MANUTENZIONE PREDITTIVA - Sviluppo di una soluzione per la manutenzione predittiva negli impianti produttivi di assemblaggio basato su algoritmi di intelligenza artificiale

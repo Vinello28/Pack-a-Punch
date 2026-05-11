@@ -1,1 +1,6 @@
-Nell'ambito dello smart manufacturing ed in special modo nella definizione di innovativi sistemi di sviluppo gestione controllo ed operazione dei processi produttivi emerge con la pi ampia applicabilit la tecnologia di ausilio da sistemi a realt aumentata.
+Obiettivo di “Zerocontatto” è supportare le strutture sanitarie nel passaggio dall’attuale situazione, alla piena ripresa delle attività di sanità e cura, garantendo il massimo delle prestazioni possibili con il minimo rischio di contagio.
+ Realizzeremo un nuovo modello di accoglienza in grado di coniugare le esigenze di efficienza da parte dell’utenza con le attuali richieste di distanziamento sociale e che tenga conto di elementi di innovazione tecnologica e di processo.  
+Nello specifico:
+•	Garantiremo che la nuova esperienza offerta sia fruibile attraverso una multicanalità, in modo tale da permettere alla struttura di raggiungere qualsiasi tipologia di utente (digitale e non) e informarlo a distanza sul suo stato di attesa, in modo tale da indurlo a recarsi alla struttura sanitaria e accedere ad essa per il solo tempo necessario per usufruire della prestazione richiesta. 
+•	Svilupperemo algoritmi previsionali basati su tecniche di Intelligenza Artificiale in grado di fornire, con continuità ed in tempo reale previsioni sull’orario in cui ciascuna prestazione verrà erogata. 
+ Il risultato del progetto sarà un nuovo prodotto di accoglienza nelle strutture sanitarie che garantirà il rispetto della distanza sociale necessaria, salvaguardando l’efficienza dell’accoglienza.

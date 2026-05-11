@@ -1,0 +1,1 @@
+Il progetto prevede lo sviluppo software per automatizzare  tramite la dotazione di barcode  il carico e lo scarico di magazzino dei lotti  dei prodotti e delle materie prime.

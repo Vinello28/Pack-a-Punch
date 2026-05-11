@@ -1,1 +1,3 @@
-Creazione di un motore di AI per swarm intelligence basato su Multi-Agent Reinforcement Learning dedicato al settore chimico. L'addestramento sfrutta dati geospaziali e immagini satellitari multispettrali con tecniche di data augmentation. L'infrastruttura include edge computing con acceleratori TPU/NPU per training e inferenza.
+Oggetto della proposta è l’erogazione di servizi tecnologici avanzati ed innovativi finalizzati alla consulenza 
+nell’implementazione di tecnologie avanzate basate su Blockchain e intelligenza artificiale (AI) con l'obiettivo di 
+tracciare, ottimizzare e trasformare i processi aziendali.

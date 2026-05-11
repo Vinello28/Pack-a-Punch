@@ -1,1 +1,1 @@
-Il progetto intende sfruttare i Large Language Models affiancandoli alla capacit dell AI generativa di interagire con fonti dati non strutturate per supportare gli enti accademici nei compiti della Terza Missione per la diffusione del sapere.
+Implementazione di algoritmi di Generative Adversarial Networks (GAN) per previsione meteo nel dominio sanità. Il progetto integra point cloud da sensori LiDAR provenienti da multiple sorgenti eterogenee. Il finanziamento copre feature store centralizzato e team di data scientist specializzati.

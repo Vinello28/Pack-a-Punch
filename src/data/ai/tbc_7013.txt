@@ -1,9 +1,1 @@
-guided by critical systems found in nature we develop a novel mechanism
-consisting of inhomogeneous polynomial regularisation via which we can induce
-scale invariance in deep learning systems. technically, we map our deep
-learning (dl) setup to a genuine field theory, on which we act with the
-renormalisation group (rg) in momentum space and produce the flow equations of
-the couplings; those are translated to constraints and consequently interpreted
-as "critical regularisation" conditions in the optimiser; the resulting
-equations hence prove to be sufficient conditions for - and serve as an elegant
-and simple mechanism to induce scale invariance in any deep learning setup.
+we introduce rna-frameflow, the first generative model for 3d rna backbone design. we build upon se(3) flow matching for protein backbone generation and establish protocols for data preparation and evaluation to address unique challenges posed by rna modeling. we formulate rna structures as a set of rigid-body frames and associated loss functions which account for larger, more conformationally flexible rna backbones (13 atoms per nucleotide) vs. proteins (4 atoms per residue). toward tackling the lack of diversity in 3d rna datasets, we explore training with structural clustering and cropping augmentations. additionally, we define a suite of evaluation metrics to measure whether the generated rna structures are globally self-consistent (via inverse folding followed by forward folding) and locally recover rna-specific structural descriptors. the most performant version of rna-frameflow generates locally realistic rna backbones of 40-150 nucleotides, over 40% of which pass our validity criteria as measured by a self-consistency tm-score >= 0.45, at which two rnas have the same global fold. open-source code: https://github.com/rish-16/rna-backbone-design

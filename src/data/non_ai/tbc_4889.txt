@@ -1,1 +1,4 @@
-Cocotte Jolie: innovare lâ€™offerta mescolando tradizione  benessere e tecnologia
+Le Brain-Computer Interfaces (BCI) offrono speranze per restituire autonomia a persone con disabilità 
+motorie o malattie neurodegenerative, permettendo loro di controllare protesi e sistemi robotizzati. Due 
+tra le sfide che ancora limitano la tecnologia a una larga diffusione sono la corretta estrazione 
+dell’intenzione di movimento, o comunicazione, e un’efficace realizzazione dell’intenzione estratta.

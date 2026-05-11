@@ -1,1 +1,1 @@
-Creazione di un motore di AI per credit scoring basato su Natural Language Processing (NLP) con BERT/GPT dedicato al settore telecomunicazioni. L'addestramento sfrutta dati finanziari tick-by-tick ad alta frequenza con tecniche di data augmentation. L'infrastruttura include feature store centralizzato per training e inferenza.
+Il presente piano formativo si incentra sull’introduzione dell’Intelligenza artificiale nei processi di analisi della domanda dei clienti e autoanalisi del business aziendale e nell’integrazione con il software PowerBI.

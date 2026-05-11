@@ -1,0 +1,3 @@
+Il progetto ATENA - Advanced and virtuality Technologies for hEalthcare InNovAtion si dispiega lungo due principali linee di sviluppo, mirate alla dimostrazione completa in ambiente operativo reale di due dispositivi medici e alla relativa immissione in commercio.  
+
+La prima linea di sviluppo concerne una seduta adattabile per un sistema intelligente per il supporto alle terapie di riabilitazione dei pazienti con disturbi neuro-motori (concessione brevetto n. 202017000137884); la seconda linea di sviluppo riguarda un caschetto multisensoriale per un sistema di monitoraggio e supporto alla terapia per bambini con disturbi del neuro-sviluppo, come autismo e patologie affini (concessione brevetto n. 202018000002071).

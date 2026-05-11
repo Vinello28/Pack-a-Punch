@@ -1,1 +1,0 @@
-Sviluppo di tecnologie avanzate per il riconoscimento passivo del corpo umano attraverso l analisi di segnali RF generati da reti IoT massive. Saranno verificate le potenzialit delle tecnologie sviluppate con riferimento alla robotica collaborativa

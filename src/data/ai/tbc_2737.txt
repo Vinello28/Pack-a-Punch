@@ -1,1 +1,1 @@
-Il progetto prevede la realizzazione di una soluzione informatica in grado di effettuare le attivit di Riconciliazione Bancaria e IVA mediante l impiego di metodologie di Intelligenza Artificiale e Machine Learning.
+Realizzazione di un virtual showroom nel proprio sito con la possibilita, tramite l’intelligenza artificiale, di effettuare simulazioni di articoli su modelli presenti conferendo al sito le proprieta di uno store fisico o di una fiera di settore.

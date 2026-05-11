@@ -1,1 +1,6 @@
-ATTRAVERSO Lâ€™ANALISI DELLE PERFORMANCE PER LE DUE BUSINESS UNIT AZIENDALI (BU IMPIANTI E BU MANUTENZIONI)  SARANNO SVOLTE LE SEGUENTI ATTIVITÃ€ ED OTTENUTI I SEGUENTI OUTPUT: 1) OGGETTIVATI I RISULTATI PER BU  CLASSIFICANDOLI PER TIPOLOGIA DI LAVORO  COMMITTENTE E PER I DRIVER DI ANALISI CHE IL TEAM SCEGLIERÃ€ DI ADOTTARE
+Il progetto riguarderà l acquisto di un dispositivo composto da un computer (Hardware)  connesso ad un software dedicato e di un terminale (simile ad una telecamera). Tale macchinario permetterà istantaneamente sul pc di visualizzare la scansione tridimensionale e a colori della bocca del paziente.
+Tale processo digitale crea un notevole risparmio di tempo per la realizzazione finale del manufatto in quanto riduce drasticamente il numero di passaggi. Infatti l impronta ottica digitale viene elaborata dal pc e convertita in un file che viene direttamente spedita al centro di produzione del manufatto da parte dell odontotecnico, il quale riceverà il prodotto da completare con la sua opera e quindi dal dentista.
+
+N. 1 CS3600 Scanner 3d intraorale carestream, scansione continua, ad alta velocità e a colori
+N. 1 Software di gestione immagini e chiave di licenza d'uso
+N. 1 Computer mod. Asus gamings ad alte prestazioni grafiche per acquisizione immagini 15.6'' FHD

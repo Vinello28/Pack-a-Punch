@@ -1,1 +1,1 @@
-Musealizzazione attraverso le tecnologie digitali dell ipogeo del Comune di Canosa prevedendo la realizzazione di un percorso multimediale con videoproiezione e spazializzazione audio multicanale basato sulla tecnica della Spatial Augmented Reality con
+Implementazione di algoritmi di Federated Learning per privacy-preserving AI per pricing dinamico nel dominio sicurezza. Il progetto integra video ad alta definizione 4K/8K provenienti da multiple sorgenti eterogenee. Il finanziamento copre data warehouse su Snowflake/BigQuery e team di data scientist specializzati.

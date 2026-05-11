@@ -1,1 +1,1 @@
-SOTTOPROGETTO 2 - L'AVARIATO E LE ALFATOSSINE NELLE NOCCIOLE SOTTOPROGETTO 3 - CASCOLA PRERACCOLTA  CRITICITA' MULTIFATTORIALE
+Aggiornamento dell'infrastruttura informatica sia hardware che software ed implementazione di policy di sicurezza dati

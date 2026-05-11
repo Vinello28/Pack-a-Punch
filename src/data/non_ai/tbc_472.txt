@@ -1,1 +1,1 @@
-DELOCALIZZAZIONE TEMPORANEA_CONTRIBUTO_DI MEGLIO MATTEO
+Progettazione, sviluppo e deployment di una soluzione web-based per il miglioramento dell'efficienza aziendale nella gestione delle richieste di quotazione dei servizi erogati da Optimist tramite gestione della richiesta del Lead, implementazione delle informazioni di fornitura e delivery dell'offerta con gestione multi-ruolo del personale commerciale.

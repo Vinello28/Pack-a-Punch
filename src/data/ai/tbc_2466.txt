@@ -1,1 +1,7 @@
-Progetto di ricerca applicata su Explainable AI (XAI) con SHAP/LIME per riconoscimento vocale in ambito sanità. Il sistema elabora log di sistema e telemetria applicativa attraverso pipeline di data processing avanzate. Il deployment avviene su data warehouse su Snowflake/BigQuery con monitoraggio continuo delle performance.
+Il progetto, anticipato dal bilancio competenze in entrata e tenuto dai veterinari di riferimento, e finalizzato a razionalizzare, per lo piu tramite la modalita didattica del training on the job, le procedure aziendali per facilitare:
+* l'adozione di criteri tipici della biosicurezza, da applicare in vista della minimizzazione di disfunzioni e diseconomie gestionali altrimenti fisiologiche;
+* la trasformazione dell'impresa secondo i principi dell'allevamento 4.0 (sostenibilita economica ed ecologica; aumento della performance per effetto dell'adozione di tecnologie   sensoristica, soluzioni IoT integrate, intelligenza artificiale e blockchain  in grado di rendere la stalla intelligente.
+
+L'intervento approfondira gli strumenti e i metodi essenziali ala realizzazione di un buon sistema di bioconformita, ovvero:
+  le misure e prassi non cogenti collegate alla c.d bioconformita: si riferisce alla capacita di pianificare ed implementare buone norme di gestione aziendale mirate a tutelare la c.d  biosicurezza, insieme delle proceduire per migliorare la situazione sanitaria dell'allevamento, garantire il benessere animale e ridurre l'impatto ambientale dell'intero processo produttivo;
+*...

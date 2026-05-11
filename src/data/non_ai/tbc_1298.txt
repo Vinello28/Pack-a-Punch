@@ -1,1 +1,8 @@
-Strumenti e strategie di Personal Branding e Web Reputation nellâ€™Universo digitale
+Implementazione integrazione e sviluppo digitale processi aziendali: 
+- Analisi tempi produzione e quantitativi prodotti - implementazione industria 4.0 per monitoraggio dati produzione
+- Implementazione metodi di controllo statistico di processo 
+- Implementazione e monitoraggio continuo performance aziendale tramite IPR (indicatori di performance)
+- Analisi costi aziendali ed elaborazione budgeting annuale
+- Studio per automazione set-up macchine  / cambio stampo rapido
+- Analisi mercato, nuovi potenziali clienti e settori in crescita
+- Studio fattibilità implementazione COBOT per asservimento macchine

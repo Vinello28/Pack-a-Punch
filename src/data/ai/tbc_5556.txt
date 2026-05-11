@@ -1,1 +1,7 @@
-Innovativa architettura per modelli di ML adeguati alla capacitÃ  di analisi in tempo reali di dati infirmatici volta alla ricerca di anomalie  sia su base signature che comportamentale  il cui uso puÃ² applicarsi a differenti scenari dalla cyber-security  ed in particolare nel contrasto al c.d. adversarial Machine Learning  che allâ€™IoT  dallâ€™analisi forenze post incident  allâ€™analisi dei big data. L'invenzione verrÃ  depositata direttamente a livello internazionale alla WIPO entro il mese di giugno 2024.
+Servizio di Test before invest finalizzato alla
+sperimentazione e alla validazione di software, UX
+design, intelligenza artificiale, integrazione sistemi
+di pagamento, gestione multiprofilo e analytics;
+nella definizione delle architetture, nella
+prototipazione delle nuove feature AI e nel validare
+i nuovi flussi di business.

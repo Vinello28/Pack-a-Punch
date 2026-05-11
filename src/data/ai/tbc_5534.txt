@@ -1,0 +1,1 @@
+The primary goal of this project is to analyze privacy-leaking traffic and develop an experimental framework for creating AI-based circuit breakers. These circuit breakers will be designed to protect the privacy of customers and users, particularly in generative AI scenarios (such as GPT-like models) and classification-based applications.

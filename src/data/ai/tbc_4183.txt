@@ -1,0 +1,1 @@
+Progettazione e sviluppo di una piattaforma software basata su AI e machine learning che agisce come intermediario tra banche e mutuatari

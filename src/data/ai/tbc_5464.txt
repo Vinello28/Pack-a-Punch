@@ -1,0 +1,9 @@
+Il progetto OneFormula ha come obiettivo la realizzazione di una piattaforma digitale innovativa che integra: un motore di intelligenza artificiale per la generazione e predizione di nuove formulazioni (nutraceutici, integratori, alimenti funzionali, cosmetici funzionali, dispositivi medici); un motore normativo dinamico capace di verificare in tempo reale la conformità alle normative multi-giurisdizionali; un workflow sperimentale validativo in collaborazione con centri di ricerca e aziende pilota. Caratteristiche principali:
+•	multi-settore: copertura di più ambiti regolatori e industriali;
+•	interoperabilità con sistemi LIMS e gestionali aziendali;
+•	capacità predittive basate su modelli ML;
+•	generazione automatizzata di dossier di conformità
+Prestazioni attese:
+•	riduzione del tempo medio di sviluppo formulazioni del 30–40%;
+•	accuratezza predittiva dei modelli = 80% su parametri chimico-fisici;
+•	conformità normativa automatizzata per oltre il 90% delle formulazioni generate

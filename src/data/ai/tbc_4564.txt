@@ -1,0 +1,7 @@
+Eticasa è un'agenzia immobiliare che mira ad innovare il proprio settore grazie a una gestione digitale dei processi. Il progetto riguarda:
+-Acquisto di hardware: workstation ad alte prestazioni, server nas e sistemi di backup interni, occhiali immersivi 3D  ;
+ - Abbonamento annuale a piattaforme di sviluppo per gestione sorgenti hosting e scalabilità Immotech ; Licenze SaaS per CRM con automazioni e lead management ; Licenze di AI API (es. OpenAI, Google Vertex AI) integrate nel sistema Immotech; Sistema di gestione e notarizzazione blockchain per la tracciabilità delle segnalazioni
+- Allestimento area operativa dedicata allo sviluppo e test della piattaforma: cablaggi, climatizzazione rack, scrivanie tecniche e pareti attrezzate;
+- Sviluppo e personalizzazione della piattaforma Immotech: costruzione architettura software in microservizi, integrazione CRM, AI per valutazione immobiliare, blockchain per tracciabilità e altro;
+- Consulenze fornitori esterni per: assessment iniziale e finale, coordinamento strategico digitale, architettura dati, progettazione degli algoritmi di intelligenza artificiale e altro. Consulenza strategica per integrazione blockchain e scalabilità SaaS.
+L'obiettivo è digitalizzare i processi, rendere l'azienda sostenibile, valorizzare le filiere

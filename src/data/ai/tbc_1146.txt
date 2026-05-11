@@ -1,1 +1,1 @@
-Digitalizzazione di raccolte bibliografiche di particolare interesse per la storia contemporanea e creazione di nuovi contenuti creativi digitali tramite l IA
+Blazematic è una piattaforma destinata a editori e inserzionisti, essa è basata su un algoritmo proprietario che, attraverso il Machine Learning ed in maniera del tutto automatizzata, riesce a predire comportamenti e propensione all'acquisto degli utenti, servendo a ciascuno un messaggio pubblicitario personalizzato al fine di incrementarne la probabiità di acquisto.

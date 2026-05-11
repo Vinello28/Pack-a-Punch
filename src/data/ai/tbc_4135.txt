@@ -1,1 +1,4 @@
-BM-AI: Interfaccia cervello macchina ad elevata risoluzione basata su algoritmi adattivi AI a supporto dello sviluppo di Digital Twins per lo studio di neuropatologie
+Il progetto MARPA  mira a sviluppare e sperimentare un sistema di “Communication and sensing” avanzato per applicazioni di
+prossima generazione in campo veicolare. Il fulcro del progetto è l'integrazione di tecnologie di
+beamforming radio associate a visione artificiale per migliorare l'affidabilità e la precisione del
+posizionamento in contesti critici per la sicurezza e con alta domanda di servizi

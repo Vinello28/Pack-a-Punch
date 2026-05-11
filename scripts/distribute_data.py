@@ -5,7 +5,7 @@ import uuid
 def distribute_data():
     # Paths
     excel_path = "src/data/tbc_classificata.xlsx"
-    csv_path = "src/data/bert_bin_unbiased_v2.csv"
+    csv_path = "src/data/bert_bin_fin.csv"
     base_data_path = "src/data"
     
 

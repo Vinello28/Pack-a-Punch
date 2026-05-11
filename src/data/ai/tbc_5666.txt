@@ -1,0 +1,1 @@
+Il progetto sviluppa SOEM, piattaforma di sicurezza per sistemi OT e ICS, con monitoraggio, rilevamento e risposta in tempo reale. Integra dati multi-livello, ML e reti neurali per individuare anomalie di rete e processo, garantendo continuità operativa e protezione delle infrastrutture critiche.

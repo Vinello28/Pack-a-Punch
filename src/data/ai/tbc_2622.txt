@@ -1,1 +1,6 @@
-Acquisto di macchine di nuova generazione per migliorare la produttivit e velocizzare i processi dell'area UI UX e del reparto di artificial intelligence.
+L’iniziativa mira a predisporre metodi e strumenti per il supporto alla progettazione, alla realizzazione e alla gestione delle comunità energetiche. L’obiettivo del progetto SAVE è quello di creare una piattaforma, per la creazione di CER, dalla fase di studio di fattibilità alla messa in esercizio e gestione.  La piattaforma innovativa che si intende realizzare consentirà di:
+• simulare il dimensionamento e la gestione di sistemi energetici con riferimento ai fabbisogni della comunità;
+• facilitare, attraverso algoritmi di Machine learning, la definizione del modello economico della comunità e  della redistribuzione degli incentivi e dei risparmi tra i membri dello schema;
+• ottimizzare, grazie ad un sistema euristico, i flussi energetici in funzione dei fabbisogni della Comunità energetica e delle performance degli impianti;
+• realizzare cruscotti per l’analisi dei comportamenti dei sistemi energetici e per il monitoraggio del servizio e dei flussi energetici per i membri della comunità e con i soggetti esterni; 
+• certificare i dati attraverso un servizio di Blockchain.

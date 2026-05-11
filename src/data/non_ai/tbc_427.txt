@@ -1,1 +1,1 @@
-Tool innovativo di analisi e dimensionamento della smart grid (InCAD) e algoritmi innovativi di forecasting  routing energetico e data analytics (InEnCo_sw)
+fornitura di un nuovo Server e nuova infrastruttura di rete che da modalità teminal passa a modalità Domain Controller riorganizzando i processi di elaborazione e salvataggio dati con archiviazione centralizzata sul server sia per la parte gestionale che per la parte documentale e di archiviazione elettronica.

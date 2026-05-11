@@ -1,1 +1,13 @@
-Le attivit previste consistono in un corso di formazione di 8 ore totali sui seguenti temi: - Definizioni: cybersecurity information security Infosec/Comsec ecc.. - L'importanza delle informazioni in quanto asset intangibile Riservatezza/Integrit /Disponibilit rischio cenni alla ISO 27001 - CH e cos' e come sta evolvendo il cyberspazio: non solo social e-mail e World Wide Web ma sempre pi warfare IoT infrastrutture critiche e intelligenza artificiale - Chi il nemico dal mito dell'hacker alla realt : criminalit organizzata minacce statuali sproporzione tra attacco e difea - Come ci difendiamo: dalla tradizionale difesa perimetrale ai nuovi modelli di architettura tecnologica vulnerabilit information sharing - Il fattore umano come anello debole: social engineering gestione delle password - Riepilogo dei principi generali su cui si basa la sicurezza informatica e dell'informazione
+IL PROGETTO MIRA A VALIDARE UN MODELLO INNOVATIVO DI GESTIONE CULTURALE E TURISTICA SUPPORTATO DA UN’APPLICAZIONE DIGITALE BASATA SULL’AI APPLICATA  ALLO SVILUPPO DEL TURISMO SOSTENIBILE E NELLA VALORIZZAZIONE DEL PATRIMONIO CULTURALE.
+SI BASA SULLA COLLABORAZIONE TRA OPERATORI TURISTICI E CULTURALI, E L’USO DELL’AI SERVE A PERSONALIZZARE LE ESPERIENZE TURISTICHE, LA RACCOLTA E IL MONITORAGGIO DEI DATI PER MIGLIORARE LA SODDISFAZIONE DEGLI UTENTI E L’OFFERTA PERSONALIZZATA; LA REINGEGNERIZZAZIONE DEI PROCESSI PRODUTTIVI INTERNI. 
+OBIETTIVI: 
+• ANALISI DELLA STRATEGIA DI SVILUPPO PRODOTTO, DELLA STRATEGIA DI MARKETING E GO-TO-MARKET, SUA VALIDAZIONE;
+• ANALISI DELLE ATTIVITÀ DI SUPPLY CHAIN E DI NETWORK OPERATIONS E STAKEHOLDER ENGAGEMENT;
+• ANALISI DELLA STRATEGIA DI GESTIONE DELLA PROPRIETÀ INTELLETTUALE E VERIFICA DELLE AZIONI DA IMPLEMENTARE; VERIFICA DELLA STRATEGIA DI FUNDRAISING;
+• ACCOMPAGNAMENTO NELL’ ACQUISIZIONE DI CAPITALE DI DEBITO E NEI RAPPORTI CON LE ISTITUZIONI CREDITIZIE; 
+IL COMPLESSO DELLE ATTIVITÀ È FINALIZZATO A :
+- ACCELERARE PENETRAZIONE DEL MERCATO 
+- CREARE UN VANTAGGIO COMPETITIVO 
+- MASSIMIZZARE L’IMPATTO SOCIALE 
+- ESPANDERE IL BUSINESS ANCHE AL DI FUORI REGIONALI E NAZIONALI 
+- CREARE LE CONDIZIONI DI PARTNERSHIP ASSICURARE LA SOSTENIBILITÀ

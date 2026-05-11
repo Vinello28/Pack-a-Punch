@@ -1,1 +1,4 @@
-approccio integrato che unisce Artificial Intelligence sviluppo di contenuti audiovisivi con speciali metodologie e Internet of Things
+Oggetto della presente Offerta è la fornitura di servizi tecnologici avanzati ed innovativi; in particolare la presente offerta 
+prevede la erogazione di servizi funzionali alla Sperimentazione di un PoC: portale basato su AI Generativa per la 
+Documentazione Doganale _ Origine Preferenziale e non Preferenziale (il “Servizio”).
+Il PoC permetterà di esplorare il potenziale dell'AI generativa in un dominio complesso come quello doganale.

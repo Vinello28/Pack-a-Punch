@@ -1,1 +1,21 @@
-Innova Finance societ di consulenza in finanza agevolata ha un progetto di sviluppo tecnologico che completa un programma di digitalizzazione finalizzato ad ottenere strumenti innovativi per la gestione e l offerta dei propri servizi. L obiettivo sviluppare un sistema customizzato e integrato per la gestione degli ordini e delle iniziative marketing che sfrutti l IA e tramite API sia collegato ad applicazioni di terze parti legati sia alle anagrafiche imprese sia ai bandi. La nuova piattaforma offrir all Area Commerciale Marketing e BD funzionalit digitali avanzate basate su tecnologie 4.0. La nuova soluzione punta ad azzerare le limitazioni degli strumenti commerciali sul mercato introducendo un interfaccia dinamica con servizi di recupero dati aziendali gestione delle opportunit contrattuali e strumenti di analisi per prevedere tendenze di mercato con precisione e tempestivit . L integrazione con ERP e gestionale di produzione consentir sinergia operativa ottimale nei processi di lavoro interni e alta qualit nelle interazioni con i clienti. Questa soluzione garantisce maggiore efficienza flessibilit e produttivit riducendo i tempi di risposta alle imprese facilitando l attivit di consulenza dei collaboratori e rafforzando il posizionamento di Inn
+privacy policies are the primary channel through which companies inform users
+about their data collection and sharing practices. these policies are often
+long and difficult to comprehend. short notices based on information extracted
+from privacy policies have been shown to be useful but face a significant
+scalability hurdle, given the number of policies and their evolution over time.
+companies, users, researchers, and regulators still lack usable and scalable
+tools to cope with the breadth and depth of privacy policies. to address these
+hurdles, we propose an automated framework for privacy policy analysis
+(polisis). it enables scalable, dynamic, and multi-dimensional queries on
+natural language privacy policies. at the core of polisis is a privacy-centric
+language model, built with 130k privacy policies, and a novel hierarchy of
+neural-network classifiers that accounts for both high-level aspects and
+fine-grained details of privacy practices. we demonstrate polisis' modularity
+and utility with two applications supporting structured and free-form querying.
+the structured querying application is the automated assignment of privacy
+icons from privacy policies. with polisis, we can achieve an accuracy of 88.4%
+on this task. the second application, pribot, is the first freeform
+question-answering system for privacy policies. we show that pribot can produce
+a correct answer among its top-3 results for 82% of the test questions. using
+an mturk user study with 700 participants, we show that at least one of
+pribot's top-3 answers is relevant to users for 89% of the test questions.

@@ -1,1 +1,14 @@
-Inox Bim azienda italiana fondata nel 1994 e specializzata nella produzione di attrezzature in acciaio inox per la ristorazione e i servizi turistici si appresta a compiere un importante salto di qualit sul piano digitale. Il progetto mira ad accrescere il livello di digitalizzazione dell impresa adottando tecnologie avanzate per migliorare efficienza e competitivit anche sui mercati esteri. Tra gli interventi principali prevista l introduzione di tablet nei centri di lavorazione manuale integrati con il sistema MES per monitorare lo stato di avanzamento della produzione in tempo reale e ottimizzare l uso dei macchinari. In parallelo sar sviluppato un software di intelligenza artificiale integrato al gestionale aziendale capace di automatizzare l analisi delle e-mail in arrivo e la generazione automatizzata delle risposte. Questa innovazione ridurr i tempi di risposta e liberer risorse del reparto commerciale che potr focalizzarsi su attivit strategiche come l espansione in nuovi mercati. Il progetto basato su automazione e integrazione digitale porter a una significativa ottimizzazione dei costi interni e dei processi migliorando il posizionamento competitivo dell azienda e aprendo nuove prospettive di crescita sostenibile
+in order to achieve state-of-the-art performance, modern machine learning
+techniques require careful data pre-processing and hyperparameter tuning.
+moreover, given the ever increasing number of machine learning models being
+developed, model selection is becoming increasingly important. automating the
+selection and tuning of machine learning pipelines consisting of data
+pre-processing methods and machine learning models, has long been one of the
+goals of the machine learning community. in this paper, we tackle this
+meta-learning task by combining ideas from collaborative filtering and bayesian
+optimization. using probabilistic matrix factorization techniques and
+acquisition functions from bayesian optimization, we exploit experiments
+performed in hundreds of different datasets to guide the exploration of the
+space of possible pipelines. in our experiments, we show that our approach
+quickly identifies high-performing pipelines across a wide range of datasets,
+significantly outperforming the current state-of-the-art.

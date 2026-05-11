@@ -1,1 +1,1 @@
-Il progetto prevede l'automazione delle attivitÃ  di elaborazione ed analisi dei dati economici (cicli attivi e cicli passivi) delle aziende al fine di produrre dei report necessari per la redazione di un cruscotto direzionale.
+Smart learning in AXA: verso una formazione piÃ¹ flessibile e personalizzata

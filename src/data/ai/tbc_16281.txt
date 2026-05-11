@@ -1,0 +1,1 @@
+Analisi del pregio del legno di noce (vene) mediante algoritmo di machine learning auto-apprenditivo che opera attraverso la T.I.C.

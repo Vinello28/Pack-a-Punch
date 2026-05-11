@@ -1,1 +1,1 @@
-sviluppo del sistema DropH che si basa sulla microfluidica a gocce per l'isolamento  l'analisi e l'identificazione delle cellule tumorali circolanti (CTC) direttamente da campioni di sangue periferico.
+Idea bioprocess technology

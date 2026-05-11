@@ -1,0 +1,6 @@
+LionDx
+intende sviluppare una soluzione diagnostica rapida per le sepsi basata su NGS, in grado di
+identificare l’agente eziologico ed i determinanti genici di resistenza direttamente da sangue. Un
+software, con impiego di intelligenza artificiale, elaborerà i risultati diagnostici integrandoli con: -
+aspetti clinici - epidemiologici - antibiogrammi (fenotipici) dei ceppi analoghi Questo potrà fornire
+una risposta accurata sia sulla patologia sia sul trattamento terapeutico entro 24-48 ore.

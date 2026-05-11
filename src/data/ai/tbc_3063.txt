@@ -1,1 +1,1 @@
-Bando Impresa Digitale AI4Battery â€“ Impiego di Artificial Intelligence (AI) e Machine Learnig (ML) per massimizzare la vita ed ottimizzare lâ€™impiego delle batterie di accumulo di energia generata da fonti rinnovabili.
+Sviluppo di una piattaforma all’interno della quale integrare l’intelligenza artificiale con supporto di riconoscimento vocale e di sintesi vocale per facilitare la fruizione dei contenuti per gli utenti

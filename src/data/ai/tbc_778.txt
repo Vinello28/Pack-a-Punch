@@ -1,0 +1,12 @@
+ll progetto "Particles" si pone come obiettivo quello di sfruttare le tecnologie più innovatìve in ambito Big
+Data e Machine Learning per creare una piattaforma che si interfacci con il nostro ecosistema composto da
+Ecommerce, Gestionale di Magazzino e CRM.
+ll software avrà il compito dieseguire le seguenti operazioni:
+- collezionamento dati: è la fase principale, durante la quale il software inizierà ad apprendere grazie ad
+una serie di eventi generati dalle visite sulsito, gli ordini e le richieste di assistenza;
+- clusterint e segmentazione: in questa fase il software ha il compito di analizzare i dati raccolti e
+attraverso tecnologie di apprendimento automatico, individuare schemi ricorrenti e consolidati al fine di
+define gruppi e segmenti con alto indice di correlazione, specifici al nostro target.
+- creazione di modelli predittivi: analizzando i cluster e segmenti dovrà creare dei modelli predittivi in
+tempo-reale che aiutino a prendere decisioni aziendali piùr efficaci ed a stabilire un rapporto piil
+personale con il cliente.

@@ -1,1 +1,3 @@
-Sviluppo di una piattaforma AI per ottimizzazione processi produttivi tramite Time Series Forecasting con modelli ARIMA-LSTM ibridi applicata al dominio telecomunicazioni. Il modello viene addestrato su Big Data provenienti da sensori IoT distribuiti e deployato su monitoring e observability con Prometheus/Grafana. I fondi supportano ricerca, sviluppo e validazione sul campo.
+USe (Ultrasound Steatosis Evaluator) è uno strumento software assistito dall’IA (deep learning e
+machine learning) in grado di analizzare un’immagine ecografica singola e valutare
+accuratamente la presenza di grasso superiore al 7.2% nel fegato

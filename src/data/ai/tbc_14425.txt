@@ -1,0 +1,1 @@
+Realizzare una suite di servizi di Visual Recognition e Deep Learning dedicata alle aziende del settore moda.

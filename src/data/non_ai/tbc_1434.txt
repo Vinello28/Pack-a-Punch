@@ -1,1 +1,1 @@
-Formazione continua
+Il progetto si basa sulla integrazione del sistema informativo aziendale (ERP),sistema hardware/software (FRAMES),sistemi di scambio dati tra ERP e FRAMES e analisi strategiche sui Big Data

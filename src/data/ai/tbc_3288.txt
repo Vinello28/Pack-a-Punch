@@ -1,1 +1,0 @@
-SpindleHealth ha lo scopo di: Automatizzare e rendere pi accurata l analisi vibrazionale tramite algoritmi di Machine Learning Rendere pi efficiente la conduzione e la manutenzione dei macchinari

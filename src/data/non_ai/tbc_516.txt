@@ -1,1 +1,11 @@
-Sviluppo di una soluzione avanzata per la geolocalizzazione delle bombole di gas
+Realizzazione di un sito composto di due sezioni principali : una informativa e una e-commerce su piattaforma Prestashop perla vendita online di prodotti.
+Verrà gestito tramite un pannello CMS per la gestione autonoma dei contenuti del sito. Il progetto prevede le seguenti sezioni:
+1) Layout grafico
+2) Catalogo prodotti
+3) Ordini e pagamenti
+4) Spedizioni
+5) Seo
+6) Area Istituzionale
+7) Hosting e dominio
+Inoltre nel progetto prevediamo di acquistare il seguente Hardware : 
+Imacret5k marchio Apple, superdrive, ups 1500VA, sist 2.1 Mfc Laser e Applacr telematico

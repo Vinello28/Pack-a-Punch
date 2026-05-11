@@ -1,1 +1,3 @@
-Il progetto ha come obiettivo sviluppare strumenti software innovativi che integrino metodi di apprendimento automatico e teoria dei sistemi di controllo per costruire modelli gray-box che combinino conoscenze basate sulla fisica con l'apprendimento basato su dati  e procedure (semi)automatiche di calibrazione per sistemi di controllo avanzati basati su controllo predittivo (MPC).
+The project aims to develop, through the realisation of Proof of Concepts (POC), a feasibility study for a software dedicated to the semi-automatic control of administrative regularity in PA, based on AI generative technologies.
+The study will examine various aspects, from technical feasibility to economic and operational feasibility, starting from the idea of creating a system that exploits generative AI technologies, which supports PA in the management of administrative regularity control processes in areas
+sensitive to maladministration, particularly in the public procurement sector.

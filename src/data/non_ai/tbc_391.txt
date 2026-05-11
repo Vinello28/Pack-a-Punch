@@ -1,0 +1,1 @@
+Creazione di un upp per dispositivi mobili IOS e android e fissi ,che permetta all'utente di personalizzare il corredino neonato. Il target di pubblico a cui si rivolge l'upp è la donna in stato di gravidanza.

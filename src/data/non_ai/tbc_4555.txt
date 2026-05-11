@@ -1,0 +1,4 @@
+Il progetto intende sviluppare un osservatorio distribuito e permanente della
+biodiversità e delle variabili biogeochimiche nel Mare di Weddell orientale (Antartide) applicando tecnologie
+autonome, protocolli standardizzati e campionamenti regolari per identificare precocemente i cambiamenti
+dell’ecosistema e proporre strategie di mitigazione

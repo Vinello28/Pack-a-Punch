@@ -1,0 +1,3 @@
+REASY è uno strumento per supportare lo studio di studenti con Dislessia. Lo strumento, grazie
+all’impiego di algoritmi di AI, suggerisce le migliori metodologie di supporto per il singolo studente e
+rende accessibile qualsiasi pagina web

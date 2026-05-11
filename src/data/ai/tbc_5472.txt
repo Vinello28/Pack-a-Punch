@@ -1,1 +1,21 @@
-L'azienda ha gi realizzato un tool (Pitchtarget) utilizzato per centralizzare le attivit di marketing di decine di piccole e medie imprese. Il tool integra un sistema di gestione dei contenuti (CMS) con i sistemi di pubblicazione di pubblicit messi a disposizione da Facebook. Il primo obiettivo del progetto l'espansione delle funzionalit di automazione a altre piattaforme pubblicitarie come ad esempio Google. Il secondo obiettivo del progetto la realizzazione di un sistema di big data che permetta l'ingestione di dati dai gestionali dei clienti il loro salvataggio in un unica base dati (data lake) e la possibilit di correlare questi dati con i dati di performance delle campagne sulle piattaforme pubblicitarie (Google Facebook etc). La mole di dati trattati richiede la definizione e l'implementazione di un sistema Big Data che permetta di eseguire delle analisi dati complesse. Le analisi dati richieste sono finalizzate alla realizzazione di modelli predittivi che automatizzino l'attuale gestione. Il nuovo algoritmo data-driven permetter di intervenire in real-time su gruppi di campagne pubblicitarie attive su molteplici piattaforme con lo scopo di ottimizzare una specifica metrica di performace.
+Rivelio Search Engine 3.0 "Blueprint" rappresenta l’evoluzione del motore di ricerca che alimenta RIVELIO.it, unica piattaforma in Italia ad indicizzare tutte le offerte di lavoro nel settore della P.A.
+
+SFIDE TECNOLOGICHE:
+- Monitorare più di 20.000 fonti, eterogenee e che cambiano spesso  
+- Scaricare più di 50.000 documenti al giorno  
+- Superare captcha, firewall e restrizioni.
+
+CRITICITÀ ATTUALI:
+- Infrastruttura e codice monolitici: costi elevati, crash frequenti, filtri imprecisi, duplicazioni nei download, cyber-sicurezza carente  
+- Due gestionali CMS diversi per gestire utenti e pubblicazione bandi, con funzionalità insufficienti
+
+INNOVAZIONE TECNOLOGICA:
+Verrà sviluppata una nuova infrastruttura cloud a supporto del motore di ricerca, il cui codice sorgente sarà ristrutturato e integrerà agenti AI per automatizzare l’intero flusso di lavoro. 
+
+La soluzione prevede:
+- Potenza e scalabilità illimitate
+- Maggiore sicurezza e minori downtime
+- Riduzione uso risorse e costi di sviluppo  
+- Data pipeline avanzate e agenti AI per automatizzare tutto il processo produttivo
+- Alerting anomalie
+- CMS unico e maggiori funzionalità: permessi granulari, ottimizzazione dei processi interni, integrazione con CMS esterni e monitoraggio lavoro operatori.

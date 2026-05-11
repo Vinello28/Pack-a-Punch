@@ -1,1 +1,1 @@
-Piattaforma di ottimizzazione di portafoglio finanziario basata su tecniche di Deep Reinforcement Learning e analisi dei sentiment dei mercati.
+Riscrivere il software MES per adattarlo a diversi settori e aumentare la produttività. La suite in sviluppo includerà manutenzione predittiva, interfacce dinamiche e assistenza con AI per operatori inesperti.

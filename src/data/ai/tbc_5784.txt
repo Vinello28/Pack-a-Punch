@@ -1,0 +1,2 @@
+Sistema AI per la stratificazione dei pazienti con tumore del colon-retto metastatico al fegato, identificando responder e non
+responder alle terapie tramite integrazione di dati radiomici, morfologici, clinici e biomolecolari

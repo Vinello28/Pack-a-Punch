@@ -1,1 +1,4 @@
-Il finanziamento richiesto riguarda la creazione di una piattaforma digitale di interazione con il cliente ove fornire in tempo reale documenti utili e normative di approfondimento la realizzazione di una campagna pubblicitaria al fine di ampliare il raggio di conoscibilit corsi di formazione (nel campo di riferimento difatti richiesta la formazione continua) consulenza privacy. La suddetta iniziativa di natura sartoriale rispetto ai diversi codici ATECO dei clienti tramite l'utilizzo dell'interfaccia di intelligenza artificiale provveder a fornire una consulenza specifica e cucita addosso al cliente. E' prevista inoltre la realizzazione di una campagna pubblicitaria al fine di ampliare il raggio di conoscibilit e la fruizione di corsi di formazione.
+Il progetto ha come obiettivo Sviluppo di nuovi sottosistemi HW e SW per una piattaforma che consentirà, in
+modo più efficiente degli approcci attuali, l'esecuzione di applicazioni di intelligenza artificiale (a) in tempo
+reale, (b) con un budget energetico inferiore, (c) con livelli di integrità della sicurezza appropriati per
+l'applicazione e (d) in modo altamente sicuro;

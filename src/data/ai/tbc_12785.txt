@@ -1,9 +1,1 @@
-current machine learning systems operate, almost exclusively, in a
-statistical, or model-free mode, which entails severe theoretical limits on
-their power and performance. such systems cannot reason about interventions and
-retrospection and, therefore, cannot serve as the basis for strong ai. to
-achieve human level intelligence, learning machines need the guidance of a
-model of reality, similar to the ones used in causal inference tasks. to
-demonstrate the essential role of such models, i will present a summary of
-seven tasks which are beyond reach of current machine learning systems and
-which have been accomplished using the tools of causal modeling.
+experience replay enables reinforcement learning agents to memorize and reuse past experiences, just as humans replay memories for the situation at hand. contemporary off-policy algorithms either replay past experiences uniformly or utilize a rule-based replay strategy, which may be sub-optimal. in this work, we consider learning a replay policy to optimize the cumulative reward. replay learning is challenging because the replay memory is noisy and large, and the cumulative reward is unstable. to address these issues, we propose a novel experience replay optimization (ero) framework which alternately updates two policies: the agent policy, and the replay policy. the agent is updated to maximize the cumulative reward based on the replayed data, while the replay policy is updated to provide the agent with the most useful experiences. the conducted experiments on various continuous control tasks demonstrate the effectiveness of ero, empirically showing promise in experience replay learning to improve the performance of off-policy reinforcement learning algorithms.

@@ -1,1 +1,0 @@
-Computer Vision - Riconoscimento e catalogazione tulipani Robotica collaborativa - Prelievo e manipolazione per preparazione bouquet Smart application - FIWARE per guidare il robot nelle operazioni di prelievo e manipolazione dei fiori

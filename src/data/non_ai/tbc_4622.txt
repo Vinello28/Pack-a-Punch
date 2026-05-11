@@ -1,1 +1,6 @@
-Just in Time: i principi della produzione Lean per ridurre le scorte e il magazzino
+Il progetto SMART MECH nasce per rafforzare la competitività delle aziende della filiera
+meccanica attraverso l’adozione di tecnologie digitali avanzate. L’iniziativa si propone di
+sviluppare una Digital Networking Platform, un ecosistema virtuale che integra strumenti di
+Immersive Digital Twin, Virtual Showroom Deployment e Virtual Trade Shows per migliorare le
+opportunità di business, ottimizzare i costi e facilitare la connessione tra aziende, clienti e
+investitori.

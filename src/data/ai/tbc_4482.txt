@@ -1,0 +1,3 @@
+BookReplacer è un progetto per la realizzazione di un software che renda efficiente la riassegnazione dei libri inutilizzati tra biblioteche di uno stesso circuito e/o biblioteche con esigenze simili (es. biblioteche di conservatori musicali).
+Si concentra sulla semplificazione e velocizzazione delle fasi di inserimento e ricerca tramite l'uso di tecnologie avanzate quali AI / riconoscimento immagini / algoritmi di matching.
+E' previsto un coinvolgimento dell'utenza finale (cittadini) quali fornitori e/o fruitori dei libri inutilizzati.

@@ -1,1 +1,1 @@
-Realizzare un prototipo modulare subacqueo con algoritmi di IA e ML per monitorare i rifiuti marini.
+L'assistenza sanitaria si trova ad affrontare un'ondata di dati medici sparsi, complicata dai requisiti di privacy del GDPR. Il progetto propone il Federated Machine Learning per mantenere la riservatezza dei dati e migliorare al contempo le conoscenze cliniche. L'obiettivo è semplificare l'uso di FL, migliorare le prestazioni degli algoritmi e promuovere il supporto della comunità.

@@ -1,1 +1,0 @@
-Implementazione di un'escape room basata su realt virtuale giochi di enigmi e sfide mentali.

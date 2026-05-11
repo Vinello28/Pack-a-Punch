@@ -1,1 +1,1 @@
-SISTEMA PER LA CLASSIFICAZIONE AUTOMATICA DI OGGETTI MEDIANTE DEEP LEARNING
+Traduttore sensoriale, basato su un algoritmo di intelligenza artificiale, rivolto alla comunità sorda e ipoudente: esso traduce un’informazione uditiva in una tattile attraverso vibrazioni differenziate

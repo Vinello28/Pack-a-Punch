@@ -1,0 +1,3 @@
+Il progetto MIND che proponiamo prevede l'applicazione della piattaforma basata
+sull'intelligenza artificiale SoftMining per la progettazione, la sintesi e la caratterizzazione preclinica di
+molecole per le malattie neurologiche

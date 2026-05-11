@@ -1,0 +1,3 @@
+Realizzazione di  un rover terrestre a pilotaggio remoto per  effettuare sopralluoghi a fini assicurativi ed acquisire video e foto in luoghi inaccessibili all'uomo come ad esempio l'interno di strutture pericolanti o inagibili, locali con presenza di sostanze pericolose, ecc.
+Il rover consentirà di effettuare i sopralluoghi in maniera più efficiente, sicura e veloce. La possibilità di operare senza attendere la messa in sicurezza dei locali garantisce indagini più accurate e tempi più veloci
+Il robot sarà provvisto di braccio meccanico con manipolatore, telecamera ottica 3D e sensore Intel ZR300 REALSENSE. E¿  corredato di controllore logico programmabile che può gestire in automatico sia il pilotaggio che l'acquisizione dei dati.

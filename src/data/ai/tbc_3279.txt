@@ -1,0 +1,4 @@
+Il progetto FishVision è finalizzato a verificare, in condizioni reali, un applicativo gestionale
+basato sull’intelligenza artificiale per il benessere e la salute delle specie ittiche (orata, Sparus
+aurata e spigola, Dicentrarchus labrax) in allevamenti offshore in IMTA accessibile e gestibile
+tramite cloud.

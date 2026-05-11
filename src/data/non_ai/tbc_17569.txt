@@ -1,0 +1,1 @@
+Sviluppo del processo di progettazione che consenta il controllo delle commesse direttamente dal cantiere  attraverso l'utilizzo di software dedicati. Inoltre saranno automatizzati anche i processi di trasmissione dati tra l'ufficio tecnico e l'ufficio acquisti.

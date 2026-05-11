@@ -1,0 +1,8 @@
+Per rispettare le linee guida 2018 dei principali motori di rlcerca è necessario un redesign completo del sito
+in ottica "mobile". L'ampio impiego di design responsive di questi ultimi anni ha messo in luce come la
+regola "un unico sito per tutti i dispositivi" non sia la soluzione piùr adeguata per assicurare performance
+ottimali su siti ricchi di contenuti e funzionalita.
+Questo ci ha portato a scegliere un design ibrido, che sia al tempo stesso responsive e mobile-only. ll nuovo
+layout conterrà quindi degli elementi comuni, ed elementi specifici al dispositivo che saranno caricati
+all'esecuzione della pagina qualora richiesto. Sui dispositivi mobili quindi saranno inclusi elementi per
+privilegiare i tempi di caricamento di pagina e migliorarne l'usabilità.

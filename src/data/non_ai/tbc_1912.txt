@@ -1,1 +1,1 @@
-IMPIANTO DI VIDEO SORVEGLIANZA CON TECNOLOGIA IP, N. 3 PC NOTEBOOK HP PROCESSORE AMD/4GB RAM/HD500GB, TELECAMERA IP, SWITCH 4 PORTE POE + ETHERNET, VIDEOREGISTRATORE DIGITALE IP.
+Il progetto consiste nella realizzazione di un commutatore rotativo motorizzato usabile per esperimenti comportamentali nel campo delle neuroscienze, grazie ad un canale di comunicazione serializzato and alta frequenza e quattro segnali a bassa frequenza da impiegare per realizzare esperimenti di stimolazione optogenetica e recording neurale.

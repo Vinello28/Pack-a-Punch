@@ -1,1 +1,13 @@
-Il progetto verte sullo sviluppo di una piattaforma all avanguardia abilitante la manutenzione intelligente della linea ferroviaria  automatizzando i processi di verifica e monitoraggio del suo stato e delle componenti ivi installate.La piattaforma  composta da parti software e hardware  consentirÃ  la verifica automatica dello stato della linea  rilevando anomalie sulla linea stessa  insieme alla verifica delle condizioni dellinstallato  includendo la segnaletica verticale e il sistema di segnalamento a blocco fisso  grazie all utilizzo dell intelligenza artificiale e al dispiegamento di droni per catturare riprese e monitorare attivamente la linea. In parallelo  sarÃ  sviluppata una tecnologia integrata a bordo drone con modulo hardware predisposto ad hoc  che consentirÃ  di eseguire controlli e misurazioni specifiche sulle linee ferroviarie in assenza di personale sul posto  mediante sensoristica distribuita  effettuando misure relative a parametri elettrici e meccanici che impattano sulla corretta marcia del treno  anche senza la necessitÃ  di interruzioni di servizio. Il progetto comprende infine una componente volta ad esaminare l evoluzione del sistema di ricarica del drone in direzione induttiva  utilizzando la linea di contatto  sia con corrente alternata che continua.
+L’intervento attuativo di digitalizzazione di Agardi Srl, "Agardi 4.0", mira a ottimizzare i processi aziendali attraverso l'implementazione di nuove tecnologie, l’automazione e lo sviluppo delle competenze digitali del personale. Le principali azioni includono:
+
+Implementazione di un ERP Integrato (FACTORY): Automatizzazione dell’importazione ordini e gestione della produzione per migliorare l’efficienza e ridurre gli errori operativi.
+
+Introduzione di Sistemi di Business Intelligence (FACTORY VISION): Dashboard e strumenti di analisi per monitorare la produzione, lo stato dei progetti e la performance aziendale, supportando decisioni strategiche informate.
+
+Schedulazione Dinamica con AI: Utilizzo di un software avanzato di pianificazione che ottimizza l’uso dei macchinari e la gestione delle commesse in base a variabili in tempo reale.
+
+Suite HR Infinity Zucchetti: Gestione centralizzata e automatizzata delle risorse umane, incluse presenze e workflow di approvazione, per aumentare l’efficienza e migliorare la trasparenza.
+
+Manutenzione Predittiva e Monitoraggio in Tempo Reale: Sviluppo di un algoritmo di AI per prevenire guasti e ottimizzare la durata dei macchinari, riducendo i costi di manutenzione.
+
+Formazione e Upskilling del Personale: Programma di reskilling per garantir

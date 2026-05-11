@@ -1,0 +1,1 @@
+Realizzare un POC volto a migliorare l'efficienza del processo di fatturazione attraverso l'automazione AI, riducendo gli errori manuali e aumentando la velocità di creazione e verifica delle fatture. Si prevede di integrare chatbot intelligenti per interagire con gli utenti in modo intuitivo, semplificando il controllo e la gestione documentale.

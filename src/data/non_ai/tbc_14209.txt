@@ -1,1 +1,1 @@
-IMPLEMENTAZIONE DI UN SISTEMA DI SERVER IN CLUSTER PER MIGLIORARE L'EFFICIENZA E LA PRODUTTIVITA' NELL'AMBITO GESTIONALE CRM. ANALISI E CONTROLLO DEI DATI E LA SICUREZZA DEGLI STESSI CON SISTEMA DI DISASTER RECOVERY
+Opera pubblica di sostituzione nel settore forestale che interessa ascensori. Il progetto implementa pavimentazioni drenanti nel rispetto dei criteri ambientali minimi. Il progetto include la bonifica amianto, lo smaltimento rifiuti e il ripristino ambientale.

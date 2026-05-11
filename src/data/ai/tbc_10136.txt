@@ -1,1 +1,1 @@
-TEST BEFORE INVEST FINALIZZATO ALLO SVILUPPO DI UN PROOF OF CONCEPT DI UNA PIATTAFORMA DI DIGITAL ADVISORSHIP BASATA SULL INTEGRAZIONE DI INTELLIGENZA ARTIFICIALE
+L?obiettivo finale del progetto ? la progettazione e lo sviluppo di un sistema di visione artificiale adattabile a diverse tipologie di processo o prodotto che preveda l?utilizzo e/o l?integrazione di sistemi (telecamere sensori ottici laser etc.) per l?acquisizione e la post elaborazione delle immagini.

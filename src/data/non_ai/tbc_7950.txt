@@ -1,1 +1,1 @@
-Progettazione e sviluppo di una piattaforma hardware/software per il monitoraggio e l'estrazione automatica di informazioni provenienti da fonti web e opendata
+Corso a Catalogo â€œIntelligenza Artificiale per il Manufacturing: Tecniche  approcci e applicazioniâ€

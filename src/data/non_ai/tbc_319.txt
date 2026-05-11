@@ -1,0 +1,9 @@
+Il progetto prevede l adozione e personalizzazione di una piattaforma Software Cloud Enterprise, che permetta di digitalizzare e centralizzare i processi aziendali, derivanti da ordini web omnicanale attraverso le diverse piattaforme di vendita (e-commerce, marketplace, punti vendita) nel commercio di sementi, fertilizzanti ed attrezzi professionali per la cura di prati e giardini. Le funzionalità dell intera piattaforma sono accessibili tramite chiamate API, sufficiente quindi una connessione internet ADLS/3G.
+
+L approccio alle tematiche di digitalizzazione dei processi prevede l acquisizione ed integrazione di tecnologie abilitanti, software e hardware, che permettano di gestire dati complessi e pianificare la gestione logistica in ottica omnicanale, caratterizzata dallesigenza di controllare le fasi di lavorazione degli ordini ed aggiornare le diverse fonti (e-commerce, magazzino, ERP) in modalità Near Real Time.
+
+I nuovi acquisti consentiranno un miglioramento dellefficienza aziendale, in particolare sarà possibile:
+
+> centralizzare gli ordini anziché accedere ad ogni singolo canale;
+> aggiornare le giacenze in tempo reale (oggi non vengono gestite, generando ordini non spedibili);
+> eliminare il cartaceo e ridurre i tempi di preparazione ordini con logiche di accorp

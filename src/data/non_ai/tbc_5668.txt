@@ -1,1 +1,1 @@
-AI4HOT - Artificial Intelligence For Home Oncological Therapy
+Piattaforma che analizza automaticamente le conversazioni tra aziende e clienti

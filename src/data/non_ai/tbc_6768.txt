@@ -1,1 +1,0 @@
-Si intende realizzare: - un sistema per le prenotazioni online per automatizzare il processo di vendita e migliorare l'efficienza lavorativa con l'emissione di una ricevuta in formato digitale per il cliente e la gestione del pagamento  tutto consultabile da remoto

@@ -1,0 +1,5 @@
+Il progetto Pain-RELife ha come obiettivo la creazione di un ecosistema tecnologico
+dinamico e integrato basato su tecnologie di gestione e analisi di big data finalizzato
+alla continuità della cura del paziente con dolore che coinvolga l’intera filiera della
+salute, dalla diagnosi, alla terapia domiciliare, al telemonitoraggio, al supporto del
+paziente/caregiver e che permetta di promuovere una scelta condivisa.

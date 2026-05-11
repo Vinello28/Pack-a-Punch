@@ -1,0 +1,1 @@
+Realizzazione tool e software per l'analisi dei dati con il machine learning. Automatizzazione inserimento dei contenuti nei canali web dell'azienda

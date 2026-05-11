@@ -1,1 +1,1 @@
-L'obiettivo principale del progetto ASK (Ai-driven Search in Knowledge base) la realizzazione di un sistema di interrogazione basato su Large Language Model (LLM) del corpus documentale che costituisce la knowledge base di Carraro SpA
+Il piano sull'Intelligenza Artificiale si propone di offrire un'esauriente panoramica della disciplina in un programma della durata stimata di 24 ore.

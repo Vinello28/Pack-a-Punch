@@ -1,0 +1,12 @@
+acoustic models using probabilistic linear discriminant analysis (plda)
+capture the correlations within feature vectors using subspaces which do not
+vastly expand the model. this allows high dimensional and correlated feature
+spaces to be used, without requiring the estimation of multiple high dimension
+covariance matrices. in this letter we extend the recently presented plda
+mixture model for speech recognition through a tied plda approach, which is
+better able to control the model size to avoid overfitting. we carried out
+experiments using the switchboard corpus, with both mel frequency cepstral
+coefficient features and bottleneck feature derived from a deep neural network.
+reductions in word error rate were obtained by using tied plda, compared with
+the plda mixture model, subspace gaussian mixture models, and deep neural
+networks.

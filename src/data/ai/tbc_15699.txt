@@ -1,0 +1,1 @@
+Blazematic una piattaforma destinata a editori e inserzionisti essa basata su un algoritmo proprietario che attraverso il Machine Learning ed in maniera del tutto automatizzata riesce a predire comportamenti e propensione all'acquisto degli utenti servendo a ciascuno un messaggio pubblicitario personalizzato al fine di incrementarne la probabiit di acquisto.

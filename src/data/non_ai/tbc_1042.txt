@@ -1,0 +1,6 @@
+Il progetto BRC ha come obbiettivo la digitalizzazione dei processi di prenotazione prepagati da remoto, tramite browser o app , per utilizzo di spazi primari e accessori, come campi da tennis, calcetto, pallavolo, ombrelloni con accesso agli spogliatoi, servizi docce e phon, appoggiandosi sulla tecnologia r fid di prossimità.
+Il progetto si compone dei seguenti step:
+Sviluppo Applicazione utente per la prenotazione, tramite registrazione login e password con servizio di pagamento tramite pay pal.  Possibilità di emulazione del tag nfc dallo smartphone.
+Sviluppo data base montato in cluod, con politiche prestabilite.
+Sviluppo di sistemi embedded, collegati alla rete internet per la gestione puntuale dei vari  spazi e servizi acquistati, ad esempio con prenotazione del campo da calcetto si potrà decidere se acquistare riscaldamento, luci, che automaticamente si attiveranno all ora acquistata e in più darà la possibilità di accedere , tramite controllo accessi, agli spogliatoi dedicati.
+Acquisto di 2 computer, di ultima generazione, che nella fase di start up del servizio, serviranno a  gestire e popolare le prenotazioni, informare i clienti tramite tutti i mezzi di comunicazione smart , e in seguito. al monitoraggio e controllo che tutto proceda correttamente.

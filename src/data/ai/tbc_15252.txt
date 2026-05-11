@@ -1,1 +1,0 @@
-Realizzazione di un sistema di analisi dei big data relativi alla programmazione cinematografica archiviata negli ultimi 10 anni di attivit e utilizzo di sistemi predittivi per stimare la programmazione futura dei titoli in uscita in relazione alla popolarit sui social media.

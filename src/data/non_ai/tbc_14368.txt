@@ -1,1 +1,1 @@
-Lâ€™AZIONE DELLâ€™INNOVATION MANAGER DI CROSS5 SRL E DEL CLIENTE SARÃ€ FOCALIZZATA SU 5 AREE Dâ€™INTERVENTO: â€¢ PROCESSI: SNELLIRE I PROCESSI SIA Dâ€™UFFICIO CHE PRODUTTIVI FAVORENDO UN PIÃ™ EFFICACE ED EFFICIENTE FLUSSO DELLE INFORMAZIONI
+This project aims at developing traveling-wave parametric amplifiers based on Josephson junction arrays (JTWPA) to replace conventional broadband HEMT amplifiers for the detection of single photons in the  microwave domain for application in quantum sensing.

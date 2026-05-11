@@ -1,0 +1,9 @@
+Il progetto SMART TAP si pone lobiettivo di migliorare lefficienza del servizio post vendita
+e lorganizzazione del lavoro dellarea assistenza. Il progetto intende organizzare un sistema digitale di
+rilevamento e analisi dei dati in real time relativi allutilizzo dei prodotti, sulle performance e sugli interventi di
+assistenza cloud based la cui raccolta digitale consentirà anche di elaborare algoritmi predittivi statistici e/o
+altri strumenti di analisi ai fini dellottimizzazione dellarea e della qualità del servizio. Attraverso la
+digitalizzazione del processo sarà infatti possibile così conoscere ed analizzare le informazioni per fornire
+assistenza sempre più tempestiva e qualificata. Il fine ultimo è la verifica ed implementazione di un nuovo
+modello di assistenza che garantirà un aumento della redditività aziendale grazie a una maggiore efficienza
+interna e aumento della qualità percepita del servizio da parte dei clienti .

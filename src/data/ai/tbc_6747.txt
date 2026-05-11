@@ -1,1 +1,0 @@
-Completamento di un prototipo di piattaforma software in grado di supportare mediante elementi semiautomatici di intelligenza artificiale le fasi di progettazione provisioning monitoraggio cos come quelle di ottimizzazione d uso e di spesa delle infrastrutture informatiche multicloud

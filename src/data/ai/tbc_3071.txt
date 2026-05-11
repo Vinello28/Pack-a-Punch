@@ -1,1 +1,1 @@
-SNELLIMENTO NELLE PROCEDURE AZIENDALI E AUMENTO DELLA PROTEZIONE DELL ACCESSO DA PARTE DI TERZI attraverso l'utilizzo dell'intelligenza artificiale e della cybersecurity
+Il progetto prevede l'implementazione del portale web, integrando un algoritmo di machine learning che rendera la fruizione dei contenuti culturali del tutto nuova e personalizzata.

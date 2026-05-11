@@ -1,0 +1,9 @@
+Di seguito i collegamenti con lAtlante del Lavoro e delle Qualificazioni i cui risultati attesi prevedono: Adattare e scalare le soluzioni tecnologiche implementate tenendo conto delle necessita di cambiamento dei flussi lavorativi, dell'organizzazione e degli output di produzione.
+Gli obiettivi di apprendimento sono i seguenti: Adattare e scalare soluzioni tecnologiche di AI e VR, considerando le esigenze di cambiamento nei flussi lavorativi, nell'organizzazione e negli output di produzione, in contesti aziendali dinamici che richiedono flessibilita e capacita di innovazione.
+Il progetto verra articolato nei seguenti contenuti formativi: 
+Fornire una panoramica su ChatGPT e comprendere il suo ruolo nellinnovazione digitale ed esplorare le funzionalita specifiche di ChatGPT per semplificare attivita quotidiane.
+Scrittura e revisione di testi: come ChatGPT puo aiutare nella stesura di documenti, email e contenuti vari. Sintesi e riassunti di informazioni e testi.
+Traduzione automatica e supporto linguistico.
+Generazione e debug di codice di programmazione.
+Approfondire le competenze per utilizzare ChatGPT in modo strategico per migliorare la produttivita.
+Come formular...

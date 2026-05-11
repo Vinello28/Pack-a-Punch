@@ -1,0 +1,1 @@
+Implementazione procedure di risk-analysis  e automatic reporting per analisi big-data  in tempo reale e visualizzazione avanzata 3D su piattaforme WEB-GIS di sistemi di monitoraggio complessi finalizzati al controllo della sicurezza di infrastrutture e opere pubbliche

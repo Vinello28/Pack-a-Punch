@@ -1,1 +1,0 @@
-Consulenza relativa alla brevettabilit di una soluzione hardware composta da telecamera customizzata collegata ad un dispositivo (tablet o smartphone) in grado di amplificare la possibilit di leggere ed identificare marker (riconoscimento d'immagini e realt aumentata) post su oggetti fisici e trasmettere le informazioni ad un software proprietario che rimanda un feedback.

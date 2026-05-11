@@ -1,0 +1,2 @@
+Ideazione, progettazione e realizzazione di un sito internet di vendita online.
+Il sito sarà realizzato specificamente per la Habitat Srl allo scopo di consentire la vendita online di Mobili e articoli pert l'arredamento della casa. La maggiore difficoltà tecnica da risolvere consisterà nel censimento di tutti gli articoli che la Habitat può offlire alla clientela. Una azienda specializzata seguirà la Habitat in questo percorso e si occuperà sia degli aspetti di realiuzzazione dei sito sia della sua indicizzazione sui principali motori di ricerca (advertising).

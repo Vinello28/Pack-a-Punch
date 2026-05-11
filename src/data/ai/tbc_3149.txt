@@ -1,1 +1,1 @@
-Implementazione di Soluzioni di Intelligenza Artificiale per la Gestione Avanzata dell Assistenza Clienti - Feda srl
+Progetto di realta aumentata che applica alle visite della chiesa Madre di Sellia e dei suoi beni culturali (statue, quadri, opere d’arte in genere) i metodi della robotica con intelligenza artificiale di nuova generazione.

@@ -1,1 +1,1 @@
-l Progetto INT4CT propone la realizzazione di un Sistema Digitale Integrato GeoAI (Intelligenza Artificiale Geospaziale) utile a sviluppare il processo di Costruzione della Storia per la Comunicazione della Bellezza (hIstory coNstrucTion FOR beauty CommunicaTion) sperimentando il ruolo attivo della cultura digitale ruolo al quale allude l ulteriore contenuto veicolato dall acronimo (INTernet FOR aCT).
+Il progetto propone l'implementazione di un Assistente virtuale vocale basato su tecnologie di large language model (LLM) e retrival-augumented generation (RAG).

@@ -1,0 +1,6 @@
+L'obiettivo del progetto è quello di progettare e sviluppare un prototipo di un'architettura IT all'avanguardia in grado di raccogliere e analizzare i dati dei social media con particolare attenzione al settore della moda. 
+Per raggiungere questo obiettivo, utilizzeremo l'utilizzo del Big Data Cluster in combinazione con l'elaborazione dei dati tramite tecniche di machine learning, appositamente studiata per l'analisi dei dati dei social media con analisi avanzate (text mining). 
+Questa specifica combinazione di Big Data Cluster e machine learning mira a ridurre i costi e ad aumentare l'efficacia dell'architettura, in combinazione con un tempo di analisi più breve e una maggiore precisione del modello. 
+L'architettura sarà composta dai livelli Big Data (velocità, batch e servizio) accompagnati dai servizi necessari per il suo supporto. 
+Nel progetto verrà utilizzata la tecnologia più aggiornata e all'avanguardia. 
+Il progetto conterrà anche l'applicazione finale di machine learning e social media analytics che sarà costruita appositamente dal sistema.

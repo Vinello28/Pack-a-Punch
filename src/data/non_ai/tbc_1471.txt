@@ -1,1 +1,0 @@
-Realizzazione di un sistema di autenticazione prototipo basato su tecniche biometriche atto a rilasciare servizi di accesso logico e servizi di identificazione

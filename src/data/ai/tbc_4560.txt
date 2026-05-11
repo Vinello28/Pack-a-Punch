@@ -1,0 +1,15 @@
+Il progetto è promosso da J&W Srl, una PMI innovativa operante nel settore della manifattura avanzata** e dell’automazione industriale, con un focus sull’integrazione di Intelligenza Artificiale (IA), Edge Computing e dispositivi wearable per migliorare l’interazione uomo-macchina e ottimizzare i processi produttivi.
+
+Obiettivi del Progetto
+L’azienda mira a:
+- Migliorare l’efficienza produttiva attraverso strumenti di IA predittiva e automazione avanzata.
+- Rendere il sistema più reattivo e proattivo, trasformando l’attuale dispositivo wearable *Willie* in un ecosistema digitale completo.
+- Espandersi nei mercati internazionali, rafforzando le competenze interne in marketing digitale per il settore B2B.
+- Ridurre la dipendenza da fornitori esterni grazie a un percorso formativo interno su IA e digital marketing.
+
+Innovazione e Tecnologie
+J&W Srl sta sviluppando una nuova versione di *Willie*, un braccialetto intelligente per operatori industriali, con:
+- Display e-Ink a colori per trasmettere informazioni dettagliate in tempo reale.
+- Algoritmi di IA per la manutenzione predittiva, riducendo guasti e tempi di fermo.
+- Edge Computing. che consente l’elaborazione dati direttamente sulle macchine, migliorando efficienza e sicurezza.
+- Assistente virtuale con NLP, che supporta gli op

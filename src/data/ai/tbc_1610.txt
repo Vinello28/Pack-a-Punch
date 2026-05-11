@@ -1,1 +1,13 @@
-Attraverso le pi avanzate tecniche e programmi di Digital Marketing effettueremo una ricerca di penetrabilit di mercato atta al miglioramento dell'immagine dell'azienda verso l'utente finale. Utilizzeremo strumenti legati al mondo dell'analisi dei Big Data chiaramente nel settore commerciale di appartenenza dell'azienda al fine di migliorare tutti quelli che sono i processi interni relativi a questo settore. L'intervento prevede la redazione di un progetto per la riorganizzazione interna dei processi aziendali di relazione verso gli utenti finali in particolar modo quelli che interagiscono su piattaforme esterne all'azienda. Sar necessario progettare un processo di digitalizzazione dell'azienda che prevede programmi e tecniche organizzate legati alle industrie 4.0 come ad esempio l'adozione di un sistema sicuro di analisi dei dati in tempo reale (Big Data Analytics) provenienti da Input interni ed esterni all'azienda oppure l'analisi e la messa in relazione di dati disponibili online in banche dati appositamente costituite. Realizzeremo anche un modello di riferimento legato alle attivit di business intelligence applicabili per il settore di riferimento. Sar possibile analizzare ad esempio il Sentiment legato alle offerte lavorative dell'azienda.
+Sistema di gestione schede tecniche di riparazione e assistenza camper. Informatizzazione schede con sistema analisi dati con algoritmi di intelligenza artificiale e iOT  per:
+- migliorare la gestione interna distribuendo i carichi di lavoro in base allo stato dell'arte e alle previsioni di carico integrando i processi aziendali con lo sviluppo digitale
+- effettuare manutenzione predittiva elaborando le informazioni provenienti dalle schede
+- evidenziare incidenze principali settori di guasto migliorando la gestione delle forniture
+- coinvolgere l'utente con interfacce di comunicazione smart veicolate dal sito web esistente
+- progettare l'installazione di device IoT sui veicoli commercializzati per la comunicazione diretta tra veicoli e centro di manutenzione
+Digital marketing: sistema di ottimizzazione ricerca di nuovi clienti e gestione clienti attuali
+- analisi e sistematizzazione correnti sistemi raccolta dati
+- ottimizzazione gestione dati, anche attraverso la costruzione di nuove basi dati
+- applicazione nuovi metodi organizzativi pratiche commerciali:
+- installazione CRM
+- interfacciamento CRM / sito web per la raccolta lead
+- interfacciamento CRM / sito web per la costruzione nuove interfacce di comunicazione (chatbot, sistemi di instradamento delle richieste

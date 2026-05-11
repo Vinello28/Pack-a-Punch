@@ -1,0 +1,1 @@
+sviluppare una piattaforma informatica intelligente ovvero dotata di applicativi di Intelligenza Artificiale (quali reti neurali ad autoapprendimento e vector machine) che permetta alla scrivente azienda di offrire servizi ad alto valore aggiunto alle imprese

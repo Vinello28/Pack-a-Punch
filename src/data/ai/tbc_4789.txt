@@ -1,1 +1,6 @@
-FRagilit Assistite Grazie a Intelligenza artificiale e sensoristica Locale ed Individuale
+Il progetto formativo è mirato a supportare REC-ALL S.R.L. nel processo di digitalizzazione e innovazione, con un focus specifico sullo sviluppo di applicazioni e soluzioni tecnologiche per la sicurezza personale. Attraverso un percorso strutturato, l’azienda mira a integrare competenze avanzate e tecnologie all’avanguardia per ottimizzare i processi aziendali, migliorare l’efficienza produttiva e promuovere la sostenibilità.
+•	Tematiche chiave:
+o	Gestione digitale dei processi aziendali: Introduzione di piattaforme ERP e CRM per centralizzare e semplificare la gestione delle informazioni.
+o	Sviluppo tecnologico e IoT: Implementazione di sensori IoT e soluzioni basate sull’intelligenza artificiale per creare prodotti innovativi e personalizzati.
+o	Marketing digitale e comunicazione: Creazione di strategie multicanale per migliorare la visibilità aziendale e raggiungere nuovi mercati.
+o	Economia circolare e sostenibilità: Progettazione di processi produttivi a basso impatto ambientale e utilizzo di materiali ecocompatibili.

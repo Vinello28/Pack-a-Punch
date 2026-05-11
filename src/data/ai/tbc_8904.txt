@@ -1,16 +1,1 @@
-we consider \textit{anytime} linear prediction in the common machine learning
-setting, where features are in groups that have costs. we achieve anytime (or
-interruptible) predictions by sequencing the computation of feature groups and
-reporting results using the computed features at interruption. we extend
-orthogonal matching pursuit (omp) and forward regression (fr) to learn the
-sequencing greedily under this group setting with costs. we theoretically
-guarantee that our algorithms achieve near-optimal linear predictions at each
-budget when a feature group is chosen. with a novel analysis of omp, we improve
-its theoretical bound to the same strength as that of fr. in addition, we
-develop a novel algorithm that consumes cost $4b$ to approximate the optimal
-performance of \textit{any} cost $b$, and prove that with cost less than $4b$,
-such an approximation is impossible. to our knowledge, these are the first
-anytime bounds at \textit{all} budgets. we test our algorithms on two
-real-world data-sets and evaluate them in terms of anytime linear prediction
-performance against cost-weighted group lasso and alternative greedy
-algorithms.
+Il progetto ha come obiettivo primario l identificazione di un set di algoritmi ottimali per l analisi dati di processo e la successiva realizzazione di un dispositivo hardware-software capace di analizzare in real time i flussi dati del sensore ad ultrasuoni realizzato da ergolines ed installato nella lingottiera della macchina di colata continua acciaio. L applicazione delle tecniche di machine learning permetter un migliore utilizzo dei dati raccolti dalla sensoristica sviluppata da ergolines e costituir una spinta verso una leadership tecnica di frontiera. L analisi in real time del dato raccolto dai sensori di ergolines con intento predittivo e di prontoriscontro di anomalie di processo totalmente innovativa. La possibilit di realizzare un prodotto demo consentir il test in ambiente industriale rilevante permettendo di validare gli algoritmi e le logiche di rilievo anomalie e correzione preventiva del processo.

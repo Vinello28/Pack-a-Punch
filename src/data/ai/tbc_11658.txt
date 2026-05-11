@@ -1,1 +1,9 @@
-Obiettivo di Zerocontatto supportare le strutture sanitarie nel passaggio dall attuale situazione alla piena ripresa delle attivit di sanit e cura garantendo il massimo delle prestazioni possibili con il minimo rischio di contagio. Realizzeremo un nuovo modello di accoglienza in grado di coniugare le esigenze di efficienza da parte dell utenza con le attuali richieste di distanziamento sociale e che tenga conto di elementi di innovazione tecnologica e di processo. Nello specifico: Garantiremo che la nuova esperienza offerta sia fruibile attraverso una multicanalit in modo tale da permettere alla struttura di raggiungere qualsiasi tipologia di utente (digitale e non) e informarlo a distanza sul suo stato di attesa in modo tale da indurlo a recarsi alla struttura sanitaria e accedere ad essa per il solo tempo necessario per usufruire della prestazione richiesta. Svilupperemo algoritmi previsionali basati su tecniche di Intelligenza Artificiale in grado di fornire con continuit ed in tempo reale previsioni sull orario in cui ciascuna prestazione verr erogata. Il risultato del progetto sar un nuovo prodotto di accoglienza nelle strutture sanitarie che garantir il rispetto della distanza sociale necessaria salvaguardando l efficienza dell accoglienza.
+guided by critical systems found in nature we develop a novel mechanism
+consisting of inhomogeneous polynomial regularisation via which we can induce
+scale invariance in deep learning systems. technically, we map our deep
+learning (dl) setup to a genuine field theory, on which we act with the
+renormalisation group (rg) in momentum space and produce the flow equations of
+the couplings; those are translated to constraints and consequently interpreted
+as "critical regularisation" conditions in the optimiser; the resulting
+equations hence prove to be sufficient conditions for - and serve as an elegant
+and simple mechanism to induce scale invariance in any deep learning setup.

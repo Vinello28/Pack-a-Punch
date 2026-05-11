@@ -1,0 +1,11 @@
+Il corso Telerilevamento Avanzato di Terre Logiche mira ad estendere le capacita' di analisi maturate con il Corso di Telerilevamento, un modulo formativo che rappresenta da tempo un punto di riferimento del settore per tecnica di insegnamento ed efficacia didattica.
+
+Al termine del corso i partecipanti saranno in grado di: 
+ nbsp; Implementare processi per lindividuazione e organizzazione di dati multispettrali pubblici utilizzando parametri selettivi; 
+ Apprendere le procedure per lautomazione di processi di analisi mediante softwareopen; 
+ Valutare la risposta spettrale dei diversi oggetti e la loro separabilit¿ spettrale; 
+ Realizzare una classificazione supervisionata utilizzando immagini multispettrali per l'individuazione e la separazione di diverse classi di uso copertura del suolo (urbano, aree naturali, aree agricole, acque); 
+ Selezionare diversi algoritmi di classificazione pixel based in base alla natura dei dati disponibili; 
+ nbsp; nbsp; Sperimentare lutilizzo di algoritmi di classificazione di tipo machine learning (es.Random Forest); 
+ nbsp; nbsp; Effettuare analisi dell'accuratezza dei prodotti classificati; 
+ nbsp; Realizzare cartografie tematiche tota...

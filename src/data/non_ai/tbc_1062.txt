@@ -1,0 +1,12 @@
+La piattaforma si baserà su di una infrastruttura che si riferirà su più DB che saranno
+alimentati da specifici applicativi e moduli specifici di ogni area (es. anagrafica generale, gestione corsi nuovo e
+aggiornamento - , gestione tirocinio nuovo e aggiornamento- ec..). Saranno presenti funzionalità di reportistica
+che permetteranno di analizzare i dati anche a fini di rendicontazione. Lutente sarà in grado di effettuare filtri
+ed aggregazioni sui dati generati dai report predisposti.
+La base dati potrà essere alimentata e/o sarà possibile estrarre dati attraverso procedure di import/export data
+attraverso metodologie Open Data.
+La disponibilità Web dell applicazione, ne consentirà lutilizzo in qualsiasi momento ed in qualsiasi luogo.
+Laccesso allapplicazione potrà essere effettuato previa ricezione di una login (username/password) individuale
+e personale; ciascuna login sarà sottoposta ad autorizzazione sullaccesso alle funzionalità del Portale, quindi,
+ad esempio, tutti gli utenti potranno operare linserimento e la modifica dei dati, solo alcuni potranno accedere
+alle funzionalità di reportistica e rendicontazione.

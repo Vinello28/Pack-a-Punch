@@ -1,0 +1,4 @@
+realizzazione di una PoC che dimostri il beneficio di modelli di intelligenza artificiale. In particolare, l’avvento dei modelli linguistici generativi
+basati su architettura di tipo Transformer ha rappresentato un punto di svolta per l'Intelligenza Artificiale (IA) e l'elaborazione del linguaggio naturale (NLP). Questi modelli innovativi rappresentano un miglioramento significativo rispetto ai modelli precedenti, basati su architetture complesse da migliaia o milioni di parametri,
+poiché consentono di generare rappresentazioni più complesse e profonde del linguaggio testuale o anche di interagire con gli operatori attraverso il parlato. Tale capacità permette di catturare informazioni su diverse scale semantiche, aprendo la strada a una rivoluzione nel nostro rapporto con le tecnologie digitali e all'introduzione di nuovi strumenti per l'innovazione dei processi o il miglioramento della competitività
+aziendale.

@@ -1,0 +1,1 @@
+Validazione di modelli AI per la previsione di serie temporali e il rilevamento di anomalie nel settore manifatturiero. Previsione di serie temporali.

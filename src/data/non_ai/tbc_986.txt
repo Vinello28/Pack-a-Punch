@@ -1,0 +1,1 @@
+Il progetto si propone di automatizzare il ciclo di sviluppo del software (secondo una metodologia conosciuta come Continuous Deployment o DevOps); così  la gestire in modo strutturato ed automatico tutte le fasi di sviluppo, testing automatico e fino all'installazione sul cloud e distribuzione all'utente finale.

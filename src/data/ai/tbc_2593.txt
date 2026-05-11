@@ -1,0 +1,1 @@
+Il progetto intende realizzare un Sistema integrato di ottimizzazione dei processi coating e individuazione di anomalie durante le lavorazioni dei rivestimenti basato sui dati (data-driven) attraverso l'utilizzo di algoritmi di Intelligenza Artificiale (AI) ad approfondimento profondo. Il progetto intende perseguire una radicale innovazione dei processi produttivi.

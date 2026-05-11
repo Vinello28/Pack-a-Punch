@@ -1,1 +1,1 @@
-Iniziativa di bonifica dedicata a gallerie nel contesto sicurezza urbana. Le opere includono geotessili per consolidamento terreni di ultima generazione. Il budget include gli oneri di sicurezza, le spese tecniche e gli imprevisti.
+L'intervento previsto consiste nella progettazione e sviluppo di uno strumento software in grado di fornire le seguenti funzionalitÃ : definizione attraverso un'interfaccia grafica della macro struttura della rete (supply & distribution chain)  caratterizzando ogni nodo ed arco della stessa con una molteplicitÃ  di informazioni

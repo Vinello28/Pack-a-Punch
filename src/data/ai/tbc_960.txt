@@ -1,0 +1,2 @@
+sviluppare e fornire sistemi innovativi di machine learning in grado di semplificare
+l’estrazione e il trattamento automatico delle informazioni all’interno di flussi multimediali

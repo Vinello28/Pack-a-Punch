@@ -1,1 +1,1 @@
-Sviluppo di un sistema Speech-to-Text basato su architetture Transformer (Whisper-like) per la trascrizione e indicizzazione automatica di sedute parlamentari in tempo reale.
+Il progetto AIDATrend mira a utilizzare l'intelligenza artificiale e il digital lobbying per rivoluzionare l'analisi delle tendenze in innovazione  brevetti e comunicazione istituzionale  favorendo   ontemporaneamente il public engagement.

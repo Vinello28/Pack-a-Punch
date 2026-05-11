@@ -1,0 +1,6 @@
+inserimento e installazione per la prima volta in azienda di Gestionale Completo specifico per l'attività di vendita, noleggio, assistenza e manutenzione di carrelli elevatori. Nello specifico il gestionale sarà composta da:
+- ERP completo: angrafiche, contabilità, intrastat, vendite, magazzino, contabilità previsionale, ordini clienti e fornitori, acquisti, ammortamenti, agenti, DMS (documentale), spesometro e comunicazioni fiscali, mail connector, security light.
+-SERVICE: angrafica parco installato, scheda tecnica matricola, chiamate e ODL, contratti service, planning grafico tecnici, manutenzioni programmate avanz, contatori, checklist, CONNETTORE CON DISPOSITIVI MOBILI (hardware da acquistare).
+-RENTAL: anagrafiche mezzi e matricole a noleggio, plannig grafico disponibilità Noleggio, prentazioni, contaratti, verbali di uscita/rientro, gestione delle sospensioni, statistiche redditività matricola/contratto/cliente
+-MODULO DI COLLEGAMENTO TRA PIATTAFORMA SERVICE E PIATTAFORMA CLOUD (APP SU TABLET): trasferimento di documenti (chiamate, rapportini assistenza, storico ricambi-interventi-contattori matricola, geolocalizzazione tablet, compilazione check list, Firma e Stampa con Firma Grafometrica, invio pdf)
+-CONFIGURAZIONE, AGGIORNAMENTI, FORMAZIONE

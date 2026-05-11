@@ -1,1 +1,5 @@
-IL PROGETTO MIRA AD UN REFACTORING ED UNA RIVISITAZIONE GRAFICA E FUNZIONALE SFRUTTANDO LE COMPETENTE DEL MANAGER IN INNOVAZIONE   PER PORTARE UN SENSIBILE MIGLIORAMENTO SIA NEL PROCESSO DI FRUIBILITÃ€ CHE DI ESPERIENZA (USER EXPERIENCE) DEL SOGGETTO UTILIZZATORE E DEGLI ALTRI STAKEHOLDER  INTERESSATI ( AD ESEMPIO  LOGOPEDISTI   PSICOLOGI PROFESSIONISTI DELL'AMBITO ETÃ€ EVOLUTIVA E DELL'ETÃ€ ADULTA... ED ALTRI ) ALLE APP LOGOPEDICHE E LUDICO TERAPEUTICHE "IL CASTELLO DELLE PAROLE" E "SPACE BRAIN"
+Il progetto prevede i seguenti interventi innovativi di efficienza energetica e di uso delle energie rinnovabili:
+• la sostituzione dei principali corpi illuminanti delle aree produzione e uffici con lampade Led;
+• l'installazione di due impianti fotovoltaici per complessivi 90 Kw in seguito alla rimozione dell’eternit e alla sostituzione della copertura;
+• l'adeguamento della cabina elettrica e l'installazione di un sistema di rifasamento automatico in grado di ridurre lo sfasamento tra energia attiva e reattiva, migliorando l’impegno di energia prelevata dalla rete e non utilizzata;
+• l'installazione  di un sistema di controllo e gestione dell’energia del tipo Elios4you.

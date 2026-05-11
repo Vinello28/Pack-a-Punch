@@ -1,1 +1,1 @@
-La societÃ  Poggi Trasmissioni Meccaniche S.p.A.  operante nel settore della produzione e commercio di organi di trasmissione meccanica ed affini
+Realizzazione di un sito web dinamico su piattaformare con gestione dell'e-commerce. Creazione di applicazione per gestire ordinazioni del take-away e delivery. Sistema Passbot per la gestione operativa degli ordini di ristorazione.

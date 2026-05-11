@@ -1,1 +1,1 @@
-Progettazione e sviluppo di una piattaforma software basata su AI e machine learning che agisce come intermediario tra banche e mutuatari
+Viene sviluppata una piattaforma web  un'APP e un modello di AI e machine learning in grado di generare policy di sostenibilitÃ  personalizzate per ogni tipologia di evento dal vivo.

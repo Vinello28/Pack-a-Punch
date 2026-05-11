@@ -1,1 +1,4 @@
-MODIC INTENDE STRUTTURARE UNA UNIT PER SVILUPPO E COMMERCIALIZZAZIONE DI SOFTWARE BASATI SU ALGORITMI DI INTELLIGENZA ARTIFICIALE E STRUMENTI IN CLOUD DI DATA ANALYSIS
+"Sviluppo di progetto di Intelligenza Artificiale Generativa - L’attività relativa al presente progetto, AI4SIGN, prevede l’utilizzo
+dell’Intelligenza artificiale per la traduzione in tempo reale della
+lingua dei segni (LIS) in lingua italiana e della lingua italiana in
+LIS."

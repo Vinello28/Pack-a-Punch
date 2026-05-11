@@ -1,1 +1,1 @@
-SERVIZIO DI CONSULENZA DI INNOVAZIONE DEI PROCESSI FINALIZZATA ALLA PERSONALIZZAZIONE DI UN SISTEMA BASATO SULL INTELLIGENZA ARTIFICIALE PER RICERCA BREVETTUALE ANALISI DI ANTERIORIT E DI CROSSOVER
+"Lisia è una piattaforma digitale avanzata che si basa su algoritmi di Intelligenza Artificiale e modelli su spazio vettoriale (vector space model) in grado di velocizzare ed efficientare la ricerca legale."

@@ -1,1 +1,6 @@
-Il progetto si pone lâ€™obiettivo di sviluppare e implementare una piattaforma di tracciamento dei dati di processo tramite sensori e tecnologia blockchain. Nello specifico  a fronte delle richieste di trasparenza e sostenibilitÃ  ambientale imposte dal regolatore e dal Mercato  il progetto ambisce a monitorare e archiviare in modo certificato alcuni dati chiave per la valutazione dellâ€™impatto ambientale del prodotto e quindi anche del processo stesso. Unâ€™ulteriore ambizione Ã¨ quella di rendere il processo di tracciamento completamente automatizzato e integrato con i sistemi digitali e i processi aziendali in essere e di rendere la piattaforma integrata ai sistemi in uso e di allineare le competenze del personale al fine di ottimizzare i processi interni e sfruttare la piattaforma al meglio. Per raggiungere ciÃ²  il progetto avrÃ  un impatto diretto su diversi processi di operations  in particolare su quelli di produzione  controllo qualitÃ   ricerca e sviluppo e progettazione.
+Gli obiettivi del progetto sono:
+¿ Promuovere la mobilità attiva collegandosi a iniziative per il rilascio di incentivi al bike to work;
+¿ Offrire agli utenti una tecnologia innovativa per ottimizzare l’esperienza e contrastare il furto del
+mezzo;
+¿ Supportare PA e aziende in ottica smart city, con un portale per pianificare traffico e spazio
+urbano tramite IA

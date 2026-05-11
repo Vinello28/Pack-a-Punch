@@ -1,0 +1,4 @@
+Oggetto della proposta è l’erogazione di servizi tecnologici avanzati ed innovativi finalizzati a supportare OPTIT
+nell’identificazione del livello di maturità della propria cybersecurity posture, nell’ottica di garantire la copertura dei 
+controlli indicati dalla Direttiva NIS2, declinati in specifiche azioni e misure in linea con le best practices ISO27001, 
+secondo lo schema metodologico fornito dal framework NIST.

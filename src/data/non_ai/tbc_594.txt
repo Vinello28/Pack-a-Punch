@@ -1,0 +1,1 @@
+migrazione rete dati da 100mb a 1gb - sostituzione switch con serie managiament - installazione centralino voip - installazione sistema di sicurezza con integrazione domotica e video sorveglianza

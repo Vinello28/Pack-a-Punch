@@ -1,1 +1,1 @@
-AI.FER - Sistema innovativo basato su tecnologie AI per l'impiego efficiente di Fonti di Energia Rinnovabile e l'ottimizzazione delle interazioni con il sistema energetico in impianti industriali e distretti energetici ad emissioni zero.
+Il progetto è finalizzato all'ideazione e alla progettazione di un sistema informatico per l'analisi dei big data raccolti da strumenti avanzati di marketing automation integrati con algoritmi di intelligenza artificiale avente lo scopo di dotare le aziende di strumenti analitici e predittivi legati alle proprie azioni di digital marketing

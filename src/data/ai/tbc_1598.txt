@@ -1,0 +1,6 @@
+MedEA è una startup innovativa che opera nel settore della telemedicina avvalendosi delle competenze di specialisti, tecnici del settore medico e informatico, e partner leader nella fornitura di sistemi hardware software applicati alla sanità.
+Con l¿obiettivo di portare i servizi sanitari più vicini al cittadino grazie all¿utilizzo delle nuove tecnologie la società intende avvalersi della consulenza di un Innovation Manager con le seguenti finalità:
+1.	Valorizzazione del Big Data aziendale, per monitoraggio da parte degli operatori sanitari
+2.	Integrazione IoT e Internet delle cose particolare  in ambito Dermatologico, oculistico e cardiologico
+3.	Applicazione del Data Science (Machine Learning, Deep Learning, Computing Vision) al fine di supportare la diagnosi e refertazione
+L¿obiettivo e&#768; valorizzare il Big Data MedEA, garantire un primo check automatico con il supporto dell¿Intelligenza Artificiale e del Computing Vision per offrire una refertazione personalizzata. La piattaforma consentirà anche di indirizzare il paziente verso le strutture più idonee per lo specifico iter diagnostico e terapeutico, con riduzione delle incidenze di mortalità.

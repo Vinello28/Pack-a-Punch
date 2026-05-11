@@ -1,0 +1,1 @@
+COFAM - CO2 Footprint Authentication Module

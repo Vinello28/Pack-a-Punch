@@ -1,1 +1,13 @@
-Way e BesideBooks si uniscono a Fondazione Brescia Musei nella concezione di un grande progetto di narrazione immersiva per la valorizzazione delle collezioni del Museo del Risorgimento Leonessa d Italia riaperto nel 2023 dopo otto anni di chiusura. Il Museo verr dotato di 4 esperienze di Virtual Reality fruibili onsite attraverso i visori VR (Pico G3). I partecipanti avranno l'opportunit di immergersi in un viaggio nel tempo innovativo ed emozionale esplorando il contesto storico del Risorgimento e rivivendo le storie di eroi ed eventi che hanno plasmato l'Italia moderna. La narrazione sar affidata ai protagonisti delle vicende risorgimentali sia femminili che maschili come il patriota Tito Speri che racconteranno il periodo con uno storytelling immersivo ricco di dettagli storici accurati e aneddoti affascinanti. La narrazione per i teenager sar affidata a un character realizzato ad hoc per il progetto dalla scrittrice di libri per ragazzi ideatrice di Geronimo Stilton Elisabetta Dami: l'intraprendente leonessa Lea un affettuoso omaggio a Brescia offrir contenuti efficaci per la loro crescita culturale. Le esperienze in VR offriranno ai visitatori anche la straordinaria opportunit di conoscere materiali d'archivio e reperti non accessibili al pubblico che andr
+La società Innonation Srl sta sviluppando, insieme con alcuni partner tecnologici e industriali, una soluzione
+innovativa di e-sanità marittima, che assista il personale imbarcato su navi mercantili, battelli da pesca e
+piattaforme offshore, passeggeri di navi da crociera e diportisti nautici. Il progetto, denominato Mermaid1
+intende utilizzare le tecnologie più recenti della comunicazione satellitare, dell’intelligenza artificiale (IA)
+e della realtà aumentata (AR) per assicurare adeguata assistenza sanitaria, erogata da remoto, in caso di
+emergenze o incidenti su imbarcazioni in navigazione, in tutti i casi in cui a bordo non sia presente
+personale medico, o dove il trasbordo del paziente non sia fattibile o comunque qualora sia opportuno
+accedere da remoto a un consulto specialistico.
+La società ha già una presenza significativa nel mercato della nautica, dove ha realizzato soluzioni per la
+gestione e monitoraggio di flotte nautiche, rivolte sia alle imbarcazioni da diporto che alle grandi navi
+commerciali, integrando dispositivi di infotainment, security, smart devices e strumentazione di bordo. La
+soluzione YachtOnCloud (https://yachtoncloud.it) gestisce da remoto la domotica e sensoristica di sicurezza
+a bordo tramite canali satellitari e 4G/5G, e si integra con i dispositi

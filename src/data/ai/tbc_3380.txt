@@ -1,0 +1,1 @@
+Sistema per guidare persone ipovedenti in ambienti circoscritti al raggiungimento di una meta tramite non medical device con l’elaborazione di segnali e uso di algoritmi di Intelligenza Artificiale.

@@ -1,0 +1,3 @@
+L’obiettivo principale è quindi quello di irrobustire (hardening) i moduli AI in
+modo completamente automatizzato e schedulabile, fornendo una reportistica dettagliata con
+rischi e vulnerabilità identificate.

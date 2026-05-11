@@ -1,0 +1,1 @@
+Il progetto si prefigge attraverso la rilevazione dei comportamenti individuali con sistemi di sensoristica e successiva elaborazione dei dati rilevati con metodi di Intelligenza Artificiale di applicare strumenti di indagine previsione indirizzamento dei flussi alla visita museale.

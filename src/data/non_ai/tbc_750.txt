@@ -1,1 +1,1 @@
-microlubrificazione automatizzata di organi meccanici in movimento
+Sviluppo di integrazioni per l'applicazione di UpSecurIT che relaziona team di sicurezza (White Hat Hackers) e aziende. Lo scopo è quello di rendere internet un posto sicuro ed adeguare le aziende alla nuova normativa sulla protezione dei dati (GDPR).

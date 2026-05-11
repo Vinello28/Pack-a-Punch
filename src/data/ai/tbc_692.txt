@@ -1,1 +1,6 @@
-ARGO Vision svolge quotidiana attivit di ricerca e sviluppo. La societ in grado di anticipare i pi interessanti trend in computer vision e machine learning grazie ad un solido background scientifico un ampio network di ricercatori e l attivit di ricerca di base. Il progetto prevede la modernizzazione della tecnologia hardware e software diretta a efficientare i computer deputati a svolgere le operazioni di traning delle reti neurali e a rendere pi veloce e produttivo il team deputato alla prototipazione/ricerca di nuove soluzioni software. Si prevede l acquisto di un PC di training scheda grafica RAM Switch e schermo TV per monitoraggio PC Training. Per quanto concerne il software prevista l implementazione dell attuale dotazione con una piattaforma di prototipazione rapida.
+PROGETTO DENOMINATO FOSFORO:
+PIATTAFORMA WEB DI GESTIONE INTEGRATA E
+DEMATERIALIZZATA DEI PROCESSI GESTIONALI E
+AMMINISTRATIVI TRA COMMERCIALISTI E PMI
+ANCHE ATTRAVERSO SISTEMI DI OCR E
+INTELLIGENZA ARTIFICIALE.

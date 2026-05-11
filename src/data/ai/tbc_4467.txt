@@ -1,1 +1,1 @@
-Il progetto di DaDo si basa sull'uso combinato di Realt Virtuale e Mista integrato con Intelligenza Artificiale Analisi Dati e supportato da tecnologie di rete avanzate come il 5G/6G. L'obiettivo sviluppare percorsi culturali ed educativi in XR personalizzati per musei scuole enti turistici comuni e imprese del settore culturale e creativo.
+Il progetto si concentra sull'implementazione di soluzioni di intelligenza artificiale (IA) per migliorare l'efficienza, l'innovazione e la sicurezza nei processi interni volti all'integrazione sociale, lavorativa ed educativa.

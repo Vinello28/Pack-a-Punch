@@ -1,13 +1,1 @@
-in a recent decade, imagenet has become the most notable and powerful
-benchmark database in computer vision and machine learning community. as
-imagenet has emerged as a representative benchmark for evaluating the
-performance of novel deep learning models, its evaluation tends to include only
-quantitative measures such as error rate, rather than qualitative analysis.
-thus, there are few studies that analyze the failure cases of deep learning
-models in imagenet, though there are numerous works analyzing the networks
-themselves and visualizing them. in this abstract, we qualitatively analyze the
-failure cases of imagenet classification results from recent deep learning
-model, and categorize these cases according to the certain image patterns.
-through this failure analysis, we believe that it can be discovered what the
-final challenges are in imagenet database, which the current deep learning
-model is still vulnerable to.
+Morpheos una Startup innovativa che si occupa di Ricerca Industriale e Innovazione tecnologica. Il team variegato e multidisciplinare nei reparti sviluppo e marketing attivo nella realizzazione e commercializzazione di dispositivi hardware connessi e dotati di algoritmi di Intelligenza Artificiale nel settore della Smart Home. Al fine di usufruire di specifici software per la gestione dei processi operativi e gestionali dell'azienda si prevede l'acquisizione di una nuova infrastruttura IT composta da N. 2 Server apparati di networking e gruppi di continuit . Si intende inoltre acquisire la disponibilit di connettivit a banda larga in fibra ottica che consenta l'estensione degli stessi processi aziendali sul cloud consentendo quindi la loro fruizione anche al di fuori del perimetro aziendale in considerazione dell'evoluzione tecnologica avvenuta negli ultimi anni si intende puntare sull'acquisizione di server dotati di capacit di calcolo in grado di gestire anche sistemi di analisi dei dati basati su I.A. gli apparati di connettivit di networking saranno dotati di connettivit gigabit e capacit di dorsale multi gigabit il sistema di alimentazione di continuit permetter di mantenere in servizio i server per un periodo di almeno 20 Minuti.

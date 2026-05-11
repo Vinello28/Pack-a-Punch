@@ -1,1 +1,14 @@
-text-guided image generation and editing using diffusion models have achieved remarkable advancements. among these, tuning-free methods have gained attention for their ability to perform edits without extensive model adjustments, offering simplicity and efficiency. however, existing tuning-free approaches often struggle with balancing fidelity and editing precision. reconstruction errors in ddim inversion are partly attributed to the cross-attention mechanism in u-net, which introduces misalignments during the inversion and reconstruction process. to address this, we analyze reconstruction from a structural perspective and propose a novel approach that replaces traditional cross-attention with uniform attention maps, significantly enhancing image reconstruction fidelity. our method effectively minimizes distortions caused by varying text conditions during noise prediction. to complement this improvement, we introduce an adaptive mask-guided editing technique that integrates seamlessly with our reconstruction approach, ensuring consistency and accuracy in editing tasks. experimental results demonstrate that our approach not only excels in achieving high-fidelity image reconstruction but also performs robustly in real image composition and editing scenarios. this study underscores the potential of uniform attention maps to enhance the fidelity and versatility of diffusion-based image processing methods. code is available at https://github.com/mowenyii/uniform-attention-maps.
+the goal of formalization, proposed in this paper, is to bring together, as
+near as possible, the theoretic linguistic problem of synonym conception and
+the computer linguistic methods based generally on empirical intuitive
+unjustified factors. using the word vector representation we have proposed the
+geometric approach to mathematical modeling of synonym set (synset). the word
+embedding is based on the neural networks (skip-gram, cbow), developed and
+realized as word2vec program by t. mikolov. the standard cosine similarity is
+used as the distance between word-vectors. several geometric characteristics of
+the synset words are introduced: the interior of synset, the synset word rank
+and centrality. these notions are intended to select the most significant
+synset words, i.e. the words which senses are the nearest to the sense of a
+synset. some experiments with proposed notions, based on rusvectores resources,
+are represented. a brief description of this work can be viewed in slides
+https://goo.gl/k82fei

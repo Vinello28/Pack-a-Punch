@@ -1,1 +1,1 @@
-IL PROGETTO CONSISTE NEL COLLEGAMENTO IN RETE FRA N.3 COMPUTERS PER POTER OTTENERE MIGLIORI PERFORMANCES DEL PUNTO VENDITA AL BANCO CON L'ACQUISIZIONE CRESCENTE DELLE COMANDE IN PRODUZIONE  DA QUALSIASI CASSA ESSE PROVENGANO. MONITORAGGIO DI TUTTI I MOVIMENTI CASSA COMPRESI GLI ANNULLI.
+Il progetto prevede la vendita di articoli di imballaggio alimentare tramite le E-commerce. attualmente l azienda ha già avviato il progetto con macchine tradizionali, ma il flusso di informazione e  richieste, necessita un ammodernamento aziendale per far fronte alle problematiche.

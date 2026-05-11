@@ -1,0 +1,3 @@
+Il progetto ha come obiettivo Il progetto svilupperà risultati fondazionali nel campo dell'Intelligenza Artificiale
+distribuita e spiegabile. Investigherà l’interazione di singoli modelli di IA locale di singoli utenti, in un
+ecosistema a larga scala, distribuito e human-centric.

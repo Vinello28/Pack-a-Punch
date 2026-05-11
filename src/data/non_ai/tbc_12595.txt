@@ -1,1 +1,1 @@
-Sistema di supporto alle decisioni basato su Intelligenza Artificiale per la personalizzazione della terapia emodialitica SIATE
+Implementazione software per il controllo di gestione. Implementazione software per la conservazione digitale dei documenti. Implementazione software per la gestione della firma grafometrica sui documenti

@@ -1,1 +1,12 @@
-Il progetto prevede unâ€™ innovazione di processo e di prodotto.  Lo scopo Ã¨ rendere piÃ¹ efficiente la realizzazione di ambientazioni virtuali 3D per le industrie ceramiche del Made in Italy dei distretti sassolesi e faentini e per lâ€™interior design  senza escludere altri settori. Il sistema prevede un processo innovativo per integrare applicazioni di Intelligenza Artificiale con la CGI per la produzione di immagini di ambienti virtuali  video  video immersivi e altro  utilizzabili per il marketing.  Per conseguire lâ€™obiettivo sono necessarie dotazioni hardware  connessioni in fibra ottica  software  consulenze tecniche e  formazione.  Il risultato sarÃ  una decisa innovazione a disposizione delle aziende  grazie a immagini di nuova concezione  piÃ¹ creative e fruibili su ogni strumento.  Lâ€™integrazione con una piattaforma web dedicata a ospitare i contenuti (dati  descrizioni  prezzi  ecc) consentirÃ  diverse modalitÃ  di accesso e offrirÃ  ai clienti aree riservate per la loro gestione.  A supporto del nuovo servizio saranno realizzati strumenti e campagne di promozione e informazione per diffondere le nuove potenzialitÃ  delle immagini virtuali.
+CONSULENZA SPECIALISTICA PER SUPPORTARE I PROCESSI DI INNOVAZIONE, TRASFORMAZIONE TECNOLOGICA E DIGITALE DELL’IMPRESA ATTRAVERSO LE SEGUENTI FASI:
+-ANALISI DELLO STATO AZIENDALE E BASE DI DATI COMMERCIALE;
+-CONSULENZA PER MIGLIORARE IL MARCHIO AZIENDALE E LA SUA VISIBILITÀ;
+-CONSULENZA PER SVILUPPO DEI SISTEMI AZIENDALI: SET UP AMBIENTI DI SVILUPPO, INTEGRAZIONE BASE DI DATI, SVILUPPO GRAFICO/FUNZIONALE FRONTEND E BACKEND, IMPLEMENTAZIONE DELL’INTELLIGENZA ARTIFICIALE E DELL’AUTOMAZIONE;
+-SVILUPPO INTEGRAZIONE TRAMITE NLP (NATURAL LANGUAGE PROCESSING) PER ANALIZZARE AUTOMATICAMENTE I CONTRATTI E LE PRATICHE DI LOCAZIONE PER IDENTIFICARE TERMINI E CLAUSOLE IMPORTANTI;
+-ANALISI PREDITTIVA PER ANALIZZARE DATI STORICI ED IDENTIFICARE MODELLI E TENDENZE NEL SETTORE IMMOBILIARE 
+-DEPLOY E SUPPORTO POST-IMPLEMENTAZIONE,
+-FORMAZIONE DEL PERSONALE E DOCUMENTAZIONE.
+
+IL PROGETTO HA COME OBBIETTIVO L’INTEGRAZIONE DEI SISTEMI DI GESTIONE E COMUNICAZIONE AZIENDALE.
+
+L’INNOVAZIONE DI PROCESSO PREVEDE L’INTEGRAZIONE MULTITOOL PER LA VENDITA E PER IL MARKETING, PROCESSI STANDARDIZZATI DI APPRENDIMENTO DEL SOFTWARE (MACHINE LEARNING) E MIGLIORAMENTO DELLE PERFORMANCE DEL SERVIZIO.

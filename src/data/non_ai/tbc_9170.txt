@@ -1,1 +1,1 @@
-RR01_Barra da tetto_Eco-smart technology
+Implementazione di un collettore di dati e di tecnologia semantica per la loro classificazione.

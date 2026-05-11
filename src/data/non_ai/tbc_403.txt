@@ -1,1 +1,0 @@
-Realizzazione di un sistema di biglietteria online per titoli d'accesso tramite una apparecchiatura certificata e idonea. Il progetto snellirÃ  le pratiche di vendita e di controllo ingressi integrando una soluzione online automatizzata per concedere ai clienti l'acquisto in autonomia.

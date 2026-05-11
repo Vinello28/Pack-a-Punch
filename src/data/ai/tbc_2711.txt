@@ -1,0 +1,1 @@
+Il progetto di Ricerca e Sviluppo in oggetto mira a sviluppare soluzioni per ottimizzare l'utilizzo delle macchine attraverso la riduzione degli sprechi, attraverso l'utilizzo di IoT, big data e Analytics/Machine Learning.

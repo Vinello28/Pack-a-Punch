@@ -1,1 +1,8 @@
-Il progetto per l'evoluzione digitale della Profumeria Terriaca mira a implementare un sistema avanzato di intelligenza artificiale per personalizzare l'esperienza del cliente potenziare le vendite e rafforzare la presenza digitale.
+L’obiettivo finale del progetto è la realizzazione di un sistema digitale per videoconferenze di ultima  generazione in grado di fornire servizi avanzati basati sull’Intelligenza Artificiale (IA). La piattaforma (ARIANNA) sarà costituita da tre componenti principali:  
+1. Un piattaforma per videoconferenze basata su standard WebRTC e SFU (Selective Forward Unit);
+2. Un marketplace, dove sviluppatori di terze parti potranno caricare e vendere applicazioni intelligenti basate 
+sull’Intelligenza Artificiale; tali applicazioni saranno integrabili in maniera semplice con i servizi della piattaforma di  
+videoconferenza ARIANNA sviluppata in conformità allo standard WebRTC;  
+3. Una piattaforma in Cloud dove saranno ospitate le applicazioni intelligenti sotto forma di microservizi. Nella 
+piattaforma saranno realizzate tutte le funzioni necessarie per integrare la piattaforma per videoconferenze con le 
+applicazioni presenti nel marketplace.

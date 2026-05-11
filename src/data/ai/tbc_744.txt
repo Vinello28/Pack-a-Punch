@@ -1,0 +1,3 @@
+Nell'ambito dello sviluppo e potenziamento delle soluzioni tecnologiche aziendali Eggup srl, si pone l'obiettivo di digitalizzare l'analisi di una grossa mole di dati e organizzarli secondo tecniche proprie del machine learning e dell'AI.
+In particolare il progetto si compone di una fase di Analisi dei dati a cui segue una successiva fase di Sviluppo che prevede come output la realizzazione di un c.d. Minimum Viable Product. Tale minimo prodotto di valore darà la possibilità di testare la bontà degli output
+Allo stato attuale si rende necessario l'acquisizione di nuove risorse finanziarie per la realizzazione dei suddetti obiettivi e per l'acquisizione dell'adeguata tecnologia a supporto.

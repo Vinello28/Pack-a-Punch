@@ -1,0 +1,7 @@
+Oggetto della presente proposta è la fornitura di servizi di consulenza tecnologica finalizzati alla realizzazione di una PoC
+che dimostri il beneficio di modelli di intelligenza artificiale per il riconoscimento e l’analisi delle anomalie cromosomiche
+determinate attraverso le forme caratteristiche dei cromosomi in fase di cariotipo e di metafase, a partire da immagini
+da voi generate. La proposta prevede inoltre l’utilizzo di modelli generativi per la scrittura di bozze di diagnosi a vosto
+uso interno. L’approccio una volta validato, potrà essere utile per generare una piattaforma per estendere il
+caso d’uso anche ad altri casi d’uso - previo opportuno “lavoro di addestramento” – anche in altri settori, in
+particolare anatomia patologica e per la lettura dei Pap Test.

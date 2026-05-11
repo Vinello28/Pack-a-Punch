@@ -1,1 +1,6 @@
-Progetto di innovazione digitale per predictive maintenance basato su Ensemble Learning con Random Forest e Gradient Boosting nel contesto turismo. Il modello apprende da log di sistema e telemetria applicativa utilizzando tecniche di curriculum learning. Il deployment sfrutta model registry e versioning per garantire affidabilità.
+TRL 3 – experimental proof of concept
+The building block of knowledge, expertise, bio-scanning technology, Deep Learning
+Pytorch model, are already at full disposal of the proposal partners
+
+TRL 4 – technology validated in lab
+Upon completion of the project activities the expected underlining technology (both for biological one and causal reasoning software) will be deployed at early prototype level in some clinical pilot scenario to evaluate the accuracy and the daily feasibility

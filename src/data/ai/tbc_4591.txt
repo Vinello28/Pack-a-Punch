@@ -1,0 +1,7 @@
+L’obiettivo principale dell’intervento è migliorare la maturità digitale dell’ECO Hotel Milano attraverso l’integrazione di tecnologie innovative, ottimizzando l’efficienza operativa, promuovendo la sostenibilità e migliorando l’esperienza del cliente. Gli obiettivi SMART includono:
+Integrazione dei dati: Implementazione di un server centrale per una gestione sicura e fluida, con KPI quali riduzione del 30% dei tempi di accesso ai dati e del 25% degli errori.
+Automazione del servizio clienti: Un chatbot avanzato gestirà il 60% delle richieste di base, riducendo i tempi di risposta a meno di 1 minuto e aumentando la soddisfazione del cliente del 20%.
+Cybersecurity: Backup settimanali e riduzione del 50% degli incidenti di sicurezza garantendo un ambiente protetto.
+Reskilling e upskilling: Formazione per il 100% del personale sull’uso delle nuove tecnologie, con autonomia completa entro 6 mesi.
+
+Le soluzioni digitali previste consisteranno in: Server centrale: Hub per la gestione dei dati connesso alle TV certificate Industria 4.0, migliorando l’efficienza operativa e la sicurezza; TV certificate 4.0: Personalizzazione dell’esperienza cliente, gestione remota e monitoraggio energetico; Chatbot intelligente: Automatizzazione del servizio clienti, alleggerendo il carico operativo e m

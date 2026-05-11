@@ -1,1 +1,9 @@
-Progetto di impermeabilizzazione di edifici scolastici nel settore protezione civile. L'intervento prevede l'utilizzo di sistemi di ventilazione meccanica controllata per preservare il patrimonio storico. Il finanziamento è destinato alle opere civili, agli impianti e alle finiture.
+Kablator si occupa di macchine automatiche e sistemi di automazione robotici per l’industria: applicazioni laser e sviluppo di soluzioni robotizzate customizzate.
+Ha inoltre progettato un nuovo robot, attualmente allo stato TRL5 che si propone di automatizzare la quasi totalità del processo di produzione di quadri elettrici.
+L’innovazione consiste nella capacità del robot, di manipolare e cablare elementi non strutturati (“inconsistenti”): fili elettrici, tubi pneumatici.
+L’impiego del robot permetterà al cliente la stesura robotizzata del filo/tubo direttamente nella posizione di montaggio finale rivoluzionando il processo produttivo e introducendo tutti i vantaggi derivanti dall’automatizzazione in standard Industria 4.0 di mansioni ora svolte manualmente.
+Permetterà al cliente di ridurre del 50% i costi e i tempi di produzione.
+Contribuirà inoltre al raggiungimento degli obietti agenda 2030:
+-	neutralità carbonica: con la riduzione del consumo di energia;
+-	creazione di un lavoro dignitoso e più elevati livelli di produttività grazie ad un significativo aumento dell’output a parità di tempo/risorse impiegate.
+Il Bando consentirà l’ingegnerizzazione e industrializzazione di prodotto, fondamentali per portale la macchina, dall’attuale stato prototipale, sul mercato.

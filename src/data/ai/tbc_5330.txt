@@ -1,12 +1,3 @@
-an important and difficult challenge in building computational models for
-narratives is the automatic evaluation of narrative quality. quality evaluation
-connects narrative understanding and generation as generation systems need to
-evaluate their own products. to circumvent difficulties in acquiring
-annotations, we employ upvotes in social media as an approximate measure for
-story quality. we collected 54,484 answers from a crowd-powered
-question-and-answer website, quora, and then used active learning to build a
-classifier that labeled 28,320 answers as stories. to predict the number of
-upvotes without the use of social network features, we create neural networks
-that model textual regions and the interdependence among regions, which serve
-as strong benchmarks for future research. to our best knowledge, this is the
-first large-scale study for automatic evaluation of narrative quality.
+ServiTecno, PMI con sede in Lombardia specializzata nella distribuzione di tecnologie per l’automazione industriale in Italia, propone il progetto DigiPharma con l'obiettivo di presentare le nostre soluzioni software e hardware per la supervisione dei processi produttivi e la gestione avanzata dei dati, con un focus sul settore farmaceutico, nostro principale mercato di riferimento.
+Le tecnologie di ServiTecno hanno un impatto rilevante sulla filiera produttiva del farmaco, affrontando tematiche cruciali quali l'efficienza industriale, la cyber security operativa, la data integrity e l'integrazione delle nuove tecnologie, come l'intelligenza artificiale (AI) e il machine learning (ML). Durante l'evento, intendiamo mostrare le nostre soluzioni innovative per il miglioramento continuo della produzione, la messa in sicurezza degli impianti, la sostenibilità e la digitalizzazione dei processi produttivi.
+La partecipazione a Pharmintech powered by Ipack Ima 2025 sarà un’opportunità per coinvolgere sia clienti consolidati che nuovi interlocutori, promuovendo così la nostra offerta tecnologica.

@@ -1,0 +1,6 @@
+Il progetto prevede i seguenti interventi innovativi di efficienza energetica e di uso delle energie rinnovabili:
+- sostituzione dei principali corpi illuminanti delle aree produzione, uffici ed esterni con lampade LED;
+
+installazione di un impianto fotovoltaico in seguito alla rimozione dell'eternit e alla sostituzione della copertura;
+- installazione di un sistema di rifasamento automatico in grado di ridurre lo sfasamento tra energia attiva e reattiva, migliorando l'impegno di energia prelevata dalla rete e non utilizzata;
+-¿installazione di un sistema di controllo e gestione dell'energia

@@ -1,0 +1,1 @@
+Sviluppo di un servizio algoritmico per il gioco del Fantacalcio.

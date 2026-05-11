@@ -1,1 +1,4 @@
-Progetto dal titolo "ICARO-Intelligenza Conversazionale per Applicazioni Robotiche per una Fabbrica Circolare e Sostenibile" finanziato nell'ambito de PE MICS
+L'obiettivo del progetto e' quello di studiare e implementare un sistema in grado di sfruttare metodi statistici e di apprendimento automatico per migliorare le stime dei tassi di corrosione attraverso un approccio piu' ampio che:
+- sfrutti situazioni in cui vengono effettuate diverse misurazioni sulla stessa conduttura;
+- analizzi e identifichi automaticamente gli outlier;
+- coinvolga l'operatore del processo".

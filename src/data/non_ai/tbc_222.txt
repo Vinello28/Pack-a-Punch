@@ -1,1 +1,6 @@
-La societÃ  svolge lÂ¿attivitÃ  di gestione di centri sportivi. LÂ¿obiettivo del progetto Ã¨ quello di modernizzare lÂ¿organizzazione aziendale e migliorare lÂ¿accesso ai servizi offerti. Tutto ciÃ² potrÃ  realizzarsi mediante la digitalizzazione dei documenti e delle schede anagrafiche della clientela ed un meccanismo di accesso automatizzato alla struttura mediante riconoscimento digitale del cliente. QuestÂ¿ultimo meccanismo si caratterizza per lÂ¿utilizzo di un software realizzato ad hoc e di strutture di accesso controllate a distanza che permettono lÂ¿ingresso nella struttura solo a chi Ã¨ in regola con il pagamento dei corrispettivi e la certificazione sanitaria necessaria.
+SISTEMA ROBOTICO INTERCONNESSO CON UN
+SISTEMA CENTRALE. RAPPRESENTA UN SISTEMA
+DI DIFESA PASSIVO PER IMPEDIRE IN MANIERA
+INTELLIGENTE E COMPUTERIZZATA LACCESSO DI
+VEICOLI CON FINALITÀ POTENZIALMENTE
+AGGRESSIVE/TERRORISTICHE

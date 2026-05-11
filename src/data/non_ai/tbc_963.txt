@@ -1,1 +1,2 @@
-CREAZIONE DI UNA AZIENDA ALL'AVANGUARDIA CHE OFFRA SERVIZI DI DIAGNOSTICA  MANUTENZIONE PREDITTIVA  ORDINARIA E STRAORDIANRIA PER DIVERSE TIPOLOGIE DI APPARATI TECNOLOGICI INNOVATIVE
+Il portale per l'efficientamento energetico consentirà all'utente finale di inserire i propri dati di consumo energetico, le proprie abitudini di consumo e la spesa energetica media in termini di energia elettrica e gas.
+Il sistema elaborerà i dati inseriti dall'utente restituendo le possibili soluzioni di efficientamento energetico e di riduzione dei consumi e dei costi per la materia energetica dando all'utente la possibilità di acquistare autonomamente i prodotti suggeriti e/o avvalersi dela consulenz specialistica in backoffice per la progettazione dell'intervento proposto.

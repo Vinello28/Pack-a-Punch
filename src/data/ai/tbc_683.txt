@@ -1,0 +1,10 @@
+Progettazione, sviluppo e deployment di una soluzione E-Commerce specificamente realizzata per la gestione dei
+prodotti assicurativi personalizzabili del Cliente con sviluppo specifico di un modulo di preventivazione on-line.
+Implementazione dei metodi di pagamento fra cui la gestione delle carte di credito tramite moduli per i principali
+provider nazionali e internazionali.
+La piattaforma e-commerce integra un modulo di analisi dei comportamenti degli utenti e interazione automatica
+(Chatbot) per favorire e gestire i principali casi di interruzione del processo d'acquisto, migliorando allo stesso
+tempo l'efficacia della soluzione e-commerce e l'efficienza aziendale nella gestione del flusso d'acquisto.
+L'E-Shop fornisce sistema di Analytics per il monitoraggio dell'interesse verso prodotti o tipologie di prodotto.
+Incluse nella fornitura le attività di modellazione e start-up della piattaforma sul business model del Cliente con
+lo studio e progettazione dei casi d'uso e relativa gestione dati specifici.

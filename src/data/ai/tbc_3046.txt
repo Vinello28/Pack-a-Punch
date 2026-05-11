@@ -1,0 +1,1 @@
+Sviluppo di un'infrastruttura che consente di creare videoghiochi educativi multilingua sull'arte, che sfruttano l'Intelligenza Artificiale

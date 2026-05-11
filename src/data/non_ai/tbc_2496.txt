@@ -1,0 +1,5 @@
+L’idea proposta da Virtual Factory è quella di realizzare un applicativo VR e AR DENOMINATO ARM (Advanced Reality Maintenance) composto da 2 sottoprodotti: 
+
+1) Un sistema VR per il training degli operatori intenti a dover effettuare operazioni di montaggio – smontaggio di particolari componenti (anche particolarmente ostici) che richiedono operazioni ben precise e caratterizzate da un elevato livello di criticità operativa (componenti non visibili, che non possono essere manomessi o spostati, zone di azione “off-limits” ecc.) 
+
+2) Un applicativo in realtà aumentata che consenta, fisicamente, all’operatore di agire il processo manutentivo con particolare riferimento alla “componentistica nascosta” e alle linee di cavetteria (elettrica) o piping.

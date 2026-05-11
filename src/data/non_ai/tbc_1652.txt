@@ -1,1 +1,2 @@
-Migliorare efficienza dell'impresa tramite formazione del personale  sostituzione di hardware e software  utilizzando forme di telelavoro
+I-Tel è proprietaria di una piattaforma di comunicazione omnicanale, sulla quale sviluppa una serie di applicazioni volte ad ottimizzare alcuni processi aziendali ricorrenti in specifici mercati, rendendo gli stessi maggiormente fruibili all’utente a cui si rivolgono: cittadino, assistito, dipendente...
+Il progetto di innovazione vuole traghettare tale piattaforma da una soluzione monolitica ad una modulare basata su Microservizi al fine di renderla compliant con tematiche quali cloud e GDPR.

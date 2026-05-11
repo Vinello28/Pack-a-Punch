@@ -1,15 +1,1 @@
-recent works showed that generative adversarial networks (gans) can be
-successfully applied in unsupervised domain adaptation, where, given a labeled
-source dataset and an unlabeled target dataset, the goal is to train powerful
-classifiers for the target samples. in particular, it was shown that a gan
-objective function can be used to learn target features indistinguishable from
-the source ones. in this work, we extend this framework by (i) forcing the
-learned feature extractor to be domain-invariant, and (ii) training it through
-data augmentation in the feature space, namely performing feature augmentation.
-while data augmentation in the image space is a well established technique in
-deep learning, feature augmentation has not yet received the same level of
-attention. we accomplish it by means of a feature generator trained by playing
-the gan minimax game against source features. results show that both enforcing
-domain-invariance and performing feature augmentation lead to superior or
-comparable performance to state-of-the-art results in several unsupervised
-domain adaptation benchmarks.
+Buono Formativo per partecipazione corso TECNICHE di SOCIAL MEDIA MARKETING NEUROMARKETING e INTELLIGENZA ARTIFICIALE

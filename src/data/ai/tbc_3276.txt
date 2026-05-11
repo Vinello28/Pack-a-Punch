@@ -1,0 +1,9 @@
+PROVA-LE si pone l’obiettivo dello sviluppo e della validazione di un materiale ferro elettrico per il recupero vibrazionale di energia, dello
+studio, del suo processo di produzione e del protocollo di validazione tramite sistemi di intelligenza artificiale. Sarà sviluppata una nuova
+generazione di materiali per sistemi di energy harvesting innovando strutture come PLA e PHA per sfruttare la loro peculiarità e facilità di
+stampa 3D oltre che la biodegradabilità cercando di migliorare le caratteristiche piezoelettriche al fine di produrre energia quando
+sollecitati da condizioni ambientali come vibrazioni e/o pressione. Verranno costruiti dei campioni di materiale e dei prototipi di generatore
+da caratterizzare e per i quali saranno indagati i processi e i parametri di produzione. Sarà indagata la stabilità nel tempo delle prestazioni.
+Inoltre, sarà sviluppata una nuova tecnologia di validazione dei risultati impiegando sistemi di intelligenza artificiale mutuati da altri settori
+permettendo una maggiore velocità e robustezza del risultato. I modelli di intelligenza artificiale saranno basati su modelli di reti neurali
+profonde ed addestrati tramite tecniche di apprendimento supervisionato e non supervisionato.

@@ -1,1 +1,0 @@
-Soluzione cloud native che adotta tecniche di Machine Learning (ML) e di Explainable Artificial Intelligence (XAI) il cui obiettivo fare chiarezza in merito a quanto succede nella black box dei dati e degli algoritmi che elaborano modelli di AI.

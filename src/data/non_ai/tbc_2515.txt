@@ -1,0 +1,9 @@
+Il progetto verte sulla modifica del sito web della struttura, con ampliamento delle funzionalità del sito stesso, grazie all'integrazione di un booking engine dedicato quale ad esempio la predisposizione del booking enging derivante dal popolamento della struttura ricettiva nel portale DMS regionale come previsto a preventivo.
+Saranno inoltre implementate:
+- adeguamento a standard di sicurezza
+Saranno inoltre forniti materiali e apparecchiature hardware con descrizione specifica: - APPLE MACBOOK PRO 13.
+Strumenti di distanziamento sociale quali:
+- Citofono Connesso Biticino CLASSE 100X16E Wi-Fi; - Tastierino per il controllo degli accessi;
+Consulenza per l'utilizzo dello strumento DMS regionale
+- ATTIVAZIONE DELL'APPLICATIVO "OCTORATE"
+L'applicativo Octorate permette di trasmettere i dati degli ospiti alla PS e all'ISTAT turistico regionale, l'applicativo calcola inoltre la tassa di soggiorno dovuta dall'ospite, ove applicata.

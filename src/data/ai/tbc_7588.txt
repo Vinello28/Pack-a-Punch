@@ -1,1 +1,1 @@
-Sistema di traduzione simultanea per conferenze basato su architetture Transformer con latenza ridotta e supporto per terminologia tecnica specialistica.
+Sviluppo di un sistema intelligente per analisi video sorveglianza tramite Graph Neural Networks (GNN) per dati strutturati applicato al settore logistica. La piattaforma processa immagini ad alta risoluzione acquisite da telecamere industriali con latenza inferiore a 100ms. L'architettura prevede model compression e quantization con ridondanza geografica.

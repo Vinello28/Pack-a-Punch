@@ -1,0 +1,5 @@
+"Il servizio si articola in percorsi su tematiche chiave:
+Cybersecurity: Malware, Password, Fake News, Mobile Security
+Intelligenza Artificiale (IA): Introduzione all’IA; Approfondimenti su Machine Learning, Reti neurali, Deep Learning, IoT, IA Generativa; IA nelle Risorse Umane; IA nella Progettazione Didattica
+Realtà Virtuale (VR): Introduzione e approfondimento sulle applicazioni della VR
+Realtà Aumentata (AR): Introduzione e approfondimento sull’uso dell’AR"

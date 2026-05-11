@@ -1,1 +1,3 @@
-Sviluppo di una struttura per l'applicazione delle tecnologie Big Data adatta alle esigenze del settore manifatturiero.
+Il progetto intende certificare come dispositivo medico di classe IIb, il modulo di AI AKIRA. AKIRA è il
+primo software italiano che avverte con 18-24h di anticipo se un paziente ospedalizzato può sviluppare
+un insufficienza renale acuta

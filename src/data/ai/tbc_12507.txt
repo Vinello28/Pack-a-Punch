@@ -1,1 +1,1 @@
-White paper pensato per mettere in luce le straordinarie opportunit he la nuova rivoluzione tecnologica guidata dall'Intelligenza Artificiale offre alle Piccole e Medie Imprese del Made in Italy nell'ambito industriale.
+Horus Ã¨ un sistema di Visual Recognition che riesce ad identificare e classificare forme  colori e motivi di un oggetto presente in un immagine. Il sistema analizza e codifica i pixel delle immagini identificando il colore  la forma/modello e il motivo/fantasia

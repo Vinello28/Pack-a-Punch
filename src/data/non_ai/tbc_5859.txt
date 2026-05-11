@@ -1,0 +1,7 @@
+Oggetto della proposta è l’erogazione di servizi di assesment e formazione in ambito Cyber Security e Compliance, nello
+specifico le attività previste sono:
+• Penetration Test fino a 5 IP;
+• Vulnerability Assessment fino a 30 Server;
+• Formazione Security Awareness per 60 dipendenti
+• Pre Assessment NIS2
+• Consulenza per Compliance Normativa

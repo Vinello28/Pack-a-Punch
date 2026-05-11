@@ -1,0 +1,6 @@
+Il progetto prevede lo sviluppo di una metodologia innovativa di analisi delle biopsie liquide e tissutali, attraverso la  tecnologia di sequenziamento del DNA accoppiata a processi automatizzati. Il risultato principale è un processo che renda più accessibili gli strumenti di medicina di precisione, grazie ad un forte abbattimento dei costi di esecuzione. 
+Dal punto di vista tecnico, l’obiettivo si sviluppa come un miglior utilizzo della tecnologia di sequenziamento del DNA, al fine di accelerare la disponibilità di dati genomici sul territorio all'interno di percorsi di oncologia di precisione per il supporto del processo terapeutico-decisionale.
+La metodica proposta:
+•	migliora la sensibilità, la riduzione dei tempi analitici e la capacità di individuare mutazioni di interesse per la guida della terapia personalizzata.
+•	comporta un drastico abbattimento dei costi che permetterebbe un monitoraggio costante della risposta alle terapie antitumorali e monitoraggio post-terapia per la valutazione della malattia minima residua
+Le attività di ricerca verranno sviluppate in collaborazione con gli enti di ricerca IRCCS CRO di Aviano e Università di Udine

@@ -1,1 +1,12 @@
-parcellation of whole-brain tractography streamlines is an important step for tract-based analysis of brain white matter microstructure. existing fiber parcellation approaches rely on accurate registration between an atlas and the tractograms of an individual, however, due to large individual differences, accurate registration is hard to guarantee in practice. to resolve this issue, we propose a novel deep learning method, called deepbundle, for registration-free fiber parcellation. our method utilizes graph convolution neural networks (gcnns) to predict the parcellation label of each fiber tract. gcnns are capable of extracting the geometric features of each fiber tract and harnessing the resulting features for accurate fiber parcellation and ultimately avoiding the use of atlases and any registration method. we evaluate deepbundle using data from the human connectome project. experimental results demonstrate the advantages of deepbundle and suggest that the geometric features extracted from each fiber tract can be used to effectively parcellate the fiber tracts.
+DEFINIZIONE E MESSA IN OPERA DI UNA SERIE DI AZIONI VOLTE AL RIPOSIZIONAMENTO DI PROGETTO SISMA SRL NEL SETTORE DELL’EDILIZIA, ATTRAVERSO L’IMPLEMENTAZIONE DI SISTEMA DI DIGITAL MARKETING PER OTTIMIZZARE I FLUSSI DI LAVORO, MIGLIORARE LA GESTIONE DEI DATI E LA REPORTISTICA, ED INTEGRARE DIGITALMENTE I PROCESSI DI MARKETING E VENDITE.
+
+LE AZIONI PRIORITARIE INCLUDONO:
+CONFRONTO CON BOARD E TEAM:
+•	INTRODUZIONE AL DIGITAL MARKETING
+•	INDIVIDUAZIONI PROCESSI E ATTIVITÀ CHE POSSANO BENEFICIARE MAGGIORMENTE DI UN’AUTOMAZIONE DIGITAL
+IMPLEMENTAZIONE DI SISTEMI E INTELLIGENZA ARTIFICIALE IN AMBITO:
+•	DEFINIZIONE DELLA STRATEGIA DI MARKETING
+•	SVILUPPO DEI TOOLS DIGITALI A SUPPORTO DEI PROCESSI DI MARKETING E VENDITE
+QUESTE ATTIVITÀ RIENTRANO IN UNA ROADMAP ANNUALE, CHE PERMETTANO ALL’AZIENDA DI:
+•	CREARE UNA CULTURA AZIENDALE INTEGRATA A QUESTI SISTEMI
+•	RIVEDERE E OTTIMIZZARE TUTTI I TOUCHPOINT CON IL CLIENTE PER GARANTIRE UNA COMUNICAZIONE PIÙ EFFICIENTE ED EFFICACE

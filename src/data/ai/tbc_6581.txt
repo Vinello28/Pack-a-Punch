@@ -1,17 +1,1 @@
-sports video data is recorded for nearly every major tournament but remains
-archived and inaccessible to large scale data mining and analytics. it can only
-be viewed sequentially or manually tagged with higher-level labels which is
-time consuming and prone to errors. in this work, we propose an end-to-end
-framework for automatic attributes tagging and analysis of sport videos. we use
-commonly available broadcast videos of matches and, unlike previous approaches,
-does not rely on special camera setups or additional sensors.
-  our focus is on badminton as the sport of interest. we propose a method to
-analyze a large corpus of badminton broadcast videos by segmenting the points
-played, tracking and recognizing the players in each point and annotating their
-respective badminton strokes. we evaluate the performance on 10 olympic matches
-with 20 players and achieved 95.44% point segmentation accuracy, 97.38% player
-detection score (map@0.5), 97.98% player identification accuracy, and stroke
-segmentation edit scores of 80.48%. we further show that the automatically
-annotated videos alone could enable the gameplay analysis and inference by
-computing understandable metrics such as player's reaction time, speed, and
-footwork around the court, etc.
+Sviluppo di un sistema intelligente per personalization tramite Speech Recognition con modelli end-to-end applicato al settore moda. La piattaforma processa video ad alta definizione 4K/8K con latenza inferiore a 100ms. L'architettura prevede pipeline MLOps con CI/CD automatizzato con ridondanza geografica.

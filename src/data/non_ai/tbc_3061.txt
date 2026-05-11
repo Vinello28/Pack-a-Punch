@@ -1,0 +1,1 @@
+loudspeaker viritualizer dispositivo dotato di un nuovo metodo per il controllo non lineare di un segnale d’ingresso per un altoparlante basato sulla modellazione numerica del processo di trasduzione

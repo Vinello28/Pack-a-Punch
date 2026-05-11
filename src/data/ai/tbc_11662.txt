@@ -1,1 +1,1 @@
-Progetto dal titolo "IMPROVE: Bridging Predictive Maintenance and Machine Learning for Enhanced Performance and Sustainability" finanziato nell'ambito del Partenariato esteso "MICS - Made in Italy Circolare e Sostenibile"
+Servizio di Test before invest finalizzato alla sperimentazione e alla validazione di software UX design intelligenza artificiale integrazione sistemi di pagamento gestione multiprofilo e analytics nella definizione delle architetture nella prototipazione delle nuove feature AI e nel validare i nuovi flussi di business.

@@ -1,0 +1,5 @@
+Spatial Plan proposta mira a rivoluzionare le attività di conservazione e manutenzione del
+patrimonio artistico dei Musei del Comune di Genova, integrando le tecnologie avanzate
+di Apple Vision Pro con lo Spatial Computing. Utilizzando il dispositivo Apple Vision Pro,
+dotato di hardware come il Lidar e camere, insieme al chip M2 e alle capacità di machine
+learning, proponiamo una soluzione di scansione real-time del patrimonio artistico

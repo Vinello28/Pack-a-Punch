@@ -1,1 +1,1 @@
-isola robotizzata di smerigliatura per automazione processo di produzione
+uBeat: una piattaforma microelettrofisiologica "cuore su chip" per la detezione precoce di cardiotossicita dei farmaci

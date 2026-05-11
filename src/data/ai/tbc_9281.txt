@@ -1,1 +1,11 @@
-Assessment delle tecnologie utili all'azienda e delle declinazioni tecnologiche di servizi e prodotti in ambito intelligenza artificiale
+object reconstruction from a single image -- in the wild -- is a problem
+where we can make progress and get meaningful results today. this is the main
+message of this paper, which introduces an automated pipeline with pixels as
+inputs and 3d surfaces of various rigid categories as outputs in images of
+realistic scenes. at the core of our approach are deformable 3d models that can
+be learned from 2d annotations available in existing object detection datasets,
+that can be driven by noisy automatic object segmentations and which we
+complement with a bottom-up module for recovering high-frequency shape details.
+we perform a comprehensive quantitative analysis and ablation study of our
+approach using the recently introduced pascal 3d+ dataset and show very
+encouraging automatic reconstructions on pascal voc.

@@ -1,1 +1,15 @@
-Il progetto presentato da Rudy Profumi SRL storica azienda italiana nel settore della profumeria e dei prodotti per la cura del corpo fondata nel 1920 si inquadra nel Programma Regionale FESR 2021-2027 della Regione Lombardia specificamente nell'Asse 1 dedicato a Un'Europa pi competitiva e intelligente. Il progetto mira al potenziamento delle competenze aziendali per supportare la transizione digitale ed ecologica dell'impresa. L'azienda che si distingue per la produzione di profumi e prodotti cosmetici di alta qualit con una forte connotazione Made in Italy ha identificato la necessit di implementare un sistema integrato di gestione digitale dei processi e l'adozione di strumenti di analisi predittiva basati su intelligenza artificiale. Il progetto si articola su tre ambiti principali: digitalizzazione dei processi produttivi realizzati in filiera con partner terzi innovazione della supply chain e potenziamento dei canali commerciali. La strategia di trasformazione prevede l'implementazione di sistemi ERP/CRM integrati piattaforme blockchain per la tracciabilit delle materie prime e strumenti di business intelligence per l'analisi predittiva della domanda. Particolare attenzione dedicata all'integrazione di metriche ESG per il monitoraggio dell'impatto ambientale
+6dof camera relocalization is an important component of autonomous driving
+and navigation. deep learning has recently emerged as a promising technique to
+tackle this problem. in this paper, we present a novel relative geometry-aware
+siamese neural network to enhance the performance of deep learning-based
+methods through explicitly exploiting the relative geometry constraints between
+images. we perform multi-task learning and predict the absolute and relative
+poses simultaneously. we regularize the shared-weight twin networks in both the
+pose and feature domains to ensure that the estimated poses are globally as
+well as locally correct. we employ metric learning and design a novel adaptive
+metric distance loss to learn a feature that is capable of distinguishing poses
+of visually similar images from different locations. we evaluate the proposed
+method on public indoor and outdoor benchmarks and the experimental results
+demonstrate that our method can significantly improve localization performance.
+furthermore, extensive ablation evaluations are conducted to demonstrate the
+effectiveness of different terms of the loss function.

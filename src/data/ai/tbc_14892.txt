@@ -1,1 +1,1 @@
-ARTIFICIAL INTELLIGENCE AND DATA SCIENCE FOR EXECUTIVES
+Soluzione software chatbot (assistente virtuale) che consente al cliente finale di interagire facilmente con informazioni tecniche e operative relative al macchinario industriale.

@@ -1,0 +1,1 @@
+Biochip funzionalizzato con sonde di PNA con sequenza ad hoc per marcatori prognostici e diagnostici della leucemia linfatica cronica, corredato di tecnologie ICT per la trasduzione del segnale di riconoscimento gestito da flussi informativi attraverso lo sviluppo di programmi ad hoc.

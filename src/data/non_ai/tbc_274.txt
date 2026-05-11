@@ -1,0 +1,2 @@
+La società ha intenzione di implementare e-commerce per dare la possibilità alla propria clientela di prenotare gli esami, pagare i servizi in modo ancitipato on line e scaricare i referti degli esami medici comodamente da casa.
+in particoalre il progetto prevede anche l'implementazioen di un software gestionale per la gestione amministrativa interna delle prenotazione degli esami, della fatturazione, etc.

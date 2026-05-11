@@ -1,1 +1,12 @@
-SImbiotiC AI for drUg inteRactions Assessment
+Linvestimento riguarda lo sviluppo di due nuovi gestionali.
+Il primo progetto è il software gestionale CRM Cordua Formazioneche consiste nello sviluppo di una
+applicazione WEB implementata con Laravel/Lumen per la gestione interna di corsi/studenti della scuola di
+formazione Cordua Formazione Snc di Francesco Cordua.
+Il secondo progetto è lo sviluppo del software Cordua Formazione con lobiettivo di consentire la gestione
+automatizzata dei dati e delle informazioni della ns utenza.
+Questo gestionale consentirà:
+- Inserimento domande e relativa gestione degli argomenti
+- Gestione e composizione dei test
+- Gestione Corsi
+- Organizer lezioni per docenti e aule
+- Gestione studenti e relativa reportistica

@@ -1,1 +1,4 @@
-Il progetto prevede la diversificazione dei servizi offerti attraverso l'implementazione di nuovi processi relativi ai servizi di manutenzione degli autoaspiratori , alle ricariche degli estintori  a CO2 , alla modifica del processo di addestramento esterno nonchÃ© l'implementazione di un nuovo impianto per la ricarica polveri . Attualmente parte dei processi vengono realizzati esternamente attraverso aziende specializzate con costi elevati e perdita di efficienz
+Il progetto AMICO si propone di realizzare un’infrastruttura, chiamata “ambiente instrumentato”, costituita
+dall’ambiente domestico e dalla persona entrambi opportunamente muniti di sensori, da una piattaforma di
+servizi di telemedicina (in ambito Internet of Things) e da un Robot che si pone come mediatore/master tra
+la persona, l’ambiente circostante e l’ambiente esterno.

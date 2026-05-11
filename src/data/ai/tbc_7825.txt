@@ -1,1 +1,0 @@
-Il progetto OCTOPUS punta a ottimizzare il ciclo di progettazione dei circuiti AMS automatizzando valutazione post-layout e re-targeting. Integra modelli di machine learning e flussi end-to-end per creare un prototipo industriale riducendo tempi e costi e favorendo la sovranit tecnologica UE.

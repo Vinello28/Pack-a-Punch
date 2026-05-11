@@ -1,0 +1,1 @@
+Dailyplatform, piattaforma ingegnerizzata in cloud strutturata per la gestione e il monitoraggio della sicurezza sul lavoro basata sull’interazione IOT con WIDIU bracciale oggetto di brevetto che invia informazioni riferite a parametri vitali del dipendente, anche in relazione a circostanze particolari, ambienti di lavoro ad alto rischio, esposizioni a particolari agenti fisici.

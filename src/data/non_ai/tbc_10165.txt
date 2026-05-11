@@ -1,1 +1,0 @@
-DLV Large Scale: un sistema per applicazioni di Intelligenza Artificiale in architetture data-intensive e mobile

@@ -1,1 +1,1 @@
-TECNO CLINIC S.R.L. - Azione 1.4.1 - Supporto allo sviluppo o all'utilizzo da parte di micro e PMI di competenze per la transizione industriale  la specializzazione intelligente e l'imprenditorialitÃ
+Automatizzazione del processo di ricezione e controllo delle merci tramite lettura barcode ed associazione ad incarichi ricevuti  automatizzazione del controllo del carico merci in distribuzione sui mezzi con gestione tramite applicazione su dispositivi mobile delle consegne  ritiri e conferme in tempo reale.

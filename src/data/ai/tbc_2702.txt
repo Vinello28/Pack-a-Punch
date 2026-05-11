@@ -1,0 +1,9 @@
+In Italia oltre 25 milioni di persone fanno abitualmente la spesa. Di queste, sempre più sono i  consumatori cd. “attenti”. Più di 8 su 10, infatti, vorrebbero fare scelte più salutari e sostenibili e quasi 7 su 10 manifestano l’esigenza di essere guidati in questo processo. 
+Gli strumenti e le conoscenze a loro disposizione sono però scarse e questo genera insoddisfazione, perdita di tempo e scelte meno salutari e sostenibili, a svantaggio sia dell’individuo che della collettività. 
+Weeshop si pone come il miglior assistente digitale per la spesa alimentare, un’app che aiuta i consumatori ad analizzare facilmente ciò che mangiano ed a trovare alternative salutari e sostenibili, in modo indipendente e su misura. 
+La tecnologia è inoltre integrabile con app terze, risultando di fatto ancora più interessante in ottica B2B con i retailers.
+Il progetto prevede investimenti:
+- nello sviluppo di nuove funzionalità premium dell’app tra cui l’impatto di Co2 dei prodotti
+- nello sviluppo del backend e nel potenziamento degli algoritmi di AI
+- nell’ingresso nel mercato B2B attraverso l’ingegnerizzazione della soluzione SaaS integrabile con le app dei retailer. 
+L’obiettivo finale è quello di raggiungere +1.000 nuovi abbonati Premium e perfezionare lo sviluppo della soluzione B2B.
