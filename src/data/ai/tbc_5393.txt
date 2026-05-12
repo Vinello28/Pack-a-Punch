@@ -1,4 +1,1 @@
-DistriMuSe sostenerà la salute e la sicurezza umana, migliorando la percezione
-della presenza, del comportamento e della salute umana mediante sistemi multisensoriali e AI. DistriMuSe Italia
-svilupperà tecnologie per realizzare la piattaforma DistriMuSe e parteciperà a progetti pilota per convalidare la
-piattaforma.;
+The project aims to tackle food waste in food services exploiting the leftovers to monitor diet quality and sustainability. It develops a model using machine learning techniques on images taken before and after meals to automatically collect data on consumption and waste. This approach identifies patterns in leftovers providing insights into consumer behavior and dietary preferences thereby addressing a significant source of food waste and its impact on sustainability and nutrition.

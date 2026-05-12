@@ -1,1 +1,17 @@
-L Accademia intende sfruttare le opportunit offerte dalle nuove tecnologie allo scopo di rendere i propri flussi di lavoro pi efficienti e performanti e consentire importanti risparmi in termini di risorse e tempo da impiegare pi utilmente per l ulteriore ottimizzazione dell esperienza formativa. Lo strumento che permetter tali risultati sar Edu.Art.H. un gestionale SaaS in Cloud progettato specificamente per Accademie e Universit e costruito attorno alle esigenze specifiche dell istituzione che intende farne uso. Esso integra sistemi di gestione documentali CRM piattaforme di gestione integrata delle funzioni aziendali strumenti di BI e di BA sistemi per la raccolta monitoraggio analisi e archiviazione di dati relativi ai processi aziendali. Molti di tali sistemi saranno gestiti tramite automatismi e sofisticati algoritmi basati sull IA e il Machine Learning nonch tecnologie di valorizzazione dei dati in grado di supportare scelte operative e gestionali data-driven
+we study the problem of incorporating risk while making combinatorial
+decisions under uncertainty. we formulate a discrete submodular maximization
+problem for selecting a set using conditional-value-at-risk (cvar), a risk
+metric commonly used in financial analysis. while cvar has recently been used
+in optimization of linear cost functions in robotics, we take the first stages
+towards extending this to discrete submodular optimization and provide several
+positive results. specifically, we propose the sequential greedy algorithm that
+provides an approximation guarantee on finding the maxima of the cvar cost
+function under a matroidal constraint. the approximation guarantee shows that
+the solution produced by our algorithm is within a constant factor of the
+optimal and an additive term that depends on the optimal. our analysis uses the
+curvature of the submodular set function, and proves that the algorithm runs in
+polynomial time. this formulates a number of combinatorial optimization
+problems that appear in robotics. we use two such problems, vehicle assignment
+under uncertainty for mobility-on-demand and sensor selection with failures for
+environmental monitoring, as case studies to demonstrate the efficacy of our
+formulation.

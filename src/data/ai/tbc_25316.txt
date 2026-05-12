@@ -1,0 +1,23 @@
+a growing number of applications, e.g. video surveillance and medical image
+analysis, require training recognition systems from large amounts of weakly
+annotated data while some targeted interactions with a domain expert are
+allowed to improve the training process. in such cases, active learning (al)
+can reduce labeling costs for training a classifier by querying the expert to
+provide the labels of most informative instances. this paper focuses on al
+methods for instance classification problems in multiple instance learning
+(mil), where data is arranged into sets, called bags, that are weakly labeled.
+most al methods focus on single instance learning problems. these methods are
+not suitable for mil problems because they cannot account for the bag structure
+of data. in this paper, new methods for bag-level aggregation of instance
+informativeness are proposed for multiple instance active learning (mial). the
+\textit{aggregated informativeness} method identifies the most informative
+instances based on classifier uncertainty, and queries bags incorporating the
+most information. the other proposed method, called \textit{cluster-based
+aggregative sampling}, clusters data hierarchically in the instance space. the
+informativeness of instances is assessed by considering bag labels, inferred
+instance labels, and the proportion of labels that remain to be discovered in
+clusters. both proposed methods significantly outperform reference methods in
+extensive experiments using benchmark data from several application domains.
+results indicate that using an appropriate strategy to address mial problems
+yields a significant reduction in the number of queries needed to achieve the
+same level of performance as single instance al methods.

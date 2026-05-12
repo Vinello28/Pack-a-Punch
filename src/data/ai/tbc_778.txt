@@ -1,12 +1,1 @@
-ll progetto "Particles" si pone come obiettivo quello di sfruttare le tecnologie più innovatìve in ambito Big
-Data e Machine Learning per creare una piattaforma che si interfacci con il nostro ecosistema composto da
-Ecommerce, Gestionale di Magazzino e CRM.
-ll software avrà il compito dieseguire le seguenti operazioni:
-- collezionamento dati: è la fase principale, durante la quale il software inizierà ad apprendere grazie ad
-una serie di eventi generati dalle visite sulsito, gli ordini e le richieste di assistenza;
-- clusterint e segmentazione: in questa fase il software ha il compito di analizzare i dati raccolti e
-attraverso tecnologie di apprendimento automatico, individuare schemi ricorrenti e consolidati al fine di
-define gruppi e segmenti con alto indice di correlazione, specifici al nostro target.
-- creazione di modelli predittivi: analizzando i cluster e segmenti dovrà creare dei modelli predittivi in
-tempo-reale che aiutino a prendere decisioni aziendali piùr efficaci ed a stabilire un rapporto piil
-personale con il cliente.
+in recent years, large language models (llms) have made significant strides towards artificial general intelligence. however, training these models from scratch requires substantial computational resources and vast amounts of text data. in this paper, we explore an alternative approach to constructing an llm for a new language by continually pretraining (cpt) from existing pretrained llms, instead of using randomly initialized parameters. based on parallel experiments on 40 model sizes ranging from 40m to 5b parameters, we find that 1) cpt converges faster and saves significant resources in a scalable manner; 2) cpt adheres to an extended scaling law derived from hoffmann et al. (2022) with a joint data-parameter scaling term; 3) the compute-optimal data-parameter allocation for cpt markedly differs based on our estimated scaling factors; 4) the effectiveness of transfer at scale is influenced by training duration and linguistic properties, while robust to data replaying, a method that effectively mitigates catastrophic forgetting in cpt. we hope our findings provide deeper insights into the transferability of llms at scale for the research community.

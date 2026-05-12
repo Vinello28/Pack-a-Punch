@@ -1,0 +1,15 @@
+the past year has witnessed rapid advances in sequence-to-sequence (seq2seq)
+modeling for machine translation (mt). the classic rnn-based approaches to mt
+were first out-performed by the convolutional seq2seq model, which was then
+out-performed by the more recent transformer model. each of these new
+approaches consists of a fundamental architecture accompanied by a set of
+modeling and training techniques that are in principle applicable to other
+seq2seq architectures. in this paper, we tease apart the new architectures and
+their accompanying techniques in two ways. first, we identify several key
+modeling and training techniques, and apply them to the rnn architecture,
+yielding a new rnmt+ model that outperforms all of the three fundamental
+architectures on the benchmark wmt'14 english to french and english to german
+tasks. second, we analyze the properties of each fundamental seq2seq
+architecture and devise new hybrid architectures intended to combine their
+strengths. our hybrid models obtain further improvements, outperforming the
+rnmt+ model on both benchmark datasets.

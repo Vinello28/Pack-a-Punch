@@ -1,0 +1,18 @@
+recently, deep learning (dl) methods have been introduced very successfully
+into human activity recognition (har) scenarios in ubiquitous and wearable
+computing. especially the prospect of overcoming the need for manual feature
+design combined with superior classification capabilities render deep neural
+networks very attractive for real-life har application. even though dl-based
+approaches now outperform the state-of-the-art in a number of recognitions
+tasks of the field, yet substantial challenges remain. most prominently, issues
+with real-life datasets, typically including imbalanced datasets and
+problematic data quality, still limit the effectiveness of activity recognition
+using wearables. in this paper we tackle such challenges through ensembles of
+deep long short term memory (lstm) networks. we have developed modified
+training procedures for lstm networks and combine sets of diverse lstm learners
+into classifier collectives. we demonstrate, both formally and empirically,
+that ensembles of deep lstm learners outperform the individual lstm networks.
+through an extensive experimental evaluation on three standard benchmarks
+(opportunity, pamap2, skoda) we demonstrate the excellent recognition
+capabilities of our approach and its potential for real-life applications of
+human activity recognition.

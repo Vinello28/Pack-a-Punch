@@ -1,0 +1,10 @@
+low-frequency words place a major challenge for automatic speech recognition
+(asr). the probabilities of these words, which are often important name
+entities, are generally under-estimated by the language model (lm) due to their
+limited occurrences in the training data. recently, we proposed a word-pair
+approach to deal with the problem, which borrows information of frequent words
+to enhance the probabilities of low-frequency words. this paper presents an
+extension to the word-pair method by involving multiple `predicting words' to
+produce better estimation for low-frequency words. we also employ this approach
+to deal with out-of-language words in the task of multi-lingual speech
+recognition.

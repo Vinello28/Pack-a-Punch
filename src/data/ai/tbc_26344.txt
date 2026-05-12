@@ -1,0 +1,12 @@
+we propose a triad-based neural network system that generates affinity scores
+between entity mentions for coreference resolution. the system simultaneously
+accepts three mentions as input, taking mutual dependency and logical
+constraints of all three mentions into account, and thus makes more accurate
+predictions than the traditional pairwise approach. depending on system
+choices, the affinity scores can be further used in clustering or mention
+ranking. our experiments show that a standard hierarchical clustering using the
+scores produces state-of-art results with gold mentions on the english portion
+of conll 2012 shared task. the model does not rely on many handcrafted features
+and is easy to train and use. the triads can also be easily extended to polyads
+of higher orders. to our knowledge, this is the first neural network system to
+model mutual dependency of more than two members at mention level.

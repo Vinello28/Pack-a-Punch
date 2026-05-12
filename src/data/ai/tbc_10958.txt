@@ -1,1 +1,1 @@
-Creazione di un motore di AI per monitoraggio ambientale basato su Speech Recognition con modelli end-to-end dedicato al settore manifatturiero. L'addestramento sfrutta stream di dati in tempo reale con tecniche di data augmentation. L'infrastruttura include A/B testing framework per training e inferenza.
+Progetti di ricerca e sviluppo di Mpmi e Midcap  Bando 2 Progetti di ricerca e sviluppo di Mpmi e Midcap  Bando 2 Nuovo sistema di visione industriale basato su Self-Learning Artificial Intelligence

@@ -1,0 +1,1 @@
+in this paper, we present 3d high resolution radar imaging at millimeter-wave (mmwave) frequencies by means of a combination of virtual multiple input multiple output (mimo) frequency modulated continuous wave (fmcw) radars and synthetic aperture radar (sar) which results in a compact, low-cost, and high-speed 3d mmwave imagery system with low complexity.

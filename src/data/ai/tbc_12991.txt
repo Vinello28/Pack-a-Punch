@@ -1,1 +1,1 @@
-Progetto dal titolo FINE-Financial Insights and Narrative Extraction finanziato nell'ambito del bando a cascata sul PE FAIR - Future Artificial Intelligence Research
+L obiettivo principale di FRESH.AI sviluppare una struttura che garantisca che i LLM rimangono accurati e pertinenti incorporando metodi di apprendimento continuo. Ci consente ai modelli di aggiornare in modo da incrementare le loro conoscenze senza una riqualificazione completa riducendo i costi computazionali e migliorando la tempestivit del reperimento delle informazioni .

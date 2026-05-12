@@ -1,9 +1,0 @@
-Il Progetto nasce dalla volontà di sfruttare le potenzialità di soluzioni di robotica collaborativa per automizzare e rendere più efficiente il processo di realizzazione di scaffalature per magazzini. 
-In particolare, ad oggi il processo soffre di una certa rigidezza e poca flessibilità in quanto ad ogni tipologia di modello di scaffale è necessario realizzare un set-up specifico per:
-· Realizzare il setting per la sagomatura dei bordi dello scaffale
-· Adeguare la linea in funzione della larghezza richiesta
-· Realizzare la tranciatura tramite taglio laser in funzione della lunghezza richiesta
-- Certificazione del prodotto tramite prove.
-Per questo motivo, l’idea progettuale è quella di studiare una soluzione di robotica collaborativa in grado di:
-- Realizzare le attività di tranciatura e sagomatura autonomamente ( eventualmente con più di tool dedicati)
-- Realizzare le attività di setting in maniera “smart” in funzione delle specifiche del lotto da realizzare

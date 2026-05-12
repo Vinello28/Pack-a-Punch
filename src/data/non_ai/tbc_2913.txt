@@ -1,12 +1,1 @@
-Il progetto prevede la realizzazione di un sistema di visione HW-SW che permetta l’acquisizione e
-l’elaborazione di immagini di diverse tipologie di tessuti e difetti. A inizio progetto Pikkart, insieme al
-Cliente, definirà le tipologie di tessuti e di difetti da considerare:
-- Almeno 10 tipologie di tessuto diverse (uniformi, a righe, con disegni…ecc).
-- Almeno 5 topologie diverse di difetto.
-Pikkart realizzerà un sistema di visione prototipale e un software che permetterà anche al Cliente di
-gestire il sistema di visione attivando due funzionalità principali:
-- Acquisizione di immagini del tessuto.
-- Elaborazione dell’immagine del tessuto per il rilevamento di eventuali difetti.
-In questa fase il software non sarà collegato e non interagirà con i software o i sistemi del cliente ma si
-limiterà ad individuare eventuali difetti, segnalarli all’operatore e mostrarne la posizione su un apposito
-schermo.
+LÂ¿intervento consiste nellÂ¿ acquisto e nellÂ¿installazione di alcuni moduli software per la gestione contabilitÃ  fornitori (Ciclo Passivo) ad integrazione del gestionale giÃ  esistente e nello sviluppo di software per lÂ¿interfacciamento e lo scambio dei dati con le altre sedi del gruppo aziendale.  Inoltre Ã¨ prevista una consulenza tecnica specialistica volta a riorganizzare le procedure operative interne di data-entry e a mettere in funzione gli automatismi per lÂ¿acquisizione e lÂ¿elaborazione automatica dei dati. Infine Ã¨ prevista lÂ¿installazione di un apparato di rete (firewall) per la connessione alla banda larga e la realizzazione del tunnel di comunicazione (VPN) con altre sedi del gruppo.

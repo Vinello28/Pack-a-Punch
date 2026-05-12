@@ -1,0 +1,15 @@
+probabilistic methods for classifying text form a rich tradition in machine
+learning and natural language processing. for many important problems, however,
+class prediction is uninteresting because the class is known, and instead the
+focus shifts to estimating latent quantities related to the text, such as
+affect or ideology. we focus on one such problem of interest, estimating the
+ideological positions of 55 irish legislators in the 1991 d\'ail confidence
+vote. to solve the d\'ail scaling problem and others like it, we develop a text
+modeling framework that allows actors to take latent positions on a "gray"
+spectrum between "black" and "white" polar opposites. we are able to validate
+results from this model by measuring the influences exhibited by individual
+words, and we are able to quantify the uncertainty in the scaling estimates by
+using a sentence-level block bootstrap. applying our method to the d\'ail
+debate, we are able to scale the legislators between extreme pro-government and
+pro-opposition in a way that reveals nuances in their speeches not captured by
+their votes or party affiliations.

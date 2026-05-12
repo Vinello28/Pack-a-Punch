@@ -1,1 +1,1 @@
-Il software basato su Intelligenza Artificiale e Machine Learning aiuta gli editori e le aziende on line a ottenere accesso e visibilit tramite i principali motori di ricerca commerciali. La sua intelligenza artificiale trasforma testi semplici in dati strutturati
+Realizzazione di un prototipo di diserbo combinato che sfrutta l'intelligenza artificiale.

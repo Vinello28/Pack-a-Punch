@@ -1,8 +1,1 @@
-Implementazione integrazione e sviluppo digitale processi aziendali: 
-- Analisi tempi produzione e quantitativi prodotti - implementazione industria 4.0 per monitoraggio dati produzione
-- Implementazione metodi di controllo statistico di processo 
-- Implementazione e monitoraggio continuo performance aziendale tramite IPR (indicatori di performance)
-- Analisi costi aziendali ed elaborazione budgeting annuale
-- Studio per automazione set-up macchine  / cambio stampo rapido
-- Analisi mercato, nuovi potenziali clienti e settori in crescita
-- Studio fattibilità implementazione COBOT per asservimento macchine
+Progetto dal titolo "MIXIR - Multimodal Interactions with Xtended Intelligent Reality" finanziato nell'ambito del bando a cascata sul PE FAIR

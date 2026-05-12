@@ -1,0 +1,16 @@
+convolutional neural networks have been applied to a wide variety of computer
+vision tasks. recent advances in semantic segmentation have enabled their
+application to medical image segmentation. while most cnns use two-dimensional
+kernels, recent cnn-based publications on medical image segmentation featured
+three-dimensional kernels, allowing full access to the three-dimensional
+structure of medical images. though closely related to semantic segmentation,
+medical image segmentation includes specific challenges that need to be
+addressed, such as the scarcity of labelled data, the high class imbalance
+found in the ground truth and the high memory demand of three-dimensional
+images. in this work, a cnn-based method with three-dimensional filters is
+demonstrated and applied to hand and brain mri. two modifications to an
+existing cnn architecture are discussed, along with methods on addressing the
+aforementioned challenges. while most of the existing literature on medical
+image segmentation focuses on soft tissue and the major organs, this work is
+validated on data both from the central nervous system as well as the bones of
+the hand.

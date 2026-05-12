@@ -1,0 +1,17 @@
+we propose a unified framework for multi-person pose estimation and tracking.
+our framework consists of two main components,~\ie~spatialnet and temporalnet.
+the spatialnet accomplishes body part detection and part-level data association
+in a single frame, while the temporalnet groups human instances in consecutive
+frames into trajectories. specifically, besides body part detection heatmaps,
+spatialnet also predicts the keypoint embedding (ke) and spatial instance
+embedding (sie) for body part association. we model the grouping procedure into
+a differentiable pose-guided grouping (pgg) module to make the whole part
+detection and grouping pipeline fully end-to-end trainable. temporalnet extends
+spatial grouping of keypoints to temporal grouping of human instances. given
+human proposals from two consecutive frames, temporalnet exploits both
+appearance features encoded in human embedding (he) and temporally consistent
+geometric features embodied in temporal instance embedding (tie) for robust
+tracking. extensive experiments demonstrate the effectiveness of our proposed
+model. remarkably, we demonstrate substantial improvements over the
+state-of-the-art pose tracking method from 65.4\% to 71.8\% multi-object
+tracking accuracy (mota) on the iccv'17 posetrack dataset.

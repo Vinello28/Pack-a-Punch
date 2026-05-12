@@ -1,0 +1,11 @@
+we present the design of a competitive artificial intelligence for scopone, a
+popular italian card game. we compare rule-based players using the most
+established strategies (one for beginners and two for advanced players) against
+players using monte carlo tree search (mcts) and information set monte carlo
+tree search (ismcts) with different reward functions and simulation strategies.
+mcts requires complete information about the game state and thus implements a
+cheating player while ismcts can deal with incomplete information and thus
+implements a fair player. our results show that, as expected, the cheating mcts
+outperforms all the other strategies; ismcts is stronger than all the
+rule-based players implementing well-known and most advanced strategies and it
+also turns out to be a challenging opponent for human players.

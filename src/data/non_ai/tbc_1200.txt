@@ -1,1 +1,0 @@
-Sistema software capace di interpretare il linguaggio naturale e creare automatismi per vari scenari e domini applicativi

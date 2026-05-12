@@ -1,0 +1,10 @@
+in this paper, we study the problem of answering visual analogy questions.
+these questions take the form of image a is to image b as image c is to what.
+answering these questions entails discovering the mapping from image a to image
+b and then extending the mapping to image c and searching for the image d such
+that the relation from a to b holds for c to d. we pose this problem as
+learning an embedding that encourages pairs of analogous images with similar
+transformations to be close together using convolutional neural networks with a
+quadruple siamese architecture. we introduce a dataset of visual analogy
+questions in natural images, and show first results of its kind on solving
+analogy questions on natural images.

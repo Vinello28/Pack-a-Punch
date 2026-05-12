@@ -1,1 +1,1 @@
-Piattaforma di Hyperparameter Optimization (HPO) per l'ottimizzazione automatica di modelli di Machine Learning aziendali, riducendo i costi di computazione e migliorando le performance.
+Implementazione di tecniche di Federated Learning per l'analisi collaborativa di dati clinici tra diversi ospedali senza condivisione di dati sensibili, garantendo la privacy.

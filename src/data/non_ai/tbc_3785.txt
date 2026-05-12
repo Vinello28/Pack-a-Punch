@@ -1,2 +1,1 @@
-Sviluppo di un digital twin landscape basato su realtà aumentata a supporto
-dell'analisi interattiva e della mitigazione del rischio da frane e incendi in Puglia.
+Obiettivo del progetto Ã¨ il monitoraggio costante dellâ€™ambiente marino e costiero attraverso un modello di osservazione basata su tre fonti dati integrate: Dati satellitari (ottici e RADAR/SAR)  Raccolta diretta di parametri ambientali da IoT e da missioni con Droni Acquatici (USV e ROV)  Integrazione di dati disponibili sul mercato.

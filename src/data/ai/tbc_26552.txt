@@ -1,0 +1,19 @@
+in this work, we present a simple, highly efficient and modularized dual path
+network (dpn) for image classification which presents a new topology of
+connection paths internally. by revealing the equivalence of the
+state-of-the-art residual network (resnet) and densely convolutional network
+(densenet) within the hornn framework, we find that resnet enables feature
+re-usage while densenet enables new features exploration which are both
+important for learning good representations. to enjoy the benefits from both
+path topologies, our proposed dual path network shares common features while
+maintaining the flexibility to explore new features through dual path
+architectures. extensive experiments on three benchmark datasets, imagnet-1k,
+places365 and pascal voc, clearly demonstrate superior performance of the
+proposed dpn over state-of-the-arts. in particular, on the imagnet-1k dataset,
+a shallow dpn surpasses the best resnext-101(64x4d) with 26% smaller model
+size, 25% less computational cost and 8% lower memory consumption, and a deeper
+dpn (dpn-131) further pushes the state-of-the-art single model performance with
+about 2 times faster training speed. experiments on the places365 large-scale
+scene dataset, pascal voc detection dataset, and pascal voc segmentation
+dataset also demonstrate its consistently better performance than densenet,
+resnet and the latest resnext model over various applications.

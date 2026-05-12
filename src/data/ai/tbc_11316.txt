@@ -1,1 +1,18 @@
-IL PROGETTO SI RIFERISCE AL DEPOSITO DI UNA DOMANDA DI BREVETTO INTERNAZIONALE RIFERITA A UN SISTEMA CHE UTILIZZA PROCESSI E METODI DELL INTELLIGENZA ARTIFICIALE IN GRADO DI RENDERE UTILIZZABILE PER LE ATTIVITA CLINICHE LA TECNICA DELLE ANNOTAZIONI TIPICA DELLA RICERCA ACCADEMICA CON PARTICOLARE RIFERIMMENTO ALLA CLASSIFICAZIONE SU BASE NAZIONALE DELLA REFERTAZIONE TUMORALE.
+diffusion-based classifiers such as those relying on the personalized
+pagerank and the heat kernel, enjoy remarkable classification accuracy at
+modest computational requirements. their performance however is affected by the
+extent to which the chosen diffusion captures a typically unknown label
+propagation mechanism, that can be specific to the underlying graph, and
+potentially different for each class. the present work introduces a
+disciplined, data-efficient approach to learning class-specific diffusion
+functions adapted to the underlying network topology. the novel learning
+approach leverages the notion of "landing probabilities" of class-specific
+random walks, which can be computed efficiently, thereby ensuring scalability
+to large graphs. this is supported by rigorous analysis of the properties of
+the model as well as the proposed algorithms. furthermore, a robust version of
+the classifier facilitates learning even in noisy environments.
+  classification tests on real networks demonstrate that adapting the diffusion
+function to the given graph and observed labels, significantly improves the
+performance over fixed diffusions; reaching -- and many times surpassing -- the
+classification accuracy of computationally heavier state-of-the-art competing
+methods, that rely on node embeddings and deep neural networks.

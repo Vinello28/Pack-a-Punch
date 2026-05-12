@@ -1,0 +1,16 @@
+this paper proposes a new method for non-rigid structure-from-motion (nrsfm)
+from a long monocular video sequence observing a non-rigid object performing
+recurrent and possibly repetitive dynamic action. departing from the
+traditional idea of using linear low-order or lowrank shape model for the task
+of nrsfm, our method exploits the property of shape recurrency (i.e., many
+deforming shapes tend to repeat themselves in time). we show that recurrency is
+in fact a generalized rigidity. based on this, we reduce nrsfm problems to
+rigid ones provided that certain recurrency condition is satisfied. given such
+a reduction, standard rigid-sfm techniques are directly applicable (without any
+change) to the reconstruction of non-rigid dynamic shapes. to implement this
+idea as a practical approach, this paper develops efficient algorithms for
+automatic recurrency detection, as well as camera view clustering via a
+rigidity-check. experiments on both simulated sequences and real data
+demonstrate the effectiveness of the method. since this paper offers a novel
+perspective on rethinking structure-from-motion, we hope it will inspire other
+new problems in the field.

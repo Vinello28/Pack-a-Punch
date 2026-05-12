@@ -1,0 +1,12 @@
+in this paper, we propose a general framework to learn a robust large-margin
+binary classifier when corrupt measurements, called anomalies, caused by sensor
+failure might be present in the training set. the goal is to minimize the
+generalization error of the classifier on non-corrupted measurements while
+controlling the false alarm rate associated with anomalous samples. by
+incorporating a non-parametric regularizer based on an empirical entropy
+estimator, we propose a geometric-entropy-minimization regularized maximum
+entropy discrimination (gem-med) method to learn to classify and detect
+anomalies in a joint manner. we demonstrate using simulated data and a real
+multimodal data set. our gem-med method can yield improved performance over
+previous robust classification methods in terms of both classification accuracy
+and anomaly detection rate.

@@ -1,0 +1,8 @@
+in this paper, a time delay neural network (tdnn) based acoustic model is
+proposed to implement a fast-converged acoustic modeling for korean speech
+recognition. the tdnn has an advantage in fast-convergence where the amount of
+training data is limited, due to subsampling which excludes duplicated weights.
+the tdnn showed an absolute improvement of 2.12% in terms of character error
+rate compared to feed forward neural network (ffnn) based modelling for korean
+speech corpora. the proposed model converged 1.67 times faster than a
+ffnn-based model did.

@@ -1,0 +1,15 @@
+a pet that goes missing is among many people's worst fears: a moment of
+distraction is enough for a dog or a cat wandering off from home. some measures
+help matching lost animals to their owners; but automated visual recognition is
+one that - although convenient, highly available, and low-cost - is
+surprisingly overlooked. in this paper, we inaugurate that promising avenue by
+pursuing face recognition for dogs. we contrast four ready-to-use human facial
+recognizers (eigenfaces, fisherfaces, lbph, and a sparse method) to two
+original solutions based upon convolutional neural networks: bark (inspired in
+architecture-optimized networks employed for human facial recognition) and woof
+(based upon off-the-shelf overfeat features). human facial recognizers perform
+poorly for dogs (up to 60.5% accuracy), showing that dog facial recognition is
+not a trivial extension of human facial recognition. the convolutional network
+solutions work much better, with bark attaining up to 81.1% accuracy, and woof,
+89.4%. the tests were conducted in two datasets: flickr-dog, with 42 dogs of
+two breeds (pugs and huskies); and snoopybook, with 18 mongrel dogs.

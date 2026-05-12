@@ -1,0 +1,15 @@
+we propose a new method for training iterative collective classifiers for
+labeling nodes in network data. the iterative classification algorithm (ica) is
+a canonical method for incorporating relational information into
+classification. yet, existing methods for training ica models rely on the
+assumption that relational features reflect the true labels of the nodes. this
+unrealistic assumption introduces a bias that is inconsistent with the actual
+prediction algorithm. in this paper, we introduce recurrent collective
+classification (rcc), a variant of ica analogous to recurrent neural network
+prediction. rcc accommodates any differentiable local classifier and relational
+feature functions. we provide gradient-based strategies for optimizing over
+model parameters to more directly minimize the loss function. in our
+experiments, this direct loss minimization translates to improved accuracy and
+robustness on real network data. we demonstrate the robustness of rcc in
+settings where local classification is very noisy, settings that are
+particularly challenging for ica.

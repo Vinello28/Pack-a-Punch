@@ -1,1 +1,19 @@
-Mercatino ed i suoi franchisee dispongono di una mole imponenti di dati relativi ai propri magazzini. Ognuno dei 180 p.v. in franchising infatti ha costantemente in stock centinaia di migliaia di articoli di varia natura. Il progetto di innovation che intendiamo portare avanti si focalizzer sull analisi dei big data in quanto questa enorme mole di informazioni pu essere utilizzata in 3 modi: Per efficientare il modello interno (fornendo ai franchisee informazioni relative alla rotazione di vendita con il relativo prezzo medio di vendita di ogni oggetto evidenziando in anteprima dati statistici utili per una pi corretta acquisizione in conto vendita). Per creare un nuovo asset aziendale fornendo ai marchi produttori degli oggetti che vengono rivenduti sul mercato dell usato tramite Mercatino dei dati dall alto valore aggiunto (e.g. si pu arrivare a dire al marchio X che produce borse qual il ciclo di vita medio delle proprie borse) Per realizzare una reportistica che lega l inquinamento generato dalla produzione di un oggetto con la lunghezza del suo ciclo di vita per avere dei dati relativi al valore dell attivit di compra-vendita dell usato in termini ambientali attraverso la metodologia LCA (Life Cycle Assessment) Inoltre il pro
+we use topological data analysis as a tool to analyze the fit of mathematical
+models to experimental data. this study is built on data obtained from motion
+tracking groups of aphids in [nilsen et al., plos one, 2013] and two random
+walk models that were proposed to describe the data. one model incorporates
+social interactions between the insects, and the second model is a control
+model that excludes these interactions. we compare data from each model to data
+from experiment by performing statistical tests based on three different sets
+of measures. first, we use time series of order parameters commonly used in
+collective motion studies. these order parameters measure the overall
+polarization and angular momentum of the group, and do not rely on a priori
+knowledge of the models that produced the data. second, we use order parameter
+time series that do rely on a priori knowledge, namely average distance to
+nearest neighbor and percentage of aphids moving. third, we use computational
+persistent homology to calculate topological signatures of the data. analysis
+of the a priori order parameters indicates that the interactive model better
+describes the experimental data than the control model does. the topological
+approach performs as well as these a priori order parameters and better than
+the other order parameters, suggesting the utility of the topological approach
+in the absence of specific knowledge of mechanisms underlying the data.

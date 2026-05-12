@@ -1,6 +1,0 @@
-Il progetto mira a rivoluzionare l'organizzazione e la gestione dei nostri servizi, che offriamo alla Pubblica Amministrazione, attraverso digitalizzazione e automazione.
-Con un incremento del 50% dei clienti negli ultimi due anni, la nostra organizzazione e i nostri strumenti sono divenuti obsoleti. Vogliamo imparare a integrare la nostra tradizionale metodologia con tecnologie avanzate come la Computer Vision e i LLM per l'elaborazione automatica di documenti, aumentando così l'efficienza, riducendo gli errori e migliorando i servizi offerti alla PA. 
-Il nostro principale obiettivo è sviluppare figure professionali che siano in grado di guidare la transizione digitale e lo sviluppo sostenibile.
-Questo incrementerà la produttività, rendendo i servizi più rapidi e affidabili, meglio allineati alle esigenze delle PA, sempre più digitalizzate.
-Con il progetto si intende sviluppare una struttura organizzativa flessibile che supporti il work-life balance, essenziale per il nostro team, composto principalmente da giovani donne. 
-Visto il background umanistico del personale, prevediamo un percorso di crescita in ambito STEM e manageriale per preparare i futuri leader al cambiamento. L'adozione di questo modello aumenterà la soddisfazione del personale, attirando talenti

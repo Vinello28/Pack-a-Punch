@@ -1,0 +1,16 @@
+in recent years, spiking neural networks (snns) have demonstrated great
+successes in completing various machine learning tasks. we introduce a method
+for learning image features by \textit{locally connected layers} in snns using
+spike-timing-dependent plasticity (stdp) rule. in our approach, sub-networks
+compete via competitive inhibitory interactions to learn features from
+different locations of the input space. these \textit{locally-connected snns}
+(lc-snns) manifest key topological features of the spatial interaction of
+biological neurons. we explore biologically inspired n-gram classification
+approach allowing parallel processing over various patches of the the image
+space. we report the classification accuracy of simple two-layer lc-snns on two
+image datasets, which match the state-of-art performance and are the first
+results to date. lc-snns have the advantage of fast convergence to a dataset
+representation, and they require fewer learnable parameters than other snn
+approaches with unsupervised learning. robustness tests demonstrate that
+lc-snns exhibit graceful degradation of performance despite the random deletion
+of large amounts of synapses and neurons.

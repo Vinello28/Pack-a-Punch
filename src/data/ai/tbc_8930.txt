@@ -1,1 +1,1 @@
-Realizzazione di una soluzione AI per rilevamento intrusioni mediante Neuromorphic Computing dedicata al mercato sport. Il sistema analizza database relazionali legacy migrati su data lake con accuratezza superiore al 95%. L'infrastruttura tecnologica comprende pipeline MLOps con CI/CD automatizzato e sistemi di backup automatizzati.
+Stesura e deposito di una domanda di brevetto relativa a un assieme informatico che utilizza un hardware ottimizzato e software per innovare il sistema di apprendimento nel campo educational utilizzando la realt virtuale e la realt aumentata

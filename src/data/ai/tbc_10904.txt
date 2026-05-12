@@ -1,15 +1,1 @@
-stochastic video prediction models take in a sequence of image frames, and
-generate a sequence of consecutive future image frames. these models typically
-generate future frames in an autoregressive fashion, which is slow and requires
-the input and output frames to be consecutive. we introduce a model that
-overcomes these drawbacks by generating a latent representation from an
-arbitrary set of frames that can then be used to simultaneously and efficiently
-sample temporally consistent frames at arbitrary time-points. for example, our
-model can "jump" and directly sample frames at the end of the video, without
-sampling intermediate frames. synthetic video evaluations confirm substantial
-gains in speed and functionality without loss in fidelity. we also apply our
-framework to a 3d scene reconstruction dataset. here, our model is conditioned
-on camera location and can sample consistent sets of images for what an
-occluded region of a 3d scene might look like, even if there are multiple
-possibilities for what that region might contain. reconstructions and videos
-are available at https://bit.ly/2o4pc4r.
+recently, a variety of neural models have been proposed for lyrics generation. however, most previous work completes the generation process in a single pass with little human intervention. we believe that lyrics creation is a creative process with human intelligence centered. ai should play a role as an assistant in the lyrics creation process, where human interactions are crucial for high-quality creation. this paper demonstrates \textit{youling}, an ai-assisted lyrics creation system, designed to collaborate with music creators. in the lyrics generation process, \textit{youling} supports traditional one pass full-text generation mode as well as an interactive generation mode, which allows users to select the satisfactory sentences from generated candidates conditioned on preceding context. the system also provides a revision module which enables users to revise undesired sentences or words of lyrics repeatedly. besides, \textit{youling} allows users to use multifaceted attributes to control the content and format of generated lyrics. the demo video of the system is available at https://youtu.be/dfenphk0pm4.

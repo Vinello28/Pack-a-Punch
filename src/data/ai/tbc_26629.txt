@@ -1,0 +1,15 @@
+in this paper, we consider a cognitive setting under the context of
+cooperative communications, where the cognitive radio (cr) user is assumed to
+be a self-organized relay for the network. the cr user and the pu are assumed
+to be energy harvesters. the cr user cooperatively relays some of the
+undelivered packets of the primary user (pu). specifically, the cr user stores
+a fraction of the undelivered primary packets in a relaying queue (buffer). it
+manages the flow of the undelivered primary packets to its relaying queue using
+the appropriate actions over time slots. moreover, it has the decision of
+choosing the used queue for channel accessing at idle time slots (slots where
+the pu's queue is empty). it is assumed that one data packet transmission
+dissipates one energy packet. the optimal policy changes according to the
+primary and cr users arrival rates to the data and energy queues as well as the
+channels connectivity. the cr user saves energy for the pu by taking the
+responsibility of relaying the undelivered primary packets. it optimally
+organizes its own energy packets to maximize its payoff as time progresses.

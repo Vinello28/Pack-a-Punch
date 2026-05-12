@@ -1,0 +1,1 @@
+Creazione di un prototipo di percorso formativo in realt virtuale con l'utilizzo di visori VR immersivi per la simulazione dei luoghi di lavoro e dei rischi connessi.

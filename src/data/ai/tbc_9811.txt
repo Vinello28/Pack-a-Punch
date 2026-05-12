@@ -1,0 +1,12 @@
+under markovian assumptions, we leverage a central limit theorem (clt) for
+the empirical measure in the test statistic of the composite hypothesis
+hoeffding test so as to establish weak convergence results for the test
+statistic, and, thereby, derive a new estimator for the threshold needed by the
+test. we first show the advantages of our estimator over an existing estimator
+by conducting extensive numerical experiments. we find that our estimator
+controls better for false alarms while maintaining satisfactory detection
+probabilities. we then apply the hoeffding test with our threshold estimator to
+detecting anomalies in two distinct applications domains: one in communication
+networks and the other in transportation networks. the former application seeks
+to enhance cyber security and the latter aims at building smarter
+transportation systems in cities.

@@ -1,1 +1,0 @@
-Realizzazione di un processo di test e verifica con un robot collaborativo

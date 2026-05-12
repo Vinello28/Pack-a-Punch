@@ -1,0 +1,11 @@
+in this paper, to break the limit of the traditional linear models for
+synthetic aperture radar (sar) image despeckling, we propose a novel deep
+learning approach by learning a non-linear end-to-end mapping between the noisy
+and clean sar images with a dilated residual network (sar-drn). sar-drn is
+based on dilated convolutions, which can both enlarge the receptive field and
+maintain the filter size and layer depth with a lightweight structure. in
+addition, skip connections and residual learning strategy are added to the
+despeckling model to maintain the image details and reduce the vanishing
+gradient problem. compared with the traditional despeckling methods, the
+proposed method shows superior performance over the state-of-the-art methods on
+both quantitative and visual assessments, especially for strong speckle noise.

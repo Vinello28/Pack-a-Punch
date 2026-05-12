@@ -1,1 +1,14 @@
-la societ ha per oggetto il servizio di pubblicazione online di ricette culinarie volta ad assicurare una priorit e paternit delle stesse ricette. l'investimento prevede la realizzazione del sito web e il suo aggiornamento costante con informazioni e numerose possibilit di interazione difatti ogni utente potr sottoscrivere abbonamenti per inserire news eventi corsi ecc. vi sar poi la gestione delle ricette caricate sul web da parte degli utenti che sar arricchita con diverse informazioni e ricerche. In particolare verr realizzata una procedura di ricerca delle ricette simili con l'integrazione dei servizi esterni di intelligenza artificiale e a pagamento dell'azienda google: google cloud machine learning e google cloud natural language che permetteranno l'analisi sintattica ed il confronto automatico di tutti i testi inseriti dagli utenti in archivio vi sar poi il servizio di mailup che permetter invii dei messaggi certificati e statistiche avanzate. in sintesi l'investimento prevede la possibilit di dare alle ricette una sorta di data certa della creazione della stessa la sua sponsorizzazione e tramite degli algoritmi stabilisce se esistono altre ricette similari a quella proposta dall'utente
+autosomal dominant polycystic kidney disease (adpkd) characterized by
+progressive growth of renal cysts is the most prevalent and potentially lethal
+monogenic renal disease, affecting one in every 500-100 people. total kidney
+volume (tkv) and its growth computed from computed tomography images has been
+accepted as an essential prognostic marker for renal function loss. due to
+large variation in shape and size of kidney in adpkd, existing methods to
+compute tkv (i.e. to segment adkp) including those based on 2d convolutional
+neural networks are not accurate enough to be directly useful in clinical
+practice. in this work, we propose multi-task 3d convolutional neural networks
+to segment adpk and achieve a mean dice score of 0.95 and mean absolute
+percentage tkv error of 3.86. additionally, to solve the challenge of class
+imbalance, we propose to simply bootstrap cross entropy loss and compare
+results with recently prevalent dice loss in medical image segmentation
+community.

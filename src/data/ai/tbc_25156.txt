@@ -1,0 +1,16 @@
+studying caricature recognition is fundamentally important to understanding
+of face perception. however, little research has been conducted in the computer
+vision community, largely due to the shortage of suitable datasets. in this
+paper, a new caricature dataset is built, with the objective to facilitate
+research in caricature recognition. all the caricatures and face images were
+collected from the web. compared with two existing datasets, this dataset is
+much more challenging, with a much greater number of available images, artistic
+styles and larger intra-personal variations. evaluation protocols are also
+offered together with their baseline performances on the dataset to allow fair
+comparisons. besides, a framework for caricature face recognition is presented
+to make a thorough analyze of the challenges of caricature recognition. by
+analyzing the challenges, the goal is to show problems that worth to be further
+investigated. additionally, based on the evaluation protocols and the
+framework, baseline performances of various state-of-the-art algorithms are
+provided. a conclusion is that there is still a large space for performance
+improvement and the analyzed problems still need further investigation.

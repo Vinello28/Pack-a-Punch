@@ -1,0 +1,11 @@
+reliable and effective multi-task learning is a prerequisite for the
+development of robotic agents that can quickly learn to accomplish related,
+everyday tasks. however, in the reinforcement learning domain, multi-task
+learning has not exhibited the same level of success as in other domains, such
+as computer vision. in addition, most reinforcement learning research on
+multi-task learning has been focused on discrete action spaces, which are not
+used for robotic control in the real-world. in this work, we apply multi-task
+learning methods to continuous action spaces and benchmark their performance on
+a series of simulated continuous control tasks. most notably, we show that
+multi-task learning outperforms our baselines and alternative knowledge sharing
+methods.

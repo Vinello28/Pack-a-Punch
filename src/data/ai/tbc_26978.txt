@@ -1,0 +1,1 @@
+in this work, we survey skepticism regarding ai risk and show parallels with other types of scientific skepticism. we start by classifying different types of ai risk skepticism and analyze their root causes. we conclude by suggesting some intervention approaches, which may be successful in reducing ai risk skepticism, at least amongst artificial intelligence researchers.

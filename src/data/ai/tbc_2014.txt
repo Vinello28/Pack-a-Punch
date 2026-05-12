@@ -1,1 +1,0 @@
-Il progetto "Microlearning" è finalizzato allo sviluppo di un sistema prototipale basato sull’impiego di tecnologie di intelligenza artificiale, in grado di produrre automaticamente da documenti molto grandi, brevi abstract che possono essere impiegati da uno studente per accelerare e agevolare il processo di apprendimento.

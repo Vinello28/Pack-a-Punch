@@ -1,0 +1,18 @@
+single image super-resolution (sr) is an ill-posed problem which aims to
+recover high-resolution (hr) images from their low-resolution (lr)
+observations. the crux of this problem lies in learning the complex mapping
+between low-resolution patches and the corresponding high-resolution patches.
+prior arts have used either a mixture of simple regression models or a single
+non-linear neural network for this propose. this paper proposes the method of
+learning a mixture of sr inference modules in a unified framework to tackle
+this problem. specifically, a number of sr inference modules specialized in
+different image local patterns are first independently applied on the lr image
+to obtain various hr estimates, and the resultant hr estimates are adaptively
+aggregated to form the final hr image. by selecting neural networks as the sr
+inference module, the whole procedure can be incorporated into a unified
+network and be optimized jointly. extensive experiments are conducted to
+investigate the relation between restoration performance and different network
+architectures. compared with other current image sr approaches, our proposed
+method achieves state-of-the-arts restoration results on a wide range of images
+consistently while allowing more flexible design choices. the source codes are
+available in http://www.ifp.illinois.edu/~dingliu2/accv2016.

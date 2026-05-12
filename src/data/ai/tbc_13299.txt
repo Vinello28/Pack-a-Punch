@@ -1,0 +1,14 @@
+rating prediction is a basic problem in recommender system, and one of the
+most widely used method is factorization machines(fm). however, traditional
+matrix factorization methods fail to utilize the benefit of implicit feedback,
+which has been proved to be important in rating prediction problem. in this
+work, we consider a specific situation, movie rating prediction, where we
+assume that watching history has a big influence on his/her rating behavior on
+an item. we introduce two models, latent dirichlet allocation(lda) and
+word2vec, both of which perform state-of-the-art results in training latent
+features. based on that, we propose two feature based models. one is the
+topic-based fm model which provides the implicit feedback to the matrix
+factorization. the other is the vector-based fm model which expresses the order
+info of watching history. empirical results on three datasets demonstrate that
+our method performs better than the baseline model and confirm that
+vector-based fm model usually works better as it contains the order info.

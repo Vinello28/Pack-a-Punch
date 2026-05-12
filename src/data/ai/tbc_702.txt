@@ -1,0 +1,8 @@
+presented is a method of generating a full drum kit part for a provided
+kick-drum sequence. a sequence to sequence neural network model used in natural
+language translation was adopted to encode multiple musical styles and an
+online survey was developed to test different techniques for sampling the
+output of the softmax function. the strongest results were found using a
+sampling technique that drew from the three most probable outputs at each
+subdivision of the drum pattern but the consistency of output was found to be
+heavily dependent on style.

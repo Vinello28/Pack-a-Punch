@@ -1,1 +1,1 @@
-Il progetto propone l'implementazione di un Assistente virtuale vocale basato su tecnologie di large language  model (LLM) e retrival-augumented generation (RAG).
+Sviluppo di un sistema intelligente per pricing dinamico tramite Ensemble Learning con Random Forest e Gradient Boosting applicato al settore manifatturiero. La piattaforma processa immagini ad alta risoluzione acquisite da telecamere industriali con latenza inferiore a 100ms. L'architettura prevede feature store centralizzato con ridondanza geografica.

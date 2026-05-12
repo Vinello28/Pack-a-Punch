@@ -1,6 +1,1 @@
-Stiamo sviluppando un sistema di chat intelligente esclusivo per la nostra agenzia di
-comunicazione, Openex. Questo sistema, alimentato da algoritmi di intelligenza artificiale, servirà
-come piattaforma integrata per la gestione dei progetti e la disseminazione delle conoscenze. Il
-nostro obiettivo principale è che Openex venga riconosciuta come un’agenzia che promuove
-attivamente i valori dell’ambiente e del risparmio energetico. Questo si rifletterà in ogni aspetto del
-sistema di chat intelligente, dal design alla funzionalità.
+the paper introduces two new aggregation functions to encode structural knowledge from tree-structured data. they leverage the canonical and tensor-train decompositions to yield expressive context aggregation while limiting the number of model parameters. finally, we define two novel neural recursive models for trees leveraging such aggregation functions, and we test them on two tree classification tasks, showing the advantage of proposed models when tree outdegree increases.

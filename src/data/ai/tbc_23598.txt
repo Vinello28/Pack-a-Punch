@@ -1,0 +1,11 @@
+the goal of this paper is to propose a vision system for humanoid robotic
+soccer that does not use any color information. the main features of this
+system are: (i) real-time operation in the nao robot, and (ii) the ability to
+detect the ball, the robots, their orientations, the lines and key field
+features robustly. our ball detector, robot detector, and robot's orientation
+detector obtain the highest reported detection rates. the proposed vision
+system is tested in a spl field with several nao robots under realistic and
+highly demanding conditions. the obtained results are: robot detection rate of
+94.90%, ball detection rate of 97.10%, and a completely perceived orientation
+rate of 99.88% when the observed robot is static, and 95.52% when the observed
+robot is moving.

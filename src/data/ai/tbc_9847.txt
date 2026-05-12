@@ -1,1 +1,19 @@
-La proposta progettuale mira a migliorare significativamente la capacit della piattaforma MolBook di effettuare predizioni in-silico di eco-tossicit : con l'introduzione di algoritmi avanzati per l'analisi della tossicit biologica la piattaforma aiuter a identificare con pi precisione il profilo tossicologico di una molecola contribuendo direttamente agli obiettivi del bando riguardanti lo sfruttamento di algoritmi di Intelligenza Artificiale per la biologia computazionale.
+the seemingly infinite diversity of the natural world arises from a
+relatively small set of coherent rules, such as the laws of physics or
+chemistry. we conjecture that these rules give rise to regularities that can be
+discovered through primarily unsupervised experiences and represented as
+abstract concepts. if such representations are compositional and hierarchical,
+they can be recombined into an exponentially large set of new concepts. this
+paper describes scan (symbol-concept association network), a new framework for
+learning such abstractions in the visual domain. scan learns concepts through
+fast symbol association, grounding them in disentangled visual primitives that
+are discovered in an unsupervised manner. unlike state of the art multimodal
+generative model baselines, our approach requires very few pairings between
+symbols and images and makes no assumptions about the form of symbol
+representations. once trained, scan is capable of multimodal bi-directional
+inference, generating a diverse set of image samples from symbolic descriptions
+and vice versa. it also allows for traversal and manipulation of the implicit
+hierarchy of visual concepts through symbolic instructions and learnt logical
+recombination operations. such manipulations enable scan to break away from its
+training data distribution and imagine novel visual concepts through
+symbolically instructed recombination of previously learnt concepts.

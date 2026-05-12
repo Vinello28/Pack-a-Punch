@@ -1,1 +1,10 @@
-LA SOCIETÃ€ DEVE INIZIARE UN PERCORSO DI DIGITALIZZAZIONE IMPORTANTE PER DIVENTARE PIÃ™ COMPETITIVA SUL MERCATO  MIGLIORARE L'OPERATIVITÃ€ E RISPONDERE AL MEGLIO ALLE ESIGENZE DEL SETTORE DI RIFERIMENTO. IL PROGETTO RIGUARDA IN PARTICOLARE L'ATTIVITÃ€ DI CONSULENZA A SUPPORTO DELLO SVILUPPO DI UNA NUOVA SOLUZIONE TECNOLOGICA PER LA GESTIONE E IL COORDINAMENTO DEI PROCESSI DEI NOSTRI CLIENTI ANCHE ATTRAVERSO L'UTILIZZO DI INTELLIGENZA ARTIFICIALE. L'OBIETTIVO Ãˆ PORTARE SUL NOSTRO MERCATO DI RIFERIMENTO UN NUOVO CONCEPT E MODELLO DI RETAIL IBRIDO  FISICO E DIGITALE.  L'INTERVENTO PREVEDE ANCHE LA DEFINIZIONE E LO SVILUPPO DI UN PIANO DI MARKETING DIGITALE  A SUPPORTO DELLA VALORIZZAZIONE E DELLO SVILUPPO COMMERCIALE DELL'AZIENDA. FINALITÃ€ DELL'INTERVENTO Ãˆ QUELLO DI SVILUPPARE L'ATTIVITÃ€ SIA A LIVELLO NAZIONALE CHE INTERNAZIONALE
+we present a machine learning algorithm for the prediction of molecule
+properties inspired by ideas from density functional theory. using
+gaussian-type orbital functions, we create surrogate electronic densities of
+the molecule from which we compute invariant "solid harmonic scattering
+coefficients" that account for different types of interactions at different
+scales. multi-linear regressions of various physical properties of molecules
+are computed from these invariant coefficients. numerical experiments show that
+these regressions have near state of the art performance, even with relatively
+few training examples. predictions over small sets of scattering coefficients
+can reach a dft precision while being interpretable.

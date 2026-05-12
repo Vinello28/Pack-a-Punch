@@ -1,1 +1,15 @@
-Lanzi Trasporti Srl azienda sita in Parma con oltre 70 anni di esperienza nel trasporto e nella logistica integrata avvia un progetto di innovazione volto a ottimizzare la gestione della logistica ferroviaria e su gomma attraverso l adozione di tecnologie avanzate. L iniziativa prevede l integrazione e l automazione dei processi aziendali attraverso un nuovo assetto olistico dei sistemi di gestione del traffico su gomma della logistica di magazzino e del terminal ferroviario l adozione di un CRM georeferenziato per il miglioramento della gestione commerciale e lo sviluppo di sistemi predittivi per l ottimizzazione della flotta. Saranno implementati strumenti di big data analytics e AI per una gestione pi efficace del traffico e delle esigenze del mercato oltre a nuove soluzioni per la security dei dati e la resilienza informatica. Il progetto mira a incrementare la competitivit aziendale migliorare la sostenibilit ambientale grazie alla riduzione degli sprechi e all ottimizzazione dei trasporti multimodali e potenziare l efficienza operativa e la qualit del servizio consolidando la posizione dell azienda nel mercato della logistica avanzata.
+systematic compositionality is the ability to recombine meaningful units with
+regular and predictable outcomes, and it's seen as key to humans' capacity for
+generalization in language. recent work has studied systematic compositionality
+in modern seq2seq models using generalization to novel navigation instructions
+in a grounded environment as a probing tool, requiring models to quickly
+bootstrap the meaning of new words. we extend this framework here to settings
+where the model needs only to recombine well-trained functional words (such as
+"around" and "right") in novel contexts. our findings confirm and strengthen
+the earlier ones: seq2seq models can be impressively good at generalizing to
+novel combinations of previously-seen input, but only when they receive
+extensive training on the specific pattern to be generalized (e.g.,
+generalizing from many examples of "x around right" to "jump around right"),
+while failing when generalization requires novel application of compositional
+rules (e.g., inferring the meaning of "around right" from those of "right" and
+"around").

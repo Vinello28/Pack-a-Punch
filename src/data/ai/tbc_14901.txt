@@ -1,1 +1,10 @@
-Realizzazione di un sistema di Machine Learning per smart grid nel contesto manifatturiero. La soluzione utilizza Quantum Machine Learning per analizzare Big Data provenienti da sensori IoT distribuiti in tempo reale. L'infrastruttura tecnologica prevede model registry e versioning per garantire alte performance.
+traditional event detection methods heavily rely on manually engineered rich
+features. recent deep learning approaches alleviate this problem by automatic
+feature engineering. but such efforts, like tradition methods, have so far only
+focused on single-token event mentions, whereas in practice events can also be
+a phrase. we instead use forward-backward recurrent neural networks (fbrnns) to
+detect events that can be either words or phrases. to the best our knowledge,
+this is one of the first efforts to handle multi-word events and also the first
+attempt to use rnns for event detection. experimental results demonstrate that
+fbrnn is competitive with the state-of-the-art methods on the ace 2005 and the
+rich ere 2015 event detection tasks.

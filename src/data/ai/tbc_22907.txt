@@ -1,0 +1,20 @@
+recent cnn based object detectors, no matter one-stage methods like yolo,
+ssd, and retinane or two-stage detectors like faster r-cnn, r-fcn and fpn are
+usually trying to directly finetune from imagenet pre-trained models designed
+for image classification. there has been little work discussing on the backbone
+feature extractor specifically designed for the object detection. more
+importantly, there are several differences between the tasks of image
+classification and object detection. 1. recent object detectors like fpn and
+retinanet usually involve extra stages against the task of image classification
+to handle the objects with various scales. 2. object detection not only needs
+to recognize the category of the object instances but also spatially locate the
+position. large downsampling factor brings large valid receptive field, which
+is good for image classification but compromises the object location ability.
+due to the gap between the image classification and object detection, we
+propose detnet in this paper, which is a novel backbone network specifically
+designed for object detection. moreover, detnet includes the extra stages
+against traditional backbone network for image classification, while maintains
+high spatial resolution in deeper layers. without any bells and whistles,
+state-of-the-art results have been obtained for both object detection and
+instance segmentation on the mscoco benchmark based on our detnet~(4.8g flops)
+backbone. the code will be released for the reproduction.

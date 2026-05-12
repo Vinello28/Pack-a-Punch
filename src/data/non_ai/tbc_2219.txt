@@ -1,1 +1,0 @@
-Implementazione di visori VR e tavoli multi-touch all'interno di un'attività ristorativa.

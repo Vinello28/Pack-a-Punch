@@ -1,0 +1,7 @@
+we introduce a novel algorithm of community detection that maintains
+dynamically a community structure of a large network that evolves with time.
+the algorithm maximizes the modularity index thanks to the construction of a
+randomized hierarchical clustering based on a monte carlo markov chain (mcmc)
+method. interestingly, it could be seen as a dynamization of louvain algorithm
+(see blondel et al, 2008) where the aggregation step is replaced by the
+hierarchical instrumental probability.

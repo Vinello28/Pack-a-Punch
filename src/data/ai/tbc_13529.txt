@@ -1,1 +1,12 @@
-Il sistema modulare mobile con robotica collaborativa per il settore industriale Ã¨ composto da una stazione di lavoro automatizzata che integra un robot collaborativo per migliorare lâ€™efficienza e la sicurezza nei processi di produzione. Si tratta di una piattaforma compatta e sicura che sfrutta lâ€™utilizzo di bracci robotici ed antropomorfi e che puÃ² essere trasportata facilmente  usata in ambienti di produzione parzialmente o totalmente automatizzati e che richiedono flessibilitÃ  e rapida integrazione. Istruita grazie allâ€™intelligenza artificiale  puÃ² essere utilizzata per lâ€™automazione della produzione dove le macchine fanno operazioni ripetitive o per lavori pericolosi e logoranti per lâ€™uomo  lâ€™asservimento delle macchine e lo svolgimento di attivitÃ  produttive in collaborazione con lâ€™uomo
+community question-answering (cqa) platforms have become very popular forums
+for asking and answering questions daily. while these forums are rich
+repositories of community knowledge, they present challenges for finding
+relevant answers and similar questions, due to the open-ended nature of
+informal discussions. further, if the platform allows questions and answers in
+multiple languages, we are faced with the additional challenge of matching
+cross-lingual information. in this work, we focus on the cross-language
+question re-ranking shared task, which aims to find existing questions that may
+be written in different languages. our contribution is an exploration of query
+expansion techniques for this problem. we investigate expansions based on word
+embeddings, dbpedia concepts linking, and hypernym, and show that they
+outperform existing state-of-the-art methods.

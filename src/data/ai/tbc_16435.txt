@@ -1,1 +1,9 @@
-Il percorso formativo ha l'obiettivo di sviluppare rafforzare e aggiornare le competenze necessarie per la comprensione valutazione e adozione di nuovi modelli di business basati sull'utilizzo di tecnologie abilitanti (Cloud Big Data e Analytics intelligenza artificiale) e supporto digitale allo sviluppo della strategia aziendale.\\nIl discente acquisir le conoscenze necessarie a sviluppare in maniera critica e consapevole il proprio modello di business in modo da valorizzare lo sviluppo dell'impresa grazie alle informazioni ricavate dall'analisi intelligente dei dati ottenuti attraverso un nuovo ecosistema di strumenti digitali. \\nIl discente svilupper la conoscenza di tecnologie come:\\n- il machine learning che consente di utilizzare algoritmi di clustering e classificazione per suddividere i clienti in gruppi in base a caratteristiche specifiche \\n- le AI generative che possono supportare nella costruzione di documenti complessi abbattendo tempi e costi di elaborazione.\\nIl percorso formativo consentir quindi di apprendere sia capacit manageriali (modelli di business analisi dei mercati) sia capacit digitali (relative all?utilizzo delle tecnologie abilitanti).
+we describe a mechanism by which artificial neural networks can learn rapid
+adaptation - the ability to adapt on the fly, with little data, to new tasks -
+that we call conditionally shifted neurons. we apply this mechanism in the
+framework of metalearning, where the aim is to replicate some of the
+flexibility of human learning in machines. conditionally shifted neurons modify
+their activation values with task-specific shifts retrieved from a memory
+module, which is populated rapidly based on limited task experience. on
+metalearning benchmarks from the vision and language domains, models augmented
+with conditionally shifted neurons achieve state-of-the-art results.

@@ -1,1 +1,1 @@
-RO.C.C.I.A. (RObotizzazione di Camion da Cava con Intelligenza Artificiale)
+Implementazione di algoritmi di clustering non supervisionato per l'analisi di dati di astronomia provenienti dai telescopi di nuova generazione.

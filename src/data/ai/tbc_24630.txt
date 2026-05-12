@@ -1,0 +1,14 @@
+objectives:
+this study introduces smart imitator (si), a 2-phase reinforcement learning (rl) solution enhancing personalized treatment policies in healthcare, addressing challenges from imperfect clinician data and complex environments.
+
+materials and methods:
+smart imitator’s first phase uses adversarial cooperative imitation learning with a novel sample selection schema to categorize clinician policies from optimal to nonoptimal. the second phase creates a parameterized reward function to guide the learning of superior treatment policies through rl. smart imitator’s effectiveness was validated on 2 datasets: a sepsis dataset with 19 711 patient trajectories and a diabetes dataset with 7234 trajectories.
+
+results:
+extensive quantitative and qualitative experiments showed that si significantly outperformed state-of-the-art baselines in both datasets. for sepsis, si reduced estimated mortality rates by 19.6% compared to the best baseline. for diabetes, si reduced hba1c-high rates by 12.2%. the learned policies aligned closely with successful clinical decisions and deviated strategically when necessary. these deviations aligned with recent clinical findings, suggesting improved outcomes.
+
+discussion:
+smart imitator advances rl applications by addressing challenges such as imperfect data and environmental complexities, demonstrating effectiveness within the tested conditions of sepsis and diabetes. further validation across diverse conditions and exploration of additional rl algorithms are needed to enhance precision and generalizability.
+
+conclusion:
+this study shows potential in advancing personalized healthcare learning from clinician behaviors to improve treatment outcomes. its methodology offers a robust approach for adaptive, personalized strategies in various complex and uncertain environments.

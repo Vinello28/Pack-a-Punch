@@ -1,1 +1,0 @@
-Realizzazione di una soluzione AI per object tracking mediante Multi-Agent Reinforcement Learning dedicata al mercato farmaceutico. Il sistema analizza corpus testuali multilingue con accuratezza superiore al 95%. L'infrastruttura tecnologica comprende container orchestration con Kubernetes e sistemi di backup automatizzati.

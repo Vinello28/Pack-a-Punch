@@ -1,2 +1,10 @@
-ISI Flex è un Azienda di distribuzione specializzata in apparecchiature e componentistica per il passaggio e trattamento dei fluidi ed è costituita da una sede centrale e 2 filiali.È inoltre dotata di un reparto per la produzione di pezzi speciali che sono realizzati con un pantografo robotizzato.Il progetto presentato consiste nella realizzazione di un portale e-commerce B2B che potremmo definire intelligente in quanto dotato di funzionalità di ML(machine learning),l’acquisto di un magazzino automatico verticale e la realizzazione delle attività necessarie per l’integrazione e l’interconnessione dei suddetti con il sistema informativo aziendale composto dall’ERP e dal CRM. Il controllo in real time dello stato degli ordini e delle commesse di produzione permetterà una maggiore efficienza nella gestione e pianificazione delle lavorazioni e delle movimentazioni dei prodotti a magazzino con conseguente ottimizzazione dei costi di gestione. 
-L’area vendita verrà ottimizzata dall’introduzione del portale e-commerce “intelligente” collegato al gestionale e di conseguenza ai magazzini verticali, evadendo gli ordini in tempi rapidi con la conseguente riduzione dei costi diretti dettati dalla complessità dei materiali e dalle procedure oggi utilizzate che coinvolgono numerosi o
+we cast the problem of source localization on graphs as the simultaneous
+problem of sparse recovery and diffusion kernel learning. an l1 regularization
+term enforces the sparsity constraint while we recover the sources of diffusion
+from a single snapshot of the diffusion process. the diffusion kernel is
+estimated by assuming the process to be as generic as the standard heat
+diffusion. we show with synthetic data that we can concomitantly learn the
+diffusion kernel and the sources, given an estimated initialization. we
+validate our model with cholera mortality and atmospheric tracer diffusion
+data, showing also that the accuracy of the solution depends on the
+construction of the graph from the data points.

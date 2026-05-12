@@ -1,1 +1,1 @@
-A.I. LA DUCHESSA DI PARMA SRL L INTELLIGENZA ARTIFICIALE NEL SETTORE RISTORAZIONE FORMAZIONE PERSONALE AZIENDALE
+clinical ai model reporting cards should be expanded to incorporate a broad bias reporting of both social and non-social factors. non-social factors consider the role of other factors, such as disease dependent, anatomic, or instrument factors on ai model bias, which are essential to ensure safe deployment.

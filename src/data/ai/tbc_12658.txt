@@ -1,0 +1,11 @@
+activation functions play a key role in neural networks so it becomes
+fundamental to understand their advantages and disadvantages in order to
+achieve better performances. this paper will first introduce common types of
+non linear activation functions that are alternative to the well known sigmoid
+function and then evaluate their characteristics. moreover deeper neural
+networks will be analysed because they positively influence the final
+performances compared to shallower networks. they also strictly depend on the
+weight initialisation hence the effect of drawing weights from gaussian and
+uniform distribution will be analysed making particular attention on how the
+number of incoming and outgoing connection to a node influence the whole
+network.

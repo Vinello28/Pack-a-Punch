@@ -1,0 +1,20 @@
+automated cell detection and localization from microscopy images are
+significant tasks in biomedical research and clinical practice. in this paper,
+we design a new cell detection and localization algorithm that combines deep
+convolutional neural network (cnn) and compressed sensing (cs) or sparse coding
+(sc) for end-to-end training. we also derive, for the first time, a
+backpropagation rule, which is applicable to train any algorithm that
+implements a sparse code recovery layer. the key observation behind our
+algorithm is that cell detection task is a point object detection task in
+computer vision, where the cell centers (i.e., point objects) occupy only a
+tiny fraction of the total number of pixels in an image. thus, we can apply
+compressed sensing (or, equivalently sparse coding) to compactly represent a
+variable number of cells in a projected space. then, cnn regresses this
+compressed vector from the input microscopy image. thanks to the sc/cs recovery
+algorithm (l1 optimization) that can recover sparse cell locations from the
+output of cnn. we train this entire processing pipeline end-to-end and
+demonstrate that end-to-end training provides accuracy improvements over a
+training paradigm that treats cnn and cs-recovery layers separately. our
+algorithm design also takes into account a form of ensemble average of trained
+models naturally to further boost accuracy of cell detection. we have validated
+our algorithm on benchmark datasets and achieved excellent performances.

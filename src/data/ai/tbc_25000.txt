@@ -1,0 +1,12 @@
+in the last few years, generative adversarial networks (gan) have shown
+tremendous potential for a number of applications in computer vision and
+related fields. with the current pace of progress, it is a sure bet they will
+soon be able to generate high-quality images and videos, virtually
+indistinguishable from real ones. unfortunately, realistic gan-generated images
+pose serious threats to security, to begin with a possible flood of fake
+multimedia, and multimedia forensic countermeasures are in urgent need. in this
+work, we show that each gan leaves its specific fingerprint in the images it
+generates, just like real-world cameras mark acquired images with traces of
+their photo-response non-uniformity pattern. source identification experiments
+with several popular gans show such fingerprints to represent a precious asset
+for forensic analyses.

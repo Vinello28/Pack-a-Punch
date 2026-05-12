@@ -1,3 +1,27 @@
-Attualmente il personale adetto alla produzione durante l'assemblaggio dei prodotti, compila una scheda dove vengono riportati i singoli pezzi utilizzati, le lunghezze e tipo dei cavi ed altri materiali. Sulla stessa scheda vengono riportati anche le tempistiche e i risultati dei collaudi. La scheda, realizzata in duplice copia, viene archiviata in laboratorio, mentre la seconda copia viene consegnata agli uffici dove un dipendente ricopia all'interno del software gestionale tutti i materiali utilizzati così come le tempistiche.
-Il progetto prevede di dotare ogni singola postazione operativa di laboratorio di un terminale in modo che l'assemblatore inserisce il materiale direttamente nel programma gestionale senza passare dal cartaceo. Inoltre l'assemblatore potrà avere a monitor gli schemi e misur di assemblaggio senza dover stampare le singole parti, migliorando notevolmente l'efficienza e nel contemo riducendo sensibilmente la carta utilizzata.
-per quasto progetto è necessario di dotare le 6 postazioni attuali con un terminale comprensivo di monitor, scanner ottico per la lettura dei codici a barre sui prodotti, potenziare la rete aziendale con l'aggiunta di nuove line ethernet, sostituire l'attuale server in quanto datato, con più memoria e nuovi sofware.
+Ho la necessità di informatizzare la mia attività di vendita on-line tramite un sito e-commerce.
+
+	Il sito è solo la punta dell' iceberg in quanto visibile, ma dietro dovrà esserci un sistema informativo di back-office adeguato alla gestione del flusso dati.
+
+	Dovendo essere autonomo nella gestione attuale e futura richiedo che venga fornito anche il SORGENTE e un adeguato ADDESTRAMENTO all'uso.
+
+	Prevedendo di ampliare ulteriormente il sito, chiedo anche un corso nel linguaggio di sviluppo.
+
+	Le scelte tecniche le lascio al nostro fornitore.
+
+	Richiedo quindi un offerta per i seguenti servizi:
+
+	- Sito e-commerce (incluso sorgente)
+
+	- Software di back-office (incluso sorgente)
+
+	- Software gestionale di magazzino (incluso sorgente)
+
+	- Software gestionale di contabilità (incluso sorgente)
+
+	- Corso del linguaggio utilizzato per lo sviluppo del sito
+
+	- Corso per l'uso dei database di supporto
+
+	- Corso del linguaggio utilizzato per lo sviluppo software
+
+	- SORGENTI e DOCUMENTAZIONE DETTAGLIATA di tutto il software sviluppato

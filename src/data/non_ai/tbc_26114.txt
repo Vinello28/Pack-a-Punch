@@ -1,0 +1,1 @@
+Realizzazione di un software rivolto agli e-commerce che tramite l utilizzo di AI automatizza la gestione del catalogo prodotti.

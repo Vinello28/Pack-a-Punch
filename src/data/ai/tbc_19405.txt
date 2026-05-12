@@ -1,0 +1,10 @@
+our goal is to adapt pre-trained neural language models (nlms) to the unconditional text generation task within the target domain.
+because many transformer based nlms are trained on more massive and heterogeneous corpora than this target domain,
+the difference between these corpora and the target domain raises the question of whether these nlms can provide their benefits to this task even after the fine-tuning.
+to tackle these problems, our approach focuses on topics to bridge the semantic gap between these corpora and the target domain corpus,
+and relates them at a topic level.
+that is, this approach injects topics into these nlms and trains them via topics behind these dependencies over segments,
+introducing both topic alignment (ta) and training tasks (tdm and tem),
+while previous transformer based nlms are better at learning from the predefined segment length such as the context.
+experiments show that this approach contributes to resolve the imbalance between these corpora,
+and can tailor previous pre-trained nlms to generate coherent and semantically valid text reflecting a given small fine-tuning corpus.

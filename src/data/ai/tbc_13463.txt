@@ -1,0 +1,10 @@
+it is commonly agreed that the use of relevant invariances as a good
+statistical bias is important in machine-learning. however, most approaches
+that explicitly incorporate invariances into a model architecture only make use
+of very simple transformations, such as translations and rotations. hence,
+there is a need for methods to model and extract richer transformations that
+capture much higher-level invariances. to that end, we introduce a tool
+allowing to parametrize the set of filters of a trained convolutional neural
+network with the latent space of a generative adversarial network. we then show
+that the method can capture highly non-linear invariances of the data by
+visualizing their effect in the data space.

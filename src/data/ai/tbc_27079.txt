@@ -1,0 +1,12 @@
+a natural way to characterize the cluster structure of a dataset is by
+finding regions containing a high density of data. this can be done in a
+nonparametric way with a kernel density estimate, whose modes and hence
+clusters can be found using mean-shift algorithms. we describe the theory and
+practice behind clustering based on kernel density estimates and mean-shift
+algorithms. we discuss the blurring and non-blurring versions of mean-shift;
+theoretical results about mean-shift algorithms and gaussian mixtures;
+relations with scale-space theory, spectral clustering and other algorithms;
+extensions to tracking, to manifold and graph data, and to manifold denoising;
+k-modes and laplacian k-modes algorithms; acceleration strategies for large
+datasets; and applications to image segmentation, manifold denoising and
+multivalued regression.

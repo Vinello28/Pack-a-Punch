@@ -1,0 +1,12 @@
+we explore object discovery and detector adaptation based on unlabeled video
+sequences captured from a mobile platform. we propose a fully automatic
+approach for object mining from video which builds upon a generic object
+tracking approach. by applying this method to three large video datasets from
+autonomous driving and mobile robotics scenarios, we demonstrate its robustness
+and generality. based on the object mining results, we propose a novel approach
+for unsupervised object discovery by appearance-based clustering. we show that
+this approach successfully discovers interesting objects relevant to driving
+scenarios. in addition, we perform self-supervised detector adaptation in order
+to improve detection performance on the kitti dataset for existing categories.
+our approach has direct relevance for enabling large-scale object learning for
+autonomous driving.

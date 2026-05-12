@@ -1,0 +1,10 @@
+the tree augmented naive bayes classifier is a type of probabilistic
+graphical model that can represent some feature dependencies. in this work, we
+propose a hierarchical redundancy eliminated tree augmented naive bayes
+(hre-tan) algorithm, which considers removing the hierarchical redundancy
+during the classifier learning process, when coping with data containing
+hierarchically structured features. the experiments showed that hre-tan obtains
+significantly better predictive performance than the conventional tree
+augmented naive bayes classifier, and enhanced the robustness against
+imbalanced class distributions, in aging-related gene datasets with gene
+ontology terms used as features.

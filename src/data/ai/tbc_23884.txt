@@ -1,0 +1,16 @@
+data of different modalities generally convey complimentary but heterogeneous
+information, and a more discriminative representation is often preferred by
+combining multiple data modalities like the rgb and infrared features. however
+in reality, obtaining both data channels is challenging due to many
+limitations. for example, the rgb surveillance cameras are often restricted
+from private spaces, which is in conflict with the need of abnormal activity
+detection for personal security. as a result, using partial data channels to
+build a full representation of multi-modalities is clearly desired. in this
+paper, we propose a novel partial-modal generative adversarial networks
+(pm-gans) that learns a full-modal representation using data from only partial
+modalities. the full representation is achieved by a generated representation
+in place of the missing data channel. extensive experiments are conducted to
+verify the performance of our proposed method on action recognition, compared
+with four state-of-the-art methods. meanwhile, a new infrared-visible dataset
+for action recognition is introduced, and will be the first publicly available
+action dataset that contains paired infrared and visible spectrum.

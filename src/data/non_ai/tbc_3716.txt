@@ -1,1 +1,1 @@
-Il piano formativo prevede il coinvolgimento di 5 Dirigenti in organico in un percorso riguardante il tema dell’anticorruzione oltre ad un’attività di assesment a beneficio di un dirigente.
+Interfaccia di programmazione per Robot Collaborativi tramite AI. Il progetto prevede la definizione delle specifiche di tale interfaccia e test sperimentazione demo su prototipi industriali

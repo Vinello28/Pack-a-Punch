@@ -1,1 +1,18 @@
-Il sistema IoT proteggo intende realizzare un sistema di prevenzione ed analisi dei rischi per i BB.CC. e per la protezione civile nell'edilizia e nel turismo sostenibile realizzando una IoT (Internet of Things) ossia una rete nella quale gli utenti sono rappresentati da cose ossia da sensori in grado di leggere e comunicare precocemente informazioni sullo stato di deformazione e sullo stato tensoriale delle strutture fisiche. Questo consentir di mettere in rete un sistema di smart buildings ossia di edifici opere pubbliche siti di interesse culturale resi intelligenti dai sensori e dai microchip. Correlando queste informazioni con quelle trasmesse dagli smart buildings circostanti e con quelle rese disponibili in tempo reale ad esempio da Enti quali l'INGV sull'attivit sismica sar possibile dare un significato ai big data raccolti al fine di individuare le strategie e i piani di intervento. E quando quell'edificio sar una scuola in grado di autodiagnosticare la propria inedeguatezza antisismica IoT proteggo avr mantenuto la sua promessa.
+in recent years, with the rapid proliferation of research publications in the
+field of artificial intelligence, it is becoming increasingly difficult for
+researchers to effectively keep up with all the latest research in one's own
+domains. however, history has shown that scientific breakthroughs often come
+from collaborations of researchers from different domains. traditional search
+algorithms like lexical search, which look for literal matches or synonyms and
+variants of the query words, are not effective for discovering cross-domain
+research papers and meeting the needs of researchers in this age of information
+overflow. in this paper, we developed and tested an innovative semantic search
+engine, analogy search engine (ase), for 2000 ai research paper abstracts
+across domains like language technologies, robotics, machine learning,
+computational biology, human computer interactions, etc. ase combines recent
+theories and methods from computational analogy and natural language processing
+to go beyond keyword-based lexical search and discover the deeper analogical
+relationships among research paper abstracts. we experimentally show that ase
+is capable of finding more interesting and useful research papers than baseline
+elasticsearch. furthermore, we believe that the methods used in ase go beyond
+academic paper and will benefit many other document search tasks.

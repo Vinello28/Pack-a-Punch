@@ -1,3 +1,0 @@
-1)Assessment maturità digitale dell'organizzazione (light) 
-6)Accesso a infrastrutture e piattaforme di test nelle disponibilità del Centro di Competenza 
-9)Sviluppo testbed e scenari POC

@@ -1,1 +1,1 @@
-Il progetto Ã¨ finalizzato alla riduzione degli impatti ambientali nell#-#arco dell#-#intera vita del prodotto e prevede lo sviluppo di un nuovo sistema di etichettatura specifico per impatto ambientale  con valenza orizzontale  basato su di una nuova metodologia di trasmissione dell#-#informazione lungo la Supply Chain e sull#-#impiego delle tecniche di LCA e LCC.
+Implementazione delle logiche Lean nella gestione dei materiali e nella gestione dei reparti

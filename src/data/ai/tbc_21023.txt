@@ -1,0 +1,20 @@
+recently, remarkable advances have been achieved in 3d human pose estimation
+from monocular images because of the powerful deep convolutional neural
+networks (dcnns). despite their success on large-scale datasets collected in
+the constrained lab environment, it is difficult to obtain the 3d pose
+annotations for in-the-wild images. therefore, 3d human pose estimation in the
+wild is still a challenge. in this paper, we propose an adversarial learning
+framework, which distills the 3d human pose structures learned from the fully
+annotated dataset to in-the-wild images with only 2d pose annotations. instead
+of defining hard-coded rules to constrain the pose estimation results, we
+design a novel multi-source discriminator to distinguish the predicted 3d poses
+from the ground-truth, which helps to enforce the pose estimator to generate
+anthropometrically valid poses even with images in the wild. we also observe
+that a carefully designed information source for the discriminator is essential
+to boost the performance. thus, we design a geometric descriptor, which
+computes the pairwise relative locations and distances between body joints, as
+a new information source for the discriminator. the efficacy of our adversarial
+learning framework with the new geometric descriptor has been demonstrated
+through extensive experiments on widely used public benchmarks. our approach
+significantly improves the performance compared with previous state-of-the-art
+approaches.

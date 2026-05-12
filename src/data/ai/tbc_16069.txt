@@ -1,0 +1,14 @@
+we present a baseline convolutional neural network (cnn) structure and image
+preprocessing methodology to improve facial expression recognition algorithm
+using cnn. to analyze the most efficient network structure, we investigated
+four network structures that are known to show good performance in facial
+expression recognition. moreover, we also investigated the effect of input
+image preprocessing methods. five types of data input (raw, histogram
+equalization, isotropic smoothing, diffusion-based normalization, difference of
+gaussian) were tested, and the accuracy was compared. we trained 20 different
+cnn models (4 networks x 5 data input types) and verified the performance of
+each network with test images from five different databases. the experiment
+result showed that a three-layer structure consisting of a simple convolutional
+and a max pooling layer with histogram equalization image input was the most
+efficient. we describe the detailed training procedure and analyze the result
+of the test accuracy based on considerable observation.

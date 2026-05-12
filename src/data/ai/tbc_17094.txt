@@ -1,0 +1,13 @@
+optimal transportation distances are a fundamental family of parameterized
+distances for histograms. despite their appealing theoretical properties,
+excellent performance in retrieval tasks and intuitive formulation, their
+computation involves the resolution of a linear program whose cost is
+prohibitive whenever the histograms' dimension exceeds a few hundreds. we
+propose in this work a new family of optimal transportation distances that look
+at transportation problems from a maximum-entropy perspective. we smooth the
+classical optimal transportation problem with an entropic regularization term,
+and show that the resulting optimum is also a distance which can be computed
+through sinkhorn-knopp's matrix scaling algorithm at a speed that is several
+orders of magnitude faster than that of transportation solvers. we also report
+improved performance over classical optimal transportation distances on the
+mnist benchmark problem.

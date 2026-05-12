@@ -1,7 +1,0 @@
-UP Srl è proprietaria di ChainOn, un digital marketplace per la compravendita di sponsorizzazioni in cui sponseé (società sportive, enti culturali…) e sponsor (aziende…), grazie ad algoritmi proprietari e blockchain, si incontrano in forma disintermediata, trattano e siglano accordi a mezzo smart contract. Questo permette di raggiungere accordi velocemente, senza confini, con un abbattimento dei costi di oltre 90% rispetto al mercato offline.
-Il progetto si prefigge altresì di realizzare, all’interno di ChainOn, un modulo di big data analitycs con utilizzo di intelligenza artificiale che permetta la raccolta e la normalizzazione di informazioni prelevate automaticamente sul web consentendo di: 
-1)	sostituire la laboriosa analisi manuale con personale dedicato
-2)	massimizzare l’arricchimento informativo del marketplace con aggiornamenti ad alta frequenza
-3)	avviare azioni di marketing e vendita verso soggetti interessati (sponseé attivi ma non ancora clienti di ChainOn)
-4)	implementare costantemente gli algoritimi che collegano domanda e offerta con informazioni in tempo reale
-5)	avviare nuovi ricavi con la vendita di informazioni sulle dinamiche macro di mercato e i dettagli dei singoli interventi.

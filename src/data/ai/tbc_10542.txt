@@ -1,0 +1,22 @@
+in this manuscript, we introduce a real-time motion planning system based on
+the baidu apollo (open source) autonomous driving platform. the developed
+system aims to address the industrial level-4 motion planning problem while
+considering safety, comfort and scalability. the system covers multilane and
+single-lane autonomous driving in a hierarchical manner: (1) the top layer of
+the system is a multilane strategy that handles lane-change scenarios by
+comparing lane-level trajectories computed in parallel. (2) inside the
+lane-level trajectory generator, it iteratively solves path and speed
+optimization based on a frenet frame. (3) for path and speed optimization, a
+combination of dynamic programming and spline-based quadratic programming is
+proposed to construct a scalable and easy-to-tune framework to handle traffic
+rules, obstacle decisions and smoothness simultaneously. the planner is
+scalable to both highway and lower-speed city driving scenarios. we also
+demonstrate the algorithm through scenario illustrations and on-road test
+results.
+  the system described in this manuscript has been deployed to dozens of baidu
+apollo autonomous driving vehicles since apollo v1.5 was announced in september
+2017. as of may 16th, 2018, the system has been tested under 3,380 hours and
+approximately 68,000 kilometers (42,253 miles) of closed-loop autonomous
+driving under various urban scenarios.
+  the algorithm described in this manuscript is available at
+https://github.com/apolloauto/apollo/tree/master/modules/planning.

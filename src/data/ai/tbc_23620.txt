@@ -1,0 +1,18 @@
+real-time prediction of clinical interventions remains a challenge within
+intensive care units (icus). this task is complicated by data sources that are
+noisy, sparse, heterogeneous and outcomes that are imbalanced. in this paper,
+we integrate data from all available icu sources (vitals, labs, notes,
+demographics) and focus on learning rich representations of this data to
+predict onset and weaning of multiple invasive interventions. in particular, we
+compare both long short-term memory networks (lstm) and convolutional neural
+networks (cnn) for prediction of five intervention tasks: invasive ventilation,
+non-invasive ventilation, vasopressors, colloid boluses, and crystalloid
+boluses. our predictions are done in a forward-facing manner to enable
+"real-time" performance, and predictions are made with a six hour gap time to
+support clinically actionable planning. we achieve state-of-the-art results on
+our predictive tasks using deep architectures. we explore the use of feature
+occlusion to interpret lstm models, and compare this to the interpretability
+gained from examining inputs that maximally activate cnn outputs. we show that
+our models are able to significantly outperform baselines in intervention
+prediction, and provide insight into model learning, which is crucial for the
+adoption of such models in practice.

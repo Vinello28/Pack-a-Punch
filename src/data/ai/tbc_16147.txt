@@ -1,1 +1,1 @@
-Digitalizzazione studio attraverso piattaforma integrata per gestire operazioni automatizzare processi e migliorare efficienza produttivit e sicurezza anche mediante l'uso di intelligenza artificiale.
+Progetto di pricing dinamico nel settore logistica basato su architetture Transformer e modelli di attenzione. Il sistema analizza serie temporali storiche di 10+ anni per ottimizzare i processi operativi. L'infrastruttura prevede pipeline MLOps con CI/CD automatizzato. Il finanziamento copre sviluppo software, acquisizione dati e deployment in produzione.

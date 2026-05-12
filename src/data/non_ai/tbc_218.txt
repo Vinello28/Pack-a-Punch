@@ -1,1 +1,0 @@
-Sviluppo di una versione di software personalizzato per la gestione e controllo dei clienti dell'impresa, attraverso conferimento incarico a sviluppatore software professionale. Il software sarà in grado di gestire la documentazione in cluod della società attraverso il collegamento dell'esterno di altri operatori.

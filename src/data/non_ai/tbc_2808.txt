@@ -1,5 +1,0 @@
-Il nostro progetto mira a sfruttare appieno la potenza dei Big Data e dell'Analytics per
-promuovere e ottimizzare la nostra attività aziendale. Raccogliamo una vasta quantità di
-dati provenienti da diverse fonti, tra cui social media, transazioni e feedback dei clienti,
-per ottenere informazioni dettagliate sul comportamento dei consumatori e le loro
-preferenze.

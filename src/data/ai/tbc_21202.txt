@@ -1,0 +1,1 @@
+we propose a knowledge operator based on the agent's possibility correspondence which preserves her non-trivial unawareness within the standard state-space model. our approach may provide a solution to the classical impossibility result that 'an unaware agent must be aware of everything'.

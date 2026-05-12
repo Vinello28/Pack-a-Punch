@@ -1,1 +1,1 @@
-Intelligenza artificiale applicata al neuromarketing
+this paper describes the kluenicorn system submitted to the semeval-2018 task on {``}irony detection in english tweets{''}. the proposed system uses a naive bayes classifier to exploit rather simple lexical, pragmatical and semantical features as well as sentiment. it further takes a closer look at different adverb categories and named entities and factors in word-embedding information.

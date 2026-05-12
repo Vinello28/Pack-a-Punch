@@ -1,1 +1,1 @@
-TI-PREDICO - Dimostratore per tecnologie di intelligenza artificiale generativa per la manutenzione predittiva e ottimizzazione consapevole per machine per il packaging
+PROOF OF CONCEPT SULL UTILIZZO DEI LARGE LANGUAGE MODELS (LLM) PER L ANALISI E LA GESTIONE DELLA DOCUMENTAZIONE DI CANTIERE

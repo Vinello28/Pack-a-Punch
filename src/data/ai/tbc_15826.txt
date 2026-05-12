@@ -1,1 +1,11 @@
-extracting aspect-polarity pairs from texts is an important task of fine-grained sentiment analysis. while the existing approaches to this task have gained many progresses, they are limited at capturing relationships among aspect-polarity pairs in a text, thus degrading the extraction performance. moreover, the existing state-of-the-art approaches, namely token-based se-quence tagging and span-based classification, have their own defects such as polarity inconsistency resulted from separately tagging tokens in the former and the heterogeneous categorization in the latter where aspect-related and polarity-related labels are mixed. in order to remedy the above defects, in-spiring from the recent advancements in relation extraction, we propose to generate aspect-polarity pairs directly from a text with relation extraction technology, regarding aspect-pairs as unary relations where aspects are enti-ties and the corresponding polarities are relations. based on the perspective, we present a position- and aspect-aware sequence2sequence model for joint extraction of aspect-polarity pairs. the model is characterized with its ability to capture not only relationships among aspect-polarity pairs in a text through the sequence decoding, but also correlations between an aspect and its polarity through the position- and aspect-aware attentions. the experi-ments performed on three benchmark datasets demonstrate that our model outperforms the existing state-of-the-art approaches, making significant im-provement over them.
+variance reduced stochastic gradient (sgd) methods converge significantly
+faster than the vanilla sgd counterpart. however, these methods are not very
+practical on large scale problems, as they either i) require frequent passes
+over the full data to recompute gradients---without making any progress during
+this time (like for svrg), or ii)~they require additional memory that can
+surpass the size of the input problem (like for saga). in this work, we propose
+$k$-svrg that addresses these issues by making best use of the \emph{available}
+memory and minimizes the stalling phases without progress. we prove linear
+convergence of $k$-svrg on strongly convex problems and convergence to
+stationary points on non-convex problems. numerical experiments show the
+effectiveness of our method.

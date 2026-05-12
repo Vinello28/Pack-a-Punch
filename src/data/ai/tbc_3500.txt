@@ -1,1 +1,18 @@
-TOwards the ROtocure of the FUture è un progetto di innovazione industriale che punta a modernizzare e ottimizzare il processo di vulcanizzazione della gomma trasformando una tecnologia obsoleta, la rotocure, in una macchina automatizzata e ad alta efficienza. Saranno analizzati tre possibili soluzioni: la migliore verrà integrata, testata ed ottimizzata sfruttando algoritmi di Machine Learning o l?Intelligenza Artificiale per raggiungere alti standard di sicurezza, affidabilità e produttività.
+the ability to recognize objects is an essential skill for a robotic system
+acting in human-populated environments. despite decades of effort from the
+robotic and vision research communities, robots are still missing good visual
+perceptual systems, preventing the use of autonomous agents for real-world
+applications. the progress is slowed down by the lack of a testbed able to
+accurately represent the world perceived by the robot in-the-wild. in order to
+fill this gap, we introduce a large-scale, multi-view object dataset collected
+with an rgb-d camera mounted on a mobile robot. the dataset embeds the
+challenges faced by a robot in a real-life application and provides a useful
+tool for validating object recognition algorithms. besides describing the
+characteristics of the dataset, the paper evaluates the performance of a
+collection of well-established deep convolutional networks on the new dataset
+and analyzes the transferability of deep representations from web images to
+robotic data. despite the promising results obtained with such representations,
+the experiments demonstrate that object classification with real-life robotic
+data is far from being solved. finally, we provide a comparative study to
+analyze and highlight the open challenges in robot vision, explaining the
+discrepancies in the performance.

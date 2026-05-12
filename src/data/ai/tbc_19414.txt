@@ -1,0 +1,25 @@
+we introduce a dynamic multiscale tree (dmt) architecture that learns how to
+leverage the strengths of different existing classifiers for supervised
+multi-label image segmentation. unlike previous works that simply aggregate or
+cascade classifiers for addressing image segmentation and labeling tasks, we
+propose to embed strong classifiers into a tree structure that allows
+bi-directional flow of information between its classifier nodes to gradually
+improve their performances. our dmt is a generic classification model that
+inherently embeds different cascades of classifiers while enhancing learning
+transfer between them to boost up their classification accuracies.
+specifically, each node in our dmt can nest a structured random forest (srf)
+classifier or a bayesian network (bn) classifier. the proposed srf-bn dmt
+architecture has several appealing properties. first, while srf operates at a
+patch-level (regular image region), bn operates at the super-pixel level
+(irregular image region), thereby enabling the dmt to integrate multi-level
+image knowledge in the learning process. second, although bn is powerful in
+modeling dependencies between image elements (superpixels, edges) and their
+features, the learning of its structure and parameters is challenging. on the
+other hand, srf may fail to accurately detect very irregular object boundaries.
+the proposed dmt robustly overcomes these limitations for both classifiers
+through the ascending and descending flow of contextual information between
+each parent node and its children nodes. third, we train dmt using different
+scales, where we progressively decrease the patch and superpixel sizes as we go
+deeper along the tree edges nearing its leaf nodes. last, dmt demonstrates its
+outperformance in comparison to several state-of-the-art segmentation methods
+for multi-labeling of brain images with gliomas.

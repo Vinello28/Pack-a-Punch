@@ -1,1 +1,1 @@
-Percorso AI Generativa per il Business
+the feature matching is a basic step in matching different datasets. this article proposes shows a new hybrid model of a pretrained natural language processing (nlp) based model called bert used in parallel with a statistical model based on jaccard similarity to measure the similarity between list of features from two different datasets. this reduces the time required to search for correlations or manually match each feature from one dataset to another.

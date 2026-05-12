@@ -1,1 +1,19 @@
-the global optimization of a high-dimensional black-box function under black-box constraints is a pervasive task in machine learning, control, and engineering. these problems are challenging since the feasible set is typically non-convex and hard to find, in addition to the curses of dimensionality and the heterogeneity of the underlying functions. in particular, these characteristics dramatically impact the performance of bayesian optimization methods, that otherwise have become the de facto standard for sample-efficient optimization in unconstrained settings, leaving practitioners with evolutionary strategies or heuristics. we propose the scalable constrained bayesian optimization (scbo) algorithm that overcomes the above challenges and pushes the applicability of bayesian optimization far beyond the state-of-the-art. a comprehensive experimental evaluation demonstrates that scbo achieves excellent results on a variety of benchmarks. to this end, we propose two new control problems that we expect to be of independent value for the scientific community.
+identifying crime for forensic investigating teams when crimes involve people
+of different nationals is challenging. this paper proposes a new method for
+ethnicity (nationality) identification based on cloud of line distribution
+(cold) features of handwriting components. the proposed method, at first,
+explores tangent angle for the contour pixels in each row and the mean of
+intensity values of each row in an image for segmenting text lines. for
+segmented text lines, we use tangent angle and direction of base lines to
+remove rule lines in the image. we use polygonal approximation for finding
+dominant points for contours of edge components. then the proposed method
+connects the nearest dominant points of every dominant point, which results in
+line segments of dominant point pairs. for each line segment, the proposed
+method estimates angle and length, which gives a point in polar domain. for all
+the line segments, the proposed method generates dense points in polar domain,
+which results in cold distribution. as character component shapes change,
+according to nationals, the shape of the distribution changes. this observation
+is extracted based on distance from pixels of distribution to principal axis of
+the distribution. then the features are subjected to an svm classifier for
+identifying nationals. experiments are conducted on a complex dataset, which
+show the proposed method is effective and outperforms the existing method

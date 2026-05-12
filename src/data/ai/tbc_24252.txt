@@ -1,0 +1,16 @@
+in this paper, we establish a baseline for object symmetry detection in
+complex backgrounds by presenting a new benchmark and an end-to-end deep
+learning approach, opening up a promising direction for symmetry detection in
+the wild. the new benchmark, named sym-pascal, spans challenges including
+object diversity, multi-objects, part-invisibility, and various complex
+backgrounds that are far beyond those in existing datasets. the proposed
+symmetry detection approach, named side-output residual network (srn),
+leverages output residual units (rus) to fit the errors between the object
+symmetry groundtruth and the outputs of rus. by stacking rus in a
+deep-to-shallow manner, srn exploits the 'flow' of errors among multiple scales
+to ease the problems of fitting complex outputs with limited layers,
+suppressing the complex backgrounds, and effectively matching object symmetry
+of different scales. experimental results validate both the benchmark and its
+challenging aspects related to realworld images, and the state-of-the-art
+performance of our symmetry detection approach. the benchmark and the code for
+srn are publicly available at https://github.com/kevinkecc/srn.

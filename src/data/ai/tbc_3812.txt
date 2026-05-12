@@ -1,2 +1,0 @@
-La soluzione che si vuole proporre supporterà un processo di cura globale per i pazienti con MASLD, integrando modelli di intelligenza artificiale nell'applicazione mHealth, garantendo scalabilità, usabilità,
-privacy e interoperabilità, promuovendo l'idea di intelligenza aumentata in medicina.

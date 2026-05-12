@@ -1,1 +1,23 @@
-due to cost benefits, supply chains of integrated circuits (ics) are largely outsourced nowadays. however, passing ics through various third-party providers gives rise to many security threats, like piracy of ic intellectual property or insertion of hardware trojans, i.e., malicious circuit modifications. in this work, we proactively and systematically protect the physical layouts of ics against post-design insertion of trojans. toward that end, we propose trolloc, a novel scheme for ic security closure that employs, for the first time, logic locking and layout hardening in unison. trolloc is fully integrated into a commercial-grade design flow, and trolloc is shown to be effective, efficient, and robust. our work provides in-depth layout and security analysis considering the challenging benchmarks of the ispd'22/23 contests for security closure. we show that trolloc successfully renders layouts resilient, with reasonable overheads, against (i) general prospects for trojan insertion as in the ispd'22 contest, (ii) actual trojan insertion as in the ispd'23 contest, and (iii) potential second-order attacks where adversaries would first (i.e., before trojan insertion) try to bypass the locking defense, e.g., using advanced machine learning attacks. finally, we release all our artifacts for independent verification [2].
+motivation: structural heterogeneity in single-particle cryo-electron
+microscopy (cryo-em) data represents a major challenge for high-resolution
+structure determination. unsupervised classification may serve as the first
+step in the assessment of structural heterogeneity. traditional algorithms for
+unsupervised classification, such as k-means clustering and maximum likelihood
+optimization, may classify images into wrong classes with decreasing
+signal-to-noise-ratio (snr) in the image data, yet demand increased cost in
+computation. overcoming these limitations requires further development on
+clustering algorithms for high-performance cryo-em data analysis. results: here
+we introduce a statistical manifold learning algorithm for unsupervised
+single-particle deep clustering. we show that statistical manifold learning
+improves classification accuracy by about 40% in the absence of input
+references for lower snr data. applications to several experimental datasets
+suggest that our deep clustering approach can detect subtle structural
+difference among classes. through code optimization over the intel
+high-performance computing (hpc) processors, our software implementation can
+generate thousands of reference-free class averages within several hours from
+hundreds of thousands of single-particle cryo-em images, which allows
+significant improvement in ab initio 3d reconstruction resolution and quality.
+our approach has been successfully applied in several structural determination
+projects. we expect that it provides a powerful computational tool in analyzing
+highly heterogeneous structural data and assisting in computational
+purification of single-particle datasets for high-resolution reconstruction.

@@ -1,6 +1,0 @@
-La prima fase del progetto conclusa nel 2022 ha dimostrato tramite uno specifico POC la fattibilità di un dispositivo in grado di individuare in tempo
-reale inneschi di incendio tramite l’analisi eseguita da uno specifico algoritmo di semplici immagini ottiche acquisite da una normale telecamera
-installata all’interno del vano macchina, sia di giorno che di notte. La fase 2 del progetto prevede l’ulteriore sviluppo del POC in modo da renderlo
-una applicazione perfettamente operativa nella realtà produttiva e collegata ad un sistema centralizzato di rilevazione allarmi. Inoltre, si intende
-allargare l’applicazione del sistema ad ulteriori 3 macchine aggiungendo la funzione di autodiagnosi dell’allineamento della telecamera, elemento
-fondamentale nel momento in cui il sistema viene utilizzato a livello industriale.

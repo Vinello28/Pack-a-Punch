@@ -1,0 +1,19 @@
+modern deep neural network training is typically based on mini-batch
+stochastic gradient optimization. while the use of large mini-batches increases
+the available computational parallelism, small batch training has been shown to
+provide improved generalization performance and allows a significantly smaller
+memory footprint, which might also be exploited to improve machine throughput.
+  in this paper, we review common assumptions on learning rate scaling and
+training duration, as a basis for an experimental comparison of test
+performance for different mini-batch sizes. we adopt a learning rate that
+corresponds to a constant average weight update per gradient calculation (i.e.,
+per unit cost of computation), and point out that this results in a variance of
+the weight updates that increases linearly with the mini-batch size $m$.
+  the collected experimental results for the cifar-10, cifar-100 and imagenet
+datasets show that increasing the mini-batch size progressively reduces the
+range of learning rates that provide stable convergence and acceptable test
+performance. on the other hand, small mini-batch sizes provide more up-to-date
+gradient calculations, which yields more stable and reliable training. the best
+performance has been consistently obtained for mini-batch sizes between $m = 2$
+and $m = 32$, which contrasts with recent work advocating the use of mini-batch
+sizes in the thousands.

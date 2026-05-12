@@ -1,0 +1,19 @@
+vehicle re-identification is an important problem and becomes desirable with
+the rapid expansion of applications in video surveillance and intelligent
+transportation. by recalling the identification process of human vision, we are
+aware that there exists a native hierarchical dependency when humans identify
+different vehicles. specifically, humans always firstly determine one vehicle's
+coarse-grained category, i.e., the car model/type. then, under the branch of
+the predicted car model/type, they are going to identify specific vehicles by
+relying on subtle visual cues, e.g., customized paintings and windshield
+stickers, at the fine-grained level. inspired by the coarse-to-fine
+hierarchical process, we propose an end-to-end rnn-based hierarchical attention
+(rnn-ha) classification model for vehicle re-identification. rnn-ha consists of
+three mutually coupled modules: the first module generates image
+representations for vehicle images, the second hierarchical module models the
+aforementioned hierarchical dependent relationship, and the last attention
+module focuses on capturing the subtle visual information distinguishing
+specific vehicles from each other. by conducting comprehensive experiments on
+two vehicle re-identification benchmark datasets veri and vehicleid, we
+demonstrate that the proposed model achieves superior performance over
+state-of-the-art methods.

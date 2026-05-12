@@ -1,4 +1,20 @@
-Pathoxphere è una società cooperativa innovativa, che opera nella diagnosi oncologica per fornire modelli e servizi diagnostici di alta qualità, contribuendo a migliorare il benessere globale attraverso l’integrazione tecnologica e il superamento della carenza di specialisti.
-Questo progetto si propone di potenziare la digitalizzazione delle attività diagnostiche oncologiche, attraverso l’introduzione di tecnologie abilitanti e soluzioni digitali avanzate per l’anatomia patologica.
-L'obiettivo primario è abilitare la remotizzazione sicura della refertazione, la gestione centralizzata di immagini e dati, e il miglioramento della qualità e tempestività delle diagnosi, affrontando la carenza di specialisti e la natura prevalentemente analogica dei processi diagnostici attuali. L'intervento prevede l'acquisizione di postazioni diagnostiche digitali complete per i patologi e lo sviluppo personalizzato di una piattaforma gestionale (LIS/PACS) multilaboratorio con funzionalità di telepatologia e predisposizione per l'intelligenza artificiale (Pathomics).
-Il progetto si inserisce in una strategia imprenditoriale volta a migliorare il posizionamento di Pathoxphere nel mercato della diagnostica oncologica e ad esplorare nuovi mercati geografici e filiere.
+since a tweet is limited to 140 characters, it is ambiguous and difficult for
+traditional natural language processing (nlp) tools to analyse. this research
+presents keyxtract which enhances the machine learning based stanford corenlp
+part-of-speech (pos) tagger with the twitter model to extract essential
+keywords from a tweet. the system was developed using rule-based parsers and
+two corpora. the data for the research was obtained from a twitter profile of a
+telecommunication company. the system development consisted of two stages. at
+the initial stage, a domain specific corpus was compiled after analysing the
+tweets. the pos tagger extracted the noun phrases and verb phrases while the
+parsers removed noise and extracted any other keywords missed by the pos
+tagger. the system was evaluated using the turing test. after it was tested and
+compared against stanford corenlp, the second stage of the system was developed
+addressing the shortcomings of the first stage. it was enhanced using named
+entity recognition and lemmatization. the second stage was also tested using
+the turing test and its pass rate increased from 50.00% to 83.33%. the
+performance of the final system output was measured using the f1 score.
+stanford corenlp with the twitter model had an average f1 of 0.69 while the
+improved system had a f1 of 0.77. the accuracy of the system could be improved
+by using a complete domain specific corpus. since the system used linguistic
+features of a sentence, it could be applied to other nlp tools.

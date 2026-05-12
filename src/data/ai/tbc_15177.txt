@@ -1,0 +1,16 @@
+rank minimization (rm) is a wildly investigated task of finding solutions by
+exploiting low-rank structure of parameter matrices. recently, solving rm
+problem by leveraging non-convex relaxations has received significant
+attention. it has been demonstrated by some theoretical and experimental work
+that non-convex relaxation, e.g. truncated nuclear norm regularization (tnnr)
+and reweighted nuclear norm regularization (rnnr), can provide a better
+approximation of original problems than convex relaxations. however, designing
+an efficient algorithm with theoretical guarantee remains a challenging
+problem. in this paper, we propose a simple but efficient proximal-type method,
+namely iterative shrinkage-thresholding algorithm(ista), with concrete analysis
+to solve rank minimization problems with both non-convex weighted and
+reweighted nuclear norm as low-rank regularizers. theoretically, the proposed
+method could converge to the critical point under very mild assumptions with
+the rate in the order of $o(1/t)$. moreover, the experimental results on both
+synthetic data and real world data sets show that proposed algorithm
+outperforms state-of-arts in both efficiency and accuracy.

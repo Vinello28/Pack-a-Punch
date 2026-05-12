@@ -1,1 +1,1 @@
-Sistema di intelligenza artificiale per il monitoraggio della qualità delle acque costiere tramite analisi di immagini satellitari e droni.
+Il progetto ha come obiettivo Automazione aumentata dall'intelligenza artificiale per un DevOps efficiente: un framework basato su modelli per lo sviluppo continuo a run-time nei sistemi cyber-fisici

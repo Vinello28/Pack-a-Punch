@@ -1,1 +1,8 @@
-Il progetto AIDATrend mira a utilizzare l'intelligenza artificiale e il digital lobbying per rivoluzionare l'analisi delle tendenze in innovazione  brevetti e comunicazione istituzionale  favorendo   ontemporaneamente il public engagement.
+in this paper i present a new approach for regression of time series using
+their own samples. this is a celebrated problem known as auto-regression.
+dealing with outlier or missed samples in a time series makes the problem of
+estimation difficult, so it should be robust against them. moreover for coding
+purposes i will show that it is desired the residual of auto-regression be
+sparse. to these aims, i first assume a multivariate gaussian prior on the
+residual and then obtain the estimation. two simple simulations have been done
+on spectrum estimation and speech coding.

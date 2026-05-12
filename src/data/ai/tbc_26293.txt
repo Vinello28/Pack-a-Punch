@@ -1,0 +1,11 @@
+universally valid ground truth is almost impossible to obtain or would come
+at a very high cost. for supervised learning without universally valid ground
+truth, a recommended approach is applying crowdsourcing: gathering a large data
+set annotated by multiple individuals of varying possibly expertise levels and
+inferring the ground truth data to be used as labels to train the classifier.
+nevertheless, due to the sensitivity of the problem at hand (e.g. mitosis
+detection in breast cancer histology images), the obtained data needs
+verification and proper assessment before being used for classifier training.
+even in the context of organic computing systems, an indisputable ground truth
+might not always exist. therefore, it should be inferred through the
+aggregation and verification of the local knowledge of each autonomous agent.

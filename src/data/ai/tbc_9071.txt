@@ -1,1 +1,25 @@
-federated learning (fl) is a promising paradigm that offers significant advancements in privacy-preserving, decentralized machine learning by enabling collaborative training of models across distributed devices without centralizing data. however, the practical deployment of fl systems faces a significant bottleneck: the communication overhead caused by frequently exchanging large model updates between numerous devices and a central server. this communication inefficiency can hinder training speed, model performance, and the overall feasibility of real-world fl applications. in this survey, we investigate various strategies and advancements made in communication-efficient fl, highlighting their impact and potential to overcome the communication challenges inherent in fl systems. specifically, we define measures for communication efficiency, analyze sources of communication inefficiency in fl systems, and provide a taxonomy and comprehensive review of state-of-the-art communication-efficient fl methods. additionally, we discuss promising future research directions for enhancing the communication efficiency of fl systems. by addressing the communication bottleneck, fl can be effectively applied and enable scalable and practical deployment across diverse applications that require privacy-preserving, decentralized machine learning, such as iot, healthcare, or finance.
+for the next step in human to machine interaction, artificial intelligence
+(ai) should interact predominantly using natural language because, if it
+worked, it would be the fastest way to communicate. facebook's toy tasks (babi)
+provide a useful benchmark to compare implementations for conversational ai.
+while the published experiments so far have been based on exploiting the
+distributional hypothesis with machine learning, our model exploits natural
+language understanding (nlu) with the decomposition of language based on role
+and reference grammar (rrg) and the brain-based patom theory. our combinatorial
+system for conversational ai based on linguistics has many advantages: passing
+babi task tests without parsing or statistics while increasing scalability. our
+model validates both the training and test data to find 'garbage' input and
+output (gigo). it is not rules-based, nor does it use parts of speech, but
+instead relies on meaning. while deep learning is difficult to debug and fix,
+every step in our model can be understood and changed like any non-statistical
+computer program. deep learning's lack of explicable reasoning has raised
+opposition to ai, partly due to fear of the unknown. to support the goals of
+ai, we propose extended tasks to use human-level statements with tense, aspect
+and voice, and embedded clauses with junctures: and answers to be natural
+language generation (nlg) instead of keywords. while machine learning permits
+invalid training data to produce incorrect test responses, our system cannot
+because the context tracking would need to be intentionally broken. we believe
+no existing learning systems can currently solve these extended natural
+language tests. there appears to be a knowledge gap between nlp researchers and
+linguists, but ongoing competitive results such as these promise to narrow that
+gap.

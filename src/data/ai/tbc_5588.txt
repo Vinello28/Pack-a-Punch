@@ -1,0 +1,1 @@
+Sistema di realt virtuale che consente di far corrispondere ogni movimento reale ad uno identico nell'ambiente virtuale

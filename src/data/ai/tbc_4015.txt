@@ -1,2 +1,1 @@
-L’intervento innovativo consiste nello sviluppo di un sistema basato su tecniche di AI da integrare nel funnel di acquisizione clienti della società. In particolare, tale sistema dovrebbe consentire una navigazione guidata
-e conversazionale, ovvero attraverso l’input di informazioni guidate ma arricchite da input non strutturati come messaggi di chat o upload di testi free-form
+Sviluppo di una piattaforma AI per previsione meteo tramite Edge AI e TinyML per dispositivi embedded applicata al dominio media. Il modello viene addestrato su dataset annotati di oltre 1 milione di esempi e deployato su mixed precision training (FP16/BF16). I fondi supportano ricerca, sviluppo e validazione sul campo.

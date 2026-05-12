@@ -1,1 +1,12 @@
-Opto Engineering produce e seleziona ottiche e componenti per visione artificiale di elevata qualit basandosi sulla sua esperienza pluriennale nel setting in modo da fornire ai propri clienti un catalogo completo di componenti. Opto Engineering si evoluta negli anni inserendo nel mercato centinaia di nuovi prodotti e sviluppando molteplici ambiti di competenza. Ad oggi la societ pu affermare di essere specializzata nelle TECNOLOGIE DI IMAGING OTTICO. La dimensione del mercato globale Imaging ottico valutata a in $ 1619.8 milioni nel 2020 risulta in crescita a tasso di crescita medio annuo (CAGR) di 9.1%. Il mercato dovrebbe raggiungere $ 2731.5 milioni nel periodo di previsione 2021-2027. Si tratta quindi di un settore in crescita trainato dalle nuove tendenze tecnologie e dal machine vision. Allo stato attuale l azienda sta completando lo sviluppo di una famiglia di telecamere industriali basate su connessione Gigabit Ethernet e protocollo GigEVision con velocit di comunicazione limitata ad 1 Gbit/s. Questo standard molto utilizzato ed apprezzato in ambito industriale per la robustezza e la sicurezza della comunicazione. Il progetto prevede di espandere la famiglia di telecamere industriali Opto Engineering sviluppando una nuova famiglia con connessione 5/10 Gigab
+we propose a deep architecture for the classification of multivariate time
+series. by means of a recurrent and untrained reservoir we generate a vectorial
+representation that embeds temporal relationships in the data. to improve the
+memorization capability, we implement a bidirectional reservoir, whose last
+state captures also past dependencies in the input. we apply dimensionality
+reduction to the final reservoir states to obtain compressed fixed size
+representations of the time series. these are subsequently fed into a deep
+feedforward network trained to perform the final classification. we test our
+architecture on benchmark datasets and on a real-world use-case of blood
+samples classification. results show that our method performs better than a
+standard echo state network and, at the same time, achieves results comparable
+to a fully-trained recurrent network, but with a faster training.

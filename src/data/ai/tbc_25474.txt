@@ -1,0 +1,10 @@
+computational cannula microscopy (ccm) is a high-resolution widefield
+fluorescence imaging approach deep inside tissue, which is minimally invasive.
+rather than using conventional lenses, a surgical cannula acts as a lightpipe
+for both excitation and fluorescence emission, where computational methods are
+used for image visualization. here, we enhance ccm with artificial neural
+networks to enable 3d imaging of cultured neurons and fluorescent beads, the
+latter inside a volumetric phantom. we experimentally demonstrate transverse
+resolution of ~6um, field of view ~200um and axial sectioning of ~50um for
+depths down to ~700um, all achieved with computation time of ~3ms/frame on a
+laptop computer.

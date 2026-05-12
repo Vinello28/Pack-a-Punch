@@ -1,8 +1,0 @@
-Il progetto "Smart Transition per l’impresa digitale" mira a potenziare l’innovazione e la resilienza aziendale attraverso interventi
-tecnologici strategici. Sul fronte dell’innovazione, viene introdotto un software locale per l’elaborazione di dati genetici grezzi, capace
-di generare referti PDF automatizzati. Il gestionale aziendale viene arricchito con nuove funzionalità per l’ottimizzazione del flusso di
-lavoro, mentre il rifacimento del sito web include l’integrazione di uno store online che permette la vendita di kit per il prelievo del
-materiale biologico direttamente presso il domicilio del paziente. È inoltre previsto l’acquisto di uno strumento avanzato, supportato da intelligenza artificiale, per supportare lo screening ed eventuali confronti con altri specialisti del settore su tutto il territorio mondiale,
-di preparati citologici ed istologici. Per garantire la resilienza, il progetto prevede l’upgrade di buona parte dell’infrastruttura IT, con
-sostituzione dei server e rafforzamento del sistema informativo aziendale. Molto importante è il sistema di backup off-site che assicura
-il recupero dei dati anche in scenari di disaster recovery, nel pieno rispetto delle normative vigenti in materia di sicurezza e privacy.

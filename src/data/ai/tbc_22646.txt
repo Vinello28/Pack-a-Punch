@@ -1,0 +1,8 @@
+we present a new method for uncertainty estimation and out-of-distribution
+detection in neural networks with softmax output. we extend softmax layer with
+an additional constant input. the corresponding additional output is able to
+represent the uncertainty of the network. the proposed method requires neither
+additional parameters nor multiple forward passes nor input preprocessing nor
+out-of-distribution datasets. we show that our method performs comparably to
+more computationally expensive methods and outperforms baselines on our
+experiments from image recognition and sentiment analysis domains.

@@ -1,0 +1,12 @@
+in this paper, an efficient massive multiple-input multiple-output (mimo)
+detector is proposed by employing a deep neural network (dnn). specifically, we
+first unfold an existing iterative detection algorithm into the dnn structure,
+such that the detection task can be implemented by deep learning (dl) approach.
+we then introduce two auxiliary parameters at each layer to better cancel
+multiuser interference (mui). the first parameter is to generate the residual
+error vector while the second one is to adjust the relationship among previous
+layers. we further design the training procedure to optimize the auxiliary
+parameters with pre-processed inputs. the so derived mimo detector falls into
+the category of model-driven dl. the simulation results show that the proposed
+mimo detector can achieve preferable detection performance compared to the
+existing detectors for massive mimo systems.

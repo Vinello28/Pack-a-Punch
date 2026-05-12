@@ -1,1 +1,1 @@
-OCCORRE ADEGUARE IL LABORATORIO ALLA NUOVA PRODUZIONE PREVEDENDO UNA ZONA DI PROVA ED UNA NUOVA ZONA DI PRODUZIONE ADEGUATAMENTE ATTREZZATA.
+Implementazione sistema informatico e hardware per gestione digitalizzazione firme pazienti tramite sistemi di rilevazione firma grafometrica

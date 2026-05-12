@@ -1,10 +1,1 @@
-Nell'ambito del miglioramento dell'efficienza aziendale, la realizzazione di un software myDMP (Digital Management Platform) per la gestione integrata dei flussi aziendali è destinata:
-- all'ottimizzazione dei processi produttivi, correlando fra loro le fasi operative;
-- all'ottimizzazione della produttività delle risorse aziendali;
-- al miglioramento dell'efficienza delle risorse impiegate.
-Le fasi operative aziendali interessate dal processo di digitalizzazione sono:
-- Gestione dei flussi postali: check-in, assegnazione al postino, gestione resi;
-- Report storico portalettere: dalla fase di recruting alla fase di assegnazione della zona di recapito con relative statistiche di produttività;
-- Gestione integrata cassa e fatturaione. Generazione automatica delle fatture a fine mese per cliente con suddivisione in centri di costo. Report e allert sospesi;
-- Generazione automatica corrispettivi fine mese per i portalettere;
-- Quadratura gestione posta interna ed in ingresso/uscita verso i partner
+Il progetto FAIR parte dalla moderna Intelligenza artificiale  dai suoi diversi aspetti teorici  modellistici e ingegneristici  ma Ã¨ rivolto verso il futuro  con lâ€™ambizione di contribuire a far fronte alle domande di ricerca  alle metodologie  ai modelli  alle tecnologie  senza tralasciare le regole etiche e legali  e i temi di sostenibilitÃ  in senso ampio  non solo ambientale.

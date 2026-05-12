@@ -1,1 +1,0 @@
-E' un sistema digitale per l'accensione di fuochi d'artificio. Garantisce sicurezza al pirotecnico in quanto si basa su un sistema wireless. Si tratta di un software per programmare a distanza programmi di giochi artificiali e piromusicali di tutti i generi

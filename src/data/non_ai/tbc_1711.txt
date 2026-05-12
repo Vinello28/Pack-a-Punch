@@ -1,1 +1,0 @@
-IEM SRL ha sviluppato un sistema di Data Management Platform per la gestione integrata di dati analitici e statistici,che,attraverso un algoritmo,consente,in maniera automatica semplice e veloce di visualizzare,monitorare e gestire, su un’unica piattaforma di Business Intelligence

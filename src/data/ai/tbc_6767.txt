@@ -1,1 +1,20 @@
-Il percorso formativo si pone l?obiettivo di acquisire conoscenze e capacit? legate all?utilizzo di sistemi digitali e di intelligenza artificiale che abbiano il fine di migliorare ottimizzare velocizzare ed analizzare la creazione e produzione di testi e contenuti digitali l?elaborazione e l?analisi di dati dei clienti/pazienti la gestione della comunicazione diretta con i clienti/pazienti.
+inspired by biological swarms, robotic swarms are envisioned to solve
+real-world problems that are difficult for individual agents. biological swarms
+can achieve collective intelligence based on local interactions and simple
+rules; however, designing effective distributed policies for large-scale
+robotic swarms to achieve a global objective can be challenging. although it is
+often possible to design an optimal centralized strategy for smaller numbers of
+agents, those methods can fail as the number of agents increases. motivated by
+the growing success of machine learning, we develop a deep learning approach
+that learns distributed coordination policies from centralized policies. in
+contrast to traditional distributed control approaches, which are usually based
+on human-designed policies for relatively simple tasks, this learning-based
+approach can be adapted to more difficult tasks. we demonstrate the efficacy of
+our proposed approach on two different tasks, the well-known rendezvous problem
+and a more difficult particle assignment problem. for the latter, no known
+distributed policy exists. from extensive simulations, it is shown that the
+performance of the learned coordination policies is comparable to the
+centralized policies, surpassing state-of-the-art distributed policies.
+thereby, our proposed approach provides a promising alternative for real-world
+coordination problems that would be otherwise computationally expensive to
+solve or intangible to explore.

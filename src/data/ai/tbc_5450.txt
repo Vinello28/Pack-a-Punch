@@ -1,0 +1,17 @@
+in recent years variation autoencoders have become one of the most popular
+unsupervised learning of complicated distributions.variational autoencoder
+(vae) provides more efficient reconstructive performance over a traditional
+autoencoder. variational auto enocders make better approximaiton than mcmc. the
+vae defines a generative process in terms of ancestral sampling through a
+cascade of hidden stochastic layers. they are a directed graphic models.
+variational autoencoder is trained to maximise the variational lower bound.
+here we are trying maximise the likelihood and also at the same time we are
+trying to make a good approximation of the data. its basically trading of the
+data log-likelihood and the kl divergence from the true posterior. this paper
+describes the scenario in which we wish to find a point-estimate to the
+parameters $\theta$ of some parametric model in which we generate each
+observations by first sampling a local latent variable and then sampling the
+associated observation. here we use least square loss function with
+regularization in the the reconstruction of the image, the least square loss
+function was found to give better reconstructed images and had a faster
+training time.

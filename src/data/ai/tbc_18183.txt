@@ -1,17 +1,1 @@
-it is well-established by cognitive neuroscience that human perception of
-objects constitutes a complex process, where object appearance information is
-combined with evidence about the so-called object "affordances", namely the
-types of actions that humans typically perform when interacting with them. this
-fact has recently motivated the "sensorimotor" approach to the challenging task
-of automatic object recognition, where both information sources are fused to
-improve robustness. in this work, the aforementioned paradigm is adopted,
-surpassing current limitations of sensorimotor object recognition research.
-specifically, the deep learning paradigm is introduced to the problem for the
-first time, developing a number of novel neuro-biologically and
-neuro-physiologically inspired architectures that utilize state-of-the-art
-neural networks for fusing the available information sources in multiple ways.
-the proposed methods are evaluated using a large rgb-d corpus, which is
-specifically collected for the task of sensorimotor object recognition and is
-made publicly available. experimental results demonstrate the utility of
-affordance information to object recognition, achieving an up to 29% relative
-error reduction by its inclusion.
+Il progetto ha come obiettivo Automazione aumentata dall'intelligenza artificiale per un DevOps efficiente: un framework basato su modelli per lo sviluppo continuo a run-time nei sistemi cyber-fisici.

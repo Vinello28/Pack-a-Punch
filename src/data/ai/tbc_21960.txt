@@ -1,0 +1,11 @@
+we present an explicit construction for feedforward neural network (fnn),
+which provides a piecewise constant approximation for multivariate functions.
+the proposed fnn has two hidden layers, where the weights and thresholds are
+explicitly defined and do not require numerical optimization for training.
+unlike most of the existing work on explicit fnn construction, the proposed fnn
+does not rely on tensor structure in multiple dimensions. instead, it
+automatically creates voronoi tessellation of the domain, based on the given
+data of the target function, and piecewise constant approximation of the
+function. this makes the construction more practical for applications. we
+present both theoretical analysis and numerical examples to demonstrate its
+properties.

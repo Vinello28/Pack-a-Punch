@@ -1,0 +1,12 @@
+this paper describes the amu-uedin submissions to the wmt 2016 shared task on
+news translation. we explore methods of decode-time integration of
+attention-based neural translation models with phrase-based statistical machine
+translation. efficient batch-algorithms for gpu-querying are proposed and
+implemented. for english-russian, our system stays behind the state-of-the-art
+pure neural models in terms of bleu. among restricted systems, manual
+evaluation places it in the first cluster tied with the pure neural model. for
+the russian-english task, our submission achieves the top bleu result,
+outperforming the best pure neural system by 1.1 bleu points and our own
+phrase-based baseline by 1.6 bleu. after manual evaluation, this system is the
+best restricted system in its own cluster. in follow-up experiments we improve
+results by additional 0.8 bleu.

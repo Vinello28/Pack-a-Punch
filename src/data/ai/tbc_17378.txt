@@ -1,1 +1,10 @@
-symbolic regression is a machine learning technique that can learn the governing formulas of data and thus has the potential to transform scientific discovery. however, symbolic regression is still limited in the complexity and dimensionality of the systems that it can analyze. deep learning on the other hand has transformed machine learning in its ability to analyze extremely complex and high-dimensional datasets. we propose a neural network architecture to extend symbolic regression to parametric systems where some coefficient may vary but the structure of the underlying governing equation remains constant. we demonstrate our method on various analytic expressions, odes, and pdes with varying coefficients and show that it extrapolates well outside of the training domain. the neural network-based architecture can also integrate with other deep learning architectures so that it can analyze high-dimensional data while being trained end-to-end. to this end we integrate our architecture with convolutional neural networks to analyze 1d images of varying spring systems.
+analysis of sequential event data has been recognized as one of the essential
+tools in data modeling and analysis field. in this paper, after the examination
+of its technical requirements and issues to model complex but practical
+situation, we propose a new sequential data model, dubbed duration and interval
+hidden markov model (di-hmm), that efficiently represents "state duration" and
+"state interval" of data events. this has significant implications to play an
+important role in representing practical time-series sequential data. this
+eventually provides an efficient and flexible sequential data retrieval.
+numerical experiments on synthetic and real data demonstrate the efficiency and
+accuracy of the proposed di-hmm.

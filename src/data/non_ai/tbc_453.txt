@@ -1,1 +1,1 @@
-Attraverso l'analisi e l'informatizzazione dell procedure aziendali si vuole ottimizzare il flusso operativo partendo dall'attività di contatto con il cliente fino alla consuntivazione delle attività ed alla gestione post vendita.
+Sensore di monitoraggio delle vibrazioni a cui gli edi ci sono soggetti. Il sensore analizza le sollecitazioni inviando i relativi dati ad una piattaforma cloud dove vengono analizzati tramite AI classi cando le informazioni e generando dei report per gli utenti.

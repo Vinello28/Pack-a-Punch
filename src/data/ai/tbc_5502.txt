@@ -1,1 +1,12 @@
-L’azienda è specializzata nello spurgo di fognature, fosse biologiche e pozzi neri, operando principalmente nell'area dell'App.bolognese con attrezzature non all'avanguardia.Il progetto prevede l'integrazione di un robot multifunzionale digitale per l'ispezione e il collaudo delle tubazioni, insieme a un dispositivo avanzato per la diagnostica dei veicoli.Attualmente, le videoispezioni sono effettuate con metodologie analogiche.Entrambi gli investimenti rientrano nell'ambito dell’ I4.0.Il robot è dotato di SW integrato che consente la raccolta e visualizzazione in tempo reale di dati e immagini delle tubazioni tramite sensori e telecamere.I dati identificano le aree danneggiate e avviano un processo automatizzato per la redazione di relazioni tecniche, che possono essere caricate su Cloud e inviate immediatamente ai clienti e archiviata in azienda per la chiusura della commessa, l'archiviazione dei documenti e la relativa fatturazione.Questo investimento rappresenta un passo significativo verso la digitalizzazione, fondamentale per fornire ispezioni dettagliate e analisi preventive, evitando blocchi produttivi.L'azienda gestisce la manutenzione dei veicoli in un'officina interna, ma senza strumentazioni elettroniche, costringendola a rivolgersi a terzi per riparazioni c
+many real-world applications are associated with structured data, where not
+only input but also output has interplay. however, typical classification and
+regression models often lack the ability of simultaneously exploring high-order
+interaction within input and that within output. in this paper, we present a
+deep learning model aiming to generate a powerful nonlinear functional mapping
+from structured input to structured output. more specifically, we propose to
+integrate high-order hidden units, guided discriminative pretraining, and
+high-order auto-encoders for this purpose. we evaluate the model with three
+datasets, and obtain state-of-the-art performances among competitive methods.
+our current work focuses on structured output regression, which is a less
+explored area, although the model can be extended to handle structured label
+classification.

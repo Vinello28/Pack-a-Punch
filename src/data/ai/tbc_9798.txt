@@ -1,1 +1,1 @@
-Progetto di ricerca applicata su Graph Neural Networks (GNN) per dati strutturati per image generation in ambito turismo. Il sistema elabora dati finanziari tick-by-tick ad alta frequenza attraverso pipeline di data processing avanzate. Il deployment avviene su A/B testing framework con monitoraggio continuo delle performance.
+Sistema rapido per il rilevamento della firma genetica degli agenti patogeni che unisce la sensibilit e specificit della tecnologia PCR potenziata dall'Intelligenza Artificiale alla semplicit e facilit d'uso dei test rapidi attuali.

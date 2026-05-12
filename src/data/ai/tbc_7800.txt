@@ -1,15 +1,1 @@
-the recently developed variational autoencoders (vaes) have proved to be an
-effective confluence of the rich representational power of neural networks with
-bayesian methods. however, most work on vaes use a rather simple prior over the
-latent variables such as standard normal distribution, thereby restricting its
-applications to relatively simple phenomena. in this work, we propose
-hierarchical nonparametric variational autoencoders, which combines
-tree-structured bayesian nonparametric priors with vaes, to enable infinite
-flexibility of the latent representation space. both the neural parameters and
-bayesian priors are learned jointly using tailored variational inference. the
-resulting model induces a hierarchical structure of latent semantic concepts
-underlying the data corpus, and infers accurate representations of data
-instances. we apply our model in video representation learning. our method is
-able to discover highly interpretable activity hierarchies, and obtain improved
-clustering accuracy and generalization capacity based on the learned rich
-representations.
+sonar based audio classification techniques are a growing area of research in the field of underwater acoustics. usually, underwater noise picked up by passive sonar transducers contains all types of signals that travel through the ocean and is transformed into spectrographic images. as a result, the corresponding spectrograms intended to display the temporal-frequency data of a certain object often include the tonal regions of abundant extraneous noise that can effectively interfere with a 'contact'. so, a majority of spectrographic samples extracted from underwater audio signals are rendered unusable due to their clutter and lack the required indistinguishability between different objects. with limited clean true data for supervised training, creating classification models for these audio signals is severely bottlenecked. this paper derives several new techniques to combat this problem by developing a novel score-cam based denoiser to extract an object's signature from noisy spectrographic data without being given any ground truth data. in particular, this paper proposes a novel generative adversarial network architecture for learning and producing spectrographic training data in similar distributions to low-feature spectrogram inputs. in addition, this paper also a generalizable class activation mapping based denoiser for different distributions of acoustic data, even real-world data distributions. utilizing these novel architectures and proposed denoising techniques, these experiments demonstrate state-of-the-art noise reduction accuracy and improved classification accuracy than current audio classification standards. as such, this approach has applications not only to audio data but for countless data distributions used all around the world for machine learning.

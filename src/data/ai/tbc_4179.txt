@@ -1,1 +1,1 @@
-L'obiettivo è quello di mettere in pratica i concetti dell'intelligenza Artificiale dal Machine Learning Classico al Deep Learning, per permettere agli studenti di realizzare applicazioni sfruttando librerie e framework esistenti.
+Un'innovativa soluzione basata su una piattaforma intelligente in cui lo smartphone costituisce il principale gateway su cui diversi sensori sono agganciati in un ottica di massima scalabilit anche al fine di sfruttare tecnologie avanzate e algoritmi di intelligenza artificiale.

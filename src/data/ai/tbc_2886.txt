@@ -1,0 +1,25 @@
+surveillance videos are able to capture a variety of realistic anomalies. in
+this paper, we propose to learn anomalies by exploiting both normal and
+anomalous videos. to avoid annotating the anomalous segments or clips in
+training videos, which is very time consuming, we propose to learn anomaly
+through the deep multiple instance ranking framework by leveraging weakly
+labeled training videos, i.e. the training labels (anomalous or normal) are at
+video-level instead of clip-level. in our approach, we consider normal and
+anomalous videos as bags and video segments as instances in multiple instance
+learning (mil), and automatically learn a deep anomaly ranking model that
+predicts high anomaly scores for anomalous video segments. furthermore, we
+introduce sparsity and temporal smoothness constraints in the ranking loss
+function to better localize anomaly during training. we also introduce a new
+large-scale first of its kind dataset of 128 hours of videos. it consists of
+1900 long and untrimmed real-world surveillance videos, with 13 realistic
+anomalies such as fighting, road accident, burglary, robbery, etc. as well as
+normal activities. this dataset can be used for two tasks. first, general
+anomaly detection considering all anomalies in one group and all normal
+activities in another group. second, for recognizing each of 13 anomalous
+activities. our experimental results show that our mil method for anomaly
+detection achieves significant improvement on anomaly detection performance as
+compared to the state-of-the-art approaches. we provide the results of several
+recent deep learning baselines on anomalous activity recognition. the low
+recognition performance of these baselines reveals that our dataset is very
+challenging and opens more opportunities for future work. the dataset is
+available at: https://webpages.uncc.edu/cchen62/dataset.html

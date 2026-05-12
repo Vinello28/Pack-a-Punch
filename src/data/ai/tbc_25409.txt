@@ -1,0 +1,8 @@
+we show that collaborative filtering can be viewed as a sequence prediction
+problem, and that given this interpretation, recurrent neural networks offer
+very competitive approach. in particular we study how the long short-term
+memory (lstm) can be applied to collaborative filtering, and how it compares to
+standard nearest neighbors and matrix factorization methods on movie
+recommendation. we show that the lstm is competitive in all aspects, and
+largely outperforms other methods in terms of item coverage and short term
+predictions.

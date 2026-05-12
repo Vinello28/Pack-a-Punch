@@ -1,1 +1,18 @@
-Il progetto AIDATrend mira a utilizzare l'intelligenza artificiale e il digital lobbying per rivoluzionare l'analisi delle tendenze in innovazione brevetti e comunicazione istituzionale favorendo ontemporaneamente il public engagement.
+the stochastic block model (sbm) is a popular framework for studying
+community detection in networks. this model is limited by the assumption that
+all nodes in the same community are statistically equivalent and have equal
+expected degrees. the degree-corrected stochastic block model (dcsbm) is a
+natural extension of sbm that allows for degree heterogeneity within
+communities. this paper proposes a convexified modularity maximization approach
+for estimating the hidden communities under dcsbm. our approach is based on a
+convex programming relaxation of the classical (generalized) modularity
+maximization formulation, followed by a novel doubly-weighted $ \ell_1 $-norm $
+k $-median procedure. we establish non-asymptotic theoretical guarantees for
+both approximate clustering and perfect clustering. our approximate clustering
+results are insensitive to the minimum degree, and hold even in sparse regime
+with bounded average degrees. in the special case of sbm, these theoretical
+results match the best-known performance guarantees of computationally feasible
+algorithms. numerically, we provide an efficient implementation of our
+algorithm, which is applied to both synthetic and real-world networks.
+experiment results show that our method enjoys competitive performance compared
+to the state of the art in the literature.

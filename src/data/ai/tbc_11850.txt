@@ -1,0 +1,19 @@
+the maximum mutual information (mmi) criterion is different from the least
+error rate (ler) criterion. it can reduce failing to report small probability
+events. this paper introduces the channels matching (cm) algorithm for the mmi
+classifications of unseen instances. it also introduces some semantic
+information methods, which base the cm algorithm. in the cm algorithm, label
+learning is to let the semantic channel match the shannon channel (matching i)
+whereas classifying is to let the shannon channel match the semantic channel
+(matching ii). we can achieve the mmi classifications by repeating matching i
+and ii. for low-dimensional feature spaces, we only use parameters to construct
+n likelihood functions for n different classes (rather than to construct
+partitioning boundaries as gradient descent) and expresses the boundaries by
+numerical values. without searching in parameter spaces, the computation of the
+cm algorithm for low-dimensional feature spaces is very simple and fast. using
+a two-dimensional example, we test the speed and reliability of the cm
+algorithm by different initial partitions. for most initial partitions, two
+iterations can make the mutual information surpass 99% of the convergent mmi.
+the analysis indicates that for high-dimensional feature spaces, we may combine
+the cm algorithm with neural networks to improve the mmi classifications for
+faster and more reliable convergence.

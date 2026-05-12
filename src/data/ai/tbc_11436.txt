@@ -1,0 +1,16 @@
+objective: we aim to provide an algorithm for the detection of myocardial
+infarction that operates directly on ecg data without any preprocessing and to
+investigate its decision criteria. approach: we train an ensemble of fully
+convolutional neural networks on the ptb ecg dataset and apply state-of-the-art
+attribution methods. main results: our classifier reaches 93.3% sensitivity and
+89.7% specificity evaluated using 10-fold cross-validation with sampling based
+on patients. the presented method outperforms state-of-the-art approaches and
+reaches the performance level of human cardiologists for detection of
+myocardial infarction. we are able to discriminate channel-specific regions
+that contribute most significantly to the neural network's decision.
+interestingly, the network's decision is influenced by signs also recognized by
+human cardiologists as indicative of myocardial infarction. significance: our
+results demonstrate the high prospects of algorithmic ecg analysis for future
+clinical applications considering both its quantitative performance as well as
+the possibility of assessing decision criteria on a per-example basis, which
+enhances the comprehensibility of the approach.

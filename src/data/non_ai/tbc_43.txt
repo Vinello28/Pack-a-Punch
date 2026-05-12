@@ -1,1 +1,0 @@
-Imballaggio Smart. Implementazione dell’IOT per ottimizzare il trasporto dei prodotti alimentari ad elevato valore.

@@ -1,1 +1,18 @@
-Sviluppo di soluzioni volte al miglioramento in tempo reale delle condizioni di lavoro di sistemi energetici ibridi e, di conseguenza, allâ¿¿ottimizzazione degli stessi, tramite lâ¿¿uso di IoT, big data e Analytics / Machine Learning
+security for machine learning has begun to become a serious issue for present
+day applications. an important question remaining is whether emerging quantum
+technologies will help or hinder the security of machine learning. here we
+discuss a number of ways that quantum information can be used to help make
+quantum classifiers more secure or private. in particular, we demonstrate a
+form of robust principal component analysis that, under some circumstances, can
+provide an exponential speedup relative to robust methods used at present. to
+demonstrate this approach we introduce a linear combinations of unitaries
+hamiltonian simulation method that we show functions when given an imprecise
+hamiltonian oracle, which may be of independent interest. we also introduce a
+new quantum approach for bagging and boosting that can use quantum
+superposition over the classifiers or splits of the training set to aggregate
+over many more models than would be possible classically. finally, we provide a
+private form of $k$--means clustering that can be used to prevent an all
+powerful adversary from learning more than a small fraction of a bit from any
+user. these examples show the role that quantum technologies can play in the
+security of ml and vice versa. this illustrates that quantum computing can
+provide useful advantages to machine learning apart from speedups.

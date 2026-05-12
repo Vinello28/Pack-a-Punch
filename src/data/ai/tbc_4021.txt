@@ -1,1 +1,2 @@
-Il progetto EVA4ADAM mira a integrare avanzate tecnologie di Intelligenza Artificiale (IA) e analisi meccanica per ottimizzare la valutazione delle proprietà viscoelastiche dei materiali in modo rapido e non distruttivo
+this is the proceedings of nips 2017 workshop on machine learning for the
+developing world, held in long beach, california, usa on december 8, 2017

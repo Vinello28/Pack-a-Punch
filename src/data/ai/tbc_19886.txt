@@ -1,0 +1,27 @@
+deep convolutional neural networks (cnns) are indispensable to
+state-of-the-art computer vision algorithms. however, they are still rarely
+deployed on battery-powered mobile devices, such as smartphones and wearable
+gadgets, where vision algorithms can enable many revolutionary real-world
+applications. the key limiting factor is the high energy consumption of cnn
+processing due to its high computational complexity. while there are many
+previous efforts that try to reduce the cnn model size or amount of
+computation, we find that they do not necessarily result in lower energy
+consumption, and therefore do not serve as a good metric for energy cost
+estimation.
+  to close the gap between cnn design and energy consumption optimization, we
+propose an energy-aware pruning algorithm for cnns that directly uses energy
+consumption estimation of a cnn to guide the pruning process. the energy
+estimation methodology uses parameters extrapolated from actual hardware
+measurements that target realistic battery-powered system setups. the proposed
+layer-by-layer pruning algorithm also prunes more aggressively than previously
+proposed pruning methods by minimizing the error in output feature maps instead
+of filter weights. for each layer, the weights are first pruned and then
+locally fine-tuned with a closed-form least-square solution to quickly restore
+the accuracy. after all layers are pruned, the entire network is further
+globally fine-tuned using back-propagation. with the proposed pruning method,
+the energy consumption of alexnet and googlenet are reduced by 3.7x and 1.6x,
+respectively, with less than 1% top-5 accuracy loss. finally, we show that
+pruning the alexnet with a reduced number of target classes can greatly
+decrease the number of weights but the energy reduction is limited.
+  energy modeling tool and energy-aware pruned models available at
+http://eyeriss.mit.edu/energy.html

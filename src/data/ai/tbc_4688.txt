@@ -1,6 +1,1 @@
-Per raggiungere gli obiettivi dell’intervento attuativo, AmedeA adotterà una serie di soluzioni tecnologiche avanzate, con particolare attenzione all’uso della piattaforma low-code Outsystems ODC. Questa scelta si fonda su criteri strategici mirati, volti a garantire efficienza, scalabilità e integrazione delle varie funzioni aziendali. 
-In primo luogo, l'utilizzo di Outsystems ODC permetterà lo sviluppo di applicazioni chiave, tra cui la Ricerca AI dei “merchant”, che faciliterà l’identificazione e l’analisi delle aziende partner, migliorando significativamente l’efficienza operativa. Questa funzionalità sarà alimentata da algoritmi di intelligenza artificiale che analizzeranno grandi volumi di dati per fornire risultati pertinenti e tempestivi, ottimizzando così i processi di acquisizione e gestione dei merchant.
-
-In aggiunta, verranno realizzati tre portali distinti attraverso la medesima piattaforma:
-1.Portale WELFARE 1 (Amedea): progettato per gestire le informazioni interne e facilitare la comunicazione tra i dipendenti, permetterà una gestione più fluida delle operazioni quotidiane. Sarà integrato con strumenti di analytics per monitorare le performance e il feedback degli utenti.
-2.Portale WELFARE 2 (Merchant): dedicato ai merchant, questo portale fornirà un’interfaccia u
+Sviluppo di un Software per lâ€™interfacciamento inter-piattaforma tra database e dispositivi di feedback in una logica di interazione dati per creare un Sistema Esperto che permetta decisioni automatiche con logiche di efficienza trasversali

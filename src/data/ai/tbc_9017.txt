@@ -1,0 +1,19 @@
+voltage underscaling below the nominal level is an effective solution for
+improving energy efficiency in digital circuits, e.g., field programmable gate
+arrays (fpgas). however, further undervolting below a safe voltage level and
+without accompanying frequency scaling leads to timing related faults,
+potentially undermining the energy savings. through experimental voltage
+underscaling studies on commercial fpgas, we observed that the rate of these
+faults exponentially increases for on-chip memories, or block rams (brams). to
+mitigate these faults, we evaluated the efficiency of the built-in
+error-correction code (ecc) and observed that more than 90% of the faults are
+correctable and further 7% are detectable (but not correctable). this
+efficiency is the result of the single-bit type of these faults, which are then
+effectively covered by the single-error correction and double-error detection
+(secded) design of the built-in ecc. finally, motivated by the above
+experimental observations, we evaluated an fpga-based neural network (nn)
+accelerator under low-voltage operations, while built-in ecc is leveraged to
+mitigate undervolting faults and thus, prevent nn significant accuracy loss. in
+consequence, we achieve 40% of the bram power saving through undervolting below
+the minimum safe voltage level, with a negligible nn accuracy loss, thanks to
+the substantial fault coverage by the built-in ecc.

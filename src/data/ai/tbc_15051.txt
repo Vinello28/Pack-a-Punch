@@ -1,0 +1,12 @@
+although transfer learning has been shown to be successful for tasks like
+object and speech recognition, its applicability to question answering (qa) has
+yet to be well-studied. in this paper, we conduct extensive experiments to
+investigate the transferability of knowledge learned from a source qa dataset
+to a target dataset using two qa models. the performance of both models on a
+toefl listening comprehension test (tseng et al., 2016) and mctest (richardson
+et al., 2013) is significantly improved via a simple transfer learning
+technique from movieqa (tapaswi et al., 2016). in particular, one of the models
+achieves the state-of-the-art on all target datasets; for the toefl listening
+comprehension test, it outperforms the previous best model by 7%. finally, we
+show that transfer learning is helpful even in unsupervised scenarios when
+correct answers for target qa dataset examples are not available.

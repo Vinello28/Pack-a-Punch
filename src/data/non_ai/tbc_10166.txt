@@ -1,1 +1,1 @@
-Coordinamento Wireless per reti di robot sottomarini
+Il progetto ha lâ€™obiettivo di consentire lâ€™industrializzazione e commercializzazione di reagenti e strumenti innovativi per ricerca e diagnostica mediante microscopia a fluorescenza super risolta e per multiplexing  perseguendo i seguenti obiettivi realizzativi: 1. Fabbricazione di sonde fluorescenti per microscopia super-risolta basate su frammenti di anticorpi (super-resolution-Fab  o SR-Fab) ed ottimizzazione di tali sonde per vari tipi di applicazioni per microscopia.

@@ -1,0 +1,1 @@
+Il progetto aziendale Ã¨ finalizzato ad automatizzare le rilevazioni dei flussi logistici del magazzino con l' adozione di un sistema di gestione mediante barcode integrato con i software gestionali aziendali. ciÃ² permetterÃ  di efficientare tutte le rilevazioni riducendo il tempo dedicato all'attivitÃ  improduttiva e gli errori di imputazione manuale.

@@ -1,0 +1,19 @@
+dbscan may not be sufficient when the input data type is heterogeneous in
+terms of textual description. when we aim to discover clusters of geo-tagged
+records relevant to a particular point-of-interest (poi) on social media,
+examining only one type of input data (e.g., the tweets relevant to a poi) may
+draw an incomplete picture of clusters due to noisy regions. to overcome this
+problem, we introduce dbstexc, a newly defined density-based clustering
+algorithm using spatio--textual information. we first characterize poi-relevant
+and poi-irrelevant tweets as the texts that include and do not include a poi
+name or its semantically coherent variations, respectively. by leveraging the
+proportion of poi-relevant and poi-irrelevant tweets, the proposed algorithm
+demonstrates much higher clustering performance than the dbscan case in terms
+of $\mathcal{f}_1$ score and its variants. while dbstexc performs exactly as
+dbscan with the textually homogeneous inputs, it far outperforms dbscan with
+the textually heterogeneous inputs. furthermore, to further improve the
+clustering quality by fully capturing the geographic distribution of tweets, we
+present fuzzy dbstexc (f-dbstexc), an extension of dbstexc, which incorporates
+the notion of fuzzy clustering into the dbstexc. we then demonstrate the
+robustness of f-dbstexc via intensive experiments. the computational complexity
+of our algorithms is also analytically and numerically shown.

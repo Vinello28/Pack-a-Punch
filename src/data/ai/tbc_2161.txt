@@ -1,2 +1,1 @@
-Il progetto ha come obiettivo SI4SI realizzerà un sistema di Active Living per riconoscere l'isolamento sociale
-degli anziani, ridurlo e prevenirlo tramite innovative soluzioni di AI, migliorando il livello di inclusione sociale
+L'acquisto HW fa parte di un progetto pi ampio che contempla lo sviluppo di un SW web based che avr come scopo quello di mettere a disposizione degli utenti una interfaccia basata su realt virtuale per l'esplorazione e la consultazione di prodotti tecnici destinati al settore automotive e design.

@@ -1,1 +1,10 @@
-Il progetto ToGETHER, partendo dalle specifiche esperienze e realizzazioni del gruppo proponente sulle linee di assemblaggio nel settore manifatturiero, ha l'obiettivo di realizzare un sistema di controllo della qualità dei prodotti mediante soluzioni integrate hardware/software di vibro-acustica e visione artificiale, che permettono di realizzare tratti “intelligenti” dell’ispezione del prodotto
+in machine learning ensemble methods have demonstrated high accuracy for the
+variety of problems in different areas. two notable ensemble methods widely
+used in practice are gradient boosting and random forests. in this paper we
+present infiniteboost - a novel algorithm, which combines important properties
+of these two approaches. the algorithm constructs the ensemble of trees for
+which two properties hold: trees of the ensemble incorporate the mistakes done
+by others; at the same time the ensemble could contain the infinite number of
+trees without the over-fitting effect. the proposed algorithm is evaluated on
+the regression, classification, and ranking tasks using large scale, publicly
+available datasets.

@@ -1,3 +1,0 @@
-Sviluppo di test diagnostici molecolari basati su NGS per la
- diagnosi di malattie ereditarie, dei relativi processi produttivi e di
- applicazioni digitali per il paziente

@@ -1,28 +1,13 @@
-"La società intende innovarsi in termini di 
-trasformazione digitale attraverso l’adozione di 
-servizi digitali innovativi, in particolare mediante la 
-progettazione, lo sviluppo ad hoc e quindi l’utilizzo di 
-una piattaforma digitale in cloud, con modulo di 
-intelligenza artificiale XAI, che permetta di integrare 
-e far comunicare tra loro tutti i processi aziendali. 
-L’iniziativa è orientata a: 
-• innovare e digitalizzare i processi aziendali che 
-sono ancora gestiti in maniera autonoma e 
-differente dai singoli dipendenti; 
-• integrare e far comunicare tra loro tutti i sistemi 
-già presenti in azienda, in modo da gestire tutto 
-il flusso produttivo con un’unica soluzione; 
-• avere una comunicazione diretta (MACHINE TO 
-MACHINE) tra gli impianti dislocati sul territorio e 
-il sistema; 
-• sfruttare le potenzialità dell’intelligenza artificiale 
-XAI per riuscire ad eseguire una manutenzione 
-predittiva degli impianti; 
-• innovare la sfera produttiva ed organizzativa 
-dell’azienda avendo, in tempo reale, il pieno 
-controllo delle commesse, sia dal punto di vista 
-gestionale sia dal punto di vista economico. 
-Gli obiettivi generali sono: 
-• analisi dei processi e reingegnerizzazione degli 
-stessi in funzione della transizione digitale da 
-operare;
+recent progress in neural learning demonstrated that machines can do well in
+regularized tasks, e.g., the game of go. however, artistic activities such as
+poem generation are still widely regarded as human's special capability. in
+this paper, we demonstrate that a simple neural model can imitate human in some
+tasks of art generation. we particularly focus on traditional chinese poetry,
+and show that machines can do as well as many contemporary poets and weakly
+pass the feigenbaum test, a variant of turing test in professional domains. our
+method is based on an attention-based recurrent neural network, which accepts a
+set of keywords as the theme and generates poems by looking at each keyword
+during the generation. a number of techniques are proposed to improve the
+model, including character vector initialization, attention to input and
+hybrid-style training. compared to existing poetry generation methods, our
+model can generate much more theme-consistent and semantic-rich poems.

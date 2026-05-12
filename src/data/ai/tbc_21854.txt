@@ -1,0 +1,25 @@
+location tagging, also known as geotagging or geolocation, is the process of
+assigning geographical coordinates to input data. in this paper we present an
+algorithm for location tagging of textual documents. our approach makes use of
+previous work in natural language processing by using a state-of-the-art
+part-of-speech tagger and named entity recognizer to find blocks of text which
+may refer to locations. a knowledge base (openstreatmap) is then used to find a
+list of possible locations for each block. finally, one location is chosen for
+each block by assigning distance-based scores to each location and repeatedly
+selecting the location and block with the best score. we tested our geolocation
+algorithm with wikipedia articles about topics with a well-defined geographical
+location that are geotagged by the articles' authors, where classification
+approaches have achieved median errors as low as 11 km, with attainable
+accuracy limited by the class size. our approach achieved a 10th percentile
+error of 490 metres and median error of 54 kilometres on the wikipedia dataset
+we used. when considering the five location tags with the greatest scores, 50%
+of articles were assigned at least one tag within 8.5 kilometres of the
+article's author-assigned true location. we also tested our approach on twitter
+messages that are tagged with the location from which the message was sent.
+twitter texts are challenging because they are short and unstructured and often
+do not contain words referring to the location they were sent from, but we
+obtain potentially useful results. we explain how we use the spark framework
+for data analytics to collect and process our test data. in general,
+classification-based approaches for location tagging may be reaching their
+upper accuracy limit, but our precision-focused approach has high accuracy for
+some texts and shows significant potential for improvement overall.

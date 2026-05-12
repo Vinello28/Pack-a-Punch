@@ -1,1 +1,11 @@
-BUSINESS FORUM ITALIA CANADA SULL'INTELLIGENZA ARTIFICIALE
+in this paper we deal with the problem of extending zadeh's operators on
+fuzzy sets (fss) to interval-valued (ivfss), set-valued (svfss) and type-2
+(t2fss) fuzzy sets. namely, it is known that seeing fss as svfss, or t2fss,
+whose membership degrees are singletons is not order-preserving. we then
+describe a family of lattice embeddings from fss to svfss. alternatively, if
+the former singleton viewpoint is required, we reformulate the intersection on
+hesitant fuzzy sets and introduce what we have called closed-valued fuzzy sets.
+this new type of fuzzy sets extends standard union and intersection on fss. in
+addition, it allows handling together membership degrees of different nature
+as, for instance, closed intervals and finite sets. finally, all these
+constructions are viewed as t2fss forming a chain of lattices.

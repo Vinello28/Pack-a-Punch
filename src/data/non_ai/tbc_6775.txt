@@ -1,1 +1,1 @@
-Il progetto ha come oggetto lo studio e lo sviluppo di una nuova apparecchiatura basata sulla spettroscopia RAMAN in grado di individuare contaminanti chimici e biologici in alimenti anche in minime tracce allo scopo di incrementare la sicurezza alimentar
+REALIZZAZIONE E DIGITALIZZAZIONE DI UN SISTEMA PER LA GESTIONE DELLA CASSA E DEI PAGAMENTI VOLTO ALL'EMISSIONE AUTOMATICA DI SCONTRINI E FATTURE  GESTIONE CLIENTI E STATISTICHE

@@ -1,1 +1,1 @@
-Ricostruzione morfologica avanzata  del tessuto cerebrale umano mediante fusione multimodale di tecnologie di imagin ottico multiscala
+CREAZIONE DI UN APP PER PERMETTERE AI CLIENTI (GESTORI DI MACCHINE IN SELF SERVICE) DI INVIARE I CORRISPETTIVI DI VENDITA ALL'AGENZIA DELLE ENTRATE DIRETTAMENTE CON LO SMARTPHONE. BASTERA' INFATTI INQUADRARE IL QR CODE.

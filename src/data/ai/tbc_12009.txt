@@ -1,1 +1,7 @@
-Prevede l industrializzazione di un sistema di misura e diagnosi basato su una rete di sensori che implementino il paradigma dell edge computing (EC) utilizzando sistemi di intelligenza artificiale (IA) per la manutenzione predittiva. Il prodotto costituito da una rete riconfigurabile di sensori intelligenti interconnessi a PLC e con la base dati aziendale. Due diversi livelli di IA supervisioneranno lo stato della macchina monitorata: il primo a livello di nodo implementando il paradigma dell EC e il secondo a livello di macchina. Ogni sensore sar affiancato da un sistema basato su elettronica Open Source che utilizzer algoritmi di machine learning per monitorare lo stato del singolo punto di misura. Se il punto si trova in uno stato nominale i dati verranno elaborati a livello di nodo (estratti parametri significativi) e solo i dati sintetici saranno inviati alla base dati centrale: questo consentir di evitare la memorizzazione di dati che non aggiungono informazione rispetto alla condizione nominale del sistema. Se il dato risulta anomalo esso verr inviato al sistema centrale ed elaborato con un secondo layer di IA per verificare come si sta comportando il sistema.
+the linkage of imagenet wordnet synsets to wikidata items will leverage deep
+learning algorithm with access to a rich multilingual knowledge graph. here i
+will describe our on-going efforts in linking the two resources and issues
+faced in matching the wikidata and wordnet knowledge graphs. i show an example
+on how the linkage can be used in a deep learning setting with real-time image
+classification and labeling in a non-english language and discuss what
+opportunities lies ahead.

@@ -1,0 +1,12 @@
+over the last years, the computational power of mobile devices such as
+smartphones and tablets has grown dramatically, reaching the level of desktop
+computers available not long ago. while standard smartphone apps are no longer
+a problem for them, there is still a group of tasks that can easily challenge
+even high-end devices, namely running artificial intelligence algorithms. in
+this paper, we present a study of the current state of deep learning in the
+android ecosystem and describe available frameworks, programming models and the
+limitations of running ai on smartphones. we give an overview of the hardware
+acceleration resources available on four main mobile chipset platforms:
+qualcomm, hisilicon, mediatek and samsung. additionally, we present the
+real-world performance results of different mobile socs collected with ai
+benchmark that are covering all main existing hardware configurations.

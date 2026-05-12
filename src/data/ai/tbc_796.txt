@@ -1,0 +1,11 @@
+videos are a rich source of high-dimensional structured data, with a wide
+range of interacting components at varying levels of granularity. in order to
+improve understanding of unconstrained internet videos, it is important to
+consider the role of labels at separate levels of abstraction. in this paper,
+we consider the use of the bidirectional inference neural network (binn) for
+performing graph-based inference in label space for the task of video
+classification. we take advantage of the inherent hierarchy between labels at
+increasing granularity. the binn is evaluated on the first and second release
+of the youtube-8m large scale multilabel video dataset. our results demonstrate
+the effectiveness of binn, achieving significant improvements against baseline
+models.

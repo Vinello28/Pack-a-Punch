@@ -1,0 +1,12 @@
+as the result of the growing importance of the human computer interface
+system, understanding human's emotion states has become a consequential ability
+for the computer. this paper aims to improve the performance of emotion
+recognition by conducting the complexity analysis of physiological signals.
+based on amigos dataset, we extracted several entropy-domain features such as
+refined composite multi-scale entropy (rcmse), refined composite multi-scale
+permutation entropy (rcmpe) from ecg and gsr signals, and multivariate
+multi-scale entropy (mmse), multivariate multi-scale permutation entropy (mmpe)
+from eeg, respectively. the statistical results show that rcmse in gsr has a
+dominating performance in arousal, while rcmpe in gsr would be the excellent
+feature in valence. furthermore, we selected xgboost model to predict emotion
+and get 68% accuracy in arousal and 84% in valence.

@@ -1,1 +1,1 @@
-CONSULENZA PER AMMODERNAMENTO DEGLI ASSETTI PRODUTTIVI CON PARTICOLARE RIGUARDO ALL'INTRODUZIONE DELLE TECNOLOGIE DIGITALI (IOT) E DELLE TECNOLOGIE ABILITANTI ALL' INDUSTRY 4.0 E AL CONSEGUENTE ADEGUAMENTO DELLE PROCEDURE OPERATIVE INTERNE ALL'AZIENDA
+Realizzazione di un sistema cloud sfruttando nuove tecnologie hw e sw finalizzato alla digitalizzazione dei processi educativi e al miglioramento della qualit degli ambienti di apprendimento (con AI e ML).

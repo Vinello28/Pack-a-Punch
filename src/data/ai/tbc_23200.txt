@@ -1,0 +1,10 @@
+artificial neural networks are powerful models, which have been widely
+applied into many aspects of machine translation, such as language modeling and
+translation modeling. though notable improvements have been made in these
+areas, the reordering problem still remains a challenge in statistical machine
+translations. in this paper, we present a novel neural reordering model that
+directly models word pairs and alignment. by utilizing lstm recurrent neural
+networks, much longer context could be learned for reordering prediction.
+experimental results on nist openmt12 arabic-english and chinese-english
+1000-best rescoring task show that our lstm neural reordering feature is robust
+and achieves significant improvements over various baseline systems.

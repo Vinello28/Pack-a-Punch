@@ -1,0 +1,18 @@
+we derive the calculation of two critical numbers predicting the behavior of
+perceptron networks. first, we derive the calculation of what we call the
+lossless memory (lm) dimension. the lm dimension is a generalization of the
+vapnik--chervonenkis (vc) dimension that avoids structured data and therefore
+provides an upper bound for perfectly fitting almost any training data. second,
+we derive what we call the mackay (mk) dimension. this limit indicates a 50%
+chance of not being able to train a given function. our derivations are
+performed by embedding a neural network into shannon's communication model
+which allows to interpret the two points as capacities measured in bits. we
+present a proof and practical experiments that validate our upper bounds with
+repeatable experiments using different network configurations, diverse
+implementations, varying activation functions, and several learning algorithms.
+the bottom line is that the two capacity points scale strictly linear with the
+number of weights. among other practical applications, our result allows to
+compare and benchmark different neural network implementations independent of a
+concrete learning task. our results provide insight into the capabilities and
+limits of neural networks and generate valuable know how for experimental
+design decisions.

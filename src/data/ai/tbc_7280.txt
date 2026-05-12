@@ -1,0 +1,11 @@
+the complexity of dynamics in ai techniques is already approaching that of
+complex adaptive systems, thus curtailing the feasibility of formal
+controllability and reachability analysis in the context of ai safety. it
+follows that the envisioned instances of artificial general intelligence (agi)
+will also suffer from challenges of complexity. to tackle such issues, we
+propose the modeling of deleterious behaviors in ai and agi as psychological
+disorders, thereby enabling the employment of psychopathological approaches to
+analysis and control of misbehaviors. accordingly, we present a discussion on
+the feasibility of the psychopathological approaches to ai safety, and propose
+general directions for research on modeling, diagnosis, and treatment of
+psychological disorders in agi.

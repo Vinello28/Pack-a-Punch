@@ -1,0 +1,1 @@
+Il progetto mira a sviluppare una soluzione innovativa per la fruizione di scene indoor in realt aumentata. Esso consiste nel realizzare una webapp che permetta di visualizzare in modalit dinamica (cio muovendosi all interno di un ambiente arredat

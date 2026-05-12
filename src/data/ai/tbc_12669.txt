@@ -1,1 +1,16 @@
-PERCORSO DI ASSISTENZA PER COMPRENDERE E UTILIZZARE L'INTELLIGENZA ARTIFICIALE IN AMBITO MARKETING DIGITALE
+as the development of 3d sensors, registration of 3d data (e.g. point cloud)
+coming from different kind of sensor is dispensable and shows great demanding.
+however, point cloud registration between different sensors is challenging
+because of the variant of density, missing data, different viewpoint, noise and
+outliers, and geometric transformation. in this paper, we propose a method to
+learn a 3d descriptor for finding the correspondent relations between these
+challenging point clouds. to train the deep learning framework, we use
+synthetic 3d point cloud as input. starting from synthetic dataset, we use
+region-based sampling method to select reasonable, large and diverse training
+samples from synthetic samples. then, we use data augmentation to extend our
+network be robust to rotation transformation. we focus our work on more general
+cases that point clouds coming from different sensors, named cross-source point
+cloud. the experiments show that our descriptor is not only able to generalize
+to new scenes, but also generalize to different sensors. the results
+demonstrate that the proposed method successfully aligns two 3d cross-source
+point clouds which outperforms state-of-the-art method.

@@ -1,1 +1,1 @@
-Il progetto ha come obiettivo Sviluppo di nuovi sottosistemi HW e SW per una piattaforma che consentir in modo pi efficiente degli approcci attuali l'esecuzione di applicazioni di intelligenza artificiale (a) in tempo reale (b) con un budget energetico inferiore (c) con livelli di integrit della sicurezza appropriati per l'applicazione e (d) in modo altamente sicuro
+Sviluppo e definizione di soluzioni innovative nell'ambito della Intelligenza Artificiale per applicazioni in ambito di simulazione medica e nell'apprendimento per laboratori di chimica benessere e soccorso

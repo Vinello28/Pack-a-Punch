@@ -1,0 +1,13 @@
+we study the problem of how to build a deep learning representation for 3d
+shape. deep learning has shown to be very effective in variety of visual
+applications, such as image classification and object detection. however, it
+has not been successfully applied to 3d shape recognition. this is because 3d
+shape has complex structure in 3d space and there are limited number of 3d
+shapes for feature learning. to address these problems, we project 3d shapes
+into 2d space and use autoencoder for feature learning on the 2d images. high
+accuracy 3d shape retrieval performance is obtained by aggregating the features
+learned on 2d images. in addition, we show the proposed deep learning feature
+is complementary to conventional local image descriptors. by combing the global
+deep learning representation and the local descriptor representation, our
+method can obtain the state-of-the-art performance on 3d shape retrieval
+benchmarks.

@@ -1,0 +1,20 @@
+evidence suggests rapid-eye-movement (rem) sleep behaviour disorder (rbd) is
+an early predictor of parkinson's disease. this study proposes a
+fully-automated framework for rbd detection consisting of automated sleep
+staging followed by rbd identification. analysis was assessed using a limited
+polysomnography montage from 53 participants with rbd and 53 age-matched
+healthy controls. sleep stage classification was achieved using a random forest
+(rf) classifier and 156 features extracted from electroencephalogram (eeg),
+electrooculogram (eog) and electromyogram (emg) channels. for rbd detection, a
+rf classifier was trained combining established techniques to quantify muscle
+atonia with additional features that incorporate sleep architecture and the emg
+fractal exponent. automated multi-state sleep staging achieved a 0.62 cohen's
+kappa score. rbd detection accuracy improved by 10% to 96% (compared to
+individual established metrics) when using manually annotated sleep staging.
+accuracy remained high (92%) when using automated sleep staging. this study
+outperforms established metrics and demonstrates that incorporating sleep
+architecture and sleep stage transitions can benefit rbd detection. this study
+also achieved automated sleep staging with a level of accuracy comparable to
+manual annotation. this study validates a tractable, fully-automated, and
+sensitive pipeline for rbd identification that could be translated to wearable
+take-home technology.

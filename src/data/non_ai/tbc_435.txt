@@ -1,1 +1,0 @@
-Sviluppo del modulo su piattaforma web per la gestione di una polizza di rimborso spese mediche, gestite a Libro Matricola, con algoritmi di calcolo per il costante monitoraggio dei plafond disponibili in tempo reale per singola garanzia. Formazione del personale con riferimento al nuovo software.

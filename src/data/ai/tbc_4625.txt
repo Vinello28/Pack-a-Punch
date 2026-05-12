@@ -1,7 +1,0 @@
-Questo progetto di invenzione industriale, avente per titolo: “Batterie intelligenti: impedenza in tempo reale e IA (acronimo BITIA)”, propone un sistema innovativo per monitorare e gestire le batterie ricaricabili nel settore automotive. Il sistema si basa sull'impedenziometria in tempo reale e sull'analisi dei dati tramite una rete neurale artificiale (RNA) per stimare in modo più accurato lo stato di carica (SoC) e lo stato di salute (SoH) delle batterie, superando i limiti dei metodi tradizionali.
-Innovazioni Chiave
-•	Impedenziometria Dinamica: La misurazione dell'impedenza viene effettuata in modo continuo durante il funzionamento della cella, fornendo una visione dinamica e aggiornata del suo stato interno.
-•	Analisi Intelligente: Una RNA viene addestrata con un vasto dataset di dati sperimentali per correlare i dati di impedenza con i valori di SoC e SoH. La capacità della RNA di identificare modelli complessi e non lineari nei dati permette di ottenere una stima più accurata rispetto ai metodi tradizionali.
-•	Integrazione nel BMS: Il sistema viene integrato direttamente nel Battery Management System (BMS), consentendo un'analisi in tempo reale e un'ottimizzazione immediata del funzionamento della batteria.
-Vantaggi
-•	Maggiore Precisione e Affidabilità: L'approccio combina

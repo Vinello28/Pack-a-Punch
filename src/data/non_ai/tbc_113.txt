@@ -1,2 +1,0 @@
-sistema di comunicazione IP-gestione chiamate-conferenze, supporto video fax t.38-gestioni sedi remote e utenti,registrazioni delle conversazione casella vocale con inoltro msg  - servizio HOT SPOT - sistema di autenticazione centralizzata in clod-separazione rete aziendale e rete ospiti - creazione seriale degli utenti,limitazione banda utilizzata,esportazione lista account e report delle connessioni etc..
-server da rack hp proliant dl 360 gen 10  client  - tablet etc.

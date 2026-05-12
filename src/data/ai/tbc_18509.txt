@@ -1,0 +1,1 @@
+predictors are learned using past training data which may contain features that are unavailable at the time of prediction. we develop an approach that is robust against outlying missing features, based on the optimality properties of an oracle predictor which observes them. the robustness properties of the approach are demonstrated on both real and synthetic data.

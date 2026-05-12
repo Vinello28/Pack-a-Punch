@@ -1,1 +1,0 @@
-CityOpenSource - Augmented map for collaborative storytelling è una piattaforma (web e app) che permette a tutti di realizzare progetti collaborativi di digital storytelling localizzando contenuti multimediali e dati su mappe interattive, integrata con servizi di proximity marketing, tecnologie di realtà aumentata e strumenti di analisi basati su intelligenza artificiale.

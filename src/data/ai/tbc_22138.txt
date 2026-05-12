@@ -1,0 +1,10 @@
+we present a framework combining hierarchical and multi-agent deep
+reinforcement learning approaches to solve coordination problems among a
+multitude of agents using a semi-decentralized model. the framework extends the
+multi-agent learning setup by introducing a meta-controller that guides the
+communication between agent pairs, enabling agents to focus on communicating
+with only one other agent at any step. this hierarchical decomposition of the
+task allows for efficient exploration to learn policies that identify globally
+optimal solutions even as the number of collaborating agents increases. we show
+promising initial experimental results on a simulated distributed scheduling
+problem.

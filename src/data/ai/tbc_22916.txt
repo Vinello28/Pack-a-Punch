@@ -1,0 +1,18 @@
+lymph node metastasis is one of the most significant diagnostic indicators in
+breast cancer, which is traditionally observed under the microscope by
+pathologists. in recent years, computerized histology diagnosis has become one
+of the most rapidly expanding fields in medical image computing, which
+alleviates pathologists' workload and reduces misdiagnosis rate. however,
+automatic detection of lymph node metastases from whole slide images remains a
+challenging problem, due to the large-scale data with enormous resolutions and
+existence of hard mimics. in this paper, we propose a novel framework by
+leveraging fully convolutional networks for efficient inference to meet the
+speed requirement for clinical practice, while reconstructing dense predictions
+under different offsets for ensuring accurate detection on both micro- and
+macro-metastases. incorporating with the strategies of asynchronous sample
+prefetching and hard negative mining, the network can be effectively trained.
+extensive experiments on the benchmark dataset of 2016 camelyon grand challenge
+corroborated the efficacy of our method. compared with the state-of-the-art
+methods, our method achieved superior performance with a faster speed on the
+tumor localization task and surpassed human performance on the wsi
+classification task.

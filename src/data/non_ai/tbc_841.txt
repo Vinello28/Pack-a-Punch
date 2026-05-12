@@ -1,1 +1,1 @@
-Lo sviluppo di una personalizzazione d hoc è orientato a raggiungere un'elevata flessibilità. L'applicazione, sarà strutturata come una Block Box modulare con capacità di dialogo bidirezionale, sia tra i vari moduli che verranno implementati, che nelle interazioni di ingresso/uscita con il mondo esterno. L'applicazione verrà personalizzata e configurata per disporre di un'interazione diretta e automatizzata.
+ROTTOLI SERENELLA

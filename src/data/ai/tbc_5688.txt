@@ -1,2 +1,0 @@
-Implementazione di un ambiente di prova del servizio di Intelligenza Artificiale per l’azienda.
-La prova prima dell’investimento consentirà quindi di verificare in modo tangibile quanto l’introduzione di tecniche di AI possano rappresentare elemento di efficientamento dei processi delle aziende.

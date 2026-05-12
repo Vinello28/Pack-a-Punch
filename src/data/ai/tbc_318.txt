@@ -1,0 +1,17 @@
+in this work, we propose a new, fast and scalable method for anomaly
+detection in large time-evolving graphs. it may be a static graph with dynamic
+node attributes (e.g. time-series), or a graph evolving in time, such as a
+temporal network. we define an anomaly as a localized increase in temporal
+activity in a cluster of nodes. the algorithm is unsupervised. it is able to
+detect and track anomalous activity in a dynamic network despite the noise from
+multiple interfering sources. we use the hopfield network model of memory to
+combine the graph and time information. we show that anomalies can be spotted
+with a good precision using a memory network. the presented approach is
+scalable and we provide a distributed implementation of the algorithm. to
+demonstrate its efficiency, we apply it to two datasets: enron email dataset
+and wikipedia page views. we show that the anomalous spikes are triggered by
+the real-world events that impact the network dynamics. besides, the structure
+of the clusters and the analysis of the time evolution associated with the
+detected events reveals interesting facts on how humans interact, exchange and
+search for information, opening the door to new quantitative studies on
+collective and social behavior on large and dynamic datasets.

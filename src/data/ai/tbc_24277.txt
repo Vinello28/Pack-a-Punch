@@ -1,0 +1,17 @@
+szubert and jaskowski successfully used temporal difference (td) learning
+together with n-tuple networks for playing the game 2048. however, we observed
+a phenomenon that the programs based on td learning still hardly reach large
+tiles. in this paper, we propose multi-stage td (ms-td) learning, a kind of
+hierarchical reinforcement learning method, to effectively improve the
+performance for the rates of reaching large tiles, which are good metrics to
+analyze the strength of 2048 programs. our experiments showed significant
+improvements over the one without using ms-td learning. namely, using 3-ply
+expectimax search, the program with ms-td learning reached 32768-tiles with a
+rate of 18.31%, while the one with td learning did not reach any. after further
+tuned, our 2048 program reached 32768-tiles with a rate of 31.75% in 10,000
+games, and one among these games even reached a 65536-tile, which is the first
+ever reaching a 65536-tile to our knowledge. in addition, ms-td learning method
+can be easily applied to other 2048-like games, such as threes. based on ms-td
+learning, our experiments for threes also demonstrated similar performance
+improvement, where the program with ms-td learning reached 6144-tiles with a
+rate of 7.83%, while the one with td learning only reached 0.45%.

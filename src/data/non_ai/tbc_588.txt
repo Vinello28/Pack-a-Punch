@@ -1,6 +1,0 @@
-Il progetto si pone l'obiettivo di digitalizzre il flusso informativo da e per la produzione, agendo su più fronti:
-1- estensione del collegamento alla rete informatica di tutte le attrezzature a controllo numerico al fine di migliorare l'integrazione con il sistema informativo;
-2- creare livelli di protezione informatica aggiuntivi per la sottorete che gestisce le attrezzature cnc;
-3- automazione dell'emissione dei documenti di produzione attraverso attività di personalizzazione del software gestionale;
-4- incrementare i sistemi di back-up delle informazioni atrtaverso la realizzazione di un piano di disaster recovery dedicato;
-5-personalizzazione per creazione punti raccolta dati di produzioner in reparto produttivo;

@@ -1,6 +1,0 @@
-Il progetto prevede di realizzare un nuovo centralino software VOIP accessibile anche tramite APP dedicata che consente di ricevere ed effettuare chiamate al numero di telefono interno del personale indipendentemente dalla loro posizione. (telefoni convergenti)
-Con questa implementazione abbatteremo i costi di comunicazione e renderemo fluide ed efficienti le comunicazioni del personale coi i collegi e clienti/fornitori in quanto non saranno legate alla posizione del personale.
-Tutti saranno raggiungibili al loro numero di interno indipendentemente dalla loro posizioni nel mondo al solo costo del traffico  dati cellulare o nullo se collegati wifi (clienti/hot sport etc).
-Inoltre lo specifico software di centralino VOIP avendo API https/xml permette di implementare in modo sicuro interfacce con il sistema CMR e contabile per rendicontare le azioni svolte dai clienti.
-Lo sviluppo di specifiche interfacce permetteranno la compilazione automatica degli eventi telefonici ingresso ed uscita e verra richiesto all operatore solo la causalizzazione al fine di tenere traccia dei costi anche in fase di marketing e sviluppo/realizzazione delle commesse.
-Inoltre verranno adeguate le stazioni CAD attuali e riutilizzato quelle presenti per adeguare l infrastruttura alle esigenze del progetto

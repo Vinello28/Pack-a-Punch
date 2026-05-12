@@ -1,0 +1,13 @@
+in this work we address the practical challenges of training machine learning
+models on privacy-sensitive datasets by introducing a modular approach that
+minimizes changes to training algorithms, provides a variety of configuration
+strategies for the privacy mechanism, and then isolates and simplifies the
+critical logic that computes the final privacy guarantees. a key challenge is
+that training algorithms often require estimating many different quantities
+(vectors) from the same set of examples --- for example, gradients of different
+layers in a deep learning architecture, as well as metrics and batch
+normalization parameters. each of these may have different properties like
+dimensionality, magnitude, and tolerance to noise. by extending previous work
+on the moments accountant for the subsampled gaussian mechanism, we can provide
+privacy for such heterogeneous sets of vectors, while also structuring the
+approach to minimize software engineering challenges.

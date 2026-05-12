@@ -1,1 +1,26 @@
-in the past decades, spectral clustering (sc) has become one of the most effective clustering algorithms. however, most previous studies focus on spectral clustering tasks with a fixed task set, which cannot incorporate with a new spectral clustering task without accessing to previously learned tasks. in this paper, we aim to explore the problem of spectral clustering in a lifelong machine learning framework, i.e., lifelong spectral clustering (l2sc). its goal is to efficiently learn a model for a new spectral clustering task by selectively transferring previously accumulated experience from knowledge library. specifically, the knowledge library of l2sc contains two components: 1) orthogonal basis library: capturing latent cluster centers among the clusters in each pair of tasks; 2) feature embedding library: embedding the feature manifold information shared among multiple related tasks. as a new spectral clustering task arrives, l2sc firstly transfers knowledge from both basis library and feature library to obtain encoding matrix, and further redefines the library base over time to maximize performance across all the clustering tasks. meanwhile, a general online update formulation is derived to alternatively update the basis library and feature library. finally, the empirical experiments on several real-world benchmark datasets demonstrate that our l2sc model can effectively improve the clustering performance when comparing with other state-of-the-art spectral clustering algorithms.
+one of the most common modes of representing engineering schematics are
+piping and instrumentation diagrams (p&ids) that describe the layout of an
+engineering process flow along with the interconnected process equipment. over
+the years, p&id diagrams have been manually generated, scanned and stored as
+image files. these files need to be digitized for purposes of inventory
+management and updation, and easy reference to different components of the
+schematics. there are several challenging vision problems associated with
+digitizing real world p&id diagrams. real world p&ids come in several different
+resolutions, and often contain noisy textual information. extraction of
+instrumentation information from these diagrams involves accurate detection of
+symbols that frequently have minute visual differences between them.
+identification of pipelines that may converge and diverge at different points
+in the image is a further cause for concern. due to these reasons, to the best
+of our knowledge, no system has been proposed for end-to-end data extraction
+from p&id diagrams. however, with the advent of deep learning and the
+spectacular successes it has achieved in vision, we hypothesized that it is now
+possible to re-examine this problem armed with the latest deep learning models.
+to that end, we present a novel pipeline for information extraction from p&id
+sheets via a combination of traditional vision techniques and state-of-the-art
+deep learning models to identify and isolate pipeline codes, pipelines, inlets
+and outlets, and for detecting symbols. this is followed by association of the
+detected components with the appropriate pipeline. the extracted pipeline
+information is used to populate a tree-like data-structure for capturing the
+structure of the piping schematics. we evaluated proposed method on a real
+world dataset of p&id sheets obtained from an oil firm and have obtained
+promising results.

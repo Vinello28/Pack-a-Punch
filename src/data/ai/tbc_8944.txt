@@ -1,1 +1,13 @@
-Proactive Fleet migliorer l'efficienza e la qualit dei servizi di trasporto grazie all'uso di tecnologie avanzate come Intelligenza Artificiale IoT e Big Data. L'obiettivo consentire una gestione predittiva della manutenzione dei veicoli e un'allocazione ottimale e intelligente dei mezzi tramite un'architettura Cloud-native che garantir alta scalabilit interoperabilit ed estensibilit . La transizione ecologica e la riduzione delle emissioni inquinanti sono tratti importanti del progetto
+convolutional neural networks (cnns) are propelling advances in a range of
+different computer vision tasks such as object detection and object
+segmentation. their success has motivated research in applications of such
+models for medical image analysis. if cnn-based models are to be helpful in a
+medical context, they need to be precise, interpretable, and uncertainty in
+predictions must be well understood. in this paper, we develop and evaluate
+recent advances in uncertainty estimation and model interpretability in the
+context of semantic segmentation of polyps from colonoscopy images. we evaluate
+and enhance several architectures of fully convolutional networks (fcns) for
+semantic segmentation of colorectal polyps and provide a comparison between
+these models. our highest performing model achieves a 76.06\% mean iou accuracy
+on the endoscene dataset, a considerable improvement over the previous
+state-of-the-art.

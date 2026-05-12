@@ -1,0 +1,1 @@
+L idea progettuale sar quella di una realizzazione di un area web del portale Istituzionale del singolo cliente (ente aziende turistiche commerciali artistiche ecc.) che si rivolger al proponente per lo sviluppo di servizi turistici e promozionali basati su virtual tours elaborati con foto e filmati a 360 fruibili sia tramite PC che tramite dispositivi di VR (Virtual Reality)

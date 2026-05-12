@@ -1,0 +1,10 @@
+we present semantic segmentation experiments with a model capable to perform
+predictions on four benchmark datasets: cityscapes, scannet, wilddash and
+kitti. we employ a ladder-style convolutional architecture featuring a modified
+densenet-169 model in the downsampling datapath, and only one convolution in
+each stage of the upsampling datapath. due to limited computing resources, we
+perform the training only on cityscapes fine train+val, scannet train, wilddash
+val and kitti train. we evaluate the trained model on the test subsets of the
+four benchmarks in concordance with the guidelines of the robust vision
+challenge rob 2018. the performed experiments reveal several interesting
+findings which we describe and discuss.

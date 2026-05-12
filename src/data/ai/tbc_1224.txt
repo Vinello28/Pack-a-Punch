@@ -1,0 +1,27 @@
+extracting a connectome from an electron microscopy (em) data set requires
+identification of neurons and determination of synapses between neurons. as
+manual extraction of this information is very time-consuming, there has been
+extensive research effort to automatically segment the neurons to help guide
+and eventually replace manual tracing. until recently, there has been
+comparatively less research on automatically detecting the actual synapses
+between neurons. this discrepancy can, in part, be attributed to several
+factors: obtaining neuronal shapes is a prerequisite first step in extracting a
+connectome, manual tracing is much more time-consuming than annotating
+synapses, and neuronal contact area can be used as a proxy for synapses in
+determining connections.
+  however, recent research has demonstrated that contact area alone is not a
+sufficient predictor of synaptic connection. moreover, as segmentation has
+improved, we have observed that synapse annotation is consuming a more
+significant fraction of overall reconstruction time. this ratio will only get
+worse as segmentation improves, gating overall possible speed-up. therefore, we
+address this problem by developing algorithms that automatically detect
+pre-synaptic neurons and their post-synaptic partners. in particular,
+pre-synaptic structures are detected using a deep and wide multiscale recursive
+network, and post-synaptic partners are detected using a mlp with features
+conditioned on the local segmentation.
+  this work is novel because it requires minimal amount of training, leverages
+advances in image segmentation directly, and provides a complete solution for
+polyadic synapse detection. we further introduce novel metrics to evaluate our
+algorithm on connectomes of meaningful size. these metrics demonstrate that
+complete automatic prediction can be used to effectively characterize most
+connectivity correctly.

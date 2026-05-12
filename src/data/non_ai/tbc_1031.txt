@@ -1,2 +1,1 @@
-sistema di videosorveglianza gestito in aree interne ed esterna all azienda (ingressi e parcheggi) con sistma di riconoscimento dei volti, gestione degli ingressi, conteggio passaggi pedonali, controllo aree avanzato.
-Sistema connesso con il sito web aziendale per il monitoraggio e la sicurezza.
+L oggetto della proposta riguarder la sperimentazione/introduzione di Agenti AI sulla piattaforma SaidText Agenti AI capaci di analizzare e categorizzare eventi in tempo reale e questo per il tramite della erogazione di servizi di Consulenza di Innovazione e lo sviluppo di attivit di Test before Invest/ sviluppo di una specifica PoC.

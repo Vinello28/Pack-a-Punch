@@ -1,1 +1,1 @@
-SISTEMA DI PROCESSAMENTO E VALUTAZIONE DI UN DOCUMENTO TRAMITE INTELLIGENZA ARTIFICIALE
+Il progetto ha lo scopo di sviluppare una piattaforma e-commerce per la vendita di prodotti hardware e software e servizi di assistenza e di progettazione online. L'utente avr la possibilit di ricercare prodotti e interagire con il supporto di assistenza attraverso l'uso di chatbot. Inoltre l'uso di newsletter e servizi di preventivo online aiuter l'utente nella ricerca e nella consulenza su prodotti hardware e software.

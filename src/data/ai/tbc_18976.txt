@@ -1,0 +1,9 @@
+we present our submission to the wmt18 multimodal translation task. the main
+feature of our submission is applying a self-attentive network instead of a
+recurrent neural network. we evaluate two methods of incorporating the visual
+features in the model: first, we include the image representation as another
+input to the network; second, we train the model to predict the visual features
+and use it as an auxiliary objective. for our submission, we acquired both
+textual and multimodal additional data. both of the proposed methods yield
+significant improvements over recurrent networks and self-attentive textual
+baselines.

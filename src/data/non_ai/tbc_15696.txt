@@ -1,1 +1,0 @@
-Il progetto si basa su tre linee guida metodologiche: centralitÃ  dei dati  indipendenza dei dati dallo strumento tecnologico utilizzato e possibilitÃ  di pubblicazione in vari formati

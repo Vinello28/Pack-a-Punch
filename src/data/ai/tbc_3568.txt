@@ -1,0 +1,13 @@
+mixture models are powerful statistical models used in many applications
+ranging from density estimation to clustering and classification. when dealing
+with mixture models, there are many issues that the experimenter should be
+aware of and needs to solve. the mixest toolbox is a powerful and user-friendly
+package for matlab that implements several state-of-the-art approaches to
+address these problems. additionally, mixest gives the possibility of using
+manifold optimization for fitting the density model, a feature specific to this
+toolbox. mixest simplifies using and integration of mixture models in
+statistical models and applications. for developing mixture models of new
+densities, the user just needs to provide a few functions for that statistical
+distribution and the toolbox takes care of all the issues regarding mixture
+models. mixest is available at visionlab.ut.ac.ir/mixest and is fully
+documented and is licensed under gpl.

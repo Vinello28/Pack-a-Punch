@@ -1,0 +1,15 @@
+intrinsic image decomposition is a challenging, long-standing computer vision
+problem for which ground truth data is very difficult to acquire. we explore
+the use of synthetic data for training cnn-based intrinsic image decomposition
+models, then applying these learned models to real-world images. to that end,
+we present \icg, a new, large-scale dataset of physically-based rendered images
+of scenes with full ground truth decompositions. the rendering process we use
+is carefully designed to yield high-quality, realistic images, which we find to
+be crucial for this problem domain. we also propose a new end-to-end training
+method that learns better decompositions by leveraging \icg, and optionally iiw
+and saw, two recent datasets of sparse annotations on real-world images.
+surprisingly, we find that a decomposition network trained solely on our
+synthetic data outperforms the state-of-the-art on both iiw and saw, and
+performance improves even further when iiw and saw data is added during
+training. our work demonstrates the suprising effectiveness of
+carefully-rendered synthetic data for the intrinsic images task.

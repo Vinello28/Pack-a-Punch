@@ -1,4 +1,9 @@
-SISTEMA INNOVATIVO DI SENSORISTICA (DA
-CAMPO, OTTICO, SATELLITARE) E CAPACITÀ DI
-ELABORAZIONE PREDITTIVA BASATA SU
-INTELLIGENZA ARTIFICIALE
+kernelized support vector machines (svms) are among the best performing
+supervised learning methods. but for optimal predictive performance,
+time-consuming parameter tuning is crucial, which impedes application. to
+tackle this problem, the classic model selection procedure based on grid-search
+and cross-validation was refined, e.g. by data subsampling and direct search
+heuristics. here we focus on a different aspect, the stopping criterion for svm
+training. we show that by limiting the training time given to the svm solver
+during parameter tuning we can reduce model selection times by an order of
+magnitude.

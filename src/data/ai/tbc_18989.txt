@@ -1,0 +1,19 @@
+domain adaptation (da) is transfer learning which aims to leverage labeled
+data in a related source domain to achieve informed knowledge transfer and help
+the classification of unlabeled data in a target domain. in this paper, we
+propose a novel da method, namely robust data geometric structure aligned,
+close yet discriminative domain adaptation (rsa-cdda), which brings closer, in
+a latent joint subspace, both source and target data distributions, and aligns
+inherent hidden source and target data geometric structures while performing
+discriminative da in repulsing both interclass source and target data. the
+proposed method performs domain adaptation between source and target in solving
+a unified model, which incorporates data distribution constraints, in
+particular via a nonparametric distance, i.e., maximum mean discrepancy (mmd),
+as well as constraints on inherent hidden data geometric structure segmentation
+and alignment between source and target, through low rank and sparse
+representation. rsa-cdda achieves the search of a joint subspace in solving the
+proposed unified model through iterative optimization, alternating rayleigh
+quotient algorithm and inexact augmented lagrange multiplier algorithm.
+extensive experiments carried out on standard da benchmarks, i.e., 16
+cross-domain image classification tasks, verify the effectiveness of the
+proposed method, which consistently outperforms the state-of-the-art methods.

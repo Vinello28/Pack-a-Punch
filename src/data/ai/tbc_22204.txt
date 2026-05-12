@@ -1,0 +1,13 @@
+the ability to perform pixel-wise semantic segmentation in real-time is of
+paramount importance in mobile applications. recent deep neural networks aimed
+at this task have the disadvantage of requiring a large number of floating
+point operations and have long run-times that hinder their usability. in this
+paper, we propose a novel deep neural network architecture named enet
+(efficient neural network), created specifically for tasks requiring low
+latency operation. enet is up to 18$\times$ faster, requires 75$\times$ less
+flops, has 79$\times$ less parameters, and provides similar or better accuracy
+to existing models. we have tested it on camvid, cityscapes and sun datasets
+and report on comparisons with existing state-of-the-art methods, and the
+trade-offs between accuracy and processing time of a network. we present
+performance measurements of the proposed architecture on embedded systems and
+suggest possible software improvements that could make enet even faster.

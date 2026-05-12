@@ -1,1 +1,18 @@
-La competenza finanziaria un aspetto fondamentale per consentire agli individui di comprendere i concetti finanziari di base e prendere decisioni informate riguardo ai loro risparmi investimenti e gestione del denaro.Questo un aspetto particolarmente importante per consentire alle categorie che dimostrano lacune significative nell'alfabetizzazione finanziaria come donne giovani residenti nel Mezzogiorno e persone con basso livello di istruzione di poter gestire in modo oculato informato e profittevole i propri investimenti. Il contesto attuale dell'Intelligenza Artificiale (IA) caratterizzato da un rapido sviluppo tecnologico e da un'adozione crescente e pervasiva in ogni settore incluso quello finanziario rappresenta la base per sviluppare soluzioni AI che possano trasformare il settore finanziario migliorandone l'efficienza la precisione e la trasparenza
+current state-of-the-art nmt systems use large neural networks that are not
+only slow to train, but also often require many heuristics and optimization
+tricks, such as specialized learning rate schedules and large batch sizes. this
+is undesirable as it requires extensive hyperparameter tuning. in this paper,
+we propose a curriculum learning framework for nmt that reduces training time,
+reduces the need for specialized heuristics or large batch sizes, and results
+in overall better performance. our framework consists of a principled way of
+deciding which training samples are shown to the model at different times
+during training, based on the estimated difficulty of a sample and the current
+competence of the model. filtering training samples in this manner prevents the
+model from getting stuck in bad local optima, making it converge faster and
+reach a better solution than the common approach of uniformly sampling training
+examples. furthermore, the proposed method can be easily applied to existing
+nmt models by simply modifying their input data pipelines. we show that our
+framework can help improve the training time and the performance of both
+recurrent neural network models and transformers, achieving up to a 70%
+decrease in training time, while at the same time obtaining accuracy
+improvements of up to 2.2 bleu.

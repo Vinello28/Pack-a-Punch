@@ -1,0 +1,15 @@
+a conditional generative adversarial network allows for generating samples
+conditioned on certain external information. being able to recover latent and
+conditional vectors from a condi- tional gan can be potentially valuable in
+various applications, ranging from image manipulation for entertaining purposes
+to diagnosis of the neural networks for security purposes. in this work, we
+show that it is possible to recover both latent and conditional vectors from
+generated images given the generator of a conditional generative adversarial
+network. such a recovery is not trivial due to the often multi-layered
+non-linearity of deep neural networks. furthermore, the effect of such recovery
+applied on real natural images are investigated. we discovered that there
+exists a gap between the recovery performance on generated and real images,
+which we believe comes from the difference between generated data distribution
+and real data distribution. experiments are conducted to evaluate the recovered
+conditional vectors and the reconstructed images from these recovered vectors
+quantitatively and qualitatively, showing promising results.

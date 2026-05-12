@@ -1,1 +1,0 @@
-"Il progetto punta a creare un'architettura web-based che consenta di digitalizzare, standardizzare e velocizzare le procedure di pubblicazione/gestione dei corsi di formazione sia della Società nazionale, sia della rete IAL"

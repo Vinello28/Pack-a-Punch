@@ -1,1 +1,17 @@
-Il progetto PLANT-OPTIMA presentato da URBINATI SRL si propone di introdurre soluzioni tecnologiche di avanguardia applicate ai processi produttivi nelle serre e nei vivai attraverso l introduzione di sistemi di visione ed elaborazione dati avanzati. In particolare il presente progetto prevede la ricerca e lo sviluppo di strumenti e tecnologie per realizzare sistemi automatizzati per la trapiantatura e sistemi integrati di irrigazione supportati da monitoraggio visivo con intelligenza artificiale per migliorare l'efficienza operativa e ridurre gli sprechi delle risorse impiegate. L'introduzione di queste soluzioni innovative consentir di ottimizzare notevolmente l'uso delle risorse come acqua energia e manodopera migliorando contemporaneamente la qualit delle lavorazioni e la produttivit . L'adozione di questi sistemi garantir inoltre una significativa riduzione dei costi operativi un incremento della competitivit e un maggiore focus sulla sostenibilit ambientale. Il progetto avr quindi un impatto positivo non solo sull impresa proponente ma sull intera filiera produttiva favorendo l espansione e l adozione di soluzioni innovative a livello nazionale e internazionale.
+understanding the groundbreaking performance of deep neural networks is one
+of the greatest challenges to the scientific community today. in this work, we
+introduce an information theoretic viewpoint on the behavior of deep networks
+optimization processes and their generalization abilities. by studying the information
+plane, the plane of the mutual information between the input variable and
+the desired label, for each hidden layer. specifically, we show that the training of
+the network is characterized by a rapid increase in the mutual information (mi)
+between the layers and the target label, followed by a longer decrease in the mi
+between the layers and the input variable. further, we explicitly show that these
+two fundamental information-theoretic quantities correspond to the generalization
+error of the network, as a result of introducing a new generalization bound that is
+exponential in the representation compression. the analysis focuses on typical
+patterns of large-scale problems. for this purpose, we introduce a novel analytic
+bound on the mutual information between consecutive layers in the network.
+an important consequence of our analysis is a super-linear boost in training time
+with the number of non-degenerate hidden layers, demonstrating the computational
+benefit of the hidden layers.

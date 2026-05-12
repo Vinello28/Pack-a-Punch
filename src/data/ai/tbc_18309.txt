@@ -1,0 +1,15 @@
+the topic of semantic segmentation has witnessed considerable progress due to
+the powerful features learned by convolutional neural networks (cnns). the
+current leading approaches for semantic segmentation exploit shape information
+by extracting cnn features from masked image regions. this strategy introduces
+artificial boundaries on the images and may impact the quality of the extracted
+features. besides, the operations on the raw image domain require to compute
+thousands of networks on a single image, which is time-consuming. in this
+paper, we propose to exploit shape information via masking convolutional
+features. the proposal segments (e.g., super-pixels) are treated as masks on
+the convolutional feature maps. the cnn features of segments are directly
+masked out from these maps and used to train classifiers for recognition. we
+further propose a joint method to handle objects and "stuff" (e.g., grass, sky,
+water) in the same framework. state-of-the-art results are demonstrated on
+benchmarks of pascal voc and new pascal-context, with a compelling
+computational speed.

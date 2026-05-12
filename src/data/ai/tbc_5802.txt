@@ -1,1 +1,23 @@
-SNELLIMENTO NELLE PROCEDURE AZIENDALI E AUMENTO DELLA PROTEZIONE DELL’ACCESSO DA PARTE DI TERZI attraverso l'utilizzo dell'intelligenza artificiale e della cybersecurity
+abstract: a significant amount of available information is stored in textual
+databases which contain a large collection of documents from different
+sources (such as news, articles, books, emails and web pages). the
+increasing visibility and importance of this class of information motivates
+us to work on having better automatic evaluation tools for textual
+resources.
+the automatic summarization of text is one of the ways to prevent
+the waste of users’ time. the extractive text summarization consists
+of the extraction of the more important sentences with the purpose of
+shortening input text while maintaining the topics covered and the
+subjects discussed.
+in this paper, we have tried to improve the accuracy of the extracted
+summaries by combining natural language processing and text mining
+techniques. by modifying the mentioned algorithms and sentence
+scoring measures, accuracy is increased as compared to the previously
+used techniques.
+part of speech tagging is used for calculating coefficient of words’
+importance. using this approach will in turn help us with picking the more
+meaningful words and phrases that will result in better accuracy of the
+system.
+graph similarity’s methods are used to select sentences. changing weight
+of the selected sentences in each step leads to solve the redundancy
+problem.

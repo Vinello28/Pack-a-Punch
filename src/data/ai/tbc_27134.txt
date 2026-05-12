@@ -1,0 +1,16 @@
+we compare policy differences across institutions by embedding
+representations of the entire legal corpus of each institution and the
+vocabulary shared across all corpora into a continuous vector space. we apply
+our method, gov2vec, to supreme court opinions, presidential actions, and
+official summaries of congressional bills. the model discerns meaningful
+differences between government branches. we also learn representations for more
+fine-grained word sources: individual presidents and (2-year) congresses. the
+similarities between learned representations of congresses over time and
+sitting presidents are negatively correlated with the bill veto rate, and the
+temporal ordering of presidents and congresses was implicitly learned from only
+text. with the resulting vectors we answer questions such as: how does obama
+and the 113th house differ in addressing climate change and how does this vary
+from environmental or economic perspectives? our work illustrates
+vector-arithmetic-based investigations of complex relationships between word
+sources based on their texts. we are extending this to create a more
+comprehensive legal semantic map.

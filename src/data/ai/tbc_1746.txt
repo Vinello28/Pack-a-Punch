@@ -1,1 +1,18 @@
-La realtaÂ  sanitaria dispone di dati eterogenei in volumi elevati le cui potenzialita non sono ad oggi debitamente tradotte in nuova conoscenza medica. La disponibilitaÃ¿Â  di infrastrutture per lo storage e il processing dei dati da una parte, e le consolidate tecniche di Intelligenza Artificiale (AI) dall altra, si prestano a risolvere il gap informativo in ambito sanitario e aprire la strada alla medicina di precisione. Il progetto sviluppera un dimostratore, fruibile anche in cloud, un Decision support system utile per la migliore caratterizzazione delle metastasi cerebrali, nelle fasi pre e post trattamento delle stesse, per la definizione della risposta al trattamento in radioterapia e la personalizzazione del percorso terapeutico
+the volume of data that humans create has increased explosively as information
+science and technology have evolved. therefore, the demand for learning machines that
+can extract input-output mappings and knowledge rules from massive data sets has
+become more urgent, and machine learning is now a core technology in the advanced
+information society. it has been applied to fields such as pattern recognition, search
+engines, medical support, robot engineering, image processing, and data mining and
+has achieved significant accomplishments in each field. recently, several methods that
+could not be implemented with older computers have been developed with state-of-the-art computers that have enormous memory capacity and high performance cpus.
+machine learning is expected to continue to develop in the future.
+...
+we propose a simpler method of more accurately detecting concept drift.
+the stepd method monitors the predictive accuracy of a single online classifier and
+detects significant decreases in the predictive accuracy, which are caused by concept
+drift, by using a statistical test of equal proportions to detect concept drift. when
+concept drift is detected, the online classifier is reinitialized to prepare for the learning
+of the next concept. stepd is able to detect concept drift more quickly and accurately
+than ace and other methods, but false alarms degrade the predictive accuracy of
+stepd significantly because stepd uses only a single online classifier.

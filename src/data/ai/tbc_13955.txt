@@ -1,1 +1,12 @@
-L OBIETTIVO GENERALE E A LUNGO TERMINE DEL PROGETTO QUELLO DI PROGETTARE E IMPLEMENTARE UNA NUOVA SOLUZIONE BASATA SULLE NUOVE TECNOLOGIE E METODOLOGIE DISPONIBILI IN AMBITO EDGE COMPUTING IIOT BIG DATA AND ANALYTICS NELL AMBITO DELLA GESTIONE DEI PROCESSI DI ANODIZZAZIONE E DEI PROCESSI GALVANICI IN GENERALE. NEL CONTESTO DEL PROGETTO VERRANNO REALIZZATI I SEGUENTI OBIETTIVI: - INDIVIDUAZIONE ED UTILIZZO DI TECNOLOGIE IIOT PER MISURARE I PARAMETRI FISICI E CHIMICI DEI BAGNI DI RISCIACQUO I PARAMETRI SPECIFICI VERRANNO DEFINITI NELLA PRIMA FASE DEL PROGETTO A SEGUITO DI UN'ANALISI PI APPROFONDITA DEI REQUISITI. I DISPOSITIVI AVRANNO ANCHE UN'INTERFACCIA DI COMUNICAZIONE (ES. ETHERNET WI-FI BTLE ZIGBEE ETC.) PER INVIARE LE MISURAZIONI GREZZE O PRE-ELABORATE ALLA PIATTAFORMA REMOTA UTILIZZANDO PROTOCOLLI AFFIDABILI E SICURI (ES. MQTT TLS). L INDIVIDUAZIONE DEI DISPOSITIVI SAR ISPIRATA AI PRINCIPI DI ACCURATEZZA DELLE MISURAZIONI ADEGUATEZZA DEI MATERIALI EFFICIENZA ENERGETICA COSTO ED INTEROPERABILIT .PROGETTAZIONE E REALIZZAZIONE DI UN SOTTOSISTEMA DI ARCHIVIAZIONE E SCAMBIO DATI DENOMINATO DSX CHE CONSENTE LA RICEZIONE DI DATI DAI DISPOSITIVI IIOT E IL LORO INOLTRO AL SISTEMA DSS.
+a mixture of gaussians fit to a single curved or heavy-tailed cluster will
+report that the data contains many clusters. to produce more appropriate
+clusterings, we introduce a model which warps a latent mixture of gaussians to
+produce nonparametric cluster shapes. the possibly low-dimensional latent
+mixture model allows us to summarize the properties of the high-dimensional
+clusters (or density manifolds) describing the data. the number of manifolds,
+as well as the shape and dimension of each manifold is automatically inferred.
+we derive a simple inference scheme for this model which analytically
+integrates out both the mixture parameters and the warping function. we show
+that our model is effective for density estimation, performs better than
+infinite gaussian mixture models at recovering the true number of clusters, and
+produces interpretable summaries of high-dimensional datasets.

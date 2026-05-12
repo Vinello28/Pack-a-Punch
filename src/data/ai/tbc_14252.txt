@@ -1,12 +1,1 @@
-underwater gas reservoirs are used in many situations. in particular, carbon
-capture and storage (ccs) facilities that are currently being developed intend
-to store greenhouse gases inside geological formations in the deep sea. in
-these formations, however, the gas might percolate, leaking back to the water
-and eventually to the atmosphere. the early detection of such leaks is
-therefore tantamount to any underwater ccs project. in this work, we propose to
-use passive acoustic monitoring (pam) and a machine learning approach to design
-efficient detectors that can signal the presence of a leakage. we use data
-obtained from simulation experiments off the brazilian shore, and show that the
-detection based on classification algorithms achieve good performance. we also
-propose a smoothing strategy based on hidden markov models in order to
-incorporate previous knowledge about the probabilities of leakage occurrences.
+L'obiettivo del progetto quello di sviluppare uno studio sul profilo di competenze tecniche trasversali relativo ai ruoli del personale ICT di categoria Specialist Operation Marketing. La formazione nello specifico comprende: Linee guida di base per tool digitali newsletter landing page story telling movietelling ChatBOT Social Content...). Quale tool scegliere per migliorare le prestazioni di comunicazione dei clienti. Esempi pratici di applicazione metodo. Come realizzare micro contenuti digitali persuasivi (grafici e testuali) Come ottimizzare le risorse di facebook con TAB dedicate e relazionarle con tool digitali specifici Principi Web & Design I: Progettare uno sketch/bozza (strumenti e software) Migliorare le prestazione di un sito web. Principi Web & Design II: SEO e posizionamento sul web e social. Integrazione web e social 3. UX Design. Rilascio software Mysnooper che monitora e analizza sul web che parlano di te della tua azienda e dei tuoi concorrenti. Misura la performance dei profili social aziendali. Tale strumento amplia e migliora la penetrazione commerciale dell azienda migliorando e innovando l attivit comunicativa.

@@ -1,3 +1,0 @@
-ECEM è un progetto finalizzato a creare una evoluta ed immersiva
-esperienza cliente all'interno dei Centri Commerciali, grazie all'impiego
-dell'Intelligenza Artificiale e della realtà aumentata.

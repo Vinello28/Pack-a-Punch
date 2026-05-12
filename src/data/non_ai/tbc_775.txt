@@ -1,2 +1,0 @@
-O3 IMAGING PORTAL è un progetto di investimento in tecnologia dell’informazione e della comunicazione finalizzato al consolidamento e sviluppo dei software di O3 Enterprise in chiave innovativa.
-Si intende implementare e introdurre sistemi di informatizzazione avanzati per la trasformazione dei processi produttivi: obiettivo è la creazione di nuovi servizi di imaging ospedaliero da erogare via web agli stakeholder del processo diagnostico-terapeutico (medici, operatori e pazienti/cittadini)

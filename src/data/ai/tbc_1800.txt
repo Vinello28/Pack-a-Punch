@@ -1,6 +1,12 @@
-Obiettivo di “Zerocontatto” è supportare le strutture sanitarie nel passaggio dall’attuale situazione, alla piena ripresa delle attività di sanità e cura, garantendo il massimo delle prestazioni possibili con il minimo rischio di contagio.
- Realizzeremo un nuovo modello di accoglienza in grado di coniugare le esigenze di efficienza da parte dell’utenza con le attuali richieste di distanziamento sociale e che tenga conto di elementi di innovazione tecnologica e di processo.  
-Nello specifico:
-•	Garantiremo che la nuova esperienza offerta sia fruibile attraverso una multicanalità, in modo tale da permettere alla struttura di raggiungere qualsiasi tipologia di utente (digitale e non) e informarlo a distanza sul suo stato di attesa, in modo tale da indurlo a recarsi alla struttura sanitaria e accedere ad essa per il solo tempo necessario per usufruire della prestazione richiesta. 
-•	Svilupperemo algoritmi previsionali basati su tecniche di Intelligenza Artificiale in grado di fornire, con continuità ed in tempo reale previsioni sull’orario in cui ciascuna prestazione verrà erogata. 
- Il risultato del progetto sarà un nuovo prodotto di accoglienza nelle strutture sanitarie che garantirà il rispetto della distanza sociale necessaria, salvaguardando l’efficienza dell’accoglienza.
+this paper proposes a new 3d human action recognition system as a two-phase
+system: (1) deep metric learning module which learns a similarity metric
+between two 3d joint sequences using siamese-lstm networks; (2) a multiclass
+classification module that uses the output of the first module to produce the
+final recognition output. this model has several advantages: the first module
+is trained with a larger set of data because it uses many combinations of
+sequence pairs.our deep metric learning module can also be trained
+independently of the datasets, which makes our system modular and
+generalizable. we tested the proposed system on standard and newly introduced
+datasets that showed us that initial results are promising. we will continue
+developing this system by adding more sophisticated lstm blocks and by
+cross-training between different datasets.

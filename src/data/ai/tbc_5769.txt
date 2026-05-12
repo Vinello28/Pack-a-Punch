@@ -1,6 +1,0 @@
-Le soluzioni digitali previste hanno preso in considerazione le attuali procedure informatiche in uso presso ECFV intendono costituirne uno sviluppo ed una evoluzione rispetto alla condizione di maturità digitale presente prima dell’inizio del presente intervento.
-Nello specifico il CRM già sviluppato ed adottato in ECFV verrà re-ingegnerizzato ed integrato con il nuovo software che costituisce il Progetto NIAGARA.
-La soluzione consiste nella creazione di un “ambiente software integrato” mirato a potenziare l’infrastruttura informatica esistente. Questo ambiente favorirà l’automazione dei processi aziendali, la digitalizzazione dei servizi, l’ottimizzazione della supply chain e un’analisi dei dati più efficace.
-Di seguito la sintesi delle funzionalità caratteristiche ricercate dai due Progetti.
-- OPEN: si tratta di un software evoluto con moduli di contabilità, controllo costi, CRM, in grado di ricevere ed utilizzare i dati processati da un'altra piattaforma dedicata ai processi per la fornitura degli impianti e per l’erogazione dei servizi.
-- NIAGARA: si tratta di un per il monitoraggio in continuo e in tempo reale degli impianti presso i clienti. Sfruttando le potenzialità dell’IA dovrà essere in grado di anticipare anomalie e fornire suggerimenti proattivi per la manutenzione

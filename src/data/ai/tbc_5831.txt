@@ -1,7 +1,0 @@
-Il progetto prevede lo sviluppo di soluzioni tecnologiche innovative in grado di:
-
-• Uniformare la gestione digitale aziendale nel gestionale ERP;
-• Implementare strumenti di reportistica avanzati;
-• Ottenere una gestione integrata dei processi produttivi attraverso l’interconnessione delle macchine (MES);
-• Ottenere la digitalizzazione del reparto produzione, comprendente la completa tracciabilità dei processi;
-• Implementare soluzioni di intelligenza artificiale per creare un nuovo modello di conoscenza, utilizzando i dati e gli insight spesso inaccessibili e non sfruttati.

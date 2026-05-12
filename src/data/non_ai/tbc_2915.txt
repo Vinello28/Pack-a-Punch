@@ -1,1 +1,0 @@
-ythagor realizza un software per calcolare il fatturato di bar e ristoranti, attraverso statistiche su big data, che saranno utilizzate come dato chiave dai soggetti interessati al monitoraggio di un micro-mercato cittadino e poi di tutto il retail.

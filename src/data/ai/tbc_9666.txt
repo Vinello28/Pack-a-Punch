@@ -1,0 +1,14 @@
+knowledge bases contribute to many web search and mining tasks, yet they are
+often incomplete. to add missing facts to a given knowledge base, various
+embedding models have been proposed in the recent literature. perhaps
+surprisingly, relatively simple models with limited expressiveness often
+performed remarkably well under today's most commonly used evaluation
+protocols. in this paper, we explore whether recent models work well for
+knowledge base completion and argue that the current evaluation protocols are
+more suited for question answering rather than knowledge base completion. we
+show that when focusing on a different prediction task for evaluating knowledge
+base completion, the performance of current embedding models is unsatisfactory
+even on datasets previously thought to be too easy. this is especially true
+when embedding models are compared against a simple rule-based baseline. this
+work indicates the need for more research into the embedding models and
+evaluation protocols for knowledge base completion.

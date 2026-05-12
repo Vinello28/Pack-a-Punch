@@ -1,0 +1,17 @@
+we report a method to convert discrete representations of molecules to and
+from a multidimensional continuous representation. this model allows us to
+generate new molecules for efficient exploration and optimization through
+open-ended spaces of chemical compounds. a deep neural network was trained on
+hundreds of thousands of existing chemical structures to construct three
+coupled functions: an encoder, a decoder and a predictor. the encoder converts
+the discrete representation of a molecule into a real-valued continuous vector,
+and the decoder converts these continuous vectors back to discrete molecular
+representations. the predictor estimates chemical properties from the latent
+continuous vector representation of the molecule. continuous representations
+allow us to automatically generate novel chemical structures by performing
+simple operations in the latent space, such as decoding random vectors,
+perturbing known chemical structures, or interpolating between molecules.
+continuous representations also allow the use of powerful gradient-based
+optimization to efficiently guide the search for optimized functional
+compounds. we demonstrate our method in the domain of drug-like molecules and
+also in the set of molecules with fewer that nine heavy atoms.

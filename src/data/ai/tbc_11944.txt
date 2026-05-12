@@ -1,1 +1,11 @@
-Il percorso formativo si pone l'obiettivo di acquisire conoscenze e capacit legate all'utilizzo di sistemi digitali e di intelligenza artificiale che abbiano il fine di migliorare ottimizzare velocizzare ed analizzare la creazione e produzione di testi e contenuti digitali l'elaborazione e l'analisi di dati dei clienti/pazienti la gestione della comunicazione diretta con i clienti/pazienti.
+in this article, we provide and overview of what we consider to be some of
+the most pressing research questions facing the fields of artificial
+intelligence (ai) and computational intelligence (ci); with the latter focusing
+on algorithms that are inspired by various natural phenomena. we demarcate
+these questions using five unique rs - namely, (i) rationalizability, (ii)
+resilience, (iii) reproducibility, (iv) realism, and (v) responsibility.
+notably, just as air serves as the basic element of biological life, the term
+air5 - cumulatively referring to the five aforementioned rs - is introduced
+herein to mark some of the basic elements of artificial life (supporting the
+sustained growth of ai and ci). a brief summary of each of the rs is presented,
+highlighting their relevance as pillars of future research in this arena.

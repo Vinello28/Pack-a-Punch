@@ -1,0 +1,1 @@
+Il progetto mira ad addestrare un modello linguistico che costituir la base di conoscenza dell assistente virtuale. La soluzione generativa rappresenta un'opportunit concreta per Sorit di migliorare la gestione delle interazioni ridurre i costi operativi e offrire un servizio pi efficiente

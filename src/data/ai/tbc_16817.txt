@@ -1,0 +1,11 @@
+recently, the growth of deep learning has produced a large number of deep
+neural networks. how to describe these networks unifiedly is becoming an
+important issue. we first formalize neural networks in a mathematical
+definition, give their directed graph representations, and prove a generation
+theorem about the induced networks of connected directed acyclic graphs. then,
+using the concept of capsule to extend neural networks, we set up a
+capsule-unified framework for deep learning, including a mathematical
+definition of capsules, an induced model for capsule networks and a universal
+backpropagation algorithm for training them. finally, we discuss potential
+applications of the framework to graphical programming with standard graphical
+symbols of capsules, neurons, and connections.

@@ -1,7 +1,18 @@
-L’OBIETTIVO PRINCIPALE È CONTINUARE A CRESCERE NEL PROSSIMO DECENNIO PER GARANTIRE ANCHE UN PASSAGGIO GENERAZIONALE CON L’INGRESSO DI NUOVI GIOVANI SOCI CON APPROCCIO DIGITALE E IN GRADO DI UTILIZZARE GLI STRUMENTI IDONEI PER SVILUPPARE NEL MERCATO LA PROPRIA AZIENDA.
-LA MEGABYTE VENDE E GESTISCE L’INFRASTRUTTURA IT, SERVENDO PICCOLE E MEDIE AZIENDE DI TUTTI I SETTORI. TUTTAVIA, AL MOMENTO, IL METODO DI VENDITA NON È STRUTTURATO PER SUPPORTARE APPROCCI AUTOMATIZZATI E ORGANIZZATI. SI BASA ANCORA SUL COINVOLGIMENTO DIRETTO DEGLI IMPRENDITORI E DEI RESPONSABILI, CHE SONO DIRETTAMENTE COINVOLTI NEL PROCESSO DI VENDITA CON SPOSTAMENTI FISICI
-COSA VOGLIAMO:
-RICERCARE UN PROFESSIONISTA IN GRADO DI PORTARE INNOVAZIONE E FORMARE TUTTO IL PERSONALE:
-1.	L'INTELLIGENZA ARTIFICIALE (IA) CHE PUÒ OFFRIRE NUMEROSI VANTAGGI IN AMBITO COMMERCIALE E MARKETING. PER MIGLIORARE L’OPPORTUNITÀ DI BUSINESS E DI VENDITA CHE RICHIEDERÀ UNA COMPRENSIONE APPROFONDITA
-2.	L'INNOVAZIONE DIGITALE CHE PUÒ CONFERIRE ALL'AZIENDA UN VANTAGGIO COMPETITIVO E AUMENTARE LA SUA APPETIBILITÀ PER I NUOVI SOCI, POICHÉ DIMOSTRA UNA CAPACITÀ DI ADATTARSI AI CAMBIAMENTI E DI CRESCERE IN UN AMBIENTE SEMPRE PIÙ DIGITALIZZATO.
-TROVARE FORME DI COLLABORAZIONE CON RIVENDITORI DEL SETTORE ADEGUANDO LE PROPRIE CONOSCENZE.
+in information theory, fisher information and shannon information (entropy)
+are respectively used to quantify the uncertainty associated with the
+distribution modeling and the uncertainty in specifying the outcome of given
+variables. these two quantities are complementary and are jointly applied to
+information behavior analysis in most cases. the uncertainty property in
+information asserts a fundamental trade-off between fisher information and
+shannon information, which enlightens us the relationship between the encoder
+and the decoder in variational auto-encoders (vaes). in this paper, we
+investigate vaes in the fisher-shannon plane and demonstrate that the
+representation learning and the log-likelihood estimation are intrinsically
+related to these two information quantities. through extensive qualitative and
+quantitative experiments, we provide with a better comprehension of vaes in
+tasks such as high-resolution reconstruction, and representation learning in
+the perspective of fisher information and shannon information. we further
+propose a variant of vaes, termed as fisher auto-encoder (fae), for practical
+needs to balance fisher information and shannon information. our experimental
+results have demonstrated its promise in improving the reconstruction accuracy
+and avoiding the non-informative latent code as occurred in previous works.

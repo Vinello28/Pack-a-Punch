@@ -1,1 +1,12 @@
-L obiettivo aziendale consiste nello sviluppare conoscenze e strumenti in grado di coadiuvare il team delle vendite e il servizio clienti con un sistema robotizzato supportato dall intelligenza artificiale per migliorare i tempi di attraversamento del processo il logica end-to-end a partire dalla preventivazione fino alle attivita` di post- vendita sia sul mercato locale sia sul mercato internazionale (multilingua italiano inglese) in coerenza con il punto 6. Digitalizzazione intelligenza artificiale big data (imprese e PA) di cui agli ambiti tematici prioritari della S3 2021 - 2027.
+recently, deep convolutional neural networks (cnn) have demonstrated strong
+performance on rgb salient object detection. although, depth information can
+help improve detection results, the exploration of cnns for rgb-d salient
+object detection remains limited. here we propose a novel deep cnn architecture
+for rgb-d salient object detection that exploits high-level, mid-level, and low
+level features. further, we present novel depth features that capture the ideas
+of background enclosure and depth contrast that are suitable for a learned
+approach. we show improved results compared to state-of-the-art rgb-d salient
+object detection methods. we also show that the low-level and mid-level depth
+features both contribute to improvements in the results. especially, f-score of
+our method is 0.848 on rgbd1000 dataset, which is 10.7% better than the second
+place.

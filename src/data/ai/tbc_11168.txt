@@ -1,1 +1,21 @@
-Sviluppo di un sistema intelligente per sintesi vocale tramite Explainable AI (XAI) con SHAP/LIME applicato al settore moda. La piattaforma processa video ad alta definizione 4K/8K con latenza inferiore a 100ms. L'architettura prevede distributed training con Horovod/DeepSpeed con ridondanza geografica.
+in this work, we investigate the feasibility and effectiveness of employing
+deep learning algorithms for automatic recognition of the modulation type of
+received wireless communication signals from subsampled data. recent work
+considered a gnu radio-based data set that mimics the imperfections in a real
+wireless channel and uses 10 different modulation types. a convolutional neural
+network (cnn) architecture was then developed and shown to achieve performance
+that exceeds that of expert-based approaches. here, we continue this line of
+work and investigate deep neural network architectures that deliver high
+classification accuracy. we identify three architectures - namely, a
+convolutional long short-term deep neural network (cldnn), a long short-term
+memory neural network (lstm), and a deep residual network (resnet) - that lead
+to typical classification accuracy values around 90% at high snr. we then study
+algorithms to reduce the training time by minimizing the size of the training
+data set, while incurring a minimal loss in classification accuracy. to this
+end, we demonstrate the performance of principal component analysis in
+significantly reducing the training time, while maintaining good performance at
+low snr. we also investigate subsampling techniques that further reduce the
+training time, and pave the way for online classification at high snr. finally,
+we identify representative snr values for training each of the candidate
+architectures, and consequently, realize drastic reductions of the training
+time, with negligible loss in classification accuracy.

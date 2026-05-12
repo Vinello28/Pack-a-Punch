@@ -1,0 +1,8 @@
+the wsdm cup 2017 is a binary classification task for classifying wikidata
+revisions into vandalism and non-vandalism. this paper describes our method
+using some machine learning techniques such as under-sampling, feature
+selection, stacking and ensembles of models. we confirm the validity of each
+technique by calculating auc-roc of models using such techniques and not using
+them. additionally, we analyze the results and gain useful insights into
+improving models for the vandalism detection task. the auc-roc of our final
+submission after the deadline resulted in 0.94412.

@@ -1,1 +1,0 @@
-Il progetto riguarda la dotazione di un sistema elettronico avanzato di presso piegatura della lamiera per la formatura automatica di prodotti metallici attraverso la generazione di pieghe a freddo di un foglio di metallo attraverso l'intervento collaborativo di un robot antropomorfo e un'attrezzatura semovente dedicata per il rifornimento della materia prima alla macchina.

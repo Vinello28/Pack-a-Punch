@@ -1,0 +1,10 @@
+how can we design good goals for arbitrarily intelligent agents?
+reinforcement learning (rl) is a natural approach. unfortunately, rl does not
+work well for generally intelligent agents, as rl agents are incentivised to
+shortcut the reward sensor for maximum reward -- the so-called wireheading
+problem. in this paper we suggest an alternative to rl called value
+reinforcement learning (vrl). in vrl, agents use the reward signal to learn a
+utility function. the vrl setup allows us to remove the incentive to wirehead
+by placing a constraint on the agent's actions. the constraint is defined in
+terms of the agent's belief distributions, and does not require an explicit
+specification of which actions constitute wireheading.

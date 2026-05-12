@@ -1,1 +1,1 @@
-INTERFACCIAMENTO DELLE MACCHINE PER IL MONITORAGGIO DEL PROCESSO PRODUTTIVO IN LOGICA 4.0 PER CONSENTIRE DI ASSICURARE E TRACCIARE LA QUALITA' DEL PRODOTTO E DEL PROCESSO PRODUTTIVO E QUANTIFICARE I PROCESSI DI PRODUZIONE IN MANIERA DOCUMENTABILE E CONNESSA AL SISTEMA INFORMATIVO DELLA DITTA
+DroBoVision - Collaborazione tra drone aereo alimentato a supercapacitori e AMMR per la navigazione adattiva e la gestione di missioni variabili attraverso l acquisizione dinamica di immagini e la relativa elaborazione coadiuvata da AI

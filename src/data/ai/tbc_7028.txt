@@ -1,0 +1,1 @@
+in this paper we describe the mathematical foundations of a new approach to semi-supervised machine learning. using techniques of symbolic computation and computer algebra, we apply the concept of persistent homology to obtain a new semi-supervised learning method.

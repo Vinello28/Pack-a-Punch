@@ -1,1 +1,9 @@
-Progetto di energy management nel settore agricoltura basato su Generative Adversarial Networks (GAN). Il sistema analizza Big Data provenienti da sensori IoT distribuiti per ottimizzare i processi operativi. L'infrastruttura prevede edge computing con acceleratori TPU/NPU. Il finanziamento copre sviluppo software, acquisizione dati e deployment in produzione.
+in this paper, we show that feedforward and recurrent neural networks exhibit
+an outer product derivative structure but that convolutional neural networks do
+not. this structure makes it possible to use higher-order information without
+needing approximations or infeasibly large amounts of memory, and it may also
+provide insights into the geometry of neural network optima. the ability to
+easily access these derivatives also suggests a new, geometric approach to
+regularization. we then discuss how this structure could be used to improve
+training methods, increase network robustness and generalizability, and inform
+network compression methods.

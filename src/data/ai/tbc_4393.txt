@@ -1,1 +1,15 @@
-DOOWAY “Data Analytics per il Turismo in Italia” : tecniche specifiche, basate su data mining, data integration/data fusion ed intelligenza artificiale, di estrazione ed elaborazione di dati da fonti strutturate e non, finalizzate alla costruzione di una piattaforma di Data Analytics per il settore del Turismo
+with the ever growing diversity of devices and applications that will be
+connected to 5g networks, flexible and agile service orchestration with
+acknowledged qoe that satisfies end-user's functional and qos requirements is
+necessary. sdn (software-defined networking) and nfv (network function
+virtualization) are considered key enabling technologies for 5g core networks.
+in this regard, this paper proposes a reinforcement learning based
+qos/qoe-aware service function chaining (sfc) in sdn/nfv-enabled 5g slices.
+first, it implements a lightweight qos information collector based on lldp,
+which works in a piggyback fashion on the southbound interface of the sdn
+controller, to enable qos-awareness. then, a dqn (deep q network) based agent
+framework is designed to support sfc in the context of nfv. the agent takes
+into account the qoe and qos as key aspects to formulate the reward so that it
+is expected to maximize qoe while respecting qos constraints. the experiment
+results show that this framework exhibits good performance in qoe provisioning
+and qos requirements maintenance for sfc in dynamic network environments.

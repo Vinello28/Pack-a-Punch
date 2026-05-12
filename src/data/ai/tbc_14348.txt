@@ -1,1 +1,18 @@
-Sephirot un sistema di gamificationin VR per aziende. Il progetto SEPHIROT conta tre diverse declinazioni: Videogioco Interactive experience e Performance. La declinazione principale SEPHIROT INTERACTIVE EXPERIENCE un esperienza personalizzata al 100% in Realt Virtuale realizzata con un obiettivo specifico che pu variare a seconda del bisogno del committente. Attraverso quest esperienza possibile analizzare differenti skill applicate ai contesti pi svariati o facilitare un'esperienza formativa aziendale o culturale
+islamophobic hate speech on social media inflicts considerable harm on both
+targeted individuals and wider society, and also risks reputational damage for
+the host platforms. accordingly, there is a pressing need for robust tools to
+detect and classify islamophobic hate speech at scale. previous research has
+largely approached the detection of islamophobic hate speech on social media as
+a binary task. however, the varied nature of islamophobia means that this is
+often inappropriate for both theoretically-informed social science and
+effectively monitoring social media. drawing on in-depth conceptual work we
+build a multi-class classifier which distinguishes between non-islamophobic,
+weak islamophobic and strong islamophobic content. accuracy is 77.6% and
+balanced accuracy is 83%. we apply the classifier to a dataset of 109,488
+tweets produced by far right twitter accounts during 2017. whilst most tweets
+are not islamophobic, weak islamophobia is considerably more prevalent (36,963
+tweets) than strong (14,895 tweets). our main input feature is a glove word
+embeddings model trained on a newly collected corpus of 140 million tweets. it
+outperforms a generic word embeddings model by 5.9 percentage points,
+demonstrating the importan4ce of context. unexpectedly, we also find that a
+one-against-one multi class svm outperforms a deep learning algorithm.

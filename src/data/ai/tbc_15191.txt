@@ -1,0 +1,13 @@
+aiming at inferring 3d shapes from 2d images, 3d shape reconstruction has
+drawn huge attention from researchers in computer vision and deep learning
+communities. however, it is not practical to assume that 2d input images and
+their associated ground truth 3d shapes are always available during training.
+in this paper, we propose a framework for semi-supervised 3d reconstruction.
+this is realized by our introduced 2d-3d self-consistency, which aligns the
+predicted 3d models and the projected 2d foreground segmentation masks.
+moreover, our model not only enables recovering 3d shapes with the
+corresponding 2d masks, camera pose information can be jointly disentangled and
+predicted, even such supervision is never available during training. in the
+experiments, we qualitatively and quantitatively demonstrate the effectiveness
+of our model, which performs favorably against state-of-the-art approaches in
+either supervised or semi-supervised settings.

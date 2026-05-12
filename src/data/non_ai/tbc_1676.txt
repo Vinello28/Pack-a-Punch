@@ -1,3 +1,0 @@
-Durante il progetto verrà svolta un¿analisi del processo produttivo, utile ad individuare i costi energetici associati ad ogni prodotto e a stabilire il contenuto emissivo imputabile ad ogni tipologia di produzione. 
-Per fare ciò verrà implementato un sistema di raccolta automatica dei dati energetici e di produzione che, attraverso gli opportuni algoritmi di calcolo, permetterà di ottenere in modo automatico i risultati di cui sopra.
-Tali dati verranno poi resi disponibili attraverso un¿adeguata piattaforma HMI di visualizzazione creata su misura per l¿Azienda.

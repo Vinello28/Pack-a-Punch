@@ -1,2 +1,17 @@
-Lo scopo del progetto congiunto è sviluppare un sistema di intelligenza artificiale basato su algoritmi di riconoscimento dell’immagine delle barbatelle in vivaio che renda possibile automatizzare l'identificazione  di possibili inquinamenti varietali e che a completamento del progetto consenta di ottenere un’ IA sufficientemente robusta, grazie ad un processo di elaborazione protocolli e test in campo  tale per cui sia reso possibile identificare in campo a mezzo di utilizzo di strumenti digitali (smartphone)  la presenza di inquinamenti varietali. 
-Nello specifico si è ipotizzato di poter acquisire le immagini durante due stagioni produttive ove le immagini annotate nel primo anno saranno utilizzate per lo sviluppo di un prototipo di IA, la cui robustezza e scalabilità saranno testate con le immagini acquisite nell’anno successivo. Il progetto si divide quindi in quattro grandi fasi identificate nella progettazione e organizzazione dei flussi di lavoro, nella raccolta dei dati, nello sviluppo dei prototipi di IA (1°anno), e nella fase di Rinforzo delle IA e analisi della scalabilità (2°anno).
+we present a method for inducing new dialogue systems from very small amounts
+of unannotated dialogue data, showing how word-level exploration using
+reinforcement learning (rl), combined with an incremental and semantic grammar
+- dynamic syntax (ds) - allows systems to discover, generate, and understand
+many new dialogue variants. the method avoids the use of expensive and
+time-consuming dialogue act annotations, and supports more natural
+(incremental) dialogues than turn-based systems. here, language generation and
+dialogue management are treated as a joint decision/optimisation problem, and
+the mdp model for rl is constructed automatically. with an implemented system,
+we show that this method enables a wide range of dialogue variations to be
+automatically captured, even when the system is trained from only a single
+dialogue. the variants include question-answer pairs, over- and
+under-answering, self- and other-corrections, clarification interaction,
+split-utterances, and ellipsis. this generalisation property results from the
+structural knowledge and constraints present within the ds grammar, and
+highlights some limitations of recent systems built using machine learning
+techniques only.

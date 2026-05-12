@@ -1,0 +1,15 @@
+the fifth dialog state tracking challenge (dstc5) introduces a new
+cross-language dialog state tracking scenario, where the participants are asked
+to build their trackers based on the english training corpus, while evaluating
+them with the unlabeled chinese corpus. although the computer-generated
+translations for both english and chinese corpus are provided in the dataset,
+these translations contain errors and careless use of them can easily hurt the
+performance of the built trackers. to address this problem, we propose a
+multichannel convolutional neural networks (cnn) architecture, in which we
+treat english and chinese language as different input channels of one single
+cnn model. in the evaluation of dstc5, we found that such multichannel
+architecture can effectively improve the robustness against translation errors.
+additionally, our method for dstc5 is purely machine learning based and
+requires no prior knowledge about the target language. we consider this a
+desirable property for building a tracker in the cross-language context, as not
+every developer will be familiar with both languages.

@@ -1,1 +1,17 @@
-CREAZIONE DI NUOVO MODELLO COMMERCIALE-TECNICO  COMPLETO DEI PROCESSI DI R&D PER LA PROPOSIZIONE DI SERVIZI AVANZATI E INNOVATIVI PER LA VALORIZZAZIONE DEI BIG DATA AZIENDALI  MEDIANTE STRUMENTI DI DATA SCIENCE  ARTIFICIAL INTELLIGENCE E MACHINE LEARNING. IL PROGETTO OTTIMIZZERÃ€ DUE ASSET: UN SOFTWARE DI AI E GIÃ€ CONSOLIDATE SKILL SPECIALISTICHE SULLA DS E ML. LO STESSO PREVEDE UNA CONSULENZA CHE INDIVIDUI LE CARATTERISTICHE DI PREGIO E APPEAL DEL PROPRIO SW  PER RIFORMULARE L'ATTUALE OFFERTA AL MERCATO COME SAAS  PER DISEGNARE UN PROCESSO COSTANTE DI RINNOVAMENTO DELLE COMPETENZE PER UNA STABILE INNOVAZIONE GESTITA
+we consider the problem of estimating the remaining useful life (rul) of a
+system or a machine from sensor data. many approaches for rul estimation based
+on sensor data make assumptions about how machines degrade. additionally,
+sensor data from machines is noisy and often suffers from missing values in
+many practical settings. we propose embed-rul: a novel approach for rul
+estimation from sensor data that does not rely on any degradation-trend
+assumptions, is robust to noise, and handles missing values. embed-rul utilizes
+a sequence-to-sequence model based on recurrent neural networks (rnns) to
+generate embeddings for multivariate time series subsequences. the embeddings
+for normal and degraded machines tend to be different, and are therefore found
+to be useful for rul estimation. we show that the embeddings capture the
+overall pattern in the time series while filtering out the noise, so that the
+embeddings of two machines with similar operational behavior are close to each
+other, even when their sensor readings have significant and varying levels of
+noise content. we perform experiments on publicly available turbofan engine
+dataset and a proprietary real-world dataset, and demonstrate that embed-rul
+outperforms the previously reported state-of-the-art on several metrics.

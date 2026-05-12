@@ -1,0 +1,19 @@
+spare representation of signals has received significant attention in recent
+years. based on these developments, a sparse representation-based
+classification (src) has been proposed for a variety of classification and
+related tasks, including face recognition. recently, a class dependent variant
+of src was proposed to overcome the limitations of src for remote sensing image
+classification. traditionally, greedy pursuit based method such as orthogonal
+matching pursuit (omp) are used for sparse coefficient recovery due to their
+simplicity as well as low time-complexity. however, orthogonal least square
+(ols) has not yet been widely used in classifiers that exploit the sparse
+representation properties of data. since ols produces lower signal
+reconstruction error than omp under similar conditions, we hypothesize that
+more accurate signal estimation will further improve the classification
+performance of classifiers that exploiting the sparsity of data. in this paper,
+we present a classification method based on ols, which implements ols in a
+classwise manner to perform the classification. we also develop and present its
+kernelized variant to handle nonlinearly separable data. based on two
+real-world benchmarking hyperspectral datasets, we demonstrate that class
+dependent ols based methods outperform several baseline methods including
+traditional src and the support vector machine classifier.

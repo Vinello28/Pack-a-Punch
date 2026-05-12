@@ -1,0 +1,19 @@
+predicting and forecasting human dynamics is a very interesting but
+challenging task with several prospective applications in robotics,
+health-care, etc. recently, several methods have been developed for human pose
+forecasting; however, they often introduce a number of limitations in their
+settings. for instance, previous work either focused only on short-term or
+long-term predictions, while sacrificing one or the other. furthermore, they
+included the activity labels as part of the training process, and require them
+at testing time. these limitations confine the usage of pose forecasting models
+for real-world applications, as often there are no activity-related annotations
+for testing scenarios. in this paper, we propose a new action-agnostic method
+for short- and long-term human pose forecasting. to this end, we propose a new
+recurrent neural network for modeling the hierarchical and multi-scale
+characteristics of the human dynamics, denoted by triangular-prism rnn
+(tp-rnn). our model captures the latent hierarchical structure embedded in
+temporal human pose sequences by encoding the temporal dependencies with
+different time-scales. for evaluation, we run an extensive set of experiments
+on human 3.6m and penn action datasets and show that our method outperforms
+baseline and state-of-the-art methods quantitatively and qualitatively. codes
+are available at https://github.com/eddyhkchiu/pose_forecast_wacv/

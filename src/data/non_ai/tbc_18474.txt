@@ -1,0 +1,1 @@
+Il progetto sviluppa soluzioni di robotica cognitiva per automatizzare la produzione di telai monoscocca in fibra di carbonio integrando processo PERSEO cobot AI e ottimizzazione in tempo reale. Mira a ridurre costi e tempi garantire sicurezza e sostenibilit secondo i principi Industry 5.0.

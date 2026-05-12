@@ -1,1 +1,0 @@
-Sistema IoT domotico: gestisce rischi di cybersecurity e KPI con algoritmi di AI e Machine Learning

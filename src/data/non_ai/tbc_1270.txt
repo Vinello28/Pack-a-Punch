@@ -1,1 +1,1 @@
-digitalizzazione del processo di acquisizione del cavo orale del paziente tramite sistemaTAC che produce immagini 3D. Il file verrà inviato per mail allo studio odontotecnico che potrà elaborare il progetto e produrre la protesi con la massima precis
+RISE - Real-time locating system (RTLS) con Intelligenza artificiale per una supply-chain Sicura ed Efficiente

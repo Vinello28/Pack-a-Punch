@@ -1,1 +1,21 @@
-L’Accademia intende sfruttare le opportunità offerte dalle nuove tecnologie allo scopo di rendere i propri flussi di lavoro più efficienti e performanti e consentire importanti risparmi in termini di risorse e tempo da impiegare più utilmente per l’ulteriore ottimizzazione dell’esperienza formativa. Lo strumento che permetterà tali risultati sarà Edu.Art.H., un gestionale SaaS in Cloud progettato specificamente per Accademie e Università e costruito attorno alle esigenze specifiche dell’istituzione che intende farne uso. Esso integra sistemi di gestione documentali, CRM, piattaforme di gestione integrata delle funzioni aziendali, strumenti di BI e di BA, sistemi per la raccolta, monitoraggio, analisi e archiviazione di dati relativi ai processi aziendali. Molti di tali sistemi saranno gestiti tramite automatismi e sofisticati algoritmi basati sull’IA e il Machine Learning nonché tecnologie di valorizzazione dei dati in grado di supportare scelte operative e gestionali data-driven
+exponential families and mixture families are parametric probability models
+that can be geometrically studied as smooth statistical manifolds with respect
+to any statistical divergence like the kullback-leibler (kl) divergence or the
+hellinger divergence. when equipping a statistical manifold with the kl
+divergence, the induced manifold structure is dually flat, and the kl
+divergence between distributions amounts to an equivalent bregman divergence on
+their corresponding parameters. in practice, the corresponding bregman
+generators of mixture/exponential families require to perform definite integral
+calculus that can either be too time-consuming (for exponentially large
+discrete support case) or even do not admit closed-form formula (for continuous
+support case). in these cases, the dually flat construction remains theoretical
+and cannot be used by information-geometric algorithms. to bypass this problem,
+we consider performing stochastic monte carlo (mc) estimation of those
+integral-based mixture/exponential family bregman generators. we show that,
+under natural assumptions, these mc generators are almost surely bregman
+generators. we define a series of dually flat information geometries, termed
+monte carlo information geometries, that increasingly-finely approximate the
+untractable geometry. the advantage of this mcig is that it allows a practical
+use of the bregman algorithmic toolbox on a wide range of probability
+distribution families. we demonstrate our approach with a clustering task on a
+mixture family manifold.

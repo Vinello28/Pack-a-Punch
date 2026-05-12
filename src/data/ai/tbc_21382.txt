@@ -1,0 +1,22 @@
+each human face is unique. it has its own shape, topology, and distinguishing
+features. as such, developing and testing facial tracking systems are
+challenging tasks. the existing face recognition and tracking algorithms in
+computer vision mainly specify concrete situations according to particular
+goals and applications, requiring validation methodologies with data that fits
+their purposes. however, a database that covers all possible variations of
+external and factors does not exist, increasing researchers' work in acquiring
+their own data or compiling groups of databases.
+  to address this shortcoming, we propose a methodology for facial data
+acquisition through definition of fundamental variables, such as subject
+characteristics, acquisition hardware, and performance parameters. following
+this methodology, we also propose two protocols that allow the capturing of
+facial behaviors under uncontrolled and real-life situations. as validation, we
+executed both protocols which lead to creation of two sample databases: fdmiee
+(facial database with multi input, expressions, and environments) and facia
+(facial multimodal database driven by emotional induced acting).
+  using different types of hardware, fdmiee captures facial information under
+environmental and facial behaviors variations. facia is an extension of fdmiee
+introducing a pipeline to acquire additional facial behaviors and speech using
+an emotion-acting method. therefore, this work eases the creation of adaptable
+database according to algorithm's requirements and applications, leading to
+simplified validation and testing processes.

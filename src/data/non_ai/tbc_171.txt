@@ -1,5 +1,0 @@
-Il progetto mira a digitalizzare i processi di lavorazione eliminando passaggi intermedi e costi di lavorazione. Nello specifico si intende acquisire:
-- STAMPANTE 3D per la realizzazione di oggettistica, prototipi per espositori, gadget: in questo modo si possono produrre anche pezzi singoli direttamente da stampante anzichè preparare il clichè per la personalizzazione e la stampa singola in tampografia;
-- NAS: per rendere accessibili i backup ed i lavori dei clienti o collaboratori. In questo modo il cliente può apportare modifiche al progetto in condivisione con la tipografia salvando il lavoro in cloud, senza dover obbligatoriamente andare fisicamente negli uffici progettazione;
-- SPETTROFOTOMETRO: per calibrare automaticamente la stampante digitale. Con questo strumento si calibra automaticamente colore e modello, con un'ottimizzazione massima del lavoro e del materiale utilizzato (non più spreco di carta e toner);
-- STAMPA UV: per personalizzare in digitale targhe, insegne, oggettistica per promotion, ecc senza dover creare gli impianti in serigrafia e dover far un pezzo singolo alla volta.

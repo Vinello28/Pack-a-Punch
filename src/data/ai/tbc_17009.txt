@@ -1,1 +1,16 @@
-Sviluppo di un sistema di precision farming che utilizza l'Intelligenza Artificiale  sensoristica IoT e georeferenziazione
+to solve the big topic modeling problem, we need to reduce both time and
+space complexities of batch latent dirichlet allocation (lda) algorithms.
+although parallel lda algorithms on the multi-processor architecture have low
+time and space complexities, their communication costs among processors often
+scale linearly with the vocabulary size and the number of topics, leading to a
+serious scalability problem. to reduce the communication complexity among
+processors for a better scalability, we propose a novel communication-efficient
+parallel topic modeling architecture based on power law, which consumes orders
+of magnitude less communication time when the number of topics is large. we
+combine the proposed communication-efficient parallel architecture with the
+online belief propagation (obp) algorithm referred to as pobp for big topic
+modeling tasks. extensive empirical results confirm that pobp has the following
+advantages to solve the big topic modeling problem: 1) high accuracy, 2)
+communication-efficient, 3) fast speed, and 4) constant memory usage when
+compared with recent state-of-the-art parallel lda algorithms on the
+multi-processor architecture.

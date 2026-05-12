@@ -1,0 +1,7 @@
+this paper presents unlimited computable ai, or ucai, that is a family of
+computable variants of aixi. ucai is more powerful than aixitl, that is a
+conventional family of computable variants of aixi, in the following ways: 1)
+ucai supports models of terminating computation, including typed lambda
+calculus, while aixitl only supports turing machine with timeout t, which can
+be simulated by typed lambda calculus for any t; 2) unlike ucai, aixitl limits
+the program length to l.

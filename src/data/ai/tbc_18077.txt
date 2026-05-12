@@ -1,1 +1,16 @@
-convex-composite optimization, which minimizes an objective function represented by the sum of a differentiable function and a convex one, is widely used in machine learning and signal/image processing. fast iterative shrinkage thresholding algorithm (fista) is a typical method for solving this problem and has a global convergence rate of $o(1 / k^2)$. recently, this has been extended to multi-objective optimization, together with the proof of the $o(1 / k^2)$ global convergence rate. however, its momentum factor is classical, and the convergence of its iterates has not been proven. in this work, introducing some additional hyperparameters $(a, b)$, we propose another accelerated proximal gradient method with a general momentum factor, which is new even for the single-objective cases. we show that our proposed method also has a global convergence rate of $o(1/k^2)$ for any $(a,b)$, and further that the generated sequence of iterates converges to a weak pareto solution when $a$ is positive, an essential property for the finite-time manifold identification. moreover, we report numerical results with various $(a,b)$, showing that some of these choices give better results than the classical momentum factors.
+visible light communication (vlc) is an emerging technology that enables
+broadband data rates using the visible spectrum. in this paper, considering
+slow beam steering where vlc beam directions are assumed to be fixed during a
+transmission frame, we find the steering angles that simultaneously serve
+multiple users within the frame duration and maximize the data rates. this is
+achieved by solving a non-convex optimization problem using a grid-based search
+and majorization-minimization (mm) procedure. subsequently, we consider
+multiple steerable beams with a larger number of users in the network and
+propose an algorithm to cluster users and serve each cluster with a separate
+beam. we optimize the transmit power of each beam to maximize the data rates.
+finally, we propose a non-orthogonal multiple access (noma) scheme for the beam
+steering and user clustering scenario, to further increase the data rates of
+the users. the simulation results show that the proposed beam steering method
+can efficiently serve a high number of users, and with power optimization, a
+data rate gain up to ten times is possible. the simulation results for noma
+suggests an additional 10 mbps sum rate gain for each noma user pair.

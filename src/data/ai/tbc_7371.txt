@@ -1,1 +1,16 @@
-understanding the public sentiment and perception in a healthcare crisis is essential for developing appropriate crisis management techniques. while some studies have used twitter data for predictive modelling during covid-19, fine-grained sentiment analysis of the opinion of people on social media during this pandemic has not yet been done. in this study, we perform an in-depth, fine-grained sentiment analysis of tweets in covid-19. for this purpose, we perform supervised training of four transformer language models on the downstream task of multi-label classification of tweets into seven tone classes: [confident, anger, fear, joy, sadness, analytical, tentative]. we achieve a lrap (label ranking average precision) score of 0.9267 through roberta. this trained transformer model is able to correctly predict, with high accuracy, the tone of a tweet. we then leverage this model for predicting tones for 200,000 tweets on covid-19. we then perform a country-wise analysis of the tone of tweets, and extract useful indicators of the psychological condition about the people in this pandemic.
+producing a large amount of annotated speech data for training asr systems
+remains difficult for more than 95% of languages all over the world which are
+low-resourced. however, we note human babies start to learn the language by the
+sounds (or phonetic structures) of a small number of exemplar words, and
+"generalize" such knowledge to other words without hearing a large amount of
+data. we initiate some preliminary work in this direction. audio word2vec is
+used to learn the phonetic structures from spoken words (signal segments),
+while another autoencoder is used to learn the phonetic structures from text
+words. the relationships among the above two can be learned jointly, or
+separately after the above two are well trained. this relationship can be used
+in speech recognition with very low resource. in the initial experiments on the
+timit dataset, only 2.1 hours of speech data (in which 2500 spoken words were
+annotated and the rest unlabeled) gave a word error rate of 44.6%, and this
+number can be reduced to 34.2% if 4.1 hr of speech data (in which 20000 spoken
+words were annotated) were given. these results are not satisfactory, but a
+good starting point.

@@ -1,11 +1,1 @@
-video style transfer is a useful component for applications such as augmented
-reality, non-photorealistic rendering, and interactive games. many existing
-methods use optical flow to preserve the temporal smoothness of the synthesized
-video. however, the estimation of optical flow is sensitive to occlusions and
-rapid motions. thus, in this work, we introduce a novel evolve-sync loss
-computed by evolvements to replace optical flow. using this evolve-sync loss,
-we build an adversarial learning framework, termed as video style transfer
-generative adversarial network (vst-gan), which improves upon the mgan method
-for image style transfer for more efficient video style transfer. we perform
-extensive experimental evaluations of our method and show quantitative and
-qualitative improvements over the state-of-the-art methods.
+as the final stage of the multi-stage recommender system (mrs), re-ranking directly affects user experience and satisfaction by rearranging the input ranking lists, and thereby plays a critical role in mrs. with the advances in deep learning, neural re-ranking has become a trending topic and been widely applied in industrial applications. this review aims at integrating re-ranking algorithms into a broader picture, and paving ways for more comprehensive solutions for future research. for this purpose, we first present a taxonomy of current methods on neural re-ranking. then we give a description of these methods along with the historic development according to their objectives. the network structure, personalization, and complexity are also discussed and compared. next, we provide benchmarks of the major neural re-ranking models and quantitatively analyze their re-ranking performance. finally, the review concludes with a discussion on future prospects of this field. a list of papers discussed in this review, the benchmark datasets, our re-ranking library librerank, and detailed parameter settings are publicly available at https://github.com/librerank-community/librerank.

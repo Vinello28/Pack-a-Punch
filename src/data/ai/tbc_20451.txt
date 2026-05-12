@@ -1,0 +1,24 @@
+many important forms of data are stored digitally in xml format. errors can
+occur in the textual content of the data in the fields of the xml. fixing these
+errors manually is time-consuming and expensive, especially for large amounts
+of data. there is increasing interest in the research, development, and use of
+automated techniques for assisting with data cleaning. electronic dictionaries
+are an important form of data frequently stored in xml format that frequently
+have errors introduced through a mixture of manual typographical entry errors
+and optical character recognition errors. in this paper we describe methods for
+flagging statistical anomalies as likely errors in electronic dictionaries
+stored in xml format. we describe six systems based on different sources of
+information. the systems detect errors using various signals in the data
+including uncommon characters, text length, character-based language models,
+word-based language models, tied-field length ratios, and tied-field
+transliteration models. four of the systems detect errors based on expectations
+automatically inferred from content within elements of a single field type. we
+call these single-field systems. two of the systems detect errors based on
+correspondence expectations automatically inferred from content within elements
+of multiple related field types. we call these tied-field systems. for each
+system, we provide an intuitive analysis of the type of error that it is
+successful at detecting. finally, we describe two larger-scale evaluations
+using crowdsourcing with amazon's mechanical turk platform and using the
+annotations of a domain expert. the evaluations consistently show that the
+systems are useful for improving the efficiency with which errors in xml
+electronic dictionaries can be detected.

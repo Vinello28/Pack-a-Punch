@@ -1,0 +1,12 @@
+parsing human poses in images is fundamental in extracting critical visual
+information for artificial intelligent agents. our goal is to learn
+self-contained body part representations from images, which we call visual
+symbols, and their symbol-wise geometric contexts in this parsing process. each
+symbol is individually learned by categorizing visual features leveraged by
+geometric information. in the categorization, we use latent support vector
+machine followed by an efficient cross validation procedure to learn visual
+symbols. then, these symbols naturally define geometric contexts of body parts
+in a fine granularity. when the structure of the compositional parts is a tree,
+we derive an efficient approach to estimating human poses in images.
+experiments on two large datasets suggest our approach outperforms state of the
+art methods.

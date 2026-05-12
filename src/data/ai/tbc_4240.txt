@@ -1,9 +1,24 @@
-L'OBIETTIVO PRIMARIO DEL PROGETTO È ABBRACCIARE TECNOLOGIE ALL'AVANGUARDIA COME L'INTELLIGENZA ARTIFICIALE (IA), LA REALTÀ MISTA (RM) E LA REALTÀ VIRTUALE (RV) PER MIGLIORARE L'EFFICIENZA, ELEVARE LA QUALITÀ DEI SERVIZI E OFFRIRE ESPERIENZE INNOVATIVE.
-
-ARCHITETTURA SOFTWARE CLOUD SCALABILE E FLESSIBILE CON INTEGRAZIONE DI INTELLIGENZA ARTIFICIALE PER L'ANALISI AVANZATA DEI DATI, DI REALTÀ VIRTUALE PER CREARE ESPERIENZE IMMERSIVE E LA REALTÀ MISTA PER MIGLIORARE L'INTERAZIONE CON L'AMBIENTE DIGITALE. LA SICUREZZA DEI DATI SARÀ UNA PRIORITÀ, CON L'IMPLEMENTAZIONE DI PROTOCOLLI AVANZATI.
-
-L'IA SARÀ IMPIEGATA PER L'ANALISI DEI TREND DI COMUNICAZIONE, L'OTTIMIZZAZIONE DELLE STRATEGIE DI MARKETING E L'AUTOMAZIONE DI PROCESSI RIPETITIVI. L'INTRODUZIONE DI AVATAR INTELLIGENTI MIGLIORERÀ L'ASSISTENZA CLIENTI E ACCELERERÀ LA GESTIONE DELLE RICHIESTE.
-
-COSTRUZIONE DI APPLICAZIONI DI REALTÀ VIRTUALE PER PRESENTAZIONI E SIMULAZIONI INTERATTIVE, MENTRE LA REALTÀ MISTA SARÀ IMPIEGATA PER ATTIVITÀ DI MARKETING E COMUNICAZIONE.
-
-QUESTO PROGETTO DI DIGITALIZZAZIONE RAPPRESENTA  UN INVESTIMENTO STRATEGICO PER RIMANERE COMPETITIVI IN UN MERCATO IN COSTANTE EVOLUZIONE. L'ADOZIONE DI TECNOLOGIE AVANZATE CONTRIBUIRÀ ALLA CRESCITA E ALLA SOSTENIBILITÀ A LUNGO TERMINE DELL'AZIENDA.
+the interaction between aphids, ants and ladybirds has been investigated from
+an ecological point of view since many decades, while there are no attempts to
+describe it from a mathematical point of view. this paper introduces a new
+mathematical model to describe the within-season population dynamics in an
+ecological patch of a system composed by aphids, ants and ladybirds, through a
+set of four differential equations. the proposed model is based on the
+kindlmann and dixon set of differential equations, focused on the prediction of
+the aphids-ladybirds population densities, that share a prey-predator
+relationship. the population of ants, in mutualistic relationship with aphids
+and in interspecific competition with ladybirds, is described according to the
+holland and de angelis mathematical model, in which the authors faced the
+problem of mutualistic interactions in general terms. the set of differential
+equations proposed here is discretized by means the nonstandard finite
+difference scheme, successfully applied by gabbriellini to the mutualistic
+model. the constructed finite-difference scheme is positivity-preserving and
+characterized by four nonhyperbolic steady-states, as highlighted by the
+phase-space and time-series analyses. particular attention is dedicated to the
+steady-state most interesting from an ecological point of view, whose
+asymptotic stability is demonstrated via the centre manifold theory. the model
+allows to numerically confirm that mutualistic relationship effectively
+influences the population dynamic, by increasing the peaks of the aphids and
+ants population densities. nonetheless, it is showed that the asymptotical
+populations of aphids and ladybirds collapse for any initial condition, unlike
+that of ants that, after the peak, settle on a constant asymptotic value.

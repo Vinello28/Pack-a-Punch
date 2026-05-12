@@ -1,1 +1,18 @@
-regularization plays a vital role in the context of deep learning by preventing deep neural networks from the danger of overfitting. this paper proposes a novel deep learning regularization method named as dl-reg, which carefully reduces the nonlinearity of deep networks to a certain extent by explicitly enforcing the network to behave as much linear as possible. the key idea is to add a linear constraint to the objective function of the deep neural networks, which is simply the error of a linear mapping from the inputs to the outputs of the model. more precisely, the proposed dl-reg carefully forces the network to behave in a linear manner. this linear constraint, which is further adjusted by a regularization factor, prevents the network from the risk of overfitting. the performance of dl-reg is evaluated by training state-of-the-art deep network models on several benchmark datasets. the experimental results show that the proposed regularization method: 1) gives major improvements over the existing regularization techniques, and 2) significantly improves the performance of deep neural networks, especially in the case of small-sized training datasets.
+feature extraction and dimensionality reduction are important tasks in many
+fields of science dealing with signal processing and analysis. the relevance of
+these techniques is increasing as current sensory devices are developed with
+ever higher resolution, and problems involving multimodal data sources become
+more common. a plethora of feature extraction methods are available in the
+literature collectively grouped under the field of multivariate analysis (mva).
+this paper provides a uniform treatment of several methods: principal component
+analysis (pca), partial least squares (pls), canonical correlation analysis
+(cca) and orthonormalized pls (opls), as well as their non-linear extensions
+derived by means of the theory of reproducing kernel hilbert spaces. we also
+review their connections to other methods for classification and statistical
+dependence estimation, and introduce some recent developments to deal with the
+extreme cases of large-scale and low-sized problems. to illustrate the wide
+applicability of these methods in both classification and regression problems,
+we analyze their performance in a benchmark of publicly available data sets,
+and pay special attention to specific real applications involving audio
+processing for music genre prediction and hyperspectral satellite images for
+earth and climate monitoring.

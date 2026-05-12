@@ -1,0 +1,15 @@
+computer vision systems are designed to work well within the context of
+everyday photography. however, artists often render the world around them in
+ways that do not resemble photographs. artwork produced by people is not
+constrained to mimic the physical world, making it more challenging for
+machines to recognize.
+  this work is a step toward teaching machines how to categorize images in ways
+that are valuable to humans. first, we collect a large-scale dataset of
+contemporary artwork from behance, a website containing millions of portfolios
+from professional and commercial artists. we annotate behance imagery with rich
+attribute labels for content, emotions, and artistic media. furthermore, we
+carry out baseline experiments to show the value of this dataset for artistic
+style prediction, for improving the generality of existing object classifiers,
+and for the study of visual domain adaptation. we believe our behance artistic
+media dataset will be a good starting point for researchers wishing to study
+artistic imagery and relevant problems.

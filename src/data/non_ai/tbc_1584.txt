@@ -1,1 +1,1 @@
-Cura Vocale. Un assistente virtuale per pazienti cronici basato sull'adozione dei piani di cura, la raccolta di dati clinici veicolati al paziente attraverso interfacce conversazionali.
+Il programma consente di realizzare un processo di salvataggio e backup dei dati elaborati e prelevati sul campo. Inoltre si ottiene una automatizzazione della rielaborazione delle informazioni provenienti dalle attivitÃ  sul campo e una implementazione sul sistema drone di carattere tecnologico e con software per specifiche applicazioni.

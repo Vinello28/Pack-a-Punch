@@ -1,1 +1,1 @@
-Test del software basato su IA con generazione automatica dei casi di test
+Lo scopo principale di questa fase della collaborazione quello di analizzare la qualit dei dati forniti da AISPOT per creare un dataset di alta qualit da utilizzare per la valutazione di tecniche pi recenti di object detection

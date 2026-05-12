@@ -1,9 +1,0 @@
-Il progetto di miglioramento dell efficienza aziendale prevede l inserimento nel processo
-aziendale di uno software, denominato hypermill, che permette l ottimizzazione dei tempi di programmazione e
-di lavorazione dei macchinari, senza il rischio di compromettere la qualità e la sicurezza del risultato. Le
-applicazioni possono riguardare la gestione del grezzo dinamico, il controllo di collisione già in fase di calcolo,
-la gestione accurata degli utensili e dei parametri tecnologici mediante data base, ma più nel particolare anche
-la gestione della geometria ausiliaria al CAM, per definire i bordi di lavorazione, ingombri o le attrezzature di
-serraggio oppure la programmazione ottimale dei percorsi degli utensili sulle parti macchine complesse, così
-come su modelli, prototipi o stampi. Il progetto prevede altresì dei corsi di formazione specialistici tenuti in
-azienda e finalizzati al corretto utilizzo del software.

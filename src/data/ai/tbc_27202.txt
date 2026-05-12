@@ -1,0 +1,17 @@
+automated lesion segmentation from computed tomography (ct) is an important
+and challenging task in medical image analysis. while many advancements have
+been made, there is room for continued improvements. one hurdle is that ct
+images can exhibit high noise and low contrast, particularly in lower dosages.
+to address this, we focus on a preprocessing method for ct images that uses
+stacked generative adversarial networks (sgan) approach. the first gan reduces
+the noise in the ct image and the second gan generates a higher resolution
+image with enhanced boundaries and high contrast. to make up for the absence of
+high quality ct images, we detail how to synthesize a large number of low- and
+high-quality natural images and use transfer learning with progressively larger
+amounts of ct images. we apply both the classic grabcut method and the modern
+holistically nested network (hnn) to lesion segmentation, testing whether sgan
+can yield improved lesion segmentation. experimental results on the deeplesion
+dataset demonstrate that the sgan enhancements alone can push grabcut
+performance over hnn trained on original images. we also demonstrate that hnn +
+sgan performs best compared against four other enhancement methods, including
+when using only a single gan.

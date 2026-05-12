@@ -1,0 +1,10 @@
+in this paper, we introduce the use of a personalized gaussian process model
+(pgp) to predict the key metrics of alzheimer's disease progression (mmse,
+adas-cog13, cdrsb and cs) based on each patient's previous visits. we start by
+learning a population-level model using multi-modal data from previously seen
+patients using the base gaussian process (gp) regression. then, this model is
+adapted sequentially over time to a new patient using domain adaptive gps to
+form the patient's pgp. we show that this new approach, together with an
+auto-regressive formulation, leads to significant improvements in forecasting
+future clinical status and cognitive scores for target patients when compared
+to modeling the population with traditional gps.

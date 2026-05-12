@@ -1,0 +1,9 @@
+annotation errors can significantly hurt classifier performance, yet datasets
+are only growing noisier with the increased use of amazon mechanical turk and
+techniques like distant supervision that automatically generate labels. in this
+paper, we present a robust extension of logistic regression that incorporates
+the possibility of mislabelling directly into the objective. our model can be
+trained through nearly the same means as logistic regression, and retains its
+efficiency on high-dimensional datasets. through named entity recognition
+experiments, we demonstrate that our approach can provide a significant
+improvement over the standard model when annotation errors are present.

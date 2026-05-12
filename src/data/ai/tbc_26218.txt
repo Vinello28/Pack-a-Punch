@@ -1,0 +1,13 @@
+the random forest algorithm, proposed by l. breiman in 2001, has been
+extremely successful as a general-purpose classification and regression method.
+the approach, which combines several randomized decision trees and aggregates
+their predictions by averaging, has shown excellent performance in settings
+where the number of variables is much larger than the number of observations.
+moreover, it is versatile enough to be applied to large-scale problems, is
+easily adapted to various ad-hoc learning tasks, and returns measures of
+variable importance. the present article reviews the most recent theoretical
+and methodological developments for random forests. emphasis is placed on the
+mathematical forces driving the algorithm, with special attention given to the
+selection of parameters, the resampling mechanism, and variable importance
+measures. this review is intended to provide non-experts easy access to the
+main ideas.

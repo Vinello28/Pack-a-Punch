@@ -1,0 +1,8 @@
+background
+stability is one of the most fundamental intrinsic characteristics of proteins and can be determined with various methods. characterization of protein properties does not keep pace with increase in new sequence data and therefore even basic properties are not known for far majority of identified proteins. there have been some attempts to develop predictors for protein stabilities; however, they have suffered from small numbers of known examples.
+
+results
+we took benefit of results from a recently developed cellular stability method, which is based on limited proteolysis and mass spectrometry, and developed a machine learning method using gradient boosting of regression trees. protstab method has high performance and is well suited for large scale prediction of protein stabilities.
+
+conclusions
+the pearson’s correlation coefficient was 0.793 in 10-fold cross validation and 0.763 in independent blind test. the corresponding values for mean absolute error are 0.024 and 0.036, respectively. comparison with a previously published method indicated protstab to have superior performance. we used the method to predict stabilities of all the remaining proteins in the entire human proteome and then correlated the predicted stabilities to protein chain lengths of isoforms and to localizations of proteins.

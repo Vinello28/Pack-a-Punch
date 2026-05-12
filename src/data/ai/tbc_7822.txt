@@ -1,1 +1,15 @@
-1.RACCOLTA DEI DATI: IN QUESTA FASE  Ãˆ NECESSARIO ANALIZZARE UN AMPIO SET DI DATI DI ADDESTRAMENTO CONTENENTE IMMAGINI DI ETICHETTE DI INDUMENTI DI SECONDA MANO.  2.PREPROCESSING DEI DATI: UNA VOLTA RACCOLTI I DATI  Ãˆ NECESSARIO ESEGUIRE UN PROCESSO DI PREPROCESSING.  3.ETICHETTATURA DEI DATI: OGNI IMMAGINE NEL DATASET DI ADDESTRAMENTO DEVE ESSERE ETICHETTATA CON IL CORRISPONDENTE TESTO PRESENTE SULL'ETICHETTA DELL'INDUMENTO 4.SCELTA DELL'ALGORITMO DI MACHINE LEARNING: ESISTONO DIVERSI ALGORITMI DI MACHINE LEARNING CHE POSSONO ESSERE UTILIZZATI PER IL RICONOSCIMENTO DEL TESTO  COME AD ESEMPIO RETI NEURALI CONVOLUZIONALI (CNN) O RETI NEURALI RICORRENTI (RNN) CON MECCANISMI DI ATTENZIONE 5.ADDESTRAMENTO DEL MODELLO: UTILIZZANDO IL DATASET DI ADDESTRAMENTO ETICHETTATO  SI PROCEDE ALL'ADDESTRAMENTO DEL MODELLO DI MACHINE LEARNING 6.VALIDAZIONE E OTTIMIZZAZIONE: DOPO L'ADDESTRAMENTO  IL MODELLO DEVE ESSERE VALIDATO UTILIZZANDO UN  DATASET DI VALIDAZIONE SEPARATO  AL FINE DI VALUTARNE LE PRESTAZIONI E IDENTIFICARE EVENTUALI PROBLEMI COME L'OVERFITTING 7.TEST E VALUTAZIONE: UNA VOLTA CHE IL MODELLO Ãˆ STATO ADDESTRATO E VALIDATO  Ãˆ IMPORTANTE TESTARLO SU UN DATASET DI TEST INDIPENDENTE PER VALUTARNE LE PRESTAZIONI IN CONDIZIONI REALI 8.DEPLOY E INTEGRAZIONE 9.MONITORAGGIO E AGGIORNAMENT
+loading the containers on the ship from a yard, is an impor- tant part of
+port operations. finding the optimal sequence for the loading of containers, is
+known to be computationally hard and is an example of combinatorial
+optimization, which leads to the application of simple heuristics in practice.
+in this paper, we propose an approach which uses a mix of evolutionary
+strategies and reinforcement learning (rl) tech- niques to find an
+approximation of the optimal solution. the rl based agent uses the policy
+gradient method, an evolutionary reward strategy and a pool of good
+(not-optimal) solutions to find the approximation. we find that the rl agent
+learns near-optimal solutions that outperforms the heuristic solutions. we also
+observe that the rl agent assisted with a pool generalizes better for unseen
+problems than an rl agent without a pool. we present our results on synthetic
+data as well as on subsets of real-world problems taken from container
+terminal. the results validate that our approach does comparatively better than
+the heuristics solutions available, and adapts to unseen problems better.

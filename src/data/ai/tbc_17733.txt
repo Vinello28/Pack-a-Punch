@@ -1,1 +1,16 @@
-Il progetto ha come obiettivo Il progetto svilupper risultati fondazionali nel campo dell'Intelligenza Artificiale distribuita e spiegabile. Investigher l interazione di singoli modelli di IA locale di singoli utenti in un ecosistema a larga scala distribuito e human-centric.
+we theoretically discuss why deep neural networks (dnns) performs better than
+other models in some cases by investigating statistical properties of dnns for
+non-smooth functions. while dnns have empirically shown higher performance than
+other standard methods, understanding its mechanism is still a challenging
+problem. from an aspect of the statistical theory, it is known many standard
+methods attain the optimal rate of generalization errors for smooth functions
+in large sample asymptotics, and thus it has not been straightforward to find
+theoretical advantages of dnns. this paper fills this gap by considering
+learning of a certain class of non-smooth functions, which was not covered by
+the previous theory. we derive the generalization error of estimators by dnns
+with a relu activation, and show that convergence rates of the generalization
+by dnns are almost optimal to estimate the non-smooth functions, while some of
+the popular models do not attain the optimal rate. in addition, our theoretical
+result provides guidelines for selecting an appropriate number of layers and
+edges of dnns. we provide numerical experiments to support the theoretical
+results.

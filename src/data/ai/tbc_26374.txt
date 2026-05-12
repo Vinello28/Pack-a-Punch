@@ -1,0 +1,15 @@
+in this article we present an approach that enables joint wind speed and wind
+power forecasts for a wind park. we combine a multivariate seasonal time
+varying threshold autoregressive moving average (tvarma) model with a power
+threshold generalized autoregressive conditional heteroscedastic (power-tgarch)
+model. the modeling framework incorporates diurnal and annual periodicity
+modeling by periodic b-splines, conditional heteroscedasticity and a complex
+autoregressive structure with non-linear impacts. in contrast to usually
+time-consuming estimation approaches as likelihood estimation, we apply a
+high-dimensional shrinkage technique. we utilize an iteratively re-weighted
+least absolute shrinkage and selection operator (lasso) technique. it allows
+for conditional heteroscedasticity, provides fast computing times and
+guarantees a parsimonious and regularized specification, even though the
+parameter space may be vast. we are able to show that our approach provides
+accurate forecasts of wind power at a turbine-specific level for forecasting
+horizons of up to 48 h (short- to medium-term forecasts).

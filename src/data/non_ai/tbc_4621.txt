@@ -1,4 +1,0 @@
-In linea con il Chips Act della UE e ECS SRIA, ATHENA mira a potenziare
-l'economia europea nelle tecnologie di imaging ad alta tecnologia attraverso l'utilizzo di tecnologie 3D di
-stacking, la stretta integrazione sensori-processori, funzionalità multimodali 2D/3D, produzione di µbolometri
-LWIR su wafer CMOS da 200 mm a 300 mm.

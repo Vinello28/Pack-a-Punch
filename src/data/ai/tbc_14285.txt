@@ -1,0 +1,1 @@
+we propose an accurate numerical scheme for approximating the solution of the two dimensional acoustic wave problem. we use machine learning to find a stencil suitable even in the presence of high wavenumbers. the proposed scheme incorporates physically informed elements from the field of optimized numerical schemes into a convolutional optimization machine learning algorithm.

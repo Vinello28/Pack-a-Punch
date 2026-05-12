@@ -1,0 +1,10 @@
+parametric approaches to learning, such as deep learning (dl), are highly
+popular in nonlinear regression, in spite of their extremely difficult training
+with their increasing complexity (e.g. number of layers in dl). in this paper,
+we present an alternative semi-parametric framework which foregoes the
+ordinarily required feedback, by introducing the novel idea of geometric
+regularization. we show that certain deep learning techniques such as residual
+network (resnet) architecture are closely related to our approach. hence, our
+technique can be used to analyze these types of deep learning. moreover, we
+present preliminary results which confirm that our approach can be easily
+trained to obtain complex structures.

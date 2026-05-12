@@ -1,13 +1,1 @@
-Sistema di gestione schede tecniche di riparazione e assistenza camper. Informatizzazione schede con sistema analisi dati con algoritmi di intelligenza artificiale e iOT  per:
-- migliorare la gestione interna distribuendo i carichi di lavoro in base allo stato dell'arte e alle previsioni di carico integrando i processi aziendali con lo sviluppo digitale
-- effettuare manutenzione predittiva elaborando le informazioni provenienti dalle schede
-- evidenziare incidenze principali settori di guasto migliorando la gestione delle forniture
-- coinvolgere l'utente con interfacce di comunicazione smart veicolate dal sito web esistente
-- progettare l'installazione di device IoT sui veicoli commercializzati per la comunicazione diretta tra veicoli e centro di manutenzione
-Digital marketing: sistema di ottimizzazione ricerca di nuovi clienti e gestione clienti attuali
-- analisi e sistematizzazione correnti sistemi raccolta dati
-- ottimizzazione gestione dati, anche attraverso la costruzione di nuove basi dati
-- applicazione nuovi metodi organizzativi pratiche commerciali:
-- installazione CRM
-- interfacciamento CRM / sito web per la raccolta lead
-- interfacciamento CRM / sito web per la costruzione nuove interfacce di comunicazione (chatbot, sistemi di instradamento delle richieste
+GLI STRUMENTI DI PATIENT REPORTED OUTCOME (LETTERALMENTE ESITO COMUNICATO DAL PAZIENTE ) SONO UN AUSILIO IMPORTANTE SIA PER IL PAZIENTE CHE PER IL MEDICO CHE LO CURA PERCH PERMETTONO DI REGISTRARE L ESPERIENZA IN DATI MISURABILI CONFRONTABILI E UTILIZZABILI NEL PROCESSO DI INDIVIDUAZIONE DI UNA CURA O DI VALUTAZIONE DELLA SUA EFFICACIA. IL PROGETTO VUOLE FACILITARE LA COMUNICAZIONE E LO SCAMBIO DI INFORMAZIONI TRA MEDICI E PAZIENTI OFFRENDO UNA SERIE DI FUNZIONALIT CHE SUPPORTANO E PROMUOVONO IL DIALOGO DA REMOTO E LA CONDIVISIONE SICURA DI INFORMAZIONI UTILI PER IL MONITORAGGIO NEL TEMPO DELLE CONDIZIONI DI SALUTE E DEL BENESSERE EMOTIVO. IL SISTEMA DI RACCOLTA DEI DATI COSTITUITO DA UN APPLICAZIONE MOBILE CHE I PAZIENTI POTRANNO SCARICARE SUI LORO DISPOSITIVI. L APPLICAZIONE SI INTEGRER CON PRODOTTI E SERVIZI DI TERZE PARTI COME PER ESEMPIO DISPOSITIVI MEDICI O FITNESS TRACKER. UN MOTORE DI INTELLIGENZA ARTIFICIALE METTER IN RELAZIONE LE INFORMAZIONI RACCOLTE E SULLA BASE DI GRIGLIE DI VALUTAZIONE E SCHEMI INTERPRETATIVI DEFINITI DAL COMITATO SCIENTIFICO DEL PROGETTO GENERER PER IL PAZIENTE DEI RESOCONTI OBIETTIVI BASATI SUI DATI CHE POTRANNO ESSERE CONDIVISI CON IL MEDICO O USATI IN MANIERA AUTONOMA PER MONITORARE LA PROPRIA CONDIZIONE.

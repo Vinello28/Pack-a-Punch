@@ -1,2 +1,1 @@
-Con il progetto l'azienda prevede di sviluppare delle funzioni aggiuntive sul back office aziendale cloud per poter implementare nuove funzioni di gestione delle spedizioni attraverso i pony (principale utilizzo del software proprietario).
-Il progetto mirerà a dotare il portale di funzioni di dati export e comunicazione con applicazioni di data analisys google e altre piattaforme di business intelligence.
+L obiettivo principale quindi quello di irrobustire (hardening) i moduli AI in modo completamente automatizzato e schedulabile fornendo una reportistica dettagliata con rischi e vulnerabilit identificate.

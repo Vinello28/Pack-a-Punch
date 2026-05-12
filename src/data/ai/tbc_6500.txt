@@ -1,0 +1,14 @@
+despite the popularity of deep learning, structure learning for deep models
+remains a relatively under-explored area. in contrast, structure learning has
+been studied extensively for probabilistic graphical models (pgms). in
+particular, an efficient algorithm has been developed for learning a class of
+tree-structured pgms called hierarchical latent tree models (hltms), where
+there is a layer of observed variables at the bottom and multiple layers of
+latent variables on top. in this paper, we propose a simple method for learning
+the structures of feedforward neural networks (fnns) based on hltms. the idea
+is to expand the connections in the tree skeletons from hltms and to use the
+resulting structures for fnns. an important characteristic of fnn structures
+learned this way is that they are sparse. we present extensive empirical
+results to show that, compared with standard fnns tuned-manually, sparse fnns
+learned by our method achieve better or comparable classification performance
+with much fewer parameters. they are also more interpretable.

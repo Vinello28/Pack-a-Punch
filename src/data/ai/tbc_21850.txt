@@ -1,0 +1,15 @@
+edge detection is a critical component of many vision systems, including
+object detectors and image segmentation algorithms. patches of edges exhibit
+well-known forms of local structure, such as straight lines or t-junctions. in
+this paper we take advantage of the structure present in local image patches to
+learn both an accurate and computationally efficient edge detector. we
+formulate the problem of predicting local edge masks in a structured learning
+framework applied to random decision forests. our novel approach to learning
+decision trees robustly maps the structured labels to a discrete space on which
+standard information gain measures may be evaluated. the result is an approach
+that obtains realtime performance that is orders of magnitude faster than many
+competing state-of-the-art approaches, while also achieving state-of-the-art
+edge detection results on the bsds500 segmentation dataset and nyu depth
+dataset. finally, we show the potential of our approach as a general purpose
+edge detector by showing our learned edge models generalize well across
+datasets.

@@ -1,0 +1,1 @@
+generative adversarial network (gan) is a useful type of neural networks in various types of applications including generative models and feature extraction. various types of gans are being researched with different insights, resulting in a diverse family of gans with a better performance in each generation. this review focuses on various gans categorized by their common traits.

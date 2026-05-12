@@ -1,0 +1,13 @@
+the authors present empirical distributions for the halting time (measured by
+the number of iterations to reach a given accuracy) of optimization algorithms
+applied to two random systems: spin glasses and deep learning. given an
+algorithm, which we take to be both the optimization routine and the form of
+the random landscape, the fluctuations of the halting time follow a
+distribution that, after centering and scaling, remains unchanged even when the
+distribution on the landscape is changed. we observe two qualitative classes: a
+gumbel-like distribution that appears in google searches, human decision times,
+the qr eigenvalue algorithm and spin glasses, and a gaussian-like distribution
+that appears in conjugate gradient method, deep network with mnist input data
+and deep network with random input data. this empirical evidence suggests
+presence of a class of distributions for which the halting time is independent
+of the underlying distribution under some conditions.

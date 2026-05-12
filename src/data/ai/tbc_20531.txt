@@ -1,0 +1,19 @@
+determination of protein concentration in often an absolute pre-requisite in
+preparing samples for biochemical and proteomic analyses. however, current
+protein assay methods are not compatible with both reducers and detergents,
+which are however present simultaneously in most denaturing extraction buffers
+used in proteomics and electrophoresis, and in particular in sds
+electrophoresis. we found that inclusion of cyclodextrins in a coomassie
+blue-based assay made it compatible with detergents, as cyclodextrins complex
+detergents in a 1:1 molecular ratio. as this type of assay is intrinsically
+resistant to reducers, we have thus developed a single step assay that is both
+detergent and reducer compatible. depending on the type and concentration of
+detergents present in the sample buffer, either beta-cyclodextrin or
+alpha-cyclodextrin can be used, the former being able to complex a wider range
+of detergents and the latter being able to complex higher amounts of detergents
+due to its greater solubility in water. cyclodextrins are used at final
+concentrations of 2-10 mg/ml in the assay mix. this typically allows to measure
+samples containing as little as 0.1 mg/ml protein, in the presence of up to 2%
+detergent and reducers such as 5 % mercaptoethanol or 50 mm dtt in a single
+step with a simple spectrophotometric assay. this article is protected by
+copyright. all rights reserved.

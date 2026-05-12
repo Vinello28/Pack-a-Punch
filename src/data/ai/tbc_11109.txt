@@ -1,1 +1,18 @@
-this paper introduces a modified variational autoencoder (vaes) that contains an additional neural network branch. the resulting branched vae (bvae) contributes a classification component based on the class labels to the total loss and therefore imparts categorical information to the latent representation. as a result, the latent space distributions of the input classes are separated and ordered, thereby enhancing the classification accuracy. the degree of improvement is quantified by numerical calculations employing the benchmark mnist dataset for both unrotated and rotated digits. the proposed technique is then compared to and then incorporated into a vae with fixed output distributions. this procedure is found to yield improved performance for a wide range of output distributions.
+a key question in modern statistics is how to make fast and reliable
+inferences for complex, high-dimensional data. while there has been much
+interest in sparse techniques, current methods do not generalize well to data
+with nonlinear structure. in this work, we present an orthogonal series
+estimator for predictors that are complex aggregate objects, such as natural
+images, galaxy spectra, trajectories, and movies. our series approach ties
+together ideas from kernel machine learning, and fourier methods. we expand the
+unknown regression on the data in terms of the eigenfunctions of a kernel-based
+operator, and we take advantage of orthogonality of the basis with respect to
+the underlying data distribution, p, to speed up computations and tuning of
+parameters. if the kernel is appropriately chosen, then the eigenfunctions
+adapt to the intrinsic geometry and dimension of the data. we provide
+theoretical guarantees for a radial kernel with varying bandwidth, and we
+relate smoothness of the regression function with respect to p to sparsity in
+the eigenbasis. finally, using simulated and real-world data, we systematically
+compare the performance of the spectral series approach with classical kernel
+smoothing, k-nearest neighbors regression, kernel ridge regression, and
+state-of-the-art manifold and local regression methods.

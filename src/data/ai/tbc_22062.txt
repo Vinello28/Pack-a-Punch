@@ -1,0 +1,10 @@
+low-cost consumer depth cameras and deep learning have enabled reasonable 3d
+hand pose estimation from single depth images. in this paper, we present an
+approach that estimates 3d hand pose from regular rgb images. this task has far
+more ambiguities due to the missing depth information. to this end, we propose
+a deep network that learns a network-implicit 3d articulation prior. together
+with detected keypoints in the images, this network yields good estimates of
+the 3d pose. we introduce a large scale 3d hand pose dataset based on synthetic
+hand models for training the involved networks. experiments on a variety of
+test sets, including one on sign language recognition, demonstrate the
+feasibility of 3d hand pose estimation on single color images.

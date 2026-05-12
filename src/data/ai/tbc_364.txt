@@ -1,6 +1,0 @@
-Creazione di macchina dedicata con a bordo il DB Mongo funzionale alla creazione di una base dati unica finalizzata a raccogliere le informazioni sugli utenti dell¿ecommerce tonki.com.
-Dopo aver predisposto la collection si devono implementare scripts che prendono le informazioni dal sistema di ecommerce e popolano la nuova base dati.
-Integrazione con sistemi di intelligenza artificiale in grado di eseguire il riconoscimento di ciascuna immagine che il sito riceve e restituire keyword utili a categorizzare l¿utente.
-Ceazione di query in grado di analizzare la grande mole di dati raccolti.
-Integrazione con servizi che consentono la lettura dei dati estrapolati.
-Allineamento tra sito e App iOS e Android in modo che tutti i dispositivi siano in grado di raccogliere gli stessi dati.

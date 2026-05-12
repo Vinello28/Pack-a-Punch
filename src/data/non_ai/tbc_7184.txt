@@ -1,1 +1,1 @@
-Il progetto H2SAM mira a sviluppare un'ingegneria avanzata per tecnologie innovative di separazione di idrogeno a bassa emissione di carbonio dal syngas generato attraverso processi di gassificazione delle biomasse
+Lâ€™obiettivo del progetto HPS4MAN Ã¨ realizzare il prototipo di una postazione di robotica collaborativa â€œsmartâ€ in grado di adattarsi in tempo reale alle caratteristiche e alle necessitÃ  dellâ€™operatore  alle condizioni dellâ€™ambiente e al processo produttiv

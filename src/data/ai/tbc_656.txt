@@ -1,4 +1,0 @@
-Holistic Attack Prevention System (H.A.P.S.) prevede attività di ricerca e sviluppo di una soluzione di cyber defense in grado di predire possibili vulnerabilità di applicazioni
-critiche e attacchi cyber, migliorando l’efficacia delle attuali pratiche. La soluzione si propone di collazionare e mettere in relazione tra loro varie tipologie di dati, quali i dati
-generati dall’analisi del codice sorgente di applicazioni critiche, log di sistema e applicativi, dati generati da azioni di mitigazione poste già in essere. Attraverso tecniche di
-machine learning, standard e metodi del Web Semantico e sfruttando tecnologie big data, saremo in grado di classificare e predire tipologie di attacchi e vulnerabilità fornendo alert tempestivi.

@@ -1,0 +1,28 @@
+deep learning has achieved great success in process-
+ing large size medical images such as histopathology slides.
+however, conventional deep learning methods cannot han-
+dle the enormous image sizes; instead, they split the im-
+age into patches which are exhaustively processed, usually
+through multi-instance learning approaches. moreover and
+especially in histopathology, determining the most appro-
+priate magnification to generate these patches is also ex-
+haustive: a model needs to traverse all the possible magnifi-
+cations to select the optimal one. these limitations make the
+application of deep learning on large medical images and
+in particular histopathological images markedly inefficient.
+to tackle these problems, we propose a novel spatial and
+magnification based attention sampling strategy. first, we
+use a down-sampled large size image to estimate an atten-
+tion map that represents a spatial probability distribution
+of informative patches at different magnifications. then a
+small number of patches are cropped from the large size
+medical image at certain magnifications based on the ob-
+tained attention. the final label of the large size image is
+predicted solely by these patches using an end-to-end train-
+ing strategy. our experiments on two different histopathol-
+ogy datasets, the publicly available bach and a subset of
+the tcga-prad dataset, demonstrate that the proposed
+method runs 2.5 times faster with automatic magnification
+selection in training and at least 1.6 times faster than us-
+ing all patches in inference as the most of state-of-the-art
+methods do, without loosing in performance.

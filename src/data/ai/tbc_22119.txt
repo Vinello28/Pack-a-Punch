@@ -1,0 +1,17 @@
+this work constructs a hypothesis test for detecting whether an
+data-generating function $h: r^p \rightarrow r$ belongs to a specific
+reproducing kernel hilbert space $\mathcal{h}_0$ , where the structure of
+$\mathcal{h}_0$ is only partially known. utilizing the theory of reproducing
+kernels, we reduce this hypothesis to a simple one-sided score test for a
+scalar parameter, develop a testing procedure that is robust against the
+mis-specification of kernel functions, and also propose an ensemble-based
+estimator for the null model to guarantee test performance in small samples. to
+demonstrate the utility of the proposed method, we apply our test to the
+problem of detecting nonlinear interaction between groups of continuous
+features. we evaluate the finite-sample performance of our test under different
+data-generating functions and estimation strategies for the null model. our
+results reveal interesting connections between notions in machine learning
+(model underfit/overfit) and those in statistical inference (i.e. type i
+error/power of hypothesis test), and also highlight unexpected consequences of
+common model estimating strategies (e.g. estimating kernel hyperparameters
+using maximum likelihood estimation) on model inference.

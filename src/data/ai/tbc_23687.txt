@@ -1,0 +1,20 @@
+fast magnetic resonance imaging (mri) is highly in demand for many clinical
+applications in order to reduce the scanning cost and improve the patient
+experience. this can also potentially increase the image quality by reducing
+the motion artefacts and contrast washout. however, once an image field of view
+and the desired resolution are chosen, the minimum scanning time is normally
+determined by the requirement of acquiring sufficient raw data to meet the
+nyquist-shannon sampling criteria. compressive sensing (cs) theory has been
+perfectly matched to the mri scanning sequence design with much less required
+raw data for the image reconstruction. inspired by recent advances in deep
+learning for solving various inverse problems, we propose a conditional
+generative adversarial networks-based deep learning framework for de-aliasing
+and reconstructing mri images from highly undersampled data with great promise
+to accelerate the data acquisition process. by coupling an innovative content
+loss with the adversarial loss our de-aliasing results are more realistic.
+furthermore, we propose a refinement learning procedure for training the
+generator network, which can stabilise the training with fast convergence and
+less parameter tuning. we demonstrate that the proposed framework outperforms
+state-of-the-art cs-mri methods, in terms of reconstruction error and
+perceptual image quality. in addition, our method can reconstruct each image in
+0.22ms--0.37ms, which is promising for real-time applications.

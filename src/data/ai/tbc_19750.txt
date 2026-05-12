@@ -1,0 +1,17 @@
+affinity propagation is one of the most effective unsupervised pattern
+recognition algorithms for data clustering in high-dimensional feature space.
+however, the numerous attempts to test its performance for community detection
+in complex networks have been attaining results very far from the state of the
+art methods such as infomap and louvain. yet, all these studies agreed that the
+crucial problem is to convert the unweighted network topology in a
+'smart-enough' node dissimilarity matrix that is able to properly address the
+message passing procedure behind affinity propagation clustering. here we
+introduce a conceptual innovation and we discuss how to leverage network latent
+geometry notions in order to design dissimilarity matrices for affinity
+propagation community detection. our results demonstrate that the latent
+geometry inspired dissimilarity measures we design bring affinity propagation
+to equal or outperform current state of the art methods for community
+detection. these findings are solidly proven considering both synthetic
+'realistic' networks (with known ground-truth communities) and real networks
+(with community metadata), even when the data structure is corrupted by noise
+artificially induced by missing or spurious connectivity.

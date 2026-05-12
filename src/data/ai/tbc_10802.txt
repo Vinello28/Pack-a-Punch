@@ -1,1 +1,7 @@
-ai methods have been proven to yield impressive performance on android malware detection. however, most ai-based methods make predictions of suspicious samples in a black-box manner without transparency on models' inference. the expectation on models' explainability and transparency by cyber security and ai practitioners to assure the trustworthiness increases. in this article, we present a novel model-agnostic explanation method for ai models applied for android malware detection. our proposed method identifies and quantifies the data features relevance to the predictions by two steps: i) data perturbation that generates the synthetic data by manipulating features' values; and ii) optimization of features attribution values to seek significant changes of prediction scores on the perturbed data with minimal feature values changes. the proposed method is validated by three experiments. we firstly demonstrate that our proposed model explanation method can aid in discovering how ai models are evaded by adversarial samples quantitatively. in the following experiments, we compare the explainability and fidelity of our proposed method with state-of-the-arts, respectively.
+we study and compare the human visual system and state-of-the-art deep neural
+networks on classification of distorted images. different from previous works,
+we limit the display time to 100ms to test only the early mechanisms of the
+human visual system, without allowing time for any eye movements or other
+higher level processes. our findings show that the human visual system still
+outperforms modern deep neural networks under blurry and noisy images. these
+findings motivate future research into developing more robust deep networks.

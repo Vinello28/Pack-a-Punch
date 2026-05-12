@@ -1,0 +1,19 @@
+image based localization is one of the important problems in computer vision
+due to its wide applicability in robotics, augmented reality, and autonomous
+systems. there is a rich set of methods described in the literature how to
+geometrically register a 2d image w.r.t.\ a 3d model. recently, methods based
+on deep (and convolutional) feedforward networks (cnns) became popular for pose
+regression. however, these cnn-based methods are still less accurate than
+geometry based methods despite being fast and memory efficient. in this work we
+design a deep neural network architecture based on sparse feature descriptors
+to estimate the absolute pose of an image. our choice of using sparse feature
+descriptors has two major advantages: first, our network is significantly
+smaller than the cnns proposed in the literature for this task---thereby making
+our approach more efficient and scalable. second---and more importantly---,
+usage of sparse features allows to augment the training data with synthetic
+viewpoints, which leads to substantial improvements in the generalization
+performance to unseen poses. thus, our proposed method aims to combine the best
+of the two worlds---feature-based localization and cnn-based pose
+regression--to achieve state-of-the-art performance in the absolute pose
+estimation. a detailed analysis of the proposed architecture and a rigorous
+evaluation on the existing datasets are provided to support our method.

@@ -1,0 +1,16 @@
+many recent models study the downstream projection from grid cells to place
+cells, while recent data has pointed out the importance of the feedback
+projection. we thus asked how grid cells are affected by the nature of the
+input from the place cells. we propose a two-layered neural network with
+feedforward weights connecting place-like input cells to grid cell outputs.
+place-to-grid weights were learned via a generalized hebbian rule. the
+architecture of this network highly resembles neural networks used to perform
+principal component analysis (pca). our results indicate that if the components
+of the feedforward neural network were non-negative, the output converged to a
+hexagonal lattice. without the non-negativity constraint the output converged
+to a square lattice. consistent with experiments, grid alignment to walls was
+~7{\deg} and grid spacing ratio between consecutive modules was ~1.4. our
+results express a possible linkage between place-cell to grid-cell interactions
+and pca, suggesting that grid cells represent a process of constrained
+dimensionality reduction that can be viewed also as a process of variance
+maximization of the information from place-cells.

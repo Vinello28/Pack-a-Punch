@@ -1,5 +1,1 @@
-Il progetto prevede l'innovazione tecnologica nei processi produttivi e aziendali dell'azienda Campo d'Oro con il rilevamento dei dati di produzione, valori dei beni acquistati e venduti, analisi predittiva e scienza dei numeri.
-Aredi di intervento 1: trasformazione tecnologica e digitale
-- Tecnologia abilitante: Big Data e Analiytics
-- Tecnologia abilitante: Cloud computing
-- Tecnologia abilitante: Interfaccia Uomo Macchina
+Il progetto di innovazione digitale riguarda una modernizzazione dell'organizzazione aziendale in termini di gestione e di pianificazione dei lavori attraverso l'utilizzo di nuovi strumenti tecnologici e nuove tecnologie hardware che consentono una piÃ¹ rapida  efficiente ed evoluta tecnica di organizzazione dei lavori relativi ai cantieri oggetto dell'attivitÃ  dell'impresa.

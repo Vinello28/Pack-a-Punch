@@ -1,0 +1,17 @@
+successful training of convolutional neural networks is often associated with
+sufficiently deep architectures composed of high amounts of features. these
+networks typically rely on a variety of regularization and pruning techniques
+to converge to less redundant states. we introduce a novel bottom-up approach
+to expand representations in fixed-depth architectures. these architectures
+start from just a single feature per layer and greedily increase width of
+individual layers to attain effective representational capacities needed for a
+specific task. while network growth can rely on a family of metrics, we propose
+a computationally efficient version based on feature time evolution and
+demonstrate its potency in determining feature importance and a networks'
+effective capacity. we demonstrate how automatically expanded architectures
+converge to similar topologies that benefit from lesser amount of parameters or
+improved accuracy and exhibit systematic correspondence in representational
+complexity with the specified task. in contrast to conventional design patterns
+with a typical monotonic increase in the amount of features with increased
+depth, we observe that cnns perform better when there is more learnable
+parameters in intermediate, with falloffs to earlier and later layers.

@@ -1,0 +1,12 @@
+the growing popularity of big data and internet of things (iot) applications
+bring new challenges to the wireless communication community. wireless
+transmission systems should more efficiently support the large amount of data
+traffics from diverse types of information sources. in this article, we
+introduce a novel data-oriented approach for the design and optimization of
+wireless transmission strategies. specifically, we define new performance
+metrics for individual data transmission session and apply them to compare two
+popular channel-adaptive transmission strategies. we develop several
+interesting and somewhat counterintuitive observations on these transmission
+strategies, which would not be possible with conventional approach. we also
+present several interesting future research directions that are worth pursuing
+with the data-oriented approach.

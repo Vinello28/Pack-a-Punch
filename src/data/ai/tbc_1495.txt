@@ -1,0 +1,11 @@
+in this work we propose a methodology for an automatic food classification
+system which recognizes the contents of the meal from the images of the food.
+we developed a multi-layered deep convolutional neural network (cnn)
+architecture that takes advantages of the features from other deep networks and
+improves the efficiency. numerous classical handcrafted features and approaches
+are explored, among which cnns are chosen as the best performing features.
+networks are trained and fine-tuned using preprocessed images and the filter
+outputs are fused to achieve higher accuracy. experimental results on the
+largest real-world food recognition database eth food-101 and newly contributed
+indian food image database demonstrate the effectiveness of the proposed
+methodology as compared to many other benchmark deep learned cnn frameworks.

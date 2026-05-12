@@ -1,1 +1,16 @@
-Analisi dei dati estratti dalla piattaforma per interpretare e correlare le variabili con le metriche di interesse mediante tecniche innovative. Studio di fattibilit e test di un modello LLM out-of-the-shelf per la possibile implementazione di un sistema in grado di interrogare i dati estratti dalla piattaforma proprietaria di Komete.
+current dialogue systems focus more on textual and speech context knowledge
+and are usually based on two speakers. some recent work has investigated static
+image-based dialogue. however, several real-world human interactions also
+involve dynamic visual context (similar to videos) as well as dialogue
+exchanges among multiple speakers. to move closer towards such multimodal
+conversational skills and visually-situated applications, we introduce a new
+video-context, many-speaker dialogue dataset based on live-broadcast soccer
+game videos and chats from twitch.tv. this challenging testbed allows us to
+develop visually-grounded dialogue models that should generate relevant
+temporal and spatial event language from the live video, while also being
+relevant to the chat history. for strong baselines, we also present several
+discriminative and generative models, e.g., based on tridirectional attention
+flow (tridaf). we evaluate these models via retrieval ranking-recall, automatic
+phrase-matching metrics, as well as human evaluation studies. we also present
+dataset analyses, model ablations, and visualizations to understand the
+contribution of different modalities and model components.

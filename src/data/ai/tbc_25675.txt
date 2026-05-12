@@ -1,0 +1,25 @@
+in this paper, we use a well-known deep learning technique called long short
+term memory (lstm) recurrent neural networks to find sessions that are prone to
+code failure in applications that rely on telemetry data for system health
+monitoring. we also use lstm networks to extract telemetry patterns that lead
+to a specific code failure. for code failure prediction, we treat the telemetry
+events, sequence of telemetry events and the outcome of each sequence as words,
+sentence and sentiment in the context of sentiment analysis, respectively. our
+proposed method is able to process a large set of data and can automatically
+handle edge cases in code failure prediction. we take advantage of bayesian
+optimization technique to find the optimal hyper parameters as well as the type
+of lstm cells that leads to the best prediction performance. we then introduce
+the contributors and blockers concepts. in this paper, contributors are the set
+of events that cause a code failure, while blockers are the set of events that
+each of them individually prevents a code failure from happening, even in
+presence of one or multiple contributor(s). once the proposed lstm model is
+trained, we use a greedy approach to find the contributors and blockers. to
+develop and test our proposed method, we use synthetic (simulated) data in the
+first step. the synthetic data is generated using a number of rules for code
+failures, as well as a number of rules for preventing a code failure from
+happening. the trained lstm model shows over 99% accuracy for detecting code
+failures in the synthetic data. the results from the proposed method outperform
+the classical learning models such as decision tree and random forest. using
+the proposed greedy method, we are able to find the contributors and blockers
+in the synthetic data in more than 90% of the cases, with a performance better
+than sequential rule and pattern mining algorithms.

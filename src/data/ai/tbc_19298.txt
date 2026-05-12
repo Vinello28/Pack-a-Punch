@@ -1,0 +1,17 @@
+behavioral malware detection aims to improve on the performance of static
+signature-based techniques used by anti-virus systems, which are less effective
+against modern polymorphic and metamorphic malware. behavioral malware
+classification aims to go beyond the detection of malware by also identifying a
+malware's family according to a naming scheme such as the ones used by
+anti-virus vendors. behavioral malware classification techniques use run-time
+features, such as file system or network activities, to capture the behavioral
+characteristic of running processes. the increasing volume of malware samples,
+diversity of malware families, and the variety of naming schemes given to
+malware samples by anti-virus vendors present challenges to behavioral malware
+classifiers. we describe a behavioral classifier that uses a convolutional
+recurrent neural network and data from microsoft windows prefetch files. we
+demonstrate the model's improvement on the state-of-the-art using a large
+dataset of malware families and four major anti-virus vendor naming schemes.
+the model is effective in classifying malware samples that belong to common and
+rare malware families and can incrementally accommodate the introduction of new
+malware samples and families.

@@ -1,0 +1,4 @@
+we present and discuss a simple image preprocessing method for learning disentangled latent factors. 
+in particular, we utilize the implicit inductive bias contained in features from networks pretrained on the imagenet database. 
+we enhance this bias by explicitly fine-tuning such pretrained networks on tasks useful for the neurips2019 disentanglement challenge, such as angle and position estimation or color classification.
+furthermore, we train a vae on regionally aggregate feature maps, and discuss its disentanglement performance using metrics proposed in recent literature.

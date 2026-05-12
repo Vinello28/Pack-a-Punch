@@ -1,0 +1,9 @@
+autonomous vehicles(av) are one of the brightest promises of the future which
+would help cut down fatalities and improve travel time while working in
+harmony. autonomous vehicles will face with challenging situations and
+experiences not seen before. these experiences should be converted to knowledge
+and help the vehicle prepare better in the future. online transfer learning
+will help transferring prior knowledge to a new task and also keep the
+knowledge updated as the task evolves. this paper presents the different
+methods of transfer learning, online transfer learning and organic computing
+that could be adapted to the domain of autonomous vehicles.

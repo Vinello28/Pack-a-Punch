@@ -1,0 +1,11 @@
+nonnegative matrix factorization (nmf) methods have proved to be powerful
+across a wide range of real-world clustering applications. integrating multiple
+types of measurements for the same objects/subjects allows us to gain a deeper
+understanding of the data and refine the clustering. we have developed a novel
+graph-reguarized multiview nmf-based method for data integration called
+equinmf. the parameters for our method are set in a completely automated
+data-specific unsupervised fashion, a highly desirable property in real-world
+applications. we performed extensive and comprehensive experiments on multiview
+imaging data. we show that equinmf consistently outperforms other single-view
+nmf methods used on concatenated data and multi-view nmf methods with different
+types of regularizations.

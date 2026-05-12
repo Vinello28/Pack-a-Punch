@@ -1,1 +1,13 @@
-Vetreria Valmarecchia Srl impresa specializzata nella lavorazione di vetrocamera su misura per il settore edilizio infissi hospitality propone un progetto strategico di digitalizzazione per risolvere un punto critico del proprio processo produttivo: l inserimento ordini. Oggi gli ordini cliente arrivano via e-mail fax o WhatsApp e vengono trascritti manualmente nel gestionale ERP con elevati margini di errore che generano vetri da scartare costi evitabili e inefficienze operative. Il progetto prevede l adozione di una soluzione di intelligenza artificiale locale DocuGenie / BrainPod in grado di leggere classificare e trasformare automaticamente le richieste in file strutturati pronti per l'importazione nell ERP. L operatore assume un ruolo di supervisione riducendo errori sprechi e tempi. A completamento il sito aziendale sar rinnovato con un area riservata in cui il cliente potr consultare le conferme ordine e dialogare con un assistente AI dedicato. Il progetto si integra con strumenti digitali per newsletter blog tecnico e attivit social 1to1. Un salto verso un organizzazione pi efficiente sostenibile e moderna in cui ogni ordine chiaro ogni vetro giusto e ogni cliente si sente supportato.
+learning from small data sets is critical in many practical applications
+where data collection is time consuming or expensive, e.g., robotics, animal
+experiments or drug design. meta learning is one way to increase the data
+efficiency of learning algorithms by generalizing learned concepts from a set
+of training tasks to unseen, but related, tasks. often, this relationship
+between tasks is hard coded or relies in some other way on human expertise. in
+this paper, we frame meta learning as a hierarchical latent variable model and
+infer the relationship between tasks automatically from data. we apply our
+framework in a model-based reinforcement learning setting and show that our
+meta-learning model effectively generalizes to novel tasks by identifying how
+new tasks relate to prior ones from minimal data. this results in up to a 60%
+reduction in the average interaction time needed to solve tasks compared to
+strong baselines.

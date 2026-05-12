@@ -1,9 +1,1 @@
-L'utilizzo del cloud computing e dell'intelligenza artificiale (IA), come CoPilot, è sicuramente un potente alleato nel rafforzamento della posizione della nostra azienda. Tali tecnologie ci possono rafforzare incidendo sui seguenti aspetti:
-flessibilità e scalabilità
-riduzione dei costi IT
-accessibilità globale
-analisi predittive ed ottimizzazione
-automazione dei processi
-miglioramento dell'esperienza del cliente.
-
-Sfruttare le potenzialità del cloud, dell'intelligenza, degli hardware previsti e del nuovo sito  ci consentirà di rimanere competitive, di adattarci rapidamente alle mutevoli esigenze del mercato e di accelerare l'innovazione e la crescita aziendale. Inoltre, ci permetterà di ampliare la nostra sfera di azione a livello geografico.
+populist rhetoric employed on online media is characterized as deeply impassioned and often imbued with strong emotions. the aim of this paper is to empirically investigate the differences in affective nonverbal communication of political leaders. we use a deep-learning approach to process a sample of 220 youtube videos of political leaders from 15 different countries, analyze their facial expressions of emotion and then examine differences in average emotion scores representing the relative presence of 6 emotional states (anger, disgust, fear, happiness, sadness, and surprise) and a neutral expression for each frame of the youtube video. based on a sample of manually coded images, we find that this deep-learning approach has 53-60\% agreement with human labels. we observe statistically significant differences in the average score of negative emotions between groups of leaders with varying degrees of populist rhetoric.

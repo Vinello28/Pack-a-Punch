@@ -1,9 +1,1 @@
-Artis.shop, un'innovativa piattaforma, esalta aziende nei settori artistici, culturali, artigianali e moda, agevolando la vendita di prodotti unici e self-made. Con un sistema di dropshipping, mira a ridurre l'impatto ambientale dei trasporti, garantendo una gestione efficiente.
-
-Il nucleo del progetto è una commercio elettronico all'avanguardia, sfruttando tecnologie come App e Intelligenza Artificiale (AI) per consentire alle aziende di espandersi e consolidarsi.
-
-Tecnologie digitali all'avanguardia semplificano i processi interni. Aggiornare il catalogo è facile: gli inserzionisti utilizzano l'App "Artis" per la digitalizzazione dei prodotti, vendendoli dal proprio Smartphone. Un set fotografico itinerante di mogastudio arricchisce il catalogo con scatti di moda e opere d'arte di alta qualità.
-
-Artis.shop adotta un chatbot basato su AI, apprendimento automatico, per assistenza rapida ed efficiente, migliorando l'interazione con gli utenti.
-
-L'innovazione tecnologica si unisce al rispetto per arte, cultura e ambiente, offrendo un ambiente sostenibile per artisti, artigiani e designer. Artis.shop apre nuove opportunità nel commercio elettronico per i settori artistici e culturali.
+we use generative ai to extract managerial expectations about their economic outlook from over 120,000 corporate conference call transcripts. the overall measure, ai economy score, robustly predicts future economic indicators such as gdp growth, production, and employment, both in the short term and to 10 quarters. this predictive power is incremental to that of existing measures, including survey forecasts. moreover, industry and firm-level measures provide valuable information about sector-specific and individual firm activities. our findings suggest that managerial expectations carry unique insights about economic activities, with implications for both macroeconomic and microeconomic decision-making.

@@ -1,4 +1,1 @@
-Lo sviluppo del progetto Upsolar prevede:
-1. implementazione di un CRM (customer relationship management) per la gestione dei processi di marketing, sales e services
-2. implementazione di nuovo modulo del sofware gestionale aziendale allo scopo di sviluppare un completo controllo di gestione per commessa
-3. inserimento nuovo hardware per l'accrescimento dell produttività delle risorse interne
+SERVIZI DI PROMOZIONE TURISTICA FORNITURA DI INFROAMZIONI TURISTICHE E DI SERVIZI DI ASSISTENZA AI VISITATORI

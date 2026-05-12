@@ -1,1 +1,19 @@
-Il progetto formativo si pone lobiettivo generale di fornire al personale addetto alla comunicazione e marketing linsieme delle conoscenze abilita e competenze necessarie per comunicare efficacemente le pratiche di sostenibilita adottate in azienda. Questo approccio e fondamentale per rispondere alle crescenti esigenze dei consumatori alle normative internazionali e per valorizzare l'impegno del settore verso una viticoltura piu responsabile e un'impronta ambientale ridotta. In un contesto in cui l'adozione di nuove tecnologie (come l'intelligenza artificiale per il monitoraggio) e l'attenzione all'ambiente sono in costante crescita diventa cruciale non solo implementare pratiche sostenibili ma anche saperle raccontare. La capacita di comunicare l'impegno per la sostenibilita permette di accrescere il valore percepito del prodotto rafforzare la reputazione aziendale e creare un legame piu solido con i consumatori. A seguito del progetto formativo il personale sapra comunicare la sostenibilita in modo semplice i partecipanti impareranno a trasformare dati anche complessi e pratiche agricole in messaggi chiari e facili da raccontare. L'obiettivo e che tutti possano spiegare ...
+we present a neural model for representing snippets of code as continuous
+distributed vectors ("code embeddings"). the main idea is to represent a code
+snippet as a single fixed-length $\textit{code vector}$, which can be used to
+predict semantic properties of the snippet. this is performed by decomposing
+code to a collection of paths in its abstract syntax tree, and learning the
+atomic representation of each path $\textit{simultaneously}$ with learning how
+to aggregate a set of them. we demonstrate the effectiveness of our approach by
+using it to predict a method's name from the vector representation of its body.
+we evaluate our approach by training a model on a dataset of 14m methods. we
+show that code vectors trained on this dataset can predict method names from
+files that were completely unobserved during training. furthermore, we show
+that our model learns useful method name vectors that capture semantic
+similarities, combinations, and analogies. comparing previous techniques over
+the same data set, our approach obtains a relative improvement of over 75%,
+being the first to successfully predict method names based on a large,
+cross-project, corpus. our trained model, visualizations and vector
+similarities are available as an interactive online demo at
+http://code2vec.org. the code, data, and trained models are available at
+https://github.com/tech-srl/code2vec.

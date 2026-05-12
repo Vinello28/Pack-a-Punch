@@ -1,0 +1,8 @@
+the automation of text summarisation of biomedical publications is a pressing
+need due to the plethora of information available on-line. this paper explores
+the impact of several supervised machine learning approaches for extracting
+multi-document summaries for given queries. in particular, we compare
+classification and regression approaches for query-based extractive
+summarisation using data provided by the bioasq challenge. we tackled the
+problem of annotating sentences for training classification systems and show
+that a simple annotation approach outperforms regression-based summarisation.

@@ -1,6 +1,0 @@
-creazione di uno strumento di intelligenza artificiale in grado di indirizzare, tramite
-smartphone e di 1 app (trovamorto) chiunque abbia la necessità di individuare la posizione di
-un proprio caro estinto all¿ interno di un qualsiasi cimitero italiano. Cittadini, antenati di
-emigrati, stranieri morti in Italia nelle guerre mondiali, defunti celebri: tramite questo sistema,
-sarà possibile conoscere il luogo di sepoltura del defunto e anche la posizione esatta all¿
-interno del cimitero. il sistema quindi ti accompagnerà nel luogo cercato, evitando così lunghe e spesso infruttuose ricerche. aattualmente, NON ESISTE NIENTE DI SIMILE.

@@ -1,2 +1,0 @@
-Implementazione di una piattaforma per migliorare le prestazioni della rete vendita attraverso l'interfacciamento del personale al gestionale aziendale mediante interfaccia autonoma applicata utilizzabile mediante applicativi webserver per la connessione remota.
-Tale piattaforma prevede anche un applicativo per la misurazione delle rotazioni di vendita per il miglioramento delle attivita di gestione magazzino.

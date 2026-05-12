@@ -1,10 +1,1 @@
-SPIAGGE SRL è una startup innovativa di Rimini, leader in Italia nella digitalizzazione dei servizi balneari. La sua piattaforma consente la prenotazione online di servizi presso stabilimenti balneari, piscine e parchi acquatici. L’azienda si propone come abilitatore digitale del comparto turistico. Il progetto punta ad accrescere il livello di digitalizzazione aziendale grazie a tecnologie integrate, tra cui:
-•	Intelligenza artificiale per automatizzare i processi interni, soprattutto del reparto operations;
-•	Rinnovamento dell’app mobile con funzionalità evolute;
-•	Modulo gestionale per il ristorante, per una gestione integrata del servizio spiaggia e ristorante;
-•	Nuovo CRM per la gestione completa del ciclo cliente, dalla trattativa alla fase operativa.
-Gli obiettivi sono:
-•	Snellire i processi interni e migliorare l’efficienza;
-•	Offrire nuovi servizi digitali integrati;
-•	Ridurre l’impatto ambientale con un approccio paperless.
-I risultati attesi includono un’ottimizzazione dei costi di gestione, il miglioramento della qualità del lavoro per gli operatori, nonché una crescita delle opportunità commerciali grazie all’estensione dell’offerta ai servizi ristorativi. Il tutto rafforzerà la competitività di SPIAGGE e la sua posizione nella filiera del turismo digitale
+this paper introduces new parameterizations of equilibrium neural networks, i.e. networks defined by implicit equations. this model class includes standard multilayer and residual networks as special cases. the new parameterization admits a lipschitz bound during training via unconstrained optimization: no projections or barrier functions are required. lipschitz bounds are a common proxy for robustness and appear in many generalization bounds. furthermore, compared to previous works we show well-posedness (existence of solutions) under less restrictive conditions on the network weights and more natural assumptions on the activation functions: that they are monotone and slope restricted. these results are proved by establishing novel connections with convex optimization, operator splitting on non-euclidean spaces, and contracting neural odes. in image classification experiments we show that the lipschitz bounds are very accurate and improve robustness to adversarial attacks.

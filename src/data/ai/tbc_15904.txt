@@ -1,1 +1,0 @@
-Implementazione di modelli di Deep Learning per la previsione di terremoti tramite analisi di segnali sismici a bassa frequenza e Big Data.

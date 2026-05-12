@@ -1,15 +1,1 @@
-SONO PREVISTE DUE AZIONI:
--	DISEGNO DEI REQUISITI PER L’ADOZIONE DI UN SISTEMA INFORMATICO CHE CONSENTA LA RACCOLTA, IL TRACCIAMENTO DELLE SEGNALAZIONI DI MALFUNZIONAMENTI-GUASTI DEI CLIENTI;
--	RIDISEGNO DEL PROCESSO DI GESTIONE DELLE SEGNALAZIONI RACCOLTE.
-GLI OBIETTIVI SONO:
--	MIGLIORARE L’ORGANIZZAZIONE DELLE RISORSE IMPIEGATE E L’ASSEGNAZIONE DELLE PRIORITA’
--	ABILITARE L’OFFERTA DI PACCHETTI MANUTENZIONE TRASFORMANDO QUELLO CHE OGGI RAPPRESENTA UN COSTO NON CONTROLLABILE IN UNA FONTE DI NUOVI RICAVI.
-LA PRESTAZIONE PREVEDE LO SCOUTING DELLE SOLUZIONI INFORMATIVE DISPONIBILI SUL MERCATO E IL COORDINAMENTO DELLA MESSA IN OPERA DELLA SOLUZIONE SCELTA.
-IN RELAZIONE ALLE FUNZIONALITA’ SISTEMA, I PRINCIPALI REQUISITI SONO:
--	INTEGRARE I DIVERSI CANALI D’INTERAZIONE CON I CLIENTI
--	DEFINIRE LE CATEGORIE DEI TIKET INDIVIDUANDO SKILL E STATI DI GESTIONE
--	DEFINIRE I LIVELLI DI SERVIZIO PER LA RISOLUZIONE ABILITANDO MECCANISMI DI ESCALATION
--	DEFINIRE LA REPORTISTICA ANCHE SUPPORTANDO LA DECISIONE DI ESTERNALIZZAZIONE DELLE ATTIVITA’
--	IN FUNZIONE DELLA SOLUZIONE INDIVIDUATA, ANALIZZARE LA POSSIBILITA’ DI ADOTTARE STRUMENTI DI INTELLIGENZA ARTIFICIALE PER:
-1)	INTERPRETARE AUTOMATICAMENTE IL TESTO DELLE SEGNALAZIONI
-2)	REALIZZARE UN CHATBOT PER LA RACCOLTA AUTOMATICA DELLE SEGNALAZION
+granger causality is a widely-used criterion for analyzing interactions in large-scale networks. as most physical interactions are inherently nonlinear, we consider the problem of inferring the existence of pairwise granger causality between nonlinearly interacting stochastic processes from their time series measurements. our proposed approach relies on modeling the embedded nonlinearities in the measurements using a component-wise time series prediction model based on statistical recurrent units (srus). we make a case that the network topology of granger causal relations is directly inferrable from a structured sparse estimate of the internal parameters of the sru networks trained to predict the processes$'$ time series measurements. we propose a variant of sru, called economy-sru, which, by design has considerably fewer trainable parameters, and therefore less prone to overfitting. the economy-sru computes a low-dimensional sketch of its high-dimensional hidden state in the form of random projections to generate the feedback for its recurrent processing. additionally, the internal weight parameters of the economy-sru are strategically regularized in a group-wise manner to facilitate the proposed network in extracting meaningful predictive features that are highly time-localized to mimic real-world causal events. extensive experiments are carried out to demonstrate that the proposed economy-sru based time series prediction model outperforms the mlp, lstm and attention-gated cnn-based time series models considered previously for inferring granger causality.

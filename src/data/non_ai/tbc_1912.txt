@@ -1,1 +1,0 @@
-Il progetto consiste nella realizzazione di un commutatore rotativo motorizzato usabile per esperimenti comportamentali nel campo delle neuroscienze, grazie ad un canale di comunicazione serializzato and alta frequenza e quattro segnali a bassa frequenza da impiegare per realizzare esperimenti di stimolazione optogenetica e recording neurale.

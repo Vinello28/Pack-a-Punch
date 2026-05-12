@@ -1,1 +1,1 @@
-Si prevede l'implementazione di su sistema  che digitalizza tutto il processo della gestione  della ricetta  e prevede nel dettaglio :  a) lettura ottica delle   ricetta b) trasmissione del dato  al robot di magazzino con  consegna al banco del prodotto previsto   c) trasmissione dei dati previsti  agli Enti  gestori del Servizio Sanitario Nazionale .
+LA CONOSCENZA A SUPPORTO DELLE IMPRESE ICT

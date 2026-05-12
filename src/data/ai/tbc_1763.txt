@@ -1,1 +1,1 @@
-Realizzazione di un sistema digitale di analisi dei dati (Big Data) provenienti da attività di laboratorio e da altre fonti pubbliche e private, fondato su tecnologie informatiche sia tradizionali che di Intelligenza Artificiale e finalizzato alla ricerca scientifica in campo biotecnologico, per la realizzazione di vaccini e farmaci. Fanno parte del sistema sia i metodi e le policy di cybersecurity sia l'integrazione digitale con i processi aziendali di ricerca e amministrativi.
+Bando Impresa Digitale Progetto d intelligenza artificiale al servizio dei clienti

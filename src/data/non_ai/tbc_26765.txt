@@ -1,0 +1,1 @@
+Il progetto ha l'obiettivo di utilizzare tecnologie EO e AI per analizzare immagini satellitari offrendo dati per un turismo sostenibile e la corretta gestione ambientale. La piattaforma web faciliter l'accesso a questi dati migliorando la gestione territoriale e le esperienze turistiche

@@ -1,1 +1,0 @@
-Intervento richiesto al fine di sviluppare un algoritmo per l'acquisizione e la valutazione dei dati mediante tecniche di machine learning e deep learning per ottimizzare i processi decisionali durante le fasi di progettazione e produzione del prodotto

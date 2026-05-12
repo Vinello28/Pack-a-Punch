@@ -1,1 +1,12 @@
-Il progetto FlexCoBot sviluppera un sistema di manipolazione innovativo automatico e flessibile basato sull utilizzo combinato di robot collaborativi (cobot) robot mobili (veicoli a guida autonoma intelligenti) e sistemi di percezione e apprendimento avanzati (basati su visione e intelligenza artificiale) per soddisfare le necessit delle stazioni manifatturiere di una linea produttiva Industria 4.0 (e.g. conferimento ed estrazione di consumabili semilavorati e componenti assemblaggio automatizzato) assicurando l integrazione e la comunicazione con il sistema informatico di gestione e l impiego sicuro in prossimita e/o in collaborazione con operatori umani. L ambito di azione di FlexCoBot si propone pertanto di aumentare la competitivita delle imprese migliorandone e innovandone i processi produttivi. In particolare i risultati attesi del progetto saranno: un cobot mobile e modulare il quale potra identificare trasportare e manipolare diversi tipi di consumabili/semilavorati/componenti tra le diverse stazioni della Linea Pilota (LP) di BI-REX una cella riconfigurabile di assemblaggio installata nella LP di BI-REX dotata di sistemi di percezione e IA
+we propose an effective approach for spatio-temporal action localization in
+realistic videos. the approach first detects proposals at the frame-level and
+scores them with a combination of static and motion cnn features. it then
+tracks high-scoring proposals throughout the video using a
+tracking-by-detection approach. our tracker relies simultaneously on
+instance-level and class-level detectors. the tracks are scored using a
+spatio-temporal motion histogram, a descriptor at the track level, in
+combination with the cnn features. finally, we perform temporal localization of
+the action using a sliding-window approach at the track level. we present
+experimental results for spatio-temporal localization on the ucf-sports, j-hmdb
+and ucf-101 action localization datasets, where our approach outperforms the
+state of the art with a margin of 15%, 7% and 12% respectively in map.

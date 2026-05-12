@@ -1,9 +1,0 @@
-Il progetto si basa sull installazione dellinfrastruttura data center cluster-in-a-box di
-Fujitsu, il CX400 M1.
-Questa è una piattaforma estremamente compatta (2 unità rack) performante e moderatamente scalabile.
-I due server presenti sono posti in configurazione di alta affidabilità tramite il virtualizzatore di Microsoft
-(Hyper-V), comunicano tra loro con un midplane dedicato e condividono alimentazione e ventole per il
-raffreddamento.
-Questa soluzione avanzata tecnologicamente permetterà allazienda di migliorare le policy aziendali di sicurezza
-ed apporterà un avanzamento tecnologico atto al miglioramento degli strumenti già in suo possesso,
-contribuendo così allottimizzazione della normale attività lavorativa.

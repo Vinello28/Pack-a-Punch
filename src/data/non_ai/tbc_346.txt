@@ -1,8 +1,1 @@
-Il software che si prevede di acquistare prevede una gestione globale dei vari passaggi che avvengono all¿interno di una attività efficiente ed organizzata.
-Oltre a gestire funzioni di magazzino, carico e scarico, anagrafiche articoli e servizi, fatture, ricevute fiscali, DDT, note di credito , il software è arricchito da funzioni  per la gestione di un autofficina.
-L inserimento delle anagrafiche clienti  prevede la possibilità di associare uno o più mezzi per ogni nominativo, accompagnato da targa e telaio.
-Gli appuntamenti possono essere gestiti tramite l agenda recuperando i dati dalle anagrafiche senza perdere tempo.
-Per l accettazione è possibile creare una scheda dettagliata dei lavori da eseguire indicando le richieste del cliente, inserendo i lavori eseguiti.
-Fatture e ricevute fiscali possono essere generate recuperando i dati dalle schede di accettazione. 
-Per le revisioni è possibile inserire nell anagrafica cliente, all associazione del mezzo, anche la prossima scadenza della revisione, per  avere un quadro generale delle revisioni in scadenza così da poter gestire facilmente un servizio di mailing.
-Altre funzioni presenti sono: l invio dei documenti per e-mail, statistiche di magazzino e acquisti, riepiloghi dei pagamenti clienti e fornitori, creazione di preventivi
+il presente Piano Integrato di Internazionalizzazione Ã¨ mirato all'approdo ed alla commercializzazione sul mercato USA di un apparato oer la Telediagnosi e Telemedicina giÃ  brevettato dalla FARMAFORNITURE .

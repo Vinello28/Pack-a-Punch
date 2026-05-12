@@ -1,1 +1,18 @@
-Implementazione di algoritmi di Edge AI e TinyML per dispositivi embedded per swarm intelligence nel dominio telecomunicazioni. Il progetto integra point cloud da sensori LiDAR provenienti da multiple sorgenti eterogenee. Il finanziamento copre cluster GPU NVIDIA A100/H100 per training distribuito e team di data scientist specializzati.
+information theory is a powerful tool to express principles to drive
+autonomous systems because it is domain invariant and allows for an intuitive
+interpretation. this paper studies the use of the predictive information (pi),
+also called excess entropy or effective measure complexity, of the sensorimotor
+process as a driving force to generate behavior. we study nonlinear and
+nonstationary systems and introduce the time-local predicting information
+(tipi) which allows us to derive exact results together with explicit update
+rules for the parameters of the controller in the dynamical systems framework.
+in this way the information principle, formulated at the level of behavior, is
+translated to the dynamics of the synapses. we underpin our results with a
+number of case studies with high-dimensional robotic systems. we show the
+spontaneous cooperativity in a complex physical system with decentralized
+control. moreover, a jointly controlled humanoid robot develops a high
+behavioral variety depending on its physics and the environment it is
+dynamically embedded into. the behavior can be decomposed into a succession of
+low-dimensional modes that increasingly explore the behavior space. this is a
+promising way to avoid the curse of dimensionality which hinders learning
+systems to scale well.

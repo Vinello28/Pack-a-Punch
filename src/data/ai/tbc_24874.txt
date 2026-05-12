@@ -1,0 +1,8 @@
+this manuscript uses machine learning techniques to exploit baseball
+pitchers' decision making, so-called "baseball iq," by modeling the at-bat
+information, pitch selection and counts, as a markov decision process (mdp).
+each state of the mdp models the pitcher's current pitch selection in a
+markovian fashion, conditional on the information immediately prior to making
+the current pitch. this includes the count prior to the previous pitch, his
+ensuing pitch selection, the batter's ensuing action and the result of the
+pitch.

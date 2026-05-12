@@ -1,0 +1,13 @@
+there has been upsurge in the number of people participating in challenges
+made popular through social media channels. one of the examples of such a
+challenge is the kiki challenge, in which people step out of their moving cars
+and dance to the tunes of the song, 'kiki, do you love me?'. such an action
+makes the people taking the challenge prone to accidents and can also create
+nuisance for the others traveling on the road. in this work, we introduce the
+prevalence of such challenges in social media and show how the machine learning
+community can aid in preventing dangerous situations triggered by them by
+developing models that can distinguish between dangerous and non-dangerous
+challenge videos. towards this objective, we release a new dataset namely
+midas-kiki dataset, consisting of manually annotated dangerous and
+non-dangerous kiki challenge videos. further, we train a deep learning model to
+identify dangerous and non-dangerous videos, and report our results.

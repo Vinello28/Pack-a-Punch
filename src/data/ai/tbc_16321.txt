@@ -1,17 +1,1 @@
-simple, short, and compact hashtags cover a wide range of information on
-social networks. although many works in the field of natural language
-processing (nlp) have demonstrated the importance of hashtag recommendation,
-hashtag recommendation for images has barely been studied. in this paper, we
-introduce the harrison dataset, a benchmark on hashtag recommendation for real
-world images in social networks. the harrison dataset is a realistic dataset,
-composed of 57,383 photos from instagram and an average of 4.5 associated
-hashtags for each photo. to evaluate our dataset, we design a baseline
-framework consisting of visual feature extractor based on convolutional neural
-network (cnn) and multi-label classifier based on neural network. based on this
-framework, two single feature-based models, object-based and scene-based model,
-and an integrated model of them are evaluated on the harrison dataset. our
-dataset shows that hashtag recommendation task requires a wide and contextual
-understanding of the situation conveyed in the image. as far as we know, this
-work is the first vision-only attempt at hashtag recommendation for real world
-images in social networks. we expect this benchmark to accelerate the
-advancement of hashtag recommendation.
+as language models become integral to critical workflows, assessing their behavior remains a fundamental challenge -- human evaluation is costly and noisy, while automated metrics provide only coarse, difficult-to-interpret signals. we introduce natural language unit tests, a paradigm that decomposes response quality into explicit, testable criteria, along with a unified scoring model, lmunit, which combines multi-objective training across preferences, direct ratings, and natural language rationales. through controlled human studies, we show this paradigm significantly improves inter-annotator agreement and enables more effective llm development workflows. lmunit achieves state-of-the-art performance on evaluation benchmarks (flask, biggenbench) and competitive results on rewardbench. these results validate both our proposed paradigm and scoring model, suggesting a promising path forward for language model evaluation and development.

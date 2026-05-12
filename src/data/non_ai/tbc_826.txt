@@ -1,5 +1,0 @@
-Il progetto "Automazione Pos e Magazzino" prevede:
-- la fornitura informatica, composta da hardware e software per l automazione del punto vendita;
-- il collegamento del misuratore fiscale con il gestionale aziendale;
-- l automazione del magazzino mediante l uso del codice a barre.
-Per quanto riguarda, invece, lo sviluppo della piattaforma e-commerce, il progetto consiste nello sviluppo ed ammodernamento della piattaforma e-commerce.

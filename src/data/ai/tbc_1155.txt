@@ -1,0 +1,24 @@
+the problem of robot control often requires solving a system of
+ordinary differential equations (odes).  traditionally this has been
+accomplished by using iterative ode solvers.  these solvers start with
+an initial guess, which is iteratively improved to converge to a
+correct solution.  however, traditional solvers can be slow and do not
+combine well with other systems since they are not differentiable.  in
+response, some researchers have proposed using neural networks in an
+end-to-end system that directly maps perceptual inputs to control
+actions.  because of their differentiablity, end-to-end approaches can
+be composed with other modules more readily than traditional ode
+solvers.  however the end-to-end approach no longer carries the
+guarantee that the solution obeys the required dynamics.
+we propose a framework for using neural ode to
+combine the flexibility of the end-to-end approach with the guarantees
+of traditional solvers.  in our approach a neural network is used to
+provide the initial guess to a differentiable ode solver.  the ode
+solver then yields a solution trajectory. we use this trajectory to
+improve the guesses of the neural network. this
+framework allows the neural network to learn initial guesses that are
+close to the correct solution, improving overall system performance
+while ensuring that dynamics constraints are always satisfied. we
+demonstrate the utility of this framework in the case of robot
+control, where we use it to solve a family of boundary value problems
+that are essential for steering an autonomous vehicle to a goal state.

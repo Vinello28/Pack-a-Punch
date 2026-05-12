@@ -1,1 +1,15 @@
-extracting the desired speech from a mixture is a meaningful and challenging task. the end-to-end dnn-based methods, though attractive, face the problem of generalization. in this paper, we explore a sequential approach for target speech extraction by combining blind source separation (bss) with the x-vector based speaker recognition (sr) module. two promising bss methods based on source independence assumption, independent low-rank matrix analysis (ilrma) and multi-channel variational autoencoder (mvae), are utilized and compared. ilrma employs nonnegative matrix factorization (nmf) to capture spectral structures of source signals and mvae utilizes the strong modeling power of deep neural networks (dnn). however, the investigation of mvae has been limited to the training with very few speakers and the speech signals of test speakers are usually included. we extend the training of mvae using clean speech signals of 500 speakers to evaluate its generalization to unseen speakers. to improve the correct extraction rate, two data augmentation strategies are implemented to train the sr module. the performance of the proposed cascaded approach is investigated with test data constructed with real room impulse responses under varied environments.
+inferring topological and geometrical information from data can offer an
+alternative perspective on machine learning problems. methods from topological
+data analysis, e.g., persistent homology, enable us to obtain such information,
+typically in the form of summary representations of topological features.
+however, such topological signatures often come with an unusual structure
+(e.g., multisets of intervals) that is highly impractical for most machine
+learning techniques. while many strategies have been proposed to map these
+topological signatures into machine learning compatible representations, they
+suffer from being agnostic to the target learning task. in contrast, we propose
+a technique that enables us to input topological signatures to deep neural
+networks and learn a task-optimal representation during training. our approach
+is realized as a novel input layer with favorable theoretical properties.
+classification experiments on 2d object shapes and social network graphs
+demonstrate the versatility of the approach and, in case of the latter, we even
+outperform the state-of-the-art by a large margin.

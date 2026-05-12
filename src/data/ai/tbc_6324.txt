@@ -1,1 +1,19 @@
-Progetti di ricerca e sviluppo di Mpmi e Midcap  Bando 2 Progetti di ricerca e sviluppo di Mpmi e Midcap  Bando 2 New Measurement System - Railway Artificial Intelligence
+recent works in spoken language translation (slt) have attempted to build
+end-to-end speech-to-text translation without using source language
+transcription during learning or decoding. however, while large quantities of
+parallel texts (such as europarl, opensubtitles) are available for training
+machine translation systems, there are no large (100h) and open source parallel
+corpora that include speech in a source language aligned to text in a target
+language. this paper tries to fill this gap by augmenting an existing
+(monolingual) corpus: librispeech. this corpus, used for automatic speech
+recognition, is derived from read audiobooks from the librivox project, and has
+been carefully segmented and aligned. after gathering french e-books
+corresponding to the english audio-books from librispeech, we align speech
+segments at the sentence level with their respective translations and obtain
+236h of usable parallel data. this paper presents the details of the processing
+as well as a manual evaluation conducted on a small subset of the corpus. this
+evaluation shows that the automatic alignments scores are reasonably correlated
+with the human judgments of the bilingual alignment quality. we believe that
+this corpus (which is made available online) is useful for replicable
+experiments in direct speech translation or more general spoken language
+translation experiments.

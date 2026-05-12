@@ -1,0 +1,21 @@
+non-negative matrix factorization (nmf) is the problem of determining two
+non-negative low rank factors $w$ and $h$, for the given input matrix $a$, such
+that $a \approx w h$. nmf is a useful tool for many applications in different
+domains such as topic modeling in text mining, background separation in video
+analysis, and community detection in social networks. despite its popularity in
+the data mining community, there is a lack of efficient parallel algorithms to
+solve the problem for big data sets.
+  the main contribution of this work is a new, high-performance parallel
+computational framework for a broad class of nmf algorithms that iteratively
+solves alternating non-negative least squares (nls) subproblems for $w$ and
+$h$. it maintains the data and factor matrices in memory (distributed across
+processors), uses mpi for interprocessor communication, and, in the dense case,
+provably minimizes communication costs (under mild assumptions). the framework
+is flexible and able to leverage a variety of nmf and nls algorithms, including
+multiplicative update, hierarchical alternating least squares, and block
+principal pivoting. our implementation allows us to benchmark and compare
+different algorithms on massive dense and sparse data matrices of size that
+spans for few hundreds of millions to billions. we demonstrate the scalability
+of our algorithm and compare it with baseline implementations, showing
+significant performance improvements. the code and the datasets used for
+conducting the experiments are available online.

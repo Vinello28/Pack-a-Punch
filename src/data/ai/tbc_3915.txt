@@ -1,4 +1,0 @@
-Il Sistema di tracciamento proposto implementa una piattaforma Web Cloud based per il monitoraggio dello stato
-di salute delle Viti. Il sistema di tracciamento include dei parametri implementati con tecnologia blockchain e un
-sottosistema di Intelligenza Artificiale addestrato a riconoscere attraverso l’analisi di un insieme di foglie campione
-la presenza di Mal dell’esca che causa enormi danni alle piante di vite

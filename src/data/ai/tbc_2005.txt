@@ -1,0 +1,9 @@
+we consider two different data sets of syntactic parameters and we discuss
+how to detect relations between parameters through a heat kernel method
+developed by belkin-niyogi, which produces low dimensional representations of
+the data, based on laplace eigenfunctions, that preserve neighborhood
+information. we analyze the different connectivity and clustering structures
+that arise in the two datasets, and the regions of maximal variance in the
+two-parameter space of the belkin-niyogi construction, which identify
+preferable choices of independent variables. we compute clustering coefficients
+and their variance.

@@ -1,1 +1,1 @@
-Creazione di un motore di AI per drug discovery basato su Neural Architecture Search (NAS) dedicato al settore ambiente. L'addestramento sfrutta dati geospaziali e immagini satellitari multispettrali con tecniche di data augmentation. L'infrastruttura include data warehouse su Snowflake/BigQuery per training e inferenza.
+Il piano dal titolo [CISIA-CORSO PER L INNOVAZIONE E LA SOSTENIBILITA NELL INDUSTRIA ALIMENTARE ATTRAVERSO L'IA] approvato con delibera del CdA di Fondolavoro del [27/05/2025]

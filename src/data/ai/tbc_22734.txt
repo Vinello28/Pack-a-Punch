@@ -1,0 +1,14 @@
+the instance segmentation can be considered an extension of the object
+detection problem where bounding boxes are replaced by object contours.
+strictly speaking the problem requires to identify each pixel instance and
+class independently of the artifice used for this mean. the advantage of
+instance segmentation over the usual object detection lies in the precise
+delineation of objects improving object localization. additionally, object
+contours allow the evaluation of partial occlusion with basic image processing
+algorithms. this work approaches the instance segmentation problem as an
+annotation problem and presents a novel technique to encode and decode ground
+truth annotations. we propose a mathematical representation of instances that
+any deep semantic segmentation model can learn and generalize. each individual
+instance is represented by a center of mass and a field of vectors pointing to
+it. this encoding technique has been denominated distance to center of mass
+encoding (dcme).

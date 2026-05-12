@@ -1,0 +1,18 @@
+the use of low-precision fixed-point arithmetic along with stochastic
+rounding has been proposed as a promising alternative to the commonly used
+32-bit floating point arithmetic to enhance training neural networks training
+in terms of performance and energy efficiency. in the first part of this paper,
+the behaviour of the 12-bit fixed-point arithmetic when training a
+convolutional neural network with the cifar-10 dataset is analysed, showing
+that such arithmetic is not the most appropriate for the training phase. after
+that, the paper presents and evaluates, under the same conditions, alternative
+low-precision arithmetics, starting with the 12-bit floating-point arithmetic.
+these two representations are then leveraged using local scaling in order to
+increase accuracy and get closer to the baseline 32-bit floating-point
+arithmetic. finally, the paper introduces a simplified model in which both the
+outputs and the gradients of the neural networks are constrained to
+power-of-two values, just using 7 bits for their representation. the evaluation
+demonstrates a minimal loss in accuracy for the proposed power-of-two neural
+network, avoiding the use of multiplications and divisions and thereby,
+significantly reducing the training time as well as the energy consumption and
+memory requirements during the training and inference phases.

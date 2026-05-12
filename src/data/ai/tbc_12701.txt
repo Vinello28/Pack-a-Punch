@@ -1,1 +1,0 @@
-AI-NILM: Artificial Intelligence for Non Intrusive Load Monitoring

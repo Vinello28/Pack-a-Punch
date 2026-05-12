@@ -1,8 +1,1 @@
-SMART LABEL SRL*IL PROGETTO È VOLTO A
-CREARE UN PRODOTTO COSI DEFINITO: -
-ETICHETTE INTELLIGENTI CONTRO LA
-CONTRAFFAZIONE INTERPRETABILI CON APP
-DEDICATA, CON COLLEGAMENTO AD UN SITO IN
-HTTPS E AL PORTALE DI BIG DATA ANALYTICS
-CON ARTIFICIAL INTELLIGENCE. NELLO
-SPECIFICO
+the existing algorithms for identification of neurons responsible for undesired and harmful behaviors do not consider the effects of confounders such as topic of the conversation. in this work, we show that confounders can create spurious correlations and propose a new causal mediation approach that controls the impact of the topic. in experiments with two large language models, we study the localization hypothesis and show that adjusting for the effect of conversation topic, toxicity becomes less localized.

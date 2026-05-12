@@ -1,1 +1,1 @@
-LEILA è una piattaforma di e-learning basata su AI generativa sui temi della Digital Transition, Energy Transition e Health&pharma, ed integra robotica mobile.
+piattaforma di controllo attiva  grazie alla quale i dati vengono raccolti e analizzati da algoritmi di ottimizzazione e di intelligenza artificiale per individuare con precisione sia il potenziale attuale connesso ad una gestione ottimale sia eventualmente quello connesso a nuovi investimenti

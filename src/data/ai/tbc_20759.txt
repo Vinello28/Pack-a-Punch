@@ -1,0 +1,13 @@
+face parsing is a basic task in face image analysis. it amounts to labeling
+each pixel with appropriate facial parts such as eyes and nose. in the paper,
+we present a interlinked convolutional neural network (icnn) for solving this
+problem in an end-to-end fashion. it consists of multiple convolutional neural
+networks (cnns) taking input in different scales. a special interlinking layer
+is designed to allow the cnns to exchange information, enabling them to
+integrate local and contextual information efficiently. the hallmark of icnn is
+the extensive use of downsampling and upsampling in the interlinking layers,
+while traditional cnns usually uses downsampling only. a two-stage pipeline is
+proposed for face parsing and both stages use icnn. the first stage localizes
+facial parts in the size-reduced image and the second stage labels the pixels
+in the identified facial parts in the original image. on a benchmark dataset we
+have obtained better results than the state-of-the-art methods.

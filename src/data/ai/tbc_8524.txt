@@ -1,0 +1,7 @@
+matrix completion is a classical problem in data science wherein one attempts
+to reconstruct a low-rank matrix while only observing some subset of the
+entries. previous authors have phrased this problem as a nuclear norm
+minimization problem. almost all previous work assumes no explicit structure of
+the matrix and uses uniform sampling to decide the observed entries. we suggest
+methods for selective sampling in the case where we have some knowledge about
+the structure of the matrix and are allowed to design the observation set.

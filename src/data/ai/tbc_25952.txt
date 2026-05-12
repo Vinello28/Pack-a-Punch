@@ -1,0 +1,1 @@
+autoencoder-based geometric shaping is proposed that includes optimizing bit mappings. up to 0.2 bits/qam symbol gain in gmi is achieved for a variety of data rates and in the presence of transceiver impairments. the gains can be harvested with standard binary fec at no cost w.r.t. conventional bicm.

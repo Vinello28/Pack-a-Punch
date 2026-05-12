@@ -1,1 +1,17 @@
-evaluating model robustness is critical when developing trustworthy models not only to gain deeper understanding of model behavior, strengths, and weaknesses, but also to develop future models that are generalizable and robust across expected environments a model may encounter in deployment. in this paper we present a framework for measuring model robustness for an important but difficult text classification task - deceptive news detection. we evaluate model robustness to out-of-domain data, modality-specific features, and languages other than english. our investigation focuses on three type of models: lstm models trained on multiple datasets(cross-domain), several fusion lstm models trained with images and text and evaluated with three state-of-the-art embeddings, bert elmo, and glove (cross-modality), and character-level cnn models trained on multiple languages (cross-language). our analyses reveal a significant drop in performance when testing neural models on out-of-domain data and non-english languages that may be mitigated using diverse training data. we find that with additional image content as input, elmo embeddings yield significantly fewer errors compared to bert orglove. most importantly, this work not only carefully analyzes deception model robustness but also provides a framework of these analyses that can be applied to new models or extended datasets in the future.
+we consider methods for learning vector representations of sql queries to
+support generalized workload analytics tasks, including workload summarization
+for index selection and predicting queries that will trigger memory errors. we
+consider vector representations of both raw sql text and optimized query plans,
+and evaluate these methods on synthetic and real sql workloads. we find that
+general algorithms based on vector representations can outperform existing
+approaches that rely on specialized features. for index recommendation, we
+cluster the vector representations to compress large workloads with no loss in
+performance from the recommended index. for error prediction, we train a
+classifier over learned vectors that can automatically relate subtle syntactic
+patterns with specific errors raised during query execution. surprisingly, we
+also find that these methods enable transfer learning, where a model trained on
+one sql corpus can be applied to an unrelated corpus and still enable good
+performance. we find that these general approaches, when trained on a large
+corpus of sql queries, provides a robust foundation for a variety of workload
+analysis tasks and database features, without requiring application-specific
+feature engineering.

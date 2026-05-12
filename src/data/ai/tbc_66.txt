@@ -1,0 +1,17 @@
+image captioning has received significant attention with remarkable
+improvements in recent advances. nevertheless, images in the wild encapsulate
+rich knowledge and cannot be sufficiently described with models built on
+image-caption pairs containing only in-domain objects. in this paper, we
+propose to address the problem by augmenting standard deep captioning
+architectures with object learners. specifically, we present long short-term
+memory with pointing (lstm-p) --- a new architecture that facilitates
+vocabulary expansion and produces novel objects via pointing mechanism.
+technically, object learners are initially pre-trained on available object
+recognition data. pointing in lstm-p then balances the probability between
+generating a word through lstm and copying a word from the recognized objects
+at each time step in decoder stage. furthermore, our captioning encourages
+global coverage of objects in the sentence. extensive experiments are conducted
+on both held-out coco image captioning and imagenet datasets for describing
+novel objects, and superior results are reported when comparing to
+state-of-the-art approaches. more remarkably, we obtain an average of 60.9% in
+f1 score on held-out coco~dataset.

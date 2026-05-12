@@ -1,13 +1,9 @@
-Con il progetto si vuole realizzare un dispositivo innovativo e “intelligente” capace di misurare lo
-stato di attenzione e allerta di operatori di torni, macchinari industriali, carelli elevatori e mezzi di
-trasporto nel settore della manifattura avanzata intervenendo tempestivamente sull’operatività del
-macchinario. Il dispositivo sarà cosi in grado di agire in autonomia disabilitando il movimento del
-veicolo (qualora si tratti di un carrello elevatore) o ammonendo l’operatore ad una sosta (in caso di
-operazioni con macchine utensili in movimento) qualora venga rilevato un colpo di sonno o
-disattenzione da parte del lavoratore.
-
-Per la realizzazione ci si avvale dei più recenti sviluppi di algoritmi di intelligenza artificiale
-applicati alla visione artificiale specialmente quelli riguardanti implementazioni basate su librerie
-quali TensorFlow e OpenCV. Studi mostrano infatti come sia possibile identificare con accuratezza
-lo stato di allerta di persone mediante il monitoraggio dell’apertura delle palpebre e della direzione
-di osservazione dell’operatore.
+we provide a distribution-free test that can be used to determine whether any
+two joint distributions $p$ and $q$ are statistically different by inspection
+of a large enough set of samples. following recent efforts from long et al.
+[1], we rely on joint kernel distribution embedding to extend the kernel
+two-sample test of gretton et al. [2] to the case of joint probability
+distributions. our main result can be directly applied to verify if a
+dataset-shift has occurred between training and test distributions in a
+learning framework, without further assuming the shift has occurred only in the
+input, in the target or in the conditional distribution.

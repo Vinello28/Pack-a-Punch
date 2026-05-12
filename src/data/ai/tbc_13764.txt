@@ -1,1 +1,25 @@
-L'intervento si propone di ottimizzare la pianificazione della produzione del Pastificio Cerati attraverso l'implementazione di un sistema integrato di soluzioni software composto da ERP MRP software di schedulazione e MES/MOM. Soluzioni: ERP (Enterprise Resource Planning): gestir tutti gli aspetti aziendali dagli ordini alla contabilit fornendo una visione unificata dei processi. MRP (Material Requirements Planning): pianificher i fabbisogni di materiali generando automaticamente ordini di acquisto e di produzione ottimizzando le scorte. Software di schedulazione: creer e aggiorner il programma di produzione tenendo conto della disponibilit di risorse e delle scadenze degli ordini. MES/MOM (Manufacturing Execution System/Manufacturing Operations Management): gestir e controller in tempo reale la produzione raccogliendo dati dalle macchine e monitorando gli ordini di lavoro. Sistema di previsione della domanda basato su Intelligenza Artificiale: analizzer i dati storici (vendite stagionalit trend di mercato) ed elaborer previsioni per il futuro migliorando la pianificazione della produzione. Attivit : L'implementazione dell'intervento prevede le seguenti 11 attivit principali nell arco di 12 mesi (con possibile proroga di ulteriori 6 mesi):
+developers often spend much effort and resources to debug a program. to help
+the developers debug, numerous information retrieval (ir)-based and
+spectrum-based bug localization techniques have been devised. ir-based
+techniques process textual information in bug reports, while spectrum-based
+techniques process program spectra (i.e., a record of which program elements
+are executed for each test case). while both techniques ultimately generate a
+ranked list of program elements that likely contain a bug, they only consider
+one source of information--either bug reports or program spectra--which is not
+optimal. in light of this deficiency, this paper presents a new approach dubbed
+network-clustered multi-modal bug localization (netml), which utilizes
+multi-modal information from both bug reports and program spectra to localize
+bugs. netml facilitates an effective bug localization by carrying out a joint
+optimization of bug localization error and clustering of both bug reports and
+program elements (i.e., methods). the clustering is achieved through the
+incorporation of network lasso regularization, which incentivizes the model
+parameters of similar bug reports and similar program elements to be close
+together. to estimate the model parameters of both bug reports and methods,
+netml employs an adaptive learning procedure based on newton method that
+updates the parameters on a per-feature basis. extensive experiments on 355
+real bugs from seven software systems have been conducted to benchmark netml
+against various state-of-the-art localization methods. the results show that
+netml surpasses the best-performing baseline by 31.82%, 22.35%, 19.72%, and
+19.24%, in terms of the number of bugs successfully localized when a developer
+inspects the top 1, 5, and 10 methods and mean average precision (map),
+respectively.

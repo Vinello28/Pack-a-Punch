@@ -1,10 +1,1 @@
-A) Analisi processi di telemedicina attraverso interviste e analisi sul campo
-B) Redazione requisiti utente per registrazione esami ecg
-C) Specifiche funzionali su strumenti digitali e scelta degli stessi (strumenti di visione artificiale e di realtà aumentata)
-D) Realizzazione POC (Proof Of Concept) di algoritmi identificazione dei punti V1-V2-V3-V4-V5-V6-N-F-R-L con esposizione degli stessi in AR
-E) Integrazione e sviluppo digitale dei processi di telemedicina (registrazione ECG a Riposo)
-F) Integrazione processi di misura della farmacia con attività digitali dell'azienda
-
-Deliverables:
-- Documentazione: Interviste, requisiti utente, specifiche funzionali
-- POC algoritmo e applicazione AR
+the performance of traditional compressive sensing-based mri (cs-mri) reconstruction is affected by its slow iterative procedure and noise-induced artefacts. although many deep learning-based cs-mri methods have been proposed to mitigate the problems of traditional methods, they have not been able to achieve more robust results at higher acceleration factors. most of the deep learning-based cs-mri methods still can not fully mine the information from the k-space, which leads to unsatisfactory results in the mri reconstruction. in this study, we propose a new deep learning-based cs-mri reconstruction method to fully utilise the relationship among sequential mri slices by coupling wasserstein generative adversarial networks (wgan) with recurrent neural networks. further development of an attentive unit enables our model to reconstruct more accurate anatomical structures for the mri data. by experimenting on different mri datasets, we have demonstrated that our method can not only achieve better results compared to the state-of-the-arts but can also effectively reduce residual noise generated during the reconstruction process.

@@ -1,0 +1,15 @@
+nonnegative matrix factorization (nmf) has been continuously evolving in
+several areas like pattern recognition and information retrieval methods. it
+factorizes a matrix into a product of 2 low-rank non-negative matrices that
+will define parts-based, and linear representation of nonnegative data.
+recently, graph regularized nmf (grnmf) is proposed to find a compact
+representation,which uncovers the hidden semantics and simultaneously respects
+the intrinsic geometric structure. in gnmf, an affinity graph is constructed
+from the original data space to encode the geometrical information. in this
+paper, we propose a novel idea which engages a multiple kernel learning
+approach into refining the graph structure that reflects the factorization of
+the matrix and the new data space. the grnmf is improved by utilizing the graph
+refined by the kernel learning, and then a novel kernel learning method is
+introduced under the grnmf framework. our approach shows encouraging results of
+the proposed algorithm in comparison to the state-of-the-art clustering
+algorithms like nmf, grnmf, svd etc.

@@ -1,0 +1,14 @@
+given the emerging global threat of antimicrobial resistance, new methods for
+next-generation antimicrobial design are urgently needed. we report a peptide
+generation framework pepcvae, based on a semi-supervised variational
+autoencoder (vae) model, for designing novel antimicrobial peptide (amp)
+sequences. our model learns a rich latent space of the biological peptide
+context by taking advantage of abundant, unlabeled peptide sequences. the model
+further learns a disentangled antimicrobial attribute space by using the
+feedback from a jointly trained amp classifier that uses limited labeled
+instances. the disentangled representation allows for controllable generation
+of amps. extensive analysis of the pepcvae-generated sequences reveals superior
+performance of our model in comparison to a plain vae, as pepcvae generates
+novel amp sequences with higher long-range diversity, while being closer to the
+training distribution of biological peptides. these features are highly desired
+in next-generation antimicrobial design.

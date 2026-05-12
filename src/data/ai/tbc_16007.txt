@@ -1,1 +1,19 @@
-Il progetto PIemuNt ch INa (PININ) mira a valorizzare la qualit intrinseca e percepita dei prodotti agro-alimentari Piemontesi di fascia alta introducendo tecnologie per la tracciabilit e autenticazione dei prodotti agroalimentari per l innovazione nella commercializzazione di prodotti della filiera alimentare e per l individuazione di falsi e truffe. Le tecnologie innovative portanti del progetto Blockchain Intelligenza Artificiale e Big Data IoT Realt Aumentata oltre al Geoweb e i Processi di Business permetteranno di creare un sistema innovativo di tracciatura dei prodotti alimentari lungo tutta la filiera dalle materie prime al consumatore che potr accedere alle informazioni veicolate verificate e trattate mediante tecnologie all avanguardia.
+correlations in sensory neural networks have both extrinsic and intrinsic
+origins. extrinsic or stimulus correlations arise from shared inputs to the
+network, and thus depend strongly on the stimulus ensemble. intrinsic or noise
+correlations reflect biophysical mechanisms of interactions between neurons,
+which are expected to be robust to changes of the stimulus ensemble. despite
+the importance of this distinction for understanding how sensory networks
+encode information collectively, no method exists to reliably separate
+intrinsic interactions from extrinsic correlations in neural activity data,
+limiting our ability to build predictive models of the network response. in
+this paper we introduce a general strategy to infer {population models of
+interacting neurons that collectively encode stimulus information}. the key to
+disentangling intrinsic from extrinsic correlations is to infer the {couplings
+between neurons} separately from the encoding model, and to combine the two
+using corrections calculated in a mean-field approximation. we demonstrate the
+effectiveness of this approach on retinal recordings. the same coupling network
+is inferred from responses to radically different stimulus ensembles, showing
+that these couplings indeed reflect stimulus-independent interactions between
+neurons. the inferred model predicts accurately the collective response of
+retinal ganglion cell populations as a function of the stimulus.

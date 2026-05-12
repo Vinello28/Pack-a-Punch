@@ -1,3 +1,1 @@
-Il tema centrale del progetto è lo studio e l'analisi di una soluzione integrata, ossia la progettazione di piattaforma per che permetta di gestire i processi di acquisizione e di elaborazione di modelli di analisi  dei dati da telerilevamento e di geofisica 
-Le soluzioni di monitoraggio tradizionali si limitano a misurare alcuni parametri fisici legati all'edificato senza tener conto di altri elmenti che possono essere fattori di innesco che quando recepite dai sensori può essere già una fase di non ritorno.
-Invece si ritiene di particolare rilevanza implementare una piattaforma innovativo per il monitoraggio delle strutture in grado di acquisire in apposite strutture informatiche (BigData) dati di diversa tipologia e di elaborarle secondo specifici algoritmi (deep Learning), individuando le condizioni critiche applicando innovativi algoritmi.
+Noleggio di macchine per videogiochi prevalentemente a realt aumentata

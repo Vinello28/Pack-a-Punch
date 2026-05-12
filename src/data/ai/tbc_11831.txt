@@ -1,10 +1,1 @@
-in this paper, we describe our ensemble approach for sentiment
-and aspect predictions in the financial domain for a given text. this
-ensemble approach uses convolutional neural networks (cnns)
-and recurrent neural networks (rnns) with a ridge regression
-and a voting strategy for sentiment and aspect predictions, and
-therefore, does not rely on any handcrafted feature. based on 5-cross
-validation on the released training set, the results show that cnns
-overall perform better than rnns on both tasks, and the ensemble
-approach can boost the performance further by leveraging different
-types of deep learning approaches.
+conversational recommender systems (crss) aim to capture user preferences and provide personalized recommendations through multi-round natural language dialogues. however, most existing crs models mainly focus on dialogue comprehension and preferences mining from the current dialogue session, overlooking user preferences in historical dialogue sessions. the preferences embedded in the user's historical dialogue sessions and the current session exhibit continuity and sequentiality, and we refer to crss with this characteristic as sequential crss. in this work, we leverage memory-enhanced llms to model the preference continuity, primarily focusing on addressing two key issues: (1) redundancy and noise in historical dialogue sessions, and (2) the cold-start users problem. to this end, we propose a memory-enhanced conversational recommender system framework with large language models (dubbed memocrs) consisting of user-specific memory and general memory. user-specific memory is tailored to each user for their personalized interests and implemented by an entity-based memory bank to refine preferences and retrieve relevant memory, thereby reducing the redundancy and noise of historical sessions. the general memory, encapsulating collaborative knowledge and reasoning guidelines, can provide shared knowledge for users, especially cold-start users. with the two kinds of memory, llms are empowered to deliver more precise and tailored recommendations for each user. extensive experiments on both chinese and english datasets demonstrate the effectiveness of memocrs.

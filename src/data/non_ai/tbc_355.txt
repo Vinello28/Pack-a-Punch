@@ -1,1 +1,0 @@
-IlIl progetto consiste nella realizzazione di numero due postazione oper il controllo e gestione del magazzino. Il software ottimizza e migliora il carico e scarico della merce e predispone la compilazione del ddt relativo e contabilizzazione in uscita del materiale.

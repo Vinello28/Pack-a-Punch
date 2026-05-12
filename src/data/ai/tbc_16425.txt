@@ -1,0 +1,17 @@
+neural networks use their hidden layers to transform input data into linearly
+separable data clusters, with a linear or a perceptron type output layer making
+the final projection on the line perpendicular to the discriminating
+hyperplane. for complex data with multimodal distributions this transformation
+is difficult to learn. projection on $k\geq 2$ line segments is the simplest
+extension of linear separability, defining much easier goal for the learning
+process. simple problems are 2-separable, but problems with inherent complex
+logic may be solved in a simple way by $k$-separable projections. the
+difficulty of learning non-linear data distributions is shifted to separation
+of line intervals, simplifying the transformation of data by hidden network
+layers. for classification of difficult boolean problems, such as the parity
+problem, linear projection combined with \ksep is sufficient and provides a
+powerful new target for learning. more complex targets may also be defined,
+changing the goal of learning from linear discrimination to creation of data
+distributions that can easily be handled by specialized models selected to
+analyze output distributions. this approach can replace many layers of
+transformation required by deep learning models.

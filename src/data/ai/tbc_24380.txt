@@ -1,0 +1,17 @@
+few-shot learning remains challenging for meta-learning that learns a
+learning algorithm (meta-learner) from many related tasks. in this work, we
+argue that this is due to the lack of a good representation for meta-learning,
+and propose deep meta-learning to integrate the representation power of deep
+learning into meta-learning. the framework is composed of three modules, a
+concept generator, a meta-learner, and a concept discriminator, which are
+learned jointly. the concept generator, e.g. a deep residual net, extracts a
+representation for each instance that captures its high-level concept, on which
+the meta-learner performs few-shot learning, and the concept discriminator
+recognizes the concepts. by learning to learn in the concept space rather than
+in the complicated instance space, deep meta-learning can substantially improve
+vanilla meta-learning, which is demonstrated on various few-shot image
+recognition problems. for example, on 5-way-1-shot image recognition on
+cifar-100 and cub-200, it improves matching nets from 50.53% and 56.53% to
+58.18% and 63.47%, improves maml from 49.28% and 50.45% to 56.65% and 64.63%,
+and improves meta-sgd from 53.83% and 53.34% to 61.62% and 66.95%,
+respectively.

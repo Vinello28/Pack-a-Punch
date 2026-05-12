@@ -1,1 +1,15 @@
-Realizzazione di un sistema di Machine Learning per protein folding nel contesto ambiente. La soluzione utilizza Self-Supervised Learning (SSL) per analizzare video ad alta definizione 4K/8K in tempo reale. L'infrastruttura tecnologica prevede pipeline MLOps con CI/CD automatizzato per garantire alte performance.
+this research mainly emphasizes on traffic detection thus essentially
+involving object detection and classification. the particular work discussed
+here is motivated from unsatisfactory attempts of re-using well known
+pre-trained object detection networks for domain specific data. in this course,
+some trivial issues leading to prominent performance drop are identified and
+ways to resolve them are discussed. for example, some simple yet relevant
+tricks regarding data collection and sampling prove to be very beneficial.
+also, introducing a blur net to deal with blurred real time data is another
+important factor promoting performance elevation. we further study the neural
+network design issues for beneficial object classification and involve shared,
+region-independent convolutional features. adaptive learning rates to deal with
+saddle points are also investigated and an average covariance matrix based
+pre-conditioned approach is proposed. we also introduce the use of optical flow
+features to accommodate orientation information. experimental results
+demonstrate that this results in a steady rise in the performance rate.

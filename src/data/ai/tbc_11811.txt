@@ -1,1 +1,16 @@
-creazione di uno strumento di intelligenza artificiale in grado di indirizzare  tramite smartphone e di 1 app (trovamorto) chiunque abbia la necessitÃ  di individuare la posizione di un proprio caro estinto allÂ¿ interno di un qualsiasi cimitero italiano. Cittadini  antenati di emigrati  stranieri morti in Italia nelle guerre mondiali  defunti celebri: tramite questo sistema  sarÃ  possibile conoscere il luogo di sepoltura del defunto e anche la posizione esatta allÂ¿ interno del cimitero. il sistema quindi ti accompagnerÃ  nel luogo cercato  evitando cosÃ¬ lunghe e spesso infruttuose ricerche. aattualmente  NON ESISTE NIENTE DI SIMILE.
+the current standard of intra-operative navigation during fenestrated
+endovascular aortic repair (fevar) calls for need of 3d alignments between
+inserted devices and aortic branches. the navigation commonly via 2d
+fluoroscopic images, lacks anatomical information, resulting in longer
+operation hours and radiation exposure. in this paper, a framework for
+real-time 3d robotic path planning from a single 2d fluoroscopic image of
+abdominal aortic aneurysm (aaa) is introduced. a graph matching method is
+proposed to establish the correspondence between the 3d preoperative and 2d
+intra-operative aaa skeletons, and then the two skeletons are registered by
+skeleton deformation and regularization in respect to skeleton length and
+smoothness. furthermore, deep learning was used to segment 3d pre-operative aaa
+from computed tomography (ct) scans to facilitate the framework automation.
+simulation, phantom and patient aaa data sets have been used to validate the
+proposed framework. 3d distance error of 2mm was achieved in the phantom setup.
+performance advantages were also achieved in terms of accuracy, robustness and
+time-efficiency. all the code will be open source.

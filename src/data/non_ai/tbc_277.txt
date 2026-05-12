@@ -1,1 +1,1 @@
-il progetto ha lo scopo di predisporre un sistema sotware e hardware per lo svolgimento di test di analisi sensoriale con giudici formati o sul consumatori sostituendo le schede cartacee con il caricamento diretto dei dati da parte degli assaggiatori su tablet. Inoltre il sistema potrà anche integrare i software statistici per l'elaborazione e validazioen dei dati raccolti e la messa a report degli stessi.
+SVILUPPO DI NUOVA TECNOLOGIA RADIOTERAPICA

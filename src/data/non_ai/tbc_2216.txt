@@ -1,1 +1,1 @@
-Il progetto intende industrializzare un sistema di rilevamento della temperatura corporea attraverso un braccialetto intelligente che invia notifiche al superamento di determinate soglie, rilevando al contempo la distanza da altre persone, e un armadietto sanificatore
+attrezzatura per salone . fornitore ML group

@@ -1,0 +1,20 @@
+generative adversarial networks have been able to generate striking results
+in various domains. this generation capability can be general while the
+networks gain deep understanding regarding the data distribution. in many
+domains, this data distribution consists of anomalies and normal data, with the
+anomalies commonly occurring relatively less, creating datasets that are
+imbalanced. the capabilities that generative adversarial networks offer can be
+leveraged to examine these anomalies and help alleviate the challenge that
+imbalanced datasets propose via creating synthetic anomalies. this anomaly
+generation can be specifically beneficial in domains that have costly data
+creation processes as well as inherently imbalanced datasets. one of the
+domains that fits this description is the host-based intrusion detection
+domain. in this work, adfa-ld dataset is chosen as the dataset of interest
+containing system calls of small foot-print next generation attacks. the data
+is first converted into images, and then a cycle-gan is used to create images
+of anomalous data from images of normal data. the generated data is combined
+with the original dataset and is used to train a model to detect anomalies. by
+doing so, it is shown that the classification results are improved, with the
+auc rising from 0.55 to 0.71, and the anomaly detection rate rising from 17.07%
+to 80.49%. the results are also compared to smote, showing the potential
+presented by generative adversarial networks in anomaly generation.

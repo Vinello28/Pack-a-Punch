@@ -1,1 +1,11 @@
-acquisition of data is a difficult task in many applications of machine learning, and it is only natural that one hopes and expects the population risk to decrease (better performance) monotonically with increasing data points. it turns out, somewhat surprisingly, that this is not the case even for the most standard algorithms that minimize the empirical risk. non-monotonic behavior of the risk and instability in training have manifested and appeared in the popular deep learning paradigm under the description of double descent. these problems highlight the current lack of understanding of learning algorithms and generalization. it is, therefore, crucial to pursue this concern and provide a characterization of such behavior. in this paper, we derive the first consistent and risk-monotonic algorithms for a general statistical learning setting under weak assumptions, consequently resolving an open problem viering et al. (2019) on how to avoid non-monotonic behavior of risk curves. we further show that risk monotonicity need not necessarily come at the price of worse excess risk rates. to achieve this, we derive new empirical bernstein-like concentration inequalities of independent interest that hold for certain non-i.i.d. processes such as martingale difference sequences.
+we report an extension of a keras model, called ctcmodel, to perform the
+connectionist temporal classification (ctc) in a transparent way. combined with
+recurrent neural networks, the connectionist temporal classification is the
+reference method for dealing with unsegmented input sequences, i.e. with data
+that are a couple of observation and label sequences where each label is
+related to a subset of observation frames. ctcmodel makes use of the ctc
+implementation in the tensorflow backend for training and predicting sequences
+of labels using keras. it consists of three branches made of keras models: one
+for training, computing the ctc loss function; one for predicting, providing
+sequences of labels; and one for evaluating that returns standard metrics for
+analyzing sequences of predictions.

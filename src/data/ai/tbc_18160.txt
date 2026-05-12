@@ -1,0 +1,17 @@
+one of the main challenges in grid systems is designing an adaptive,
+scalable, and model-independent method for job scheduling to achieve a
+desirable degree of load balancing and system efficiency. centralized job
+scheduling methods have some drawbacks, such as single point of failure and
+lack of scalability. moreover, decentralized methods require a coordination
+mechanism with limited communications. in this paper, we propose a multi-agent
+approach to job scheduling in grid, named centralized learning distributed
+scheduling (clds), by utilizing the reinforcement learning framework. the clds
+is a model free approach that uses the information of jobs and their completion
+time to estimate the efficiency of resources. in this method, there are a
+learner agent and several scheduler agents that perform the task of learning
+and job scheduling with the use of a coordination strategy that maintains the
+communication cost at a limited level. we evaluated the efficiency of the clds
+method by designing and performing a set of experiments on a simulated grid
+system under different system scales and loads. the results show that the clds
+can effectively balance the load of system even in large scale and heavy loaded
+grids, while maintains its adaptive performance and scalability.

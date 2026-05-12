@@ -1,1 +1,15 @@
-Il progetto riguarda lo sviluppo prototipale di un sistema di visione artificiale per la video analisi in tempo reale di saldature mediante sensori video installati vicino al punto di lavorazione.Il flusso video acquisito dai diversi sensori verr elaborato da specifici algoritmi di Machine Vision per renderlo visibile su un monitor di controllo a bordo macchina su cui saranno disponibili anche informazioni tecniche di saldatura (voltaggio amperaggio ecc.) fornite direttamente dall impianto.
+when training a machine learning model with observational data, it is often
+encountered that some values are systemically missing. learning from the
+incomplete data in which the missingness depends on some covariates may lead to
+biased estimation of parameters and even harm the fairness of decision outcome.
+this paper proposes how to adjust the causal effect of covariates on the
+missingness when training models using stochastic gradient descent (sgd).
+inspired by the design of doubly robust estimator and its theoretical property
+of double robustness, we introduce stochastic doubly robust gradient (sdrg)
+consisting of two models: weight-corrected gradients for inverse propensity
+score weighting and per-covariate control variates for regression adjustment.
+also, we identify the connection between double robustness and variance
+reduction in sgd by demonstrating the sdrg algorithm with a unifying framework
+for variance reduced sgd. the performance of our approach is empirically tested
+by showing the convergence in training image classifiers with several examples
+of missing data.

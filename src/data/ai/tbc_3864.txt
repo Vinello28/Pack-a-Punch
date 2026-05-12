@@ -1,12 +1,1 @@
-Il programma proposto intende affrontare il problema della simulazione del tracciamento dei fotoni Cherenkov nei
-rivelatori RICH, un’attività molto pesante computazionalmente, per una categoria di rivelatori fondamentali per la
-fisica delle alte energie ai futuri acceleratori.
-L’obiettivo è utilizzare nuove metodologie per migliorare la capacità di calcolo, integrando diverse tecnologie quali
-sistemi di progettazione ottica standalone, GPU e tecniche di machine learning. Il programma è coerente sia con le
-finalità dello spoke 2 di ICSC, sia con le linee strategiche della comunità internazionale e permetterà alla comunità
-italiana di mantenere un ruolo di leadership in questo settore della fisica delle alte energie.
-L’integrazione di nuove tecnologie basate su processori avanzati e l’utilizzo di algoritmi ML/DL rappresenteranno
-quindi un’evoluzione significativa nello stato dell’arte nel campo degli esperimenti HEP e in particolare degli esperimenti
-di fisica del sapore, dove l’identificazione di particelle è uno degli ingredienti fondamentali.
-Il programma è dunque prioritario, innovativo e coerente con gli scopi del bando. Inoltre ne viene dimostrata la
-sostenibilità economica e la competenza del gruppo proponente.
+Il piano di attuazione progettuale di Varo S.r.l. si basa su un'analisi approfondita delle inefficienze nei processi aziendali con l'obiettivo di migliorare le performance complessive attraverso l'integrazione di nuove tecnologie. Grazie a uno studio di assessment digitale sono state individuate le aree critiche dell'azienda e pianificati interventi mirati per risolvere tali problematiche. Uno degli aspetti chiave del piano l'introduzione di tecnologie digitali aperte e interoperabili che permettano uno scambio continuo e aggiornato di dati tra i vari dipartimenti creando un ecosistema digitale integrato. Una delle prime azioni concrete dell intervento sar l'implementazione di una soluzione di realt virtuale (VR) per migliorare la gestione dell'assistenza post-vendita in particolare per i clienti internazionali. Questo sistema permetter di fornire teleassistenza da remoto in modo pi efficiente utilizzando visori Meta Quest 3. Grazie a un database sicuro su AWS e protocolli di autenticazione avanzati Varo garantir un servizio di assistenza innovativo e sicuro. La VR consentir ai tecnici di guidare i clienti nelle operazioni di manutenzione attraverso video audio e schemi tecnici 3D riducendo le barriere linguistiche con sottotitoli in tempo reale. Questa soluzione

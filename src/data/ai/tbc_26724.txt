@@ -1,0 +1,14 @@
+beam search is a widely used approximate search strategy for neural network
+decoders, and it generally outperforms simple greedy decoding on tasks like
+machine translation. however, this improvement comes at substantial
+computational cost. in this paper, we propose a flexible new method that allows
+us to reap nearly the full benefits of beam search with nearly no additional
+computational cost. the method revolves around a small neural network actor
+that is trained to observe and manipulate the hidden state of a
+previously-trained decoder. to train this actor network, we introduce the use
+of a pseudo-parallel corpus built using the output of beam search on a base
+model, ranked by a target quality metric like bleu. our method is inspired by
+earlier work on this problem, but requires no reinforcement learning, and can
+be trained reliably on a range of models. experiments on three parallel corpora
+and three architectures show that the method yields substantial improvements in
+translation quality and speed over each base system.

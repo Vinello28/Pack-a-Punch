@@ -1,0 +1,11 @@
+this paper discusses the approach taken by the uwaterloo team to arrive at a
+solution for the fine-grained sentiment analysis problem posed by task 5 of
+semeval 2017. the paper describes the document vectorization and sentiment
+score prediction techniques used, as well as the design and implementation
+decisions taken while building the system for this task. the system uses text
+vectorization models, such as n-gram, tf-idf and paragraph embeddings, coupled
+with regression model variants to predict the sentiment scores. amongst the
+methods examined, unigrams and bigrams coupled with simple linear regression
+obtained the best baseline accuracy. the paper also explores data augmentation
+methods to supplement the training dataset. this system was designed for
+subtask 2 (news statements and headlines).

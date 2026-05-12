@@ -1,1 +1,12 @@
-Il dibattito sull introduzione dell intelligenza artificiale generativa sia testuale che visiva all interno dei processi delle PMI ancora fortemente concentrato sugli strumenti tecnologici da adottare ma manca la costruzione di una consapevolezza di contesto necessaria per un adozione efficace sostenibile e mirata. Questo progetto nasce dall idea che prima di implementare le tecnologie sia indispensabile fotografare lo stato attuale delle organizzazioni. Attraverso un sistema strutturato innovativo di self-assessment basato su intelligenza artificiale e big data analytics primo nel suo genere a livello nazionale si intende mappare il posizionamento delle PMI rispetto a cinque ambiti chiave per l adozione dell IA: l opportunit strategica la qualit e la propriet del dato la riservatezza delle informazioni gli aspetti contrattuali e il rispetto dei principi etici e del diritto d autore. Da questa esigenza nasce la proposta di costruire un modello basato su indicatori in grado di restituire un'immagine chiara accessibile e confrontabile della maturit organizzativa rispetto all uso dell IA. Questo approccio consente di identificare il gap di misurarlo e di conseguenza accompagnare le imprese verso un percorso di miglioramento consapevole.
+spectral clustering is one of the most popular methods for community
+detection in graphs. a key step in spectral clustering algorithms is the eigen
+decomposition of the $n{\times}n$ graph laplacian matrix to extract its $k$
+leading eigenvectors, where $k$ is the desired number of clusters among $n$
+objects. this is prohibitively complex to implement for very large datasets.
+however, it has recently been shown that it is possible to bypass the eigen
+decomposition by computing an approximate spectral embedding through graph
+filtering of random signals. in this paper, we analyze the working of spectral
+clustering performed via graph filtering on the stochastic block model.
+specifically, we characterize the effects of sparsity, dimensionality and
+filter approximation error on the consistency of the algorithm in recovering
+planted clusters.

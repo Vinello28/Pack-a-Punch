@@ -1,0 +1,10 @@
+computer vision is outstanding on fixed datasets, but lacks the
+effortless generality and flexibility of human perception. 
+as a step toward understanding this flexibility, we
+show that there are features -- critical contours -- readily detectable in images that have
+counterparts -- extremal contours -- on 3d shapes. both are 
+part of a topological structure, morse-smale complex, and together they provide an invariant
+linking image to shape structure. an open neighborhood around these contours
+is related to human perception of shape features, such as
+bumps, which suggests that training for these features could provide a
+generalization benefit in algorithm development.

@@ -1,0 +1,14 @@
+we present a novel data set made up of omnidirectional video of multiple
+objects whose centroid positions are annotated automatically. omnidirectional
+vision is an active field of research focused on the use of spherical imagery
+in video analysis and scene understanding, involving tasks such as object
+detection, tracking and recognition. our goal is to provide a large and
+consistently annotated video data set that can be used to train and evaluate
+new algorithms for these tasks. here we describe the experimental setup and
+software environment used to capture and map the 3d ground truth positions of
+multiple objects into the image. furthermore, we estimate the expected
+systematic error on the mapped positions. in addition to final data products,
+we release publicly the software tools and raw data necessary to re-calibrate
+the camera and/or redo this mapping. the software also provides a simple
+framework for comparing the results of standard image annotation tools or
+visual tracking systems against our mapped ground truth annotations.

@@ -1,0 +1,14 @@
+in this paper, we solve the problem of adapting classifiers across domains.
+we consider the problem of domain adaptation for multi-class classification
+where we are provided a labeled set of examples in a source dataset and we are
+provided a target dataset with no supervision. in this setting, we propose an
+adversarial discriminator based approach. while the approach based on
+adversarial discriminator has been previously proposed; in this paper, we
+present an informed adversarial discriminator. our observation relies on the
+analysis that shows that if the discriminator has access to all the information
+available including the class structure present in the source dataset, then it
+can guide the transformation of features of the target set of classes to a more
+structure adapted space. using this formulation, we obtain state-of-the-art
+results for the standard evaluation on benchmark datasets. we further provide
+detailed analysis which shows that using all the labeled information results in
+an improved domain adaptation.

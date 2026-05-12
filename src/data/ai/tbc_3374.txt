@@ -1,3 +1,0 @@
-Il progetto afferisce all’ambito “Monitoraggio dei Comportamenti dei Visitatori per 
-Migliorare i Contenuti Espositivi” in quanto ha l’obiettivo di migliorare la piattaforma 
-PARTICLE, sviluppandone la capacità di raccolta e analisi dati sui visitatori. Il progetto mira ad integrare le tecnologie emergenti già in uso dalla piattaforma (ovvero RA e Data Insight) con soluzioni basate sull’Intelligenza Artificiale (IA), sfruttando al contempo una trasmissione dati più performante grazie alla rete 5G.

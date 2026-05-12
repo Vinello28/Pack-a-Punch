@@ -1,1 +1,14 @@
-DESCRIZIONE: ONE VISION artificial intelligence-aided 3d and VIrtual Systems for end-user based Industrial prOcess integratioN
+the recently presented idea to learn heuristics for combinatorial
+optimization problems is promising as it can save costly development. however,
+to push this idea towards practical implementation, we need better models and
+better ways of training. we contribute in both directions: we propose a model
+based on attention layers with benefits over the pointer network and we show
+how to train this model using reinforce with a simple baseline based on a
+deterministic greedy rollout, which we find is more efficient than using a
+value function. we significantly improve over recent learned heuristics for the
+travelling salesman problem (tsp), getting close to optimal results for
+problems up to 100 nodes. with the same hyperparameters, we learn strong
+heuristics for two variants of the vehicle routing problem (vrp), the
+orienteering problem (op) and (a stochastic variant of) the prize collecting
+tsp (pctsp), outperforming a wide range of baselines and getting results close
+to highly optimized and specialized algorithms.

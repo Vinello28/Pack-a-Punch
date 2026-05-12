@@ -1,1 +1,9 @@
-White paper pensato per mettere in luce le straordinarie opportunità che la nuova rivoluzione tecnologia, guidata dall'Intelligenza Artificiale, offre alle Piccole e Medie Imprese del Made in Italy nell'ambito industriale.
+in this work, we propose a multi-modal convolutional neural network (cnn)
+approach for brain tumor segmentation. we investigate how to combine different
+modalities efficiently in the cnn framework.we adapt various fusion methods,
+which are previously employed on video recognition problem, to the brain tumor
+segmentation problem,and we investigate their efficiency in terms of memory and
+performance.our experiments, which are performed on brats dataset, lead us to
+the conclusion that learning separate representations for each modality and
+combining them for brain tumor segmentation could increase the performance of
+cnn systems.

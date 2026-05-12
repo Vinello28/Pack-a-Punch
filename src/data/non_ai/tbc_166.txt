@@ -1,13 +1,1 @@
-Lo scanner 3D si basa su tecnologia di scansione a triangolazione laser collaudata e
-affidabile con movimenti su tre assi. Ha computer a bordo con processore a 64 bit, scheda grafica dedicata e 8
-GB di memoria. Utilizzando fotocamere ad alta velocità con ridotto campo visivo si ottiene una risoluzione
-superiore.E' sottoposto a rigoros ciclo di test e analisi metrologiche per assicurare una digitalizzazione accurata
-e costante dei volumi dentali.Vantaggi del passaggio al digitale:
-Installazione plug and play e di facile ;Elevata precisione di scansione;Vasta gamma di applicazioni di
-scansioni,comprese arcate complete, wax-up, scan abutment, occlusioni, denti contrapposti, impronte su
-cucchiaio, onlay, inlay e faccette;Flusso di lavoro integrato di scansione e modellazione col software
-DWOS;Facile comunicazione clinica-laboratorio con DWOS Connect;Libertà di scelta della produzione, dato
-che il sistema genera file STL, formato standard non proprietario (architettura aperta);Accesso a materiali
-dentali innovativi e di alta qualità. Si tratta infine di scanner di modelli dentali compatto con configurazioni
-software DWOS flessibili ideale per PMI e particolarmente adatto anche per
-i conto terzi.
+IL PROGETTO HA COME SCOPO QUELLO DI APPORTARE MIGLIORAMENTI ALL'ATTUALE STRUTTURA INFORMATICA MEDIANTE IL RINNOVAMENTO DI SOFTWARE E DELL'HARDWARE ESISTENTE IN MODO TALE DA DOTARE LA STRUTTURA DI UN'ADEGUATA STRUTTURA INFORMATICA PRONTA A SODDISFARE LE ESIGENZE COMMERCIALI E AL TEMPO STESSO DI MIGLIORARE I SERVIZI RESI ALLA CLIENTELA. TALE INTERVENTO SI RENDE NECESSARIO VISTE LE MUTATE ESIGENZE CHE LA FARMACIA SI TROVA A DOVER SODDISFARE IN QUANTO DIVENTATA PRESIDIO DI SALUTE SUL TERRITORIO ED ESPLICANDO QUINDI AL CONTEMPO SERVIZI QUALI LA DISTRIBUZIONE PER CONTO DELLE ASL NONCHE' SERVIZIO CUP (CENTRO UNICO DI PRENOTAZIONE). ATTUALMENTE L'INFORMATICA HA UN RUOLO IMPORTANTE E PREDOMINANTE NELL'ORGANIZZAZIONE DELLE FARMACIE IN QUANTO C'E' UNA NOTEVOLE MASSA DI DATI CHE DEVONO ESSERE TRASFERITI VERSO VARI SOGGETTI QUALI GROSSISTI FORNITORI ENTI BASTI PENSARE AI DATI CHE DEVONO CONFLUIRE PER LA COMPILAZIONE DEL 730 PRECOMPILATO PIUTTOSTO CHE AI DATI DI COMPETENZA DELLE ASL O REGIONI.

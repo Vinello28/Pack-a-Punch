@@ -1,1 +1,0 @@
-La soluzione tecnologica che il progetto miraa sviluppare consiste nella creazione di una piattaforma software di businesses intelligence capace di gestire informazioni di tipo sanitario, ambientale, socio economico e strutturata per consentire la raccolta di Big Data provenienti da sorgenti eterogenee di dati.

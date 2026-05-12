@@ -1,4 +1,0 @@
-il progetto ha come obbiettivo quello di rivedere le classificazioni
-fenotipiche esistenti di diverse patologie neurologiche, utilizzando percorsi e analisi di rete per
-generare classificazioni basate su meccanismi causali, potenziali nuovi bersagli terapeutici e
-indicazioni, profili di risposta al trattamento e sub-fenotipi clinici.

@@ -1,1 +1,0 @@
-Realizzazione e commercializzazione di una piattaforma di detection & reaction automatica per la protezione di infrastrutture IT e OT.

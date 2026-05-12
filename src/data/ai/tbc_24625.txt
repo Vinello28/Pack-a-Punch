@@ -1,0 +1,12 @@
+most previous learning-based visual odometry (vo) methods take vo as a pure
+tracking problem. in contrast, we present a vo framework by incorporating two
+additional components called memory and refining. the memory component
+preserves global information by employing an adaptive and efficient selection
+strategy. the refining component ameliorates previous results with the contexts
+stored in the memory by adopting a spatial-temporal attention mechanism for
+feature distilling. experiments on the kitti and tum-rgbd benchmark datasets
+demonstrate that our method outperforms state-of-the-art learning-based methods
+by a large margin and produces competitive results against classic monocular vo
+approaches. especially, our model achieves outstanding performance in
+challenging scenarios such as texture-less regions and abrupt motions, where
+classic vo algorithms tend to fail.

@@ -1,0 +1,1 @@
+Il progetto TWINROLL sviluppa una linea avanzata di roll forming per tubi saldati integrata con digital twin e AI per ottimizzare precisione efficienza e sostenibilit . Include modelli numerici sensori e automazione per monitoraggio e decisioni in tempo reale riducendo sprechi ed energia.

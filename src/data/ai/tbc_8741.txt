@@ -1,0 +1,14 @@
+recent advancements in neutron and x-ray sources, instrumentation and data
+collection modes have significantly increased the experimental data size (which
+could easily contain 10$^{8}$ -- 10$^{10}$ data points), so that conventional
+volumetric visualization approaches become inefficient for both still imaging
+and interactive opengl rendition in a 3d setting. we introduce a new approach
+based on the unsupervised machine learning algorithm, density-based spatial
+clustering of applications with noise (dbscan), to efficiently analyze and
+visualize large volumetric datasets. here we present two examples of analyzing
+and visualizing datasets from the diffuse scattering experiment of a single
+crystal sample and the tomographic reconstruction of a neutron scanning of a
+turbine blade. we found that by using the intensity as the weighting factor in
+the clustering process, dbscan becomes very effective in de-noising and
+feature/boundary detection, and thus enables better visualization of the
+hierarchical internal structures of the neutron scattering data.

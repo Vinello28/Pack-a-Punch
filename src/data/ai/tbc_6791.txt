@@ -1,1 +1,13 @@
-La strategia digitale di GFM Integration ha preso forma tre anni fa quando dopo un attenta analisi del mercato (nella classica scelta tra make or buy) stata presa la decisione di sviluppare un sistema ad hoc (SmartISO) basato su tecnologie open source per soddisfare le esigenze aziendali specifiche. SmartISO supporta attualmente alcune attivit del processo aziendale. Con la crescita dell azienda le necessit si sono ampliate portando alla definizione di una strategia digitale inserita in un cronoprogramma dove sono evidenziate le componenti software che si pensa siano necessarie per l evoluzione del sistema digitale per il raggiungimento degli obiettivi aziendali. L intervento attuativo mira a far evolvere il sistema software attraverso nuovi moduli (ciascuno identificato come un progetto ben definito) in grado di integrarsi con l infrastruttura esistente. I nuovi moduli saranno interoperabili implementati sfrutteranno tecnologie open source e in alcuni ambiti si far uso di algoritmi di Intelligenza Artificiale. Inoltre verranno impiegati strumenti open source per effettuare la valutazione di sicurezza (Vulnerability Scan) e monitorare con continuit i livelli di sicurezza del sistema informativo. Particolare attenzione sar data alla protezione dei dati personali
+tissue loss in the hippocampi has been heavily correlated with the
+progression of alzheimer's disease (ad). the shape and structure of the
+hippocampus are important factors in terms of early ad diagnosis and prognosis
+by clinicians. however, manual segmentation of such subcortical structures in
+mr studies is a challenging and subjective task. in this paper, we investigate
+variants of the well known 3d u-net, a type of convolution neural network (cnn)
+for semantic segmentation tasks. we propose an alternative form of the 3d
+u-net, which uses dilated convolutions and deep supervision to incorporate
+multi-scale information into the model. the proposed method is evaluated on the
+task of hippocampus head and body segmentation in an mri dataset, provided as
+part of the miccai 2018 segmentation decathlon challenge. the experimental
+results show that our approach outperforms other conventional methods in terms
+of different segmentation accuracy metrics.

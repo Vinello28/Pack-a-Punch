@@ -1,4 +1,0 @@
-Il progetto promuove la digitalizzazione sostenibile riducendo l’impatto ambientale con l’automazione, garantendo la protezione dei dati e migliorando la continuità operativa.
-L’intervento mira a migliorare la produttività, ridurre le segnalazioni di anomalie e aumentare l'integrazione con i clienti attraverso due iniziative:
-Copilot per la Gestione Clienti: Un assistente virtuale basato su AI per velocizzare la configurazione delle anagrafiche clienti.
-Controllo Automatico e Predittivo per Monitoraggio Sensori: Algoritmi per il controllo della qualità dell’immagine e la previsione dei visitatori, volti a rilevare e prevenire anomalie

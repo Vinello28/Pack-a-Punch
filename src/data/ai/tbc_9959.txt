@@ -1,0 +1,15 @@
+neural networks have been successfully used for classification tasks in a
+rapidly growing number of practical applications. despite their popularity and
+widespread use, there are still many aspects of training and classification
+that are not well understood. in this paper we aim to provide some new insights
+into training and classification by analyzing neural networks from a
+feature-space perspective. we review and explain the formation of decision
+regions and study some of their combinatorial aspects. we place a particular
+emphasis on the connections between the neural network weight and bias terms
+and properties of decision boundaries and other regions that exhibit varying
+levels of classification confidence. we show how the error backpropagates in
+these regions and emphasize the important role they have in the formation of
+gradients. these findings expose the connections between scaling of the weight
+parameters and the density of the training samples. this sheds more light on
+the vanishing gradient problem, explains the need for regularization, and
+suggests an approach for subsampling training data to improve performance.

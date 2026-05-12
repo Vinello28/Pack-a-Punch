@@ -1,0 +1,1 @@
+autoencoder-based deep learning is applied to jointly optimize geometric and probabilistic constellation shaping for optical coherent communication. the optimized constellation shaping outperforms the 256 qam maxwell-boltzmann probabilistic distribution with extra 0.05 bits/4d-symbol mutual information for 64 gbd transmission over 170 km smf link.

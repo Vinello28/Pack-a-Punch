@@ -1,2 +1,1 @@
-sviluppo di un tool kit di assistenza e monitoraggio dell'uso etico di AI,in particolare nei casi in cui l’IA sia impiegata per supportare decisioni critiche basate su dati sensibili. 
-Obiettivo e’ fornire un servizio affidabile e validato di Ethical AI audit per aziende, che includa l’assessment e lo stress test degli algoritmi, nonché il suggerimento di azioni di mitigazione del rischio
+White paper pensato per mettere in luce le straordinarie opportunit che la nuova rivoluzione tecnologia guidata dall'Intelligenza Artificiale offre alle Piccole e Medie Imprese del Made in Italy nell'ambito industriale.

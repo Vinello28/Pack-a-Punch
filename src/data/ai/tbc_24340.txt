@@ -1,0 +1,19 @@
+diverse input data modalities can provide complementary cues for several
+tasks, usually leading to more robust algorithms and better performance.
+however, while a (training) dataset could be accurately designed to include a
+variety of sensory inputs, it is often the case that not all modalities could
+be available in real life (testing) scenarios, where a model has to be
+deployed. this raises the challenge of how to learn robust representations
+leveraging multimodal data in the training stage, while considering limitations
+at test time, such as noisy or missing modalities.
+  this paper presents a new approach for multimodal video action recognition,
+developed within the unified frameworks of distillation and privileged
+information, named generalized distillation. particularly, we consider the case
+of learning representations from depth and rgb videos, while relying on rgb
+data only at test time. we propose a new approach to train an hallucination
+network that learns to distill depth features through multiplicative
+connections of spatiotemporal representations, leveraging soft labels and hard
+labels, as well as distance between feature maps. we report state-of-the-art
+results on video action classification on the largest multimodal dataset
+available for this task, the ntu rgb+d. code available at
+https://github.com/ncgarcia/modality-distillation .

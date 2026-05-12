@@ -1,0 +1,9 @@
+we propose a method to translate cartoon images to real world images using
+generative aderserial network (gan). existing gan-based image-to-image
+translation methods which are trained on paired datasets are impractical as the
+data is difficult to accumulate. therefore, in this paper we exploit the
+cycle-consistent adversarial networks (cyclegan) method for images translation
+which needs an unpaired dataset. by applying cyclegan we show that our model is
+able to generate meaningful real world images from cartoon images. however, we
+implement another state of the art technique $-$ deep analogy $-$ to compare
+the performance of our approach.

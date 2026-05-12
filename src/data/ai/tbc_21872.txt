@@ -1,0 +1,20 @@
+human face recognition is, indeed, a challenging task, especially under the
+illumination and pose variations. we examine in the present paper effectiveness
+of two simple algorithms using coiflet packet and radon transforms to recognize
+human faces from some databases of still gray level images, under the
+environment of illumination and pose variations. both the algorithms convert
+2-d gray level training face images into their respective depth maps or
+physical shape which are subsequently transformed by coiflet packet and radon
+transforms to compute energy for feature extraction. experiments show that such
+transformed shape features are robust to illumination and pose variations. with
+the features extracted, training classes are optimally separated through linear
+discriminant analysis (lda), while classification for test face images is made
+through a k-nn classifier, based on l1 norm and mahalanobis distance measures.
+proposed algorithms are then tested on face images that differ in
+illumination,expression or pose separately, obtained from three
+databases,namely, orl, yale and essex-grimace databases. results, so obtained,
+are compared with two different existing algorithms.performance using
+daubechies wavelets is also examined. it is seen that the proposed coiflet
+packet and radon transform based algorithms have significant performance,
+especially under different illumination conditions and pose variation.
+comparison shows the proposed algorithms are superior.

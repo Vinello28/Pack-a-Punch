@@ -1,1 +1,0 @@
-Metis Solutions vuole introdurre un sistema CRM in grado di gestire ed automatizzare i rapporti commerciali con i clienti, soprattutto per la gestione dei rinnovi garanzie e offerte ripetitive. La nuova componente software richiede un'infrastruttura hardware adeguata a l carico di lavoro richiesto.

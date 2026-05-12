@@ -1,1 +1,16 @@
-Realizzazione di un prototipo di piattaforma Web Based, denominata MOBYS e basata sulalgoritmi di DEEP LEARNING per la previsione della domanda di mobilità (mezzi e persone), che consenta il monitoraggio, proattivo-predittivo e di tipo near-real-time, e l’ottimizzazione automatica e dinamica della mobilità urbana e degli elementi infrastrutturali ad essa collegati (es. parcheggi, parcheggi riservati - disabili, piste ciclabili, colonnine ricarica elettrica, ecc.) attraverso l’impiego di Big Data provenienti da dispositivi IOT (videocamere, sensori, smartphone, ecc.) distribuiti sul territorio.
+we explore why deep convolutional neural networks (cnns) with small
+two-dimensional kernels, primarily used for modeling spatial relations in
+images, are also effective in speech recognition. we analyze the
+representations learned by deep cnns and compare them with deep neural network
+(dnn) representations and i-vectors, in the context of acoustic model
+adaptation. to explore whether interpretable information can be decoded from
+the learned representations we evaluate their ability to discriminate between
+speakers, acoustic conditions, noise type, and gender using the aurora-4
+dataset. we extract both whole model embeddings (to capture the information
+learned across the whole network) and layer-specific embeddings which enable
+understanding of the flow of information across the network. we also use
+learned representations as the additional input for a time-delay neural network
+(tdnn) for the aurora-4 and mgb-3 english datasets. we find that deep cnn
+embeddings outperform dnn embeddings for acoustic model adaptation and
+auxiliary features based on deep cnn embeddings result in similar word error
+rates to i-vectors.

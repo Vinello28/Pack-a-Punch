@@ -1,0 +1,1 @@
+a domain specific language (dsl), named motepy is presented. the dsl offers a high level syntax with low overheads for ml/data processing in time constrained or memory constrained systems. the dsl-to-c compiler has a novel static memory allocator that tracks object lifetimes and reuses the static memory, which we call the compiler-managed heap.

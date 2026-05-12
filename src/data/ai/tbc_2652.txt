@@ -1,0 +1,22 @@
+this paper addresses the problem of simultaneous 3d reconstruction and
+material recognition and segmentation. enabling robots to recognise different
+materials (concrete, metal etc.) in a scene is important for many tasks, e.g.
+robotic interventions in nuclear decommissioning. previous work on 3d semantic
+reconstruction has predominantly focused on recognition of everyday domestic
+objects (tables, chairs etc.), whereas previous work on material recognition
+has largely been confined to single 2d images without any 3d reconstruction.
+meanwhile, most 3d semantic reconstruction methods rely on computationally
+expensive post-processing, using fully-connected conditional random fields
+(crfs), to achieve consistent segmentations. in contrast, we propose a deep
+learning method which performs 3d reconstruction while simultaneously
+recognising different types of materials and labelling them at the pixel level.
+unlike previous methods, we propose a fully end-to-end approach, which does not
+require hand-crafted features or crf post-processing. instead, we use only
+learned features, and the crf segmentation constraints are incorporated inside
+the fully end-to-end learned system. we present the results of experiments, in
+which we trained our system to perform real-time 3d semantic reconstruction for
+23 different materials in a real-world application. the run-time performance of
+the system can be boosted to around 10hz, using a conventional gpu, which is
+enough to achieve real-time semantic reconstruction using a 30fps rgb-d camera.
+to the best of our knowledge, this work is the first real-time end-to-end
+system for simultaneous 3d reconstruction and material recognition.

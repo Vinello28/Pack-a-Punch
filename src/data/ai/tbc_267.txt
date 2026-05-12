@@ -1,1 +1,0 @@
-Sistema avionico per la sorveglianza marittima e costiera attraverso mezzi aerei che fa uso di algoritmi di Machine Learning ed Artificial Intelligence ML/AI. Si compone di tre componenti

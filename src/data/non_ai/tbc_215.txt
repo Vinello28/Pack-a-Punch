@@ -1,1 +1,0 @@
-Il progetto riguarda l'ammodernamento del processo di pressofusione dell'alluminio con l'allestimento di un'isola di lavoro robotizzata per estrarre pezzi dalla pressa ed effettuare un ciclo di lavoro.

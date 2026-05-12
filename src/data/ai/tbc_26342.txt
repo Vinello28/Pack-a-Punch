@@ -1,0 +1,10 @@
+in recent years, deep learning methods have been successfully applied to
+single-image super-resolution tasks. despite their great performances, deep
+learning methods cannot be easily applied to real-world applications due to the
+requirement of heavy computation. in this paper, we address this issue by
+proposing an accurate and lightweight deep network for image super-resolution.
+in detail, we design an architecture that implements a cascading mechanism upon
+a residual network. we also present variant models of the proposed cascading
+residual network to further improve efficiency. our extensive experiments show
+that even with much fewer parameters and operations, our models achieve
+performance comparable to that of state-of-the-art methods.

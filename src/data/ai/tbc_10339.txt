@@ -1,1 +1,13 @@
-Progetto di ricerca applicata su Natural Language Processing (NLP) con BERT/GPT per chatbot e assistenti virtuali in ambito aerospace. Il sistema elabora dati sintetici generati tramite simulazione attraverso pipeline di data processing avanzate. Il deployment avviene su model compression e quantization con monitoraggio continuo delle performance.
+in practice, the parameters of control policies are often tuned manually.
+this is time-consuming and frustrating. reinforcement learning is a promising
+alternative that aims to automate this process, yet often requires too many
+experiments to be practical. in this paper, we propose a solution to this
+problem by exploiting prior knowledge from simulations, which are readily
+available for most robotic platforms. specifically, we extend entropy search, a
+bayesian optimization algorithm that maximizes information gain from each
+experiment, to the case of multiple information sources. the result is a
+principled way to automatically combine cheap, but inaccurate information from
+simulations with expensive and accurate physical experiments in a
+cost-effective manner. we apply the resulting method to a cart-pole system,
+which confirms that the algorithm can find good control policies with fewer
+experiments than standard bayesian optimization on the physical system only.

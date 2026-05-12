@@ -1,13 +1,1 @@
-L’intervento attuativo di digitalizzazione di Agardi Srl, "Agardi 4.0", mira a ottimizzare i processi aziendali attraverso l'implementazione di nuove tecnologie, l’automazione e lo sviluppo delle competenze digitali del personale. Le principali azioni includono:
-
-Implementazione di un ERP Integrato (FACTORY): Automatizzazione dell’importazione ordini e gestione della produzione per migliorare l’efficienza e ridurre gli errori operativi.
-
-Introduzione di Sistemi di Business Intelligence (FACTORY VISION): Dashboard e strumenti di analisi per monitorare la produzione, lo stato dei progetti e la performance aziendale, supportando decisioni strategiche informate.
-
-Schedulazione Dinamica con AI: Utilizzo di un software avanzato di pianificazione che ottimizza l’uso dei macchinari e la gestione delle commesse in base a variabili in tempo reale.
-
-Suite HR Infinity Zucchetti: Gestione centralizzata e automatizzata delle risorse umane, incluse presenze e workflow di approvazione, per aumentare l’efficienza e migliorare la trasparenza.
-
-Manutenzione Predittiva e Monitoraggio in Tempo Reale: Sviluppo di un algoritmo di AI per prevenire guasti e ottimizzare la durata dei macchinari, riducendo i costi di manutenzione.
-
-Formazione e Upskilling del Personale: Programma di reskilling per garantir
+endometriosis is a common chronic gynecological disorder that has many characteristics, including the pouch of douglas (pod) obliteration, which can be diagnosed using transvaginal gynecological ultrasound (tvus) scans and magnetic resonance imaging (mri). tvus and mri are complementary non-invasive endometriosis diagnosis imaging techniques, but patients are usually not scanned using both modalities and, it is generally more challenging to detect pod obliteration from mri than tvus. to mitigate this classification imbalance, we propose in this paper a knowledge distillation training algorithm to improve the pod obliteration detection from mri by leveraging the detection results from unpaired tvus data. more specifically, our algorithm pre-trains a teacher model to detect pod obliteration from tvus data, and it also pre-trains a student model with 3d masked auto-encoder using a large amount of unlabelled pelvic 3d mri volumes. next, we distill the knowledge from the teacher tvus pod obliteration detector to train the student mri model by minimizing a regression loss that approximates the output of the student to the teacher using unpaired tvus and mri data. experimental results on our endometriosis dataset containing tvus and mri data demonstrate the effectiveness of our method to improve the pod detection accuracy from mri.

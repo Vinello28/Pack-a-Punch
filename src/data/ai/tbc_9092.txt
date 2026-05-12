@@ -1,1 +1,18 @@
-Immodrone srl (www.immodrone.it) una startup innovativa il cui obiettivo lo sviluppo di servizi ad alto valore aggiunto utilizzando droni sensori ed intelligenza artificiale. Per raggiungere tale obiettivo gestisce una rete di 1.500 piloti certificati ENAC. L obiettivo del progetto quello di rendere il processo dei servizi dedicati alle TERMOGRAFIE con drone totalmente automatico dalla richiesta del servizio alla formulazione del preventivo dall assegnazione del lavoro al pilota fino all analisi delle immagini termiche.
+the automated generation of music playlists can be naturally regarded as a
+sequential task, where a recommender system suggests a stream of songs that
+constitute a listening session. in order to predict the next song in a
+playlist, some of the playlist models proposed so far consider the current and
+previous songs in the playlist (i.e., the song context) and possibly the order
+of the songs in the playlist. we investigate the impact of the song context and
+the song order on next-song recommendations by conducting dedicated off-line
+experiments on two datasets of hand-curated music playlists. firstly, we
+compare three playlist models, each able to consider a different song context
+length: a popularity-based model, a song-based collaborative filtering (cf)
+model and a recurrent-neural-network-based model (rnn). we also consider a
+model that predicts next songs at random as a reference. secondly, we challenge
+the rnn model (the only model from the first experiment able to consider the
+song order) by manipulating the order of songs within playlists. our results
+indicate that the song context has a positive impact on the quality of
+next-song recommendations, even though this effect can be masked by the bias
+towards very popular songs. furthermore, in our experiments the song order does
+not appear as a crucial variable to predict better next-song recommendations.

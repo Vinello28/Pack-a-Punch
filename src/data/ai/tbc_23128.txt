@@ -1,0 +1,1 @@
+Il progetto prevede lo sviluppo del sistema ARG-AI che si integrer con la piattaforma verticalizzata ARGIA. ARG-AI sar basato su tecniche di Intelligenza artificiale e machine learning.

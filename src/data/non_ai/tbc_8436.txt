@@ -1,1 +1,1 @@
-A - DocFinance Ã¨ un progetto applicativo per la Gestione Anticipata di Tesoreria  che contiene il Corporate banking ed Ã¨ integrato con il Sistema Informativo aziendale  i cui obiettivi sono: la gestione dei flussi di cassa con informazioni utili ad ottimizzare la tesoreria
+Il progetto AI costituito da una rete europea di TEF ovvero Testing & Experimentation Facility attraverso la quale vengono offerti servizi e infrastrutture per supportare l introduzione dell AI nel settore manifatturiero

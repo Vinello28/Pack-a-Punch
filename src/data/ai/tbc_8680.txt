@@ -1,12 +1,11 @@
-identifying relationships between concepts is a key aspect of scientific
-knowledge synthesis. finding these links often requires a researcher to
-laboriously search through scien- tific papers and databases, as the size of
-these resources grows ever larger. in this paper we describe how distributional
-semantics can be used to unify structured knowledge graphs with unstructured
-text to predict new relationships between medical concepts, using a
-probabilistic generative model. our approach is also designed to ameliorate
-data sparsity and scarcity issues in the medical domain, which make language
-modelling more challenging. specifically, we integrate the medical relational
-database (semmeddb) with text from electronic health records (ehrs) to perform
-knowledge graph completion. we further demonstrate the ability of our model to
-predict relationships between tokens not appearing in the relational database.
+detecting the occlusion from stereo images or video frames is important to
+many computer vision applications. previous efforts focus on bundling it with
+the computation of disparity or optical flow, leading to a chicken-and-egg
+problem. in this paper, we leverage convolutional neural network to liberate
+the occlusion detection task from the interleaved, traditional calculation
+framework. we propose a symmetric network (symmnet) to directly exploit
+information from an image pair, without estimating disparity or motion in
+advance. the proposed network is structurally left-right symmetric to learn the
+binocular occlusion simultaneously, aimed at jointly improving both results.
+the comprehensive experiments show that our model achieves state-of-the-art
+results on detecting the stereo and motion occlusion.

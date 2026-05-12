@@ -1,8 +1,0 @@
-Il progetto prevede lo sviluppo della navigazione web sulla piattaforma AI-NHOA, basata sull’intelligenza artificiale e porterà Baleri a dotarsi di un sito web munito di una tecnologia totalmente innovativa e unica sul mercato.
-Per spiegare meglio in cosa consiste AI-nhoa, possiamo paragonare una sorgente di acqua al flusso di informazioni del web. AI-nhoa rappresenta infatti un flusso costante di conoscenza che attraversa sei fasi chiave: 
-1) AI-nhoa assorbe i dati online utilizzando tecniche avanzate di scraping e intelligenza artificiale
-2) AI-nhoa analizza i comportamenti dell'utente, raccogliendo segnali e informazioni che le permettono di comprendere meglio le preferenze e le necessità individuali
-3) AI-nhoa modifica il suo percorso in base alle richieste dell'utente, comprende esattamente cosa l'utente sta chiedendo
-4) i dati raccolti da AI-nhoa vengono raffinati per estrarre solo le informazioni più rilevanti. Grazie a sofisticati algoritmi di intelligenza artificiale, AI-nhoa non si limita a filtrare i dati, ma interpreta la domanda dell’utente per comprenderne il significato e il contesto.
-5) AI-nhoa, dopo aver filtrato e compreso le richieste dell'utente, arricchisce le informazioni raccolte attraverso una "cascata" di elaborazione. 
-6) AI-nhoa adatta le sue risposte p

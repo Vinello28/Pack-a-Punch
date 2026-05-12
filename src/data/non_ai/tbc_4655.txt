@@ -1,0 +1,1 @@
+Il progetto consiste nell'automatizzare i punti cassa con un sistema intuitivo con interfaccia utente completamente collegabile a qualsiasi cassa o stampante fiscale con letture di codice a barra ed etichette barcode  gestione digitalizzata del magazzino il tutto corredato di hardware di ultima generazione.

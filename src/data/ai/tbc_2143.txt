@@ -1,0 +1,14 @@
+learning meaningful representations using deep neural networks involves
+designing efficient training schemes and well-structured networks. currently,
+the method of stochastic gradient descent that has a momentum with dropout is
+one of the most popular training protocols. based on that, more advanced
+methods (i.e., maxout and batch normalization) have been proposed in recent
+years, but most still suffer from performance degradation caused by small
+perturbations, also known as adversarial examples. to address this issue, we
+propose manifold regularized networks (mrnet) that utilize a novel training
+objective function that minimizes the difference between multi-layer embedding
+results of samples and those adversarial. our experimental results demonstrated
+that mrnet is more resilient to adversarial examples and helps us to generalize
+representations on manifolds. furthermore, combining mrnet and dropout allowed
+us to achieve competitive classification performances for three well-known
+benchmarks: mnist, cifar-10, and svhn.

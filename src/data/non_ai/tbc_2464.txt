@@ -1,4 +1,1 @@
-Il progetto RAFAEL parte da sviluppi tecnologici realizzati negli ultimi anni e ha l’obiettivo di integrarli,
-con tecnologie sviluppate ad hoc, all’interno di una piattaforma, il Sistema di Supporto alle Decisioni
-(DSS) CIPCast, che diventerà la piattaforma di riferimento per fornire servizi alle imprese ed alla P.A.
-attraverso il costituendo Consorzio EISAC.IT che ne effettuerà il deployment operativo in Italia
+Bando Impresa Digitale Digitale e Sostenibile Gruppo Camarlinghi

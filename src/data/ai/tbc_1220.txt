@@ -1,8 +1,17 @@
-Il progetto intende intraprendere un percorso di esplorazione di nuove tematiche tecnologie da intrudurre in azienda al fine di espandere le attività di business attuale ed in particolare nelle aree di:
-¿ Big Data e data Analysis basata su processi di Artificial Intelligence
-¿ Internet delle cose e delle macchine
-¿ Prototipazione Rapida
-Al fine di intraprendere in maniera strutturata le attività in questi ambiti Synesthesia richiede il supporto di un innovation manager con le seguenti funzioni:
-¿ Esplorazione delle opportunità nelle varie tematiche tecnologiche e identificazione dei verticali specifici su cui sviluppare le tecnologie di cui sopra
-¿ Selezione potenziali Partner adeguati complementari alle competenze di Synesthesia
-¿ Valutazione e scouting delle opportunità
+learning by integrating multiple heterogeneous data sources is a common
+requirement in many tasks. collective matrix factorization (cmf) is a technique
+to learn shared latent representations from arbitrary collections of matrices.
+it can be used to simultaneously complete one or more matrices, for predicting
+the unknown entries. classical cmf methods assume linearity in the interaction
+of latent factors which can be restrictive and fails to capture complex
+non-linear interactions. in this paper, we develop the first deep-learning
+based method, called dcmf, for unsupervised learning of multiple shared
+representations, that can model such non-linear interactions, from an arbitrary
+collection of matrices. we address optimization challenges that arise due to
+dependencies between shared representations through multi-task bayesian
+optimization and design an acquisition function adapted for collective learning
+of hyperparameters. our experiments show that dcmf significantly outperforms
+previous cmf algorithms in integrating heterogeneous data for predictive
+modeling. further, on two tasks - recommendation and prediction of gene-disease
+association - dcmf outperforms state-of-the-art matrix completion algorithms
+that can utilize auxiliary sources of information.

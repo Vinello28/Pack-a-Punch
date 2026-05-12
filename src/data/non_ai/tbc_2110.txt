@@ -1,4 +1,0 @@
-Il progetto AMICO si propone di realizzare un’infrastruttura, chiamata “ambiente instrumentato”, costituita
-dall’ambiente domestico e dalla persona entrambi opportunamente muniti di sensori, da una piattaforma di
-servizi di telemedicina (in ambito Internet of Things) e da un Robot che si pone come mediatore/master tra
-la persona, l’ambiente circostante e l’ambiente esterno.

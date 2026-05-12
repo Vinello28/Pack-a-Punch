@@ -1,1 +1,19 @@
-PIANIFICAZIONE E COORDINAMENTO DEL PROCESSO DI INNOVAZIONE DIGITALE TRAMITE ADOZIONE DI TECNOLOGIE EMERGENTI COME: REALTA' VIRTUALE REALTA' AUMENTATA INTELLIGENZA ARTIFICIALE STRATEGIE DI DIGITAL MARKETING ED OPEN INNOVATION APPLICATE AL CAMPO DELL'ARCHITETTURA E DEL PROJECT MANAGEMENT.
+chemical databases store information in text representations, and the smiles
+format is a universal standard used in many cheminformatics software. encoded
+in each smiles string is structural information that can be used to predict
+complex chemical properties. in this work, we develop smiles2vec, a deep rnn
+that automatically learns features from smiles to predict chemical properties,
+without the need for additional explicit feature engineering. using bayesian
+optimization methods to tune the network architecture, we show that an
+optimized smiles2vec model can serve as a general-purpose neural network for
+predicting distinct chemical properties including toxicity, activity,
+solubility and solvation energy, while also outperforming contemporary mlp
+neural networks that uses engineered features. furthermore, we demonstrate
+proof-of-concept of interpretability by developing an explanation mask that
+localizes on the most important characters used in making a prediction. when
+tested on the solubility dataset, it identified specific parts of a chemical
+that is consistent with established first-principles knowledge with an accuracy
+of 88%. our work demonstrates that neural networks can learn technically
+accurate chemical concept and provide state-of-the-art accuracy, making
+interpretable deep neural networks a useful tool of relevance to the chemical
+industry.

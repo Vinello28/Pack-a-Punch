@@ -1,0 +1,15 @@
+this paper introduces the factorial marked temporal point process model and
+presents efficient learning methods. in conventional (multi-dimensional) marked
+temporal point process models, event is often encoded by a single discrete
+variable i.e. a marker. in this paper, we describe the factorial marked point
+processes whereby time-stamped event is factored into multiple markers.
+accordingly the size of the infectivity matrix modeling the effect between
+pairwise markers is in power order w.r.t. the number of the discrete marker
+space. we propose a decoupled learning method with two learning procedures: i)
+directly solving the model based on two techniques: alternating direction
+method of multipliers and fast iterative shrinkage-thresholding algorithm; ii)
+involving a reformulation that transforms the original problem into a logistic
+regression model for more efficient learning. moreover, a sparse group
+regularizer is added to identify the key profile features and event labels.
+empirical results on real world datasets demonstrate the efficiency of our
+decoupled and reformulated method. the source code is available online.

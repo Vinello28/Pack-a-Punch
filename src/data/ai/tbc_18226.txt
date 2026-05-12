@@ -1,0 +1,9 @@
+state-of-the-art methods for text classification include several distinct
+steps of pre-processing, feature extraction and post-processing. in this work,
+we focus on end-to-end neural architectures and show that the best performance
+in text classification is obtained by combining information from different
+neural modules. concretely, we combine convolution, recurrent and attention
+modules with ensemble methods and show that they are complementary. we
+introduce ecga, an end-to-end go-to architecture for novel text classification
+tasks. we prove that it is efficient and robust, as it attains or surpasses the
+state-of-the-art on varied datasets, including both low and high data regimes.

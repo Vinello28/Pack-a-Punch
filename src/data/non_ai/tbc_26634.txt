@@ -1,0 +1,1 @@
+Il progetto prevede la realizzazione di un sistema che permetterÃ  di attivare automaticamente  su input provenienti dal portale internet dell'azienda  un processo automatico per creare delle istanze automatiche sulla base di configurazioni preimpostate.

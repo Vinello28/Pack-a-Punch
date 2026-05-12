@@ -1,1 +1,18 @@
-BREVE DESCRIZIONE (MIN 30 CARATTERI MAX 1300 CARATTERI): BIZFUSE ANALYTICA UNA PIATTAFORMA INNOVATIVA PAAS PER L'ANALISI E LA GESTIONE AUTOMATIZZATA DELLE OPPORTUNIT COMMERCIALI IN CONTESTI CONCORSUALI E PREFALLIMENTARI PER LE IMPRESE ITALIANE. CARATTERISTICHE CHIAVE: INTEGRAZIONE DATI AVANZATA: UNISCE E NORMALIZZA DATI ETEROGENEI DA CAMERE DI COMMERCIO PVP E ALTRE FONTI OFFRENDO UNA VISIONE UNIFICATA. INTELLIGENZA ARTIFICIALE PREDITTIVA: MODELLI DI MACHINE LEARNING INDIVIDUANO OPPORTUNIT COLLEGANDO UTENTI E AFFARI CON ALGORITMI DI MATCHING E RATING. PROCESSO DIGITALIZZATO: AUTOMATIZZA LA RICERCA E LA PROPOSTA DI OPPORTUNIT LIBERANDO GLI UTENTI DAL PROCESSO MANUALE. VANTAGGI: EFFICIENZA NELL'ANALISI: ANALISI VELOCE E PRECISA PER IDENTIFICARE OPPORTUNIT ALTRIMENTI NASCOSTE. DECISIONI AZIENDALI INFORMED: FORNISCE INFORMAZIONI PREDITTIVE SUPPORTANDO DECISIONI STRATEGICHE IN TEMPO REALE. AUTOMAZIONE PROCESSI: RIDUCE TEMPI DI REAZIONE OTTIMIZZANDO LA GESTIONE DELLE OPPORTUNIT . BIZFUSE ANALYTICA RAPPRESENTA UN SALTO NELL'INNOVAZIONE AZIENDALE UTILIZZANDO TECNOLOGIE AVANZATE PER OTTIMIZZARE L'INDIVIDUAZIONE E L'UTILIZZO DI OPPORTUNIT DI BUSINESS.
+network anomaly detection is still a vibrant research area. as the fast
+growth of network bandwidth and the tremendous traffic on the network, there
+arises an extremely challengeable question: how to efficiently and accurately
+detect the anomaly on multiple traffic? in multi-task learning, the traffic
+consisting of flows at different time periods is considered as a task. multiple
+tasks at different time periods performed simultaneously to detect anomalies.
+in this paper, we apply the multi-task feature selection in network anomaly
+detection area which provides a powerful method to gather information from
+multiple traffic and detect anomalies on it simultaneously. in particular, the
+multi-task feature selection includes the well-known l1-norm based feature
+selection as a special case given only one task. moreover, we show that the
+multi-task feature selection is more accurate by utilizing more information
+simultaneously than the l1-norm based method. at the evaluation stage, we
+preprocess the raw data trace from trans-pacific backbone link between japan
+and the united states, label with anomaly communities, and generate a
+248-feature dataset. we show empirically that the multi-task feature selection
+outperforms independent l1-norm based feature selection on real traffic
+dataset.

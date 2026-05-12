@@ -1,1 +1,0 @@
-sviluppo di un sistema per la rilevazione e monitoraggio della postura in ambiente scolastico ed in età evolutiva (8-18 anni), mediante flussi IoT da sensori

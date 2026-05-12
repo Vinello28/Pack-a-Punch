@@ -1,0 +1,9 @@
+we present navren-rl, an approach to navigate an unmanned aerial vehicle in
+an indoor real environment via end-to-end reinforcement learning rl. a suitable
+reward function is designed keeping in mind the cost and weight constraints for
+micro drone with minimum number of sensing modalities. collection of small
+number of expert data and knowledge based data aggregation is integrated into
+the rl process to aid convergence. experimentation is carried out on a parrot
+ar drone in different indoor arenas and the results are compared with other
+baseline technologies. we demonstrate how the drone successfully avoids
+obstacles and navigates across different arenas.

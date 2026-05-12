@@ -1,1 +1,0 @@
-Realizzare una AI generativa (integrata in un chatbot vocale e testuale) da arricchire tramite un'applicazione web e a cui porre domande per risolvere problemi tecnici in modalità conversazionale.

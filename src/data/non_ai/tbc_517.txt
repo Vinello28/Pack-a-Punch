@@ -1,1 +1,1 @@
-IAL_ED.29_INNOV.DELLE METODOL.DI LAVORAZ.E DI PROCESSO_LA CORO IMPIANTI SRL
+Piattaforma dedicata ai reparti di rianimazione per gestire le principali complicazioni riguardanti i pazienti. Attraverso 15 parametri e l utilizzo di 4 algoritmi proprietari permette di gestire monitoraggio cura ed eventi critici.

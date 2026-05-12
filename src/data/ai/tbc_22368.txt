@@ -1,0 +1,17 @@
+accurate prediction of traffic signal duration for roadway junction is a
+challenging problem due to the dynamic nature of traffic flows. though
+supervised learning can be used, parameters may vary across roadway junctions.
+in this paper, we present a computer vision guided expert system that can learn
+the departure rate of a given traffic junction modeled using traditional
+queuing theory. first, we temporally group the optical flow of the moving
+vehicles using dirichlet process mixture model (dpmm). these groups are
+referred to as tracklets or temporal clusters. tracklet features are then used
+to learn the dynamic behavior of a traffic junction, especially during on/off
+cycles of a signal. the proposed queuing theory based approach can predict the
+signal open duration for the next cycle with higher accuracy when compared with
+other popular features used for tracking. the hypothesis has been verified on
+two publicly available video datasets. the results reveal that the dpmm based
+features are better than existing tracking frameworks to estimate $\mu$. thus,
+signal duration prediction is more accurate when tested on these datasets.the
+method can be used for designing intelligent operator-independent traffic
+control systems for roadway junctions at cities and highways.

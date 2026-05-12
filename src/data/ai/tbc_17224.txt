@@ -1,1 +1,16 @@
-Sistema di controllo per smart home basato su AI on-edge (Edge AI) in grado di riconoscere pattern di utilizzo e ottimizzare il consumo energetico locale.
+the human phenotype ontology (hpo) is a structured repository of concepts
+(hpo terms) that are associated to one or more diseases. the process of
+association is referred to as annotation. the relevance and the specificity of
+both hpo terms and annotations are evaluated by a measure defined as
+information content (ic). the analysis of annotated data is thus an important
+challenge for bioinformatics. there exist different approaches of analysis.
+from those, the use of association rules (ar) may provide useful knowledge, and
+it has been used in some applications, e.g. improving the quality of
+annotations. nevertheless classical association rules algorithms do not take
+into account the source of annotation nor the importance yielding to the
+generation of candidate rules with low ic. this paper presents hpo-miner (human
+phenotype ontology-based weighted association rules) a methodology for
+extracting weighted association rules. hpo-miner can extract relevant rules
+from a biological point of view. a case study on using of hpo-miner on publicly
+available hpo annotation datasets is used to demonstrate the effectiveness of
+our methodology.

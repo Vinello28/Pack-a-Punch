@@ -1,0 +1,15 @@
+in this paper, we apply reinforcement learning (rl) techniques to train a
+realistic biomechanical model to work with different people and on different
+walking environments. we benchmarking 3 rl algorithms: deep deterministic
+policy gradient (ddpg), trust region policy optimization (trpo) and proximal
+policy optimization (ppo) in opensim environment, also we apply imitation
+learning to a prosthetics domain to reduce the training time needed to design
+customized prosthetics. we use ddpg algorithm to train an original expert
+agent. we then propose a modification to the dataset aggregation (dagger)
+algorithm to reuse the expert knowledge and train a new target agent to
+replicate that behaviour in fewer than 5 iterations, compared to the 100
+iterations taken by the expert agent which means reducing training time by 95%.
+our modifications to the dagger algorithm improve the balance between
+exploiting the expert policy and exploring the environment. we show empirically
+that these improve convergence time of the target agent, particularly when
+there is some degree of variation between expert and naive agent.

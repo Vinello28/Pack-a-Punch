@@ -1,1 +1,21 @@
-Il progetto propone di creare un software basato su crawler bot automatici che campionano informazioni su siti che contengano bandi di finanza agevolata, indicando risultati filtrati basati su intelligenza artificiale e reti neurali. Questo sarà possibile grazie ad un algoritmo di I.A. ¿Data mining¿, che abbia i seguenti compiti: 1) ricercare tutte le opportunità di finanziamento pubblicate quotidianamente dagli enti erogatori, sulla base delle esigenze e delle necessità del cliente; 2) Match delle opportunità con i parametri aziendali; 3) Report di stampa; 4) E-mail di tutti i nuovi bandi pubblicati; 5) Compilazione Scheda Bando riassuntiva; 6) Individuazione di futuri bandi in uscita, coerenti con il profilo del cliente. Questa innovazione tecnologica comporterà una trasformazione profonda del business della società. Implementando tale tecnologia in modo olistico, essa migliorerà la produttività velocizzando le varie fasi dei processi lavorativi e riducendo i costi, creando nuove opportunità di crescita per il personale impiegandolo, inoltre, in mansioni più creative. Il Progetto ha una notevole importanza innovativa, poiché si tratterebbe del primo esempio di applicazione della I.A. nell¿ambito della finanza agevolata, perfettamente in linea con il Piano 4.0.
+deep generative models (dgms) are effective on learning multilayered
+representations of complex data and performing inference of input data by
+exploring the generative ability. however, it is relatively insufficient to
+empower the discriminative ability of dgms on making accurate predictions. this
+paper presents max-margin deep generative models (mmdgms) and a
+class-conditional variant (mmdcgms), which explore the strongly discriminative
+principle of max-margin learning to improve the predictive performance of dgms
+in both supervised and semi-supervised learning, while retaining the generative
+capability. in semi-supervised learning, we use the predictions of a max-margin
+classifier as the missing labels instead of performing full posterior inference
+for efficiency; we also introduce additional max-margin and label-balance
+regularization terms of unlabeled data for effectiveness. we develop an
+efficient doubly stochastic subgradient algorithm for the piecewise linear
+objectives in different settings. empirical results on various datasets
+demonstrate that: (1) max-margin learning can significantly improve the
+prediction performance of dgms and meanwhile retain the generative ability; (2)
+in supervised learning, mmdgms are competitive to the best fully discriminative
+networks when employing convolutional neural networks as the generative and
+recognition models; and (3) in semi-supervised learning, mmdcgms can perform
+efficient inference and achieve state-of-the-art classification results on
+several benchmarks.

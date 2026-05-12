@@ -1,4 +1,1 @@
-al fine di velocizzare ed ottimizzare le capacità aziendali, la ditta necessita di uno strumento altamente tecnlogico Agricad Es2 RTK. 
-è un sistema di guida automatica satellitare che permette di migliorare il lavoro, migliorare il risultato e ridurre il carico di stress del lavoratore.
-esso infatti essendo altamente tecnologico si basa su un'antenna GPS professionale che garantisce una maggiore precisione del lavoro. 
-esso include anche un Monitor 10 pollici multitouch capacitivo con relativo software e un cavo antenna e ricevitore GNSS precisione RTK.
+La gestione del magazzino verrÃ  reingegnerizzata  verranno codificati tutti i prodotti e caricati su di un data base per la successiva ricerca attraverso un lettore di codice a barre che verrÃ  utilizzato si nella fase di carico di magazzino che nella fase di scarico  cio razionalizzerÃ  la gestione delle scorte e la gestione degli acquisti

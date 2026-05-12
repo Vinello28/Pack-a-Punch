@@ -1,0 +1,17 @@
+this paper presents a novel methodology of indic handwritten script
+recognition using recurrent neural networks and addresses the problem of script
+recognition in poor data scenarios, such as when only character level online
+data is available. it is based on the hypothesis that curves of online
+character data comprise sufficient information for prediction at the word
+level. online character data is used to train rnns using blstm architecture
+which are then used to make predictions of online word level data. these
+prediction results on the test set are at par with prediction results of models
+trained with online word data, while the training of the character level model
+is much less data intensive and takes much less time. performance for
+binary-script models and then 5 indic script models are reported, along with
+comparison with hmm models.the system is extended for offline data prediction.
+raw offline data lacks the temporal information available in online data and
+required for prediction using models trained with online data. to overcome
+this, stroke recovery is implemented and the strokes are utilized for
+predicting using the online character level models. the performance on
+character and word level offline data is reported.

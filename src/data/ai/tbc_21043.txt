@@ -1,0 +1,18 @@
+we perform fine-grained land use mapping at the city scale using ground-level
+images. mapping land use is considerably more difficult than mapping land cover
+and is generally not possible using overhead imagery as it requires close-up
+views and seeing inside buildings. we postulate that the growing collections of
+georeferenced, ground-level images suggest an alternate approach to this
+geographic knowledge discovery problem. we develop a general framework that
+uses flickr images to map 45 different land-use classes for the city of san
+francisco. individual images are classified using a novel convolutional neural
+network containing two streams, one for recognizing objects and another for
+recognizing scenes. this network is trained in an end-to-end manner directly on
+the labeled training images. we propose several strategies to overcome the
+noisiness of our user-generated data including search-based training set
+augmentation and online adaptive training. we derive a ground truth map of san
+francisco in order to evaluate our method. we demonstrate the effectiveness of
+our approach through geo-visualization and quantitative analysis. our framework
+achieves over 29% recall at the individual land parcel level which represents a
+strong baseline for the challenging 45-way land use classification problem
+especially given the noisiness of the image data.

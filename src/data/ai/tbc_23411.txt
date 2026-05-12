@@ -1,0 +1,15 @@
+contrary to i-vectors, speaker embeddings such as x-vectors are incapable of
+leveraging unlabelled utterances, due to the classification loss over training
+speakers. in this paper, we explore an alternative training strategy to enable
+the use of unlabelled utterances in training. we propose to train speaker
+embedding extractors via reconstructing the frames of a target speech segment,
+given the inferred embedding of another speech segment of the same utterance.
+we do this by attaching to the standard speaker embedding extractor a decoder
+network, which we feed not merely with the speaker embedding, but also with the
+estimated phone sequence of the target frame sequence. the reconstruction loss
+can be used either as a single objective, or be combined with the standard
+speaker classification loss. in the latter case, it acts as a regularizer,
+encouraging generalizability to speakers unseen during training. in all cases,
+the proposed architectures are trained from scratch and in an end-to-end
+fashion. we demonstrate the benefits from the proposed approach on voxceleb and
+speakers in the wild, and we report notable improvements over the baseline.

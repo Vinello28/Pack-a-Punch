@@ -1,2 +1,0 @@
-L'obiettivo del progetto è quello di creare una piattaforma collaborativa dell'ecosistema Agro-Food attraverso un
- Big Data Management System per la valorizzazione dei dati e delle informazioni lungo tutta la catena del valore.

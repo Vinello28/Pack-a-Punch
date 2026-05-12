@@ -1,0 +1,24 @@
+recurrent neural networks (rnns) have achieved state-of-the-art performances
+in many natural language processing tasks, such as language modeling and
+machine translation. however, when the vocabulary is large, the rnn model will
+become very big (e.g., possibly beyond the memory capacity of a gpu device) and
+its training will become very inefficient. in this work, we propose a novel
+technique to tackle this challenge. the key idea is to use 2-component (2c)
+shared embedding for word representations. we allocate every word in the
+vocabulary into a table, each row of which is associated with a vector, and
+each column associated with another vector. depending on its position in the
+table, a word is jointly represented by two components: a row vector and a
+column vector. since the words in the same row share the row vector and the
+words in the same column share the column vector, we only need $2 \sqrt{|v|}$
+vectors to represent a vocabulary of $|v|$ unique words, which are far less
+than the $|v|$ vectors required by existing approaches. based on the
+2-component shared embedding, we design a new rnn algorithm and evaluate it
+using the language modeling task on several benchmark datasets. the results
+show that our algorithm significantly reduces the model size and speeds up the
+training process, without sacrifice of accuracy (it achieves similar, if not
+better, perplexity as compared to state-of-the-art language models).
+remarkably, on the one-billion-word benchmark dataset, our algorithm achieves
+comparable perplexity to previous language models, whilst reducing the model
+size by a factor of 40-100, and speeding up the training process by a factor of
+2. we name our proposed algorithm \emph{lightrnn} to reflect its very small
+model size and very high training speed.

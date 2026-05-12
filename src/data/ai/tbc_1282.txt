@@ -1,3 +1,0 @@
-Bluewind Srl, azienda di ricerca e ingegneria che fornisce la progettazione di prodotti innovativi per l’elettronica digitale, l’efficienza energetica e il wireless
-Grazie al progetto Labs4sme ed alla collaborazione con laboratori esterni, l’azienda intende realizzare un nuovo dispositivo capace di raccogliere dati sul traffico per monitorarlo, creare statistiche ed ottimizzare i flussi.
-Il dispositivo sarà più innovativo di altri simili prodotti sul mercato grazie all’utilizzo di un microfono MEM e ad algoritmi per l’apprendimento automatico (machine learning).

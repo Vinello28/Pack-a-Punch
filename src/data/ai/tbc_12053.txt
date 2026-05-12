@@ -1,0 +1,18 @@
+recognizing materials in real-world images is a challenging task. real-world
+materials have rich surface texture, geometry, lighting conditions, and
+clutter, which combine to make the problem particularly difficult. in this
+paper, we introduce a new, large-scale, open dataset of materials in the wild,
+the materials in context database (minc), and combine this dataset with deep
+learning to achieve material recognition and segmentation of images in the
+wild.
+  minc is an order of magnitude larger than previous material databases, while
+being more diverse and well-sampled across its 23 categories. using minc, we
+train convolutional neural networks (cnns) for two tasks: classifying materials
+from patches, and simultaneous material recognition and segmentation in full
+images. for patch-based classification on minc we found that the best
+performing cnn architectures can achieve 85.2% mean class accuracy. we convert
+these trained cnn classifiers into an efficient fully convolutional framework
+combined with a fully connected conditional random field (crf) to predict the
+material at every pixel in an image, achieving 73.1% mean class accuracy. our
+experiments demonstrate that having a large, well-sampled dataset such as minc
+is crucial for real-world material recognition and segmentation.

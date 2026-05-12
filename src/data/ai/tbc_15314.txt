@@ -1,1 +1,11 @@
-Il piano formativo si propone di rafforzare le competenze digitali del personale del sistema Confagricoltura con particolare riferimento alla gestione sicura dei dati allutilizzo dellintelligenza artificiale e allottimizzazione delluso dei sistemi digitali aziendali interni. Le azioni formative previste sono articolate in tre moduli specialistici: 1. Sicurezza e Privacy Approfondimento su GDPR cybersecurity protezione dei dati aziendali e personali. 2. Intelligenza Artificiale Introduzione al prompt engineering e agli scenari duso dellIA nelle attivita quotidiane. 3. Sistemi Digitali Interni Formazione sullutilizzo dellintranet aziendale e ottimizzazione dei flussi documentali. Risultati attesi: Aumento della consapevolezza in tema di sicurezza informatica Capacita base di interazione con strumenti di intelligenza artificiale Maggiore efficienza nellutilizzo dei sistemi informativi interni.
+the paper presents a parallel implementation of existing image fusion methods
+on a graphical cluster. parallel implementations of methods based on discrete
+wavelet transformation (haars and daubechies discrete wavelet transform) are
+developed. experiments were performed on a cluster using gpu and cpu and
+performance gains were estimated for the use of the developed parallel
+implementations to process satellite images from satellite landsat 7. the
+implementation on a graphic cluster provides performance improvement from 2 to
+18 times. the quality of the considered methods was evaluated by ergas and qnr
+metrics. the results show performance gains and retaining of quality with the
+cluster of gpu compared to the results obtained by the authors and other
+researchers for a cpu and single gpu.

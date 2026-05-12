@@ -1,1 +1,8 @@
-Completamento di un prototipo di piattaforma software in grado di supportare mediante elementi semiautomatici di intelligenza artificiale le fasi di progettazione provisioning monitoraggio cos come quelle di ottimizzazione d uso e di spesa delle infrastrutture informatiche multicloud
+when environmental interaction is expensive, model-based reinforcement
+learning offers a solution by planning ahead and avoiding costly mistakes.
+model-based agents typically learn a single-step transition model. in this
+paper, we propose a multi-step model that predicts the outcome of an action
+sequence with variable length. we show that this model is easy to learn, and
+that the model can make policy-conditional predictions. we report preliminary
+results that show a clear advantage for the multi-step model compared to its
+one-step counterpart.

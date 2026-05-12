@@ -1,1 +1,16 @@
-L azienda intende dotarsi di strumenti e servizi software che consentano l evoluzione degli attuali sistemi informativi per un utilizzo del controllo di gestione che non sia finalizzato al solo controllo dei propri costi ma che sia in grado di posizionare continuamente l azienda nel proprio scenario competitivo di mercato utilizzando i Big Data del settore ed una opportuna Social Analysis relativamente ai media dove l azienda presente. La verifica real-time dell incisivit della propria offerta di mercato potr essere effettuata attraverso la realizzazione dinamica delle mappe di posizionamento quali la matrice crescita/quota definita BCG-Boston Consulting Group e la matrice prodotto/mercato di Ansoff. Attualmente tali tecniche necessitano di tempi lunghi e non in fase con l andamento dei dati aziendali poich sono basate sui dati delle ricerche di mercato che per loro natura sono ritardate. Il tema generale del programma riguarda soluzioni ICT-mobile per la governance dell azienda in termini di strumenti metodologici ed informatici che siano in grado di supportare le decisioni da prendere per una politica gestionale sostenibile e consentano la realizzazione di un sistema esperto di gestione e controllo di tipo Total Quality Management dei processi aziendali.
+interactive image segmentation is a challenging task and receives increasing
+attention recently; however, two major drawbacks exist in interactive
+segmentation approaches. first, the segmentation performance of roi-based
+methods is sensitive to the initial roi: different rois may produce results
+with great difference. second, most seed-based methods need intense
+interactions, and are not applicable in many cases. in this work, we generalize
+the neutro-connectedness (nc) to be independent of top-down priors of objects
+and to model image topology with indeterminacy measurement on image regions,
+propose a novel method for determining object and background regions, which is
+applied to exclude isolated background regions and enforce label consistency,
+and put forward a hybrid interactive segmentation method, neutro-connectedness
+cut (nc-cut), which can overcome the above two problems by utilizing both
+pixel-wise appearance information and region-based nc properties. we evaluate
+the proposed nc-cut by employing two image datasets (265 images), and
+demonstrate that the proposed approach outperforms state-of-the-art interactive
+image segmentation methods (grabcut, milcut, one-cut, mgc_max^sum and ppbc).

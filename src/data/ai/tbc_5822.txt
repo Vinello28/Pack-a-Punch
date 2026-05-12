@@ -1,1 +1,1 @@
-Il progetto CloudExpand di Insoft Srl consiste nelle attività di implementazione dei Servizi AWS di Amazon, sviluppo di sistema di Intelligenza artificiale per i processi interni ed implementazione software CRM in cloud.
+Advanced DEtection of suspicious skin Lesions based on Artificial Intelligence and DEep learning

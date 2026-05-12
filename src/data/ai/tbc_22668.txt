@@ -1,0 +1,1 @@
+Sviluppo la produzione e la commercializzazione di un innovativo sistema/prodotto per il riconoscimento e la separazione automatica dei materiali basato su un sistema di intelligenza artificiale il quale combinato con un sistema di riconoscimento sonoro del materiale riconosce la composizione chimica del materiale stesso e lo separa automaticamente.

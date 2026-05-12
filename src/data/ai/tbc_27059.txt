@@ -1,0 +1,13 @@
+this study examines the monthly returns in turkish and american stock market
+indices to investigate whether these markets experience abnormal returns during
+some months of the calendar year. the data used in this research includes 212
+observations between january 1996 and august 2014. i apply statistical summary
+analysis, decomposition technique, dummy variable estimation, and binary
+logistic regression to check for the monthly market anomalies. the
+multidimensional methods used in this article suggest weak evidence against the
+efficient market hypothesis on monthly returns. while some months tend to show
+abnormal returns, there is no absolute unanimity in the applied approaches.
+nevertheless, there is a strikingly negative may effect on the turkish stocks
+following a positive return in april. stocks tend to be bullish in december in
+both markets, yet we do not observe anya significant january effect is not
+observed.

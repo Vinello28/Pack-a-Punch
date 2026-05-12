@@ -1,0 +1,19 @@
+knowledge distillation (kd) consists of transferring knowledge from one
+machine learning model (the teacher}) to another (the student). commonly, the
+teacher is a high-capacity model with formidable performance, while the student
+is more compact. by transferring knowledge, one hopes to benefit from the
+student's compactness. %we desire a compact model with performance close to the
+teacher's. we study kd from a new perspective: rather than compressing models,
+we train students parameterized identically to their teachers. surprisingly,
+these {born-again networks (bans), outperform their teachers significantly,
+both on computer vision and language modeling tasks. our experiments with bans
+based on densenets demonstrate state-of-the-art performance on the cifar-10
+(3.5%) and cifar-100 (15.5%) datasets, by validation error. additional
+experiments explore two distillation objectives: (i) confidence-weighted by
+teacher max (cwtm) and (ii) dark knowledge with permuted predictions (dkpp).
+both methods elucidate the essential components of kd, demonstrating a role of
+the teacher outputs on both predicted and non-predicted classes. we present
+experiments with students of various capacities, focusing on the under-explored
+case where students overpower teachers. our experiments show significant
+advantages from transferring knowledge between densenets and resnets in either
+direction.

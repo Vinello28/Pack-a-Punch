@@ -1,0 +1,12 @@
+we provide non-asymptotic convergence rates of the polyak-ruppert averaged
+stochastic gradient descent (sgd) to a normal random vector for a class of
+twice-differentiable test functions. a crucial intermediate step is proving a
+non-asymptotic martingale central limit theorem (clt), i.e., establishing the
+rates of convergence of a multivariate martingale difference sequence to a
+normal random vector, which might be of independent interest. we obtain the
+explicit rates for the multivariate martingale clt using a combination of
+stein's method and lindeberg's argument, which is then used in conjunction with
+a non-asymptotic analysis of averaged sgd proposed in [pj92]. our results have
+potentially interesting consequences for computing confidence intervals for
+parameter estimation with sgd and constructing hypothesis tests with sgd that
+are valid in a non-asymptotic sense.

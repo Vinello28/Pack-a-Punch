@@ -1,1 +1,0 @@
-Il progetto prevede la creazione di una filiera collaborativa composta da 5 imprese provenienti da diversi settori (impiantistica, minuterie metalliche, monitoraggio ambientale, edilizia) con l’obiettivo di ottimizzare i processi aziendali attraverso l`uso di un Large Language Model (LLM) e tecnologie correlate.

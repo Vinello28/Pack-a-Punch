@@ -1,1 +1,1 @@
-Piattaforma Innovativa che, a partire da tecnologie virtuali da un ambiente di simulazione RealTime 3D, sia in grado di gestire modelli virtuali interattivamente e di inserire nei modelli performer costituiti da attori reali e non da body virtuali
+Attivit di R&S finalizzate alla progettazione e realizzazione di strumenti software di Model-Driven Engineering (MDE) che contribuiranno alla safety & security anche nei domini mission-critical che includono componenti IoT e software basato su AI

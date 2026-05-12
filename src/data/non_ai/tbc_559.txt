@@ -1,1 +1,1 @@
-Utilizzo di software professionale che, partendo da immagini aeree acquisite da drone e da aereo tradizionale, è in grado di effettuare ispezioni accurate, misurazioni puntuali e Disegni vettoriale 3D sfruttando hardware dedicato per la visione stereoscopica supportato da strumentazione GNSS gps rtk.
+INTENDIAMO PREDISPORRE UN SERVER AZIENDALE PER LA GESTIONE DEI DATI RELATIVI AI MAGAZZINI DI STOCKAGGIO DEI PRODOTTI PIROTECNICI DESTINATI AGLI SPETTACOLI PIROTECNICI E ALLA VENDITA ALL'INGROSSO E AL DETTAGLIO.

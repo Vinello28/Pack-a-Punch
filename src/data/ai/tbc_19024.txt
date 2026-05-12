@@ -1,0 +1,1 @@
+Il Progetto mira a realizzare Decision Support System basati su algoritmi predittivi capaci di creare profili di rischio e percorsi terapeutici per utenti a rischio patologie neurodegenerative o metaboliche

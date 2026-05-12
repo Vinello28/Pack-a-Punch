@@ -1,1 +1,1 @@
-UAV - Sistemi di automazione integrata per la logistica e la gestione dei flussi lavorativi in ottica Industry 4.0
+Il progetto uTEAM ha l'obiettivo di sviluppare una tecnologia dirompente per il monitoraggio del processo di stampa 3D basato su fusione del letto di polvere

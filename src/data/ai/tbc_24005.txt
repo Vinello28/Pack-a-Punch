@@ -1,0 +1,14 @@
+abstract aspect-based sentiment analysis (absa) aims to predict the sentiment polarity of specific aspect words occurring
+in a text. absa includes aspect-category sentiment analysis (acsa) and aspect-target sentiment analysis (atsa). there have
+been many previous studies addressing both tasks through rnns and other neural models. with bert's remarkable
+performance on nlp tasks, several studies have enhanced aspect word extraction to solve atsa by building new bert-based
+models. but such an approach is not directly applicable to the acsa task, because aspect words in acsa are often not
+explicitly present in the text, so aspect word extraction becomes more difficult. in this paper, we propose a multi-task learning
+(mtl) approach to solve these problems. our approach is based on a shared bert model to construct a multi-task learning
+network, which is trained by strongly and weakly related tasks. we also use a multi-head self-attention layer to replace a linear
+layer in traditional multi-task learning networks, to enhance the ability to capture global semantics. we also propose a new
+fine-tuning strategy that can better improve the performance of the model. experiments were conducted on four datasets from
+the atsa task and four datasets from the acsa task: laptop, restaurant, restaurant-2014, and restaurant-large from
+semeval-2014. our experimental results show that: in the acsa task, our model outperformed all the baseline models,
+achieving the current state-of-the-art performance on the multiple datasets. for the atsa task, our model performs close to the
+state-of-the-art, with much simpler architecture.

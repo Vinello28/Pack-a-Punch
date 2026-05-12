@@ -1,1 +1,0 @@
-Generative AI e Explainable AI per la classificazione automatica dei bonifici in ambito bancario

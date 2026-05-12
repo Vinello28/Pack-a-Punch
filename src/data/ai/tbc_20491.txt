@@ -1,0 +1,6 @@
+the ever increasing prevalence of publicly available structured data on the
+world wide web enables new applications in a variety of domains. in this paper,
+we provide a conceptual approach that leverages such data in order to explain
+the input-output behavior of trained artificial neural networks. we apply
+existing semantic web technologies in order to provide an experimental proof of
+concept.

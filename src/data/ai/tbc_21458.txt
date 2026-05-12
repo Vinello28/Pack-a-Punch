@@ -1,0 +1,13 @@
+variation in language is ubiquitous, particularly in newer forms of writing
+such as social media. fortunately, variation is not random, it is often linked
+to social properties of the author. in this paper, we show how to exploit
+social networks to make sentiment analysis more robust to social language
+variation. the key idea is linguistic homophily: the tendency of socially
+linked individuals to use language in similar ways. we formalize this idea in a
+novel attention-based neural network architecture, in which attention is
+divided among several basis models, depending on the author's position in the
+social network. this has the effect of smoothing the classification function
+across the social network, and makes it possible to induce personalized
+classifiers even for authors for whom there is no labeled data or demographic
+metadata. this model significantly improves the accuracies of sentiment
+analysis on twitter and on review data.

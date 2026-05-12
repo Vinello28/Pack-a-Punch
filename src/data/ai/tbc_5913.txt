@@ -1,1 +1,11 @@
-Il progetto è un’iniziativa fortemente innovativa volta a sviluppare un configuratore avanzato e intelligente per uso interno, progettato per la configurazione, preventivazione e pianificazione strategica delle nuove commesse navali. Grazie all’utilizzo di intelligenza artificiale generativa e alla digitalizzazione delle logiche manuali attualmente in uso, il sistema integra vincoli tecnici, costi dinamici e risorse produttive, consentendo di configurare rapidamente le navi e generare stime di costo accurate e tempestive basate su dati storici aziendali e fonti esterne. Il “Configuratore di navi avanzato” introduce anche la pianificazione strategica già in fase di preventivazione, simulando carichi di lavoro e flussi di cassa lungo l’intero processo di costruzione. L’obiettivo è accelerare la fase di configurazione e innovare i processi di preventivazione e pianificazione a lungo termine, anticipando la fattibilità delle commesse sulla base dei vincoli produttivi del cantiere.
+chord recognition systems depend on robust feature extraction pipelines.
+while these pipelines are traditionally hand-crafted, recent advances in
+end-to-end machine learning have begun to inspire researchers to explore
+data-driven methods for such tasks. in this paper, we present a chord
+recognition system that uses a fully convolutional deep auditory model for
+feature extraction. the extracted features are processed by a conditional
+random field that decodes the final chord sequence. both processing stages are
+trained automatically and do not require expert knowledge for optimising
+parameters. we show that the learned auditory system extracts musically
+interpretable features, and that the proposed chord recognition system achieves
+results on par or better than state-of-the-art algorithms.

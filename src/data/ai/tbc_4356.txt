@@ -1,5 +1,1 @@
-Il progetto VDE mira a sviluppare una piattaforma avanzata per la virtualizzazione dei dati e l'integrazione
-semantica, focalizzata sull'ottimizzazione della protezione e dell'analisi dei dati. Questa soluzione integrerà
-tecnologie di ultima generazione come il machine learning e la realtà virtuale, assicurando una gestione dei
-dati altamente sicura e conforme ai principi di privacy by design. La struttura della piattaforma prevede
-un'interfaccia utente intuitiva, un layer di virtualizzazione dei dati, e un sistema di knowledge graph per facilitare query semantiche e visualizzazione in VR.
+Corso di formazione entro le 24h in Intelligenza Artificiale: AI Generativa + AI Agents

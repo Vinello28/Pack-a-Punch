@@ -1,1 +1,16 @@
-node representation learning on attributed graphs -- whose nodes are associated with rich attributes (e.g., texts and protein sequences) -- plays a crucial role in many important downstream tasks. to encode the attributes and graph structures simultaneously, recent studies integrate pre-trained models with graph neural networks (gnns), where pre-trained models serve as node encoders (nes) to encode the attributes. as jointly training large nes and gnns on large-scale graphs suffers from severe scalability issues, many methods propose to train nes and gnns separately. consequently, they do not take feature convolutions in gnns into consideration in the training phase of nes, leading to a significant learning bias from that by the joint training. to address this challenge, we propose an efficient label regularization technique, namely label deconvolution (ld), to alleviate the learning bias by a novel and highly scalable approximation to the inverse mapping of gnns. the inverse mapping leads to an objective function that is equivalent to that by the joint training, while it can effectively incorporate gnns in the training phase of nes against the learning bias. more importantly, we show that ld converges to the optimal objective function values by thejoint training under mild assumptions. experiments demonstrate ld significantly outperforms state-of-the-art methods on open graph benchmark datasets.
+in the central nervous systems of animals like pigeons and locusts, neurons
+were identified which signal objects approaching the animal on a direct
+collision course. unraveling the neural circuitry for collision avoidance, and
+identifying the underlying computational principles, is promising for building
+vision-based neuromorphic architectures, which in the near future could find
+applications in cars or planes. at the present there is no published model
+available for robust detection of approaching objects under real-world
+conditions. here we present a computational architecture for signalling
+impending collisions, based on known anatomical data of the locust \emph{lobula
+giant movement detector} (lgmd) neuron. our model shows robust performance even
+in adverse situations, such as with approaching low-contrast objects, or with
+highly textured and moving backgrounds. we furthermore discuss which components
+need to be added to our model to convert it into a full-fledged
+real-world-environment collision detector. keywords: locust, lgmd, collision
+detection, lateral inhibition, diffusion, on-off-pathways, neuronal dynamics,
+computer vision, image processing

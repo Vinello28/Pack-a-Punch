@@ -1,0 +1,1 @@
+una piattaforma web (web-application) di gestione  selezione  configurazione e commercio di prodotti gestiti tramite funzioni matematiche polinomiali di grado n superiore o uguale al 6 grado.

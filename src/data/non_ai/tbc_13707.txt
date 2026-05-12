@@ -1,1 +1,1 @@
-CONTRIBUTI PER TRASFORMAZIONE DI CONTRATTI DI LAVORO PRECARIO IN CONTRATTI DI LAVORO SUBORDINATO A TEMPO INDETERMINATO
+Sviluppo di una metodologia di rilievo evoluta basata sulla tecnologia Laserscanner e sul Object Detection Recognition per l acquisizione speditiva di dataset complessi in impianti frutticoli al fine di ottimizzare la programmazione delle fasi di raccolta e della logistica.

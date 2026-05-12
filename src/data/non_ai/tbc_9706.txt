@@ -1,1 +1,0 @@
-Realizzazione rete client-server atta alla centralizzazione e condivisione delle risorse aziendali  implementazione BYOD per incentivare il telelavoro e il lavoro in mobilitÃ   dematerializzazione comunicazioni tra dipendenti e sede centrale  implementazione controllo remoto parco mezzi aziendali.

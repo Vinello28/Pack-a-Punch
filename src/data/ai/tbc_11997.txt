@@ -1,1 +1,1 @@
-White Paper pensato per mettere in luce le straordinarie opportunit che la nuova rivoluzione tecnologica guidata dall'Intelligenza Artificiale offre alle Piccole e Medie imprese del Made in Italy
+fair's research platform for object detection research, implementing popular algorithms like mask r-cnn and retinanet.

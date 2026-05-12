@@ -1,0 +1,17 @@
+one of the key limitations of traditional machine learning methods is their
+requirement for training data that exemplifies all the information to be
+learned. this is a particular problem for visual question answering methods,
+which may be asked questions about virtually anything. the approach we propose
+is a step toward overcoming this limitation by searching for the information
+required at test time. the resulting method dynamically utilizes data from an
+external source, such as a large set of questions/answers or images/captions.
+concretely, we learn a set of base weights for a simple vqa model, that are
+specifically adapted to a given question with the information specifically
+retrieved for this question. the adaptation process leverages recent advances
+in gradient-based meta learning and contributions for efficient retrieval and
+cross-domain adaptation. we surpass the state-of-the-art on the vqa-cp v2
+benchmark and demonstrate our approach to be intrinsically more robust to
+out-of-distribution test data. we demonstrate the use of external non-vqa data
+using the ms coco captioning dataset to support the answering process. this
+approach opens a new avenue for open-domain vqa systems that interface with
+diverse sources of data.

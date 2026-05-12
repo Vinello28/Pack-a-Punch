@@ -1,2 +1,1 @@
-Questo progetto utilizza tecnologie omiche
-(genomica, trascrittomica, proteomica e metabolomica) e big data per l’identificazione di strumenti prognostici, diagnostici e terapeutici più efficaci, nonché di nuovi bersagli molecolari. Il nostro approccio combina analisi di genetica in silico con esperimenti in vivo e in vitro per identificare e validare target per le principali malattie complesse umane.
+Sistema di AI per la comunicazione automatica di dati di idraulica urbana attraverso narrative testuali grafici e audio

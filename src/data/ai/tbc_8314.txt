@@ -1,0 +1,14 @@
+natural-language-facilitated human-robot cooperation (nlc) refers to using
+natural language (nl) to facilitate interactive information sharing and task
+executions with a common goal constraint between robots and humans. recently,
+nlc research has received increasing attention. typical nlc scenarios include
+robotic daily assistance, robotic health caregiving, intelligent manufacturing,
+autonomous navigation, and robot social accompany. however, a thorough review,
+that can reveal latest methodologies to use nl to facilitate human-robot
+cooperation, is missing. in this review, a comprehensive summary about
+methodologies for nlc is presented. nlc research includes three main research
+focuses: nl instruction understanding, nl-based execution plan generation, and
+knowledge-world mapping. in-depth analyses on theoretical methods,
+applications, and model advantages and disadvantages are made. based on our
+paper review and perspective, potential research directions of nlc are
+summarized.

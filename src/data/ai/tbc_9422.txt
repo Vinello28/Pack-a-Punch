@@ -1,1 +1,18 @@
-L intera attivit promozionale programmata in continuit con gli anni precedenti si prefigge l obbiettivo di raggiungere la massima soddisfazione da parte dei fruitori siano essi professionisti (operatori professionali del settore) o turisti appassionati (wine lovers). Per questo motivo nel 2025 si utilizzeranno nuovi strumenti innovativi di promozione del territorio e del vino per esempio: le Degustazioni immersive in cui verr simulato un vigneto nelle pareti della sala utilizzata per la degustazione l uso dell Intelligenza Artificiale per ottenere tutte le informazioni sui vini dei Colli Orientali durante le Masterclass l uso del Caschetto Neuronale gli Incoming dei Ristoratori delle Strade del Vino e Sapori FVG nuove sinergie con i produttori del marchio Io Sono FVG ecc. Tutto questo verr ` realizzato sia nella sede consortile che in altre location regionali e nazionali e nei mercati obbiettivo di Austria e Germania.
+deep neural networks (dnns) have become increasingly important due to their
+excellent empirical performance on a wide range of problems. however,
+regularization is generally achieved by indirect means, largely due to the
+complex set of functions defined by a network and the difficulty in measuring
+function complexity. there exists no method in the literature for additive
+regularization based on a norm of the function, as is classically considered in
+statistical learning theory. in this work, we propose sampling-based
+approximations to weighted function norms as regularizers for deep neural
+networks. we provide, to the best of our knowledge, the first proof in the
+literature of the np-hardness of computing function norms of dnns, motivating
+the necessity of an approximate approach. we then derive a generalization bound
+for functions trained with weighted norms and prove that a natural stochastic
+optimization strategy minimizes the bound. finally, we empirically validate the
+improved performance of the proposed regularization strategies for both convex
+function sets as well as dnns on real-world classification and image
+segmentation tasks demonstrating improved performance over weight decay,
+dropout, and batch normalization. source code will be released at the time of
+publication.

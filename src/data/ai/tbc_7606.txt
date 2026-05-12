@@ -1,1 +1,10 @@
-Il progetto realizza un sistema integrato di monitoraggio e rilevamento automatico delle perdite nelle reti idriche  per consentire una individuazione delle perdite piÃ¹ rapida ed efficace. Il sistema integra dati eterogenei  quali dati terrestri e da misure sul campo proveniente da sensori nuovi ed esistenti (alimentati da microturbine integrate nelle valvole) modelli numerici ed immagini satellitari (Earth Observation) elaborate mediante tecniche di intelligenza artificiale e machine learning.
+although different learning systems are coordinated to afford complex
+behavior, little is known about how this occurs. this article describes a
+theoretical framework that specifies how complex behaviors that might be
+thought to require error-driven learning might instead be acquired through
+simple reinforcement. this framework includes specific assumptions about the
+mechanisms that contribute to the evolution of (artificial) neural networks to
+generate topologies that allow the networks to learn large-scale complex
+problems using only information about the quality of their performance. the
+practical and theoretical implications of the framework are discussed, as are
+possible biological analogs of the approach.

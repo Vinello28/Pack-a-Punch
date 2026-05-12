@@ -1,0 +1,10 @@
+while previous sentiment analysis research has concentrated on the
+interpretation of explicitly stated opinions and attitudes, this work initiates
+the computational study of a type of opinion implicature (i.e.,
+opinion-oriented inference) in text. this paper described a rule-based
+framework for representing and analyzing opinion implicatures which we hope
+will contribute to deeper automatic interpretation of subjective language. in
+the course of understanding implicatures, the system recognizes implicit
+sentiments (and beliefs) toward various events and entities in the sentence,
+often attributed to different sources (holders) and of mixed polarities; thus,
+it produces a richer interpretation than is typical in opinion analysis.

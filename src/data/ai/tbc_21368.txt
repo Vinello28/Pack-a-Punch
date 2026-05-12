@@ -1,0 +1,21 @@
+in this work, we study the robust subspace tracking (rst) problem and obtain
+one of the first two provable guarantees for it. the goal of rst is to track
+sequentially arriving data vectors that lie in a slowly changing
+low-dimensional subspace, while being robust to corruption by additive sparse
+outliers. it can also be interpreted as a dynamic (time-varying) extension of
+robust pca (rpca), with the minor difference that rst also requires a short
+tracking delay. we develop a recursive projected compressive sensing algorithm
+that we call nearly optimal rst via reprocs (reprocs-norst) because its
+tracking delay is nearly optimal. we prove that norst solves both the rst and
+the dynamic rpca problems under weakened standard rpca assumptions, two simple
+extra assumptions (slow subspace change and most outlier magnitudes lower
+bounded), and a few minor assumptions.
+  our guarantee shows that norst enjoys a near optimal tracking delay of $o(r
+\log n \log(1/\epsilon))$. its required delay between subspace change times is
+the same, and its memory complexity is $n$ times this value. thus both these
+are also nearly optimal. here $n$ is the ambient space dimension, $r$ is the
+subspaces' dimension, and $\epsilon$ is the tracking accuracy. norst also has
+the best outlier tolerance compared with all previous rpca or rst methods, both
+theoretically and empirically (including for real videos), without requiring
+any model on how the outlier support is generated. this is possible because of
+the extra assumptions it uses.

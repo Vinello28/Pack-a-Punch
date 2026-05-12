@@ -1,1 +1,13 @@
-Implementazione di sistemi di Explainable AI (XAI) per rendere trasparenti e interpretabili le decisioni dei modelli di credit scoring basati su Gradient Boosting.
+supervoxel methods such as simple linear iterative clustering (slic) are an
+effective technique for partitioning an image or volume into locally similar
+regions, and are a common building block for the development of detection,
+segmentation and analysis methods. we introduce maskslic an extension of slic
+to create supervoxels within regions-of-interest, and demonstrate,on examples
+from 2-dimensions to 4-dimensions, that maskslic overcomes issues that affect
+slic within an irregular mask. we highlight the benefits of this method through
+examples, and show that it is able to better represent underlying tumour
+subregions and achieves significantly better results than slic on the brats
+2013 brain tumour challenge data (p=0.001) - outperforming slic on 18/20 scans.
+finally, we show an application of this method for the analysis of functional
+tumour subregions and demonstrate that it is more effective than voxel
+clustering.

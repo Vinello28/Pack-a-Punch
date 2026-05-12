@@ -1,7 +1,0 @@
-Il Tetto del Mondo Srl eroga servizi di facility management, gestione e amministrazione di edifici condominiali.
-L’impresa intende mettere a punto e ottimizzare un sistema tecnologicamente avanzato di domotica intelligente per edifici residenziali condominiali, basato su strumentazioni hardware (beacon) e un’architettura software con algoritmi di AI e machine learning e tecnologie di cloud computing, in grado di:
-•	Migliorare l’efficienza dei processi di gestione degli edifici, grazie alla possibilità di controllo/monitoraggio in tempo reale dei dati necessari per garantire: risparmio energetico e riduzione costi; miglioramento di comfort e benessere dei condomini con drastica riduzione di disservizi; ottimale gestione della sicurezza.
-•	Automatizzare il 99% delle attività gestite dall’azienda con forte risparmio di tempo e costi 
-•	Definire scenari ottimali (perfezionati  nel tempo grazie all’autoapprendimento degli algoritmi) per specifici obiettivi
-•	Ottemperare al decreto in vigore dal 01/01/2021, dando ai condomini in tempo reale informazioni sul consumo in volume e in costi dei contatori per permettere loro di modificare le abitudini di consumo e ottimizzarle
-•	Possibilità di aumentare la competitività per diversificazione e maggiore attrattività dell’offerta

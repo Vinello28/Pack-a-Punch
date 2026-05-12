@@ -1,1 +1,1 @@
-Realizzazione di un prototipo software basato su Realta Virtuale (VR) per l’esplorazione e la conoscenza della flora di un territorio attraverso la creazione di un Museo floristico virtuale.
+modernizzazione dei sistemi informatici per la gestione in tutti gli ambulatori della Fisiomedical del software aziendale

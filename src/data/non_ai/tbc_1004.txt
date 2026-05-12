@@ -1,1 +1,0 @@
-Il progetto prevede l'acquisto di un software per la gestione dell'assistenza tecnica integrata con il gestionale Esa Software. Gestione dei contratti dei clienti con fatturazione automatica. Gestione interventi tecnici via web. Gestione allert e comunicazione dei clienti con integrazione automatica contatori macchine.

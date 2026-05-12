@@ -1,1 +1,14 @@
-Il progetto AVA ha come obiettivo lo sviluppo di un sistema basato su visione artificiale, da integrare negli autocampionatori per analisi chimiche prodotti da HTA Srl, PMI innovativa lombarda attiva nel settore della strumentazione scientifica automatizzata. L’iniziativa si inserisce in un percorso di potenziamento tecnologico volto ad aumentare l’affidabilità, l’autonomia e le funzionalità dei dispositivi aziendali. La collaborazione con il Laboratorio di Misure Meccaniche e Termiche (MMT Lab) dell’Università degli Studi di Brescia porterà alla realizzazione di un proof of concept mirato a esplorare soluzioni tecniche per tre funzionalità ad alta complessità: il controllo automatico della presenza di liquidi nei contenitori, il rilevamento di danni meccanici all’ago di campionamento e la lettura dei codici a barre tramite visione artificiale. HTA si occuperà della gestione del progetto, della progettazione dell’ambiente di test e della valutazione dell’integrabilità del sistema nei propri dispositivi. MMT Lab affiancherà l’azienda nell’analisi dei requisiti, nella progettazione degli algoritmi, nella messa a punto degli allestimenti sperimentali e nelle attività di validazione. Le due strutture collaboreranno anche alla realizzazione dei prototipi e al trasferimento delle compe
+this work presents a scalable solution to open-vocabulary visual speech
+recognition. to achieve this, we constructed the largest existing visual speech
+recognition dataset, consisting of pairs of text and video clips of faces
+speaking (3,886 hours of video). in tandem, we designed and trained an
+integrated lipreading system, consisting of a video processing pipeline that
+maps raw video to stable videos of lips and sequences of phonemes, a scalable
+deep neural network that maps the lip videos to sequences of phoneme
+distributions, and a production-level speech decoder that outputs sequences of
+words. the proposed system achieves a word error rate (wer) of 40.9% as
+measured on a held-out set. in comparison, professional lipreaders achieve
+either 86.4% or 92.9% wer on the same dataset when having access to additional
+types of contextual information. our approach significantly improves on other
+lipreading approaches, including variants of lipnet and of watch, attend, and
+spell (was), which are only capable of 89.8% and 76.8% wer respectively.

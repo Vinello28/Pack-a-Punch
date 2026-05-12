@@ -1,0 +1,14 @@
+nuclei segmentation is an important step in the task of medical image analysis. nowadays,
+deep learning techniques based on convolutional neural networks (cnns) have become
+prevalent methods in nuclei segmentation. in this paper, we propose a network called
+multi-scale split-attention u-net (msau-net) for further improving the performance of
+cell segmentation. msau-net is based on u-net architecture and the original blocks used to
+down-sampling and up-sampling paths are replaced with multi-scale split-attention blocks
+for capturing independent semantic information of nuclei images. a public microscopy image
+dataset from 2018 data science bowl grand challenge is selected to train and evaluate
+msau-net. by running trained models on the test set, our model reaches average intersection
+over union (iou) of 0.851, which is better than other prominent models, especially
+4.8 percent higher than the original u-net. for other evaluation metrics including accuracy,
+precision, recall and f1-score, msau-net shows better performance in the most of
+indicators. the outstanding result reveals that our proposed model presents a promising
+nuclei segmentation method for the microscopy image analysis.

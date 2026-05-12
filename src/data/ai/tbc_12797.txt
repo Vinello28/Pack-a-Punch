@@ -1,0 +1,14 @@
+despite the significant advances in iris segmentation, accomplishing accurate
+iris segmentation in non-cooperative environment remains a grand challenge. in
+this paper, we present a deep learning framework, referred to as iris r-cnn, to
+offer superior accuracy for iris segmentation. the proposed framework is
+derived from mask r-cnn, and several novel techniques are proposed to carefully
+explore the unique characteristics of iris. first, we propose two novel
+networks: (i) double-circle region proposal network (dc-rpn), and (ii)
+double-circle classification and regression network (dc-crn) to take into
+account the iris and pupil circles to maximize the accuracy for iris
+segmentation. second, we propose a novel normalization scheme for regions of
+interest (rois) to facilitate a radically new pooling operation over a
+double-circle region. experimental results on two challenging iris databases,
+ubiris.v2 and miche, demonstrate the superior accuracy of the proposed approach
+over other state-of-the-art methods.

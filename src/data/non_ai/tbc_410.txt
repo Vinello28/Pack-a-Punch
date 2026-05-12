@@ -1,1 +1,0 @@
-Software per la pianificazione ottimizzata di viaggi di consegna di merci, con funzionalità di pianificazione sia grafico interattive che basate su algoritmi di calcolo mirati, in grado di gestire tutti i vincoli logistici di interesse

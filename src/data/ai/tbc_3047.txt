@@ -1,1 +1,0 @@
-Sviluppare una piattaforma web per promuovere il turismo dei territori in diverse lingue basata su Intelligenza Artificiale, di nome NLT (Natural Language Tourism).

@@ -1,0 +1,18 @@
+unlike other languages, the arabic language has a morphological complexity
+which makes the arabic sentiment analysis is a challenging task. moreover, the
+presence of the dialects in the arabic texts have made the sentiment analysis
+task is more challenging, due to the absence of specific rules that govern the
+writing or speaking system. generally, one of the problems of sentiment
+analysis is the high dimensionality of the feature vector. to resolve this
+problem, many feature selection methods have been proposed. in contrast to the
+dialectal arabic language, these selection methods have been investigated
+widely for the english language. this work investigated the effect of feature
+selection methods and their combinations on dialectal arabic sentiment
+classification. the feature selection methods are information gain (ig),
+correlation, support vector machine (svm), gini index (gi), and chi-square. a
+number of experiments were carried out on dialectical jordanian reviews with
+using an svm classifier. furthermore, the effect of different term weighting
+schemes, stemmers, stop words removal, and feature models on the performance
+were investigated. the experimental results showed that the best performance of
+the svm classifier was obtained after the svm and correlation feature selection
+methods had been combined with the uni-gram model.

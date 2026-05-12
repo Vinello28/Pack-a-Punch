@@ -1,14 +1,1 @@
-in reinforcement learning episodes, the rewards and punishments are often
-non-deterministic, and there are invariably stochastic elements governing the
-underlying situation. such stochastic elements are often numerous and cannot be
-known in advance, and they have a tendency to obscure the underlying rewards
-and punishments patterns. indeed, if stochastic elements were absent, the same
-outcome would occur every time and the learning problems involved could be
-greatly simplified. in addition, in most practical situations, the cost of an
-observation to receive either a reward or punishment can be significant, and
-one would wish to arrive at the correct learning conclusion by incurring
-minimum cost. in this paper, we present a stochastic approach to reinforcement
-learning which explicitly models the variability present in the learning
-environment and the cost of observation. criteria and rules for learning
-success are quantitatively analyzed, and probabilities of exceeding the
-observation cost bounds are also obtained.
+the application of vision-language models (vlms) in remote sensing (rs) has demonstrated significant potential in traditional tasks such as scene classification, object detection, and image captioning. however, current models, which excel in referring expression comprehension (rec), struggle with tasks involving complex instructions (e.g., exists multiple conditions) or pixel-level operations like segmentation and change detection. in this white paper, we provide a comprehensive hierarchical summary of vision-language tasks in rs, categorized by the varying levels of cognitive capability required. we introduce the remote sensing vision-language task set (rsvlts), which includes open-vocabulary tasks (ovt), referring expression tasks (ret), and described object tasks (dot) with increased difficulty, and visual question answering (vqa) aloneside. moreover, we propose a novel unified data representation using a set-of-points approach for rsvlts, along with a condition parser and a self-augmentation strategy based on cyclic referring. these features are integrated into the georsmllm model, and this enhanced model is designed to handle a broad range of tasks of rsvlts, paving the way for a more generalized solution for vision-language tasks in geoscience and remote sensing.

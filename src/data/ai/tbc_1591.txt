@@ -1,1 +1,0 @@
-Introduzione di modelli predittivi basati su intelligenza artificiale e machine learning a supporto della digital customer experience. Esplorazione dell'efficacia di tali modelli in vari ambiti applicativi (ad es. proximity marketing, web analytics, sentiment and emotion analysis). Prototipizzazione e implementazione di tali modelli per Neosperience in ambito cloud computing.

@@ -1,1 +1,13 @@
-â€œOPTIMARKET AIâ€ Ãˆ UN INNOVATIVO PROGETTO DI CONSULENZA INFORMATICA FOCALIZZATO SULLA TRASFORMAZIONE DELLE VENDITE DI RICAMBI AUTO NEL SETTORE E-COMMERCE ATTRAVERSO Lâ€™USO DI INTELLIGENZA ARTIFICIALE (AI) E ANALISI DI BIG DATA. IL NOSTRO OBIETTIVO Ãˆ OTTIMIZZARE LA PERFORMANCE DI VENDITA E IL MARGINE DEI PRODOTTI IN DIVERSI MERCATI INTERNAZIONALI. ATTRAVERSO UNâ€™ANALISI DETTAGLIATA DEI BIG DATA  OPTIMARKET AI IDENTIFICA PATTERN E TENDENZE NELLE VENDITE DI RICAMBI AUTO  PERMETTENDO UNA PERSONALIZZAZIONE DEL PRICING E DELLâ€™OFFERTA PRODOTTO PER OGNI PAESE. IL SISTEMA AI  APPOSITAMENTE PROGETTATO  APPRENDE DINAMICAMENTE DALLE VENDITE E DAI FEEDBACK DEL MERCATO  ASSICURANDO UN ADATTAMENTO COSTANTE ALLE MUTEVOLI ESIGENZE DEI CONSUMATORI E ALLE CONDIZIONI DI MERCATO. Lâ€™APPROCCIO UNICO DI OPTIMARKET AI CONSENTE NON SOLO DI AUMENTARE LE VENDITE  MA ANCHE DI MIGLIORARE I MARGINI DI PROFITTO ATTRAVERSO STRATEGIE DI PRICING MIRATE E GESTIONE EFFICIENTE DELLâ€™INVENTARIO. QUESTO SI TRADUCE IN UNA MAGGIORE COMPETITIVITÃ€ PER I NOSTRI CLIENTI NEL MERCATO GLOBALE. OPTIMARKET AI RAPPRESENTA UN PASSO AVANTI VERSO Lâ€™ADOZIONE DI SOLUZIONI TECNOLOGICHE AVANZATE NEL SETTORE DEI RICAMBI AUTO  OFFRENDO UN VANTAGGIO COMPETITIVO SIGNIFICATIVO IN UN MERCATO SEMPRE PIÃ™ DIGITALE E ORIENTATO AI DATI.
+sequential decision making problems, such as structured prediction, robotic
+control, and game playing, require a combination of planning policies and
+generalisation of those plans. in this paper, we present expert iteration
+(exit), a novel reinforcement learning algorithm which decomposes the problem
+into separate planning and generalisation tasks. planning new policies is
+performed by tree search, while a deep neural network generalises those plans.
+subsequently, tree search is improved by using the neural network policy to
+guide search, increasing the strength of new plans. in contrast, standard deep
+reinforcement learning algorithms rely on a neural network not only to
+generalise plans, but to discover them too. we show that exit outperforms
+reinforce for training a neural network to play the board game hex, and our
+final tree search agent, trained tabula rasa, defeats mohex 1.0, the most
+recent olympiad champion player to be publicly released.

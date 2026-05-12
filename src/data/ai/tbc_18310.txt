@@ -1,0 +1,18 @@
+with a large proportion of people carrying location-aware smartphones, we
+have an unprecedented platform from which to understand individuals and predict
+their future actions. this work builds upon the context tree data structure
+that summarises the historical contexts of individuals from augmented
+geospatial trajectories, and constructs a predictive model for their likely
+future contexts. the predictive context tree (pct) is constructed as a
+hierarchical classifier, capable of predicting both the future locations that a
+user will visit and the contexts that a user will be immersed within. the pct
+is evaluated over real-world geospatial trajectories, and compared against
+existing location extraction and prediction techniques, as well as a proposed
+hybrid approach that uses identified land usage elements in combination with
+machine learning to predict future interactions. our results demonstrate that
+higher predictive accuracies can be achieved using this hybrid approach over
+traditional extracted location datasets, and the pct itself matches the
+performance of the hybrid approach at predicting future interactions, while
+adding utility in the form of context predictions. such a prediction system is
+capable of understanding not only where a user will visit, but also their
+context, in terms of what they are likely to be doing.

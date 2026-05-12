@@ -1,5 +1,1 @@
-A.D.T S.r.l. è una startup innovativa italiana che ha sviluppato una piattaforma per supportare gli studenti nella preparazione dei test di ammissione all’università.
-La startup ha sviluppato, sin dalla costituzione, sistemi
-di Intelligenza Artificiale, per efficientare e customizzare
-il processo di apprendimento legato all'esecuzione dei
-test di ammissione.
+we present a novel cortically-inspired image completion algorithm. it uses a five dimensional sub-riemannian cortical geometry modelling the orientation, spatial frequency and phase selective behavior of the cells in the visual cortex. the algorithm extracts the orientation, frequency and phase information existing in a given two dimensional corrupted input image via a gabor transform and represent those values in terms of cortical cell output responses in the model geometry. then it performs completion via a diffusion concentrated in a neighbourhood along the neural connections within the model geometry. the diffusion models the activity propagation integrating orientation, frequency and phase features along the neural connections. finally, the algorithm transforms back the diffused and completed output responses back to the two dimensional image plane.

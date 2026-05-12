@@ -1,16 +1,1 @@
-in this paper we present two deep-learning systems that competed at
-semeval-2018 task 3 "irony detection in english tweets". we design and ensemble
-two independent models, based on recurrent neural networks (bi-lstm), which
-operate at the word and character level, in order to capture both the semantic
-and syntactic information in tweets. our models are augmented with a
-self-attention mechanism, in order to identify the most informative words. the
-embedding layer of our word-level model is initialized with word2vec word
-embeddings, pretrained on a collection of 550 million english tweets. we did
-not utilize any handcrafted features, lexicons or external datasets as prior
-information and our models are trained end-to-end using back propagation on
-constrained data. furthermore, we provide visualizations of tweets with
-annotations for the salient tokens of the attention layer that can help to
-interpret the inner workings of the proposed models. we ranked 2nd out of 42
-teams in subtask a and 2nd out of 31 teams in subtask b. however,
-post-task-completion enhancements of our models achieve state-of-the-art
-results ranking 1st for both subtasks.
+neural networks, with powerful nonlinear mapping and classification capabilities, are widely applied in mechanical fault diagnosis to ensure safety. however, being typical black-box models, their application is limited in high-reliability-required scenarios. to understand the classification logic and explain what typical fault signals look like, the prototype matching network (pmn) is proposed by combining the human-inherent prototype-matching with autoencoder (ae). the pmn matches ae-extracted feature with each prototype and selects the most similar prototype as the prediction result. it has three interpreting paths on classification logic, fault prototypes, and matching contributions. conventional diagnosis and domain generalization experiments demonstrate its competitive diagnostic performance and distinguished advantages in representation learning. besides, the learned typical fault signals (i.e., sample-level prototypes) showcase the ability for denoising and extracting subtle key features that experts find challenging to capture. this ability broadens human understanding and provides a promising solution from interpretability research to ai-for-science.

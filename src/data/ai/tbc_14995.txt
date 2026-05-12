@@ -1,1 +1,19 @@
-graph neural networks (gnns) have achieved tremendous success in graph mining. however, the inability of gnns to model substructures in graphs remains a significant drawback. specifically, message-passing gnns (mpgnns), as the prevailing type of gnns, have been theoretically shown unable to distinguish, detect or count many graph substructures. while efforts have been paid to complement the inability, existing works either rely on pre-defined substructure sets, thus being less flexible, or are lacking in theoretical insights. in this paper, we propose gskn, a gnn model with a theoretically stronger ability to distinguish graph structures. specifically, we design gskn based on anonymous walks (aws), flexible substructure units, and derive it upon feature mappings of graph kernels (gks). we theoretically show that gskn provably extends the 1-wl test, and hence the maximally powerful mpgnns from both graph-level and node-level viewpoints. correspondingly, various experiments are leveraged to evaluate gskn, where gskn outperforms a wide range of baselines, endorsing the analysis.
+automating the customer analytics process is crucial for companies that
+manage distinct customer bases. in such data-rich and dynamic environments,
+visualization plays a key role in understanding events of interest. these ideas
+have led to the popularity of analytics dashboards, yet academic research has
+paid scant attention to these managerial needs. we develop a probabilistic,
+nonparametric framework for understanding and predicting individual-level
+spending using gaussian process priors over latent functions that describe
+customer spending along calendar time, interpurchase time, and customer
+lifetime dimensions. these curves form a dashboard that provides a visual
+model-based representation of purchasing dynamics that is easily
+comprehensible. the model flexibly and automatically captures the form and
+duration of the impact of events that influence spend propensity, even when
+such events are unknown a-priori. we illustrate the use of our gaussian process
+propensity model (gppm) on data from two popular mobile games. we show that the
+gppm generalizes hazard and buy-till-you-die models by incorporating calendar
+time dynamics while simultaneously accounting for recency and lifetime effects.
+it therefore provides insights about spending propensity beyond those available
+from these models. finally, we show that the gppm outperforms these benchmarks
+both in fitting and forecasting real and simulated spend data.

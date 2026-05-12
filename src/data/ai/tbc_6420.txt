@@ -1,1 +1,12 @@
-vesicoureteral reflux (vur) is a pediatric disorder in which urine flows backwards from the bladder to the upper urinary tract. its detection is of great importance as it increases the risk of a urinary tract infection, which can then lead to a kidney infection since bacteria may have direct access to the kidneys. unfortunately the detection of vur requires a rather painful medical examination, called voiding cysteourethrogram (vcug), that exposes the child to radiation. in an effort to avoid the exposure to radiation required by vcug some recent studies examined the use of machine learning techniques for the detection of vur based on data that can be obtained without exposing the child to radiation. this work takes one step further by proposing an approach that provides lower and upper bounds for the conditional probability of a given child having vur. the important property of these bounds is that they are guaranteed (up to statistical fluctuations) to contain well-calibrated probabilities with the only requirement that observations are independent and identically distributed (i.i.d.). therefore they are much more informative and reliable than the plain yes/no answers provided by other techniques.
+predicting gender from iris images has been reported by several researchers
+as an application of machine learning in biometrics. recent works on this topic
+have suggested that the preponderance of the gender cues is located in the
+periocular region rather than in the iris texture itself. this paper focuses on
+teasing out whether the information for gender prediction is in the texture of
+the iris stroma, the periocular region, or both. we present a larger dataset
+for gender from iris, and evaluate gender prediction accuracy using linear svm
+and cnn, comparing hand-crafted and deep features. we use probabilistic
+occlusion masking to gain insight on the problem. results suggest the
+discriminative power of the iris texture for gender is weaker than previously
+thought, and that the gender-related information is primarily in the periocular
+region.

@@ -1,1 +1,0 @@
-Il progetto prevede di lanciare una Progressive Web App (PWA) modulare per rispondere sia a bisogni di aggregatori dell’offerta turistica delle imprese individuali, sia alle esigenze dei visitatori. Il servizio offrirà diverse funzionalità: vetrine e-commerce, pagamenti in bitcoin, assistenza personalizzata con virtual assistant, basati sull'intelligenza artificiale

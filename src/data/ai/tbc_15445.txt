@@ -1,1 +1,1 @@
-Piattaforma di analisi video per lo sport (Sport Analytics) che utilizza Computer Vision per estrarre statistiche avanzate dalle partite di calcio.
+Bando Impresa Digitale Nordlys - Intelligenza artificiale e Big Data per Supply Chain engineered-to order (ETO) e make-to-order (MTO)

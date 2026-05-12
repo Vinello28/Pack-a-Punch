@@ -1,0 +1,13 @@
+bayesian inference requires approximation methods to become computable, but
+for most of them it is impossible to quantify how close the approximation is to
+the true posterior. in this work, we present a theorem upper-bounding the kl
+divergence between a log-concave target density
+$f\left(\boldsymbol{\theta}\right)$ and its laplace approximation
+$g\left(\boldsymbol{\theta}\right)$. the bound we present is computable: on the
+classical logistic regression model, we find our bound to be almost exact as
+long as the dimensionality of the parameter space is high.
+  the approach we followed in this work can be extended to other gaussian
+approximations, as we will do in an extended version of this work, to be
+submitted to the annals of statistics. it will then become a critical tool for
+characterizing whether, for a given problem, a given gaussian approximation is
+suitable, or whether a more precise alternative method should be used instead.

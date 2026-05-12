@@ -1,1 +1,12 @@
-Il presente progetto inserito in un ottica di crescita aziendale la prima parte riguarda lo sviluppo di una soluzione ecommerce per la vendita di prodotti e anche servizi come la progettazione di ambienti online e la creazione di un apposita sezione per dare visibilit a giovani designer o piccole imprese del territorio. La seconda riguarda la netta suddivisione tra negozio fisico e virtuale anche come postazioni lavorative e l'inserimento di un dispositivo per la protezione e il salvataggio dei dati. Inoltre ci stiamo formando ed informando in merito a realt aumentata Cloud intelligenza artificiale.
+this paper focuses on unsupervised modeling of morphological families,
+collectively comprising a forest over the language vocabulary. this formulation
+enables us to capture edgewise properties reflecting single-step morphological
+derivations, along with global distributional properties of the entire forest.
+these global properties constrain the size of the affix set and encourage
+formation of tight morphological families. the resulting objective is solved
+using integer linear programming (ilp) paired with contrastive estimation. we
+train the model by alternating between optimizing the local log-linear model
+and the global ilp objective. we evaluate our system on three tasks: root
+detection, clustering of morphological families and segmentation. our
+experiments demonstrate that our model yields consistent gains in all three
+tasks compared with the best published results.

@@ -1,1 +1,11 @@
-Viene proposto un nuovo protocollo di simulazione che combina tecniche di Machine Learning (ML) con metodi di chimica computazionale per la progettazione di materiali ad alte prestazioni. Saranno sviluppati algoritmi di Machine Learning per modellare le proprietà chimiche di nuovi materiali derivati da approcci di chimica computazionale per superare il problema estremamente impegnativo dal punto di vista computazionale dello screening.
+although the music sight reading process has been studied from the cognitive
+psychology view points, but the computational learning methods like the
+reinforcement learning have not yet been used to modeling of such processes. in
+this paper, with regards to essential properties of our specific problem, we
+consider the value function concept and will indicate that the optimum policy
+can be obtained by the method we offer without to be getting involved with
+computing of the complex value functions. also, we will offer a normative
+behavioral model for the interaction of the agent with the musical pitch
+environment and by using a slightly different version of partially observable
+markov decision processes we will show that our method helps for faster
+learning of state-action pairs in our implemented agents.

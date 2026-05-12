@@ -1,0 +1,13 @@
+we consider the widely-used average-linkage, single-linkage, and ward's methods for
+  computing hierarchical clusterings of high-dimensional euclidean inputs.
+  it is easy to show that there is no efficient implementation of these algorithms
+  in high dimensional euclidean space since it implicitly requires to solve the closest
+  pair problem, a notoriously difficult problem.
+
+  however, how fast can these algorithms be implemented if we allow approximation?
+  more precisely: these algorithms successively merge the clusters that are at closest
+  average (for average-linkage), minimum distance (for single-linkage), or inducing the least  sum-of-square error (for ward's). we ask whether one could obtain a significant running-time improvement if the algorithm can merge   $\gamma$-approximate closest clusters (namely, clusters that are at distance   (average, minimum, or sum-of-square error) at most  $\gamma$ times the distance of the closest clusters). 
+
+  we show that one can indeed take advantage of the relaxation and compute the approximate  hierarchical clustering tree using $\widetilde{o}(n)$ $\gamma$-approximate nearest neighbor  queries.
+  this leads to an algorithm running in time  $\widetilde{o}(nd) + n^{1+o(1/\gamma)}$ for $d$-dimensional euclidean space.
+  we then provide experiments showing that these algorithms perform as well as the non-approximate version for classic classification tasks while achieving a significant speed-up.

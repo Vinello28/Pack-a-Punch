@@ -1,1 +1,0 @@
-Il progetto sviluppa una piattaforma di apprendimento federato adattivo per modelli di medicina personalizzata basati su radiomica nelle malattie muscoloscheletriche. Integra modelli AI locali in architettura distribuita, ottimizzati su cloud sostenibile, migliorando generalizzabilità e accessibilità.

@@ -1,1 +1,13 @@
-Il progetto consolida e potenzia i servizi già attivi dello sportello per la transizione digitale, introducendo strumenti e competenze ad alto valore aggiunto. L’intervento prevede lo sviluppo di uno strumento informatico per la gestione automatizzata degli assessment, con l’obiettivo di rendere il processo più efficiente, tracciabile e scalabile. Saranno organizzati due eventi tematici rivolti alle imprese su intelligenza artificiale (AI Act, ISO/IEC 42001) e cybersecurity (nuove normative), accompagnati da attività di consulenza specialistica. È inoltre previsto uno studio di fattibilità per valutare l’attivazione di un servizio di certificazione ISO/IEC 42001. Il progetto si innesta in una struttura operativa già attiva e contribuisce ad arricchirne l’offerta, aumentando la qualità dei servizi e la capacità di accompagnamento delle imprese. I risultati attesi rafforzano la maturità digitale delle imprese coinvolte e generano valore anche in prospettiva di rete
+in this paper, we describe our algorithmic approach, which was used for
+submissions in the fifth emotion recognition in the wild (emotiw 2017)
+group-level emotion recognition sub-challenge. we extracted feature vectors of
+detected faces using the convolutional neural network trained for face
+identification task, rather than traditional pre-training on emotion
+recognition problems. in the final pipeline an ensemble of random forest
+classifiers was learned to predict emotion score using available training set.
+in case when the faces have not been detected, one member of our ensemble
+extracts features from the whole image. during our experimental study, the
+proposed approach showed the lowest error rate when compared to other explored
+techniques. in particular, we achieved 75.4% accuracy on the validation data,
+which is 20% higher than the handcrafted feature-based baseline. the source
+code using keras framework is publicly available.

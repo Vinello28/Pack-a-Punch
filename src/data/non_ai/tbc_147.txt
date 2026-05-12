@@ -1,1 +1,0 @@
-Il programma di investimento è finalizzato all'acquisto di attrezzature hardware e software necessarie per la progettazione di soluzioni di arredo per la casa, utilizzando la realtà virtuale. Le soluzioni di arredo progettate potranno essere descritte, al cliente, attraverso un sistema di realtà virtuale che consentirà di simulare la presenza negli ambienti arredati.

@@ -1,0 +1,12 @@
+we propose a logical analysis of the concept of typicality, central in human
+cognition (rosch,1978). we start from a previously proposed extension of the
+basic description logic alc (a computationally tractable fragment of first
+order logic, used to represent concept inclusions and ontologies) with a
+typicality operator t that allows to consistently represent the attribution to
+classes of individuals of properties with exceptions (as in the classic example
+(i) typical birds fly, (ii) penguins are birds but (iii) typical penguins don't
+fly). we then strengthen this extension in order to separately reason about the
+typicality with respect to different aspects (e.g., flying, having nice
+feather: in the previous example, penguins may not inherit the property of
+flying, for which they are exceptional, but can nonetheless inherit other
+properties, such as having nice feather).

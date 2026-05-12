@@ -1,0 +1,13 @@
+tensor decomposition on big data has attracted significant attention
+recently. among the most popular methods is a class of algorithms that
+leverages compression in order to reduce the size of the tensor and potentially
+parallelize computations. a fundamental requirement for such methods to work
+properly is that the low-rank tensor structure is retained upon compression. in
+lieu of efficient and realistic means of computing and studying the effects of
+compression on the low rank of a tensor, we study the effects of compression on
+the core consistency; a widely used heuristic that has been used as a proxy for
+estimating that low rank. we provide theoretical analysis, where we identify
+sufficient conditions for the compression such that the core consistency is
+preserved, and we conduct extensive experiments that validate our analysis.
+further, we explore popular compression schemes and how they affect the core
+consistency.

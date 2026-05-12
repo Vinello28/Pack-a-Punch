@@ -1,1 +1,17 @@
-Il progetto pianificato si pone l'obiettivo di implementare tecnologie digitali innovative per migliorare l'infrastruttura e i servizi online, inclusa un'app web, un'area e-commerce e una piattaforma AI-based. L'investimento mira a ottimizzare le operazioni, aumentare i ricavi e migliorare la competitività dell'impresa.
+multi-task convolutional neural networks (cnns) have shown impressive results
+for certain combinations of tasks, such as single-image depth estimation (side)
+and semantic segmentation. this is achieved by pushing the network towards
+learning a robust representation that generalizes well to different atomic
+tasks. we extend this concept by adding auxiliary tasks, which are of minor
+relevance for the application, to the set of learned tasks. as a kind of
+additional regularization, they are expected to boost the performance of the
+ultimately desired main tasks. to study the proposed approach, we picked
+vision-based road scene understanding (rsu) as an exemplary application. since
+multi-task learning requires specialized datasets, particularly when using
+extensive sets of tasks, we provide a multi-modal dataset for multi-task rsu,
+called synmt. more than 2.5 $\cdot$ 10^5 synthetic images, annotated with 21
+different labels, were acquired from the video game grand theft auto v (gta v).
+our proposed deep multi-task cnn architecture was trained on various
+combination of tasks using synmt. the experiments confirmed that auxiliary
+tasks can indeed boost network performance, both in terms of final results and
+training time.

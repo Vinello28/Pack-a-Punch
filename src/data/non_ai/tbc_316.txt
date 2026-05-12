@@ -1,1 +1,0 @@
-E' una piattaforma di booking che grazie ad un algoritmo proprietario e ad una interfaccia user friendly permette di organizzare in piena autonomia il proprio viaggio.

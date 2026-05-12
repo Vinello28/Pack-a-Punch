@@ -1,1 +1,1 @@
-Sviluppo di un sistema intelligente per rilevamento intrusioni tramite Deep Learning con reti neurali convoluzionali (CNN) applicato al settore alimentare. La piattaforma processa serie temporali storiche di 10+ anni con latenza inferiore a 100ms. L'architettura prevede model registry e versioning con ridondanza geografica.
+Il progetto ha come scopo lâ€™implementazione di strategie di Computer Vision per il monitoraggio in continuo di opere civili  per la salvaguardia delle persone e la messa in sicurezza di centri abitati  strutture ed edifici

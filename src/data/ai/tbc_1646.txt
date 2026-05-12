@@ -1,1 +1,0 @@
-l’obiettivo del progetto Intelligenza Artificiale per il rilevamento di minacce e intrusioni informatiche è la realizzazione di un motore intelligente, che integri la piattaforma SIEM di Certego Srl, al fine di ridurre il numero di falsi positivi nelle segnalazioni di anomalie e classificarle in base a una scala di gravità della minaccia

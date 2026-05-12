@@ -1,1 +1,1 @@
-Realizzazione di un Robot volto ad analizzare il campo magnetico di una risonanza magnetica (Shimming passivo) in maniera del tutto automatico.
+Neural Rendering & Edge AI Platform for 4D synthetic Twins generation during Underwater Navigation & Exploration

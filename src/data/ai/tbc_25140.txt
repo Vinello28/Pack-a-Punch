@@ -1,0 +1,15 @@
+adversarial examples in machine learning for images are widely publicized and
+explored. illustrations of misclassifications caused by slightly perturbed
+inputs are abundant and commonly known (e.g., a picture of panda imperceptibly
+perturbed to fool the classifier into incorrectly labeling it as a gibbon).
+similar attacks on deep learning (dl) for radio frequency (rf) signals and
+their mitigation strategies are scarcely addressed in the published work. yet,
+rf adversarial examples (adexs) with minimal waveform perturbations can cause
+drastic, targeted misclassification results, particularly against spectrum
+sensing/survey applications (e.g. bpsk is mistaken for 8-psk). our research on
+deep learning adexs and proposed defense mechanisms are rf-centric, and
+incorporate physical world, over-the-air (ota) effects. we herein present
+defense mechanisms based on pre-training the target classifier using an
+autoencoder. our results validate this approach as a viable mitigation method
+to subvert adversarial attacks against deep learning-based communications and
+radar sensing systems.

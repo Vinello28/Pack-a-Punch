@@ -1,0 +1,7 @@
+this manuscript addresses the problem of the automatic lesion boundary
+detection in dermoscopy, using deep neural networks. an approach is based on
+the adaptation of the u-net convolutional neural network with skip connections
+for lesion boundary segmentation task. i hope this paper could serve, to some
+extent, as an experiment of using deep convolutional networks in biomedical
+segmentation task and as a guideline of the boundary detection benchmark,
+inspiring further attempts and researches.

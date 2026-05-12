@@ -1,3 +1,0 @@
-MATCHPOINT è una piattaforma digitale di mediazione creditizia, basata su:
-1) Motore di AI per individuare più PMI aderenti “Investment Grade”;
-2) Minori costi di origination per Fintech e Banche, a parità di volumi erogati.

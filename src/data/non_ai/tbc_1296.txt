@@ -1,0 +1,1 @@
+Realizzare la nuova Piattaforma AI4Food operante in modalit PaaS e SaaS per la gestione integrata dei servizi di ristorazione collettiva

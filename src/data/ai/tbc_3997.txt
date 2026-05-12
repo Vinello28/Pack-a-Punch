@@ -1,1 +1,20 @@
-Il progetto SPA REMOTE ASSISTANCE si propone di innovare il settore delle minipiscine introducendo una soluzione integrata di monitoraggio e assistenza a distanza per SPA e minipiscine. Sfruttando le tecnologie IoT, analytics e AI, il progetto mira a offrire un controllo e una manutenzione remota avanzati, migliorando l'efficienza operativa e riducendo i tempi di inattività dovuti a guasti. Attraverso lo sviluppo di una piattaforma cloud per l'analisi dei dati, un'interfaccia hardware per la connettività internet e un'applicazione mobile per l'interazione utente, SPA REMOTE ASSISTANCE promette di elevare l'esperienza dell'utente e al contempo migliorare il servizio di assistenza da parte dei centri di assistenza.
+non-frontal lip views contain useful information which can be used to enhance
+the performance of frontal view lipreading. however, the vast majority of
+recent lipreading works, including the deep learning approaches which
+significantly outperform traditional approaches, have focused on frontal mouth
+images. as a consequence, research on joint learning of visual features and
+speech classification from multiple views is limited. in this work, we present
+an end-to-end multi-view lipreading system based on bidirectional long-short
+memory (blstm) networks. to the best of our knowledge, this is the first model
+which simultaneously learns to extract features directly from the pixels and
+performs visual speech classification from multiple views and also achieves
+state-of-the-art performance. the model consists of multiple identical streams,
+one for each view, which extract features directly from different poses of
+mouth images. the temporal dynamics in each stream/view are modelled by a blstm
+and the fusion of multiple streams/views takes place via another blstm. an
+absolute average improvement of 3% and 3.8% over the frontal view performance
+is reported on the ouluvs2 database when the best two (frontal and profile) and
+three views (frontal, profile, 45) are combined, respectively. the best
+three-view model results in a 10.5% absolute improvement over the current
+multi-view state-of-the-art performance on ouluvs2, without using external
+databases for training, achieving a maximum classification accuracy of 96.9%.

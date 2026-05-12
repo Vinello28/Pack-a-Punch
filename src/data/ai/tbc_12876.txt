@@ -1,0 +1,12 @@
+automatic optimization of spoken dialog management policies that are robust
+to environmental noise has long been the goal for both academia and industry.
+approaches based on reinforcement learning have been proved to be effective.
+however, the numerical representation of dialog policy is
+human-incomprehensible and difficult for dialog system designers to verify or
+modify, which limits its practical application. in this paper we propose a
+novel framework for optimizing dialog policies specified in domain language
+using genetic algorithm. the human-interpretable representation of policy makes
+the method suitable for practical employment. we present learning algorithms
+using user simulation and real human-machine dialogs respectively.empirical
+experimental results are given to show the effectiveness of the proposed
+approach.

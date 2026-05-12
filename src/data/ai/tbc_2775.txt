@@ -1,1 +1,1 @@
-Completamento di un prototipo di sistema hardware e software denominato NMR AI Analyzer per l'analisi degli idrocarburi.
+Computer vision per Circular Economy e re-manufacturing

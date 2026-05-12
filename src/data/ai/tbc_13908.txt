@@ -1,1 +1,16 @@
-trasformare i processi aziendali di S.E.A. S.p.A. attraverso l'implementazione di soluzioni avanzate di intelligenza artificiale (AI) e la gestione della sicurezza informatica in conformit con lo standard ISO 27001 garantendo al contempo una piena aderenza alle normative GDPR
+online multi-object tracking is a fundamental problem in time-critical video
+analysis applications. a major challenge in the popular tracking-by-detection
+framework is how to associate unreliable detection results with existing
+tracks. in this paper, we propose to handle unreliable detection by collecting
+candidates from outputs of both detection and tracking. the intuition behind
+generating redundant candidates is that detection and tracks can complement
+each other in different scenarios. detection results of high confidence prevent
+tracking drifts in the long term, and predictions of tracks can handle noisy
+detection caused by occlusion. in order to apply optimal selection from a
+considerable amount of candidates in real-time, we present a novel scoring
+function based on a fully convolutional neural network, that shares most
+computations on the entire image. moreover, we adopt a deeply learned
+appearance representation, which is trained on large-scale person
+re-identification datasets, to improve the identification ability of our
+tracker. extensive experiments show that our tracker achieves real-time and
+state-of-the-art performance on a widely used people tracking benchmark.

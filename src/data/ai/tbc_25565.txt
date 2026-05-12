@@ -1,0 +1,20 @@
+we explore ways in which the covariance ellipsoid ${\cal b}=\{v \in
+\mathbb{r}^d : \mathbb{e} <x,v>^2 \leq 1\}$ of a centred random vector $x$ in
+$\mathbb{r}^d$ can be approximated by a simple set. the data one is given for
+constructing the approximating set consists of $x_1,...,x_n$ that are
+independent and distributed as $x$.
+  we present a general method that can be used to construct such approximations
+and implement it for two types of approximating sets. we first construct a
+(random) set ${\cal k}$ defined by a union of intersections of slabs
+$h_{z,\alpha}=\{v \in \mathbb{r}^d : |<z,v>| \leq \alpha\}$ (and therefore
+${\cal k}$ is actually the output of a neural network with two hidden layers).
+the slabs are generated using $x_1,...,x_n$, and under minimal assumptions on
+$x$ (e.g., $x$ can be heavy-tailed) it suffices that $n = c_1d
+\eta^{-4}\log(2/\eta)$ to ensure that $(1-\eta) {\cal k} \subset {\cal b}
+\subset (1+\eta){\cal k}$. in some cases (e.g., if $x$ is rotation invariant
+and has marginals that are well behaved in some weak sense), a smaller sample
+size suffices: $n = c_1d\eta^{-2}\log(2/\eta)$.
+  we then show that if the slabs are replaced by randomly generated ellipsoids
+defined using $x_1,...,x_n$, the same degree of approximation is true when $n
+\geq c_2d\eta^{-2}\log(2/\eta)$.
+  the construction we use is based on the small-ball method.

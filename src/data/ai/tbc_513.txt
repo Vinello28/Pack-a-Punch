@@ -1,0 +1,1 @@
+Il progetto CoCAI - Counting Crowds with AI si pone l'obiettivo di realizzare un'architettura modulare basata su Computer Vision e Artificial Intelligence per l'analisi di scene affollate con lo scopo specifico di individuare le singole persone e le loro traiettorie spazio temporali all'interno di un campo visivo complesso coperto da una o pi camere standard.

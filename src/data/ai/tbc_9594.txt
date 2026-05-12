@@ -1,0 +1,17 @@
+deep reinforcement learning has shown great success in a variety of control
+tasks. however, it is unclear how close we are to the vision of putting deep rl
+into practice to solve real world problems. in particular, common practice in
+the field is to train policies on largely deterministic simulators and to
+evaluate algorithms through training performance alone, without a train/test
+distinction to ensure models generalise and are not overfitted. moreover, it is
+not standard practice to check for generalisation under domain shift, although
+robustness to such system change between training and testing would be
+necessary for real-world deep rl control, for example, in robotics. in this
+paper we study these issues by first characterising the sources of uncertainty
+that provide generalisation challenges in deep rl. we then provide a new
+benchmark and thorough empirical evaluation of generalisation challenges for
+state of the art deep rl methods. in particular, we show that, if
+generalisation is the goal, then common practice of evaluating algorithms based
+on their training performance leads to the wrong conclusions about algorithm
+choice. finally, we evaluate several techniques for improving generalisation
+and draw conclusions about the most robust techniques to date.

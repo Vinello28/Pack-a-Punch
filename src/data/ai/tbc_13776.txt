@@ -1,1 +1,19 @@
-ADAPTA STUDIO SVILUPPA STRUMENTI AVANZATI PER APPLICAZIONI 3D CON ELEVATO REALISMO E PERFORMANCE. AL FINE DI GARANTIRE UN'OTTIMA INTEGRAZIONE NELLE PRINCIPALI PIATTAFORME SI EMERSA LA NECESSIT DI RISTRUTTURARE IN MODO PI EFFICIENTE I PROCESSI INTERNI. IL PROGETTO MIRA A IMPLEMENTARE LA TECNOLOGIA CLOUD PER OTTIMIZZARE LE SUPERFICI DEI MODELLI 3D INTRODUCENDO NUOVI MECCANISMI DI INTELLIGENZA ARTIFICIALE GENERATIVA. QUESTA INIZIATIVA CONCEPITA COME UNA RIVOLUZIONE SETTORIALE PROPONE SOLUZIONI ALL'AVANGUARDIA PER APPLICAZIONI INDUSTRIALI E DI VISUALIZZAZIONE IMMERSIVA IN VR/AR. ADOTTANDO MODERNI PARADIGMA DEL CLOUD COMPUTING L'OBIETTIVO OTTIMIZZARE LA GESTIONE DI VASTI SET DI DATI 3D GARANTENDO UNA RAPIDA ELABORAZIONE E ANALISI. IL PROGETTO PREVEDE LA CREAZIONE DI UN AMBIENTE DI LAVORO CONDIVISO PER FACILITARE LA COLLABORAZIONE IN TEMPO REALE DI TEAM DISTRIBUITI NELLA PROGETTAZIONE E OTTIMIZZAZIONE DEI MODELLI 3D. L'UTILIZZO DI RISORSE CLOUD SCALABILI PERMETTER UNA GESTIONE AGILMENTE ADATTABILE A PROGETTI DI QUALSIASI DIMENSIONE ASSICURANDO PRESTAZIONI OTTIMALI E MASSIMA EFFICIENZA DEI COSTI. INFINE PROMUOVENDO L'INTEROPERABILIT INTEGREREMO NUOVI CONNETTORI DISTINGUENDO LA PIATTAFORMA COME UN HUB INTELLIGENTE PER LA GESTIONE AVANZATA DEI MODELLI 3D.
+explicit high-order feature interactions efficiently capture essential
+structural knowledge about the data of interest and have been used for
+constructing generative models. we present a supervised discriminative
+high-order parametric embedding (hope) approach to data visualization and
+compression. compared to deep embedding models with complicated deep
+architectures, hope generates more effective high-order feature mapping through
+an embarrassingly simple shallow model. furthermore, two approaches to
+generating a small number of exemplars conveying high-order interactions to
+represent large-scale data sets are proposed. these exemplars in combination
+with the feature mapping learned by hope effectively capture essential data
+variations. moreover, through hope, these exemplars are employed to increase
+the computational efficiency of knn classification for fast information
+retrieval by thousands of times. for classification in two-dimensional
+embedding space on mnist and usps datasets, our shallow method hope with simple
+sigmoid transformations significantly outperforms state-of-the-art supervised
+deep embedding models based on deep neural networks, and even achieved
+historically low test error rate of 0.65% in two-dimensional space on mnist,
+which demonstrates the representational efficiency and power of supervised
+shallow models with high-order feature interactions.

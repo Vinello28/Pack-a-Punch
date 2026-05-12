@@ -1,0 +1,22 @@
+the ability to customize a trained deep neural network (dnn) locally using
+user-specific data may greatly enhance user experiences, reduce development
+costs, and protect user's privacy. in this work, we propose to incorporate a
+novel mixture of experts (moe) approach to accomplish this goal. this
+architecture comprises of a global expert (ge), a local expert (le) and a
+gating network (gn). the ge is a trained dnn developed on a large training
+dataset representative of many potential users. after deployment on an embedded
+edge device, ge will be subject to customized, user-specific data (e.g., accent
+in speech) and its performance may suffer. this problem may be alleviated by
+training a local dnn (the local expert, le) on a small size customized training
+data to correct the errors made by ge. a gating network then will be trained to
+determine whether an incoming data should be handled by ge or le. since the
+customized dataset is in general very small, the cost of training le and gn
+would be much lower than that of re-training of ge. the training of le and gn
+thus can be performed at local device, properly protecting the privacy of
+customized training data. in this work, we developed a prototype moe
+architecture for handwritten alphanumeric character recognition task. we use
+emnist as the generic dataset, lenet5 as ge, and handwritings of 10 users as
+the customized dataset. we show that with the le and gn, the classification
+accuracy is significantly enhanced over the customized dataset with almost no
+degradation of accuracy over the generic dataset. in terms of energy and
+network size, the overhead of le and gn is around 2.5% compared to those of ge.

@@ -1,0 +1,10 @@
+an accurate model of patient-specific kidney graft survival distributions can
+help to improve shared-decision making in the treatment and care of patients.
+in this paper, we propose a deep learning method that directly models the
+survival function instead of estimating the hazard function to predict survival
+times for graft patients based on the principle of multi-task learning. by
+learning to jointly predict the time of the event, and its rank in the cox
+partial log likelihood framework, our deep learning approach outperforms, in
+terms of survival time prediction quality and concordance index, other common
+methods for survival analysis, including the cox proportional hazards model and
+a network trained on the cox partial log-likelihood.

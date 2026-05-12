@@ -1,1 +1,1 @@
-TLMS750 - "Chronic Patient Monitoring"  Monitoraggio dei pazienti cronici mediante sistemi di telemedicina e analisi dei dati clinici basati su deep learning
+Progetto di ricerca su Quantum Machine Learning per accelerare l'addestramento di reti neurali profonde in ambito farmaceutico. Finanziamento per hardware quantistico.

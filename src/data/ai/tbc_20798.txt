@@ -1,0 +1,17 @@
+this paper proposes a learning algorithm to find a scheduling policy that
+achieves an optimal delay-power trade-off in communication systems.
+reinforcement learning (rl) is used to minimize the expected latency for a
+given energy constraint where the environments such as traffic arrival rates or
+channel conditions can change over time. for this purpose, this problem is
+formulated as an infinite-horizon markov decision process (mdp) with
+constraints. to handle the constrained optimization problem, we adopt the
+lagrangian relaxation technique to solve it. then, we propose a variant of
+q-learning, q-greedyucb that combines q-learning for \emph{average} reward
+algorithm and upper confidence bound (ucb) policy to solve this decision-making
+problem. we prove that the q-greedyucb algorithm is convergent through
+mathematical analysis. simulation results show that q-greedyucb finds an
+optimal scheduling strategy, and is more efficient than q-learning with the
+$\varepsilon$-greedy and average-payoff rl algorithm in terms of the cumulative
+reward (i.e., the weighted sum of delay and energy) and the convergence speed.
+we also show that our algorithm can reduce the regret by up to 12% compared to
+the q-learning with the $\varepsilon$-greedy and average-payoff rl algorithm.

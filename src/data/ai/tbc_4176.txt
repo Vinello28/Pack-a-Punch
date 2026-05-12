@@ -1,0 +1,15 @@
+as datasets continue to grow, neural network (nn) applications are becoming
+increasingly limited by both the amount of available computational power and
+the ease of developing high-performance applications. researchers often must
+have expert systems knowledge to make their algorithms run efficiently.
+although available computing power increases rapidly each year, algorithm
+efficiency is not able to keep pace due to the use of general purpose
+compilers, which are not able to fully optimize specialized application
+domains. within the domain of nns, we have the added knowledge that network
+architecture remains constant during training, meaning the architecture's data
+structure can be statically optimized by a compiler. in this paper, we present
+sonnc, a compiler for nns that utilizes static analysis to generate optimized
+parallel code. we show that sonnc's use of static optimizations make it able to
+outperform hand-optimized c++ code by up to 7.8x, and matlab code by up to 24x.
+additionally, we show that use of sonnc significantly reduces code complexity
+when using structurally sparse networks.

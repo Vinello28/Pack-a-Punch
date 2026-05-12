@@ -1,2 +1,0 @@
-Il progetto ROTO SMART CUT intende intraprendere una complessa attività finalizzata a identificare nuovi scenari tecnologici/applicativi, rappresentanti lo stato dell’arte della ricerca e sviluppo, per un radicale avanzamento delle tecnologie costruttive e di gestione delle segatrici automatiche di taglio tubi. Saranno sviluppati: 
-(1) Nuovi sistemi di caricamento automatizzato per lavorazioni contemporanee; (2) Sistema di gestione intelligente con interfaccia uomo macchina HIM e metodologi

@@ -1,2 +1,18 @@
-Sviluppo di un ambiente distribuito per il telemonitoraggio di cittadini fragili, con patologie croniche e complesse, residenti in zone rurali con
-l’ausilio di intelligenza artificiale
+hierarchical temporal memory (htm) is a biomimetic sequence memory algorithm
+that holds promise for invariant representations of spatial and spatiotemporal
+inputs. this paper presents a comprehensive neuromemristive crossbar
+architecture for the spatial pooler (sp) and the sparse distributed
+representation classifier, which are fundamental to the algorithm. there are
+several unique features in the proposed architecture that tightly link with the
+htm algorithm. a memristor that is suitable for emulating the htm synapses is
+identified and a new z-window function is proposed. the architecture exploits
+the concept of synthetic synapses to enable potential synapses in the htm. the
+crossbar for the sp avoids dark spots caused by unutilized crossbar regions and
+supports rapid on-chip training within 2 clock cycles. this research also
+leverages plasticity mechanisms such as neurogenesis and homeostatic intrinsic
+plasticity to strengthen the robustness and performance of the sp. the proposed
+design is benchmarked for image recognition tasks using mnist and yale faces
+datasets, and is evaluated using different metrics including entropy,
+sparseness, and noise robustness. detailed power analysis at different stages
+of the sp operations is performed to demonstrate the suitability for mobile
+platforms.

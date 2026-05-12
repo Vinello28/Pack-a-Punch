@@ -1,0 +1,16 @@
+spatio-temporal (st) data, which represent multiple time series data
+corresponding to different spatial locations, are ubiquitous in real-world
+dynamic systems, such as air quality readings. forecasting over st data is of
+great importance but challenging as it is affected by many complex factors,
+including spatial characteristics, temporal characteristics and the intrinsic
+causality between them. in this paper, we propose a general framework
+(hyperst-net) based on hypernetworks for deep st models. more specifically, it
+consists of three major modules: a spatial module, a temporal module and a
+deduction module. among them, the deduction module derives the parameter
+weights of the temporal module from the spatial characteristics, which are
+extracted by the spatial module. then, we design a general form of hyperst
+layer as well as different forms for several basic layers in neural networks,
+including the dense layer (hyperst-dense) and the convolutional layer
+(hyperst-conv). experiments on three types of real-world tasks demonstrate that
+the predictive models integrated with our framework achieve significant
+improvements, and outperform the state-of-the-art baselines as well.

@@ -1,1 +1,1 @@
-Digitalizzazione e fruibilita online degli antichi sentieri dei borghi di Lucoli attraverso la WebApp con cui sara possibile eseguire esperienze digitali immersiva attraverso tecnologie di realta aumentata.
+Generative AI e Explainable AI per la classificazione automatica dei bonifici in ambito bancario

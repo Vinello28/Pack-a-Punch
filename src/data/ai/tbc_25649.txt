@@ -1,0 +1,18 @@
+structured illumination microscopy (sim) is a very important super-resolution
+microscopy technique, which provides high speed super-resolution with about
+two-fold spatial resolution enhancement. several attempts aimed at improving
+the performance of sim reconstruction algorithm have been reported. however,
+most of these highlight only one specific aspect of the sim reconstruction --
+such as the determination of the illumination pattern phase shift accurately --
+whereas other key elements -- such as determination of modulation factor,
+estimation of object power spectrum, wiener filtering frequency components with
+inclusion of object power spectrum information, translocating and the merging
+of the overlapping frequency components -- are usually glossed over
+superficially. in addition, most of the work reported lie scattered throughout
+the literature and a comprehensive review of the theoretical background is
+found lacking. the purpose of the present work is two-fold: 1) to collect the
+essential theoretical details of sim algorithm at one place, thereby making
+them readily accessible to readers for the first time; and 2) to provide an
+open source sim reconstruction code (named opensim), which enables users to
+interactively vary the code parameters and study it's effect on reconstructed
+sim image.

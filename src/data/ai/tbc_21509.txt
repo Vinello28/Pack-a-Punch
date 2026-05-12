@@ -1,0 +1,9 @@
+recurrent neural networks (rnns) achieve state-of-the-art results in many
+sequence-to-sequence modeling tasks. however, rnns are difficult to train and
+tend to suffer from overfitting. motivated by the data processing inequality
+(dpi), we formulate the multi-layered network as a markov chain, introducing a
+training method that comprises training the network gradually and using
+layer-wise gradient clipping. we found that applying our methods, combined with
+previously introduced regularization and optimization methods, resulted in
+improvements in state-of-the-art architectures operating in language modeling
+tasks.

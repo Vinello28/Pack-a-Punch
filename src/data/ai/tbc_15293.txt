@@ -1,0 +1,15 @@
+in this work, we investigate the use of openstreetmap data for semantic
+labeling of earth observation images. deep neural networks have been used in
+the past for remote sensing data classification from various sensors, including
+multispectral, hyperspectral, sar and lidar data. while openstreetmap has
+already been used as ground truth data for training such networks, this
+abundant data source remains rarely exploited as an input information layer. in
+this paper, we study different use cases and deep network architectures to
+leverage openstreetmap data for semantic labeling of aerial and satellite
+images. especially , we look into fusion based architectures and coarse-to-fine
+segmentation to include the openstreetmap layer into multispectral-based deep
+fully convolutional networks. we illustrate how these methods can be
+successfully used on two public datasets: isprs potsdam and dfc2017. we show
+that openstreetmap data can efficiently be integrated into the vision-based
+deep learning models and that it significantly improves both the accuracy
+performance and the convergence speed of the networks.

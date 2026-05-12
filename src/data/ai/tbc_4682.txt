@@ -1,0 +1,11 @@
+variations in writing styles are commonly used to adapt the content to a
+specific context, audience, or purpose. however, applying stylistic variations
+is still by and large a manual process, and there have been little efforts
+towards automating it. in this paper we explore automated methods to transform
+text from modern english to shakespearean english using an end to end trainable
+neural model with pointers to enable copy action. to tackle limited amount of
+parallel data, we pre-train embeddings of words by leveraging external
+dictionaries mapping shakespearean words to modern english words as well as
+additional text. our methods are able to get a bleu score of 31+, an
+improvement of ~6 points above the strongest baseline. we publicly release our
+code to foster further research in this area.

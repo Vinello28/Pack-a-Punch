@@ -1,2 +1,1 @@
-realizzazione di una versione di ArtCentrica in un ambiente virtuale 3D basato sulla piattaforma
-di gaming UNREAL Engine 5
+METODO DI VISUALIZZAZIONE PROGETTI E SERVIZI PER  IMPRESE E CONSUMATORI IN REALTA' VIRTUALE

@@ -1,0 +1,14 @@
+compared to other areas, artwork recommendation has received little
+attention, despite the continuous growth of the artwork market. previous
+research has relied on ratings and metadata to make artwork recommendations, as
+well as visual features extracted with deep neural networks (dnn). however,
+these features have no direct interpretation to explicit visual features (e.g.
+brightness, texture) which might hinder explainability and user-acceptance. in
+this work, we study the impact of artwork metadata as well as visual features
+(dnn-based and attractiveness-based) for physical artwork recommendation, using
+images and transaction data from the ugallery online artwork store.
+  our results indicate that: (i) visual features perform better than manually
+curated data, (ii) dnn-based visual features perform better than
+attractiveness-based ones, and (iii) a hybrid approach improves the performance
+further. our research can inform the development of new artwork recommenders
+relying on diverse content data.

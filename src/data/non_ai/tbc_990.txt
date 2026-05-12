@@ -1,11 +1,1 @@
-Gli obiettivi nbsp;del corso vengono individuati nbsp; nbsp;nel:
-  formare capacit #224;, competenze ed expertise nella gestione e sviluppo di modelli dibusiness in rete; 
-  sviluppare forme di aggregazione tra imprese per rafforzare la competitivit #224; di
-distretti produttivi, filiere e territori;
-  creare processi di innovazione organizzativa, forme di collaborazione e partnership
-tra aziende per incentivare nuove forme di collaborazione e business.
-Al termine del percorso formativo i partecipanti saranno in grado di :
-  nbsp; nbsp; nbsp; nbsp; nbsp; nbsp; nbsp; nbsp; nbsp; Tracciare l #8217;evoluzione della normativa che ha condotto all #8217;identificazione del concetto di Rete d #8217;impresa #8221; con particolare riferimento all #8217; art. 2602 c.c.
-  nbsp; nbsp; nbsp; nbsp; nbsp; nbsp; nbsp; nbsp; nbsp; Indicare le finalit #224; economiche delle reti d #8217;impresa
-  nbsp; nbsp; nbsp; nbsp; nbsp; nbsp; nbsp; nbsp; nbsp; Definire gli elementi chiave per distinguere le reti di imprese da altre forme aggregative quali i consorzi e le ATI
-  nbsp; nbsp; nbsp; nbsp; nbsp; nbsp; nbsp; nbsp; nbsp; Definire le modalit #224; di esercizio della rappresentanza all #8217;intern...
+SVILUPPO SOLUZIONI WEB E MOBILE PER OTTIMIZZARE I PROCESSI DI VENDITA WHOLESALE E RETAIL: - APP PER ACQUISIZIONE INFORMATIZZATA ORDINI INTEGRATA CON SOFTWARE DI GESTIONE AZIENDALE ATTRAVERSO UN SISTEMA DI SINCRONIZZAZIONE REAL TIME DELLE INFORMAZIONI. - PIATTAFORMA B2B/B2C PER ACQUISIZIONE ORDINI DA PARTE DEI PUNTI VENDITA E VENDITA AL CLIENTE FINALE INTEGRATA CON SISTEMI INFORMATIVI AL FINE DI OTTIMIZZARE LA GESTIONE DELLE SCORTE. GLI STRUMENTI SI BASERANNO SU SISTEMA DI SINCRONIZZAZIONE PER AGGIORNARE I PREZZI DAL GESTIONALE A TUTTI I CANALI DI VENDITA. ATTIVITÃ€: - ANALISI PRELIMINARE REQUISITI TECNICI - PROGETTAZIONE FUNZIONALE - IDEAZIONE INTERFACCE UI/UX - SVILUPPO BACKEND DI GESTIONE E PARAMETRIZZAZIONE FUNZIONALITÃ€ LATO UTENTE FINALE (VISTE  LISTINI  SCONTI  ETC) - DEFINIZIONE REGOLE ESPORTAZIONE E SINCRONIZZAZIONE - CHECK FINALE PARALLELAMENTE SI LAVORERÃ€ ALLO SVILUPPO DI UNA STRATEGIA DI DIGITAL MARKETING ORIENTATA ALLA VALORIZZAZIONE DEL BRAND SUL MERCATO NAZIONALE E INTERNAZIONALE ATTRAVERSO: - DEFINIZIONE OBIETTIVI ONLINE SULLA BASE DI VALUTAZIONI DI BENCHMARK  ANALISI COMPETITOR E STUDIO MODELLI DI RIFERIMENTO - INDIVIDUAZIONE STRUMENTI E CANALI EFFICACI - ELABORAZIONE LINEE GUIDA ED AZIONI DEL PIANO DI MARKETING DEFINENDO TOPIC E RUBRICHE

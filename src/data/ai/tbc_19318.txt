@@ -1,0 +1,12 @@
+this paper presents preliminary results of croatian syllable networks
+analysis. syllable network is a network in which nodes are syllables and links
+between them are constructed according to their connections within words. in
+this paper we analyze networks of syllables generated from texts collected from
+the croatian wikipedia and blogs. as a main tool we use complex network
+analysis methods which provide mechanisms that can reveal new patterns in a
+language structure. we aim to show that syllable networks have much higher
+clustering coefficient in comparison to erd\"os-renyi random networks. the
+results indicate that croatian syllable networks exhibit certain properties of
+a small world networks. furthermore, we compared croatian syllable networks
+with portuguese and chinese syllable networks and we showed that they have
+similar properties.

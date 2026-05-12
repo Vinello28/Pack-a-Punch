@@ -1,1 +1,0 @@
-Il progetto “LangMol” mira a migliorare la progettazione di farmaci utilizzando l'elaborazione del linguaggio naturale. Utilizzerà modelli linguistici avanzati per valutare i candidati farmaci, collaborando con partner specializzati nell'apprendimento automatico e nella biofisica computazionale.

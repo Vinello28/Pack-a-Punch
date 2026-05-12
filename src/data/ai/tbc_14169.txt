@@ -1,0 +1,12 @@
+in this paper, we propose a scalable algorithm for spectral embedding. the
+latter is a standard tool for graph clustering. however, its computational
+bottleneck is the eigendecomposition of the graph laplacian matrix, which
+prevents its application to large-scale graphs. our contribution consists of
+reformulating spectral embedding so that it can be solved via stochastic
+optimization. the idea is to replace the orthogonality constraint with an
+orthogonalization matrix injected directly into the criterion. as the gradient
+can be computed through a cholesky factorization, our reformulation allows us
+to develop an efficient algorithm based on mini-batch gradient descent.
+experimental results, both on synthetic and real data, confirm the efficiency
+of the proposed method in term of execution speed with respect to similar
+existing techniques.

@@ -1,0 +1,16 @@
+a new nonparametric approach for system identification has been recently
+proposed where the impulse response is modeled as the realization of a
+zero-mean gaussian process whose covariance (kernel) has to be estimated from
+data. in this scheme, quality of the estimates crucially depends on the
+parametrization of the covariance of the gaussian process. a family of kernels
+that have been shown to be particularly effective in the system identification
+framework is the family of diagonal/correlated (dc) kernels. maximum entropy
+properties of a related family of kernels, the tuned/correlated (tc) kernels,
+have been recently pointed out in the literature. in this paper we show that
+maximum entropy properties indeed extend to the whole family of dc kernels. the
+maximum entropy interpretation can be exploited in conjunction with results on
+matrix completion problems in the graphical models literature to shed light on
+the structure of the dc kernel. in particular, we prove that the dc kernel
+admits a closed-form factorization, inverse and determinant. these results can
+be exploited both to improve the numerical stability and to reduce the
+computational complexity associated with the computation of the dc estimator.

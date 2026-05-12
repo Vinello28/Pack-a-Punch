@@ -1,0 +1,11 @@
+the discovery of effective therapeutics remains a complex, costly, and time-consuming endeavor, characterized
+by high failure rates and significant resource investments. a central bottleneck in early-stage drug discovery is
+identifying suitable hit compounds with moderate affinity for known biological targets. although advancements have
+been made, current in silico virtual screening methods are subject to limitations, including model overfitting, data
+bias, and constrained interpretability in their predictive processes. in this study, we present scorch2, a machine
+learning-based framework designed to enhance both the performance and interpretability of virtual screening by
+leveraging interaction features. compared with its predecessor scorch, scorch2 exhibits superior predictive
+accuracy and generalizability across a wide range of biological targets. importantly, scorch2 demonstrates robust
+hit identification capabilities on previously unseen targets, indicating strong transferability. these results highlight
+the potential of scorch2 as a valuable tool in accelerating drug discovery, offering reliable predictive capabilities
+while improving the interpretability of virtual screening models.

@@ -1,1 +1,10 @@
-WaterView srl attraverso il progetto  SamurAI Scan And Mark  Urban Roads Anomaly Identifier intende implementare lo sviluppo di un innovativo sistema di visual AI per la valutazione automatica del danno rilevato su pavimentazione stradale, tramite elaborazione di immagini acquisite da telecamere montate a bordo di un veicolo di servizio che copre periodicamente la rete viaria. Il progetto rientra nel perimetro del programma di sviluppo di sistemi di monitoraggio per il territorio, e più specificamente per linfrastruttura stradale, promosso dallUnione Europea con la missione 3 del PNRR. Rispetto ai principali sistemi attualmente in uso, la soluzione di SamurAI, si distingue per la sua specifica destinazione duso, che ne prevede limpiego soprattutto allinterno del contesto urbano. Lo sviluppo di SamurAI proposto in questo progetto permetterà a WaterView di ottenere un nuovo sistema da offrire alle municipalità, che, in prospettiva di una diffusione su larga scala, punta a diventare uno standard per il servizio di monitoraggio dellinfrastruttura stradale.
+we simplify sentences with an attentive neural network sequence to sequence
+model, dubbed s4. the model includes a novel word-copy mechanism and loss
+function to exploit linguistic similarities between the original and simplified
+sentences. it also jointly uses pre-trained and fine-tuned word embeddings to
+capture the semantics of complex sentences and to mitigate the effects of
+limited data. when trained and evaluated on pairs of sentences from thousands
+of news articles, we observe a 8.8 point improvement in bleu score over a
+sequence to sequence baseline; however, learning word substitutions remains
+difficult. such sequence to sequence models are promising for other text
+generation tasks such as style transfer.

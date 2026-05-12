@@ -1,7 +1,0 @@
-Simatica è una PMI innovativa dell’ICT con sedi a Ravenna e Forlì, attiva da oltre 25 anni nei settori dello sviluppo software e dei servizi sistemistici, con un modello multi-BU.
-Il progetto prevede 4 interventi fondamentali:
-1) Rafforzamento della Business Unit Software Factory tramite l’acquisizione di strumenti digitali di sviluppo professionale
-2) Creazione di un portale Dynamics per la gestione delle richieste di assistenza h24 dei clienti basato su AI, trasformando la gestione dei ticket clienti in un servizio intelligente e automatizzato
-3) Evoluzione della piattaforma ERP interna per il controllo di gestione, mediante l’introduzione di moduli basati su AI che consentiranno interrogazioni in linguaggio naturale per la tenuta della contabilità analitica, la generazione automatica di report e il project management
-4) Rifacimento del sito web aziendale in ottica digital marketing
-Le finalità del progetto sono quelle di aumentare la produttività interna, digitalizzare i processi, migliorare l’esperienza dei clienti e incrementare la sicurezza. Il progetto permetterà a Simatica di aprirsi a nuovi mercati, aumentare la qualità della pianificazione, offrire servizi a clienti più strutturati e sviluppare in prospettiva soluzioni dedicate alla rendicontazione ESG.

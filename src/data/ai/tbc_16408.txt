@@ -1,0 +1,20 @@
+precise segmentation and anatomical identification of the vertebrae provides
+the basis for automatic analysis of the spine, such as detection of vertebral
+compression fractures or other abnormalities. most dedicated spine ct and mr
+scans as well as scans of the chest, abdomen or neck cover only part of the
+spine. segmentation and identification should therefore not rely on the
+visibility of certain vertebrae or a certain number of vertebrae. we propose an
+iterative instance segmentation approach that uses a fully convolutional neural
+network to segment and label vertebrae one after the other, independently of
+the number of visible vertebrae. this instance-by-instance segmentation is
+enabled by combining the network with a memory component that retains
+information about already segmented vertebrae. the network iteratively analyzes
+image patches, using information from both image and memory to search for the
+next vertebra. to efficiently traverse the image, we include the prior
+knowledge that the vertebrae are always located next to each other, which is
+used to follow the vertebral column. this method was evaluated with five
+diverse datasets, including multiple modalities (ct and mr), various fields of
+view and coverages of different sections of the spine, and a particularly
+challenging set of low-dose chest ct scans. the proposed iterative segmentation
+method compares favorably with state-of-the-art methods and is fast, flexible
+and generalizable.

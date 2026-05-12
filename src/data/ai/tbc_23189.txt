@@ -1,0 +1,14 @@
+the inference of the causal relationship between a pair of observed variables
+is a fundamental problem in science, and most existing approaches are based on
+one single causal model. in practice, however, observations are often collected
+from multiple sources with heterogeneous causal models due to certain
+uncontrollable factors, which renders causal analysis results obtained by a
+single model skeptical. in this paper, we generalize the additive noise model
+(anm) to a mixture model, which consists of a finite number of anms, and
+provide the condition of its causal identifiability. to conduct model
+estimation, we propose gaussian process partially observable model (gppom), and
+incorporate independence enforcement into it to learn latent parameter
+associated with each observation. causal inference and clustering according to
+the underlying generating mechanisms of the mixture model are addressed in this
+work. experiments on synthetic and real data demonstrate the effectiveness of
+our proposed approach.

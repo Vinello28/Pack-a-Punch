@@ -1,1 +1,1 @@
-IAL_ED.49_INNOVAZ.DEI PROCESSI DI GEST. DELLE COMMESSE_TERMICS SRL
+L'impresa intende sostituire il sistema di gestione attuale con un sistema gestionale nuovo che consenta alle postazioni di lavoro di nuova acquisizione (macchinario "Laser fibra" e "Revamping") di dialogare direttamente con gli altri macchinari presenti attraverso uno scambio di informazioni bidirezionale. Tali investimenti rientrano nell'obiettivo di rispondere ai requisiti previsti dall'Industria 4.0.

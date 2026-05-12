@@ -1,0 +1,10 @@
+we describe a simple, low-level approach for embedding probabilistic
+programming in a deep learning ecosystem. in particular, we distill
+probabilistic programming down to a single abstraction---the random variable.
+our lightweight implementation in tensorflow enables numerous applications: a
+model-parallel variational auto-encoder (vae) with 2nd-generation tensor
+processing units (tpuv2s); a data-parallel autoregressive model (image
+transformer) with tpuv2s; and multi-gpu no-u-turn sampler (nuts). for both a
+state-of-the-art vae on 64x64 imagenet and image transformer on 256x256
+celeba-hq, our approach achieves an optimal linear speedup from 1 to 256 tpuv2
+chips. with nuts, we see a 100x speedup on gpus over stan and 37x over pymc3.

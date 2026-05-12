@@ -1,2 +1,0 @@
-Il progetto mira a trasformare l'esperienza museale del Comune di Genova attraverso la digitalizzazione dei contenuti culturali, utilizzando tecnologie avanzate come Intelligenza Artificiale Generativa. L’obiettivo è offrire ai visitatori esperienze personalizzate e coinvolgenti, basate su micro-podcast multilingue. Il progetto si concentra su tre ambiti chiave:
-conservazione del patrimonio culturale, monitoraggio dei comportamenti dei visitatori e miglioramento della gestione degli spazi museali, promuovendo inclusione sociale e accessibilità.

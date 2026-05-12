@@ -1,0 +1,11 @@
+safety is a critical aspect in all swimming pools. this paper describes a
+near drowning early prediction technique using novel equations (neptune).
+neptune uses equations or rules that would be able to detect near drowning
+using at least 1 but not more than 5 seconds of video sequence with no false
+positives. the backbone of neptune encompasses a mix of statistical image
+processing to merge images for a video sequence followed by k means clustering
+to extract segments in the merged image and finally a revisit to statistical
+image processing to derive variables for every segment. these variables would
+be used by the equations to identify near-drowning. neptune has the potential
+to be integrated into a swimming pool camera system that would send an alarm to
+the lifeguards for early response so that the likelihood of recovery is high.

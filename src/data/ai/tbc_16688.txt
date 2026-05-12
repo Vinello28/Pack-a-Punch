@@ -1,0 +1,10 @@
+this article studies (multilayer perceptron) neural networks with an emphasis
+on the transformations involved --- both forward and backward --- in order to
+develop a semantical/logical perspective that is in line with standard program
+semantics. the common two-pass neural network training algorithms make this
+viewpoint particularly fitting. in the forward direction, neural networks act
+as state transformers. in the reverse direction, however, neural networks
+change losses of outputs to losses of inputs, thereby acting like a
+(real-valued) predicate transformer. in this way, backpropagation is functorial
+by construction, as shown earlier in recent other work. we illustrate this
+perspective by training a simple instance of a neural network.

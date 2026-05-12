@@ -1,0 +1,20 @@
+in deep learning, performance is strongly affected by the choice of
+architecture and hyperparameters. while there has been extensive work on
+automatic hyperparameter optimization for simple spaces, complex spaces such as
+the space of deep architectures remain largely unexplored. as a result, the
+choice of architecture is done manually by the human expert through a slow
+trial and error process guided mainly by intuition. in this paper we describe a
+framework for automatically designing and training deep models. we propose an
+extensible and modular language that allows the human expert to compactly
+represent complex search spaces over architectures and their hyperparameters.
+the resulting search spaces are tree-structured and therefore easy to traverse.
+models can be automatically compiled to computational graphs once values for
+all hyperparameters have been chosen. we can leverage the structure of the
+search space to introduce different model search algorithms, such as random
+search, monte carlo tree search (mcts), and sequential model-based optimization
+(smbo). we present experiments comparing the different algorithms on cifar-10
+and show that mcts and smbo outperform random search. in addition, these
+experiments show that our framework can be used effectively for model
+discovery, as it is possible to describe expressive search spaces and discover
+competitive models without much effort from the human expert. code for our
+framework and experiments has been made publicly available.

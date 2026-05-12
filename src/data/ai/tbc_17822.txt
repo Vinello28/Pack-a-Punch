@@ -1,1 +1,14 @@
-CONSULENZA SPECIALISTICA PER SUPPORTARE I PROCESSI DI INNOVAZIONE TRASFORMAZIONE TECNOLOGICA E DIGITALE DELL IMPRESA ATTRAVERSO LE SEGUENTI FASI: -ANALISI DELLO STATO AZIENDALE E BASE DI DATI COMMERCIALE -CONSULENZA PER MIGLIORARE IL MARCHIO AZIENDALE E LA SUA VISIBILIT -CONSULENZA PER SVILUPPO DEI SISTEMI AZIENDALI: SET UP AMBIENTI DI SVILUPPO INTEGRAZIONE BASE DI DATI SVILUPPO GRAFICO/FUNZIONALE FRONTEND E BACKEND IMPLEMENTAZIONE DELL INTELLIGENZA ARTIFICIALE E DELL AUTOMAZIONE -SVILUPPO INTEGRAZIONE TRAMITE NLP (NATURAL LANGUAGE PROCESSING) PER ANALIZZARE AUTOMATICAMENTE I CONTRATTI E LE PRATICHE DI LOCAZIONE PER IDENTIFICARE TERMINI E CLAUSOLE IMPORTANTI -ANALISI PREDITTIVA PER ANALIZZARE DATI STORICI ED IDENTIFICARE MODELLI E TENDENZE NEL SETTORE IMMOBILIARE -DEPLOY E SUPPORTO POST-IMPLEMENTAZIONE -FORMAZIONE DEL PERSONALE E DOCUMENTAZIONE. IL PROGETTO HA COME OBBIETTIVO L INTEGRAZIONE DEI SISTEMI DI GESTIONE E COMUNICAZIONE AZIENDALE. L INNOVAZIONE DI PROCESSO PREVEDE L INTEGRAZIONE MULTITOOL PER LA VENDITA E PER IL MARKETING PROCESSI STANDARDIZZATI DI APPRENDIMENTO DEL SOFTWARE (MACHINE LEARNING) E MIGLIORAMENTO DELLE PERFORMANCE DEL SERVIZIO.
+in many personalized recommendation problems available data consists only of
+positive interactions (implicit feedback) between users and items. this problem
+is also known as one-class collaborative filtering (oc-cf). linear models
+usually achieve state-of-the-art performances on oc-cf problems and many
+efforts have been devoted to build more expressive and complex representations
+able to improve the recommendations. recent analysis show that collaborative
+filtering (cf) datasets have peculiar characteristics such as high sparsity and
+a long tailed distribution of the ratings. in this paper we propose a boolean
+kernel, called disjunctive kernel, which is less expressive than the linear one
+but it is able to alleviate the sparsity issue in cf contexts. the embedding of
+this kernel is composed by all the combinations of a certain arity d of the
+input variables, and these combined features are semantically interpreted as
+disjunctions of the input variables. experiments on several cf datasets show
+the effectiveness and the efficiency of the proposed kernel.

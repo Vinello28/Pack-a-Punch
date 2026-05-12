@@ -1,0 +1,19 @@
+binary segmentation of volumetric images of porous media is a crucial step
+towards gaining a deeper understanding of the factors governing biogeochemical
+processes at minute scales. contemporary work primarily revolves around
+primitive techniques based on global or local adaptive thresholding that have
+known common drawbacks in image segmentation. moreover, absence of a unified
+benchmark prohibits quantitative evaluation, which further clouds the impact of
+existing methodologies. in this study, we tackle the issue on both fronts.
+firstly, by drawing parallels with natural image segmentation, we propose a
+novel, and automatic segmentation technique, 3d quantum cuts (qcuts-3d)
+grounded on a state-of-the-art spectral clustering technique. secondly, we
+curate and present a publicly available dataset of 68 multiphase volumetric
+images of porous media with diverse solid geometries, along with voxel-wise
+ground truth annotations for each constituting phase. we provide comparative
+evaluations between qcuts-3d and the current state-of-the-art over this dataset
+across a variety of evaluation metrics. the proposed systematic approach
+achieves a 26% increase in auroc while achieving a substantial reduction of the
+computational complexity of the state-of-the-art competitors. moreover,
+statistical analysis reveals that the proposed method exhibits significant
+robustness against the compositional variations of porous media.

@@ -1,10 +1,1 @@
-EDIL BM 2021 Srls, nell'ambito della propria strategia di crescita e capitalizzazione, si appresta ad acquisire un veicolo
-aziendale (€15.860,00) per potenziare la propria forza logistica e presenza sul territorio. Contestualmente, vorrebbe
-iniziare ad investire significativamente nella propria presenza digitale nonché nell'innovazione tecnologica (€1.830,00):
-questo include la creazione di un’identità su Google ottimizzata per la SEO, lo sviluppo di un sito internet avanzato ed
-una web app dedicata, entrambi con l'integrazione di un software marketing di ultima generazione che sfrutta
-l'intelligenza artificiale per ottimizzare l'acquisizione nuova utenza e la fidelizzazione di quella già acquisita.
-L’allocazione di capitali in formazione (€3.310,00) e l’assunzione di personale specializzato (€4.000,00) si configura
-come investimento in capitale umano, con l’obiettivo di ottimizzare i processi interni e ridurre i costi operativi a lungo
-termine. La strategia di EDIL BM 2021 è quella di aumentare l’operational leverage attraverso l'internalizzazione di
-competenze fondamentali, minimizzando così l'esborso per servizi esterni ed abbattendo i costi variabili.
+detecting harmful content is a crucial task in the landscape of nlp applications for social good, with hate speech being one of its most dangerous forms. but what do we mean by hate speech, how can we define it, and how does prompting different definitions of hate speech affect model performance? the contribution of this work is twofold. at the theoretical level, we address the ambiguity surrounding hate speech by collecting and analyzing existing definitions from the literature. we organize these definitions into a taxonomy of 14 conceptual elements-building blocks that capture different aspects of hate speech definitions, such as references to the target of hate (individual or groups) or of the potential consequences of it. at the experimental level, we employ the collection of definitions in a systematic zero-shot evaluation of three llms, on three hate speech datasets representing different types of data (synthetic, human-in-the-loop, and real-world). we find that choosing different definitions, i.e., definitions with a different degree of specificity in terms of encoded elements, impacts model performance, but this effect is not consistent across all architectures.

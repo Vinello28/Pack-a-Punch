@@ -1,1 +1,0 @@
-Obiettivo del progetto della DEVER ? l'introduzione nel processo produttivo di una nuova macchina, tecnologicamente avanzata e innovativa per quanto riguarda le tipologie di lavorazioni che con la stessa si andranno ad eseguire. Si tratta di un centro di lavoro CNC ad 8 assi con controllo OSAI "Full digital" e sistema CAM intelligente Pitagora.

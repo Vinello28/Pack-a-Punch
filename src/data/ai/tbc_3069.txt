@@ -1,4 +1,12 @@
-Il progetto è un progetto tecnologicamente di frontiera per l’utilizzo di tecniche di Biga Data and Analytics basate su algoritmi di Machine Learning (AI). L’intervento garantirebbe l’automazione di alcuni processi organizzativi legati agli acquisti di materie prime come energia elettrica e gas, con un ritorno immediato sia su Power Energia che sull’insieme di imprese socie. Si tratta quindi di un progetto interessante, che consentirebbe di gestire i processi decisionali in maniera efficiente ed efficace grazie alle tecniche predittive basate sull'analisi dei dati e dell’intelligenza artificiale. 
-L’intervento determinerebbe un impatto importante e immediato sul tessuto delle PMI emiliano romagnole e, in particolare, su filiere come quella agroalimentare e quella del sociale.
-L’introduzione di Becky, il software di Analisi Dati basato di AI, rappresenta un progetto di transizione digitale che attraverso i progressi tecnologici, quali l'analisi dei dati unita all’intelligenza artificiale, consente di applicare nuovi paradigmi imprenditoriali per l’imprese, con un impatto diretto sulla catena del valore di Power Energia. 
-È evidente come i vantaggi del progetto siamo amplificati dal momento di instabilità del mercato dell’energia e dal conflitto russo ucraino.
+this paper describes the cis slot filling system for the tac cold start
+evaluations 2015. it extends and improves the system we have built for the
+evaluation last year. this paper mainly describes the changes to our last
+year's system. especially, it focuses on the coreference and classification
+component. for coreference, we have performed several analysis and prepared a
+resource to simplify our end-to-end system and improve its runtime. for
+classification, we propose to use neural networks. we have trained
+convolutional and recurrent neural networks and combined them with traditional
+evaluation methods, namely patterns and support vector machines. our runs for
+the 2015 evaluation have been designed to directly assess the effect of each
+network on the end-to-end performance of the system. the cis system achieved
+rank 3 of all slot filling systems participating in the task.

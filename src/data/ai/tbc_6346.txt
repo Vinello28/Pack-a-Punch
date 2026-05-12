@@ -1,1 +1,17 @@
-Progetto di ricerca applicata su architetture Transformer e modelli di attenzione per rilevamento intrusioni in ambito sport. Il sistema elabora immagini ad alta risoluzione acquisite da telecamere industriali attraverso pipeline di data processing avanzate. Il deployment avviene su ONNX runtime per deployment cross-platform con monitoraggio continuo delle performance.
+we demonstrate a simple and effective automated method for the segmentation
+of glomeruli from large (~1 gigapixel) histopathological whole-slide images
+(wsis) of thin renal tissue sections and biopsies, using an adaptation of the
+well-known local binary patterns (lbp) image feature vector to train a support
+vector machine (svm) model. our method offers high precision (>90%) and
+reasonable recall (>70%) for glomeruli from wsis, is readily adaptable to
+glomeruli from multiple species, including mouse, rat, and human, and is robust
+to diverse slide staining methods. using 5 intel(r) core(tm) i7-4790 cpus with
+40 gb ram, our method typically requires ~15 sec for training and ~2 min to
+extract glomeruli reproducibly from a wsi. deploying a deep convolutional
+neural network trained for glomerular recognition in tandem with the svm
+suffices to reduce false positives to below 3%. we also apply our lbp-based
+descriptor to successfully detect pathologic changes in a mouse model of
+diabetic nephropathy. we envision potential clinical and laboratory
+applications for this approach in the study and diagnosis of glomerular
+disease, and as a means of greatly accelerating the construction of feature
+sets to fuel deep learning studies into tissue structure and pathology.

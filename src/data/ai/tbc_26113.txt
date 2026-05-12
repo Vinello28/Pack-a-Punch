@@ -1,0 +1,13 @@
+we propose a novel framework for the discretisation of multi-label problems
+on arbitrary, continuous domains. our work bridges the gap between general fem
+discretisations, and labeling problems that arise in a variety of computer
+vision tasks, including for instance those derived from the generalised potts
+model. starting from the popular formulation of labeling as a convex relaxation
+by functional lifting, we show that fem discretisation is valid for the most
+general case, where the regulariser is anisotropic and non-metric. while our
+findings are generic and applicable to different vision problems, we
+demonstrate their practical implementation in the context of semantic 3d
+reconstruction, where such regularisers have proved particularly beneficial.
+the proposed fem approach leads to a smaller memory footprint as well as faster
+computation, and it constitutes a very simple way to enable variable, adaptive
+resolution within the same model.

@@ -1,7 +1,0 @@
-Lo sviluppo di un nodo con intelligenza a bordo ed un sensore ottico (il sensore di percezione di una 
-normale telecamera) è una delle linee strategiche più importanti delle attività dello spin-off things2i s.r.l. 
-(https://www.things2i.com/) e ha portato, dopo alcuni anni di sviluppo, ad un primo sistema prototipale 
-dedicato , solo come primo esempio , al monitoraggio dello stato di occupazione dei parcheggi, 
-denominato park2i®. a seguire potranno esserci altre applicazioni legate a smart agriculture e smart 
-industry . Il cuore del nodo è rappresentato dagli algoritmi di intelligenza artificiale che consentono di 
-estrarre l’informazione rilevante da ogni immagine catturata dal sensore ottico

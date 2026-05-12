@@ -1,0 +1,7 @@
+in this article we provide a formulation of empirical bayes described by
+atchade (2011) to tune the hyperparameters of priors used in bayesian set up of
+collaborative filter. we implement the same in movielens small dataset. we see
+that it can be used to get a good initial choice for the parameters. it can
+also be used to guess an initial choice for hyper-parameters in grid search
+procedure even for the datasets where mcmc oscillates around the true value or
+takes long time to converge.

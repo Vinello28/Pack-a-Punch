@@ -1,0 +1,11 @@
+visual question answering (vqa) is a complex semantic task requiring both
+natural language processing and visual recognition. in this paper, we explore
+whether vqa is solvable when images are captured in a sub-nyquist compressive
+paradigm. we develop a series of deep-network architectures that exploit
+available compressive data to increasing degrees of accuracy, and show that vqa
+is indeed solvable in the compressed domain. our results show that there is
+nominal degradation in vqa performance when using compressive measurements, but
+that accuracy can be recovered when vqa pipelines are used in conjunction with
+state-of-the-art deep neural networks for cs reconstruction. the results
+presented yield important implications for resource-constrained vqa
+applications.

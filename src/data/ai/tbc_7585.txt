@@ -1,1 +1,1 @@
-Intelligenza Artificiale nella Rilevazione delle Presenze
+Obiettivo del progetto in titolo quello di realizzare una piattaforma per corsi con particolare focus su quelli tecnici basati per le parti pratiche e addestrative sull utilizzo di REALT VIRTUALE [VR] e/o AUMENTATA [AR] che permettano soluzioni di SIMULAZIONE ON TRAINING mediante la costruzione di BACKGROUND VIRTUALI STANDARD o CUSTOMIZED ripetibili e modificabili nel tempo in funzione di cambiamenti - normativi tecnici e di processo - per i quali la formazione pu o deve essere ripetuta.

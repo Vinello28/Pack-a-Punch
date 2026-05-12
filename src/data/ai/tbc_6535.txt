@@ -1,1 +1,0 @@
-Soluziona propone FAMILIO un sistema costituito da una serie di componenti hardware installati in casa dell utente per l acquisizione di una serie di dati sul campo e una piattaforma di intelligenza artificiale dedicata all analisi ed elaborazione dei dati raccolti con un duplice scopo.

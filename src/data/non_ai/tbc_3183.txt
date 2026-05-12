@@ -1,1 +1,0 @@
-Realizzazione di un’applicazione immersiva per i visori Meta Oculus Quest 2 per rappresentare in virtuale l’orto botanico di Federico Cesi, Principe dell’Accademia dei Lincei.

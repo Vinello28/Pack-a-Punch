@@ -1,1 +1,1 @@
-Progetto di prevenzione del randagismo tramite campagne di sterilizzazione microchippatura gratuita per gatti e cani.
+Sviluppo di una cella robotica prototipale che permetta il trattamento di rifiuti di natura estremamente eterogenea attraverso algoritmi di autoapprendimento che elaborino immagini del rifiuto per guidare un robot nelle attivit di smontaggio

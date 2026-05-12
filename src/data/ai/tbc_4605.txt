@@ -1,1 +1,12 @@
-Il servizio si propone di offrire una panoramica delle potenzialità dell'IA e delle sue applicazioni, consentendo ai partecipanti di sviluppare una visione più chiara su come implementare queste tecnologie nella loro realtà lavorativa. I partecipanti esploreranno i concetti fondamentali dell'intelligenza artificiale, come l'apprendimento automatico (machine learning), il processamento del linguaggio naturale (NLP) e le reti neurali. Verranno presentati esempi pratici su come l'IA viene utilizzata in diversi settori, come l'assistenza clienti, l'automazione dei processi e la gestione dei dati.
+with ever-increasing application of machine learning models in various
+domains such as image classification, speech recognition and synthesis, and
+health care, designing efficient hardware for these models has gained a lot of
+popularity. while the majority of researches in this area focus on efficient
+deployment of machine learning models (a.k.a inference), this work concentrates
+on challenges of training these models in hardware. in particular, this paper
+presents a high-performance, scalable, reconfigurable solution for both
+training and deployment of different dimensionality reduction models in
+hardware by introducing a hardware-friendly algorithm. compared to
+state-of-the-art implementations, our proposed algorithm and its hardware
+realization decrease resource consumption by 50\% without any degradation in
+accuracy.

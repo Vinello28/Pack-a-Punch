@@ -1,4 +1,1 @@
-Syrio srl intende sviluppare un nuovo ecommerce conforme all normative europee per la vendita diretta dei propri prodotti.
-Ad oggi la società è già presente nel web con un ecommerce molto basico, il nuovo ecommerce vuole invece comunicare direttamente col gestionale e gestire la fatturazione in maniera totalmente elettronica e con il minimo impiego di personale, ottimizzando quindi i tempi di gestione dell'ordine.
-Sarà integrato al servizio un sistema di live chat per assistenza pre e post vendita.
-Gli articoli comunicando direttamente col gestionale avranno allegata la scheda tecnica consultabile direttamente online.
+Fornire servizi efficienti e di qualitÃ  nelle seguenti aree: raccolta di informazioni e profilazione della clientela  generazione di portafogli modello  selezione di strumenti finanziari e investimento personalizzate  performance e rendicontazione del servizio per competere con servizi efficienti e di qualitÃ  anche al fine di abbattere barriere e costi operativi consentendo una maggiore diffusione e scalabilitÃ  del business della consulenza finanziaria ai clienti.

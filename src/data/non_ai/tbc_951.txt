@@ -1,7 +1,1 @@
-"Con il progetto si intende ammodernare l'attuale reparto di verniciatura con un impianto altamente tecnologico ed interconnesso con il sistema gestionale aziendale.
-
-Tale ammodernamento, inteso a sostituire la struttura attuale, prevede, essenzialmente, l'acquisto di 4 elementi: l'impianto di verniciatura comprensivo di catena di trasporto a passo variabile con forno statico e cabina di verniciatura; due pistole per verniciare di cui una automatica ed una manuale; un robot provvisto di controllo a distanza per la verniciatura automatizzata e una granigliatrice per la pulitura dei pezzi da verniciare.
-
-Questo sistema è interamente controllabile da un plc situato in prossimita del robot, e  la selezione dei programmi di verniciatura è effettuabile tramite remoto dall'ufficio tecnico. 
-
-Obiettivo del progetto è quello di ottenere maggiore qualità nella verniciatura, migliorare le condizioni di lavoro, ridurre gli scarti e diminuire considerevolmente il consumo energetico e l'impatto ambientale.
+AIUTARE LINCONTRO FRA DOMANDA E OFFERTA DI LAVORO ATTRAVERSO LUTILIZZO DELLE NUOVE TECNOLOGIE - VALORIZZARE E INCENTIVARE LIMPRENDITORIALITÃ€ E LOCCUPABILITÃ€ - RENDERE FACILE E VELOCE LACCESSO AL MERCATO DEL LAVORO.

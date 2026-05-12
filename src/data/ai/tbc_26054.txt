@@ -1,0 +1,20 @@
+most methods for personalized pagerank (ppr) precompute and store all
+accurate ppr vectors, and at query time, return the ones of interest directly.
+however, the storage and computation of all accurate ppr vectors can be
+prohibitive for large graphs, especially in caching them in memory for
+real-time online querying. in this paper, we propose a distributed framework
+that strikes a better balance between offline indexing and online querying. the
+offline indexing attains a fingerprint of the ppr vector of each vertex by
+performing billions of "short" random walks in parallel across a cluster of
+machines. we prove that our indexing method has an exponential convergence,
+achieving the same precision with previous methods using a much smaller number
+of random walks. at query time, the new ppr vector is composed by a linear
+combination of related fingerprints, in a highly efficient vertex-centric
+decomposition manner. interestingly, the resulting ppr vector is much more
+accurate than its offline counterpart because it actually uses more random
+walks in its estimation. more importantly, we show that such decomposition for
+a batch of queries can be very efficiently processed using a shared
+decomposition. our implementation, powerwalk, takes advantage of advanced
+distributed graph engines and it outperforms the state-of-the-art algorithms by
+orders of magnitude. particularly, it responses to tens of thousands of queries
+on graphs with billions of edges in just a few seconds.

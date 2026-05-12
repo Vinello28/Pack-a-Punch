@@ -1,9 +1,0 @@
-ARGO acronimo di “Autonomous Robotic inspection of rollinG stOcks”, è un robot ispettivo
-innovativo ora commercializzato dalla Next Generation Robotics srl, capitalizzando i risultati della
-ricerca congiunta con Trenitalia spa e Scuola Superiore Sant’Anna nel campo della robotica
-ferroviaria. Il progetto partito ad inizio 2021 ha visto la realizzazione e la validazione sul campo di
-un prototipo avanzato di livello TRL7.
-ARGO è in grado di effettuare l’ispezione automatica del sottocassa dei treni e attraverso algoritmi
-di manutenzione predittiva abilitati da algoritmi di intelligenza artificiale di programmare interventi
-di manutenzione in modo anticipato rispetto alla sopravvenienza di un guasto, con un conseguente
-aumento dei livelli di affidabilità.

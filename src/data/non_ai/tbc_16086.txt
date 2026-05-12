@@ -1,1 +1,1 @@
-Il progetto prevede lo sviluppo e la dimostrazione di un innovativo sistema elettronico e meccatronico integrato zero-defect e remote working  basato su telemetria e realtÃ  aumentata  applicato per la prima volta a tre tipologie di macchine agricole
+DRAIVE: strategia di adozione dell'AI in azienda

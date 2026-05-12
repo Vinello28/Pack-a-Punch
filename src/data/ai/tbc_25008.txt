@@ -1,0 +1,14 @@
+neural models, in particular the d-vector and x-vector architectures, have
+produced state-of-the-art performance on many speaker verification tasks.
+however, two potential problems of these neural models deserve more
+investigation. firstly, both models suffer from `information leak', which means
+that some parameters participating in model training will be discarded during
+inference, i.e, the layers that are used as the classifier. secondly, these
+models do not regulate the distribution of the derived speaker vectors. this
+`unconstrained distribution' may degrade the performance of the subsequent
+scoring component, e.g., plda. this paper proposes a gaussian-constrained
+training approach that (1) discards the parametric classifier, and (2) enforces
+the distribution of the derived speaker vectors to be gaussian. our experiments
+on the voxceleb and sitw databases demonstrated that this new training approach
+produced more representative and regular speaker embeddings, leading to
+consistent performance improvement.

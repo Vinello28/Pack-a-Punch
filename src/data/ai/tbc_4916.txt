@@ -1,6 +1,1 @@
-SVILUPPARE ED INTEGRARE INNOVATIVI
-ALGORITMI DI INTELLIGENZA ARTIFICIALE IN
-GRADO DI IDENTIFICARE I TREND PER
-INDIVIDUARE LO SVILUPPO DI ANOMALIE E
-DIFETTI GENERATI DURANTE IL PROCESSO
-PRODUTTIVO.
+clinical studies often require understanding elements of a patient's narrative that exist only in free text clinical notes. to transform notes into structured data for downstream use, these elements are commonly extracted and normalized to medical vocabularies. in this work, we audit the performance of and indicate areas of improvement for state-of-the-art systems. we find that high task accuracies for clinical entity normalization systems on the 2019 n2c2 shared task are misleading, and underlying performance is still brittle. normalization accuracy is high for common concepts (95.3%), but much lower for concepts unseen in training data (69.3%). we demonstrate that current approaches are hindered in part by inconsistencies in medical vocabularies, limitations of existing labeling schemas, and narrow evaluation techniques. we reformulate the annotation framework for clinical entity extraction to factor in these issues to allow for robust end-to-end system benchmarking. we evaluate concordance of annotations from our new framework between two annotators and achieve a jaccard similarity of 0.73 for entity recognition and an agreement of 0.83 for entity normalization. we propose a path forward to address the demonstrated need for the creation of a reference standard to spur method development in entity recognition and normalization.

@@ -1,0 +1,10 @@
+using solely the information retrieved by audio fingerprinting techniques, we
+propose methods to treat a possibly large dataset of user-generated audio
+content, that (1) enable the grouping of several audio files that contain a
+common audio excerpt (i.e., are relative to the same event), and (2) give
+information about how those files are correlated in terms of time and quality
+inside each event. furthermore, we use supervised learning to detect incorrect
+matches that may arise from the audio fingerprinting algorithm itself, whilst
+ensuring our model learns with previous predictions. all the presented methods
+were further validated by user-generated recordings of several different
+concerts manually crawled from youtube.

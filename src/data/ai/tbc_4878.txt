@@ -1,0 +1,13 @@
+structured queries expressed in languages (such as sql, sparql, or xquery)
+offer a convenient and explicit way for users to express their information
+needs for a number of tasks. in this work, we present an approach to answer
+these directly over text data without storing results in a database. we
+specifically look at the case of knowledge bases where queries are over
+entities and the relations between them. our approach combines distributed
+query answering (e.g. triple pattern fragments) with models built for
+extractive question answering. importantly, by applying distributed querying
+answering we are able to simplify the model learning problem. we train models
+for a large portion (572) of the relations within wikidata and achieve an
+average 0.70 f1 measure across all models. we also present a systematic method
+to construct the necessary training data for this task from knowledge graphs
+and describe a prototype implementation.

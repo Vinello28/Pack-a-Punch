@@ -1,1 +1,6 @@
-Il progetto imprenditoriale riguarda la Affresco Srls  una start up di Venezia che opera nel campo della conservazione e restauro di opere d'arte  la quale si caratterizza per l'alto valore culturale e perchÃ© reinterpreta in chiave innovativa e competitiva questo mestiere  grazie alle nuove tecnologie impiegate e all'uso dei risultati del processo di restauro per scopi ulteriori a disposizione della committenza. Inoltre  la societÃ  Â¿adottando attrezzature e tecnologie di ultima generazione nello svolgimento della sua attivitÃ Â¿  intende introdurre e sviluppare avanzati sistemi per la raccolta e l'elaborazione di dati digitali dell'opera d'arte in formato 3D  finalizzati allo studio  rilievo e mappatura dell'opera  che si rivelano essenziali per il restauro e la salvaguardia dell'opera.
+CLEANAPP È UN ROOM MANAGER DIGITALE CHE TRAMITE LA TECNOLOGIA CLOUD E L’UTILIZZO DI APP NATIVE PERMETTE
+IL TRACCIAMENTO E L’OTTIMIZZAZIONE DI TUTTE LE PROCEDURE DI PULIZIA E SANIFICAZIONE, ALL’INTERNO DI
+STRUTTURE RICETTIVE O SANITARIE.
+IL PROGETTO PREVEDE L’IMPLEMENTAZIONE DELLO STRUMENTO ESISTENTE CON UNA PIATTAFORMA DI DATA ANALYSIS E
+DI STUDIO DEI BIG DATA CHE PERMETTA DI RENDERE TRACCIABILI E CONSULTABILI TUTTI GLI INTERVENTI E LE PROCEDURE
+ADOTTATE IN AMBITO IGIENICO-SANITARIO.

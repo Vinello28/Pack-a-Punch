@@ -1,0 +1,16 @@
+bayesian model averaging (bma) is the state of the art approach for
+overcoming model uncertainty. yet, especially on small data sets, the results
+yielded by bma might be sensitive to the prior over the models. credal model
+averaging (cma) addresses this problem by substituting the single prior over
+the models by a set of priors (credal set). such approach solves the problem of
+how to choose the prior over the models and automates sensitivity analysis. we
+discuss various cma algorithms for building an ensemble of logistic regressors
+characterized by different sets of covariates. we show how cma can be
+appropriately tuned to the case in which one is prior-ignorant and to the case
+in which instead domain knowledge is available. cma detects prior-dependent
+instances, namely instances in which a different class is more probable
+depending on the prior over the models. on such instances cma suspends the
+judgment, returning multiple classes. we thoroughly compare different bma and
+cma variants on a real case study, predicting presence of alpine marmot burrows
+in an alpine valley. we find that bma is almost a random guesser on the
+instances recognized as prior-dependent by cma.

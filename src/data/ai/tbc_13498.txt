@@ -1,0 +1,20 @@
+the monolithic approach to policy representation in markov decision processes
+(mdps) looks for a single policy that can be represented as a function from
+states to actions. for the monolithic approach to succeed (and this is not
+always possible), a complex feature representation is often necessary since the
+policy is a complex object that has to prescribe what actions to take all over
+the state space. this is especially true in large domains with complicated
+dynamics. it is also computationally inefficient to both learn and plan in mdps
+using a complex monolithic approach. we present a different approach where we
+restrict the policy space to policies that can be represented as combinations
+of simpler, parameterized skills---a type of temporally extended action, with a
+simple policy representation. we introduce learning skills via bootstrapping
+(lsb) that can use a broad family of reinforcement learning (rl) algorithms as
+a "black box" to iteratively learn parametrized skills. initially, the learned
+skills are short-sighted but each iteration of the algorithm allows the skills
+to bootstrap off one another, improving each skill in the process. we prove
+that this bootstrapping process returns a near-optimal policy. furthermore, our
+experiments demonstrate that lsb can solve mdps that, given the same
+representational power, could not be solved by a monolithic approach. thus,
+planning with learned skills results in better policies without requiring
+complex policy representations.

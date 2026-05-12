@@ -1,1 +1,13 @@
-Il progetto si pone l'obiettivo di sviluppare techniche di integrazione tra intelligenza artificiare simbolica e subsimbolica volte alla generazione di spiegazioni per sistemi basati su Machine Learning in ambito Healthcare
+the goal of chemmodlab is to streamline the fitting and assessment pipeline
+for many machine learning models in r, making it easy for researchers to
+compare the utility of new models. while focused on implementing methods for
+model fitting and assessment that have been accepted by experts in the
+cheminformatics field, all of the methods in chemmodlab have broad utility for
+the machine learning community. chemmodlab contains several assessment
+utilities including a plotting function that constructs accumulation curves and
+a function that computes many performance measures. the most novel feature of
+chemmodlab is the ease with which statistically significant performance
+differences for many machine learning models is presented by means of the
+multiple comparisons similarity plot. differences are assessed using repeated
+k-fold cross validation where blocking increases precision and multiplicity
+adjustments are applied.

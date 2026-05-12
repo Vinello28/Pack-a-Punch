@@ -1,0 +1,11 @@
+we highlight a practical yet rarely discussed problem in dialogue state
+tracking (dst), namely handling unknown slot values. previous approaches
+generally assume predefined candidate lists and thus are not designed to output
+unknown values, especially when the spoken language understanding (slu) module
+is absent as in many end-to-end (e2e) systems. we describe in this paper an e2e
+architecture based on the pointer network (ptrnet) that can effectively extract
+unknown slot values while still obtains state-of-the-art accuracy on the
+standard dstc2 benchmark. we also provide extensive empirical evidence to show
+that tracking unknown values can be challenging and our approach can bring
+significant improvement with the help of an effective feature dropout
+technique.

@@ -1,4 +1,21 @@
-Il progetto
-IoT Vigilance si propone di colmare tale lacuna, realizzando una piattaforma automatizzata di Penetration Testing per l’infrastruttura
-IT/OT volta ad identificare – anche tramite tecniche di Machine Learning - e valutare le vulnerabilità in modo proattivo e raccomandando le azioni di remediation necessarie. Inoltre, la piattaforma integrerà la valutazione del rischio cyber con un sistema di Asset Managemen t che
-consenta di monitorare globalmente tanto l’infrastruttura IoT quanto le sue vulnerabilità.
+embedding models for deterministic knowledge graphs (kg) have been
+extensively studied, with the purpose of capturing latent semantic relations
+between entities and incorporating the structured knowledge into machine
+learning. however, there are many kgs that model uncertain knowledge, which
+typically model the inherent uncertainty of relations facts with a confidence
+score, and embedding such uncertain knowledge represents an unresolved
+challenge. the capturing of uncertain knowledge will benefit many
+knowledge-driven applications such as question answering and semantic search by
+providing more natural characterization of the knowledge. in this paper, we
+propose a novel uncertain kg embedding model ukge, which aims to preserve both
+structural and uncertainty information of relation facts in the embedding
+space. unlike previous models that characterize relation facts with binary
+classification techniques, ukge learns embeddings according to the confidence
+scores of uncertain relation facts. to further enhance the precision of ukge,
+we also introduce probabilistic soft logic to infer confidence scores for
+unseen relation facts during training. we propose and evaluate two variants of
+ukge based on different learning objectives. experiments are conducted on three
+real-world uncertain kgs via three tasks, i.e. confidence prediction, relation
+fact ranking, and relation fact classification. ukge shows effectiveness in
+capturing uncertain knowledge by achieving promising results on these tasks,
+and consistently outperforms baselines on these tasks.

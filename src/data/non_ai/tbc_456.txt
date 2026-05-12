@@ -1,9 +1,0 @@
-Il progetto prevede la realizzazione di un applicativo FileMaker finalizzato alla gestione della preventivazione. 
-Il software è suddiviso in tre aree di gestione quali: gestione listini; gestione clienti; gestione preventivi.
-Il costo del filemaker comprende, oltre al software, anche le seguenti funzioni:
--analisi gestionale
--sviluppo da remoto
--project management
--deployment e primo avviamento (1 giornata)
--installazione e configurazione applicativo su server/client
--1 anno di assistenza base

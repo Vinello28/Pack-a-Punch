@@ -1,0 +1,18 @@
+deep learning models can take weeks to train on a single gpu-equipped
+machine, necessitating scaling out dl training to a gpu-cluster. however,
+current distributed dl implementations can scale poorly due to substantial
+parameter synchronization over the network, because the high throughput of gpus
+allows more data batches to be processed per unit time than cpus, leading to
+more frequent network synchronization. we present poseidon, an efficient
+communication architecture for distributed dl on gpus. poseidon exploits the
+layered model structures in dl programs to overlap communication and
+computation, reducing bursty network communication. moreover, poseidon uses a
+hybrid communication scheme that optimizes the number of bytes required to
+synchronize each layer, according to layer properties and the number of
+machines. we show that poseidon is applicable to different dl frameworks by
+plugging poseidon into caffe and tensorflow. we show that poseidon enables
+caffe and tensorflow to achieve 15.5x speed-up on 16 single-gpu machines, even
+with limited bandwidth (10gbe) and the challenging vgg19-22k network for image
+classification. moreover, poseidon-enabled tensorflow achieves 31.5x speed-up
+with 32 single-gpu machines on inception-v3, a 50% improvement over the
+open-source tensorflow (20x speed-up).

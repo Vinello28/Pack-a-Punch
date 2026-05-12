@@ -1,0 +1,16 @@
+spectral clustering algorithms typically require a priori selection of input
+parameters such as the number of clusters, a scaling parameter for the affinity
+measure, or ranges of these values for parameter tuning. despite efforts for
+automating the process of spectral clustering, the task of grouping data in
+multi-scale and higher dimensional spaces is yet to be explored. this study
+presents a spectral clustering heuristic algorithm that obviates the need for
+an input by estimating the parameters from the data itself. specifically, it
+introduces the heuristic of iterative eigengap search with (1) global scaling
+and (2) local scaling. these approaches estimate the scaling parameter and
+implement iterative eigengap quantification along a search tree to reveal
+dissimilarities at different scales of a feature space and identify clusters.
+the performance of these approaches has been tested on various real-world
+datasets of power variation with multi-scale nature and gene expression. our
+findings show that iterative eigengap search with a pca-based global scaling
+scheme can discover different patterns with an accuracy of higher than 90% in
+most cases without asking for a priori input information.

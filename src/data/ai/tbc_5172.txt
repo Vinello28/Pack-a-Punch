@@ -1,8 +1,0 @@
-L’Intervento Attuativo si concentra sullo sviluppo di una PoC per un sistema di generazione di dati sintetici basati su GAN per la generazione a supporto di applicazioni cliniche avanzate. Questo intervento permette di espandere i dati disponibili per addestrare l’IA, riducendo la dipendenza dai dati reali.
-Obiettivi principali:
-Validazione del modello GAN: Creare una proof of concept, elevare la maturità digitale nell’ambito della gestione dei dati sintetici e garantire conformità agli standard GDPR e AI ACT.
-Attività previste:
-Analisi e pre-elaborazione dei dati.
-Sviluppo, addestramento e validazione del modello GAN.
-Documentazione e reporting finale.
-Benefici: Miglioramento dell'efficacia dei processi aziendali grazie alla disponibilità di dati sintetici di qualità, gestione conforme alla normativa e ottimizzazione dei costi e dei tempi di sviluppo.

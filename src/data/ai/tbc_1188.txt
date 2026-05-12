@@ -1,0 +1,15 @@
+question answering is an important and difficult task in the natural language
+processing domain, because many basic natural language processing tasks can be
+cast into a question answering task. several deep neural network architectures
+have been developed recently, which employ memory and inference components to
+memorize and reason over text information, and generate answers to questions.
+however, a major drawback of many such models is that they are capable of only
+generating single-word answers. in addition, they require large amount of
+training data to generate accurate answers. in this paper, we introduce the
+long-term memory network (ltmn), which incorporates both an external memory
+module and a long short-term memory (lstm) module to comprehend the input data
+and generate multi-word answers. the ltmn model can be trained end-to-end using
+back-propagation and requires minimal supervision. we test our model on two
+synthetic data sets (based on facebook's babi data set) and the real-world
+stanford question answering data set, and show that it can achieve
+state-of-the-art performance.

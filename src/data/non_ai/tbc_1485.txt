@@ -1,4 +1,1 @@
-Il dimostratore sw si basa sul moto di un device per la cattura di immagini  ipotizzando una scena statica. Le funzioni premetteranano:
-I) individuazione e riconoscimento automatico di tutte le porzioni di immagine (pavimento e muri);
-II) generazione di mappe di bump, delle normali e di displacement a partire da immagini fotografiche di piastrelle;
-III) individuazione di sorgenti luminose in una immagine per aggiungere elementi in modalità “mixed reality” illuminati in coerenza la scena.
+BIMO Ã© una start up innovativa nellâ€™industria dellâ€™architettura  dellâ€™ingegneria e delle costruzioni che trasforma lâ€™effetto dirompente della innovazione digitale del BIM (Building Information Modelling) in vantaggio competitivo per i suoi clienti e il mercato.  Opera nell'ambito della progettazione BIM  sviluppa progetti di open innovation per affrontare con successo la digitalizzazione del settore delle costruzioni.  Si rivolge a tutti gli operatori della filiera delle costruzioni: studi professionali  societÃ  immobiliari  enti pubblici  general contractor e produttori di componenti e attrezzature.

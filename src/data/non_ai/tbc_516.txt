@@ -1,11 +1,1 @@
-Realizzazione di un sito composto di due sezioni principali : una informativa e una e-commerce su piattaforma Prestashop perla vendita online di prodotti.
-Verrà gestito tramite un pannello CMS per la gestione autonoma dei contenuti del sito. Il progetto prevede le seguenti sezioni:
-1) Layout grafico
-2) Catalogo prodotti
-3) Ordini e pagamenti
-4) Spedizioni
-5) Seo
-6) Area Istituzionale
-7) Hosting e dominio
-Inoltre nel progetto prevediamo di acquistare il seguente Hardware : 
-Imacret5k marchio Apple, superdrive, ups 1500VA, sist 2.1 Mfc Laser e Applacr telematico
+IL PROGETTO VETRAUTO SRL SI PONE Lâ€™OBIETTIVO DI INSERIRE UNA FIGURA MANAGERIALE PER SUPPORTARE I PROCESSI INTERNI E LE COMPETENZE PER IL COORDINAMENTO E PER ADOTTARE NUOVE STRATEGIE  METODOLOGIE E STRUMENTI CHE MIGLIORINO I PROCESSI  I FLUSSI E LE TECNOLOGIE NELL'AREA LOGISTICA.  LE FASI DEL PROGETTO: 1)	RIDEFINIZIONE FLUSSI OPERATIVI CON LA REVISIONE DELLE ATTUALI PROCEDURE DEL PERSONALE LOGISTICO  SEGUITA DA RIDEFINIZIONE DEL WORKFLOW DELL'UFFICIO LOGISTICA E DEFINIZIONE DI NUOVE PROCEDURE E BEST PRACTICES  ED INFINE INDIVIDUAZIONE DI KPI PER VALUTARE LE PRESTAZIONI

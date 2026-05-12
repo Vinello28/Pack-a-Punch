@@ -1,3 +1,1 @@
-Oggetto della proposta è l’erogazione di servizi tecnologici avanzati ed innovativi finalizzati alla realizzazione di un 
-progetto di consulenza volto a stimolare proposte progettuali innovative sull’impiego dell’intelligenza artificiale 
-generativa nei processi aziendali e per nuovi prodotti/servizi esterni.
+Il progetto si inserisce nell'ambito del Monitoraggio dei comportamenti dei visitatori per migliorare i contenuti espositivi . Attraverso l'uso della realt aumentata e dell'analisi dei dati comportamentali l'app mira a migliorare la fruizione delle opere esposte offrendo un'esperienza coinvolgente e personalizzata.

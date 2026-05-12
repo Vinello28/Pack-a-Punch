@@ -1,1 +1,17 @@
-Il progetto presentato da MyMy si colloca nell ambito della transizione digitale e dell innovazione tecnologica con l obiettivo di rafforzare le competenze interne all azienda e favorire l adozione di soluzioni basate sull Intelligenza Artificiale Generativa. Allineandosi alle priorit della Strategia di Specializzazione Intelligente (S3) di Regione Lombardia l iniziativa si propone di accrescere la competitivit dell impresa attraverso l integrazione di nuove tecnologie nei processi aziendali e nelle strategie di mercato. L intervento prevede un percorso formativo avanzato focalizzato sul Prompt Engineering una disciplina chiave per l ottimizzazione dell interazione con i modelli di AI generativa essenziale per massimizzare l efficacia delle soluzioni digitali. La formazione si estender all applicazione dell intelligenza artificiale nel business e all adozione di strategie avanzate di digital marketing con un approfondimento sulle tecniche di automazione e analisi dei dati. Un elemento distintivo sar l implementazione di strumenti AI per migliorare le strategie di customer interaction la personalizzazione dei contenuti digitali e l ottimizzazione delle campagne di marketing. Il progetto si articoler in diverse fasi a partire dalla formazione avanzata e dall acquisizion
+convolutional neural networks (cnns) have demonstrated their superiority in
+numerous computer vision tasks, yet their computational cost results
+prohibitive for many real-time applications such as pedestrian detection which
+is usually performed on low-consumption hardware. in order to alleviate this
+drawback, most strategies focus on using a two-stage cascade approach.
+essentially, in the first stage a fast method generates a significant but
+reduced amount of high quality proposals that later, in the second stage, are
+evaluated by the cnn. in this work, we propose a novel detection pipeline that
+further benefits from the two-stage cascade strategy. more concretely, the
+enriched and subsequently compressed features used in the first stage are
+reused as the cnn input. as a consequence, a simpler network architecture,
+adapted for such small input sizes, allows to achieve real-time performance and
+obtain results close to the state-of-the-art while running significantly faster
+without the use of gpu. in particular, considering that the proposed pipeline
+runs in frame rate, the achieved performance is highly competitive. we
+furthermore demonstrate that the proposed pipeline on itself can serve as an
+effective proposal generator.

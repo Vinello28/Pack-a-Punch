@@ -1,5 +1,20 @@
-L’AMBITO DI SVOLGIMENTO DELLA PRESTAZIONE SPECIALISTICA SARÀ QUELLO DELL’UFFICIO STUDI DI SIDERWEB, CON PARTICOLARE RIFERIMENTO ALLA ORGANIZZAZIONE DELL’AREA RILEVAZIONE PREZZI CHE COSTITUISCE UNO DEGLI ASSET PRINCIPALI DELL’AZIENDA. IN TALE CONTESTO LA CONSULENZA VERTERÀ PRINCIPALMENTE SULLE TEMATICHE DI
-•	INFORMATION TECHNOLOGY, TANTO PER QUANTO CONCERNE I NUOVI SVILUPPI QUANTO PER QUANTO RIGUARDA L’INTEGRAZIONE CON IL SISTEMA INFORMATIVO AZIENDALE
-•	STATISTICA E ALGORITMI, PER MIGLIORARE L’AFFIDABILITÀ DEL MECCANISMO ADOTTATO DALL’AZIENDA PER SINTETIZZARE I PREZZI DI RIFERIMENTO A PARTIRE DALLA LORO RILEVAZIONE PRESSO GLI OPERATORI DEL MERCATO
-•	MACHINE LEARNING E INTELLIGENZA ARTIFICIALE, PER CONTRIBUIRE AL PROGETTO DI PREVISIONE PREZZI CHE SIDERWEB SI ACCINGE AD AFFRONTARE.
-•	PROCESSO E ORGANIZZAZIONE DEL FLUSSO DI LAVORO
+building's energy consumption prediction is a major concern in the recent
+years and many efforts have been achieved in order to improve the energy
+management of buildings. in particular, the prediction of energy consumption in
+building is essential for the energy operator to build an optimal operating
+strategy, which could be integrated to building's energy management system
+(bems). this paper proposes a prediction model for building energy consumption
+using support vector machine (svm). data-driven model, for instance, svm is
+very sensitive to the selection of training data. thus the relevant days data
+selection method based on dynamic time warping is used to train svm model. in
+addition, to encompass thermal inertia of building, pseudo dynamic model is
+applied since it takes into account information of transition of energy
+consumption effects and occupancy profile. relevant days data selection and
+whole training data model is applied to the case studies of ecole des mines de
+nantes, france office building. the results showed that support vector machine
+based on relevant data selection method is able to predict the energy
+consumption of building with a high accuracy in compare to whole data training.
+in addition, relevant data selection method is computationally cheaper (around
+8 minute training time) in contrast to whole data training (around 31 hour for
+weekend and 116 hour for working days) and reveals realistic control
+implementation for online system as well.

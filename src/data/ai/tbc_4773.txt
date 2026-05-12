@@ -1,0 +1,13 @@
+in this paper, we present a sparse neural network decoder (snnd) of polar
+codes based on belief propagation (bp) and deep learning. at first, the
+conventional factor graph of polar bp decoding is converted to the bipartite
+tanner graph similar to low-density parity-check (ldpc) codes. then the tanner
+graph is unfolded and translated into the graphical representation of deep
+neural network (dnn). the complex sum-product algorithm (spa) is modified to
+min-sum (ms) approximation with low complexity. we dramatically reduce the
+number of weight by using single weight to parameterize the networks. optimized
+by the training techniques of deep learning, proposed snnd achieves comparative
+decoding performance of spa and obtains about $0.5$ db gain over ms decoding on
+($128,64$) and ($256,128$) codes. moreover, $60 \%$ complexity reduction is
+achieved and the decoding latency is significantly lower than the conventional
+polar bp.

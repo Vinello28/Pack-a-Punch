@@ -1,2 +1,1 @@
-Teleassistenza da remoto su software da me realizzato, installato su sistemi di automazione industriale.
-Miglioramento del know-how attraverso l'acquisto di attrezzatura (Personal Computer ed interfacce di comunicazione) e licenze software di programmazione di PLC e teleassistenza (TeamViewer). Partecipazione a corsi specializzati programmazione di robot e sistemi avanzati di motion e machine vision
+Workshop e sopralluogo presso sede Enertech Solutions finalizzato a redigere una lista prioritizzata di applicazioni di AI possibili ed analisi ed approfondimento dei primi tre use cases con il coinvolgimento degli esperti di riferimento dell ecosistema MADE per individuare un approccio tecnico e per effettuare un'analisi dei costi e benefici ottenibili.

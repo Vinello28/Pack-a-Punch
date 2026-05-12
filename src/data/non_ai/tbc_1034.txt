@@ -1,1 +1,0 @@
-TablHealth: Piattaforma integrata per lÂ¿erogazione di servizi innovativi di e-Health sfruttando il monitoraggio pervasivo dei pazienti mediante Personal Digital Assistant (PDA) multi-protocollo.

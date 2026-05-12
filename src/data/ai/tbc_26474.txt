@@ -1,0 +1,19 @@
+this article is a study about the existence and the uniqueness of solutions
+of a specific quadratic first-order ode that frequently appears in multiple
+reconstruction problems. it is called the \emph{planar-perspective equation}
+due to the duality with the geometric problem of reconstruction of
+planar-perspective curves from their modulus. solutions of the
+\emph{planar-perspective equation} are related with planar curves parametrized
+with perspective parametrization due to this geometric interpretation. the
+article proves the existence of only two local solutions to the \emph{initial
+value problem} with \emph{regular initial conditions} and a maximum of two
+analytic solutions with \emph{critical initial conditions}. the article also
+gives theorems to extend the local definition domain where the existence of
+both solutions are guaranteed. it introduces the \emph{maximal depth function}
+as a function that upper-bound all possible solutions of the
+\emph{planar-perspective equation} and contains all its possible \emph{critical
+points}. finally, the article describes the \emph{maximal-depth solution
+problem} that consists of finding the solution of the referred equation that
+has maximum the depth and proves its uniqueness. it is an important problem as
+it does not need initial conditions to obtain the unique solution and its the
+frequent solution that practical algorithms of the state-of-the-art give.

@@ -1,1 +1,0 @@
-Progettazione di un servizio robotico per la sorveglianza remota di ambienti industriali

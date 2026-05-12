@@ -1,1 +1,0 @@
-Implementazione di una piattaforma costituita da un cluster di calcolo distribuito di dispositivi embedded, i Cyber-Physical System della piattaforma, che mira ad operare data analytics innovativi per la business intelligence e il supporto decisionale in processi di manutenzione predittiva per impianti industriali e civili

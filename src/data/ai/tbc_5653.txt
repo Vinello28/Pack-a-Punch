@@ -1,3 +1,1 @@
-Il progetto ha come obiettivo  trasferire soluzioni machine learning (ML) e artificial
-intelligence (AI) nel manufacturing, mobility e robotics, per la collaborazione uomo-macchina e per rivelare le
-anomalie nell’industria digitalizzata
+Il progetto mira a facilitare l'adozione tecnologica nei processi manifatturieri rendendoli pi inclusivi attraverso moduli software di intelligenza artificiale (AI) volti a creare flussi di lavoro uomo-macchina agili e avanzati concepiti per migliorare le capacit umane piuttosto che sostituirle affrontando sfide come la resistenza al cambiamento e la mancanza di formazione

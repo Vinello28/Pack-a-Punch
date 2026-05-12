@@ -1,0 +1,10 @@
+in this paper we describe approaches for discovering acoustic concepts and
+relations in text. the first major goal is to be able to identify text phrases
+which contain a notion of audibility and can be termed as a sound or an
+acoustic concept. we also propose a method to define an acoustic scene through
+a set of sound concepts. we use pattern matching and parts of speech tags to
+generate sound concepts from large scale text corpora. we use dependency
+parsing and lstm recurrent neural network to predict a set of sound concepts
+for a given acoustic scene. these methods are not only helpful in creating an
+acoustic knowledge base but in the future can also directly help acoustic event
+and scene detection research.

@@ -1,1 +1,10 @@
-Soluzione MRADSIM, software AI per lo studio delle radiazioni e che consente di simulare gli effetti delle radiazioni
+simile is a figure of speech that compares two things through the use of
+connection words, but where comparison is not intended to be taken literally.
+they are often used in everyday communication, but they are also a part of
+linguistic cultural heritage. in this paper we present a methodology for
+semi-automated collection of similes from the world wide web using text mining
+and machine learning techniques. we expanded an existing corpus by collecting
+442 similes from the internet and adding them to the existing corpus collected
+by vuk stefanovic karadzic that contained 333 similes. we, also, introduce
+crowdsourcing to the collection of figures of speech, which helped us to build
+corpus containing 787 unique similes.

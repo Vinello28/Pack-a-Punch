@@ -1,0 +1,13 @@
+machine learning based methods achieves impressive results in object
+classification and detection. utilizing representative data of the visual world
+during the training phase is crucial to achieve good performance with such data
+driven approaches. however, it not always possible to access bias-free datasets
+thus, robustness to biased data is a desirable property for a learning system.
+capsule networks have been introduced recently and their tolerance to biased
+data has received little attention. this paper aims to fill this gap and
+proposes two experimental scenarios to assess the tolerance to imbalanced
+training data and to determine the generalization performance of a model with
+unfamiliar affine transformations of the images. this paper assesses dynamic
+routing and em routing based capsule networks and proposes a comparison with
+convolutional neural networks in the two tested scenarios. the presented
+results provide new insights into the behaviour of capsule networks.

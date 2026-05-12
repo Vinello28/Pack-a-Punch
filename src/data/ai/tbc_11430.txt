@@ -1,1 +1,16 @@
-Il progetto consiste nell'implementazione di un sistema di cartella clinica elettronica (CCE) specializzato nella gestione dei processi di presa in carico pianificazione e rendicontazione delle unit d'offerta domiciliari (ADI e cure palliative) applicabile a livello nazionale e potenzialmente trasversale rispetto ai meccanismi distrettuali e regionali. Obiettivo quello di coprire tramite funzionalit del software le attivit ed i flussi di lavoro eseguiti dalle figure operanti nel settore per permetterne la successiva l'ottimizzazione mediante processi di data-analysis ed intelligenza artificiale. Il progetto si pone l'obiettivo di realizzare una cartella clinica elettronica in grado di rappresentare il ruolo di hub centralizzato per la gestione dei pazienti domiciliari a partire dai complessi processi di presa in carico (spesso condivisi con le ATS ed i distretti) fino ad arrivare a coprire le attivit di pianificazione degli accessi e rendicontazione degli stessi. Pertanto il software dovr permettere: 1- La gestione anagrafica dei pazienti 2- Il processo di presa in carico 3- Il processo valutativo (valutazione multidimensionale mediante schede e scale di valutazione) 4- La redazione di un progetto individualizzato (PI) e di un piano di assistenza individualizzato (PA
+adversarial generative model have successfully manifest itself in image
+synthesis. however, the performance deteriorate and unstable, because
+discriminator is far stable than generator, and it is hard to control the game
+between the two modules. various methods have been introduced to tackle the
+problem such as wgan, relativistic gan and their successors by adding or
+restricting the loss function, which certainly help balance the min-max game,
+but they all focused on the loss function ignoring the intrinsic structure
+limitation. we present a uu-net architecture inspired by u-net bridging the
+encoder and the decoder, uu-net composed by two u-net liked modules
+respectively served as generator and discriminator. because the modules in
+u-net are symmetrical, therefore it shares weights easily between all four
+components. thanks to uu-net's modules identical and symmetric property, we
+could not only carried the features from inner generator's encoder to its
+decoder, but also to the discriminator's encoder and decoder. by this design,
+it give us more control and condition flexibility to intervene the process
+between the generator and the discriminator.

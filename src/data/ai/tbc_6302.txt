@@ -1,1 +1,12 @@
-Il piano attuativo descritto mira a modernizzare e rendere pi sicura l'infrastruttura digitale dell'azienda migliorando l'efficienza operativa e riducendo i rischi per la continuit del business. Il progetto prevede l'implementazione di soluzioni hardware e software avanzate tra cui nuovi server NAS per backup ridondanti una rete virtualizzata e sistemi di sicurezza proattivi basati su intelligenza artificiale. L'infrastruttura sar organizzata con due armadi rack collegati tramite fibra ottica ciascuno contenente un server HPE e dispositivi di rete per una distribuzione equilibrata dei carichi e un'alta disponibilit . I server saranno gestiti con ProxMox Virtual Environment scelto per la sua flessibilit nel supportare ambienti misti e per la scalabilit facilitando la virtualizzazione di applicazioni sia su Windows che su Linux. I nuovi server utilizzeranno dischi NVME per ottimizzare la velocit di lettura e scrittura migliorando cos la velocit operativa complessiva Il sistema di backup sar basato su Veeam Backup & Recovery e due NAS posizionati a circa 100 metri di distanza per assicurare ridondanza geografica e ridurre il rischio di perdita di dati in caso di incidenti. Questa configurazione permette di implementare un robusto sistema di disaster recovery garan
+tactile sensors supply useful information during the interaction with an
+object that can be used for assessing the stability of a grasp. most of the
+previous works on this topic processed tactile readings as signals by
+calculating hand-picked features. some of them have processed these readings as
+images calculating characteristics on matrix-like sensors. in this work, we
+explore how non-matrix sensors (sensors with taxels not arranged exactly in a
+matrix) can be processed as tactile images as well. in addition, we prove that
+they can be used for predicting grasp stability by training a convolutional
+neural network (cnn) with them. we captured over 2500 real three-fingered
+grasps on 41 everyday objects to train a cnn that exploited the local
+connectivity inherent on the non-matrix tactile sensors, achieving 94.2%
+f1-score on predicting stability.

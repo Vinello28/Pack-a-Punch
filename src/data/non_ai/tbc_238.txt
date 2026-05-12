@@ -1,5 +1,0 @@
-Moon Cloud è la prima piattaforma di assurance e compliance as a service che offre: 1) una soluzione automatizzata
-per la verifica di sistemi Cloud, 2) la copertura di tutti i livelli della Cloud con diverse modalità di deployment, 3) una
-soluzione general purpose che si adatta a target pubblici, privati e ibridi, 4) supporto per la verifica di compliance
-sia a standard riconosciuti a livello internazionale e nazionale, che a politiche e linee guida aziendali definite
-dall’utente.

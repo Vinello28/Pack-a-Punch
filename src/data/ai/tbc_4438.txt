@@ -1,6 +1,0 @@
-Nel progetto "AI for image analysis" saranno sviluppate le seguenti attività: 
-- individuazione dei principali trend evolutivi dell?AI riguardanti le piattaforme abilitanti;
--  confronto con sw house specializzate che stanno lavorando sulla realizzazione delle nuove piattaforme AI;
--  analisi dell?impatto dello EU AI Act;
-- definizione del progetto per il porting delle soluzioni attuali sull?architettura AI-based;
--  realizzazione del prototipo funzionante per prime sperimentazioni.

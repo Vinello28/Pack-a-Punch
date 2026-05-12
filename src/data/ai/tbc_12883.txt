@@ -1,10 +1,1 @@
-we propose the margin adaptation for generative adversarial networks (magans)
-algorithm, a novel training procedure for gans to improve stability and
-performance by using an adaptive hinge loss function. we estimate the
-appropriate hinge loss margin with the expected energy of the target
-distribution, and derive principled criteria for when to update the margin. we
-prove that our method converges to its global optimum under certain
-assumptions. evaluated on the task of unsupervised image generation, the
-proposed training procedure is simple yet robust on a diverse set of data, and
-achieves qualitative and quantitative improvements compared to the
-state-of-the-art.
+Il progetto CAMPANIA VR EXPERIENCE la prima Tourist Digital Platform in grado di offrire prodotti turistici esperienziali in modalit immersiva degli attrattori culturali minori della Campania. Particolarit della piattaforma offerta dalla modalit di commercializzazione del prodotto turistico prevedendone la vendita nella formula del cofanetto regalo. Il cofanetto brevettato e prodotto da Vr Tourism quando aperto si trasforma in modalit pop up in un vero e proprio visore per la realt virtuale. Grazie a questo visore dunque possibile per il turista-cliente una volta acquistato il prodotto turistico inserire il proprio smartphone all interno e visualizzare in modalit VR l offerta turistica presente in piattaforma

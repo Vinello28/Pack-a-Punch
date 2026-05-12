@@ -1,0 +1,1 @@
+Sviluppo di algoritmi IA per realizzare un DSS (Decision Suppor System) per i professionisti che operano nel mercato della riabilitazione fisico-motoria.

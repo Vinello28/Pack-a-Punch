@@ -1,6 +1,13 @@
-Il progetto intende realizzare il MetArchivio Icaro, che consente un'innovazione unica nel panorama dell’offerta informativa e giornalistica del nostro paese. Con la strutturazione in metadati e l’impiego dell’AI, l’archivio consentirà una ricerca spazio-temporale sulla news o l’oggetto ricercato,sul copyright,sulle fonti,sui contenuti,sulla precisa localizzazione,sulla ripetitività dell’evento o dell’accadimento,su chi è coinvolto,sulle modalità,sulla cronologia di eventi simili. Ad es.: cercare tutte le news e i servizi audio/TV su eventi svoltisi in Piazza Cavour dal 2001.
-Il MetArchivio Icaro avrà ricadute positive sul work flow aziendale e sulla capacità produttiva. Inoltre renderà disponibile, per studiosi,ricercatori,giornalisti(italiani e del mondo) un ricco archivio di immagini e contenuti della Riviera romagnola degli ultimi 20 anni
-Il progetto, preservando e rendendo disponibile l’archivio, già storico, fornirà un valido contributo al rafforzamento del patrimonio e dell'identità regionale
-Collaborazioni:
-*CIRI-ICT - Università di Bologna -partner tecnologico- ricercherà i tool di AI e il motore software di analisi dati
-*Iniziative Editoriali srl proprietaria di IcaroTV -partner collaborativo- metterà a disposizione l’archivio video già in corso di digitalizzazione
+in multi-label classification, the main focus has been to develop ways of
+learning the underlying dependencies between labels, and to take advantage of
+this at classification time. developing better feature-space representations
+has been predominantly employed to reduce complexity, e.g., by eliminating
+non-helpful feature attributes from the input space prior to (or during)
+training. this is an important task, since many multi-label methods typically
+create many different copies or views of the same input data as they transform
+it, and considerable memory can be saved by taking advantage of redundancy. in
+this paper, we show that a proper development of the feature space can make
+labels less interdependent and easier to model and predict at inference time.
+for this task we use a deep learning approach with restricted boltzmann
+machines. we present a deep network that, in an empirical evaluation,
+outperforms a number of competitive methods from the literature

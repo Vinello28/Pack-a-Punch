@@ -1,8 +1,1 @@
-il progetto è incentrato sullo sviluppo digitale dell'azienda.
-- Sotware per la progettaziione di un sito internet ed aventuale application mobile
-- Softtware di gestione contenuti multimedialin da remoto
-- Software per la gestione gps delle arre di interess (geolocalizzazione e proximity marketing)
-- Consulenza specializzata per progettazione sito internet ed eventuale application mobile
-- Consulenza tecnologiogica per rinnovo infrastruttura di information tecnology per le installazioni pubblicitarie outdooor di proprietà
-- Consulenza per trasformazione digitale impianti pubblicitari
-- Acquiosto ardware: PC - Device digitali e mobile - proiettori - schermi digitali e led - pellicole digitali - attrezzature tecnologiche in generale ecc,ecc
+Smart hydration garment  (Smyt)

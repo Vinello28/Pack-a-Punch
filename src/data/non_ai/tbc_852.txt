@@ -1,7 +1,0 @@
-Il progetto consiste nella realizzazione di un sistema automatico per il collaudo e la verifica di conformità dei nostri prodotti finiti (schede elettroniche assemblate per l¿automazione industriale). Il sistema permetterà di velocizzare, modernizzare e rendere più affidabili le procedure di collaudo che sono, attualmente, interamente manuali. 
-Il sistema prevede: 
--un braccio robotico per l¿interazione meccanica con il prodotto (esempio: test sui pulsanti);
--un pc con un software di gestione del collaudo opportunamente sviluppato;
--schede di interfaccia comunicazione analogico-digitali per interagire in maniera automatica con gli ingressi e le uscite della scheda sotto collaudo;
--un software in grado di controllare il braccio robotico e interagire con il prodotto sotto collaudo attraverso le interfacce di comunicazione dedicate.
-Il software in questione oltre ad eseguire automaticamente l¿iter di collaudo del prodotto (taratura ingressi, verifica uscite, test meccanici su tasti etc.) salverà automaticamente i dati di taratura e i test eseguiti relativamente alla singola scheda in un database centralizzato. Il database di collaudo così organizzato permetterà di risparmiare del tempo anche nella gestione di eventuali guasti e riparazioni future.

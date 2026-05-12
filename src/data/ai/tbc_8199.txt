@@ -1,1 +1,13 @@
-Il progetto prevede la realizzazione di una soluzione informatica in grado di effettuare le attivit di Riconciliazione Bancaria e IVA mediante l impiego di metodologie di Intelligenza Artificiale e Machine Learning.
+in this paper, we apply a general deep learning (dl) framework for the answer
+selection task, which does not depend on manually defined features or
+linguistic tools. the basic framework is to build the embeddings of questions
+and answers based on bidirectional long short-term memory (bilstm) models, and
+measure their closeness by cosine similarity. we further extend this basic
+model in two directions. one direction is to define a more composite
+representation for questions and answers by combining convolutional neural
+network with the basic framework. the other direction is to utilize a simple
+but efficient attention mechanism in order to generate the answer
+representation according to the question context. several variations of models
+are provided. the models are examined by two datasets, including trec-qa and
+insuranceqa. experimental results demonstrate that the proposed models
+substantially outperform several strong baselines.

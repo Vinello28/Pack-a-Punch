@@ -1,16 +1,1 @@
-most of the current face hallucination methods, whether they are shallow
-learning-based or deep learning-based, all try to learn a relationship model
-between low-resolution (lr) and high-resolution (hr) spaces with the help of a
-training set. they mainly focus on modeling image prior through either
-model-based optimization or discriminative inference learning. however, when
-the input lr face is tiny, the learned prior knowledge is no longer effective
-and their performance will drop sharply. to solve this problem, in this paper
-we propose a general face hallucination method that can integrate model-based
-optimization and discriminative inference. in particular, to exploit the model
-based prior, the deep convolutional neural networks (cnn) denoiser prior is
-plugged into the super-resolution optimization model with the aid of
-image-adaptive laplacian regularization. additionally, we further develop a
-high-frequency details compensation method by dividing the face image to facial
-components and performing face hallucination in a multi-layer neighbor
-embedding manner. experiments demonstrate that the proposed method can achieve
-promising super-resolution results for tiny input lr faces.
+BEN HUR LIVE GAME il primo gioco interattivo fruibile in varie modalit compreso direttamente sul sito culturale del Circo Massimo (la pi grande struttura storica per spettacoli costruita dall uomo) e dedicato alle competizioni sporti-ve: le corse delle quadrighe. Si tratta di un Videogame altamente innovativo e di valorizzazione interattiva concepito in Realt Virtuale che riproduce le gare storiche al Circo Massimo. Pensato per far gareggiare in una avvincente corsa tra quadrighe. Una ricostruzione storica 3D animata e interattiva come un prodotto di apprendimento culturale edu-cativo formativo divertente e adatto a tutte le fasce di et e anche una soluzione di attivit da svolgere in compagnia e all aperto garantendo anche il distanziamento fisico che richiede la delicata fase pandemica nazionale. Grazie a una ricostruzione fedele verosimile in scala 1/1 e certificata da storici e archeologi ci si potr immergere in un ambiente virtuale unico ed esclusivo.

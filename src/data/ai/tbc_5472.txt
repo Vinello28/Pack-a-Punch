@@ -1,21 +1,16 @@
-Rivelio Search Engine 3.0 "Blueprint" rappresenta l’evoluzione del motore di ricerca che alimenta RIVELIO.it, unica piattaforma in Italia ad indicizzare tutte le offerte di lavoro nel settore della P.A.
-
-SFIDE TECNOLOGICHE:
-- Monitorare più di 20.000 fonti, eterogenee e che cambiano spesso  
-- Scaricare più di 50.000 documenti al giorno  
-- Superare captcha, firewall e restrizioni.
-
-CRITICITÀ ATTUALI:
-- Infrastruttura e codice monolitici: costi elevati, crash frequenti, filtri imprecisi, duplicazioni nei download, cyber-sicurezza carente  
-- Due gestionali CMS diversi per gestire utenti e pubblicazione bandi, con funzionalità insufficienti
-
-INNOVAZIONE TECNOLOGICA:
-Verrà sviluppata una nuova infrastruttura cloud a supporto del motore di ricerca, il cui codice sorgente sarà ristrutturato e integrerà agenti AI per automatizzare l’intero flusso di lavoro. 
-
-La soluzione prevede:
-- Potenza e scalabilità illimitate
-- Maggiore sicurezza e minori downtime
-- Riduzione uso risorse e costi di sviluppo  
-- Data pipeline avanzate e agenti AI per automatizzare tutto il processo produttivo
-- Alerting anomalie
-- CMS unico e maggiori funzionalità: permessi granulari, ottimizzazione dei processi interni, integrazione con CMS esterni e monitoraggio lavoro operatori.
+we present an attention-based transformer model for automatic retrosynthesis
+route planning. our approach starts from reactants prediction of single-step
+organic reactions for given products, followed by monte carlo tree search-based
+automatic retrosynthetic pathway prediction. trained on two datasets from the
+united states patent literature, our models achieved a top-1 prediction
+accuracy of over 54.6% and 63.0% with more than 95% and 99.6% validity rate of
+smiles, respectively, which is the best up to now to our knowledge. we also
+demonstrate the application potential of our model by successfully performing
+multi-step retrosynthetic route planning for four case products, i.e.,
+antiseizure drug rufinamide, a novel allosteric activator, an inhibitor of
+human acute-myeloid-leukemia cells and a complex intermediate of drug
+candidate. further, by using heuristics monte carlo tree search, we achieved
+automatic retrosynthetic pathway searching and successfully reproduced
+published synthesis pathways. in summary, our model has achieved the
+state-of-the-art performance on single-step retrosynthetic prediction and
+provides a novel strategy for automatic retrosynthetic pathway planning.

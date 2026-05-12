@@ -1,0 +1,14 @@
+it is well known that a determined adversary can fool a neural network by
+making imperceptible adversarial perturbations to an image. recent studies have
+shown that these perturbations can be detected even without information about
+the neural network if the strategy taken by the adversary is known beforehand.
+unfortunately, these studies suffer from the generalization limitation -- the
+detection method has to be recalibrated every time the adversary changes his
+strategy. in this study, we attempt to overcome the generalization limitation
+by deriving a metric which reliably identifies adversarial images even when the
+approach taken by the adversary is unknown. our metric leverages key
+differences between the spectra of clean and adversarial images when an image
+is treated as a matrix. our metric is able to detect adversarial images across
+different datasets and attack strategies without any additional re-calibration.
+in addition, our approach provides geometric insights into several unanswered
+questions about adversarial perturbations.

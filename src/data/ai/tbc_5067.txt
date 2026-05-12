@@ -1,1 +1,18 @@
-L’obiettivo del progetto è l’innovazione di processo nell’ambito della biotecnologica avanzata per la produzione di farmaci biologici (proteine ricombinanti/anticorpi monoclonali, biosimilari) anche attraverso l’utilizzo di soluzioni digitali innovative. Il primo obiettivo è, partendo dai ceppi di Pichia wild type, isolare un ceppo di Pichia performante da poter essere utilizzato per la produzione del biosimilare dell’insulina. Il secondo obiettivo è impiegare questo nuovo ceppo di Pichia per l’innovazione di processo - già messo a punto da Serichim a partire dal Pichia commerciale - per la produzione di insulina a lento rilascio. Il terzo obiettivo è creare una piattaforma per la produzione di  Pichia Next Generation che possano produrre proteine come eterodimeri  (come ad esempio F(ab) e peptibodies, che sono la base per la messa a punto di nuovi farmaci biosimilari) a partire dal nuovo ceppo di Pichia, utilizzando anche tecniche digitali bioinformatice e di intelligenza artificiale.
+machine learning (ml) training algorithms often possess an inherent
+self-correcting behavior due to their iterative-convergent nature. recent
+systems exploit this property to achieve adaptability and efficiency in
+unreliable computing environments by relaxing the consistency of execution and
+allowing calculation errors to be self-corrected during training. however, the
+behavior of such systems are only well understood for specific types of
+calculation errors, such as those caused by staleness, reduced precision, or
+asynchronicity, and for specific types of training algorithms, such as
+stochastic gradient descent. in this paper, we develop a general framework to
+quantify the effects of calculation errors on iterative-convergent algorithms
+and use this framework to design new strategies for checkpoint-based fault
+tolerance. our framework yields a worst-case upper bound on the iteration cost
+of arbitrary perturbations to model parameters during training. our system,
+scar, employs strategies which reduce the iteration cost upper bound due to
+perturbations incurred when recovering from checkpoints. we show that scar can
+reduce the iteration cost of partial failures by 78% - 95% when compared with
+traditional checkpoint-based fault tolerance across a variety of ml models and
+training algorithms.

@@ -1,0 +1,15 @@
+in this work we design and train deep neural networks to predict topological
+invariants for one-dimensional four-band insulators in aiii class whose
+topological invariant is the winding number, and two-dimensional two-band
+insulators in a class whose topological invariant is the chern number. given
+hamiltonians in the momentum space as the input, neural networks can predict
+topological invariants for both classes with accuracy close to or higher than
+90%, even for hamiltonians whose invariants are beyond the training data set.
+despite the complexity of the neural network, we find that the output of
+certain intermediate hidden layers resembles either the winding angle for
+models in aiii class or the solid angle (berry curvature) for models in a
+class, indicating that neural networks essentially capture the mathematical
+formula of topological invariants. our work demonstrates the ability of neural
+networks to predict topological invariants for complicated models with local
+hamiltonians as the only input, and offers an example that even a deep neural
+network is understandable.

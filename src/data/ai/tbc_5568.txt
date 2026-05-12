@@ -1,1 +1,8 @@
-Moxma è un’azienda con sede a Ravenna attiva dal 2017 nella rigenerazione, riparazione e vendita di dispositivi elettronici nuovi e ricondizionati. Dopo aver avviato un percorso di digitalizzazione (e-commerce, gestione cloud, tracciamento riparazioni), presenta oggi alcune aree di miglioramento nei processi di relazione con il cliente, ancora basati su canali tradizionali e gestioni manuali. Il progetto MoxmaBot mira a introdurre un sistema automatizzato di assistenza e vendita basato su WhatsApp Business, integrato con database cloud e interfaccia web per la gestione delle offerte. L’intervento permetterà all’azienda di automatizzare le conversazioni, raccogliere ordini, inviare notifiche, ridurre il carico operativo e personalizzare l’esperienza utente. Il sistema sarà estendibile ad altri canali e in grado di evolversi con funzionalità di intelligenza artificiale. L’obiettivo è migliorare l’efficienza interna, la qualità del servizio e la capacità di Moxma di espandersi in nuovi mercati, offrendo un canale conversazionale moderno, scalabile e integrato.
+in this paper we present an approach for estimating the quality of machine
+translation system. there are various methods for estimating the quality of
+output sentences, but in this paper we focus on na\"ive bayes classifier to
+build model using features which are extracted from the input sentences. these
+features are used for finding the likelihood of each of the sentences of the
+training data which are then further used for determining the scores of the
+test data. on the basis of these scores we determine the class labels of the
+test data.

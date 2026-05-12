@@ -1,0 +1,12 @@
+the great success that deep models have achieved in the past is mainly owed
+to large amounts of labeled training data. however, the acquisition of labeled
+data for new tasks aside from existing benchmarks is both challenging and
+costly. active learning can make the process of labeling new data more
+efficient by selecting unlabeled samples which, when labeled, are expected to
+improve the model the most. in this paper, we combine a novel method of active
+learning for object detection with an incremental learning scheme to enable
+continuous exploration of new unlabeled datasets. we propose a set of
+uncertainty-based active learning metrics suitable for most object detectors.
+furthermore, we present an approach to leverage class imbalances during sample
+selection. all methods are evaluated systematically in a continuous exploration
+context on the pascal voc 2012 dataset.

@@ -1,0 +1,17 @@
+quantification of the stationary points and the associated basins of
+attraction of neural network loss surfaces is an important step towards a
+better understanding of neural network loss surfaces at large. this work
+proposes a novel method to visualise basins of attraction together with the
+associated stationary points via gradient-based random sampling. the proposed
+technique is used to perform an empirical study of the loss surfaces generated
+by two different error metrics: quadratic loss and entropic loss. the empirical
+observations confirm the theoretical hypothesis regarding the nature of neural
+network attraction basins. entropic loss is shown to exhibit stronger gradients
+and fewer stationary points than quadratic loss, indicating that entropic loss
+has a more searchable landscape. quadratic loss is shown to be more resilient
+to overfitting than entropic loss. both losses are shown to exhibit local
+minima, but the number of local minima is shown to decrease with an increase in
+dimensionality. thus, the proposed visualisation technique successfully
+captures the local minima properties exhibited by the neural network loss
+surfaces, and can be used for the purpose of fitness landscape analysis of
+neural networks.

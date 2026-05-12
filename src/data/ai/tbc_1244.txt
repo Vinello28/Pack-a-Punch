@@ -1,1 +1,11 @@
-Minotti si sta focalizzando da un triennio sullo sviluppo di nuove tecnologie ambito blockchain, intelligenza artificiale, sistemi IoT e nuovi sensori , oltrechè sull'analisi dei dati nei vari domini di applicazione. In linea con la complessità delle sfide che stiamo affrontando ci siamo posti l'obiettivo di integrare le proprie competenze interne con competenze esterne sia da un punto di vista tecnico e tecnologico che di sviluppo di nuovi mercati. Per questo si è identificata la figura dell'innovation manager, dottore Marco Beretta, che nel corso degli anni e anche grazie alla collaborazione con Find your Doctor ha sviluppato una rete consolidata di relazioni con ricercatori, start up innovative e centri di ricerca italiani e stranieri.
+the web contains vast repositories of unstructured text. we investigate the
+opportunity for building a knowledge graph from these text sources. we generate
+a set of triples which can be used in knowledge gathering and integration. we
+define the architecture of a language compiler for processing
+subject-predicate-object triples using the opennlp parser. we implement a
+depth-first search traversal on the pos tagged syntactic tree appending
+predicate and object information. a parser enables higher precision and higher
+recall extractions of syntactic relationships across conjunction boundaries. we
+are able to extract 2-2.5 times the correct extractions of reverb. the
+extractions are used in a variety of semantic web applications and question
+answering. we verify extraction of 50,000 triples on the clueweb dataset.

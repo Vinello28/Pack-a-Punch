@@ -1,0 +1,26 @@
+motion scoring of cardiac myocardium is of paramount importance for early
+detection and diagnosis of various cardiac disease. it aims at identifying
+regional wall motions into one of the four types including normal, hypokinetic,
+akinetic, and dyskinetic, and is extremely challenging due to the complex
+myocardium deformation and subtle inter-class difference of motion patterns.
+all existing work on automated motion analysis are focused on binary
+abnormality detection to avoid the much more demanding motion scoring, which is
+urgently required in real clinical practice yet has never been investigated
+before. in this work, we propose cardiac-mos, the first powerful method for
+cardiac motion scoring from cardiac mr sequences based on deep convolution
+neural network. due to the locality of convolution, the relationship between
+distant non-local responses of the feature map cannot be explored, which is
+closely related to motion difference between segments. in cardiac-mos, such
+non-local relationship is modeled with non-local neural network within each
+segment and across all segments of one subject, i.e., segment- and
+subject-level non-local modeling, and lead to obvious performance improvement.
+besides, cardiac-mos can effectively extract motion information from mr
+sequences of various lengths by interpolating the convolution kernel along the
+temporal dimension, therefore can be applied to mr sequences of multiple
+sources. experiments on 1440 myocardium segments of 90 subjects from short axis
+mr sequences of multiple lengths prove that cardiac-mos achieves reliable
+performance, with correlation of 0.926 for motion score index estimation and
+accuracy of 77.4\% for motion scoring. cardiac-mos also outperforms all
+existing work for binary abnormality detection. as the first automatic motion
+scoring solution, cardiac-mos demonstrates great potential in future clinical
+application.

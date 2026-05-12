@@ -1,0 +1,11 @@
+we propose a methodology to extend the concept of two-stream convolutional
+networks to perform end-to-end learning for self-driving cars with temporal
+cues. the system has the ability to learn spatiotemporal features by
+simultaneously mapping raw images and pre-calculated optical flows directly to
+steering commands. although optical flows encode temporal-rich information, we
+found that 2d-cnns are prone to capturing features only as spatial
+representations. we show how the use of multitask learning favors the learning
+of temporal features via inductive transfer from a shared spatiotemporal
+representation. preliminary results demonstrate a competitive improvement of
+30% in prediction accuracy and stability compared to widely used regression
+methods trained on the comma.ai dataset.

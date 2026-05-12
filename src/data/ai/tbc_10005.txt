@@ -1,0 +1,15 @@
+quantifying the degree of atrophy is done clinically by neuroradiologists
+following established visual rating scales. for these assessments to be
+reliable the rater requires substantial training and experience, and even then
+the rating agreement between two radiologists is not perfect. we have developed
+a model we call avra (automatic visual ratings of atrophy) based on machine
+learning methods and trained on 2350 visual ratings made by an experienced
+neuroradiologist. it provides fast and automatic ratings for scheltens' scale
+of medial temporal atrophy (mta), the frontal subscale of pasquier's global
+cortical atrophy (gca-f) scale, and koedam's scale of posterior atrophy (pa).
+we demonstrate substantial inter-rater agreement between avra's and a
+neuroradiologist ratings with cohen's weighted kappa values of $\kappa_w$ =
+0.74/0.72 (mta left/right), $\kappa_w$ = 0.62 (gca-f) and $\kappa_w$ = 0.74
+(pa), with an inherent intra-rater agreement of $\kappa_w$ = 1. we conclude
+that automatic visual ratings of atrophy can potentially have great clinical
+and scientific value, and aim to present avra as a freely available toolbox.

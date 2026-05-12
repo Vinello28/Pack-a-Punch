@@ -1,0 +1,1 @@
+Il progetto propone l'implementazione di un Assistente virtuale vocale basato su tecnologie di large language model (LLM) e retrival-augumented generation (RAG).

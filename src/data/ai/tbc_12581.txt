@@ -1,0 +1,14 @@
+graph cuts-based algorithms have achieved great success in energy
+minimization for many computer vision applications. these algorithms provide
+approximated solutions for multi-label energy functions via move-making
+approach. this approach fuses the current solution with a proposal to generate
+a lower-energy solution. thus, generating the appropriate proposals is
+necessary for the success of the move-making approach. however, not much
+research efforts has been done on the generation of "good" proposals,
+especially for non-metric energy functions. in this paper, we propose an
+application-independent and energy-based approach to generate "good" proposals.
+with these proposals, we present a graph cuts-based move-making algorithm
+called ga-fusion (fusion with graph approximation-based proposals). extensive
+experiments support that our proposal generation is effective across different
+classes of energy functions. the proposed algorithm outperforms others both on
+real and synthetic problems.

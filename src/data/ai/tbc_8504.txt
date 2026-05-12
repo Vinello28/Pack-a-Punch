@@ -1,1 +1,13 @@
-generative large language models are crucial in natural language processing, but they are vulnerable to backdoor attacks, where subtle triggers compromise their behavior. although backdoor attacks against llms are constantly emerging, existing benchmarks remain limited in terms of sufficient coverage of attack, metric system integrity, backdoor attack alignment. and existing pre-trained backdoor attacks are idealized in practice due to resource access constraints. therefore we establish $\textit{elba-bench}$, a comprehensive and unified framework that allows attackers to inject backdoor through parameter efficient fine-tuning ($\textit{e.g.,}$ lora) or without fine-tuning techniques ($\textit{e.g.,}$ in-context-learning). $\textit{elba-bench}$ provides over 1300 experiments encompassing the implementations of 12 attack methods, 18 datasets, and 12 llms. extensive experiments provide new invaluable findings into the strengths and limitations of various attack strategies. for instance, peft attack consistently outperform without fine-tuning approaches in classification tasks while showing strong cross-dataset generalization with optimized triggers boosting robustness; task-relevant backdoor optimization techniques or attack prompts along with clean and adversarial demonstrations can enhance backdoor attack success while preserving model performance on clean samples. additionally, we introduce a universal toolbox designed for standardized backdoor attack research, with the goal of propelling further progress in this vital area.
+in this paper we explore how machine learning techniques can be applied to
+the discovery of efficient mathematical identities. we introduce an attribute
+grammar framework for representing symbolic expressions. given a set of grammar
+rules we build trees that combine different rules, looking for branches which
+yield compositions that are analytically equivalent to a target expression, but
+of lower computational complexity. however, as the size of the trees grows
+exponentially with the complexity of the target expression, brute force search
+is impractical for all but the simplest of expressions. consequently, we
+introduce two novel learning approaches that are able to learn from simpler
+expressions to guide the tree search. the first of these is a simple n-gram
+model, the other being a recursive neural-network. we show how these approaches
+enable us to derive complex identities, beyond reach of brute-force search, or
+human derivation.

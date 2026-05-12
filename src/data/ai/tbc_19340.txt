@@ -1,0 +1,18 @@
+the following working document summarizes our work on the clustering of
+financial time series. it was written for a workshop on information geometry
+and its application for image and signal processing. this workshop brought
+several experts in pure and applied mathematics together with applied
+researchers from medical imaging, radar signal processing and finance. the
+authors belong to the latter group. this document was written as a long
+introduction to further development of geometric tools in financial
+applications such as risk or portfolio analysis. indeed, risk and portfolio
+analysis essentially rely on covariance matrices. besides that the gaussian
+assumption is known to be inaccurate, covariance matrices are difficult to
+estimate from empirical data. to filter noise from the empirical estimate,
+mantegna proposed using hierarchical clustering. in this work, we first show
+that this procedure is statistically consistent. then, we propose to use
+clustering with a much broader application than the filtering of empirical
+covariance matrices from the estimate correlation coefficients. to be able to
+do that, we need to obtain distances between the financial time series that
+incorporate all the available information in these cross-dependent random
+processes.

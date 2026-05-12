@@ -1,0 +1,25 @@
+in the era of big data, logistic planning can be made data-driven to take
+advantage of accumulated knowledge in the past. while in the movie industry,
+movie planning can also exploit the existing online movie knowledge library to
+achieve better results. however, it is ineffective to solely rely on
+conventional heuristics for movie planning, due to a large number of existing
+movies and various real-world factors that contribute to the success of each
+movie, such as the movie genre, available budget, production team (involving
+actor, actress, director, and writer), etc. in this paper, we study a
+"blockbuster planning" (bp) problem to learn from previous movies and plan for
+low budget yet high return new movies in a totally data-driven fashion. after a
+thorough investigation of an online movie knowledge library, a novel movie
+planning framework "blockbuster planning with maximized movie configuration
+acquaintance" (bigmovie) is introduced in this paper. from the investment
+perspective, bigmovie maximizes the estimated gross of the planned movies with
+a given budget. it is able to accurately estimate the movie gross with a 0.26
+mean absolute percentage error (and 0.16 for budget). meanwhile, from the
+production team's perspective, bigmovie is able to formulate an optimized team
+with people/movie genres that team members are acquainted with. historical
+collaboration records are utilized to estimate acquaintance scores of movie
+configuration factors via an acquaintance tensor. we formulate the bp problem
+as a non-linear binary programming problem and prove its np-hardness. to solve
+it in polynomial time, bigmovie relaxes the hard binary constraints and
+addresses the bp problem as a cubic programming problem. extensive experiments
+conducted on imdb movie database demonstrate the capability of bigmovie for an
+effective data-driven blockbuster planning.

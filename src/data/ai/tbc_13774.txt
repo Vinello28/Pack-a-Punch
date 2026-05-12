@@ -1,0 +1,11 @@
+we consider the unsupervised learning problem of assigning labels to
+unlabeled data. a naive approach is to use clustering methods, but this works
+well only when data is properly clustered and each cluster corresponds to an
+underlying class. in this paper, we first show that this unsupervised labeling
+problem in balanced binary cases can be solved if two unlabeled datasets having
+different class balances are available. more specifically, estimation of the
+sign of the difference between probability densities of two unlabeled datasets
+gives the solution. we then introduce a new method to directly estimate the
+sign of the density difference without density estimation. finally, we
+demonstrate the usefulness of the proposed method against several clustering
+methods on various toy problems and real-world datasets.

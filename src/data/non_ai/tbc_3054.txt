@@ -1,4 +1,0 @@
-Il progetto punta a sfrutta la potenza dei Big Data e dell'Analytics per promuovere e ottimizzare
-l'attività. Utilizzando una vasta quantità di dati provenienti da diverse fonti, inclusi social media,
-transazioni e feedback dei clienti, raccoglieremo informazioni dettagliate sul comportamento
-dei consumatori e le loro preferenze.

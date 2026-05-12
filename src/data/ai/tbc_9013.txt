@@ -1,1 +1,13 @@
-Istante una start up innovativa nata nel 2018 per erogare progetti Industria 4.0. Opera con tecnologie Microsoft in un programma di sviluppo indirizzato a business partner con grande potenziale. Fornisce prodotti e progetti nelle aree legate a Big Data e Analytics Machine Learning e Intelligenza Artificiale e integrazione della Value Chain attraverso tecnologie Internet of Things operando su piattaforme On Cloud ed On Premise nonch in ambito Edge e Grid Computing. Ha un business plan importante per perseguire il quale deve strutturarsi per una propria crescita equilibrata e gestibile sia sul piano dello sviluppo organizzativo che sul piano dell assetto economico finanziario. Una parte dell intervento riguarda l identificazione di prodotti e servizi innovativi industrializzabili e distribuibili attraverso App Store o altri canali implementando metodologie avanzate commerciali e di delivery. Inoltre nell implementare metodologie di produzione e/o progettuali quali Crisp DM CRP Agile e altre le stesse devono essere adeguate alle evoluzioni tecnologiche dei settori interessati che vedono un ricambio accelerato e l ingresso di sempre nuove tecnologie che costringono anche a ripensare schemi e metodi di lavoro intervenendo su risorse umane e sistemi di controllo.
+the horizon line is an important contextual attribute for a wide variety of
+image understanding tasks. as such, many methods have been proposed to estimate
+its location from a single image. these methods typically require the image to
+contain specific cues, such as vanishing points, coplanar circles, and regular
+textures, thus limiting their real-world applicability. we introduce a large,
+realistic evaluation dataset, horizon lines in the wild (hlw), containing
+natural images with labeled horizon lines. using this dataset, we investigate
+the application of convolutional neural networks for directly estimating the
+horizon line, without requiring any explicit geometric constraints or other
+special cues. an extensive evaluation shows that using our cnns, either in
+isolation or in conjunction with a previous geometric approach, we achieve
+state-of-the-art results on the challenging hlw dataset and two existing
+benchmark datasets.

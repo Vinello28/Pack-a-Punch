@@ -1,0 +1,10 @@
+in this paper, we describe the lithium natural language processing (nlp)
+system - a resource-constrained, high- throughput and language-agnostic system
+for information extraction from noisy user generated text on social media.
+lithium nlp extracts a rich set of information including entities, topics,
+hashtags and sentiment from text. we discuss several real world applications of
+the system currently incorporated in lithium products. we also compare our
+system with existing commercial and academic nlp systems in terms of
+performance, information extracted and languages supported. we show that
+lithium nlp is at par with and in some cases, outperforms state- of-the-art
+commercial nlp systems.

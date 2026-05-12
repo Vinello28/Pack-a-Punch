@@ -1,0 +1,1 @@
+Il nostro progetto consiste nellÂ¿acquisizione di un Magazzino robotizzato per la gestione automatica  lÂ¿allocazione ed il prelievo del materiale (Rolle)  completo di PC  monitor  tastiera  stampante  pistola Barcode. Il sistema sarÃ  governato da un Sw gestionale che metterÃ  in comunicazione il Magazzino con le macchine utilizzate per il montaggio automatico

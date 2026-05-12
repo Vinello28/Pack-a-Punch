@@ -1,0 +1,16 @@
+kernel methods are powerful tools in machine learning. they have to be
+computationally efficient. in this paper, we present a novel geometric-based
+approach to compute efficiently the string subsequence kernel (ssk). our main
+idea is that the ssk computation reduces to range query problem. we started by
+the construction of a match list $l(s,t)=\{(i,j):s_{i}=t_{j}\}$ where $s$ and
+$t$ are the strings to be compared; such match list contains only the required
+data that contribute to the result. to compute efficiently the ssk, we extended
+the layered range tree data structure to a layered range sum tree, a
+range-aggregation data structure. the whole process takes $ o(p|l|\log|l|)$
+time and $o(|l|\log|l|)$ space, where $|l|$ is the size of the match list and
+$p$ is the length of the ssk. we present empiric evaluations of our approach
+against the dynamic and the sparse programming approaches both on synthetically
+generated data and on newswire article data. such experiments show the
+efficiency of our approach for large alphabet size except for very short
+strings. moreover, compared to the sparse dynamic approach, the proposed
+approach outperforms absolutely for long strings.

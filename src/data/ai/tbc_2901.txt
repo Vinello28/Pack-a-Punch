@@ -1,10 +1,11 @@
-"Il progetto AI-CARES si propone di ridefinire il panorama dei servizi post-vendita nell'industria delle macchine attraverso l'adozione strategica dell'Intelligenza Artificiale (IA). In un contesto di produzione sempre più sofisticato e lotti ridotti, AI-CARES fornirà soluzioni avanzate ai fornitori di automazione ICT-enabled.
-Caratteristiche chiave del progetto:
-
-- Sintesi Intelligente di Conoscenza: Attraverso approcci all'avanguardia di Natural Language Processing (NLP), AI-CARES evocherà e sintetizzerà preziose informazioni dai dati aziendali. Questo fondamentale deposito di conoscenza sarà un baluardo nella risoluzione tempestiva dei problemi post-vendita.
-
-- Generazione di Soluzioni Guidata da IA: Con l'IA generativa, AI-CARES ideerà soluzioni mirate basate su dati storici e feedback dei clienti. Questo accelererà la risoluzione dei problemi e migliorerà radicalmente l'esperienza del cliente.
-
-- Ottimizzazione Continua e Personalizzata: Monitorando costantemente le prestazioni delle soluzioni implementate, AI-CARES apporterà ottimizzazioni dinamiche. Questo assicurerà che le soluzioni siano calibrate sulle esigenze individuali di ciascun cliente.
-
-- Interfaccia Utente Intuitiva: Con un'interfaccia user-friendly, AI-CARES renderà l'IA accessibile ad esperti e non."
+bilinear models provide an appealing framework for mixing and merging
+information in visual question answering (vqa) tasks. they help to learn high
+level associations between question meaning and visual concepts in the image,
+but they suffer from huge dimensionality issues. we introduce mutan, a
+multimodal tensor-based tucker decomposition to efficiently parametrize
+bilinear interactions between visual and textual representations. additionally
+to the tucker framework, we design a low-rank matrix-based decomposition to
+explicitly constrain the interaction rank. with mutan, we control the
+complexity of the merging scheme while keeping nice interpretable fusion
+relations. we show how our mutan model generalizes some of the latest vqa
+architectures, providing state-of-the-art results.

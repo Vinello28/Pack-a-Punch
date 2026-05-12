@@ -1,0 +1,19 @@
+coral reefs are dynamic systems whose composition is highly influenced by
+unpredictable biotic and abiotic factors. understanding the spatial scale at
+which long-term predictions of reef composition can be made will be crucial for
+guiding conservation efforts. using a 22-year time series of benthic
+composition data from 20 reefs on the kenyan and tanzanian coast, we studied
+the long-term behaviour of bayesian vector autoregressive state-space models
+for reef dynamics, incorporating among-site variability. we estimate that if
+there were no among-site variability, the total long-term variability would be
+approximately one third of its current value. thus among-site variability
+contributes more to long-term variability in reef composition than does
+temporal variability. individual sites are more predictable than previously
+thought, and predictions based on current snapshots are informative about
+long-term properties. our approach allowed us to identify a subset of possible
+climate refugia sites with high conservation value, where the long-term
+probability of coral cover <= 0.1 was very low. analytical results show that
+this probability is most strongly influenced by among-site variability and by
+interactions among benthic components within sites. these findings suggest that
+conservation initiatives might be successful at the site scale as well as the
+regional scale.

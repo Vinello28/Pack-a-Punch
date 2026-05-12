@@ -1,14 +1,1 @@
-in this work, we propose a technique to convert cnn models for semantic
-segmentation of static images into cnns for video data. we describe a warping
-method that can be used to augment existing architectures with very little
-extra computational cost. this module is called netwarp and we demonstrate its
-use for a range of network architectures. the main design principle is to use
-optical flow of adjacent frames for warping internal network representations
-across time. a key insight of this work is that fast optical flow methods can
-be combined with many different cnn architectures for improved performance and
-end-to-end training. experiments validate that the proposed approach incurs
-only little extra computational cost, while improving performance, when video
-streams are available. we achieve new state-of-the-art results on the camvid
-and cityscapes benchmark datasets and show consistent improvements over
-different baseline networks. our code and models will be available at
-http://segmentation.is.tue.mpg.de
+weakly supervised methods, such as class activation maps (cam) based, have been applied to achieve bleeding segmentation with low annotation efforts in wireless capsule endoscopy (wce) images. however, the cam labels tend to be extremely noisy, and there is an irreparable gap between cam labels and ground truths for medical images. this paper proposes a new discrepancy-based active learning (deal) approach to bridge the gap between cams and ground truths with a few annotations. specifically, to liberate labor, we design a novel discrepancy decoder model and a campus (cam, pseudo-label and ground-truth selection) criterion to replace the noisy cams with accurate model predictions and a few human labels. the discrepancy decoder model is trained with a unique scheme to generate standard, coarse and fine predictions. and the campus criterion is proposed to predict the gaps between cams and ground truths based on model divergence and cam divergence. we evaluate our method on the wce dataset and results show that our method outperforms the state-of-the-art active learning methods and reaches comparable performance to those trained with full annotated datasets with only 10% of the training data labeled.

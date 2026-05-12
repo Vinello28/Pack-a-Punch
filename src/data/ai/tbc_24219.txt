@@ -1,0 +1,1 @@
+INTRODUZIONE DELLE TECNOLGIE DI ROBOTICA PER LO SVILUPPO DI UN NUOVO PRODOTTO - Sviluppo di un sistema di robotica collaborativa in campo aperto per la mappatura di sotto-servizi con impiego di diagnostica non distruttiva e sensoristica IoT.

@@ -1,1 +1,23 @@
-Il progetto si propone di realizzare un DPI innovativo capace di acquisire elaborare e valorizzare mediante certificazione blockchain informazioni riguardanti la sicurezza dei lavoratori e del luogo di lavoro provenienti da diverse sorgenti (DPI innovativi reti di sensori wireless distribuite sistemi di visione artificiale e/o dispositivi indossabili) e pre-filtrati da un opportuna piattaforma HW/SW anch essa oggetto di ricerca industriale e sviluppo sperimentale del progetto. Le attivit del progetto si configurano come una innovazione di prodotto in quanto i DPI non sono pi unicamente elementi passivi da indossare o possedere ma diventano parte attiva nella definizione e misurazione del livello di sicurezza associato ai lavoratori.
+scope of reproducibility 
+
+the evaluated paper presents a method to classify crop types from multispectral satellite image time series with a newly developed pixel-set encoder and an adaption of the transformer [2], called temporal attention encoder. 
+
+methodology 
+
+in order to assess both the architecture and the performance of the approach, we first attempted to implement the method from scratch, followed by a study of the authorsʼ openly provided code. additionally, we also compiled an alternative dataset similar to the one presented in the paper and evaluated the methodology on it. 
+
+results 
+
+during the study, we were not able to reproduce the method due to a conceptual misinterpretation of ours regarding the authorsʼ adaption of the transformer [2]. however, the publicly available implementation helped us answering our questions and proved its validity during our experiments on different datasets. additionally, we compared the papersʼ temporal attention encoder to our adaption of it, which we came across while we were trying to reimplement and grasp the authorsʼ ideas. 
+
+what was easy 
+
+running the provided code and obtaining the presented dataset turned out to be easily possible. even adapting the method to our own ideas did not cause issues, due to a well documented and clear implementation.
+
+what was difficult 
+
+reimplementing the approach from scratch turned out to be harder than expected, especially because we had a certain type of architecture in mind that did not fit the dimensions of the layers mentioned in the paper. furthermore, knowing how the dataset was exactly assembled would have been beneficial for us, as we tried to retrace these steps, and therefore would have made the results on our dataset easier to compare to the ones from the paper. 
+
+communication with original authors 
+
+while working on the challenge, we stood in e-mail contact with the first and second author, had two online meetings and got feedback to our implementation on github. additionally, one of the authors of the transformer paper [2] provided us with further answers regarding their modelsʼ architecture.

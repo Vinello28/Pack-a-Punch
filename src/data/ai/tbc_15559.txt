@@ -1,1 +1,24 @@
-Sviluppo di una piattaforma AI per previsione meteo tramite Edge AI e TinyML per dispositivi embedded applicata al dominio media. Il modello viene addestrato su dataset annotati di oltre 1 milione di esempi e deployato su mixed precision training (FP16/BF16). I fondi supportano ricerca, sviluppo e validazione sul campo.
+to model time-varying nonlinear temporal dynamics in sequential data, a
+recurrent network capable of varying and adjusting the recurrence depth between
+input intervals is examined. the recurrence depth is extended by several
+intermediate hidden state units, and the weight parameters involved in
+determining these units are dynamically calculated. the motivation behind the
+paper lies on overcoming a deficiency in recurrent highway networks and
+improving their performances which are currently at the forefront of rnns: 1)
+determining the appropriate number of recurrent depth in rhn for different
+tasks is a huge burden and just setting it to a large number is computationally
+wasteful with possible repercussion in terms of performance degradation and
+high latency. expanding on the idea of adaptive computation time (act), with
+the use of an elastic gate in the form of a rectified exponentially decreasing
+function taking on as arguments as previous hidden state and input, the
+proposed model is able to evaluate the appropriate recurrent depth for each
+input. the rectified gating function enables the most significant intermediate
+hidden state updates to come early such that significant performance gain is
+achieved early. 2) updating the weights from that of previous intermediate
+layer offers a richer representation than the use of shared weights across all
+intermediate recurrence layers. the weight update procedure is just an
+expansion of the idea underlying hypernetworks. to substantiate the
+effectiveness of the proposed network, we conducted three experiments:
+regression on synthetic data, human activity recognition, and language modeling
+on the penn treebank dataset. the proposed networks showed better performance
+than other state-of-the-art recurrent networks in all three experiments.

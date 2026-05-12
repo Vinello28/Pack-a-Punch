@@ -1,1 +1,1 @@
-Il progetto LangMol mira a migliorare la progettazione di farmaci utilizzando l'elaborazione del linguaggio naturale. Utilizzer modelli linguistici avanzati per valutare i candidati farmaci collaborando con partner specializzati nell'apprendimento automatico e nella biofisica computazionale.
+MLOPS - MACHINE LEARNING OPERATIONS SOLUZIONE STATO DELLARTE PER LA GESTIONE DEL TRAINING CONTINUO  DEL MONITORAGGIO DEI MODELLI  DEI PROCESSI DI SVILUPPO E VALIDAZIONE DEI MODELLI STESSI  E DEL DEPLOY E DELLA GOVERNANCE DEI SISTEMI BASATI SU MACHINE LEARNING

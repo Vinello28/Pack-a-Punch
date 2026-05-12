@@ -1,3 +1,12 @@
-Il Corso mira a trasferire ai discenti nuove competenze in merito alle principali caratteristiche e funzionalita relativi ai sistemi di supporto decisionale e generativo basati sullIntelligenza Artificiale al fine di ottimizzare ed innovare i processi lavorativi aziendali. A conclusione del percorso gli allievi saranno in grado di:
- Rielaborare le informazioni e i contenuti digitali esistenti;
- Creare conoscenze e contenuti digitali nuovi, originali e rilevanti.
+the methodology of software-defined robotics hierarchical-based and
+stand-alone framework can be designed and implemented to program and control
+different sets of robots, regardless of their manufacturers' parameters and
+specifications, with unified commands and communications. this framework
+approach will increase the capability of (re)programming a specific group of
+robots during the runtime without affecting the others as desired in the
+critical missions and industrial operations, expand the shared bandwidth,
+enhance the reusability of code, leverage the computational processing power,
+decrease the unnecessary analyses of vast supplemental electrical components
+for each robot, as well as get advantages of the most state-of-the-art
+industrial trends in the cloud-based computing, virtual machines (vm), and
+robot-as-a-service (raas) technologies.

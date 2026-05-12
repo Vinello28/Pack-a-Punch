@@ -1,0 +1,12 @@
+modeling interactions between features improves the performance of machine
+learning solutions in many domains (e.g. recommender systems or sentiment
+analysis). in this paper, we introduce exponential machines (exm), a predictor
+that models all interactions of every order. the key idea is to represent an
+exponentially large tensor of parameters in a factorized format called tensor
+train (tt). the tensor train format regularizes the model and lets you control
+the number of underlying parameters. to train the model, we develop a
+stochastic riemannian optimization procedure, which allows us to fit tensors
+with 2^160 entries. we show that the model achieves state-of-the-art
+performance on synthetic data with high-order interactions and that it works on
+par with high-order factorization machines on a recommender system dataset
+movielens 100k.

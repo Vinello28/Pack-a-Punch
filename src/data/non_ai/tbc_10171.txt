@@ -1,1 +1,1 @@
-Virtual Storage per la Fast Reserve e servizi integrati di inerzia sintetica  peak shaving e load levelling
+Implementazione di un ufficio relazioni con il pubblico (URP) digitale con sistemi di ticket manager e gestione appuntamenti.

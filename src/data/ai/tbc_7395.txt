@@ -1,1 +1,20 @@
-L'obiettivo strategico di Safety Partner srl attraverso il progetto e il corso Applicazioni di Intelligenza Artificiale Generativa per la Personalizzazione e l'Ottimizzazione dei Corsi Formativi basato sull'adozione di tecnologie di intelligenza artificiale generativa per trasformare i processi formativi e migliorare la competitivit aziendale. Il corso affronta temi innovativi come l utilizzo dei Large Language Models (LLMs) e nello specifico la scelta tra modelli proprietari e open source. Verranno inoltre presentati gli strumenti necessari per selezionare la soluzione pi adatta alla personalizzazione dei corsi come ad esempio la scelta tra GPT-4 Gemini 2.0 LLaMA o Falcon. Tra gli argomenti trattati saranno introdotte le tecniche di prompt engineering con particolare attenzione a quelle di Few-Shot e Chain of Thought che consentono di migliorare la creazione di contenuti didattici. Il corso include anche una spiegazione della Retrieval-Augmented Generation (RAG) una delle architetture pi avanzate per ridurre le allucinazioni degli LLMs e vincolare la generazione di contenuti didattici ai materiali proprietari di Informattiva. Questi temi forniscono al personale le competenze necessarie per integrare queste tecnologie nei processi di creazione e aggiornamento
+with the spread of wearable devices and head mounted cameras, a wide range of
+application requiring precise user localization is now possible. in this paper
+we propose to treat the problem of obtaining the user position with respect to
+a known environment as a video registration problem. video registration, i.e.
+the task of aligning an input video sequence to a pre-built 3d model, relies on
+a matching process of local keypoints extracted on the query sequence to a 3d
+point cloud. the overall registration performance is strictly tied to the
+actual quality of this 2d-3d matching, and can degrade if environmental
+conditions such as steep changes in lighting like the ones between day and
+night occur. to effectively register an egocentric video sequence under these
+conditions, we propose to tackle the source of the problem: the matching
+process. to overcome the shortcomings of standard matching techniques, we
+introduce a novel embedding space that allows us to obtain robust matches by
+jointly taking into account local descriptors, their spatial arrangement and
+their temporal robustness. the proposal is evaluated using unconstrained
+egocentric video sequences both in terms of matching quality and resulting
+registration performance using different 3d models of historical landmarks. the
+results show that the proposed method can outperform state of the art
+registration algorithms, in particular when dealing with the challenges of
+night and day sequences.

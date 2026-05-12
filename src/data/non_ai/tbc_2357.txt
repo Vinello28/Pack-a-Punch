@@ -1,5 +1,1 @@
-Il progetto prevede una trasformazione digitale lungo due assi concomitanti: A) interno, tramite
-la creazione di una nuova architettura telematica che digitalizza i processi interni; B) esterno,
-tramite lo sviluppo di una nuova architettura telematica, basata su un software che permetta di
-analizzare big data risiedenti su database su Cloud esterni, a cui si ha accesso per consulenze
-I4.0.
+Specializzazione e innovazione di processo in Idealfer

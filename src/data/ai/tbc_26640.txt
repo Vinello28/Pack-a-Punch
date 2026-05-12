@@ -1,0 +1,8 @@
+we describe citlab's recognition system for the htrts competition attached to
+the 14. international conference on frontiers in handwriting recognition, icfhr
+2014. the task comprises the recognition of historical handwritten documents.
+the core algorithms of our system are based on multi-dimensional recurrent
+neural networks (mdrnn) and connectionist temporal classification (ctc). the
+software modules behind that as well as the basic utility technologies are
+essentially powered by planet's argus framework for intelligent text
+recognition and image processing.

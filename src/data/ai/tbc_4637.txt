@@ -1,0 +1,13 @@
+advances in machine learning have produced systems that attain human-level
+performance on certain visual tasks, e.g., object identification. nonetheless,
+other tasks requiring visual expertise are unlikely to be entrusted to machines
+for some time, e.g., satellite and medical imagery analysis. we describe a
+human-machine cooperative approach to visual search, the aim of which is to
+outperform either human or machine acting alone. the traditional route to
+augmenting human performance with automatic classifiers is to draw boxes around
+regions of an image deemed likely to contain a target. human experts typically
+reject this type of hard highlighting. we propose instead a soft highlighting
+technique in which the saliency of regions of the visual field is modulated in
+a graded fashion based on classifier confidence level. we report on experiments
+with both synthetic and natural images showing that soft highlighting achieves
+a performance synergy surpassing that attained by hard highlighting.

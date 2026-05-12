@@ -1,1 +1,21 @@
-the design of current natural language oriented robot architectures enables certain architectural components to circumvent moral reasoning capabilities. one example of this is reflexive generation of clarification requests as soon as referential ambiguity is detected in a human utterance. as shown in previous research, this can lead robots to (1) miscommunicate their moral dispositions and (2) weaken human perception or application of moral norms within their current context. we present a solution to these problems by performing moral reasoning on each potential disambiguation of an ambiguous human utterance and responding accordingly, rather than immediately and naively requesting clarification. we implement our solution in the diarc robot architecture, which, to our knowledge, is the only current robot architecture with both moral reasoning and clarification request generation capabilities. we then evaluate our method with a human subjects experiment, the results of which indicate that our approach successfully ameliorates the two identified concerns.
+distributed word representations have been shown to be very useful in various
+natural language processing (nlp) application tasks. these word vectors learned
+from huge corpora very often carry both semantic and syntactic information of
+words. however, it is well known that each individual user has his own language
+patterns because of different factors such as interested topics, friend groups,
+social activities, wording habits, etc., which may imply some kind of
+personalized semantics. with such personalized semantics, the same word may
+imply slightly differently for different users. for example, the word
+"cappuccino" may imply "leisure", "joy", "excellent" for a user enjoying
+coffee, by only a kind of drink for someone else. such personalized semantics
+of course cannot be carried by the standard universal word vectors trained with
+huge corpora produced by many people. in this paper, we propose a framework to
+train different personalized word vectors for different users based on the very
+successful continuous skip-gram model using the social network data posted by
+many individual users. in this framework, universal background word vectors are
+first learned from the background corpora, and then adapted by the personalized
+corpus for each individual user to learn the personalized word vectors. we use
+two application tasks to evaluate the quality of the personalized word vectors
+obtained in this way, the user prediction task and the sentence completion
+task. these personalized word vectors were shown to carry some personalized
+semantics and offer improved performance on these two evaluation tasks.

@@ -1,1 +1,0 @@
-Sistema di AI per la comunicazione automatica di dati di idraulica urbana attraverso narrative testuali, grafici e audio

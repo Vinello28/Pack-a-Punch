@@ -1,0 +1,8 @@
+variational inference methods often focus on the problem of efficient model
+optimization, with little emphasis on the choice of the approximating
+posterior. in this paper, we review and implement the various methods that
+enable us to develop a rich family of approximating posteriors. we show that
+one particular method employing transformations on distributions results in
+developing very rich and complex posterior approximation. we analyze its
+performance on the mnist dataset by implementing with a variational autoencoder
+and demonstrate its effectiveness in learning better posterior distributions.

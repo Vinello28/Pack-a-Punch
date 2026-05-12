@@ -1,0 +1,14 @@
+parameter pruning is a promising approach for cnn compression and
+acceleration by eliminating redundant model parameters with tolerable
+performance degrade. despite its effectiveness, existing regularization-based
+parameter pruning methods usually drive weights towards zero with large and
+constant regularization factors, which neglects the fragility of the
+expressiveness of cnns, and thus calls for a more gentle regularization scheme
+so that the networks can adapt during pruning. to achieve this, we propose a
+new and novel regularization-based pruning method, named increg, to
+incrementally assign different regularization factors to different weights
+based on their relative importance. empirical analysis on cifar-10 dataset
+verifies the merits of increg. further extensive experiments with popular cnns
+on cifar-10 and imagenet datasets show that increg achieves comparable to even
+better results compared with state-of-the-arts. our source codes and trained
+models are available here: https://github.com/mingsun-tse/caffe_increg.

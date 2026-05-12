@@ -1,10 +1,1 @@
-Il progetto mira a potenziare i processi digitali della clinica dentale TAU CLINIC con l’adozione di tecnologie di ultima generazione.  Il progetto vuole introdurre una stampante 3D per la produzione interna di protesi dentali e mascherine ortodontiche, partendo da input diagnostici digitali (TAC e scanner intraorale) e sfruttando tecnologie basate su intelligenza artificiale (AI) e Cloud computing.
-La soluzione prevede l’acquisizione di una stampante 3D dotata di tre moduli funzionali interconnessi, coordinati da un sistema software centralizzato in cloud, che governa l’intero processo produttivo.
-Attraverso l’integrazione di:
-_ Immagini TAC e scansioni intraorali digitali,
-_ Algoritmi cloud-based di Intelligenza Artificiale per la generazione del modello 3D personalizzato,
-_ Archiviazione e gestione dei modelli digitali tramite piattaforma cloud,
-il sistema consentirà:
-_ La produzione semi-automatizzata dei manufatti, eseguita interamente in clinica (senza ricorrere a laboratori esterni);
-_ La condivisione dei modelli digitali con specialisti esterni per modifiche progettuali da remoto;
-_ Un significativo abbattimento del numero di sedute necessarie alla realizzazione delle protesi e mascherine ortodontiche, realizzando un servizio “Chair-Side”;
+MINDMASH Ãˆ STUDIO INGEGNERISTICO DI PROGETTAZIONE E R&D SU TEMATICHE IOT  AI E COMPUTER VISION E SVILUPPA PROGETTI SARTORIALI E CONSULENZA CONTINUA. LA COMPONENTE TECNOLOGICA IN AMBITO IOT DELLâ€™AZIENDA E DELLO SVILUPPO SOFTWARE EVOLUTO  HA PORTATO Lâ€™AZIENDA A SPECIALIZZARSI NEL PROPRIO SETTORE  DIVENTANDO UNA ECCELLENZA PER ALCUNI TIPI DI SOLUZIONI  MA HA PORTATO ALCUNI PROBLEMI DI FONDO: -	POCA ATTENZIONE ALLE INTEGRAZIONI CON ALTRI SISTEMI -	POCA VISIBILITÃ€ DI BRAND -	PENETRAZIONE DEL MERCATO BASATA SU PASSAPAROLA E NON SU RICHIESTE NUOVE PER QUESTO MOTIVO CI Ãˆ STATA RICHIESTA UNA CONSULENZA SPECIALISTICA PER RISOLVERE QUESTE PROBLEMATICHE. COMPONENTI DEL PROGETTO 1. OBIETTIVI CONSULENZA SPECIALISTICA CONDOTTA DA UN DIGITAL MANAGER DELL'INNOVAZIONE E QUALIFICATO  RESA CON IL FINE DI SUPPORTARE IL PROCESSO DI INNOVAZIONE E TRASFORMAZIONE TECNOLOGICA E DIGITALE. LA CONSULENZA SARÃ€ ORIENTATA ALLO SVILUPPO DELLE SEGUENTI TECNOLOGIE ABILITANTI: N) INTEGRAZIONE E SVILUPPO DIGITALE DEI PROCESSI AZIENDALI

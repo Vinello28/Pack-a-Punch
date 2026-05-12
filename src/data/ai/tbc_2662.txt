@@ -1,1 +1,14 @@
-TRUEYE è un progetto che intende rivoluzionare il mondo dell’imaging digitale introducendo un nuovo approccio alla visione, ispirandosi all’occhio umano e valorizzandone la sua flessibilità nell’adattarsi alle condizioni di illuminazione della scena in modo da raccoglierne tutta l’informazione contenuta. La soluzione si basa sulla combinazione di un sistema hardware di acquisizione di immagine innovativo sviluppato dell’azienda con algoritmi di intelligenza artificiale (AI).
+compared to humans, machine learning models generally require significantly
+more training examples and fail to extrapolate from experience to solve
+previously unseen challenges. to help close this performance gap, we augment
+single-task neural networks with a meta-recognition model which learns a
+succinct model code via its autoencoder structure, using just a few informative
+examples. the model code is then employed by a meta-generative model to
+construct parameters for the task-specific model. we demonstrate that for
+previously unseen tasks, without additional training, this meta-learning
+autoencoder (mela) framework can build models that closely match the true
+underlying models, with loss significantly lower than given by fine-tuned
+baseline networks, and performance that compares favorably with
+state-of-the-art meta-learning algorithms. mela also adds the ability to
+identify influential training examples and predict which additional data will
+be most valuable to acquire to improve model prediction.

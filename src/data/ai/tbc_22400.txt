@@ -1,0 +1,17 @@
+selective weed treatment is a critical step in autonomous crop management as
+related to crop health and yield. however, a key challenge is reliable, and
+accurate weed detection to minimize damage to surrounding plants. in this
+paper, we present an approach for dense semantic weed classification with
+multispectral images collected by a micro aerial vehicle (mav). we use the
+recently developed encoder-decoder cascaded convolutional neural network (cnn),
+segnet, that infers dense semantic classes while allowing any number of input
+image channels and class balancing with our sugar beet and weed datasets. to
+obtain training datasets, we established an experimental field with varying
+herbicide levels resulting in field plots containing only either crop or weed,
+enabling us to use the normalized difference vegetation index (ndvi) as a
+distinguishable feature for automatic ground truth generation. we train 6
+models with different numbers of input channels and condition (fine-tune) it to
+achieve about 0.8 f1-score and 0.78 area under the curve (auc) classification
+metrics. for model deployment, an embedded gpu system (jetson tx2) is tested
+for mav integration. dataset used in this paper is released to support the
+community and future work.

@@ -1,1 +1,25 @@
-L'impresa necessita di un processo di automatizzazione per migliorare l'efficienza aziendale nella comunicazione con la propria utenza: si prevede quindi una analisi e studio iniziale per individuare le piattaforme ed i metodi di comunicazione pi opportuni per la propria clientela. Poi l'impresa andr ad ottimizzare le pagine web del sito internet per renderlo pi efficace verranno anche realizzati infoprodotti che i potenziali clienti potranno scaricare gratuitamente (cataloghi guide minilezioni ..). Si prevede poi un implementazione del sito e-commerce con inserimento di ChatBot messenger con spese per la formazione del personale. In considerazione dei risultati dei video come strumenti utili di promozione la ditta intende realizzare 10 video di tutoraggio per le operazioni di uso pi comune per migliorare l'efficienza aziendale e fornire risposte chiare e veloci ai clienti sugli aspetti pi richiesti. Il preventivo di spesa elaborato da Horizon media di Francesca Traverso del 29/01/2018 prevede le seguenti spese: consulenza per analisi e ottimizzazione sito web e commerce E 5.500 formazione personale E 2.200 consulenza realizzazione 10 video e Bot Messenger E 9.700. Si prevede spesa per hardware (E 3.000) e software (E 1000) come miglioramento e modernizzazione.
+this paper presents a programmable in-memory-computing processor,
+demonstrated in a 65nm cmos technology. for data-centric workloads, such as
+deep neural networks, data movement often dominates when implemented with
+today's computing architectures. this has motivated spatial architectures,
+where the arrangement of data-storage and compute hardware is distributed and
+explicitly aligned to the computation dataflow, most notably for matrix-vector
+multiplication. in-memory computing is a spatial architecture where processing
+elements correspond to dense bit cells, providing local storage and compute,
+typically employing analog operation. though this raises the potential for high
+energy efficiency and throughput, analog operation has significantly limited
+robustness, scale, and programmability. this paper describes a 590kb
+in-memory-computing accelerator integrated in a programmable processor
+architecture, by exploiting recent approaches to charge-domain in-memory
+computing. the architecture takes the approach of tight coupling with an
+embedded cpu, through accelerator interfaces enabling integration in the
+standard processor memory space. additionally, a near-memory-computing datapath
+both enables diverse computations locally, to address operations required
+across applications, and enables bit-precision scalability for
+matrix/input-vector elements, through a bit-parallel/bit-serial (bp/bs) scheme.
+chip measurements show an energy efficiency of 152/297 1b-tops/w and throughput
+of 4.7/1.9 1b-tops (scaling linearly with the matrix/input-vector element
+precisions) at vdd of 1.2/0.85v. neural network demonstrations with 1-b/4-b
+weights and activations for cifar-10 classification consume 5.3/105.2
+$\mu$j/image at 176/23 fps, with accuracy at the level of digital/software
+implementation (89.3/92.4 $\%$ accuracy).

@@ -1,1 +1,0 @@
-sviluppo di Manent, un servizio di Meeting Intelligence basato su modelli di Generative AI, volto a trasformare lo storico delle riunioni in una base di conoscenza interrogabile

@@ -1,1 +1,0 @@
-Attivit di consulenza relative ai sistemi di ML (Machine Learning) e DL (Deep Learning) in particolare delle Reti Neurali e dei Fuzzy

@@ -1,9 +1,1 @@
-Il progetto SMART TAP si pone lobiettivo di migliorare lefficienza del servizio post vendita
-e lorganizzazione del lavoro dellarea assistenza. Il progetto intende organizzare un sistema digitale di
-rilevamento e analisi dei dati in real time relativi allutilizzo dei prodotti, sulle performance e sugli interventi di
-assistenza cloud based la cui raccolta digitale consentirà anche di elaborare algoritmi predittivi statistici e/o
-altri strumenti di analisi ai fini dellottimizzazione dellarea e della qualità del servizio. Attraverso la
-digitalizzazione del processo sarà infatti possibile così conoscere ed analizzare le informazioni per fornire
-assistenza sempre più tempestiva e qualificata. Il fine ultimo è la verifica ed implementazione di un nuovo
-modello di assistenza che garantirà un aumento della redditività aziendale grazie a una maggiore efficienza
-interna e aumento della qualità percepita del servizio da parte dei clienti .
+maskedfusion is a framework to estimate the 6d pose of objects using rgb-d data, with an architecture that leverages multiple sub-tasks in a pipeline to achieve accurate 6d poses. 6d pose estimation is an open challenge due to complex world objects and many possible problems when capturing data from the real world, e.g., occlusions, truncations, and noise in the data. achieving accurate 6d poses will improve results in other open problems like robot grasping or positioning objects in augmented reality. maskedfusion improves the state-of-the-art by using object masks to eliminate non-relevant data. with the inclusion of the masks on the neural network that estimates the 6d pose of an object we also have features that represent the object shape. maskedfusion is a modular pipeline where each sub-task can have different methods that achieve the objective. maskedfusion achieved 97.3% on average using the add metric on the linemod dataset and 93.3% using the add-s auc metric on ycb-video dataset, which is an improvement, compared to the state-of-the-art methods. the code is available on github (https://github.com/kroglice/maskedfusion).

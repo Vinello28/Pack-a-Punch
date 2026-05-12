@@ -1,0 +1,16 @@
+progressive visual analytics aims at improving the interactivity in existing
+analytics techniques by means of visualization as well as interaction with
+intermediate results. one key method for data analysis is dimensionality
+reduction, for example, to produce 2d embeddings that can be visualized and
+analyzed efficiently. t-distributed stochastic neighbor embedding (tsne) is a
+well-suited technique for the visualization of several high-dimensional data.
+tsne can create meaningful intermediate results but suffers from a slow
+initialization that constrains its application in progressive visual analytics.
+we introduce a controllable tsne approximation (a-tsne), which trades off speed
+and accuracy, to enable interactive data exploration. we offer real-time
+visualization techniques, including a density-based solution and a magic lens
+to inspect the degree of approximation. with this feedback, the user can decide
+on local refinements and steer the approximation level during the analysis. we
+demonstrate our technique with several datasets, in a real-world research
+scenario and for the real-time analysis of high-dimensional streams to
+illustrate its effectiveness for interactive data analysis.

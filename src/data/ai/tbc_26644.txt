@@ -1,0 +1,8 @@
+automatic text summarization, the automated process of shortening a text
+while reserving the main ideas of the document(s), is a critical research area
+in natural language processing. the aim of this literature review is to survey
+the recent work on neural-based models in automatic text summarization. we
+examine in detail ten state-of-the-art neural-based summarizers: five
+abstractive models and five extractive models. in addition, we discuss the
+related techniques that can be applied to the summarization tasks and present
+promising paths for future research in neural-based summarization.

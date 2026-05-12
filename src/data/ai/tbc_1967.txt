@@ -1,0 +1,11 @@
+the outlier detection problem in some cases is similar to the classification
+problem. for example, the main concern of clustering-based outlier detection
+algorithms is to find clusters and outliers, which are often regarded as noise
+that should be removed in order to make more reliable clustering. in this
+article, we present an algorithm that provides outlier detection and data
+clustering simultaneously. the algorithmimprovesthe estimation of centroids of
+the generative distribution during the process of clustering and outlier
+discovery. the proposed algorithm consists of two stages. the first stage
+consists of improved genetic k-means algorithm (igk) process, while the second
+stage iteratively removes the vectors which are far from their cluster
+centroids.

@@ -1,3 +1,0 @@
-Il progetto mira a sviluppare un algoritmo di intelligenza artificiale volto a personalizzare i contenuti culturali e promozionali presentati su totem interattivi e mirror display in alta risoluzione.
-L’algoritmo permette di identificare la tipologia di clientela e le abitudini e associarle a fattori ambientali, quali il clima atmosferico, e fornire degli itinerari di visita delle località ove sono presenti le strutture ricettive che custodiscono i monitor.
-I totem saranno anche collegati ad una piattaforma di advertising programmatico per reperire campagne pubblicitarie targettizzate sulla base delle esigenze della clientela commerciale.

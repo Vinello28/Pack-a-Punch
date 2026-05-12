@@ -1,0 +1,19 @@
+we present a gradient-tree-boosting-based structured learning model for
+jointly disambiguating named entities in a document. gradient tree boosting is
+a widely used machine learning algorithm that underlies many top-performing
+natural language processing systems. surprisingly, most works limit the use of
+gradient tree boosting as a tool for regular classification or regression
+problems, despite the structured nature of language. to the best of our
+knowledge, our work is the first one that employs the structured gradient tree
+boosting (sgtb) algorithm for collective entity disambiguation. by defining
+global features over previous disambiguation decisions and jointly modeling
+them with local features, our system is able to produce globally optimized
+entity assignments for mentions in a document. exact inference is prohibitively
+expensive for our globally normalized model. to solve this problem, we propose
+bidirectional beam search with gold path (bibsg), an approximate inference
+algorithm that is a variant of the standard beam search algorithm. bibsg makes
+use of global information from both past and future to perform better local
+search. experiments on standard benchmark datasets show that sgtb significantly
+improves upon published results. specifically, sgtb outperforms the previous
+state-of-the-art neural system by near 1\% absolute accuracy on the popular
+aida-conll dataset.

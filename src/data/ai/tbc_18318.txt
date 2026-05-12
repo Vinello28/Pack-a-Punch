@@ -1,0 +1,18 @@
+in this paper, we present the design of error-resilient machine learning
+architectures by employing a distributed machine learning framework referred to
+as classifier ensemble (ce). ce combines several simple classifiers to obtain a
+strong one. in contrast, centralized machine learning employs a single complex
+block. we compare the random forest (rf) and the support vector machine (svm),
+which are representative techniques from the ce and centralized frameworks,
+respectively. employing the dataset from uci machine learning repository and
+architectural-level error models in a commercial 45 nm cmos process, it is
+demonstrated that rf-based architectures are significantly more robust than svm
+architectures in presence of timing errors due to process variations in
+near-threshold voltage (ntv) regions (0.3 v - 0.7 v). in particular, the rf
+architecture exhibits a detection accuracy (p_{det}) that varies by 3.2% while
+maintaining a median p_{det} > 0.9 at a gate level delay variation of 28.9% .
+in comparison, svm exhibits a p_{det} that varies by 16.8%. additionally, we
+propose an error weighted voting technique that incorporates the timing error
+statistics of the ntv circuit fabric to further enhance robustness. simulation
+results confirm that the error weighted voting achieves a p_{det} that varies
+by only 1.4%, which is 12x lower compared to svm.

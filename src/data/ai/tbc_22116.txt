@@ -1,0 +1,25 @@
+in this paper, we propose to exploit the rich hierarchical features of deep
+convolutional neural networks to improve the accuracy and robustness of visual
+tracking. deep neural networks trained on object recognition datasets consist
+of multiple convolutional layers. these layers encode target appearance with
+different levels of abstraction. for example, the outputs of the last
+convolutional layers encode the semantic information of targets and such
+representations are invariant to significant appearance variations. however,
+their spatial resolutions are too coarse to precisely localize the target. in
+contrast, features from earlier convolutional layers provide more precise
+localization but are less invariant to appearance changes. we interpret the
+hierarchical features of convolutional layers as a nonlinear counterpart of an
+image pyramid representation and explicitly exploit these multiple levels of
+abstraction to represent target objects. specifically, we learn adaptive
+correlation filters on the outputs from each convolutional layer to encode the
+target appearance. we infer the maximum response of each layer to locate
+targets in a coarse-to-fine manner. to further handle the issues with scale
+estimation and re-detecting target objects from tracking failures caused by
+heavy occlusion or out-of-the-view movement, we conservatively learn another
+correlation filter, that maintains a long-term memory of target appearance, as
+a discriminative classifier. we apply the classifier to two types of object
+proposals: (1) proposals with a small step size and tightly around the
+estimated location for scale estimation; and (2) proposals with large step size
+and across the whole image for target re-detection. extensive experimental
+results on large-scale benchmark datasets show that the proposed algorithm
+performs favorably against state-of-the-art tracking methods.

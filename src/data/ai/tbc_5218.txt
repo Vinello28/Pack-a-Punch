@@ -1,10 +1,1 @@
-Il piano attuativo di OR.P. STAMPI S.R.L. si concentra su due obiettivi chiave: l’implementazione di un sistema di predictive costing basato su AI e la digitalizzazione ed elettrificazione del canale freddo per attrezzatura di stampaggio. Questi interventi mirano a ottimizzare l’efficienza operativa, migliorare la sostenibilità e incrementare la competitività aziendale. Di seguito un riassunto delle attività e delle specifiche per ogni obiettivo.
-Obiettivo 1: Sistema di Predictive Costing basato su AI
-Il predictive costing sfrutta l’intelligenza artificiale per generare preventivi accurati, analizzando il database storico dei progetti. Questo sistema consente di automatizzare il processo di preventivazione, riducendo gli errori e il tempo necessario per la preparazione dei preventivi. 
-KPI e Obiettivi:
--Riduzione del 40% del tempo medio per generare un preventivo.
--Aumento dell’accuratezza del 25% rispetto ai costi effettivi finali.
--Target di utilizzo del sistema dal team tecnico-commerciale dell’80% entro sei mesi.
--Tempi di Implementazione: 5 mesi per la versione iniziale con un periodo di test e miglioramento entro il sesto mese.
-Obiettivo 2: Digitalizzazione ed Elettrificazione del Canale Freddo
-Questo intervento prevede la sostituzione dei sistemi idraulici con motori elett
+Creazione di un motore di AI per ottimizzazione inventario basato su Recurrent Neural Networks (RNN) e varianti LSTM/GRU dedicato al settore alimentare. L'addestramento sfrutta immagini ad alta risoluzione acquisite da telecamere industriali con tecniche di data augmentation. L'infrastruttura include infrastruttura cloud scalabile (AWS/Azure/GCP) per training e inferenza.

@@ -1,0 +1,5 @@
+in this work, we present a novel approach to simultaneous knowledge transfer and model compression called \textbf{weight squeezing}. with this method, we perform knowledge transfer from a teacher model \textbf{by learning the mapping from its weights to smaller student model weights}.
+
+we applied weight squeezing to a pre-trained text classification model based on a bert-medium model. we compared our method to various other knowledge transfer and model compression methods using the glue multitask benchmark. we observed that our approach produces better results while being significantly faster than other methods for training student models.
+
+we also proposed a variant of weight squeezing called gated weight squeezing, in which we combined fine-tuning a small bert model and learning mapping from larger bert weights. we showed that, in most cases, fine-tuning a bert model with gated weight squeezing can outperform plain fine-tuning.

@@ -1,18 +1,1 @@
-we present a new deep supervised learning method for intrinsic decomposition
-of a single image into its albedo and shading components. our contributions are
-based on a new fully convolutional neural network that estimates absolute
-albedo and shading jointly. our solution relies on a single end-to-end deep
-sequence of residual blocks and a perceptually-motivated metric formed by two
-adversarially trained discriminators. as opposed to classical intrinsic image
-decomposition work, it is fully data-driven, hence does not require any
-physical priors like shading smoothness or albedo sparsity, nor does it rely on
-geometric information such as depth. compared to recent deep learning
-techniques, we simplify the architecture, making it easier to build and train,
-and constrain it to generate a valid and reversible decomposition. we rediscuss
-and augment the set of quantitative metrics so as to account for the more
-challenging recovery of non scale-invariant quantities. we train and
-demonstrate our architecture on the publicly available mpi sintel dataset and
-its intrinsic image decomposition, show attenuated overfitting issues and
-discuss generalizability to other data. results show that our work outperforms
-the state of the art deep algorithms both on the qualitative and quantitative
-aspect.
+diffusion models are a special type of generative model, capable of synthesising new data from a learnt distribution. we introduce dispr, a diffusion-based model for solving the inverse problem of three-dimensional (3d) cell shape prediction from two-dimensional (2d) single cell microscopy images. using the 2d microscopy image as a prior, dispr is conditioned to predict realistic 3d shape reconstructions. to showcase the applicability of dispr as a data augmentation tool in a feature-based single cell classification task, we extract morphological features from the red blood cells grouped into six highly imbalanced classes. adding features from the dispr predictions to the three minority classes improved the macro f1 score from $f1_\text{macro} = 55.2 \pm 4.6\%$ to $f1_\text{macro} = 72.2 \pm 4.9\%$. we thus demonstrate that diffusion models can be successfully applied to inverse biomedical problems, and that they learn to reconstruct 3d shapes with realistic morphological features from 2d microscopy images.

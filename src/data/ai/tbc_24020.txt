@@ -1,0 +1,12 @@
+a multitude of publicly-available driving datasets and data platforms have
+been raised for autonomous vehicles (av). however, the heterogeneities of
+databases in size, structure and driving context make existing datasets
+practically ineffective due to a lack of uniform frameworks and searchable
+indexes. in order to overcome these limitations on existing public datasets,
+this paper proposes a data unification framework based on traffic primitives
+with ability to automatically unify and label heterogeneous traffic data. this
+is achieved by two steps: 1) carefully arrange raw multidimensional time series
+driving data into a relational database and then 2) automatically extract
+labeled and indexed traffic primitives from traffic data through a bayesian
+nonparametric learning method. finally, we evaluate the effectiveness of our
+developed framework using the collected real vehicle data.

@@ -1,0 +1,19 @@
+there is a large literature explaining why adaboost is a successful
+classifier. the literature on adaboost focuses on classifier margins and
+boosting's interpretation as the optimization of an exponential likelihood
+function. these existing explanations, however, have been pointed out to be
+incomplete. a random forest is another popular ensemble method for which there
+is substantially less explanation in the literature. we introduce a novel
+perspective on adaboost and random forests that proposes that the two
+algorithms work for similar reasons. while both classifiers achieve similar
+predictive accuracy, random forests cannot be conceived as a direct
+optimization procedure. rather, random forests is a self-averaging,
+interpolating algorithm which creates what we denote as a "spikey-smooth"
+classifier, and we view adaboost in the same light. we conjecture that both
+adaboost and random forests succeed because of this mechanism. we provide a
+number of examples and some theoretical justification to support this
+explanation. in the process, we question the conventional wisdom that suggests
+that boosting algorithms for classification require regularization or early
+stopping and should be limited to low complexity classes of learners, such as
+decision stumps. we conclude that boosting should be used like random forests:
+with large decision trees and without direct regularization or early stopping.

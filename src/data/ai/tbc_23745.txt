@@ -1,0 +1,4 @@
+this study evaluates the performances of an lstm network for detecting and
+extracting the intent and content of com- mands for a financial chatbot. it
+presents two techniques, sequence to sequence learning and multi-task learning,
+which might improve on the previous task.

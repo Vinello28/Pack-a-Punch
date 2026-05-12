@@ -1,1 +1,18 @@
-La nostra startup Archygram nasce con una mission: rivoluzionare il lavoro di ristrutturazione da parte di ingegneri architetti e geometri grazie al nostro software basato su intelligenza artificiale e fotogrammetria che permette di automatizzare il processo pi oneroso di un progetto cio quello di rilievo e classificazione architettonica che al momento si compie in maniera totalmente manuale generando errori metrici che influenzano la qualit dell'elaborato finale.
+model learning from class imbalanced training data is a long-standing and
+significant challenge for machine learning. in particular, existing deep
+learning methods consider mostly either class balanced data or moderately
+imbalanced data in model training, and ignore the challenge of learning from
+significantly imbalanced training data. to address this problem, we formulate a
+class imbalanced deep learning model based on batch-wise incremental minority
+(sparsely sampled) class rectification by hard sample mining in majority
+(frequently sampled) classes during model training. this model is designed to
+minimise the dominant effect of majority classes by discovering sparsely
+sampled boundaries of minority classes in an iterative batch-wise learning
+process. to that end, we introduce a class rectification loss (crl) function
+that can be deployed readily in deep network architectures. extensive
+experimental evaluations are conducted on three imbalanced person attribute
+benchmark datasets (celeba, x-domain, deepfashion) and one balanced object
+category benchmark dataset (cifar-100). these experimental results demonstrate
+the performance advantages and model scalability of the proposed batch-wise
+incremental minority class rectification model over the existing
+state-of-the-art models for addressing the problem of imbalanced data learning.

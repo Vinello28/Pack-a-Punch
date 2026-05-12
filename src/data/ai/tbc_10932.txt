@@ -1,18 +1,1 @@
-the smallest eigenvectors of the graph laplacian are well-known to provide a
-succinct representation of the geometry of a weighted graph. in reinforcement
-learning (rl), where the weighted graph may be interpreted as the state
-transition process induced by a behavior policy acting on the environment,
-approximating the eigenvectors of the laplacian provides a promising approach
-to state representation learning. however, existing methods for performing this
-approximation are ill-suited in general rl settings for two main reasons:
-first, they are computationally expensive, often requiring operations on large
-matrices. second, these methods lack adequate justification beyond simple,
-tabular, finite-state settings. in this paper, we present a fully general and
-scalable method for approximating the eigenvectors of the laplacian in a
-model-free rl context. we systematically evaluate our approach and empirically
-show that it generalizes beyond the tabular, finite-state setting. even in
-tabular, finite-state settings, its ability to approximate the eigenvectors
-outperforms previous proposals. finally, we show the potential benefits of
-using a laplacian representation learned using our method in goal-achieving rl
-tasks, providing evidence that our technique can be used to significantly
-improve the performance of an rl agent.
+this paper introduces a new metamodel-based knowledge representation that significantly improves autonomous learning and adaptation. while interest in hybrid machine learning / symbolic ai systems leveraging, for example, reasoning and knowledge graphs, is gaining popularity, we find there remains a need for both a clear definition of knowledge and a metamodel to guide the creation and manipulation of knowledge. some of the benefits of the metamodel we introduce in this paper include a solution to the symbol grounding problem, cumulative learning, and federated learning. we have applied the metamodel to problems ranging from time series analysis, computer vision, and natural language understanding and have found that the metamodel enables a wide variety of learning mechanisms ranging from machine learning, to graph network analysis and learning by reasoning engines to interoperate in a highly synergistic way. our metamodel-based projects have consistently exhibited unprecedented accuracy, performance, and ability to generalize. this paper is inspired by the state-of-the-art approaches to agi, recent agi-aspiring work, the granular computing community, as well as alfred korzybski's general semantics. one surprising consequence of the metamodel is that it not only enables a new level of autonomous learning and optimal functioning for machine intelligences, but may also shed light on a path to better understanding how to improve human cognition.

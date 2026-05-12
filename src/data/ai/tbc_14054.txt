@@ -1,0 +1,6 @@
+our experiment adapts several popular deep learning methods as well as some
+traditional methods on the problem of video emotion recognition. in our
+experiment, we use the cnn-lstm architecture for visual information extraction
+and classification and utilize traditional methods such as for audio feature
+classification. for multimodal fusion, we use the traditional support vector
+machine. our experiment yields a good result on the afew 6.0 dataset.

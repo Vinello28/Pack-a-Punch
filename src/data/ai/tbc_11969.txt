@@ -1,0 +1,15 @@
+to address the sequential changes of images including poses, in this paper we
+propose a recurrent regression neural network(rrnn) framework to unify two
+classic tasks of cross-pose face recognition on still images and video-based
+face recognition. to imitate the changes of images, we explicitly construct the
+potential dependencies of sequential images so as to regularize the final
+learning model. by performing progressive transforms for sequentially adjacent
+images, rrnn can adaptively memorize and forget the information that benefits
+for the final classification. for face recognition of still images, given any
+one image with any one pose, we recurrently predict the images with its
+sequential poses to expect to capture some useful information of others poses.
+for video-based face recognition, the recurrent regression takes one entire
+sequence rather than one image as its input. we verify rrnn in static face
+dataset multipie and face video dataset youtube celebrities(ytc). the
+comprehensive experimental results demonstrate the effectiveness of the
+proposed rrnn method.

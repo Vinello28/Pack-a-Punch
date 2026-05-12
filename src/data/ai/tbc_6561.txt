@@ -1,1 +1,19 @@
-text based games are simulations in which an agent interacts with the world purely through natural language. they typically consist of a number of puzzles interspersed with interactions with common everyday objects and locations. deep reinforcement learning agents can learn to solve these puzzles. however, the everyday interactions with the environment, while trivial for human players, present as additional puzzles to agents. we explore two techniques for incorporating commonsense knowledge into agents. inferring possibly hidden aspects of the world state with either a commonsense inference model comet, or a language model bert. biasing an agents exploration according to common patterns recognized by a language model. we test our technique in the 9to05 game, which is an extreme version of a text based game that requires numerous interactions with common, everyday objects in common, everyday scenarios. we conclude that agents that augment their beliefs about the world state with commonsense inferences are more robust to observational errors and omissions of common elements from text descriptions.
+the constant growth of the e-commerce industry has rendered the problem of
+product retrieval particularly important. as more enterprises move their
+activities on the web, the volume and the diversity of the product-related
+information increase quickly. these factors make it difficult for the users to
+identify and compare the features of their desired products. recent studies
+proved that the standard similarity metrics cannot effectively identify
+identical products, since similar titles often refer to different products and
+vice-versa. other studies employed external data sources (search engines) to
+enrich the titles; these solutions are rather impractical mainly because the
+external data fetching is slow. in this paper we introduce upm, an unsupervised
+algorithm for matching products by their titles. upm is independent of any
+external sources, since it analyzes the titles and extracts combinations of
+words out of them. these combinations are evaluated according to several
+criteria, and the most appropriate of them constitutes the cluster where a
+product is classified into. upm is also parameter-free, it avoids product
+pairwise comparisons, and includes a post-processing verification stage which
+corrects the erroneous matches. the experimental evaluation of upm demonstrated
+its superiority against the state-of-the-art approaches in terms of both
+efficiency and effectiveness.

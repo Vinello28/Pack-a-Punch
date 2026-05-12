@@ -1,0 +1,11 @@
+disguised face identification (dfi) is an extremely challenging problem due
+to the numerous variations that can be introduced using different disguises.
+this paper introduces a deep learning framework to first detect 14 facial
+key-points which are then utilized to perform disguised face identification.
+since the training of deep learning architectures relies on large annotated
+datasets, two annotated facial key-points datasets are introduced. the
+effectiveness of the facial keypoint detection framework is presented for each
+keypoint. the superiority of the key-point detection framework is also
+demonstrated by a comparison with other deep networks. the effectiveness of
+classification performance is also demonstrated by comparison with the
+state-of-the-art face disguise classification methods.

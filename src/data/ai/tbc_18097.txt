@@ -1,1 +1,16 @@
-Esperienze oltre il Libro nasce per trasformare il mondo della lettura per bambini e ragazzi  fondendo tecnologia avanzata e personalizzazione per creare esperienze uniche e interattive. Con l'intelligenza artificiale generativa  sviluppiamo contenuti che si adattano ai bisogni e ai gusti individuali di ogni lettore  trasformando ogni libro in un viaggio personalizzato. Il nostro obiettivo Ã¨ promuovere la lettura in un mondo sempre piÃ¹ tecnologico  dove i bambini leggono sempre meno. Vogliamo riavvicinarli al piacere della lettura attraverso soluzioni tecnologiche che rendano l'esperienza personalizzata in base agli interessi e alle capacitÃ  di ogni lettore. Puntiamo a educare e includere  rendendo la lettura accessibile a tutti  compresi i bambini con disabilitÃ . Inoltre  ci impegniamo a utilizzare soluzioni sostenibili per la produzione e lo sviluppo  garantendo un approccio ecologico e responsabile. Vogliamo creare un impatto positivo e duraturo sullo sviluppo dei giovani lettori.
+this work studies how an ai-controlled dog-fighting agent with tunable
+decision-making parameters can learn to optimize performance against an
+intelligent adversary, as measured by a stochastic objective function evaluated
+on simulated combat engagements. gaussian process bayesian optimization (gpbo)
+techniques are developed to automatically learn global gaussian process (gp)
+surrogate models, which provide statistical performance predictions in both
+explored and unexplored areas of the parameter space. this allows a learning
+engine to sample full-combat simulations at parameter values that are most
+likely to optimize performance and also provide highly informative data points
+for improving future predictions. however, standard gpbo methods do not provide
+a reliable surrogate model for the highly volatile objective functions found in
+aerial combat, and thus do not reliably identify global maxima. these issues
+are addressed by novel repeat sampling (rs) and hybrid repeat/multi-point
+sampling (hrms) techniques. simulation studies show that hrms improves the
+accuracy of gp surrogate models, allowing ai decision-makers to more accurately
+predict performance and efficiently tune parameters.

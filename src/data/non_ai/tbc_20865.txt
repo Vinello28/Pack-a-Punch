@@ -1,0 +1,1 @@
+Ioda intende creare un software per fornire agli ortopedici e ai radiologi indipendentemente dalle loro competenze specifiche la possibilit di diagnosticare velocemente e automaticamente i difetti/deficit ossei legati ad un instabilit di spalla in termini di volume sede e percentuale tramite una tecnologia 3D.

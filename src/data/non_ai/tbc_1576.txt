@@ -1,1 +1,1 @@
-Il progetto di investimento produttivo e finalizzato alla creazione di una nuova unita produttiva mediante lo spostamento dell attivita in un nuovo edificio mantenendo l ubicazione a Capua (CE). Verra, inoltre, potenziata la diagnostica per immagini introducendo nuovi strumenti tecnologicamente avanzati
+- REALIZZAZIONE DI UNA INTERFACCIA WEB PER L'ATTREZZAGGIO E IL SETTING AUTOMATICO DEL NUOVO IMPIANTO DI CONFEZIONAMENTO - REALIZZAZIONE DI UN SOFTWARE PER LA GESTIONE DEI DATI TECNICI E COMMERCIALI ASSOCIATI AI PRODOTTI - INTEGRAZIONE COI DATI ANAGRAFICI PRESENTI NELL'ERP

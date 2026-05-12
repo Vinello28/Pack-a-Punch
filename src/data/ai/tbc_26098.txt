@@ -1,0 +1,16 @@
+network operators are generally aware of common attack vectors that they
+defend against. for most networks the vast majority of traffic is legitimate.
+however new attack vectors are continually designed and attempted by bad actors
+which bypass detection and go unnoticed due to low volume. one strategy for
+finding such activity is to look for anomalous behavior. investigating
+anomalous behavior requires significant time and resources. collecting a large
+number of labeled examples for training supervised models is both prohibitively
+expensive and subject to obsoletion as new attacks surface. a purely
+unsupervised methodology is ideal; however, research has shown that even a very
+small number of labeled examples can significantly improve the quality of
+anomaly detection. a methodology that minimizes the number of required labels
+while maximizing the quality of detection is desirable. false positives in this
+context result in wasted effort or blockage of legitimate traffic and false
+negatives translate to undetected attacks. we propose a general active learning
+framework and experiment with different choices of learners and sampling
+strategies.

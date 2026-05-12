@@ -1,0 +1,17 @@
+the identification of lesion within medical image data is necessary for
+diagnosis, treatment and prognosis. segmentation and classification approaches
+are mainly based on supervised learning with well-paired image-level or
+voxel-level labels. however, labeling the lesion in medical images is laborious
+requiring highly specialized knowledge. we propose a medical image synthesis
+model named abnormal-to-normal translation generative adversarial network
+(ant-gan) to generate a normal-looking medical image based on its
+abnormal-looking counterpart without the need for paired training data. unlike
+typical gans, whose aim is to generate realistic samples with variations, our
+more restrictive model aims at producing a normal-looking image corresponding
+to one containing lesions, and thus requires a special design. being able to
+provide a "normal" counterpart to a medical image can provide useful side
+information for medical imaging tasks like lesion segmentation or
+classification validated by our experiments. in the other aspect, the ant-gan
+model is also capable of producing highly realistic lesion-containing image
+corresponding to the healthy one, which shows the potential in data
+augmentation verified in our experiments.

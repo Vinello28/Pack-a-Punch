@@ -1,2 +1,0 @@
-L'obiettivo del servizio in oggetto è supportare Kelyon nell'ideazione e implementazione di un assistente virtuale, potenziato da Intelligenza Artificiale (AI) e tecnologie LLM (Large Language Models). 
-Il sistema si rivolgerà alle donne in età fertile, durante la gravidanza e nel puerperio, offrendo informazioni aggiornate e affidabili su tutti i principali aspetti della salute femminile e materno-infantile. Grazie a un approccio data-driven e all’uso di tecniche di AI, l’esperienza e la qualità del servizio verranno migliorate costantemente.

@@ -1,7 +1,0 @@
-Il progetto Smarrt Optic ha l'obiettivo di migliorare l'efficienza aziendale, modernizzare l'organizzazione del lavoro tramite l'utilizzo di strumenti tecnologici innovativi e di conseguenza di offrire nuove opportunità di lavoro per i professionisti del settore.
-Il progetto infatti prevede la realizzazione di un sistema informativo avanzato che abbia molteplici funzionalità. Gestione ordini, gestione magazzino,e vendità attraverso apposito modulo E-Commerce sono solo alcuni dei moduli che il sistema dovrà possedere che permettono al proponente di gestire la propria azienda in maniera flessibile.
-
-Valore altamente innovativo è dato dalla realizzazione di un ulteriore modulo che sfrutta la Computer Vision e Realtà Virtuale permettendo all'utente finale di provare comodamente da casa i prodotti chattando con un apposito chatbot che lo seguirà fino all'acquisto. 
-
- Infine un apposita sezione conterrà un marketplace(simile ad  Amazon), dove la tutti gli ottici certificati potranno inserire i propri prodotti gratuitamente, pagando una commissione sul venduto. 
-Saranno previste sedute di formazione specialistica al fine di poter gestire autonomamente il sito

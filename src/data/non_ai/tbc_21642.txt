@@ -1,0 +1,1 @@
+L'obiettivo del servizio supportare P4Future nell'ideazione e implementazione di una soluzione innovativa di Monitoraggio Predittivo dei Processi basata su Apprendimento Automatico o Apprendimento Profondo e che possa essere semplicemente integrata nella piattaforma PulseMinds

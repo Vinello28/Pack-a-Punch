@@ -1,1 +1,15 @@
-DIGITAL MATURITY ASSESSMENT Acceleration Event ARTIFICIAL INTELLIGENCE MADE EASY FOR THE RAILWAY AND MOBILITY VALUE CHAIN
+this article presents a convolutional neural network for the automatic
+segmentation of brain tumors in multimodal 3d mr images based on a u-net
+architecture.we evaluate the use of a densely connected convolutional network
+encoder (densenet) which was pretrained on the imagenet data set. we detail two
+network architectures that can take into account multiple 3d images as inputs.
+this work aims to identify if a generic pretrained network can be used for very
+specific medical applications where the target data differ both in the number
+of spatial dimensions as well as in the number of inputs channels. moreover in
+order to regularize this transfer learning task we only train the decoder part
+of the u-net architecture. we evaluate the effectiveness of the proposed
+approach on the brats 2018 segmentation challenge where we obtained dice scores
+of 0.79, 0.90, 0.85 and 95/% hausdorff distance of 2.9mm, 3.95mm, and 6.48mm
+for enhanced tumor core, whole tumor and tumor core respectively on the
+validation set. this scores degrades to 0.77, 0.88, 0.78 and 95 /% hausdorff
+distance of 3.6mm, 5.72mm, and 5.83mm on the testing set.

@@ -1,1 +1,0 @@
-MINT fornirà dataset e codebase; FBK metterà a disposizione il proprio know-how per l'analisi dei dataset e le risorse di calcolo necessarie per l'addestramento degli algoritmi selezionati. Inoltre, MINT fornirà l’hardware a FBK che esegue la soluzione al fine del benchmarking in condizioni reali.

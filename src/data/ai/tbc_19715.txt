@@ -1,0 +1,20 @@
+characterizing patient somatic mutations through next-generation sequencing
+technologies opens up possibilities for refining cancer subtypes. however,
+catalogues of mutations reveal that only a small fraction of the genes are
+altered frequently in patients. on the other hand different genomic alterations
+may perturb the same pathways. we propose a novel clustering procedure that
+quantifies the similarities of patients from their mutational profile on
+pathways via a novel graph kernel. we represent each kegg pathway as an
+undirected graph. for each patient the vertex labels are assigned based on her
+altered genes. smoothed shortest path graph kernel (smspk) evaluates each pair
+of patients by comparing their vertex labeled pathway graphs. our clustering
+procedure involves two steps: the smspk kernel matrix derived for each pathway
+are input to kernel k-means algorithm and each pathway is evaluated
+individually. in the next step, only those pathways that are successful are
+combined in to a single kernel input to kernel k-means to stratify patients.
+evaluating the procedure on simulated data showed that smspk clusters patients
+up to 88\% accuracy. finally to identify ovarian cancer patient subgroups, we
+apply our methodology to the cancer genome atlas ovarian data that involves 481
+patients. the identified subgroups are evaluated through survival analysis.
+grouping patients into four clusters results with patients groups that are
+significantly different in their survival times ($p$-value $\le 0.005$).

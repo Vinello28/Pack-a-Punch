@@ -1,0 +1,12 @@
+we study the extent to which online social networks can be connected to open
+knowledge bases. the problem is referred to as learning social knowledge
+graphs. we propose a multi-modal bayesian embedding model, genvector, to learn
+latent topics that generate word and network embeddings. genvector leverages
+large-scale unlabeled data with embeddings and represents data of two
+modalities---i.e., social network users and knowledge concepts---in a shared
+latent topic space. experiments on three datasets show that the proposed method
+clearly outperforms state-of-the-art methods. we then deploy the method on
+aminer, a large-scale online academic search system with a network of
+38,049,189 researchers with a knowledge base with 35,415,011 concepts. our
+method significantly decreases the error rate in an online a/b test with live
+users.

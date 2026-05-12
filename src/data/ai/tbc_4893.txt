@@ -1,6 +1,1 @@
-Il progetto si propone di realizzare un prototipo basato su AI che permetta agli operatori aziendali di interrogare il sistema gestionale tramite comandi vocali o testuali in linguaggio naturale, ottenendo in output dati strutturati o rappresentazioni grafiche su dispositivi mobili.
-Il progetto prevede, alla conclusione del progetto, la realizzazione di 3 prototipi: 
-- prototipo iniziale per test interni: primo prototipo per dimostrare in laboratorio la tecnologia (TRL4);
-- prototipo beta pronto per test con utenti selezionati (TRL5);
-- versione finale validata in ambiente rilevante, che consiste in un prototipo validato in laboratorio (TRL6).
-ALFATEAM mira a diventare un pioniere nell'applicazione pratica dell'AI nei sistemi gestionali, offrendo una soluzione che risponde alle esigenze attuali e future delle aziende, facilitando la transizione verso modelli operativi agili e orientati ai dati.
+Nell'ambito dei progetti di realt virtuale e realt aumentata associati alla nostra attivit necessitiamo di ammodernare gli headset di visualizzazione e workstation dedicate con supporto di storage adeguato.

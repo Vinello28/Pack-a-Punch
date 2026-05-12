@@ -1,0 +1,16 @@
+dialog state tracking (dst) is a crucial component in a task-oriented dialog
+system for conversational information access. a common practice in current
+dialog systems is to define the dialog state by a set of slot-value pairs. such
+representation of dialog states and the slot-filling based dst have been widely
+employed, but suffer from three drawbacks. (1) the dialog state can contain
+only a single value for a slot, and (2) can contain only users' affirmative
+preference over the values for a slot. (3) current task-based dialog systems
+mainly focus on the searching task, while the enquiring task is also very
+common in practice. the above observations motivate us to enrich current
+representation of dialog states and collect a brand new dialog dataset about
+movies, based upon which we build a new dst, called enriched dst (edst), for
+flexible accessing movie information. the edst supports the searching task, the
+enquiring task and their mixed task. we show that the new edst method not only
+achieves good results on iqiyi dataset, but also outperforms other
+state-of-the-art dst methods on the traditional dialog datasets, woz2.0 and
+dstc2.

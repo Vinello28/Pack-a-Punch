@@ -1,13 +1,1 @@
-Il progetto prevede la creazione di un ecosistema tecnologico incentrato sull’uso di IA e soluzioni cloud per potenziare e automatizzare le attività di tutela, salvaguardia e controllo di autenticità, valorizzazione del DOP Parmigiano Reggiano.
-Prevede la costruzione di due soluzioni:
--	PIATTAFORMA PER MENU DATA SCRAPING che attraverso IA e Big Data consente analisi continua e dinamica dei menu dei ristoranti e degli ingredienti utilizzati per monitorare l’utilizzo del Parmigiano Reggiano, identificare le ricette in cui viene utilizzato e individuare casi di utilizzo scorretto del nome DOP
--	SMART AMBASSADOR: servizio cloud per la gestione di un assistente virtuale intelligente che attraverso IA e chatbot si relaziona con i clienti/consumatori per fornire informazioni sul prodotto. Interviene sui processi informativi e di relazione con i clienti ma interseca anche il processo di controllo antifrode. 
-Consentirà di:
--	raccogliere e analizzare sistematicamente grandi volumi di dati 
--	elaborare feedback e segnalazioni dei consumatori 
--	identificare tendenze di mercato 
--	creare dashboard analitiche per il monitoraggio 
-Impatti: 
--	tasso identificazione delle frodi commerciali + 55%
--	tempo medio di intervento correttivo -65%
--	engagement del consumatore: +75%
+current variational dialog models have employed pre-trained language models (plms) to parameterize the likelihood and posterior distributions. however, the gaussian assumption made on the prior distribution is incompatible with these distributions, thus restricting the diversity of generated responses. these models also suffer from posterior collapse, i.e., the decoder tends to ignore latent variables and directly access information captured in the encoder through the cross-attention mechanism. in this work, we propose dior-cvae, a hierarchical conditional variational autoencoder (cvae) with diffusion priors to address these challenges. we employ a diffusion model to increase the complexity of the prior distribution and its compatibility with the distributions produced by a plm. also, we propose memory dropout to the cross-attention mechanism, which actively encourages the use of latent variables for response generation. overall, experiments across two commonly used open-domain dialog datasets show that our method can generate more diverse responses without large-scale dialog pre-training. code is available at https://github.com/ukplab/dior-cvae.

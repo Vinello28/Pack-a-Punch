@@ -1,0 +1,18 @@
+the parafac2 is a multimodal factor analysis model suitable for analyzing
+multi-way data when one of the modes has incomparable observation units, for
+example because of differences in signal sampling or batch sizes. a fully
+probabilistic treatment of the parafac2 is desirable in order to improve
+robustness to noise and provide a well founded principle for determining the
+number of factors, but challenging because the factor loadings are constrained
+to be orthogonal. we develop two probabilistic formulations of the parafac2
+along with variational procedures for inference: in the one approach, the mean
+values of the factor loadings are orthogonal leading to closed form variational
+updates, and in the other, the factor loadings themselves are orthogonal using
+a matrix von mises-fisher distribution. we contrast our probabilistic
+formulation to the conventional direct fitting algorithm based on maximum
+likelihood. on simulated data and real fluorescence spectroscopy and gas
+chromatography-mass spectrometry data, we compare our approach to the
+conventional parafac2 model estimation and find that the probabilistic
+formulation is more robust to noise and model order misspecification. the
+probabilistic parafac2 thus forms a promising framework for modeling multi-way
+data accounting for uncertainty.

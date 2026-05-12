@@ -1,1 +1,25 @@
-magnetic resonance imaging (mri) is an essential diagnostic tool in clinical settings but its utility is often hindered by noise artifacts introduced during the imaging process. effective denoising is critical for enhancing image quality while preserving anatomical structures. however traditional denoising methods which typically assume uniform noise distributions struggle to handle the non-uniform noise commonly present in mri images. in this paper we introduce a novel approach leveraging a sparse mixture-of-experts framework for mri image denoising. each expert is a specialized denoising convolutional neural network fine-tuned to target specific noise characteristics associated with different image regions. our method demonstrates superior performance over state-of-the-art denoising techniques on both synthetic and real-world mri datasets. furthermore we show that it generalizes effectively to unseen datasets highlighting its robustness and adaptability.
+we study randomly initialized residual networks using mean field theory and
+the theory of difference equations. classical feedforward neural networks, such
+as those with tanh activations, exhibit exponential behavior on the average
+when propagating inputs forward or gradients backward. the exponential forward
+dynamics causes rapid collapsing of the input space geometry, while the
+exponential backward dynamics causes drastic vanishing or exploding gradients.
+we show, in contrast, that by adding skip connections, the network will,
+depending on the nonlinearity, adopt subexponential forward and backward
+dynamics, and in many cases in fact polynomial. the exponents of these
+polynomials are obtained through analytic methods and proved and verified
+empirically to be correct. in terms of the "edge of chaos" hypothesis, these
+subexponential and polynomial laws allow residual networks to "hover over the
+boundary between stability and chaos," thus preserving the geometry of the
+input space and the gradient information flow. in our experiments, for each
+activation function we study here, we initialize residual networks with
+different hyperparameters and train them on mnist. remarkably, our
+initialization time theory can accurately predict test time performance of
+these networks, by tracking either the expected amount of gradient explosion or
+the expected squared distance between the images of two input vectors.
+importantly, we show, theoretically as well as empirically, that common
+initializations such as the xavier or the he schemes are not optimal for
+residual networks, because the optimal initialization variances depend on the
+depth. finally, we have made mathematical contributions by deriving several new
+identities for the kernels of powers of relu functions by relating them to the
+zeroth bessel function of the second kind.

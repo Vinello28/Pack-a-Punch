@@ -1,0 +1,7 @@
+purpose: detection of alzheimer’s disease (ad) on magnetic resonance imaging (mri) using convolutional neural networks (cnns), which is useful for detecting ad in its preliminary states.
+
+approach: our study implements and compares several deep models and configurations, including two-dimensional (2d) and three-dimensional (3d) cnns and recurrent neural networks (rnns). to use a 2d cnn on 3d mri volumes, each mri scan is split into 2d slices, neglecting the connection among 2d image slices in an mri volume. instead, a cnn model could be followed by an rnn in a way that the model of 2d cnn + rnn can understand the connection among sequences of 2d image slices for an mri. the issue is that the feature extraction step in the 2d cnn is independent of classification in the rnn. to tackle this, 3d cnns can be employed instead of 2d cnns to make voxel-based decisions. our study’s main contribution is to introduce transfer learning from a dataset of 2d images to 3d cnns.
+
+results: the results on our mri dataset indicate that sequence-based decisions improve the accuracy of slice-based decisions by 2% in classifying ad patients from healthy subjects. also, the 3d voxel-based method with transfer learning outperforms the other methods with 96.88% accuracy, 100% sensitivity, and 94.12% specificity.
+
+conclusions: several implementations and experiments using cnns on mri scans for ad detection demonstrated that the voxel-based method with transfer learning from imagenet to mri datasets using 3d cnns considerably improved the results compared with the others.

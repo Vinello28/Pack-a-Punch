@@ -1,0 +1,16 @@
+we present a novel approach to object classification and detection which
+requires minimal supervision and which combines visual texture cues and shape
+information learned from freely available unlabeled web search results. the
+explosion of visual data on the web can potentially make visual examples of
+almost any object easily accessible via web search. previous unsupervised
+methods have utilized either large scale sources of texture cues from the web,
+or shape information from data such as crowdsourced cad models. we propose a
+two-stream deep learning framework that combines these cues, with one stream
+learning visual texture cues from image search data, and the other stream
+learning rich shape information from 3d cad models. to perform classification
+or detection for a novel image, the predictions of the two streams are combined
+using a late fusion scheme. we present experiments and visualizations for both
+tasks on the standard benchmark pascal voc 2007 to demonstrate that texture and
+shape provide complementary information in our model. our method outperforms
+previous web image based models, 3d cad model based approaches, and weakly
+supervised models.

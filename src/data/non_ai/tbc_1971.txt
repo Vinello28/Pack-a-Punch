@@ -1,8 +1,0 @@
-Il cambiamento climatico e una delle sfide principali a cui va incontro la popolazione del pianeta. Il World Economic Forum del maggio 2019 ha citato i cambiamenti climatici e l'incapacita di implementare politiche efficaci tra i 5 principali rischi economici per il business. I suoi impatti sono profondamente interconnessi con tutti gli aspetti della nostra societa.
-Il presente progetto intende insegnare a comprendere e a sintetizzare gli aspetti biofisici, produttivi e socioeconomici dei cambiamenti climatici, a valutare le ricadute sull'economia e sulla societa, delineare soluzioni innovative e strategie di gestione del rischio climatico. Inoltre permette di acquisire familiarita con una vasta gama di strumenti modellistici, analitici e statistici necessari per:
-  spiegare la natura fisica e scientifica dei caambiamenti climatici e della dimensione dell'incertezza;
-  valutar gli impatti socio economici dei cambiamenti climatici, i costi e benefici;
-  stimare e gestire il rischio climatico;
-  analizzare, valutare, delineare politiche e soluzioni climatiche innovative;
-  valutare costi e benefici economici delle strategie di mitigazione e di adattamento;
-  avviare processi trasform...

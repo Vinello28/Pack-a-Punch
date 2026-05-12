@@ -1,0 +1,22 @@
+objective: vast 12-lead ecgs repositories provide opportunities to develop new machine
+learning approaches for creating accurate and automatic diagnostic systems for cardiac
+abnormalities. however, most 12-lead ecg classification studies are trained, tested, or
+developed in single, small, or relatively homogeneous datasets. in addition, most algorithms
+focus on identifying small numbers of cardiac arrhythmias that do not represent the
+complexity and difficulty of ecg interpretation. this work addresses these issues by
+providing a standard, multi-institutional database and a novel scoring metric through a
+public competition: the physionet/computing in cardiology challenge 2020.
+approach: a total of 66361 12-lead ecg recordings were sourced from six hospital
+systems from four countries across three continents. 43,101 recordings were posted publicly
+with a focus on 27 diagnoses. for the first time in a public competition, we required teams
+to publish open-source code for both training and testing their algorithms, ensuring full
+scientific reproducibility.
+main results: a total of 217 teams submitted 1395 algorithms during the challenge,
+representing a diversity of approaches for identifying cardiac abnormalities from both
+academia and industry. as with previous challenges, high-performing algorithms exhibited
+significant drops (/ 10%) in performance on the hidden test data.
+significance: data from diverse institutions allowed us to assess algorithmic
+generalizability. a novel evaluation metric considered different misclassification errors for
+different cardiac abnormalities, capturing the outcomes and risks of different diagnoses.
+requiring both trained models and code for training models improved the generalizability
+of submissions, setting a new bar in reproducibility for public data science competitions.

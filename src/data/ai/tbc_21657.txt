@@ -1,0 +1,20 @@
+animal behavior is not driven simply by its current observations, but is
+strongly influenced by internal states. estimating the structure of these
+internal states is crucial for understanding the neural basis of behavior. in
+principle, internal states can be estimated by inverting behavior models, as in
+inverse model-based reinforcement learning. however, this requires careful
+parameterization and risks model-mismatch to the animal. here we take a
+data-driven approach to infer latent states directly from observations of
+behavior, using a partially observable switching semi-markov process. this
+process has two elements critical for capturing animal behavior: it captures
+non-exponential distribution of times between observations, and transitions
+between latent states depend on the animal's actions, features that require
+more complex non-markovian models to represent. to demonstrate the utility of
+our approach, we apply it to the observations of a simulated optimal agent
+performing a foraging task, and find that latent dynamics extracted by the
+model has correspondences with the belief dynamics of the agent. finally, we
+apply our model to identify latent states in the behaviors of monkey performing
+a foraging task, and find clusters of latent states that identify periods of
+time consistent with expectant waiting. this data-driven behavioral model will
+be valuable for inferring latent cognitive states, and thereby for measuring
+neural representations of those states.

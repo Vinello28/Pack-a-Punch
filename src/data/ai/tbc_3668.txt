@@ -1,0 +1,14 @@
+reading and understanding text is one important component in computer aided
+diagnosis in clinical medicine, also being a major research problem in the
+field of nlp. in this work, we introduce a question-answering task called medqa
+to study answering questions in clinical medicine using knowledge in a
+large-scale document collection. the aim of medqa is to answer real-world
+questions with large-scale reading comprehension. we propose our solution
+seareader--a modular end-to-end reading comprehension model based on lstm
+networks and dual-path attention architecture. the novel dual-path attention
+models information flow from two perspectives and has the ability to
+simultaneously read individual documents and integrate information across
+multiple documents. in experiments our seareader achieved a large increase in
+accuracy on medqa over competing models. additionally, we develop a series of
+novel techniques to demonstrate the interpretation of the question answering
+process in seareader.

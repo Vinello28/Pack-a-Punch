@@ -1,6 +1,0 @@
-Il piano proposto è composto dalle seguenti attività:
-- Sviluppo di algoritmi appositi per la pianificazione automatizzata delle rotte.
-- Sviluppo di un software gestionale che centralizzi i servizi già in utilizzo.
-- Sviluppo di un sistema per il monitoraggio delle posizioni dei mezzi in tempo reale.
-- Sviluppo di un sistema automatico di comunicazione delle tratte pianificate agli autisti.
-L’intervento necessiterà un alto livello di coordinamento fra il fornitore e l’azienda proponente, che dovrà condividere la propria conoscenza di dominio con il fornitore per garantire la riuscita dell’intervento di innovazione.

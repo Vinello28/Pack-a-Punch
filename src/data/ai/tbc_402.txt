@@ -1,0 +1,21 @@
+oral disintegrating tablets (odts) is a novel dosage form that can be
+dissolved on the tongue within 3min or less especially for geriatric and
+pediatric patients. current odt formulation studies usually rely on the
+personal experience of pharmaceutical experts and trial-and-error in the
+laboratory, which is inefficient and time-consuming. the aim of current
+research was to establish the prediction model of odt formulations with direct
+compression process by artificial neural network (ann) and deep neural network
+(dnn) techniques. 145 formulation data were extracted from web of science. all
+data sets were divided into three parts: training set (105 data), validation
+set (20) and testing set (20). ann and dnn were compared for the prediction of
+the disintegrating time. the accuracy of the ann model has reached 85.60%,
+80.00% and 75.00% on the training set, validation set and testing set
+respectively, whereas that of the dnn model was 85.60%, 85.00% and 80.00%,
+respectively. compared with the ann, dnn showed the better prediction for odt
+formulations. it is the first time that deep neural network with the improved
+dataset selection algorithm is applied to formulation prediction on small data.
+the proposed predictive approach could evaluate the critical parameters about
+quality control of formulation, and guide research and process development. the
+implementation of this prediction model could effectively reduce drug product
+development timeline and material usage, and proactively facilitate the
+development of a robust drug product.

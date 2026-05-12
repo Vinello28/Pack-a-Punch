@@ -1,1 +1,16 @@
-IL PROGETTO MIRA A IMPLEMENTARE UN SOFTWARE PER DIGITALIZZARE E MIGLIORARE I PROCESSI AZIENDALI LEGATI AL CUSTOMER CARE: GESTIONE DEL CLIENTE NEL PROCESSO DI ACQUISTO E DEI POTENZIALI NUOVI CLIENTI SIA PRIMA CHE DURANTE E DOPO LA VENDITA. INFATTI GLI OBIETTIVI DI GROUP ITALIA SONO: IMPLEMENTARE SOLUZIONI DIGITALI PER PERSONALIZZARE L'INTERAZIONE CON I CLIENTI MIGLIORANDO LA LORO ESPERIENZA D'ACQUISTO AUTOMATIZZARE I PROCESSI DI GESTIONE DELLE RICHIESTE DEI CLIENTI ATTRAVERSO L'IMPLEMENTAZIONE E DI SISTEMI DI TICKETING E CHATBOT INTELLIGENTI UTILIZZAR ANALISI DEI DATI E INTELLIGENZA ARTIFICIALE PER PERSONALIZZARE LE COMUNICAZIONI CON I CLIENTI OFFRENDO OFFERTE E INFORMAZIONI RILEVANTI BASATE SUL COMPORTAMENTO DI ACQUISTO UTILIZZARE SISTEMI DI FEEDBACK IN TEMPO REALE PER OTTENERE INFORMAZIONI IMMEDIATAMENTE UTILI PER MIGLIORARE IL SERVIZIO CLIENTI E ADATTARSI ALLE ESIGENZE DEL MERCATO. DUNQUE L INNOVATION MANAGER ESEGUIR PRIMA UNA VALUTAZIONE DEI PROCESSI AZIENDALI LEGATI AL CUSTOMER CARE E POI ATTRAVERSO L IMPLEMENTAZIONE DI TECNOLOGIE IOT ACCOMPAGNER L AZIENDA NELLA DIGITALIZZAZIONE DI TALI PROCESSI SVILUPPANDO UNA STRATEGIA INNOVATIVA E PERSONALIZZATA CHE RENDER L AZIENDA PI SMART E COMPETITIVA.
+interpretability of deep neural networks (dnns) is essential since it enables
+users to understand the overall strengths and weaknesses of the models, conveys
+an understanding of how the models will behave in the future, and how to
+diagnose and correct potential problems. however, it is challenging to reason
+about what a dnn actually does due to its opaque or black-box nature. to
+address this issue, we propose a novel technique to improve the
+interpretability of dnns by leveraging the rich semantic information embedded
+in human descriptions. by concentrating on the video captioning task, we first
+extract a set of semantically meaningful topics from the human descriptions
+that cover a wide range of visual concepts, and integrate them into the model
+with an interpretive loss. we then propose a prediction difference maximization
+algorithm to interpret the learned features of each neuron. experimental
+results demonstrate its effectiveness in video captioning using the
+interpretable features, which can also be transferred to video action
+recognition. by clearly understanding the learned features, users can easily
+revise false predictions via a human-in-the-loop procedure.

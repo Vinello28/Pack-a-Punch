@@ -1,0 +1,10 @@
+this paper proposes a cross-modal retrieval system that leverages on image
+and text encoding. most multimodal architectures employ separate networks for
+each modality to capture the semantic relationship between them. however, in
+our work image-text encoding can achieve comparable results in terms of
+cross-modal retrieval without having to use a separate network for each
+modality. we show that text encodings can capture semantic relationships
+between multiple modalities. in our knowledge, this work is the first of its
+kind in terms of employing a single network and fused image-text embedding for
+cross-modal retrieval. we evaluate our approach on two famous multimodal
+datasets: ms-coco and flickr30k.

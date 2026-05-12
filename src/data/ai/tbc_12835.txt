@@ -1,1 +1,15 @@
-Realizzare un sistema informatico in grado di gestire l innovativo progetto sistemico di Reverse Logistics per la condivisione aperta di strutture e servizi di logistica abbinata agli imballaggi terziari proposto da SIMPOOL. In particolare il sistema attraverso la tecnologia del Cloud Computing sar in grado di: acquisire dati provenienti da fonti esterne al sistema (gli stakeholders di SIMPOOL) concernenti i flussi logistici degli imballaggi terziari degli attori interessati. Archiviare i dati ricevuti in maniera consona cos da permetterne la corretta elaborazione (Big Data) Elaborare i dati acquisiti fornendo agli attori interessati importanti informazioni descrittive e predittive con una considerevole riduzione dei costi una maggiore velocit di analisi dei dati (analisi real time) e una maggiore accuratezza delle analisi potendo disporre di una grande quantit di dati messi a disposizione dagli stakeholders (Analisi dei Dati). Il sistema consentir altres la digitalizzazione costante e in tempo reale di tutti i processi aziendali.
+we propose a new sentence simplification task (split-and-rephrase) where the
+aim is to split a complex sentence into a meaning preserving sequence of
+shorter sentences. like sentence simplification, splitting-and-rephrasing has
+the potential of benefiting both natural language processing and societal
+applications. because shorter sentences are generally better processed by nlp
+systems, it could be used as a preprocessing step which facilitates and
+improves the performance of parsers, semantic role labellers and machine
+translation systems. it should also be of use for people with reading
+disabilities because it allows the conversion of longer sentences into shorter
+ones. this paper makes two contributions towards this new task. first, we
+create and make available a benchmark consisting of 1,066,115 tuples mapping a
+single complex sentence to a sequence of sentences expressing the same meaning.
+second, we propose five models (vanilla sequence-to-sequence to
+semantically-motivated models) to understand the difficulty of the proposed
+task.

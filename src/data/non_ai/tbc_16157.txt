@@ -1,1 +1,1 @@
-Realizzazione software web ecommerce realizzato su css ad hoc per la fisiocorp. Si intende sviluppare un software gestionale per l'attivitÃ  di noleggio apparecchiature elettromedicali e vendita prodotti online. Il portale che si intende realizzare  da un lato  consentirÃ  di automatizzare i processi aziendali relativi alla realizzazione di una pratica di noleggio  che potranno essere effettaute direttamente online attraverso un apposito form di richiesta noleggio
+INTEGRZIONE VERTICALE

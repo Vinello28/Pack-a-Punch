@@ -1,5 +1,1 @@
-IServizio di Consulenza su innovazione
-tecnologica finalizzata alla valutazione
-dell’introduzione dell’intelligenza artificiale nei
-processi aziendali ed in particolare nella
-progettazione di stampi.
+sequence classification is the task of predicting a class label given a sequence of observations. in many applications such as healthcare monitoring or intrusion detection, early classification is crucial to prompt intervention. in this work, we learn sequence classifiers that favour early classification from an evolving observation trace. while many state-of-the-art sequence classifiers are neural networks, and in particular lstms, our classifiers take the form of finite state automata and are learned via discrete optimization. our automata-based classifiers are interpretable---supporting explanation, counterfactual reasoning, and human-in-the-loop modification---and have strong empirical performance. experiments over a suite of goal recognition and behaviour classification datasets show our learned automata-based classifiers to have comparable test performance to lstm-based classifiers, with the added advantage of being interpretable.

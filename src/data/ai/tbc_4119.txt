@@ -1,7 +1,24 @@
-IL PROGETTO DI TRASFORMAZIONE DIGITALE HA L'OBIETTIVO DI MODERNIZZARE E OTTIMIZZARE LE OPERAZIONI AZIENDALI PER INTRODURRE NUOVI PROCESSI SFRUTTANDO LE INNOVAZIONI IN AMBITO AI E CENTRALIZZAZIONE DEI DATI. TALI INTERVENTI SONO PROGETTATI PER MIGLIORARE L'EFFICIENZA OPERATIVA E AUMENTARE LA COMPETITIVITÀ SUL MERCATO DI YPL CREANDO UNA SOLIDA BASE PER L'INNOVAZIONE CONTINUA.
-I PRINCIPALI OBIETTIVI DEL PROGETTO SONO I SEGUENTI:
-- ANALISI DEI DATI E BUSINESS INTELLIGENCE: IMPLEMENTAZIONE DI SISTEMI AVANZI DI BI PER ANALISI DATI E ANDAMENTI AZIENDALI AL FINE DI FACILITARE LA PRESA DI DECISIONI BASATE SU DATI E PREVISIONI DI MERCATO
-- MIGLIORAMENTO PRODUTTIVITÀ: REVISIONE PROCESSI, INFRASTRUTTURA IT AZIENDALE E IMPLEMENTAZIONE AI
-- EFFICIENTAMENTO MARKETING FUNNEL: ANALISI AVANZATA DEI DATI MARKETING PER IMPLEMENTARE PROCESSI DI MARKETING AUTOMATION, REVISIONARE LA STRUTTURA TECNICA DELL’E-COMMERCE E I SISTEMI DI TRACCIAMENTO DATI
-- FORMAZIONE DEL TEAM INTERNO: INTEGRAZIONE DI PROCESSI ALLINEATI E FORMAZIONE AL TEAM INTERNO PER INTRODUZIONE AI NUOVI PROCESSI E SISTEMI
-- SISTEMI DI CONTROLLO FINANZIARIO: INTRODUZIONE DI SISTEMI DI CONTROLLO SUL BUDGETING ALL’INTERNO DI SISTEMI DI BI
+in this paper, we focus on online reviews and employ artificial intelligence
+tools, taken from the cognitive computing field, to help understanding the
+relationships between the textual part of the review and the assigned numerical
+score. we move from the intuitions that 1) a set of textual reviews expressing
+different sentiments may feature the same score (and vice-versa); and 2)
+detecting and analyzing the mismatches between the review content and the
+actual score may benefit both service providers and consumers, by highlighting
+specific factors of satisfaction (and dissatisfaction) in texts.
+  to prove the intuitions, we adopt sentiment analysis techniques and we
+concentrate on hotel reviews, to find polarity mismatches therein. in
+particular, we first train a text classifier with a set of annotated hotel
+reviews, taken from the booking website. then, we analyze a large dataset, with
+around 160k hotel reviews collected from tripadvisor, with the aim of detecting
+a polarity mismatch, indicating if the textual content of the review is in
+line, or not, with the associated score.
+  using well established artificial intelligence techniques and analyzing in
+depth the reviews featuring a mismatch between the text polarity and the score,
+we find that -on a scale of five stars- those reviews ranked with middle scores
+include a mixture of positive and negative aspects.
+  the approach proposed here, beside acting as a polarity detector, provides an
+effective selection of reviews -on an initial very large dataset- that may
+allow both consumers and providers to focus directly on the review subset
+featuring a text/score disagreement, which conveniently convey to the user a
+summary of positive and negative features of the review target.

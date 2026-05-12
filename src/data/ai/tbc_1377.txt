@@ -1,4 +1,1 @@
-AI-MEMO realizza una piattaforma cloud per il monitoraggio della fragilità cognitiva in persone anziane attraverso:
--L?uso di innovativi algoritmi di machine learning operanti grandi quantità di dati eterogenei per identificare comportamenti e pattern tipici dell?insorgenza di malattie neuro degenerative 
--La messa a punto di sistemi per la raccolta di una grande varietà di dati sulla progressione della patologia 
--Realizzazione di applicazioni in ambiente virtuale a supporto della diagnosi
+Progetti di ricerca e sviluppo di Mpmi e Midcap  Bando 2 Progetti di ricerca e sviluppo di Mpmi e Midcap  Bando 2 Piattaforma di Artificial intelligence per il trattamento dei Dati per lâ€™Analisi STRATegica e predettivA

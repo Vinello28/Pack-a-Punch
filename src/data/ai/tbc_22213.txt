@@ -1,0 +1,15 @@
+in this paper, we study the challenging problem of predicting the dynamics of
+objects in static images. given a query object in an image, our goal is to
+provide a physical understanding of the object in terms of the forces acting
+upon it and its long term motion as response to those forces. direct and
+explicit estimation of the forces and the motion of objects from a single image
+is extremely challenging. we define intermediate physical abstractions called
+newtonian scenarios and introduce newtonian neural network ($n^3$) that learns
+to map a single image to a state in a newtonian scenario. our experimental
+evaluations show that our method can reliably predict dynamics of a query
+object from a single image. in addition, our approach can provide physical
+reasoning that supports the predicted dynamics in terms of velocity and force
+vectors. to spur research in this direction we compiled visual newtonian
+dynamics (vind) dataset that includes 6806 videos aligned with newtonian
+scenarios represented using game engines, and 4516 still images with their
+ground truth dynamics.

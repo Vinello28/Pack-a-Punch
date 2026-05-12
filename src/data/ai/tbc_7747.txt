@@ -1,0 +1,17 @@
+compressing convolutional neural networks (cnns) has received ever-increasing
+research focus. however, most existing cnn compression methods do not interpret
+their inherent structures to distinguish the implicit redundancy. in this
+paper, we investigate the problem of cnn compression from a novel interpretable
+perspective. the relationship between the input feature maps and 2d kernels is
+revealed in a theoretical framework, based on which a kernel sparsity and
+entropy (kse) indicator is proposed to quantitate the feature map importance in
+a feature-agnostic manner to guide model compression. kernel clustering is
+further conducted based on the kse indicator to accomplish high-precision cnn
+compression. kse is capable of simultaneously compressing each layer in an
+efficient way, which is significantly faster compared to previous data-driven
+feature map pruning methods. we comprehensively evaluate the compression and
+speedup of the proposed method on cifar-10, svhn and imagenet 2012. our method
+demonstrates superior performance gains over previous ones. in particular, it
+achieves 4.7 \times flops reduction and 2.9 \times compression on resnet-50
+with only a top-5 accuracy drop of 0.35% on imagenet 2012, which significantly
+outperforms state-of-the-art methods.

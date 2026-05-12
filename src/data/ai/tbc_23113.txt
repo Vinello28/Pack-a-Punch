@@ -1,0 +1,15 @@
+we empirically analyze the most volatile component of the electricity price
+time series from two north-american wholesale electricity markets. we show that
+these time series exhibit fluctuations which are not described by a brownian
+motion, as they show multi-scaling, high hurst exponents and sharp price
+movements. we use the generalized hurst exponent (ghe, $h(q)$) to show that
+although these time-series have strong cyclical components, the fluctuations
+exhibit persistent behaviour, i.e., $h(q)>0.5$. we investigate the
+effectiveness of the ghe as a predictive tool in a simple linear forecasting
+model, and study the forecast error as a function of $h(q)$, with $q=1$ and
+$q=2$. our results suggest that the ghe can be used as prediction tool for
+these time series when the hurst exponent is dynamically evaluated on rolling
+time windows of size $\approx 50 - 100$ hours. these results are also compared
+to the case in which the cyclical components have been subtracted from the time
+series, showing the importance of cyclicality in the prediction power of the
+hurst exponent.

@@ -1,1 +1,14 @@
-Swifty Srl rappresenta una realt aziendale tra le pi riconosciute del panorama reggiano per la realizzazione di software gestionali e applicativi in ambito industriale. una realt affermata e conosciuta con uno storico quasi decennale che d altra parte necessita di una svolta decisiva in termini di efficientamento al fine di rendersi ancor pi competitiva. Il progetto dunque intende proporre l implementazione dei processi aziendali interni a Swifty Srl con l acquisto di un software che tramite intelligenza artificiale riconosca i caratteri testuali all interno dei documenti (ovvero fatture ordini e preventivi) li trasformi in formati csv json o xml e l importi direttamente sui gestionali. Si tratta pertanto di automatizzare un processo che viceversa obbligherebbe l operatore ad una trascrittura manuale dei documenti. Il progetto si inscrive dunque nell ambito di una strategia imprenditoriale volta allo sviluppo manageriale dell impresa e dunque al rafforzamento della posizione nel mercato di riferimento.
+we revisit the blind deconvolution problem with a focus on understanding its
+robustness and convergence properties. provable robustness to noise and other
+perturbations is receiving recent interest in vision, from obtaining immunity
+to adversarial attacks to assessing and describing failure modes of algorithms
+in mission critical applications. further, many blind deconvolution methods
+based on deep architectures internally make use of or optimize the basic
+formulation, so a clearer understanding of how this sub-module behaves, when it
+can be solved, and what noise injection it can tolerate is a first order
+requirement. we derive new insights into the theoretical underpinnings of blind
+deconvolution. the algorithm that emerges has nice convergence guarantees and
+is provably robust in a sense we formalize in the paper. interestingly, these
+technical results play out very well in practice, where on standard datasets
+our algorithm yields results competitive with or superior to the state of the
+art. keywords: blind deconvolution, robust continuous optimization

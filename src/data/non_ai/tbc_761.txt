@@ -1,1 +1,0 @@
-Il progetto ha come obiettivo lo sviluppo di Tecnologie, Piattaforme ed applicazioni che abilitino la governance dei linguaggi IUM (Interfaccia Uomo Macchina) per l’ industria e per l’ IoT (Internet of Things).

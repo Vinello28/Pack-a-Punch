@@ -1,9 +1,0 @@
-1)	Software gestionale OpenEDIT (2Emme Consulting):
-
-OPENEDIT è una piattaforma gestionale creata ad hoc per le Case Editrici; si tratta di un software per gestire e amministrare al meglio tutti gli aspetti legati alla nostra attività.
-
-Il software prevede moduli e funzionalità specifici per le Case Editrici (calcolo Iva secondo lo speciale regime dell'Editoria, gestione Abbonamenti/Rinnovi, Calcolo Diritti d'Autore, ecc..), perfettamente integrati con le gestioni aziendali standard (Contabilità, Magazzino, Vendite, ecc..) garantendo una gestione fluida ed efficiente.
-
-2)	Piattaforma E-Commerce con supporto alla vendita internazionale e gestione automatizzata dei carrelli persi e lead generation (Araundu):
-
-Attività oggetto della fornitura: Progettazione, sviluppo e deployment di una soluzione E-Commerce specificamente realizzata per la gestione dei prodotti realizzati dal Cliente con sviluppo specifico di un modulo di presentazione dei contenuti multimediali on-line. Implementazione della piattaforma con supporto multi-lingua per lo sviluppo del business verso il mercato estero. Implementazione dei metodi di pagamento fra cui la gestione delle carte di credito tramite moduli per i principali provider nazionali e internazionali.

@@ -1,0 +1,20 @@
+efficient scheduling is of great significance to rationally make use of
+scarce satellite resources. task clustering has been demonstrated to realize an
+effective strategy to improve the efficiency of satellite scheduling. however,
+the previous task clustering strategy is static. that is, it is integrated into
+the scheduling in a two-phase manner rather than in a dynamic fashion, without
+expressing its full potential in improving the satellite scheduling
+performance. in this study, we present an adaptive simulated annealing based
+scheduling algorithm aggregated with a dynamic task clustering strategy (or
+asa-dtc for short) for satellite observation scheduling problems (sosps).
+first, we develop a formal model for the scheduling of earth observing
+satellites. second, we analyze the related constraints involved in the
+observation task clustering process. thirdly, we detail an implementation of
+the dynamic task clustering strategy and the adaptive simulated annealing
+algorithm. the adaptive simulated annealing algorithm is efficient, with the
+endowment of some sophisticated mechanisms, i.e. adaptive temperature control,
+tabu-list based revisiting avoidance mechanism, and intelligent combination of
+neighborhood structures. finally, we report on experimental simulation studies
+to demonstrate the competitive performance of asa-dtc. moreover, we show that
+asa-dtc is especially effective when sosps contain a large number of targets or
+these targets are densely distributed in a certain area.

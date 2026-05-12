@@ -1,0 +1,7 @@
+this paper describes a reference architecture for self-maintaining systems
+that can learn continually, as data arrives. in environments where data
+evolves, we need architectures that manage machine learning (ml) models in
+production, adapt to shifting data distributions, cope with outliers, retrain
+when necessary, and adapt to new tasks. this represents continual automl or
+automatically adaptive machine learning. we describe the challenges and
+proposes a reference architecture.

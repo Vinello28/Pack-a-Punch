@@ -1,1 +1,11 @@
-Con il presente progetto si vuole realizzazione un nuovo sistema per la completa automazione del processo di picking di pezzi identici da una cassetta attraverso lo sviluppo di tecnologie visione3D e machine learning. I robot presenti sul mercato hanno problemi di bassa o mancata presa a causa di coordinate approssimative di lentezza nella presa pezzo a causa di dei tentativi multipli. Per risolvere le problematiche e raggiungere gli obiettivi dal progetto si deciso di collaborare con Unibo.
+one important feature of the mammalian immune system is the highly specific
+binding of antigens to antibodies. antibodies generated in response to one
+infection may also provide some level of cross immunity to other infections.
+one model to describe this cross immunity is the notion of antigenic space,
+which assigns each antibody and each virus a point in $\mathbb{r}^n$. past
+studies have suggested the dimensionality of antigenic space, $n$, may be
+small. in this study we show that data from hemagglutination assays suggest a
+high dimensional random walk (or self avoiding random random walk). the
+discrepancy between our result and prior studies is due to the fact that random
+walks can appear low dimensional according to a variety of analyses. including
+principal component analysis (pca) and multidimensional scaling (mds).

@@ -1,0 +1,13 @@
+we present an integrated framework for using convolutional networks for
+classification, localization and detection. we show how a multiscale and
+sliding window approach can be efficiently implemented within a convnet. we
+also introduce a novel deep learning approach to localization by learning to
+predict object boundaries. bounding boxes are then accumulated rather than
+suppressed in order to increase detection confidence. we show that different
+tasks can be learned simultaneously using a single shared network. this
+integrated framework is the winner of the localization task of the imagenet
+large scale visual recognition challenge 2013 (ilsvrc2013) and obtained very
+competitive results for the detection and classifications tasks. in
+post-competition work, we establish a new state of the art for the detection
+task. finally, we release a feature extractor from our best model called
+overfeat.

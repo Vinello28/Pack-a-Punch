@@ -1,11 +1,1 @@
-object reconstruction from a single image -- in the wild -- is a problem
-where we can make progress and get meaningful results today. this is the main
-message of this paper, which introduces an automated pipeline with pixels as
-inputs and 3d surfaces of various rigid categories as outputs in images of
-realistic scenes. at the core of our approach are deformable 3d models that can
-be learned from 2d annotations available in existing object detection datasets,
-that can be driven by noisy automatic object segmentations and which we
-complement with a bottom-up module for recovering high-frequency shape details.
-we perform a comprehensive quantitative analysis and ablation study of our
-approach using the recently introduced pascal 3d+ dataset and show very
-encouraging automatic reconstructions on pascal voc.
+while it is crucial to capture global information for effective image restoration (ir), integrating such cues into transformer-based methods becomes computationally expensive, especially with high input resolution. furthermore, the self-attention mechanism in transformers is prone to considering unnecessary global cues from unrelated objects or regions, introducing computational inefficiencies. in response to these challenges, we introduce the key-graph transformer (kgt) in this paper. specifically, kgt views patch features as graph nodes. the proposed key-graph constructor efficiently forms a sparse yet representative key-graph by selectively connecting essential nodes instead of all the nodes. then the proposed key-graph attention is conducted under the guidance of the key-graph only among selected nodes with linear computational complexity within each window. extensive experiments across 6 ir tasks confirm the proposed kgt's state-of-the-art performance, showcasing advancements both quantitatively and qualitatively.

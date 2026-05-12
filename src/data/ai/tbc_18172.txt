@@ -1,0 +1,19 @@
+the present work extends the randomized shortest-paths framework (rsp),
+interpolating between shortest-path and random-walk routing in a network, in
+three directions. first, it shows how to deal with equality constraints on a
+subset of transition probabilities and develops a generic algorithm for solving
+this constrained rsp problem using lagrangian duality. second, it derives a
+surprisingly simple iterative procedure to compute the optimal, randomized,
+routing policy generalizing the previously developed "soft" bellman-ford
+algorithm. the resulting algorithm allows balancing exploitation and
+exploration in an optimal way by interpolating between a pure random behavior
+and the deterministic, optimal, policy (least-cost paths) while satisfying the
+constraints. finally, the two algorithms are applied to markov decision
+problems by considering the process as a constrained rsp on a bipartite
+state-action graph. in this context, the derived "soft" value iteration
+algorithm appears to be closely related to dynamic policy programming as well
+as kullback-leibler and path integral control, and similar to a recently
+introduced reinforcement learning exploration strategy. this shows that this
+strategy is optimal in the rsp sense - it minimizes expected path cost subject
+to relative entropy constraint. simulation results on illustrative examples
+show that the model behaves as expected.

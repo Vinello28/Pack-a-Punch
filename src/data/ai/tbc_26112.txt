@@ -1,0 +1,15 @@
+face anti-spoofing gains increased attentions recently in both academic and
+industrial fields. with the emergence of various cnn based solutions, the
+multi-modal(rgb, depth and ir) methods based cnn showed better performance than
+single modal classifiers. however, there is a need for improving the
+performance and reducing the complexity. therefore, an extreme light network
+architecture(feathernet a/b) is proposed with a streaming module which fixes
+the weakness of global average pooling and uses less parameters. our single
+feathernet trained by depth image only, provides a higher baseline with 0.00168
+acer, 0.35m parameters and 83m flops. furthermore, a novel fusion procedure
+with ``ensemble + cascade'' structure is presented to satisfy the performance
+preferred use cases. meanwhile, the mmfd dataset is collected to provide more
+attacks and diversity to gain better generalization. we use the fusion method
+in the face anti-spoofing attack detection challenge@cvpr2019 and got the
+result of 0.0013(acer), 0.999(tpr@fpr=10e-2), 0.998(tpr@fpr=10e-3) and
+0.9814(tpr@fpr=10e-4).

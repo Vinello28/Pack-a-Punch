@@ -1,0 +1,12 @@
+over the past twenty years, artificial gene regulatory networks (grns) have
+shown their capacity to solve real-world problems in various domains such as
+agent control, signal processing and artificial life experiments. they have
+also benefited from new evolutionary approaches and improvements to dynamic
+which have increased their optimization efficiency. in this paper, we present
+an additional step toward their usability in machine learning applications. we
+detail an gpu-based implementation of differentiable grns, allowing for local
+optimization of grn architectures with stochastic gradient descent (sgd). using
+a standard machine learning dataset, we evaluate the ways in which evolution
+and sgd can be combined to further grn optimization. we compare these
+approaches with neural network models trained by sgd and with support vector
+machines.

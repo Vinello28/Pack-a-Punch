@@ -1,0 +1,15 @@
+degradation of image quality due to the presence of haze is a very common
+phenomenon. existing dehazenet [3], mscnn [11] tackled the drawbacks of hand
+crafted haze relevant features. however, these methods have the problem of
+color distortion in gloomy (poor illumination) environment. in this paper, a
+cardinal (red, green and blue) color fusion network for single image haze
+removal is proposed. in first stage, network fusses color information present
+in hazy images and generates multi-channel depth maps. the second stage
+estimates the scene transmission map from generated dark channels using multi
+channel multi scale convolutional neural network (mcms-cnn) to recover the
+original scene. to train the proposed network, we have used two standard
+datasets namely: imagenet [5] and d-hazy [1]. performance evaluation of the
+proposed approach has been carried out using structural similarity index
+(ssim), mean square error (mse) and peak signal to noise ratio (psnr).
+performance analysis shows that the proposed approach outperforms the existing
+state-of-the-art methods for single image dehazing.

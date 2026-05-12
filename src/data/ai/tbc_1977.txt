@@ -1,0 +1,7 @@
+we propose a method that can leverage unlabeled data to learn a matching
+model for response selection in retrieval-based chatbots. the method employs a
+sequence-to-sequence architecture (seq2seq) model as a weak annotator to judge
+the matching degree of unlabeled pairs, and then performs learning with both
+the weak signals and the unlabeled data. experimental results on two public
+data sets indicate that matching models get significant improvements when they
+are learned with the proposed method.

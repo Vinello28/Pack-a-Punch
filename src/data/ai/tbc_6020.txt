@@ -1,0 +1,25 @@
+the problem of portfolio optimization is one of the most important issues in
+asset management. this paper proposes a new dynamic portfolio strategy based on
+the time-varying structures of mst networks in chinese stock markets, where the
+market condition is further considered when using the optimal portfolios for
+investment. a portfolio strategy comprises two stages: selecting the portfolios
+by choosing central and peripheral stocks in the selection horizon using five
+topological parameters, i.e., degree, betweenness centrality, distance on
+degree criterion, distance on correlation criterion and distance on distance
+criterion, then using the portfolios for investment in the investment horizon.
+the optimal portfolio is chosen by comparing central and peripheral portfolios
+under different combinations of market conditions in the selection and
+investment horizons. market conditions in our paper are identified by the
+ratios of the number of trading days with rising index or the sum of the
+amplitudes of the trading days with rising index to the total number of trading
+days. we find that central portfolios outperform peripheral portfolios when the
+market is under a drawup condition, or when the market is stable or drawup in
+the selection horizon and is under a stable condition in the investment
+horizon. we also find that the peripheral portfolios gain more than central
+portfolios when the market is stable in the selection horizon and is drawdown
+in the investment horizon. empirical tests are carried out based on the optimal
+portfolio strategy. among all the possible optimal portfolio strategy based on
+different parameters to select portfolios and different criteria to identify
+market conditions, $65\%$ of our optimal portfolio strategies outperform the
+random strategy for the shanghai a-share market and the proportion is $70\%$
+for the shenzhen a-share market.

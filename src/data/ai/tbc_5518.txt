@@ -1,1 +1,1 @@
-Sviluppare un sistema avanzato di interazione vocale basato su intelligenza artificiale che renda la tecnologia biomedicale intuitiva e accessibile a tutti gli utenti
+Sviluppo di un sistema intelligente per riconoscimento facciale tramite architetture Transformer e modelli di attenzione applicato al settore manifatturiero. La piattaforma processa dati finanziari tick-by-tick ad alta frequenza con latenza inferiore a 100ms. L'architettura prevede architettura serverless per inferenza con ridondanza geografica.

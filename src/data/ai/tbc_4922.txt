@@ -1,1 +1,21 @@
-Sviluppa soluzioni software basate su intelligenza artificiale per automatizzare e ottimizzare processi documentali e di supply chain, in particolare semplifica la valutazione della sicurezza dei prodotti cosmetici.
+some argue that biologically inspired algorithms are the future of solving
+difficult problems in computer science. others strongly believe that the future
+lies in the exploration of mathematical foundations of problems at hand. the
+field of computer security tends to accept the latter view as a more
+appropriate approach due to its more workable validation and verification
+possibilities. the lack of rigorous scientific practices prevalent in
+biologically inspired security research does not aid in presenting bio-inspired
+security approaches as a viable way of dealing with complex security problems.
+this chapter introduces a biologically inspired algorithm, called the self
+organising map (som), that was developed by teuvo kohonen in 1981. since the
+algorithm's inception it has been scrutinised by the scientific community and
+analysed in more than 4000 research papers, many of which dealt with various
+computer security issues, from anomaly detection, analysis of executables all
+the way to wireless network monitoring. in this chapter a review of security
+related som research undertaken in the past is presented and analysed. the
+algorithm's biological analogies are detailed and the author's view on the
+future possibilities of this successful bio-inspired approach are given. the
+som algorithm's close relation to a number of vital functions of the human
+brain and the emergence of multi-core computer architectures are the two main
+reasons behind our assumption that the future of the som algorithm and its
+variations is promising, notably in the field of computer security.

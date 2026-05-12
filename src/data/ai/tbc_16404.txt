@@ -1,0 +1,17 @@
+named entity recognition (ner), a classic sequence labelling task, is an
+essential component of natural language understanding (nlu) systems in
+task-oriented dialog systems for slot filling. for well over a decade,
+different methods from lookup using gazetteers and domain ontology, classifiers
+over handcrafted features to end-to-end systems involving neural network
+architectures have been evaluated mostly in language-independent
+non-conversational settings. in this paper, we evaluate a modified version of
+the recent state of the art neural architecture in a conversational setting
+where messages are often short and noisy. we perform an array of experiments
+with different combinations of including the previous utterance in the dialogue
+as a source of additional features and using word and character level
+embeddings trained on a larger external corpus. all methods are evaluated on a
+combined dataset formed from two public english task-oriented conversational
+datasets belonging to travel and restaurant domains respectively. for
+additional evaluation, we also repeat some of our experiments after adding
+automatically translated and transliterated (from translated) versions to the
+english only dataset.

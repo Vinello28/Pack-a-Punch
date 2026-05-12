@@ -1,1 +1,14 @@
-IL PROGETTO MIRA A POTENZIARE IL MARKETING DIGITALE DI MEMOFLY, IL SOFTWARE DI GESTIONE APPUNTAMENTI PER I PROFESSIONISTI, ATTRAVERSO UNA STRATEGIA COMPLETA DI DIGITAL MARKETING. LE ATTIVITÀ COMPRENDONO EMAIL MARKETING, SOCIAL MEDIA MARKETING, SEARCH ENGINE OPTIMIZATION (SEO), SEARCH ENGINE MARKETING (SEM), INFLUENCER MARKETING, NATIVE ADVERTISING, SMS MARKETING, AFFILIATE MARKETING, VIDEO MARKETING, REFERRAL MARKETING E L'IMPLEMENTAZIONE DI UN CHATBOT BASATO SULL'INTELLIGENZA ARTIFICIALE. L'OBIETTIVO DEL PROGETTO È AUMENTARE LA VISIBILITÀ, L'EFFICACIA E DI CONSEGUENZA IL NUMERO DI CLIENTI MEMOFLY, MIGLIORANDO AL CONTEMPO L'ESPERIENZA DEI CLIENTI ESISTENTI.
+in this paper, we analyze the spectrum occupancy using different machine
+learning techniques. both supervised techniques (naive bayesian classifier
+(nbc), decision trees (dt), support vector machine (svm), linear regression
+(lr)) and unsupervised algorithm (hidden markov model (hmm)) are studied to
+find the best technique with the highest classification accuracy (ca). a
+detailed comparison of the supervised and unsupervised algorithms in terms of
+the computational time and classification accuracy is performed. the classified
+occupancy status is further utilized to evaluate the probability of secondary
+user outage for the future time slots, which can be used by system designers to
+define spectrum allocation and spectrum sharing policies. numerical results
+show that svm is the best algorithm among all the supervised and unsupervised
+classifiers. based on this, we proposed a new svm algorithm by combining it
+with fire fly algorithm (ffa), which is shown to outperform all other
+algorithms.

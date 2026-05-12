@@ -1,1 +1,1 @@
-Valutazione di un nuovo sistema automatico per la misurazione della pressione esofagea durante  ventilazione meccanica.
+Sviluppo di un sistema di monitoraggio ambientale basato su sensori in fibra ottica e AI per il rilevamento di rischi naturali

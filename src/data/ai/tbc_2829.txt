@@ -1,1 +1,16 @@
-Il progetto ha lo scopo di realizzare un prototipo in scala di un nuovo impianto per l’elaborazione di leghe di alluminio da riciclo ad alta sostenibilità (sia in termini ambientali che economica) che sarà completamente digitalizzato per l’implementazione di protocolli di manutenzione predittiva (e di nuovi concept di service) e per la ottimizzazione assistita da IA per i parametri operativi di lavoro.  Il prototipo sarà asservito con livelli di automazione e sensoristica che, distribuiti nei punti chiave di controllo, consentiranno la gestione dell’impianto (da remoto) per la gestione dinamica delle attività di manutenzione, intervenendo attivamente con algoritmi che elaborano e comprendono lo stato del sistema per il governo della manutenzione predittiva. La piattaforma che acquisisce le misure dei parametri di controllo del macchinario permetterà di sviluppare i processi fusori in modalità di autoapprendimento.
+as reinforcement learning algorithms are being applied to increasingly
+complicated and realistic tasks, it is becoming increasingly difficult to solve
+such problems within a practical time frame. hence, we focus on a
+\textit{satisficing} strategy that looks for an action whose value is above the
+aspiration level (analogous to the break-even point), rather than the optimal
+action. in this paper, we introduce a simple mathematical model called
+risk-sensitive satisficing ($rs$) that implements a satisficing strategy by
+integrating risk-averse and risk-prone attitudes under the greedy policy. we
+apply the proposed model to the $k$-armed bandit problems, which constitute the
+most basic class of reinforcement learning tasks, and prove two propositions.
+the first is that $rs$ is guaranteed to find an action whose value is above the
+aspiration level. the second is that the regret (expected loss) of $rs$ is
+upper bounded by a finite value, given that the aspiration level is set to an
+"optimal level" so that satisficing implies optimizing. we confirm the results
+through numerical simulations and compare the performance of $rs$ with that of
+other representative algorithms for the $k$-armed bandit problems.

@@ -1,1 +1,1 @@
-The IRIS project develops real-time 3D scene graph generation for robotics, leveraging vision-language models for navigation, anomaly prediction, and human-robot interaction. It aims to impact industrial maintenance, assistive robotics, and heritage preservation.
+Un'innovativa soluzione basata su una piattaforma intelligente in cui lo smartphone costituisce il principale gateway su cui diversi sensori sono agganciati in un ottica di massima scalabilit anche al fine di sfruttare tecnologie avanzate e algoritmi di intelligenza artificiale

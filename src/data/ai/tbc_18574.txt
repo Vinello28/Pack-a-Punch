@@ -1,0 +1,19 @@
+big data has had a great share in the success of deep learning in computer
+vision. recent works suggest that there is significant further potential to
+increase object detection performance by utilizing even bigger datasets. in
+this paper, we introduce the eurocity persons dataset, which provides a large
+number of highly diverse, accurate and detailed annotations of pedestrians,
+cyclists and other riders in urban traffic scenes. the images for this dataset
+were collected on-board a moving vehicle in 31 cities of 12 european countries.
+with over 238200 person instances manually labeled in over 47300 images,
+eurocity persons is nearly one order of magnitude larger than person datasets
+used previously for benchmarking. the dataset furthermore contains a large
+number of person orientation annotations (over 211200). we optimize four
+state-of-the-art deep learning approaches (faster r-cnn, r-fcn, ssd and yolov3)
+to serve as baselines for the new object detection benchmark. in experiments
+with previous datasets we analyze the generalization capabilities of these
+detectors when trained with the new dataset. we furthermore study the effect of
+the training set size, the dataset diversity (day- vs. night-time, geographical
+region), the dataset detail (i.e. availability of object orientation
+information) and the annotation quality on the detector performance. finally,
+we analyze error sources and discuss the road ahead.

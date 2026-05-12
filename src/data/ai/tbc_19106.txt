@@ -1,0 +1,13 @@
+context plays an important role in human language understanding, thus it may
+also be useful for machines learning vector representations of language. in
+this paper, we explore an asymmetric encoder-decoder structure for unsupervised
+context-based sentence representation learning. we carefully designed
+experiments to show that neither an autoregressive decoder nor an rnn decoder
+is required. after that, we designed a model which still keeps an rnn as the
+encoder, while using a non-autoregressive convolutional decoder. we further
+combine a suite of effective designs to significantly improve model efficiency
+while also achieving better performance. our model is trained on two different
+large unlabelled corpora, and in both cases the transferability is evaluated on
+a set of downstream nlp tasks. we empirically show that our model is simple and
+fast while producing rich sentence representations that excel in downstream
+tasks.

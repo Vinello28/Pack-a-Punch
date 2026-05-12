@@ -1,0 +1,19 @@
+during the last half decade, convolutional neural networks (cnns) have
+triumphed over semantic segmentation, which is one of the core tasks in many
+applications such as autonomous driving and augmented reality. however, to
+train cnns requires a considerable amount of data, which is difficult to
+collect and laborious to annotate. recent advances in computer graphics make it
+possible to train cnns on photo-realistic synthetic imagery with
+computer-generated annotations. despite this, the domain mismatch between the
+real images and the synthetic data hinders the models' performance. hence, we
+propose a curriculum-style learning approach to minimizing the domain gap in
+urban scene semantic segmentation. the curriculum domain adaptation solves easy
+tasks first to infer necessary properties about the target domain; in
+particular, the first task is to learn global label distributions over images
+and local distributions over landmark superpixels. these are easy to estimate
+because images of urban scenes have strong idiosyncrasies (e.g., the size and
+spatial relations of buildings, streets, cars, etc.). we then train a
+segmentation network, while regularizing its predictions in the target domain
+to follow those inferred properties. in experiments, our method outperforms the
+baselines on two datasets and two backbone networks. we also report extensive
+ablation studies about our approach.

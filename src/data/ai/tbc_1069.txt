@@ -1,4 +1,0 @@
-Il portale e-coomerce di Millenium bug è concepito con lo scopo, oltre as incrementare il business mediante la vendita online di prodotti e servizi, di migliorare, attraverso tecnologie innovative di automazione(chatbot, intelligenza artificiale), l'efficienza e laregolamentazione dei processi operativi e di management.
-il portale e-commerce ha un target trasversale: i prodotti e i servizi in vendita sono rivolti, infatti, a privati, aziende, service e broadcaster.
-Tra i vari sevizi prodotti offerti e in vendita sul portale, focus particolare sarà rivolto allatecnologie innovative, come ad esempio il service live streaming, o i prodotti multimediali basati sulla Realtà Aumentata e Realtà Virtuale.
-Il sistema back-office permetterà di gestire gli ordini provenienti dal portale ottimizzandone i processi, le scadenza e le priorità, mediante un sistema di management avanzato.

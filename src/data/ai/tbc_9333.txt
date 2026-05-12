@@ -1,0 +1,21 @@
+due to recent advances in digital technologies, and availability of credible
+data, an area of artificial intelligence, deep learning, has emerged, and has
+demonstrated its ability and effectiveness in solving complex learning problems
+not possible before. in particular, convolution neural networks (cnns) have
+demonstrated their effectiveness in image detection and recognition
+applications. however, they require intensive cpu operations and memory
+bandwidth that make general cpus fail to achieve desired performance levels.
+consequently, hardware accelerators that use application specific integrated
+circuits (asics), field programmable gate arrays (fpgas), and graphic
+processing units (gpus) have been employed to improve the throughput of cnns.
+more precisely, fpgas have been recently adopted for accelerating the
+implementation of deep learning networks due to their ability to maximize
+parallelism as well as due to their energy efficiency. in this paper, we review
+recent existing techniques for accelerating deep learning networks on fpgas. we
+highlight the key features employed by the various techniques for improving the
+acceleration performance. in addition, we provide recommendations for enhancing
+the utilization of fpgas for cnns acceleration. the techniques investigated in
+this paper represent the recent trends in fpga-based accelerators of deep
+learning networks. thus, this review is expected to direct the future advances
+on efficient hardware accelerators and to be useful for deep learning
+researchers.

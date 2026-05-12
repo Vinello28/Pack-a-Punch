@@ -1,1 +1,1 @@
-Piattaforma tecnologica per lo sviluppo di sonde innovative in ambito biomedicale
+Tecniche di Machine Learning per stimare il recupero dellâ€™arto superiore in pazienti post-ictus.

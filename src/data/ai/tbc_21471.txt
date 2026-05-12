@@ -1,0 +1,22 @@
+in this paper, we address the basic problem of recognizing moving objects in
+video images using sp theory of intelligence. the concept of sp theory of
+intelligence which is a framework of artificial intelligence, was first
+introduced by gerard j wolff, where s stands for simplicity and p stands for
+power. using the concept of multiple alignment, we detect and recognize object
+of our interest in video frames with multilevel hierarchical parts and
+subparts, based on polythetic categories. we track the recognized objects using
+the species based particle swarm optimization (pso). first, we extract the
+multiple alignment of our object of interest from training images. in order to
+recognize accurately and handle occlusion, we use the polythetic concepts on
+raw data line to omit the redundant noise via searching for best alignment
+representing the features from the extracted alignments. we recognize the
+domain of interest from the video scenes in form of wide variety of multiple
+alignments to handle scene variability. unsupervised learning is done in the sp
+model following the donsvic principle and natural structures are discovered via
+information compression and pattern analysis. after successful recognition of
+objects, we use species based pso algorithm as the alignments of our object of
+interest is analogues to observation likelihood and fitness ability of species.
+subsequently, we analyze the competition and repulsion among species with
+annealed gaussian based pso. we have tested our algorithms on david, walking2,
+faceocc1, jogging and dudek, obtaining very satisfactory and competitive
+results.

@@ -1,0 +1,14 @@
+the interest in statistical machine translation systems increases currently
+due to political and social events in the world. a proposed statistical machine
+translation (smt) based model that can be used to translate a sentence from the
+source language (english) to the target language (arabic) automatically through
+efficiently incorporating different statistical and natural language processing
+(nlp) models such as language model, alignment model, phrase based model,
+reordering model, and translation model. these models are combined to enhance
+the performance of statistical machine translation (smt). many implementation
+tools have been used in this work such as moses, gizaa++, irstlm, kenlm, and
+bleu. based on the implementation, evaluation of this model, and comparing the
+generated translation with other implemented machine translation systems like
+google translate, it was proved that this proposed model has enhanced the
+results of the statistical machine translation, and forms a reliable and
+efficient model in this field of research.

@@ -1,4 +1,23 @@
-PROFESSIONISTI 4.0 - Competenze, Connessioni, Crescita:
--Tematiche di Team Building e gestione del cliente
--Intelligenza Artificiale: applicazioni pratiche nella professione
--Inglese tecnico, economico e commerciale
+multi-layer neural networks have lead to remarkable performance on many kinds
+of benchmark tasks in text, speech and image processing. nonlinear parameter
+estimation in hierarchical models is known to be subject to overfitting and
+misspecification. one approach to these estimation and related problems (local
+minima, colinearity, feature discovery etc.) is called dropout (hinton, et al
+2012, baldi et al 2016). the dropout algorithm removes hidden units according
+to a bernoulli random variable with probability $p$ prior to each update,
+creating random "shocks" to the network that are averaged over updates. in this
+paper we will show that dropout is a special case of a more general model
+published originally in 1990 called the stochastic delta rule, or sdr (hanson,
+1990). sdr redefines each weight in the network as a random variable with mean
+$\mu_{w_{ij}}$ and standard deviation $\sigma_{w_{ij}}$. each weight random
+variable is sampled on each forward activation, consequently creating an
+exponential number of potential networks with shared weights. both parameters
+are updated according to prediction error, thus resulting in weight noise
+injections that reflect a local history of prediction error and local model
+averaging. sdr therefore implements a more sensitive local gradient-dependent
+simulated annealing per weight converging in the limit to a bayes optimal
+network. tests on standard benchmarks (cifar) using a modified version of
+densenet shows the sdr outperforms standard dropout in test error by approx.
+$17\%$ with densenet-bc 250 on cifar-100 and approx. $12-14\%$ in smaller
+networks. we also show that sdr reaches the same accuracy that dropout attains
+in 100 epochs in as few as 35 epochs.

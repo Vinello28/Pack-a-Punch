@@ -1,12 +1,1 @@
-acoustic models using probabilistic linear discriminant analysis (plda)
-capture the correlations within feature vectors using subspaces which do not
-vastly expand the model. this allows high dimensional and correlated feature
-spaces to be used, without requiring the estimation of multiple high dimension
-covariance matrices. in this letter we extend the recently presented plda
-mixture model for speech recognition through a tied plda approach, which is
-better able to control the model size to avoid overfitting. we carried out
-experiments using the switchboard corpus, with both mel frequency cepstral
-coefficient features and bottleneck feature derived from a deep neural network.
-reductions in word error rate were obtained by using tied plda, compared with
-the plda mixture model, subspace gaussian mixture models, and deep neural
-networks.
+making fair decisions is crucial to ethically implementing machine learning algorithms in social settings. in this work, we consider the celebrated definition of counterfactual fairness [kusner et al., neurips, 2017]. we begin by showing that an algorithm which satisfies counterfactual fairness also satisfies demographic parity, a far simpler fairness constraint. similarly, we show that all algorithms satisfying demographic parity can be trivially modified to satisfy counterfactual fairness. together, our results indicate that counterfactual fairness is basically equivalent to demographic parity, which has important implications for the growing body of work on counterfactual fairness. we then validate our theoretical findings empirically, analyzing three existing algorithms for counterfactual fairness against three simple benchmarks. we find that two simple benchmark algorithms outperform all three existing algorithms -- in terms of fairness, accuracy, and efficiency -- on several data sets. our analysis leads us to formalize a concrete fairness goal: to preserve the order of individuals within protected groups. we believe transparency around the ordering of individuals within protected groups makes fair algorithms more trustworthy. by design, the two simple benchmark algorithms satisfy this goal while the existing algorithms for counterfactual fairness do not.

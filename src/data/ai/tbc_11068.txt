@@ -1,1 +1,15 @@
-Bandzai una piattaforma dedicata alle opportunit di finanziamento pubblico che automatizzando la raccolta e l analisi delle informazioni contenute in bandi visure camerali e bilanci pre-filtra e seleziona le misure di finanziamento pi in linea con le caratteristiche e gli obiettivi dell impresa utente. Il progetto BandzAI+ - Bandzai Artificial Intelligence Enhanced frutto della collaborazione del team di Cerbero con il Dipartimento di Matematicae Informatica dell Universit degli Studi di Cagliari riguarder lo studio e la determinazione di modelli e algoritmi innovativi
+we consider the problem of developing suitable learning representations
+(embeddings) for library packages that capture semantic similarity among
+libraries. such representations are known to improve the performance of
+downstream learning tasks (e.g. classification) or applications such as
+contextual search and analogical reasoning.
+  we apply word embedding techniques from natural language processing (nlp) to
+train embeddings for library packages ("library vectors"). library vectors
+represent libraries by similar context of use as determined by import
+statements present in source code. experimental results obtained from training
+such embeddings on three large open source software corpora reveals that
+library vectors capture semantically meaningful relationships among software
+libraries, such as the relationship between frameworks and their plug-ins and
+libraries commonly used together within ecosystems such as big data
+infrastructure projects (in java), front-end and back-end web development
+frameworks (in javascript) and data science toolkits (in python).

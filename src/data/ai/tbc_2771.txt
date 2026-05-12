@@ -1,1 +1,24 @@
-erogazione di servizi tecnologici ed innovativi finalizzati alla progettazione e allo sviluppo di un sistema per la gestione integrata dei processi aziendali per la verifica e la conformità dei prodotti basato su tecniche IA (intelligenza artificiale) e AR (realtà aumentata)
+intrusion detection for computer network systems becomes one of the most
+critical tasks for network administrators today. it has an important role for
+organizations, governments and our society due to its valuable resources on
+computer networks. traditional misuse detection strategies are unable to detect
+new and unknown intrusion. besides, anomaly detection in network security is
+aim to distinguish between illegal or malicious events and normal behavior of
+network systems. anomaly detection can be considered as a classification
+problem where it builds models of normal network behavior, which it uses to
+detect new patterns that significantly deviate from the model. most of the cur-
+rent research on anomaly detection is based on the learning of normally and
+anomaly behaviors. they do not take into account the previous, re- cent events
+to detect the new incoming one. in this paper, we propose a real time
+collective anomaly detection model based on neural network learning and feature
+operating. normally a long short term memory recurrent neural network (lstm
+rnn) is trained only on normal data and it is capable of predicting several
+time steps ahead of an input. in our approach, a lstm rnn is trained with
+normal time series data before performing a live prediction for each time step.
+instead of considering each time step separately, the observation of prediction
+errors from a certain number of time steps is now proposed as a new idea for
+detecting collective anomalies. the prediction errors from a number of the
+latest time steps above a threshold will indicate a collective anomaly. the
+model is built on a time series version of the kdd 1999 dataset. the
+experiments demonstrate that it is possible to offer reliable and efficient for
+collective anomaly detection.

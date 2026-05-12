@@ -1,1 +1,13 @@
-Vieffetrade ha intenzione di intraprendere un percorso di innovazione tecnologica  di processi e contestualmente organizzativa per dotarsi di soluzioni di mercato che le permettano di crescere e mantenere la sicurezza  lâ€™affidabilitÃ  e la controllabilitÃ  del business. Lâ€™obiettivo del progetto Ã¨ quello di: â€¢	migrare lâ€™attuale ecommerce Vieffetrade basata su un applicativo custom legacy verso la piattaforma Adobe Commerce Cloud leader di mercato â€¢	sfruttare le potenzialitÃ  offerte da Adobe Commerce relative allâ€™Intelligenza Artificiale (in particolare su product recommendation  searchandizing e visual merchandising automatizzati) â€¢	rivedere e ottimizzare i processi interni di Vieffetrade grazie alla digitalizzazione di molti processi oggi manuali  potenziando contestualmente la struttura e il throughput attraverso il deployment delle tecnologie innovative  innovando e potenziando quindi la struttura organizzativa aziendale.
+finding biologically plausible alternatives to back-propagation of errors is
+a fundamentally important challenge in artificial neural network research. in
+this paper, we propose a learning algorithm called error-driven local
+representation alignment (lra-e), which has strong connections to predictive
+coding, a theory that offers a mechanistic way of describing neurocomputational
+machinery. in addition, we propose an improved variant of difference target
+propagation, another procedure that comes from the same family of algorithms as
+lra-e. we compare our procedures to several other biologically-motivated
+algorithms, including two feedback alignment algorithms and equilibrium
+propagation. in two benchmarks, we find that both of our proposed algorithms
+yield stable performance and strong generalization compared to other competing
+back-propagation alternatives when training deeper, highly nonlinear networks,
+with lra-e performing the best overall.

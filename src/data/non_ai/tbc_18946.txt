@@ -1,0 +1,1 @@
+The IRIS project develops real-time 3D scene graph generation for robotics leveraging vision-language models for navigation anomaly prediction and human-robot interaction. It aims to impact industrial maintenance assistive robotics and heritage preservation.

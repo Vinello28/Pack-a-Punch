@@ -1,0 +1,1 @@
+Sviluppo di un modulo per fare apprendere ad un sistema di visione una classe di oggetti estrarne le componenti essenziali (dimensioni distanza posizione) effettuarne la ricostruzione in 3D wireframe per poterle passare a un sistema robotico (a 6 assi) per garantirne la presa da parte di questi ovvero ai cosiddetti cyber-phisical systems

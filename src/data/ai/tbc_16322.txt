@@ -1,0 +1,8 @@
+in this paper, we propose a variational multiphase image segmentation model
+based on fuzzy membership functions and l1-norm fidelity. then we apply the
+alternating direction method of multipliers to solve an equivalent problem. all
+the subproblems can be solved efficiently. specifically, we propose a fast
+method to calculate the fuzzy median. experimental results and comparisons show
+that the l1-norm based method is more robust to outliers such as impulse noise
+and keeps better contrast than its l2-norm counterpart. theoretically, we prove
+the existence of the minimizer and analyze the convergence of the algorithm.

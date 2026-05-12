@@ -1,0 +1,21 @@
+in recent years, graph theory has been widely employed to probe several
+language properties. more specifically, the so-called word adjacency model has
+been proven useful for tackling several practical problems, especially those
+relying on textual stylistic analysis. the most common approach to treat texts
+as networks has simply considered either large pieces of texts or entire books.
+this approach has certainly worked well -- many informative discoveries have
+been made this way -- but it raises an uncomfortable question: could there be
+important topological patterns in small pieces of texts? to address this
+problem, the topological properties of subtexts sampled from entire books was
+probed. statistical analyzes performed on a dataset comprising 50 novels
+revealed that most of the traditional topological measurements are stable for
+short subtexts. when the performance of the authorship recognition task was
+analyzed, it was found that a proper sampling yields a discriminability similar
+to the one found with full texts. surprisingly, the support vector machine
+classification based on the characterization of short texts outperformed the
+one performed with entire books. these findings suggest that a local
+topological analysis of large documents might improve its global
+characterization. most importantly, it was verified, as a proof of principle,
+that short texts can be analyzed with the methods and concepts of complex
+networks. as a consequence, the techniques described here can be extended in a
+straightforward fashion to analyze texts as time-varying complex networks.

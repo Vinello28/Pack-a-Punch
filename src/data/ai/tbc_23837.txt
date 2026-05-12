@@ -1,0 +1,16 @@
+recently, manifold regularized semi-supervised learning (mrssl) received
+considerable attention because it successfully exploits the geometry of the
+intrinsic data probability distribution including both labeled and unlabeled
+samples to leverage the performance of a learning model. as a natural nonlinear
+generalization of graph laplacian, p-laplacian has been proved having the rich
+theoretical foundations to better preserve the local structure. however, it is
+difficult to determine the fitting graph p-lapalcian i.e. the parameter which
+is a critical factor for the performance of graph p-laplacian. therefore, we
+develop an ensemble p-laplacian regularization (eplapr) to fully approximate
+the intrinsic manifold of the data distribution. eplapr incorporates multiple
+graphs into a regularization term in order to sufficiently explore the
+complementation of graph p-laplacian. specifically, we construct a fused graph
+by introducing an optimization approach to assign suitable weights on different
+p-value graphs. and then, we conduct semi-supervised learning framework on the
+fused graph. extensive experiments on uc-merced data set demonstrate the
+effectiveness and efficiency of the proposed method.

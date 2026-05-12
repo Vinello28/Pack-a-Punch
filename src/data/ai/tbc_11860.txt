@@ -1,0 +1,18 @@
+search engines are the most important tools for web data acquisition. web
+pages are crawled and indexed by search engines. users typically locate useful
+web pages by querying a search engine. one of the challenges in search engines
+administration is spam pages which waste search engine resources. these pages
+by deception of search engine ranking algorithms try to be showed in the first
+page of results. there are many approaches to web spam pages detection such as
+measurement of html code style similarity, pages linguistic pattern analysis
+and machine learning algorithm on page content features. one of the famous
+algorithms has been used in machine learning approach is support vector machine
+(svm) classifier. recently basic structure of svm has been changed by new
+extensions to increase robustness and classification accuracy. in this paper we
+improved accuracy of web spam detection by using two nonlinear kernels into
+twin svm (tsvm) as an improved extension of svm. the classifier ability to data
+separation has been increased by using two separated kernels for each class of
+data. effectiveness of new proposed method has been experimented with two
+publicly used spam datasets called uk-2007 and uk-2006. results show the
+effectiveness of proposed kernelized version of tsvm in web spam page
+detection.

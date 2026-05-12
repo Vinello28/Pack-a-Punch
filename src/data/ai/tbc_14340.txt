@@ -1,1 +1,1 @@
-Analisi energetica avanzata di edifici ed impianti mediante sistemi distribuiti dotati di intelligenza artificiale
+realizzazione di una piattaforma industriale IoT basata su algoritmi che combinano model based reasoning con intelligenza artificiale dedicati alla valorizzazione dell'offerta dei dispositivi Bonfiglioli

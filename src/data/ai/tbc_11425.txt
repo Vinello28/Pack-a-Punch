@@ -1,1 +1,0 @@
-Giano 2: Integrazione offline di AI Generativa nel Modello CDT per Suggerimenti Personalizzati

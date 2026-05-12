@@ -1,12 +1,1 @@
-CONSULENZA SPECIALISTICA PER SUPPORTARE I PROCESSI DI INNOVAZIONE, TRASFORMAZIONE TECNOLOGICA E DIGITALE DELL’IMPRESA ATTRAVERSO LE SEGUENTI FASI:
--ANALISI DELLO STATO AZIENDALE E BASE DI DATI COMMERCIALE;
--CONSULENZA PER MIGLIORARE IL MARCHIO AZIENDALE E LA SUA VISIBILITÀ;
--CONSULENZA PER SVILUPPO DEI SISTEMI AZIENDALI: SET UP AMBIENTI DI SVILUPPO, INTEGRAZIONE BASE DI DATI, SVILUPPO GRAFICO/FUNZIONALE FRONTEND E BACKEND, IMPLEMENTAZIONE DELL’INTELLIGENZA ARTIFICIALE E DELL’AUTOMAZIONE;
--SVILUPPO INTEGRAZIONE TRAMITE NLP (NATURAL LANGUAGE PROCESSING) PER ANALIZZARE AUTOMATICAMENTE I CONTRATTI E LE PRATICHE DI LOCAZIONE PER IDENTIFICARE TERMINI E CLAUSOLE IMPORTANTI;
--ANALISI PREDITTIVA PER ANALIZZARE DATI STORICI ED IDENTIFICARE MODELLI E TENDENZE NEL SETTORE IMMOBILIARE 
--DEPLOY E SUPPORTO POST-IMPLEMENTAZIONE,
--FORMAZIONE DEL PERSONALE E DOCUMENTAZIONE.
-
-IL PROGETTO HA COME OBBIETTIVO L’INTEGRAZIONE DEI SISTEMI DI GESTIONE E COMUNICAZIONE AZIENDALE.
-
-L’INNOVAZIONE DI PROCESSO PREVEDE L’INTEGRAZIONE MULTITOOL PER LA VENDITA E PER IL MARKETING, PROCESSI STANDARDIZZATI DI APPRENDIMENTO DEL SOFTWARE (MACHINE LEARNING) E MIGLIORAMENTO DELLE PERFORMANCE DEL SERVIZIO.
+several metrics have been proposed for assessing the similarity of (abstract) meaning representations (amrs), but little is known about how they relate to human similarity ratings. moreover, the current metrics have complementary strengths and weaknesses: some emphasize speed, while others make the alignment of graph structures explicit, at the price of a costly alignment step. in this work we propose new weisfeiler-leman amr similarity metrics that unify the strengths of previous metrics, while mitigating their weaknesses. specifically, our new metrics are able to match contextualized substructures and induce n:m alignments between their nodes. furthermore, we introduce a benchmark for amr metrics based on overt objectives (bamboo), the first benchmark to support empirical assessment of graph-based mr similarity metrics. bamboo maximizes the interpretability of results by defining multiple overt objectives that range from sentence similarity objectives to stress tests that probe a metric's robustness against meaning-altering and meaning-preserving graph transformations. we show the benefits of bamboo by profiling previous metrics and our own metrics. results indicate that our novel metrics may serve as a strong baseline for future work.

@@ -1,6 +1,1 @@
-Cogo Bilance SRL è un’azienda storica attiva nel settore delle bilance.
-La base di partenze da cui parte questo progetto di innovazione è l’introduzione nel nostro ordinamento della Tariffa Puntuale, un sistema di calcolo della tariffa rifiuti (TA.RI) che non si basa più solo sul metodo presuntivo e sul criterio dei metri quadrati dell’immobile, ma è correlato alla reale produzione di rifiuti.
-Col corrente progetto è nostro obiettivo:
-1.	Realizzare le sperimentazioni ed i test sul campo per stimolare una forte innovazione tecnologica tramite la collaborazione con un centro di ricerca, abilitato su temi industria 4.0
-2.	Realizzare la prima versione prototipale della piattaforma informatica, fruibile via web ed erogata in modalità cloud/saas, che integrerà tutti i servizi resi possibili dall’innovativo sistema di pesatura di rifiuti urbani, sia lato utente che lato service/erogatore del servizio di raccolta rifiuti.
-3.	Implementare algoritmi e tecniche di data analysis e big data grazie a ML e AI per produrre KPI ed indicatori vari e favorire sistemi di ottimizzazione, predizione e di raccomandation system.
+Percorso AI Generativa per il Business

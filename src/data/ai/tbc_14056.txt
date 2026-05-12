@@ -1,1 +1,1 @@
-this paper presents an annotation scheme for english modal verbs together with sense-annotated data from the news domain. we describe our annotation scheme and discuss problematic cases for modality annotation based on the inter-annotator agreement during the annotation. furthermore, we present experiments on automatic sense tagging, showing that our annotations do provide a valuable training resource for nlp systems.
+CORSO A CATALOGO SESSIONE VERTICALE INTELLIGENZA ARTIFICIALE GENERATIVA - PRODUTTIVIT INDIVIDUALE

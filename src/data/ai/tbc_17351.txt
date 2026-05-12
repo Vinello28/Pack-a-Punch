@@ -1,0 +1,25 @@
+sufficient training data normally is required to train deeply learned models.
+however, due to the expensive manual process for labelling large number of
+images, the amount of available training data is always limited. to produce
+more data for training a deep network, generative adversarial network (gan) can
+be used to generate artificial sample data. however, the generated data usually
+does not have annotation labels. to solve this problem, in this paper, we
+propose a virtual label called multi-pseudo regularized label (mprl) and assign
+it to the generated data. with mprl, the generated data will be used as the
+supplementary of real training data to train a deep neural network in a
+semi-supervised learning fashion. to build the corresponding relationship
+between the real data and generated data, mprl assigns each generated data a
+proper virtual label which reflects the likelihood of the affiliation of the
+generated data to pre-defined training classes in the real data domain. unlike
+the traditional label which usually is a single integral number, the virtual
+label proposed in this work is a set of weight-based values each individual of
+which is a number in (0,1] called multi-pseudo label and reflects the degree of
+relation between each generated data to every pre-defined class of real data. a
+comprehensive evaluation is carried out by adopting two state-of-the-art
+convolutional neural networks (cnns) in our experiments to verify the
+effectiveness of mprl. experiments demonstrate that by assigning mprl to
+generated data, we can further improve the person re-id performance on five
+re-id datasets, i.e., market-1501, dukemtmc-reid, cuhk03, viper, and cuhk01.
+the proposed method obtains +6.29%, +6.30%, +5.58%, +5.84%, and +3.48%
+improvements in rank-1 accuracy over a strong cnn baseline on the five datasets
+respectively, and outperforms state-of-the-art methods.

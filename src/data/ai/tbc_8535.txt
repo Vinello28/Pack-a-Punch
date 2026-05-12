@@ -1,1 +1,1 @@
-L Intelligenza Artificiale e le sue pi attuali applicazioni
+Piattaforma di AI per il restauro automatico di pellicole cinematografiche storiche tramite modelli di Super-Resolution e Inpainting.

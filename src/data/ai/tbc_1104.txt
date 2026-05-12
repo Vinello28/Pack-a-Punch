@@ -1,13 +1,1 @@
-Author Solutions opera nell¿industria:
-1.	dell¿editoria digitale 
-2.	della formazione e-learning 
-3.	della consulenza informatica 
-
-Il progetto prevede i seguenti interventi:
-1) trasformazione tecnologica e digitale attraverso l¿applicazione di:
-a.	una tecnologia Cloud di Cyber Security basata su algoritmi di machine learning; 
-b.	un programma di digital marketing e sviluppo commerciale al fine di valorizzare il brand, i software ed i segni distintivi attinenti all¿ introduzione di tecnologie CLOUD di CYBER SECURITY e comprensiva di un programma di sviluppo commerciale tramite il metodo ¿Buyer ad Personas¿ che prevederà un¿attività di profilatura innovativa del portafoglio clienti per potenziare l¿offerta commerciale.
-
-2)	applicazione di metodi organizzativi nelle pratiche commerciali e nelle di gestione aziendale inclusivi di nuovi:
-a.	Metodi gestionali organizzativi nelle pratiche commerciali tramite un progetto innovativo di vendita delle soluzioni della Author Solutions Srls al fine di mantenere una posizione di rilievo nel settore di riferimento
-b.	Metodi organizzativi nelle strategie di gestione aziendale tramite un programma di riorganizzazione aziendale mirato alla realizzazione di un progetto innovativo di organizzazione, formazione e specializzazione delle
+geopolitical conflicts have increasingly been a driver of trade policy. we study the potential effects of global and persistent geopolitical conflicts on trade, technological innovation, and economic growth. in conventional trade models the welfare costs of such conflicts are modest. we build a multi-sector multi-region general equilibrium model with dynamic sector-specific knowledge diffusion, which magnifies welfare losses of trade conflicts. idea diffusion is mediated by the input-output structure of production, such that both sector cost shares and import trade shares characterize the source distribution of ideas. using this framework, we explore the potential impact of a "decoupling of the global economy," a hypothetical scenario under which technology systems would diverge in the global economy. we divide the global economy into two geopolitical blocs -- east and west -- based on foreign policy similarity and model decoupling through an increase in iceberg trade costs (full decoupling) or tariffs (tariff decoupling). results yield three main insights. first, the projected welfare losses for the global economy of a decoupling scenario can be drastic, as large as 15% in some regions and are largest in the lower income regions as they would benefit less from technology spillovers from richer areas. second, the described size and pattern of welfare effects are specific to the model with diffusion of ideas. without diffusion of ideas the size and variation across regions of the welfare losses would be substantially smaller. third, a multi-sector framework exacerbates diffusion inefficiencies induced by trade costs relative to a single-sector one.

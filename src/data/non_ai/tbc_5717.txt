@@ -1,1 +1,1 @@
-Valutazione delle tecnologie IoT per un fertirrigatore autonomo
+Voice Office Ã¨ una Piattaforma per la gestione del workflow aziendale e per lâ€™ottimizzazione dei processi di interrogazione di Gestionali aziendali e Database. La particolaritÃ  del software Ã¨ lâ€™intuitivitÃ  dellâ€™interfaccia  che adopera infatti il piÃ¹ naturale degli strumenti: la Voce. Si tratta di una vera e propria piattaforma ad attivazione vocale  che adopera lâ€™assistente vocale Amazon. Essa automatizza le procedure piÃ¹ ripetitive  lasciando tempo per mansioni che richiedono maggior impegno.

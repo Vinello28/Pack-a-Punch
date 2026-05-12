@@ -1,0 +1,13 @@
+motivated by a non-random but clustered distribution of snps, we introduce a
+phenomenological model to account for the clustering properties of snps in the
+human genome. the phenomenological model is based on a preferential mutation to
+the closer proximity of existing snps. with the hapmap snp data, we empirically
+demonstrate that the preferential model is better for illustrating the
+clustered distribution of snps than the random model. moreover, the model is
+applicable not only to autosomes but also to the x chromosome, although the x
+chromosome has different characteristics from autosomes. the analysis of the
+estimated parameters in the model can explain the pronounced population
+structure and the low genetic diversity of the x chromosome. in addition,
+correlation between the parameters reveals the population-wise difference of
+the mutation probability. these results support the mutational non-independence
+hypothesis against random mutation.

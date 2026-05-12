@@ -1,1 +1,10 @@
-portale per ispirazione  educazione e apprendimento nel mondo della film industry e dellâ€™entertainment attraverso lo sviluppo e allâ€™adozione di tecnologie come lâ€™intelligenza artificiale  la blockchain e realtÃ  virtuale
+negation scope has been annotated in several english and chinese corpora, and
+highly accurate models for this task in these languages have been learned from
+these annotations. unfortunately, annotations are not available in other
+languages. could a model that detects negation scope be applied to a language
+that it hasn't been trained on? we develop neural models that learn from
+cross-lingual word embeddings or universal dependencies in english, and test
+them on chinese, showing that they work surprisingly well. we find that
+modelling syntax is helpful even in monolingual settings and that cross-lingual
+word embeddings help relatively little, and we analyse cases that are still
+difficult for this task.

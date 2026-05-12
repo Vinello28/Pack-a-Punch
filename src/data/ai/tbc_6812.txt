@@ -1,1 +1,22 @@
-Strada AI una startup innovativa nel campo dell intelligenza artificiale che si occupa dello sviluppo di servizi innovativi per il controllo e la gestione dello spazio aereo dedicato a dispositivi di volo a bassa quota come i droni.
+deep convolutional neural networks (cnns) based approaches are the
+state-of-the-art in various computer vision tasks, including face recognition.
+considerable research effort is currently being directed towards further
+improving deep cnns by focusing on more powerful model architectures and better
+learning techniques. however, studies systematically exploring the strengths
+and weaknesses of existing deep models for face recognition are still
+relatively scarce in the literature. in this paper, we try to fill this gap and
+study the effects of different covariates on the verification performance of
+four recent deep cnn models using the labeled faces in the wild (lfw) dataset.
+specifically, we investigate the influence of covariates related to: image
+quality -- blur, jpeg compression, occlusion, noise, image brightness,
+contrast, missing pixels; and model characteristics -- cnn architecture, color
+information, descriptor computation; and analyze their impact on the face
+verification performance of alexnet, vgg-face, googlenet, and squeezenet. based
+on comprehensive and rigorous experimentation, we identify the strengths and
+weaknesses of the deep learning models, and present key areas for potential
+future research. our results indicate that high levels of noise, blur, missing
+pixels, and brightness have a detrimental effect on the verification
+performance of all models, whereas the impact of contrast changes and
+compression artifacts is limited. it has been found that the descriptor
+computation strategy and color information does not have a significant
+influence on performance.

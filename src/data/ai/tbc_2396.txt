@@ -1,8 +1,0 @@
-Il titolare dell'Hotel ha investito nel 2020 in interventi innovativi in
-1. internet delle cose, intelligenza artificiale e machine learning
-2. interventi volti a favorire la connettività a banda ultra larga per l'impresa ricettiva
-3. hardware/software per videoconferenza
-4. software di performance su occupazione posti letto/camere
-5. cloud
-6.      traduzione sito
-L'Hotel ha chiesto un preventivo per una piattaforma online di Hospitality Data Intelligence (preventivo di Hbenchmark) che aggregasse i dati provenienti dal gestionale e restituisse in real time in forma anonima e aggregata le tendenze passate e future del mercato locale. Questo garantisce l'assoluta correttezza del dato, ed evita l'introduzione di attività operative manuali da parte degli operatori dell'Hotel Antica Abbazia. Ha poi investito nell'acquisto di un tablet, un cloud e alcuni servizi per potenziare la linea internet .

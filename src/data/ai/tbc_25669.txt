@@ -1,0 +1,18 @@
+symmetric positive definite (spd) matrices used as feature descriptors in
+image recognition are usually high dimensional. traditional manifold learning
+is only applicable for reducing the dimension of high-dimensional vector-form
+data. for high-dimensional spd matrices, directly using manifold learning
+algorithms to reduce the dimension of matrix-form data is impossible. the spd
+matrix must first be transformed into a long vector, and then the dimension of
+this vector must be reduced. however, this approach breaks the spatial
+structure of the spd matrix space. to overcome this limitation, we propose a
+new dimension reduction algorithm on spd matrix space to transform
+high-dimensional spd matrices into low-dimensional spd matrices. our work is
+based on the fact that the set of all spd matrices with the same size has a lie
+group structure, and we aim to transform the manifold learning to the spd
+matrix lie group. we use the basic idea of the manifold learning algorithm
+called locality preserving projection (lpp) to construct the corresponding
+laplacian matrix on the spd matrix lie group. thus, we call our approach
+lie-lpp to emphasize its lie group character. we present a detailed algorithm
+analysis and show through experiments that lie-lpp achieves effective results
+on human action recognition and human face recognition.

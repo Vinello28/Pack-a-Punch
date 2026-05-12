@@ -1,1 +1,1 @@
-IL PROGETTO CONSISTE NEL DOTARE L'AZIENDA DI UN SISTEMA DI GESTIONE  ALTAMENTE AVANZATO ADEGUATO AD UNA STURT UP INNOVATIVA IN UN SETTORE IN FORTE CRESCITA  CON  PARTICOLARE  RIFERIMENTO AL MERCATO  INTERNAZIONALE  DELLE TECNOLOGIE DI INTELLIGENZA ARTIFICIALE
+Progetto di innovazione digitale per smart grid basato su Neural Architecture Search (NAS) nel contesto ambiente. Il modello apprende da segnali biomedici (EEG, ECG, fMRI) utilizzando tecniche di curriculum learning. Il deployment sfrutta pipeline MLOps con CI/CD automatizzato per garantire affidabilità.

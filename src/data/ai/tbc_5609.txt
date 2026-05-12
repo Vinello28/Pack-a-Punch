@@ -1,1 +1,10 @@
-W.Training è una società di formazione e servizi dedicata a creare opportunità di sviluppo per le imprese e le persone. L’impresa offre soluzioni di formazione finanziata, corsi aziendali e open, prodotti per l’e-learning e consulenza in ambito di finanziamenti e agevolazioni per progetti aziendali e territoriali. Il progetto mira a potenziare le modalità in cui viene erogata l’offerta formativa attraverso l’integrazione di tecnologie avanzate come l’intelligenza artificiale, soluzioni di e-commerce e interfacce conversazionali, con un focus particolare sull’espansione nel mercato B2C. Gli investimenti previsti comprendono la digitalizzazione dei processi per la formazione, l’automazione dei contenuti e il rafforzamento dell’e-commerce, con l’obiettivo di migliorare l’efficienza operativa, ridurre i costi e ampliare l’accesso alla formazione online. I risultati attesi includono un maggiore posizionamento nel mercato, una personalizzazione avanzata dei servizi e una più ampia accessibilità alle soluzioni formative.
+medical imaging based prostate cancer diagnosis procedure uses
+intra-operative transrectal ultrasound (trus) imaging to visualize the prostate
+shape and location to collect tissue samples. correct tissue sampling from
+prostate requires accurate prostate segmentation in trus images. to achieve
+this, this study uses a novel residual connection based fully convolutional
+network. the advantage of this segmentation technique is that it requires no
+pre-processing of trus images to perform the segmentation. thus, it offers a
+faster and straightforward prostate segmentation from trus images. results show
+that the proposed technique can achieve around 86% dice similarity accuracy
+using only few trus datasets.

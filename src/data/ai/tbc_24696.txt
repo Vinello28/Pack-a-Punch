@@ -1,0 +1,9 @@
+the realized stochastic volatility (rsv) model that utilizes the realized
+volatility as additional information has been proposed to infer volatility of
+financial time series. we consider the bayesian inference of the rsv model by
+the hybrid monte carlo (hmc) algorithm. the hmc algorithm can be parallelized
+and thus performed on the gpu for speedup. the gpu code is developed with cuda
+fortran. we compare the computational time in performing the hmc algorithm on
+gpu (gtx 760) and cpu (intel i7-4770 3.4ghz) and find that the gpu can be up to
+17 times faster than the cpu. we also code the program with openacc and find
+that appropriate coding can achieve the similar speedup with cuda fortran.

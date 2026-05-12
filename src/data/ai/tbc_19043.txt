@@ -1,0 +1,19 @@
+we study the problem of visualizing large-scale and high-dimensional data in
+a low-dimensional (typically 2d or 3d) space. much success has been reported
+recently by techniques that first compute a similarity structure of the data
+points and then project them into a low-dimensional space with the structure
+preserved. these two steps suffer from considerable computational costs,
+preventing the state-of-the-art methods such as the t-sne from scaling to
+large-scale and high-dimensional data (e.g., millions of data points and
+hundreds of dimensions). we propose the largevis, a technique that first
+constructs an accurately approximated k-nearest neighbor graph from the data
+and then layouts the graph in the low-dimensional space. comparing to t-sne,
+largevis significantly reduces the computational cost of the graph construction
+step and employs a principled probabilistic model for the visualization step,
+the objective of which can be effectively optimized through asynchronous
+stochastic gradient descent with a linear time complexity. the whole procedure
+thus easily scales to millions of high-dimensional data points. experimental
+results on real-world data sets demonstrate that the largevis outperforms the
+state-of-the-art methods in both efficiency and effectiveness. the
+hyper-parameters of largevis are also much more stable over different data
+sets.

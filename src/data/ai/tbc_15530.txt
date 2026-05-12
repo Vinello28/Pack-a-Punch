@@ -1,0 +1,21 @@
+recent advances in 3d vision have demonstrated the strengths of photometric
+bundle adjustment. by directly minimizing reprojected pixel errors, instead of
+geometric reprojection errors, such methods can achieve sub-pixel alignment
+accuracy in both high and low textured regions. typically, these problems are
+solved using a forwards compositional lucas-kanade formulation parameterized by
+6-dof rigid camera poses and a depth per point in the structure. for large
+problems the most cpu-intensive component of the pipeline is the creation and
+factorization of the hessian matrix at each iteration. for many warps, the
+inverse compositional formulation can offer significant speed-ups since the
+hessian need only be inverted once. in this paper, we show that an ordinary
+inverse compositional formulation does not work for warps of this type of
+parameterization due to ill-conditioning of its partial derivatives. however,
+we show that it is possible to overcome this limitation by introducing the
+concept of a proxy template image. we show an order of magnitude improvement in
+speed, with little effect on quality, going from forwards to inverse
+compositional in our own photometric bundle adjustment method designed for
+object-centric structure from motion. this means less processing time for large
+systems or denser reconstructions under the same real-time constraints. we
+additionally show that this theory can be readily applied to existing methods
+by integrating it with the recently released direct sparse odometry slam
+algorithm.

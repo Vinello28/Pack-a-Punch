@@ -1,1 +1,0 @@
-Il progetto INTERPRETATIVE introduce un approccio avanzato basato su tecniche di machine learning e analisi comportamentale per superare i limiti delle soluzioni tradizionali, abilitando servizi gestiti più efficaci.

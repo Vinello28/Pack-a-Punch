@@ -1,0 +1,19 @@
+automated lymph node (ln) detection is an important clinical diagnostic task
+but very challenging due to the low contrast of surrounding structures in
+computed tomography (ct) and to their varying sizes, poses, shapes and sparsely
+distributed locations. state-of-the-art studies show the performance range of
+52.9% sensitivity at 3.1 false-positives per volume (fp/vol.), or 60.9% at 6.1
+fp/vol. for mediastinal ln, by one-shot boosting on 3d haar features. in this
+paper, we first operate a preliminary candidate generation stage, towards 100%
+sensitivity at the cost of high fp levels (40 per patient), to harvest volumes
+of interest (voi). our 2.5d approach consequently decomposes any 3d voi by
+resampling 2d reformatted orthogonal views n times, via scale, random
+translations, and rotations with respect to the voi centroid coordinates. these
+random views are then used to train a deep convolutional neural network (cnn)
+classifier. in testing, the cnn is employed to assign ln probabilities for all
+n random views that can be simply averaged (as a set) to compute the final
+classification probability per voi. we validate the approach on two datasets:
+90 ct volumes with 388 mediastinal lns and 86 patients with 595 abdominal lns.
+we achieve sensitivities of 70%/83% at 3 fp/vol. and 84%/90% at 6 fp/vol. in
+mediastinum and abdomen respectively, which drastically improves over the
+previous state-of-the-art work.

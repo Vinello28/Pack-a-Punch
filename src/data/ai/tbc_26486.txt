@@ -1,0 +1,13 @@
+we develop a computer aided diagnosis (cad) system, which enhances the
+performance of dentists in detecting wide range of dental caries. the cad
+system achieves this by acting as a second opinion for the dentists with way
+higher sensitivity on the task of detecting cavities than the dentists
+themselves. we develop annotated dataset of more than 3000 bitewing radiographs
+and utilize it for developing a system for automated diagnosis of dental
+caries. our system consists of a deep fully convolutional neural network (fcnn)
+consisting 100+ layers, which is trained to mark caries on bitewing
+radiographs. we have compared the performance of our proposed system with three
+certified dentists for marking dental caries. we exceed the average performance
+of the dentists in both recall (sensitivity) and f1-score (agreement with
+truth) by a very large margin. working example of our system is shown in figure
+1.

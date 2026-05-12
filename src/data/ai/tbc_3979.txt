@@ -1,2 +1,1 @@
-Il progetto mira a migliorare l'efficienza delle fabbriche, dove la digitalizzazione è limitata ai centri
-di lavoro con macchine CNC. Le isole di lavorazione manuale, ancora scarsamente digitalizzate, causano sprechi e riducono l'efficienza della produzione. La soluzione prevede l'uso di sensori plug&play e interfacce software con integrazione di AI per monitorare in tempo reale e automaticamente le ore di lavoro e i tempi idle nelle isole di lavorazione manuale migliorandone la produttività.
+Nuovo concetto di macchine utensili flessibili e modulari PERTICI Industries integrate con sistemi di controllo con Intelligenza artificiale e realt aumentata ed evoluzione dell architettura hardware e software secondo i paradigmi della Industria

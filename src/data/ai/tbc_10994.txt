@@ -1,0 +1,16 @@
+the task of three-dimensional (3d) human pose estimation from a single image
+can be divided into two parts: (1) two-dimensional (2d) human joint detection
+from the image and (2) estimating a 3d pose from the 2d joints. herein, we
+focus on the second part, i.e., a 3d pose estimation from 2d joint locations.
+the problem with existing methods is that they require either (1) a 3d pose
+dataset or (2) 2d joint locations in consecutive frames taken from a video
+sequence. we aim to solve these problems. for the first time, we propose a
+method that learns a 3d human pose without any 3d datasets. our method can
+predict a 3d pose from 2d joint locations in a single image. our system is
+based on the generative adversarial networks, and the networks are trained in
+an unsupervised manner. our primary idea is that, if the network can predict a
+3d human pose correctly, the 3d pose that is projected onto a 2d plane should
+not collapse even if it is rotated perpendicularly. we evaluated the
+performance of our method using human3.6m and the mpii dataset and showed that
+our network can predict a 3d pose well even if the 3d dataset is not available
+during training.

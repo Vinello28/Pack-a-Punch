@@ -1,1 +1,0 @@
-Sviluppare un sistema per il monitoraggio video che verifichi l’utilizzo dei DPI in ambienti di lavoro ad alto rischio, con il fine di aumentare la sicurezza dei lavoratori.

@@ -1,0 +1,14 @@
+ridge regularized linear models (rrlms), such as ridge regression and the
+svm, are a popular group of methods that are used in conjunction with
+coefficient hypothesis testing to discover explanatory variables with a
+significant multivariate association to a response. however, many investigators
+are reluctant to draw causal interpretations of the selected variables due to
+the incomplete knowledge of the capabilities of rrlms in causal inference.
+under reasonable assumptions, we show that a modified form of rrlms can get
+very close to identifying a subset of the markov boundary by providing a
+worst-case bound on the space of possible solutions. the results hold for any
+convex loss, even when the underlying functional relationship is nonlinear, and
+the solution is not unique. our approach combines ideas in markov boundary and
+sufficient dimension reduction theory. experimental results show that the
+modified rrlms are competitive against state-of-the-art algorithms in
+discovering part of the markov boundary from gene expression data.

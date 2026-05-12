@@ -1,1 +1,1 @@
-La societÃ  opera come struttura sanitaria ed ha la necessitÃ  di implementare un  sistema DICOM PACS per lÂ¿archiviazione  trasmissione  visualizzazione e stampa delle immagini diagnostiche digitali nonchÃ© accettazione paziente e refertazione medica finale. Indubbi i vantaggi per la societÃ : Â¿	Riduzione dei costi necessari per la produzione dei supporti fisici in cui consegnare referti ed immagini
+OPERE DI DIGITALIZZAZIONE E FACILITAZIONE AI FINI DELL'ACCESSIBILITA'

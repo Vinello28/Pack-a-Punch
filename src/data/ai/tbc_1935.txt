@@ -1,0 +1,12 @@
+brillouin imaging relies on the reliable extraction of subtle spectral
+information from hyperspectral datasets. to date, the mainstream practice has
+been using line fitting of spectral features to retrieve the average peak shift
+and linewidth parameters. good results, however, depend heavily on sufficient
+snr and may not be applicable in complex samples that consist of spectral
+mixtures. in this work, we thus propose the use of various multivariate
+algorithms that can be used to perform supervised or unsupervised analysis of
+the hyperspectral data, with which we explore advanced image analysis
+applications, namely unmixing, classification and segmentation in a phantom and
+live cells. the resulting images are shown to provide more contrast and detail,
+and obtained on a timescale $10^2$ faster than fitting. the estimated spectral
+parameters are consistent with those calculated from pure fitting.

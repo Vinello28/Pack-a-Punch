@@ -1,1 +1,17 @@
-Il progetto nasce con l obiettivo di trasformare il modello gestionale e operativo di Nuoto & Fitness Varese attraverso l introduzione dell Intelligenza Artificiale e delle tecnologie digitali migliorando l efficienza aziendale e l esperienza dei clienti. Il settore del fitness e del wellness in continua evoluzione e richiede soluzioni innovative per ottimizzare la gestione delle strutture personalizzare i percorsi di allenamento e fidelizzare la clientela. L integrazione di strumenti avanzati basati su big data e machine learning consentir all azienda di offrire un servizio altamente personalizzato e di incrementare la competitivit sul mercato. L implementazione dell Intelligenza Artificiale avverr attraverso tre strumenti principali: un sistema predittivo per la gestione delle prenotazioni in grado di ottimizzare l uso delle strutture in base ai flussi di utenza e alle esigenze dei clienti una piattaforma AI per la personalizzazione dei programmi di allenamento che analizzer parametri biometrici e obiettivi individuali per adattare le attivit in tempo reale un CRM avanzato basato su big data che consentir di raccogliere e analizzare le abitudini della clientela per migliorare la fidelizzazione e ottimizzare la comunicazione aziendale. Il progetto sar realizzato
+embedding knowledge graphs (kgs) into continuous vector spaces is a focus of
+current research. early works performed this task via simple models developed
+over kg triples. recent attempts focused on either designing more complicated
+triple scoring models, or incorporating extra information beyond triples. this
+paper, by contrast, investigates the potential of using very simple constraints
+to improve kg embedding. we examine non-negativity constraints on entity
+representations and approximate entailment constraints on relation
+representations. the former help to learn compact and interpretable
+representations for entities. the latter further encode regularities of logical
+entailment between relations into their distributed representations. these
+constraints impose prior beliefs upon the structure of the embedding space,
+without negative impacts on efficiency or scalability. evaluation on wordnet,
+freebase, and dbpedia shows that our approach is simple yet surprisingly
+effective, significantly and consistently outperforming competitive baselines.
+the constraints imposed indeed improve model interpretability, leading to a
+substantially increased structuring of the embedding space. code and data are
+available at https://github.com/iieir-km/complex-nne_aer.

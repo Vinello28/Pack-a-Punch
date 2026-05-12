@@ -1,0 +1,10 @@
+in this article using cuckoo optimization algorithm and simple additive
+weighting method the hybrid coaw algorithm is presented to solve
+multi-objective problems. cuckoo algorithm is an efficient and structured
+method for solving nonlinear continuous problems. the created pareto frontiers
+of the coaw proposed algorithm are exact and have good dispersion. this method
+has a high speed in finding the pareto frontiers and identifies the beginning
+and end points of pareto frontiers properly. in order to validation the
+proposed algorithm, several experimental problems were analyzed. the results of
+which indicate the proper effectiveness of coaw algorithm for solving
+multi-objective problems.

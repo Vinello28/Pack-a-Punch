@@ -1,0 +1,16 @@
+this paper is concerned with paraphrase detection. the ability to detect
+similar sentences written in natural language is crucial for several
+applications, such as text mining, text summarization, plagiarism detection,
+authorship authentication and question answering. given two sentences, the
+objective is to detect whether they are semantically identical. an important
+insight from this work is that existing paraphrase systems perform well when
+applied on clean texts, but they do not necessarily deliver good performance
+against noisy texts. challenges with paraphrase detection on user generated
+short texts, such as twitter, include language irregularity and noise. to cope
+with these challenges, we propose a novel deep neural network-based approach
+that relies on coarse-grained sentence modeling using a convolutional neural
+network and a long short-term memory model, combined with a specific
+fine-grained word-level similarity matching model. our experimental results
+show that the proposed approach outperforms existing state-of-the-art
+approaches on user-generated noisy social media data, such as twitter texts,
+and achieves highly competitive performance on a cleaner corpus.

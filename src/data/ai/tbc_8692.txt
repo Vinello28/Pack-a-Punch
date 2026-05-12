@@ -1,16 +1,1 @@
-feature selection is essential for effective visual recognition. we propose
-an efficient joint classifier learning and feature selection method that
-discovers sparse, compact representations of input features from a vast sea of
-candidates, with an almost unsupervised formulation. our method requires only
-the following knowledge, which we call the \emph{feature sign}---whether or not
-a particular feature has on average stronger values over positive samples than
-over negatives. we show how this can be estimated using as few as a single
-labeled training sample per class. then, using these feature signs, we extend
-an initial supervised learning problem into an (almost) unsupervised clustering
-formulation that can incorporate new data without requiring ground truth
-labels. our method works both as a feature selection mechanism and as a fully
-competitive classifier. it has important properties, low computational cost and
-excellent accuracy, especially in difficult cases of very limited training
-data. we experiment on large-scale recognition in video and show superior speed
-and performance to established feature selection approaches such as adaboost,
-lasso, greedy forward-backward selection, and powerful classifiers such as svm.
+L'OBIETTIVO DEL PROGETTO RIVOLUZIONARE I SERVIZI COMUNALI ATTRAVERSO UNA CONSULENZA SPECIALISTICA IN SISTEMI DI INTELLIGENZA ARTIFICIALE CON INTERFACCIA VIRTUAL HUMAN CON SOLUZIONI IN CLOUD COMPUTING PER SERVIZI COMUNALI COME L'UFFICIO ANAGRAFE PAGAMENTO TRIBUTI INFORMAZIONI SEGNALAZIONI ATTIVIT CULTURALI SOCIO ASSISTENZIALI E SPORTIVE. L'INTRODUZIONE DI IA CONSENTIR L'AUTOMAZIONE DEI PROCESSI RIDUCENDO I TEMPI DI RISPOSTA E MIGLIORANDONE L'EFFICACIA. L'INTERFACCIA VIRTUAL HUMAN AGGIUNGER UN LIVELLO UMANO ALLE INTERAZIONI MIGLIORANDO L'ESPERIENZA UTENTE. CI PERMETTER AI CITTADINI DI INTERAGIRE IN MODO NATURALE RICEVENDO ASSISTENZA PERSONALIZZATA E RISPOSTE IMMEDIATE. I SISTEMI DI IA SARANNO IMPLEMENTATI PER GESTIRE LE RICHIESTE COMPLESSE E GUIDARE I CITTADINI ATTRAVERSO LE PROCEDURE. PER L'UFFICIO ANAGRAFE L'IA SEMPLIFICHER I PROCESSI DI REGISTRAZIONE E GESTIONE DEI DOCUMENTI. NEL PAGAMENTO DEI TRIBUTI SARANNO IMPLEMENTATI SISTEMI AUTOMATIZZATI PER FACILITARE LE TRANSAZIONI E ATTRAVERSO L UTILIZZO DELLA TECNOLOGIA DI ANALISI DEI DATI EFFETTUARE DEI REPORT AVANZATI E POTER ESTRAPOLARE LE INFORMAZIONI DI INTERESSE. I CITTADINI POTRANNO EFFETTUARE PAGAMENTI E RICEVERE INFORMAZIONI DETTAGLIATE IN MODO INTUITIVO NEL CONTESTO DELLE ATTIVIT CULTURALI ASSISTENZIALI

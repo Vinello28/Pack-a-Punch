@@ -1,0 +1,23 @@
+the complexity of helicopter flight dynamics makes modeling and helicopter
+system identification a very difficult task. most of the traditional techniques
+require a model structure to be defined apriori and in case of helicopter
+dynamics, this is difficult due to its complexity and the interplay between
+various subsystems.to overcome this difficulty, non-parametric approaches are
+commonly adopted for helicopter system identification. artificial neural
+network are a widely used class of algorithms for non-parametric system
+identification, among them, the nonlinear auto regressive exogeneous input
+network (narx) model is very popular, but it also necessitates some in depth
+knowledge regarding the system being modeled. there have been many approaches
+proposed to circumvent this and yet still retain the advantageous
+characteristics. in this paper we carry out an extensive study of one such
+newly proposed approach using a modified narx model with a two tiered,
+externally driven recurrent neural network architecture. this is coupled with
+an outer optimization routine for evolving the order of the system. this
+generic architecture is comprehensively explored to ascertain its usability and
+critically asses its potential. different instantiations of this architecture,
+based on nature inspired computational techniques (artificial bee colony,
+artificial immune system and particle swarm optimization) are evaluated and
+critically compared in this paper. simulations have been carried out for
+identifying the longitudinally uncoupled dynamics. results of identification
+indicate a quite close correlation between the actual and the predicted
+response of the helicopter for all the models.

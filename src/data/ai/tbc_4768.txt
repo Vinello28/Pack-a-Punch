@@ -1,7 +1,1 @@
-INNOVATIVA PIATTAFORMA PIM/DAM A
-SUPPORTO DELLA GESTIONE DEI PRODOTTI IN
-MAGAZZINO. IL PROGETTO VUOLE ARRICCHIRE
-LA PIATTAFORMA SFRUTTANDO LE
-POTENZIALITÀ DELL'INTELLIGENZA ARTIFICIALE
-PER MAPPATURA DEI DATI TECNICI DELLA
-COMPONENTISTICA DELL'AZIENDA.
+Creazione di un motore di AI per drug discovery basato su Ensemble Learning con Random Forest e Gradient Boosting dedicato al settore istruzione. L'addestramento sfrutta corpus testuali multilingue con tecniche di data augmentation. L'infrastruttura include edge computing con acceleratori TPU/NPU per training e inferenza.

@@ -1,9 +1,1 @@
-guided by critical systems found in nature we develop a novel mechanism
-consisting of inhomogeneous polynomial regularisation via which we can induce
-scale invariance in deep learning systems. technically, we map our deep
-learning (dl) setup to a genuine field theory, on which we act with the
-renormalisation group (rg) in momentum space and produce the flow equations of
-the couplings; those are translated to constraints and consequently interpreted
-as "critical regularisation" conditions in the optimiser; the resulting
-equations hence prove to be sufficient conditions for - and serve as an elegant
-and simple mechanism to induce scale invariance in any deep learning setup.
+protein-protein interaction (ppi) prediction plays a pivotal role in deciphering cellular functions and disease mechanisms. to address the limitations of traditional experimental methods and existing computational approaches in cross-modal feature fusion and false-negative suppression, we propose scmppi-a novel supervised contrastive multimodal framework. by effectively integrating sequence-based features (aac, dpc, esmc-cksaap) with network topology (node2vec embeddings) and incorporating an enhanced contrastive learning strategy with negative sample filtering, scmppi achieves superior prediction performance. extensive experiments on eight benchmark datasets demonstrate its state-of-the-art accuracy(98.13%) and auc(99.69%), along with excellent cross-species generalization (auc>99%). successful applications in cd9 networks, wnt pathway analysis, and cancer-specific networks further highlight its potential for disease target discovery, establishing scmppi as a powerful tool for multimodal biological data analysis.

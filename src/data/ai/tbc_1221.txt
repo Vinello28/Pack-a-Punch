@@ -1,0 +1,13 @@
+we define a property of intelligent systems, which we call reflexivity. in
+human beings, it is one aspect of consciousness, and an element of
+deliberation. we propose a conjecture, that this property is conditioned by a
+topological property of the processes which implement this reflexivity. these
+processes may be symbolic, or non symbolic e.g. connexionnist. an architecture
+which implements reflexivity may be based on the interaction of one or several
+modules of deep learning, which may be specialized or not, and interconnected
+in a relevant way. a necessary condition of reflexivity is the existence of
+recurrence in its processes, we will examine in which cases this condition may
+be sufficient. we will then examine how this topology and this property make
+possible the expression of a second property, the deliberation. in a final
+paragraph, we propose an evaluation of intelligent systems, based on the
+fulfillment of all or some of these properties.

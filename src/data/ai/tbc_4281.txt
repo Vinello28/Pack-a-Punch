@@ -1,1 +1,16 @@
-Sviluppo, testing, training di una multi sided-digital job platform AI-based che intende ridurre il mismatch tra domanda e offerta di Competenze, Abilità ed Esperienze (CAE) innovando la fruizione delle informazioni per gli utenti attraverso una visualizzazione alternativa, le Bubble, che permette di migliorare la user experience (innovazione del servizio), il job searching (innovazione di processo) e di incrementare la auto-consapevolezza delle CAE degli utenti (innovazione sociale).
+emotion recognition is a fundamental aspect of human communication and plays a crucial role in various
+ domains. this project aims at developing an efficient model for real-time multimodal emotion recognition in
+ videos of human oration (opinion videos), where the speakers express their opinions about various topics. four
+ separate datasets contributing 20,000 samples for text, 1,440 for audio, 35,889 for images, and 3,879 videos
+ for multimodal analysis respectively are used. one model is trained for each of the modalities: fasttext for text
+ analysis because of its efficiency, robustness to noise, and pre-trained embeddings; customized 1-d cnn for
+ audio analysis using its translation invariance, hierarchical feature extraction, scalability, and generalization;
+ custom 2-d cnn for image analysis because of its ability to capture local features and handle variations in
+ image content. they are tested and combined on the cmu-mosei dataset using both bagging and stacking
+ to find the most effective architecture. they are then used for real-time analysis of speeches. each of the
+ models is trained on 80% of the datasets, the remaining 20% is used for testing individual and combined
+ accuracies in cmu-mosei. the emotions finally predicted by the architecture correspond to the six classes
+ in the cmu-mosei dataset. this cross-dataset training and testing of the models makes them robust and
+ efficient for general use, removes reliance on a specific domain or dataset, and adds more data points for
+ model training. the proposed architecture was able to achieve an accuracy of 85.85% and an f1-score of 83
+ on the cmu-mosei dataset.

@@ -1,1 +1,0 @@
-Il progetto consiste nella consulenza finalizzata ai big data e analisi dati connessi ad una piattaforma software di manutenzione predittiva. Il fine ultimo è la predizione di malfunzionamenti a livello inverter su tecnologie rinnovabili. Il progetto coinvolgerà l'utilizzo delle più moderne ed adeguate tecnologie in ambito di analisi dati e machine learning.

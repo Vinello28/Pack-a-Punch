@@ -1,1 +1,19 @@
-Il progetto COED Digital editor IA di mediaimmagine consiste nello studio e sviluppo software di un frontend (interfaccia web / app) che, basandosi su un Private Virtual Cloud in datacenter UE e sulle soluzioni Microsoft (365, Azure Cloud, Fabric), attraverso le postazioni di lavoro di ciascuna delle giornaliste e comunicatrici, dia accesso all’intelligenza artificiale di OpenAI, di Dall-E, di Midjourney AI e di Kaiber AI (le prime due sono già molto note; le altre due sono strumenti generativi molto potenti e innovativi per la realizzazione di creatività fotografica, grafica, video). Con COED, realizzando un'innovazione di processo nella produzione e nei servizi, in mediaimmagine l’IA diventa una “collaboratrice” del personale umano e risponde a una domanda contestualizzandola, verificandone l’appropriatezza, e producendo contenuti, anche creativi, privi di errori. Il tutto in modo sicuro (attraverso la protezione dei dati e delle transazioni) e nel rispetto del diritto d’autore.
+current techniques in machine learning are so far are unable to learn
+classifiers that are robust to adversarial perturbations. however, they are
+able to learn non-robust classifiers with very high accuracy, even in the
+presence of random perturbations. towards explaining this gap, we highlight the
+hypothesis that $\textit{robust classification may require more complex
+classifiers (i.e. more capacity) than standard classification.}$
+  in this note, we show that this hypothesis is indeed possible, by giving
+several theoretical examples of classification tasks and sets of "simple"
+classifiers for which: (1) there exists a simple classifier with high standard
+accuracy, and also high accuracy under random $\ell_\infty$ noise. (2) any
+simple classifier is not robust: it must have high adversarial loss with
+$\ell_\infty$ perturbations. (3) robust classification is possible, but only
+with more complex classifiers (exponentially more complex, in some examples).
+  moreover, $\textit{there is a quantitative trade-off between robustness and
+standard accuracy among simple classifiers.}$ this suggests an alternate
+explanation of this phenomenon, which appears in practice: the tradeoff may
+occur not because the classification task inherently requires such a tradeoff
+(as in [tsipras-santurkar-engstrom-turner-madry `18]), but because the
+structure of our current classifiers imposes such a tradeoff.

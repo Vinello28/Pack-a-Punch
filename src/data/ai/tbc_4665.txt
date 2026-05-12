@@ -1,1 +1,16 @@
-Descrizione Progetto: K•HERO è la soluzione per democratizzare la riabilitazione motoria, superando le barriere economiche e geografiche che impediscono al 37% della popolazione di ricevere supporto riabilitativo adeguato. K•HERO offre 3 dispositivi medici rimborsabili dal SSN che, grazie alla tecnologia IA brevettata, eroga correttamente la terapia ai pazienti in clinica, in ambulatorio e a casa. L'IA guida il paziente, con bio-feedback in tempo reale, e registra automaticamente tutti i dati sanitari necessari per valutare lo stato del paziente da remoto. Il K•CLOUD è la piattaforma per i sanitari che gestisce il triage, le analisi funzionali, la terapia e le cartelle cliniche, alimentate dall'IA
+image classification has become one of the main tasks in the field of
+computer vision technologies. in this context, a recent algorithm called
+capsnet that implements an approach based on activity vectors and dynamic
+routing between capsules may overcome some of the limitations of the current
+state of the art artificial neural networks (ann) classifiers, such as
+convolutional neural networks (cnn). in this paper, we evaluated the
+performance of the capsnet algorithm in comparison with three well-known
+classifiers (fisher-faces, lenet, and resnet). we tested the classification
+accuracy on four datasets with a different number of instances and classes,
+including images of faces, traffic signs, and everyday objects. the evaluation
+results show that even for simple architectures, training the capsnet algorithm
+requires significant computational resources and its classification performance
+falls below the average accuracy values of the other three classifiers.
+however, we argue that capsnet seems to be a promising new technique for image
+classification, and further experiments using more robust computation resources
+and re-fined capsnet architectures may produce better outcomes.

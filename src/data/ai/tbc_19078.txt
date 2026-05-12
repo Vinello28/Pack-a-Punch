@@ -1,0 +1,21 @@
+conversion of one font to another font is very useful in real life
+applications. in this paper, we propose a convolutional recurrent generative
+model to solve the word level font transfer problem. our network is able to
+convert the font style of any printed text images from its current font to the
+required font. the network is trained end-to-end for the complete word images.
+thus it eliminates the necessary pre-processing steps, like character
+segmentations. we extend our model to conditional setting that helps to learn
+one-to-many mapping function. we employ a novel convolutional recurrent model
+architecture in the generator that efficiently deals with the word images of
+arbitrary width. it also helps to maintain the consistency of the final images
+after concatenating the generated image patches of target font. besides, the
+generator and the discriminator network, we employ a classification network to
+classify the generated word images of converted font style to their subsequent
+font categories. most of the earlier works related to image translation are
+performed on square images. our proposed architecture is the first work which
+can handle images of varying widths. word images generally have varying width
+depending on the number of characters present. hence, we test our model on a
+synthetically generated font dataset. we compare our method with some of the
+state-of-the-art methods for image translation. the superior performance of our
+network on the same dataset proves the ability of our model to learn the font
+distributions.

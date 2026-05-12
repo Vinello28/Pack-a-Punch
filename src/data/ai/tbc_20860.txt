@@ -1,0 +1,29 @@
+during the summer of 1989, the forecast systems laboratory of the national
+oceanic and atmospheric administration sponsored an evaluation of artificial
+intelligence-based systems that forecast severe convective storms. the
+evaluation experiment, called shootout-89, took place in boulder, and focussed
+on storms over the northeastern colorado foothills and plains (moninger, et
+al., 1990). six systems participated in shootout-89. these included traditional
+expert systems, an analogy-based system, and a system developed using methods
+from the cognitive science/judgment analysis tradition. each day of the
+exercise, the systems generated 2 to 9 hour forecasts of the probabilities of
+occurrence of: non significant weather, significant weather, and severe
+weather, in each of four regions in northeastern colorado. a verification
+coordinator working at the denver weather service forecast office gathered
+ground-truth data from a network of observers. systems were evaluated on the
+basis of several measures of forecast skill, and on other metrics such as
+timeliness, ease of learning, and ease of use. systems were generally easy to
+operate, however the various systems required substantially different levels of
+meteorological expertise on the part of their users--reflecting the various
+operational environments for which the systems had been designed. systems
+varied in their statistical behavior, but on this difficult forecast problem,
+the systems generally showed a skill approximately equal to that of persistence
+forecasts and climatological (historical frequency) forecasts. the two systems
+that appeared best able to discriminate significant from non significant
+weather events were traditional expert systems. both of these systems required
+the operator to make relatively sophisticated meteorological judgments. we are
+unable, based on only one summer's worth of data, to determine the extent to
+which the greater skill of the two systems was due to the content of their
+knowledge bases, or to the subjective judgments of the operator. a follow-on
+experiment, shootout-91, is currently being planned. interested potential
+participants are encouraged to contact the author at the address above.

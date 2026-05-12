@@ -1,1 +1,0 @@
-L azienda intende realizzare una piattaforma e-commerce integrata con un software gestionale rivolta sia al potenziale cliente B2C sia alle aziende B2B. La piattaforma sarà dotata di tutte le funzionalità necessarie per gestire ordini, magazzino, fatturazione, sviluppando un area riservata a clienti per listino prezzi dedicato, modulo ordini e download preventivi e fatture.

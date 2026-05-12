@@ -1,1 +1,26 @@
-the aspiration of the vision-and-language navigation (vln) task has long been to develop an embodied agent with robust adaptability, capable of seamlessly transferring its navigation capabilities across various tasks. despite remarkable advancements in recent years, most methods necessitate dataset-specific training, thereby lacking the capability to generalize across diverse datasets encompassing distinct types of instructions. large language models (llms) have demonstrated exceptional reasoning and generalization abilities, exhibiting immense potential in robot action planning. in this paper, we propose flexvln, an innovative hierarchical approach to vln that integrates the fundamental navigation ability of a supervised-learning-based instruction follower with the robust generalization ability of the llm planner, enabling effective generalization across diverse vln datasets. moreover, a verification mechanism and a multi-model integration mechanism are proposed to mitigate potential hallucinations by the llm planner and enhance execution accuracy of the instruction follower. we take reverie, soon, and cvdn-target as out-of-domain datasets for assessing generalization ability. the generalization performance of flexvln surpasses that of all the previous methods to a large extent.
+the internet of things (iot) integrates billions of smart devices that can
+communicate with one another with minimal human intervention. it is one of the
+fastest developing fields in the history of computing, with an estimated 50
+billion devices by the end of 2020. on the one hand, iot play a crucial role in
+enhancing several real-life smart applications that can improve life quality.
+on the other hand, the crosscutting nature of iot systems and the
+multidisciplinary components involved in the deployment of such systems
+introduced new security challenges. implementing security measures, such as
+encryption, authentication, access control, network security and application
+security, for iot devices and their inherent vulnerabilities is ineffective.
+therefore, existing security methods should be enhanced to secure the iot
+system effectively. machine learning and deep learning (ml/dl) have advanced
+considerably over the last few years, and machine intelligence has transitioned
+from laboratory curiosity to practical machinery in several important
+applications. consequently, ml/dl methods are important in transforming the
+security of iot systems from merely facilitating secure communication between
+devices to security-based intelligence systems. the goal of this work is to
+provide a comprehensive survey of ml /dl methods that can be used to develop
+enhanced security methods for iot systems. iot security threats that are
+related to inherent or newly introduced threats are presented, and various
+potential iot system attack surfaces and the possible threats related to each
+surface are discussed. we then thoroughly review ml/dl methods for iot security
+and present the opportunities, advantages and shortcomings of each method. we
+discuss the opportunities and challenges involved in applying ml/dl to iot
+security. these opportunities and challenges can serve as potential future
+research directions.

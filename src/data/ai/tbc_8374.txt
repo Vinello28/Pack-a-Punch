@@ -1,1 +1,15 @@
-Con l'aumento della digitalizzazione e l'adozione di tecnologie avanzate emerge l'opportunit di sfruttare l'intelligenza artificiale (AI) per automatizzare parte delle interazioni legate al settore dell'ospitalit (richieste informative di preventivo). L'uso di assistenti virtuali basati su AI come ChatGPT pu rivoluzionare il modo in cui gli hotel gestiscono le comunicazioni con gli ospiti. Questi strumenti non solo possono rispondere automaticamente a domande frequenti ma sono anche in grado di generare preventivi personalizzati in tempo reale migliorando significativamente l'efficienza operativa e l'esperienza del cliente. Questo progetto mira a implementare un sistema integrato che utilizza WhatsApp e ChatGPT per rispondere alle domande frequenti e gestire le richieste di preventivo. L'integrazione con ChatGPT supportata dalla piattaforma ErmesHotels per lo sviluppo dei preventivi consentir di fornire risposte rapide accurate e personalizzate. Attraverso questa soluzione l'hotel non solo migliorer l'efficienza interna ma offrir anche un servizio di alto livello che soddisfa le aspettative moderne degli ospiti. Inoltre l'automazione delle risposte contribuir a ridurre il carico di lavoro del personale permettendo loro di dedicarsi ad attivit pi strategiche
+many of the existing methods for learning joint embedding of images and text
+use only supervised information from paired images and its textual attributes.
+taking advantage of the recent success of unsupervised learning in deep neural
+networks, we propose an end-to-end learning framework that is able to extract
+more robust multi-modal representations across domains. the proposed method
+combines representation learning models (i.e., auto-encoders) together with
+cross-domain learning criteria (i.e., maximum mean discrepancy loss) to learn
+joint embeddings for semantic and visual features. a novel technique of
+unsupervised-data adaptation inference is introduced to construct more
+comprehensive embeddings for both labeled and unlabeled data. we evaluate our
+method on animals with attributes and caltech-ucsd birds 200-2011 dataset with
+a wide range of applications, including zero and few-shot image recognition and
+retrieval, from inductive to transductive settings. empirically, we show that
+our framework improves over the current state of the art on many of the
+considered tasks.

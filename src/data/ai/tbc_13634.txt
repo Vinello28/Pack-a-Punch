@@ -1,1 +1,1 @@
-Programmazione di software specifici con intelligenza artificiale(machine learning) dedicati al controllo dimensionale e qualit attraverso l'utilizzo di telecamere per la visione artificiale.
+Sviluppo di un sistema di precision farming che utilizza l'Intelligenza Artificiale  sensoristica IoT e georeferenziazione

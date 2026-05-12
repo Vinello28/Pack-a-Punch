@@ -1,12 +1,1 @@
-L'obiettivo del progetto Blood Innovative Logistic, Government
-and AI system (BILGAI nel prosieguo) è sviluppare una
-piattaforma innovativa per il governo territoriale della raccolta
-e della logistica degli emocomponenti, integrata con un
-sistema previsionale di ultima generazione. Sviluppata in
-cooperazione da un partenariato di di due aziende, una startup,
-e un organismo di ricerca tutti lombardi, la piattaforma BILGAI
-ambisce a diventare il prodotto di riferimento nel settore,
-sia a livello nazionale che internazionale, completando con
-nuove funzionalità i servizi base dei sistemi di gestione di
-centri territoriali su scala regionale e nazionale (es. il Centro
-Trasfusionale Regionale Lombardia).
+recently, there has been numerous breakthroughs in face hallucination tasks. however, the task remains rather challenging in videos in comparison to the images due to inherent consistency issues. the presence of extra temporal dimension in video face hallucination makes it non-trivial to learn the facial motion through out the sequence. in order to learn these fine spatio-temporal motion details, we propose a novel cross-modal audio-visual video face hallucination generative adversarial network (vfh-gan). the architecture exploits the semantic correlation of between the movement of the facial structure and the associated speech signal. another major issue in present video based approaches is the presence of blurriness around the key facial regions such as mouth and lips - where spatial displacement is much higher in comparison to other areas. the proposed approach explicitly defines a lip reading loss to learn the fine grain motion in these facial areas. during training, gans have potential to fit frequencies from low to high, which leads to miss the hard to synthesize frequencies. therefore, to add salient frequency features to the network we add a frequency based loss function. the visual and the quantitative comparison with state-of-the-art shows a significant improvement in performance and efficacy.

@@ -1,5 +1,1 @@
-Il progetto SENTINEL (Sistema di pEsatura diNamica inTellIgente per la gestioNE deL traffico pesante)
-ha l’obiettivo di sviluppare e realizzare un sistema integrato intelligente di pesatura dinamica dei veicoli
-che, integrandosi con altri sistemi, collabori in una gestione intelligente e predittiva del traffico di veicoli
-pesanti aventi effettive condizioni di carico non compatibili con le caratteristiche della struttura viaria, con
-smistamento in tempo reale su viabilità alternativa.
+LIBRI MARKET IL PRIMO MARKETPLACE ITALIANO DEDICATO AI LIBRI In un mondo sempre pi omologato e con bisogni pi standardizzati le librerie e i lettori insieme agli altri attori del settore rappresentano ancora i baluardi principali della cultura. I bisogni delle persone per vengono soddisfatti sempre meno nella vita reale e si spostano sempre pi nel mondo del web. La sfida del nuovo Millennio quindi proprio quella di arrivare dovunque e sfruttare internet e i suoi canali. Iscriviti subito a Libri Market e promuovi efficacemente i tuoi libri e i tuoi eventi diffondendo e valorizzando la cultura in generale e quella del tuo territorio.

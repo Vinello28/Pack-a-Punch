@@ -1,0 +1,20 @@
+gene regulatory network reconstruction is a fundamental problem in
+computational biology. we recently developed an algorithm, called panda
+(passing attributes between networks for data assimilation), that integrates
+multiple sources of 'omics data and estimates regulatory network models. this
+approach was initially implemented in the c++ programming language and has
+since been applied to a number of biological systems. in our current research
+we are beginning to expand the algorithm to incorporate larger and most diverse
+data-sets, to reconstruct networks that contain increasing numbers of elements,
+and to build not only single network models, but sets of networks. in order to
+accomplish these "big data" applications, it has become critical that we
+increase the computational efficiency of the panda implementation. in this
+paper we show how to recast panda's similarity equations as matrix operations.
+this allows us to implement a highly readable version of the algorithm using
+the matlab/octave programming language. we find that the resulting m-code much
+shorter (103 compared to 1128 lines) and more easily modifiable for potential
+future applications. the new implementation also runs significantly faster,
+with increasing efficiency as the network models increase in size. tests
+comparing the c-code and m-code versions of panda demonstrate that this
+speed-up is on the order of 20-80 times faster for networks of similar
+dimensions to those we find in current biological applications.

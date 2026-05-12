@@ -1,0 +1,17 @@
+in this paper, a wave-u-net based acoustic echo cancellation
+(aec) with an attention mechanism is proposed to jointly sup-
+press acoustic echo and background noise. the proposed ap-
+proach consists of the wave-u-net, an auxiliary encoder, and an
+attention network. in the proposed approach, the wave-u-net
+yields the estimated near-end speech from the mixture, the aux-
+iliary encoder extracts the latent features of the far-end speech,
+among which the relevant features are provided to the wave-u-
+net by using the attention mechanism. with the attention net-
+work, the echo can be effectively suppressed from the mixture.
+experimental results on timit dataset show that the proposed
+approach outperforms the existing methods in terms of the echo
+return loss enhancement (erle) for the single-talk period and
+the perceptual evaluation of speech quality (pesq) score for the
+double-talk period. furthermore, the robustness of the proposed
+approach against unseen noise condition is also validated from
+the experimental results.

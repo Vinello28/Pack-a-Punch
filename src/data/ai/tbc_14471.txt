@@ -1,1 +1,1 @@
-Implementazione di algoritmi di Generative Adversarial Networks (GAN) per previsione meteo nel dominio sanità. Il progetto integra point cloud da sensori LiDAR provenienti da multiple sorgenti eterogenee. Il finanziamento copre feature store centralizzato e team di data scientist specializzati.
+SVILUPPO DIGITALE DELL'ATTIVITA DI MANUTENZIONE MACCHINE MULTIFUNZIONE FORNENDO AI DIPENDENTI STRUMENTI HARDWARE VOLTI A CONTROLLARE LO STATO DELLE MACCHINE MULTIFUNZIONE IN MODO TALE DA MONITORIZZARE LE ATTIVITA' NECESSARIE DI MANUTENZIONE IN MODO PIU PROGRAMMATO E CELERE

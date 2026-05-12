@@ -1,0 +1,1 @@
+Realizzazione di un archivio video digitale per migliorare l'accesso ai dati e ai video grazie ad hardware specifico.

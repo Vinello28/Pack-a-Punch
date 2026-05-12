@@ -1,1 +1,1 @@
-sviluppo di una piattaforma che tramite l utilizzo di tecnologie di AI e Machine Learning offre all utente strumenti di supporto per la gestione della propria azienda.
+Creazione di un motore di AI per monitoraggio ambientale basato su Speech Recognition con modelli end-to-end dedicato al settore manifatturiero. L'addestramento sfrutta stream di dati in tempo reale con tecniche di data augmentation. L'infrastruttura include A/B testing framework per training e inferenza.

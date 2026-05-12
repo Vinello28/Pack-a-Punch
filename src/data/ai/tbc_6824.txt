@@ -1,1 +1,11 @@
-MiceGo si propone di supportare le applicazioni pre-cliniche della radioterapia FLASH attraverso l'integrazione di tecnologie avanzate di imaging tomografico e calcolo della dose  applicate ai piccoli animali. Al centro del progetto vi Ã¨ l'ambizione di combinare un sistema CT all'avanguardia con la tecnologia attualmente piÃ¹ avanzata nellâ€™erogare fasci di radiazione Ultra-High-Dose-Rate capaci di triggerare lâ€™effetto FLASH  promettendo miglioramenti significativi nella precisione diagnostica e nella valutazione accurata della distribuzione della dose nei modelli preclinici
+we describe an attentive encoder that combines tree-structured recursive
+neural networks and sequential recurrent neural networks for modelling sentence
+pairs. since existing attentive models exert attention on the sequential
+structure, we propose a way to incorporate attention into the tree topology.
+specially, given a pair of sentences, our attentive encoder uses the
+representation of one sentence, which generated via an rnn, to guide the
+structural encoding of the other sentence on the dependency parse tree. we
+evaluate the proposed attentive encoder on three tasks: semantic similarity,
+paraphrase identification and true-false question selection. experimental
+results show that our encoder outperforms all baselines and achieves
+state-of-the-art results on two tasks.

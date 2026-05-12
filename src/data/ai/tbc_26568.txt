@@ -1,0 +1,9 @@
+we propose convenient inferential methods for potentially nonstationary
+multivariate unobserved components models with fractional integration and
+cointegration. based on finite-order arma approximations in the state space
+representation, maximum likelihood estimation can make use of the em algorithm
+and related techniques. the approximation outperforms the frequently used
+autoregressive or moving average truncation, both in terms of computational
+costs and with respect to approximation quality. monte carlo simulations reveal
+good estimation properties of the proposed methods for processes of different
+complexity and dimension.

@@ -1,1 +1,0 @@
-Sviluppo di progetto di Intelligenza Artificiale Generativa - L attivit relativa al presente progetto AI4SIGN prevede l utilizzo dell Intelligenza artificiale per la traduzione in tempo reale della lingua dei segni (LIS) in lingua italiana e della lingua italiana in LIS.

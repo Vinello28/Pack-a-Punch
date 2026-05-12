@@ -1,0 +1,11 @@
+classification systems typically act in isolation, meaning they are required
+to implicitly memorize the characteristics of all candidate classes in order to
+classify. the cost of this is increased memory usage and poor sample
+efficiency. we propose a model which instead verifies using reference images
+during the classification process, reducing the burden of memorization. the
+model uses iterative nondifferentiable queries in order to classify an image.
+we demonstrate that such a model is feasible to train and can match baseline
+accuracy while being more parameter efficient. however, we show that finding
+the correct balance between image recognition and verification is essential to
+pushing the model towards desired behavior, suggesting that a pipeline of
+recognition followed by verification is a more promising approach.

@@ -1,0 +1,16 @@
+the arcade learning environment (ale) is an evaluation platform that poses
+the challenge of building ai agents with general competency across dozens of
+atari 2600 games. it supports a variety of different problem settings and it
+has been receiving increasing attention from the scientific community, leading
+to some high-profile success stories such as the much publicized deep
+q-networks (dqn). in this article we take a big picture look at how the ale is
+being used by the research community. we show how diverse the evaluation
+methodologies in the ale have become with time, and highlight some key concerns
+when evaluating agents in the ale. we use this discussion to present some
+methodological best practices and provide new benchmark results using these
+best practices. to further the progress in the field, we introduce a new
+version of the ale that supports multiple game modes and provides a form of
+stochasticity we call sticky actions. we conclude this big picture look by
+revisiting challenges posed when the ale was introduced, summarizing the
+state-of-the-art in various problems and highlighting problems that remain
+open.

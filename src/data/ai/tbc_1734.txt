@@ -1,1 +1,1 @@
-Con il presente progetto vuole diversificare le attività realizzando un sistema innovativo per il controllo dei processi produttivi nel settore tessile che consenta il rilevamento ed il riconoscimento automatico di difetti basandosi sulla visione artificiale. Per la progettazione software e sviluppo tecnologie digitale si è deciso di affidare le attività all'Università di Bologna. Questo sistema di controllo rappresenta un nuovo prodotto e un nuovo target di mercato internazionale per l’impresa.
+MANUTENZIONE PREVENTIVA E PREDITTIVA

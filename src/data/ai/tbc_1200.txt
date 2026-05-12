@@ -1,0 +1,14 @@
+how do we determine whether two or more clothing items are compatible or
+visually appealing? part of the answer lies in understanding of visual
+aesthetics, and is biased by personal preferences shaped by social attitudes,
+time, and place. in this work we propose a method that predicts compatibility
+between two items based on their visual features, as well as their context. we
+define context as the products that are known to be compatible with each of
+these item. our model is in contrast to other metric learning approaches that
+rely on pairwise comparisons between item features alone. we address the
+compatibility prediction problem using a graph neural network that learns to
+generate product embeddings conditioned on their context. we present results
+for two prediction tasks (fill in the blank and outfit compatibility) tested on
+two fashion datasets polyvore and fashion-gen, and on a subset of the amazon
+dataset; we achieve state of the art results when using context information and
+show how test performance improves as more context is used.

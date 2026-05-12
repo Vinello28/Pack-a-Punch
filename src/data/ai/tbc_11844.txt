@@ -1,0 +1,15 @@
+making a simple model by choosing a limited number of features with the
+purpose of reducing the computational complexity of the algorithms involved in
+classification is one of the main issues in machine learning and data mining.
+the aim of feature selection (fs) is to reduce the number of redundant and
+irrelevant features and improve the accuracy of classification in a data set.
+we propose an efficient ispso-global (improved seeding particle swarm
+optimization global) method which investigates the specified iterations to
+produce prominent features and store them in storage list. the goal is to find
+informative features based on its iteration frequency with favorable fitness
+for the next generation and high exploration. our method exploits of a new
+initialization strategy in pso which improves space search and utilizes chaos
+theory to enhance the population initialization, then we offer a new formula to
+determine the features size used in proposed method. our experiments with
+real-world data sets show that the performance of the ispso-global is superior
+comparing with state-of-the-art methods in most of the data sets.

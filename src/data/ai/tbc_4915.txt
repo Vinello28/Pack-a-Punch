@@ -1,0 +1,13 @@
+the workflow of extracting features from images using convolutional neural
+networks (cnn) and generating captions with recurrent neural networks (rnn) has
+become a de-facto standard for image captioning task. however, since cnn
+features are originally designed for classification task, it is mostly
+concerned with the main conspicuous element of the image, and often fails to
+correctly convey information on local, secondary elements. we propose to
+incorporate coding with vector of locally aggregated descriptors (vlad) on
+spatial pyramid for cnn features of sub-regions in order to generate image
+representations that better reflect the local information of the images. our
+results show that our method of compact vlad coding can match cnn features with
+as little as 3% of dimensionality and, when combined with spatial pyramid, it
+results in image captions that more accurately take local elements into
+account.

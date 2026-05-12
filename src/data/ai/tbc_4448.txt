@@ -1,1 +1,15 @@
-Progetto dal titolo "QUEST - QUestion-answering Enhancement via Systematic large language models fine-Tuning" finanziato nell'ambito del bando a cascata sul Partenariato esteso FAIR
+dbscan is a typically used clustering algorithm due to its clustering ability
+for arbitrarily-shaped clusters and its robustness to outliers. generally, the
+complexity of dbscan is o(n^2) in the worst case, and it practically becomes
+more severe in higher dimension. grid-based dbscan is one of the recent
+improved algorithms aiming at facilitating efficiency. however, the performance
+of grid-based dbscan still suffers from two problems: neighbour explosion and
+redundancies in merging, which make the algorithms infeasible in
+high-dimensional space. in this paper, we propose a novel algorithm named gdpam
+attempting to extend grid-based dbscan to higher data dimension. in gdpam, a
+bitmap indexing is utilized to manage non-empty grids so that the neighbour
+grid queries can be performed efficiently. furthermore, we adopt an efficient
+union-find algorithm to maintain the clustering information in order to reduce
+redundancies in the merging. the experimental results on both real-world and
+synthetic datasets demonstrate that the proposed algorithm outperforms the
+state-of-the-art exact/approximate dbscan and suggests a good scalability.

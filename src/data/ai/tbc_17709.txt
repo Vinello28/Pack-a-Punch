@@ -1,1 +1,5 @@
-Oggetto della Offerta la realizzazione di un Proof of Concept (PoC) basato su Intelligenza Artificiale per l ottimizzazione del processo di gestione del rifiuto tramite integrazione con un gestionale di settore. (il Servizio )
+the role of feedback (or recurrent) connections is a fundamental question in neuroscience and machine learning. recently, two benchmarks [1,2], which require following paths in images, have been proposed as examples where recurrence was considered helpful for efficiently solving them.
+in this work, we demonstrate that these tasks can be solved equally well or even better using a single efficient convolutional feed-forward neural network architecture.
+
+we analyze resnet training regarding model complexity and sample efficiency and show that a narrow, parameter-efficient resnet performs on par with the recurrent and computationally more complex hcnn and td+hcnn models from previous work on both benchmarks.
+code: https://eckerlab.org/code/cnn-efficient-path-tracing

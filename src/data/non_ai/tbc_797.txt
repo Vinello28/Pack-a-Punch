@@ -1,2 +1,0 @@
-instalalzione e configurazione di nuovi  computer, dischi SSD su postazazioni più recenti (compresa migrazione dati e configurazioni, configurazione dei sistemi dect
-sviluppi del datacenter per la virtualizzazione e preparazione per la migrazione su cloud

@@ -1,0 +1,1 @@
+Progetto finalizzato all'analisi dei dati aziendali e di settore  mediante l'utilizzo di tool di analisi avanzata dei dati  in modalitÃ  sia descrittiva che predittiva  finalizzata allo sviluppo di un data model da impiegare per ottimizzare le attivitÃ  commerciali  e lo sviluppo di nuovi prodotti e servizi oltre a migliorare le performance dei dipendenti utenti.

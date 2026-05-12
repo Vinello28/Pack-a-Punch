@@ -1,4 +1,16 @@
-Con l¿aumentare della competitività e della complessità, l¿eCommerce marketing ha bisogno di evolversi. Alla stessa velocità dell¿evoluzione delle tecnologie e dei comportamenti di acquisto delle persone online.
-Genial Materialias Srl intende abbracciare questa evoluzione in ambito eCommerce con interventi volti all¿acquisto di software e servizi specialistici evoluti per accelerare il processo di crescita della piattaforma. 
-Il progetto in essere si propone di favorire la crescita di Genial Materials Srl tramite l¿attivazione di piattaforme e software di marketing che consentano un miglioramento dell¿efficienza aziendale, una modernizzazione dell¿organizzazione del lavoro, un trasferimento ed un arricchimento di know how aziendale.
-La redazione di contenuti rilevanti che intercettino le ricerche delle buyer personas di Genial Materials grazie a meccanismi di intelligenza artificiale applicati alle logiche SEO, la possibilità di utilizzare piattaforme di email marketing per creare flussi personalizzati verso i lead generati, l¿utilizzo di strumenti tecnologici evoluti per favorire il processo di conversione. Sono le attività che saranno svolte per abbracciare ed accelerare il processo di digital transformation dell¿azienda, fornendo valore al proprio target di riferimento.
+we introduce a new light-field dataset of materials, and take advantage of
+the recent success of deep learning to perform material recognition on the 4d
+light-field. our dataset contains 12 material categories, each with 100 images
+taken with a lytro illum, from which we extract about 30,000 patches in total.
+to the best of our knowledge, this is the first mid-size dataset for
+light-field images. our main goal is to investigate whether the additional
+information in a light-field (such as multiple sub-aperture views and
+view-dependent reflectance effects) can aid material recognition. since
+recognition networks have not been trained on 4d images before, we propose and
+compare several novel cnn architectures to train on light-field images. in our
+experiments, the best performing cnn architecture achieves a 7% boost compared
+with 2d image classification (70% to 77%). these results constitute important
+baselines that can spur further research in the use of cnns for light-field
+applications. upon publication, our dataset also enables other novel
+applications of light-fields, including object detection, image segmentation
+and view interpolation.

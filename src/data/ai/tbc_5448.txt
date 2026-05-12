@@ -1,17 +1,1 @@
-Il progetto mira allo sviluppo di una soluzione innovativa basata
-su visione artificiale per il riconoscimento e la verifica della
-conformità dell’etichettatura di prodotti, con particolare attenzione
-al settore alimentare. La soluzione sarà integrata in linee di
-produzione dinamiche e automatizzate, consentendo il controllo
-qualità in tempo reale durante il processo produttivo. L’obiettivo
-principale è la realizzazione e la caratterizzazione metrologica
-di un sistema di misura visivo in grado di: identificare i prodotti
-in movimento tramite riconoscimento delle etichette; verificare
-la correttezza e la qualità dell’etichettatura; classificare i prodotti
-secondo un database predefinito. L’output del sistema (esito
-controllo OK/non OK e tipo di prodotto) sarà utilizzato come
-input per sistemi meccatronici di smistamento automatico,
-ottimizzando l’efficienza produttiva e riducendo errori di
-confezionamento. Il sistema sarà progettato per garantire elevata
-precisione e affidabilità, adattandosi a differenti tipologie di
-prodotti e condizioni operative.
+machine learning systems produce biased results towards certain demographic groups, known as the fairness problem. recent approaches to tackle this problem learn a latent code (i.e., representation) through disentangled representation learning and then discard the latent code dimensions correlated with sensitive attributes (e.g., gender). nevertheless, these approaches may suffer from incomplete disentanglement and overlook proxy attributes (proxies for sensitive attributes) when processing real-world data, especially for unstructured data, causing performance degradation in fairness and loss of useful information for downstream tasks. in this paper, we propose a novel fairness framework that performs debiasing with regard to both sensitive attributes and proxy attributes, which boosts the prediction performance of downstream task models without complete disentanglement. the main idea is to, first, leverage gradient-based explanation to find two model focuses, 1) one focus for predicting sensitive attributes and 2) the other focus for predicting downstream task labels, and second, use them to perturb the latent code that guides the training of downstream task models towards fairness and utility goals. we show empirically that our framework works with both disentangled and non-disentangled representation learning methods and achieves better fairness-accuracy trade-off on unstructured and structured datasets than previous state-of-the-art approaches.

@@ -1,0 +1,14 @@
+while deep learning techniques have an increasing impact on many technical
+fields, gathering sufficient amounts of training data is a challenging problem
+in remote sensing. in particular, this holds for applications involving data
+from multiple sensors with heterogeneous characteristics. one example for that
+is the fusion of synthetic aperture radar (sar) data and optical imagery. with
+this paper, we publish the sen1-2 dataset to foster deep learning research in
+sar-optical data fusion. sen1-2 comprises 282,384 pairs of corresponding image
+patches, collected from across the globe and throughout all meteorological
+seasons. besides a detailed description of the dataset, we show exemplary
+results for several possible applications, such as sar image colorization,
+sar-optical image matching, and creation of artificial optical images from sar
+input data. since sen1-2 is the first large open dataset of this kind, we
+believe it will support further developments in the field of deep learning for
+remote sensing as well as multi-sensor data fusion.

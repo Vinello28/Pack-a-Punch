@@ -1,0 +1,20 @@
+the main aim of this paper is to provide an analysis of gradient descent (gd)
+algorithms with gradient errors that do not necessarily vanish, asymptotically.
+in particular, sufficient conditions are presented for both stability (almost
+sure boundedness of the iterates) and convergence of gd with bounded,
+(possibly) non-diminishing gradient errors. in addition to ensuring stability,
+such an algorithm is shown to converge to a small neighborhood of the minimum
+set, which depends on the gradient errors. it is worth noting that the main
+result of this paper can be used to show that gd with asymptotically vanishing
+errors indeed converges to the minimum set. the results presented herein are
+not only more general when compared to previous results, but our analysis of gd
+with errors is new to the literature to the best of our knowledge. our work
+extends the contributions of mangasarian & solodov, bertsekas & tsitsiklis and
+tadic & doucet. using our framework, a simple yet effective implementation of
+gd using simultaneous perturbation stochastic approximations (sp sa), with
+constant sensitivity parameters, is presented. another important improvement
+over many previous results is that there are no `additional' restrictions
+imposed on the step-sizes. in machine learning applications where step-sizes
+are related to learning rates, our assumptions, unlike those of other papers,
+do not affect these learning rates. finally, we present experimental results to
+validate our theory.

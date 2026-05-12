@@ -1,0 +1,16 @@
+in this paper, we provide a novel dataset designed for camera invariant color
+constancy research. camera invariance corresponds to the robustness of an
+algorithm's performance when run on images of the same scene taken by different
+cameras. accordingly, images in the database correspond to several lab and
+field scenes each of which are captured by three different cameras with minimal
+registration errors. the lab scenes are also captured under five different
+illuminations. the spectral responses of cameras and the spectral power
+distributions of the lab light sources are also provided, as they may prove
+beneficial for training future algorithms to achieve color constancy. for a
+fair evaluation of future methods, we provide guidelines for supervised methods
+with indicated training, validation and testing partitions. accordingly, we
+evaluate a recently proposed convolutional neural network based color constancy
+algorithm as a baseline for future research. as a side contribution, this
+dataset also includes images taken by a mobile camera with color shading
+corrected and uncorrected results. this allows research on the effect of color
+shading as well.

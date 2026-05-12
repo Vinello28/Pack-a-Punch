@@ -1,0 +1,12 @@
+in this paper we present the methods of our submission to the isic 2018
+challenge for skin lesion diagnosis (task 3). the dataset consists of 10000
+images with seven image-level classes to be distinguished by an automated
+algorithm. we employ an ensemble of convolutional neural networks for this
+task. in particular, we fine-tune pretrained state-of-the-art deep learning
+models such as densenet, senet and resnext. we identify heavy class imbalance
+as a key problem for this challenge and consider multiple balancing approaches
+such as loss weighting and balanced batch sampling. another important feature
+of our pipeline is the use of a vast amount of unscaled crops for evaluation.
+last, we consider meta learning approaches for the final predictions. our team
+placed second at the challenge while being the best approach using only
+publicly available data.

@@ -1,3 +1,14 @@
-Energent ha intenzione di sviluppare un progetto per creare un Laboratorio di Innovazione e Ricerca mirato alla produzione di nuovi semilavorati e brevetti aziendali nel settore dell¿Intelligenza Artificiale e del Machine Learning, destinati ad implementazioni verticali e sviluppi successivi, essenzialmente per il mercato bancario e assicurativo; la strategia che si intende perseguire è quella di aumentare la competitività dell¿azienda in questo mercato mediante la proposizione di componenti sw ed approcci innovativi all¿analisi dei dati.
-A tal proposito, l¿azienda ha necessità di creare una struttura organizzativa e tecnologica in grado di proporre ed applicare nuove metodologie e tecniche produttive, gran parte delle quali da individuare e rendere effettivamente utilizzabili sul mercato reale.
-Questi nuovi strumenti traguarderanno, per i futuri clienti, significative innovazioni dei processi di business e, quindi, saranno da questi misurati ed apprezzati non tanto per le caratteristiche tecnologiche, quanto per i miglioramenti e il rinnovamento di modelli operativi non più adeguati alle enormi disponibilità informative non ancora pienamente sfruttate
+as the world's largest professional network, linkedin wants to create
+economic opportunity for everyone in the global workforce. one of its most
+critical missions is matching jobs with processionals. improving job targeting
+accuracy and hire efficiency align with linkedin's member first motto. to
+achieve those goals, we need to understand unstructured job postings with noisy
+information. we applied deep transfer learning to create domain-specific job
+understanding models. after this, jobs are represented by professional
+entities, including titles, skills, companies, and assessment questions. to
+continuously improve linkedin's job understanding ability, we designed an
+expert feedback loop where we integrated job understanding models into
+linkedin's products to collect job posters' feedback. in this demonstration, we
+present linkedin's job posting flow and demonstrate how the integrated deep job
+understanding work improves job posters' satisfaction and provides significant
+metric lifts in linkedin's job recommendation system.
