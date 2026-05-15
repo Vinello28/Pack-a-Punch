@@ -3,7 +3,7 @@
 
 model:
   # Model identifier (HuggingFace Hub)
-  name: "FacebookAI/xlm-roberta-large"
+  name: "dbmdz/bert-base-italian-xxl-cased"
 
   # Maximum sequence length in tokens
   max_length: 512
@@ -18,9 +18,9 @@ model:
 
   # Model architecture (used for ONNX optimization)
   architecture:
-    num_heads: 16
-    hidden_size: 1024
-    model_type: "roberta"
+    num_heads: 12
+    hidden_size: 768
+    model_type: "bert"
 
 training:
   batch_size: 32
