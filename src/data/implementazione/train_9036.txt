@@ -1,0 +1,1 @@
+sviluppo di un sistema robotico in grado di automatizzare il processo di produzione dell’avvolgimento in rame dei motori elettrici

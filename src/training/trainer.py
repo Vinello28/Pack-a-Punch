@@ -72,6 +72,10 @@ class Trainer:
             num_labels=settings.model.num_labels,
         ).to(self.device)
         
+        if settings.training.compile_model and hasattr(torch, "compile") and torch.cuda.is_available():
+            logger.info("Compiling model with torch.compile() for faster training")
+            self.model = torch.compile(self.model)
+        
         if self.fp16:
             self.scaler = torch.amp.GradScaler('cuda')
             logger.info("Using mixed precision (FP16)")
@@ -94,7 +98,7 @@ class Trainer:
             dataset,
             batch_size=batch_size or self.batch_size,
             shuffle=shuffle,
-            num_workers=0,
+            num_workers=settings.training.num_workers,
             pin_memory=True,
         )
     
@@ -125,7 +129,7 @@ class Trainer:
             train_dataset,
             batch_size=self.batch_size,
             shuffle=True,
-            num_workers=0,
+            num_workers=settings.training.num_workers,
             pin_memory=True,
         )
         
@@ -133,7 +137,7 @@ class Trainer:
             eval_dataset,
             batch_size=self.batch_size * 2,
             shuffle=False,
-            num_workers=0,
+            num_workers=settings.training.num_workers,
             pin_memory=True,
         )
         

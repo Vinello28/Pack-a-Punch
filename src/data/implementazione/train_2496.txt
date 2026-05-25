@@ -1,0 +1,1 @@
+Realizzazione di un sistema di gestione della documentazione sanitaria in formato elettronico e conservazione in cloud.

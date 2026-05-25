@@ -57,8 +57,8 @@ class TextClassificationDataset(Dataset):
 
 def load_dataset_from_txt(
     data_dir: Optional[Path] = None,
-    ai_subdir: str = "ai",
-    non_ai_subdir: str = "non_ai",
+    ai_subdir: str = "implementazione",
+    non_ai_subdir: str = "formazione",
     in_domain_only: bool = False,
 ) -> tuple[list[str], list[int]]:
     """
@@ -100,9 +100,9 @@ def load_dataset_from_txt(
             if content:
                 texts.append(content)
                 labels.append(1)
-        logger.info(f"Loaded {len([l for l in labels if l == 1])} AI samples from {ai_dir}")
+        logger.info(f"Loaded {len([l for l in labels if l == 1])} IMPLEMENTAZIONE samples from {ai_dir}")
     else:
-        logger.warning(f"AI directory not found: {ai_dir}")
+        logger.warning(f"IMPLEMENTAZIONE directory not found: {ai_dir}")
     
     # Load NON_AI texts (label = 0)
     non_ai_dir = data_dir / non_ai_subdir
@@ -112,9 +112,9 @@ def load_dataset_from_txt(
             if content:
                 texts.append(content)
                 labels.append(0)
-        logger.info(f"Loaded {len([l for l in labels if l == 0])} NON_AI samples from {non_ai_dir}")
+        logger.info(f"Loaded {len([l for l in labels if l == 0])} FORMAZIONE samples from {non_ai_dir}")
     else:
-        logger.warning(f"NON_AI directory not found: {non_ai_dir}")
+        logger.warning(f"FORMAZIONE directory not found: {non_ai_dir}")
     
     if not texts:
         raise ValueError(f"No training data found in {data_dir}")
@@ -166,7 +166,7 @@ def load_dataset_from_jsonl(
                 if label not in (0, 1):
                     # Try to convert string labels
                     if isinstance(label, str):
-                        label = 1 if label.upper() == "AI" else 0
+                        label = 1 if label.upper() == "IMPLEMENTAZIONE" else 0
                     else:
                         logger.warning(f"Invalid label at line {line_num}: {label}")
                         continue
@@ -179,7 +179,7 @@ def load_dataset_from_jsonl(
                 continue
     
     logger.info(f"Loaded {len(texts)} samples from {file_path}")
-    logger.info(f"Label distribution: AI={sum(labels)}, NON_AI={len(labels) - sum(labels)}")
+    logger.info(f"Label distribution: IMPLEMENTAZIONE={sum(labels)}, FORMAZIONE={len(labels) - sum(labels)}")
     
     return texts, labels
 
@@ -219,11 +219,11 @@ def load_dataset(
         logger.info("Auto-detected: train.jsonl")
         return load_dataset_from_jsonl(data_dir / "train.jsonl")
     
-    if (data_dir / "ai").exists() or (data_dir / "non_ai").exists():
+    if (data_dir / "implementazione").exists() or (data_dir / "formazione").exists():
         logger.info("Auto-detected: TXT directories")
         return load_dataset_from_txt(data_dir)
     
     raise ValueError(
         f"No dataset found in {data_dir}. "
-        "Expected: train.jsonl, distilled.jsonl, or ai/non_ai directories"
+        "Expected: train.jsonl, distilled.jsonl, or formazione/implementazione directories"
     )

@@ -1,0 +1,1 @@
+Nello specifico le attività definite nel Progetto Salesforce sono suddivise in due fasi: Fase 1: Implementazione delle funzionalità di Marketing e Assistenza clienti (Marketing Cloud  Service Cloud  Integration Cloud);  Fase 2: Creazione del portale web e integrazione delle funzionalità di Marketing (Customer community)

@@ -1,0 +1,1 @@
+Realizzazione di un sistema domotica centralizzato per supervisione e controllo in tempo reale degli impianti

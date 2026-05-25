@@ -1,0 +1,1 @@
+creazione di un sistema armonico ed informatizzato dei dati e strutturazione di un sistema digitale dei singoli processi. L'attività prevede due fasi: analisi dei dati e implementazione di un sistema di analytics con sensori  report ed alert

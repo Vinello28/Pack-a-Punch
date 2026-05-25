@@ -1,0 +1,1 @@
+Implementazione di un collegamento software finalizzato alla trasmissione delle istruzioni di assemblaggio dei componenti tramite proiezione 3D del componente e delle istruzioni su isola di assemblaggio  grazie al funzionamento di base distinta dedicata

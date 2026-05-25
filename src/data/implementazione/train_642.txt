@@ -1,0 +1,1 @@
+Sviluppo e  commercializzazione di un dispositivo wearable (braccialetto in pelle IoT)  in grado di esaminare punti di interesse e situazioni di pericolo in campo motociclistico.

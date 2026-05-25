@@ -1,0 +1,1 @@
+realizzazione sistema curvatura in entrambe le direzioni con matrice fissa

@@ -1,0 +1,1 @@
+Sviluppo di un sistema software integrato e multipiattaforma per la modellazione  il monitoraggio ed il controllo di sistemi acquedottistici e idrici integrati che offre  in un unico applicativo  strumenti tecnici e gestionali per progettisti  amministratori di rete ed utenti finali.

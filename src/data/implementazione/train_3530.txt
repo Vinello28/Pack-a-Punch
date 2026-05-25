@@ -1,0 +1,1 @@
+L’ oggetto della proposta UPLANDS riguarda la progettazione e l’ implementazione di un gateway IoT (Internet of thing) per la comunicazione urbana a lungo raggio e l’interfacciamento al Cloud di dati acquisiti da stazioni di rilevamento polifunzionali di

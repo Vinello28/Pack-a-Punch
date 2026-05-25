@@ -1,0 +1,1 @@
+Il progetto analizzato  mira a  una Security Assesment dell'infrastruttura cloud ( interna/esterna) - ad un Assessment ambiente runtime (Milestone- Calver) -Analisi del codice Web application (Calver)-supporto conformità alla norma FDA CFR 21 Part 11- supporto all'implementazione di un sistema di gestione della sicurezza informativa (SGSI) conforme alla norma ISO27001

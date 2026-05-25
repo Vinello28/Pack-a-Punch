@@ -1,0 +1,1 @@
+Implementazione di un nuovo servizio di ristorazione ambulante mediante l'acquisto di un caravan attrezzato per la preparazione e la somministrazione di cibo di strada (Street food).

@@ -1,0 +1,1 @@
+Sviluppo software con l'obiettivo di potenziare l'automazione relativa ai processi aziendali sotto elencati: - Inserimento ordini clienti on line da parte degli agenti; - Gestione produzione e fabbisogni futuri in base a pianificazione; - Scambio dati EDI VS Amazon; - Interoperabilità sito web e disponibilità on line;

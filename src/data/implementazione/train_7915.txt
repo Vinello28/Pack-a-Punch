@@ -1,0 +1,1 @@
+Progettazione e sviluppo di un sistema per poter integrare i software delle nostre macchine con i sistemi MES degli stabilimenti in cui vengono installate; il tutto incentrato su database con importante scambio di dati e sviluppo di strumenti per analisi di tali dati.

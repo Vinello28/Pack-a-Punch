@@ -1,0 +1,1 @@
+Implementazione di una piattaforma informatica proprietaria basata sul web/cloud per la gestione dei processi aziendali di un’attività di noleggio con conducente e per l’aggregazione di operatori del settore

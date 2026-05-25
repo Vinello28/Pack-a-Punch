@@ -1,0 +1,1 @@
+Realizzazione di una cabina di trasformazione MT/BT  che viene costruita  al fine di aumentare la potenza di energia elettrica e mettere in funzione i macchinari

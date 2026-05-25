@@ -1,0 +1,1 @@
+Al fine di snellire i processi di organizzazione della produzione  l'azienda attraverso l'implementazione di strumenti a supporto  vuole monitorare e tracciare in tempo reale l'avanzamento delle commesse  al fine di garantire un elevato livello di servizio e tempi di consegna certi ai clienti.

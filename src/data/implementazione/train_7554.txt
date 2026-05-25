@@ -1,0 +1,1 @@
+Consulenza per rivedere alcuni processi di gestione e condivisione dei dati per lo studio e l¿implementazione di un sistema MES (Manufacturing execution System) per la gestione della produzione e l¿integrazione con l¿ERP  che attualmente utilizza un Database non ottimale.

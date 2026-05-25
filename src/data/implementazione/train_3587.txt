@@ -1,0 +1,1 @@
+Sviluppo applicazione body-scanner per rilevare le taglie.

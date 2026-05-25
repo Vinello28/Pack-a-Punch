@@ -1,0 +1,1 @@
+implementazione strumenti per riprodurre modelli virtuali di simulazione

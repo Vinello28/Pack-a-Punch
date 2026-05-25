@@ -1,30 +1,28 @@
 # Pack-a-Punch Inference Dockerfile
 # Supports both ONNX Runtime and PyTorch backends
 
-FROM nvidia/cuda:12.4.1-cudnn-runtime-ubuntu22.04
+FROM nvidia/cuda:13.0.0-cudnn-runtime-ubuntu22.04
 
 # Prevent interactive prompts
 ENV DEBIAN_FRONTEND=noninteractive
 ENV PYTHONUNBUFFERED=1
 
-# Default to ONNX backend (set to "pytorch" for PyTorch)
-ENV INFERENCE_BACKEND=onnx
+# Default to PyTorch backend
+ENV INFERENCE_BACKEND=pytorch
 
 # Install Python and build tools (gcc + Python headers needed for torch.compile/Triton)
 RUN apt-get update && apt-get install -y \
-    python3.11 \
-    python3.11-venv \
-    python3.11-dev \
+    python3 \
+    python3-venv \
+    python3-dev \
+    python3-pip \
     curl \
     build-essential \
     && rm -rf /var/lib/apt/lists/* \
     && apt-get clean
 
 # Set Python aliases
-RUN ln -sf /usr/bin/python3.11 /usr/bin/python
-
-# Install pip for 3.11
-RUN curl -sS https://bootstrap.pypa.io/get-pip.py | python
+RUN ln -sf /usr/bin/python3 /usr/bin/python
 
 # Create non-root user
 RUN useradd -m -u 1000 appuser
@@ -35,14 +33,10 @@ WORKDIR /app
 # Copy requirements
 COPY requirements.txt .
 
-# Install inference dependencies
-# PyTorch with CUDA 12.4 for pytorch backend
-# ONNX Runtime for onnx backend
 RUN pip install --no-cache-dir \
-    torch --index-url https://download.pytorch.org/whl/cu124 \
+    torch --index-url https://download.pytorch.org/whl/cu130 \
     && pip install --no-cache-dir \
-    onnxruntime-gpu>=1.16.0 \
-    transformers>=4.36.0 \
+    "transformers>=4.36.0,<4.45.0" \
     tokenizers>=0.15.0 \
     fastapi>=0.108.0 \
     uvicorn[standard]>=0.25.0 \

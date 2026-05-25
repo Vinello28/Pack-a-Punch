@@ -3,7 +3,7 @@
 
 model:
   # Model identifier (HuggingFace Hub)
-  name: "dbmdz/bert-base-italian-xxl-cased"
+  name: "Musixmatch/umberto-commoncrawl-cased-v1"
   
   # Maximum sequence length in tokens
   max_length: 512
@@ -13,23 +13,25 @@ model:
   
   # Label mapping (id -> name)
   label_map:
-    0: "NON_AI"
-    1: "AI"
+    0: "formazione"
+    1: "implementazione"
   
   # Model architecture (used for ONNX optimization)
   architecture:
     num_heads: 12
     hidden_size: 768
-    model_type: "bert"
+    model_type: "roberta"
 
 training:
-  batch_size: 32
+  batch_size: 16
   learning_rate: 2.0e-5
   num_epochs: 4
   warmup_ratio: 0.1
   weight_decay: 0.01
   max_grad_norm: 1.0
   fp16: true
+  num_workers: 4
+  compile_model: true
   save_steps: 500
   eval_steps: 100
   early_stopping_patience: 7
@@ -59,6 +61,6 @@ distillation:
   confidence_threshold: 0.8
   max_samples: 10000
   system_prompt: |
-    Sei un classificatore di testi. Devi determinare se il testo seguente parla di intelligenza artificiale (AI) o di altri argomenti (NON_AI).
+    Sei un classificatore di testi. Devi determinare se il testo seguente parla di "formazione" o di "implementazione".
     
-    Rispondi SOLO con un JSON nel formato: {"label": "AI" o "NON_AI", "confidence": 0.0-1.0}
+    Rispondi SOLO con un JSON nel formato: {"label": "formazione" o "implementazione", "confidence": 0.0-1.0}

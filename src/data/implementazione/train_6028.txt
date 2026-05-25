@@ -1,0 +1,1 @@
+Il progetto ha come obiettivo lo studio dei meccanismi di generazione e di propagazione del rumore sottomarino generato da eliche navali e lo sviluppo di avanzate metodologie computazionali a supporto della diagnostica e della progettazione di navi a basso impatto ambientale.

@@ -1,0 +1,1 @@
+Realizzazione di un sistema composto da una piattaforma unmanned per il monitoraggio ambientale e da una stazione di Comando e Controllo terrestre  in grado di monitorare tale piattaforma

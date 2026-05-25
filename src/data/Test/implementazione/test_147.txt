@@ -1,0 +1,1 @@
+Investimento in rete per la realizzazione di un sistema di Intelligenza Artificiale composto da una parte hardware con GPU ad alte prestazioni e da una piattaforma software denominata MyHydra.

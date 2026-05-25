@@ -1,0 +1,1 @@
+Il progetto prevede la creazione di un portale per l’acquisto tramite E-Commerce dei prodotti offerti con l’interconnessione a due bilance di ultima generazione collegate in remoto direttamente alla vendita on-line e capaci di pesare ed etichettare la merce in base agli ordini ricevuti.

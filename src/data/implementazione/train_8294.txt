@@ -1,0 +1,1 @@
+Il progetto prevede lo sviluppo  di un prototipo di pinza meccatronica personalizzabile e di un sistema di gestione software in grado di adottare un approccio adattativo verso qualunque tipo di geometria complessa

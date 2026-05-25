@@ -59,6 +59,8 @@ class TrainingConfig(BaseModel):
     weight_decay: float = _training_cfg["weight_decay"]
     max_grad_norm: float = _training_cfg["max_grad_norm"]
     fp16: bool = _training_cfg["fp16"]
+    num_workers: int = _training_cfg.get("num_workers", 0)
+    compile_model: bool = _training_cfg.get("compile_model", False)
     save_steps: int = _training_cfg["save_steps"]
     eval_steps: int = _training_cfg["eval_steps"]
     early_stopping_patience: int = _training_cfg["early_stopping_patience"]

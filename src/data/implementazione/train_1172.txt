@@ -1,0 +1,1 @@
+Il progetto è finalizzato alla realizzazione di un Intranet aziendale che consenta di gestire il processo di gestione dei dati delle persone accolte presso le varie strutture del network  di accoglienza delle strutture.

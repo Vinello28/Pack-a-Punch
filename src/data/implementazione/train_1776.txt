@@ -1,0 +1,1 @@
+Il progetto si compone di due fasi:  fase 1: produzione del prototipo di kit di biologia molecolare   fase 2: realizzazione di un modello di servizio medico per trattamento del paziente con emocomponenti autologhi (PRP)

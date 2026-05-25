@@ -1,0 +1,1 @@
+Sviluppo di un sistema di rilevamento mobile di parametri meteo geolocalizzati

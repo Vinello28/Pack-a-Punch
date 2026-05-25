@@ -1,0 +1,1 @@
+Studio e sviluppo sperimentale di un sistema multisensore che include un radar polarimetrico e sensori EO/IR per la rilevazione di sversamenti di olio e detriti in mare.
