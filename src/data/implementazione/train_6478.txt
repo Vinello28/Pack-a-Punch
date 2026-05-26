@@ -1,1 +1,1 @@
-sviluppo di una piattaforma basata su database di informazioni meteomarine per il supporto di tutte le attivitÃ  connesse al mare e alla Blue Economy
+Il progetto  denominato REMPRO (Redundant MicroProcessor)  mira a realizzare un dispositivo programmabile (microcontrollore) che sia tollerante ai guasti  ovvero un dispositivo di elaborazione in grado di eseguire un codice di programma capace di continuare a svolgere correttamente il proprio algoritmo  nonostante il verificarsi  in maniera casuale  di guasti temporanei e/o permanenti nei suoi circuiti

@@ -1,1 +1,1 @@
-Realizzazione diagnosi energetica sul proprio sito produttivo  finalizzata alla valutazione del consumo di energia e al risparmio energetico conseguibile  conforme ai criteri minimi nelle norme tecniche UNI CEI EN 16247 (audit energetici) e UNI CEI/TR 11428 risultando quindi conforme ai requisiti previsti dall'allegato 2 al decreto legislativo 102/2014.
+Sviluppo e realizzazione di una cella robotizzata per la produzione di piccoli lotti

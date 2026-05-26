@@ -1,1 +1,1 @@
-Implementazione dello stack tecnologico grazie al quale l'azienda potrà effettuare l’acquisizione  lo stitching  il processamento e il delivery di contenuti multimediali (video e immagini) ad alta qualità in modalità immersiva a 360°.
+Fleetbar è una piattaforma online rivolta esclusivamente al settore Food & Beverage  strutturata come una bacheca di annunci di lavoro  predisposta con interfaccia web e App.  nello specifico  essa permette il match tra strutture di settore  che ricercano personale  e le figure professionali  in cerca di lavoro.

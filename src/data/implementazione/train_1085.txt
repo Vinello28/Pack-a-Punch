@@ -1,1 +1,1 @@
-Progetto per l'implementazione di una soluzione manifatturiera avanzata
+l progetto prevede l'implementazione e la parametrizzazione del sistema ERP in dotazione aziendale. Il sistema ERP in dotazione aziendale è un sistema specifico sviluppato da principale software house a livello europeo  per la gestione delle filiere alimentari.

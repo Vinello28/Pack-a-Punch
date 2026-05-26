@@ -1,1 +1,1 @@
-Il programma d'investimento proposto dalla società proponente  ha per oggetto la realizzazione di due linee per l¿attività estrattiva dell¿olio da seme di vinacciolo che sarà resa possibile tramite una ¿linea di ricevimento vinacce e separazione¿ e da una ¿linea di estrazione olio¿. Le due linee in oggetto saranno interamente automatiche e gestite da un PLC attraverso la realizzazione di un sistema di supervisione SCADA atto al comando ed al controllo nonché alla raccolta dati degli impianti.
+SIMAR ARREDAMENTI SRL

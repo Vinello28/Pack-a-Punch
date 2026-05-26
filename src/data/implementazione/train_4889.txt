@@ -1,1 +1,1 @@
-realizzazione al computer di plantari anatomici personalizzati
+Sviluppo di un Software per l’interfacciamento inter-piattaforma tra database e dispositivi di feedback in una logica di interazione dati per creare un Sistema Esperto che permetta decisioni automatiche con logiche di efficienza trasversali

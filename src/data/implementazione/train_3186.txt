@@ -1,1 +1,1 @@
-Il progetto svilupperà e validerà un servizio completo di gestione di aggregati di risorse di generazione e/o consumo del sistema elettrico (DEMAND-RESPONSE-AS-ASERVICE) per abilitare lo sviluppo dalla nuova figura dell' aggregatore operante per la fornitura di servizi di bilanciamento e ancillari.
+sviluppo di competenze digitali mediante un progetto di consolidamento dell'infrastruttura IT anche nell'ottica della Business continuity

@@ -1,1 +1,1 @@
-iCous: creazione di un sistema digitale evoluto per la tipizzazione varietale-territoriale dell’intera filiera del Cous Cous dal seme alla tavola (Seed to Plate)  valorizzando gli aspetti salutistici del prodotto finito
+ROBILAUT: Robot campionatore moBILe a navigazione sotterranea AUTonoma e intelligente in cumuli di terreno  secondo tracciati digitalizzati 3D personalizzabili  per il prelievo e omogeneizzazione di campioni da sottoporre ad analisi.

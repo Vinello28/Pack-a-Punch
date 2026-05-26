@@ -1,1 +1,1 @@
-Obiettivo e logica generale del progetto è la realizzazione di una nuova e innovativa linea per il confezionamento dei prodotti realizzati dall’Azienda in una modalità che attualmente la società esegue manualmente  con importanti costi in termini di risorse umane
+digitalizzazione del processo di acquisizione del cavo orale del paziente tramite sistemaTAC che produce immagini 3D. Il file verrà inviato per mail allo studio odontotecnico che potrà elaborare il progetto e produrre la protesi con la massima precis

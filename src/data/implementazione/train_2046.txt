@@ -1,1 +1,1 @@
-Il progetto Singularity è volto a realizzare una linea pilota basata sulla tecnologia di Additive Manufacturing  con l'obiettivo di accelerare lo sviluppo tecnologico  facilitare l'integrazione con i sistemi tradizionali di produzione e rendere più accessibili e fruibili il processo ed il prodotto realizzati con questa tecnologia.  L'attività di Ellena sarà focalizzata sulle fasi di  pre e post processo per la tecnologia di additive manufacturing  e sulla progettazione in ottica additiva.
+SMART - Social Media AnalyzeR Toolkit

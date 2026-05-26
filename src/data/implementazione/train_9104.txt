@@ -1,1 +1,1 @@
-FORMART RE 6 IMPLEMENTAZIONE DEL MIGLIORAMENTO  ATTRAVERSO IL SISTEMA QUALITA'
+Il progetto iPSLight è focalizzato sullo sviluppo  tecnologico di modelli iPSC (induced pluripotent  stem cell) applicabili alla ricerca farmaceutica  nell’ambito delle patologie degenerative croniche  e sulla validazione e applicazione di tali modelli  in combinazione con metodiche all’avanguardia  di high-content e high-throughput screening  utilizzate per l’identificazione di potenziali farmaci.

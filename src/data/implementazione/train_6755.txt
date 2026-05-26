@@ -1,1 +1,1 @@
-Sviluppo di un sistema ad un singolo sensore Emg con comunicazione Bluetooth verso l' unita ricevente su cui verranno installate le apps.
+Realizzazione viabilità forestale Tragonia-Aip

@@ -1,1 +1,1 @@
-Studio e sviluppo di un innovativo processo tecnologico per la produzione di circuiti embedded integranti componenti per la protezione ESD ed il controllo dei surriscaldamenti
+simulatore di volo statico completo

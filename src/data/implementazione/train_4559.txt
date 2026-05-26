@@ -1,1 +1,1 @@
-Il progetto consiste nel testing e deployment in produzione di un motore NMT (Neural Machine Translation) di traduzione automatica basato su Big Data per la digitalizzazione dei processi aziendali in cloud.
+Il progetto riguarda l’investimento per la riqualificazione dell’edificio scolastico e l’innovazione delle strutture didattiche e di comunicazione.

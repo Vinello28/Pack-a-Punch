@@ -1,1 +1,1 @@
-Il progetto si pone come obiettivo la realizzazione di eTa 5X  un nuovo modello di pala eolica  lunga circa 24m  aeroelastica universale a maggior efficienza e che abbia le caratteristiche di riciclabilità a fine vita.
+Implementazione di una piattaforma informatica proprietaria basata sul web/cloud per la gestione dei processi aziendali di un’attività di noleggio con conducente e per l’aggregazione di operatori del settore

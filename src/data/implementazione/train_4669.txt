@@ -1,1 +1,1 @@
-SVILUPPO AUSILIARI DA RIFINIZIONE BASATI SU BIOPOLIMERI
+Consulenza per lo sviluppo della piattaforma Typical   con l'introduzione di meccanismi di scaling automatico e di servizi cloud

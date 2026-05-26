@@ -1,1 +1,1 @@
-sviluppo di schemi di rilevazione ottimizzati per l’estrazione di informazioni rilevanti da sistemi fisici
+Progetto BRAINHEART svilupperÃ  una piattaforma intelligente per il monitoraggio multiparametrico ubiquitario della salute fisica e mentale nell'anziano per prevenire l'insorgere di malattie cardiovascolari attraverso un supporto al benessere psicofisico.

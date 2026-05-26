@@ -1,1 +1,1 @@
-Realizzazione di un sistema di aspirazione e depurazione di fumi per la riduzione del rischio chimico
+sviluppo di un software di supporto alle decisioni da utilizzare in ambito allevamento pesci  prevedendo  con un modello di simulazione  la crescita dei pesci in base a mangime e temperatura

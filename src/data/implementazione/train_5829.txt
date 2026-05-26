@@ -1,1 +1,1 @@
-Contributi per la produzione e la diffusione di informazione locale autoprodotta e di programmi di promozione e valorizzazione della cultura e delle tradizioni locali
+L’obiettivo del progetto HPS4MAN è realizzare il prototipo di una postazione di robotica collaborativa “smart” in grado di adattarsi in tempo reale alle caratteristiche e alle necessità dell’operatore  alle condizioni dell’ambiente e al processo produttivo

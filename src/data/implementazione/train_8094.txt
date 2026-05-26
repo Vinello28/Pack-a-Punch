@@ -1,1 +1,1 @@
-LO SVILUPPO DELLE COMPETENZE TRASVERSALI PER POTENZIARE LA COMPETITIVITÀ AZIENDALE
+Il progetto prevede il rilascio di una nuova funzionalità gestionale VRM  in grado di ottimizzare attraverso algoritmi dinamici  l’utilizzo della flotta e della sua manutenzione. L’attivazione di questo progetto ottimizzerà i servizi ai clienti  aumentando la competenza in ambito hardware  sensoristica  dispositivi di bordo e software.

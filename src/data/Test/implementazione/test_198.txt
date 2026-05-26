@@ -1,1 +1,1 @@
-Realizzazione di un PoC di una piattaforma web-based basata su algoritmi di intelligenza artificiale
+Oggetto della presente Offerta è l’erogazione di servizi tecnologici avanzati ed innovativi finalizzati a realizzare il corso  di formazione su Intelligenza Artificiale e Programmazione Python per il Natural Language Processing (il “Servizio”)

@@ -1,1 +1,1 @@
-Progetto realizzazione di un agriturismo.
+Produzione automatizzata del prodotto injera attraverso una tecnologia denominata AIBM (Automated Injera Baking Machine).

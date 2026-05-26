@@ -1,1 +1,1 @@
-Realizzazione attivitÃ¿Â  agrituristica (agricampeggio)
+Il progetto persegue l’obiettivo di implementare una nuova piattaforma CPMS - Corporate Performance Management System in grado di gestire le prestazioni aziendali integrando gli standard attualmente presenti sul mercato (Extended ERP e BSC)

@@ -1,1 +1,1 @@
-implementazione di nuove linee di produzione con acquisto di nuovi macchinari  impianti ed attrezzature e software
+Società che eroga servizi btb di gestione flotta; il progetto prevede il rilascio di una nuova funzionalità gestionale VRM ( vehicle relationship management) in grado di ottimizzare attraverso algoritmi dinamici  l’utilizzo della flotta e della sua manutenzione. L’attivazione di questo progetto ottimizzerà i servizi ai clienti  aumentando la competenza in ambito hardware  sensoristica  dispositivi di bordo e software.

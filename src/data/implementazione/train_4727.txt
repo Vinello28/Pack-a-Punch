@@ -1,1 +1,1 @@
-RIPOSIZIONAMENTO DELLA REALTA' INDUSTRIALE VERSO MERCATI A MAGGIOR VALORE AGGIUNTO: INTRODUZIONE DI SISTEMI DI AUTOMAZIONE INDUSTRIALE AL FINE DI RIDURRE LA DURATA DEL CICLO PRODUTTIVO PREORDINATA ALL'INTERNALIZZAZIONE DELLA FASE DI SATINATURA PER AMPLIARE LA PRODUZIONE DI CHIUSINI A PRESSIONE
+Il progetto mira allo studio di un’infrastruttura tecnologica che sia in grado di eseguire in tempo reale  sul 100% del prodotto e direttamente in linea un’analisi microscopica e macroscopica di tutte le caratteristiche superficiali della pietra sinterizzata

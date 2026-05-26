@@ -1,1 +1,1 @@
-REALIZZAZIONE DI MINI GIARDINO ZOOLOGICO
+Archiviazione dei risultati di esami in cloud e possibilità di consultazione e/o scaricamento e/o stampa  da parte dei pazienti  attraverso autenticazione con dati univoci personali

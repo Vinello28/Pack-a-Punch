@@ -1,1 +1,1 @@
-Creazione e sviluppo filiera corta
+Realizzazione di un sistema domotica centralizzato per supervisione e controllo in tempo reale degli impianti

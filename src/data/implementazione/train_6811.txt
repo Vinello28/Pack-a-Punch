@@ -1,1 +1,1 @@
-realizzazione di un prototipo per l'attivitÃ¿Â  di isolamento dei vinaccioli dalle vinacce
+Progettazione rete cloud privato interconnesso con sistema cloud pubblico di protezione del sistema attraverso firewall.

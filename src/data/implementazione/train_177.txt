@@ -1,1 +1,1 @@
-Realizzazione di un impianto “pump track e bike park” per la pratica turistico sportiva di attività all’aria aperta presso Parco Cantarana nel Comune di Volta Mantovana.
+Autonomous System Interaction for Multi Objective UAVS

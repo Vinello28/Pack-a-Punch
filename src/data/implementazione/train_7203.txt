@@ -1,1 +1,1 @@
-Sviluppo e realizzazione di un sensore di radioattivitÃ¿Â  veicolare a basso costo: una rete di strumenti altamente qualificata a basso costo in grado di eseguire un'analisi spettrometrica in tempo reale  da cui Ã¿Â¨ possibile dedurre gli isotopi radioattivi in un determinato ambiente / la zona. La proposta indica che la soluzione del sensore integrerÃ¿Â  il ricevitore GNSS e il collegamento di telecomunicazione. La proposta menziona progetti / attivitÃ¿Â  dell'ESA nel campo del rilevamento delle radiazioni.
+SVILUPPO DI UN PROCESSO PRODUTTIVO AD ELEVATA AUTOMAZIONE

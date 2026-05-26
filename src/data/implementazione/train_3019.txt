@@ -1,1 +1,1 @@
-INVESTIMENTI PER RIQUALIFICAZIONE DI AZIENDE AGRITURISTICHE (REALIZZAZIONE SELCIATO IN LASTRE DI GRANITO + ACQUISTO ARREDI INTERNI)
+Sviluppo di uno strumento operativo per la previsione in tempo reale del fabbisogno irriguo al fine di promuovere un’irrigazione parsimoniosa e una più accurata gestione della risorsa idrica in caso di periodi di siccità effettivi o previsti. Questo strumento potrà contribuire ad una mitigazione dei conflitti nell'uso dell’acqua tra i diversi utenti.

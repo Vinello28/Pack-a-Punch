@@ -1,1 +1,1 @@
-Realizzazione software per lo scambio di dati e informazioni tra rivenditori e produttori
+Sviluppo di sistemi elettronici embedded ad alte prestazioni/High-performance ELectronic eMbedded Systems (HELMS)

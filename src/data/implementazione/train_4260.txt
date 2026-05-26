@@ -1,1 +1,1 @@
-CONTENUTI DEL PROGETTO: Il progetto e inerente l-installazione di un sistema di micro-cogenerazione per la produzione di energia elettrica e termica finalizzata sia al contenimento dei costi energetici aziendali e sia alla salvaguardia ambientale. Ne
+Studio e sviluppo della base di un assistente virtuale per le attività di progettazione di componenti meccanici

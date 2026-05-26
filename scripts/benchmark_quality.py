@@ -152,8 +152,8 @@ async def run_benchmark(test_dir_implementazione: Path, test_dir_formazione: Pat
 def main():
     parser = argparse.ArgumentParser(description="Benchmark Accuracy/Quality")
     parser.add_argument("--url", default="http://localhost:8080", help="Inference API URL")
-    parser.add_argument("--data-implementazione", default="../../data/Test/implementazione", help="Path to Implementazione test directory")
-    parser.add_argument("--data-formazione", default="../../data/Test/formazione", help="Path to Formazione test directory")
+    parser.add_argument("--data-implementazione", default="src/data/Test/implementazione", help="Path to Implementazione test directory")
+    parser.add_argument("--data-formazione", default="src/data/Test/formazione", help="Path to Formazione test directory")
     
     args = parser.parse_args()
     

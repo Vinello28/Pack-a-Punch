@@ -1,1 +1,1 @@
-Il progetto prevede la realizzazione di un servizio navetta per le vicine stazioni ferroviarie con l'acquisto di un pulmino a 9 posti; l'adeguamento edilizio per accessibilità disabili; costruzione tettoia per riparo bici-mtb da noleggio; acquisto di attrezzature per la produzione di alimenti da somministrare e vendere al pubblico.
+Risk Management System

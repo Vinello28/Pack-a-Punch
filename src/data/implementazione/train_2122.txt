@@ -1,1 +1,1 @@
-Realizzazione di una nuova lavanderia in Centro Storico a Carpi.  Lavanderia tradizionale ed a gettone per i cittadini di Carpi e delle zone limitrofe.
+Sviluppo piattaforma software per la gestione dati e migliorie alla linea Riuniti ORL e poltrona ergonomica.

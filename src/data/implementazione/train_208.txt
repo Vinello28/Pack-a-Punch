@@ -1,1 +1,1 @@
-Realizzazione di una piattaforma stabile  flessibile e scalabile  che permetta di monitorare costantemente un numero elevato di dispositivi che acquisiscono un’ampia gamma di grandezze di tipologie diverse. Implementazione di procedure centralizzate ed automatiche per consentire l’interazione remota coi dispositivi di misurazione. L’obiettivo sarà quello di ridurre i tempi di esecuzione ed i margini di errore dell'operatore  come auspicato anche dalla”Autorità per l'energia elettrica  il gas e il sistema idrico
+commercio al dettaglio di materiale per ottica e fotografia

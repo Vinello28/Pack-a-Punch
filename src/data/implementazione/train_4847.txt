@@ -1,1 +1,1 @@
-Temporary manager: implementazione sistema di programmazione e controllo
+L’attività consiste nella realizzazione di un laboratorio che consenta di testare  collaudare e validare moduli per pacchi batteria destinati  a veicoli e mezzi commerciali leggeri elettrici
