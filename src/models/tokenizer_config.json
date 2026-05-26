@@ -1,59 +1,83 @@
 {
   "added_tokens_decoder": {
     "0": {
-      "content": "[PAD]",
+      "content": "<s>NOTUSED",
       "lstrip": false,
       "normalized": false,
       "rstrip": false,
       "single_word": false,
       "special": true
     },
-    "101": {
-      "content": "[UNK]",
+    "1": {
+      "content": "<pad>",
       "lstrip": false,
       "normalized": false,
       "rstrip": false,
       "single_word": false,
       "special": true
     },
-    "102": {
-      "content": "[CLS]",
+    "2": {
+      "content": "</s>NOTUSED",
       "lstrip": false,
       "normalized": false,
       "rstrip": false,
       "single_word": false,
       "special": true
     },
-    "103": {
-      "content": "[SEP]",
+    "3": {
+      "content": "<unk>",
       "lstrip": false,
       "normalized": false,
       "rstrip": false,
       "single_word": false,
       "special": true
     },
-    "104": {
-      "content": "[MASK]",
+    "4": {
+      "content": "<unk>NOTUSED",
       "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "5": {
+      "content": "<s>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "6": {
+      "content": "</s>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "32004": {
+      "content": "<mask>",
+      "lstrip": true,
       "normalized": false,
       "rstrip": false,
       "single_word": false,
       "special": true
     }
   },
+  "additional_special_tokens": [
+    "<s>NOTUSED",
+    "</s>NOTUSED",
+    "<unk>NOTUSED"
+  ],
+  "bos_token": "<s>",
   "clean_up_tokenization_spaces": true,
-  "cls_token": "[CLS]",
-  "do_basic_tokenize": true,
-  "do_lower_case": false,
-  "extra_special_tokens": {},
-  "mask_token": "[MASK]",
-  "max_len": 512,
-  "model_max_length": 512,
-  "never_split": null,
-  "pad_token": "[PAD]",
-  "sep_token": "[SEP]",
-  "strip_accents": null,
-  "tokenize_chinese_chars": true,
-  "tokenizer_class": "BertTokenizer",
-  "unk_token": "[UNK]"
+  "cls_token": "<s>",
+  "eos_token": "</s>",
+  "mask_token": "<mask>",
+  "model_max_length": 1000000000000000019884624838656,
+  "pad_token": "<pad>",
+  "sep_token": "</s>",
+  "tokenizer_class": "CamembertTokenizer",
+  "unk_token": "<unk>"
 }

@@ -16,6 +16,9 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 import argparse
 from loguru import logger
+import torch
+
+torch.set_float32_matmul_precision('high')
 
 from src.config import settings
 from src.training.trainer import Trainer

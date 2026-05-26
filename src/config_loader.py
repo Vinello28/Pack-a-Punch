@@ -64,11 +64,6 @@ def get_model_config(config: Optional[dict] = None) -> dict[str, Any]:
         "max_length": 512,
         "num_labels": 2,
         "label_map": {0: "NON_AI", 1: "AI"},
-        "architecture": {
-            "num_heads": 12,
-            "hidden_size": 768,
-            "model_type": "bert",
-        },
     }
     
     model_config = config.get("model", {})
@@ -80,13 +75,6 @@ def get_model_config(config: Optional[dict] = None) -> dict[str, Any]:
     if "label_map" in model_config:
         result["label_map"] = {
             int(k): v for k, v in model_config["label_map"].items()
-        }
-    
-    # Merge architecture
-    if "architecture" in model_config:
-        result["architecture"] = {
-            **defaults["architecture"],
-            **model_config["architecture"],
         }
     
     return result
@@ -120,7 +108,6 @@ def get_inference_config(config: Optional[dict] = None) -> dict[str, Any]:
     
     defaults = {
         "batch_size": 64,
-        "num_sessions": 2,
         "max_queue_size": 1000,
         "batch_timeout_ms": 50,
         "use_fp16": True,

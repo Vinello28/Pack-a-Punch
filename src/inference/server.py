@@ -14,16 +14,12 @@ from pydantic import BaseModel, Field
 from loguru import logger
 
 from src.config import settings
-from .engine import InferenceEngine, create_engine
 from .pytorch_engine import PyTorchInferenceEngine, create_pytorch_engine
 from .batching import DynamicBatcher
 
 # Global state
-_engine: Optional[Union[InferenceEngine, PyTorchInferenceEngine]] = None
+_engine: Optional[PyTorchInferenceEngine] = None
 _batcher: Optional[DynamicBatcher] = None
-
-# Backend selection (set via environment variable)
-BACKEND = os.environ.get("INFERENCE_BACKEND", "onnx").lower()
 
 
 @asynccontextmanager
@@ -32,16 +28,10 @@ async def lifespan(app: FastAPI):
     global _engine, _batcher
     
     logger.info("Starting inference server...")
-    logger.info(f"Backend: {BACKEND}")
+    logger.info("Using PyTorch backend")
     
     try:
-        # Initialize engine based on backend selection
-        if BACKEND == "pytorch":
-            logger.info("Using PyTorch backend")
-            _engine = create_pytorch_engine()
-        else:
-            logger.info("Using ONNX Runtime backend")
-            _engine = create_engine()
+        _engine = create_pytorch_engine()
         
         _engine.warmup()
         

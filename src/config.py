@@ -34,20 +34,12 @@ _server_cfg = get_server_config(_yaml_config)
 _distillation_cfg = get_distillation_config(_yaml_config)
 
 
-class ModelArchitecture(BaseModel):
-    """Model architecture parameters for ONNX optimization."""
-    num_heads: int = _model_cfg["architecture"]["num_heads"]
-    hidden_size: int = _model_cfg["architecture"]["hidden_size"]
-    model_type: str = _model_cfg["architecture"]["model_type"]
-
-
 class ModelConfig(BaseModel):
     """Model configuration."""
     name: str = _model_cfg["name"]
     max_length: int = _model_cfg["max_length"]
     num_labels: int = _model_cfg["num_labels"]
     label_map: dict[int, str] = Field(default_factory=lambda: _model_cfg["label_map"])
-    architecture: ModelArchitecture = Field(default_factory=ModelArchitecture)
 
 
 class TrainingConfig(BaseModel):
@@ -81,7 +73,6 @@ class DistillationConfig(BaseModel):
 class InferenceConfig(BaseModel):
     """Inference engine settings."""
     batch_size: int = _inference_cfg["batch_size"]
-    num_sessions: int = _inference_cfg["num_sessions"]
     max_queue_size: int = _inference_cfg["max_queue_size"]
     batch_timeout_ms: int = _inference_cfg["batch_timeout_ms"]
     use_fp16: bool = _inference_cfg["use_fp16"]

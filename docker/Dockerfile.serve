@@ -1,14 +1,11 @@
 # Pack-a-Punch Inference Dockerfile
-# Supports both ONNX Runtime and PyTorch backends
+# PyTorch backend
 
 FROM nvidia/cuda:13.0.0-cudnn-runtime-ubuntu22.04
 
 # Prevent interactive prompts
 ENV DEBIAN_FRONTEND=noninteractive
 ENV PYTHONUNBUFFERED=1
-
-# Default to PyTorch backend
-ENV INFERENCE_BACKEND=pytorch
 
 # Install Python and build tools (gcc + Python headers needed for torch.compile/Triton)
 RUN apt-get update && apt-get install -y \

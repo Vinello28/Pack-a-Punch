@@ -20,10 +20,7 @@ services:
       - ../src/inference:/app/src/inference:ro
       - ../src/training:/app/src/training:ro
     environment:
-      - PAP_INFERENCE__NUM_SESSIONS=1
-      - PAP_INFERENCE__BATCH_SIZE=64
       - PAP_INFERENCE__DEVICE=cuda
-      - INFERENCE_BACKEND=pytorch
     deploy:
       resources:
         reservations:
@@ -55,6 +52,8 @@ services:
       - ../src/models:/app/src/models:rw
       # Mount config directory
       - ../config:/app/config:ro
+      # Mount Test directory
+      - ../../data/Test:/app/data/Test:ro
       # Mount source code for development (so changes apply without rebuild)
       - ../src:/app/src:ro
       - ../scripts:/app/scripts:ro

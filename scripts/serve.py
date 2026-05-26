@@ -4,7 +4,7 @@ Inference server script for Pack-a-Punch classifier.
 
 Usage:
     python scripts/serve.py
-    python scripts/serve.py --port 8080 --num-sessions 2
+    python scripts/serve.py --port 8080
 """
 
 import sys
@@ -38,13 +38,6 @@ def parse_args():
     )
     
     parser.add_argument(
-        "--num-sessions",
-        type=int,
-        default=settings.inference.num_sessions,
-        help="Number of parallel ONNX sessions",
-    )
-    
-    parser.add_argument(
         "--batch-size",
         type=int,
         default=settings.inference.batch_size,
@@ -70,8 +63,6 @@ def parse_args():
 def main():
     args = parse_args()
     
-    # Update settings
-    settings.inference.num_sessions = args.num_sessions
     settings.inference.batch_size = args.batch_size
     
     logger.info("=" * 60)
@@ -79,7 +70,6 @@ def main():
     logger.info("=" * 60)
     logger.info(f"Host: {args.host}")
     logger.info(f"Port: {args.port}")
-    logger.info(f"Sessions: {args.num_sessions}")
     logger.info(f"Batch size: {args.batch_size}")
     logger.info("=" * 60)
     

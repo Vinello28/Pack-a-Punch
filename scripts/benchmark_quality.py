@@ -29,29 +29,29 @@ async def classify_batch(client: httpx.AsyncClient, url: str, texts: list[str]) 
         logger.error(f"Request failed: {e}")
         return []
 
-async def run_benchmark(test_dir_ai: Path, test_dir_non_ai: Path, url: str, batch_size: int = 10):
+async def run_benchmark(test_dir_implementazione: Path, test_dir_formazione: Path, url: str, batch_size: int = 10):
     # 1. Load Data
     samples = []
     
-    # Load AI samples
-    logger.info(f"Loading AI samples from {test_dir_ai}...")
-    ai_files = list(test_dir_ai.glob("*.txt"))
-    for p in ai_files:
+    # Load Implementazione samples
+    logger.info(f"Loading Implementazione samples from {test_dir_implementazione}...")
+    imp_files = list(test_dir_implementazione.glob("*.txt"))
+    for p in imp_files:
         try:
             text = p.read_text(encoding="utf-8").strip()
             if text:
-                samples.append({"text": text, "true_label": 1, "filename": p.name}) # 1 = AI
+                samples.append({"text": text, "true_label": 1, "filename": p.name}) # 1 = Implementazione
         except Exception as e:
             logger.warning(f"Could not read {p}: {e}")
 
-    # Load Non-AI samples
-    logger.info(f"Loading Non-AI samples from {test_dir_non_ai}...")
-    non_ai_files = list(test_dir_non_ai.glob("*.txt"))
-    for p in non_ai_files:
+    # Load Formazione samples
+    logger.info(f"Loading Formazione samples from {test_dir_formazione}...")
+    form_files = list(test_dir_formazione.glob("*.txt"))
+    for p in form_files:
         try:
             text = p.read_text(encoding="utf-8").strip()
             if text:
-                samples.append({"text": text, "true_label": 0, "filename": p.name}) # 0 = Non-AI
+                samples.append({"text": text, "true_label": 0, "filename": p.name}) # 0 = Formazione
         except Exception as e:
             logger.warning(f"Could not read {p}: {e}")
             
@@ -59,12 +59,12 @@ async def run_benchmark(test_dir_ai: Path, test_dir_non_ai: Path, url: str, batc
         logger.error("No samples found!")
         sys.exit(1)
         
-    logger.info(f"Total samples: {len(samples)} (AI: {len(ai_files)}, Non-AI: {len(non_ai_files)})")
+    logger.info(f"Total samples: {len(samples)} (Implementazione: {len(imp_files)}, Formazione: {len(form_files)})")
 
     # 2. Run Inference
     y_true = []
     y_pred = []
-    y_scores = [] # Probability of being AI (class 1)
+    y_scores = [] # Probability of being Implementazione (class 1)
     
     async with httpx.AsyncClient(timeout=30.0) as client:
         # Check health
@@ -93,7 +93,7 @@ async def run_benchmark(test_dir_ai: Path, test_dir_non_ai: Path, url: str, batc
                 # Here we assume robustness or just fail.
                 # Let's append default "Non-AI" 0.0 confidence to avoid crashing, but log it.
                 for _ in chunk:
-                    results.append({"label": "NON_AI", "confidence": 0.0})
+                    results.append({"label": "formazione", "confidence": 0.0})
             else:
                 results.extend(batch_predictions)
     
@@ -105,16 +105,16 @@ async def run_benchmark(test_dir_ai: Path, test_dir_non_ai: Path, url: str, batc
         pred = results[i]
         true_label = sample["true_label"]
         
-        pred_label_str = pred["label"] # "AI" or "NON_AI"
+        pred_label_str = pred["label"] # "implementazione" or "formazione"
         confidence = pred["confidence"]
         
         # Map predicted string to int
-        if pred_label_str == "AI":
+        if pred_label_str == "implementazione":
             pred_label = 1
             score = confidence
         else:
             pred_label = 0
-            score = 1.0 - confidence # Probability of AI is 1 - prob(Non_AI)
+            score = 1.0 - confidence # Probability of Implementazione is 1 - prob(Formazione)
             
         y_true.append(true_label)
         y_pred.append(pred_label)
@@ -146,35 +146,35 @@ async def run_benchmark(test_dir_ai: Path, test_dir_non_ai: Path, url: str, batc
     print(confusion_matrix(y_true, y_pred))
     print("-" * 60)
     print("Classification Report:")
-    print(classification_report(y_true, y_pred, target_names=["NON_AI", "AI"]))
+    print(classification_report(y_true, y_pred, target_names=["formazione", "implementazione"]))
     print("="*60)
 
 def main():
     parser = argparse.ArgumentParser(description="Benchmark Accuracy/Quality")
     parser.add_argument("--url", default="http://localhost:8080", help="Inference API URL")
-    parser.add_argument("--data-ai", default="src/data/Test/ai", help="Path to AI test directory")
-    parser.add_argument("--data-non-ai", default="src/data/Test/non_ai", help="Path to Non-AI test directory")
+    parser.add_argument("--data-implementazione", default="../../data/Test/implementazione", help="Path to Implementazione test directory")
+    parser.add_argument("--data-formazione", default="../../data/Test/formazione", help="Path to Formazione test directory")
     
     args = parser.parse_args()
     
     # Resolve paths relative to inference-service if needed, or absolute
     base_dir = Path(__file__).parent.parent
-    path_ai = Path(args.data_ai)
-    if not path_ai.is_absolute():
-        path_ai = base_dir / path_ai
+    path_imp = Path(args.data_implementazione)
+    if not path_imp.is_absolute():
+        path_imp = base_dir / path_imp
         
-    path_non_ai = Path(args.data_non_ai)
-    if not path_non_ai.is_absolute():
-        path_non_ai = base_dir / path_non_ai
+    path_form = Path(args.data_formazione)
+    if not path_form.is_absolute():
+        path_form = base_dir / path_form
 
-    if not path_ai.exists():
-        logger.error(f"Directory not found: {path_ai}")
+    if not path_imp.exists():
+        logger.error(f"Directory not found: {path_imp}")
         return
-    if not path_non_ai.exists():
-        logger.error(f"Directory not found: {path_non_ai}")
+    if not path_form.exists():
+        logger.error(f"Directory not found: {path_form}")
         return
 
-    asyncio.run(run_benchmark(path_ai, path_non_ai, args.url))
+    asyncio.run(run_benchmark(path_imp, path_form, args.url))
 
 if __name__ == "__main__":
     main()
