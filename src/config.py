@@ -58,6 +58,8 @@ class TrainingConfig(BaseModel):
     early_stopping_patience: int = _training_cfg["early_stopping_patience"]
     kfold_enabled: bool = _training_cfg.get("kfold_enabled", False)
     kfold_splits: int = _training_cfg.get("kfold_splits", 5)
+    freeze_encoder: bool = _training_cfg.get("freeze_encoder", False)
+    unfreeze_top_layers: int = _training_cfg.get("unfreeze_top_layers", 0)
 
 
 class DistillationConfig(BaseModel):

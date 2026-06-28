@@ -2,7 +2,38 @@
 # Orchestration for training and inference services
 
 services:
-  # Inference service (main - PyTorch backend)
+  # Triton Inference Server - runs the ONNX model on GPU (dynamic batching + TensorRT)
+  triton:
+    # CUDA 13 build (required for Blackwell, e.g. RTX 5070 Ti / sm_120).
+    # 26.01-py3 == CUDA 13.1.1, within the host driver's CUDA 13.2 ceiling.
+    # CUDA-13 tags start at 25.08-py3; bump to a newer one only if the driver supports it
+    # (26.06-py3 is CUDA 13.3 and needs a driver >= 13.3).
+    image: nvcr.io/nvidia/tritonserver:26.01-py3
+    container_name: pap-triton
+    command: [ "tritonserver", "--model-repository=/models" ]
+    ports:
+      - "8000:8000" # HTTP
+      - "8001:8001" # gRPC
+      - "8002:8002" # metrics
+    volumes:
+      # Triton model repository (config.pbtxt + 1/model.onnx)
+      - ../model_repository:/models:ro
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [ gpu ]
+    restart: unless-stopped
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:8000/v2/health/ready" ]
+      interval: 15s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+
+  # Inference gateway - tokenizes text and forwards tensors to Triton over gRPC
   classifier:
     build:
       context: ..
@@ -12,7 +43,7 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      # Mount models directory (persistent)
+      # Mount models directory (gateway needs the tokenizer files)
       - ../src/models:/app/src/models:ro
       # Mount config directory
       - ../config:/app/config:ro
@@ -20,14 +51,13 @@ services:
       - ../src/inference:/app/src/inference:ro
       - ../src/training:/app/src/training:ro
     environment:
-      - PAP_INFERENCE__DEVICE=cuda
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              count: 1
-              capabilities: [ gpu ]
+      # Forward inference to the Triton container over gRPC
+      - TRITON_URL=triton:8001
+      # Max batch per Triton call; must match config.pbtxt max_batch_size (bounds GPU memory)
+      - TRITON_MAX_BATCH=256
+    depends_on:
+      triton:
+        condition: service_healthy
     restart: unless-stopped
     healthcheck:
       test: [ "CMD", "python", "-c", "import httpx; httpx.get('http://localhost:8080/health').raise_for_status()" ]
@@ -54,6 +84,8 @@ services:
       - ../config:/app/config:ro
       # Mount Test directory
       - ../../data/Test:/app/data/Test:ro
+      # Mount traceability training data (train_traceability.csv + test_traceability.csv)
+      - ../../../data/traceability/training:/app/data/traceability:ro
       # Mount source code for development (so changes apply without rebuild)
       - ../src:/app/src:ro
       - ../scripts:/app/scripts:ro

@@ -71,14 +71,55 @@ class Trainer:
             self.model_name,
             num_labels=settings.model.num_labels,
         ).to(self.device)
-        
+
+        # Apply layer freezing BEFORE torch.compile wraps the module.
+        self._apply_freezing()
+
         if settings.training.compile_model and hasattr(torch, "compile") and torch.cuda.is_available():
             logger.info("Compiling model with torch.compile() for faster training")
             self.model = torch.compile(self.model)
-        
+
         if self.fp16:
             self.scaler = torch.amp.GradScaler('cuda')
             logger.info("Using mixed precision (FP16)")
+
+    def _apply_freezing(self):
+        """
+        Light fine-tune: freeze the pretrained encoder and keep only the classifier
+        head plus the top N transformer layers trainable. Reduces overfitting on small
+        or noisy datasets and preserves UmBERTo's general representations.
+        Controlled by settings.training.freeze_encoder / unfreeze_top_layers.
+        """
+        if not settings.training.freeze_encoder:
+            return
+
+        # base_model_prefix is e.g. "roberta" for CamemBERT/UmBERTo -> the encoder stack.
+        base = getattr(self.model, getattr(self.model, "base_model_prefix", ""), None)
+        if base is None:
+            logger.warning(
+                "freeze_encoder is set but the base model could not be located; "
+                "training all parameters."
+            )
+            return
+
+        for param in base.parameters():
+            param.requires_grad = False
+
+        n = settings.training.unfreeze_top_layers
+        unfrozen_layers = 0
+        encoder = getattr(base, "encoder", None)
+        if n > 0 and encoder is not None and hasattr(encoder, "layer"):
+            for layer in encoder.layer[-n:]:
+                for param in layer.parameters():
+                    param.requires_grad = True
+                unfrozen_layers += 1
+
+        trainable = sum(p.numel() for p in self.model.parameters() if p.requires_grad)
+        total = sum(p.numel() for p in self.model.parameters())
+        logger.info(
+            f"Light fine-tune: encoder frozen, classifier head + top {unfrozen_layers} "
+            f"layer(s) trainable ({trainable:,}/{total:,} params = {100 * trainable / total:.1f}%)"
+        )
     
     def _create_dataloader(
         self,
@@ -192,7 +233,7 @@ class Trainer:
         """
         # Optimizer
         optimizer = torch.optim.AdamW(
-            self.model.parameters(),
+            [p for p in self.model.parameters() if p.requires_grad],
             lr=self.learning_rate,
             weight_decay=self.weight_decay,
         )

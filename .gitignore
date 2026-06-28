@@ -47,3 +47,9 @@ build/
 # OS
 .DS_Store
 Thumbs.db
+
+# usa-e-getta: venv per export ONNX di Triton
+.venv-export/
+
+model_repository/classifier/1/*.onnx
+model_repository/classifier/

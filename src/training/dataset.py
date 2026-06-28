@@ -184,6 +184,66 @@ def load_dataset_from_jsonl(
     return texts, labels
 
 
+def load_dataset_from_csv(
+    file_path: Path,
+    title_col: str = "TITOLO_PROGETTO",
+    desc_col: str = "DESCRIZIONE_PROGETTO",
+    label_col: str = "label",
+) -> tuple[list[str], list[int]]:
+    """
+    Load dataset from a CSV with title/description/label columns.
+
+    Used for the traceability dataset (data/traceability/training/*.csv). The text is
+    built as f"{title}: {description}" to match exactly what the inference notebook sends,
+    so training and serving see the same input format. String labels (e.g.
+    "tracciabilita"/"altro") are mapped to ids via settings.model.label_map.
+
+    Uses the stdlib csv module (no pandas) so it runs in the lean training image.
+
+    Returns:
+        Tuple of (texts, labels).
+    """
+    import csv as _csv
+
+    if not file_path.exists():
+        raise FileNotFoundError(f"Dataset file not found: {file_path}")
+
+    name_to_id = {name: idx for idx, name in settings.model.label_map.items()}
+
+    texts: list[str] = []
+    labels: list[int] = []
+    skipped = 0
+
+    with open(file_path, "r", encoding="utf-8", newline="") as f:
+        reader = _csv.DictReader(f)
+        for row in reader:
+            title = (row.get(title_col) or "").strip()
+            desc = (row.get(desc_col) or "").strip()
+            raw_label = (row.get(label_col) or "").strip().lower()
+
+            if not title and not desc:
+                skipped += 1
+                continue
+            if raw_label not in name_to_id:
+                skipped += 1
+                continue
+
+            text = f"{title}: {desc}" if title else desc
+            texts.append(text)
+            labels.append(name_to_id[raw_label])
+
+    if not texts:
+        raise ValueError(f"No usable rows in {file_path}")
+
+    pos = sum(labels)
+    logger.info(
+        f"Loaded {len(texts)} samples from {file_path} "
+        f"(label_map={settings.model.label_map}; positives={pos}, "
+        f"negatives={len(labels) - pos}, skipped={skipped})"
+    )
+    return texts, labels
+
+
 def load_dataset(
     source: str = "auto",
     data_dir: Optional[Path] = None,

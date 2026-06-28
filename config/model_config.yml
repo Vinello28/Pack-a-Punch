@@ -38,6 +38,11 @@ training:
   # K-Fold Cross Validation
   kfold_enabled: true
   kfold_splits: 5
+  # Light fine-tune: freeze the UmBERTo encoder and train only the classifier head
+  # plus the top N transformer layers (less overfitting on small/noisy data, keeps
+  # the pretrained representations). Set freeze_encoder: false for a full fine-tune.
+  freeze_encoder: true
+  unfreeze_top_layers: 2
 
 inference:
   batch_size: 512

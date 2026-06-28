@@ -93,7 +93,7 @@ class PyTorchInferenceEngine:
             texts,
             truncation=True,
             max_length=settings.model.max_length,
-            padding="max_length",
+            padding=True,
             return_tensors="pt",
         )
         

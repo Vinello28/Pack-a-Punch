@@ -7,6 +7,15 @@ tokenizers
 pydantic
 pydantic-settings
 
+# Triton client (inference gateway -> Triton server over gRPC)
+tritonclient[grpc]
+
+# ONNX export only (offline, not needed by the gateway at runtime):
+# install torch + optimum[onnxruntime-gpu] to run scripts/export_triton.py
+# onnxruntime-gpu
+# tensorrt
+# optimum[onnxruntime-gpu]
+
 
 # API Server
 fastapi

@@ -1,7 +1,8 @@
 """
 FastAPI server for text classification inference.
 
-Supports both ONNX Runtime and PyTorch backends.
+Thin gateway: tokenizes text and forwards tensors to a Triton Inference Server
+backend (model execution + dynamic batching), then post-processes the logits.
 """
 
 import os
@@ -14,11 +15,11 @@ from pydantic import BaseModel, Field
 from loguru import logger
 
 from src.config import settings
-from .pytorch_engine import PyTorchInferenceEngine, create_pytorch_engine
+from .triton_engine import TritonInferenceEngine, create_triton_engine
 from .batching import DynamicBatcher
 
 # Global state
-_engine: Optional[PyTorchInferenceEngine] = None
+_engine: Optional[TritonInferenceEngine] = None
 _batcher: Optional[DynamicBatcher] = None
 
 
@@ -28,10 +29,10 @@ async def lifespan(app: FastAPI):
     global _engine, _batcher
     
     logger.info("Starting inference server...")
-    logger.info("Using PyTorch backend")
-    
+    logger.info("Using Triton Inference Server backend")
+
     try:
-        _engine = create_pytorch_engine()
+        _engine = create_triton_engine()
         
         _engine.warmup()
         
@@ -55,7 +56,7 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(
     title="Pack-a-Punch Classifier",
-    description="Binary text classification API (AI/NON_AI)",
+    description="Binary text classification API (altro/tracciabilita)",
     version="0.1.0",
     lifespan=lifespan,
 )
@@ -74,7 +75,7 @@ class ClassifyRequest(BaseModel):
 
 class Prediction(BaseModel):
     """Single prediction result."""
-    label: str = Field(..., description="Predicted label (AI or NON_AI)")
+    label: str = Field(..., description="Predicted label (altro or tracciabilita)")
     confidence: float = Field(..., ge=0.0, le=1.0, description="Confidence score")
 
 
@@ -100,10 +101,9 @@ class MetricsResponse(BaseModel):
 @app.post("/classify", response_model=ClassifyResponse)
 async def classify(request: ClassifyRequest) -> ClassifyResponse:
     """
-    Classify texts as AI-generated or human-written.
-    
-    Accepts up to 100 texts per request. Uses dynamic batching
-    for optimal throughput.
+    Classify texts as 'altro' or 'tracciabilita'.
+
+    Uses dynamic batching for optimal throughput.
     """
     if _batcher is None:
         raise HTTPException(status_code=503, detail="Service not initialized")
