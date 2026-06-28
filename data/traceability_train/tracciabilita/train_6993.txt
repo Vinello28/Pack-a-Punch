@@ -1,0 +1,1 @@
+sistema informativo che permette tramite lettori di codici a barre di individuare i prodotti   i lotti e le scadenze delle merci consegnate in conto deposito ai clienti e di aggiornare in real time i data base aziendali.

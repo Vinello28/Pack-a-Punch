@@ -13,8 +13,8 @@ model:
   
   # Label mapping (id -> name)
   label_map:
-    0: "formazione"
-    1: "implementazione"
+    0: "altro"
+    1: "tracciabilita"
   
   # Model architecture (used for ONNX optimization)
   architecture:
@@ -40,7 +40,7 @@ training:
   kfold_splits: 5
 
 inference:
-  batch_size: 256
+  batch_size: 512
   num_sessions: 2
   num_workers: 10
   max_queue_size: 1000
@@ -51,7 +51,7 @@ inference:
 server:
   host: "0.0.0.0"
   port: 8080
-  max_batch_size: 256
+  max_batch_size: 512
   workers: 1
   timeout: 60
 
@@ -62,6 +62,6 @@ distillation:
   confidence_threshold: 0.8
   max_samples: 10000
   system_prompt: |
-    Sei un classificatore di testi. Devi determinare se il testo seguente parla di "formazione" o di "implementazione".
+    Sei un classificatore di testi. Devi determinare se il testo seguente descrive un progetto di "tracciabilita" o "altro" (progetti non inerenti alla tracciabilità).
     
-    Rispondi SOLO con un JSON nel formato: {"label": "formazione" o "implementazione", "confidence": 0.0-1.0}
+    Rispondi SOLO con un JSON nel formato: {"label": "tracciabilita" o "altro", "confidence": 0.0-1.0}

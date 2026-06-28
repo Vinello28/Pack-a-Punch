@@ -1,0 +1,1 @@
+Completamento di un prototipo di servizio consistente nella produzione di smart labels  e nel conseguente servizio di monitoraggio della temperatura dei prodotti deperibili.

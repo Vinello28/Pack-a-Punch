@@ -1,0 +1,1 @@
+Miglioramento delle operazioni di carico e scarico merci con controllo puntuale dei lotti di produzione. Identificazione dei prodotti / confezioni mediante l'utilizzo di bar code distinti. Implementazione procedura di gestione agenti con app dedicate.

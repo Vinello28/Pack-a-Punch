@@ -1,0 +1,1 @@
+Progetto finalizzato all'implementazione di un sistema MES per la tracciabilità di impianto e acquisizione dati dai macchinari di produzione per garantire il controllo di produzione in ottica di efficienza  il controllo e la tracciatura dei consumi delle materie prime  la tracciatura degli stati macchina e degli scarti.

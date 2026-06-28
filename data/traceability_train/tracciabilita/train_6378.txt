@@ -1,0 +1,1 @@
+Il progetto è volto alla realizzazione di un impianto per il controllo remoto dei parametri chimici (pH  Redox  Cloro Residuo  Cloro Totale  Temperatura) dell'acqua della piscina con monitoraggio di allarmi ed intervento computerizzato da remoto  per dosaggio dei prodotti chimici.

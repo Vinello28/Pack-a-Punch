@@ -1,0 +1,1 @@
+Il progetto mira ad automatizzare la gestione delle giacenze e ad eliminare la modalità cartacea usata per il prelievo della merce  introducendo la tracciabilità dei colli per effettuare il carico dei mezzi.

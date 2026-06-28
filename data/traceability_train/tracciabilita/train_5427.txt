@@ -1,0 +1,1 @@
+Adozione di Barcode mono o bidimensionali per l'identificazione della merce. Adozione di software per la gestione dei Workflow aziendali e Adozione di etichette di spedizione con barcode mono o bidimensionali integrate con workflow aziendali per identificare lo stato di movimentazione prodotti (resi merce o spedizione prodotti)

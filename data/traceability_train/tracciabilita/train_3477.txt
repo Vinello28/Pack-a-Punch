@@ -1,0 +1,1 @@
+Il progetto prevede l'implementazione del sistema hardware con l'acquisto di computer e stampanti(anche termoche) nonchè l'implementazione del software gestionale attarverso l'acquisto di singoli moduli per perfezionare la gestione della contablità  del magazzino e della tracciabilità della produzione.

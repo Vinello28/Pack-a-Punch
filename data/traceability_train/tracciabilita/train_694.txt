@@ -1,0 +1,1 @@
+Realizzazione di una piattaforma di Tokenizzazione per la registrazione in blockchain dei lotti di produzione per la filiera del Made in Italy

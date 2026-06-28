@@ -1,0 +1,1 @@
+Sistema integrato hardware/software che  garantisce la tracciabilità all¿ interno del processo produttivo aziendale delle merci/materie prime seguendole attraverso le varie fasi di lavorazione per arrivare al prodotto finito.  La tracciabilità è realizzata mediante un  lettore di codici a barre che  consente  un aggiornamento costante del magazzino.

@@ -1,0 +1,1 @@
+Creazione dell'infrastruttura fisica  implementazione di un software di gestione degli acquisti e vendite che possa supportare la tracciabilità del prodotto in tutte le sue fasi. Costruzione di un sito web per la promozione e l'acquisizione di ordinativi online.

@@ -1,0 +1,1 @@
+Il progetto consiste nel dotare l'azienda del Hardware e del Software necessari per realizzare i processi di digitalizzazione informatica nel reparto produttivo e nell'ufficio tecnico  permettendo la tracciabilità dei lotti di produzione e di conoscere in tempo reale lo stato di avanzamento delle commesse.

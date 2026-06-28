@@ -1,0 +1,1 @@
+sviluppo di procedure automatizzate per gestione ordini di acquisto e vendita  tracciabilità del prodotto.

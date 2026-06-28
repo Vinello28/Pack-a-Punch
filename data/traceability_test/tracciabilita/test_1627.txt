@@ -1,0 +1,1 @@
+Programma per la gestione del laboratorio industriale  con registrazione degli esiti dei test periodici e programma atto a garantire il pieno controllo e la tracciabilità delle casse contenenti gocciolatoi.

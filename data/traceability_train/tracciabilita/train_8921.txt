@@ -1,0 +1,1 @@
+tramite lettore laser (tipo telecamera) viene permessa la lettura automatica delle etichette sui cartoni e i relativi barcode controllando la corrispondenza con il contenuto all'interno del cartone  tipo del prodotto  qualità e peso

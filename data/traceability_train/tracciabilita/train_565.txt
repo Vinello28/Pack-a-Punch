@@ -1,0 +1,1 @@
+Sviluppo di un’applicazione mobile nativa per ambienti iOS e Android  per la tracciabilità delle spedizioni effettuate mediante il catalogo elettronico e l’apertura di un canale comunicativo di assistenza diretta con lo staff di XPARTS che possa interfacciarsi con il CRM aziendale.

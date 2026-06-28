@@ -1,5 +1,6 @@
 import pandas as pd
 import os
+import argparse
 
 def distribute_csv_data(csv_path, target_base_dir, counts_dict, split_name):
     print(f"Processing {split_name} from {csv_path}...")
@@ -30,19 +31,12 @@ def distribute_csv_data(csv_path, target_base_dir, counts_dict, split_name):
 
         if isinstance(label, str):
             label = label.lower().strip()
-        
-        target_dir = None
-        if label == "formazione":
-            target_dir = os.path.join(target_base_dir, "formazione")
-            label_key = "formazione"
-        elif label == "implementazione":
-            target_dir = os.path.join(target_base_dir, "implementazione")
-            label_key = "implementazione"
         else:
-            print(f"Warning: Unknown label '{label}' at row {index} in {split_name}. Skipping.")
             counts_dict["skipped"] = counts_dict.get("skipped", 0) + 1
             continue
 
+        target_dir = os.path.join(target_base_dir, label)
+        
         # Ensure directory exists
         os.makedirs(target_dir, exist_ok=True)
 
@@ -54,36 +48,50 @@ def distribute_csv_data(csv_path, target_base_dir, counts_dict, split_name):
         try:
             with open(filepath, "w", encoding="utf-8") as f:
                 f.write(str(description))
-            counts_dict[label_key] = counts_dict.get(label_key, 0) + 1
+            counts_dict[label] = counts_dict.get(label, 0) + 1
         except Exception as e:
             print(f"Error writing file {filepath}: {e}")
 
 def distribute_data():
-    # Resolve paths relative to the script location
+    parser = argparse.ArgumentParser(description="Distribute CSV data into text files by label.")
+    
+    # Resolve default paths relative to the script location
     script_dir = os.path.dirname(os.path.abspath(__file__))
     inference_usage_dir = os.path.dirname(script_dir)
     src_dir = os.path.dirname(inference_usage_dir)
     project_root = os.path.dirname(src_dir)
-
-    train_csv_path = os.path.join(inference_usage_dir, "public", "trainingset.csv")
-    test_csv_path = os.path.join(inference_usage_dir, "public", "testset.csv")
-
-    train_data_dir = os.path.join(inference_usage_dir, "src", "data")
-    test_data_dir = os.path.join(project_root, "data", "Test")
-
-    counts = {"formazione": 0, "implementazione": 0, "skipped": 0}
-    distribute_csv_data(train_csv_path, train_data_dir, counts, "train")
     
-    print(f"  Training Formazione files created: {counts['formazione']}")
-    print(f"  Training Implementazione files created: {counts['implementazione']}")
-    print(f"  Training Skipped rows: {counts['skipped']}")
-    
-    counts_test = {"formazione": 0, "implementazione": 0, "skipped": 0}
-    distribute_csv_data(test_csv_path, test_data_dir, counts_test, "test")
+    default_train_csv = os.path.join(inference_usage_dir, "public", "trainingset.csv")
+    default_test_csv = os.path.join(inference_usage_dir, "public", "testset.csv")
+    default_train_dir = os.path.join(inference_usage_dir, "src", "data")
+    default_test_dir = os.path.join(project_root, "data", "Test")
 
-    print(f"  Test Formazione files created: {counts_test['formazione']}")
-    print(f"  Test Implementazione files created: {counts_test['implementazione']}")
-    print(f"  Test Skipped rows: {counts_test['skipped']}")
+    parser.add_argument("--train-csv", type=str, default=default_train_csv, help="Path to training CSV file")
+    parser.add_argument("--test-csv", type=str, default=default_test_csv, help="Path to test CSV file")
+    parser.add_argument("--train-dir", type=str, default=default_train_dir, help="Directory to save training data")
+    parser.add_argument("--test-dir", type=str, default=default_test_dir, help="Directory to save test data")
+
+    args = parser.parse_args()
+
+    # Train Data
+    counts = {"skipped": 0}
+    distribute_csv_data(args.train_csv, args.train_dir, counts, "train")
+    
+    print("--- Training Data Summary ---")
+    for label, count in counts.items():
+        if label != "skipped":
+            print(f"  {label.capitalize()} files created: {count}")
+    print(f"  Skipped rows: {counts.get('skipped', 0)}")
+    
+    # Test Data
+    counts_test = {"skipped": 0}
+    distribute_csv_data(args.test_csv, args.test_dir, counts_test, "test")
+
+    print("\n--- Test Data Summary ---")
+    for label, count in counts_test.items():
+        if label != "skipped":
+            print(f"  {label.capitalize()} files created: {count}")
+    print(f"  Skipped rows: {counts_test.get('skipped', 0)}")
 
 if __name__ == "__main__":
     distribute_data()

@@ -1,0 +1,1 @@
+Il progetto di investimento ha la finalità di implementare una piattaforma attraverso la tecnologia blockchain che consenta una analisi dei fornitori (interni e esterni) e degli stakeholders lungo la filiera

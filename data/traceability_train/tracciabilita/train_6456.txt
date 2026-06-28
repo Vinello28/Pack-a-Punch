@@ -1,0 +1,1 @@
+Il progetto prevede il design e l’implementazione di un archivio dati  su architettura SQL Server  volto a organizzare le informazioni necessarie alla gestione e ottimizzazione dei processi legati alle consegne effettuate presso i clienti dai corrieri.

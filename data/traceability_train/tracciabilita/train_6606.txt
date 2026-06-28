@@ -1,0 +1,1 @@
+Nuova procedura di carico/scarico del magazzino e monitoraggio delle giacenze in tempo reale.  La procedura prevede l'utilizzo di un applicativo (foglio elettronico) da parte del responsabile del magazzino per monitorare costantemente giacenze  lotti di riordino  scadenze dei prodotti destinati alla vendita.

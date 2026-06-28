@@ -1,0 +1,1 @@
+Il sistema avrà lo scopo di gestire la situazione del magazzino delle materie prime ed identificare in maniera univoca la materia prima  gestendo per ogni articolo bagno ed ubicazione. Ciò permetterà di digitalizzare i processi necessari al miglioramento dell 'efficenza tramite la riduzione della possibilità di errore.

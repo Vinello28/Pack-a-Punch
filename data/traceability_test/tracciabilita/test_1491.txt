@@ -1,0 +1,1 @@
+Digitalizzazione controllo accessi e timbrature con la finalità di gestione e controllo dalla sede principale  in aggiunta controllo presenze al fine di garantire la sicurezza degli accessi stessi. Implementazione informatica del sistema tracciabilità al fine di controllare remotamente le postazioni produttive.

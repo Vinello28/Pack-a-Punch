@@ -1,0 +1,1 @@
+Acquisizione automatica dell'identificazione e dati movimenti magazzino con lettore codice a barre  e relativa integrazione modulo lotti. Integrazione gestionale con modulo importazione automatica ordini su portale cliente.

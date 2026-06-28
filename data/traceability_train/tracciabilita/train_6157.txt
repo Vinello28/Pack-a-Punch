@@ -1,0 +1,1 @@
+progettazione e realizzazione di un applicativo web per la digitalizzazione del processo di tracciabilità delle materie prime e di un sistema di acquisizione dati denominato MATIC STORE che permetterà l’acquisizione e digitalizzazioni di informazioni relative alle prestazioni e al funzionamento della macchina

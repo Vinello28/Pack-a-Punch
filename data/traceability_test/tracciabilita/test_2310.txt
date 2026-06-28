@@ -1,0 +1,1 @@
+Il Sistema Hardware e software permetterà di implementare una  piattaforma e-commerce in grado di seguire il prodotto in tutte le sue fasi dalla progettazione alla produzione con un costante tracciamento (visibile al committente) dell'intero processo produttivo  ivi inclusa avanzamento delle fasi di lavorazione  spedizione e consegna.

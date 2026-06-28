@@ -1,0 +1,1 @@
+Il progetto è un servizio di cerca trova materie prime eprestazioni  destinato alle aziende del settore cosmeticoe chimico  erogato attraverso una piattaforma web  checomprende un modulo gestionale per lorganizzazione ela tracciabilità delle attività e una vetrina annunci enews a disposizione dei fornitori del settore.

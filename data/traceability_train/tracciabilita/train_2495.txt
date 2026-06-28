@@ -1,0 +1,1 @@
+Il progetto nasce dall'esigenza di ottimozzare la gestione del magazzino attraverso l'introduzione del codice a barre che consentirà la tracciabilità del prodotto più puntuale e specifica.

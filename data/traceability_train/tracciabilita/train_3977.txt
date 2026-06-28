@@ -1,0 +1,1 @@
+programma gestionale evoluto con gestione del magazzino  gestione tracciabilità prodotti  gestione agenti ed adempimenti fiscali.

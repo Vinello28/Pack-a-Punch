@@ -1,0 +1,1 @@
+Il progetto consiste nello sviluppo di un sistema software per agevolare la tracciabilità dei nostri cassoni scarrabili consentendo e semplificando la gestione degli stessi. Si prevede anche l'implementazione del sistema hardware.

@@ -1,0 +1,1 @@
+Scopo del progetto è quello di informatizzare l'attività di rilevazione e monitoraggio delle diverse colture e di consentire il collegamento in tempo reale tra unità produttive dislocate in aree differenti. Inoltre il progetto mira a digitalizzare i sistemi di rilevazione del peso e del prodotto

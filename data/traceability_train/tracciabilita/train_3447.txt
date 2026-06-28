@@ -1,0 +1,1 @@
+L¿attuale software verrà implementato permettendo l¿etichettatura con codice a barre dei lotti di rifiuti in stoccaggio. La lettura  che potrà essere effettuata attraverso una app su smartphone  permetterà di conoscere tutti i dati relativi al lotto ( anche analitici ) e velocizzerà le operazioni di stoccaggio e caricamento dei rifiuti.

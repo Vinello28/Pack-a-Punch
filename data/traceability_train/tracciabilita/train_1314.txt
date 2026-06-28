@@ -1,0 +1,1 @@
+Il progetto di investimento prevede l'acquisto di macchinari (filo-torcitoi) e l'implementazione di un software che consenta il controllo e monitoraggio degli stessi in ottica smart-factory. L'obiettivo è l'ampliamento della gamma di prodotti aziendali e l'acquisizione di quote di mercato nel settore dei filati per maglieria

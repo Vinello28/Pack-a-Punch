@@ -1,0 +1,1 @@
+L’obiettivo del progetto è quello di introdurre una nuova linea di macroforatura nei propri impianti nonché quello di implementare un avanzato sistema di controllo basato su PLC e monitor touchscreen al fine di migliorare il tracciamento dei prodotti ed il monitoraggio energetico in tempo reale.

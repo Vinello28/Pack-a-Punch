@@ -1,0 +1,1 @@
+Lo scopo del progetto è quello di sviluppare  una piattaforma in condivisione dei processi gestionali  quali magazzino  tracciabilità e vendita per la ricezione degli ordini  spedizione e fatturazione.

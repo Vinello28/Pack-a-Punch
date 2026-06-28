@@ -1,0 +1,1 @@
+Implementazione di una soluzione gestionale che consenta di gestire in modo integrato i flussi di vendita dei prodotti  la gestione della tracciabilità  con lotti  scadenze  schede prodotti e gli adempimenti amministrativi e fiscali della società. Il progetto prevede sia l'acquisizione di nuovo hardware  licenze software e servizi di consulenza.

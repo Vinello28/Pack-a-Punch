@@ -1,0 +1,1 @@
+Progetto di digitalizzazione per l¿automazione del controllo di gestione delle commesse tramite: l¿inserimento della gestione delle attività di manutenzione  di service e del sistema di tracciabilità degli interventi e della documentazione di manutenzione programmata tramite codifica con QR code.

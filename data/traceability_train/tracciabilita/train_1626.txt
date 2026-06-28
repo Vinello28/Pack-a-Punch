@@ -1,0 +1,1 @@
+Programma di gestione della produzione con tracciabilità materie prime e prodotti finiti mediante l'utilizzo dei codici a barre

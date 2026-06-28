@@ -1,0 +1,1 @@
+Il progetto HIGHSENSER ha l’obiettivo di migliorare la sensibilità dei sistemi attualmente disponibili per la rilevazione di biomarcatori tumorali. In particolare verranno implementati prodotti per metodi di immunoassay per l’identificazione e quantificazione di specifici biomarcatori utilizzati nella diagnostica oncologica.

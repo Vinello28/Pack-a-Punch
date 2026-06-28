@@ -1,0 +1,1 @@
+INTRODUZIONE DI SOLUZIONI DI TRAKING PER LA TRACCIABILITA' DEI DISPOSITIVI TRAMITE NFC UTILIZZATA CON SOLUZIONI CLOUD - Il progetto prevede l’incremento della sicurezza dei dispositivi di protezione individuale (DPI) consentendone la tracciabilità di utilizzo secondo quanto previsto dal regolamento Europeo 2016/425.

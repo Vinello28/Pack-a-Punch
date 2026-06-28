@@ -1,0 +1,1 @@
+Il presente progetto prevede la realizzazione di smart services e una piattaforma cloud per la realizzazione di nuovi prodotti tecnologicamente avanzati atti a migliorare il servizio proposto dall’azienda ai propri clienti in termini di supporto ai propri clienti  prevenzione dei guasti  monitoraggio dei dati dei prodotti e reperimento eventuali moduli per le certificazioni.

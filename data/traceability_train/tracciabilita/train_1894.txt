@@ -1,0 +1,1 @@
+Sviluppo di un sito e-commerce per la vendita on-line dei prodotti di abbigliamento  integrato nel sito web ci sarà anche un gestionale per le spedizioni con la possibilità del monitoraggio merce inviata e presente in magazzino.

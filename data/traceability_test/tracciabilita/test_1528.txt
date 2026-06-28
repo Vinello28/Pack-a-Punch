@@ -1,0 +1,1 @@
+L’obiettivo è garantire la coerenza  la conformità e la tracciabilità dei requisiti tecnici nel ciclo di vita del prodotto (PLM). Descrizione del contesto e della necessità di integrare i processi RFQ in un flusso tracciabile  dal momento dell’arrivo fino all’archiviazione nel PLM  con l’uso di KYD per l’estrazione automatica dei dati.
