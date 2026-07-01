@@ -25,9 +25,12 @@ from src.training.trainer import Trainer
 from src.training.dataset import load_dataset_from_csv
 from src.training.distillation import run_distillation
 
-# open-data-analytics project root (scripts/ -> inference-usage -> src -> repo root)
-REPO_ROOT = Path(__file__).resolve().parents[3]
-TRACEABILITY_DIR = REPO_ROOT / "data" / "traceability" / "training"
+# This submodule's own root (scripts/ -> inference-usage). Training data lives inside the
+# submodule (src/data/traceability/), prepared ahead of time by
+# scripts/prepare_traceability_data.py from the shared data/traceability/training/ source CSVs
+# (never bind-mounted directly into the training container).
+SUBMODULE_ROOT = Path(__file__).resolve().parents[1]
+TRACEABILITY_SPLIT_DIR = SUBMODULE_ROOT / "src" / "data" / "traceability"
 
 
 def parse_args():
@@ -44,14 +47,21 @@ def parse_args():
     parser.add_argument(
         "--csv-path",
         type=Path,
-        default=TRACEABILITY_DIR / "train_traceability.csv",
+        default=TRACEABILITY_SPLIT_DIR / "train.csv",
         help="Training CSV (TITOLO_PROGETTO, DESCRIZIONE_PROGETTO, label) for --data-source csv",
+    )
+
+    parser.add_argument(
+        "--val-csv-path",
+        type=Path,
+        default=TRACEABILITY_SPLIT_DIR / "val.csv",
+        help="Validation CSV, merged with --csv-path into the training pool (for --data-source csv)",
     )
 
     parser.add_argument(
         "--test-csv-path",
         type=Path,
-        default=TRACEABILITY_DIR / "test_traceability.csv",
+        default=TRACEABILITY_SPLIT_DIR / "test.csv",
         help="Held-out test CSV evaluated after training (for --data-source csv)",
     )
     
@@ -134,13 +144,19 @@ def main():
             logger.error(f"Distillation failed: {e}")
             return 1
     
-    # The traceability CSV ships its own held-out test set, so we use a single
-    # train/eval split (not K-Fold) and evaluate on that test set after training.
+    # The traceability data is pre-split 70/20/10 (train/val/test) by
+    # scripts/prepare_traceability_data.py. Train+val form the 90% pool fed into K-Fold CV
+    # (each fold's held-out portion serves as validation); test stays held out and is only
+    # evaluated once, after training, below.
     texts = labels = None
     if args.data_source == "csv":
-        logger.info(f"Loading traceability training CSV: {args.csv_path}")
-        texts, labels = load_dataset_from_csv(args.csv_path)
-        args.kfold = False
+        logger.info(f"Loading traceability train CSV: {args.csv_path}")
+        train_texts, train_labels = load_dataset_from_csv(args.csv_path)
+        logger.info(f"Loading traceability val CSV: {args.val_csv_path}")
+        val_texts, val_labels = load_dataset_from_csv(args.val_csv_path)
+        texts = train_texts + val_texts
+        labels = train_labels + val_labels
+        logger.info(f"Train+val pool: {len(texts)} samples")
 
     # Train
     logger.info("Starting training...")
@@ -157,6 +173,8 @@ def main():
             logger.info(f"Using {args.kfold_splits}-Fold Stratified Cross Validation")
             model_path = trainer.train_kfold(
                 n_splits=args.kfold_splits,
+                texts=texts,
+                labels=labels,
                 data_source=args.data_source,
             )
         elif texts is not None:

@@ -88,5 +88,40 @@ esisteva ma non era agganciato a nessun loader. Decisioni utente: input = TITOLO
 - [x] `scripts/train.py`: `--data-source csv` + path train/test traceability, eval su test set
 - [x] `docker/docker-compose.yml`: mount `data/traceability/training` nel servizio `trainer`
 - [x] py_compile OK su tutti i file; freezing validato (base_model_prefix='roberta', 12 layer)
-- [ ] Eseguire il training su GPU (servizio docker `trainer`, torch cu130) e validare su test set
+- [x] Eseguire il training su GPU (servizio docker `trainer`, torch cu130) e validare su test set
 - [ ] Riesportare ONNX (`scripts/export_triton.py --fp16`) -> Triton, validare su righe reali
+
+## Fix pipeline dati + training reale eseguito (2026-07-01)
+Prima di eseguire il training sono emersi due bug residui nel lavoro precedente e un problema
+di qualità dati serio, tutti risolti in questa sessione:
+
+- **Bug 1**: `docker-compose.yml` (`trainer`) girava ancora `--data-source auto`, che con lo
+  storico `implementazione/formazione` presente in `src/data/` avrebbe rifatto in silenzio
+  l'errore originale (stesso identico bug della rilabeling). Fix: comando esplicito
+  `--data-source csv --csv-path ... --val-csv-path ... --test-csv-path ...`.
+- **Bug 2**: il mount `../../../data/traceability/training:/app/data/traceability:ro` montava
+  la cartella dati condivisa del monorepo direttamente nel container. Rimosso: i CSV vengono ora
+  preparati con `scripts/prepare_traceability_data.py` (venv di repo, fuori Docker) e copiati in
+  `src/data/traceability/{train,val,test}.csv`, dentro il mount `rw` gia' esistente.
+- **Scoperta dati**: unendo `train_traceability.csv` + `test_traceability.csv` (13.162 righe) e
+  deduplicando per (titolo, descrizione) restano solo 6.170 righe uniche, sbilanciate
+  ~79% tracciabilita / 21% altro — il "50/50" originale era ottenuto duplicando le righe
+  "altro" (solo ~1.037-1.441 uniche per file). C'erano anche 348 righe duplicate esatte tra
+  train e test originali (leakage gia' presente nello split di partenza).
+  **Fix**: `prepare_traceability_data.py` ora deduplica sempre, poi pesca automaticamente
+  campioni "altro" aggiuntivi e unici da `data/technology_mapping/` (dataset enorme e non
+  correlato, stesso schema aiuti di stato) fino a pareggiare il conteggio di tracciabilita,
+  escludendo righe con keyword di tracciabilita (`tracciabil|rintracciabil|filiera|blockchain`)
+  per non introdurre falsi negativi. Risultato: 9.800 righe, 50/50 esatto, split 70/20/10
+  (train 6.860 / val 1.960 / test 980).
+- **Training eseguito** (`docker compose --profile training up trainer`, RTX 5070 Ti, ~10 min):
+  5-Fold CV su train+val (8.820 campioni) F1 0.9777 ± 0.0044 (per-fold 0.9697-0.9826,
+  precision/recall entrambi alti e vicini, nessun collasso su una classe). Retrain finale +
+  **HELD-OUT TEST (980 campioni mai visti)**: acc 0.9724, P 0.9602, R 0.9857, F1 0.9728.
+  Risultato reale e non degenere, a differenza del bug originale (~1.00 di confidenza su
+  "tutto tracciabilita").
+- Tuning hardware (Ryzen 9 9900X 12c/24t, RTX 5070 Ti 16GB): `num_workers` 4->8,
+  `batch_size` 16->32, aggiunto `persistent_workers`/`prefetch_factor=4` ai DataLoader,
+  `shm_size: 2gb` sul servizio `trainer`.
+- Non incluso in questa sessione (resta il prossimo passo): riesportare ONNX e ridistribuire su
+  Triton con il nuovo modello.

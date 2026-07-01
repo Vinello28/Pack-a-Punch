@@ -23,14 +23,14 @@ model:
     model_type: "roberta"
 
 training:
-  batch_size: 16
+  batch_size: 32
   learning_rate: 2.0e-5
   num_epochs: 4
   warmup_ratio: 0.1
   weight_decay: 0.01
   max_grad_norm: 1.0
   fp16: true
-  num_workers: 4
+  num_workers: 8
   compile_model: true
   save_steps: 500
   eval_steps: 100

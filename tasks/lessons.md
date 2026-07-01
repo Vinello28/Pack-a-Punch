@@ -68,3 +68,48 @@
 - **Pattern:** avevo messo `24.10-py3` (CUDA 12.6) "a memoria"; sbagliato per Blackwell.
 - **Regola:** verificare i tag reali via registry NGC (token guest `nvcr.io/proxy_auth`,
   `/v2/nvidia/tritonserver/tags/list`) e ispezionare `CUDA_VERSION` nel config blob dell'immagine.
+
+## Un dataset "50/50 perfetto" può essere un bilanciamento fake via duplicazione
+- **Pattern:** `train_traceability.csv`/`test_traceability.csv` sembravano perfettamente
+  bilanciati (5265/5264, 1316/1317). Deduplicando per (titolo, descrizione) sono rimaste solo
+  6.170 righe su 13.162 (53% erano duplicati esatti), con distribuzione reale ~79%
+  tracciabilita / 21% altro. Chi ha costruito il file ha duplicato le righe "altro" (poche,
+  ~1.037-1.441 uniche) per pareggiare il conteggio di "tracciabilita" (molte di più, uniche).
+  C'erano anche 348 righe duplicate esatte tra train e test originali (leakage nello split di
+  partenza, precedente a qualunque mia modifica).
+- **Regola:** prima di fidarsi di un bilanciamento di classi dichiarato in un CSV, controllare
+  `duplicated(subset=[colonne testo], keep=False).sum()` sull'intero file. Se alto, il
+  bilanciamento è quasi sempre oversampling via duplicazione, non diversità reale — e
+  ricombinare/risplittare file "gemelli" (train+test) senza deduplicare prima crea data leakage
+  garantito (lo stesso testo duplicato può finire sia in train che in test dopo il resplit).
+- **Fix adottato:** deduplicare sempre PRIMA di ricombinare/risplittare set che potrebbero
+  condividere righe; se la dedup rivela sbilanciamento reale, integrare la classe minoritaria
+  con campioni unici da un'altra fonte affine (qui: `data/technology_mapping/`, stesso schema
+  "aiuti di stato" ma task diverso — quindi già naturalmente "altro" per la tracciabilità),
+  filtrando per keyword del dominio target per evitare falsi negativi, invece di accettare lo
+  sbilanciamento o tenere i duplicati.
+
+## Deduplicare per (titolo, descrizione) invece che per sola descrizione infla i conteggi
+- **Pattern:** su `data/technology_mapping/` (13 file, ~24M righe) ho deduplicato per la coppia
+  (TITOLO_PROGETTO, DESCRIZIONE_PROGETTO), trovando ~1,2M "unici". La convenzione già stabilita
+  nel progetto (`src/regex_multiprocessing.py`, `drop_duplicates(subset=["DESCRIZIONE_PROGETTO"])`)
+  dedup per SOLA descrizione, che dà il numero corretto: 923.743 uniche. La differenza (~280k) è
+  dovuta a titoli diversi (spesso generici/cosmetici, es. beneficiari diversi dello stesso bando)
+  abbinati alla stessa identica descrizione — la coppia sembra "unica" ma il contenuto
+  informativo (la descrizione) è duplicato.
+- **Regola:** su questi dataset "aiuti di stato", la colonna che conta per l'unicità semantica
+  è `DESCRIZIONE_PROGETTO` da sola, non la coppia con il titolo. Verificare sempre `nunique()`
+  sulla sola colonna testo prima di dichiarare un pool "N campioni unici", specialmente prima di
+  usarlo per campionare dati di training (rischio: righe quasi-duplicate con titoli cosmetici
+  diversi finiscono in split diversi, leakage debole ma reale).
+
+## Usare multiprocessing per le scansioni pesanti su data/technology_mapping (preferenza nota)
+- **Pattern:** ho scansionato 13 file CSV (fino a 3,9GB l'uno) in sequenza, un file alla volta.
+  L'utente preferisce esplicitamente il multiprocessing per questi job (vedi memoria
+  `feedback_collaboration`), con template già pronti in `src/regex_multiprocessing.py` /
+  `src/reclassify_annual.py` (pattern: `multiprocessing.Pool(cpu_count()).imap_unordered`, un
+  worker per file, lettura a chunk con `pd.read_csv(..., chunksize=...)` per i file più grandi).
+- **Regola:** per qualunque scansione/estrazione su `data/technology_mapping/` o dataset simili
+  a più file indipendenti, usare `Pool` con un processo per file (o chunk) invece di un loop
+  sequenziale — sfrutta le 24 thread della macchina e riusa i template esistenti invece di
+  reinventarli.

@@ -84,12 +84,20 @@ services:
       - ../config:/app/config:ro
       # Mount Test directory
       - ../../data/Test:/app/data/Test:ro
-      # Mount traceability training data (train_traceability.csv + test_traceability.csv)
-      - ../../../data/traceability/training:/app/data/traceability:ro
       # Mount source code for development (so changes apply without rebuild)
       - ../src:/app/src:ro
       - ../scripts:/app/scripts:ro
-    command: [ "--data-source", "auto" ]
+    # Traceability data is prepared ahead of time (via the repo-root venv, outside Docker) by
+    # scripts/prepare_traceability_data.py into src/data/traceability/{train,val,test}.csv,
+    # already covered by the ../src/data mount above. The raw shared CSVs are never
+    # bind-mounted directly into this container.
+    command: [
+      "--data-source", "csv",
+      "--csv-path", "/app/src/data/traceability/train.csv",
+      "--val-csv-path", "/app/src/data/traceability/val.csv",
+      "--test-csv-path", "/app/src/data/traceability/test.csv",
+    ]
+    shm_size: "2gb"
     environment:
       - PAP_TRAINING__FP16=true
       - TOKENIZERS_PARALLELISM=false

@@ -141,6 +141,8 @@ class Trainer:
             shuffle=shuffle,
             num_workers=settings.training.num_workers,
             pin_memory=True,
+            persistent_workers=settings.training.num_workers > 0,
+            prefetch_factor=4 if settings.training.num_workers > 0 else None,
         )
     
     def _prepare_data(
@@ -172,14 +174,18 @@ class Trainer:
             shuffle=True,
             num_workers=settings.training.num_workers,
             pin_memory=True,
+            persistent_workers=settings.training.num_workers > 0,
+            prefetch_factor=4 if settings.training.num_workers > 0 else None,
         )
-        
+
         eval_loader = DataLoader(
             eval_dataset,
             batch_size=self.batch_size * 2,
             shuffle=False,
             num_workers=settings.training.num_workers,
             pin_memory=True,
+            persistent_workers=settings.training.num_workers > 0,
+            prefetch_factor=4 if settings.training.num_workers > 0 else None,
         )
         
         logger.info(f"Train size: {train_size}, Eval size: {eval_size}")
