@@ -16,6 +16,7 @@ from transformers import AutoModelForSequenceClassification, AutoTokenizer
 from loguru import logger
 
 from src.config import settings
+from src.inference.labeling import probs_to_results
 
 
 class PyTorchInferenceEngine:
@@ -123,26 +124,9 @@ class PyTorchInferenceEngine:
         outputs = self.model(**inputs)
         logits = outputs.logits
         
-        # Apply softmax
-        probs = torch.softmax(logits, dim=-1)
-        
-        # Get predictions
-        pred_ids = torch.argmax(probs, dim=-1)
-        confidences = torch.max(probs, dim=-1).values
-        
-        # Move to CPU and convert
-        pred_ids = pred_ids.cpu().numpy()
-        confidences = confidences.cpu().numpy()
-        
-        results = []
-        for pred_id, confidence in zip(pred_ids, confidences):
-            label = settings.model.label_map[int(pred_id)]
-            results.append({
-                "label": label,
-                "confidence": float(confidence),
-            })
-        
-        return results
+        # Apply softmax, then threshold P(tracciabilita) via the shared post-processor.
+        probs = torch.softmax(logits, dim=-1).cpu().numpy()
+        return probs_to_results(probs)
     
     async def predict_batch_async(self, texts: list[str]) -> list[dict]:
         """

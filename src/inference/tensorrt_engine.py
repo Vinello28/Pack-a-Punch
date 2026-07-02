@@ -14,6 +14,7 @@ from transformers import AutoTokenizer
 from loguru import logger
 
 from src.config import settings
+from src.inference.labeling import probs_to_results
 
 class TensorRTInferenceEngine:
     def __init__(
@@ -78,22 +79,11 @@ class TensorRTInferenceEngine:
         outputs = self.model(**inputs)
         logits = outputs.logits
         
-        # Apply softmax manually (numpy)
+        # Apply softmax manually (numpy), then threshold P(tracciabilita).
         exp_logits = np.exp(logits - np.max(logits, axis=-1, keepdims=True))
         probs = exp_logits / np.sum(exp_logits, axis=-1, keepdims=True)
-        
-        pred_ids = np.argmax(probs, axis=-1)
-        confidences = np.max(probs, axis=-1)
-        
-        results = []
-        for pred_id, confidence in zip(pred_ids, confidences):
-            label = settings.model.label_map[int(pred_id)]
-            results.append({
-                "label": label,
-                "confidence": float(confidence),
-            })
-            
-        return results
+
+        return probs_to_results(probs)
 
     async def predict_batch_async(self, texts: list[str]) -> list[dict]:
         loop = asyncio.get_event_loop()

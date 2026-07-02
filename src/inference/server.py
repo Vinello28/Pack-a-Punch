@@ -76,7 +76,11 @@ class ClassifyRequest(BaseModel):
 class Prediction(BaseModel):
     """Single prediction result."""
     label: str = Field(..., description="Predicted label (altro or tracciabilita)")
-    confidence: float = Field(..., ge=0.0, le=1.0, description="Confidence score")
+    confidence: float = Field(..., ge=0.0, le=1.0, description="Probability of the predicted label")
+    positive_prob: float = Field(
+        ..., ge=0.0, le=1.0,
+        description="P(tracciabilita); lets clients re-threshold without re-running the model",
+    )
 
 
 class ClassifyResponse(BaseModel):

@@ -42,7 +42,7 @@ training:
   # plus the top N transformer layers (less overfitting on small/noisy data, keeps
   # the pretrained representations). Set freeze_encoder: false for a full fine-tune.
   freeze_encoder: true
-  unfreeze_top_layers: 2
+  unfreeze_top_layers: 4
 
 inference:
   batch_size: 512
@@ -52,6 +52,10 @@ inference:
   batch_timeout_ms: 50
   use_fp16: true
   device: "cuda"
+  # Decision threshold on P(tracciabilita). The model is trained ~50/50 but deployed on a
+  # population with ~0.3% positives; argmax@0.5 over-triggers. Raise this (tuned on the gold
+  # set) to control precision at deployment. 0.5 == plain argmax.
+  positive_threshold: 0.5
 
 server:
   host: "0.0.0.0"

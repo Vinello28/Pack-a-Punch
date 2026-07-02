@@ -19,11 +19,11 @@ Run with the repo-root venv (NOT inside Docker):
 """
 
 import random
-import re
 import sys
 from multiprocessing import Pool, cpu_count
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
 import yaml
 from sklearn.model_selection import train_test_split
@@ -31,6 +31,12 @@ from sklearn.model_selection import train_test_split
 SCRIPT_DIR = Path(__file__).resolve().parent
 SUBMODULE_ROOT = SCRIPT_DIR.parent
 REPO_ROOT = SUBMODULE_ROOT.parent.parent
+
+# Reuse the canonical traceability regex (get_mask) — the SAME oracle used to build the
+# validation ground truth (notebooks/traceability/validation_worker.py). Using it here as the
+# single source of truth for labels guarantees training labels can never contradict validation.
+sys.path.insert(0, str(REPO_ROOT / "notebooks" / "traceability"))
+from traceability_worker import get_mask  # noqa: E402
 
 # Read label_map straight from the YAML config rather than importing src.config: that module
 # pulls in pydantic_settings, which belongs to the training image's deps and isn't guaranteed to
@@ -47,9 +53,6 @@ SOURCE_TEST_CSV = SOURCE_DIR / "test_traceability.csv"
 # minority 'altro' rows many times over; the real unique data skews heavily towards
 # tracciabilita).
 TECH_MAPPING_DIR = REPO_ROOT / "data" / "technology_mapping"
-TRACEABILITY_KEYWORD_RE = re.compile(
-    r"tracciabil|rintracciabil|filiera|blockchain", re.IGNORECASE
-)
 
 OUT_DIR = SUBMODULE_ROOT / "src" / "data" / "traceability"
 
@@ -58,6 +61,17 @@ DESC_COL = "DESCRIZIONE_PROGETTO"
 LABEL_COL = "label"
 
 SEED = 42
+
+
+def traceability_mask(df: pd.DataFrame) -> pd.Series:
+    """Canonical positive mask: get_mask(TITOLO) OR get_mask(DESCRIZIONE), lowercased.
+
+    Identical to the validation ground truth (validation_worker._regex_label), so labels
+    produced here and metrics computed there share one definition of 'tracciabilita'.
+    """
+    titolo = df[TITLE_COL].fillna("").astype(str).str.lower()
+    descr = df[DESC_COL].fillna("").astype(str).str.lower()
+    return get_mask(titolo) | get_mask(descr)
 
 
 def _collect_file_candidates(filepath: Path) -> pd.DataFrame:
@@ -80,8 +94,9 @@ def _collect_file_candidates(filepath: Path) -> pd.DataFrame:
         for chunk in chunk_iter:
             chunk = chunk.dropna(subset=[DESC_COL])
             chunk[TITLE_COL] = chunk[TITLE_COL].fillna("")
-            chunk = chunk[~chunk[DESC_COL].str.contains(TRACEABILITY_KEYWORD_RE, na=False)]
-            chunk = chunk[~chunk[TITLE_COL].str.contains(TRACEABILITY_KEYWORD_RE, na=False)]
+            # Keep only rows the canonical regex considers negative, so augmented 'altro'
+            # examples are truly negative under the same oracle used to label everything else.
+            chunk = chunk[~traceability_mask(chunk)]
             chunk = chunk.drop_duplicates(subset=[DESC_COL])
             chunk = chunk[~chunk[DESC_COL].isin(seen_in_file)]
             seen_in_file.update(chunk[DESC_COL].tolist())
@@ -145,8 +160,20 @@ def main() -> int:
         f"(dropped {invalid_or_empty_dropped} invalid/empty, "
         f"{duplicates_dropped} duplicate descriptions) -> {len(df)} usable rows"
     )
+
+    # Single label oracle: regenerate every label from the canonical get_mask (title OR
+    # description), the same regex used as validation ground truth. The source 'label' column
+    # is only a data-quality gate above; here the oracle is authoritative, so training labels
+    # can never contradict the metric. This fixes the root cause of the previous model's noise:
+    # negatives that the reference regex actually considers positive.
+    is_pos = traceability_mask(df)
+    oracle_label = np.where(is_pos, "tracciabilita", "altro")
+    flipped = int((df[LABEL_COL].to_numpy() != oracle_label).sum())
+    df[LABEL_COL] = oracle_label
+    print(f"  Relabeled from canonical get_mask oracle: {flipped} labels changed vs source")
+
     counts = df[LABEL_COL].value_counts().to_dict()
-    print(f"  Label balance after dedup: {counts}")
+    print(f"  Label balance after relabeling: {counts}")
 
     # The raw files fake a 50/50 balance by duplicating 'altro' rows; after deduplication the
     # real unique data skews heavily towards tracciabilita. Augment 'altro' with unique,

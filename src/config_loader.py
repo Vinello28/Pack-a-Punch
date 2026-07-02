@@ -112,8 +112,9 @@ def get_inference_config(config: Optional[dict] = None) -> dict[str, Any]:
         "batch_timeout_ms": 50,
         "use_fp16": True,
         "device": "cuda",
+        "positive_threshold": 0.5,
     }
-    
+
     return {**defaults, **config.get("inference", {})}
 
 

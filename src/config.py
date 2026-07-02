@@ -79,6 +79,7 @@ class InferenceConfig(BaseModel):
     batch_timeout_ms: int = _inference_cfg["batch_timeout_ms"]
     use_fp16: bool = _inference_cfg["use_fp16"]
     device: Literal["cuda", "cpu"] = _inference_cfg["device"]
+    positive_threshold: float = _inference_cfg.get("positive_threshold", 0.5)
 
 
 class ServerConfig(BaseModel):
